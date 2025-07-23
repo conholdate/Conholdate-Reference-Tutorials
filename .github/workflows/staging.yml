@@ -52,7 +52,7 @@ jobs:
         run: hugo --configDir config --environment staging --minify
         
       - name: Deploy tutorials.conholdate.com(staging) to S3
-        run: hugo --configDir config --environment staging deploy --target "staging" --maxDeletes 0
+        run: hugo --configDir config --environment staging deploy --target "Stage" --maxDeletes 0
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS }}
