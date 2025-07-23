@@ -36,7 +36,7 @@ jobs:
           repository: conholdate/tutorials-theme
           token: ${{ secrets.REPO_TOKEN }}
           fetch-depth: 0
-          path: themes/api-theme
+          path: themes/tutorials-theme
       # Step 2 - Sets up the latest version of Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
