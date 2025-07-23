@@ -3,9 +3,8 @@ title: Adding Attachments to PDF/A with Aspose.PDF for .NET
 linktitle: Adding Attachments to PDF/A with Aspose.PDF for .NET
 second_title: Aspose.PDF for .NET API Reference
 description: Learn how to attach files to a PDF document using Aspose.PDF for .NET and ensure compliance with PDF/A standards.
-type: docs
 weight: 10
-url: /net/mastering-document-conversion/adding-attachment-to-pdfa/
+url: /pdf/net/mastering-document-conversion/adding-attachment-to-pdfa/
 ---
 ## Introduction
 

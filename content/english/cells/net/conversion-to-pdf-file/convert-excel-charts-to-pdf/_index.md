@@ -3,9 +3,8 @@ title: Convert Excel Charts to PDF Using Aspose.Cells for .NET
 linktitle: Convert Excel Charts to PDF Using Aspose.Cells for .NET
 second_title: Aspose.Cells .NET Excel Processing API
 description: Learn how to easily convert Excel charts to PDF format in .NET using Aspose.Cells. Our step-by-step guide covers prerequisites, setup, code samples, and FAQs.
-type: docs
 weight: 11
-url: /net/conversion-to-pdf-file/convert-excel-charts-to-pdf/
+url: /cells/net/conversion-to-pdf-file/convert-excel-charts-to-pdf/
 ---
 ## Introduction
 

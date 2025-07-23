@@ -3,9 +3,8 @@ title: EML to MSG Conversion Made Easy with C#
 linktitle: EML to MSG Conversion Made Easy with C# 
 second_title: Aspose.Email .NET Email Processing API
 description: Convert EML to MSG format with C#. Follow our step-by-step guide using Aspose.Email for .NET for seamless file conversions.
-type: docs
 weight: 14
-url: /net/comprehensive-guide-to-email-conversion-and-export/eml-to-msg-convert-made-easy-using-csharp/
+url: /email/net/comprehensive-guide-to-email-conversion-and-export/eml-to-msg-convert-made-easy-using-csharp/
 ---
 ## Introduction
 

@@ -3,9 +3,8 @@ title: Convert DOC to DOCX Using Aspose.Words for .NET
 linktitle: Convert DOC to DOCX Using Aspose.Words for .NET
 second_title: Aspose.Words Document Processing API
 description: Learn how to seamlessly convert DOC files to DOCX format with Aspose.Words for .NET. Our step-by-step guide covers prerequisites, code examples and advanced options.
-type: docs
 weight: 10
-url: /net/essential-guide-document-conversions/convert-doc-to-docx/
+url: /words/net/essential-guide-document-conversions/convert-doc-to-docx/
 ---
 ## Introduction
 

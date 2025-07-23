@@ -3,9 +3,8 @@ title: Adding Java Script To PDF File
 linktitle: Add Java Script PDF File
 second_title: Aspose.PDF for .NET API Reference
 description: This document provides a comprehensive guide to adding interactive elements like pop-up alerts or auto-print functions to PDF documents using Aspose.PDF for .NET.
-type: docs
 weight: 10
-url: /net/master-pdf-document-programming/adding-java-script-to-pdf/
+url: /pdf/net/master-pdf-document-programming/adding-java-script-to-pdf/
 ---
 ## Introduction
 This document provides a comprehensive guide to adding interactive elements like pop-up alerts or auto-print functions to PDF documents using Aspose.PDF for .NET. By leveraging the capabilities of this library, you can create dynamic and engaging PDFs that cater to various user needs.

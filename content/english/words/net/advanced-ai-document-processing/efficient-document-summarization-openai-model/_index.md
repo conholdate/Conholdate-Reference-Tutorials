@@ -3,9 +3,8 @@ title: Efficient Document Summarization Open AI Model
 linktitle: Efficient Document Summarization Open AI Model
 second_title: Aspose.Words Document Processing API
 description: Learn how to summarize large documents quickly and accurately with this comprehensive tutorial, covering prerequisites, setup, and coding examples.
-type: docs
 weight: 10
-url: /net/advanced-ai-document-processing/efficient-document-summarization-openai-model/
+url: /words/net/advanced-ai-document-processing/efficient-document-summarization-openai-model/
 ---
 ## Introduction
 

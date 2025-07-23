@@ -3,9 +3,8 @@ title: Convert PDF to JPEG Using Aspose.Words for .NET
 linktitle: Convert PDF to JPEG Using Aspose.Words for .NET
 second_title: Aspose.Words Document Processing API
 description: Learn how to convert your PDF files into stunning JPEG images effortlessly with Aspose.Words for .NET. Perfect for developers and enthusiasts.
-type: docs
 weight: 10
-url: /net/essential-guide-document-conversions/convert-pdf-to-jpeg/
+url: /words/net/essential-guide-document-conversions/convert-pdf-to-jpeg/
 ---
 ## Introduction
 

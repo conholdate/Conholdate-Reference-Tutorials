@@ -3,9 +3,8 @@ title: Convert DOCX to MHTML and Send Email Using Aspose.Words for .NET
 linktitle: Convert DOCX to MHTML and Send Email Using Aspose.Words for .NET
 second_title: Aspose.Words Document Processing API
 description: This comprehensive guide provides a step-by-step tutorial on converting DOCX documents to MHTML format and emailing them using Aspose.Words and Aspose.Email libraries in .NET.
-type: docs
 weight: 10
-url: /net/essential-guide-document-conversions/convert-docx-to-mhtml-send-email/
+url: /words/net/essential-guide-document-conversions/convert-docx-to-mhtml-send-email/
 ---
 ## Introduction
 

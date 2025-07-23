@@ -3,9 +3,8 @@ title: Essential Guide to Basic Document Conversions
 linktitle: Basic Conversions
 second_title: Aspose.Words Document Processing API
 description: Learn how to perform essential document conversions using Aspose.Words for .NET. This guide covers step-by-step instructions for converting Word files to PDF, TXT, HTML, and more.
-type: docs
 weight: 1600
-url: /net/essential-guide-document-conversions/
+url: /words/net/essential-guide-document-conversions/
 ---
 
 This comprehensive guide explores the powerful capabilities of the Aspose.Words for .NET library, empowering developers to automate the conversion of Word documents into various formats such as PDF, HTML, EPUB, and images. The tutorials offer clear, step-by-step instructions, complete with detailed source code and practical examples, ensuring an intuitive learning experience.

@@ -3,9 +3,8 @@ title: New Sheet to an Excel File Programmatically C# Tutorial
 linktitle: New Sheet to an Excel File Programmatically C# Tutorial
 second_title: Aspose.Cells for .NET API Reference
 description: Learn how to effortlessly add a new worksheet to an Excel file using Aspose.Cells for .NET. This comprehensive guide provides a step-by-step approach, code samples, and useful tips.
-type: docs
 weight: 20
-url: /net/guide-to-working-with-excel-worksheets-csharp/add-new-sheet-to-excel-file-csharp-tutorial/
+url: /cells/net/guide-to-working-with-excel-worksheets-csharp/add-new-sheet-to-excel-file-csharp-tutorial/
 ---
 ## Introduction
 

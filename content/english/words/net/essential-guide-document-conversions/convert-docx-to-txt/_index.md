@@ -3,9 +3,8 @@ title: Convert DOCX to TXT Using Aspose.Words for .NET
 linktitle: Convert DOCX to TXT Using Aspose.Words for .NET
 second_title: Aspose.Words Document Processing API
 description: Learn how to convert DOCX files to plain text format (TXT) using Aspose.Words for .NET in this comprehensive guide.
-type: docs
 weight: 10
-url: /net/essential-guide-document-conversions/convert-docx-to-txt/
+url: /words/net/essential-guide-document-conversions/convert-docx-to-txt/
 ---
 ## Introduction
 

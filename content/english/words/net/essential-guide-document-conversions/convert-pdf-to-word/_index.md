@@ -3,9 +3,8 @@ title: Convert PDF to Word Document with Aspose.Words for .NET
 linktitle: Convert PDF to Word Document with Aspose.Words for .NET
 second_title: Aspose.Words Document Processing API
 description: Learn how to seamlessly convert PDF documents to Word (Docx) format using Aspose.Words for .NET. This step-by-step guide making it easy for developers.
-type: docs
 weight: 10
-url: /net/essential-guide-document-conversions/convert-pdf-to-word/
+url: /words/net/essential-guide-document-conversions/convert-pdf-to-word/
 ---
 ## Introduction
 

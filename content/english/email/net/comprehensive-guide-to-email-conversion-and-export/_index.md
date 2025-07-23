@@ -3,9 +3,8 @@ title: Comprehensive Guide to Comprehensive Guide to Email Conversion and Export
 linktitle: Comprehensive Guide to Email Conversion and Export
 second_title: Aspose.Email .NET Email Processing API
 description: Unlock the power of Aspose.Email for .NET with our comprehensive tutorials for Comprehensive Guide to Email Conversion and Export. Learn to convert formats easily.
-type: docs
 weight: 11
-url: /net/comprehensive-guide-to-email-conversion-and-export/
+url: /email/net/comprehensive-guide-to-email-conversion-and-export/
 ---
 ## Introduction
 

@@ -3,9 +3,8 @@ title: Convert Docx Files to Byte Arrays
 linktitle: Convert Docx Files to Byte Arrays
 second_title: Aspose.Words Document Processing API
 description: This comprehensive guide walks you through the process of converting Docx files to byte arrays and back to document objects using Aspose.Words for .NET.
-type: docs
 weight: 10
-url: /net/essential-guide-document-conversions/convert-docx-to-byte-arrays/
+url: /words/net/essential-guide-document-conversions/convert-docx-to-byte-arrays/
 ---
 ## Introduction
 

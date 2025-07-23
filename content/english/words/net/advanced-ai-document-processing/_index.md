@@ -3,9 +3,8 @@ title: Advanced AI-Powered Solutions with Aspose.Words for .NET
 linktitle: AI Powered Document Processing
 second_title: Aspose.Words Document Processing API
 description: Learn step-by-step methods for automating document creation, manipulation, and analysis with AI-driven insights and processing capabilities.
-type: docs
 weight: 1461
-url: /net/advanced-ai-document-processing/
+url: /words/net/advanced-ai-document-processing/
 ---
 ## Introduction
 

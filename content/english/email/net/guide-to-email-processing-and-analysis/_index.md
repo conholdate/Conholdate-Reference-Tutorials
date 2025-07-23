@@ -3,9 +3,8 @@ title: Comprehensive Guide to Email Processing and Analysis in .NET
 linktitle: Comprehensive Guide to Email Processing and Analysis in .NET
 second_title: Aspose.Email .NET Email Processing API
 description: Explore comprehensive Aspose.Email for .NET tutorials, covering email processing, spam analysis, HTML conversion, and more to streamline your .NET applications.
-type: docs
 weight: 13
-url: /net/guide-to-email-processing-and-analysis/
+url: /email/net/guide-to-email-processing-and-analysis/
 ---
 ## Introduction
 

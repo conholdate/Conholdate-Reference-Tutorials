@@ -3,9 +3,8 @@ title: Mastering Document Summarization with AI Models
 linktitle: Mastering Document Summarization with AI Models
 second_title: Aspose.Words Document Processing API
 description: Unlock the potential of document automation with Aspose.Words for .NET. Learn how to effortlessly summarize documents using advanced AI models.
-type: docs
 weight: 10
-url: /net/advanced-ai-document-processing/mastering-document-summarization-ai-model/
+url: /words/net/advanced-ai-document-processing/mastering-document-summarization-ai-model/
 ---
 ## Introduction
 

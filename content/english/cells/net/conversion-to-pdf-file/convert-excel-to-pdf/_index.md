@@ -3,9 +3,8 @@ title: Convert Excel to PDF Using Aspose.Cells in .NET
 linktitle: Convert Excel to PDF Using Aspose.Cells in .NET
 second_title: Aspose.Cells .NET Excel Processing API
 description: Convert Excel files to PDF in .NET effortlessly using Aspose.Cells. This step-by-step guide provides .NET developers with code snippets, setup tips, and troubleshooting FAQs.
-type: docs
 weight: 10
-url: /net/conversion-to-pdf-file/convert-excel-to-pdf/
+url: /cells/net/conversion-to-pdf-file/convert-excel-to-pdf/
 ---
 ## Introduction
 

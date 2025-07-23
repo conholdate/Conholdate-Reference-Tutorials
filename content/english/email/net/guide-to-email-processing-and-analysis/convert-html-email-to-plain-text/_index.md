@@ -3,9 +3,8 @@ title: Convert HTML Email to Plain Text in C#
 linktitle: Convert HTML Email to Plain Text in C#
 second_title: Aspose.Email .NET Email Processing API
 description: Learn how to easily convert HTML email bodies to plain text using Aspose.Email for .NET in this detailed, step-by-step tutorial.
-type: docs
 weight: 19
-url: /net/guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/
+url: /email/net/guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/
 ---
 ## Introduction
 

@@ -3,9 +3,8 @@ title: Summarize Documents Options
 linktitle: Summarize Documents Options
 second_title: Aspose.Words Document Processing API
 description: Learn how to efficiently summarize documents with Aspose.Words for .NET. This comprehensive guide covers setup, document loading and AI model integration.
-type: docs
 weight: 10
-url: /net/advanced-ai-document-processing/summarize-documents-options/
+url: /words/net/advanced-ai-document-processing/summarize-documents-options/
 ---
 ## Introduction
 

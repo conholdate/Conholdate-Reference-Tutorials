@@ -3,9 +3,8 @@ title: Mastering HTML to PDF with Aspose.PDF for .NET
 linktitle: Mastering HTML to PDF with Aspose.PDF for .NET
 second_title: Aspose.PDF for .NET API Reference
 description: Learn how to efficiently convert HTML to PDF using Aspose.PDF for .NET. This comprehensive guide covers the setup process and essential tips to handle exceptions.
-type: docs
 weight: 50
-url: /net/mastering-document-conversion/mastering-html-to-pdf/
+url: /pdf/net/mastering-document-conversion/mastering-html-to-pdf/
 ---
 ## Introduction
 

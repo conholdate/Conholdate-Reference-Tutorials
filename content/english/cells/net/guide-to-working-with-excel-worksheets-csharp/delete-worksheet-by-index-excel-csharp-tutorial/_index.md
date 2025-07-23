@@ -3,9 +3,8 @@ title: Delete a Worksheet by Index in Excel Using C# Tutorial
 linktitle: Delete a Worksheet by Index in Excel Using C# Tutorial
 second_title: Aspose.Cells for .NET API Reference
 description: Learn how to efficiently delete a specific worksheet from an Excel file by its index using C# and the Aspose.Cells library. Follow this easy step-by-step tutorial.
-type: docs
 weight: 30
-url: /net/guide-to-working-with-excel-worksheets-csharp/delete-worksheet-by-index-excel-csharp-tutorial/
+url: /cells/net/guide-to-working-with-excel-worksheets-csharp/delete-worksheet-by-index-excel-csharp-tutorial/
 ---
 ## Introduction
 

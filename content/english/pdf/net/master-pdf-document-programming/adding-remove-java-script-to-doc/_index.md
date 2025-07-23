@@ -3,9 +3,8 @@ title: Adding Remove Javascript To PDF Document
 linktitle: Adding Remove Javascript To PDF Document
 second_title: Aspose.PDF for .NET API Reference
 description: This comprehensive guide shows you how to add custom behaviors, perform calculations or validations dynamically, and integrate with other software applications.
-type: docs
 weight: 30
-url: /net/master-pdf-document-programming/adding-remove-java-script-to-doc/
+url: /pdf/net/master-pdf-document-programming/adding-remove-java-script-to-doc/
 ---
 ## Introduction
 

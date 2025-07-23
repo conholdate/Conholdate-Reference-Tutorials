@@ -3,9 +3,8 @@ title: Convert DOCX to Markdown with Aspose.Words for .NET
 linktitle: Convert DOCX to Markdown with Aspose.Words for .NET
 second_title: Aspose.Words Document Processing API
 description: Discover how to enhance your .NET applications by seamlessly converting DOCX files to Markdown using Aspose.Words for .NET. This comprehensive guide step-by-step instructions, and FAQs.
-type: docs
 weight: 10
-url: /net/essential-guide-document-conversions/convert-docx-to-markdown/
+url: /words/net/essential-guide-document-conversions/convert-docx-to-markdown/
 ---
 ## Introduction
 

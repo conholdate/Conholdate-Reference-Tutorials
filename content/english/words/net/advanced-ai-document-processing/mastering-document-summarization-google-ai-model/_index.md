@@ -3,9 +3,8 @@ title: Mastering Document Summarization Google AI Models
 linktitle: Mastering Document Summarization Google AI Models
 second_title: Aspose.Words Document Processing API
 description: Learn step-by-step how to summarize Word documents with Aspose.Words and Google AI in .NET. Follow this guide to streamline content extraction, document insights, and automation.
-type: docs
 weight: 10
-url: /net/advanced-ai-document-processing/mastering-document-summarization-google-ai-model/
+url: /words/net/advanced-ai-document-processing/mastering-document-summarization-google-ai-model/
 ---
 ## Introduction
 

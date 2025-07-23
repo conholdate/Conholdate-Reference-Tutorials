@@ -3,9 +3,8 @@ title: Adding Layers to PDF Documents using Aspose.PDF for .NET
 linktitle: Adding Layers to PDF Documents using Aspose.PDF for .NET
 second_title: Aspose.PDF for .NET API Reference
 description: Learn how to create complex PDF documents with multiple layers in Aspose.PDF for .NET. Discover the powerful features of this library and optimize.
-type: docs
 weight: 20
-url: /net/master-pdf-document-programming/adding-layers-to-pdf/
+url: /pdf/net/master-pdf-document-programming/adding-layers-to-pdf/
 ---
 ## Introduction
 

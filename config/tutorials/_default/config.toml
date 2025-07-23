@@ -1,12 +1,12 @@
-baseURL = "/tutorials"
-title = "Conholdate API References"
+baseURL = "/"
+title = "Conholdate API Tutorials"
 staticdir = 'content/static'
 enableRobotsTXT = true
 enableGitInfo = true
 disableKinds = ["taxonomy", "taxonomyTerm", "page", "RSS"]
 
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
-theme = ["api-theme"]
+theme = ["tutorials-theme"]
 
 
 [params.menu]

@@ -3,9 +3,8 @@ title: Convert Emails to MHT Format with Timezone in C#
 linktitle: Convert Emails to MHT Format with Timezone in C#
 second_title: Aspose.Email .NET Email Processing API
 description: This detailed guide provides clear instructions on how to convert email messages to MHT format while accurately handling timezone information using the Aspose.Email for .NET library.
-type: docs
 weight: 12
-url: /net/comprehensive-guide-to-email-conversion-and-export/convert-emails-to-mht-format-with-timezone-in-csharp/
+url: /email/net/comprehensive-guide-to-email-conversion-and-export/convert-emails-to-mht-format-with-timezone-in-csharp/
 ---
 ## Introduction
 

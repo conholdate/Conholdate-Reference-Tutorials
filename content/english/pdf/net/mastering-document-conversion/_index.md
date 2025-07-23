@@ -1,9 +1,8 @@
 ---
 title: Mastering PDF Document Conversion using Aspose.Pdf.NET
 linktitle: Mastering PDF Document Conversion using Aspose.Pdf.NET
-type: docs
 weight: 11
-url: /net/mastering-document-conversion/
+url: /pdf/net/mastering-document-conversion/
 description: Learn how to effortlessly convert PDF documents into editable Word document format using Aspose.Pdf.NET.
 ---
 

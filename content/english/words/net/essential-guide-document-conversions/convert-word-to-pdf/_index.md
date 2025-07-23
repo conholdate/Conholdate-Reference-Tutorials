@@ -3,9 +3,8 @@ title: Word to PDF Conversion with Aspose.Words for .NET
 linktitle: Word to PDF Conversion with Aspose.Words for .NET
 second_title: Aspose.Words Document Processing API
 description: Learn how to easily convert Word documents to PDFs using Aspose.Words for .NET. This step-by-step tutorial covers the essential prerequisites, project setup, and code implementation.
-type: docs
 weight: 10
-url: /net/essential-guide-document-conversions/convert-word-to-pdf/
+url: /words/net/essential-guide-document-conversions/convert-word-to-pdf/
 ---
 ## Introduction
 

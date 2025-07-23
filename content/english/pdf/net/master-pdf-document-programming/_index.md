@@ -1,9 +1,8 @@
 ---
 title: Master PDF Document Programming
 linktitle: Programming with Document
-type: docs
 weight: 10
-url: /net/master-pdf-document-programming/
+url: /pdf/net/master-pdf-document-programming/
 description: Learn step-by-step how to create, manipulate, and manage PDF files effortlessly. Ideal for developers of all skill levels looking to enhance their PDF handling capabilities within .NET applications.
 ---
 

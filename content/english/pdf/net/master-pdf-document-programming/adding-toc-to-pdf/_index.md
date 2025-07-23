@@ -3,9 +3,8 @@ title: Adding a Table of Contents to a PDF Document
 linktitle: Adding a Table of Contents to a PDF Document
 second_title: Aspose.PDF for .NET API Reference
 description: This tutorial demonstrates how to add a Table of Contents (TOC) to a PDF document using Aspose.Pdf for .NET.
-type: docs
 weight: 40
-url: /net/master-pdf-document-programming/adding-toc-to-pdf/
+url: /pdf/net/master-pdf-document-programming/adding-toc-to-pdf/
 ---
 ## Introduction
 

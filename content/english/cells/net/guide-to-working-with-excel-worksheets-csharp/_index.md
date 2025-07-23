@@ -1,9 +1,8 @@
 ---
 title: Comprehensive Guide to Working with Excel Worksheets C# Tutorials
 linktitle: Comprehensive Guide to Working with Excel Worksheets C# Tutorials
-type: docs
 weight: 12
-url: /net/guide-to-working-with-excel-worksheets-csharp/
+url: /cells/net/guide-to-working-with-excel-worksheets-csharp/
 description: Discover comprehensive tutorials for efficiently managing Excel worksheets with Aspose.Cells for .NET, tailored for C# developers.
 ---
 ## Introduction

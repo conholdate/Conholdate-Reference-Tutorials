@@ -3,9 +3,8 @@ title: Bayesian Spam Analysis in C# Tutorial
 linktitle: Bayesian Spam Analysis in C# Tutorial
 second_title: Aspose.Email .NET Email Processing API
 description: Learn to implement Bayesian spam analysis in C# using Aspose.Email. Step-by-step tutorial with code insights for effective email filtering.
-type: docs
 weight: 10
-url: /net/guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/
+url: /email/net/guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/
 ---
 ## Introduction
 

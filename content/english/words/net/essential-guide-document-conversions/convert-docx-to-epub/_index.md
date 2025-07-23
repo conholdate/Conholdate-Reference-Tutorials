@@ -3,9 +3,8 @@ title: Convert DOCX to EPUB with Aspose.Words for .NET
 linktitle: Convert DOCX to EPUB with Aspose.Words for .NET
 second_title: Aspose.Words Document Processing API
 description: Learn how to efficiently convert DOCX files to EPUB format using Aspose.Words for .NET. This comprehensive guide provides step-by-step.
-type: docs
 weight: 10
-url: /net/essential-guide-document-conversions/convert-docx-to-epub/
+url: /words/net/essential-guide-document-conversions/convert-docx-to-epub/
 ---
 ## Introduction
 
