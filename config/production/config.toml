@@ -1,6 +1,6 @@
 # Google Tag Manager settings
 [params.gtm]
-gtm_id = "GTM-NJMHSH"
+gtm_id = "GTM-N4D44QW"
 
 [[deployment.targets]]
 name = "Production"
