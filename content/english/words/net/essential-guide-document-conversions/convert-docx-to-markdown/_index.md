@@ -152,7 +152,7 @@ You can find comprehensive documentation on the [Aspose.Words for .NET reference
 
 ### How can I obtain a temporary license for Aspose.Words?
 
-A temporary license for Aspose.Words can be requested [here](https://purchase.aspose.com/temporary-license/), allowing you to evaluate the API's full features during your development and testing phase without any limitations.
+A temporary license for Aspose.Words can be requested [here](https://purchase.conholdate.com/temporary-license/), allowing you to evaluate the API's full features during your development and testing phase without any limitations.
 
 ### Where can I seek community support for Aspose.Words?
 

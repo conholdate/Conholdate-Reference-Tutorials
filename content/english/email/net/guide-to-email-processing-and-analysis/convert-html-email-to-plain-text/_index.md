@@ -216,7 +216,7 @@ Whether you're building an email processing system, migrating legacy data, or im
 C# serves as our programming language for implementing the HTML to plain text conversion logic. It provides the structure and syntax for working with the Aspose libraries and handling file operations.
 
 ### Do I need a license to use Aspose products?  
-Yes, while Aspose offers generous free trials for testing, you'll need a valid license for production use. You can get a temporary license [here](https://purchase.aspose.com/temporary-license/) or explore their pricing options for permanent licenses.
+Yes, while Aspose offers generous free trials for testing, you'll need a valid license for production use. You can get a temporary license [here](https://purchase.conholdate.com/temporary-license/) or explore their pricing options for permanent licenses.
 
 ### Can I use Aspose.Email without using Aspose.Words for this conversion?  
 While Aspose.Email can handle basic text extraction, Aspose.Words provides superior HTML parsing and clean text output. For simple cases, you might use just Aspose.Email, but Aspose.Words ensures better formatting preservation and cleaner results.

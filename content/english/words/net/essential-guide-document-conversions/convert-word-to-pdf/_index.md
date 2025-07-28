@@ -263,7 +263,7 @@ Yes, Aspose.Words works seamlessly with both .NET Framework and .NET Core. This 
 
 ### Can I obtain a temporary license?
 
-Absolutely! You can request a temporary license [here](https://purchase.aspose.com/temporary-license/). This is useful for testing in production environments before making a purchase decision.
+Absolutely! You can request a temporary license [here](https://purchase.conholdate.com/temporary-license/). This is useful for testing in production environments before making a purchase decision.
 
 ### What's the difference between the free trial and full version?
 

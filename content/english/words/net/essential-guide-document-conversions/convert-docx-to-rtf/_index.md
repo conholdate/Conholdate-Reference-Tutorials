@@ -254,7 +254,7 @@ Remember to always test your conversions with representative sample documents, i
 Absolutely! Aspose.Words supports conversion from numerous formats including DOC, DOCX, HTML, PDF, and many others to RTF. The process is similar - just change the input format and use `SaveFormat.Rtf` for output.
 
 ### Do I need a license for Aspose.Words?
-Aspose.Words offers a free trial that's perfect for evaluation and small projects. For production use or extended functionality, you'll need a commercial license. Consider getting a [temporary license](https://purchase.aspose.com/temporary-license/) for testing purposes.
+Aspose.Words offers a free trial that's perfect for evaluation and small projects. For production use or extended functionality, you'll need a commercial license. Consider getting a [temporary license](https://purchase.conholdate.com/temporary-license/) for testing purposes.
 
 ### What if my conversion output isn't as expected?
 First, check your input document for any unusual formatting or corrupted elements. If issues persist, consult the [Aspose.Words documentation](https://reference.aspose.com/words/net/) or try different SaveOptions configurations. Sometimes, complex DOCX formatting doesn't translate perfectly to RTF due to format limitations.

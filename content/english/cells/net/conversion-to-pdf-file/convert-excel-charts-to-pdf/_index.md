@@ -255,4 +255,4 @@ Absolutely! Aspose.Cells supports various output formats beyond PDF. You can con
 
 ### Can I get a license for Aspose.Cells?
 
-Yes, you can [purchase a license](https://purchase.aspose.com/buy) to unlock the full capabilities of Aspose.Cells. They offer different licensing options depending on your needs – from single-developer licenses to enterprise-wide deployments. The licensed version removes watermarks, eliminates evaluation limitations, and provides access to priority support. For production applications, a license is definitely worth the investment.
+Yes, you can [purchase a license](https://purchase.conholdate.com/buy) to unlock the full capabilities of Aspose.Cells. They offer different licensing options depending on your needs – from single-developer licenses to enterprise-wide deployments. The licensed version removes watermarks, eliminates evaluation limitations, and provides access to priority support. For production applications, a license is definitely worth the investment.
