@@ -241,7 +241,7 @@ Yes, Aspose.Words excels at preserving the original formatting during the conver
 For large PDFs, consider using LoadOptions to process only specific pages, implement streaming where possible, and ensure you dispose of Document objects properly. You might also need to increase your application's memory allocation for very large files.
 
 ### Do I need a license to use Aspose.Words for .NET?
-While a temporary license is available for evaluation, a full license is required for commercial use. Check out the [purchase page](https://purchase.aspose.com/buy) for more details. The investment is typically worthwhile for applications requiring reliable, high-volume document processing.
+While a temporary license is available for evaluation, a full license is required for commercial use. Check out the [purchase page](https://purchase.conholdate.com/buy) for more details. The investment is typically worthwhile for applications requiring reliable, high-volume document processing.
 
 ### Can I use Aspose.Words for .NET on different operating systems?
 Yes! Aspose.Words for .NET is cross-platform and can be used on Windows, Linux, and macOS. This flexibility makes it an excellent choice for diverse deployment environments and cloud-based applications.

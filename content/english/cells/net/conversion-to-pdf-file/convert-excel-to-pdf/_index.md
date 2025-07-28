@@ -40,7 +40,7 @@ Before we start converting Excel files to PDF, make sure you have the following 
 
 ### Aspose.Cells for .NET Library
 - **Download Aspose.Cells**: Get the latest version [here](https://releases.aspose.com/cells/net/)
-- **Trial License**: Testing the waters? Grab a temporary license [here](https://purchase.aspose.com/temporary-license/)
+- **Trial License**: Testing the waters? Grab a temporary license [here](https://purchase.conholdate.com/temporary-license/)
 
 Pro tip: If you're working in a team environment, consider setting up the NuGet package reference rather than manual DLL references – it makes dependency management much smoother.
 

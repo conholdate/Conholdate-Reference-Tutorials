@@ -217,4 +217,4 @@ Yes, you can download a free trial of Aspose.PDF [here](https://releases.aspose.
 The Aspose community is very active and helpful. You can visit their support forum [here](https://forum.aspose.com/c/pdf/10) to get answers from both the community and Aspose's technical team.
 
 ### How do I obtain a temporary license?
-If you need to test Aspose.PDF without trial limitations, you can request a temporary license [here](https://purchase.aspose.com/temporary-license/). This is particularly useful for evaluation in production-like environments.
+If you need to test Aspose.PDF without trial limitations, you can request a temporary license [here](https://purchase.conholdate.com/temporary-license/). This is particularly useful for evaluation in production-like environments.

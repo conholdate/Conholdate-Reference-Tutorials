@@ -231,7 +231,7 @@ Absolutely! Aspose.Cells for .NET is compatible with .NET Core, which means you 
 The Aspose community is incredibly helpful! You can find support, ask questions, and share experiences on the [Aspose support forum](https://forum.aspose.com/c/cells/9). The documentation is also comprehensive and includes tons of examples.
 
 ### How do I get a temporary license for Aspose.Cells?
-If you need to test Aspose.Cells in a production environment or need more time to evaluate it, you can request a temporary license from Aspose's website [here](https://purchase.aspose.com/temporary-license/). This gives you full access to all features for a limited time.
+If you need to test Aspose.Cells in a production environment or need more time to evaluate it, you can request a temporary license from Aspose's website [here](https://purchase.conholdate.com/temporary-license/). This gives you full access to all features for a limited time.
 
 ### Can I add multiple worksheets at once?
 Yes! You can add multiple worksheets by calling the `Add()` method multiple times in a loop:

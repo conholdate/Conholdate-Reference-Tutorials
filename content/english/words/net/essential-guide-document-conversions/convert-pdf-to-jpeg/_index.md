@@ -375,7 +375,7 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg)
 Indeed! Aspose.Words supports both .NET Framework and .NET Core, making it perfect for modern cross-platform applications.
 
 ### Do I need a license to use Aspose.Words?
-You can start with a free trial [here](https://releases.aspose.com/) which is great for testing and small projects. For production use, you'll need to purchase a license [here](https://purchase.aspose.com/buy).
+You can start with a free trial [here](https://releases.aspose.com/) which is great for testing and small projects. For production use, you'll need to purchase a license [here](https://purchase.conholdate.com/buy).
 
 ### What's the difference between using Aspose.Words vs. other PDF libraries?
 Aspose.Words excels when you're already working with document processing and need consistent quality. It's particularly good if you're dealing with various document formats, not just PDFs. However, dedicated PDF libraries might offer more PDF-specific features.

@@ -210,7 +210,7 @@ You can easily add attachments using the `Attachments` property of the `MailMess
 Yes, Aspose.Words is fully compatible with .NET Core, .NET 5, and .NET 6+. This makes it suitable for modern cross-platform applications, cloud deployments, and containerized environments.
 
 ### Do I need a license for Aspose.Words and Aspose.Email?
-Yes, both libraries require a license for production use. However, you can obtain a temporary license for evaluation purposes from the [Aspose purchase page](https://purchase.aspose.com/temporary-license/). The evaluation version includes watermarks but is fully functional for testing.
+Yes, both libraries require a license for production use. However, you can obtain a temporary license for evaluation purposes from the [Aspose purchase page](https://purchase.conholdate.com/temporary-license/). The evaluation version includes watermarks but is fully functional for testing.
 
 ### How do I handle documents with complex formatting or embedded objects?
 Aspose.Words excels at preserving complex formatting, tables, charts, and embedded objects when converting to MHTML. The library automatically handles most formatting elements, though you may want to test with your specific document types to ensure compatibility.

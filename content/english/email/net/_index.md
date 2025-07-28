@@ -136,8 +136,8 @@ Advanced email analysis techniques including spam detection and content processi
 - **[Support Forum](https://forum.aspose.com/c/email/12)** - Get help from experts
 
 ### **Licensing & Trials**
-- **[Temporary License](https://purchase.aspose.com/temporary-license/)** - Extended evaluation
-- **[Purchase Options](https://purchase.aspose.com/buy)** - Flexible licensing
+- **[Temporary License](https://purchase.conholdate.com/temporary-license/)** - Extended evaluation
+- **[Purchase Options](https://purchase.conholdate.com/buy)** - Flexible licensing
 
 ## 📋 Tutorial Quick Reference
 
