@@ -46,6 +46,17 @@ Advanced PDF programming techniques for creating sophisticated document solution
 | **[Adding/Removing JavaScript from PDF](./master-pdf-document-programming/adding-remove-java-script-to-doc/)** | Dynamic script management and custom behaviors | ⭐⭐⭐ Advanced |
 | **[Adding Table of Contents to PDF](./master-pdf-document-programming/adding-toc-to-pdf/)** | Navigation enhancement with structured document outlines | ⭐⭐ Intermediate |
 
+### Master PDF Page Management
+Essential PDF page operations for document organization and structure management.
+
+| Tutorial | Description | Difficulty |
+|----------|-------------|------------|
+| **[Change PDF Page Orientation](./master-pdf-page-management/change-pdf-page-orientation/)** | Adjust page layout and orientation for optimal document display | ⭐ Beginner |
+| **[Concatenating PDF Files](./master-pdf-page-management/concatenating-pdf-files/)** | Merge multiple PDF documents into a single cohesive file | ⭐⭐ Intermediate |
+| **[Delete Particular Page from PDF Files](./master-pdf-page-management/delete-particular-page-from-pdf-files/)** | Remove specific pages from PDF documents efficiently | ⭐ Beginner |
+| **[Insert Empty Pages in PDF File](./master-pdf-page-management/insert-empty-pages/)** | Add blank pages for content organization and spacing | ⭐ Beginner |
+| **[Adding an Empty Page at End](./master-pdf-page-management/adding-an-empty-page-at-end/)** | Append empty pages to PDF documents programmatically | ⭐ Beginner |
+
 ## 🎯 Popular Use Cases
 
 ### **Document Publishing & Distribution**
@@ -68,7 +79,7 @@ Advanced PDF programming techniques for creating sophisticated document solution
 ### **Beginner Developer** (New to PDF processing)
 1. Start with **[EPUB to PDF Conversion](./mastering-document-conversion/convert-epub-to-pdf/)**
 2. Learn **[HTML to PDF Basics](./mastering-document-conversion/mastering-html-to-pdf/)**
-3. Practice **[Table of Contents Creation](./master-pdf-document-programming/adding-toc-to-pdf/)**
+3. Practice **[Page Management](./master-pdf-page-management/change-pdf-page-orientation/)**
 
 ### **Intermediate Developer** (Familiar with document processing)
 1. Master **[CGM Conversions](./mastering-document-conversion/convert-cgm-to-pdf/)**
@@ -79,18 +90,6 @@ Advanced PDF programming techniques for creating sophisticated document solution
 1. Integrate **[JavaScript Functionality](./master-pdf-document-programming/adding-java-script-to-pdf/)**
 2. Build **[Interactive Features](./master-pdf-document-programming/adding-remove-java-script-to-doc/)**
 3. Ensure **[Compliance Standards](./mastering-document-conversion/adding-attachment-to-pdfa/)**
-
-## 🌟 Featured Tutorials This Month
-
-### Most Popular
-1. **[HTML to PDF Mastery](./mastering-document-conversion/mastering-html-to-pdf/)** - Web content transformation
-2. **[Interactive JavaScript](./master-pdf-document-programming/adding-java-script-to-pdf/)** - Dynamic PDF features
-3. **[Document Layers](./master-pdf-document-programming/adding-layers-to-pdf/)** - Complex document structures
-
-### Recently Updated
-- **JavaScript Integration** - Enhanced interactive capabilities
-- **PDF/A Compliance** - Updated standards support
-- **Performance Optimization** - Improved conversion speed
 
 ## 💡 Pro Tips & Best Practices
 
@@ -129,31 +128,38 @@ Advanced PDF programming techniques for creating sophisticated document solution
 ## 🔗 Additional Resources
 
 ### **Developer Tools**
-- **[API Documentation](https://reference.aspose.com/pdf/net/)** - Complete method references
-- **[Free Trial](https://releases.aspose.com/pdf/net/)** - Evaluate full features
+- **[API Documentation](https://reference.aspose.com/pdf/net/)** - Complete method references and examples
+- **[Free Trial](https://releases.aspose.com/pdf/net/)** - Evaluate full features with complete functionality
 
 ### **Community & Support**
-- **[Support Forum](https://forum.aspose.com/c/pdf/10)** - Get help from experts
+- **[Support Forum](https://forum.aspose.com/c/pdf/10)** - Get help from experts and community members
 
 ### **Licensing & Trials**
-- **[Temporary License](https://purchase.conholdate.com/temporary-license/)** - Extended evaluation
-- **[Purchase Options](https://purchase.conholdate.com/buy)** - Flexible licensing
+- **[Temporary License](https://purchase.conholdate.com/temporary-license/)** - Extended evaluation period for testing
+- **[Purchase Options](https://purchase.conholdate.com/buy)** - Flexible licensing for teams and enterprises
 
 ## 📋 Tutorial Quick Reference
 
 ### **Document Conversion**
-- EPUB → PDF (E-book publishing)
-- HTML → PDF (Web content archival)
-- CGM → PDF (Graphics file conversion)
-- PDF/A Compliance (Archival standards)
+- EPUB → PDF (E-book publishing and distribution)
+- HTML → PDF (Web content archival and sharing)
+- CGM → PDF (Graphics file conversion for technical documents)
+- PDF/A Compliance (Long-term archival standards)
 
 ### **Interactive Features**
-- JavaScript Integration (Dynamic behavior)
-- Layer Management (Complex structures)
-- Table of Contents (Navigation)
-- Form Processing (Data collection)
+- JavaScript Integration (Dynamic behavior and automation)
+- Layer Management (Complex document structures)
+- Table of Contents (Navigation and organization)
+- Form Processing (Data collection and validation)
+
+### **Page Management**
+- Page orientation changes (Layout optimization)
+- Document merging (File consolidation)
+- Page deletion and insertion (Content organization)
+- Empty page management (Document structure)
 
 ### **Advanced Programming**
-- Custom Behaviors (Script management)
-- Security Implementation (Protection)
-- Performance Optimization (Large files)
+- Custom behaviors (Script management and automation)
+- Security implementation (Document protection)
+- Performance optimization (Large file handling)
+
