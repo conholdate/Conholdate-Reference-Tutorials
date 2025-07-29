@@ -1,171 +1,415 @@
 ---
 "additionalTitle": "Conholdate API References"
-"description": "Odkryj kompleksowe samouczki i fragmenty kodu dla produktów Aspose i GroupDocs, obejmujące zarówno podstawowe, jak i zaawansowane wskazówki dotyczące użytkowania. Idealne dla programistów poszukujących dogłębnego wsparcia w zakresie wielu bibliotek przetwarzania dokumentów."
-"title": "Samouczki Conholdate – podstawowe i zaawansowane fragmenty kodu"
+"description": "Opanuj przetwarzanie dokumentów dzięki kompleksowym samouczkom .NET dla interfejsów API Aspose i GroupDocs. Przewodniki krok po kroku dla programów Word, PDF, Excel, PowerPoint i ponad 20 formatów plików."
+"title": "Samouczki Conholdate .NET – kompletny przewodnik dla programistów"
 "url": "/pl/"
 "weight": 10
 ---
 
-# Witamy w samouczkach Conholdate
+# Kompletne samouczki dotyczące przetwarzania dokumentów .NET
 
-## Przetwarzanie dokumentów głównych za pomocą interfejsów API Aspose i GroupDocs
+Witamy w najobszerniejszej kolekcji samouczków dotyczących przetwarzania dokumentów .NET. Niezależnie od tego, czy tworzysz aplikacje korporacyjne, czy proste narzędzia, te praktyczne przewodniki pomogą Ci pracować z dokumentami Word, plikami PDF, arkuszami kalkulacyjnymi, prezentacjami i wieloma innymi formatami plików, korzystając z wiodących w branży interfejsów API.
 
-Kompleksowe źródło wiedzy na temat manipulacji dokumentami, konwersji i automatyzacji z wykorzystaniem wiodących w branży interfejsów API z rodzin produktów Aspose i GroupDocs. Zrewolucjonizuj swój proces rozwoju oprogramowania dzięki naszemu bogatemu zbiorowi samouczków obejmującemu ponad 100 formatów plików i rozwiązań klasy korporacyjnej.
+## Interfejsy API przetwarzania dokumentów
 
-## 🚀 Czym jest Conholdate?
+### Formaty Microsoft Office i OpenOffice
 
-**Conholdate.Total** łączy wszystkie produkty Aspose i GroupDocs na jednej, ujednoliconej platformie, zapewniając programistom wydajne narzędzia do przetwarzania, konwersji, przeglądania, adnotacji i automatyzacji dokumentów w różnych formatach plików.
+#### Aspose.Words dla .NET
 
-### Główne zalety
-- **🎯 Zunifikowana platforma**:Jedno rozwiązanie dla wszystkich potrzeb przetwarzania dokumentów
-- **📄 Ponad 100 formatów**:Obsługa praktycznie każdego formatu dokumentu i pliku
-- **⚡ Wysoka wydajność**:Zoptymalizowane interfejsy API dla aplikacji na skalę przedsiębiorstwa
-- **🔧 Wieloplatformowy**:Działa bezproblemowo w systemach Windows, Linux, macOS i chmurze
-- **🛡️ Gotowy do wdrożenia w przedsiębiorstwie**:Zaufało nam tysiące programistów na całym świecie
+{{% alert color="primary" %}}
+**Opanuj automatyzację dokumentów Word** - Twórz profesjonalne raporty, konwertuj dokumenty między formatami, wdrażaj korespondencję seryjną i buduj systemy generowania dokumentów. Od prostej obróbki tekstu po złożone przepływy pracy z dokumentami.
 
-## 📚 Dostępne biblioteki samouczków
+{{% /alert %}}
 
-Przeglądaj nasze obszerne zbiory samouczków dla każdej rodziny produktów:
+**Czego się nauczysz:**
+- Techniki tworzenia i edycji dokumentów
+- Konwersja formatów (DOC, DOCX, PDF, HTML, RTF)
+- Korespondencja seryjna i generowanie raportów
+- Zaawansowane formatowanie i stylizowanie
+- Porównywanie i współpraca nad dokumentami
 
-### [Samouczki Aspose.Words](/words/)
-**Mistrz przetwarzania i automatyzacji dokumentów Word**
-
-Zwiększ możliwości przetwarzania dokumentów dzięki kompleksowym samouczkom dotyczącym automatyzacji programu Word.
-
-**Główne cechy:**
-- **📄 Konwersje dokumentów**: DOC/DOCX ↔ PDF, HTML, Markdown, EPUB i więcej
-- **🤖 Integracja AI**Podsumowanie dokumentów za pomocą modeli OpenAI i Google AI
-- **📊 Korespondencja seryjna**:Dynamiczne generowanie dokumentów ze źródeł danych
-- **🎨 Zaawansowane formatowanie**:Pełna kontrola nad stylem i układem dokumentu
-
-**Kategorie samouczków:**
-- Niezbędne konwersje dokumentów (11 samouczków)
-- Zaawansowane przetwarzanie dokumentów AI (4 samouczki)
-- Korespondencja seryjna i automatyzacja
-- Manipulacja dokumentami i formatowanie
-
-**[Poznaj przetwarzanie tekstu →](/words/)**
+**[Zacznij od przetwarzania tekstu →](./words/)**
 
 ---
 
-### [Samouczki Aspose.Cells](/cells/)
-**Opanuj automatyzację i przetwarzanie danych w programie Excel**
+#### Aspose.Cells dla .NET
 
-Odkryj pełen potencjał przetwarzania arkuszy kalkulacyjnych Excel i analizy biznesowej.
+{{% alert color="primary" %}}
+**Prosta automatyzacja w programie Excel** - Twórz zaawansowane arkusze kalkulacyjne, twórz dynamiczne wykresy, wykonuj złożone obliczenia i generuj raporty biznesowe. Idealne do aplikacji finansowych, narzędzi do analizy danych i systemów raportowania.
 
-**Główne cechy:**
-- **📊 Przetwarzanie w programie Excel**:Tworzenie i przetwarzanie plików XLS, XLSX, CSV, ODS
-- **📈 Konwersja wykresu**:Przekształcanie wykresów programu Excel w formaty PDF i obrazy
-- **💾 Analiza danych**:Zaawansowane formuły, tabele przestawne i obliczenia
-- **🔄 Konwersja formatu**:Wysokiej jakości konwersja Excela do PDF i innych formatów
+{{% /alert %}}
 
-**Kategorie samouczków:**
-- Konwersja do pliku PDF (2 samouczki)
-- Przewodnik po pracy z arkuszami kalkulacyjnymi programu Excel (3 samouczki)
-- Przetwarzanie danych i automatyzacja
-- Wykresy i wizualizacje
+**Popularne przypadki użycia:**
+- Generowanie raportów finansowych
+- Wizualizacja danych i wykresy
+- Konwersja formatu arkusza kalkulacyjnego
+- Obliczenia formuł i analiza danych
+- Tworzenie dokumentów na podstawie szablonów
 
-**[Poznaj automatyzację programu Excel →](/cells/)**
+**[Przeglądaj samouczki programu Excel →](./cells/)**
 
 ---
 
-### [Samouczki Aspose.PDF](/pdf/)
-**Mistrz tworzenia i manipulowania dokumentami PDF**
+#### Aspose.Slides dla .NET
 
-Kompleksowe przetwarzanie plików PDF, od podstawowych konwersji po zaawansowane funkcje interaktywne.
+{{% alert color="primary" %}}
+**Automatyzacja prezentacji PowerPoint** - Twórz angażujące prezentacje programowo, konwertuj slajdy do różnych formatów i buduj systemy zarządzania prezentacjami. Idealne do automatycznego raportowania i generowania treści.
 
-**Główne cechy:**
-- **🔄 Konwersja dokumentów**: HTML, EPUB, CGM, obrazy do PDF i odwrotnie
-- **🎨 Elementy interaktywne**:JavaScript, formularze, adnotacje, podpisy cyfrowe
-- **📊 Zaawansowane funkcje**: Warstwy, zakładki, znaki wodne, spis treści
-- **🔒 Bezpieczeństwo i zgodność**:Standardy PDF/A, szyfrowanie, kontrola dostępu
+{{% /alert %}}
 
-**Kategorie samouczków:**
-- Opanowanie konwersji dokumentów (4 samouczki)
-- Opanuj programowanie dokumentów PDF (4 samouczki)
-- Bezpieczeństwo i zgodność
-- Rozwój interaktywny
+**Omówione najważniejsze cechy:**
+- Tworzenie i manipulowanie slajdami
+- Integracja wykresów i mediów
+- Konwersja formatu prezentacji
+- Animacje i efekty przejścia
+- Przetwarzanie prezentacji zbiorczych
 
-**[Poznaj PDF Mastery →](/pdf/)**
+**[Poznaj przetwarzanie prezentacji →](./slides/)**
 
 ---
 
-### [Samouczki Aspose.Email](/email/)
-**Mistrzowskie przetwarzanie i automatyzacja wiadomości e-mail**
+### Przetwarzanie dokumentów PDF
 
-Kompleksowe rozwiązania do przetwarzania, konwersji i analizy wiadomości e-mail.
+#### Aspose.PDF dla .NET
 
-**Główne cechy:**
-- **📧 Obsługa formatu**Konwersja EML, MSG, MHTML, PST, OST, MBOX
-- **🤖 Analiza spamu**:Filtrowanie oparte na uczeniu maszynowym z algorytmami bayesowskimi
-- **🔄 Konwersja e-maili**:Bezproblemowa transformacja między formatami wiadomości e-mail
-- **📊 Integracja protokołów**: SMTP, POP3, IMAP, usługi sieciowe Exchange
+{{% alert color="primary" %}}
+**Profesjonalne rozwiązania PDF** - Twórz, edytuj i zabezpieczaj dokumenty PDF z zaawansowanymi funkcjami. Od prostych konwersji po złożoną obsługę formularzy i podpisy cyfrowe. Niezbędne w systemach zarządzania dokumentami.
 
-**Kategorie samouczków:**
-- Kompleksowy przewodnik po konwersji i eksporcie wiadomości e-mail (2 samouczki)
-- Przewodnik po przetwarzaniu i analizie wiadomości e-mail (2 samouczki)
-- Integracja i automatyzacja protokołów
-- Bezpieczeństwo i analiza
+{{% /alert %}}
 
-**[Poznaj rozwiązania e-mailowe →](/email/)**
+**Zaawansowane możliwości:**
+- Tworzenie plików PDF od podstaw lub konwersja
+- Przetwarzanie formularzy i podpisy cyfrowe
+- Ekstrakcja tekstu i manipulacja treścią
+- Funkcje bezpieczeństwa i szyfrowania
+- Zgodność z PDF/A w celu archiwizacji
 
-## 🎯 Kategorie samouczków według funkcji
+**[Opanuj przetwarzanie plików PDF →](./pdf/)**
 
-### **Niezbędne konwersje** 
-**Najpopularniejsze transformacje dokumentów**
-- **Dokumenty Word**: DOC ↔ DOCX, Word ↔ PDF, DOCX ↔ TXT
-- **Arkusze kalkulacyjne Excel**: Excel → PDF, Wykresy → PDF, Dane → Raporty
-- **Przetwarzanie PDF**: HTML → PDF, EPUB → PDF, interaktywne pliki PDF
-- **Formaty wiadomości e-mail**: EML ↔ MSG, E-mail → MHT, HTML → Zwykły tekst
+---
 
-### **Zaawansowana integracja AI**
-**Najnowocześniejsze funkcje inteligencji**
-- **Podsumowanie dokumentu**: OpenAI GPT, modele Google AI
-- **Analiza treści**:Inteligentne przetwarzanie i ekstrakcja tekstu
-- **Wykrywanie spamu**:Bayesowskie algorytmy uczenia maszynowego
-- **Zautomatyzowane przepływy pracy**:Generowanie dokumentów z wykorzystaniem sztucznej inteligencji
+### E-mail i komunikacja
 
-### **Interaktywna i dynamiczna treść**
-**Angażujące doświadczenia dokumentalne**
-- **Ulepszenia PDF**:Integracja JavaScript, obsługa formularzy
-- **Wizualizacja Excela**:Dynamiczne wykresy i analiza biznesowa
-- **Przetwarzanie wiadomości e-mail**: Bogata analiza treści i konwersja
-- **Automatyzacja dokumentów**:Systemy szablonów i przetwarzanie wsadowe
+#### Aspose.Email dla .NET
 
-## 🌟 Polecane samouczki w tym miesiącu
+{{% alert color="primary" %}}
+**Kompletny zestaw narzędzi do przetwarzania wiadomości e-mail** Obsługa formatów wiadomości e-mail, wdrażanie serwerów pocztowych, przetwarzanie załączników i tworzenie systemów automatyzacji wiadomości e-mail. Idealne rozwiązanie do integracji CRM i platform komunikacyjnych.
 
-### **Najpopularniejsze we wszystkich bibliotekach**
-1. **[Konwersja Worda do PDF](/words/net/essential-guide-document-conversions/convert-word-to-pdf/)** - Profesjonalne publikowanie dokumentów
-2. **[Konwersja z Excela do PDF](/cells/net/conversion-to-pdf-file/convert-excel-to-pdf/)** - Generowanie raportów biznesowych
-3. **[Mistrzostwo w zakresie HTML do PDF](/pdf/net/mastering-document-conversion/mastering-html-to-pdf/)** - Transformacja treści internetowych
-4. **[Konwersja EML na MSG](/email/net/comprehensive-guide-to-email-conversion-and-export/eml-to-msg-convert-made-easy-using-csharp/)** - Zgodność z formatem wiadomości e-mail
+{{% /alert %}}
 
-## 💡 Dlaczego warto wybrać Conholdate Tutorials?
+**Rozwiązania poczty e-mail obejmują:**
+- Konwersja formatu wiadomości e-mail (EML, MSG, PST)
+- Implementacja klienta SMTP, POP3, IMAP
+- Analiza wiadomości e-mail i ekstrakcja treści
+- Obsługa i przetwarzanie załączników
+- Zarządzanie kalendarzem i spotkaniami
 
-### **✅ Kompleksowe ubezpieczenie**
-- **Ponad 40 samouczków**:Od podstawowych konwersji do zaawansowanej integracji AI
-- **Wszystkie poziomy umiejętności**:Rozwiązania przyjazne dla początkujących i klasy korporacyjnej
-- **Przykłady ze świata rzeczywistego**:Kod gotowy do produkcji i scenariusze praktyczne
+**[Zbuduj rozwiązania e-mailowe →](./email/)**
 
-### **✅ Jakość i niezawodność**
-- **Poradnik krok po kroku**:Przejrzyste instrukcje ze szczegółowymi wyjaśnieniami
-- **Przetestowany kod**:Wszystkie przykłady zostały zweryfikowane i są gotowe do wdrożenia
-- **Regularne aktualizacje**:Treść zaktualizowana o najnowsze funkcje API
+---
 
-### **✅ Skoncentrowany na programistach**
-- **Praktyczne rozwiązania**:Rozwiązywanie rzeczywistych wyzwań rozwojowych
-- **Zoptymalizowana wydajność**:Najlepsze praktyki dla skalowalnych aplikacji
-- **Wsparcie międzyplatformowe**:Działa w różnych środowiskach
+### Grafika i obrazowanie
 
-## 🔗 Dodatkowe zasoby
+#### Aspose.Imaging dla .NET
 
-### **Narzędzia programistyczne**
-- **[Pełna dokumentacja API](https://reference.conholdate.com/)** - Kompleksowe referencje dla wszystkich produktów
-- **[Bezpłatne wersje próbne](https://releases.conholdate.com/)** - Oceniaj produkty z pełnymi funkcjami
+{{% alert color="primary" %}}
+**Zaawansowane przetwarzanie obrazu** - Obsługa ponad 30 formatów obrazów, stosowanie filtrów i efektów, przetwarzanie wsadowe obrazów i tworzenie aplikacji do obróbki obrazu. Niezbędne w aplikacjach do edycji zdjęć i narzędziach do konwersji obrazów.
 
-### **Społeczność i wsparcie**
-- **[Fora wsparcia](https://forum.conholdate.com/)** - Uzyskaj pomoc od ekspertów i społeczności
+{{% /alert %}}
 
-### **Licencjonowanie i wersje próbne**
-- **[Licencje tymczasowe](https://conholdate.com/temporary-license/)** - Wydłużone okresy oceny
-- **[Elastyczne licencjonowanie](https://conholdate.com/purchase/)** - Rozwiązania dla każdego rozmiaru projektu
+**Funkcje przetwarzania obrazu:**
+- Konwersja obrazów wieloformatowych
+- Operacje zmiany rozmiaru, przycinania i przekształcania
+- Aplikacje filtrów i efektów
+- Przepływy pracy przetwarzania wsadowego
+- Ekstrakcja i manipulacja metadanymi
+
+**[Przetwarzaj obrazy jak profesjonalista →](./imaging/)**
+
+---
+
+#### Aspose.Drawing dla .NET
+
+{{% alert color="primary" %}}
+**Programowanie grafiki 2D** - Twórz wykresy, diagramy i niestandardowe grafiki programowo. Twórz narzędzia do wizualizacji danych i systemy generowania grafiki z możliwością precyzyjnego rysowania.
+
+{{% /alert %}}
+
+**Możliwości graficzne:**
+- Tworzenie grafiki wektorowej i rastrowej
+- Generowanie niestandardowych wykresów i diagramów
+- Renderowanie tekstu z zaawansowaną typografią
+- Transformacje współrzędnych
+- Eksportuj do wielu formatów obrazów
+
+**[Utwórz własną grafikę →](./drawing/)**
+
+---
+
+### Przetwarzanie stron internetowych i HTML
+
+#### Aspose.HTML dla .NET
+
+{{% alert color="primary" %}}
+**Przetwarzanie dokumentów HTML** - Konwertuj HTML do PDF, manipuluj elementami DOM i przetwarzaj treści internetowe. Twórz narzędzia do scrapowania stron internetowych, konwertery HTML do PDF i systemy zarządzania treścią.
+
+{{% /alert %}}
+
+**Przetwarzanie HTML obejmuje:**
+- Konwersja HTML do PDF/obrazu
+- Manipulacja i parsowanie DOM
+- Stylizacja CSS i przetwarzanie układu
+- Scraping sieci i ekstrakcja treści
+- Systemy renderowania szablonów
+
+**[Przetwarzaj dokumenty HTML →](./html/)**
+
+---
+
+### Specjalistyczne formaty plików
+
+#### Aspose.CAD dla .NET
+
+{{% alert color="primary" %}}
+**Przetwarzanie plików CAD** - Praca z rysunkami AutoCAD, konwersja formatów CAD i ekstrakcja rysunków technicznych. Idealne rozwiązanie dla aplikacji inżynieryjnych i systemów dokumentacji technicznej.
+
+{{% /alert %}}
+
+**[Obsługa plików CAD →](./cad/)**
+
+#### Aspose.3D dla .NET
+
+{{% alert color="primary" %}}
+**Modelowanie i przetwarzanie 3D** - Twórz, manipuluj i konwertuj modele 3D. Twórz aplikacje do gier, wizualizacji architektury i zarządzania treścią 3D.
+
+{{% /alert %}}
+
+**[Praca z modelami 3D →](./3d/)**
+
+#### Aspose.BarCode dla .NET
+
+{{% alert color="primary" %}}
+**Generowanie i rozpoznawanie kodów kreskowych** - Twórz i odczytuj ponad 60 typów kodów kreskowych. Twórz systemy inwentaryzacyjne, aplikacje POS i rozwiązania automatycznej identyfikacji.
+
+{{% /alert %}}
+
+**[Generuj i odczytaj kody kreskowe →](./barcode/)**
+
+---
+
+### Analiza dokumentów i OCR
+
+#### Aspose.OCR dla .NET
+
+{{% alert color="primary" %}}
+**Optyczne rozpoznawanie znaków** - Wyodrębniaj tekst z obrazów i zeskanowanych dokumentów z wysoką dokładnością. Twórz systemy digitalizacji dokumentów i zautomatyzowane rozwiązania do wprowadzania danych.
+
+{{% /alert %}}
+
+**[Wyodrębnij tekst z obrazów →](./ocr/)**
+
+#### Aspose.PSD dla .NET
+
+{{% alert color="primary" %}}
+**Przetwarzanie plików Photoshop** Praca z plikami PSD, ekstrakcja warstw i konwersja formatów graficznych. Niezbędne w systemach automatyzacji projektowania i zarządzania zasobami.
+
+{{% /alert %}}
+
+**[Przetwarzaj pliki Photoshopa →](./psd/)**
+
+---
+
+### Kompresja i archiwa
+
+#### Aspose.ZIP dla .NET
+
+{{% alert color="primary" %}}
+**Zarządzanie archiwum** - Twórz, rozpakowuj i zarządzaj skompresowanymi plikami z zaawansowanymi opcjami. Buduj systemy tworzenia kopii zapasowych, narzędzia do dystrybucji plików i rozwiązania optymalizacji pamięci masowej.
+
+{{% /alert %}}
+
+**[Zarządzaj archiwami i kompresją →](./zip/)**
+
+---
+
+### Wydawnictwo i typografia
+
+#### Aspose.TeX dla .NET
+
+{{% alert color="primary" %}}
+**Przetwarzanie dokumentów LaTeX** - Składaj dokumenty matematyczne, twórz publikacje techniczne i przetwarzaj pliki TeX. Idealne dla systemów dokumentacji akademickiej i naukowej.
+
+{{% /alert %}}
+
+**[Opanuj przetwarzanie LaTeX-a →](./tex/)**
+
+#### Aspose.Page dla .NET
+
+{{% alert color="primary" %}}
+**Przetwarzanie PostScript i XPS** - Obsługa języków opisu stron, konwersja dokumentów i zarządzanie plikami gotowymi do druku. Niezbędne w profesjonalnych procesach wydawniczych.
+
+{{% /alert %}}
+
+**[Pliki opisu strony procesu →](./page/)**
+
+---
+
+### Produktywność i zarządzanie projektami
+
+#### Aspose.Note dla .NET
+
+{{% alert color="primary" %}}
+**Przetwarzanie dokumentów w programie OneNote** - Wyodrębniaj treści, zarządzaj notatnikami i integruj je z procesami zwiększania produktywności. Twórz aplikacje do robienia notatek i systemy zarządzania wiedzą.
+
+{{% /alert %}}
+
+**[Praca z plikami OneNote →](./note/)**
+
+#### Aspose.Tasks dla .NET
+
+{{% alert color="primary" %}}
+**Automatyzacja zarządzania projektami** - Odczyt, zapis i konwersja plików Microsoft Project. Tworzenie systemów śledzenia projektów, narzędzi do zarządzania zasobami i aplikacji do planowania.
+
+{{% /alert %}}
+
+**[Zautomatyzuj zarządzanie projektami →](./tasks/)**
+
+---
+
+### Systemy Informacji Geograficznej
+
+#### Aspose.GIS dla .NET
+
+{{% alert color="primary" %}}
+**Przetwarzanie danych geograficznych** - Praca z mapami, danymi przestrzennymi i formatami GIS. Tworzenie aplikacji opartych na lokalizacji, systemów mapowych i narzędzi do analizy geograficznej.
+
+{{% /alert %}}
+
+**[Przetwarzaj dane geograficzne →](./gis/)**
+
+---
+
+## Interfejsy API zarządzania dokumentami GroupDocs
+
+### Przeglądanie i renderowanie dokumentów
+
+#### GroupDocs.Viewer dla .NET
+
+{{% alert color="primary" %}}
+**Uniwersalny przeglądarka dokumentów** Wyświetlaj ponad 170 formatów plików w aplikacjach internetowych i desktopowych bez instalowania dodatkowego oprogramowania. Twórz portale do zarządzania dokumentami i systemy przeglądania treści.
+
+{{% /alert %}}
+
+**[Utwórz przeglądarki dokumentów →](./viewer/)**
+
+---
+
+### Konwersja i transformacja dokumentów
+
+#### GroupDocs.Conversion dla .NET
+
+{{% alert color="primary" %}}
+**Konwersja dokumentów o wysokiej wierności** - Konwertuj między ponad 50 formatami dokumentów z dokładnością co do piksela. Twórz usługi transformacji dokumentów i narzędzia do migracji formatów.
+
+{{% /alert %}}
+
+**[Konwertuj dowolny format dokumentu →](./conversion/)**
+
+---
+
+### Porównanie i analiza dokumentów
+
+#### GroupDocs.Comparison dla .NET
+
+{{% alert color="primary" %}}
+**Inteligentne porównywanie dokumentów** - Porównuj dokumenty i wskazuj różnice za pomocą zaawansowanych algorytmów. Twórz systemy przeglądu dokumentów, narzędzia kontroli wersji i rozwiązania zapewniające zgodność.
+
+{{% /alert %}}
+
+**[Porównuj dokumenty inteligentnie →](./comparison/)**
+
+---
+
+### Współpraca i adnotacje
+
+#### GroupDocs.Annotation dla .NET
+
+{{% alert color="primary" %}}
+**Narzędzia do współpracy nad dokumentami** Dodawaj komentarze, wyróżnienia i adnotacje do dokumentów. Twórz przepływy pracy związane z recenzją, systemy informacji zwrotnej i platformy do wspólnej edycji.
+
+{{% /alert %}}
+
+**[Włącz współpracę nad dokumentami →](./annotation/)**
+
+---
+
+### Podpisy cyfrowe i bezpieczeństwo
+
+#### GroupDocs.Signature dla .NET
+
+{{% alert color="primary" %}}
+**Rozwiązania podpisu cyfrowego** - Podpisuj dokumenty różnymi rodzajami podpisu, weryfikuj ich autentyczność i dbaj o ich integralność. Twórz bezpieczne obiegi dokumentów i systemy zgodności.
+
+{{% /alert %}}
+
+**[Wdrażanie podpisów cyfrowych →](./signature/)**
+
+---
+
+### Zarządzanie metadanymi
+
+#### GroupDocs.Metadata dla .NET
+
+{{% alert color="primary" %}}
+**Przetwarzanie metadanych dokumentu** - Wyodrębniaj, edytuj i zarządzaj metadanymi w różnych formatach plików. Twórz systemy indeksowania dokumentów, platformy zarządzania treścią i narzędzia zgodności.
+
+{{% /alert %}}
+
+**[Zarządzaj metadanymi dokumentu →](./metadata/)**
+
+---
+
+### Składanie i scalanie dokumentów
+
+#### GroupDocs.Merger dla .NET
+
+{{% alert color="primary" %}}
+**Zestaw narzędzi do manipulacji dokumentami** Scalaj, dziel, zmieniaj kolejność i organizuj dokumenty programowo. Twórz systemy składania dokumentów, narzędzia do przetwarzania wsadowego i automatyzuj przepływ pracy.
+
+{{% /alert %}}
+
+**[Scalanie i organizowanie dokumentów →](./merger/)**
+
+---
+
+## Rozpoczęcie pracy
+
+### Lista kontrolna szybkiego startu
+1. **Wybierz swoje API** - Wybierz funkcjonalność odpowiadającą potrzebom Twojego projektu
+2. **Zainstaluj pakiet NuGet** - Dodaj bibliotekę do swojego projektu .NET
+3. **Postępuj zgodnie z samouczkami** - Zacznij od podstawowych przykładów i przejdź do zaawansowanych funkcji
+4. **Dołącz do społeczności** - Uzyskaj pomoc od programistów i ekspertów
+
+### Środowisko programistyczne
+- **.NET Framework** 2,0 - 4,8
+- **.NET Core** 2.0+
+- **.NET 5/6/7/8**
+- **Visual Studio** 2017 lub później
+- **C# lub VB.NET** wiedza programistyczna
+
+### Popularne ścieżki samouczków
+
+**Dla początkujących:**
+1. Zacznij od podstawowych samouczków konwersji dokumentów
+2. Poznaj podstawy formatu plików
+3. Ćwicz z prostymi przykładami automatyzacji
+
+**Dla doświadczonych programistów:**
+1. Poznaj zaawansowane funkcje API
+2. Twórz kompletne rozwiązania aplikacyjne
+3. Wdrażaj przepływy pracy na poziomie przedsiębiorstwa
+
+**Dla zespołów korporacyjnych:**
+1. Architektura i wzorce projektowe
+2. Techniki optymalizacji wydajności
+3. Skalowalność i strategie wdrażania

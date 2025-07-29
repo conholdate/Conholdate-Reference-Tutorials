@@ -1,171 +1,415 @@
 ---
 "additionalTitle": "Conholdate API References"
-"description": "Fedezzen fel átfogó oktatóanyagokat és kódrészleteket az Aspose és a GroupDocs termékekhez, amelyek alapvető és haladó használati tippeket is tartalmaznak. Tökéletes azoknak a fejlesztőknek, akik mélyreható útmutatást keresnek több dokumentumfeldolgozási könyvtárral kapcsolatban."
-"title": "Conholdate oktatóanyagok - Alapvető és haladó kódrészletek"
+"description": "Sajátítsd el a dokumentumfeldolgozás mesteri szintjét átfogó .NET oktatóanyagokkal az Aspose és a GroupDocs API-khoz. Lépésről lépésre útmutatók Word, PDF, Excel, PowerPoint és több mint 20 fájlformátumhoz."
+"title": "Conholdate .NET oktatóanyagok - Teljes fejlesztői útmutató"
 "url": "/hu/"
 "weight": 10
 ---
 
-# Üdvözöljük a Conholdate oktatóanyagaiban
+# Teljes .NET dokumentumfeldolgozási oktatóanyagok
 
-## Fődokumentum-feldolgozás Aspose és GroupDocs API-kkal
+Üdvözöljük a .NET dokumentumfeldolgozási oktatóanyagok legátfogóbb gyűjteményében. Akár vállalati alkalmazásokat, akár egyszerű segédprogramokat fejleszt, ezek a gyakorlati útmutatók segítenek a Word-dokumentumokkal, PDF-ekkel, táblázatokkal, prezentációkkal és számos más fájlformátummal való munkában az iparágvezető API-k használatával.
 
-Átfogó forrás a dokumentumkezelés, -konvertálás és -automatizálás elsajátításához az Aspose és a GroupDocs termékcsaládok iparágvezető API-jainak használatával. Alakítsa át fejlesztési munkafolyamatát kiterjedt oktatóanyag-gyűjteményünkkel, amely több mint 100 fájlformátumot és vállalati szintű megoldásokat tartalmaz.
+## Dokumentumfeldolgozó API-k
 
-## 🚀 Mi az a Conholdate?
+### Microsoft Office és OpenOffice formátumok
 
-**Összesen** egyetlen, egységes platformon egyesíti az összes Aspose és GroupDocs terméket, hatékony eszközöket biztosítva a fejlesztők számára a dokumentumok feldolgozásához, konvertálásához, megtekintéséhez, jegyzeteléséhez és automatizálásához a különféle fájlformátumokban.
+#### Aspose.Words .NET-hez
 
-### Főbb előnyök
-- **🎯 Egységes platform**Egyetlen megoldás minden dokumentumfeldolgozási igényre
-- **📄 100+ formátum**: Gyakorlatilag minden dokumentum- és fájlformátum támogatása
-- **⚡ Nagy teljesítményű**Optimalizált API-k vállalati szintű alkalmazásokhoz
-- **🔧 Többplatformos**Zökkenőmentesen működik Windows, Linux, macOS és felhőalapú rendszereken
-- **🛡️ Vállalati használatra kész**Több ezer fejlesztő bízik benne világszerte
+{{% alert color="primary" %}}
+**Master Word dokumentumautomatizálás** - Professzionális jelentések készítése, dokumentumok formátumok közötti konvertálása, körlevelek megvalósítása és dokumentumgeneráló rendszerek építése. Az egyszerű szövegszerkesztéstől az összetett dokumentum-munkafolyamatokig.
 
-## 📚 Elérhető oktatóanyag-könyvtárak
+{{% /alert %}}
 
-Fedezze fel átfogó oktatóanyag-gyűjteményeinket minden termékcsaládhoz:
+**Amit tanulni fogsz:**
+- Dokumentumkészítési és -szerkesztési technikák
+- Formátumkonverzió (DOC, DOCX, PDF, HTML, RTF)
+- Körlevél és jelentéskészítés
+- Speciális formázás és stílus
+- Dokumentum-összehasonlítás és együttműködés
 
-### [Aspose.Words oktatóanyagok](/words/)
-**Mesterszintű Word dokumentumfeldolgozás és automatizálás**
-
-Alakítsa át dokumentumfeldolgozási képességeit átfogó Word automatizálási oktatóanyagokkal.
-
-**Főbb jellemzők:**
-- **📄 Dokumentumkonverziók**: DOC/DOCX ↔ PDF, HTML, Markdown, EPUB és egyebek
-- **🤖 Mesterséges intelligencia integráció**Dokumentumösszefoglaló OpenAI és Google AI modellekkel
-- **📊 Körlevél**Dinamikus dokumentumgenerálás adatforrásokból
-- **🎨 Speciális formázás**Teljes kontroll a dokumentum stílusa és elrendezése felett
-
-**Oktatóanyag kategóriák:**
-- Alapvető dokumentumkonvertálások (11 oktatóanyag)
-- Haladó mesterséges intelligencia alapú dokumentumfeldolgozás (4 oktatóanyag)
-- Körlevélkészítés és automatizálás
-- Dokumentumkezelés és formázás
-
-**[Szövegszerkesztés felfedezése →](/words/)**
+**[Kezdés a szövegszerkesztéssel →](./words/)**
 
 ---
 
-### [Aspose.Cells oktatóanyagok](/cells/)
-**Mesterképzés Excel automatizálás és adatfeldolgozás terén**
+#### Aspose.Cells .NET-hez
 
-Használja ki az Excel táblázatkezelés és az üzleti intelligencia teljes potenciálját.
+{{% alert color="primary" %}}
+**Excel automatizálás egyszerűen** - Készítsen hatékony táblázatkezelő alkalmazásokat, készítsen dinamikus diagramokat, végezzen összetett számításokat és generáljon üzleti jelentéseket. Tökéletes pénzügyi alkalmazásokhoz, adatelemző eszközökhöz és jelentéskészítő rendszerekhez.
 
-**Főbb jellemzők:**
-- **📊 Excel feldolgozás**XLS, XLSX, CSV, ODS létrehozása és kezelése
-- **📈 Diagram konverzió**: Excel-diagramok átalakítása PDF és képformátumokba
-- **💾 Adatelemzés**Speciális képletek, pivottáblázatok és számítások
-- **🔄 Formátumkonverzió**Kiváló minőségű Excelből PDF-be és más formátumokba konvertálás
+{{% /alert %}}
 
-**Oktatóanyag kategóriák:**
-- PDF fájlba konvertálás (2 oktatóanyag)
-- Útmutató az Excel-munkafüzetek használatához (3 oktatóanyag)
-- Adatfeldolgozás és automatizálás
-- Diagram és vizualizáció
+**Népszerű felhasználási esetek:**
+- Pénzügyi jelentések generálása
+- Adatvizualizáció és diagramkészítés
+- Táblázatkezelő formátum konvertálása
+- Képletszámítások és adatelemzés
+- Sablon alapú dokumentumkészítés
 
-**[Ismerje meg az Excel automatizálást →](/cells/)**
+**[Excel oktatóanyagok megtekintése →](./cells/)**
 
 ---
 
-### [Aspose.PDF oktatóanyagok](/pdf/)
-**PDF dokumentumok készítésének és kezelésének mesteri szintje**
+#### Aspose.Slides .NET-hez
 
-Átfogó PDF-feldolgozás az alapvető konverzióktól a fejlett interaktív funkciókig.
+{{% alert color="primary" %}}
+**PowerPoint prezentációk automatizálása** - Készítsen lebilincselő prezentációkat programozottan, konvertáljon diákat különböző formátumokba, és építsen prezentációkezelő rendszereket. Ideális az automatizált jelentéskészítéshez és tartalomgeneráláshoz.
+
+{{% /alert %}}
 
 **Főbb jellemzők:**
-- **🔄 Dokumentumkonverzió**: HTML, EPUB, CGM, képek PDF-be és fordítva
-- **🎨 Interaktív elemek**JavaScript, űrlapok, annotációk, digitális aláírások
-- **📊 Speciális funkciók**Rétegek, könyvjelzők, vízjelek, tartalomjegyzék
-- **🔒 Biztonság és megfelelőség**PDF/A szabványok, titkosítás, hozzáférés-vezérlés
+- Dia létrehozása és kezelése
+- Grafikon- és médiaintegráció
+- Prezentációs formátum konvertálása
+- Animációs és átmeneti effektek
+- Tömeges prezentációk feldolgozása
 
-**Oktatóanyag kategóriák:**
-- Dokumentumkonverzió elsajátítása (4 oktatóanyag)
-- PDF dokumentumprogramozás mesterkurzus (4 oktatóanyag)
-- Biztonság és megfelelőség
-- Interaktív fejlesztés
-
-**[PDF Mastery felfedezése →](/pdf/)**
+**[Tanulja meg a prezentációfeldolgozást →](./slides/)**
 
 ---
 
-### [Aspose.Email oktatóanyagok](/email/)
-**Mester szintű e-mail feldolgozás és automatizálás**
+### PDF dokumentumfeldolgozás
 
-Átfogó e-mail-feldolgozási, -konverziós és -elemzési megoldások.
+#### Aspose.PDF .NET-hez
 
-**Főbb jellemzők:**
-- **📧 Formátumtámogatás**EML, MSG, MHTML, PST, OST, MBOX konvertálás
-- **🤖 Spam elemzés**Gépi tanuláson alapuló szűrés Bayes-algoritmusokkal
-- **🔄 E-mail konverzió**Zökkenőmentes átváltás az e-mail formátumok között
-- **📊 Protokoll integráció**SMTP, POP3, IMAP, Exchange webszolgáltatások
+{{% alert color="primary" %}}
+**Professzionális PDF-megoldások** - PDF dokumentumok létrehozása, szerkesztése és védelme fejlett funkciókkal. Az egyszerű konverzióktól az összetett űrlapkezelésig és digitális aláírásokig. Nélkülözhetetlen a dokumentumkezelő rendszerekhez.
 
-**Oktatóanyag kategóriák:**
-- Átfogó útmutató az e-mail konvertáláshoz és exportáláshoz (2 oktatóanyag)
-- Útmutató az e-mail feldolgozáshoz és elemzéshez (2 oktatóanyag)
-- Protokollintegráció és automatizálás
-- Biztonság és elemzés
+{{% /alert %}}
 
-**[Fedezze fel az e-mail megoldásokat →](/email/)**
+**Speciális képességek:**
+- PDF létrehozása a semmiből vagy konvertálás
+- Űrlapfeldolgozás és digitális aláírások
+- Szövegkinyerés és tartalommanipuláció
+- Biztonsági és titkosítási funkciók
+- PDF/A megfelelőség archiváláshoz
 
-## 🎯 Oktatóanyag kategóriák funkció szerint
+**[PDF-feldolgozás mesterfokon →](./pdf/)**
 
-### **Alapvető konverziók** 
-**Legnépszerűbb dokumentumtranszformációk**
-- **Word-dokumentumok**DOC ↔ DOCX, Word ↔ PDF, DOCX ↔ TXT
-- **Excel-táblázatok**: Excel → PDF, Diagramok → PDF, Adatok → Jelentések
-- **PDF-feldolgozás**: HTML → PDF, EPUB → PDF, Interaktív PDF-ek
-- **E-mail formátumok**: EML ↔ MSG, Email → MHT, HTML → Sima szöveg
+---
 
-### **Fejlett mesterséges intelligencia integráció**
-**Korszerű intelligencia funkciók**
-- **Dokumentumösszefoglaló**: OpenAI GPT, Google AI modellek
-- **Tartalomelemzés**Intelligens szövegfeldolgozás és -kinyerés
-- **Spamészlelés**Bayes-i gépi tanulási algoritmusok
-- **Automatizált munkafolyamatok**: Mesterséges intelligencia által vezérelt dokumentumgenerálás
+### E-mail és kommunikáció
 
-### **Interaktív és dinamikus tartalom**
-**Magával ragadó dokumentumélmények**
-- **PDF-fejlesztések**JavaScript integráció, űrlapkezelés
-- **Excel vizualizáció**Dinamikus diagramok és üzleti intelligencia
-- **E-mail feldolgozás**Gazdag tartalomelemzés és konverzió
-- **Dokumentumautomatizálás**Sablonrendszerek és kötegelt feldolgozás
+#### Aspose.Email .NET-hez
 
-## 🌟 Kiemelt oktatóanyagok ebben a hónapban
+{{% alert color="primary" %}}
+**Teljes e-mail feldolgozó eszközkészlet** E-mail formátumok kezelése, levelezőszerverek megvalósítása, mellékletek feldolgozása és e-mail automatizáló rendszerek építése. Tökéletes CRM integrációhoz és kommunikációs platformokhoz.
 
-### **Legnépszerűbb az összes könyvtárban**
-1. **[Word-ből PDF-be konvertálás](/words/net/essential-guide-document-conversions/convert-word-to-pdf/)** - Professzionális dokumentumkiadás
-2. **[Excelből PDF-be konvertálás](/cells/net/conversion-to-pdf-file/convert-excel-to-pdf/)** - Üzleti jelentések generálása
-3. **[HTML-ből PDF-be váltás mesterfokon](/pdf/net/mastering-document-conversion/mastering-html-to-pdf/)** - Webtartalom átalakítása
-4. **[EML MSG-vé konvertálása](/email/net/comprehensive-guide-to-email-conversion-and-export/eml-to-msg-convert-made-easy-using-csharp/)** - E-mail formátum kompatibilitás
+{{% /alert %}}
 
-## 💡 Miért érdemes a Conholdate oktatóanyagait választani?
+**Az e-mail megoldások a következők:**
+- E-mail formátum konvertálás (EML, MSG, PST)
+- SMTP, POP3, IMAP kliens implementáció
+- E-mail elemzés és tartalom kinyerése
+- Mellékletkezelés és -feldolgozás
+- Naptár és találkozók kezelése
 
-### **✅ Átfogó lefedettség**
-- **40+ oktatóanyag**Az alapvető konverzióktól a haladó mesterséges intelligencia integrációjáig
-- **Minden képzettségi szint**Kezdőbarát és vállalati szintű megoldások
-- **Valós példák**Gyártásra kész kód és gyakorlati forgatókönyvek
+**[E-mail megoldások létrehozása →](./email/)**
 
-### **✅ Minőség és megbízhatóság**
-- **Lépésről lépésre útmutató**: Világos utasítások részletes magyarázatokkal
-- **Tesztelt kód**Minden példa ellenőrizve és implementálásra kész
-- **Rendszeres frissítések**: A tartalom a legújabb API-funkciókkal frissült
+---
 
-### **✅ Fejlesztőközpontú**
-- **Gyakorlati megoldások**: Kezeljük a valódi fejlesztési kihívásokat
-- **Teljesítményoptimalizált**Ajánlott gyakorlatok skálázható alkalmazásokhoz
-- **Platformfüggetlen támogatás**Különböző környezetekben működik
+### Grafika és képalkotás
 
-## 🔗 További források
+#### Aspose.Imaging .NET-hez
 
-### **Fejlesztői eszközök**
-- **[Teljes API dokumentáció](https://reference.conholdate.com/)** - Átfogó referenciák minden termékhez
-- **[Ingyenes próbaverziók](https://releases.conholdate.com/)** - Értékelje a teljes funkcionalitású termékeket
+{{% alert color="primary" %}}
+**Fejlett képfeldolgozás** - Több mint 30 képformátum kezelése, szűrők és effektek alkalmazása, képek kötegelt feldolgozása és képalkotó alkalmazások létrehozása. Nélkülözhetetlen a fotószerkesztő alkalmazásokhoz és a képkonvertáló eszközökhöz.
 
-### **Közösség és támogatás**
-- **[Támogatási fórumok](https://forum.conholdate.com/)** - Kérjen segítséget szakértőktől és a közösségtől
+{{% /alert %}}
 
-### **Licencelés és próbaverziók**
-- **[Ideiglenes engedélyek](https://conholdate.com/temporary-license/)** - Meghosszabbított értékelési időszakok
-- **[Rugalmas licencelés](https://conholdate.com/purchase/)** - Megoldások minden projektmérethez
+**Képfeldolgozási funkciók:**
+- Többformátumú képkonverzió
+- Átméretezési, vágási és átalakítási műveletek
+- Szűrő- és effektusalkalmazások
+- Kötegelt feldolgozási munkafolyamatok
+- Metaadatok kinyerése és manipulálása
+
+**[Képfeldolgozás profi módon →](./imaging/)**
+
+---
+
+#### Aspose.Drawing .NET-hez
+
+{{% alert color="primary" %}}
+**2D grafikai programozás** - Diagramok, diagramok és egyedi grafikák létrehozása programozottan. Adatvizualizációs eszközök és grafikai generáló rendszerek létrehozása precíziós rajzolási képességekkel.
+
+{{% /alert %}}
+
+**Grafikus képességek:**
+- Vektoros és raszteres grafika készítése
+- Egyéni diagramok és diagramok generálása
+- Szövegmegjelenítés fejlett tipográfiával
+- Koordináta-transzformációk
+- Exportálás több képformátumba
+
+**[Egyéni grafikák létrehozása →](./drawing/)**
+
+---
+
+### Web- és HTML-feldolgozás
+
+#### Aspose.HTML .NET-hez
+
+{{% alert color="primary" %}}
+**HTML dokumentumfeldolgozás** - HTML konvertálása PDF-be, DOM elemek kezelése és webes tartalom feldolgozása. Webes adatgyűjtő eszközök, HTML-PDF konverterek és tartalomkezelő rendszerek készítése.
+
+{{% /alert %}}
+
+**A HTML feldolgozás a következőket foglalja magában:**
+- HTML-ből PDF-be/képbe konvertálás
+- DOM-manipuláció és -elemzés
+- CSS stílus- és elrendezésfeldolgozás
+- Webes tartalomgyűjtés és kinyerés
+- Sablonrenderelő rendszerek
+
+**[HTML dokumentumok feldolgozása →](./html/)**
+
+---
+
+### Speciális fájlformátumok
+
+#### Aspose.CAD .NET-hez
+
+{{% alert color="primary" %}}
+**CAD fájlfeldolgozás** - AutoCAD rajzokkal dolgozhat, CAD formátumokat konvertálhat, és műszaki rajzokat nyerhet ki. Tökéletes mérnöki alkalmazásokhoz és műszaki dokumentációs rendszerekhez.
+
+{{% /alert %}}
+
+**[CAD fájlok kezelése →](./cad/)**
+
+#### Aspose.3D .NET-hez
+
+{{% alert color="primary" %}}
+**3D modellezés és feldolgozás** - 3D modellek létrehozása, kezelése és konvertálása. Játékokhoz, architektúra-vizualizációhoz és 3D tartalomkezeléshez készült alkalmazások fejlesztése.
+
+{{% /alert %}}
+
+**[3D modellekkel való munka →](./3d/)**
+
+#### Aspose.BarCode .NET-hez
+
+{{% alert color="primary" %}}
+**Vonalkód generálása és felismerése** - Több mint 60 vonalkódtípus létrehozása és beolvasása. Készletnyilvántartó rendszerek, értékesítési pont alkalmazások és automatizált azonosítási megoldások létrehozása.
+
+{{% /alert %}}
+
+**[Vonalkódok generálása és olvasása →](./barcode/)**
+
+---
+
+### Dokumentumelemzés és OCR
+
+#### Aspose.OCR .NET-hez
+
+{{% alert color="primary" %}}
+**Optikai karakterfelismerés** - Nagy pontossággal kinyerhet szöveget képekből és szkennelt dokumentumokból. Készíthet dokumentumdigitalizáló rendszereket és automatizált adatbeviteli megoldásokat.
+
+{{% /alert %}}
+
+**[Szöveg kinyerése képekből →](./ocr/)**
+
+#### Aspose.PSD .NET-hez
+
+{{% alert color="primary" %}}
+**Photoshop fájlfeldolgozás** PSD fájlokkal való munka, rétegek kinyerése és grafikus formátumok konvertálása. Elengedhetetlen a tervezésautomatizáláshoz és az eszközkezelő rendszerekhez.
+
+{{% /alert %}}
+
+**[Photoshop fájlok feldolgozása →](./psd/)**
+
+---
+
+### Tömörítés és archiválás
+
+#### Aspose.ZIP .NET-hez
+
+{{% alert color="primary" %}}
+**Archívumkezelés** - Tömörített fájlok létrehozása, kibontása és kezelése speciális beállításokkal. Biztonsági mentési rendszerek, fájlelosztó eszközök és tárolásoptimalizálási megoldások létrehozása.
+
+{{% /alert %}}
+
+**[Archívumok és tömörítés kezelése →](./zip/)**
+
+---
+
+### Kiadás és tipográfia
+
+#### Aspose.TeX .NET-hez
+
+{{% alert color="primary" %}}
+**LaTeX dokumentumfeldolgozás** - Matematikai dokumentumok szedése, műszaki publikációk létrehozása és TeX fájlok feldolgozása. Tökéletes akadémiai és tudományos dokumentumrendszerekhez.
+
+{{% /alert %}}
+
+**[LaTeX feldolgozás mestere →](./tex/)**
+
+#### Aspose.Page .NET-hez
+
+{{% alert color="primary" %}}
+**PostScript és XPS feldolgozás** - Oldalatleíró nyelvek kezelése, dokumentumok konvertálása és nyomtatásra kész fájlok kezelése. Elengedhetetlen a professzionális kiadványszerkesztési munkafolyamatokhoz.
+
+{{% /alert %}}
+
+**[Folyamatoldal leíró fájlok →](./page/)**
+
+---
+
+### Termelékenység és projektmenedzsment
+
+#### Aspose.Note .NET-hez
+
+{{% alert color="primary" %}}
+**OneNote dokumentumfeldolgozás** - Tartalom kinyerése, jegyzetfüzetek kezelése és integráció a termelékenységi munkafolyamatokkal. Jegyzetkészítő alkalmazások és tudáskezelő rendszerek létrehozása.
+
+{{% /alert %}}
+
+**[OneNote-fájlok használata →](./note/)**
+
+#### Aspose.Tasks .NET-hez
+
+{{% alert color="primary" %}}
+**Projektmenedzsment automatizálás** - Microsoft Project fájlok olvasása, írása és konvertálása. Projektkövető rendszerek, erőforrás-kezelő eszközök és ütemező alkalmazások létrehozása.
+
+{{% /alert %}}
+
+**[Projektmenedzsment automatizálása →](./tasks/)**
+
+---
+
+### Térinformatikai rendszerek
+
+#### Aspose.GIS .NET-hez
+
+{{% alert color="primary" %}}
+**Földrajzi adatfeldolgozás** - Térképekkel, térbeli adatokkal és GIS formátumokkal való munka. Helyalapú alkalmazások, térképészeti rendszerek és földrajzi elemző eszközök készítése.
+
+{{% /alert %}}
+
+**[Földrajzi adatok feldolgozása →](./gis/)**
+
+---
+
+## GroupDocs dokumentumkezelési API-k
+
+### Dokumentummegtekintés és renderelés
+
+#### GroupDocs.Viewer .NET-hez
+
+{{% alert color="primary" %}}
+**Univerzális dokumentummegjelenítő** Több mint 170 fájlformátum megjelenítése webes és asztali alkalmazásokban további szoftverek telepítése nélkül. Dokumentumkezelő portálok és tartalommegjelenítő rendszerek létrehozása.
+
+{{% /alert %}}
+
+**[Dokumentummegjelenítők létrehozása →](./viewer/)**
+
+---
+
+### Dokumentumkonverzió és -átalakítás
+
+#### GroupDocs.Conversion .NET-hez
+
+{{% alert color="primary" %}}
+**Nagy pontosságú dokumentumkonverzió** - Több mint 50 dokumentumformátum közötti konvertálás pixelpontos pontossággal. Dokumentumátalakítási szolgáltatások és formátummigrációs eszközök létrehozása.
+
+{{% /alert %}}
+
+**[Bármely dokumentumformátum konvertálása →](./conversion/)**
+
+---
+
+### Dokumentum-összehasonlítás és -elemzés
+
+#### GroupDocs.Comparison .NET-hez
+
+{{% alert color="primary" %}}
+**Intelligens dokumentum-összehasonlítás** - Dokumentumok összehasonlítása és a különbségek kiemelése fejlett algoritmusok segítségével. Dokumentum-felülvizsgálati rendszerek, verziókövető eszközök és megfelelőségi megoldások létrehozása.
+
+{{% /alert %}}
+
+**[Dokumentumok intelligens összehasonlítása →](./comparison/)**
+
+---
+
+### Együttműködés és jegyzetelés
+
+#### GroupDocs.Annotation .NET-hez
+
+{{% alert color="primary" %}}
+**Dokumentum-együttműködési eszközök** Hozzáfűzhet megjegyzéseket, kiemeléseket és jegyzeteket a dokumentumokhoz. Hozzon létre felülvizsgálati munkafolyamatokat, visszajelzési rendszereket és közös szerkesztési platformokat.
+
+{{% /alert %}}
+
+**[Dokumentum-együttműködés engedélyezése →](./annotation/)**
+
+---
+
+### Digitális aláírások és biztonság
+
+#### GroupDocs.Signature .NET-hez
+
+{{% alert color="primary" %}}
+**Digitális aláírási megoldások** - Különböző aláírástípusokkal írjon alá dokumentumokat, ellenőrizze a hitelességet és biztosítsa a dokumentumok integritását. Biztonságos dokumentumkezelési munkafolyamatokat és megfelelőségi rendszereket építsen ki.
+
+{{% /alert %}}
+
+**[Digitális aláírások megvalósítása →](./signature/)**
+
+---
+
+### Metaadat-kezelés
+
+#### GroupDocs.Metadata .NET-hez
+
+{{% alert color="primary" %}}
+**Dokumentum metaadatok feldolgozása** - Metaadatok kinyerése, szerkesztése és kezelése különböző fájlformátumokban. Dokumentumindexelő rendszerek, tartalomkezelő platformok és megfelelőségi eszközök létrehozása.
+
+{{% /alert %}}
+
+**[Dokumentum metaadatainak kezelése →](./metadata/)**
+
+---
+
+### Dokumentum összeállítása és összevonása
+
+#### GroupDocs.Merger .NET-hez
+
+{{% alert color="primary" %}}
+**Dokumentummanipulációs eszközkészlet** Dokumentumok programozott egyesítése, felosztása, átrendezése és rendszerezése. Dokumentum-összeszerelő rendszerek, kötegelt feldolgozó eszközök és munkafolyamat-automatizálás létrehozása.
+
+{{% /alert %}}
+
+**[Dokumentumok egyesítése és rendszerezése →](./merger/)**
+
+---
+
+## Első lépések
+
+### Gyorsindítási ellenőrzőlista
+1. **Válassza ki az API-ját** - Válassza ki a projekt igényeinek megfelelő funkciókat
+2. **NuGet csomag telepítése** - Adja hozzá a könyvtárat a .NET projektjéhez
+3. **Kövesd az oktatóanyagokat** - Kezdje az alapvető példákkal, és haladjon a haladó funkciók felé
+4. **Csatlakozz a közösséghez** - Kérjen segítséget fejlesztőktől és szakértőktől
+
+### Fejlesztői környezet
+- **.NET keretrendszer** 2,0 - 4,8
+- **.NET Core** 2.0+
+- **.NET 5/6/7/8**
+- **Vizuális Stúdió** 2017-ben vagy később
+- **C# vagy VB.NET** programozási ismeretek
+
+### Népszerű oktatóanyagok
+
+**Kezdőknek:**
+1. Kezdje az alapvető dokumentumkonvertálási oktatóanyagokkal
+2. Ismerje meg a fájlformátumok alapjait
+3. Gyakorolj egyszerű automatizálási példákkal
+
+**Tapasztalt fejlesztőknek:**
+1. Fedezze fel a fejlett API-funkciókat
+2. Komplett alkalmazásmegoldások létrehozása
+3. Vállalati szintű munkafolyamatok megvalósítása
+
+**Vállalati csapatok számára:**
+1. Építészeti és tervezési minták
+2. Teljesítményoptimalizálási technikák
+3. Skálázhatósági és telepítési stratégiák

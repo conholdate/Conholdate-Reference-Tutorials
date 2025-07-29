@@ -1,171 +1,415 @@
 ---
 "additionalTitle": "Conholdate API References"
-"description": "Khám phá các hướng dẫn toàn diện và đoạn mã cho các sản phẩm Aspose và GroupDocs, bao gồm các mẹo sử dụng thiết yếu và nâng cao. Hoàn hảo cho các nhà phát triển đang tìm kiếm hướng dẫn chuyên sâu về nhiều thư viện xử lý tài liệu."
-"title": "Hướng dẫn Conholdate - Đoạn mã thiết yếu và nâng cao"
+"description": "Nắm vững quy trình xử lý tài liệu với hướng dẫn .NET toàn diện cho API Aspose và GroupDocs. Hướng dẫn từng bước cho Word, PDF, Excel, PowerPoint và hơn 20 định dạng tệp."
+"title": "Hướng dẫn .NET của Conholdate - Hướng dẫn dành cho nhà phát triển đầy đủ"
 "url": "/vi/"
 "weight": 10
 ---
 
-# Chào mừng đến với Hướng dẫn Conholdate
+# Hướng dẫn xử lý tài liệu .NET đầy đủ
 
-## Xử lý tài liệu chính với API Aspose & GroupDocs
+Chào mừng bạn đến với bộ sưu tập hướng dẫn xử lý tài liệu .NET toàn diện nhất. Cho dù bạn đang xây dựng các ứng dụng doanh nghiệp hay các tiện ích đơn giản, những hướng dẫn thực tế này sẽ giúp bạn làm việc với tài liệu Word, PDF, bảng tính, bản trình bày và nhiều định dạng tệp khác bằng cách sử dụng các API hàng đầu trong ngành.
 
-Tài nguyên toàn diện của bạn để học cách thao tác, chuyển đổi và tự động hóa tài liệu bằng các API hàng đầu trong ngành từ các dòng sản phẩm Aspose và GroupDocs. Chuyển đổi quy trình phát triển của bạn với bộ sưu tập hướng dẫn phong phú của chúng tôi, bao gồm hơn 100 định dạng tệp và các giải pháp cấp doanh nghiệp.
+## API xử lý tài liệu
 
-## 🚀 Conholdate là gì?
+### Định dạng Microsoft Office & OpenOffice
 
-**Tổng số.Tổng số** tập hợp tất cả các sản phẩm Aspose và GroupDocs trên một nền tảng thống nhất duy nhất, cung cấp cho các nhà phát triển các công cụ mạnh mẽ để xử lý, chuyển đổi, xem, chú thích và tự động hóa tài liệu trên nhiều định dạng tệp khác nhau.
+#### Aspose.Words cho .NET
 
-### Ưu điểm chính
-- **🎯 Nền tảng hợp nhất**: Giải pháp duy nhất cho mọi nhu cầu xử lý tài liệu
-- **📄 Hơn 100 định dạng**: Hỗ trợ hầu hết mọi tài liệu và định dạng tệp
-- **⚡ Hiệu suất cao**: API được tối ưu hóa cho các ứng dụng quy mô doanh nghiệp
-- **🔧 Đa nền tảng**: Hoạt động liền mạch trên Windows, Linux, macOS và đám mây
-- **🛡️ Sẵn sàng cho doanh nghiệp**: Được hàng ngàn nhà phát triển trên toàn thế giới tin dùng
+{{% alert color="primary" %}}
+**Tự động hóa tài liệu Word** - Tạo báo cáo chuyên nghiệp, chuyển đổi tài liệu giữa các định dạng, triển khai trộn thư và xây dựng hệ thống tạo tài liệu. Từ thao tác văn bản đơn giản đến quy trình làm việc tài liệu phức tạp.
 
-## 📚 Thư viện hướng dẫn có sẵn
+{{% /alert %}}
 
-Khám phá bộ sưu tập hướng dẫn toàn diện của chúng tôi cho từng dòng sản phẩm:
+**Những gì bạn sẽ học được:**
+- Kỹ thuật tạo và chỉnh sửa tài liệu
+- Chuyển đổi định dạng (DOC, DOCX, PDF, HTML, RTF)
+- Trộn thư và tạo báo cáo
+- Định dạng và kiểu dáng nâng cao
+- So sánh và cộng tác tài liệu
 
-### [Hướng dẫn Aspose.Words](/words/)
-**Xử lý và tự động hóa tài liệu Word**
-
-Chuyển đổi khả năng xử lý tài liệu của bạn với hướng dẫn tự động hóa Word toàn diện.
-
-**Các tính năng chính:**
-- **📄 Chuyển đổi tài liệu**: DOC/DOCX ↔ PDF, HTML, Markdown, EPUB và nhiều định dạng khác
-- **🤖 Tích hợp AI**: Tóm tắt tài liệu bằng các mô hình OpenAI và Google AI
-- **📊 Trộn thư**Tạo tài liệu động từ các nguồn dữ liệu
-- **🎨 Định dạng nâng cao**: Kiểm soát hoàn toàn kiểu dáng và bố cục tài liệu
-
-**Danh mục hướng dẫn:**
-- Chuyển đổi tài liệu thiết yếu (11 hướng dẫn)
-- Xử lý tài liệu AI nâng cao (4 bài hướng dẫn)
-- Trộn thư và tự động hóa
-- Thao tác và định dạng tài liệu
-
-**[Khám phá Xử lý văn bản →](/words/)**
+**[Bắt đầu với Xử lý văn bản →](./words/)**
 
 ---
 
-### [Hướng dẫn Aspose.Cells](/cells/)
-**Tự động hóa và xử lý dữ liệu Excel bậc thầy**
+#### Aspose.Cells cho .NET
 
-Khai thác toàn bộ tiềm năng của việc xử lý bảng tính Excel và trí tuệ kinh doanh.
+{{% alert color="primary" %}}
+**Tự động hóa Excel trở nên đơn giản** - Xây dựng các ứng dụng bảng tính mạnh mẽ, tạo biểu đồ động, thực hiện các phép tính phức tạp và tạo báo cáo kinh doanh. Hoàn hảo cho các ứng dụng tài chính, công cụ phân tích dữ liệu và hệ thống báo cáo.
 
-**Các tính năng chính:**
-- **📊 Xử lý Excel**: Tạo và thao tác XLS, XLSX, CSV, ODS
-- **📈 Chuyển đổi biểu đồ**: Chuyển đổi biểu đồ Excel sang định dạng PDF và hình ảnh
-- **💾 Phân tích dữ liệu**: Công thức nâng cao, bảng trục và phép tính
-- **🔄 Chuyển đổi định dạng**: Chuyển đổi Excel sang PDF và các định dạng khác chất lượng cao
+{{% /alert %}}
 
-**Danh mục hướng dẫn:**
-- Chuyển đổi sang tệp PDF (2 hướng dẫn)
-- Hướng dẫn làm việc với bảng tính Excel (3 bài hướng dẫn)
-- Xử lý dữ liệu và tự động hóa
-- Biểu đồ & Hình ảnh hóa
+**Các trường hợp sử dụng phổ biến:**
+- Tạo báo cáo tài chính
+- Trực quan hóa dữ liệu và biểu đồ
+- Chuyển đổi định dạng bảng tính
+- Tính toán công thức và phân tích dữ liệu
+- Tạo tài liệu dựa trên mẫu
 
-**[Khám phá Tự động hóa Excel →](/cells/)**
+**[Khám phá Hướng dẫn Excel →](./cells/)**
 
 ---
 
-### [Hướng dẫn Aspose.PDF](/pdf/)
-**Tạo và chỉnh sửa tài liệu PDF chuyên nghiệp**
+#### Aspose.Slides cho .NET
 
-Xử lý PDF toàn diện từ chuyển đổi cơ bản đến các tính năng tương tác nâng cao.
+{{% alert color="primary" %}}
+**Tự động hóa bài thuyết trình PowerPoint** - Tạo các bài thuyết trình hấp dẫn theo chương trình, chuyển đổi slide sang nhiều định dạng khác nhau và xây dựng hệ thống quản lý bài thuyết trình. Lý tưởng cho việc tạo báo cáo tự động và nội dung.
 
-**Các tính năng chính:**
-- **🔄 Chuyển đổi tài liệu**: HTML, EPUB, CGM, hình ảnh sang PDF và ngược lại
-- **🎨 Các yếu tố tương tác**: JavaScript, biểu mẫu, chú thích, chữ ký số
-- **📊 Tính năng nâng cao**: Lớp, dấu trang, hình mờ, mục lục
-- **🔒 Bảo mật & Tuân thủ**: Tiêu chuẩn PDF/A, mã hóa, kiểm soát truy cập
+{{% /alert %}}
 
-**Danh mục hướng dẫn:**
-- Làm chủ chuyển đổi tài liệu (4 bài hướng dẫn)
-- Lập trình tài liệu PDF chuyên nghiệp (4 bài hướng dẫn)
-- Bảo mật & Tuân thủ
-- Phát triển tương tác
+**Các tính năng chính được đề cập:**
+- Tạo và thao tác slide
+- Tích hợp biểu đồ và phương tiện truyền thông
+- Chuyển đổi định dạng trình bày
+- Hiệu ứng hoạt hình và chuyển tiếp
+- Xử lý trình bày hàng loạt
 
-**[Khám phá PDF Mastery →](/pdf/)**
+**[Tìm hiểu về Xử lý Trình bày →](./slides/)**
 
 ---
 
-### [Hướng dẫn sử dụng Aspose.Email](/email/)
-**Xử lý và tự động hóa email chuyên nghiệp**
+### Xử lý tài liệu PDF
 
-Giải pháp xử lý, chuyển đổi và phân tích email toàn diện.
+#### Aspose.PDF cho .NET
 
-**Các tính năng chính:**
-- **📧 Hỗ trợ định dạng**Chuyển đổi EML, MSG, MHTML, PST, OST, MBOX
-- **🤖 Phân tích thư rác**: Lọc dựa trên máy học với thuật toán Bayesian
-- **🔄 Chuyển đổi Email**: Chuyển đổi liền mạch giữa các định dạng email
-- **📊 Tích hợp giao thức**: SMTP, POP3, IMAP, Dịch vụ Web Exchange
+{{% alert color="primary" %}}
+**Giải pháp PDF chuyên nghiệp** - Tạo, chỉnh sửa và bảo mật tài liệu PDF với các tính năng nâng cao. Từ chuyển đổi đơn giản đến xử lý biểu mẫu phức tạp và chữ ký số. Thiết yếu cho hệ thống quản lý tài liệu.
 
-**Danh mục hướng dẫn:**
-- Hướng dẫn toàn diện về chuyển đổi và xuất email (2 bài hướng dẫn)
-- Hướng dẫn xử lý và phân tích email (2 bài hướng dẫn)
-- Tích hợp và tự động hóa giao thức
-- Bảo mật & Phân tích
+{{% /alert %}}
 
-**[Khám phá các giải pháp email →](/email/)**
+**Khả năng nâng cao:**
+- Tạo PDF từ đầu hoặc chuyển đổi
+- Xử lý biểu mẫu và chữ ký số
+- Trích xuất văn bản và thao tác nội dung
+- Tính năng bảo mật và mã hóa
+- Tuân thủ PDF/A để lưu trữ
 
-## 🎯 Danh mục hướng dẫn theo tính năng
+**[Xử lý PDF chuyên nghiệp →](./pdf/)**
 
-### **Chuyển đổi thiết yếu** 
-**Các chuyển đổi tài liệu phổ biến nhất**
-- **Tài liệu Word**: DOC ↔ DOCX, Word ↔ PDF, DOCX ↔ TXT
-- **Bảng tính Excel**: Excel → PDF, Biểu đồ → PDF, Dữ liệu → Báo cáo
-- **Xử lý PDF**: HTML → PDF, EPUB → PDF, PDF tương tác
-- **Định dạng Email**: EML ↔ MSG, Email → MHT, HTML → Văn bản thuần túy
+---
 
-### **Tích hợp AI nâng cao**
-**Các tính năng thông minh tiên tiến**
-- **Tóm tắt tài liệu**: OpenAI GPT, mô hình AI của Google
-- **Phân tích nội dung**: Xử lý và trích xuất văn bản thông minh
-- **Phát hiện thư rác**: Thuật toán học máy Bayesian
-- **Quy trình làm việc tự động**: Tạo tài liệu bằng AI
+### Email & Truyền thông
 
-### **Nội dung tương tác và động**
-**Trải nghiệm tài liệu hấp dẫn**
-- **Cải tiến PDF**: Tích hợp JavaScript, xử lý biểu mẫu
-- **Hình ảnh hóa Excel**: Biểu đồ động và trí tuệ kinh doanh
-- **Xử lý email**: Phân tích nội dung phong phú và chuyển đổi
-- **Tự động hóa tài liệu**: Hệ thống mẫu và xử lý hàng loạt
+#### Aspose.Email cho .NET
 
-## 🌟 Hướng dẫn nổi bật trong tháng này
+{{% alert color="primary" %}}
+**Bộ công cụ xử lý email hoàn chỉnh** Xử lý định dạng email, triển khai máy chủ email, xử lý tệp đính kèm và xây dựng hệ thống tự động hóa email. Hoàn hảo cho nền tảng tích hợp CRM và truyền thông.
 
-### **Phổ biến nhất trên tất cả các thư viện**
-1. **[Chuyển đổi Word sang PDF](/words/net/essential-guide-document-conversions/convert-word-to-pdf/)** - Xuất bản tài liệu chuyên nghiệp
-2. **[Chuyển đổi Excel sang PDF](/cells/net/conversion-to-pdf-file/convert-excel-to-pdf/)** - Tạo báo cáo kinh doanh
-3. **[Thành thạo HTML sang PDF](/pdf/net/mastering-document-conversion/mastering-html-to-pdf/)** - Chuyển đổi nội dung web
-4. **[Chuyển đổi EML sang MSG](/email/net/comprehensive-guide-to-email-conversion-and-export/eml-to-msg-convert-made-easy-using-csharp/)** - Khả năng tương thích định dạng email
+{{% /alert %}}
 
-## 💡 Tại sao nên chọn Conholdate Tutorials?
+**Các giải pháp email bao gồm:**
+- Chuyển đổi định dạng email (EML, MSG, PST)
+- Triển khai máy khách SMTP, POP3, IMAP
+- Phân tích email và trích xuất nội dung
+- Xử lý và xử lý tệp đính kèm
+- Quản lý lịch và cuộc hẹn
 
-### **✅ Bảo hiểm toàn diện**
-- **Hơn 40 bài hướng dẫn**: Từ chuyển đổi cơ bản đến tích hợp AI nâng cao
-- **Tất cả các cấp độ kỹ năng**: Giải pháp thân thiện với người mới bắt đầu đến cấp doanh nghiệp
-- **Ví dụ thực tế**: Mã sẵn sàng sản xuất và các tình huống thực tế
+**[Xây dựng giải pháp email →](./email/)**
 
-### **✅ Chất lượng & Độ tin cậy**
-- **Hướng dẫn từng bước**: Hướng dẫn rõ ràng với giải thích chi tiết
-- **Mã đã kiểm tra**: Tất cả các ví dụ đã được xác minh và sẵn sàng để triển khai
-- **Cập nhật thường xuyên**: Nội dung được cập nhật với các tính năng API mới nhất
+---
 
-### **✅ Tập trung vào nhà phát triển**
-- **Giải pháp thực tế**: Giải quyết những thách thức phát triển thực tế
-- **Hiệu suất được tối ưu hóa**: Thực hành tốt nhất cho các ứng dụng có khả năng mở rộng
-- **Hỗ trợ đa nền tảng**: Hoạt động trên nhiều môi trường khác nhau
+### Đồ họa & Hình ảnh
 
-## 🔗 Tài nguyên bổ sung
+#### Aspose.Imaging cho .NET
 
-### **Công cụ dành cho nhà phát triển**
-- **[Tài liệu API đầy đủ](https://reference.conholdate.com/)** - Tài liệu tham khảo đầy đủ cho tất cả các sản phẩm
-- **[Dùng thử miễn phí](https://releases.conholdate.com/)** - Đánh giá sản phẩm có đầy đủ tính năng
+{{% alert color="primary" %}}
+**Xử lý hình ảnh nâng cao** - Xử lý hơn 30 định dạng hình ảnh, áp dụng bộ lọc và hiệu ứng, xử lý hàng loạt hình ảnh và xây dựng các ứng dụng hình ảnh. Thiết yếu cho các ứng dụng chỉnh sửa ảnh và công cụ chuyển đổi hình ảnh.
 
-### **Cộng đồng & Hỗ trợ**
-- **[Diễn đàn hỗ trợ](https://forum.conholdate.com/)** - Nhận sự trợ giúp từ các chuyên gia và cộng đồng
+{{% /alert %}}
 
-### **Cấp phép & Thử nghiệm**
-- **[Giấy phép tạm thời](https://conholdate.com/temporary-license/)** - Thời gian đánh giá mở rộng
-- **[Cấp phép linh hoạt](https://conholdate.com/purchase/)** - Giải pháp cho mọi quy mô dự án
+**Tính năng xử lý hình ảnh:**
+- Chuyển đổi hình ảnh đa định dạng
+- Các thao tác thay đổi kích thước, cắt xén và chuyển đổi
+- Ứng dụng lọc và hiệu ứng
+- Quy trình xử lý hàng loạt
+- Trích xuất và thao tác siêu dữ liệu
+
+**[Xử lý hình ảnh như một chuyên gia →](./imaging/)**
+
+---
+
+#### Aspose.Drawing cho .NET
+
+{{% alert color="primary" %}}
+**Lập trình đồ họa 2D** - Tạo biểu đồ, sơ đồ và đồ họa tùy chỉnh theo chương trình. Xây dựng các công cụ trực quan hóa dữ liệu và hệ thống tạo đồ họa với khả năng vẽ chính xác.
+
+{{% /alert %}}
+
+**Khả năng đồ họa:**
+- Tạo đồ họa vector và raster
+- Tạo biểu đồ và sơ đồ tùy chỉnh
+- Hiển thị văn bản với kiểu chữ nâng cao
+- Biến đổi tọa độ
+- Xuất sang nhiều định dạng hình ảnh
+
+**[Tạo đồ họa tùy chỉnh →](./drawing/)**
+
+---
+
+### Xử lý Web & HTML
+
+#### Aspose.HTML cho .NET
+
+{{% alert color="primary" %}}
+**Xử lý tài liệu HTML** - Chuyển đổi HTML sang PDF, thao tác với các thành phần DOM và xử lý nội dung web. Xây dựng các công cụ thu thập dữ liệu web, trình chuyển đổi HTML sang PDF và hệ thống quản lý nội dung.
+
+{{% /alert %}}
+
+**Xử lý HTML bao gồm:**
+- Chuyển đổi HTML sang PDF/Hình ảnh
+- Thao tác và phân tích DOM
+- Xử lý bố cục và kiểu dáng CSS
+- Trích xuất nội dung và thu thập dữ liệu web
+- Hệ thống kết xuất mẫu
+
+**[Xử lý tài liệu HTML →](./html/)**
+
+---
+
+### Định dạng tệp chuyên biệt
+
+#### Aspose.CAD cho .NET
+
+{{% alert color="primary" %}}
+**Xử lý tệp CAD** - Làm việc với bản vẽ AutoCAD, chuyển đổi định dạng CAD và trích xuất bản vẽ kỹ thuật. Hoàn hảo cho các ứng dụng kỹ thuật và hệ thống tài liệu kỹ thuật.
+
+{{% /alert %}}
+
+**[Xử lý tệp CAD →](./cad/)**
+
+#### Aspose.3D cho .NET
+
+{{% alert color="primary" %}}
+**Mô hình hóa và xử lý 3D** - Tạo, thao tác và chuyển đổi mô hình 3D. Xây dựng các ứng dụng cho trò chơi, hình ảnh kiến trúc và quản lý nội dung 3D.
+
+{{% /alert %}}
+
+**[Làm việc với Mô hình 3D →](./3d/)**
+
+#### Aspose.BarCode cho .NET
+
+{{% alert color="primary" %}}
+**Tạo và nhận dạng mã vạch** - Tạo và đọc hơn 60 loại mã vạch. Xây dựng hệ thống kiểm kê, ứng dụng điểm bán hàng và giải pháp nhận dạng tự động.
+
+{{% /alert %}}
+
+**[Tạo và đọc mã vạch →](./barcode/)**
+
+---
+
+### Phân tích tài liệu & OCR
+
+#### Aspose.OCR cho .NET
+
+{{% alert color="primary" %}}
+**Nhận dạng ký tự quang học** - Trích xuất văn bản từ hình ảnh và tài liệu được quét với độ chính xác cao. Xây dựng hệ thống số hóa tài liệu và giải pháp nhập dữ liệu tự động.
+
+{{% /alert %}}
+
+**[Trích xuất văn bản từ hình ảnh →](./ocr/)**
+
+#### Aspose.PSD cho .NET
+
+{{% alert color="primary" %}}
+**Xử lý tệp Photoshop** Làm việc với các tệp PSD, trích xuất các lớp và chuyển đổi định dạng đồ họa. Thiết yếu cho hệ thống tự động hóa thiết kế và quản lý tài sản.
+
+{{% /alert %}}
+
+**[Xử lý tệp Photoshop →](./psd/)**
+
+---
+
+### Nén & Lưu trữ
+
+#### Aspose.ZIP cho .NET
+
+{{% alert color="primary" %}}
+**Quản lý lưu trữ** - Tạo, trích xuất và quản lý các tệp nén với các tùy chọn nâng cao. Xây dựng hệ thống sao lưu, công cụ phân phối tệp và giải pháp tối ưu hóa lưu trữ.
+
+{{% /alert %}}
+
+**[Quản lý Lưu trữ & Nén →](./zip/)**
+
+---
+
+### Xuất bản & Kiểu chữ
+
+#### Aspose.TeX cho .NET
+
+{{% alert color="primary" %}}
+**Xử lý tài liệu LaTeX** - Soạn thảo tài liệu toán học, tạo ấn phẩm kỹ thuật và xử lý tệp TeX. Hoàn hảo cho hệ thống tài liệu học thuật và khoa học.
+
+{{% /alert %}}
+
+**[Xử lý LaTeX thành thạo →](./tex/)**
+
+#### Aspose.Page cho .NET
+
+{{% alert color="primary" %}}
+**Xử lý PostScript và XPS** - Xử lý ngôn ngữ mô tả trang, chuyển đổi tài liệu và quản lý các tệp sẵn sàng in. Thiết yếu cho quy trình xuất bản chuyên nghiệp.
+
+{{% /alert %}}
+
+**[Tệp Mô tả Trang Quy trình →](./page/)**
+
+---
+
+### Năng suất & Quản lý dự án
+
+#### Aspose.Note cho .NET
+
+{{% alert color="primary" %}}
+**Xử lý tài liệu OneNote** - Trích xuất nội dung, thao tác sổ ghi chép và tích hợp với quy trình làm việc năng suất. Xây dựng các ứng dụng ghi chú và hệ thống quản lý kiến thức.
+
+{{% /alert %}}
+
+**[Làm việc với Tệp OneNote →](./note/)**
+
+#### Aspose.Tasks cho .NET
+
+{{% alert color="primary" %}}
+**Tự động hóa quản lý dự án** - Đọc, ghi và chuyển đổi các tệp Microsoft Project. Xây dựng hệ thống theo dõi dự án, công cụ quản lý tài nguyên và ứng dụng lập lịch trình.
+
+{{% /alert %}}
+
+**[Tự động hóa quản lý dự án →](./tasks/)**
+
+---
+
+### Hệ thống thông tin địa lý
+
+#### Aspose.GIS cho .NET
+
+{{% alert color="primary" %}}
+**Xử lý dữ liệu địa lý** - Làm việc với bản đồ, dữ liệu không gian và định dạng GIS. Xây dựng các ứng dụng dựa trên vị trí, hệ thống lập bản đồ và công cụ phân tích địa lý.
+
+{{% /alert %}}
+
+**[Xử lý dữ liệu địa lý →](./gis/)**
+
+---
+
+## API quản lý tài liệu GroupDocs
+
+### Xem và kết xuất tài liệu
+
+#### GroupDocs.Viewer cho .NET
+
+{{% alert color="primary" %}}
+**Trình xem tài liệu phổ quát** Hiển thị hơn 170 định dạng tệp trong ứng dụng web và máy tính để bàn mà không cần cài đặt phần mềm bổ sung. Xây dựng cổng thông tin quản lý tài liệu và hệ thống xem nội dung.
+
+{{% /alert %}}
+
+**[Tạo Trình xem Tài liệu →](./viewer/)**
+
+---
+
+### Chuyển đổi & Chuyển đổi Tài liệu
+
+#### GroupDocs.Conversion cho .NET
+
+{{% alert color="primary" %}}
+**Chuyển đổi tài liệu có độ trung thực cao** - Chuyển đổi giữa hơn 50 định dạng tài liệu với độ chính xác đến từng pixel. Xây dựng các dịch vụ chuyển đổi tài liệu và công cụ di chuyển định dạng.
+
+{{% /alert %}}
+
+**[Chuyển đổi bất kỳ định dạng tài liệu nào →](./conversion/)**
+
+---
+
+### So sánh và phân tích tài liệu
+
+#### GroupDocs.Comparison cho .NET
+
+{{% alert color="primary" %}}
+**So sánh tài liệu thông minh** - So sánh tài liệu và làm nổi bật sự khác biệt bằng các thuật toán tiên tiến. Xây dựng hệ thống rà soát tài liệu, công cụ kiểm soát phiên bản và giải pháp tuân thủ.
+
+{{% /alert %}}
+
+**[So sánh tài liệu một cách thông minh →](./comparison/)**
+
+---
+
+### Hợp tác & Chú thích
+
+#### GroupDocs.Annotation cho .NET
+
+{{% alert color="primary" %}}
+**Công cụ cộng tác tài liệu** Thêm bình luận, đánh dấu và chú thích vào tài liệu. Xây dựng quy trình đánh giá, hệ thống phản hồi và nền tảng chỉnh sửa cộng tác.
+
+{{% /alert %}}
+
+**[Bật tính năng cộng tác tài liệu →](./annotation/)**
+
+---
+
+### Chữ ký số và Bảo mật
+
+#### GroupDocs.Signature cho .NET
+
+{{% alert color="primary" %}}
+**Giải pháp chữ ký số** - Ký tài liệu với nhiều loại chữ ký khác nhau, xác minh tính xác thực và đảm bảo tính toàn vẹn của tài liệu. Xây dựng quy trình làm việc tài liệu an toàn và hệ thống tuân thủ.
+
+{{% /alert %}}
+
+**[Triển khai chữ ký số →](./signature/)**
+
+---
+
+### Quản lý siêu dữ liệu
+
+#### GroupDocs.Metadata cho .NET
+
+{{% alert color="primary" %}}
+**Xử lý siêu dữ liệu tài liệu** - Trích xuất, chỉnh sửa và quản lý siêu dữ liệu trên nhiều định dạng tệp. Xây dựng hệ thống lập chỉ mục tài liệu, nền tảng quản lý nội dung và các công cụ tuân thủ.
+
+{{% /alert %}}
+
+**[Quản lý siêu dữ liệu tài liệu →](./metadata/)**
+
+---
+
+### Lắp ráp và hợp nhất tài liệu
+
+#### GroupDocs.Merger cho .NET
+
+{{% alert color="primary" %}}
+**Bộ công cụ thao tác tài liệu** Hợp nhất, tách, sắp xếp lại và tổ chức tài liệu theo chương trình. Xây dựng hệ thống lắp ráp tài liệu, công cụ xử lý hàng loạt và tự động hóa quy trình làm việc.
+
+{{% /alert %}}
+
+**[Hợp nhất và sắp xếp tài liệu →](./merger/)**
+
+---
+
+## Bắt đầu
+
+### Danh sách kiểm tra bắt đầu nhanh
+1. **Chọn API của bạn** - Chọn chức năng phù hợp với nhu cầu của dự án
+2. **Cài đặt gói NuGet** - Thêm thư viện vào dự án .NET của bạn
+3. **Làm theo hướng dẫn** - Bắt đầu với các ví dụ cơ bản và tiến tới các tính năng nâng cao
+4. **Tham gia cộng đồng** - Nhận trợ giúp từ các nhà phát triển và chuyên gia
+
+### Môi trường phát triển
+- **Khung .NET** 2.0 - 4.8
+- **.NET Core** 2.0+
+- **.NET 5/6/7/8**
+- **Visual Studio** 2017 hoặc sau đó
+- **C# hoặc VB.NET** kiến thức lập trình
+
+### Đường dẫn hướng dẫn phổ biến
+
+**Dành cho người mới bắt đầu:**
+1. Bắt đầu với hướng dẫn chuyển đổi tài liệu cơ bản
+2. Tìm hiểu những nguyên tắc cơ bản về định dạng tệp
+3. Thực hành với các ví dụ tự động hóa đơn giản
+
+**Dành cho các nhà phát triển có kinh nghiệm:**
+1. Khám phá các tính năng API nâng cao
+2. Xây dựng các giải pháp ứng dụng hoàn chỉnh
+3. Triển khai quy trình làm việc cấp doanh nghiệp
+
+**Đối với nhóm doanh nghiệp:**
+1. Kiến trúc và mẫu thiết kế
+2. Kỹ thuật tối ưu hóa hiệu suất
+3. Chiến lược triển khai và khả năng mở rộng
