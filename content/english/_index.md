@@ -167,6 +167,6 @@ Comprehensive email processing, conversion, and analysis solutions.
 - **[Support Forums](https://forum.conholdate.com/)** - Get help from experts and community
 
 ### **Licensing & Trials**
-- **[Temporary Licenses](https://conholdate.com/temporary-license/)** - Extended evaluation periods
-- **[Flexible Licensing](https://conholdate.com/purchase/)** - Solutions for every project size
+- **[Temporary Licenses](https://purchase.conholdate.com/temporary-license/)** - Extended evaluation periods
+- **[Buy](https://purchase.conholdate.com/buy)** - Solutions for every project size
 
