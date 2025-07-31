@@ -43,7 +43,7 @@ Geef de map op waar uw PDF-bestand zich bevindt:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Zorg ervoor dat u het pad vervangt door de werkelijke map van uw PDF-bestand.
+Zorg ervoor dat u het pad vervangt door de daadwerkelijke map van uw PDF-bestand.
 
 ## Stap 2: Het PDF-document laden
 

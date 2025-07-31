@@ -53,7 +53,7 @@ Benvenuti alla più completa raccolta di tutorial sull'elaborazione di documenti
 #### Aspose.Slides per .NET
 
 {{% alert color="primary" %}}
-**Automazione delle presentazioni PowerPoint** - Crea presentazioni coinvolgenti in modo programmatico, converti le diapositive in vari formati e crea sistemi di gestione delle presentazioni. Ideale per la creazione automatica di report e contenuti.
+**Automazione delle presentazioni PowerPoint** - Crea presentazioni coinvolgenti in modo programmatico, converti le diapositive in vari formati e crea sistemi di gestione delle presentazioni. Ideale per la generazione automatica di report e contenuti.
 
 {{% /alert %}}
 
@@ -84,7 +84,7 @@ Benvenuti alla più completa raccolta di tutorial sull'elaborazione di documenti
 - Funzionalità di sicurezza e crittografia
 - Conformità PDF/A per l'archiviazione
 
-**[Elaborazione PDF avanzata →](./pdf/)**
+**[Padroneggiare l'elaborazione PDF →](./pdf/)**
 
 ---
 
@@ -263,7 +263,7 @@ Benvenuti alla più completa raccolta di tutorial sull'elaborazione di documenti
 
 {{% /alert %}}
 
-**[Lavorare con i file di OneNote →](./note/)**
+**[Lavorare con i file OneNote →](./note/)**
 
 #### Aspose.Tasks per .NET
 
@@ -285,7 +285,7 @@ Benvenuti alla più completa raccolta di tutorial sull'elaborazione di documenti
 
 {{% /alert %}}
 
-**[Elaborare dati geografici →](./gis/)**
+**[Elaborazione dati geografici →](./gis/)**
 
 ---
 

@@ -142,7 +142,7 @@ Att skapa en grafisk bakgrund i en ODS-fil med Aspose.Cells för .NET är enkelt
 JPG- och PNG-format fungerar bäst med Aspose.Cells.
 
 ### Behöver jag någon ytterligare programvara för att köra Aspose.Cells?  
-Nej, se bara till att du har den .NET-körmiljö som krävs.
+Nej, se bara till att du har den .NET-körtidsmiljö som krävs.
 
 ### Är Aspose.Cells gratis att använda?  
 Aspose.Cells erbjuder en gratis provperiod, men en licens krävs för fortsatt användning. Du kan få en tillfällig licens. [här](https://purchase.aspose.com/temporary-license/).

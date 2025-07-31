@@ -67,7 +67,7 @@ Der `MediaBox` gibt die Abmessungen der Seite an, einschließlich Breite und Hö
 
 ## Schritt 4: Breite und Höhe vertauschen
 
-Um die Seitenausrichtung zu ändern, vertauschen wir die Werte für Breite und Höhe. Diese Anpassung ändert die Abmessungen der Seite:
+Um die Seitenausrichtung zu ändern, tauschen wir die Werte für Breite und Höhe. Diese Anpassung ändert die Abmessungen der Seite:
 
 ```csharp
 double newHeight = r.Width;
@@ -118,7 +118,7 @@ Und fertig! Das Ändern der Seitenausrichtung einer PDF-Datei mit Aspose.PDF fü
 ### Kann ich bestimmte Seiten statt aller Seiten im PDF drehen?  
 Ja, Sie können die Schleife so ändern, dass sie bestimmte Seiten anhand ihres Indexes anspricht, anstatt alle Seiten zu durchlaufen.
 
-### Was ist die `MediaBox`?  
+### Was ist der `MediaBox`?  
 Der `MediaBox` definiert die Größe und Form der Seite in einer PDF-Datei und bestimmt, wo der Inhalt platziert wird.
 
 ### Funktioniert Aspose.PDF für .NET mit anderen Dateiformaten?  

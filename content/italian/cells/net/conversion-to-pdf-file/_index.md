@@ -48,7 +48,7 @@ Vuoi vederlo in azione? Dai un'occhiata al nostro tutorial completo su [Converti
 
 Diagrammi e tabelle sono spesso la parte più preziosa dei tuoi documenti Excel: raccontano la storia che i tuoi dati cercano di comunicare. Convertire i grafici Excel in PDF preserva perfettamente questi elementi visivi, garantendo che presentazioni e report mantengano il loro impatto.
 
-Aspose.Cells eccelle (gioco di parole voluto!) nella conversione dei grafici. Che si tratti di semplici grafici a barre, complessi grafici combinati o visualizzazioni personalizzate, la libreria mantiene inalterata la qualità, i colori, i font e il layout dei grafici durante il processo di conversione in PDF.
+Aspose.Cells eccelle (gioco di parole voluto!) nella conversione dei grafici. Che si tratti di semplici grafici a barre, grafici combinati complessi o visualizzazioni personalizzate, la libreria mantiene inalterata la qualità, i colori, i font e il layout dei grafici durante il processo di conversione in PDF.
 
 Il processo è sorprendentemente semplice, ma ci sono alcune buone pratiche che è opportuno seguire. Ad esempio, assicurarsi che le dimensioni del grafico siano ottimizzate per la visualizzazione in formato PDF, gestire correttamente gli sfondi trasparenti e gestire le legende dei grafici che potrebbero estendersi oltre i limiti standard della pagina.
 

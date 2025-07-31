@@ -30,7 +30,7 @@ Word 문서를 프로그래밍 방식으로 처리할 때 Aspose.Words for .NET�
  ## 문서 옵션 및 설정 마스터링 튜토리얼
 | 제목 | 설명 |
 | --- | --- |
-| [MS Word 문서 최적화](./optimize-for-ms-word-document/) | Aspose.Words for .NET을 사용하여 다양한 Microsoft Word 버전에서 Word 문서의 서식과 모양이 유지되도록 하는 방법을 알아보세요. |
+| [MS Word 문서 최적화](./optimize-for-ms-word-document/) | Aspose.Words for .NET을 사용하여 다양한 Microsoft Word 버전에서 Word 문서의 형식과 모양이 유지되도록 하는 방법을 알아보세요. |
 | [문법 및 철자 오류 강조](./highlight-grammatical-and-spelling-errors/) | Aspose.Words for .NET을 사용하여 Word 문서의 문법 및 맞춤법 오류를 자동으로 감지하는 방법을 알아보세요. 이 단계별 가이드는 다음과 같습니다. |
 | [문서 페이지 레이아웃](./document-page-layout/) | 간단하고 실행 가능한 단계를 통해 페이지 레이아웃을 설정하고, 줄당 문자를 정의하고, 문서 모양을 최적화하는 방법을 알아보세요. 모든 수준의 개발자에게 적합합니다. |
 | [편집 언어로 일본어 추가](./adding-japanese-as-editing-languages/) | Aspose.Words for .NET을 사용하여 문서에 일본어를 편집 언어로 원활하게 통합하는 방법을 알아보세요. 이 단계별 가이드는 다음과 같습니다. |

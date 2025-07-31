@@ -72,7 +72,7 @@ Quando si elaborano più PDF o documenti di grandi dimensioni, l'utilizzo della 
 - **Elaborazione di flussi**: Per file di grandi dimensioni, utilizzare flussi invece di caricare interi documenti nella memoria
 - **Operazioni batch**: Raggruppa insieme operazioni simili per ridurre al minimo il sovraccarico di creazione degli oggetti  
 - **Smaltimento delle risorse**: Implementare modelli di smaltimento adeguati per prevenire perdite di memoria
-- **Strategie di memorizzazione nella cache**: Memorizza nella cache le risorse utilizzate di frequente, come font e immagini
+- **Strategie di caching**: Memorizza nella cache le risorse utilizzate di frequente, come font e immagini
 
 ### Miglioramenti della velocità di elaborazione
 La velocità è importante, soprattutto negli ambienti di produzione. Concentratevi su questi aspetti per ottenere il massimo impatto:

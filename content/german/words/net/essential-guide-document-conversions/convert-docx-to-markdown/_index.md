@@ -18,7 +18,7 @@
 
 ## Einführung
 
-Müssen Sie DOCX in Ihrer .NET-Anwendung in Markdown konvertieren? Dann sind Sie hier richtig. Ob Sie ein Dokumentationssystem aufbauen, Inhalte für statische Site-Generatoren erstellen oder Dokumente für die Veröffentlichung im Internet vorbereiten – die Konvertierung von DOCX-Dateien ins Markdown-Format ist eine häufige Anforderung vieler Entwickler.
+Müssen Sie DOCX in Ihrer .NET-Anwendung in Markdown konvertieren? Dann sind Sie hier richtig. Ob Sie ein Dokumentationssystem aufbauen, Inhalte für statische Site-Generatoren erstellen oder Dokumente für die Veröffentlichung im Internet vorbereiten – die Konvertierung von DOCX-Dateien ins Markdown-Format ist für viele Entwickler eine häufige Anforderung.
 
 Aspose.Words für .NET macht diesen Konvertierungsprozess unglaublich einfach – wir sprechen von nur wenigen Codezeilen. Dieser umfassende Leitfaden führt Sie durch alles, was Sie wissen müssen, von der grundlegenden Konvertierung über die Handhabung komplexer Dokumentstrukturen bis hin zur Behebung häufiger Probleme, die dabei auftreten können.
 
@@ -148,7 +148,7 @@ Wenn Sie eine DOCX-Datei mit Bildern konvertieren, extrahiert Aspose.Words die B
 
 ### Gibt es eine Möglichkeit, das Markdown-Ausgabeformat anzupassen?
 
-Ja! Sie können `MarkdownSaveOptions` um verschiedene Aspekte der Konvertierung anzupassen, einschließlich der Handhabung von Bildern, Tabellenformatierungseinstellungen und anderer ausgabespezifischer Einstellungen. Dies gibt Ihnen eine detaillierte Kontrolle über das endgültige Markdown-Format.
+Ja! Sie können `MarkdownSaveOptions` um verschiedene Aspekte der Konvertierung anzupassen, einschließlich der Handhabung von Bildern, der Tabellenformatierungseinstellungen und anderer ausgabespezifischer Einstellungen. Dies gibt Ihnen eine detaillierte Kontrolle über das endgültige Markdown-Format.
 
 ### Wo kann ich auf die ausführliche Dokumentation zu Aspose.Words für .NET zugreifen?
 

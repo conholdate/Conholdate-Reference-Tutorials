@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用 Aspose.Words for .NET 無縫地將數位簽章新增至您的 Word 文件。本教學內容全面，涵蓋從設定環境、插入簽名行到儲存和驗證簽名文件的所有內容。"
+"description": "了解如何使用 Aspose.Words for .NET 將數位簽章無縫新增至您的 Word 文件。本綜合教學涵蓋了從設定環境、插入簽名行到儲存和驗證簽名文件的所有內容。"
 "linktitle": "建立並簽署新的簽名行"
 "second_title": "Aspose.Words文件處理API"
 "title": "建立並簽署新的簽名行"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-想要在 Word 文件中新增數位簽章嗎？使用 Aspose.Words for .NET，一切比您想像的還要簡單！本教學將指導您完成環境設定、新增簽名行以及對文件進行數位簽章的步驟。讓我們開始吧！
+想要在 Word 文件中新增數位簽章嗎？使用 Aspose.Words for .NET，這比您想像的要容易！本教學將指導您完成設定環境、新增簽名行和以數位方式簽署文件的步驟。讓我們開始吧！
 
 ## 先決條件
 
@@ -44,7 +44,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // 指定文檔目錄路徑
 
 ## 步驟2：建立新文檔
 
-接下來，讓我們建立一個新的Word文件。該文件將作為您簽名行的畫布。
+接下來，讓我們建立一個新的Word文件。此文件將作為您的簽名行的畫布。
 
 ```csharp
 Document doc = new Document();
@@ -61,7 +61,7 @@ SignatureLine signatureLine = builder.InsertSignatureLine(new SignatureLineOptio
 
 ## 步驟4：儲存文檔
 
-插入簽名行後，請儲存文件。這是簽名前至關重要的一步。
+插入簽名行後，儲存文件。這是簽署前至關重要的一步。
 
 ```csharp
 doc.Save(dataDir + "SignDocuments.SignatureLine.docx");
@@ -69,7 +69,7 @@ doc.Save(dataDir + "SignDocuments.SignatureLine.docx");
 
 ## 步驟5：配置簽名選項
 
-設定簽名流程的選項。這包括指定簽名行 ID 以及與簽名一起顯示的選用影像。
+設定簽名過程的選項。這包括指定簽名行 ID 和與簽名一起顯示的選用影像。
 
 ```csharp
 SignOptions signOptions = new SignOptions
@@ -89,7 +89,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "your_certific
 
 ## 步驟7：簽署文件
 
-最後，使用 `DigitalSignatureUtil` 類。以新名稱儲存已簽署的文件以供日後參考。
+最後，使用 `DigitalSignatureUtil` 班級。使用新名稱儲存已簽署的文件以供日後參考。
 
 ```csharp
 DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLine.docx",
@@ -98,7 +98,7 @@ DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLine.docx",
 
 ## 結論
 
-恭喜！您已成功建立 Word 文檔，新增簽名行，並使用 Aspose.Words for .NET 對其進行數位簽章。這款強大的工具簡化了文件自動化流程，確保您的合約和正式文件得到安全簽署和驗證。
+恭喜！您已成功建立 Word 文件、新增簽章行並使用 Aspose.Words for .NET 對其進行數位簽章。這個強大的工具簡化了文件自動化，確保您的合約和正式文件得到安全簽署和驗證。
 
 ## 常見問題解答
 
@@ -112,7 +112,7 @@ DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLine.docx",
 
 ### 我可以在一份文件中新增多個簽名行嗎？
 
-當然！您可以根據需要重複插入步驟來插入多個簽名行。
+絕對地！您可以根據需要重複插入步驟來插入多個簽名行。
 
 ### 如果我沒有數位憑證怎麼辦？
 

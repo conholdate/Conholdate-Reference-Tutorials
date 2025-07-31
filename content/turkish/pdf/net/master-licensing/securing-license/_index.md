@@ -36,7 +36,7 @@ Projenizde yeni bir C# dosyası oluşturun ve adını şu şekilde koyun: `Secur
 
 ## Adım 2: Kullanım Yönergelerini Ekleme
 
-En üstte `SecureLicense.cs` dosyasına, Aspose kütüphanesinden gerekli sınıflara ve yöntemlere erişmek için aşağıdaki kullanım yönergelerini ekleyin:
+En üstte `SecureLicense.cs` dosyasına, Aspose kütüphanesinden gerekli sınıflara ve yöntemlere erişmek için aşağıdaki using yönergelerini ekleyin:
 
 ```csharp
 using System.IO;
@@ -104,4 +104,4 @@ Aspose, lisans satın almadan önce kütüphaneyi değerlendirebilmeniz için ku
 Belgelere şu adresten ulaşılabilir: [Aspose PDF Belgeleri](https://reference.aspose.com/pdf/net/).
 
 ### Lisansımla ilgili sorun yaşarsam ne yapmalıyım?
-Herhangi bir sorunla karşılaşırsanız, yardım isteyebilirsiniz. [Aspose destek forumu](https://forum.aspose.com/c/pdf/10).
+Herhangi bir sorunla karşılaşırsanız, yardım alabilirsiniz. [Aspose destek forumu](https://forum.aspose.com/c/pdf/10).

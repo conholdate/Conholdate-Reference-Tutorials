@@ -46,11 +46,11 @@ Tato kombinace vám nabízí to nejlepší z obou světů: robustní zpracován�
 
 Chcete-li začít s vývojem shrnujících dokumentů v .NET, ujistěte se, že máte následující:
 
-1. **Znalost C# a .NET**Důkladná znalost jazyků C# a .NET vám pomůže efektivněji se orientovat v kódu a konceptech. Pokud s .NET teprve začínáte, zvažte nejprve zopakování základních konceptů.
+1. **Znalost C# a .NET**Důkladná znalost jazyka C# a .NET vám pomůže efektivněji se orientovat v kódu a konceptech. Pokud s .NET teprve začínáte, zvažte nejprve zopakování základních konceptů.
 
 2. **Aspose.Words pro .NET**Tato výkonná knihovna poskytuje komplexní nástroje pro vytváření, úpravy a správu dokumentů aplikace Word v aplikacích .NET. Stáhněte si ji. [zde](https://releases.aspose.com/words/net/)Knihovna bezproblémově zvládá parsování dokumentů, zachování formátování a extrakci obsahu.
 
-3. **Klíč API pro Google AI**Pro ověření požadavků na model umělé inteligence od Googlu je vyžadován klíč API. Tento klíč bezpečně uložte do proměnných prostředí – nikdy jej nezakódujte napevno ve zdrojovém kódu. Budete si muset nastavit účet Google Cloud a povolit příslušné služby umělé inteligence.
+3. **Klíč API pro umělou inteligenci od Googlu**Pro ověření požadavků na model umělé inteligence od Googlu je vyžadován klíč API. Tento klíč bezpečně uložte do proměnných prostředí – nikdy jej nezakódujte napevno ve zdrojovém kódu. Budete si muset nastavit účet Google Cloud a povolit příslušné služby umělé inteligence.
 
 4. **Vývojové prostředí**Pro sestavení a spuštění aplikace je nezbytné vývojové prostředí (IDE) kompatibilní s .NET, jako je Visual Studio nebo JetBrains Rider. Ujistěte se, že máte nainstalováno rozhraní .NET 6.0 nebo novější.
 
@@ -91,7 +91,7 @@ if (!Directory.Exists(ArtifactsDir))
 
 ## Krok 2: Načtěte dokumenty aplikace Word
 
-Dále načtěte dokumenty, které chcete shrnout, pomocí `Document` třída z Aspose.Words. Právě zde vyniknou robustní funkce pro práci s dokumenty ve vašem řešení pro sumarizaci dokumentů v .NET.
+Dále nahrajte dokumenty, které chcete shrnout, pomocí `Document` třída z Aspose.Words. Právě zde vyniknou robustní funkce pro práci s dokumenty ve vašem řešení pro sumarizaci dokumentů v .NET.
 
 ```csharp
 Document firstDoc = new Document(MyDir + "Big document.docx");
@@ -275,7 +275,7 @@ Vaše řešení pro sumarizaci dokumentů v .NET dokáže transformovat různé 
 
 Díky tomuto komplexnímu tutoriálu jste nyní vybaveni k vytváření robustních aplikací pro sumarizaci dokumentů v .NET s využitím modelů Aspose.Words a Google AI. Naučili jste se zvládat vše od základní sumarizace jednoho dokumentu až po složité scénáře zpracování více dokumentů.
 
-Kombinace schopností Aspose.Words pro zpracování dokumentů se zpracováním přirozeného jazyka pomocí umělé inteligence Google vytváří výkonné řešení, které může transformovat způsob, jakým vaše organizace zpracovává informace. Od definování adresářů dokumentů a načítání souborů až po načítání klíčů API a konfiguraci instancí modelů, každý krok zajišťuje, že dokážete efektivně zpracovávat velké objemy textu a vytvářet přesné souhrny pouze s několika řádky kódu.
+Kombinace schopností Aspose.Words pro práci s dokumenty se zpracováním přirozeného jazyka pomocí umělé inteligence Google vytváří výkonné řešení, které může transformovat způsob, jakým vaše organizace zpracovává informace. Od definování adresářů dokumentů a načítání souborů až po načítání klíčů API a konfiguraci instancí modelů, každý krok zajišťuje, že dokážete efektivně zpracovávat velké objemy textu a vytvářet přesné souhrny pouze s několika řádky kódu.
 
 Nezapomeňte implementovat správné ošetření chyb, bezpečnostní opatření a optimalizaci výkonu pro produkční nasazení. S neustálým vývojem modelů umělé inteligence vám tento základ umožní snadno upgradovat a vylepšovat vaše funkce pro sumarizaci dokumentů.
 
@@ -283,7 +283,7 @@ Nezapomeňte implementovat správné ošetření chyb, bezpečnostní opatření
 
 ### Co je Aspose.Words pro .NET a proč ho používat pro sumarizaci dokumentů?
 
-Aspose.Words pro .NET je komplexní knihovna pro vytváření, úpravy a převod dokumentů Word v aplikacích .NET. Je ideální pro shrnování dokumentů v projektech .NET, protože zvládá složité formátování dokumentů, zachovává strukturu dokumentů během zpracování a poskytuje robustní API pro manipulaci s dokumenty. Na rozdíl od jednoduché extrakce textu si Aspose.Words zachovává kontext ze záhlaví, tabulek a formátování, který je klíčový pro přesnou sumarizaci.
+Aspose.Words pro .NET je komplexní knihovna pro vytváření, úpravy a převod dokumentů Word v aplikacích .NET. Je ideální pro shrnování dokumentů v projektech .NET, protože zvládá složité formátování dokumentů, zachovává strukturu dokumentu během zpracování a poskytuje robustní API pro manipulaci s dokumenty. Na rozdíl od jednoduché extrakce textu si Aspose.Words zachovává kontext ze záhlaví, tabulek a formátování, který je klíčový pro přesnou sumarizaci.
 
 ### Jak získám klíč Google API pro sumarizaci pomocí umělé inteligence?
 

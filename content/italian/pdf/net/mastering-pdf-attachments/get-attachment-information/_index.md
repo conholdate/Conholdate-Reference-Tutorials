@@ -96,7 +96,7 @@ Questo frammento di codice stampa il nome, la descrizione e il tipo MIME del fil
 Alcuni file incorporati potrebbero contenere metadati aggiuntivi. Controlliamo e visualizziamo questi parametri:
 
 ```csharp
-// Verificare la presenza di parametri aggiuntivi
+// Controllare i parametri aggiuntivi
 if (fileSpecification.Params != null)
 {
     Console.WriteLine("CheckSum: {0}", fileSpecification.Params.CheckSum);

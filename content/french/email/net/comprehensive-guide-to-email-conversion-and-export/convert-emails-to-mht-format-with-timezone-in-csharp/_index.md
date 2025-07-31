@@ -67,7 +67,7 @@ Install-Package Aspose.Email
 ```
 
 ```csharp
-// Ajouter les instructions nécessaires à l'aide d'instructions
+// Ajouter les instructions nécessaires à l'aide
 using Aspose.Email;
 ```
 

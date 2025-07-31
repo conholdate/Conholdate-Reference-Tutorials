@@ -21,7 +21,7 @@ Install-Package Aspose.Email
 
 ## 新しいメールメッセージを作成する
 
-新しい電子メールメッセージを作成するには、 `MailMessage` クラス。このクラスを使用すると、送信者、受信者、件名、添付ファイルなどのさまざまな属性を指定できます。
+新しいメールメッセージを作成するには、 `MailMessage` クラス。このクラスを使用すると、送信者、受信者、件名、添付ファイルなどのさまざまな属性を指定できます。
 
 ```csharp
 MailMessage message = new MailMessage
@@ -94,7 +94,7 @@ Aspose.Email for .NET を活用することで、視覚的に魅力的でイン�
 ## よくある質問
 
 ### Aspose.Email for .NET を Windows フォームと ASP.NET アプリケーションの両方で使用できますか?
-はい、Aspose.Email for .NET は汎用性が高く、さまざまな種類の .NET アプリケーションと互換性があります。
+はい、Aspose.Email for .NET は汎用性が高く、さまざまな .NET アプリケーション タイプと互換性があります。
 
 ### Aspose.Email for .NET は電子メールの添付ファイルをサポートしていますか?
 もちろんです！ライブラリを使えば、メールメッセージにファイルを簡単に添付できます。

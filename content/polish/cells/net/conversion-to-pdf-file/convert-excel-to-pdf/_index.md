@@ -75,7 +75,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Dzięki temu importowi uzyskujesz dostęp do wszystkich funkcji obsługi plików i Aspose.Cells, jakich potrzebujesz.
+Dzięki temu importowi uzyskujesz dostęp do wszystkich funkcji obsługi plików i Aspose.Cells, których będziesz potrzebować.
 
 ## Samouczek krok po kroku dotyczący konwersji plików Excel do PDF
 
@@ -127,7 +127,7 @@ W aplikacjach produkcyjnych zazwyczaj rejestrujesz te informacje lub uruchamiasz
 
 ## Zaawansowane opcje dostosowywania plików PDF
 
-Chociaż podstawowa konwersja sprawdza się w wielu scenariuszach, często potrzebna jest większa kontrola nad plikiem PDF. Oto jak dostosować konwersję z Excela do PDF:
+Chociaż podstawowa konwersja sprawdza się doskonale w wielu scenariuszach, często potrzebna jest większa kontrola nad plikiem PDF. Oto jak dostosować konwersję z Excela do PDF:
 
 ### Kontrolowanie układu i jakości plików PDF
 Możesz dostosować różne aspekty wydruku PDF:
@@ -276,4 +276,4 @@ Tak, Aspose oferuje bezpłatną wersję próbną, idealną do ewaluacji i małyc
 Możesz kontrolować, które arkusze kalkulacyjne zostaną przekonwertowane, korzystając z `OnePagePerSheet` opcja w `PdfSaveOptions`lub kopiując określone arkusze do nowego skoroszytu przed konwersją. Daje to precyzyjną kontrolę nad wyjściowym plikiem PDF.
 
 ### Gdzie mogę znaleźć bardziej zaawansowaną dokumentację i przykłady?
-Ten [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) jest niezwykle obszerny i zawiera szczegółowe przewodniki, odniesienia do API i przykłady kodu na potrzeby praktycznie każdego scenariusza, jaki możesz napotkać.
+Ten [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) jest niezwykle kompleksowy i zawiera szczegółowe przewodniki, odniesienia do API i przykłady kodu na potrzeby praktycznie każdego scenariusza, jaki możesz napotkać.

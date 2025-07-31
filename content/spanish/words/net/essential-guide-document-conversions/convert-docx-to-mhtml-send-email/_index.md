@@ -86,11 +86,11 @@ using (Stream stream = new MemoryStream())
 }
 ```
 
-**¿Por qué utilizar un MemoryStream?** En lugar de guardar en un archivo y luego leerlo, guardamos todo en la memoria. Este enfoque es más rápido y eficiente, especialmente al procesar varios documentos.
+**¿Por qué utilizar un MemoryStream?** En lugar de guardar en un archivo y luego leerlo, guardamos todo en memoria. Este enfoque es más rápido y eficiente, especialmente al procesar varios documentos.
 
 **Nota importante**: El `stream.Position = 0` La línea es crucial: restablece el puntero del flujo al principio para que el componente de correo electrónico pueda leer todo el contenido MHTML.
 
-## Paso 3: Crea un mensaje de correo electrónico
+## Paso 3: Crear un mensaje de correo electrónico
 
 Ahora, crea un mensaje de correo electrónico desde la secuencia MHTML usando Aspose.Email. Utilizarás el `MailMessage` clase para este propósito.
 
@@ -196,7 +196,7 @@ Esta técnica de conversión de correo electrónico de DOCX a MHTML destaca en v
 
 ## Conclusión
 
-¡Felicitaciones! Aprendió a convertir documentos DOCX a MHTML y a enviarlos por correo electrónico con Aspose.Words y Aspose.Email para .NET. Esta potente combinación le brinda la flexibilidad necesaria para gestionar el procesamiento y la comunicación de documentos en un flujo de trabajo único y optimizado.
+¡Felicitaciones! Has aprendido a convertir documentos DOCX a MHTML y enviarlos por correo electrónico usando Aspose.Words y Aspose.Email para .NET. Esta potente combinación te brinda la flexibilidad para gestionar el procesamiento y la comunicación de documentos en un flujo de trabajo único y optimizado.
 
 El proceso que cubrimos (carga del documento, conversión a MHTML, creación de un mensaje de correo electrónico y envío por SMTP) constituye la base de muchos flujos de trabajo automatizados de documentos. Con los consejos para la resolución de problemas y las mejores prácticas incluidas, estará bien preparado para implementar esta solución en entornos de producción.
 

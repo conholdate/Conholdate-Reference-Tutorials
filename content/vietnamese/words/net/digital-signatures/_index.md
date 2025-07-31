@@ -29,7 +29,7 @@ Việc thêm dòng chữ ký cũng giống như việc cung cấp cho tài liệ
  ## Hướng dẫn về chữ ký số
 | Tiêu đề | Mô tả |
 | --- | --- |
-| [Chữ ký số cho tài liệu Word](./digitally-signing-word-document/) | Tìm hiểu cách ký tài liệu Word theo chương trình bằng Aspose.Words cho .NET trong hướng dẫn từng bước toàn diện này. |
+| [Chữ ký số vào tài liệu Word](./digitally-signing-word-document/) | Tìm hiểu cách ký tài liệu Word theo chương trình bằng Aspose.Words cho .NET trong hướng dẫn từng bước toàn diện này. |
 | [Đặt ID nhà cung cấp chữ ký số trong tài liệu Word](./set-digital-signature-provider-id/) | Tìm hiểu cách thêm chữ ký số an toàn vào tài liệu Word của bạn với ID Nhà cung cấp chữ ký cụ thể bằng Aspose.Words cho .NET. |
 | [Tạo dòng chữ ký số mới và thiết lập ID nhà cung cấp](./create-new-digital-signature-line-and-set-provider-id/) Khám phá cách thêm dòng chữ ký vào tài liệu Word theo chương trình bằng Aspose.Words cho .NET. Hướng dẫn toàn diện này bao gồm mọi thứ, từ thiết lập môi trường phát triển đến chèn dòng chữ ký và ký tài liệu một cách an toàn. |
 | [Xác minh quyền truy cập và chữ ký số trong tài liệu Word](./access-and-digital-signature-verification/) | Khai phá toàn bộ tiềm năng của Aspose.Words cho .NET bằng cách tìm hiểu cách xác minh chữ ký số hiệu quả trong tài liệu Word. Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình thiết lập. |

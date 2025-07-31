@@ -82,7 +82,7 @@ Dönüştürme işleminden sonra değiştirilen dosyayı yeni bir Excel belgesi 
 workbook.Save(dataDir + "output.xlsx");
 ```
 
-## Adım 6: Çalıştırmayı Onaylayın
+## Adım 6: Yürütmeyi Onaylayın
 
 İşlemin başarılı olduğunu doğrulamak için bir onay mesajı yazdırın:
 

@@ -73,7 +73,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
-**Cosa sta succedendo qui?** Stiamo creando un `Document` oggetto che rappresenta il tuo file PDF in memoria. Sostituisci `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del file PDF.
+**Cosa sta succedendo qui?** Stiamo creando un `Document` oggetto che rappresenta il tuo file PDF in memoria. Sostituisci `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del tuo file PDF.
 
 **Contesto del mondo reale**: Questo approccio è perfetto quando si lavora con documenti esistenti come moduli, report o qualsiasi PDF che necessita di funzionalità interattive aggiunte dopo la creazione.
 

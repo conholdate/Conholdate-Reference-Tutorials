@@ -145,7 +145,7 @@ Chắc chắn rồi! Bạn có thể tải xuống phiên bản dùng thử mi�
 Aspose.PDF hỗ trợ nhiều định dạng khác nhau, bao gồm TIFF, PNG, JPEG, v.v.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.PDF không?
-Có, sau thời gian dùng thử, bạn sẽ cần mua giấy phép để sử dụng cho mục đích thương mại. Kiểm tra [đây](https://purchase.aspose.com/) để biết chi tiết về giá.
+Có, sau thời gian dùng thử, bạn sẽ cần mua giấy phép để sử dụng cho mục đích thương mại. Kiểm tra [đây](https://purchase.aspose.com/) để biết thông tin chi tiết về giá.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.PDF ở đâu?
 Bạn có thể tìm thấy sự hỗ trợ bằng cách truy cập diễn đàn Aspose [đây](https://forum.aspose.com/c/pdf/10).

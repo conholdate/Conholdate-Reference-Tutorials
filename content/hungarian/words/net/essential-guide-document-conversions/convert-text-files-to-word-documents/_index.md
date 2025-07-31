@@ -18,7 +18,7 @@
 
 ## Bevezetés
 
-Elfulladtál már sima szöveges fájlokban, amiket professzionális Word-dokumentumokká kell alakítani? Nem vagy egyedül. Akár régi adatexportálásról, automatizált jelentéskészítésről vagy tömeges tartalomfeldolgozásról van szó, a szöveges fájlok Word-dokumentumokká konvertálása az egyik olyan feladat, amellyel a fejlesztők folyamatosan szembesülnek.
+Volt már olyan, hogy belefulladtál az egyszerű szöveges fájlokba, amelyekből professzionális Word-dokumentumokat kell készíteni? Nem vagy egyedül. Akár régi adatexportálásról, automatizált jelentéskészítésről vagy tömeges tartalomfeldolgozásról van szó, a szöveges fájlok Word-dokumentumokká konvertálása az egyik olyan feladat, amellyel a fejlesztők folyamatosan szembesülnek.
 
 A jó hír? Az Aspose.Words for .NET segítségével ami korábban egy fárasztó manuális folyamat volt, néhány sornyi elegáns kóddá válik. Ez az átfogó útmutató végigvezet mindent, amit tudnod kell egy robusztus szöveg-szó konverter .NET megoldás felépítéséről, amely valóban működik éles környezetben.
 

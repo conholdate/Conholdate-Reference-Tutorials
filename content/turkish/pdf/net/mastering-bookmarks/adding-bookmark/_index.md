@@ -123,7 +123,7 @@ Evet, Aspose.PDF for .NET, ihtiyaç duyduğunuz kadar yer imi eklemenize olanak 
 
 Bir yer iminin görünümünü şu gibi özellikleri kullanarak değiştirebilirsiniz: `Italic`, `Bold`, Ve `Color` üzerinde `OutlineItemCollection` Nesneye özel simgeler veya stiller de ekleyebilirsiniz.
 
-### Aspose.PDF'i kullanmak ücretsiz mi?
+### Aspose.PDF Ücretsiz Kullanılabilir mi?
 
 Aspose.PDF, özelliklerini keşfetmenize olanak tanıyan ücretsiz bir deneme sürümü sunar. Ancak, tüm işlevlerden yararlanmak için bir lisans satın almanız gerekir. [satın alma sayfası](https://purchase.aspose.com/buy) Daha fazla bilgi için.
 

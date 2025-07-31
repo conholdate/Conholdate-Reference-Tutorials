@@ -19,7 +19,7 @@ Antes de comenzar, asegúrese de tener lo siguiente:
 3. Visual Studio o IDE compatible: utilice un entorno de desarrollo integrado (IDE) compatible con .NET como Visual Studio para escribir y probar su código.
 
 ## Paso 1: Importar los paquetes necesarios
-Para trabajar con Aspose.Cells, debe importar los espacios de nombres correspondientes. Agregue las siguientes directivas using al inicio de su archivo de C#:
+Para trabajar con Aspose.Cells, debe importar los espacios de nombres correspondientes. Agregue las siguientes directivas using al principio de su archivo de C#:
 
 ```csharp
 using System.IO;

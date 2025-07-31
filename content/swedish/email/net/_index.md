@@ -40,7 +40,7 @@ Avancerade e-postanalystekniker inklusive skräppostdetektering och innehållsbe
 | Handledning | Beskrivning | Svårighetsgrad |
 |----------|-------------|------------|
 | **[Bayesiansk skräppostanalys i C#](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Maskininlärningsbaserad skräppostdetektering med statistisk analys | ⭐⭐⭐ Avancerat |
-| **[Konvertera HTML-e-post till vanlig text](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Extrahera rent textinnehåll från HTML-mejl | ⭐⭐ Medel |
+| **[Konvertera HTML-e-post till vanlig text](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Extrahera rent textinnehåll från HTML-mejl | ⭐⭐ Medel |
 
 ## 🎯 Populära användningsfall
 
@@ -133,7 +133,7 @@ Avancerade e-postanalystekniker inklusive skräppostdetektering och innehållsbe
 - **[Gratis provperiod](https://releases.aspose.com/email/net/)** - Utvärdera alla funktioner
 
 ### **Gemenskap och stöd**
-- **[Supportforum](https://forum.aspose.com/c/email/12)** - Få hjälp av experter
+- **[Supportforum](https://forum.aspose.com/c/email/12)** Få hjälp av experter
 
 ### **Licensiering och prövningar**
 - **[Tillfällig licens](https://purchase.conholdate.com/temporary-license/)** - Utökad utvärdering

@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用 Aspose.PDF for .NET 提取書籤，釋放 PDF 文件的全部潛力。本逐步教學將引導您完成專案設定。"
+"description": "透過學習如何使用 Aspose.PDF for .NET 提取書籤，釋放 PDF 文件的全部潛力。本逐步教學將引導您完成專案設定。"
 "linktitle": "使用 Aspose.PDF for .NET 從 PDF 檔案取得書籤"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "使用 Aspose.PDF for .NET 從 PDF 檔案取得書籤"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-您是否曾經發現自己無休止地滾動瀏覽冗長的 PDF 文檔，試圖找到特定的章節？您並不孤單！瀏覽 PDF 文件可能會令人沮喪，尤其是在缺少書籤的情況下。幸運的是，使用 Aspose.PDF for .NET，您可以輕鬆提取書籤，從而增強文件的使用者友善性和可訪問性。在本教程中，我們將逐步指導您從 PDF 文件中提取書籤。所以，拿起您最喜歡的飲料，讓我們開始吧！
+您是否發現自己無休止地滾動瀏覽冗長的 PDF 文檔，試圖找到特定的部分？你並不孤單！瀏覽 PDF 可能會令人沮喪，尤其是當它們缺少書籤時。幸運的是，使用 Aspose.PDF for .NET，您可以輕鬆提取書籤，從而增強文件的使用者友善性和可訪問性。在本教學中，我們將逐步指導您從 PDF 檔案中提取書籤的過程。那麼，拿起您最喜歡的飲料，讓我們開始吧！
 
 ## 先決條件
 
@@ -80,11 +80,11 @@ foreach (OutlineItemCollection outlineItem in pdfDocument.Outlines)
 }
 ```
 
-在此程式碼片段中，我們遍歷每個 `Outl在eItemCollection` in `pdfDocument.Outlines`，列印每個書籤的標題、斜體狀態、粗體狀態和顏色。這可以讓您全面查看 PDF 中的書籤。
+在此程式碼片段中，我們遍歷每個 `Outl在eItemCollection` in `pdfDocument.Outlines`，列印每個書籤的標題、斜體狀態、粗體狀態和顏色。這使您可以全面查看 PDF 中的書籤。
 
 ## 結論
 
-恭喜！您已成功使用 Aspose.PDF for .NET 從 PDF 檔案中提取書籤。這個強大的庫簡化了流程，使您的 PDF 文件更易於導航且用戶友好。透過加入書籤，您可以提升讀者的閱讀體驗。
+恭喜！您已成功使用 Aspose.PDF for .NET 從 PDF 檔案中提取書籤。這個強大的庫簡化了流程，使您的 PDF 文件更易於導航和用戶友好。透過使用書籤，您可以增強讀者的閱讀體驗。
 
 ## 常見問題解答
 
@@ -92,7 +92,7 @@ foreach (OutlineItemCollection outlineItem in pdfDocument.Outlines)
 Aspose.PDF for .NET 是一個強大的程式庫，可讓開發人員在 .NET 應用程式內建立、操作和轉換 PDF 文件。
 
 ### 我可以免費使用 Aspose.PDF 嗎？
-是的！ Aspose 提供免費試用，讓您可以探索該程式庫的功能。您可以下載 [這裡](https://releases。aspose.com/).
+是的！ Aspose 提供免費試用，讓您可以探索該程式庫的功能。你可以下載它 [這裡](https://releases。aspose.com/).
 
 ### 在哪裡可以找到對 Aspose.PDF 的支援？
 如需支援或有疑問，請造訪 Aspose 論壇 [這裡](https://forum。aspose.com/c/pdf/10).

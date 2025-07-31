@@ -18,7 +18,7 @@ Adımlara geçmeden önce aşağıdakilerden emin olun:
 1. Aspose.Cells for .NET Kitaplığı: İndirin ve yükleyin [Burada](https://releases.aspose.com/cells/net/).  
 2. Geliştirme Ortamı: Kodu yazmak ve çalıştırmak için Visual Studio gibi bir IDE kullanın.  
 3. Temel C# Bilgisi: C#'a aşinalık kod parçacıklarını anlamanıza yardımcı olacaktır.  
-4. Örnek Excel Dosyası: Adını Excel dosyası olarak hazırlayın `book1.xls` bilinen bir dizinde.  
+4. Örnek Excel Dosyası: Adını şu şekilde koyabileceğiniz bir Excel dosyası hazırlayın: `book1.xls` bilinen bir dizinde.  
 
 ## Gerekli Ad Alanlarını İçe Aktar  
 

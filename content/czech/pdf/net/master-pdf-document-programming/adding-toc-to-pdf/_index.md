@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "AddTOC.pdf");
 ```
 
-**Co se tady děje?** Vytváříme `Document` objekt, který v paměti reprezentuje váš PDF soubor. Představte si to jako programově otevření PDF souboru, abychom s ním mohli pracovat.
+**Co se tady děje?** Vytváříme `Document` objekt, který reprezentuje váš PDF soubor v paměti. Představte si to jako programově otevření PDF souboru, abychom s ním mohli pracovat.
 
 **Úvaha z reálného světa**Ujistěte se, že je cesta k PDF souboru správná a že soubor není uzamčen jiným procesem. Viděl jsem vývojáře trávit hodiny laděním jednoduchých problémů s cestami!
 
@@ -98,7 +98,7 @@ tocPage.TocInfo = tocInfo;
 
 ## Krok 4: Definování prvků obsahu
 
-Tento krok se týká plánování. Definujeme prvky (nebo nadpisy), které se objeví ve vašem obsahu. Ty fungují jako ukazatele, které čtenářům pomohou orientovat se v konkrétních sekcích.
+Tento krok se týká plánování. Definujeme prvky (nebo nadpisy), které se objeví ve vašem obsahu. Ty slouží jako ukazatele, které čtenářům pomohou orientovat se v konkrétních sekcích.
 
 ```csharp
 string[] titles = new string[4];

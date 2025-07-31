@@ -48,14 +48,14 @@ Email rác không chỉ làm lộn xộn hộp thư đến mà còn có thể �
 - Cổng email doanh nghiệp yêu cầu phát hiện mối đe dọa nâng cao
 - Các ứng dụng SaaS xử lý nội dung email do người dùng tạo
 
-### Chuyển đổi Email HTML thành Văn bản thuần túy trong C#
+### Chuyển đổi email HTML thành văn bản thuần túy trong C#
 
-Email HTML trông rất đẹp, nhưng chúng có thể gây ra vấn đề tương thích nghiêm trọng trên nhiều nền tảng và ứng dụng email khác nhau. Hướng dẫn của chúng tôi [Chuyển đổi Email HTML thành Văn bản thuần túy trong C#](./convert-html-email-to-plain-text/) giải quyết thách thức phổ biến này bằng các giải pháp thực tế và đã được kiểm chứng.
+Email HTML trông rất đẹp, nhưng chúng có thể gây ra vấn đề tương thích nghiêm trọng trên nhiều nền tảng và ứng dụng email khác nhau. Hướng dẫn của chúng tôi [Chuyển đổi email HTML thành văn bản thuần túy trong C#](./convert-html-email-to-plain-text/) giải quyết thách thức phổ biến này bằng các giải pháp thực tế và đã được kiểm chứng.
 
 **Những gì bạn sẽ thành thạo:**
 - Kỹ thuật chuyển đổi sạch sẽ giúp bảo toàn nội dung quan trọng
 - Xử lý các trường hợp ngoại lệ như hình ảnh nhúng và định dạng phức tạp
-- Cân nhắc về hiệu suất khi xử lý email hàng loạt
+- Những cân nhắc về hiệu suất khi xử lý email hàng loạt
 - Chiến lược thử nghiệm để đảm bảo độ chính xác của chuyển đổi
 
 **Ứng dụng trong thế giới thực:**
@@ -73,7 +73,7 @@ Email HTML trông rất đẹp, nhưng chúng có thể gây ra vấn đề tư�
 Khi bạn xử lý email ở quy mô lớn, hiệu suất trở nên vô cùng quan trọng. Dưới đây là những gì các nhà phát triển giàu kinh nghiệm đã rút ra:
 
 - **Xử lý hàng loạt**Xử lý nhiều email cùng lúc thay vì xử lý từng email một
-- **Hoạt động không đồng bộ**: Sử dụng các mẫu async/await để ngăn chặn giao diện người dùng bị chặn
+- **Hoạt động bất đồng bộ**: Sử dụng các mẫu async/await để ngăn chặn giao diện người dùng bị chặn
 - **Quản lý bộ nhớ**: Xử lý các đối tượng email đúng cách để tránh rò rỉ bộ nhớ
 - **Bộ nhớ đệm**: Lưu trữ dữ liệu email thường xuyên truy cập để giảm chi phí xử lý
 
@@ -128,5 +128,5 @@ Bạn đang gặp khó khăn với nội dung văn bản thuần túy lộn xộ
 ### [Hướng dẫn phân tích thư rác Bayesian trong C#](./bayesian-spam-analysis-in-csharp/)
 Học cách triển khai phân tích thư rác Bayesian bằng C# với Aspose.Email. Hướng dẫn từng bước với những hiểu biết sâu sắc về mã để lọc email hiệu quả.
 
-### [Chuyển đổi Email HTML thành Văn bản thuần túy trong C#](./convert-html-email-to-plain-text/)
+### [Chuyển đổi email HTML thành văn bản thuần túy trong C#](./convert-html-email-to-plain-text/)
 Tìm hiểu cách dễ dàng chuyển đổi nội dung email HTML sang văn bản thuần túy bằng Aspose.Email cho .NET trong hướng dẫn chi tiết từng bước này.

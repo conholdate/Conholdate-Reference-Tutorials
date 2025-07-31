@@ -34,7 +34,7 @@ Transforme vários formatos de arquivo de e para PDF com qualidade profissional 
 | **[Converter EPUB para PDF](./mastering-document-conversion/convert-epub-to-pdf/)** | Transforme e-books em formato PDF para compatibilidade universal | ⭐ Iniciante |
 | **[Dominando HTML para PDF](./mastering-document-conversion/mastering-html-to-pdf/)** | Conversão de conteúdo da Web em PDF com suporte avançado de estilo | ⭐⭐ Intermediário |
 | **[Conversão de CGM para PDF](./mastering-document-conversion/convert-cgm-to-pdf/)** | Transformação de metarquivo de computação gráfica em PDF | ⭐⭐ Intermediário |
-| **[Adicionar anexos ao PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** | Anexos de documentos compatíveis com os padrões de arquivamento | ⭐⭐⭐ Avançado |
+| **[Adicionar anexos ao PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** Anexos de documentos compatíveis com os padrões de arquivamento | ⭐⭐⭐ Avançado |
 
 ### Programação de documentos PDF mestre
 Técnicas avançadas de programação em PDF para criar soluções sofisticadas de documentos.
@@ -52,14 +52,14 @@ Operações essenciais de página PDF para organização de documentos e gerenci
 | Tutorial | Descrição | Dificuldade |
 |----------|-------------|------------|
 | **[Alterar orientação da página do PDF](./master-pdf-page-management/change-pdf-page-orientation/)** | Ajuste o layout e a orientação da página para uma exibição ideal do documento | ⭐ Iniciante |
-| **[Concatenando arquivos PDF](./master-pdf-page-management/concatenating-pdf-files/)** Mesclar vários documentos PDF em um único arquivo coeso | ⭐⭐ Intermediário |
+| **[Concatenando arquivos PDF](./master-pdf-page-management/concatenating-pdf-files/)** | Mesclar vários documentos PDF em um único arquivo coeso | ⭐⭐ Intermediário |
 | **[Excluir página específica de arquivos PDF](./master-pdf-page-management/delete-particular-page-from-pdf-files/)** | Remover páginas específicas de documentos PDF com eficiência | ⭐ Iniciante |
 | **[Inserir páginas vazias em arquivo PDF](./master-pdf-page-management/insert-empty-pages/)** | Adicione páginas em branco para organização e espaçamento do conteúdo | ⭐ Iniciante |
 | **[Adicionando uma página em branco no final](./master-pdf-page-management/adding-an-empty-page-at-end/)** | Adicionar páginas vazias a documentos PDF programaticamente | ⭐ Iniciante |
 
 ## 🎯 Casos de uso populares
 
-### **Publicação e distribuição de documentos**
+### **Publicação e Distribuição de Documentos**
 - **Publicação Digital**: Converta manuscritos e documentos em PDFs profissionais
 - **Geração de Relatórios**: Criação automatizada de relatórios e apresentações de negócios
 - **Soluções de Arquivo**: Preservação de documentos de longo prazo com conformidade com PDF/A
@@ -67,7 +67,7 @@ Operações essenciais de página PDF para organização de documentos e gerenci
 ### **Criação interativa de documentos**
 - **Desenvolvimento de Formulários**: Formulários PDF dinâmicos com validação e cálculos
 - **Assinaturas Digitais**: Assinatura e autenticação segura de documentos
-- **Integração multimídia**Conteúdo de mídia avançada em documentos PDF
+- **Integração multimídia**: Conteúdo de mídia avançada em documentos PDF
 
 ### **Soluções Web-to-PDF**
 - **Conversão de HTML**: Transforme o conteúdo da web em PDF para acesso offline
@@ -113,7 +113,7 @@ Operações essenciais de página PDF para organização de documentos e gerenci
 ### **Segurança e Conformidade**
 - **Assinaturas Digitais** - Autenticação e integridade de documentos
 - **Criptografia** - Proteção por senha e controle de acesso
-- **Padrões PDF/A** - Conformidade arquivística de longo prazo
+- **Padrões PDF/A** Conformidade arquivística de longo prazo
 
 ### **Aprimoramento de documentos**
 - **Marcas d'água** - Proteção de marca e marcação de documentos
@@ -148,7 +148,7 @@ Operações essenciais de página PDF para organização de documentos e gerenci
 
 ### **Recursos interativos**
 - Integração JavaScript (comportamento dinâmico e automação)
-- Gerenciamento de camadas (estruturas complexas de documentos)
+- Gerenciamento de Camadas (Estruturas de documentos complexas)
 - Índice (Navegação e organização)
 - Processamento de Formulários (Coleta e Validação de Dados)
 

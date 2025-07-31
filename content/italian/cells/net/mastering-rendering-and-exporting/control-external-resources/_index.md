@@ -111,7 +111,7 @@ Connetti il tuo `Workbook` esempio con il `MyStreamProvider` classe creata in pr
 wb.Settings.StreamProvider = new MyStreamProvider();
 ```
 
-Questa riga garantisce che ogni volta che durante la conversione vengono rilevate risorse esterne, il tuo provider personalizzato le gestirà di conseguenza.
+Questa riga garantisce che ogni volta che durante la conversione vengono incontrate risorse esterne, il tuo provider personalizzato le gestirà di conseguenza.
 
 ## Passaggio 6: Salvare la cartella di lavoro come PDF
 

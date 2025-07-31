@@ -103,7 +103,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## चरण 3: वर्कबुक ऑब्जेक्ट को प्रारंभ करें
 
-एक वर्कबुक ऑब्जेक्ट बनाएं जो मेमोरी में आपकी संपूर्ण एक्सेल फ़ाइल का प्रतिनिधित्व करता है:
+एक वर्कबुक ऑब्जेक्ट बनाएं जो मेमोरी में आपकी संपूर्ण Excel फ़ाइल का प्रतिनिधित्व करता है:
 
 ```csharp
 Workbook workbook = new Workbook(fstream);

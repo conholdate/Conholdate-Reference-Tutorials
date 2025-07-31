@@ -18,7 +18,7 @@
 1. Aspose.Words for .NET：从下载并安装最新版本 [Aspose 版本](https://releases。aspose.com/words/net/).
 2. 开发环境：使用 Visual Studio 或任何兼容的 IDE。
 3. 对 C# 的基本了解：熟悉 C# 和 .NET 框架将会有所帮助。
-4. Aspose 许可证：要完全解锁 Aspose.Words，需要获取 [执照](https://purchase.aspose.com/buy) 建议使用。或者，您可以使用 [临时执照](https://purchase.aspose.com/temporary-license/) 用于评估目的。
+4. Aspose 许可证：要完全解锁 Aspose.Words，需要获得 [执照](https://purchase.aspose.com/buy) 建议使用。或者，您可以使用 [临时执照](https://purchase.aspose.com/temporary-license/) 用于评估目的。
 
 ## 导入命名空间
 

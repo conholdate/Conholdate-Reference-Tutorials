@@ -2,7 +2,7 @@
 "description": "Descubra el potencial de Aspose.Words para .NET con nuestros completos tutoriales sobre opciones de guardado fijo en HTML. Aprenda a optimizar el flujo de trabajo de sus documentos."
 "linktitle": "Opciones de guardado corregidas de HTML"
 "second_title": "API de procesamiento de documentos de Aspose.Words"
-"title": "Opciones de guardado corregidas de HTML con Aspose.Words para .NET"
+"title": "Opciones de guardado de HTML corregidas con Aspose.Words para .NET"
 "url": "/es/words/net/html-fixed-save-options/"
 "weight": 1610
 ---

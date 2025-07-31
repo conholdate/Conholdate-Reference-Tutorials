@@ -98,7 +98,7 @@ Convertir una tabla de un archivo Excel a un archivo ODS con Aspose.Cells para .
 
 ### ¿Qué es Aspose.Cells?
 
-Aspose.Cells es una poderosa biblioteca para administrar y manipular archivos Excel en aplicaciones .NET.
+Aspose.Cells es una potente biblioteca para administrar y manipular archivos Excel en aplicaciones .NET.
 
 ### ¿Puedo probar Aspose.Cells gratis?
 

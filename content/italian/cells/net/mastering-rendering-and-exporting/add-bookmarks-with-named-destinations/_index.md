@@ -128,7 +128,7 @@ In questo modo si crea una struttura ad albero in cui ogni segnalibro può avere
 
 ### Impostazione delle opzioni di salvataggio PDF
 
-Prima di salvare il documento come PDF, dobbiamo specificare le opzioni di salvataggio e assicurarci che i segnalibri siano inclusi. Useremo `PdfSaveOptions` per questo scopo.
+Prima di salvare il documento come PDF, dobbiamo specificare le opzioni di salvataggio e assicurarci che i segnalibri siano inclusi. Useremo `PdfSaveOptions` a questo scopo.
 
 ```csharp
 PdfSaveOptions opts = new PdfSaveOptions();

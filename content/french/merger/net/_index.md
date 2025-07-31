@@ -1,12 +1,13 @@
 ---
-title: Tutoriels et exemples de GroupDocs.Merger pour .NET
-linktitle: Tutoriels GroupDocs.Merger pour .NET
-weight: 10
-url: /fr/merger/
-description: Découvrez des didacticiels étape par étape sur GroupDocs.Merger pour .NET pour fusionner, fractionner, réorganiser et gérer des documents sans effort. Maîtrisez la manipulation de documents avec des exemples détaillés et des conseils d'experts.
-is_root: true
+"description": "Explorez des tutoriels pas à pas sur GroupDocs.Merger pour .NET pour fusionner, fractionner, réorganiser et gérer vos documents en toute simplicité. Maîtrisez la manipulation de documents grâce à des exemples détaillés et des conseils d'experts."
+"is_root": true
+"linktitle": "Tutoriels GroupDocs.Merger pour .NET"
+"title": "Tutoriels et exemples de GroupDocs.Merger pour .NET"
+"url": "/fr/merger/net/"
+"weight": 10
 ---
+
 ### [Fusionner et compresser des fichiers avec GroupDocs Merger .NET](./merge-and-compress-files/)
-Fusionnez et compressez facilement des fichiers dans des applications .NET avec GroupDocs.Merger. Découvrez des tutoriels pour fusionner des fichiers TAR et ZIP étape par étape.
+Fusionnez et compressez facilement des fichiers dans des applications .NET avec GroupDocs.Merger. Explorez des tutoriels pour fusionner des fichiers TAR et ZIP étape par étape.
 ### [Guide de fusion de documents](./guide-to-document-merging/)
-Fusionnez facilement des documents avec GroupDocs.Merger pour .NET. Découvrez des didacticiels étape par étape sur la fusion efficace de fichiers DOC et PDF.
+Fusionnez facilement des documents avec GroupDocs.Merger pour .NET. Découvrez des tutoriels pas à pas pour fusionner efficacement des fichiers DOC et PDF.

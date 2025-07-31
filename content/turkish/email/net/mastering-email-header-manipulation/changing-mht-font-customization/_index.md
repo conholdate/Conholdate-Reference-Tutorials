@@ -75,7 +75,7 @@ foreach (var linkedResource in linkedResources)
 }
 ```
 
-Açıklama: Bu döngü, bağlantılı kaynağın içerik türünün TrueType yazı tipi olup olmadığını kontrol eder. Eşleşirse, yazı tipinin adını istediğiniz gibi değiştirebilirsiniz (bu örnekte olduğu gibi "Arial"). `TransferEncoding` Ayrıca belge kaydedildiğinde yazı tipi verilerinin doğru kodlandığından emin olmak için ayarlanmalıdır.
+Açıklama: Bu döngü, bağlantılı kaynağın içerik türünün TrueType yazı tipi olup olmadığını kontrol eder. Eşleşirse, yazı tipinin adını istediğiniz gibi değiştirebilirsiniz (bu örnekte olduğu gibi "Arial"). `TransferEncoding` Ayrıca belge kaydedildiğinde yazı tipi verilerinin doğru şekilde kodlandığından emin olmak için ayarlanmalıdır.
 
 ## Adım 4: Güncellenen MHT Dosyasını Kaydedin
 
@@ -105,5 +105,5 @@ Aspose ücretsiz deneme sürümü sunuyor, ancak tam sürüm için lisans gereki
 ### Aspose.Email hakkında daha fazla dokümanı nerede bulabilirim?
 Kapsamlı dokümantasyonu ve örnekleri şu adreste bulabilirsiniz: [Aspose E-posta dokümantasyon sayfası](https://reference.aspose.com/email/net/).
 
-### Aspose'u kullanırken sorunlarla karşılaşırsam ne olur?
+### Aspose kullanırken sorunlarla karşılaşırsam ne olur?
 Herhangi bir sorunla karşılaşırsanız, destek için bize ulaşabilirsiniz. [Aspose destek forumu](https://forum.aspose.com/c/email/12/).

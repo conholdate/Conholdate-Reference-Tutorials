@@ -26,7 +26,7 @@
 ## 📚 可用平台
 
 ### .NET Framework 和 .NET Core
-面向 .NET 开发人员的综合教程，涵盖 Excel 处理和自动化的各个方面。
+为 .NET 开发人员提供全面的教程，涵盖 Excel 处理和自动化的各个方面。
 
 **[Aspose.Cells for .NET教程](./net/)**
 

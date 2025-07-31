@@ -101,7 +101,7 @@ PdfSaveOptions opts = new PdfSaveOptions
 };
 ```
 
-这将创建一个 `PdfSaveOptions`，允许您自定义 PDF 格式。 `OnePagePerSheet` 选项可确保每个 Excel 表出现在最终 PDF 中的单独页面上。
+这将创建一个 `PdfSaveOptions`，允许您自定义 PDF 格式。 `OnePagePerSheet` 选项确保每个 Excel 表出现在最终 PDF 中的单独页面上。
 
 ## 步骤 5：指定您的流媒体提供商
 

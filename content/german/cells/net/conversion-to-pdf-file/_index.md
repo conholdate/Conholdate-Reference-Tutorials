@@ -72,7 +72,7 @@ Selbst mit einer robusten Bibliothek wie Aspose.Cells können einige Herausforde
 
 **Große Dateigrößen**: Werden PDF-Dateien größer als erwartet? Überprüfen Sie Ihre Bildkomprimierungseinstellungen und ziehen Sie eine Reduzierung der Diagrammauflösung in Betracht, wenn die Druckqualität nicht entscheidend ist.
 
-**Leistungsprobleme**: Langsame Konvertierungen sind in der Regel auf komplexe Formeln oder große Datensätze zurückzuführen. Profilieren Sie Ihren Konvertierungsprozess, um Engpässe zu identifizieren. Manchmal ist es effizienter, die Excel-Struktur vor der Konvertierung zu vereinfachen, als die Konvertierung selbst zu optimieren.
+**Leistungsprobleme**: Langsame Konvertierungen sind in der Regel auf komplexe Formeln oder große Datensätze zurückzuführen. Erstellen Sie ein Profil Ihres Konvertierungsprozesses, um Engpässe zu identifizieren. Manchmal ist es effizienter, die Excel-Struktur vor der Konvertierung zu vereinfachen, als die Konvertierung selbst zu optimieren.
 
 **Diagrammqualität**: Verschwommene oder verpixelte Diagramme in Ihrer PDF-Ausgabe? Passen Sie die DPI-Einstellungen an und stellen Sie sicher, dass Sie nach Möglichkeit vektorbasiertes Rendering verwenden.
 
@@ -80,7 +80,7 @@ Selbst mit einer robusten Bibliothek wie Aspose.Cells können einige Herausforde
 
 Über die einfache Dateikonvertierung hinaus bewältigt Aspose.Cells anspruchsvolle Szenarien, die für andere Lösungen eine Herausforderung darstellen würden:
 
-**Bedingte Formatierung**: Komplexe Regeln zur bedingten Formatierung bleiben bei der Konvertierung erhalten, sodass Ihre farbcodierten Daten im PDF-Format weiterhin aussagekräftig bleiben.
+**Bedingte Formatierung**: Komplexe Regeln zur bedingten Formatierung bleiben während der Konvertierung erhalten, sodass Ihre farbcodierten Daten im PDF-Format weiterhin aussagekräftig bleiben.
 
 **Passwortgeschützte Dateien**: Die Bibliothek kann verschlüsselte Excel-Dateien verarbeiten und sie in PDF konvertieren, wobei die Sicherheit gegebenenfalls gewahrt bleibt.
 
@@ -102,7 +102,7 @@ Obwohl es mehrere Möglichkeiten gibt, Excel in .NET in PDF zu konvertieren, sti
 
 ## Erste Schritte: Ihre nächsten Schritte
 
-Sind Sie bereit, die Konvertierung von Excel in PDF in Ihrer .NET-Anwendung zu implementieren? Hier ist Ihr Fahrplan:
+Sind Sie bereit, die Konvertierung von Excel in PDF in Ihre .NET-Anwendung zu implementieren? Hier ist Ihr Fahrplan:
 
 1. **Beginnen Sie mit den Grundlagen**: Folgen Sie unseren [Konvertieren Sie Excel mit Aspose.Cells in .NET in PDF](./convert-excel-to-pdf/) Tutorial, damit Ihre erste Konvertierung funktioniert.
 

@@ -31,7 +31,7 @@ using Aspose.Cells;
 
 ## Bước 1: Thiết lập thư mục tài liệu
 
-Đầu tiên, hãy xác định thư mục nơi tệp đầu ra của bạn sẽ được lưu và tạo thư mục đó nếu nó chưa tồn tại.
+Đầu tiên, hãy xác định thư mục lưu tệp đầu ra và tạo thư mục đó nếu tệp chưa tồn tại.
 
 ```csharp
 string dataDir = "Your Document Directory";

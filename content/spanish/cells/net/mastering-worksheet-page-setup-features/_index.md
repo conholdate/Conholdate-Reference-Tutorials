@@ -43,5 +43,5 @@ Descubra cómo mejorar la legibilidad y la presentación de sus hojas de cálcul
 Descubra cómo optimizar sus documentos de Excel personalizando encabezados y pies de página mediante programación con Aspose.Cells para .NET. Esta guía completa le guía paso a paso, desde la configuración de su libro hasta la inserción dinámica del nombre de la hoja de cálculo.
 ### [Implementar márgenes en la hoja de cálculo con Aspose.Cells](./implement-margins-in-worksheet/)
 Aprenda a mejorar sus hojas de cálculo de Excel configurando márgenes con la biblioteca Aspose.Cells para .NET. Este tutorial paso a paso simplifica el proceso, logrando que su presentación de datos tenga un aspecto profesional y elegante.
-### [Implementar la configuración del orden de páginas en la hoja de trabajo](./implement-page-order-settings/)
+### [Implementar la configuración de orden de páginas en la hoja de trabajo](./implement-page-order-settings/)
 Aprenda a configurar el orden de páginas en Excel con Aspose.Cells para .NET. Esta guía paso a paso muestra cómo imprimir primero en las filas y luego en las columnas, garantizando que sus hojas de cálculo grandes se vean ordenadas en el papel.

@@ -1,11 +1,12 @@
 ---
-title: Mit GroupDocs.Signature Textsignaturen zu Dokumenten hinzufügen
-linktitle: Textsignaturen zu Dokumenten hinzufügen
-second_title: GroupDocs.Signature .NET API
-description: Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET Dokumente mit Text signieren. Schritt-für-Schritt-Anleitung zum programmgesteuerten Hinzufügen von Textsignaturen.
-weight: 17
-url: /de/signature/master-advanced-sign-techniques/add-text-signatures-to-documents/
+"description": "Erfahren Sie, wie Sie mit GroupDocs.Signature für .NET Dokumente mit Text signieren. Schritt-für-Schritt-Anleitung zum programmgesteuerten Hinzufügen von Textsignaturen."
+"linktitle": "Textsignaturen zu Dokumenten hinzufügen"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Fügen Sie Dokumenten mit GroupDocs.Signature Textsignaturen hinzu"
+"url": "/de/signature/net/master-advanced-sign-techniques/add-text-signatures-to-documents/"
+"weight": 17
 ---
+
 ## Einführung
 
 In der heutigen digitalen Landschaft ist die elektronische Signatur von Dokumenten unverzichtbar geworden, um Arbeitsabläufe zu optimieren und Ressourcen zu sparen. GroupDocs.Signature für .NET bietet eine leistungsstarke Lösung zum programmgesteuerten Hinzufügen von Textsignaturen zu verschiedenen Dokumentformaten. Dieses Tutorial führt Sie durch die Schritte zum Signieren eines Dokuments mit Text mithilfe von GroupDocs.Signature für .NET.
@@ -14,13 +15,13 @@ In der heutigen digitalen Landschaft ist die elektronische Signatur von Dokument
 
 Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
-1. GroupDocs.Signature für .NET: Laden Sie die Bibliothek herunter und installieren Sie sie von[Hier](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature für .NET: Laden Sie die Bibliothek herunter und installieren Sie sie von [Hier](https://releases.groupdocs.com/signature/net/).
 2. Entwicklungsumgebung: Richten Sie Ihre .NET-Entwicklungsumgebung ein.
-3. Dokument: Bereiten Sie das Dokument vor, das Sie unterzeichnen möchten (z. B. PDF, Word).
+3. Dokument: Bereiten Sie das Dokument vor, das Sie unterschreiben möchten (z. B. PDF, Word).
 
-## Erforderliche Namespaces importieren
+## Importieren der erforderlichen Namespaces
 
-Importieren Sie zunächst die erforderlichen Namespaces in Ihr .NET-Projekt:
+Beginnen Sie mit dem Importieren der erforderlichen Namespaces in Ihr .NET-Projekt:
 
 ```csharp
 using System;
@@ -31,9 +32,9 @@ using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
 
-## Schritt 1: Dokument laden
+## Schritt 1: Laden Sie das Dokument
 
-Laden Sie zunächst das Dokument hoch, das Sie unterzeichnen möchten:
+Laden Sie zunächst das Dokument hoch, das Sie unterschreiben möchten:
 
 ```csharp
 string filePath = "sample.pdf"; // Pfad zu Ihrem Dokument
@@ -78,7 +79,7 @@ using (Signature signature = new Signature(filePath))
 
 ## Abschluss
 
-In diesem Tutorial haben wir gezeigt, wie Sie mit GroupDocs.Signature für .NET programmgesteuert eine Textsignatur zu einem Dokument hinzufügen. Indem Sie diese Schritte befolgen, können Sie die Sicherheit und Authentizität Ihrer Dokumente effizient verbessern.
+In diesem Tutorial haben wir gezeigt, wie Sie mit GroupDocs.Signature für .NET programmgesteuert eine Textsignatur zu einem Dokument hinzufügen. Mit diesen Schritten können Sie die Sicherheit und Authentizität Ihrer Dokumente effizient verbessern.
 
 ## Häufig gestellte Fragen
 
@@ -86,13 +87,13 @@ In diesem Tutorial haben wir gezeigt, wie Sie mit GroupDocs.Signature für .NET 
 Ja, Sie können verschiedene Attribute wie Farbe, Schriftart, Größe und Position der Textsignatur an Ihre Bedürfnisse anpassen.
 
 ### Ist GroupDocs.Signature mit mehreren Dokumentformaten kompatibel?
-Auf jeden Fall! GroupDocs.Signature unterstützt eine Vielzahl von Formaten, darunter PDF, Word, Excel, PowerPoint und mehr.
+Absolut! GroupDocs.Signature unterstützt eine Vielzahl von Formaten, darunter PDF, Word, Excel, PowerPoint und mehr.
 
 ### Kann ich einem einzelnen Dokument mehrere Textsignaturen hinzufügen?
-Ja, Sie können mehrere Textsignaturen hinzufügen, jede mit eigenen Anpassungsoptionen.
+Ja, Sie können mehrere Textsignaturen hinzufügen, jede mit ihren eigenen Anpassungsoptionen.
 
 ### Stellt GroupDocs.Signature die Dokumentintegrität nach der Signierung sicher?
 Ja, die Bibliothek verwendet robuste kryptografische Algorithmen, um die Dokumentintegrität sicherzustellen und Manipulationen nach der Signierung zu verhindern.
 
-### Gibt es eine Testversion zum Ausprobieren vor dem Kauf?
- Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.groupdocs.com/) um die Funktionen zu erkunden, bevor Sie einen Kauf tätigen.
+### Gibt es eine Testversion zum Testen vor dem Kauf?
+Ja, Sie können eine kostenlose Testversion herunterladen von [Hier](https://releases.groupdocs.com/) um die Funktionen vor dem Kauf zu erkunden.

@@ -1,24 +1,25 @@
 ---
-title: Converteer DGN naar PDF in Aspose.CAD voor .NET
-linktitle: Converteer DGN naar PDF in Aspose.CAD voor .NET
-second_title: Aspose.CAD .NET - CAD- en BIM-bestandsindeling
-description: Leer hoe u moeiteloos DGN-bestanden naar PDF converteert met de krachtige Aspose.CAD-bibliotheek voor .NET. Deze stapsgewijze handleiding is ontworpen voor ontwikkelaars van alle niveaus.
-weight: 12
-url: /nl/cad/guide-to-exporting-cad-format/convert-dgn-to-pdf/
+"description": "Leer hoe u moeiteloos DGN-bestanden naar PDF converteert met de krachtige Aspose.CAD-bibliotheek voor .NET. Deze stapsgewijze handleiding is ontworpen voor ontwikkelaars van alle niveaus."
+"linktitle": "Converteer DGN naar PDF in Aspose.CAD voor .NET"
+"second_title": "Aspose.CAD .NET - CAD- en BIM-bestandsindeling"
+"title": "Converteer DGN naar PDF in Aspose.CAD voor .NET"
+"url": "/nl/cad/net/guide-to-exporting-cad-format/convert-dgn-to-pdf/"
+"weight": 12
 ---
+
 ## Invoering
 
-Navigeren door de wereld van CAD-bestanden kan een uitdaging zijn, maar met Aspose.CAD voor .NET kunnen ontwikkelaars eenvoudig verschillende CAD-formaten manipuleren en converteren. Een veelvoorkomende behoefte is het converteren van DGN-bestanden naar PDF's, wat we stap voor stap in deze tutorial zullen onderzoeken.
+Navigeren door de wereld van CAD-bestanden kan een uitdaging zijn, maar met Aspose.CAD voor .NET kunnen ontwikkelaars eenvoudig verschillende CAD-formaten bewerken en converteren. Een veelvoorkomende behoefte is het converteren van DGN-bestanden naar PDF's, wat we stap voor stap in deze tutorial zullen bespreken.
 
 ## Vereisten
 
-Om de instructies te kunnen volgen, moet u het volgende bij de hand hebben:
+Om de handleiding te kunnen volgen, hebt u het volgende nodig:
 
 - Basiskennis van C# en het .NET Framework.
--  Aspose.CAD voor .NET-bibliotheek geïnstalleerd. U kunt het downloaden[hier](https://releases.aspose.com/cad/net/).
+- Aspose.CAD voor .NET-bibliotheek geïnstalleerd. U kunt het downloaden. [hier](https://releases.aspose.com/cad/net/).
 - Een voorbeeld van een DGN-bestand (bijvoorbeeld Nikon_D90_Camera.dgn). 
 
-## Stap 1: Importeer vereiste naamruimten
+## Stap 1: Vereiste naamruimten importeren
 
 Begin met het importeren van de relevante naamruimten in uw C#-project:
 
@@ -41,7 +42,7 @@ string sourceFilePath = myDir + "Nikon_D90_Camera.dgn";
 
 using (DgnImage cadImage = (DgnImage)Image.Load(sourceFilePath))
 {
-    // Verdere verwerking vindt hier plaats...
+    // Hier vindt verdere verwerking plaats...
 }
 ```
 
@@ -52,8 +53,8 @@ Stel vervolgens de rasteropties in om te definiëren hoe uw DGN in de PDF wordt 
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions
 {
-    PageWidth = 600, // Pas de breedte indien nodig aan
-    PageHeight = 300, // Pas de hoogte indien nodig aan
+    PageWidth = 600, // Pas de breedte naar behoefte aan
+    PageHeight = 300, // Pas de hoogte naar behoefte aan
     NoScaling = true,
     AutomaticLayoutsScaling = false
 };
@@ -70,7 +71,7 @@ PdfOptions pdfOptions = new PdfOptions
 };
 ```
 
-## Stap 5: Sla de DGN op als PDF
+## Stap 5: Sla het DGN op als PDF
 
 Sla ten slotte het DGN-bestand op als PDF met behulp van de opties die u hebt geconfigureerd:
 
@@ -80,21 +81,21 @@ cadImage.Save(myDir + "ExportDGNToPdf_out.pdf", pdfOptions);
 
 ## Conclusie
 
-Gefeliciteerd! U hebt met succes een DGN-bestand omgezet naar een PDF met Aspose.CAD voor .NET. Deze eenvoudige tutorial leidde u door het laden van het DGN-bestand, het instellen van rasteropties en het opslaan van de uitvoer als een PDF.
+Gefeliciteerd! Je hebt met succes een DGN-bestand naar een PDF geconverteerd met Aspose.CAD voor .NET. Deze eenvoudige tutorial heeft je begeleid bij het laden van het DGN-bestand, het instellen van rasteropties en het opslaan van de uitvoer als PDF.
 
 ## Veelgestelde vragen
 
 ### Heb ik voorkennis van CAD nodig om Aspose.CAD te gebruiken?  
-Absoluut! Aspose.CAD is ontworpen om complexe CAD-taken te vereenvoudigen, waardoor het toegankelijk is voor alle ontwikkelaars, ongeacht hun CAD-kennis.
+Absoluut! Aspose.CAD is ontworpen om complexe CAD-taken te vereenvoudigen en toegankelijk te maken voor alle ontwikkelaars, ongeacht hun CAD-kennis.
 
 ### Waar kan ik meer bronnen en documentatie voor Aspose.CAD vinden?  
- U kunt uitgebreide handleidingen en voorbeelden bekijken in de[Aspose.CAD-documentatie](https://reference.aspose.com/cad/net/).
+U kunt uitgebreide handleidingen en voorbeelden bekijken in de [Aspose.CAD-documentatie](https://reference.aspose.com/cad/net/).
 
 ### Is er een gratis proefversie beschikbaar voor Aspose.CAD?  
- Ja, er kan een gratis proefversie worden verkregen[hier](https://releases.aspose.com/).
+Ja, u kunt een gratis proefperiode aanvragen [hier](https://releases.aspose.com/).
 
 ### Hoe kan ik een tijdelijke licentie voor Aspose.CAD krijgen?  
- U kunt tijdelijke licenties aanvragen[hier](https://purchase.conholdate.com/temporary-license/).
+U kunt tijdelijke vergunningen aanvragen [hier](https://purchase.conholdate.com/temporary-license/).
 
 ### Heeft u hulp nodig of vragen?  
- Doe mee aan het gesprek in de[Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) voor ondersteuning en vragen van de gemeenschap.
+Neem deel aan het gesprek in de [Aspose.CAD-forum](https://forum.aspose.com/c/cad/19) voor ondersteuning en vragen van de gemeenschap.

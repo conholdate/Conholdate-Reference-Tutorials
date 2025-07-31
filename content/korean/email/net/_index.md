@@ -22,7 +22,7 @@ Aspose.Email for .NET을 사용하여 이메일 처리의 잠재력을 최대한
 - **🔄 이메일 변환**: 이메일 형식 간 원활한 변환
 - **🤖 스팸 분석**: 고급 머신 러닝 기반 필터링
 - **📊 이메일 처리**: 콘텐츠 분석, 첨부 파일 처리 및 메타데이터 추출
-- **⚡ 프로토콜 지원**: SMTP, POP3, IMAP, Exchange 웹 서비스(EWS)
+- **⚡ 프로토콜 지원**SMTP, POP3, IMAP, Exchange 웹 서비스(EWS)
 
 ## 📚 튜토리얼 카테고리
 
@@ -40,13 +40,13 @@ Aspose.Email for .NET을 사용하여 이메일 처리의 잠재력을 최대한
 | 튜토리얼 | 설명 | 난이도 |
 |----------|-------------|------------|
 | **[C#에서 베이지안 스팸 분석](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | 통계 분석을 통한 머신 러닝 기반 스팸 감지 | ⭐⭐⭐ 고급 |
-| **[HTML 이메일을 일반 텍스트로 변환](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | HTML 이메일에서 깨끗한 텍스트 콘텐츠 추출 | ⭐⭐ 중급 |
+| **[HTML 이메일을 일반 텍스트로 변환](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** HTML 이메일에서 깨끗한 텍스트 콘텐츠 추출 | ⭐⭐ 중급 |
 
 ## 🎯 인기 있는 사용 사례
 
 ### **이메일 시스템 통합**
 - **이메일 마이그레이션**: 시스템 마이그레이션을 위해 다양한 이메일 형식 간 변환
-- **아카이브 솔루션**형식 표준화를 통한 장기 이메일 보관
+- **아카이브 솔루션**: 형식 표준화를 통한 장기 이메일 보관
 - **크로스 플랫폼 호환성**: 다양한 이메일 클라이언트에서 이메일이 작동하는지 확인하세요.
 
 ### **이메일 보안 및 분석**
@@ -133,7 +133,7 @@ Aspose.Email for .NET을 사용하여 이메일 처리의 잠재력을 최대한
 - **[무료 체험](https://releases.aspose.com/email/net/)** - 전체 기능 평가
 
 ### **커뮤니티 및 지원**
-- **[지원 포럼](https://forum.aspose.com/c/email/12)** - 전문가의 도움을 받으세요
+- **[지원 포럼](https://forum.aspose.com/c/email/12)** 전문가의 도움을 받으세요
 
 ### **라이센스 및 평가판**
 - **[임시 면허](https://purchase.conholdate.com/temporary-license/)** - 확장 평가

@@ -27,7 +27,7 @@
 ```bash
 Install-Package Aspose.PDF
 ```  
-2. استيراد المساحات الاسمية الضرورية:  
+2. استيراد المساحات الأسماء الضرورية:  
 
 ```csharp
 using System.IO;

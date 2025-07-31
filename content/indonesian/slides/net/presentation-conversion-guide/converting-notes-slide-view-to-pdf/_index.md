@@ -1,22 +1,23 @@
 ---
-title: Mengonversi Tampilan Slide Catatan ke PDF dengan Aspose.Slides untuk .NET
-linktitle: Mengonversi Tampilan Slide Catatan ke PDF dengan Aspose.Slides untuk .NET
-second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
-description: Pelajari cara mengonversi presentasi PowerPoint dengan mudah menggunakan Notes Slide View ke format PDF menggunakan Aspose.Slides for .NET. Panduan ini berisi petunjuk terperinci.
-weight: 15
-url: /id/slides/presentation-conversion-guide/converting-notes-slide-view-to-pdf/
+"description": "Pelajari cara mudah mengonversi presentasi PowerPoint dengan Notes Slide View ke format PDF menggunakan Aspose.Slides untuk .NET. Panduan ini berisi instruksi terperinci."
+"linktitle": "Mengonversi Tampilan Slide Catatan ke PDF dengan Aspose.Slides untuk .NET"
+"second_title": "API Pemrosesan PowerPoint Aspose.Slides .NET"
+"title": "Mengonversi Tampilan Slide Catatan ke PDF dengan Aspose.Slides untuk .NET"
+"url": "/id/slides/net/presentation-conversion-guide/converting-notes-slide-view-to-pdf/"
+"weight": 15
 ---
+
 ## Perkenalan
 
-Jika Anda sering bekerja dengan presentasi PowerPoint, Anda tahu betapa pentingnya berbagi presentasi dengan catatan terperinci. Mengonversi presentasi ini ke PDF dengan Notes Slide View adalah cara praktis untuk membuatnya mudah diakses. Aspose.Slides for .NET adalah pustaka hebat yang menyederhanakan tugas ini dengan memungkinkan Anda menyesuaikan dan mengekspor presentasi secara efisien.
+Jika Anda sering menggunakan presentasi PowerPoint, Anda tahu betapa pentingnya berbagi presentasi dengan catatan yang detail. Mengonversi presentasi ini menjadi PDF dengan Tampilan Slide Catatan merupakan cara praktis untuk membuatnya mudah diakses. Aspose.Slides untuk .NET adalah pustaka canggih yang menyederhanakan tugas ini dengan memungkinkan Anda menyesuaikan dan mengekspor presentasi secara efisien.
 
 ## Prasyarat
 
-Sebelum menyelaminya, pastikan Anda memenuhi persyaratan berikut:
+Sebelum menyelam, pastikan Anda memenuhi persyaratan berikut:
 
--  Lingkungan Pengembangan: Instal[Bahasa Indonesia: Studio Visual](https://visualstudio.microsoft.com/) atau IDE C# apa pun.
--  Aspose.Slides untuk Pustaka .NET: Unduh pustaka dari[Di Sini](https://releases.aspose.com/slides/net/).
--  File Presentasi: Memiliki file PowerPoint (misalnya,`NotesFile.pptx`) siap untuk dikonversi.
+- Lingkungan Pengembangan: Instal [Visual Studio](https://visualstudio.microsoft.com/) atau IDE C# apa pun.
+- Aspose.Slides untuk Pustaka .NET: Unduh pustaka dari [Di Sini](https://releases.aspose.com/slides/net/).
+- File Presentasi: Miliki file PowerPoint (misalnya, `NotesFile.pptx`) siap untuk dikonversi.
 
 ## Menyiapkan Lingkungan Anda
 
@@ -37,22 +38,22 @@ Proyek Anda sekarang siap bekerja dengan Aspose.Slides untuk .NET.
 
 ## Memuat Presentasi
 
-Untuk memulai, muat berkas PowerPoint ke dalam aplikasi Anda. Berikut kode untuk melakukannya:
+Untuk memulai, muat berkas PowerPoint Anda ke dalam aplikasi Anda. Berikut kodenya:
 
 ```csharp
 string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation(dataDir + "NotesFile.pptx"))
 {
-	// Kode lebih lanjut ada di sini
+	// Kode selanjutnya ada di sini
 }
 
 ```
 
- Mengganti`"Your Document Directory"` dengan jalur ke folder yang berisi berkas presentasi Anda.
+Mengganti `"Your Document Directory"` dengan jalur ke folder yang berisi berkas presentasi Anda.
 
 ## Mengonfigurasi Opsi PDF
 
- Untuk menyertakan Tampilan Slide Catatan dalam PDF Anda, konfigurasikan`PdfOptions` objek seperti yang ditunjukkan di bawah ini:
+Untuk menyertakan Tampilan Slide Catatan di PDF Anda, konfigurasikan `PdfOptions` objek seperti yang ditunjukkan di bawah ini:
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
@@ -66,13 +67,13 @@ Konfigurasi ini memastikan bahwa catatan ditampilkan di bawah slide dalam keluar
 
 ## Menyimpan Presentasi sebagai PDF
 
-Setelah opsi Anda dikonfigurasi, simpan presentasi sebagai PDF. Berikut cara melakukannya:
+Setelah opsi Anda dikonfigurasi, simpan presentasi sebagai PDF. Berikut caranya:
 
 ```csharp
 presentation.Save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 ```
 
- Ini akan menghasilkan file PDF bernama`Pdf_Notes_out.pdf`dalam direktori yang Anda tentukan, berisi slide beserta catatannya.
+Ini akan menghasilkan file PDF bernama `Pdf_Notes_out.pdf` di direktori yang Anda tentukan, berisi slide beserta catatannya.
 
 ## Kesimpulan
 
@@ -84,13 +85,13 @@ Selesai! Anda telah berhasil mengonversi presentasi PowerPoint dengan Notes Slid
 Ya, Aspose.Slides untuk .NET dirancang untuk menangani presentasi dalam ukuran apa pun secara efisien.
 
 ### Q2: Bagaimana cara mendapatkan uji coba gratis Aspose.Slides untuk .NET?
- Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Anda dapat mengunduh versi uji coba gratis dari [Di Sini](https://releases.aspose.com/).
 
 ### Q3: Apakah ada pilihan ekspor PDF lain yang tersedia?
- Ya, Anda dapat menyesuaikan font, tata letak halaman, kompresi, dan lainnya menggunakan`PdfOptions` kelas.
+Ya, Anda dapat menyesuaikan font, tata letak halaman, kompresi, dan lainnya menggunakan `PdfOptions` kelas.
 
 ### Q4: Bisakah saya mengekspor hanya slide tertentu?
- Tentu saja! Anda dapat memilih slide tertentu menggunakan`Slides` koleksi di`Presentation` kelas.
+Tentu saja! Anda dapat memilih slide tertentu menggunakan `Slides` koleksi di `Presentation` kelas.
 
 ### Q5: Di mana saya dapat menemukan contoh tambahan?
- Kunjungi[Dokumentasi Aspose.Slides untuk .NET](https://reference.aspose.com/slides/net/) untuk lebih banyak contoh dan kasus penggunaan.
+Kunjungi [Dokumentasi Aspose.Slides untuk .NET](https://reference.aspose.com/slides/net/) untuk contoh dan kasus penggunaan lebih lanjut.

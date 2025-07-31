@@ -74,7 +74,7 @@ private static string RenderHyperlinkWithHref(string source)
 }
 ```
 
-Ta metoda wykonuje następujące kroki:
+Metoda ta wykonuje następujące kroki:
 1. Lokalizuje `href` atrybut służący do wyodrębniania adresu URL.
 2. Znajduje tekst łącza pomiędzy tagami.
 3. Formatuje dane wyjściowe do wyświetlania jako „Tekst linku”<URL>".

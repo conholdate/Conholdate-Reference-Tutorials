@@ -1,8 +1,8 @@
 ---
 "description": "اكتشف كيفية إنشاء وإدارة عناصر القوائم بفعالية في Excel باستخدام Aspose.Cells لـ .NET. يرشدك هذا الدليل الشامل خطوة بخطوة خلال عملية الإعداد."
-"linktitle": "إنشاء كائنات القائمة وإدارتها في Excel باستخدام Aspose.Cells"
+"linktitle": "إنشاء وإدارة كائنات القائمة في Excel باستخدام Aspose.Cells"
 "second_title": "واجهة برمجة تطبيقات معالجة Excel لـ Aspose.Cells .NET"
-"title": "إنشاء كائنات القائمة وإدارتها في Excel باستخدام Aspose.Cells"
+"title": "إنشاء وإدارة كائنات القائمة في Excel باستخدام Aspose.Cells"
 "url": "/ar/cells/net/mastering-tables-and-lists/create-and-manage-list-object/"
 "weight": 10
 ---
@@ -19,7 +19,7 @@
 الإلمام بلغة C# سيساعدك على متابعة الدروس بسلاسة. إذا كنت جديدًا على هذه اللغة، فهناك العديد من الموارد المتاحة على الإنترنت لمساعدتك على البدء.
 
 ### بيئة التطوير المتكاملة (IDE)
-ستحتاج إلى بيئة تطوير متكاملة لكتابة وتشغيل شيفرة C#. يُعد Visual Studio خيارًا شائعًا، ولكن يمكنك أيضًا استخدام بدائل مثل JetBrains Rider أو Visual Studio Code.
+ستحتاج إلى بيئة تطوير متكاملة (IDE) لكتابة وتشغيل شيفرة C#. يُعد Visual Studio خيارًا شائعًا، ولكن يمكنك أيضًا استخدام بدائل مثل JetBrains Rider أو Visual Studio Code.
 
 ### Aspose.Cells لـ .NET
 قم بتنزيل مكتبة Aspose.Cells من [هنا](https://releases.aspose.com/cells/net/)تتوفر نسخة تجريبية مجانية إذا كنت ترغب في اختبارها أولاً.

@@ -2,7 +2,7 @@
 "categories":
 - "Email Processing"
 "date": "2025-01-02"
-"description": "Tìm hiểu cách xây dựng bộ lọc thư rác Bayesian bằng C# sử dụng công nghệ học máy. Hướng dẫn đầy đủ kèm ví dụ mã để phát hiện thư rác email hiệu quả."
+"description": "Tìm hiểu cách xây dựng bộ lọc thư rác Bayesian bằng C# sử dụng học máy. Hướng dẫn đầy đủ kèm ví dụ mã để phát hiện thư rác email hiệu quả."
 "lastmod": "2025-01-02"
 "linktitle": "Hướng dẫn C# về bộ lọc thư rác Bayesian"
 "second_title": "API xử lý email Aspose.Email .NET"
@@ -32,7 +32,7 @@ Trước khi bắt đầu xây dựng máy chống thư rác, hãy đảm bảo 
 3. **Aspose.Email cho .NET**: Đây chính là nơi phép màu xảy ra. Thư viện mạnh mẽ này xử lý mọi tác vụ nặng nề liên quan đến email. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/email/net/) hoặc bắt đầu với bản dùng thử miễn phí từ [liên kết này](https://releases.aspose.com/)
 4. **Kiến thức cơ bản về C#**: Bạn không cần phải là một phù thủy C#, nhưng sự quen thuộc với những điều cơ bản sẽ giúp bạn theo dõi một cách dễ dàng
 
-Bạn đã hiểu hết chưa? Hoàn hảo! Bạn đã sẵn sàng để xây dựng một điều gì đó tuyệt vời.
+Bạn đã hiểu hết chưa? Tuyệt vời! Bạn đã sẵn sàng để xây dựng một điều gì đó tuyệt vời.
 
 ## Tại sao nên chọn phân tích thư rác Bayesian?
 

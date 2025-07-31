@@ -47,7 +47,7 @@ Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde jsou vaše soubor
 
 ## Krok 2: Otevřete dokument PDF
 
-Nyní otevřeme dokument PDF, který chcete upravit. Použijeme `Document` třída z Aspose.PDF pro načtení vašeho PDF souboru.
+Nyní otevřeme PDF dokument, který chcete upravit. Použijeme `Document` třída z Aspose.PDF pro načtení vašeho PDF souboru.
 
 ```csharp
 // Otevřít dokument
@@ -103,7 +103,7 @@ page.Resources.Images.Add(imageStream);
 
 ## Krok 7: Uložení grafického stavu
 
-Před kreslením obrázku uložte aktuální stav grafiky, abyste se ujistili, že případné změny neovlivní zbytek stránky.
+Před vykreslením obrázku uložte aktuální stav grafiky, abyste se ujistili, že případné změny neovlivní zbytek stránky.
 
 ```csharp
 // Použití operátoru GSave: tento operátor ukládá aktuální stav grafiky
@@ -148,7 +148,7 @@ Tento příkaz převezme název posledního přidaného obrázku ze zdrojů a um
 
 ## Krok 11: Obnovení stavu grafiky
 
-Po nakreslení obrázku obnovte stav grafiky, aby se zachovala integrita všech dalších později provedených kreslicích operací.
+Po nakreslení obrázku obnovte stav grafiky, aby se zachovala integrita všech dalších kreslicích operací provedených později.
 
 ```csharp
 // Použití operátoru GRestore: tento operátor obnovuje stav grafiky

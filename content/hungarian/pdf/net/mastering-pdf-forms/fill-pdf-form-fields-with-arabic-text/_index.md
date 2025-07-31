@@ -108,7 +108,7 @@ Az Aspose.PDF for .NET segítségével PDF űrlapok arab szöveggel való kitöl
 Az Aspose.PDF for .NET egy átfogó könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, szerkesszenek és manipuláljanak PDF dokumentumokat.
 
 ### Ki tudok tölteni más nyelveket a PDF űrlapokban?
-Igen, az Aspose.PDF több nyelvet is támogat, beleértve az arabot, angolt, franciát és egyebeket.
+Igen, az Aspose.PDF több nyelvet is támogat, beleértve az arabot, az angolt, a franciát és egyebeket.
 
 ### Hol tudom letölteni az Aspose.PDF fájlt .NET-hez?
 Letöltheted innen: [Aspose weboldal](https://releases.aspose.com/pdf/net/).

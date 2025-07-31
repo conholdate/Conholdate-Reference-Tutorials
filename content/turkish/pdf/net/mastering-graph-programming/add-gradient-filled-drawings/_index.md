@@ -114,7 +114,7 @@ Bir ile başlayabilirsiniz [ücretsiz deneme](https://releases.aspose.com/) Öze
 ### Daha fazla dokümanı nerede bulabilirim?
 Kapsamlı dokümantasyon şu adreste mevcuttur: [Aspose PDF referans sayfası](https://reference.aspose.com/pdf/net/).
 
-### Aspose.PDF'i nasıl satın alabilirim?
+### Aspose.PDF'yi nasıl satın alabilirim?
 Aspose.PDF kütüphanesini şu adresten satın alabilirsiniz: [satın alma bağlantısı](https://purchase.aspose.com/buy).
 
 ### Aspose.PDF'i kullanırken yardıma ihtiyacım olursa ne yapmalıyım?

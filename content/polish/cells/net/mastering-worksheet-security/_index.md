@@ -1,5 +1,5 @@
 ---
-"description": "Zapoznaj się z kompleksową listą samouczków Aspose.Cells dla .NET. Naucz się doskonalić bezpieczeństwo arkuszy kalkulacyjnych dzięki praktycznym przewodnikom krok po kroku dotyczącym ochrony plików Excel."
+"description": "Zapoznaj się z kompleksową listą samouczków Aspose.Cells dla .NET. Naucz się zabezpieczać arkusze kalkulacyjne dzięki praktycznym przewodnikom krok po kroku dotyczącym ochrony plików Excel."
 "linktitle": "Opanowanie zabezpieczeń arkusza kalkulacyjnego w Aspose.Cells dla platformy .NET"
 "second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
 "title": "Opanowanie zabezpieczeń arkusza kalkulacyjnego w Aspose.Cells dla platformy .NET"

@@ -18,7 +18,7 @@ Avant de vous lancer dans le processus de conversion, assurez-vous de disposer d
 La familiarité avec un langage .NET, en particulier C#, sera bénéfique puisque nos exemples seront en C#.
 
 ### Bibliothèque Aspose.Cells
-Assurez-vous que la bibliothèque Aspose.Cells est installée dans votre projet. Si ce n'est pas déjà fait, vous pouvez [téléchargez la bibliothèque ici](https://releases.aspose.com/cells/net/) et ajoutez-le à votre application.
+Assurez-vous que la bibliothèque Aspose.Cells est installée dans votre projet. Si ce n'est pas déjà fait, vous pouvez l'installer. [téléchargez la bibliothèque ici](https://releases.aspose.com/cells/net/) et ajoutez-le à votre application.
 
 ### Environnement de développement
 Vous aurez besoin d’un IDE comme Visual Studio pour écrire et tester votre code efficacement.

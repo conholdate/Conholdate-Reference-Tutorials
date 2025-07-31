@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Het beheren van grote datasets in Excel kan een uitdaging zijn, vooral vanwege de beperkingen van verschillende bestandsformaten. Deze tutorial begeleidt u bij het gebruik van de Aspose.Cells for .NET-bibliotheek om het maximale aantal rijen en kolommen te bepalen dat wordt ondersteund door XLS (Excel 97-2003) en XLSX (Excel 2007 en later). Na afloop bent u in staat om Excel-gerelateerde taken efficiënt uit te voeren.
+Het beheren van grote datasets in Excel kan een uitdaging zijn, vooral vanwege de beperkingen van verschillende bestandsformaten. Deze tutorial begeleidt je bij het gebruik van de Aspose.Cells for .NET-bibliotheek om het maximale aantal rijen en kolommen te bepalen dat wordt ondersteund door XLS (Excel 97-2003) en XLSX (Excel 2007 en later). Na afloop ben je in staat om Excel-gerelateerde taken efficiënt uit te voeren.
 
 ## Vereisten
 
@@ -34,7 +34,7 @@ using System.Text;
 Laten we beginnen met het vinden van het maximale aantal rijen en kolommen dat door het XLS-formaat wordt ondersteund.
 
 ```csharp
-// Bericht over XLS-formaat afdrukken.
+// Bericht afdrukken over XLS-formaat.
 Console.WriteLine("Maximum Rows and Columns supported by XLS format:");
 
 // Maak een werkmap in XLS-formaat.
@@ -60,7 +60,7 @@ Console.WriteLine();
 Vervolgens bekijken we het maximale aantal rijen en kolommen dat door het XLSX-formaat wordt ondersteund.
 
 ```csharp
-// Bericht over XLSX-formaat afdrukken.
+// Bericht afdrukken over XLSX-formaat.
 Console.WriteLine("Maximum Rows and Columns supported by XLSX format:");
 
 // Maak een werkmap in XLSX-formaat.

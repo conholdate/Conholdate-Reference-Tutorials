@@ -54,7 +54,7 @@ Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
 ## 步骤 3：添加标题数据
 
-使用标题行填充工作表以清晰地表示您的数据集。
+用标题行填充工作表以清晰地表示您的数据集。
 
 ```csharp
 // 填充标题行 (A1:A4)。

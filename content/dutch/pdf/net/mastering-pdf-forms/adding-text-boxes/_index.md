@@ -1,5 +1,5 @@
 ---
-"description": "Deze uitgebreide tutorial laat zien hoe u uw PDF-documenten kunt omzetten in interactieve formulieren met Aspose.PDF voor .NET. Leer stapsgewijs hoe u aanpasbare tekstvakvelden kunt toevoegen, wat de gebruikerservaring verbetert en de efficiëntie van de gegevensverzameling verbetert."
+"description": "Deze uitgebreide tutorial laat zien hoe u uw PDF-documenten kunt omzetten in interactieve formulieren met Aspose.PDF voor .NET. Leer stapsgewijs hoe u aanpasbare tekstvakvelden kunt toevoegen, wat de gebruikerservaring verbetert en de efficiëntie van de gegevensverzameling vergroot."
 "linktitle": "Tekstvakken toevoegen aan PDF's met Aspose.PDF voor .NET"
 "second_title": "Aspose.PDF voor .NET API-referentie"
 "title": "Tekstvakken toevoegen aan PDF's met Aspose.PDF voor .NET"
@@ -20,7 +20,7 @@ Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 3. Ontwikkelomgeving: Gebruik een IDE zoals Visual Studio voor codering en testen.
 4. .NET Framework: Zorg ervoor dat u een compatibele versie van .NET Framework hebt geïnstalleerd.
 
-Nu deze voorwaarden vervuld zijn, zijn we klaar om met coderen te beginnen!
+Nu deze voorwaarden vervuld zijn, kunnen we beginnen met coderen!
 
 ### Open uw IDE
 
@@ -32,7 +32,7 @@ Stel een nieuw C#-project in door 'Een nieuw project maken' te selecteren en kie
 
 ### Installeer het Aspose.PDF-pakket
 
-Integreer de Aspose.PDF-bibliotheek in uw project met NuGet Package Manager. Voer in de Package Manager Console het volgende uit:
+Integreer de Aspose.PDF-bibliotheek in uw project met behulp van NuGet Package Manager. Voer in de Package Manager Console het volgende uit:
 
 ```bash
 Install-Package Aspose.PDF

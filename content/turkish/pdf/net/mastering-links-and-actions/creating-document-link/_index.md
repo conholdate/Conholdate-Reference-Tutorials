@@ -222,7 +222,7 @@ Ardından, belgenizin hangi sayfasının bağlantıyı barındıracağını beli
 Page page = document.Pages[1];
 ```
 
-Aspose'da sayfalar sıfır indekslidir, yani kullanıcı için 1'den itibaren saymaya başlarsınız. Bu adım, bağlantınızı ekleme aşamasını hazırlar.
+Aspose'da sayfalar sıfır indekslidir, yani kullanıcı için 1'den saymaya başlarsınız. Bu adım, bağlantınızı ekleme aşamasını hazırlar.
 
 ## Adım 4: Bağlantı Açıklamasını Oluşturun
 

@@ -35,7 +35,7 @@ Kuasai tugas transformasi dokumen yang paling umum dengan panduan konversi langk
 | **[Konversi Word ke PDF](./essential-guide-document-conversions/convert-word-to-pdf/)** | Pembuatan PDF profesional dengan pemeliharaan format | ⭐ Pemula Bahasa Indonesia: |
 | **[Konversi DOCX ke TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Ekstrak konten teks biasa dari dokumen Word | ⭐ Pemula Bahasa Indonesia: |
 | **[Konversi File Teks ke Dokumen Word](./essential-guide-document-conversions/convert-text-files-to-word-documents/)** | Ubah teks biasa menjadi dokumen Word terstruktur | ⭐ Pemula Bahasa Indonesia: |
-| **[Konversi PDF ke Dokumen Word](./essential-guide-document-conversions/convert-pdf-to-word/)** Jadikan PDF dapat diedit dengan mengonversinya ke format Word | ⭐⭐ Menengah Bahasa Indonesia: |
+| **[Konversi PDF ke Dokumen Word](./essential-guide-document-conversions/convert-pdf-to-word/)** | Jadikan PDF dapat diedit dengan mengonversinya ke format Word | ⭐⭐ Menengah Bahasa Indonesia: |
 | **[Konversi PDF ke JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Ekstrak gambar berkualitas tinggi dari dokumen PDF | ⭐⭐ Menengah |
 
 ### Konversi Dokumen Lanjutan
@@ -54,7 +54,7 @@ Memanfaatkan teknologi AI mutakhir untuk meningkatkan alur kerja pemrosesan doku
 | Tutorial | Deskripsi | Kesulitan |
 |----------|-------------|------------Bahasa Indonesia: |
 | **[Menguasai Ringkasan Dokumen dengan Model AI](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Analisis konten dan peringkasan bertenaga AI | ⭐⭐⭐ Lanjutan Bahasa Indonesia: |
-| **[Ringkasan Dokumen dengan Model AI Google](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** | Integrasikan Google AI untuk pemrosesan dokumen cerdas | ⭐⭐⭐ Lanjutan Bahasa Indonesia: |
+| **[Ringkasan Dokumen dengan Model AI Google](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** Integrasikan Google AI untuk pemrosesan dokumen cerdas | ⭐⭐⭐ Lanjutan Bahasa Indonesia: |
 | **[Ringkasan Dokumen yang Efisien dengan Model OpenAI](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Memanfaatkan model OpenAI GPT untuk wawasan dokumen | ⭐⭐⭐ Lanjutan Bahasa Indonesia: |
 | **[Opsi Ringkasan Dokumen](./advanced-ai-document-processing/summarize-documents-options/)** | Panduan lengkap untuk teknik peringkasan | ⭐⭐⭐ Lanjutan |
 
@@ -129,7 +129,7 @@ Memanfaatkan teknologi AI mutakhir untuk meningkatkan alur kerja pemrosesan doku
 - **[Unduh](https://releases.aspose.com/words/net/)** - Evaluasi fitur lengkap
 
 ### **Komunitas & Dukungan**
-- **[Forum Dukungan](https://forum.aspose.com/c/words/8)** - Dapatkan bantuan dari para ahli
+- **[Forum Dukungan](https://forum.aspose.com/c/words/8)** Dapatkan bantuan dari para ahli
 
 ### **Lisensi & Uji Coba**
 - **[Lisensi Sementara](https://purchase.conholdate.com/temporary-license/)** - Evaluasi lanjutan

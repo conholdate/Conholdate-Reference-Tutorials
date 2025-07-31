@@ -1,13 +1,14 @@
 ---
-title: Kompleksowe samouczki i przykłady GroupDocs.Viewer dla .NET
-linktitle: GroupDocs.Viewer dla samouczków .NET
-weight: 10
-url: /pl/viewer/
-description: Odkryj kompleksowe samouczki i przykłady integracji GroupDocs.Viewer .NET z aplikacjami. Poznaj techniki krok po kroku dla ulepszonego zarządzania dokumentami.
-is_root: true
+"description": "Odkryj kompleksowe samouczki i przykłady integracji GroupDocs.Viewer .NET z aplikacjami. Poznaj techniki krok po kroku, które usprawnią zarządzanie dokumentami."
+"is_root": true
+"linktitle": "Samouczki GroupDocs.Viewer dla platformy .NET"
+"title": "Kompleksowe samouczki i przykłady GroupDocs.Viewer dla .NET"
+"url": "/pl/viewer/net/"
+"weight": 10
 ---
-## GroupDocs.Viewer dla samouczków .NET
+
+## Samouczki GroupDocs.Viewer dla platformy .NET
 ### [Opanowanie zaawansowanego ładowania dokumentów](./advanced-document-loading/)
-Zapoznaj się z samouczkami GroupDocs.Viewer dla platformy .NET, aby bezproblemowo zintegrować zaawansowane możliwości przeglądania dokumentów z aplikacjami.
-### [Opanowanie opcji renderowania w GroupDocs.Viewer dla .NET](./mastering-render-options/)
-Odblokuj potencjał .NET dzięki samouczkom GroupDocs.Viewer. Naucz się renderować dokumenty, zarządzać komentarzami i bez wysiłku zmieniać kolejność stron.
+Zapoznaj się z samouczkami GroupDocs.Viewer dla .NET, aby bez trudu zintegrować zaawansowane możliwości przeglądania dokumentów z aplikacjami.
+### [Opanowanie opcji renderowania w GroupDocs.Viewer dla platformy .NET](./mastering-render-options/)
+Odkryj potencjał .NET dzięki samouczkom GroupDocs.Viewer. Naucz się renderować dokumenty, zarządzać komentarzami i bezproblemowo zmieniać kolejność stron.

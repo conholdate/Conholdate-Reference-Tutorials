@@ -1,26 +1,27 @@
 ---
-title: GroupDocs.Signature Kullanarak Belgelere Metin İmzaları Ekleyin
-linktitle: Belgelere Metin İmzaları Ekleyin
-second_title: GroupDocs.Signature .NET API
-description: GroupDocs.Signature for .NET kullanarak belgeleri metinle nasıl imzalayacağınızı öğrenin. Metin imzalarını program aracılığıyla eklemek için adım adım kılavuz.
-weight: 17
-url: /tr/signature/master-advanced-sign-techniques/add-text-signatures-to-documents/
+"description": "GroupDocs.Signature for .NET kullanarak belgeleri metinle nasıl imzalayacağınızı öğrenin. Metin imzalarını program aracılığıyla eklemek için adım adım kılavuz."
+"linktitle": "Belgelere Metin İmzaları Ekleme"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "GroupDocs.Signature Kullanarak Belgelere Metin İmzaları Ekleme"
+"url": "/tr/signature/net/master-advanced-sign-techniques/add-text-signatures-to-documents/"
+"weight": 17
 ---
+
 ## giriiş
 
-Günümüzün dijital ortamında, elektronik belge imzalama iş akışlarını kolaylaştırmak ve kaynakları korumak için olmazsa olmaz hale geldi. GroupDocs.Signature for .NET, çeşitli belge biçimlerine programatik olarak metin imzaları eklemek için güçlü bir çözüm sunar. Bu eğitim, GroupDocs.Signature for .NET kullanarak bir belgeyi metinle imzalama adımlarında size rehberlik edecektir.
+Günümüzün dijital dünyasında, elektronik belge imzalama, iş akışlarını kolaylaştırmak ve kaynak tasarrufu sağlamak için vazgeçilmez hale geldi. GroupDocs.Signature for .NET, çeşitli belge biçimlerine programatik olarak metin imzaları eklemek için güçlü bir çözüm sunar. Bu eğitim, GroupDocs.Signature for .NET kullanarak bir belgeyi metinle imzalama adımlarında size rehberlik edecektir.
 
 ## Ön koşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. GroupDocs.Signature for .NET: Kütüphaneyi şu adresten indirin ve yükleyin:[Burada](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature for .NET: Kitaplığı şu adresten indirin ve yükleyin: [Burada](https://releases.groupdocs.com/signature/net/).
 2. Geliştirme Ortamı: .NET geliştirme ortamınızı kurun.
 3. Belge: İmzalamak istediğiniz belgeyi hazırlayın (örneğin PDF, Word).
 
 ## Gerekli Ad Alanlarını İçe Aktarma
 
-Öncelikle gerekli ad alanlarını .NET projenize aktarın:
+Gerekli ad alanlarını .NET projenize aktararak başlayın:
 
 ```csharp
 using System;
@@ -91,8 +92,8 @@ Kesinlikle! GroupDocs.Signature, PDF, Word, Excel, PowerPoint ve daha fazlası d
 ### Tek bir belgeye birden fazla metin imzası ekleyebilir miyim?
 Evet, her biri kendine özgü özelleştirme seçeneklerine sahip birden fazla metin imzası ekleyebilirsiniz.
 
-### GroupDocs.Signature imzalamadan sonra belge bütünlüğünü garanti ediyor mu?
-Evet, kütüphane belge bütünlüğünü garanti altına almak ve imzalamadan sonra belgede herhangi bir değişiklik yapılmasını önlemek için güçlü şifreleme algoritmaları kullanmaktadır.
+### GroupDocs.Signature imzalama sonrasında belgenin bütünlüğünü garanti ediyor mu?
+Evet, kütüphane belge bütünlüğünü sağlamak ve imzalamadan sonra tahrifatı önlemek için güçlü kriptografik algoritmalar kullanır.
 
-### Satın almadan önce test etmek için deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.groupdocs.com/) Satın alma işlemi yapmadan önce özelliklerini keşfetmek için.
+### Satın almadan önce test etmek için bir deneme sürümü mevcut mu?
+Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Burada](https://releases.groupdocs.com/) Satın alma işlemi yapmadan önce özelliklerini keşfetmek için.

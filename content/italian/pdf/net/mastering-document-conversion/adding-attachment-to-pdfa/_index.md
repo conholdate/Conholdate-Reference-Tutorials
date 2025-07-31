@@ -10,7 +10,7 @@
 - "Aspose.PDF"
 - "attachments"
 - "compliance"
-"title": "Aggiungere allegati ai documenti PDF/A con Aspose.PDF per .NET"
+"title": "Aggiungi allegati ai documenti PDF/A con Aspose.PDF per .NET"
 "url": "/it/pdf/net/mastering-document-conversion/adding-attachment-to-pdfa/"
 "weight": 10
 ---
@@ -61,9 +61,9 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Aspose.Pdf.Document doc = new Document(dataDir + "input.pdf");
 ```
 
-Questo passaggio carica il documento PDF esistente utilizzando Aspose.PDF `Document` classe. Sostituisci `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del file PDF. 
+Questo passaggio carica il documento PDF esistente utilizzando Aspose.PDF `Document` classe. Sostituisci `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del tuo file PDF. 
 
-**Suggerimento professionale**: Utilizzare sempre percorsi assoluti negli ambienti di produzione per evitare problemi di posizione dei file. Se si lavora con percorsi relativi, valutare l'utilizzo di `Path.Combine()` per una migliore compatibilità multipiattaforma.
+**Consiglio da professionista**: Utilizzare sempre percorsi assoluti negli ambienti di produzione per evitare problemi di posizione dei file. Se si lavora con percorsi relativi, valutare l'utilizzo di `Path.Combine()` per una migliore compatibilità multipiattaforma.
 
 ### Fase 2: Preparazione del file per l'allegato
 

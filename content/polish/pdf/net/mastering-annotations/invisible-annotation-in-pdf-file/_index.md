@@ -102,7 +102,7 @@ Gratulacje! Udało Ci się właśnie nauczyć, jak dodawać niewidoczne adnotacj
 
 ## Najczęściej zadawane pytania
 
-### Czy mogę ponownie wyświetlić adnotację?
+### Czy mogę ponownie uczynić adnotację widoczną?
 Tak! Możesz usunąć `AnnotationFlags.NoView` flaga umożliwiająca wyświetlenie adnotacji podczas normalnego przeglądania.
 
 ### Jakie typy adnotacji mogę dodać za pomocą Aspose.PDF?

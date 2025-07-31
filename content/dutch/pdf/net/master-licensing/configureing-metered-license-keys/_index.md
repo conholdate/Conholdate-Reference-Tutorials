@@ -16,7 +16,7 @@ Bent u klaar om de mogelijkheden van PDF-bewerking met Aspose.PDF voor .NET te v
 Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
 1. Aspose.PDF voor .NET: Download en installeer de nieuwste versie van de [downloadpagina](https://releases.aspose.com/pdf/net/).
-2. Geldige licentiesleutels voor gemeten data: verkrijg uw openbare en privésleutels voor gemeten data. Als u deze nog niet heeft, vraag dan een tijdelijke licentie aan. [hier](https://purchase.aspose.com/temporary-license/).
+2. Geldige licentiesleutels met meter: verkrijg uw openbare en privésleutels met meter. Als u deze nog niet heeft, vraag dan een tijdelijke licentie aan. [hier](https://purchase.aspose.com/temporary-license/).
 3. Ontwikkelomgeving: Stel Visual Studio of een andere compatibele .NET-ontwikkelomgeving in.
 4. Voorbeeld-PDF-document: Zorg dat u een PDF-bestand bij de hand hebt om de configuratie te testen.
 
@@ -35,8 +35,8 @@ Laten we het configuratieproces opsplitsen in duidelijke stappen, zodat u zeker 
 
 ## Stap 1: Stel uw ontwikkelomgeving in
 
-1. Open Visual Studio: start Visual Studio en maak een nieuw C#-project. Als u al een project hebt, open dit dan.
-2. Verwijzing naar Aspose.PDF toevoegen: Klik met de rechtermuisknop op uw project in Solution Explorer, selecteer 'Manage NuGet Packages', zoek naar 'Aspose.PDF voor .NET' en installeer het.
+1. Open Visual Studio: start Visual Studio en maak een nieuw C#-project. Als u al een project hebt, opent u dit.
+2. Verwijzing naar Aspose.PDF toevoegen: Klik met de rechtermuisknop op uw project in Solution Explorer, selecteer 'NuGet-pakketten beheren', zoek naar 'Aspose.PDF voor .NET' en installeer het.
 
 ## Stap 2: Initialiseer de gemeten klasse
 
@@ -46,7 +46,7 @@ Nu uw omgeving gereed is, initialiseert u de `Metered` les verzorgd door Aspose.
 Aspose.Pdf.Metered metered = new Aspose.Pdf.Metered();
 ```
 
-- Waarom dit belangrijk is: de `Metered` klasse is essentieel voor het gebruik van het gemeterde licentiemodel, dat voordeliger kan zijn bij documentverwerking met een groot volume.
+- Waarom dit belangrijk is: de `Metered` klasse is essentieel voor het gebruik van het gemeterde licentiemodel, dat voordeliger kan zijn bij documentverwerking in grote volumes.
 
 ## Stap 3: Stel uw gemeten licentiesleutels in
 
@@ -86,12 +86,12 @@ Gefeliciteerd! U hebt met succes gedoseerde licentiesleutels voor uw PDF-bestand
 ## Veelgestelde vragen
 
 ### Wat is een gemeten licentie in Aspose.PDF?  
-Met een gemeten licentie kunt u betalen op basis van uw API-gebruik, wat het ideaal maakt voor documentverwerking met een groot volume.
+Met een gemeten licentie betaalt u op basis van uw API-gebruik. Dit maakt deze licentie ideaal voor de verwerking van grote hoeveelheden documenten.
 
-### Hoe verkrijg ik betaalde licentiesleutels?  
+### Hoe kom ik aan een licentiesleutel met meterstanden?  
 Koop gemeten licentiesleutels van [hier](https://purchase.aspose.com/buy) of vraag een tijdelijke vergunning aan.
 
-### Kan ik Aspose.PDF zonder licentie gebruiken?  
+### Kan ik Aspose.PDF gebruiken zonder licentie?  
 Ja, maar de gratis versie heeft beperkingen. Voor onbeperkte toegang tot alle functies is een geldige licentie vereist.
 
 ### Wat gebeurt er als ik de gemeten licentie niet correct instel?  

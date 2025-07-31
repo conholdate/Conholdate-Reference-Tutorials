@@ -40,7 +40,7 @@ Pokročilé zpracování obsahu e-mailů a inteligentní techniky analýzy pro z
 | Tutoriál | Popis | Obtížnost |
 |----------|-------------|-------------|
 | **[Bayesovská analýza spamu v C#](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Detekce spamu založená na strojovém učení se statistickou analýzou | ⭐⭐⭐ Pokročilé |
-| **[Převod HTML e-mailu na prostý text](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Extrahování čistého textového obsahu z HTML e-mailů | ⭐⭐ Středně pokročilí |
+| **[Převod HTML e-mailu na prostý text](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Extrahování čistého textového obsahu z HTML e-mailů | ⭐⭐ Středně pokročilí |
 
 ### Zvládnutí e-mailových oznámení a sledování
 Profesionální systémy pro e-mailové notifikace a implementace sledování pro podnikové aplikace.
@@ -122,10 +122,10 @@ Profesionální systémy pro e-mailové notifikace a implementace sledování pr
 - **Šifrování** - Bezpečná e-mailová komunikace a ochrana dat
 
 ### **Analytika a reporting**
-- **Sledování e-mailů** - Potvrzení o doručení zprávy a potvrzení o přečtení
+- **Sledování e-mailů** Potvrzení o doručení zprávy a potvrzení o přečtení
 - **Analýza obsahu** - Dolování textu a klasifikace e-mailů
 - **Metriky výkonu** - Monitorování a analýza e-mailového systému
-- **Zprávy o shodě s předpisy** Dodržování předpisů a auditní záznamy
+- **Zprávy o shodě s předpisy** - Dodržování předpisů a auditní záznamy
 
 ## 🔗 Další zdroje
 

@@ -52,7 +52,7 @@ using System.Collections;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपकी पीडीएफ फाइल का वास्तविक पथ.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपकी पीडीएफ फाइल के वास्तविक पथ के साथ।
 
 ### चरण 1.2: PDF दस्तावेज़ लोड करें
 
@@ -142,4 +142,4 @@ Aspose.PDF एक निःशुल्क परीक्षण प्रदा
 
 ### मैं Aspose.PDF के लिए समर्थन से कैसे संपर्क करूं?
 
-तकनीकी सहायता के लिए, यहां जाएं [Aspose.PDF सहायता फ़ोरम](https://forum.aspose.com/c/pdf/10) टीम से सहायता प्राप्त करने के लिए।
+तकनीकी सहायता के लिए, यहां जाएं [Aspose.PDF समर्थन फ़ोरम](https://forum.aspose.com/c/pdf/10) टीम से सहायता प्राप्त करने के लिए।

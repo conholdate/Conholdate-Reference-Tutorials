@@ -18,7 +18,7 @@
 1. 已安装 Visual Studio：像 Visual Studio 这样的开发环境对于运行和测试 .NET 应用程序至关重要。
 2. Aspose.Cells for .NET：从下载并安装最新版本 [Aspose 网站](https://releases。aspose.com/cells/net/).
 3. 基本 C# 知识：熟悉 C# 编程将帮助您更有效地理解示例。
-4. 示例 Excel 文件：准备一个名为 `Book1.xlsx` 并将其放在指定的文件夹中以供在代码中引用。
+4. 示例 Excel 文件：准备一个名为 `Book1.xlsx` 并将其放在指定的文件夹中以供代码中引用。
 
 ## 设置你的项目
 

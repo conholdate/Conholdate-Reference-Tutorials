@@ -1,21 +1,22 @@
 ---
-title: Speichern von OneNote-Dokumenten im PDF-Format mit Aspose.Note für .NET
-linktitle: OneNote-Dokumente im PDF-Format speichern
-second_title: Aspose.Note .NET-API
-description: Erfahren Sie, wie Sie Microsoft OneNote-Dokumente mit Aspose.Note für .NET effizient als PDF-Dateien speichern. Dieser Leitfaden führt Sie durch die erforderlichen Voraussetzungen und bietet hilfreiche FAQs.
-weight: 26
-url: /de/note/one-note-document-manipulation/saving-one-note-document-pdf/
+"description": "Erfahren Sie, wie Sie Microsoft OneNote-Dokumente mit Aspose.Note für .NET effizient als PDF speichern. Dieser Leitfaden führt Sie durch die notwendigen Voraussetzungen und bietet hilfreiche FAQs."
+"linktitle": "Speichern von OneNote-Dokumenten im PDF-Format"
+"second_title": "Aspose.Note .NET API"
+"title": "Speichern von OneNote-Dokumenten im PDF-Format mit Aspose.Note für .NET"
+"url": "/de/note/net/one-note-document-manipulation/saving-one-note-document-pdf/"
+"weight": 26
 ---
+
 ## Einführung
 
-In diesem Tutorial erfahren Sie, wie Sie Dokumente mit Aspose.Note für .NET im PDF-Format speichern. Aspose.Note ist eine leistungsstarke Bibliothek, mit der Entwickler programmgesteuert mit Microsoft OneNote-Dateien arbeiten können. Wir behandeln die Voraussetzungen, importieren Namespaces und bieten Schritt-für-Schritt-Anleitungen zum Speichern von Dokumenten im PDF-Format in verschiedenen Seitenlayouts.
+In diesem Tutorial erfahren Sie, wie Sie Dokumente mit Aspose.Note für .NET im PDF-Format speichern. Aspose.Note ist eine leistungsstarke Bibliothek, die Entwicklern die programmgesteuerte Arbeit mit Microsoft OneNote-Dateien ermöglicht. Wir behandeln die Voraussetzungen, importieren Namespaces und bieten Schritt-für-Schritt-Anleitungen zum Speichern von Dokumenten im PDF-Format in verschiedenen Seitenlayouts.
 
 ## Voraussetzungen
 1. Visual Studio: Stellen Sie sicher, dass es installiert ist.
 2. Aspose.Note für .NET: Laden Sie die Bibliothek herunter und installieren Sie sie.
 3. C#-Kenntnisse: Grundlegende Kenntnisse der Sprache sind erforderlich.
 
-## Erforderliche Namespaces importieren
+## Importieren der erforderlichen Namespaces
 Bevor Sie fortfahren, importieren Sie die folgenden Namespaces in Ihren Code:
 
 ```csharp
@@ -53,14 +54,14 @@ public static void SaveToPdfUsingA4PageSettingsWithoutHeightLimit()
 Ähnlich wie Schritt 1, verwendet jedoch A4-Seiteneinstellungen ohne Höhenbeschränkungen.
 
 ## Abschluss
-Das Tutorial zeigt erfolgreich, wie man OneNote-Dateien mit Aspose.Note in das PDF-Format konvertiert. Durch die Verwendung verschiedener Seiteneinstellungen gewinnen Entwickler Flexibilität bei der Dokumentenverwaltung.
+Das Tutorial zeigt erfolgreich, wie Sie OneNote-Dateien mit Aspose.Note in das PDF-Format konvertieren. Durch die Nutzung verschiedener Seiteneinstellungen gewinnen Entwickler Flexibilität bei der Dokumentenverwaltung.
 
 ## Häufig gestellte Fragen
 ### Kann Aspose.Note komplexe OneNote-Dateien verarbeiten?
 Ja, es verarbeitet effektiv verschiedene Funktionen komplexer OneNote-Dateien.
 
 ### Ist Aspose.Note für kommerzielle Projekte geeignet?
-Ja, Sie können es nach dem Erwerb einer Lizenz für kommerzielle Anwendungen verwenden.
+Ja, Sie können es nach dem Kauf einer Lizenz für kommerzielle Anwendungen verwenden.
 
 ### Bietet Aspose.Note eine kostenlose Testversion an?
 Ja, es steht eine kostenlose Testversion zum Ausprobieren zur Verfügung.
@@ -69,4 +70,4 @@ Ja, es steht eine kostenlose Testversion zum Ausprobieren zur Verfügung.
 Eine ausführliche Dokumentation ist auf der Aspose-Referenzsite verfügbar.
 
 ### Benötigen Sie weitere Hilfe?
-Bei Fragen und für Support wenden Sie sich an das Aspose.Note-Forum.
+Bei Fragen und für Support wenden Sie sich bitte an das Aspose.Note-Forum.

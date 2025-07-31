@@ -40,7 +40,7 @@ using Aspose.Words;
 
 Tím se váš projekt připraví na práci s dokumenty Word a využití funkcí Aspose.
 
-## Načítání dokumentu Wordu
+## Načítání dokumentu Word
 
 Prvním krokem při úpravě dokumentu Word je jeho načtení do vaší aplikace. Zde je návod, jak načíst dokument pomocí Aspose.Words pro .NET:
 
@@ -123,4 +123,4 @@ Další tutoriály, příklady kódu a podrobnou dokumentaci naleznete na [Dokum
 
 ### Jak si mohu zakoupit licenci pro Aspose.Words pro .NET?
 
-Chcete-li zakoupit licenci pro Aspose.Words pro .NET, navštivte [Nákupní stránka Aspose](https://purchase.aspose.com/buy) abyste si vybrali licenci, která vyhovuje vašim potřebám.
+Chcete-li zakoupit licenci pro Aspose.Words pro .NET, navštivte [Nákupní stránka Aspose](https://purchase.aspose.com/buy) vybrat licenci, která vyhovuje vašim potřebám.

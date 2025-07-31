@@ -94,7 +94,7 @@ Une fois ce code exécuté, vérifiez votre répertoire de sortie pour le PDF no
 
 ## Conclusion
 
-Félicitations ! Vous avez réussi à convertir un fichier Excel en PDF en ignorant les erreurs rencontrées. Aspose.Cells pour .NET simplifie non seulement cette tâche, mais vous permet également de travailler efficacement avec vos données sans vous retrouver bloqué par les problèmes courants d'Excel.
+Félicitations ! Vous avez réussi à convertir un fichier Excel en PDF en ignorant les erreurs rencontrées. Aspose.Cells pour .NET simplifie non seulement cette tâche, mais vous permet également de travailler efficacement avec vos données sans vous enliser dans les problèmes courants d'Excel.
 
 ## FAQ
 

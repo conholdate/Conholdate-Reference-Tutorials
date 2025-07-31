@@ -1,5 +1,5 @@
 ---
-"description": "Zapoznaj się ze szczegółową listą samouczków dotyczących Aspose.Cells dla platformy .NET, skupiających się na zarządzaniu fragmentatorami programu Excel, w tym na dodawaniu, dostosowywaniu i aktualizowaniu fragmentatorów w plikach programu Excel."
+"description": "Zapoznaj się ze szczegółową listą samouczków dotyczących Aspose.Cells dla .NET, skupiających się na zarządzaniu fragmentatorami programu Excel, w tym na dodawaniu, dostosowywaniu i aktualizowaniu fragmentatorów w plikach Excel."
 "linktitle": "Opanowanie zarządzania fragmentatorami programu Excel"
 "second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
 "title": "Opanowanie zarządzania fragmentatorami programu Excel"

@@ -75,7 +75,7 @@ foreach (ImapMessageInfo messageInfo in messages)
 }
 ```
 
-- Itu `foreach` loop berulang melalui semua pesan.
+- Itu `foreach` loop mengulangi semua pesan.
 - `FetchMessage()` mengambil konten email sebenarnya untuk ID pesan tertentu.
 
 

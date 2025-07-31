@@ -46,7 +46,7 @@ Quindi, crea un `Workbook` oggetto per caricare e manipolare il file Excel.
 Workbook workbook = new Workbook(sourceDir + "ThreadedCommentsSample.xlsx");
 ```
 
-## Passaggio 3: accedi al foglio di lavoro
+## Passaggio 3: accedere al foglio di lavoro
 Dopo aver caricato la cartella di lavoro, accedi al foglio di lavoro specifico che contiene i commenti concatenati. In questo esempio, accederemo al primo foglio di lavoro.
 
 ```csharp

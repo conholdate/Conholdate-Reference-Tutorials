@@ -39,7 +39,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Properties.docx");
 ```
 
-Stellen Sie sicher, dass Sie `"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Dokument.
+Stellen Sie sicher, dass Sie `"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad zu Ihrem Dokument.
 
 ## Schritt 2: Zugriff auf benutzerdefinierte Dokumenteigenschaften
 

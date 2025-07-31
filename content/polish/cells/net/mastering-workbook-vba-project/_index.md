@@ -27,7 +27,7 @@ Ochrona projektów VBA jest kluczowa, zwłaszcza w przypadku przetwarzania poufn
 
 Zabezpieczenie projektu VBA to nie tylko dodanie hasła — to także zapewnienie ochrony poufnego kodu przed nieautoryzowanym dostępem. Aspose.Cells for .NET oferuje zaawansowane narzędzia do sprawdzania, czy projekt jest już zabezpieczony, i stosowania dodatkowych zabezpieczeń. Ten samouczek przeprowadzi Cię przez proces programistycznego wykonywania tych zadań, zapewniając bezpieczeństwo projektów Excela przed wścibskimi oczami. Chcesz dowiedzieć się, jak zablokować swój projekt VBA? [Dowiedz się więcej tutaj](./check-and-secure-vba-projects-is-protected/).
 
-## Samouczki dotyczące projektów VBA w skoroszycie
+## Samouczki dotyczące projektów VBA w skoroszycie Mastering Workbook
 ### [Sprawdź status blokady projektu VBA w programie Excel za pomocą Aspose.Cells](./check-vba-project-lock-status/)
 Ten kompleksowy przewodnik przeprowadzi Cię przez proces sprawdzania, czy projekt VBA w programie Excel jest zablokowany do wyświetlania za pomocą zaawansowanej biblioteki Aspose.Cells for .NET. Idealne rozwiązanie dla programistów .NET i użytkowników programu Excel.
 ### [Przenoszenie formularzy użytkownika i makr VBA między skoroszytami programu Excel](./transfer-vba-user-form-and-macro/)

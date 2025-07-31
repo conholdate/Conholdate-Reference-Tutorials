@@ -67,7 +67,7 @@ workbook.Save(dataDir + "output.out.xls");
 
 ## Következtetés
 
-Gratulálunk! Sikeresen eltávolított egy munkalapot egy Excel-fájlból az Aspose.Cells for .NET segítségével. Mindössze néhány sornyi kóddal hatékonyan kezelheti munkalapjait, javítva ezzel a munkafolyamatát. Az Aspose.Cells kiváló eszköz az összetett Excel-feladatok elvégzéséhez, és ez az útmutató szilárd alapot biztosít a további kutatáshoz.
+Gratulálunk! Sikeresen eltávolított egy munkalapot egy Excel-fájlból az Aspose.Cells for .NET segítségével. Mindössze néhány sornyi kóddal hatékonyan kezelheti munkalapjait, javítva ezzel a munkafolyamatát. Az Aspose.Cells kiváló eszköz az összetett Excel-feladatok elvégzéséhez, és ez az útmutató szilárd alapot biztosít a további feltáráshoz.
 
 ## GYIK
 

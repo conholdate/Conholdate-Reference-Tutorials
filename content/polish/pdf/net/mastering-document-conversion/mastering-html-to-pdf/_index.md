@@ -25,7 +25,7 @@ Dobra wiadomość? Konwersja HTML do PDF za pomocą C# nie musi być bolesna. Dz
 
 Pod koniec tego samouczka będziesz mieć solidną wiedzę na temat konwersji HTML do PDF za pomocą C#, wraz z poprawną obsługą błędów i optymalizacją wydajności. Zaczynajmy!
 
-## Dlaczego warto wybrać Aspose.PDF do konwersji z HTML do PDF?
+## Dlaczego warto wybrać Aspose.PDF do konwersji HTML do PDF?
 
 Zanim przejdziemy do kodu, omówmy, dlaczego Aspose.PDF wyróżnia się na tle bogatej oferty bibliotek PDF. Masz mnóstwo opcji, ale oto, co sprawia, że Aspose.PDF jest szczególnie atrakcyjny w kontekście konwersji HTML do PDF:
 
@@ -33,7 +33,7 @@ Zanim przejdziemy do kodu, omówmy, dlaczego Aspose.PDF wyróżnia się na tle b
 
 **Wydajność**:Szybki czas przetwarzania, nawet w przypadku dużych dokumentów lub konwersji wsadowych. Twoi użytkownicy nie będą siedzieć bezczynnie.
 
-**Elastyczność**:Obsługuje różne wersje .NET i płynnie integruje się zarówno ze starszymi, jak i nowoczesnymi aplikacjami.
+**Elastyczność**:Obsługuje różne wersje .NET i bezproblemowo integruje się zarówno ze starszymi, jak i nowoczesnymi aplikacjami.
 
 ## Wymagania wstępne
 
@@ -145,7 +145,7 @@ Bądźmy szczerzy – nie zawsze wszystko idzie gładko za pierwszym razem. Oto 
 - **Rozwiązanie**: Upewnij się, że ścieżki do obrazów są poprawne i dostępne. Rozważ osadzanie obrazów w formacie base64 w przypadku zewnętrznych adresów URL.
 
 **Problem 2: Styl CSS nie został zastosowany**
-- **Przyczyna**:Zewnętrzne pliki CSS nie ładują się poprawnie
+- **Przyczyna**:Zewnętrzne pliki CSS nie ładują się prawidłowo
 - **Rozwiązanie**:Użyj wbudowanego kodu CSS lub upewnij się, że zewnętrzne arkusze stylów są dostępne z odpowiednimi nagłówkami CORS
 
 **Problem 3: Problemy z renderowaniem czcionek**

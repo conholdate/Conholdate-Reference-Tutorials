@@ -40,7 +40,7 @@ using System.Collections;
 
 Nu we alles klaar hebben staan, gaan we aan de slag met het verwijderen van grafische objecten uit een PDF-bestand!
 
-## Stap 1: Het PDF-document laden
+## Stap 1: laad het PDF-document
 
 Eerst moeten we het PDF-bestand laden met de grafische objecten die u wilt verwijderen.
 
@@ -62,15 +62,15 @@ Laad het PDF-document met behulp van de `Document` klas:
 Document doc = new Document(dataDir + "RemoveGraphicsObjects.pdf");
 ```
 
-Dit creëert een instantie van de `Document` klasse die het door u opgegeven PDF-bestand laadt.
+Hiermee wordt een exemplaar van de `Document` klasse die het door u opgegeven PDF-bestand laadt.
 
 ## Stap 2: Toegang tot de pagina en operatorcollectie
 
-PDF-bestanden bestaan uit pagina's. Elke pagina bevat een eigen operatorverzameling die definieert wat er op die pagina wordt weergegeven, inclusief afbeeldingen en tekst.
+PDF-bestanden bestaan uit pagina's. Elke pagina bevat een verzameling operatoren die definieert wat er op die pagina wordt weergegeven, inclusief afbeeldingen en tekst.
 
 ### Stap 2.1: Selecteer de pagina die u wilt wijzigen
 
-Selecteer de specifieke pagina waarvan u de afbeeldingen wilt verwijderen. Om bijvoorbeeld met pagina 2 te werken:
+Selecteer de specifieke pagina waarvan u afbeeldingen wilt verwijderen. Om bijvoorbeeld met pagina 2 te werken:
 
 ```csharp
 Page page = doc.Pages[2];
@@ -86,7 +86,7 @@ OperatorCollection oc = page.Contents;
 
 ## Stap 3: Definieer de grafische operatoren
 
-Om grafische objecten te verwijderen, definieert u de operatoren die aan het tekenen van afbeeldingen zijn gekoppeld. Veelgebruikte operatoren zijn: `Stroke()`, `ClosePathStroke()`, En `Fill()`:
+Om grafische objecten te verwijderen, definieert u de operatoren die aan het tekenen van afbeeldingen zijn gekoppeld. Veelvoorkomende operatoren zijn: `Stroke()`, `ClosePathStroke()`, En `Fill()`:
 
 ```csharp
 Operator[] operators = new Operator[] {
@@ -106,7 +106,7 @@ Laten we nu de geïdentificeerde grafische operatoren uit de operatorverzameling
 oc.Delete(operators);
 ```
 
-Met dit codefragment worden de lijnen, paden en vullingen die bij de afbeeldingen horen, verwijderd. Hierdoor worden ze feitelijk uit de PDF verwijderd.
+Met dit codefragment worden de lijnen, paden en vullingen die aan de afbeeldingen zijn gekoppeld, verwijderd. Hierdoor worden ze feitelijk uit de PDF verwijderd.
 
 ## Stap 5: Sla de gewijzigde PDF op
 

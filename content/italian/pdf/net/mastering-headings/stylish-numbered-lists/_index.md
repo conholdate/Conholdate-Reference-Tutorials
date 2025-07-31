@@ -105,7 +105,7 @@ Aspose.Pdf.Heading heading2 = new Aspose.Pdf.Heading(1)
 floatBox.Paragraphs.Add(heading2);
 ```
 
-## Passaggio 6: aggiunta di un'intestazione con numerazione alfabetica
+## Fase 6: Aggiunta di un titolo con numerazione alfabetica
 
 Per variare, aggiungiamo una terza intestazione utilizzando la numerazione alfabetica in minuscolo.
 

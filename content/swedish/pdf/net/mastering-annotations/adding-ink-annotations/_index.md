@@ -25,7 +25,7 @@ När du har dessa förutsättningar på plats är du redo att börja lägga till
 
 ## Importera nödvändiga paket
 
-Innan vi börjar programmera, låt oss importera de nödvändiga paketen. Lägg till följande using-satser högst upp i din C#-fil:
+Innan vi går in i kodningen, låt oss importera de nödvändiga paketen. Lägg till följande using-satser högst upp i din C#-fil:
 
 ```csharp
 using System.IO;

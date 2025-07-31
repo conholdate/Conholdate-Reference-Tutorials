@@ -17,7 +17,7 @@ Você já quis controlar a aparência das fontes ao converter e-mails para MHT? 
 
 ## Renderização de hiperlink personalizada  
 Hiperlinks em e-mails muitas vezes não recebem a atenção que merecem. Por que não destacá-los? Este guia mostra como personalizar a aparência dos hiperlinks, aumentando a visibilidade e tornando seus e-mails mais envolventes. Seja alterando cores ou adicionando efeitos, este é o tutorial perfeito para a mágica dos hiperlinks.  
-[Saiba mais sobre renderização de hiperlinks personalizados](./custom-hyperlink-rendering/)  
+[Saiba mais sobre renderização de hiperlink personalizado](./custom-hyperlink-rendering/)  
 
 ## Ordem personalizada de informações em MHTML  
 Imagine apresentar o conteúdo do e-mail exatamente na ordem que você precisa. O Aspose.Email para .NET permite definir uma sequência personalizada de informações durante a conversão para MHTML. Este guia passo a passo é como reorganizar peças de um quebra-cabeça — fácil e gratificante!  
@@ -25,7 +25,7 @@ Imagine apresentar o conteúdo do e-mail exatamente na ordem que você precisa. 
 
 ## Extração de cabeçalho de e-mail em C#  
 Cabeçalhos contêm metadados cruciais sobre e-mails. Este tutorial mostra como extrair cabeçalhos em C#, permitindo que você analise e manipule informações importantes. Pense nisso como desvendar um tesouro de insights escondidos à vista de todos!  
-[Saiba mais sobre extração de cabeçalho de e-mail](./email-header-extraction/)  
+[Saiba mais sobre Extração de Cabeçalho de E-mail](./email-header-extraction/)  
 
 ## Tutoriais de manipulação de cabeçalhos de e-mail
 ### [Alterando a personalização da fonte MHT usando C#](./changing-mht-font-customization/)

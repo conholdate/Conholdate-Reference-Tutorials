@@ -55,7 +55,7 @@ message.HtmlBody = "<p>This is the <b>HTML</b> body of the email.</p>";
 
 ## Aggiunta di allegati
 
-Per allegare file all'e-mail, utilizzare `Attachments` proprietà. Ecco come aggiungere un file PDF:
+Per allegare file all'e-mail, utilizzare il `Attachments` proprietà. Ecco come aggiungere un file PDF:
 
 ```csharp
 Attachment attachment = new Attachment("path/to/attachment.pdf");

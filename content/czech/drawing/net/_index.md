@@ -1,13 +1,14 @@
 ---
-title: Komplexní návody a příklady Aspose.Drawing pro .NET
-linktitle: Aspose.Drawing for .NET Tutoriály
-weight: 10
-url: /cs/drawing/
-description: Zvyšte své grafické dovednosti s Aspose.Drawing pro .NET. Od přesných transformací souřadnic po dynamický text a písma, naše výukové programy odemykají plný potenciál grafiky.
-is_root: true
+"description": "Zlepšete si své grafické dovednosti s Aspose.Drawing pro .NET. Od přesných transformací souřadnic až po dynamický text a písma, naše tutoriály odemknou plný potenciál grafiky."
+"is_root": true
+"linktitle": "Výukové programy Aspose.Drawing pro .NET"
+"title": "Komplexní návody a příklady Aspose.Drawing pro .NET"
+"url": "/cs/drawing/net/"
+"weight": 10
 ---
-## Aspose.Drawing for .NET Tutoriály
-### [Zvládnutí souřadnicových transformací v Aspose.Drawing pro .NET](./transformations/)
-Naučte se ovládat transformace souřadnic pomocí Aspose.Drawing pro .NET. Objevte, jak implementovat globální a místní transformace pro vizuální dokonalost.
-### [Master Image Editing s Aspose.Drawing pro .NET](./master-image-editing/)
-Prozkoumejte výukové programy Aspose.Drawing for .NET, abyste zvládli úpravy, oříznutí a zobrazení obrázků v aplikacích .NET pomocí podrobných průvodců.
+
+## Výukové programy Aspose.Drawing pro .NET
+### [Zvládnutí transformací souřadnic v Aspose.Drawing pro .NET](./transformations/)
+Naučte se zvládat transformace souřadnic s Aspose.Drawing pro .NET. Objevte, jak implementovat globální a lokální transformace pro vizuální dokonalost.
+### [Zvládněte úpravu obrázků s Aspose.Drawing pro .NET](./master-image-editing/)
+Prozkoumejte tutoriály Aspose.Drawing pro .NET a zvládněte úpravy obrázků, ořezávání a zobrazování v aplikacích .NET pomocí podrobných návodů.

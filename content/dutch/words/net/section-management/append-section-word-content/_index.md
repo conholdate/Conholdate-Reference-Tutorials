@@ -1,15 +1,15 @@
 ---
 "description": "Leer de basisbeginselen voor het maken, wijzigen en toevoegen van secties in Word-documenten met eenvoudig te volgen voorbeelden, perfect voor zowel beginners als ervaren ontwikkelaars."
-"linktitle": "Sectie-Woordinhoud toevoegen met Aspose.Words in .NET"
+"linktitle": "Sectie-woordinhoud toevoegen met Aspose.Words in .NET"
 "second_title": "Aspose.Words API voor documentverwerking"
-"title": "Sectie-Woordinhoud toevoegen met Aspose.Words in .NET"
+"title": "Sectie-woordinhoud toevoegen met Aspose.Words in .NET"
 "url": "/nl/words/net/section-management/append-section-word-content/"
 "weight": 10
 ---
 
 ## Invoering
 
-Heb je ooit Word-documenten programmatisch willen bewerken met .NET? Zo ja, dan is Aspose.Words voor .NET een uitstekende bibliotheek die dit proces vereenvoudigt. In deze tutorial laten we zien hoe je secties toevoegt aan een Word-document met Aspose.Words. Of je nu een beginner bent of een ervaren ontwikkelaar, deze handleiding geeft je de vaardigheden die je nodig hebt om Word-documenten effectief te beheren. Laten we beginnen!
+Heb je ooit Word-documenten programmatisch willen bewerken met .NET? Zo ja, dan is Aspose.Words voor .NET een uitstekende bibliotheek die dit proces vereenvoudigt. In deze tutorial laten we zien hoe je secties toevoegt aan een Word-document met Aspose.Words. Of je nu een beginner bent of een ervaren ontwikkelaar, deze gids geeft je de vaardigheden die je nodig hebt om Word-documenten effectief te beheren. Laten we beginnen!
 
 ## Vereisten
 
@@ -20,7 +20,7 @@ Voordat u de code induikt, moet u ervoor zorgen dat u het volgende hebt:
 3. Visual Studio: elke versie is geschikt, maar het is raadzaam om de nieuwste versie te gebruiken.
 4. .NET Framework: Zorg ervoor dat dit op uw computer is geïnstalleerd.
 
-Nu deze voorwaarden vervuld zijn, zijn we klaar om te beginnen met coderen!
+Nu deze voorwaarden vervuld zijn, zijn we klaar om te gaan coderen!
 
 ## Stap 1: Importeer de benodigde naamruimten
 
@@ -90,7 +90,7 @@ Nadat u dit hebt uitgevoerd, bevat het derde gedeelte de inhoud van zowel het ee
 
 ## Stap 7: Sla het document op
 
-Laten we tot slot ons gewijzigde document opslaan.
+Laten we ten slotte ons gewijzigde document opslaan.
 
 ```csharp
 doc.Save("output.docx");

@@ -1,21 +1,22 @@
 ---
-title: Hücreleri Stream'den Karşılaştırma - GroupDocs.Comparison for .NET
-linktitle: Akıştan Hücreleri Karşılaştırın - GroupDocs.Comparison for .NET
-second_title: GroupDocs.Comparison .NET API
-description: GroupDocs.Comparison for .NET kullanarak belgeleri etkili bir şekilde nasıl karşılaştıracağınızı keşfedin. Bu kapsamlı kılavuz, ad alanlarını içe aktarma, karşılaştırma değişkenlerini başlatma ve belge karşılaştırmalarını adım adım gerçekleştirme konusunda size yol gösterir.
-weight: 11
-url: /tr/comparison/guide-to-basic-usage/comparing-cells-from-stream/
+"description": "GroupDocs.Comparison for .NET kullanarak belgeleri nasıl etkili bir şekilde karşılaştıracağınızı keşfedin. Bu kapsamlı kılavuz, ad alanlarını içe aktarma, karşılaştırma değişkenlerini başlatma ve belge karşılaştırmalarını adım adım gerçekleştirme konusunda size yol gösterir."
+"linktitle": "Akıştan Hücreleri Karşılaştırın - GroupDocs.Comparison for .NET"
+"second_title": "GroupDocs.Comparison .NET API"
+"title": "Stream'den Hücreleri Karşılaştırma - .NET için GroupDocs.Comparison"
+"url": "/tr/comparison/net/guide-to-basic-usage/comparing-cells-from-stream/"
+"weight": 11
 ---
+
 ## giriiş
 
-Yazılım geliştirmede, özellikle yasal belgeler, sözleşmeler veya herhangi bir metin biçimiyle uğraşırken, belgeleri etkili bir şekilde karşılaştırma yeteneği çok önemlidir. Farklılıkları doğru bir şekilde belirlemek zamandan tasarruf sağlayabilir ve maliyetli hataları önleyebilir. GroupDocs.Comparison for .NET, belge karşılaştırma görevleri için güçlü bir çözüm sunarak iş akışınızı kolaylaştırmayı kolaylaştırır.
+Yazılım geliştirmede, özellikle yasal belgeler, sözleşmeler veya herhangi bir metin biçimiyle çalışırken, belgeleri etkili bir şekilde karşılaştırma yeteneği çok önemlidir. Farklılıkları doğru bir şekilde belirlemek zamandan tasarruf sağlayabilir ve maliyetli hataları önleyebilir. GroupDocs.Comparison for .NET, belge karşılaştırma görevleri için güçlü bir çözüm sunarak iş akışınızı kolaylaştırmayı kolaylaştırır.
 
 ## Ön koşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. GroupDocs.Comparison for .NET: Kütüphaneyi şu adresten indirin ve yükleyin:[Burada](https://releases.groupdocs.com/comparison/net/).
-2. Temel C# Bilgisi: Bu eğitim için C# programlamaya aşina olunduğu varsayılmaktadır.
+1. GroupDocs.Comparison for .NET: Kitaplığı şu adresten indirin ve yükleyin: [Burada](https://releases.groupdocs.com/comparison/net/).
+2. C# Temel Bilgisi: Bu eğitim için C# programlamaya aşinalık varsayılmaktadır.
 3. Entegre Geliştirme Ortamı (IDE): Kodlama için Visual Studio gibi bir IDE kullanın.
 4. Karşılaştırılacak Belgeler: Karşılaştırmak istediğiniz belgeleri hazırlayın ve bunların C# kodunuzdan erişilebilir olduğundan emin olun.
 
@@ -41,7 +42,7 @@ string outputFileName = Path.Combine(outputDirectory, "result.xlsx");
 
 ## Adım 2: Bir Karşılaştırıcı Nesnesi Oluşturun
 
- Bir tane oluştur`Comparer` Kaynak belgeyi açarak nesneyi bulun:
+Bir tane oluştur `Comparer` Kaynak belgeyi açarak nesneyi bulun:
 
 ```csharp
 using (Comparer comparer = new Comparer(File.OpenRead("source.xlsx")))
@@ -55,15 +56,15 @@ Karşılaştırma için hedef belgeyi ekleyin:
 comparer.Add(File.OpenRead("target.xlsx"));
 ```
 
-## Adım 4: Karşılaştırmayı Gerçekleştirin
+## 4. Adım: Karşılaştırmayı Gerçekleştirin
 
-Karşılaştırmayı yürütün ve sonuçları kaydedin:
+Karşılaştırmayı gerçekleştirin ve sonuçları kaydedin:
 
 ```csharp
 comparer.Compare(File.Create(outputFileName));
 ```
 
-## Adım 5: Başarılı Mesajını Göster
+## Adım 5: Başarılı Mesajını Görüntüle
 
 Kullanıcıya karşılaştırmanın başarılı olduğunu bildirin:
 
@@ -73,7 +74,7 @@ Console.WriteLine($"\nDocuments compared successfully.\nCheck output in {outputD
 
 ## Çözüm
 
-GroupDocs.Comparison for .NET, C# uygulamalarınızda sorunsuz belge karşılaştırması için sağlam bir platform sağlar. Belirtilen adımları izleyerek, belgeleri verimli bir şekilde karşılaştırabilir ve belge işleme görevlerinizi kolaylaştırabilir, üretkenliği ve doğruluğu artırabilirsiniz.
+GroupDocs.Comparison for .NET, C# uygulamalarınızda sorunsuz belge karşılaştırması için sağlam bir platform sunar. Belirtilen adımları izleyerek belgeleri verimli bir şekilde karşılaştırabilir ve belge işleme görevlerinizi kolaylaştırarak üretkenliği ve doğruluğu artırabilirsiniz.
 
 ## SSS
 
@@ -87,12 +88,12 @@ Kesinlikle! GroupDocs.Comparison for .NET, çıktıyı ihtiyaçlarınıza göre 
 
 ### GroupDocs.Comparison for .NET'in ticari kullanımı için lisans gerekiyor mu?
 
- Evet, ticari kullanım için lisans gereklidir. Bunu alabilirsiniz[Burada](https://purchase.groupdocs.com/buy).
+Evet, ticari kullanım için lisans gereklidir. Bunu alabilirsiniz. [Burada](https://purchase.groupdocs.com/buy).
 
 ### GroupDocs.Comparison for .NET için ücretsiz deneme sürümü mevcut mu?
 
- Evet, ücretsiz denemeye erişebilirsiniz[Burada](https://releases.groupdocs.com/).
+Evet, ücretsiz denemeye erişebilirsiniz [Burada](https://releases.groupdocs.com/).
 
 ### GroupDocs.Comparison for .NET ile ilgili yardım veya desteği nereden alabilirim?
 
- Yardım için GroupDocs.Comparison forumunu ziyaret edin[Burada](https://forum.groupdocs.com/c/comparison/12).
+Yardım için GroupDocs.Comparison forumunu ziyaret edin [Burada](https://forum.groupdocs.com/c/comparison/12).

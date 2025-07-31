@@ -1,8 +1,8 @@
 ---
 "description": "Naučte se, jak snadno převést konkrétní stránky dokumentů Wordu do obrázků JPEG pomocí Aspose.Words pro .NET. Tato komplexní příručka zahrnuje vše od načtení dokumentu a konfigurace nastavení obrázků až po uložení ve formátu JPEG."
-"linktitle": "Získejte rozsah stránek JPG v dokumentech Word"
+"linktitle": "Získejte rozsah stránek JPEG v dokumentech Word"
 "second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
-"title": "Získejte rozsah stránek JPG v dokumentech Word"
+"title": "Získejte rozsah stránek JPEG v dokumentech Word"
 "url": "/cs/words/net/guide-to-image-save-options/get-jpeg-page-range-word-document/"
 "weight": 10
 ---

@@ -1,21 +1,22 @@
 ---
-title: Video's uit PowerPoint-dia's extraheren met Aspose.Slides
-linktitle: Video's uit PowerPoint-dia's extraheren
-second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
-description: Ontdek hoe u eenvoudig ingebedde videobestanden uit PowerPoint-presentaties kunt extraheren met Aspose.Slides voor .NET. Deze uitgebreide stapsgewijze handleiding behandelt alles van het instellen van uw omgeving tot het opslaan van de geëxtraheerde video's.
-weight: 14
-url: /nl/slides/extract-audio-and-video/extract-videos-from-powerpoint-slides/
+"description": "Ontdek hoe u eenvoudig ingesloten videobestanden uit PowerPoint-presentaties kunt extraheren met Aspose.Slides voor .NET. Deze uitgebreide stapsgewijze handleiding behandelt alles, van het instellen van uw omgeving tot het opslaan van de geëxtraheerde video's."
+"linktitle": "Video's uit PowerPoint-dia's extraheren"
+"second_title": "Aspose.Slides .NET PowerPoint-verwerkings-API"
+"title": "Video's uit PowerPoint-dia's extraheren met Aspose.Slides"
+"url": "/nl/slides/net/extract-audio-and-video/extract-videos-from-powerpoint-slides/"
+"weight": 14
 ---
+
 ## Invoering
 
-Aspose.Slides voor .NET is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met PowerPoint-presentaties kunnen werken. In deze gids leiden we u door het proces van het extraheren van video's die zijn ingebed in PowerPoint-dia's met behulp van Aspose.Slides voor .NET. 
+Aspose.Slides voor .NET is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met PowerPoint-presentaties kunnen werken. In deze handleiding leiden we je door het proces van het extraheren van video's die in PowerPoint-dia's zijn ingesloten met Aspose.Slides voor .NET. 
 
 ## Vereisten
 
-Voordat u begint, moet u ervoor zorgen dat u over het volgende beschikt:
+Voordat u begint, moet u ervoor zorgen dat u het volgende heeft:
 
--  Aspose.Slides voor .NET: De bibliotheek verkrijgen en installeren vanaf de[Aspose-website](https://purchase.aspose.com/buy).
--  PowerPoint-presentatie: bereid een PowerPoint-bestand voor (bijv.`Video.pptx`) met de video die u wilt extraheren.
+- Aspose.Slides voor .NET: De bibliotheek verkrijgen en installeren vanuit de [Aspose-website](https://purchase.aspose.com/buy).
+- PowerPoint-presentatie: bereid een PowerPoint-bestand voor (bijv. `Video.pptx`) met de video die u wilt extraheren.
 
 ## Noodzakelijke naamruimten
 
@@ -26,7 +27,7 @@ using Aspose.Slides;
 using Aspose.Slides.Video;
 ```
 
-## Stap 1: Geef de documentdirectory op
+## Stap 1: Geef de documentmap op
 
 Definieer eerst het pad naar uw PowerPoint-presentatie:
 
@@ -34,19 +35,19 @@ Definieer eerst het pad naar uw PowerPoint-presentatie:
 string dataDir = "Your Document Directory";
 ```
 
- Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar de map waarin uw PowerPoint-bestand zich bevindt.
+Vervangen `"Your Document Directory"` met het werkelijke pad naar de map waarin uw PowerPoint-bestand zich bevindt.
 
 ## Stap 2: Laad de presentatie
 
- Laad de PowerPoint-presentatie in een`Presentation` voorwerp:
+Laad de PowerPoint-presentatie in een `Presentation` voorwerp:
 
 ```csharp
 Presentation presentation = new Presentation(dataDir + "Video.pptx");
 ```
 
- Dit initialiseert de`Presentation` object met het door u opgegeven PowerPoint-bestand.
+Dit initialiseert de `Presentation` object met het door u opgegeven PowerPoint-bestand.
 
-## Stap 3: Herhaal dia's en vormen
+## Stap 3: Door dia's en vormen heen itereren
 
 Blader vervolgens door elke dia in de presentatie en controleer op videoframes:
 
@@ -63,7 +64,7 @@ foreach (ISlide slide in presentation.Slides)
 }
 ```
 
-## Stap 4: Videodata extraheren
+## Stap 4: Videogegevens extraheren
 
 Zodra u een videoframe hebt gevonden, extraheert u de eigenschappen en binaire gegevens ervan:
 
@@ -87,25 +88,25 @@ using (FileStream stream = new FileStream(dataDir + "ExtractedVideo." + fileExte
 }
 ```
 
-Deze code maakt een nieuw bestand aan in de door u opgegeven map en schrijft de videogegevens ernaartoe.
+Deze code maakt een nieuw bestand aan in de door u opgegeven map en schrijft de videogegevens daarheen.
 
 ## Conclusie
 
-Met Aspose.Slides voor .NET is het extraheren van video's uit PowerPoint-dia's een eenvoudig proces. Door deze handleiding te volgen, kunt u eenvoudig multimedia-inhoud beheren binnen uw .NET-toepassingen, wat de gebruikerservaring en functionaliteit verrijkt.
+Met Aspose.Slides voor .NET is het extraheren van video's uit PowerPoint-dia's een eenvoudig proces. Door deze handleiding te volgen, kunt u eenvoudig multimediacontent beheren binnen uw .NET-applicaties, wat de gebruikerservaring en functionaliteit verbetert.
 
 ## Veelgestelde vragen
 
 ### Wat is Aspose.Slides voor .NET?
-Aspose.Slides voor .NET is een bibliotheek die is ontworpen voor PowerPoint-presentaties, waarmee gebruikers presentatiebestanden programmatisch kunnen maken, bewerken en manipuleren.
+Aspose.Slides voor .NET is een bibliotheek die is ontworpen voor PowerPoint-presentaties, waarmee gebruikers programmatisch presentatiebestanden kunnen maken, bewerken en manipuleren.
 
 ### Waar kan ik de documentatie voor Aspose.Slides voor .NET vinden?
- U kunt de volledige documentatie raadplegen[hier](https://reference.aspose.com/slides/net/).
+U kunt de volledige documentatie raadplegen [hier](https://reference.aspose.com/slides/net/).
 
-### Is Aspose.Slides voor .NET beschikbaar als gratis proefversie?
- Ja, u kunt een gratis proefversie downloaden van[deze link](https://releases.aspose.com/).
+### Is Aspose.Slides voor .NET gratis beschikbaar als proefversie?
+Ja, u kunt een gratis proefversie downloaden van [deze link](https://releases.aspose.com/).
 
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Slides voor .NET verkrijgen?
- Aanvragen voor tijdelijke vergunningen kunnen worden ingediend[hier](https://purchase.aspose.com/temporary-license/).
+Aanvragen voor tijdelijke vergunningen kunnen worden ingediend [hier](https://purchase.aspose.com/temporary-license/).
 
 ### Waar kan ik ondersteuning krijgen voor Aspose.Slides voor .NET?
- Ondersteuning is beschikbaar via de[Aspose.Slides-forum](https://forum.aspose.com/).
+Ondersteuning is beschikbaar via de [Aspose.Slides forum](https://forum.aspose.com/).

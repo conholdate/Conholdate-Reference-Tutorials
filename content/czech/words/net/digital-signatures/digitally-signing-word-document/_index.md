@@ -47,7 +47,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 
 ## Krok 3: Načtěte dokument Wordu
 
-Nyní načtěte dokument Wordu, který chcete podepsat:
+Nyní si načtěte dokument Wordu, který chcete podepsat:
 
 ```csharp
 // Vložte dokument k podpisu.

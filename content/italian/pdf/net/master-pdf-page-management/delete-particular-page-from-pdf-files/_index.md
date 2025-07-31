@@ -39,7 +39,7 @@ Successivamente, è necessario specificare il percorso del file PDF. Questo pass
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Assicurati di sostituire `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del file PDF.
+Assicurati di sostituire `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del tuo file PDF.
 
 ## Passaggio 3: aprire il documento PDF
 

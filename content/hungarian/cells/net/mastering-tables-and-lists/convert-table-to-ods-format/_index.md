@@ -114,4 +114,4 @@ Természetesen! Támogatást kaphatsz a következőn keresztül: [Aspose fórum]
 
 ### Milyen típusú fájlformátumokat konvertálhatok az Aspose.Cells segítségével?
 
-Az Aspose.Cells lehetővé teszi a különféle formátumok közötti konverziót, beleértve az XLSX, XLS, ODS, CSV és sok más formátumot.
+Az Aspose.Cells lehetővé teszi a különféle formátumok közötti konvertálást, beleértve az XLSX, XLS, ODS, CSV és sok más formátumot.

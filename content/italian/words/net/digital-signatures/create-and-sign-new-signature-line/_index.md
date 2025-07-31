@@ -59,7 +59,7 @@ Ora, usa il `DocumentBuilder` classe per inserire una riga di firma nel document
 SignatureLine signatureLine = builder.InsertSignatureLine(new SignatureLineOptions()).SignatureLine;
 ```
 
-## Passaggio 4: salvataggio del documento
+## Passaggio 4: Salvataggio del documento
 
 Dopo aver inserito la riga della firma, salva il documento. Questo è un passaggio fondamentale prima di firmare.
 

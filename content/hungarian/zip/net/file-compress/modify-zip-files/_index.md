@@ -1,24 +1,25 @@
 ---
-title: Módosítsa a ZIP-fájlokat az Aspose.Zip for .NET segítségével
-linktitle: Zip fájlok módosítása
-second_title: Aspose.Zip .NET API fájlok tömörítéséhez és archiválásához
-description: Tanulja meg, hogyan lehet programozottan hatékonyan kicsomagolni, törölni és bejegyzéseket hozzáadni a zip fájlokhoz, javítva ezzel a fájlkezelési képességeket.
-weight: 15
-url: /hu/zip/file-compress/modify-zip-files/
+"description": "Ismerje meg, hogyan lehet hatékonyan kinyerni, törölni és bejegyzéseket hozzáadni zip fájlokhoz programozott módon, ezáltal bővítve fájlkezelési képességeit."
+"linktitle": "ZIP-fájlok módosítása"
+"second_title": "Aspose.Zip .NET API fájlok tömörítéséhez és archiválásához"
+"title": "ZIP fájlok módosítása az Aspose.Zip for .NET segítségével"
+"url": "/hu/zip/net/file-compress/modify-zip-files/"
+"weight": 15
 ---
+
 ## Bevezetés
 
-ZIP-fájlok létfontosságúak az adatok rendezéséhez és tömörítéséhez, de hogyan módosíthatja a tartalmukat programozottan? A megoldás az Aspose.Zip for .NET-ben rejlik, amely egy robusztus könyvtár, amely leegyszerűsíti a zip-fájlok kezelését C# segítségével. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a zip-fájlok kibontásán, törlésén és bejegyzések hozzáadásán.
+A zip fájlok létfontosságúak az adatok rendszerezéséhez és tömörítéséhez, de hogyan módosítható a tartalmuk programozottan? A megoldás az Aspose.Zip for .NET-ben rejlik, egy robusztus könyvtárban, amely leegyszerűsíti a zip fájlok kezelését C#-ban. Ebben az oktatóanyagban lépésről lépésre végigvezetünk a zip fájlok kibontásán, törlésének és bejegyzések hozzáadásának folyamatán.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt belevágnánk, győződjünk meg róla, hogy a következőkkel rendelkezünk:
 
-1.  Aspose.Zip for .NET Library: Telepítse a könyvtárat a projektben. Letöltheti[itt](https://releases.aspose.com/zip/net/).
+1. Aspose.Zip .NET könyvtárhoz: Telepítse a könyvtárat a projektjébe. Letöltheti [itt](https://releases.aspose.com/zip/net/).
    
-2.  Dokumentumkönyvtár: Állítson be egy könyvtárat a zip-fájlok tárolására. Cserélje ki`"Your Document Directory"` a kódban a tényleges elérési úttal.
+2. Dokumentumkönyvtár: Állítson be egy könyvtárat a zip fájlok tárolásához. Csere `"Your Document Directory"` a kódban a tényleges elérési úttal.
 
-## Importálja a szükséges névtereket
+## Szükséges névterek importálása
 
 Kezdje a szükséges névterek importálásával:
 
@@ -32,21 +33,21 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-## 1. lépés: Nyissa meg a külső ZIP-fájlt
+## 1. lépés: Nyissa meg a külső zip fájlt
 
-Kezdje a fő zip-fájl (külső zip) megnyitásával:
+Kezdésként nyisd meg a fő zip fájlt (külső zip):
 
 ```csharp
 string dataDir = "Your Data Directory";
 using (Archive outer = new Archive(dataDir + "outer.zip"))
 {
-    // Folytassa a belső zip-bejegyzések azonosításával
+    // Folytassa a belső irányítószám-bejegyzések azonosításával
 }
 ```
 
-## 2. lépés: A belső zip-bejegyzések azonosítása
+## 2. lépés: A belső irányítószám-bejegyzések azonosítása
 
-Ezután azonosítsa és készüljön fel a belső zip-fájlok törlésére:
+Ezután azonosítsa és készüljön fel a belső zip fájlok törlésére:
 
 ```csharp
 List<ArchiveEntry> entriesToDelete = new List<ArchiveEntry>();
@@ -63,7 +64,7 @@ foreach (ArchiveEntry entry in outer.Entries)
         {
             entry.Open().CopyTo(innerCompressed);
             
-            // Belső bejegyzések kibontása
+            // Belső bejegyzések kinyerése
             using (Archive inner = new Archive(innerCompressed))
             {
                 foreach (ArchiveEntry ie in inner.Entries)
@@ -79,9 +80,9 @@ foreach (ArchiveEntry entry in outer.Entries)
 }
 ```
 
-## 3. lépés: Törölje a belső archívum bejegyzéseit
+## 3. lépés: Belső archívumbejegyzések törlése
 
-Miután összegyűjtötte a szükséges bejegyzéseket, törölje a belső zip bejegyzéseket:
+Miután összegyűjtötted a szükséges bejegyzéseket, töröld a belső zip bejegyzéseket:
 
 ```csharp
 foreach (ArchiveEntry e in entriesToDelete)
@@ -90,9 +91,9 @@ foreach (ArchiveEntry e in entriesToDelete)
 }
 ```
 
-## 4. lépés: Adjon hozzá módosított bejegyzéseket a külső ziphez
+## 4. lépés: Módosított bejegyzések hozzáadása a külső irányítószámhoz
 
-Most újra hozzáadhatja az újonnan kicsomagolt bejegyzéseket a külső zip-fájlhoz:
+Most már visszahelyezheti az újonnan kibontott bejegyzéseket a külső zip fájlba:
 
 ```csharp
 for (int i = 0; i < namesToInsert.Count; i++)
@@ -101,9 +102,9 @@ for (int i = 0; i < namesToInsert.Count; i++)
 }
 ```
 
-## 5. lépés: Mentse el a módosított ZIP-fájlt
+## 5. lépés: Mentse el a módosított zip fájlt
 
-Végül mentse a módosításokat egy új zip fájlba:
+Végül mentse el a módosításokat egy új zip fájlba:
 
 ```csharp
 outer.Save(dataDir + "flatten.zip");
@@ -111,21 +112,21 @@ outer.Save(dataDir + "flatten.zip");
 
 ## Következtetés
 
-Az Aspose.Zip for .NET hatékony és egyszerű módot kínál a zip-fájlok programozott kezelésére. Ez az oktatóanyag a bejegyzések zip-fájlba történő kibontásával, törlésével és hozzáadásával foglalkozott, bemutatva a könyvtár sokoldalúságát. Fedezze fel a különböző forgatókönyveket, és fejlessze fájlkezelési készségeit!
+Az Aspose.Zip for .NET hatékony és egyszerű módszert kínál a zip fájlok programozott kezelésére. Ez az oktatóanyag a zip fájlok kibontását, törlését és bejegyzések hozzáadását ismertette, bemutatva a könyvtár sokoldalúságát. Fedezz fel különböző forgatókönyveket, és fejleszd fájlkezelési készségeidet!
 
 ## GYIK
 
 ### Használhatom az Aspose.Zip for .NET fájlt más programozási nyelvekkel?
-Az Aspose.Zip elsősorban .NET-alkalmazásokhoz készült, de az Aspose hasonló könyvtárakat kínál különféle programozási nyelvekhez.
+Az Aspose.Zip elsősorban .NET alkalmazásokhoz készült, de az Aspose hasonló könyvtárakat kínál különböző programozási nyelvekhez.
 
-### Létezik ingyenes próbaverzió az Aspose.Zip for .NET számára?
- Igen, ingyenes próbaverzió letölthető[itt](https://releases.aspose.com/).
+### Van ingyenes próbaverzió az Aspose.Zip for .NET-hez?
+Igen, letölthető egy ingyenes próbaverzió [itt](https://releases.aspose.com/).
 
-### Hogyan kaphatok támogatást az Aspose.Zip for .NET-hez?
- Látogassa meg a[Aspose.Zip fórum](https://forum.aspose.com/c/zip/37) támogatásért és megbeszélésekért.
+### Hogyan kaphatok támogatást az Aspose.Zip for .NET fájlhoz?
+Látogassa meg a [Aspose.Zip fórum](https://forum.aspose.com/c/zip/37) támogatásért és megbeszélésekért.
 
-### Vásárolhatok ideiglenes licencet az Aspose.Zip for .NET számára?
-Igen, kaphat ideiglenes engedélyt[itt](https://purchase.conholdate.com/temporary-license/).
+### Vásárolhatok ideiglenes licencet az Aspose.Zip for .NET fájlhoz?
+Igen, igényelhet ideiglenes jogosítványt [itt](https://purchase.conholdate.com/temporary-license/).
 
 ### Hol találom az Aspose.Zip for .NET dokumentációját?
- A teljes dokumentáció elérhető[itt](https://reference.aspose.com/zip/net/).
+A teljes dokumentáció elérhető [itt](https://reference.aspose.com/zip/net/).

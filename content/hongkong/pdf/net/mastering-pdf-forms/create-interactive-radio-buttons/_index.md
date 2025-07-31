@@ -1,5 +1,5 @@
 ---
-"description": "本教學將指導您使用 Aspose.PDF for .NET 在 PDF 文件中建立互動式單選按鈕。教程包含清晰的逐步說明和程式碼範例。"
+"description": "本綜合教學將指導您使用 Aspose.PDF for .NET 在 PDF 文件中建立互動式單選按鈕的過程。提供清晰的逐步說明和程式碼範例。"
 "linktitle": "建立互動式單選按鈕"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "建立互動式單選按鈕"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-互動式 PDF 可以顯著提升使用者參與度，尤其是在表單方面。單選按鈕是最有效的互動元素之一，它允許使用者從一組選項中選擇一個。在本教學中，我們將逐步說明如何使用 Aspose.PDF for .NET 在 PDF 文件中建立單選按鈕。無論您是經驗豐富的開發人員還是初學者，本指南都能幫助您理解程式碼的每個部分。
+互動式 PDF 可以顯著增強使用者參與度，尤其是在表單方面。最有效的互動元素之一是單選按鈕，它允許使用者從一組選項中選擇一個。在本教學中，我們將介紹使用 Aspose.PDF for .NET 在 PDF 文件中建立單選按鈕的步驟。無論您是經驗豐富的開發人員還是初學者，本指南都將幫助您了解程式碼的每個部分。
 
 ## 先決條件
 
@@ -73,7 +73,7 @@ radio.AddOption("Option 1", new Rectangle(0, 0, 20, 20));
 radio.AddOption("Option 2", new Rectangle(0, 30, 20, 20));
 ```
 
-此範例新增了兩個選項：「選項 1」和「選項 2」。 `Rectangle` 物件指定每個選項的位置和大小。
+此範例新增了兩個選項：「選項 1」和「選項 2」。這 `Rectangle` 物件指定每個選項的位置和大小。
 
 ## 步驟 6：將單選按鈕新增至文件表單
 
@@ -109,7 +109,7 @@ catch (Exception ex)
 
 ## 結論
 
-使用 Aspose.PDF for .NET 在 PDF 中建立單選按鈕非常簡單，可以增強文件的互動性。按照本教學課程，您可以輕鬆地在 PDF 表單中實現單選按鈕，使其更加用戶友好。歡迎嘗試不同的選項和配置來提升您的技能！
+使用 Aspose.PDF for .NET 在 PDF 中建立單選按鈕是一個簡單的過程，可以增強文件的互動性。透過遵循本教學課程，您可以輕鬆地在 PDF 表單中實現單選按鈕，使其更加用戶友好。不要猶豫，嘗試不同的選項和配置來提高您的技能！
 
 ## 常見問題解答
 
@@ -117,7 +117,7 @@ catch (Exception ex)
 Aspose.PDF for .NET 是一個強大的程式庫，可讓開發人員以程式設計方式建立、操作和轉換 PDF 文件。
 
 ### Aspose.PDF 可以免費使用嗎？
-Aspose 提供免費試用版，您可以用它來探索該程式庫的功能。立即下載 [這裡](https://releases。aspose.com/).
+Aspose 提供免費試用版，您可以使用它來探索該程式庫的功能。下載 [這裡](https://releases。aspose.com/).
 
 ### 我如何獲得 Aspose.PDF 的支援？
 如需支持，請訪問 [Aspose 論壇](https://forum。aspose.com/c/pdf/10).

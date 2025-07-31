@@ -294,7 +294,7 @@ Amikor készen áll a dokumentum-összefoglaló rendszer éles környezetben tö
 ### Monitoring és megfigyelhetőség
 - Kövesse nyomon az API-használatot és a költségeket a meglepetések elkerülése érdekében
 - Feldolgozási idők és sikerességi arányok figyelése
-- AI-modell elérhetőségének állapotellenőrzésének végrehajtása
+- Állapotellenőrzések végrehajtása az AI-modell elérhetőségéhez
 - Naplófeldolgozási statisztikák a teljesítmény optimalizálásához
 
 ### Skálázhatósági tervezés

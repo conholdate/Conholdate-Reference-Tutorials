@@ -1,5 +1,5 @@
 ---
-"description": "Ontdek de uitgebreide Aspose.Cells voor .NET-zelfstudies, waarin onder meer wordt uitgelegd hoe u pagina-instellingen voor werkbladen kunt beheren, zoals papierformaat, afdrukstand, kopteksten, marges en meer."
+"description": "Ontdek de uitgebreide Aspose.Cells voor .NET-zelfstudies, inclusief het beheren van pagina-instellingen voor werkbladen, zoals papierformaat, afdrukstand, kopteksten, marges en meer."
 "linktitle": "De functies voor het instellen van werkbladpagina's onder de knie krijgen"
 "second_title": "Aspose.Cells .NET Excel-verwerkings-API"
 "title": "De functies voor het instellen van werkbladpagina's onder de knie krijgen"
@@ -16,11 +16,11 @@ Het beheren van papierformaat is essentieel, vooral voor documenten die nauwkeur
 [Lees meer](./check-if-paper-size-settings/)
 
 ## Pagina-oriëntatie implementeren in Excel-werkblad  
-Moet u schakelen tussen portret- en landschapsmodus voor een betere leesbaarheid? Deze tutorial begeleidt u bij het programmatisch aanpassen van de pagina-oriëntatie. Uiteindelijk beheerst u de kunst van het aanpassen van lay-outstijlen aan uw gegevenspresentatie.  
+Moet u schakelen tussen staande en liggende weergaven voor een betere leesbaarheid? Deze tutorial begeleidt u bij het programmatisch aanpassen van de pagina-oriëntatie. Uiteindelijk beheerst u de kunst van het aanpassen van lay-outstijlen aan uw gegevenspresentatie.  
 [Lees meer](./implement-page-orientation-in-excel-worksheet/)
 
 ## Implementeer kop- en voettekst met Aspose.Cells voor .NET  
-Kop- en voetteksten geven uw Excel-documenten een professionele uitstraling. Deze handleiding legt uit hoe u dynamische inhoud, zoals werkbladnamen of paginanummers, rechtstreeks in kop- en voetteksten kunt invoegen. Perfect voor het genereren van verzorgde rapporten.  
+Kop- en voetteksten voegen een vleugje professionaliteit toe aan uw Excel-documenten. Deze handleiding legt uit hoe u dynamische inhoud, zoals werkbladnamen of paginanummers, rechtstreeks in kop- en voetteksten kunt invoegen. Perfect voor het genereren van verzorgde rapporten.  
 [Lees meer](./implement-header-footer/)
 
 ## Marges implementeren in werkblad met Aspose.Cells  
@@ -34,9 +34,9 @@ Heb je ooit een groot spreadsheet afgedrukt en ontdekt dat de inhoud niet goed u
 [Lees meer](./implement-page-order-settings/)
 
 
-## Werkbladpagina-instellingen onder de knie krijgen, functies, tutorials
+## Werkbladpagina-instellingen onder de knie krijgen, tutorials
 ### [Controleren of de papierformaatinstellingen van het werkblad automatisch zijn](./check-if-paper-size-settings/)
-Leer hoe u papierformaatinstellingen in Excel-werkbladen efficiënt kunt beheren en controleren met Aspose.Cells voor .NET. Deze uitgebreide handleiding biedt stapsgewijze instructies.
+Leer hoe u papierformaatinstellingen in Excel-werkbladen efficiënt kunt beheren en verifiëren met Aspose.Cells voor .NET. Deze uitgebreide handleiding biedt stapsgewijze instructies.
 ### [Pagina-oriëntatie implementeren in Excel-werkblad](./implement-page-orientation-in-excel-worksheet/)
 Ontdek hoe u de leesbaarheid en presentatie van uw Excel-spreadsheets kunt verbeteren door de pagina-oriëntatie te wijzigen met Aspose.Cells voor .NET. Deze stapsgewijze handleiding leidt u door het proces en geeft duidelijke voorbeelden.
 ### [Implementeer kop- en voettekst met Aspose.Cells voor .NET](./implement-header-footer/)

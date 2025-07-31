@@ -83,7 +83,7 @@ Cette ligne récupère la première feuille de calcul du classeur. Si vous avez 
 
 ## Étape 4 : Accéder au premier tableau de la feuille de calcul
 
-Localisez maintenant le tableau dans la feuille de calcul où le segment sera ajouté :
+Maintenant, localisez le tableau dans la feuille de calcul où le segment sera ajouté :
 
 ```csharp
 // Accédez au premier tableau à l'intérieur de la feuille de calcul.

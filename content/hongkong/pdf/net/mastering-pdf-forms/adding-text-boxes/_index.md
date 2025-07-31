@@ -1,5 +1,5 @@
 ---
-"description": "本教學將全面探討如何使用 Aspose.PDF for .NET 將 PDF 文件轉換為互動式表單。逐步學習如何新增自訂文字方塊字段，從而提升使用者體驗和資料收集效率。"
+"description": "本綜合教學探討如何使用 Aspose.PDF for .NET 將 PDF 文件轉換為互動式表單。了解新增可自訂文字方塊欄位的逐步流程，以提高使用者體驗和資料收集效率。"
 "linktitle": "使用 Aspose.PDF for .NET 在 PDF 中新增文字框"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "使用 Aspose.PDF for .NET 在 PDF 中新增文字框"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-在當今的數位環境中，透過互動式文件提升使用者體驗至關重要。互動式 PDF 表單不僅簡化了資料收集，還能以靜態文件無法實現的方式吸引使用者。 Aspose.Pdf for .NET 是一個功能強大的程式庫，旨在幫助開發人員輕鬆地將各種表單欄位整合到 PDF 文件中。其中，文字方塊尤其適用於以結構化的方式收集使用者輸入。在本教學中，我們將逐步講解使用 Aspose.Pdf for .NET 為 PDF 新增文字方塊的過程，確保您全面了解每個步驟。
+在當今的數位環境中，透過互動式文件增強使用者體驗至關重要。互動式 PDF 表單不僅簡化了資料收集，而且還能以靜態文件無法做到的方式吸引使用者。 Aspose.PDF for .NET 是一個功能強大的程式庫，旨在幫助開發人員輕鬆地將各種表單欄位整合到 PDF 文件中。其中，文字方塊對於以結構化的方式收集使用者輸入特別有用。在本教學中，我們將介紹使用 Aspose.PDF for .NET 在 PDF 中新增文字方塊的過程，確保您全面了解每個步驟。
 
 ## 先決條件
 
@@ -32,7 +32,7 @@
 
 ### 安裝 Aspose.PDF 包
 
-使用 NuGet 套件管理器將 Aspose.PDF 庫整合到您的專案中。在套件管理器控制台中，執行：
+使用 NuGet 套件管理器將 Aspose.PDF 庫整合到您的專案中。在程式包管理器控制台中，執行：
 
 ```bash
 Install-Package Aspose.PDF
@@ -56,7 +56,7 @@ using Aspose.Pdf.Annotations;
 
 ## 步驟 1：定義文件目錄
 
-首先，指定 PDF 文件所在的目錄。替換 `"YOUR DOCUMENT DIRECTORY"` 使用實際路徑：
+首先，指定您的 PDF 文件所在的目錄。代替 `"YOUR DOCUMENT DIRECTORY"` 使用實際路徑：
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -131,11 +131,11 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nTextbox field added successfully.\nFile saved at " + dataDir);
 ```
 
-此程式碼片段會將修改後的 PDF 以新名稱儲存。請檢查新建立的 PDF 的輸出路徑！
+此程式碼片段以新名稱儲存修改後的 PDF。檢查新建立的 PDF 的輸出路徑！
 
 ## 結論
 
-恭喜！您已成功使用 Aspose.PDF for .NET 將文字方塊新增至 PDF 文件。此過程不僅增強了 PDF 的互動性，也顯著提升了使用者參與度。無論您是收集使用者輸入、進行調查或建立表單，文字方塊都能提升 PDF 文件的功能。下次建立 PDF 時，請記住互動式欄位的強大功能以及使用 Aspose.PDF 實現它們的便利性。
+恭喜！您已成功使用 Aspose.PDF for .NET 將文字方塊新增至 PDF 文件。此過程不僅增強了 PDF 的互動性，而且還顯著提高了使用者參與度。無論您是收集使用者輸入、進行調查或建立表單，文字方塊都可以提升 PDF 文件的功能。下次建立 PDF 時，請記住互動式欄位的強大功能以及使用 Aspose.PDF 實現它們是多麼容易。
 
 ## 常見問題解答
 

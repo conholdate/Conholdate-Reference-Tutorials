@@ -32,7 +32,7 @@ Innan vi går in på koden, låt oss förstå varför Aspose.Cells utmärker sig
 
 **Produktionsklar prestanda**Den är byggd för företagsapplikationer, hanterar stora filer effektivt och erbjuder omfattande anpassningsalternativ för olika affärsbehov.
 
-**Utvecklarvänligt API**Biblioteket erbjuder intuitiva metoder som gör att komplexa konverteringar känns enkla, vilket sparar dig timmar av felsökning.
+**Utvecklarvänligt API**Biblioteket erbjuder intuitiva metoder som gör komplexa konverteringar enkla, vilket sparar dig timmar av felsökning.
 
 ## Förkunskapskrav
 
@@ -216,7 +216,7 @@ using (var workbook = new Workbook(excelPath))
 ```
 
 ### Strategier för batchbearbetning
-Implementera effektiv batchbehandling när du konverterar flera filer:
+Implementera effektiv batchbearbetning när du konverterar flera filer:
 
 ```csharp
 foreach (string excelFile in Directory.GetFiles(inputDir, "*.xlsx"))

@@ -92,7 +92,7 @@ Evet, Aspose.Email for .NET ticari bir kütüphanedir. Ancak, satın almadan ön
 Aspose.Email for .NET, özellikle .NET framework için tasarlanmıştır. Başka programlama dilleri kullanıyorsanız, Aspose.Email'in Java ve diğer platformlar için sunduğu seçenekleri incelemeyi düşünebilirsiniz.
 
 ### İşlenebilecek TGZ dosyasının boyutunda herhangi bir sınırlama var mı?
-Aspose.Email for .NET çeşitli boyutlardaki TGZ dosyalarını işleyebilir, ancak performans dosya boyutuna ve mevcut sistem kaynaklarına bağlı olabilir.
+Aspose.Email for .NET, çeşitli boyutlardaki TGZ dosyalarını işleyebilir; ancak performans, dosya boyutuna ve kullanılabilir sistem kaynaklarına bağlı olabilir.
 
 ### Aspose.Email for .NET kullanarak e-posta mesajlarından ekleri çıkarabilir miyim?
 Evet, Aspose.Email for .NET, e-posta mesajlarından ekleri kolayca çıkarmayı sağlayan özellikler sunar ve bu da onu e-posta veri yönetimi için çok yönlü bir araç haline getirir.

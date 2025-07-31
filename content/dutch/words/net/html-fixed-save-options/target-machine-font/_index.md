@@ -35,7 +35,7 @@ using Aspose.Words.Saving;
 
 De eerste stap is het laden van uw Word-document met behulp van de `Document` klasse uit de Aspose.Words bibliotheek.
 
-### Stap 1.1: Het documentpad definiëren
+### Stap 1.1: Definieer het documentpad
 
 Begin met het definiëren van het pad naar uw documentenmap:
 
@@ -55,7 +55,7 @@ Document doc = new Document(dataDir + "Bullet points with alternative font.docx"
 
 ## Stap 2: Opties voor opslaan configureren
 
-Vervolgens moeten we de opslagopties instellen om ervoor te zorgen dat de lettertypen die in je document worden gebruikt, afkomstig zijn van de doelcomputer. We maken een instantie van `HtmlFixedSaveOptions` en stel de `UseTargetMachineFonts` eigendom van `true`.
+Vervolgens moeten we de opslagopties instellen om ervoor te zorgen dat de lettertypen die in uw document worden gebruikt, afkomstig zijn van de doelcomputer. We maken een instantie van `HtmlFixedSaveOptions` en stel de `UseTargetMachineFonts` eigendom van `true`.
 
 ```csharp
 // Configureer opslagopties om lettertypen van de doelcomputer te gebruiken
@@ -87,12 +87,12 @@ En voilà! Je hebt met succes lettertypen van de doelcomputer gebruikt in je Wor
 
 ## Conclusie
 
-Door lettertypen van de doelcomputer te gebruiken, zorgen we ervoor dat uw Word-documenten er consistent en professioneel uitzien, ongeacht waar ze worden bekeken. Aspose.Words voor .NET vereenvoudigt dit proces, zodat u documenten eenvoudig kunt laden, opslagopties kunt configureren en ze kunt opslaan met de gewenste lettertype-instellingen.
+Door lettertypen van de doelcomputer te gebruiken, zorgen we ervoor dat uw Word-documenten er consistent en professioneel uitzien, ongeacht waar ze worden bekeken. Aspose.Words voor .NET vereenvoudigt dit proces, zodat u eenvoudig documenten kunt laden, opslagopties kunt configureren en ze kunt opslaan met de gewenste lettertype-instellingen.
 
 ## Veelgestelde vragen
 
 ### Kan ik deze methode gebruiken met andere documentformaten?
-Ja, Aspose.Words voor .NET ondersteunt verschillende documentformaten. U kunt vergelijkbare opslagopties toepassen voor verschillende formaten.
+Ja, Aspose.Words voor .NET ondersteunt verschillende documentformaten en u kunt vergelijkbare opslagopties toepassen voor verschillende formaten.
 
 ### Wat als de doelcomputer niet over de vereiste lettertypen beschikt?
 Als de benodigde lettertypen ontbreken op de doelcomputer, wordt het document mogelijk niet correct weergegeven. Het is raadzaam om indien nodig lettertypen in te sluiten.

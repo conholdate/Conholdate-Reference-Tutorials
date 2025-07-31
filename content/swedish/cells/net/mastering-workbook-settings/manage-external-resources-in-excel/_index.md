@@ -9,7 +9,7 @@
 
 ## Introduktion
 
-När du arbetar med data i Excel kan sömlös hantering av externa resurser avsevärt förbättra programmets funktionalitet. Om du vill kontrollera bilder och andra externa element i Excel-arbetsböcker med Aspose.Cells för .NET har du kommit rätt! Den här guiden guidar dig genom processen steg för steg, så att du kan implementera en anpassad lösning för att hantera dessa resurser utan problem.
+När du arbetar med data i Excel kan sömlös hantering av externa resurser avsevärt förbättra programmets funktionalitet. Om du vill kontrollera bilder och andra externa element i Excel-arbetsböcker med hjälp av Aspose.Cells för .NET har du kommit rätt! Den här guiden guidar dig genom processen steg för steg, så att du kan implementera en anpassad lösning för att hantera dessa resurser utan problem.
 
 ## Förkunskapskrav
 

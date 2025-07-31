@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Cells for .NET 有效地新增水平和垂直分頁符，從而增強您的 Excel 工作表。本指南將引導您完成必要的設定和編碼步驟。"
+"description": "了解如何透過使用 Aspose.Cells for .NET 有效地新增水平和垂直分頁符號來增強您的 Excel 工作表。本綜合指南將引導您完成必要的設定和編碼步驟。"
 "linktitle": "使用 Aspose.Cells 在工作表中新增分頁符"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "使用 Aspose.Cells 在工作表中新增分頁符"
@@ -9,13 +9,13 @@
 
 ## 介紹
 
-在本教程中，我們將指導您使用 Aspose.Cells for .NET 在 Excel 工作表中新增水平和垂直分頁符號。最終，您將能夠在專案中無縫地運用這些技術。讓我們開始吧！
+在本教學中，我們將指導您使用 Aspose.Cells for .NET 在 Excel 工作表中新增水平和垂直分頁符號。最後，您將能夠在您的專案中無縫地實施這些技術。讓我們開始吧！
 
 ## 先決條件
 在深入研究程式碼之前，請確保您已準備好以下內容：
 - Visual Studio：確保您的系統上安裝了 Visual Studio。
-- Aspose.Cells for .NET：下載並安裝 Aspose.Cells 函式庫。您可以免費試用 [這裡](https://releases。aspose.com/cells/net/).
-- .NET Framework：本教學假設您使用 .NET Framework 或 .NET Core。其他環境的安裝過程可能略有不同。
+- Aspose.Cells for .NET：下載並安裝 Aspose.Cells 函式庫。您可以獲得免費試用版 [這裡](https://releases。aspose.com/cells/net/).
+- .NET Framework：本教學假設您使用 .NET Framework 或 .NET Core。對於其他環境，該過程可能略有不同。
 - 基本 C# 知識：熟悉 C# 程式設計和 Excel 中的分頁符號概念將會有所幫助。
 
 ## 導入包

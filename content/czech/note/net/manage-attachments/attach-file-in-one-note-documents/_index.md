@@ -1,30 +1,31 @@
 ---
-title: Průvodce připojením souboru v dokumentech OneNotu pomocí Aspose.Note
-linktitle: Průvodce připojením souboru v dokumentech OneNotu pomocí Aspose.Note
-second_title: Aspose.Note .NET API
-description: Tento obsáhlý průvodce vás provede procesem programového připojování souborů k dokumentům OneNotu, což vám umožní zdokonalit vaše úkoly při psaní poznámek a správě dokumentů. S jasnými pokyny krok za krokem a užitečnými často kladenými dotazy.
-weight: 11
-url: /cs/note/manage-attachments/attach-file-in-one-note-documents/
+"description": "Tato komplexní příručka vás provede procesem programově připojovat soubory k dokumentům OneNotu a umožní vám vylepšit vaše úkoly spojené s psaním poznámek a správou dokumentů. S jasnými, podrobnými pokyny a užitečnými často kladenými otázkami."
+"linktitle": "Průvodce připojením souboru v dokumentech OneNote pomocí Aspose.Note"
+"second_title": "Rozhraní Aspose.Note .NET API"
+"title": "Průvodce připojením souboru v dokumentech OneNote pomocí Aspose.Note"
+"url": "/cs/note/net/manage-attachments/attach-file-in-one-note-documents/"
+"weight": 11
 ---
+
 ## Zavedení
 
-Aspose.Note for .NET je robustní knihovna navržená tak, aby umožnila vývojářům vytvářet, upravovat a manipulovat se soubory Microsoft OneNote programově. Tato knihovna zjednodušuje manipulaci s dokumenty OneNote, což z ní činí základní nástroj pro aplikace, které vyžadují rozsáhlé zpracování dokumentů. Ať už chcete automatizovat psaní poznámek, generovat zprávy nebo spravovat organizační znalosti, Aspose.Note pro .NET nabízí funkce, které potřebujete.
+Aspose.Note pro .NET je robustní knihovna navržená tak, aby vývojářům umožnila programově vytvářet, upravovat a manipulovat se soubory Microsoft OneNote. Tato knihovna zjednodušuje práci s dokumenty OneNote, což z ní činí nezbytný nástroj pro aplikace, které vyžadují rozsáhlé zpracování dokumentů. Ať už chcete automatizovat psaní poznámek, generovat sestavy nebo spravovat znalosti organizace, Aspose.Note pro .NET nabízí funkce, které potřebujete.
 
 ## Předpoklady
 
 Než začnete s Aspose.Note pro .NET, ujistěte se, že máte následující:
 
-1. Vývojové prostředí: Počítač vybavený frameworkem .NET a vývojovým integrovaným vývojovým prostředím (IDE), jako je Visual Studio.
+1. Vývojové prostředí: Počítač vybavený frameworkem .NET a integrovaným vývojovým prostředím (IDE), jako je Visual Studio.
   
-2.  Aspose.Note pro .NET: Stáhněte si knihovnu z[stránka vydání](https://releases.aspose.com/note/net/).
+2. Aspose.Note pro .NET: Stáhněte si knihovnu z [stránka s vydáním](https://releases.aspose.com/note/net/).
 
 3. Znalost C#: Znalost C# je nezbytná, protože Aspose.Note se primárně používá s tímto programovacím jazykem.
 
-4. Základní porozumění OneNotu: I když to není povinné, pochopení struktury a konceptů OneNotu zvýší vaši efektivitu při používání knihovny.
+4. Základní znalost OneNotu: I když to není povinné, pochopení struktury a konceptů OneNotu zvýší vaši efektivitu při používání knihovny.
 
 ## Import jmenných prostorů
 
-Chcete-li ve svém projektu použít Aspose.Note pro .NET, začněte importováním potřebných jmenných prostorů:
+Chcete-li ve svém projektu použít Aspose.Note pro .NET, začněte importem potřebných jmenných prostorů:
 
 ```csharp
 using System.IO;
@@ -34,11 +35,11 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-Připojování souborů k dokumentu OneNote je s Aspose.Note pro .NET jednoduché. Postupujte takto:
+Připojení souborů k dokumentu OneNote je s Aspose.Note pro .NET jednoduché. Postupujte takto:
 
-## Krok 1: Inicializujte objekt dokumentu
+## Krok 1: Inicializace objektu dokumentu
 
- Vytvořte instanci souboru`Document` třídy, která bude reprezentovat váš dokument OneNotu.
+Vytvořte instanci `Document` třída pro reprezentaci vašeho dokumentu OneNote.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Attachments();
@@ -47,39 +48,39 @@ Document doc = new Document();
 
 ## Krok 2: Vytvořte novou stránku
 
- Tento krok zahrnuje inicializaci nového`Page` objekt, který pojme váš obsah.
+Tento krok zahrnuje inicializaci nového `Page` objekt, který bude uchovávat váš obsah.
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-## Krok 3: Nastavte objekt obrysu
+## Krok 3: Nastavení objektu Obrys
 
- Vytvořit`Outline` objekt k uspořádání obsahu na vaší stránce.
+Vytvořte `Outline` objekt pro uspořádání obsahu na vaší stránce.
 
 ```csharp
 Outline outline = new Outline(doc);
 ```
 
-## Krok 4: Přidejte prvek obrysu
+## Krok 4: Přidání prvku osnovy
 
- The`OutlineElement` představuje jeden prvek v rámci struktury osnovy.
+Ten/Ta/To `OutlineElement` představuje jeden prvek v rámci struktury osnovy.
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
 ```
 
-## Krok 5: Inicializujte připojený soubor
+## Krok 5: Inicializace připojeného souboru
 
- Zadejte cestu k souboru, který chcete připojit pomocí`AttachedFile` třída.
+Zadejte cestu k souboru, který chcete připojit, pomocí `AttachedFile` třída.
 
 ```csharp
 AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
 ```
 
-## Krok 6: Připojte přiložený soubor
+## Krok 6: Připojení připojeného souboru
 
-Nyní připojte přiložený soubor k prvku osnovy.
+Nyní připojte připojený soubor k prvku osnovy.
 
 ```csharp
 outlineElem.AppendChildLast(attachedFile);
@@ -87,15 +88,15 @@ outlineElem.AppendChildLast(attachedFile);
 
 ## Krok 7: Uspořádejte prvky osnovy
 
- Připojte`OutlineElement` k`Outline`.
+Přidejte `OutlineElement` k `Outline`.
 
 ```csharp
 outline.AppendChildLast(outlineElem);
 ```
 
-## Krok 8: Přidejte obrys na stránku
+## Krok 8: Přidání osnovy na stránku
 
- Dále připojte`Outline` k`Page`.
+Dále přidejte `Outline` k `Page`.
 
 ```csharp
 page.AppendChildLast(outline);
@@ -103,7 +104,7 @@ page.AppendChildLast(outline);
 
 ## Krok 9: Dokončete strukturu dokumentu
 
- Připojte`Page` k`Document`.
+Přidejte `Page` k `Document`.
 
 ```csharp
 doc.AppendChildLast(page);
@@ -111,7 +112,7 @@ doc.AppendChildLast(page);
 
 ## Krok 10: Uložte dokument
 
-Nakonec uložte dokument OneNotu a dokončete proces.
+Nakonec uložte dokument OneNote, abyste proces dokončili.
 
 ```csharp
 dataDir = dataDir + "AttachFileByPath_out.one";
@@ -120,26 +121,26 @@ doc.Save(dataDir);
 
 ## Závěr
 
-S Aspose.Note pro .NET se interakce s dokumenty OneNotu stává bezproblémovým zážitkem. Výše uvedené zjednodušené kroky ilustrují, jak snadné je připojovat soubory, což vývojářům umožňuje vylepšit funkčnost a zlepšit uživatelské prostředí ve svých aplikacích.
+S Aspose.Note pro .NET se interakce s dokumenty OneNote stává bezproblémovou. Výše uvedené zjednodušené kroky ilustrují, jak snadné je připojovat soubory, což umožňuje vývojářům vylepšit funkčnost a uživatelské prostředí v jejich aplikacích.
 
-## FAQ
+## Často kladené otázky
 
 ### Je Aspose.Note pro .NET kompatibilní se všemi verzemi OneNotu?
 
 Ano, Aspose.Note pro .NET podporuje více verzí OneNotu, včetně OneNotu 2010, 2013, 2016 a nejnovějšího OneNotu pro Windows 10.
 
-### Lze s Aspose.Note pro .NET manipulovat se stávajícími soubory OneNotu?
+### Lze s existujícími soubory OneNote manipulovat pomocí Aspose.Note pro .NET?
 
-Absolutně! Existující soubory OneNotu můžete upravovat, upravovat a spravovat programově.
+Rozhodně! Stávající soubory OneNotu můžete programově upravovat, měnit a spravovat.
 
 ### Je pro komerční použití nutná licence?
 
- Ano, komerční použití Aspose.Note pro .NET vyžaduje licenci, kterou lze zakoupit u[Aspose nákupní stránku](https://purchase.conholdate.com/buy).
+Ano, komerční použití Aspose.Note pro .NET vyžaduje licenci, kterou lze zakoupit od [Nákupní stránka Aspose](https://purchase.conholdate.com/buy).
 
 ### Je k dispozici bezplatná zkušební verze?
 
- Ano, Aspose.Note pro .NET nabízí bezplatnou zkušební verzi. Můžete si jej stáhnout z[zkušební stránka](https://releases.aspose.com/).
+Ano, Aspose.Note pro .NET nabízí bezplatnou zkušební verzi. Můžete si ji stáhnout z [zkušební stránka](https://releases.aspose.com/).
 
-### Kde najdu podporu?
+### Kde mohu najít podporu?
 
- Pomoc můžete vyhledat na fórech komunity Aspose[zde](https://forum.aspose.com/c/note/28).
+Pomoc můžete vyhledat na fórech komunity Aspose. [zde](https://forum.aspose.com/c/note/28).

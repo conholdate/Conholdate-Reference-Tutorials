@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用 Aspose.PDF .NET 函式庫刪除所有附件，有效率地清理 PDF 文件。本逐步教程涵蓋從設定到執行的所有內容。"
+"description": "了解如何使用 .NET 的 Aspose.PDF 庫刪除所有附件，從而有效清理 PDF 文件。本逐步教程涵蓋了從設定到執行的所有內容。"
 "linktitle": "刪除 PDF 檔案中的所有附件"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "刪除 PDF 檔案中的所有附件"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-您是否曾經需要透過刪除附件來清理 PDF 檔案？無論出於保護隱私、縮減文件大小，還是僅僅為了使文件更整潔，了解如何刪除附件都是一項寶貴的技能。在本教學中，我們將指導您使用強大的 Aspose.PDF for .NET 程式庫從 PDF 中刪除附件。讓我們開始吧！
+您是否需要透過刪除附件來清理 PDF 檔案？無論是為了保護隱私、減小文件大小，還是僅僅為了讓文件更整潔，知道如何刪除附件都是一項寶貴的技能。在本教學中，我們將指導您使用強大的 .NET Aspose.PDF 庫從 PDF 中刪除附件的過程。讓我們開始吧！
 
 ## 先決條件
 
@@ -21,7 +21,7 @@
 
 ## 步驟 1：建立一個新的控制台應用程式
 
-開啟 Visual Studio 並建立一個新的控制台應用程式。這種格式簡單易懂，非常適合我們的需求。
+開啟 Visual Studio 並建立一個新的控制台應用程式。這種格式很簡單，非常適合我們的需求。
 
 ## 步驟 2：將 Aspose.PDF 新增到您的項目
 
@@ -62,7 +62,7 @@ Document pdfDocument = new Document(dataDir + "DeleteAllAttachments.pdf");
 
 ## 步驟 6：刪除所有附件
 
-令人興奮的部分來了！只需呼叫一個方法就可以刪除所有嵌入的附件：
+令人興奮的部分來了！您可以透過一次方法呼叫刪除所有嵌入的附件：
 
 ```csharp
 // 刪除所有附件
@@ -95,7 +95,7 @@ Console.WriteLine("\nAll attachments deleted successfully.\nFile saved at " + da
 
 ## 結論
 
-恭喜！您剛剛學習如何使用 Aspose.PDF for .NET 從 PDF 文件中刪除所有附件。掌握這些知識後，您現在可以更有效地管理 PDF 文檔，無論是個人用途還是專業用途。
+恭喜！您剛剛學習如何使用 Aspose.PDF for .NET 從 PDF 文件中刪除所有附件。有了這些知識，您現在可以更有效地管理您的 PDF 文檔，無論是個人用途還是專業用途。
 
 ## 常見問題解答
 
@@ -106,7 +106,7 @@ Console.WriteLine("\nAll attachments deleted successfully.\nFile saved at " + da
 一旦刪除，附件將無法恢復，除非您先備份原始 PDF 檔案。
 
 ### Aspose.PDF 可以免費使用嗎？
-Aspose.PDF 提供免費試用；但要使用完整功能，則需要購買許可證。請查看 [購買頁面](https://purchase.aspose.com/buy) 了解詳情。
+Aspose.PDF 提供免費試用；但是，若要獲得完整功能，則需要購買許可證。檢查 [購買頁面](https://purchase.aspose.com/buy) 了解詳情。
 
 ### 在哪裡可以找到更多文件？
 如需全面指導，請參閱 Aspose.PDF 文檔 [這裡](https://reference。aspose.com/pdf/net/).

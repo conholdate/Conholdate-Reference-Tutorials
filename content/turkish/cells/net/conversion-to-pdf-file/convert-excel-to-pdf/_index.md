@@ -50,7 +50,7 @@ Profesyonel ipucu: Bir ekip ortamında çalışıyorsanız, manuel DLL referansl
 
 ## Projenizi Excel'den PDF'e Dönüştürmek İçin Ayarlama
 
-Geliştirme ortamınızı hazırlayalım. Bu kurulum süreci basittir, ancak en başından itibaren doğru yapmak, ileride başınızı ağrıtacak sorunlardan sizi kurtaracaktır.
+Geliştirme ortamınızı hazırlayalım. Bu kurulum süreci basittir, ancak en başından itibaren doğru yapmak ileride başınızı ağrıtmayacaktır.
 
 ### Yeni Bir .NET Projesi Oluşturma
 1. Visual Studio'yu başlatın ve "Yeni bir proje oluştur" seçeneğini seçin

@@ -74,7 +74,7 @@ Podczas przetwarzania wielu plików PDF lub dużych dokumentów, zużycie pamię
 - **Utylizacja zasobów**Wdrażaj odpowiednie wzorce utylizacji, aby zapobiegać wyciekom pamięci
 - **Strategie buforowania**: Buforuj często używane zasoby, takie jak czcionki i obrazy
 
-### Poprawa szybkości przetwarzania
+### Ulepszenia szybkości przetwarzania
 Szybkość ma znaczenie, szczególnie w środowiskach produkcyjnych. Aby uzyskać maksymalny efekt, skoncentruj się na tych obszarach:
 
 - **Minimalizuj przechodzenie stron**:Strukturuj swój kod tak, aby strony były przetwarzane sekwencyjnie, a nie przeskakiwały między nimi

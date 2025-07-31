@@ -71,7 +71,7 @@ Aspose.Pdf.FloatingBox floatBox = new Aspose.Pdf.FloatingBox
 pdfPage.Paragraphs.Add(floatBox);
 ```
 
-## Stap 4: Koppen met Romeinse cijfers toevoegen
+## Stap 4: Koppen toevoegen met Romeinse cijfers
 
 Laten we nu onze eerste kop toevoegen met Romeinse cijfers in kleine letters.
 
@@ -135,7 +135,7 @@ Console.WriteLine($"\nNumber style applied successfully in headings.\nFile saved
 
 ## Conclusie
 
-Gefeliciteerd! U hebt met succes verschillende nummeringsstijlen – Romeinse cijfers en alfabetische cijfers – toegepast op koppen in een PDF-bestand met Aspose.PDF voor .NET. Dankzij de flexibiliteit van Aspose.PDF kunt u de pagina-indeling, nummeringsstijlen en de positionering van de inhoud bepalen, waardoor u overzichtelijke en professionele PDF-documenten kunt maken.
+Gefeliciteerd! U hebt met succes verschillende nummeringsstijlen – Romeinse cijfers en alfabetische nummers – toegepast op koppen in een PDF-bestand met Aspose.PDF voor .NET. Dankzij de flexibiliteit van Aspose.PDF kunt u de pagina-indeling, nummeringsstijlen en de positionering van de inhoud bepalen, zodat u overzichtelijke en professionele PDF-documenten kunt maken.
 
 ## Veelgestelde vragen
 
@@ -149,7 +149,7 @@ U kunt het startnummer voor elke kop instellen met behulp van de `StartNumber` e
 Ja, u kunt de nummering opnieuw instellen door de `StartNumber` eigenschap voor elke kop.
 
 ### Kan ik naast nummering ook vetgedrukte of cursieve opmaak op koppen toepassen?  
-Absoluut! Je kunt koptekststijlen aanpassen door eigenschappen zoals lettertype, grootte, vet en cursief te wijzigen met behulp van de `TextState` voorwerp.
+Absoluut! U kunt koptekststijlen aanpassen door eigenschappen zoals lettertype, grootte, vet en cursief te wijzigen met behulp van de `TextState` voorwerp.
 
 ### Hoe krijg ik een tijdelijke licentie voor Aspose.PDF?  
 U kunt een tijdelijke vergunning verkrijgen bij [hier](https://purchase.aspose.com/temporary-license/) om Aspose.PDF zonder beperkingen te testen.

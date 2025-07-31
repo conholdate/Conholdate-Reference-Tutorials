@@ -1,23 +1,24 @@
 ---
-title: Menghapus Titik Data Seri Bagan Tertentu dengan Aspose.Slides .NET
-linktitle: Menghapus Titik Data Seri Bagan Tertentu dengan Aspose.Slides .NET
-second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
-description: Pelajari cara menghapus titik data seri grafik tertentu secara efektif dalam presentasi PowerPoint menggunakan pustaka Aspose.Slides for .NET. Tutorial komprehensif ini memandu Anda langkah demi langkah dalam memuat presentasi.
-weight: 13
-url: /id/slides/master-additional-chart-features/clearing-specific-chart-series-data-points/
+"description": "Pelajari cara efektif menghapus titik data seri bagan tertentu dalam presentasi PowerPoint menggunakan pustaka Aspose.Slides for .NET. Tutorial komprehensif ini memandu Anda langkah demi langkah dalam memuat presentasi."
+"linktitle": "Menghapus Titik Data Seri Bagan Tertentu dengan Aspose.Slides .NET"
+"second_title": "API Pemrosesan PowerPoint Aspose.Slides .NET"
+"title": "Menghapus Titik Data Seri Bagan Tertentu dengan Aspose.Slides .NET"
+"url": "/id/slides/net/master-additional-chart-features/clearing-specific-chart-series-data-points/"
+"weight": 13
 ---
+
 ## Perkenalan
 
-Aspose.Slides untuk .NET adalah pustaka serbaguna yang memungkinkan Anda mengelola presentasi PowerPoint secara terprogram. Dalam tutorial ini, Anda akan mempelajari cara menghapus titik data tertentu dari rangkaian bagan dalam presentasi Anda. Mari kita mulai!
+Aspose.Slides untuk .NET adalah pustaka serbaguna yang memungkinkan Anda mengelola presentasi PowerPoint secara terprogram. Dalam tutorial ini, Anda akan mempelajari cara menghapus titik data tertentu dari rangkaian bagan di presentasi Anda. Mari kita mulai!
 
 ## Prasyarat
 
 Pastikan Anda telah menyiapkan hal-hal berikut:
 
-1.  Pustaka Aspose.Slides untuk .NET: Unduh pustakanya[Di Sini](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides untuk Pustaka .NET: Unduh pustaka [Di Sini](https://releases.aspose.com/slides/net/).
 2. Lingkungan Pengembangan: Siapkan lingkungan Anda dengan Visual Studio atau IDE .NET lainnya.
 
-### 1. Impor Ruang Nama yang Diperlukan
+### 1. Impor Namespace yang Diperlukan
 
 Di awal file C# Anda, impor namespace yang diperlukan:
 
@@ -28,7 +29,7 @@ using Aspose.Slides.Charts;
 
 ### 2. Muat Presentasi Anda
 
- Muat file PowerPoint yang berisi bagan. Ganti`"Your Document Directory"` dengan jalur sebenarnya ke berkas Anda.
+Muat file PowerPoint yang berisi bagan. Ganti `"Your Document Directory"` dengan jalur sebenarnya ke berkas Anda.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -41,16 +42,16 @@ using (Presentation pres = new Presentation(dataDir + "TestChart.pptx"))
 
 ### 3. Akses Slide dan Bagan
 
-Selanjutnya, akses slide dan diagram tertentu. Dalam contoh ini, kita bekerja dengan slide pertama (indeks 0).
+Selanjutnya, akses slide dan bagan yang dimaksud. Dalam contoh ini, kita menggunakan slide pertama (indeks 0).
 
 ```csharp
 ISlide slide = pres.Slides[0];
 IChart chart = (IChart)slide.Shapes[0]; // Dengan asumsi grafik adalah bentuk pertama pada slide
 ```
 
-### 4. Poin Data Spesifik yang Jelas
+### 4. Hapus Poin Data Spesifik
 
-Ulangi titik data dalam rangkaian diagram dan hapus nilainya. Berikut cara melakukannya secara efisien:
+Ulangi titik-titik data dalam rangkaian grafik dan hapus nilainya. Berikut cara melakukannya secara efisien:
 
 ```csharp
 foreach (IChartDataPoint dataPoint in chart.ChartData.Series[0].DataPoints)
@@ -65,7 +66,7 @@ chart.ChartData.Series[0].DataPoints.Clear();
 
 ### 5. Simpan Presentasi yang Diperbarui
 
-Terakhir, simpan presentasi yang telah dimodifikasi. Anda dapat membuat file baru atau menimpa file lama.
+Terakhir, simpan presentasi Anda yang telah dimodifikasi. Anda dapat membuat berkas baru atau menimpa berkas lama.
 
 ```csharp
 pres.Save(dataDir + "ClearedChartSeriesDataPoints.pptx", SaveFormat.Pptx);
@@ -73,22 +74,22 @@ pres.Save(dataDir + "ClearedChartSeriesDataPoints.pptx", SaveFormat.Pptx);
 
 ## Kesimpulan
 
-Selamat! Anda telah berhasil mempelajari cara menghapus titik data seri grafik tertentu dalam presentasi PowerPoint menggunakan Aspose.Slides for .NET. Teknik ini dapat sangat berguna untuk mengelola dan menyesuaikan data grafik secara terprogram.
+Selamat! Anda telah berhasil mempelajari cara menghapus titik data seri bagan tertentu dalam presentasi PowerPoint menggunakan Aspose.Slides for .NET. Teknik ini sangat berguna untuk mengelola dan menyesuaikan data bagan secara terprogram.
 
 ### Butuh Bantuan Lebih Lanjut?
 
- Jika Anda memiliki pertanyaan atau mengalami masalah, lihat[Dokumentasi Aspose.Slides untuk .NET](https://reference.aspose.com/slides/net/) dan pertimbangkan untuk mengunjungi[Forum Aspose.Slides](https://forum.aspose.com/) untuk dukungan dan wawasan komunitas.
+Jika Anda memiliki pertanyaan atau mengalami masalah, lihat [Dokumentasi Aspose.Slides untuk .NET](https://reference.aspose.com/slides/net/) dan pertimbangkan untuk mengunjungi [Forum Aspose.Slides](https://forum.aspose.com/) untuk dukungan dan wawasan komunitas.
 
 ## Pertanyaan yang Sering Diajukan
 
 - Bisakah Aspose.Slides untuk .NET digunakan dengan bahasa pemrograman lain?  
   Aspose.Slides dirancang terutama untuk .NET tetapi memiliki versi untuk Java dan platform lainnya.
 
-- Apakah Aspose.Slides pustaka berbayar?  
-   Ya, ini adalah perpustakaan komersial, tapi[uji coba gratis](https://releases.aspose.com/) tersedia untuk tujuan pengujian.
+- Apakah Aspose.Slides merupakan pustaka berbayar?  
+  Ya, ini adalah perpustakaan komersial, tapi [uji coba gratis](https://releases.aspose.com/) tersedia untuk tujuan pengujian.
 
 - Bagaimana cara menambahkan titik data baru ke bagan?  
-   Buat baru`IChartDataPoint` instance dan isi dengan nilai yang Anda inginkan.
+  Buat baru `IChartDataPoint` contoh dan isi dengan nilai yang Anda inginkan.
 
 - Bisakah saya menyesuaikan tampilan grafik?  
   Tentu saja! Ubah properti seperti warna, font, gaya, dan lainnya sesuai kebutuhan Anda.
@@ -98,13 +99,13 @@ Selamat! Anda telah berhasil mempelajari cara menghapus titik data seri grafik t
 
 ---
 
-Aspose.Slides for .NET adalah pustaka canggih yang memungkinkan Anda bekerja dengan presentasi PowerPoint secara terprogram. Dalam tutorial ini, kami akan memandu Anda melalui proses pembersihan titik data seri bagan tertentu dalam presentasi PowerPoint menggunakan Aspose.Slides for .NET. Di akhir tutorial ini, Anda akan dapat memanipulasi titik data bagan dengan mudah.
+Aspose.Slides untuk .NET adalah pustaka canggih yang memungkinkan Anda bekerja dengan presentasi PowerPoint secara terprogram. Dalam tutorial ini, kami akan memandu Anda melalui proses pembersihan titik data seri bagan tertentu dalam presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Di akhir tutorial ini, Anda akan dapat memanipulasi titik data bagan dengan mudah.
 
 ## Prasyarat
 
-Sebelum kita memulai, Anda harus memastikan bahwa Anda memiliki prasyarat berikut:
+Sebelum kita mulai, Anda harus memastikan Anda memiliki prasyarat berikut:
 
-1.  Pustaka Aspose.Slides untuk .NET: Anda harus menginstal pustaka Aspose.Slides untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/slides/net/).
+1. Pustaka Aspose.Slides untuk .NET: Anda harus sudah menginstal pustaka Aspose.Slides untuk .NET. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/slides/net/).
 
 2. Lingkungan Pengembangan: Anda harus menyiapkan lingkungan pengembangan dengan Visual Studio atau alat pengembangan .NET lainnya.
 
@@ -121,7 +122,7 @@ using Aspose.Slides.Charts;
 
 ## Langkah 1: Muat Presentasi
 
- Pertama, Anda perlu memuat presentasi PowerPoint yang berisi bagan yang ingin Anda kerjakan. Ganti`"Your Document Directory"` dengan jalur sebenarnya ke berkas presentasi Anda.
+Pertama, Anda perlu memuat presentasi PowerPoint yang berisi bagan yang ingin Anda gunakan. Ganti `"Your Document Directory"` dengan jalur sebenarnya ke berkas presentasi Anda.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -134,7 +135,7 @@ using (Presentation pres = new Presentation(dataDir + "TestChart.pptx"))
 
 ## Langkah 2: Akses Slide dan Bagan
 
-Setelah Anda memuat presentasi, Anda perlu mengakses slide dan diagram pada slide tersebut. Dalam contoh ini, kami berasumsi bahwa diagram tersebut terletak pada slide pertama (indeks 0).
+Setelah Anda memuat presentasi, Anda perlu mengakses slide dan bagan pada slide tersebut. Dalam contoh ini, kami berasumsi bahwa bagan berada di slide pertama (indeks 0).
 
 ```csharp
 ISlide slide = pres.Slides[0];
@@ -143,7 +144,7 @@ IChart chart = (IChart)slide.Shapes[0];
 
 ## Langkah 3: Hapus Titik Data
 
-Sekarang, mari kita ulangi titik-titik data dalam rangkaian diagram dan hapus nilainya. Ini akan secara efektif menghapus titik-titik data dari rangkaian diagram.
+Sekarang, mari kita ulangi titik-titik data dalam rangkaian grafik dan hapus nilainya. Ini akan secara efektif menghapus titik-titik data dari rangkaian tersebut.
 
 ```csharp
 foreach (IChartDataPoint dataPoint in chart.ChartData.Series[0].DataPoints)
@@ -165,20 +166,20 @@ pres.Save(dataDir + "ClearSpecificChartSeriesDataPointsData.pptx", SaveFormat.Pp
 
 ## Kesimpulan
 
-Anda telah berhasil mempelajari cara menghapus titik data seri grafik tertentu menggunakan Aspose.Slides for .NET. Ini dapat menjadi fitur yang berguna saat Anda perlu memanipulasi data grafik dalam presentasi PowerPoint Anda secara terprogram.
+Anda telah berhasil mempelajari cara menghapus titik data seri bagan tertentu menggunakan Aspose.Slides for .NET. Fitur ini dapat berguna ketika Anda perlu memanipulasi data bagan dalam presentasi PowerPoint Anda secara terprogram.
 
- Jika Anda memiliki pertanyaan atau menghadapi masalah, jangan ragu untuk mengunjungi[Dokumentasi Aspose.Slides untuk .NET](https://reference.aspose.com/slides/net/) atau mencari bantuan di[Forum Aspose.Slides](https://forum.aspose.com/).
+Jika Anda memiliki pertanyaan atau menghadapi masalah, jangan ragu untuk mengunjungi [Dokumentasi Aspose.Slides untuk .NET](https://reference.aspose.com/slides/net/) atau mencari bantuan di [Forum Aspose.Slides](https://forum.aspose.com/).
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Dapatkah saya menggunakan Aspose.Slides untuk .NET dengan bahasa pemrograman lain?
-Aspose.Slides terutama dirancang untuk bahasa .NET. Namun, ada beberapa versi yang tersedia untuk Java dan platform lainnya.
+Aspose.Slides terutama dirancang untuk bahasa pemrograman .NET. Namun, tersedia juga versi untuk Java dan platform lainnya.
 
-### Apakah Aspose.Slides untuk .NET pustaka berbayar?
- Ya, Aspose.Slides adalah pustaka komersial, tetapi Anda dapat menjelajahi[uji coba gratis](https://releases.aspose.com/) sebelum membeli.
+### Apakah Aspose.Slides untuk .NET merupakan pustaka berbayar?
+Ya, Aspose.Slides adalah pustaka komersial, tetapi Anda dapat menjelajahi [uji coba gratis](https://releases.aspose.com/) sebelum membeli.
 
 ### Bagaimana cara menambahkan titik data baru ke bagan menggunakan Aspose.Slides untuk .NET?
- Anda dapat menambahkan titik data baru dengan membuat contoh`IChartDataPoint`dan mengisinya dengan nilai yang diinginkan.
+Anda dapat menambahkan titik data baru dengan membuat contoh `IChartDataPoint` dan mengisinya dengan nilai yang diinginkan.
 
 ### Bisakah saya menyesuaikan tampilan bagan di Aspose.Slides?
 Ya, Anda dapat menyesuaikan tampilan grafik dengan memodifikasi propertinya, seperti warna, font, dan gaya.

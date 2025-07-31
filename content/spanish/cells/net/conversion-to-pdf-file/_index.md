@@ -86,7 +86,7 @@ Más allá de la conversión básica de archivos, Aspose.Cells maneja escenarios
 
 **Libros de trabajo con varias hojas de trabajo**: Elija convertir hojas de trabajo específicas, combinar varias hojas en un solo PDF o crear archivos PDF separados para cada hoja de trabajo.
 
-**Configuración de página personalizada**:Ajuste los márgenes, encabezados, pies de página y la orientación de la página para cada hoja de trabajo de forma independiente, lo que le brinda control total sobre la apariencia final del PDF.
+**Configuración de página personalizada**:Ajuste los márgenes, encabezados, pies de página y la orientación de la página para cada hoja de cálculo de forma independiente, lo que le brinda control total sobre la apariencia final del PDF.
 
 ## Cuándo elegir Aspose.Cells en lugar de otras alternativas
 

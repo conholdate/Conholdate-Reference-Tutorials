@@ -1,26 +1,27 @@
 ---
-title: تحويل Markdown إلى PDF باستخدام GroupDocs.Conversion لـ .NET
-linktitle: تحويل Markdown إلى PDF
-second_title: GroupDocs.Conversion .NET API
-description: في هذا البرنامج التعليمي المفصل، ستتعلم كيفية تحويل ملفات Markdown (MD) بسهولة إلى تنسيق المستندات المحمولة (PDF) باستخدام مكتبة GroupDocs.Conversion لـ .NET.
-weight: 19
-url: /ar/conversion/guide-to-document-conversion/convert-markdown-to-pdf/
+"description": "في هذا البرنامج التعليمي المفصل، ستتعلم كيفية تحويل ملفات Markdown (MD) بسهولة إلى تنسيق المستندات المحمولة (PDF) باستخدام مكتبة GroupDocs.Conversion لـ .NET."
+"linktitle": "تحويل Markdown إلى PDF"
+"second_title": "GroupDocs.Conversion .NET API"
+"title": "تحويل Markdown إلى PDF باستخدام GroupDocs.Conversion لـ .NET"
+"url": "/ar/conversion/net/guide-to-document-conversion/convert-markdown-to-pdf/"
+"weight": 19
 ---
+
 ## مقدمة
 
-في هذا البرنامج التعليمي، سنرشدك خلال عملية تحويل ملفات Markdown (MD) إلى PDF باستخدام مكتبة GroupDocs.Conversion لـ .NET. تعمل هذه الأداة على تبسيط عملية التحويل، مما يسمح لك بتحسين سير عمل تطوير البرامج لديك.
+في هذا البرنامج التعليمي، سنرشدك خلال عملية تحويل ملفات Markdown (MD) إلى PDF باستخدام مكتبة GroupDocs.Conversion لـ .NET. تُبسّط هذه الأداة عملية التحويل، مما يُحسّن سير عمل تطوير البرامج لديك.
 
 ## المتطلبات الأساسية
 
 قبل أن نبدأ، تأكد من إعداد ما يلي:
 
 ### بيئة تطوير .NET
- تأكد من تثبيت .NET SDK على جهازك. يمكنك تنزيله من[موقع .NET](https://dotnet.microsoft.com/download).
+تأكد من تثبيت حزمة تطوير البرامج .NET SDK على جهازك. يمكنك تنزيلها من [موقع .NET](https://dotnet.microsoft.com/download).
 
-### GroupDocs.Conversion لمكتبة .NET
- قم بتنزيل مكتبة GroupDocs.Conversion لـ .NET من[موقع](https://releases.groupdocs.com/conversion/net/)اتبع تعليمات التثبيت لإضافته إلى مشروعك.
+### مكتبة GroupDocs.Conversion لـ .NET
+قم بتنزيل مكتبة GroupDocs.Conversion لـ .NET من [موقع](https://releases.groupdocs.com/conversion/net/). اتبع تعليمات التثبيت لإضافته إلى مشروعك.
 
-## الخطوة 1: استيراد المساحات الأساسية الضرورية
+## الخطوة 1: استيراد مساحات الأسماء الضرورية
 في مشروع .NET الخاص بك، قم بتضمين المساحات الأسماء التالية للوصول إلى وظائف GroupDocs:
 
 ```csharp
@@ -30,7 +31,7 @@ using GroupDocs.Conversion.Options.Convert;
 ```
 
 ## الخطوة 2: تحديد مجلد الإخراج ومسار الملف
-قم بإعداد دليل الإخراج الذي سيتم حفظ ملف PDF المُحوّل فيه:
+قم بإعداد دليل الإخراج حيث سيتم حفظ ملف PDF المُحوّل:
 
 ```csharp
 string outputFolder = "Your Document Directory"; // حدد دليل الإخراج الخاص بك
@@ -48,14 +49,14 @@ using (var converter = new Converter("path/to/your/file.md")) // استبدله 
 ```
 
 ## الخطوة 4: تعيين خيارات التحويل
-قم بتكوين الخيارات لتحويل PDF:
+تكوين خيارات تحويل PDF:
 
 ```csharp
 var options = new PdfConvertOptions();
 ```
 
 ## الخطوة 5: قم بإجراء التحويل
- اتصل بـ`Convert` الطريقة لبدء التحويل:
+اتصل بـ `Convert` طريقة بدء التحويل:
 
 ```csharp
 converter.Convert(outputFile, options);
@@ -69,7 +70,7 @@ Console.WriteLine("\nConversion to PDF completed successfully. \nCheck output in
 ```
 
 ## خاتمة
-لقد تعلمت الآن كيفية تحويل ملفات Markdown إلى PDF باستخدام GroupDocs.Conversion for .NET. باتباع الخطوات التالية، يمكنك دمج إمكانيات تحويل الملفات بسهولة في تطبيقاتك.
+لقد تعلمتَ الآن كيفية تحويل ملفات Markdown إلى PDF باستخدام GroupDocs.Conversion لـ .NET. باتباع هذه الخطوات، يمكنك بسهولة دمج إمكانيات تحويل الملفات في تطبيقاتك.
 
 ## الأسئلة الشائعة
 
@@ -82,8 +83,8 @@ Console.WriteLine("\nConversion to PDF completed successfully. \nCheck output in
 ### هل هو مناسب للاستخدام الشخصي والتجاري؟
 نعم، فهو يوفر الترخيص للمطورين الأفراد والشركات على حد سواء.
 
-### هل يوفر الدعم الفني؟
-نعم، يتوفر دعم فني مخصص للمطورين.
+### هل يقدم الدعم الفني؟
+نعم، الدعم الفني المخصص متاح للمطورين.
 
 ### هل يمكنني تجربته قبل الشراء؟
- يمكنك تنزيل نسخة تجريبية مجانية من[موقع GroupDocs](https://releases.groupdocs.com/conversion/net/).
+يمكنك تنزيل نسخة تجريبية مجانية من [موقع GroupDocs](https://releases.groupdocs.com/conversion/net/).

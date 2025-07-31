@@ -167,7 +167,7 @@ dataDir = dataDir + "PDFOperators_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
-Diese Zeile speichert die geänderte PDF-Datei am selben Speicherort unter dem Namen `PDFOperators_out.pdf`. Sie können den Namen nach Bedarf ändern.
+Diese Zeile speichert die geänderte PDF-Datei am selben Ort unter dem Namen `PDFOperators_out.pdf`. Sie können den Namen nach Bedarf ändern.
 
 ## Abschluss
 

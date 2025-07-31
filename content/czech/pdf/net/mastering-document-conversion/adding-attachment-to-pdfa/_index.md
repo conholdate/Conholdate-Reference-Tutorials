@@ -123,18 +123,18 @@ Při práci s přílohami PDF/A vám dodržování těchto postupů ušetří st
 
 **Konvence pojmenování**Používejte jasné a popisné názvy souborů jak pro dokument PDF/A, tak pro přílohy. Budoucí uživatelé (včetně vás) ocení srozumitelnost.
 
-**Testování shody**Vždy ověřujte své dokumenty PDF/A pomocí kontrolorů shody. Aspose.PDF poskytuje vestavěné ověřování, ale nástroje třetích stran mohou nabídnout další ověření.
+**Testování shody**Vždy ověřujte své dokumenty PDF/A pomocí kontrolorů shody s předpisy. Aspose.PDF poskytuje vestavěné ověřování, ale nástroje třetích stran mohou nabídnout další ověření.
 
 ## Běžné problémy a jejich řešení
 
-**Problém**: "Konverze selhala s chybami kompatibility"
+**Problém**„Konverze selhala s chybami kompatibility“
 **Řešení**Zkontrolujte zdrojový PDF soubor, zda neobsahuje nekompatibilní prvky, jako je JavaScript, externí odkazy nebo nepodporovaná písma. Soubor protokolu z kroku 4 zobrazí konkrétní problémy.
 
 **Problém**„Příloha se nezobrazuje v prohlížeči PDF“
 **Řešení**Ujistěte se, že používáte prohlížeč PDF, který podporuje přílohy PDF/A-3A. Některé starší prohlížeče nezobrazují vložené soubory správně.
 
 **Problém**: "Soubor se po připojení příliš zvětší"
-**Řešení**Zvažte kompresi souborů příloh před vložením nebo použijte nastavení komprese PDF v souboru Aspose.PDF pro zmenšení celkové velikosti souboru.
+**Řešení**Před vložením zvažte kompresi souborů příloh nebo použijte nastavení komprese PDF v souboru Aspose.PDF pro zmenšení celkové velikosti souboru.
 
 **Problém**"Ověření PDF/A selže po přidání přílohy"
 **Řešení**Ověřte, zda váš přílohový soubor neobsahuje prvky, které porušují standard PDF/A. Nejlépe fungují jednoduché formáty souborů (obrázky, text, základní dokumenty).
@@ -171,7 +171,7 @@ Ano, formát PDF/A-3A podporuje připojení prakticky jakéhokoli typu souboru �
 
 Standardní PDF soubory mohou obsahovat přílohy, ale mohou také obsahovat prvky, jako je JavaScript, externí odkazy nebo proprietární fonty, které by se časem mohly stát nepřístupnými. PDF/A tyto závislosti eliminuje a vytváří samostatné dokumenty. Konkrétně pro přílohy poskytuje PDF/A-3A stejné možnosti vkládání jako běžné PDF a zároveň zajišťuje dlouhodobou shodu s předpisy a přístupnost.
 
-### Jak zkontroluji, zda je můj dokument PDF/A s přílohami kompatibilní?
+### Jak zkontroluji, zda je můj dokument PDF/A s přílohami kompatibilní s předpisy?
 
 Soulad PDF/A s předpisy můžete ověřit několika metodami. Aspose.PDF poskytuje vestavěné metody validace, které můžete volat programově. Profesionální nástroje, jako je Adobe Acrobat, také zahrnují kontrolory souladu. Kromě toho mnoho online validátorů PDF/A dokáže ověřit vaše dokumenty. Soubor protokolu konverze vytvořený v kroku 4 také zvýrazní všechny problémy s souladu, které byly automaticky opraveny.
 

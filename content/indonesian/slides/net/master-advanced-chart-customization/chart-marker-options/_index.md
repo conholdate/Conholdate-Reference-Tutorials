@@ -1,24 +1,25 @@
 ---
-title: Opsi Penanda Bagan pada Titik Data di Aspose.Slides .NET
-linktitle: Opsi Penanda Bagan pada Titik Data di Aspose.Slides .NET
-second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
-description: Pelajari cara menyempurnakan bagan PowerPoint Anda dengan opsi penanda yang disesuaikan menggunakan Aspose.Slides for .NET. Panduan langkah demi langkah ini mencakup prasyarat, pembuatan bagan, pemformatan titik data, dan banyak lagi.
-weight: 11
-url: /id/slides/master-advanced-chart-customization/chart-marker-options/
+"description": "Pelajari cara menyempurnakan bagan PowerPoint Anda dengan opsi penanda khusus menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah ini mencakup prasyarat, pembuatan bagan, pemformatan titik data, dan banyak lagi."
+"linktitle": "Opsi Penanda Bagan pada Titik Data di Aspose.Slides .NET"
+"second_title": "API Pemrosesan PowerPoint Aspose.Slides .NET"
+"title": "Opsi Penanda Bagan pada Titik Data di Aspose.Slides .NET"
+"url": "/id/slides/net/master-advanced-chart-customization/chart-marker-options/"
+"weight": 11
 ---
+
 ## Perkenalan
 
-Memasukkan alat bantu visual ke dalam presentasi sangat penting untuk komunikasi yang berdampak. Aspose.Slides untuk .NET menyediakan alat yang tangguh untuk membuat dan menyesuaikan bagan, yang memungkinkan pengembang untuk menyempurnakan presentasi data mereka. Salah satu fitur yang menonjol adalah kemampuan untuk menggunakan opsi penanda bagan pada titik data, yang memungkinkan penyesuaian yang tepat untuk bagan yang tampak profesional. Artikel ini akan memandu Anda melalui setiap langkah yang diperlukan untuk mencapainya.
+Memasukkan alat bantu visual ke dalam presentasi sangat penting untuk komunikasi yang efektif. Aspose.Slides untuk .NET menyediakan alat yang andal untuk membuat dan menyesuaikan bagan, yang memungkinkan pengembang untuk meningkatkan presentasi data mereka. Salah satu fitur unggulannya adalah kemampuan untuk menggunakan opsi penanda bagan pada titik data, yang memungkinkan penyesuaian presisi untuk bagan yang tampak profesional. Artikel ini akan memandu Anda melalui setiap langkah yang diperlukan untuk mencapainya.
 
 ## Prasyarat
 
 Sebelum melanjutkan, pastikan hal berikut:
 
--  Aspose.Slides untuk .NET Terpasang: Unduh dari[Di Sini](https://releases.aspose.com/slides/net/).
+- Aspose.Slides untuk .NET Terpasang: Unduh dari [Di Sini](https://releases.aspose.com/slides/net/).
 - Pengaturan Dasar: File presentasi, seperti "Test.pptx," di direktori kerja Anda.
 - Lingkungan Pengembangan: Visual Studio atau setara, dikonfigurasi untuk .NET.
 
-## Mengimpor Ruang Nama yang Diperlukan
+## Mengimpor Namespace yang Diperlukan
 
 Tambahkan namespace yang diperlukan ke proyek Anda untuk pengembangan yang lancar:
 
@@ -28,7 +29,7 @@ using Aspose.Slides.Charts;
 using Aspose.Slides.Export;
 ```
 
-## Langkah 1: Buat Bagan dalam Presentasi Anda
+## Langkah 1: Buat Bagan di Presentasi Anda
 
 Mulailah dengan membuat bagan default pada slide pertama presentasi Anda:
 
@@ -40,11 +41,11 @@ ISlide slide = pres.Slides[0];
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 50, 50, 600, 400);
 ```
 
- Ini menambahkan`LineWithMarkers` bagan ke slide Anda dengan dimensi yang ditentukan.
+Ini menambahkan `LineWithMarkers` bagan ke slide Anda dengan dimensi yang ditentukan.
 
 ## Langkah 2: Ambil Indeks Lembar Kerja Data Bagan
 
-Indeks lembar kerja data grafik default sangat penting untuk penyesuaian lebih lanjut:
+Indeks lembar kerja data bagan default penting untuk penyesuaian lebih lanjut:
 
 ```csharp
 int defaultWorksheetIndex = 0;
@@ -52,7 +53,7 @@ int defaultWorksheetIndex = 0;
 
 ## Langkah 3: Akses Buku Kerja Data Bagan
 
-Untuk memanipulasi data grafik, ambil buku kerja terkait:
+Untuk memanipulasi data bagan, ambil buku kerja terkait:
 
 ```csharp
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
@@ -74,7 +75,7 @@ series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 
 series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 4, 2, 4.0));
 ```
 
-## Langkah 5: Terapkan Isi Gambar ke Penanda Titik Data
+## Langkah 5: Terapkan Isian Gambar ke Penanda Titik Data
 
 Gambar khusus dapat membuat penanda data menarik secara visual:
 
@@ -111,7 +112,7 @@ pres.Save(dataDir + "CustomizedChart.pptx", SaveFormat.Pptx);
 
 ## Kesimpulan
 
-Aspose.Slides untuk .NET melengkapi pengembang dengan berbagai alat untuk membuat bagan profesional dengan berbagai opsi penyesuaian yang lengkap. Dengan memanfaatkan berbagai opsi penanda bagan, Anda dapat meningkatkan daya tarik visual dan kejelasan presentasi Anda secara signifikan. Panduan langkah demi langkah ini memastikan bahwa penyesuaian yang rumit pun mudah diterapkan.
+Aspose.Slides untuk .NET membekali para pengembang dengan berbagai alat untuk membuat bagan profesional dengan beragam opsi kustomisasi. Dengan memanfaatkan opsi penanda bagan, Anda dapat meningkatkan daya tarik visual dan kejelasan presentasi Anda secara signifikan. Panduan langkah demi langkah ini memastikan bahwa kustomisasi yang rumit pun mudah diterapkan.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -119,13 +120,13 @@ Aspose.Slides untuk .NET melengkapi pengembang dengan berbagai alat untuk membua
 Ya, Aspose.Slides mendukung berbagai format gambar, termasuk JPEG, PNG, dan BMP, untuk kustomisasi penanda.
 
 ### Bagaimana cara mengubah jenis grafik setelah dibuat?
- Untuk mengubah jenis grafik, akses`chart.Type` properti dan menetapkan yang berbeda`ChartType`.
+Untuk mengubah jenis grafik, akses `chart.Type` properti dan menetapkan yang berbeda `ChartType`.
 
 ### Apakah Aspose.Slides untuk .NET kompatibel dengan versi PowerPoint yang lebih lama?
 Ya, mendukung kompatibilitas mundur dengan format PowerPoint yang lebih lama, memastikan fleksibilitas.
 
 ### Bisakah saya memperbarui data grafik secara dinamis?
- Tentu saja. Gunakan`IChartDataWorkbook` untuk memperbarui data grafik secara terprogram.
+Tentu saja. Gunakan `IChartDataWorkbook` untuk memperbarui data grafik secara terprogram.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya?
- Jelajahi[Dokumentasi Aspose.Slides](https://reference.aspose.com/slides/net/)atau bergabung dengan[forum komunitas](https://forum.aspose.com/) untuk dukungan.
+Jelajahi [Dokumentasi Aspose.Slides](https://reference.aspose.com/slides/net/) atau bergabung dengan [forum komunitas](https://forum.aspose.com/) untuk dukungan.

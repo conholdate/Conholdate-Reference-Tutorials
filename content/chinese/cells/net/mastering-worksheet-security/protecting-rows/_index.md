@@ -17,7 +17,7 @@
 1. Aspose.Cells for .NET：从 [Aspose Cells下载页面](https://releases。aspose.com/cells/net/).
 2. Visual Studio 或任何 .NET IDE：您需要一个开发环境。推荐使用 Visual Studio，但任何兼容 .NET 的 IDE 都可以。
 3. 基本 C# 知识：熟悉 C# 编程将帮助您跟随并根据需要修改示例代码。
-4. Aspose.Cells API 文档：查看 [Aspose.Cells for .NET 文档](https://reference.aspose.com/cells/net/) 了解类结构和方法的概述。
+4. Aspose.Cells API 文档：查看 [Aspose.Cells for .NET文档](https://reference.aspose.com/cells/net/) 了解类结构和方法的概述。
 
 一旦准备好先决条件，我们就可以开始实施。
 

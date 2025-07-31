@@ -1,13 +1,14 @@
 ---
-title: Átfogó oktatóanyagok a GroupDocs.Conversion for .NET-hez
-linktitle: GroupDocs.Conversion for .NET Tutorials
-weight: 10
-url: /hu/conversion/
-description: Könnyedén konvertálhat fájlokat PDF formátumba a GroupDocs.Conversion for .NET segítségével. Egyszerűsítse a dokumentumkezelést testreszabható lehetőségekkel.
-is_root: true
+"description": "Könnyedén konvertálhat fájlokat PDF formátumba a GroupDocs.Conversion for .NET segítségével. Egyszerűsítheti a dokumentumkezelést testreszabható beállításokkal."
+"is_root": true
+"linktitle": "GroupDocs.Conversion .NET-hez – Oktatóanyagok"
+"title": "Átfogó oktatóanyagok a GroupDocs.Conversion for .NET-ről"
+"url": "/hu/conversion/net/"
+"weight": 10
 ---
-## GroupDocs.Conversion for .NET Tutorials
-### [Útmutató a fájlok PDF formátumba konvertálásához](./guide-to-file-conversion-to-pdf/)
-Tanulja meg, hogyan konvertálhat könnyedén különféle fájlformátumokat PDF-be a GroupDocs.Conversion for .NET segítségével. Ez a lépésenkénti oktatóanyag mindent lefed a könyvtár beállításától a zökkenőmentes fájlátalakítások végrehajtásáig.
+
+## GroupDocs.Conversion .NET-hez – Oktatóanyagok
+### [Útmutató a fájlok PDF-be konvertálásához](./guide-to-file-conversion-to-pdf/)
+Tanulja meg, hogyan konvertálhat könnyedén különféle fájlformátumokat PDF-be a GroupDocs.Conversion for .NET segítségével. Ez a lépésről lépésre haladó útmutató mindent lefed a könyvtár beállításától kezdve a zökkenőmentes fájltranszformációk végrehajtásáig.
 ### [Útmutató a dokumentumok konvertálásához a GroupDocs.Conversion for .NET használatával](./guide-to-document-conversion/)
-Fedezze fel a részletes oktatóanyagokat a különféle dokumentumformátumok konvertálásához a GroupDocs.Conversion for .NET használatával, és egyszerűsítse fájlkezelési folyamatát.
+Fedezzen fel részletes oktatóanyagokat a különböző dokumentumformátumok konvertálásához a GroupDocs.Conversion for .NET segítségével, és egyszerűsítse fájlkezelési folyamatát.

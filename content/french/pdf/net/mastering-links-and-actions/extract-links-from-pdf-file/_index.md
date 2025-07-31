@@ -1,8 +1,8 @@
 ---
 "description": "Exploitez tout le potentiel de la manipulation de documents PDF grâce à notre guide complet sur l'extraction de liens avec Aspose.PDF pour .NET. Ce tutoriel fournit des instructions détaillées, étape par étape."
-"linktitle": "Extraire les liens d'un fichier PDF"
+"linktitle": "Extraire les liens du fichier PDF"
 "second_title": "Référence de l'API Aspose.PDF pour .NET"
-"title": "Extraire les liens d'un fichier PDF"
+"title": "Extraire les liens du fichier PDF"
 "url": "/fr/pdf/net/mastering-links-and-actions/extract-links-from-pdf-file/"
 "weight": 50
 ---

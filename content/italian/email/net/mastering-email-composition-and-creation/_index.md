@@ -1,5 +1,5 @@
 ---
-"description": "Scopri i tutorial per Aspose.Email per .NET. Impara a creare, formattare e inviare email in modo programmatico, incluse funzionalità avanzate come allegati e contenuti HTML."
+"description": "Scopri i tutorial per Aspose.Email per .NET. Impara a creare, formattare e inviare email a livello di programmazione, incluse funzionalità avanzate come allegati e contenuti HTML."
 "linktitle": "Composizione e creazione di e-mail"
 "second_title": "API di elaborazione e-mail Aspose.Email .NET"
 "title": "Padroneggiare la composizione e la creazione di e-mail con Aspose.Email per .NET"

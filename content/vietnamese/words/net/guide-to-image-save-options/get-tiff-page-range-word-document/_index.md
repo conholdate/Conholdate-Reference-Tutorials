@@ -1,8 +1,8 @@
 ---
 "description": "Tìm hiểu cách dễ dàng chuyển đổi các phạm vi trang cụ thể thành hình ảnh TIFF bằng Aspose.Words cho .NET. Hướng dẫn từng bước này sẽ hướng dẫn bạn toàn bộ quy trình."
-"linktitle": "Lấy Phạm vi Trang Tiff trong Tài liệu Word"
+"linktitle": "Lấy phạm vi trang Tiff trong tài liệu Word"
 "second_title": "API xử lý tài liệu Aspose.Words"
-"title": "Lấy Phạm vi Trang Tiff trong Tài liệu Word"
+"title": "Lấy phạm vi trang Tiff trong tài liệu Word"
 "url": "/vi/words/net/guide-to-image-save-options/get-tiff-page-range-word-document/"
 "weight": 10
 ---

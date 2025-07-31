@@ -32,7 +32,7 @@ var message = MailMessage.Load("path/to/email.eml");
 
 ## Zugriff auf E-Mail-Header
 
-Mit dem `MailMessage` Objekt ist der Zugriff auf Header-Informationen unkompliziert. Die Header werden als Schlüssel-Wert-Paare gespeichert, die Sie einfach durchlaufen können:
+Mit der `MailMessage` Objekt ist der Zugriff auf Header-Informationen unkompliziert. Die Header werden als Schlüssel-Wert-Paare gespeichert, die Sie einfach durchlaufen können:
 
 ```csharp
 // E-Mail-Header durchlaufen und anzeigen

@@ -54,7 +54,7 @@ Teraz otwórzmy dokument PDF, który chcesz zmodyfikować. Użyjemy `Document` k
 Document pdfDocument = new Document(dataDir + "PDFOperators.pdf");
 ```
 
-To inicjuje nowy `Document` obiekt i ładuje określony plik PDF, przygotowując go do obróbki.
+Inicjuje to nowy `Document` obiekt i ładuje określony plik PDF, przygotowując go do obróbki.
 
 ## Krok 3: Ustaw współrzędne obrazu
 

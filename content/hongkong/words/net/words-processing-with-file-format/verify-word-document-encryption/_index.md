@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用強大的 Aspose.Words 函式庫在 .NET 應用程式中檢查 Word 文件的加密狀態。本逐步教程涵蓋了先決條件、程式碼實作和常見問題。"
+"description": "了解如何使用強大的 Aspose.Words 程式庫檢查 .NET 應用程式中 Word 文件的加密狀態。本逐步教程涵蓋了先決條件、程式碼實作和有用的常見問題。"
 "linktitle": "驗證Word文檔加密"
 "second_title": "Aspose.Words文件處理API"
 "title": "使用 Aspose.Words for .NET 驗證 Word 文件加密"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-您是否遇到過加密的 Word 文檔，並想知道如何以程式設計方式驗證其加密狀態？如果是這樣，那麼您來對地方了！在本教程中，我們將探索如何使用 .NET 的 Aspose.Words 函式庫來實現這一點。請跟隨我們的指導，完成設定和程式碼編寫，以順利完成驗證。
+您是否遇到過加密的 Word 文件並想知道如何以程式設計方式驗證其加密狀態？如果是這樣，那麼您來對地方了！在本教學中，我們將探討如何使用 .NET 的 Aspose.Words 函式庫來實現這一點。按照我們的指導，完成設定和程式碼，以順利完成驗證。
 
 ## 先決條件
 
@@ -30,7 +30,7 @@ using Aspose.Words;
 
 ## 第 2 步：定義文檔目錄
 
-接下來，指定儲存文件的目錄路徑。替換 `"YOUR DOCUMENT DIRECTORY"` 使用實際路徑：
+接下來，指定儲存文件的目錄的路徑。代替 `"YOUR DOCUMENT DIRECTORY"` 使用實際路徑：
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -38,7 +38,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## 步驟3：檢測文件格式
 
-現在，我們將使用 `DetectFileFormat` 方法來自 `FileFormatUtil` 類別來收集有關文件格式的資訊。在本例中，我們假設加密文件名為“Encrypted.docx”，位於指定目錄中：
+現在，我們將使用 `DetectFileFormat` 方法來自 `FileFormatUtil` 類別來收集有關文件格式的資訊。對於此範例，我們假設加密文件名為「Encrypted.docx」並位於指定目錄中：
 
 ```csharp
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(dataDir + "Encrypted.docx");
@@ -46,7 +46,7 @@ FileFormatInfo info = FileFormatUtil.DetectFileFormat(dataDir + "Encrypted.docx"
 
 ## 步驟 4：檢查文件是否加密
 
-要確定文件是否已加密，我們可以使用 `IsEncrypted` 的財產 `FileFormatInfo` 對象。此屬性傳回 `true` 如果文件已加密，且 `false` 否則，我們將在控制台中顯示結果：
+要確定文件是否已加密，我們可以使用 `IsEncrypted` 的財產 `FileFormatInfo` 目的。此屬性傳回 `true` 如果文件已加密，且 `false` 否則。我們將在控制台中顯示結果：
 
 ```csharp
 Console.WriteLine($"Is the document encrypted? {info.IsEncrypted}");
@@ -54,7 +54,7 @@ Console.WriteLine($"Is the document encrypted? {info.IsEncrypted}");
 
 ## 結論
 
-就這樣！您已成功使用 Aspose.Words for .NET 驗證了 Word 文件的加密狀態。只需幾行程式碼就能簡化這類任務，真是令人印象深刻。如果您有任何疑問或遇到任何問題，請隨時透過 [Aspose 支援論壇](https://forum。aspose.com/c/words/8).
+就是這樣！您已成功使用 Aspose.Words for .NET 驗證了 Word 文件的加密狀態。令人印象深刻的是，幾行程式碼就能簡化這樣的任務。如果您有任何疑問或遇到任何問題，請隨時透過 [Aspose 支援論壇](https://forum。aspose.com/c/words/8).
 
 ## 常見問題解答
 
@@ -62,7 +62,7 @@ Console.WriteLine($"Is the document encrypted? {info.IsEncrypted}");
 Aspose.Words for .NET 是一個強大的程式庫，可讓您在 .NET 應用程式中建立、編輯、轉換和操作 Word 文件。
 
 ### 我可以將 Aspose.Words for .NET 與 .NET Core 一起使用嗎？
-當然！ Aspose.Words for .NET 與 .NET Framework 和 .NET Core 相容。
+絕對地！ Aspose.Words for .NET 與 .NET Framework 和 .NET Core 相容。
 
 ### 如何取得 Aspose.Words 的臨時授權？
 您可以申請臨時駕照 [這裡](https://purchase。aspose.com/temporary-license/).

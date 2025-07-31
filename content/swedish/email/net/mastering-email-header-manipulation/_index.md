@@ -1,5 +1,5 @@
 ---
-"description": "Behärska Aspose.Email för .NET-handledningar med steg-för-steg-guider om manipulation av e-postrubriker, anpassning av teckensnitt, rendering av hyperlänkar och ordning av MHTML-information."
+"description": "Behärska Aspose.Email för .NET-handledningar med steg-för-steg-guider om manipulation av e-postrubriker, anpassning av teckensnitt, rendering av hyperlänkar och MHTML-informationsordning."
 "linktitle": "Bemästra manipulation av e-postrubriker"
 "second_title": "Aspose.Email .NET e-postbehandlings-API"
 "title": "Bemästra manipulation av e-postrubriker"

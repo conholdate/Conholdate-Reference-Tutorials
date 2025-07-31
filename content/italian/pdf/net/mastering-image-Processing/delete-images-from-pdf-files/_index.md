@@ -42,7 +42,7 @@ Specificare il percorso del documento PDF utilizzando una variabile stringa:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Sostituire `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del file PDF.
+Sostituire `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del tuo file PDF.
 
 ## Passaggio 2: caricare il documento PDF
 

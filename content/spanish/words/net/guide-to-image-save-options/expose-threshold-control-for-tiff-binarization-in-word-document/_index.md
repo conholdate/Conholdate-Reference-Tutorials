@@ -1,8 +1,8 @@
 ---
 "description": "Aprenda paso a paso a configurar las opciones de guardado de imágenes para un procesamiento óptimo de documentos, desde la carga del documento hasta la personalización de la configuración de salida. Ideal tanto para desarrolladores experimentados como para principiantes."
-"linktitle": "Control de umbral de exposición para la binarización de TIFF en documentos de Word"
+"linktitle": "Control de umbral de exposición para la binarización TIFF en documentos de Word"
 "second_title": "API de procesamiento de documentos de Aspose.Words"
-"title": "Control de umbral de exposición para la binarización de TIFF en documentos de Word"
+"title": "Control de umbral de exposición para la binarización TIFF en documentos de Word"
 "url": "/es/words/net/guide-to-image-save-options/expose-threshold-control-for-tiff-binarization-in-word-document/"
 "weight": 10
 ---

@@ -132,7 +132,7 @@ Son olarak PDF belgenizi kaydedin:
 
 ```csharp
 dataDir = dataDir + "CreateDoc_out.pdf";   // Çıktı dosya adını ayarlayın
-doc.Save(dataDir);  // Belgeyi kaydet
+doc.Save(dataDir);  // Belgeyi kaydedin
 Console.WriteLine($"PDF created successfully at {dataDir}");
 ```
 
@@ -173,5 +173,5 @@ Kodunuzda try-catch bloklarını kullanarak istisnaları yönetebilirsiniz; bu, 
 ### Ek öğrenme kaynaklarını nerede bulabilirim?
 Daha fazla öğrenme ve topluluk desteği için şuraya göz atın: [Aspose destek forumu](https://forum.aspose.com/c/pdf/10) veya git [indirme bölümü](https://releases.aspose.com/pdf/net/) kütüphane için.
 
-### Aspose.PDF'i nasıl satın alabilirim?
+### Aspose.PDF'yi nasıl satın alabilirim?
 Aspose.PDF kütüphanesini doğrudan şu adresten satın alabilirsiniz: [satın alma sayfası](https://purchase.aspose.com/buy) Sitede.

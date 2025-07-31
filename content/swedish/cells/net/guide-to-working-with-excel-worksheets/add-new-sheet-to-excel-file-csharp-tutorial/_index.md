@@ -17,7 +17,7 @@ Innan du börjar med kod, bekräfta att du har följande förutsättningar redo:
 
 1. Visual Studio: Installerat på ditt system (ladda ner från [Microsoft](https://visualstudio.microsoft.com/)).
 2. Aspose.Cells-biblioteket: Tillgängligt för ditt projekt. Hämta det från [Aspose-utgåvor](https://releases.aspose.com/cells/net/).
-3. NuGet Package Manager: Används för att integrera Aspose.Cells i ditt projekt.
+3. NuGet-pakethanteraren: Används för att integrera Aspose.Cells i ditt projekt.
 4. .NET Framework eller .NET Core: Säkerställ kompatibilitet med ditt projekt.
 5. Grundläggande C#-kunskaper: Bekantskap med klasser och objektorienterad programmering rekommenderas.
 

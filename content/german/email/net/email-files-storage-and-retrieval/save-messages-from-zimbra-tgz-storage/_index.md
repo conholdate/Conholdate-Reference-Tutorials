@@ -41,7 +41,7 @@ string outputDir = "Your Output Directory";
 Dies ist wie das Vorbereiten der Bühne für ein Theaterstück. Ohne die Angabe dieser Verzeichnisse weiß Ihr Programm nicht, wo die Eingabedatei zu finden ist oder wo die Ausgabe gespeichert werden soll.
 
 
-## Schritt 2: Erstellen Sie eine TgzReader-Instanz  
+## Schritt 2: Erstellen einer TgzReader-Instanz  
 
 Der `TgzReader` Die Klasse ist Ihr Gateway zum Lesen von Zimbra-TGZ-Dateien. Lassen Sie uns sie instanziieren und auf Ihre TGZ-Datei verweisen.  
 

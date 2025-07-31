@@ -1,21 +1,22 @@
 ---
-title: GroupDocs.Signature Kullanarak PDF'leri Meta Verilerle İmzalama Kılavuzu
-linktitle: PDF'leri Meta Verilerle İmzalama Kılavuzu
-second_title: GroupDocs.Signature .NET API
-description: GroupDocs.Signature for .NET kullanarak meta verilerle imzalayarak PDF belgelerinizi gelişmiş güvenlik ve izlenebilirlikle nasıl güçlendireceğinizi öğrenin. Bu kapsamlı eğitim net bir şekilde sunar.
-weight: 11
-url: /tr/signature/master-document-signing/signing-pdf-with-metadata/
+"description": "GroupDocs.Signature for .NET kullanarak PDF belgelerinizi meta verilerle imzalayarak gelişmiş güvenlik ve izlenebilirlikle nasıl güçlendireceğinizi öğrenin. Bu kapsamlı eğitim, net bir bakış açısı sunar."
+"linktitle": "PDF'leri Meta Verilerle İmzalama Kılavuzu"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "GroupDocs.Signature Kullanarak PDF'leri Meta Verilerle İmzalama Kılavuzu"
+"url": "/tr/signature/net/master-document-signing/signing-pdf-with-metadata/"
+"weight": 11
 ---
+
 ## giriiş
 
-Bu eğitimde, .NET için GroupDocs.Signature kullanarak bir PDF belgesini nasıl imzalayacağımızı ve meta veri nasıl ekleyeceğimizi öğreneceğiz. Meta veri eklemek, yazarlık, oluşturma tarihi, belge kimliği ve daha fazlası gibi temel bilgileri sağlayarak belgeyi geliştirir.
+Bu eğitimde, .NET için GroupDocs.Signature kullanarak bir PDF belgesini nasıl imzalayacağımızı ve meta veri nasıl ekleyeceğimizi öğreneceğiz. Meta veri eklemek, yazarlık, oluşturma tarihi, belge kimliği ve daha fazlası gibi temel bilgileri sağlayarak belgeyi zenginleştirir.
 
 ## Ön koşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  GroupDocs.Signature for .NET: Buradan indirin[Burada](https://releases.groupdocs.com/signature/net/).
-2. PDF Belgesi: İmzalamaya hazır bir örnek PDF dosyası bulundurun.
+1. GroupDocs.Signature for .NET: Şuradan indirin: [Burada](https://releases.groupdocs.com/signature/net/).
+2. PDF Belgesi: İmzalamaya hazır bir PDF dosyası örneği bulundurun.
 3. C# Programlamanın Temel Bilgileri: Kod örneklerini anlamak için C# sözdizimine aşinalık gereklidir.
 
 ## Ad Alanlarını İçe Aktar
@@ -30,7 +31,7 @@ using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
 
-## Adım 1: PDF Belgesini Yükleyin
+## Adım 1: PDF Belgesini yükleyin
 
 İmzalamak istediğiniz PDF belgesinin yolunu belirtin:
 
@@ -38,9 +39,9 @@ using GroupDocs.Signature.Options;
 string filePath = "sample.pdf";
 ```
 
-## Adım 2: Çıktı Dosyası Yolunu Belirleyin
+## Adım 2: Çıktı Dosya Yolunu Belirleyin
 
-İmzalanmış PDF'in meta verileriyle birlikte nereye kaydedileceğini tanımlayın:
+İmzalanmış PDF'in meta verilerle birlikte nereye kaydedileceğini tanımlayın:
 
 ```csharp
 string outputFilePath = Path.Combine("Your Document Directory", "SignPdfWithMetadata", "SignedWithMetadata.pdf");
@@ -48,7 +49,7 @@ string outputFilePath = Path.Combine("Your Document Directory", "SignPdfWithMeta
 
 ## Adım 3: Bir İmza Örneği Oluşturun
 
- Birini başlat`Signature` PDF belgesine giden yolu içeren örnek:
+Birini başlat `Signature` PDF belgesine giden yolu gösteren örnek:
 
 ```csharp
 using (Signature signature = new Signature(filePath))
@@ -59,7 +60,7 @@ using (Signature signature = new Signature(filePath))
 
 ## Adım 4: Meta Veri Seçeneklerini Tanımlayın
 
- Yaratmak`MetadataSignOptions` ve meta veri alanlarını değerleriyle birlikte ekleyin:
+Yaratmak `MetadataSignOptions` ve meta veri alanlarını değerleriyle birlikte ekleyin:
 
 ```csharp
 MetadataSignOptions options = new MetadataSignOptions();
@@ -83,26 +84,26 @@ Console.WriteLine($"\nSource document signed successfully with {result.Succeeded
 
 ## Çözüm
 
-Bu eğitimde, .NET için GroupDocs.Signature kullanarak bir PDF belgesini meta verilerle nasıl imzalayacağınızı ele aldık. Bu adımları izleyerek, PDF dosyalarınızı değerli meta verilerle kolayca zenginleştirebilir, izlenebilirliklerini ve faydalarını artırabilirsiniz.
+Bu eğitimde, .NET için GroupDocs.Signature kullanarak bir PDF belgesini meta verilerle nasıl imzalayacağınızı ele aldık. Bu adımları izleyerek, PDF dosyalarınızı değerli meta verilerle kolayca zenginleştirebilir, izlenebilirliklerini ve kullanışlılıklarını artırabilirsiniz.
 
 ## SSS
 
 ### PDF belgelerime özel meta veri alanları ekleyebilir miyim?
 
-Evet, GroupDocs.Signature for .NET'i kullanarak alan adını ve karşılık gelen değerini belirterek özel meta veri alanları ekleyebilirsiniz.
+Evet, .NET için GroupDocs.Signature'ı kullanarak alan adını ve karşılık gelen değerini belirterek özel meta veri alanları ekleyebilirsiniz.
 
 ### GroupDocs.Signature for .NET, .NET Framework'ün tüm sürümleriyle uyumlu mudur?
 
-GroupDocs.Signature for .NET, .NET Framework'ün çeşitli sürümleriyle uyumludur, bu da esneklik ve entegrasyon kolaylığı sağlar.
+GroupDocs.Signature for .NET, .NET Framework'ün çeşitli sürümleriyle uyumludur ve bu sayede esneklik ve entegrasyon kolaylığı sağlar.
 
-### GroupDocs.Signature PDF haricindeki diğer belge formatlarının imzalanmasını destekliyor mu?
+### GroupDocs.Signature PDF dışında diğer belge formatlarının imzalanmasını destekliyor mu?
 
 Evet, GroupDocs.Signature Word, Excel, PowerPoint ve daha fazlası dahil olmak üzere çok çeşitli belge biçimlerini destekler.
 
 ### GroupDocs.Signature for .NET kullanarak birden fazla belgeyi toplu olarak imzalayabilir miyim?
 
-Kesinlikle! Bir dosya listesi üzerinde yineleme yaparak ve imzalama sürecini programatik olarak uygulayarak birden fazla belgeyi toplu olarak imzalayabilirsiniz.
+Kesinlikle! Bir dosya listesi üzerinde gezinerek ve imzalama sürecini programatik olarak uygulayarak birden fazla belgeyi toplu olarak imzalayabilirsiniz.
 
 ### GroupDocs.Signature kullanıcıları için teknik destek mevcut mu?
 
- Evet, GroupDocs forumları aracılığıyla özel teknik destek sağlar. Destek forumuna erişebilirsiniz[Burada](https://forum.groupdocs.com/c/signature/13).
+Evet, GroupDocs forumları aracılığıyla özel teknik destek sağlar. Destek forumuna erişebilirsiniz. [Burada](https://forum.groupdocs.com/c/signature/13).

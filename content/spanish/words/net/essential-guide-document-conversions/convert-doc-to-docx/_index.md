@@ -101,7 +101,7 @@ Document doc = new Document(fullPath);
 
 ### Problemas de memoria con archivos grandes
 **Problema**:Excepciones por falta de memoria con archivos DOC muy grandes.
-**Solución**Procese los archivos en lotes más pequeños o aumente la memoria asignada a su aplicación. Para archivos de más de 100 MB, considere la posibilidad de usar métodos de streaming.
+**Solución**Procese los archivos en lotes más pequeños o aumente la asignación de memoria de su aplicación. Para archivos de más de 100 MB, considere la posibilidad de usar métodos de streaming.
 
 ### Archivos DOC corruptos
 **Problema**:Es posible que algunos archivos DOC antiguos estén parcialmente dañados.

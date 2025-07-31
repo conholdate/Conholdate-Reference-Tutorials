@@ -148,7 +148,7 @@ Siamo onesti: non sempre le cose vanno lisce al primo tentativo. Ecco alcuni pro
 - **Causa**: I file CSS esterni non vengono caricati correttamente
 - **Soluzione**: Utilizzare CSS in linea o assicurarsi che i fogli di stile esterni siano accessibili con le intestazioni CORS appropriate
 
-**Problema 3: Problemi di rendering dei font**
+**Problema 3: Problemi di rendering dei caratteri**
 - **Causa**: I font personalizzati non sono disponibili sul server
 - **Soluzione**: Incorpora i font nel tuo HTML o usa font di fallback sicuri per il Web
 

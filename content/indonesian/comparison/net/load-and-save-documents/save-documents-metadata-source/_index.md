@@ -1,25 +1,26 @@
 ---
-title: Simpan Sumber Metadata Dokumen dalam Perbandingan GroupDocs untuk .NET
-linktitle: Menyimpan Sumber Metadata Dokumen dalam Perbandingan GroupDocs untuk .NET
-second_title: API Perbandingan GroupDocs.NET
-description: Manfaatkan sepenuhnya potensi perbandingan dokumen dalam aplikasi .NET Anda dengan memanfaatkan GroupDocs Comparison for .NET. Tutorial langkah demi langkah ini memandu Anda membandingkan dokumen dengan mudah, sambil berfokus pada penyimpanan sumber metadata dokumen.
-weight: 14
-url: /id/comparison/load-and-save-documents/save-documents-metadata-source/
+"description": "Maksimalkan potensi perbandingan dokumen di aplikasi .NET Anda dengan memanfaatkan GroupDocs Comparison for .NET. Tutorial langkah demi langkah ini akan memandu Anda membandingkan dokumen dengan mudah, sekaligus berfokus pada penyimpanan sumber metadata dokumen."
+"linktitle": "Perbandingan Menyimpan Sumber Metadata Dokumen di GroupDocs untuk .NET"
+"second_title": "GroupDocs.Comparison .NET API"
+"title": "Simpan Sumber Metadata Dokumen di Perbandingan GroupDocs untuk .NET"
+"url": "/id/comparison/net/load-and-save-documents/save-documents-metadata-source/"
+"weight": 14
 ---
+
 ## Perkenalan
 
-Dalam pengembangan perangkat lunak, khususnya dalam industri seperti hukum, keuangan, dan pendidikan, kemampuan untuk membandingkan dokumen secara efisien adalah yang terpenting. GroupDocs Comparison for .NET menyediakan solusi yang tangguh untuk membandingkan dokumen dengan lancar dalam aplikasi .NET Anda. Tutorial ini akan memandu Anda memanfaatkan pustaka yang canggih ini untuk menyimpan sumber metadata dokumen, memastikan Anda memaksimalkan kemampuannya untuk tugas perbandingan dokumen Anda.
+Dalam pengembangan perangkat lunak, terutama dalam industri seperti hukum, keuangan, dan pendidikan, kemampuan untuk membandingkan dokumen secara efisien sangatlah penting. GroupDocs Comparison for .NET menyediakan solusi yang andal untuk membandingkan dokumen dengan lancar di dalam aplikasi .NET Anda. Tutorial ini akan memandu Anda memanfaatkan pustaka canggih ini untuk menyimpan sumber metadata dokumen, memastikan Anda memaksimalkan kemampuannya untuk tugas perbandingan dokumen Anda.
 
 ## Prasyarat
 
-Sebelum kita memulai, pastikan Anda telah menyiapkan hal berikut:
+Sebelum kita mulai, pastikan Anda telah menyiapkan hal berikut:
 
-1. Lingkungan Pengembangan: Lingkungan pengembangan .NET sudah siap di komputer Anda.
-2. Instalasi Perbandingan GroupDocs: Unduh dan instal Perbandingan GroupDocs untuk .NET dari[lokasi](https://releases.groupdocs.com/comparison/net/).
+1. Lingkungan Pengembangan: Lingkungan pengembangan .NET siap di komputer Anda.
+2. Instalasi Perbandingan GroupDocs: Unduh dan instal Perbandingan GroupDocs untuk .NET dari [lokasi](https://releases.groupdocs.com/comparison/net/).
 3. Berkas Dokumen: Siapkan berkas dokumen sumber dan target yang ingin Anda bandingkan.
 4. Pengetahuan Dasar C#: Keakraban dengan dasar-dasar pemrograman C# akan membantu Anda memahami potongan kode yang disediakan.
 
-## Mengimpor Ruang Nama yang Diperlukan
+## Mengimpor Namespace yang Diperlukan
 
 Mulailah dengan mengimpor namespace yang diperlukan ke dalam proyek Anda:
 
@@ -41,12 +42,12 @@ string outputFileName = Path.Combine(outputDirectory, "RESULT.docx");
 
 ## Langkah 2: Inisialisasi Objek Pembanding
 
- Membuat sebuah`Comparer` misalnya menggunakan jalur ke dokumen sumber Anda:
+Membuat sebuah `Comparer` misalnya menggunakan jalur ke dokumen sumber Anda:
 
 ```csharp
 using (Comparer comparer = new Comparer("SOURCE.docx"))
 ```
- Ini menginisialisasi`Comparer` objek, yang menyediakan dasar untuk perbandingan dokumen Anda.
+Ini menginisialisasi `Comparer` objek, menyediakan dasar untuk perbandingan dokumen Anda.
 
 ## Langkah 3: Tambahkan Dokumen Target
 
@@ -64,7 +65,7 @@ Sekarang, saatnya melakukan perbandingan dan menyimpan sumber metadata dokumen:
 ```csharp
 comparer.Compare(outputFileName, new SaveOptions() { CloneMetadataType = MetadataType.Source });
 ```
- Di sini,`Compare`metode membandingkan dokumen sumber dan dokumen target. Dengan menggunakan`CloneMetadataType`, Anda memastikan bahwa metadata dari dokumen sumber dipertahankan.
+Di sini, `Compare` metode membandingkan dokumen sumber dan dokumen target. Dengan menggunakan `CloneMetadataType`, Anda memastikan bahwa metadata dari dokumen sumber dipertahankan.
 
 ## Langkah 5: Menampilkan Pesan Output
 
@@ -73,11 +74,11 @@ Setelah perbandingan selesai, berikan umpan balik tentang operasinya:
 ```csharp
 Console.WriteLine($"\nDocuments compared successfully.\nCheck output in {outputDirectory}.");
 ```
-Pesan ini mengonfirmasi perbandingan yang berhasil dan menunjukkan tempat menemukan dokumen keluaran.
+Pesan ini mengonfirmasi perbandingan yang berhasil dan menunjukkan di mana menemukan dokumen keluaran.
 
 ## Kesimpulan
 
-GroupDocs Comparison for .NET merupakan alat yang sangat berguna untuk tugas perbandingan dokumen dalam aplikasi .NET. Dengan mengikuti panduan ini, Anda telah mempelajari cara menyimpan sumber metadata dokumen secara efisien, meningkatkan proses perbandingan dokumen dan produktivitas Anda secara keseluruhan.
+GroupDocs Comparison untuk .NET adalah alat yang sangat berharga untuk tugas perbandingan dokumen dalam aplikasi .NET. Dengan mengikuti panduan ini, Anda telah mempelajari cara menyimpan sumber metadata dokumen secara efisien, yang akan meningkatkan proses perbandingan dokumen dan produktivitas Anda secara keseluruhan.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -87,16 +88,16 @@ Ya, ia mendukung berbagai format, termasuk DOCX, PDF, PPTX, dan banyak lagi.
 
 ### Apakah ada versi uji coba yang tersedia?
 
- Anda dapat mengakses versi uji coba dari[Di Sini](https://releases.groupdocs.com/).
+Anda dapat mengakses versi uji coba dari [Di Sini](https://releases.groupdocs.com/).
 
 ### Dapatkah saya menyesuaikan format keluaran dari dokumen yang dibandingkan?
 
-Tentu saja! Perbandingan GroupDocs memungkinkan kustomisasi format output secara luas.
+Tentu saja! Perbandingan GroupDocs memungkinkan kustomisasi format output yang ekstensif.
 
 ### Apakah dukungan teknis tersedia untuk pengguna?
 
- Ya, Anda dapat mencari bantuan melalui[forum dukungan](https://forum.groupdocs.com/c/comparison/12).
+Ya, Anda dapat mencari bantuan melalui [forum dukungan](https://forum.groupdocs.com/c/comparison/12).
 
 ### Di mana saya dapat membeli lisensi?
 
- Lisensi dapat dibeli dari situs web GroupDocs[Di Sini](https://purchase.groupdocs.com/buy).
+Lisensi dapat dibeli dari situs web GroupDocs [Di Sini](https://purchase.groupdocs.com/buy).

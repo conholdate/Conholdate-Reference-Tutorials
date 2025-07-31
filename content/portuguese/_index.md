@@ -113,7 +113,7 @@ Bem-vindo à coleção mais completa de tutoriais de processamento de documentos
 #### Aspose.Imaging para .NET
 
 {{% alert color="primary" %}}
-**Processamento avançado de imagem** - Processe mais de 30 formatos de imagem, aplique filtros e efeitos, processe imagens em lote e crie aplicativos de processamento de imagens. Essencial para aplicativos de edição de fotos e ferramentas de conversão de imagens.
+**Processamento avançado de imagens** - Processe mais de 30 formatos de imagem, aplique filtros e efeitos, processe imagens em lote e crie aplicativos de processamento de imagens. Essencial para aplicativos de edição de fotos e ferramentas de conversão de imagens.
 
 {{% /alert %}}
 

@@ -1,6 +1,6 @@
 ---
 "description": "Sfrutta la potenza di Aspose.Words per .NET con i nostri tutorial completi sull'elaborazione dei documenti, tra cui il rilevamento del formato file e le firme digitali."
-"linktitle": "Elaborazione testi con Fileformat"
+"linktitle": "Elaborazione di testi con Fileformat"
 "second_title": "API di elaborazione dei documenti Aspose.Words"
 "title": "Elaborazione testi con formato file"
 "url": "/it/words/net/words-processing-with-file-format/"

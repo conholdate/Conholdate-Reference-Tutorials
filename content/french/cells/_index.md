@@ -40,7 +40,7 @@ Tutoriels complets pour les développeurs .NET couvrant tous les aspects du trai
 - **Conversion en fichier PDF** - Transformation professionnelle de feuilles de calcul en PDF
 - **Guide d'utilisation des feuilles de calcul Excel** - Gestion complète des feuilles de calcul
 - **Traitement et analyse des données** - Techniques avancées d'automatisation d'Excel
-- **Graphique et visualisation** - Business intelligence et reporting
+- **Graphique et visualisation** - Veille économique et reporting
 
 **Tutoriels en vedette :**
 - Conversion d'Excel en PDF avec préservation de la mise en forme

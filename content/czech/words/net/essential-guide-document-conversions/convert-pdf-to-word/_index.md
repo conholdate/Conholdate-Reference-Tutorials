@@ -2,7 +2,7 @@
 "categories":
 - "Document Conversion"
 "date": "2025-01-02"
-"description": "Naučte se, jak převést PDF do dokumentů Word v jazyce C# pomocí Aspose.Words pro .NET. Podrobný návod s příklady kódu, tipy pro řešení problémů a osvědčenými postupy."
+"description": "Naučte se, jak převést PDF do dokumentů Word v C# pomocí Aspose.Words pro .NET. Podrobný návod s příklady kódu, tipy pro řešení problémů a osvědčenými postupy."
 "lastmod": "2025-01-02"
 "linktitle": "Převod PDF do Wordu v C# pomocí Aspose.Words"
 "second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
@@ -45,7 +45,7 @@ Než se pustíme do procesu konverze, ujistěte se, že máte vše správně nas
 
 **Doporučené nastavení:**
 - Alespoň 4 GB RAM pro zpracování větších PDF souborů
-- SSD úložiště pro rychlejší operace se soubory I/O
+- SSD úložiště pro rychlejší operace se soubory
 - .NET Framework 4.6.1 nebo vyšší pro optimální kompatibilitu
 
 ## Nastavení prostředí
@@ -138,7 +138,7 @@ s robustní knihovnou, jako je Aspose.Words, se můžete setkat s určitými pro
 
 ## Tipy a osvědčené postupy pro zvýšení výkonu
 
-Abyste z procesu převodu PDF do Wordu vytěžili maximum, postupujte podle těchto optimalizačních strategií:
+Abyste z procesu převodu PDF do Wordu vytěžili maximum, dodržujte tyto optimalizační strategie:
 
 ### Optimalizace dávkového zpracování
 

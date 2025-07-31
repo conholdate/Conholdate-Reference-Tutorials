@@ -75,7 +75,7 @@ workbook.Settings.IsVScrollBarVisible = false;
 
 Cette ligne de code masque la barre de défilement verticale, créant une vue plus claire de vos données.
 
-## Étape 5 : Masquer la barre de défilement horizontale
+## Étape 5 : masquer la barre de défilement horizontale
 
 De même, vous pouvez masquer la barre de défilement horizontale :
 
@@ -86,7 +86,7 @@ workbook.Settings.IsHScrollBarVisible = false;
 
 Avec cela, les deux barres de défilement sont masquées, garantissant une interface épurée.
 
-## Étape 6 : Enregistrer le fichier Excel modifié
+## Étape 6 : Enregistrez le fichier Excel modifié
 
 Après avoir effectué vos modifications, enregistrez le fichier Excel modifié :
 

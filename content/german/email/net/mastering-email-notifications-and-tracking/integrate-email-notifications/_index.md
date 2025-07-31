@@ -43,7 +43,7 @@ MailMessage msg = new MailMessage
 
 ## Konfigurieren von Zustellbenachrichtigungen
 
-Um Benachrichtigungen zum Zustellungsstatus Ihrer E-Mail zu erhalten, konfigurieren Sie die Zustellungsbenachrichtigungsoptionen. Sie können angeben, ob Sie bei erfolgreicher Zustellung, bei Fehlschlag oder bei beidem benachrichtigt werden möchten.
+Um Benachrichtigungen zum Zustellungsstatus Ihrer E-Mail zu erhalten, konfigurieren Sie die Zustellungsbenachrichtigungsoptionen. Sie können angeben, ob Sie bei erfolgreicher Zustellung, bei einem Fehler oder bei beiden benachrichtigt werden möchten.
 
 ```csharp
 // Optionen für die Zustellbenachrichtigung festlegen

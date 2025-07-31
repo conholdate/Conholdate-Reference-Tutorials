@@ -70,7 +70,7 @@ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Tiff)
 
 ## Krok 4: Uložte dokument jako TIFF
 
-Nyní uložme dokument jako obrázek TIFF s použitím možností, které jsme nakonfigurovali.
+Nyní uložme dokument jako obrázek TIFF s použitím voleb, které jsme nakonfigurovali.
 
 ```csharp
 doc.Save(dataDir + "OutputImage.tiff", saveOptions);

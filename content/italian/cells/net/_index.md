@@ -23,7 +23,7 @@ Sfrutta appieno il potenziale dell'elaborazione dei fogli di calcolo Excel con A
 - **💾 Elaborazione dei dati**: Formule avanzate, tabelle pivot e analisi dei dati
 - **🎨 Formattazione**Controllo completo sullo stile delle celle, sulla formattazione condizionale e sui temi
 
-## 📚 Categorie dei tutorial
+## 📚 Categorie di tutorial
 
 ### Conversione in file PDF
 Padroneggia la conversione da Excel a PDF con output di qualità professionale e opzioni di formattazione avanzate.
@@ -39,7 +39,7 @@ Tutorial completi sulla gestione dei fogli di lavoro per la manipolazione dinami
 | Tutorial | Descrizione | Difficoltà |
 |----------|-------------|------------|
 | **[Aggiunta di un foglio di lavoro a una cartella di lavoro Excel esistente](./guide-to-working-with-excel-worksheets-csharp/adding-worksheet-to-existing-excel-workbook-csharp-tutorial/)** | Aggiungi dinamicamente nuovi fogli di lavoro alle cartelle di lavoro esistenti | ⭐ Principiante |
-| **[Aggiungi nuovo foglio al file Excel](./guide-to-working-with-excel-worksheets-csharp/add-new-sheet-to-excel-file-csharp-tutorial/)** Crea e configura nuovi fogli di lavoro in modo programmatico | ⭐ Principiante |
+| **[Aggiungi nuovo foglio al file Excel](./guide-to-working-with-excel-worksheets-csharp/add-new-sheet-to-excel-file-csharp-tutorial/)** Crea e configura programmaticamente nuovi fogli di lavoro | ⭐ Principiante |
 | **[Elimina foglio di lavoro per indice](./guide-to-working-with-excel-worksheets-csharp/delete-worksheet-by-index-excel-csharp-tutorial/)** | Rimuovere in modo efficiente i fogli di lavoro utilizzando operazioni basate su indici | ⭐ Principiante |
 
 ### Padroneggiare la gestione dei fogli di lavoro
@@ -78,12 +78,12 @@ Operazioni avanzate sui fogli di lavoro per l'automazione professionale di Excel
 
 ### **Sviluppatore intermedio** (Familiarità con le basi dei fogli di calcolo)
 1. Maestro **[Conversioni dei grafici](./conversion-to-pdf-file/convert-excel-charts-to-pdf/)**
-2. Esplorare **[Operazioni avanzate sui fogli di lavoro](./guide-to-working-with-excel-worksheets-csharp/delete-worksheet-by-index-excel-csharp-tutorial/)**
+2. Esplorare **[Operazioni avanzate del foglio di lavoro](./guide-to-working-with-excel-worksheets-csharp/delete-worksheet-by-index-excel-csharp-tutorial/)**
 3. Attrezzo **[Miglioramento del foglio di calcolo del designer](./mastering-worksheet-management/adding-worksheets-to-designer-spreadsheet/)**
 
 ### **Sviluppatore avanzato** (Creazione di soluzioni aziendali)
 1. Costruire **Generatori di report complessi**
-2. Creare **Dashboard dei dati in tempo reale**
+2. Creare **Dashboard di dati in tempo reale**
 3. Ottimizzare **Prestazioni per grandi set di dati**
 
 
@@ -129,7 +129,7 @@ Operazioni avanzate sui fogli di lavoro per l'automazione professionale di Excel
 - **[Prova gratuita](https://releases.aspose.com/cells/net/)** - Valutare le funzionalità complete
 
 ### **Comunità e supporto**
-- **[Forum di supporto](https://forum.aspose.com/c/cells/9)** - Ricevi aiuto dagli esperti
+- **[Forum di supporto](https://forum.aspose.com/c/cells/9)** Ricevi aiuto dagli esperti
 
 ### **Licenze e prove**
 - **[Licenza temporanea](https://purchase.conholdate.com/temporary-license/)** - Valutazione estesa

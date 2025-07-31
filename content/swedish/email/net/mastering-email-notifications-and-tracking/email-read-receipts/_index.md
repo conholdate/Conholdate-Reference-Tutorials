@@ -68,7 +68,7 @@ message.Headers.Add("Disposition-Notification-To", "sender@sender.com");
 
 - DeliveryNotificationOptions: Begär en bekräftelse när e-postmeddelandet har levererats.
 - Returnera kvitto till: Begär ett kvitto när e-postmeddelandet har lästs.
-- Aviseringsmeddelande till: En specifik rubrik som används för läskvitton.
+- Disposition-Notification-To: En specifik rubrik som används för läskvitton.
 
 ## Steg 4: Konfigurera SMTP-klienten
 

@@ -42,7 +42,7 @@ using Aspose.Pdf.Text;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपकी पीडीएफ फाइल का वास्तविक पथ.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपकी पीडीएफ फाइल के वास्तविक पथ के साथ।
 
 ## चरण 2: PDF दस्तावेज़ लोड करें
 

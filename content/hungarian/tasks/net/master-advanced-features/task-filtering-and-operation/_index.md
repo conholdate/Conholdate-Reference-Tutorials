@@ -1,26 +1,27 @@
 ---
-title: Feladatszűrés ÉS Működés az Aspose.Tasks-ban
-linktitle: Feladatszűrés ÉS Működés az Aspose.Tasks-ban
-second_title: Aspose.Tasks .NET API
-description: Ismerje meg, hogyan használhatja ki az Aspose.Tasks for .NET osztályát a projektfeladatok több feltétel alapján történő szűrésére. Olyan kritériumok kombinálásával, mint az összefoglaló feladatok és a nem null attribútumok.
-weight: 10
-url: /hu/tasks/master-advanced-features/task-filtering-and-operation/
+"description": "Ismerd meg, hogyan használhatod ki az Aspose.Tasks .NET osztályát projektfeladatok szűrésére több feltétel alapján. Olyan kritériumok kombinálásával, mint az összefoglaló feladatok és a nem null attribútumok."
+"linktitle": "Feladatszűrés ÉS művelet az Aspose.Tasks-ban"
+"second_title": "Aspose.Tasks .NET API"
+"title": "Feladatszűrés ÉS művelet az Aspose.Tasks-ban"
+"url": "/hu/tasks/net/master-advanced-features/task-filtering-and-operation/"
+"weight": 10
 ---
+
 ## Bevezetés
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan hajthatjuk végre a projektfeladatok speciális szűrését az Aspose.Tasks for .NET-ben a`Util.And` osztály. Ez a hatékony funkció lehetővé teszi a fejlesztők számára, hogy több kritérium alapján hatékonyan szűrjék a feladatokat.
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan lehet az Aspose.Tasks for .NET projektfeladatok speciális szűrését elvégezni a következő használatával: `Util.And` osztály. Ez a hatékony funkció lehetővé teszi a fejlesztők számára, hogy hatékonyan szűrjék a feladatokat több kritérium alapján.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 
 1. C# programozási alapismeretek.
-2.  Aspose.Tasks for .NET telepítve. Ha még nem tette meg, letöltheti innen[ezt a linket](https://releases.aspose.com/tasks/net/).
-3. Integrált fejlesztői környezet (IDE), például a Visual Studio a kód írásához és futtatásához.
+2. Aspose.Tasks for .NET telepítve. Ha még nem tette meg, letöltheti innen: [ezt a linket](https://releases.aspose.com/tasks/net/).
+3. Egy integrált fejlesztői környezet (IDE), mint például a Visual Studio, a kód írásához és futtatásához.
 
 ## Névterek importálása
 
-A kezdéshez importálnia kell a szükséges névtereket a C# projektbe. Ez lehetővé teszi az Aspose.Tasks által biztosított funkciók elérését.
+A kezdéshez importálnia kell a szükséges névtereket a C# projektjébe. Ez lehetővé teszi az Aspose.Tasks által biztosított funkciók elérését.
 
 ```csharp
 using Aspose.Tasks;
@@ -30,48 +31,48 @@ using Aspose.Tasks.Util;
 
 ```
 
-## 1. lépés: Inicializálja a projektet és gyűjtse össze a feladatokat
+## 1. lépés: A projekt inicializálása és a feladatok összegyűjtése
 
- Először inicializáljon egy Aspose.Tasks projektet, és gyűjtse össze benne az összes feladatot. Demonstrációs célból feltételezzük, hogy van egy nevű projektfájl`Project2.mpp`.
+Először inicializálj egy Aspose.Tasks projektet, és gyűjtsd össze benne az összes feladatot. A demonstráció kedvéért feltételezzük, hogy van egy projektfájl, melynek neve `Project2.mpp`.
 
 ```csharp
-// A dokumentumok könyvtár elérési útja
+// A dokumentumok könyvtárának elérési útja
 string dataDir = "Your Document Directory";
 var project = new Project(dataDir + "Project2.mpp");
 
-// Gyűjtsd össze az összes gyermekfeladatot
+// Gyűjtsd össze az összes alárendelt feladatot
 var taskCollector = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, taskCollector, 0);
 ```
 
-## 2. lépés: Adja meg a szűrési feltételeket
+## 2. lépés: Szűrési feltételek meghatározása
 
-Ebben a lépésben meghatározzuk a szűrési feladatok feltételeit. Példánkban két feltételt fogunk létrehozni: az egyiket az összefoglaló feladatok szűrésére, a másikat pedig annak biztosítására, hogy a feladatok ne legyenek nullák.
+Ebben a lépésben a feladatok szűrésének feltételeit fogjuk meghatározni. A példánkban két feltételt hozunk létre: az egyik az összefoglaló feladatok szűrésére szolgál, a másik pedig biztosítja, hogy a feladatok ne legyenek üresek.
 
 ```csharp
 var summaryCondition = new SummaryCondition();
 var notNullCondition = new NotNullCondition();
 ```
 
-## 3. lépés: A feltételek kombinálása az ÉS művelettel
+## 3. lépés: Feltételek kombinálása az ÉS művelettel
 
- A következő lépés ezeknek a feltételeknek a kombinálása a`Util.And` osztály. Ez lehetővé teszi olyan összetett feltétel létrehozását, amely mindkét feltételt kötelezővé teszi.
+A következő lépés ezen feltételek kombinálása a következő használatával: `Util.And` osztály. Ez lehetővé teszi számunkra, hogy egy összetett feltételt hozzunk létre, amely mindkét kritériumot előírja.
 
 ```csharp
 var combinedCondition = new And<Task>(summaryCondition, notNullCondition);
 ```
 
-## 4. lépés: Alkalmazza a Kombinált feltétel és szűrési feladatokat
+## 4. lépés: Alkalmazza a kombinált feltétel- és szűrőfeladatokat
 
-Most alkalmazzuk a kombinált feltételt az összegyűjtött feladatokra, hogy kiszűrjük azokat a konkrét feladatokat, amelyek mindkét feltételnek megfelelnek.
+Most alkalmazzuk az összegyűjtött feladatokra a kombinált feltételt, hogy kiszűrjük azokat a konkrét feladatokat, amelyek mindkét feltételnek megfelelnek.
 
 ```csharp
 List<Task> filteredTasks = Filter(taskCollector.Tasks, combinedCondition);
 ```
 
-## 5. lépés: Adja ki a szűrt feladatokat
+## 5. lépés: A szűrt feladatok kimenete
 
-Végül ismételjük a szűrt feladatainkat, és megjelenítjük a releváns részleteket. Ez segít megérteni a kritériumainknak megfelelő feladatokat.
+Végül végigmegyünk a szűrt feladatainkon, és releváns részleteket adunk ki. Ez segít megérteni, hogy mely feladatok felelnek meg a kritériumainknak.
 
 ```csharp
 Console.WriteLine("Filtered Tasks:");
@@ -83,26 +84,26 @@ foreach (var task in filteredTasks)
 
 ## Következtetés
 
- Ebben az oktatóanyagban bemutattuk, hogyan hajthatunk végre speciális szűrési műveleteket az Aspose.Tasks for .NET-ben a`Util.And`osztály. Több feltétel kombinálásával hatékonyan szűrhetjük a feladatokat, ezzel is növelve projektmenedzsment alkalmazásaink hasznosságát.
+Ebben az oktatóanyagban bemutattuk, hogyan végezhetünk speciális szűrési műveleteket az Aspose.Tasks for .NET-ben a következő használatával: `Util.And` osztály. Több feltétel kombinálásával hatékonyan szűrhetjük a feladatokat, ezáltal növelve projektmenedzsment alkalmazásaink hasznosságát.
 
 ## GYIK
 
-### Mi az Aspose.Tasks a .NET számára?
+### Mi az Aspose.Tasks .NET-hez?
 
-Az Aspose.Tasks for .NET egy átfogó API, amelyet a fejlesztők számára fejlesztettek ki, hogy programozottan kezeljék a Microsoft Project fájlokat .NET-alkalmazásokon belül.
+Az Aspose.Tasks for .NET egy átfogó API, amelyet a fejlesztők számára terveztek a Microsoft Project fájlok programozott kezeléséhez a .NET alkalmazásokon belül.
 
 ### Kombinálhatok kettőnél több feltételt az Util.And használatával?
 
- Igen! A`Util.And` osztály lehetővé teszi több feltétel kombinálását, lehetővé téve az Ön igényeire szabott komplex szűrési logikát.
+Igen! A `Util.And` Az osztály lehetővé teszi több feltétel kombinálását, lehetővé téve az Ön igényeire szabott komplex szűrési logikát.
 
-### Elérhető az Aspose.Tasks ingyenes próbaverziója?
+### Van ingyenes próbaverzió az Aspose.Tasks-hoz?
 
- Igen, letölthet egy ingyenes próbaverziót a webhelyről[ezt a linket](https://releases.aspose.com/).
+Igen, letölthet egy ingyenes próbaverziót innen [ezt a linket](https://releases.aspose.com/).
 
-### Hol találom az Aspose.Tasks részletes dokumentációját?
+### Hol találok részletes dokumentációt az Aspose.Tasks-hoz?
 
- A részletes dokumentáció elérhető[itt](https://reference.aspose.com/tasks/net/).
+Részletes dokumentáció elérhető [itt](https://reference.aspose.com/tasks/net/).
 
 ### Hogyan kérhetek támogatást az Aspose.Tasks-hoz?
 
- A támogatás az Aspose.Tasks közösségi fórumon keresztül érhető el, amely elérhető[itt](https://forum.aspose.com/c/tasks/15).
+A támogatás az Aspose.Tasks közösségi fórumon keresztül érhető el, amely a következő címen érhető el: [itt](https://forum.aspose.com/c/tasks/15).

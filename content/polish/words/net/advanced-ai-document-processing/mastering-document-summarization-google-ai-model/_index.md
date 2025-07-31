@@ -26,7 +26,7 @@ Pod koniec tego samouczka będziesz mieć działający interfejs API podsumowuj�
 
 ## Dlaczego warto wybrać podejście .NET do podsumowania dokumentów?
 
-Zanim przejdziemy do implementacji, zobaczmy, dlaczego połączenie Aspose.Words z Google AI tworzy tak potężne rozwiązanie dla projektów .NET zajmujących się podsumowywaniem dokumentów:
+Zanim przejdziemy do implementacji, zobaczmy, dlaczego połączenie Aspose.Words z Google AI tworzy tak potężne rozwiązanie do podsumowywania dokumentów w projektach .NET:
 
 **Zalety Aspose.Words:**
 - Natywna integracja .NET z doskonałą wydajnością

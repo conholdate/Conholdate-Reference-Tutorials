@@ -1,21 +1,22 @@
 ---
-title: 使用 GroupDocs.Signature 對具有元資料的圖像進行簽署的指南
-linktitle: 使用元資料對影像進行簽署的指南
-second_title: GroupDocs.Signature .NET API
-description: 了解如何使用 GroupDocs.Signature 在 .NET 應用程式中使用元資料有效地對影像進行簽署。本逐步教學涵蓋了從安裝到實施的所有內容，使您能夠輕鬆地使用元資料簽章增強文件。
-weight: 10
-url: /zh-hant/signature/master-document-signing/signing-images-with-metadata/
+"description": "了解如何使用 GroupDocs.Signature 在 .NET 應用程式中有效地簽署具有元資料的影像。本逐步教學涵蓋了從安裝到實施的所有內容，使您能夠毫不費力地使用元資料簽章來增強您的文件。"
+"linktitle": "使用元資料簽署影像指南"
+"second_title": "GroupDocs.簽署 .NET API"
+"title": "使用 GroupDocs.Signature 對具有元資料的圖像進行簽署的指南"
+"url": "/zh-hant/signature/net/master-document-signing/signing-images-with-metadata/"
+"weight": 10
 ---
+
 ## 介紹
 
-GroupDocs.Signature for .NET 是一個功能強大的程式庫，可讓開發人員使用元資料有效地對映像進行簽署。本教學將逐步指導您完成流程。
+GroupDocs.Signature for .NET 是一個強大的程式庫，可讓開發人員使用元資料有效地簽署映像。本教學將逐步引導您完成整個過程。
 
 ## 先決條件
 
-在開始之前，請確保您具備以下條件：
+在開始之前，請確保您已具備以下條件：
 
-1. 適用於 .NET 的 GroupDocs.Signature：在 .NET 專案中安裝 GroupDocs.Signature 套件。您可以從以下位置下載：[這裡](https://releases.groupdocs.com/signature/net/).
-2. 影像檔案：準備要使用元資料簽署的影像檔案。
+1. .NET 的 GroupDocs.Signature：在您的 .NET 專案中安裝 GroupDocs.Signature 套件。您可以從下載 [這裡](https://releases。groupdocs.com/signature/net/).
+2. 影像檔案：準備要用元資料簽署的影像檔案。
 
 ## 導入必要的命名空間
 
@@ -29,7 +30,7 @@ using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
 
-## 第 1 步：載入圖片文件
+## 步驟 1：載入圖片文件
 
 首先指定影像檔案的路徑和簽名影像的輸出目錄：
 
@@ -45,19 +46,19 @@ string outputFilePath = Path.Combine("Your Document Directory", "SignImageWithMe
 ```csharp
 using (Signature signature = new Signature(filePath))
 {
-    ushort imgsMetadataId = 41996; //元資料的起始 ID
+    ushort imgsMetadataId = 41996; // 元資料的起始 ID
     MetadataSignOptions options = new MetadataSignOptions();
 
-    //新增各種類型的元資料簽名
+    // 新增各種類型的元資料簽名
     options
-        .Add(new ImageMetadataSignature(imgsMetadataId++, "Mr. Sherlock Holmes")) //字串值
-        .Add(new ImageMetadataSignature(imgsMetadataId++, DateTime.Now))          //日期時間值
-        .Add(new ImageMetadataSignature(imgsMetadataId++, 123456))                //整數值
-        .Add(new ImageMetadataSignature(imgsMetadataId++, 123.456D))              //雙倍價值
-        .Add(new ImageMetadataSignature(imgsMetadataId++, 123.456M))              //十進制值
-        .Add(new ImageMetadataSignature(imgsMetadataId++, 123.456F));             //浮動值
+        .Add(new ImageMetadataSignature(imgsMetadataId++, "Mr. Sherlock Holmes")) // 字串值
+        .Add(new ImageMetadataSignature(imgsMetadataId++, DateTime.Now))          // 日期時間值
+        .Add(new ImageMetadataSignature(imgsMetadataId++, 123456))                // 整數值
+        .Add(new ImageMetadataSignature(imgsMetadataId++, 123.456D))              // 雙倍值
+        .Add(new ImageMetadataSignature(imgsMetadataId++, 123.456M))              // 十進制值
+        .Add(new ImageMetadataSignature(imgsMetadataId++, 123.456F));             // 浮點數值
 
-    //簽署文件並儲存結果
+    // 簽署文件並儲存結果
     SignResult result = signature.Sign(outputFilePath, options);
     Console.WriteLine($"\nDocument signed successfully with {result.Succeeded.Count} signature(s).\nFile saved at: {outputFilePath}");
 }
@@ -65,21 +66,21 @@ using (Signature signature = new Signature(filePath))
 
 ## 結論
 
-在本教學中，您學習如何使用 GroupDocs.Signature for .NET 使用元資料對影像進行簽署。透過執行這些步驟，您可以輕鬆地將元資料簽章新增至 .NET 應用程式中，從而增強影像的功能和完整性。
+在本教學中，您學習如何使用 GroupDocs.Signature for .NET 對具有元資料的圖像進行簽署。透過遵循這些步驟，您可以輕鬆地將元資料簽章新增至您的 .NET 應用程序，從而增強影像的功能和完整性。
 
 ## 常見問題解答
 
-### 我可以使用 GroupDocs.Signature for .NET 使用元資料簽署多個映像嗎？
-是的，您可以透過迭代每個圖像檔案並應用元資料簽名來簽署多個圖像。
+### 我可以使用 GroupDocs.Signature for .NET 對多個映像進行元資料簽署嗎？
+是的，您可以透過遍歷每個影像檔案並應用元資料簽名來簽署多個影像。
 
-### 是否有適用於 .NET 的 GroupDocs.Signature 試用版？
-是的，您可以從以下位置下載試用版[這裡](https://releases.groupdocs.com/).
+### GroupDocs.Signature for .NET 有試用版嗎？
+是的，你可以從 [這裡](https://releases。groupdocs.com/).
 
-### GroupDocs.Signature for .NET 是否支援圖像以外的其他檔案格式？
-絕對地！ GroupDocs.Signature 支援多種格式，包括 PDF、Word、Excel 等。
+### GroupDocs.Signature for .NET 除了支援映像之外還支援其他檔案格式嗎？
+絕對地！ GroupDocs.Signature 支援各種格式，包括 PDF、Word、Excel 等。
 
 ### 我可以自訂元資料簽章的外觀嗎？
-是的，您可以自訂元資料簽名的字體大小、顏色和位置等方面。
+是的，您可以自訂字體大小、顏色和元資料簽名的位置等方面。
 
-### 在哪裡可以獲得對 .NET 的 GroupDocs.Signature 的支援？
-如需支持，請造訪 GroupDocs.Signature 論壇[這裡](https://forum.groupdocs.com/c/signature/13).
+### 在哪裡可以獲得 .NET 的 GroupDocs.Signature 支援？
+如需支持，請造訪 GroupDocs.Signature 論壇 [這裡](https://forum。groupdocs.com/c/signature/13).

@@ -90,7 +90,7 @@ doc.Save(dataDir + "ConvertedDocument.epub", SaveFormat.Epub);
 
 Även med Aspose.Words som hanterar komplexiteten kan du stöta på vissa utmaningar. Här är de vanligaste problemen och hur du löser dem:
 
-**Stor filbehandling**Om du konverterar dokument över 100 MB kan du uppleva minnesproblem. Lösning: Bearbeta dokument i mindre omgångar eller öka programmets minnesallokering.
+**Stora filbehandlingar**Om du konverterar dokument över 100 MB kan du uppleva minnesproblem. Lösning: Bearbeta dokument i mindre omgångar eller öka programmets minnesallokering.
 
 **Problem med bildkvaliteten**Ibland visas bilder som pixelerade i EPUB-utdata. Detta händer vanligtvis när originalbilderna i DOCX-filen har låg upplösning. Använd alltid bilder av hög kvalitet (minst 300 DPI) i dina källdokument.
 

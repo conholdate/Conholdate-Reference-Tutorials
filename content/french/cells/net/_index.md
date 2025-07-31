@@ -40,7 +40,7 @@ Tutoriels complets de gestion de feuilles de calcul pour la manipulation dynamiq
 |----------|-------------|------------|
 | **[Ajout d'une feuille de calcul à un classeur Excel existant](./guide-to-working-with-excel-worksheets-csharp/adding-worksheet-to-existing-excel-workbook-csharp-tutorial/)** | Ajouter dynamiquement de nouvelles feuilles de calcul aux classeurs existants | ⭐ Débutant |
 | **[Ajouter une nouvelle feuille au fichier Excel](./guide-to-working-with-excel-worksheets-csharp/add-new-sheet-to-excel-file-csharp-tutorial/)** Créer et configurer par programmation de nouvelles feuilles de calcul | ⭐ Débutant |
-| **[Supprimer la feuille de calcul par index](./guide-to-working-with-excel-worksheets-csharp/delete-worksheet-by-index-excel-csharp-tutorial/)** | Supprimer efficacement des feuilles de calcul à l'aide d'opérations basées sur l'index | ⭐ Débutant |
+| **[Supprimer la feuille de calcul par index](./guide-to-working-with-excel-worksheets-csharp/delete-worksheet-by-index-excel-csharp-tutorial/)** | Supprimer efficacement des feuilles de calcul à l'aide d'opérations basées sur des index | ⭐ Débutant |
 
 ### Maîtriser la gestion des feuilles de travail
 Opérations de feuille de calcul avancées pour une automatisation Excel professionnelle et une gestion de fichiers simplifiée.
@@ -72,7 +72,7 @@ Opérations de feuille de calcul avancées pour une automatisation Excel profess
 ## 📊 Recommandations de parcours d'apprentissage
 
 ### **Développeur débutant** (Nouveau dans l'automatisation Excel)
-1. Commencer par **[Convertir Excel en PDF](./conversion-to-pdf-file/convert-excel-to-pdf/)**
+1. Commencer avec **[Convertir Excel en PDF](./conversion-to-pdf-file/convert-excel-to-pdf/)**
 2. Apprendre **[Ajout de feuilles de travail](./guide-to-working-with-excel-worksheets-csharp/adding-worksheet-to-existing-excel-workbook-csharp-tutorial/)**
 3. Pratique **[Gestion des feuilles de travail](./guide-to-working-with-excel-worksheets-csharp/add-new-sheet-to-excel-file-csharp-tutorial/)**
 
@@ -129,7 +129,7 @@ Opérations de feuille de calcul avancées pour une automatisation Excel profess
 - **[Essai gratuit](https://releases.aspose.com/cells/net/)** - Évaluer toutes les fonctionnalités
 
 ### **Communauté et soutien**
-- **[Forum d'assistance](https://forum.aspose.com/c/cells/9)** - Obtenez l'aide d'experts
+- **[Forum d'assistance](https://forum.aspose.com/c/cells/9)** Obtenez l'aide d'experts
 
 ### **Licences et essais**
 - **[Licence temporaire](https://purchase.conholdate.com/temporary-license/)** - Évaluation approfondie

@@ -149,7 +149,7 @@ Sì, Aspose offre una prova gratuita a cui puoi accedere [Qui](https://releases.
 Puoi trovare supporto e discussioni della comunità su [Forum Aspose](https://forum.aspose.com/c/pdf/10).
 
 ### Quali tipi di campi modulo posso aggiungere utilizzando Aspose.PDF?
-È possibile aggiungere caselle di testo, caselle di controllo, creare pulsanti di opzione interattivi, menu a discesa e altro ancora.
+È possibile aggiungere caselle di testo, caselle di controllo, pulsanti di scelta interattivi, menu a discesa e altro ancora.
 
 ### Come posso ottenere una licenza temporanea per Aspose.PDF?
 Puoi richiedere una licenza temporanea da [questo collegamento](https://purchase.aspose.com/temporary-license/).

@@ -71,7 +71,7 @@ De `sheets` objektet ger dig nu åtkomst till alla arbetsblad inom `book1.xls`, 
 
 ## Steg 4: Kopiera data från ett ark till ett annat
 
-För att kopiera data från ett kalkylblad till ett annat inom samma arbetsbok erbjuder Aspose.Cells en lättanvänd metod som kallas `AddCopy`Den här metoden skapar en kopia av det angivna kalkylbladet och lägger till det i arbetsboken.
+För att kopiera data från ett kalkylblad till ett annat inom samma arbetsbok erbjuder Aspose.Cells en lättanvänd metod som kallas `AddCopy`Den här metoden skapar en kopia av det angivna kalkylbladet och lägger till den i arbetsboken.
 
 ```csharp
 // Kopiera data från "Ark1" till ett nytt ark i arbetsboken.

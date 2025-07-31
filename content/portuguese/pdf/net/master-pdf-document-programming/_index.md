@@ -45,7 +45,7 @@ A biblioteca Aspose.PDF para .NET oferece aos desenvolvedores ferramentas podero
 
 que diferencia esta biblioteca é sua abordagem abrangente ao processamento de PDFs. Você não se limita à inserção básica de texto – você pode criar documentos ricos e interativos que rivalizam com qualquer coisa criada com software de editoração eletrônica.
 
-### Gerenciamento avançado de conteúdo
+### Gerenciamento Avançado de Conteúdo
 Quando você precisa ir além da criação básica de PDFs, o Aspose.PDF atende às suas necessidades. A biblioteca se destaca em cenários complexos, como integração de multimídia, conteúdo em camadas e geração dinâmica de tabelas. Isso significa que você pode criar tudo, desde relatórios simples a catálogos interativos com vídeos incorporados e elementos clicáveis.
 
 ### Recursos de segurança e conformidade
@@ -77,8 +77,8 @@ Ao processar vários PDFs ou documentos grandes, o uso de memória torna-se crí
 ### Melhorias na velocidade de processamento
 A velocidade é importante, especialmente em ambientes de produção. Concentre-se nestas áreas para obter o máximo impacto:
 
-- **Minimizar as travessias de página**Estruture seu código para processar páginas em sequência em vez de pular
-- **Otimizar o manuseio de imagens**: Compacte as imagens adequadamente antes de adicioná-las aos documentos
+- **Minimizar as travessias de página**Estruture seu código para processar páginas em sequência, em vez de pular de um lado para o outro
+- **Otimizar o tratamento de imagens**: Compacte as imagens adequadamente antes de adicioná-las aos documentos
 - **Use estruturas de dados eficientes**: Escolha as coleções certas e evite cópias desnecessárias de dados
 
 ## Este guia o guiará pelas funções mais importantes da biblioteca Aspose.PDF para .NET

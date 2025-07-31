@@ -18,7 +18,7 @@ Než se do toho pustíme, ujistěte se, že máte následující:
 - Aspose.Words pro .NET: Pokud jste si ho ještě nenainstalovali, můžete [stáhněte si to zde](https://releases.aspose.com/words/net/).
 - Vývojové prostředí: Vývojové prostředí pro .NET, jako je Visual Studio.
 - Základní znalost C#: Znalost základních programovacích konceptů v C# bude výhodou.
-- Dokument aplikace Word se záložkami: Dokument aplikace Word obsahující záložky, ze kterých budeme přidávat text.
+- Dokument Wordu se záložkami: Dokument Wordu obsahující záložky, ze kterých budeme přidávat text.
 
 ## Importovat nezbytné jmenné prostory
 

@@ -1,8 +1,8 @@
 ---
 "description": "Ontdek hoe u eenvoudig de pagina-oriëntatie van PDF-bestanden kunt aanpassen met Aspose.PDF voor .NET. Deze stapsgewijze handleiding biedt duidelijke instructies voor het laden, roteren en opslaan van uw documenten."
-"linktitle": "PDF-pagina-oriëntatie wijzigen"
+"linktitle": "Wijzig de PDF-pagina-oriëntatie"
 "second_title": "Aspose.PDF voor .NET API-referentie"
-"title": "PDF-pagina-oriëntatie wijzigen"
+"title": "Wijzig de PDF-pagina-oriëntatie"
 "url": "/nl/pdf/net/master-pdf-page-management/change-pdf-page-orientation/"
 "weight": 10
 ---
@@ -13,14 +13,14 @@ Bent u ooit een PDF-bestand tegengekomen waarvan de pagina-oriëntatie helemaal 
 
 ## Vereisten
 
-Voordat we in de details duiken, moet u ervoor zorgen dat u het volgende heeft geregeld:
+Voordat we in de details duiken, zorg ervoor dat u het volgende geregeld heeft:
 
 - Aspose.PDF voor .NET: Zorg ervoor dat de Aspose.PDF-bibliotheek is geïnstalleerd. Als u dit nog niet hebt gedaan, kunt u dit doen. [download het hier](https://releases.aspose.com/pdf/net/).
 - Een .NET-ontwikkelomgeving: u kunt Visual Studio, JetBrains Rider of een andere IDE naar keuze gebruiken voor .NET-ontwikkeling.
 - Basiskennis van C#: Als u bekend bent met C#, kunt u de cursus gemakkelijker volgen.
 - Een PDF-bestand: Zorg dat je een PDF-voorbeeldbestand bij de hand hebt om te testen. Je kunt er zelf een maken of online een voorbeeld downloaden.
 
-Als je net begint, overweeg dan om Aspose.PDF te proberen met een [gratis tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voordat u besluit om [koop de volledige versie](https://purchase.aspose.com/buy).
+Als u net begint, overweeg dan om Aspose.PDF te proberen met een [gratis tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voordat u besluit om [koop de volledige versie](https://purchase.aspose.com/buy).
 
 ## Naamruimten importeren
 
@@ -33,7 +33,7 @@ using Aspose.Pdf;
 
 Nu alles is ingesteld, kunnen we beginnen!
 
-## Stap 1: Het PDF-document laden
+## Stap 1: laad het PDF-document
 
 De eerste stap is het laden van het PDF-bestand dat u wilt wijzigen. Gebruik de `Document` klasse uit de Aspose.PDF-naamruimte:
 
@@ -42,11 +42,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(Path.Combine(dataDir, "input.pdf"));
 ```
 
-Zorg ervoor dat u vervangt `"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad naar uw PDF-bestand.
+Zorg ervoor dat u deze vervangt `"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad naar uw PDF-bestand.
 
 ## Stap 2: Door elke pagina bladeren
 
-Vervolgens doorlopen we elke pagina in het PDF-document. Zo kunnen we de gewijzigde oriëntatie op alle pagina's toepassen:
+Vervolgens doorlopen we elke pagina in het PDF-document. Zo kunnen we de oriëntatiewijziging op alle pagina's toepassen:
 
 ```csharp
 foreach (Page page in doc.Pages)
@@ -124,7 +124,7 @@ De `MediaBox` Definieert de grootte en vorm van de pagina in een PDF-bestand en 
 ### Werkt Aspose.PDF voor .NET met andere bestandsformaten?  
 Ja, Aspose.PDF kan verschillende bestandsformaten verwerken, waaronder HTML, XML, XPS en meer.
 
-### Is er een gratis versie van Aspose.PDF voor .NET?  
+### Bestaat er een gratis versie van Aspose.PDF voor .NET?  
 Ja, je kunt beginnen met een [gratis proefperiode](https://releases.aspose.com/) of vraag een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
 
 ### Kan ik de wijzigingen ongedaan maken nadat ik ze heb opgeslagen?  

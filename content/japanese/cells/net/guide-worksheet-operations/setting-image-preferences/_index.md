@@ -65,7 +65,7 @@ string filePath = Path.Combine(dataDir, "Book1.xlsx");
 
 ## ステップ3: ワークブックを読み込む
 
-Excelファイルを読み込み、 `Workbook` オブジェクトを使用すると、スプレッドシートのデータと対話できます。
+Excelファイルを `Workbook` オブジェクトを使用すると、スプレッドシートのデータと対話できます。
 
 ```csharp
 Workbook book = new Workbook(filePath);

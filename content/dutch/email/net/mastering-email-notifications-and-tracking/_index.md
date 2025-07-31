@@ -13,7 +13,7 @@ Als het gaat om het bouwen van applicaties die effectief communiceren via e-mail
 
 ## Integreer e-mailmeldingen in C#
 
-Het eerste wat u moet doen, is e-mailmeldingen integreren. Dit aspect is cruciaal om gebruikers op de hoogte te houden van updates of acties die ze moeten ondernemen. Aspose.Email voor .NET maakt het eenvoudig om de omgeving in te stellen, aantrekkelijke e-mailcontent te creëren en e-mails naadloos te versturen. U leert hoe u de uitgebreide functies kunt gebruiken om meldingssystemen te ontwerpen die zowel functioneel als aantrekkelijk zijn. Of het nu gaat om de bevestiging van een aanmelding van een gebruiker of een update van de projectstatus, de juiste e-mailconfiguratie kan de gebruikerservaring aanzienlijk verbeteren. Bekijk voor meer informatie onze gedetailleerde tutorial over [Integreer e-mailmeldingen in C#](./integrate-email-notifications/).
+Het eerste wat u moet doen, is e-mailmeldingen integreren. Dit aspect is cruciaal om gebruikers op de hoogte te houden van updates of acties die ze moeten ondernemen. Aspose.Email voor .NET maakt het eenvoudig om de omgeving in te stellen, aantrekkelijke e-mailcontent te maken en e-mails naadloos te versturen. U leert hoe u de uitgebreide functies kunt gebruiken om meldingssystemen te ontwerpen die zowel functioneel als aantrekkelijk zijn. Of het nu gaat om de bevestiging van een gebruikersaanmelding of een update van de projectstatus, de juiste e-mailinstelling kan de gebruikerservaring aanzienlijk verbeteren. Bekijk voor meer informatie onze gedetailleerde tutorial over [Integreer e-mailmeldingen in C#](./integrate-email-notifications/).
 
 ## E-mailleesbevestigingen met Aspose.Email voor .NET
 

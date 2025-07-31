@@ -1,7 +1,7 @@
 ---
 "description": "تعلّم كيفية حذف ورقة عمل محددة من ملف Excel بكفاءة من خلال فهرسها باستخدام لغة C# ومكتبة Aspose.Cells. اتبع هذا الشرح السهل خطوة بخطوة."
 "linktitle": "حذف ورقة عمل حسب الفهرس في Excel باستخدام برنامج تعليمي C#"
-"second_title": "مرجع Aspose.Cells لـ .NET API"
+"second_title": "مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET"
 "title": "حذف ورقة عمل حسب الفهرس في Excel باستخدام برنامج تعليمي C#"
 "url": "/ar/cells/net/guide-to-working-with-excel-worksheets/delete-worksheet-by-index-excel-csharp-tutorial/"
 "weight": 30

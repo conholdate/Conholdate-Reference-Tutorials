@@ -1,23 +1,23 @@
 ---
 "description": "Leer hoe u lettertypen kunt wijzigen tijdens MHT-conversie met Aspose.Email voor .NET. Volg deze stapsgewijze handleiding voor eenvoudige aanpassing."
-"linktitle": "Het aanpassen van het MHT-lettertype met C#"
+"linktitle": "MHT-lettertype aanpassen met C#"
 "second_title": "Aspose.Email .NET e-mailverwerkings-API"
-"title": "Het aanpassen van het MHT-lettertype met C#"
+"title": "MHT-lettertype aanpassen met C#"
 "url": "/nl/email/net/mastering-email-header-manipulation/changing-mht-font-customization/"
 "weight": 11
 ---
 
 ## Invoering
 
-In de wereld van webcommunicatie zijn MHT-bestanden (MHTML) een handige manier om webcontent op te slaan en te delen, compleet met afbeeldingen, links en stijlen. Maar wat als je die MHT-bestanden moet opfleuren door het lettertype te wijzigen? Dankzij Aspose.Email voor .NET is dit een fluitje van een cent. In deze tutorial leiden we je stap voor stap door het proces van het wijzigen van lettertypen tijdens de MHT-conversie. Of je nu een applicatie ontwikkelt die e-mailopmaak verwerkt of gewoon documenten wilt aanpassen voor je bedrijf, deze gids geeft je de kennis die je nodig hebt.
+In de wereld van webcommunicatie zijn MHT-bestanden (MHTML) een handige manier om webcontent op te slaan en te delen, compleet met afbeeldingen, links en stijlen. Maar wat als je die MHT-bestanden moet opfleuren door het lettertype te wijzigen? Dankzij Aspose.Email voor .NET is deze taak een fluitje van een cent. In deze tutorial leiden we je stap voor stap door het proces van het wijzigen van lettertypen tijdens de MHT-conversie. Of je nu een applicatie ontwikkelt die e-mailopmaak verwerkt of gewoon documenten wilt aanpassen voor je bedrijf, deze gids geeft je de kennis die je nodig hebt.
 
 ## Vereisten
 
-Voordat u in de code duikt, moet u een paar essentiële zaken voorbereid hebben:
+Voordat u de code induikt, moet u een paar essentiële zaken voorbereid hebben:
 
 1. Visual Studio: Om aan uw C#-project te kunnen werken, hebt u een Integrated Development Environment (IDE) nodig.
 2. Aspose.Email voor .NET-bibliotheek: Zorg ervoor dat de bibliotheek is geïnstalleerd. U kunt deze downloaden van de [link](https://releases.aspose.com/email/net/).
-3. .NET Framework: Uw project moet compatibel zijn met .NET Framework. In de regel werken .NET Core en latere versies goed.
+3. .NET Framework: Uw project moet compatibel zijn met .NET Framework. Normaal gesproken werken .NET Core en latere versies goed.
 
 Heb je ze klaarstaan? Geweldig! Laten we beginnen.
 
@@ -33,7 +33,7 @@ using Aspose.Email.Tools;
 
 Met deze pakketten krijgt u toegang tot de functionaliteit die u nodig hebt om met MHT-bestanden te werken en de inhoud ervan te wijzigen.
 
-Laten we nu de stappen voor het wijzigen van lettertypen tijdens MHT-conversie eens bekijken.
+Laten we nu de stappen voor het wijzigen van lettertypen tijdens MHT-conversie eens doornemen.
 
 ## Stap 1: Laad het MHT-bestand
 
@@ -45,7 +45,7 @@ MailMessage message = MailMessage.Load("input.mht", new MhtmlLoadOptions());
 
 Uitleg: Hier, `"input.mht"` is het pad naar uw MHT-bestand. De `MhtmlLoadOptions()` Hiermee kunt u configureren hoe het bestand wordt geladen, bijvoorbeeld hoe bijlagen of gekoppelde bronnen anders worden verwerkt.
 
-## Stap 2: Door alternatieve weergaven itereren
+## Stap 2: Herhaal alternatieve weergaven
 
 MHT-bestanden hebben vaak meerdere alternatieve weergaven, vooral als ze HTML-inhoud bevatten. U moet deze weergaven doorlopen om de weergave te vinden die u wilt wijzigen.
 
@@ -75,7 +75,7 @@ foreach (var linkedResource in linkedResources)
 }
 ```
 
-Uitleg: Deze lus controleert of het inhoudstype van de gekoppelde bron een TrueType-lettertype is. Als dit overeenkomt, kunt u de naam van het lettertype wijzigen naar de gewenste naam (zoals 'Arial' in dit voorbeeld). `TransferEncoding` moet ook worden ingesteld om ervoor te zorgen dat de lettertypegegevens correct worden gecodeerd wanneer het document wordt opgeslagen.
+Uitleg: Deze lus controleert of het inhoudstype van de gekoppelde bron een TrueType-lettertype is. Als dit overeenkomt, kunt u de naam van het lettertype wijzigen naar uw eigen voorkeur (zoals 'Arial' in dit voorbeeld). `TransferEncoding` moet ook worden ingesteld om ervoor te zorgen dat de lettertypegegevens correct worden gecodeerd wanneer het document wordt opgeslagen.
 
 ## Stap 4: Sla het bijgewerkte MHT-bestand op
 
@@ -105,5 +105,5 @@ Aspose biedt een gratis proefversie aan, maar voor de volledige versie is een li
 ### Waar kan ik meer documentatie over Aspose.Email vinden?
 Uitgebreide documentatie en voorbeelden vindt u op de [Aspose E-mail documentatiepagina](https://reference.aspose.com/email/net/).
 
-### Wat moet ik doen als ik problemen ondervind bij het gebruik van Aspose?
-Als u problemen ondervindt, kunt u contact opnemen met de ondersteuningsafdeling op de [Aspose-ondersteuningsforum](https://forum.aspose.com/c/email/12/).
+### Wat moet ik doen als ik problemen ondervind tijdens het gebruik van Aspose?
+Als u problemen ondervindt, kunt u contact opnemen met de ondersteuningsafdeling op [Aspose-ondersteuningsforum](https://forum.aspose.com/c/email/12/).

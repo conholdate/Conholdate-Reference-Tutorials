@@ -1,5 +1,5 @@
 ---
-"description": "学习如何使用 Aspose.Words for .NET 创建和管理书签来增强您的 Word 文档。本教程将逐步讲解。"
+"description": "了解如何使用 Aspose.Words for .NET 创建和管理书签来增强您的 Word 文档。本教程将逐步讲解。"
 "linktitle": "使用 Aspose.Words for .NET 在 Word 文档中创建书签"
 "second_title": "Aspose.Words文档处理API"
 "title": "使用 Aspose.Words for .NET 在 Word 文档中创建书签"

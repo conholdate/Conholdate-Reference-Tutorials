@@ -43,11 +43,11 @@ using System.Linq;
 using System.Text;
 ```
 
-Met deze naamruimten hebt u toegang tot verschillende klassen en methoden in de Aspose.Cells-bibliotheek, waardoor uw coderingsproces wordt gestroomlijnd.
+Met deze naamruimten krijgt u toegang tot verschillende klassen en methoden in de Aspose.Cells-bibliotheek, waardoor uw coderingsproces wordt gestroomlijnd.
 
 ## Stap 1: Stel uw mappen in
 
-Geef eerst aan waar uw voorbeeld-Excel-bestand zich bevindt en waar u de gewijzigde uitvoer wilt opslaan:
+Geef eerst aan waar uw voorbeeld-Excelbestand zich bevindt en waar u de gewijzigde uitvoer wilt opslaan:
 
 ```csharp
 // Bronmap
@@ -92,7 +92,7 @@ ListObject table = worksheet.ListObjects[0];
 
 Deze code haalt de eerste tabel in het werkblad op, zodat je er direct mee kunt werken. Zorg ervoor dat er een tabel aanwezig is!
 
-## Stap 5: De Slicer toevoegen
+## Stap 5: Voeg de Slicer toe
 
 Nu de tabel klaar is, voegen we een slicer toe! Dit verbetert de interactiviteit door te fungeren als een grafisch filter voor de data:
 
@@ -118,13 +118,13 @@ slicer.IsLocked = false;
 ```
 
 - Plaatsing: bepaalt hoe de slicer met cellen samenwerkt. `FreeFloating` maakt onafhankelijke beweging mogelijk.
-- RowHeightPixel en WidthPixel: pas de grootte van de slicer aan voor betere zichtbaarheid.
+- RowHeightPixel en WidthPixel: Pas de grootte van de slicer aan voor betere zichtbaarheid.
 - Titel: Hiermee stelt u een label in voor de slicer.
 - AlternativeText: Geeft een beschrijving voor toegankelijkheid.
 - IsPrintable: Hiermee bepaalt u of de slicer in afgedrukte versies wordt weergegeven.
 - IsLocked: bepaalt of gebruikers de slicer kunnen verplaatsen of de grootte ervan kunnen wijzigen.
 
-## Stap 7: Vernieuw de slicer
+## Stap 7: Vernieuw de Slicer
 
 Om er zeker van te zijn dat uw wijzigingen van kracht worden, vernieuwt u de slicer:
 
@@ -133,7 +133,7 @@ Om er zeker van te zijn dat uw wijzigingen van kracht worden, vernieuwt u de sli
 slicer.Refresh();
 ```
 
-Met deze regel worden al uw wijzigingen toegepast, zodat de slicer uw updates doorvoert.
+Met deze regel worden al uw wijzigingen toegepast, zodat de slicer uw updates weergeeft.
 
 ## Stap 8: Sla de werkmap op
 
@@ -153,7 +153,7 @@ Gefeliciteerd! U hebt de eigenschappen van de slicer succesvol gewijzigd met Asp
 ## Veelgestelde vragen
 
 ### Wat zijn slicers in Excel?
-Slicers zijn visuele filters waarmee gebruikers datatabellen rechtstreeks kunnen filteren, waardoor de gegevensanalyse wordt vereenvoudigd.
+Slicers zijn visuele filters waarmee gebruikers datatabellen rechtstreeks kunnen filteren, waardoor gegevensanalyse wordt vereenvoudigd.
 
 ### Wat is Aspose.Cells?
 Aspose.Cells is een robuuste bibliotheek voor het beheren van Excel-bestanden in verschillende formaten en biedt uitgebreide mogelijkheden voor gegevensmanipulatie.
@@ -162,7 +162,7 @@ Aspose.Cells is een robuuste bibliotheek voor het beheren van Excel-bestanden in
 U kunt beginnen met een gratis proefperiode, maar voor langdurig gebruik kunt u overwegen een licentie aan te schaffen. Bekijk onze [koopopties](https://purchase.aspose.com/buy).
 
 ### Is er ondersteuning beschikbaar als ik problemen ondervind?
-Absoluut! Je kunt contact opnemen via de [ondersteuningsforum](https://forum.aspose.com/c/cells/9) voor hulp.
+Absoluut! U kunt contact opnemen via de [ondersteuningsforum](https://forum.aspose.com/c/cells/9) voor hulp.
 
 ### Kan ik Aspose.Cells ook gebruiken om grafieken te maken?
 Jazeker! Aspose.Cells bevat uitgebreide functies voor het maken en bewerken van grafieken, naast slicers en gegevenstabellen.

@@ -50,7 +50,7 @@ using Aspose.Email.Mail;
 using Aspose.Email.Spam;
 ```
 
-Estas importaciones te dan acceso a todas las funciones de procesamiento de correo electrónico y análisis de spam que usaremos. Sencillo, ¿verdad?
+Estas importaciones te dan acceso a todas las funciones de procesamiento de correo electrónico y análisis de spam que usaremos. Es muy sencillo, ¿verdad?
 
 ## Implementación paso a paso
 

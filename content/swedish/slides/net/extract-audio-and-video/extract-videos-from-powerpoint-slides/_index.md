@@ -1,25 +1,26 @@
 ---
-title: Extrahera videor från PowerPoint-bilder med Aspose.Slides
-linktitle: Extrahera videor från PowerPoint-bilder
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Upptäck hur du enkelt extraherar inbäddade videofiler från PowerPoint-presentationer med Aspose.Slides för .NET. Den här omfattande steg-för-steg-guiden täcker allt från att ställa in din miljö till att spara de extraherade videorna.
-weight: 14
-url: /sv/slides/extract-audio-and-video/extract-videos-from-powerpoint-slides/
+"description": "Upptäck hur du enkelt extraherar inbäddade videofiler från PowerPoint-presentationer med Aspose.Slides för .NET. Den här omfattande steg-för-steg-guiden täcker allt från att konfigurera din miljö till att spara de extraherade videorna."
+"linktitle": "Extrahera videor från PowerPoint-bilder"
+"second_title": "Aspose.Slides .NET PowerPoint-bearbetnings-API"
+"title": "Extrahera videor från PowerPoint-bilder med Aspose.Slides"
+"url": "/sv/slides/net/extract-audio-and-video/extract-videos-from-powerpoint-slides/"
+"weight": 14
 ---
+
 ## Introduktion
 
-Aspose.Slides för .NET är ett kraftfullt bibliotek som låter utvecklare interagera med PowerPoint-presentationer programmatiskt. I den här guiden går vi igenom processen att extrahera videor inbäddade i PowerPoint-bilder med Aspose.Slides för .NET. 
+Aspose.Slides för .NET är ett kraftfullt bibliotek som låter utvecklare interagera med PowerPoint-presentationer programmatiskt. I den här guiden går vi igenom processen att extrahera videor inbäddade i PowerPoint-bilder med hjälp av Aspose.Slides för .NET. 
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan du börjar, se till att du har följande:
 
--  Aspose.Slides för .NET: Skaffa och installera biblioteket från[Aspose hemsida](https://purchase.aspose.com/buy).
--  PowerPoint-presentation: Förbered en PowerPoint-fil (t.ex.`Video.pptx`) med videon du vill extrahera.
+- Aspose.Slides för .NET: Hämta och installera biblioteket från [Aspose webbplats](https://purchase.aspose.com/buy).
+- PowerPoint-presentation: Förbered en PowerPoint-fil (t.ex. `Video.pptx`) med videon du vill extrahera.
 
-## Nödvändiga namnutrymmen
+## Nödvändiga namnrymder
 
-För att arbeta med Aspose.Slides för .NET måste du importera lämpliga namnområden. Inkludera följande i din kod:
+För att arbeta med Aspose.Slides för .NET måste du importera lämpliga namnrymder. Inkludera följande i din kod:
 
 ```csharp
 using Aspose.Slides;
@@ -28,27 +29,27 @@ using Aspose.Slides.Video;
 
 ## Steg 1: Ange dokumentkatalogen
 
-Definiera först sökvägen till din PowerPoint-presentation:
+Först, definiera sökvägen till din PowerPoint-presentation:
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
- Ersätta`"Your Document Directory"` med den faktiska sökvägen till katalogen som innehåller din PowerPoint-fil.
+Ersätta `"Your Document Directory"` med den faktiska sökvägen till katalogen som innehåller din PowerPoint-fil.
 
 ## Steg 2: Ladda presentationen
 
- Ladda PowerPoint-presentationen i en`Presentation` objekt:
+Ladda PowerPoint-presentationen till en `Presentation` objekt:
 
 ```csharp
 Presentation presentation = new Presentation(dataDir + "Video.pptx");
 ```
 
- Detta initierar`Presentation` objekt med din angivna PowerPoint-fil.
+Detta initierar `Presentation` objektet med din angivna PowerPoint-fil.
 
-## Steg 3: Iterera genom diabilder och former
+## Steg 3: Iterera genom bilder och former
 
-Gå sedan igenom varje bild i presentationen och leta efter videoramar:
+Gå sedan igenom varje bild i presentationen och kontrollera om det finns några bildrutor:
 
 ```csharp
 foreach (ISlide slide in presentation.Slides)
@@ -57,7 +58,7 @@ foreach (ISlide slide in presentation.Slides)
     {
         if (shape is VideoFrame videoFrame)
         {
-            // Fortsätt för att extrahera video
+            // Fortsätt med att extrahera videon
         }
     }
 }
@@ -65,20 +66,20 @@ foreach (ISlide slide in presentation.Slides)
 
 ## Steg 4: Extrahera videodata
 
-När du har hittat en videoram, extrahera dess egenskaper och binära data:
+När du hittat en videobildruta, extrahera dess egenskaper och binära data:
 
 ```csharp
-IVideoFrame vf = (IVideoFrame)shape;  // Lagra formen som en videoram
+IVideoFrame vf = (IVideoFrame)shape;  // Lagra formen som en videobildruta
 string contentType = vf.EmbeddedVideo.ContentType;
 Byte[] buffer = vf.EmbeddedVideo.BinaryData;
 
-// Skaffa filtillägget
+// Hämta filändelsen
 string fileExtension = contentType.Substring(contentType.LastIndexOf('/') + 1);
 ```
 
 ## Steg 5: Spara videon
 
-Skriv slutligen den extraherade videodatan till en fil:
+Slutligen, skriv den extraherade videodatan till en fil:
 
 ```csharp
 using (FileStream stream = new FileStream(dataDir + "ExtractedVideo." + fileExtension, FileMode.Create, FileAccess.Write, FileShare.Read))
@@ -87,25 +88,25 @@ using (FileStream stream = new FileStream(dataDir + "ExtractedVideo." + fileExte
 }
 ```
 
-Den här koden skapar en ny fil i din angivna katalog och skriver in videodata i den.
+Den här koden skapar en ny fil i din angivna katalog och skriver videodatan till den.
 
 ## Slutsats
 
-Med Aspose.Slides för .NET är det en enkel process att extrahera videor från PowerPoint-bilder. Genom att följa den här guiden kan du enkelt hantera multimediainnehåll i dina .NET-applikationer, vilket berikar användarupplevelsen och funktionaliteten.
+Med Aspose.Slides för .NET är det enkelt att extrahera videor från PowerPoint-bilder. Genom att följa den här guiden kan du enkelt hantera multimediainnehåll i dina .NET-applikationer, vilket berikar användarupplevelsen och funktionaliteten.
 
-## FAQ's
+## Vanliga frågor
 
 ### Vad är Aspose.Slides för .NET?
-Aspose.Slides för .NET är ett bibliotek som är utformat för att fungera med PowerPoint-presentationer, vilket tillåter användare att skapa, redigera och manipulera presentationsfiler programmatiskt.
+Aspose.Slides för .NET är ett bibliotek utformat för att fungera med PowerPoint-presentationer, vilket gör det möjligt för användare att skapa, redigera och manipulera presentationsfiler programmatiskt.
 
 ### Var kan jag hitta dokumentationen för Aspose.Slides för .NET?
- Du kan få tillgång till hela dokumentationen[här](https://reference.aspose.com/slides/net/).
+Du kan få tillgång till hela dokumentationen [här](https://reference.aspose.com/slides/net/).
 
-### Är Aspose.Slides för .NET tillgängligt för en gratis provperiod?
- Ja, du kan ladda ner en gratis testversion från[denna länk](https://releases.aspose.com/).
+### Finns Aspose.Slides för .NET tillgänglig för en gratis provperiod?
+Ja, du kan ladda ner en gratis testversion från [den här länken](https://releases.aspose.com/).
 
 ### Hur kan jag få en tillfällig licens för Aspose.Slides för .NET?
- Begäran om tillfälliga licenser kan göras[här](https://purchase.aspose.com/temporary-license/).
+Ansökningar om tillfälliga licenser kan göras [här](https://purchase.aspose.com/temporary-license/).
 
 ### Var kan jag få support för Aspose.Slides för .NET?
- Support finns tillgänglig via[Aspose.Slides forum](https://forum.aspose.com/).
+Stöd finns tillgängligt via [Aspose.Slides-forum](https://forum.aspose.com/).

@@ -85,7 +85,7 @@ Tady se děje! Aktualizujte poznámky ke komentáři takto:
 comment.Notes = "Updated Comment";
 ```
 
-Nahraďte text „Aktualizovaný komentář“ požadovaným textem pro zlepšení komunikace v rámci sešitu.
+Nahraďte text „Aktualizovaný komentář“ požadovaným textem pro zlepšení komunikace v sešitu.
 
 ## Krok 7: Uložení sešitu
 Provedené změny je nutné uložit, aby se projevily. Pro uložení změn přidejte tento řádek:

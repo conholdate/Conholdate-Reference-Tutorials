@@ -1,25 +1,26 @@
 ---
-title: Membandingkan Sel dari Stream - GroupDocs.Comparison untuk .NET
-linktitle: Bandingkan Sel dari Stream - GroupDocs.Comparison untuk .NET
-second_title: API Perbandingan GroupDocs.NET
-description: Temukan cara membandingkan dokumen secara efisien menggunakan GroupDocs.Comparison untuk .NET. Panduan komprehensif ini memandu Anda dalam mengimpor namespace, menginisialisasi variabel perbandingan, dan melakukan perbandingan dokumen langkah demi langkah.
-weight: 11
-url: /id/comparison/guide-to-basic-usage/comparing-cells-from-stream/
+"description": "Temukan cara membandingkan dokumen secara efisien menggunakan GroupDocs.Comparison untuk .NET. Panduan komprehensif ini memandu Anda langkah demi langkah dalam mengimpor namespace, menginisialisasi variabel perbandingan, dan melakukan perbandingan dokumen."
+"linktitle": "Bandingkan Sel dari Stream - GroupDocs.Comparison untuk .NET"
+"second_title": "GroupDocs.Comparison .NET API"
+"title": "Membandingkan Sel dari Stream - GroupDocs.Comparison untuk .NET"
+"url": "/id/comparison/net/guide-to-basic-usage/comparing-cells-from-stream/"
+"weight": 11
 ---
+
 ## Perkenalan
 
-Dalam pengembangan perangkat lunak, terutama saat menangani dokumen hukum, kontrak, atau bentuk teks apa pun, kemampuan untuk membandingkan dokumen secara efisien sangatlah penting. Mengidentifikasi perbedaan secara akurat dapat menghemat waktu dan mencegah kesalahan yang merugikan. GroupDocs.Comparison untuk .NET menawarkan solusi yang hebat untuk tugas perbandingan dokumen, sehingga memudahkan Anda untuk menyederhanakan alur kerja.
+Dalam pengembangan perangkat lunak, terutama saat menangani dokumen hukum, kontrak, atau bentuk teks apa pun, kemampuan membandingkan dokumen secara efisien sangatlah penting. Mengidentifikasi perbedaan secara akurat dapat menghemat waktu dan mencegah kesalahan yang merugikan. GroupDocs.Comparison untuk .NET menawarkan solusi canggih untuk tugas perbandingan dokumen, sehingga memudahkan penyederhanaan alur kerja Anda.
 
 ## Prasyarat
 
 Sebelum memulai, pastikan Anda memiliki hal berikut:
 
-1. GroupDocs.Comparison untuk .NET: Unduh dan instal pustaka dari[Di Sini](https://releases.groupdocs.com/comparison/net/).
-2. Pengetahuan Dasar C#: Diasumsikan bahwa tutorial ini dipahami dengan baik tentang pemrograman C#.
+1. GroupDocs.Comparison untuk .NET: Unduh dan instal pustaka dari [Di Sini](https://releases.groupdocs.com/comparison/net/).
+2. Pengetahuan Dasar C#: Diasumsikan bahwa tutorial ini sudah familier dengan pemrograman C#.
 3. Lingkungan Pengembangan Terpadu (IDE): Gunakan IDE seperti Visual Studio untuk pengkodean.
 4. Dokumen untuk Dibandingkan: Siapkan dokumen yang ingin Anda bandingkan dan pastikan dokumen tersebut dapat diakses dari kode C# Anda.
 
-## Mengimpor Ruang Nama yang Diperlukan
+## Mengimpor Namespace yang Diperlukan
 
 Untuk memanfaatkan fungsionalitas GroupDocs.Comparison untuk .NET, Anda perlu mengimpor namespace yang diperlukan ke dalam kode C# Anda:
 
@@ -41,7 +42,7 @@ string outputFileName = Path.Combine(outputDirectory, "result.xlsx");
 
 ## Langkah 2: Buat Objek Pembanding
 
- Membuat sebuah`Comparer` objek dengan membuka dokumen sumber:
+Membuat sebuah `Comparer` objek dengan membuka dokumen sumber:
 
 ```csharp
 using (Comparer comparer = new Comparer(File.OpenRead("source.xlsx")))
@@ -73,7 +74,7 @@ Console.WriteLine($"\nDocuments compared successfully.\nCheck output in {outputD
 
 ## Kesimpulan
 
-GroupDocs.Comparison untuk .NET menyediakan platform yang tangguh untuk perbandingan dokumen yang lancar dalam aplikasi C# Anda. Dengan mengikuti langkah-langkah yang diuraikan, Anda dapat membandingkan dokumen secara efisien dan menyederhanakan tugas pemrosesan dokumen, sehingga meningkatkan produktivitas dan akurasi.
+GroupDocs.Comparison untuk .NET menyediakan platform yang andal untuk perbandingan dokumen yang lancar dalam aplikasi C# Anda. Dengan mengikuti langkah-langkah yang diuraikan, Anda dapat membandingkan dokumen secara efisien dan menyederhanakan tugas pemrosesan dokumen, sehingga meningkatkan produktivitas dan akurasi.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -87,12 +88,12 @@ Tentu saja! GroupDocs.Comparison untuk .NET menawarkan berbagai opsi penyesuaian
 
 ### Apakah GroupDocs.Comparison untuk .NET memerlukan lisensi untuk penggunaan komersial?
 
- Ya, lisensi diperlukan untuk penggunaan komersial. Anda dapat memperolehnya[Di Sini](https://purchase.groupdocs.com/buy).
+Ya, lisensi diperlukan untuk penggunaan komersial. Anda bisa mendapatkannya [Di Sini](https://purchase.groupdocs.com/buy).
 
 ### Apakah ada uji coba gratis yang tersedia untuk GroupDocs.Comparison untuk .NET?
 
- Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.groupdocs.com/).
+Ya, Anda dapat mengakses uji coba gratis [Di Sini](https://releases.groupdocs.com/).
 
 ### Di mana saya dapat mencari bantuan atau dukungan terkait GroupDocs.Comparison untuk .NET?
 
- Untuk bantuan, kunjungi forum GroupDocs.Comparison[Di Sini](https://forum.groupdocs.com/c/comparison/12).
+Untuk bantuan, kunjungi forum GroupDocs.Comparison [Di Sini](https://forum.groupdocs.com/c/comparison/12).

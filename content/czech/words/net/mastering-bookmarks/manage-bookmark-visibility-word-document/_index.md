@@ -92,7 +92,7 @@ public void ShowHideBookmarkedContent(Document doc, string bookmarkName, bool is
 Nyní, když máme naši metodu připravenou, pojďme ji použít k zobrazení nebo skrytí obsahu v rámci konkrétní záložky:
 
 ```csharp
-ShowHideBookmarkedContent(doc, "MyBookmark1", true); // Skrývá obsah v záložce „MyBookmark1“
+ShowHideBookmarkedContent(doc, "MyBookmark1", true); // Skrývá obsah v záložce „Moje záložka1“
 ```
 
 Tento řádek skryje obsah spojený se záložkou s názvem „MyBookmark1“.

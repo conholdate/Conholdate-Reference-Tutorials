@@ -40,7 +40,7 @@ signInfo.Headers.Add("From");
 signInfo.Headers.Add("Subject");
 ```
 
-## Stap 2: De e-mail maken en voorbereiden
+## Stap 2: Maak en bereid de e-mail voor
 
 Vervolgens maken we een e-mailbericht en stellen we de eigenschappen ervan in, waaronder de afzender, ontvanger, het onderwerp en de hoofdtekst.
 
@@ -92,7 +92,7 @@ U kunt een DKIM-privésleutel opvragen bij uw e-mailprovider of er zelf een gene
 
 ### Kan ik Aspose.Email voor .NET gebruiken met andere e-mailproviders dan Gmail?
 
-Ja, Aspose.Email voor .NET is compatibel met diverse e-mailproviders, niet alleen Gmail.
+Ja, Aspose.Email voor .NET is compatibel met verschillende e-mailproviders, niet alleen Gmail.
 
 ### Welke headers moet ik in de DKIM-handtekening opnemen?
 

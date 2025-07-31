@@ -47,7 +47,7 @@ Document pDoc = new Document();
 Page pg = pDoc.Pages.Add();
 ```
 
-## Étape 2 : définir les marges de page
+## Étape 2 : Définir les marges de page
 
 Pour permettre à vos lignes de s'étendre entièrement sur la page, définissez les marges sur zéro :
 

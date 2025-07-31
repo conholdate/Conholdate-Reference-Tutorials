@@ -1,26 +1,27 @@
 ---
-title: Linie trendu na wykresach z Aspose.Slides dla .NET
-linktitle: Linie trendu na wykresach z Aspose.Slides dla .NET
-second_title: Aspose.Slides .NET API przetwarzania programu PowerPoint
-description: Dowiedz się, jak dodawać i dostosowywać linie trendu na wykresach za pomocą Aspose.Slides dla .NET. Ten kompleksowy przewodnik obejmuje linie trendu wykładnicze, liniowe, logarytmiczne, wielomianowe i średniej ruchomej, aby ulepszyć wizualizację danych.
-weight: 12
-url: /pl/slides/master-advanced-chart-customization/trend-lines-in-charts/
+"description": "Dowiedz się, jak dodawać i dostosowywać linie trendu na wykresach za pomocą Aspose.Slides dla platformy .NET. Ten kompleksowy przewodnik obejmuje linie trendu wykładnicze, liniowe, logarytmiczne, wielomianowe i średniej ruchomej, aby ulepszyć wizualizację danych."
+"linktitle": "Linie trendu na wykresach z Aspose.Slides dla .NET"
+"second_title": "Aspose.Slides .NET Interfejs API przetwarzania programu PowerPoint"
+"title": "Linie trendu na wykresach z Aspose.Slides dla .NET"
+"url": "/pl/slides/net/master-advanced-chart-customization/trend-lines-in-charts/"
+"weight": 12
 ---
+
 ## Wstęp  
 
-Dodawanie linii trendu do wykresów jest kluczową techniką analizy trendów danych i prognozowania przyszłych wartości. Dzięki Aspose.Slides for .NET możesz bezproblemowo dodawać i dostosowywać linie trendu do wykresów prezentacji, ulepszając wizualizację danych. Ten przewodnik zawiera szczegółowy opis dodawania linii trendu do różnych typów wykresów w prezentacji PowerPoint przy użyciu Aspose.Slides for .NET.  
+Dodawanie linii trendu do wykresów to kluczowa technika analizy trendów danych i prognozowania przyszłych wartości. Dzięki Aspose.Slides for .NET możesz bezproblemowo dodawać i dostosowywać linie trendu do wykresów prezentacji, ulepszając wizualizację danych. Ten przewodnik zawiera szczegółowy opis dodawania linii trendu do różnych typów wykresów w prezentacji PowerPoint za pomocą Aspose.Slides for .NET.  
 
 ## Wymagania wstępne  
 
 Zanim przejdziemy do implementacji, upewnij się, że masz następującą konfigurację:  
 
-1.  Aspose.Slides dla .NET: Pobierz i zainstaluj bibliotekę z[strona do pobrania](https://releases.aspose.com/slides/net/).  
-2. Środowisko programistyczne: Użyj środowiska IDE, np. Visual Studio, do kodowania.  
-3. Podstawowa wiedza o języku C#: Aby móc uczestniczyć w tym samouczku, wymagana jest znajomość programowania w języku C#.  
+1. Aspose.Slides dla .NET: Pobierz i zainstaluj bibliotekę z [strona pobierania](https://releases.aspose.com/slides/net/).  
+2. Środowisko programistyczne: Użyj środowiska IDE, takiego jak Visual Studio, do kodowania.  
+3. Podstawowa wiedza z zakresu języka C#: Aby móc uczestniczyć w tym samouczku, wymagana jest znajomość programowania w języku C#.  
 
 ## Importowanie wymaganych przestrzeni nazw  
 
-Aby rozpocząć, zaimportuj do swojego projektu podstawowe przestrzenie nazw:  
+Na początek zaimportuj do swojego projektu podstawowe przestrzenie nazw:  
 
 ```csharp
 using Aspose.Slides;
@@ -28,7 +29,7 @@ using Aspose.Slides.Charts;
 using Aspose.Slides.Export;
 ```
 
-## Krok 1: Konfigurowanie prezentacji  
+## Krok 1: Konfiguracja prezentacji  
 
 Najpierw zainicjuj pustą prezentację. Będzie ona służyć jako kontener dla Twojego wykresu.  
 
@@ -45,7 +46,7 @@ Presentation presentation = new Presentation();
 
 ## Krok 2: Dodawanie wykresu do slajdu  
 
-Teraz dodaj slajd i dołącz wykres kolumnowy, aby zwizualizować swoje dane.  
+Teraz dodaj slajd i dołącz wykres kolumnowy, aby zwizualizować dane.  
 
 ```csharp
 // Dodaj pusty slajd
@@ -55,7 +56,7 @@ ISlide slide = presentation.Slides[0];
 IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 50, 50, 500, 400);
 ```
 
-## Krok 3: Wypełnianie danych wykresu  
+## Krok 3: Uzupełnianie danych wykresu  
 
 Wypełnij wykres przykładowymi danymi.  
 
@@ -131,21 +132,21 @@ presentation.Save(dataDir + "TrendLinesPresentation.pptx", SaveFormat.Pptx);
 
 ## Wniosek  
 
-Używając Aspose.Slides dla .NET, dodawanie linii trendu do wykresów staje się prostym zadaniem. Ta funkcja pozwala na skuteczne prezentowanie trendów danych i dodawanie profesjonalnych akcentów do prezentacji. Wykonaj powyższe kroki, aby włączyć różne typy linii trendu i podnieść poziom wizualizacji danych.  
+Dzięki Aspose.Slides dla .NET dodawanie linii trendu do wykresów staje się proste. Ta funkcja pozwala skutecznie prezentować trendy danych i dodawać profesjonalne akcenty do prezentacji. Wykonaj powyższe kroki, aby włączyć różne typy linii trendu i udoskonalić wizualizację danych.  
 
 ## Najczęściej zadawane pytania  
 
 ### Czy mogę dostosować wygląd linii trendu?  
- Tak, możesz dostosować kolor, grubość i styl linii trendu za pomocą`Format.Line` nieruchomość.  
+Tak, możesz dostosować kolor, grubość i styl linii trendu za pomocą `Format.Line` nieruchomość.  
 
 ### Czy są obsługiwane inne typy wykresów?  
-Tak, Aspose.Slides dla platformy .NET obsługuje różne typy wykresów, w tym wykresy słupkowe, kołowe i liniowe.  
+Tak, Aspose.Slides dla .NET obsługuje różne typy wykresów, w tym wykresy słupkowe, kołowe i liniowe.  
 
 ### Jak wyświetlić równania i wartości R-kwadrat?  
- Włączać`DisplayEquation` I`DisplayRSquaredValue` właściwości linii trendu, aby wyświetlić te wartości na wykresie.  
+Włączać `DisplayEquation` I `DisplayRSquaredValue` właściwości linii trendu, aby wyświetlić te wartości na wykresie.  
 
 ### Czy mogę używać Aspose.Slides dla .NET z innymi językami?  
 Tak, biblioteka jest zgodna z dowolnym językiem obsługiwanym przez platformę .NET, w tym VB.NET i F#.  
 
 ### Gdzie mogę znaleźć dalszą dokumentację?  
- Odwiedź[Dokumentacja Aspose.Slides dla .NET](https://reference.aspose.com/slides/net/) Aby uzyskać więcej informacji.
+Odwiedź [Dokumentacja Aspose.Slides dla .NET](https://reference.aspose.com/slides/net/) Aby uzyskać więcej informacji.

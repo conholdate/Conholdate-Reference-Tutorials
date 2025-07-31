@@ -70,7 +70,7 @@ Při implementaci konverze dokumentů ve vašich aplikacích .NET mějte na pam�
 
 **Složité formátování**Pokročilé funkce Wordu, jako jsou vlastní styly, vložené objekty nebo složité tabulky, se nemusí dokonale převést do všech formátů. Důkladně otestujte s vašimi konkrétními typy dokumentů.
 
-**Problémy s kódováním**Při práci s dokumenty obsahujícími speciální znaky nebo více jazyků zajistěte správné nastavení kódování, abyste zabránili poškození znaků.
+**Problémy s kódováním**: Při práci s dokumenty obsahujícími speciální znaky nebo více jazyků zajistěte správné nastavení kódování, abyste zabránili poškození znaků.
 
 ## Podrobné návody na převod
 

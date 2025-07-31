@@ -116,10 +116,10 @@ Pomocí těchto jednoduchých kroků můžete snadno kreslit čáry v dokumentu 
 ## Často kladené otázky
 
 ### Mohu kreslit i jiné tvary než čáry?
-Ano, pomocí nástroje můžete kreslit různé tvary, jako jsou obdélníky, elipsy a mnohoúhelníky. `Aspose.Pdf.Drawing` jmenný prostor.
+Ano, můžete kreslit různé tvary, jako jsou obdélníky, elipsy a mnohoúhelníky, pomocí `Aspose.Pdf.Drawing` jmenný prostor.
 
 ### Jak si mohu přizpůsobit barvu a tloušťku čar?
-Můžete upravit `StrokeColor` a `LineWidth` vlastnosti `Line` objekt pro přizpůsobení jeho vzhledu.
+Můžete upravit `StrokeColor` a `LineWidth` vlastnosti `Line` objekt pro úpravu jeho vzhledu.
 
 ### Mohu umístit řádky do konkrétních oblastí stránky?
 Rozhodně! Upravte souřadnice `Line` objekt umístit ho kamkoli potřebujete.

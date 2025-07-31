@@ -55,7 +55,7 @@ A legtöbb fejlesztőnek PDF konvertálásra van szüksége a következő valós
 
 **Betűtípus-kezelés**: Ha a PDF-fájlok egyéni betűtípusokat használnak, győződjön meg arról, hogy ezek a betűtípusok elérhetők a konvertáló szerveren. A hiányzó betűtípusok a formázási problémák egyik leggyakoribb oka.
 
-**Képminőségi beállítások**PDF-ből képpé konvertálás esetén a fájlméret és a minőség egyensúlyát a felhasználási eset alapján kell biztosítani. A nagy felbontású képek nagyszerűek nyomtatáshoz, de webes bélyegképek készítéséhez túlzás.
+**Képminőségi beállítások**PDF-ből képfájlba konvertálás esetén a felhasználási esettől függően egyensúlyozzon a fájlméret és a minőség között. A nagy felbontású képek nagyszerűek nyomtatáshoz, de webes bélyegképek készítéséhez túlzás.
 
 **Kötegelt feldolgozási stratégia**A fájlok egyenkénti konvertálása helyett a jobb teljesítmény érdekében párhuzamos feldolgozást alkalmazz. Csak ügyelj a memóriahasználatra, és állíts be megfelelő korlátokat.
 

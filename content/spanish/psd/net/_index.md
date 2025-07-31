@@ -1,13 +1,14 @@
 ---
-title: Tutoriales y ejemplos completos de Aspose.PSD para .NET
-linktitle: Tutoriales de Aspose.PSD para .NET
-weight: 10
-url: /es/psd/
-description: Mejore la calidad de las imágenes sin esfuerzo con los tutoriales de Aspose.PSD para .NET. Domine el procesamiento de imágenes, la manipulación de archivos PSD, el manejo de texto y fuentes, y más.
-is_root: true
+"description": "Mejore la calidad de sus imágenes sin esfuerzo con los tutoriales de Aspose.PSD para .NET. Domine el procesamiento de imágenes, la manipulación de archivos PSD, el manejo de texto y fuentes, y mucho más."
+"is_root": true
+"linktitle": "Tutoriales de Aspose.PSD para .NET"
+"title": "Tutoriales completos y ejemplos de Aspose.PSD para .NET"
+"url": "/es/psd/net/"
+"weight": 10
 ---
-## Tutoriales y ejemplos completos de Aspose.PSD para .NET 
-### [Guía para el procesamiento de imágenes con Aspose.PSD para .NET](./guide-image-processing/)
-Aprenda a aplicar filtros Gaussianos y Wiener, así como el umbral Bradley en Aspose.PSD para .NET para un mejor procesamiento y segmentación de imágenes.
+
+## Tutoriales completos y ejemplos de Aspose.PSD para .NET 
+### [Guía de procesamiento de imágenes con Aspose.PSD para .NET](./guide-image-processing/)
+Aprenda a aplicar filtros gaussianos y de Wiener, así como umbral de Bradley en Aspose.PSD para .NET para un mejor procesamiento y segmentación de imágenes.
 ### [Dominar el guardado y la exportación de archivos](./mastering-file-saving-and-exporting/)
-Aprenda a dominar el guardado y la exportación de archivos con los tutoriales de Aspose.PSD para .NET. Convierta archivos PSD fácilmente y administre recursos de imágenes complejos de manera eficiente.
+Aprenda a guardar y exportar archivos con los tutoriales de Aspose.PSD para .NET. Convierta archivos PSD fácilmente y gestione recursos de imagen complejos de forma eficiente.

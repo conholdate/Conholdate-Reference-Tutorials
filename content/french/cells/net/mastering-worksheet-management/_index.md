@@ -17,7 +17,7 @@ Vous débutez avec les feuilles de calcul personnalisées ? Ce guide est fait p
 
 ## Créer un nouveau fichier Excel  
 
-Créer un fichier Excel de A à Z peut paraître intimidant, mais pas avec Aspose.Cells ! Vous apprendrez à ajouter plusieurs feuilles de calcul par programmation, à les renommer et à enregistrer votre travail, le tout de manière simplifiée. Ce tutoriel est parfait pour les débutants ou ceux qui se lancent dans l'automatisation d'Excel. En savoir plus sur [Ajout de feuilles de calcul à un nouveau fichier Excel](./adding-worksheets-to-new-excel-file/).  
+Créer un fichier Excel de A à Z peut paraître intimidant, mais pas avec Aspose.Cells ! Vous apprendrez à ajouter plusieurs feuilles de calcul par programmation, à les renommer et à enregistrer votre travail, le tout de manière simplifiée. Ce tutoriel est idéal pour les débutants ou ceux qui se lancent dans l'automatisation d'Excel. En savoir plus sur [Ajout de feuilles de calcul à un nouveau fichier Excel](./adding-worksheets-to-new-excel-file/).  
 
 ## Amélioration des fichiers Excel existants  
 

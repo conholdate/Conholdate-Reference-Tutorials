@@ -21,7 +21,7 @@ Khai phá toàn bộ tiềm năng quản lý email với Aspose.Email for .NET. 
 - **📧 Hỗ trợ định dạng email**: EML, MSG, MHTML, PST, OST, MBOX và nhiều định dạng khác
 - **🔄 Chuyển đổi liền mạch**: Chuyển đổi giữa các định dạng email khác nhau với độ trung thực cao
 - **🤖 Phân tích nâng cao**: Phát hiện thư rác và xử lý nội dung dựa trên máy học
-- **📊 Tích hợp giao thức**: Hỗ trợ SMTP, POP3, IMAP, Dịch vụ Web Exchange
+- **📊 Tích hợp giao thức**Hỗ trợ SMTP, POP3, IMAP, Dịch vụ Web Exchange
 - **🔒 Tính năng bảo mật**: Mã hóa email, chữ ký số và xác thực
 
 ## 📚 Danh mục hướng dẫn
@@ -40,7 +40,7 @@ Xử lý nội dung email tiên tiến và các kỹ thuật phân tích thông 
 | Hướng dẫn | Mô tả | Độ khó |
 |----------|-------------|------------|
 | **[Phân tích thư rác Bayesian trong C#](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Phát hiện thư rác dựa trên máy học với phân tích thống kê | ⭐⭐⭐ Nâng cao |
-| **[Chuyển đổi email HTML thành văn bản thuần túy](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Trích xuất nội dung văn bản sạch từ email HTML | ⭐⭐ Trung cấp |
+| **[Chuyển đổi email HTML thành văn bản thuần túy](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Trích xuất nội dung văn bản sạch từ email HTML | ⭐⭐ Trung cấp |
 
 ### Làm chủ thông báo và theo dõi qua email
 Hệ thống thông báo qua email chuyên nghiệp và triển khai theo dõi cho các ứng dụng doanh nghiệp.
@@ -55,7 +55,7 @@ Hệ thống thông báo qua email chuyên nghiệp và triển khai theo dõi c
 
 ### **Tích hợp hệ thống email**
 - **Di chuyển email**: Chuyển đổi giữa các định dạng email khác nhau để di chuyển hệ thống
-- **Giải pháp lưu trữ**Lưu trữ email dài hạn với chuẩn hóa định dạng
+- **Giải pháp lưu trữ**: Lưu trữ email dài hạn với chuẩn hóa định dạng
 - **Khả năng tương thích đa nền tảng**: Đảm bảo email hoạt động trên nhiều ứng dụng email khác nhau
 
 ### **Bảo mật và Phân tích Email**
@@ -122,10 +122,10 @@ Hệ thống thông báo qua email chuyên nghiệp và triển khai theo dõi c
 - **Mã hóa** - Giao tiếp email an toàn và bảo vệ dữ liệu
 
 ### **Phân tích & Báo cáo**
-- **Theo dõi Email** - Xác nhận gửi tin nhắn và biên lai đã đọc
+- **Theo dõi Email** Xác nhận gửi tin nhắn và biên lai đã đọc
 - **Phân tích nội dung** - Khai thác văn bản và phân loại email
 - **Chỉ số hiệu suất** - Giám sát và phân tích hệ thống email
-- **Báo cáo tuân thủ** Tuân thủ quy định và theo dõi kiểm toán
+- **Báo cáo tuân thủ** - Tuân thủ quy định và theo dõi kiểm toán
 
 ## 🔗 Tài nguyên bổ sung
 
@@ -148,7 +148,7 @@ Hệ thống thông báo qua email chuyên nghiệp và triển khai theo dõi c
 - HTML → Văn bản thuần túy (Trích xuất và xử lý nội dung)
 
 ### **Xử lý nâng cao**
-- Phân tích thư rác Bayesian (Bảo mật máy học)
+- Phân tích thư rác Bayesian (Bảo mật học máy)
 - Trích xuất nội dung (Khai thác và phân tích dữ liệu)
 - Hệ thống thông báo (Truyền thông tự động)
 

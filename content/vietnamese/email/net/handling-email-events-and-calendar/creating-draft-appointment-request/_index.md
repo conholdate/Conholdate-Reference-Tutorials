@@ -108,7 +108,7 @@ Trong hướng dẫn này, chúng tôi đã trình bày cách tạo email yêu c
 
 ### Tôi có thể tùy chỉnh mẫu email thêm như thế nào?
 
-Bạn có thể cải thiện nội dung email bằng định dạng HTML hoặc thêm các chỗ giữ chỗ động để cá nhân hóa nội dung.
+Bạn có thể cải thiện nội dung email bằng định dạng HTML hoặc bao gồm các chỗ giữ chỗ động để cá nhân hóa nội dung.
 
 ### Tôi có thể thêm nhiều người nhận vào yêu cầu hẹn gặp không?
 

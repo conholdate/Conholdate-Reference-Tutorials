@@ -90,7 +90,7 @@ page.Paragraphs.Add(graph);
 長方形の位置とサイズを定義します。
 
 ```csharp
-// Rectangleインスタンスを作成する
+// 長方形インスタンスを作成する
 Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 120);
 ```
 

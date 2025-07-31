@@ -275,7 +275,7 @@ La versione di prova gratuita include filigrane sui documenti di output e limita
 
 ### Posso convertire documenti Word protetti da password?
 
-Sì, ma dovrai fornire la password al momento del caricamento del documento. Utilizza il costruttore Document che accetta opzioni di caricamento con parametri password.
+Sì, ma dovrai fornire la password al momento del caricamento del documento. Utilizza l'overload del costruttore Document che accetta opzioni di caricamento con parametri password.
 
 ### Come posso gestire i documenti con immagini o grafici incorporati?
 

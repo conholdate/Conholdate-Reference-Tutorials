@@ -81,7 +81,7 @@ doc.Save(dataDir + "Optimized_For_Word_2016.docx");
 आप इसे डाउनलोड कर सकते हैं और इसका उपयोग करके इसे निःशुल्क आज़मा सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/), लेकिन निरंतर उपयोग के लिए खरीद आवश्यक है।
 
 ### मुझे और अधिक दस्तावेज कहां मिल सकते हैं?
-आप विस्तृत दस्तावेज़ देख सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
+आप विस्तृत दस्तावेज़ीकरण देख सकते हैं [यहाँ](https://reference.aspose.com/words/net/).
 
 ### अगर मुझे मदद की ज़रूरत पड़े तो क्या होगा?
 यदि आपको कोई समस्या आती है, तो सहायता मांगने में संकोच न करें [Aspose.Words समर्थन मंच](https://forum.aspose.com/c/words/8).

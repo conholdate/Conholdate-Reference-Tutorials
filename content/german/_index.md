@@ -374,7 +374,7 @@ Willkommen zur umfassendsten Sammlung von Tutorials zur .NET-Dokumentenverarbeit
 #### GroupDocs.Merger für .NET
 
 {{% alert color="primary" %}}
-**Toolkit zur Dokumentbearbeitung** Dokumente programmgesteuert zusammenführen, aufteilen, neu anordnen und organisieren. Erstellen Sie Dokumentenzusammenstellungssysteme, Stapelverarbeitungstools und Workflow-Automatisierung.
+**Toolkit zur Dokumentbearbeitung** Dokumente programmgesteuert zusammenführen, aufteilen, neu anordnen und organisieren. Erstellen Sie Dokumentenerstellungssysteme, Stapelverarbeitungstools und Workflow-Automatisierung.
 
 {{% /alert %}}
 
@@ -388,7 +388,7 @@ Willkommen zur umfassendsten Sammlung von Tutorials zur .NET-Dokumentenverarbeit
 1. **Wählen Sie Ihre API** - Wählen Sie die Funktionalität, die Ihren Projektanforderungen entspricht
 2. **NuGet-Paket installieren** - Fügen Sie die Bibliothek zu Ihrem .NET-Projekt hinzu
 3. **Folgen Sie den Tutorials** - Beginnen Sie mit einfachen Beispielen und gehen Sie zu erweiterten Funktionen über
-4. **Treten Sie der Community bei** - Holen Sie sich Hilfe von Entwicklern und Experten
+4. **Community beitreten** - Holen Sie sich Hilfe von Entwicklern und Experten
 
 ### Entwicklungsumgebung
 - **.NET Framework** 2,0 - 4,8

@@ -25,7 +25,7 @@ Bảng tính không nhất thiết phải là những ô lưới nhàm chán. V�
 
 ## Đọc thời gian tạo của các bình luận có chủ đề  
 
-Bạn đã bao giờ tự hỏi khi nào một chú thích cụ thể được thêm vào bảng tính Excel của mình chưa? Việc biết thời gian tạo chú thích dạng luồng có thể giúp theo dõi các bản cập nhật và sửa đổi. Với Aspose.Cells cho .NET, việc đọc thời gian tạo của những chú thích này thật dễ dàng. Hướng dẫn của chúng tôi cung cấp hướng dẫn chi tiết về cách trích xuất và hiển thị thông tin này một cách hiệu quả. [Khám phá hướng dẫn này](./read-created-time-of-threaded-comment/).
+Bạn đã bao giờ tự hỏi khi nào một chú thích cụ thể được thêm vào bảng tính Excel của mình chưa? Việc biết thời gian tạo của các chú thích dạng luồng có thể giúp theo dõi các bản cập nhật và sửa đổi. Với Aspose.Cells cho .NET, việc đọc thời gian tạo của những chú thích này thật dễ dàng. Hướng dẫn của chúng tôi cung cấp hướng dẫn rõ ràng về cách trích xuất và hiển thị thông tin này một cách hiệu quả. [Khám phá hướng dẫn này](./read-created-time-of-threaded-comment/).
 
 ## Trích xuất các bình luận có chủ đề  
 

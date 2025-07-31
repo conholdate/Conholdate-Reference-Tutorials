@@ -1,14 +1,15 @@
 ---
-title: Extraer datos de libros de trabajo a partir de gráficos con Aspose.Slides para .NET
-linktitle: Extraer datos de libros de trabajo a partir de gráficos con Aspose.Slides para .NET
-second_title: API de procesamiento de PowerPoint Aspose.Slides .NET
-description: Descubra el potencial de sus presentaciones de PowerPoint aprendiendo a recuperar datos de libros de trabajo a partir de gráficos con Aspose.Slides para .NET. Este tutorial paso a paso le guía a través del proceso, lo que facilita la extracción y el uso eficaz de los datos de los gráficos.
-weight: 12
-url: /es/slides/master-additional-chart-features/extract-workbook-data-from-charts/
+"description": "Desbloquee el potencial de sus presentaciones de PowerPoint aprendiendo a recuperar datos de libros de trabajo a partir de gráficos con Aspose.Slides para .NET. Este tutorial paso a paso le guiará a través del proceso, facilitando la extracción y el uso eficaz de datos de gráficos."
+"linktitle": "Extraer datos del libro de trabajo desde gráficos con Aspose.Slides para .NET"
+"second_title": "API de procesamiento de PowerPoint Aspose.Slides .NET"
+"title": "Extraer datos del libro de trabajo desde gráficos con Aspose.Slides para .NET"
+"url": "/es/slides/net/master-additional-chart-features/extract-workbook-data-from-charts/"
+"weight": 12
 ---
+
 ## Introducción
 
-Trabajar con presentaciones de PowerPoint puede ser un desafío, especialmente cuando se extraen datos valiosos de gráficos incrustados. Afortunadamente, Aspose.Slides para .NET ofrece una solución sólida que simplifica este proceso. En este tutorial, lo guiaremos paso a paso sobre cómo recuperar un libro de trabajo de un gráfico dentro de una presentación de PowerPoint.
+Trabajar con presentaciones de PowerPoint puede ser complicado, especialmente al extraer datos valiosos de gráficos incrustados. Afortunadamente, Aspose.Slides para .NET ofrece una solución robusta que simplifica este proceso. En este tutorial, le guiaremos paso a paso para recuperar un libro de un gráfico dentro de una presentación de PowerPoint.
 
 ## Prerrequisitos
 
@@ -16,13 +17,13 @@ Antes de pasar al código, asegúrese de tener lo siguiente listo:
 
 ### Aspose.Slides para .NET
 
-Debe tener instalado Aspose.Slides para .NET en su entorno de desarrollo. Si aún no lo ha hecho, puede descargarlo desde el sitio web:
+Necesita tener instalado Aspose.Slides para .NET en su entorno de desarrollo. Si aún no lo ha hecho, puede descargarlo del sitio web:
 
 [Descargar Aspose.Slides para .NET](https://releases.aspose.com/slides/net/)
 
-### Presentación en PowerPoint
+### Presentación de PowerPoint
 
-Tenga a mano el archivo de presentación de PowerPoint, específicamente uno que contenga un gráfico con datos asociados que desee recuperar.
+Tenga a mano el archivo de su presentación de PowerPoint, específicamente uno que contenga un gráfico con datos asociados que desee recuperar.
 
 ## Paso 1: Importar los espacios de nombres necesarios
 
@@ -44,7 +45,7 @@ string dataDir = "Your Document Directory"; // Ajuste esta ruta según sea neces
 
 ## Paso 3: Cargar la presentación
 
-Puede cargar la presentación de PowerPoint mientras habilita la recuperación del libro de trabajo desde la memoria caché del gráfico. A continuación, le indicamos cómo hacerlo:
+Puede cargar la presentación de PowerPoint mientras activa la recuperación del libro desde la caché del gráfico. A continuación, le explicamos cómo hacerlo:
 
 ```csharp
 string pptxFile = Path.Combine(dataDir, "YourPresentation.pptx");
@@ -61,9 +62,9 @@ using (Presentation pres = new Presentation(pptxFile, lo))
 }
 ```
 
- En este paso, el`LoadOptions` El objeto le permite habilitar la recuperación del libro de trabajo mediante el`RecoverWorkbookFromChartCache` propiedad.
+En este paso, el `LoadOptions` El objeto le permite habilitar la recuperación del libro de trabajo mediante el `RecoverWorkbookFromChartCache` propiedad.
 
-## Paso 4: Recupere el gráfico y acceda a su libro de trabajo
+## Paso 4: recuperar el gráfico y acceder a su libro de trabajo
 
 Ahora es el momento de profundizar en el gráfico y recuperar sus datos asociados:
 
@@ -78,7 +79,7 @@ Al acceder a la primera forma de la primera diapositiva (que se espera que sea u
 
 ## Conclusión
 
-En este tutorial, demostramos cómo recuperar de manera eficaz un libro de trabajo a partir de un gráfico en una presentación de PowerPoint mediante Aspose.Slides para .NET. Si sigue estos pasos, podrá extraer y utilizar fácilmente los datos del gráfico para sus necesidades analíticas.
+En este tutorial, mostramos cómo recuperar eficazmente un libro de trabajo a partir de un gráfico en una presentación de PowerPoint con Aspose.Slides para .NET. Siguiendo estos pasos, podrá extraer y utilizar fácilmente los datos del gráfico para sus necesidades analíticas.
 
 ## Preguntas frecuentes
 
@@ -88,12 +89,12 @@ Aspose.Slides para .NET es una potente biblioteca que permite a los desarrollado
 
 ### ¿Puedo probar Aspose.Slides para .NET antes de comprarlo?
 
- ¡Sí! Aspose ofrece una versión de prueba gratuita de Aspose.Slides para .NET. Puedes evaluar sus capacidades antes de realizar la compra.[Obtenga la prueba gratuita aquí](https://releases.aspose.com/).
+¡Sí! Aspose ofrece una versión de prueba gratuita de Aspose.Slides para .NET. Puedes evaluar sus funciones antes de comprarla. [Obtenga la prueba gratuita aquí](https://releases.aspose.com/).
 
 ### ¿Dónde puedo encontrar la documentación de Aspose.Slides para .NET?
 
- Puede acceder a la documentación completa de Aspose.Slides para .NET[aquí](https://reference.aspose.com/slides/net/), que incluye ejemplos y referencias API.
+Puede acceder a la documentación completa de Aspose.Slides para .NET [aquí](https://reference.aspose.com/slides/net/), que incluye ejemplos y referencias API.
 
 ### ¿Cómo compro una licencia para Aspose.Slides para .NET?
 
- Para comprar una licencia, visite el sitio web de Aspose y utilice el siguiente enlace:[Adquiera Aspose.Slides para .NET](https://purchase.aspose.com/buy).
+Para comprar una licencia, visite el sitio web de Aspose y utilice el siguiente enlace: [Adquiera Aspose.Slides para .NET](https://purchase.aspose.com/buy).

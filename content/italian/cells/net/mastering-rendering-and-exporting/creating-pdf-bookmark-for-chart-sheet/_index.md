@@ -130,7 +130,7 @@ Creare segnalibri PDF per i fogli grafici utilizzando Aspose.Cells per .NET è u
 Aspose.Cells è una solida libreria .NET progettata per gestire le manipolazioni dei file Excel, tra cui la lettura, la scrittura e la conversione di fogli di calcolo.
 
 ### Posso creare segnalibri solo per celle specifiche?
-Sì, è possibile impostare i segnalibri in modo che puntino a qualsiasi cella del foglio di lavoro.
+Sì, i segnalibri possono essere impostati in modo che puntino a qualsiasi cella del foglio di lavoro.
 
 ### Ho bisogno di una licenza per utilizzare Aspose.Cells?
 Sebbene Aspose.Cells offra una prova gratuita, per usufruire di tutte le funzionalità negli ambienti di produzione è richiesta una licenza a pagamento.

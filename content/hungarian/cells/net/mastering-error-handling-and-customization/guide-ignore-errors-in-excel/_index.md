@@ -50,7 +50,7 @@ Győződjön meg róla, hogy ezek az elérési utak helyesek, hogy elkerülje a 
 
 ## 3. lépés: A minta munkafüzet betöltése
 
-Ezután töltse be az Excel-munkafüzetet a következő példány létrehozásával: `Workbook` osztály és az Excel-fájl elérési útjának átadása:
+Ezután töltse be az Excel-munkafüzetet a következő példány létrehozásával: `Workbook` osztály és az Excel fájl elérési útjának átadása:
 
 ```csharp
 // Töltse be a Minta Munkafüzetet, amely hibákat okozhat az átalakítás során
@@ -73,7 +73,7 @@ Ezzel a beállítással a konvertálási folyamat figyelmen kívül hagyja a fel
 
 ## 5. lépés: Mentse el a munkafüzetet PDF formátumban
 
-Most itt az ideje, hogy konvertáljuk és PDF formátumban mentsük a dokumentumot. Használd a `Save` a módszer `Workbook` osztály:
+Most itt az ideje, hogy PDF formátumba konvertáljuk és mentsük a dokumentumot. Használd a `Save` a módszer `Workbook` osztály:
 
 ```csharp
 // Munkafüzet mentése PDF formátumban a megadott beállításokkal

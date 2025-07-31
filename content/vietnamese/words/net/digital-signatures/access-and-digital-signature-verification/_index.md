@@ -15,7 +15,7 @@ Xin chào những người đam mê công nghệ! Bạn đã bao giờ cần xá
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị những thứ sau:
 
-1. Visual Studio: Đảm bảo rằng nó được cài đặt trên máy của bạn để viết mã.
+1. Visual Studio: Đảm bảo rằng nó đã được cài đặt trên máy của bạn để viết mã.
 2. Aspose.Words cho .NET: Tải xuống và cài đặt từ [đây](https://releases.aspose.com/words/net/). Nếu bạn chưa dùng thử, hãy tải ngay bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 3. Tài liệu Word có chữ ký số: Chuẩn bị sẵn một tài liệu Word có chữ ký số để xác minh.
 

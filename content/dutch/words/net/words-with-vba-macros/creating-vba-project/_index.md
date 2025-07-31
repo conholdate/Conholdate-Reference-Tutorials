@@ -13,7 +13,7 @@ Hallo, technologiefanaten! Ben je klaar om je te verdiepen in de spannende werel
 
 ## Vereisten
 
-Voordat we beginnen met coderen, zorg ervoor dat je het volgende hebt:
+Voordat we beginnen met coderen, zorg ervoor dat u het volgende heeft:
 
 1. Aspose.Words voor .NET-bibliotheek: Download de nieuwste versie van [hier](https://releases.aspose.com/words/net/).
 2. Ontwikkelomgeving: Stel een .NET-ontwikkelomgeving in, zoals Visual Studio, voor het schrijven en testen van uw code.
@@ -29,11 +29,11 @@ using Aspose.Words;
 using Aspose.Words.Vba;
 ```
 
-Nu we deze naamruimten hebben geïmporteerd, zijn we klaar om te starten met onze document- en VBA-manipulatietaken.
+Nu we deze naamruimten hebben geïmporteerd, kunnen we beginnen met onze document- en VBA-manipulatietaken.
 
 ## Stap 1: Stel uw documentenmap in
 
-Laten we het pad naar uw documentenmap definiëren. Deze map zal dienen als werkruimte voor deze zelfstudie.
+Laten we het pad naar uw documentenmap definiëren. Deze map zal dienen als uw werkruimte voor deze tutorial.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -41,7 +41,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Vervangen `"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad waar u uw Word-documenten wilt opslaan. Dit is waar de magie gebeurt!
 
-## Stap 2: Een nieuw Word-document maken
+## Stap 2: Maak een nieuw Word-document
 
 Nu we onze map hebben aangemaakt, is het tijd om een nieuw Word-document te maken dat ons VBA-project zal bevatten.
 
@@ -79,11 +79,11 @@ In dit fragment:
 - Wij creëren een nieuwe `VbaModule` voorwerp.
 - Geef het de naam "AsposeModule".
 - Definieer het moduletype als `VbaModuleType.ProceduralModule`.
-- Voeg een eenvoudige "Hallo Wereld!"-macro toe als de `SourceCode`.
+- Voeg een eenvoudige "Hallo, Wereld!" macro toe als de `SourceCode`.
 
 ## Stap 5: Sla het document op
 
-Nadat u uw VBA-project en de module hebt ingesteld, is het tijd om het document op te slaan, zodat al uw wijzigingen behouden blijven.
+Nu u uw VBA-project en module hebt ingesteld, is het tijd om het document op te slaan, zodat al uw wijzigingen behouden blijven.
 
 ```csharp
 doc.Save(dataDir + "WorkingWithVba.CreateVbaProject.docm");
@@ -107,7 +107,7 @@ Absoluut! Je kunt Aspose proberen. Woorden met een [gratis proefperiode](https:/
 Om VBA-code toe te voegen, maakt u een `VbaModule`, stel zijn `SourceCode` eigenschap met uw macrocode en voeg de module toe aan uw `VbaProject`.
 
 ### Welke typen VBA-modules kan ik maken?
-Je kunt verschillende soorten VBA-modules maken, waaronder procedurele modules (voor functies en submodules), klassemodules en gebruikersformulieren. In deze tutorial hebben we ons gericht op een procedurele module.
+kunt verschillende soorten VBA-modules maken, waaronder procedurele modules (voor functies en submodules), klassemodules en gebruikersformulieren. In deze tutorial hebben we ons gericht op een procedurele module.
 
 ### Waar kan ik Aspose.Words voor .NET kopen?
 U kunt Aspose.Words voor .NET kopen bij de [aankooppagina](https://purchase.aspose.com/buy).

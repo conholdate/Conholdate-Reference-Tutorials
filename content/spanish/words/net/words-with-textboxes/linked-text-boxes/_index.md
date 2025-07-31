@@ -85,7 +85,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 ```
 
 En este fragmento:
-- `IsValidLinkTarget` comprueba si `textBox2` se puede vincular a `textBox1`.
+- `IsValidLinkTarget` Comprueba si `textBox2` se puede vincular a `textBox1`.
 - Si es verdadero, asignar `textBox1.Next = textBox2` Establece el vínculo.
 
 ## Paso 5: Guardar el documento

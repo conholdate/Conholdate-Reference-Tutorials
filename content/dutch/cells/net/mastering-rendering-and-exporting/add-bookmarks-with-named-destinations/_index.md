@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Navigeren door grote PDF-bestanden voelt vaak als zoeken naar een speld in een hooiberg, vooral wanneer ze gegenereerd zijn vanuit uitgebreide Excel-spreadsheets. Bladwijzers in PDF-documenten bieden een naadloze manier om te schakelen tussen relevante secties in een bestand, wat de gebruikerservaring verbetert. Deze gedetailleerde handleiding begeleidt u bij het toevoegen van bladwijzers met benoemde bestemmingen aan een PDF die gegenereerd is vanuit een Excel-bestand met Aspose.Cells voor .NET.
+Navigeren door grote PDF-bestanden voelt vaak als zoeken naar een speld in een hooiberg, vooral wanneer ze zijn gegenereerd vanuit uitgebreide Excel-spreadsheets. Bladwijzers in PDF-documenten bieden een naadloze manier om te schakelen tussen relevante secties in een bestand, wat de gebruikerservaring verbetert. Deze gedetailleerde handleiding begeleidt u bij het toevoegen van bladwijzers met benoemde bestemmingen aan een PDF die is gegenereerd vanuit een Excel-bestand met Aspose.Cells voor .NET.
 
 ## Vereisten voor het werken met Aspose.Cells voor .NET
 
@@ -20,7 +20,7 @@ Voordat we in de code duiken, is het essentieel om ervoor te zorgen dat je alle 
 3. .NET Framework: Zorg ervoor dat u een compatibele versie van .NET Framework gebruikt. Aspose.Cells ondersteunt meerdere versies.
 4. Basiskennis van C#: Een basiskennis van C# is handig om de code te kunnen volgen.
 
-Zodra u deze onderdelen op de juiste plek hebt, kunt u beginnen met het maken van PDF-documenten met bladwijzers!
+Nu u deze componenten hebt geïnstalleerd, kunt u beginnen met het maken van PDF-documenten met bladwijzers!
 
 ## Uw project instellen
 
@@ -61,7 +61,7 @@ De volgende stap is het laden van uw Excel-bronbestand. Met Aspose.Cells kunt u 
 Workbook wb = new Workbook(sourceDir + "sampleExcelFile.xlsx");
 ```
 
-Hiermee wordt de werkmap geopend en gereed gemaakt voor bewerking. U kunt nu beginnen met het extraheren van gegevens en het opmaken ervan voor de PDF.
+Hiermee wordt de werkmap geopend en gereedgemaakt voor bewerking. U kunt nu beginnen met het extraheren van gegevens en het opmaken ervan voor de PDF.
 
 ## Stap 3: Toegang tot het werkblad
 

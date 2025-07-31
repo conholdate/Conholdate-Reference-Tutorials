@@ -44,7 +44,7 @@ Untuk mengikuti tutorial menambahkan JavaScript ke PDF C# ini, Anda memerlukan:
 1. Aspose.PDF untuk .NET terinstal di proyek Anda unduh dari [Halaman unduhan Aspose.PDF untuk .NET](https://releases.aspose.com/pdf/net/)
 2. Lisensi yang sah untuk menggunakan perpustakaan
 3. AC# IDE atau editor teks
-4. Pemahaman dasar tentang sintaks C# dan JavaScript
+4. Pemahaman dasar tentang sintaksis C# dan JavaScript
 
 Jangan khawatir jika Anda baru mengenal PDF JavaScript – kami akan menjelaskan semuanya sambil jalan, dan sintaksnya cukup mudah setelah Anda melihatnya beraksi.
 

@@ -84,7 +84,7 @@ Välkommen till den mest omfattande samlingen av handledningar för .NET-dokumen
 - Säkerhets- och krypteringsfunktioner
 - PDF/A-efterlevnad för arkivering
 
-**[Master PDF-bearbetning →](./pdf/)**
+**[Master PDF-behandling →](./pdf/)**
 
 ---
 

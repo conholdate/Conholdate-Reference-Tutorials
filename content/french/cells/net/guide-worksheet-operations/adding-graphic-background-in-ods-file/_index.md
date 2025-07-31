@@ -13,7 +13,7 @@ Créer des feuilles de calcul visuellement attrayantes ne se limite pas à la sa
 
 ## Prérequis
 
-Avant de commencer, assurez-vous d’avoir les éléments suivants :
+Avant de commencer, assurez-vous d’avoir les éléments suivants :
 
 1. Compréhension de base de la programmation C#  
    La connaissance de C# vous aidera à comprendre les extraits de code fournis.

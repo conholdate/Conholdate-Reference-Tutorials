@@ -90,7 +90,7 @@ doc.OpenAction = javaScript;
 - `JavascriptAction`: Tworzy nowy obiekt akcji JavaScript
 - `this.print()`:Metoda Adobe Acrobat JavaScript do drukowania
 - `bUI:true`:Pokazuje okno dialogowe drukowania (użytkownicy mogą wybrać drukarkę, strony itp.)
-- `bSilent:false`:Nie drukuje w trybie cichym – wymagana interakcja użytkownika
+- `bSilent:false`: Nie drukuje w trybie cichym – wymagana interakcja użytkownika
 - `bShrinkToFit:true`:Automatycznie skaluje zawartość, aby dopasować ją do strony
 
 **Kiedy tego używać**:Idealny do faktur, biletów, certyfikatów i innych dokumentów, które użytkownicy muszą wydrukować natychmiast po otwarciu.
@@ -188,14 +188,14 @@ Dodawanie JavaScript do aplikacji PDF C# działa najlepiej, gdy:
 
 **Rozważ alternatywy, gdy:**
 ❌ Twoi użytkownicy korzystają głównie z podstawowych przeglądarek PDF
-❌ Potrzebujesz złożonych interakcji przypominających interakcje internetowe (rozważ zamiast tego HTML)
+❌ Potrzebujesz złożonych interakcji przypominających te w sieci (rozważ zamiast tego HTML)
 ❌ Ograniczenia bezpieczeństwa uniemożliwiają obsługę JavaScript PDF w Twoim środowisku
 
 ## Najlepsze praktyki implementacji JavaScript w plikach PDF
 
 **Organizacja kodu:**
 - Utrzymuj proste i skoncentrowane działania JavaScript
-- Przetestuj każdą akcję osobno przed jej połączeniem
+- Przed połączeniem przetestuj każdą czynność osobno
 - Udokumentuj swoje funkcje JavaScript na potrzeby przyszłej konserwacji
 
 **Doświadczenie użytkownika:**

@@ -19,7 +19,7 @@ Zanim zagłębisz się w kod, upewnij się, że masz następujące elementy:
 Znajomość języka C# pomoże Ci bezproblemowo nadążać za językiem. Jeśli dopiero zaczynasz przygodę z tym językiem, liczne zasoby online pomogą Ci zacząć.
 
 ### Zintegrowane środowisko programistyczne (IDE)
-Do pisania i uruchamiania kodu C# potrzebne jest środowisko IDE. Popularnym wyborem jest Visual Studio, ale można również skorzystać z alternatyw, takich jak JetBrains Rider lub Visual Studio Code.
+Do pisania i uruchamiania kodu C# potrzebne będzie środowisko IDE. Popularnym wyborem jest Visual Studio, ale możesz również skorzystać z alternatyw, takich jak JetBrains Rider lub Visual Studio Code.
 
 ### Aspose.Cells dla .NET
 Pobierz bibliotekę Aspose.Cells z [Tutaj](https://releases.aspose.com/cells/net/)Jeśli chcesz najpierw przetestować usługę, dostępna jest bezpłatna wersja próbna.

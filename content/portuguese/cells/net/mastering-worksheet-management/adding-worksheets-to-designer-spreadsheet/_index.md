@@ -18,7 +18,7 @@ Antes de começar, certifique-se de ter o seguinte:
 2. Conhecimento básico de C#: a familiaridade com a sintaxe C# ajudará você a entender melhor o código.
 3. Visual Studio ou IDE compatível: use um ambiente de desenvolvimento integrado (IDE) compatível com .NET, como o Visual Studio, para escrever e testar seu código.
 
-## Etapa 1: Importar os pacotes necessários
+## Etapa 1: Importar pacotes necessários
 Para trabalhar com Aspose.Cells, você precisa importar os namespaces relevantes. Adicione as seguintes diretivas "using" no início do seu arquivo C#:
 
 ```csharp

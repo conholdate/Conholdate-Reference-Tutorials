@@ -40,7 +40,7 @@ Pokročilé techniky analýzy e-mailů včetně detekce spamu a zpracování obs
 | Tutoriál | Popis | Obtížnost |
 |----------|-------------|-------------|
 | **[Bayesovská analýza spamu v C#](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Detekce spamu založená na strojovém učení se statistickou analýzou | ⭐⭐⭐ Pokročilé |
-| **[Převod HTML e-mailu na prostý text](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Extrahování čistého textového obsahu z HTML e-mailů | ⭐⭐ Středně pokročilí |
+| **[Převod HTML e-mailu na prostý text](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Extrahování čistého textového obsahu z HTML e-mailů | ⭐⭐ Středně pokročilí |
 
 ## 🎯 Oblíbené případy použití
 
@@ -133,7 +133,7 @@ Pokročilé techniky analýzy e-mailů včetně detekce spamu a zpracování obs
 - **[Bezplatná zkušební verze](https://releases.aspose.com/email/net/)** - Vyhodnoťte všechny funkce
 
 ### **Komunita a podpora**
-- **[Fórum podpory](https://forum.aspose.com/c/email/12)** - Získejte pomoc od odborníků
+- **[Fórum podpory](https://forum.aspose.com/c/email/12)** Získejte pomoc od odborníků
 
 ### **Licencování a zkušební verze**
 - **[Dočasná licence](https://purchase.conholdate.com/temporary-license/)** - Rozšířené hodnocení

@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.PDF for .NET 為 PDF 文件新增隱形註解。本教學將指導您在 PDF 文件中建立有效且隱藏的註釋。"
+"description": "了解如何使用 Aspose.PDF for .NET 透過隱形註解增強您的 PDF 文件。本綜合教學將指導您如何在 PDF 中建立有效且謹慎的註釋。"
 "linktitle": "使用 Aspose.PDF for .NET 在 PDF 檔案中隱藏註釋"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "使用 Aspose.PDF for .NET 在 PDF 檔案中隱藏註釋"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-您是否想過在 PDF 文件中添加一些有效卻不可見的註釋？無論是用於留下隱藏訊息還是添加列印註釋，隱形註釋都非常有用。在本指南中，您將學習如何使用強大的 Aspose.PDF for .NET 程式庫在 PDF 檔案中建立隱形註解。最終，您將能夠像專業人士一樣熟練地添加這些註釋！
+您是否曾經想在 PDF 文件中添加有效但不可見的註釋？無論是留下隱藏訊息還是添加列印註釋，隱形註釋都非常有用。在本綜合指南中，您將學習如何使用強大的 .NET Aspose.PDF 庫在 PDF 檔案中建立不可見的註解。最後，您將能夠像專業人士一樣熟練地添加這些註釋！
 
 ## 先決條件
 
@@ -22,7 +22,7 @@
 
 ## 導入所需的命名空間
 
-首先導入必要的命名空間。這將使您能夠存取在 Aspose.PDF for .NET 中處理 PDF 所需的類別和方法。
+首先導入必要的命名空間。這些將使您能夠存取在 Aspose.PDF for .NET 中處理 PDF 所需的類別和方法。
 
 ```csharp
 using System.IO;
@@ -33,7 +33,7 @@ using System;
 
 ## 步驟1：設定文檔目錄
 
-指定儲存輸入 PDF 檔案的文檔目錄路徑。此路徑將引導程式載入 PDF 文件。
+指定儲存輸入 PDF 檔案的文檔目錄的路徑。該路徑將指導程式載入 PDF 文件。
 
 ```csharp
 // 文檔目錄的路徑
@@ -98,7 +98,7 @@ Console.WriteLine("\nInvisible annotation added successfully.\nFile saved at " +
 
 ## 結論
 
-恭喜！您現在已經成功學習如何使用 Aspose.PDF for .NET 在 PDF 檔案中新增隱形註解。本教學將指導您從設定環境到儲存最終文件。新增用於列印的隱藏訊息或註釋的功能為文件管理開啟了新的可能性。
+恭喜！現在您已經成功了解如何使用 Aspose.PDF for .NET 在 PDF 檔案中新增不可見註解。本教學指導您從設定環境到儲存最終文件。為了列印目的而添加隱藏訊息或註釋的功能為文件管理開啟了新的可能性。
 
 ## 常見問題解答
 
@@ -109,7 +109,7 @@ Console.WriteLine("\nInvisible annotation added successfully.\nFile saved at " +
 Aspose.PDF 支援各種註釋，包括文字、連結、反白和圖章註釋。
 
 ### 加註後可以修改嗎？
-當然！即使註釋已新增至文件中，您也可以變更其屬性。
+絕對地！即使註釋已新增至文件中，您也可以變更其屬性。
 
 ### 如何為同一篇文件新增多個註解？
 只需對要新增的每個註釋重複註釋建立和新增流程。

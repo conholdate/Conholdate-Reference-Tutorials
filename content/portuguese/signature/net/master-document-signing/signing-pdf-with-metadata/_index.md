@@ -1,21 +1,22 @@
 ---
-title: Guia para assinar PDFs com metadados usando GroupDocs.Signature
-linktitle: Guia para assinar PDFs com metadados
-second_title: GroupDocs.Assinatura .NET API
-description: Aprenda como reforçar seus documentos PDF com segurança e rastreabilidade aprimoradas assinando-os com metadados usando GroupDocs.Signature for .NET. Este tutorial abrangente fornece uma.
-weight: 11
-url: /pt/signature/master-document-signing/signing-pdf-with-metadata/
+"description": "Aprenda a reforçar seus documentos PDF com segurança e rastreabilidade aprimoradas, assinando-os com metadados usando o GroupDocs.Signature para .NET. Este tutorial abrangente oferece uma visão clara."
+"linktitle": "Guia para assinar PDFs com metadados"
+"second_title": "API .NET do GroupDocs.Signature"
+"title": "Guia para assinar PDFs com metadados usando GroupDocs.Signature"
+"url": "/pt/signature/net/master-document-signing/signing-pdf-with-metadata/"
+"weight": 11
 ---
+
 ## Introdução
 
-Neste tutorial, aprenderemos como assinar um documento PDF e adicionar metadados usando GroupDocs.Signature for .NET. Adicionar metadados aprimora o documento ao fornecer informações essenciais, como autoria, data de criação, ID do documento e muito mais.
+Neste tutorial, aprenderemos como assinar um documento PDF e adicionar metadados usando o GroupDocs.Signature para .NET. Adicionar metadados aprimora o documento, fornecendo informações essenciais como autoria, data de criação, ID do documento e muito mais.
 
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter o seguinte:
 
-1.  GroupDocs.Signature para .NET: Baixe-o em[aqui](https://releases.groupdocs.com/signature/net/).
-2. Um documento PDF: tenha um arquivo PDF de amostra pronto para assinar.
+1. GroupDocs.Signature para .NET: Baixe em [aqui](https://releases.groupdocs.com/signature/net/).
+2. Um documento PDF: tenha um arquivo PDF de exemplo pronto para assinar.
 3. Conhecimento básico de programação em C#: é necessária familiaridade com a sintaxe do C# para entender os exemplos de código.
 
 ## Importar namespaces
@@ -46,26 +47,26 @@ Defina onde o PDF assinado com metadados será salvo:
 string outputFilePath = Path.Combine("Your Document Directory", "SignPdfWithMetadata", "SignedWithMetadata.pdf");
 ```
 
-## Etapa 3: Crie uma instância de assinatura
+## Etapa 3: Criar uma instância de assinatura
 
- Inicializar um`Signature` instância com o caminho para o documento PDF:
+Inicializar um `Signature` instância com o caminho para o documento PDF:
 
 ```csharp
 using (Signature signature = new Signature(filePath))
 {
-    // O código relacionado à assinatura será colocado aqui
+    // código relacionado à assinatura será colocado aqui
 }
 ```
 
 ## Etapa 4: Definir opções de metadados
 
- Criar`MetadataSignOptions` e adicione os campos de metadados junto com seus valores:
+Criar `MetadataSignOptions` e adicione os campos de metadados junto com seus valores:
 
 ```csharp
 MetadataSignOptions options = new MetadataSignOptions();
 options
     .Add(new PdfMetadataSignature("Author", "Mr. Sherlock Holmes")) // Valor da sequência de caracteres
-    .Add(new PdfMetadataSignature("CreatedOn", DateTime.Now))       // Valor DateTime
+    .Add(new PdfMetadataSignature("CreatedOn", DateTime.Now))       // Valor de data e hora
     .Add(new PdfMetadataSignature("DocumentId", 123456))            // Valor inteiro
     .Add(new PdfMetadataSignature("SignatureId", 123.456D))         // Valor duplo
     .Add(new PdfMetadataSignature("Amount", 123.456M))              // Valor decimal
@@ -83,7 +84,7 @@ Console.WriteLine($"\nSource document signed successfully with {result.Succeeded
 
 ## Conclusão
 
-Neste tutorial, abordamos como assinar um documento PDF com metadados usando GroupDocs.Signature for .NET. Seguindo essas etapas, você pode facilmente enriquecer seus arquivos PDF com metadados valiosos, melhorando sua rastreabilidade e utilidade.
+Neste tutorial, abordamos como assinar um documento PDF com metadados usando o GroupDocs.Signature para .NET. Seguindo esses passos, você pode facilmente enriquecer seus arquivos PDF com metadados valiosos, melhorando sua rastreabilidade e utilidade.
 
 ## Perguntas frequentes
 
@@ -93,7 +94,7 @@ Sim, você pode adicionar campos de metadados personalizados especificando o nom
 
 ### O GroupDocs.Signature for .NET é compatível com todas as versões do .NET Framework?
 
-O GroupDocs.Signature para .NET é compatível com várias versões do .NET Framework, garantindo flexibilidade e facilidade de integração.
+GroupDocs.Signature para .NET é compatível com várias versões do .NET Framework, garantindo flexibilidade e facilidade de integração.
 
 ### O GroupDocs.Signature oferece suporte à assinatura de outros formatos de documento além de PDF?
 
@@ -101,8 +102,8 @@ Sim, o GroupDocs.Signature suporta uma ampla variedade de formatos de documentos
 
 ### Posso assinar vários documentos em massa usando o GroupDocs.Signature para .NET?
 
-Claro! Você pode assinar vários documentos em massa iterando por uma lista de arquivos e aplicando o processo de assinatura programaticamente.
+Com certeza! Você pode assinar vários documentos em massa iterando por uma lista de arquivos e aplicando o processo de assinatura programaticamente.
 
 ### Há suporte técnico disponível para usuários do GroupDocs.Signature?
 
- Sim, o GroupDocs fornece suporte técnico dedicado por meio de seus fóruns. Você pode acessar o fórum de suporte[aqui](https://forum.groupdocs.com/c/signature/13).
+Sim, o GroupDocs oferece suporte técnico dedicado por meio de seus fóruns. Você pode acessar o fórum de suporte [aqui](https://forum.groupdocs.com/c/signature/13).

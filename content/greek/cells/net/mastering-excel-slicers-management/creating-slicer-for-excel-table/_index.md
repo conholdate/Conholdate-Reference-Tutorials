@@ -103,7 +103,7 @@ int idx = worksheet.Slicers.Add(table, 0, "H5");
 Αποθηκεύστε το τροποποιημένο βιβλίο εργασίας με τον νέο αναλυτή:
 
 ```csharp
-// Αποθηκεύστε το βιβλίο εργασίας σε μορφή XLSX εξόδου.
+// Αποθηκεύστε το βιβλίο εργασίας σε μορφή XLSX.
 workbook.Save(outputDir + "outputCreateSlicerToExcelTable.xlsx", SaveFormat.Xlsx);
 ```
 

@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Words for .NET 有效率地從 Word 文件中讀取和提取 VBA 巨集。本指南提供詳細的逐步說明，並包含程式碼範例。"
+"description": "了解如何使用 Aspose.Words for .NET 從 Word 文件中有效讀取和提取 VBA 巨集。本詳細指南提供了逐步說明，包括程式碼範例。"
 "linktitle": "從 Word 文件中讀取 VBA 巨集"
 "second_title": "Aspose.Words文件處理API"
 "title": "使用 Aspose.Words 從 Word 文件讀取 VBA 宏"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-將 VBA（Visual Basic for Applications）巨集整合到 Word 文件中，為自動化和自訂開啟了無限可能。無論您是審核現有巨集還是開發新的自動化解決方案，了解如何有效率地讀取 VBA 巨集至關重要。在本指南中，我們將探索如何使用 Aspose.Words for .NET（一個強大的 Word 文件操作庫）從 Word 文件中讀取 VBA 巨集。透過學習本教程，您將獲得存取和檢查 VBA 專案的工具，從而充分發揮文件的潛力。
+將 VBA（Visual Basic for Applications）巨集合併到 Word 文件中為自動化和自訂開啟了無限的可能性。無論您是審核現有巨集還是開發新的自動化解決方案，了解如何有效地讀取 VBA 巨集至關重要。在本指南中，我們將探討如何使用 Aspose.Words for .NET（一個強大的 Word 文件操作庫）從 Word 文件中讀取 VBA 巨集。透過學習本教程，您將獲得存取和檢查 VBA 專案的工具，從而能夠充分發揮文件的潛力。
 
 ## 先決條件
 
@@ -18,7 +18,7 @@
 1. Aspose.Words for .NET Library：從下載最新版本 [這裡](https://releases。aspose.com/words/net/).  
 2. 開發環境：使用整合開發環境（IDE），例如 Visual Studio。  
 3. C# 基礎：熟悉 C# 程式設計將會很有幫助。  
-4. 啟用巨集的 Word 文件：範例 `.docm` 需要包含 VBA 巨集的檔案。使用 [此範例文檔](https://github.com/aspose-words/Aspose.Words-for-.NET/raw/99ba2a2d8b5d650deb40106225f383376b8b4bc6/Examples/Data/VBA%20project.docm) 跟隨。
+4. 啟用巨集的 Word 文件：範例 `.docm` 需要帶有 VBA 巨集的檔案。使用 [此範例文檔](https://github.com/aspose-words/Aspose.Words-for-.NET/raw/99ba2a2d8b5d650deb40106225f383376b8b4bc6/Examples/Data/VBA%20project.docm) 跟隨。
 
 ## 導入所需的命名空間
 
@@ -33,7 +33,7 @@ using Aspose.Words.Vba;
 
 ## 步驟 1：設定文檔目錄
 
-定義一個變數來儲存 Word 文件的路徑。此目錄用作讀取 VBA 巨集的來源。
+定義一個變數來儲存 Word 文件的路徑。該目錄作為讀取 VBA 巨集的來源。
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -53,7 +53,7 @@ Document doc = new Document(dataDir + "VBA project.docm");
 
 ## 步驟 3：檢查 VBA 項目是否存在
 
-在訪問巨集之前，請確認文件包含 VBA 項目。此驗證可確保僅當 VBA 內容可用時程式碼才會繼續執行。
+在存取巨集之前，請確認文件包含 VBA 項目。此驗證可確保僅當 VBA 內容可用時程式碼才會繼續運作。
 
 ```csharp
 if (doc.VbaProject != null)
@@ -93,7 +93,7 @@ doc.Save(dataDir + "UpdatedVBAProject.docm");
 
 ## 結論
 
-從 Word 文件中讀取 VBA 巨集是深入了解自動化腳本和自訂工作流程的有效方法。使用 Aspose.Words for .NET，存取和操作 VBA 專案變得簡單且有效率。透過本教學課程，您學習如何設定環境、載入 Word 文件以及如何以程式設計方式提取巨集程式碼。進一步探索 Aspose 豐富的功能集，以優化您的文件處理工作流程。
+從 Word 文件中讀取 VBA 巨集是深入了解自動化腳本和自訂工作流程的有效方法。使用 Aspose.Words for .NET，存取和操作 VBA 專案變得簡單且有效率。透過學習本教程，您已經學會如何設定環境、載入 Word 文件以及以程式設計方式提取巨集程式碼。進一步探索 Aspose 的豐富功能集，以優化您的文件處理工作流程。
 
 ## 常見問題解答
 
@@ -101,7 +101,7 @@ doc.Save(dataDir + "UpdatedVBAProject.docm");
 是的，您可以修改 `SourceCode` 的財產 `VbaModule` 物件並保存文件以應用更改。
 
 ### Aspose.Words for .NET 處理敏感檔案是否安全？
-當然。 Aspose.Words 提供強大的安全功能，並且不執行巨集，確保文件操作的安全環境。
+絕對地。 Aspose.Words 提供強大的安全功能且不執行宏，確保文件操作的安全環境。
 
 ### Aspose.Words for .NET 支援哪些格式？
 它支援多種格式，包括 DOC、DOCX、DOT、RTF、PDF 和 DOCM 等支援巨集的格式。

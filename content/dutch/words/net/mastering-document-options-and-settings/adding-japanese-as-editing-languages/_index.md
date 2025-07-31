@@ -88,7 +88,7 @@ Deze code controleert of de standaardtaal voor het Verre Oosten is ingesteld op 
 
 ## Conclusie
 
-Gefeliciteerd! U hebt Japans succesvol als bewerkingstaal aan uw document toegevoegd met Aspose.Words voor .NET. Het is alsof u een nieuwe taal aan uw kaart toevoegt, waardoor navigeren eenvoudiger en intuïtiever wordt. Of u nu met meertalige documenten werkt of zorgt voor een correcte opmaak, Aspose.Words is uw betrouwbare partner. Ga nu vol vertrouwen de wereld van documentautomatisering verkennen!
+Gefeliciteerd! U hebt Japans succesvol als bewerkingstaal aan uw document toegevoegd met Aspose.Words voor .NET. Het is alsof u een nieuwe taal aan uw kaart toevoegt, waardoor navigatie eenvoudiger en intuïtiever wordt. Of u nu met meertalige documenten werkt of zorgt voor een correcte opmaak, Aspose.Words is uw betrouwbare partner. Ga nu vol vertrouwen de wereld van documentautomatisering verkennen!
 
 ## Veelgestelde vragen
 

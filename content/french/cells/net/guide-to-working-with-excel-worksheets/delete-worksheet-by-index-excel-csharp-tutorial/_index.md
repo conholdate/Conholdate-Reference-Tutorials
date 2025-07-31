@@ -112,13 +112,13 @@ Et voilà ! Vous avez appris à supprimer une feuille de calcul Excel par son in
 ## FAQ
 
 ### Qu'est-ce qu'Aspose.Cells ?
-Aspose.Cells est une bibliothèque .NET qui offre aux développeurs de nombreuses fonctionnalités pour manipuler des fichiers Excel. De la création et de la modification à la conversion de fichiers Excel, c'est un outil puissant !
+Aspose.Cells est une bibliothèque .NET qui offre aux développeurs de nombreuses fonctionnalités pour manipuler les fichiers Excel. De la création et de la modification à la conversion de fichiers Excel, c'est un outil puissant !
 
 ### Ai-je besoin d'une licence pour utiliser Aspose.Cells ?
 Oui, Aspose.Cells est une bibliothèque payante, mais vous pouvez commencer avec un essai gratuit disponible [ici](https://releases.aspose.com/)Vous pouvez explorer les fonctionnalités avant d'acheter.
 
 ### Puis-je supprimer plusieurs feuilles de calcul à la fois ?
-Oui, vous pouvez parcourir les feuilles de calcul et les supprimer en utilisant leurs index respectifs. Pensez simplement à ajuster l'index en conséquence lorsque vous supprimez des feuilles de calcul.
+Oui, vous pouvez parcourir les feuilles de calcul et les supprimer en utilisant leurs index respectifs. N'oubliez pas d'ajuster l'index en conséquence lorsque vous supprimez des feuilles de calcul.
 
 ### Que se passe-t-il si je supprime la mauvaise feuille de calcul ?
 Si vous n'avez pas enregistré le classeur après l'avoir supprimé, vous pouvez simplement rouvrir le fichier d'origine. Effectuez toujours une sauvegarde avant d'effectuer de telles modifications : mieux vaut prévenir que guérir !

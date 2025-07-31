@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Words for .NET 透過自訂文件屬性增強您的 Word 文件。本指南將引導您完成整個過程。"
+"description": "了解如何使用 Aspose.Words for .NET 透過自訂文件屬性增強您的 Word 文件。本綜合指南將引導您完成整個過程。"
 "linktitle": "在 Word 中新增自訂文件屬性"
 "second_title": "Aspose.Words文件處理API"
 "title": "在 Word 中新增自訂文件屬性"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-歡迎！如果您正在探索 Aspose.Words for .NET，並想學習如何在 Word 文件中新增自訂文件屬性，那麼您來對地方了。自訂屬性對於儲存內建屬性無法覆蓋的額外元資料非常有用。無論您需要追蹤文件授權、修訂號或特定日期，自訂屬性都能提供協助。在本教學中，我們將指導您使用 Aspose.Words for .NET 無縫新增這些屬性。讓我們開始吧！
+歡迎！如果您正在探索 Aspose.Words for .NET 並想了解如何在 Word 文件中新增自訂文件屬性，那麼您來對地方了。自訂屬性對於儲存內建屬性未涵蓋的額外元資料非常有用。無論您需要追蹤文件授權、修訂號或具體日期，自訂屬性都可以提供協助。在本教學中，我們將引導您完成使用 Aspose.Words for .NET 無縫新增這些屬性的步驟。讓我們開始吧！
 
 ## 先決條件
 
@@ -31,7 +31,7 @@ using Aspose.Words;
 
 ## 步驟1：設定文檔路徑
 
-接下來，讓我們定義 Word 文件的路徑。此步驟對於尋找和開啟您的 `Properties.docx` 文件。
+接下來，讓我們定義 Word 文件的路徑。此步驟對於定位和打開您的 `Properties.docx` 文件。
 
 ```csharp
 // 指定文檔目錄的路徑。
@@ -59,7 +59,7 @@ CustomDocumentProperties customDocumentProperties = doc.CustomDocumentProperties
 if (customDocumentProperties["Authorized"] != null) return;
 ```
 
-此程式碼檢查“Authorized”屬性是否已存在。如果存在，則該方法會提前退出，以防止重複。
+此程式碼檢查「授權」屬性是否已存在。如果是，該方法將提前退出，以防止重複。
 
 ## 步驟 4：新增布爾屬性
 
@@ -109,11 +109,11 @@ customDocumentProperties.Add("Authorized Revision", doc.BuiltInDocumentPropertie
 customDocumentProperties.Add("Authorized Amount", 123.45);
 ```
 
-此行新增了一個名為「授權金額」的屬性，其值為 `123.45`。您可以根據需要調整此數字。
+此行新增了一個名為「授權金額」的屬性，其值為 `123.45`。您可以根據需要調整這個數字。
 
 ## 結論
 
-恭喜！您已成功使用 Aspose.Words for .NET 將自訂文件屬性新增至 Word 文件。這些屬性是一種強大的方法，可以根據您的需求自訂元數據，無論是追蹤授權詳細資訊、修訂號還是特定金額。
+恭喜！您已成功使用 Aspose.Words for .NET 將自訂文件屬性新增至 Word 文件。這些屬性是儲存根據您的要求自訂的元資料的有效方法，無論是追蹤授權詳細資訊、修訂號還是特定金額。
 
 ## 常見問題解答
 
@@ -127,7 +127,7 @@ customDocumentProperties.Add("Authorized Amount", 123.45);
 您可以使用 Aspose.Words 以程式設計方式存取自訂屬性，或透過文件屬性直接在 Word 中查看它們。
 
 ### 是否可以編輯或刪除自訂屬性？
-當然！您可以使用 Aspose.Words 提供的方法輕鬆編輯或刪除自訂屬性。
+絕對地！您可以使用 Aspose.Words 提供的方法輕鬆編輯或刪除自訂屬性。
 
 ### 自訂屬性可以用於過濾文件嗎？
 是的！自訂屬性非常適合根據特定元資料對文件進行分類和過濾。

@@ -35,7 +35,7 @@ using Aspose.Pdf.Forms;
 
 Ezek a névterek hozzáférést biztosítanak olyan osztályokhoz, mint a `Document`, `ComboBoxField`, és egyéb alapvető közművek.
 
-## 1. lépés: PDF dokumentum beállítása
+## 1. lépés: PDF-dokumentum beállítása
 
 Először is szükséged lesz egy PDF dokumentumra a munkához. Hozz létre egy új PDF fájlt, és adj hozzá egy üres oldalt.
 

@@ -1,20 +1,21 @@
 ---
-title: Mengonversi XPS ke PDF dengan Aspose.Page untuk .NET
-linktitle: Mengonversi XPS ke PDF
-second_title: API Aspose.Halaman .NET
-description: Temukan cara mengonversi dokumen XPS (XML Paper Specification) ke PDF (Portable Document Format) secara mudah menggunakan pustaka Aspose.Page for .NET yang canggih.
-weight: 11
-url: /id/page/convert-document/converting-xps-to-pdf/
+"description": "Temukan cara mengonversi dokumen XPS (Spesifikasi Kertas XML) ke PDF (Format Dokumen Portabel) secara mudah menggunakan pustaka Aspose.Page for .NET yang canggih."
+"linktitle": "Mengonversi XPS ke PDF"
+"second_title": "Aspose.Page .NET API"
+"title": "Mengonversi XPS ke PDF dengan Aspose.Page untuk .NET"
+"url": "/id/page/net/convert-document/converting-xps-to-pdf/"
+"weight": 11
 ---
+
 ## Perkenalan
 
-Dalam tutorial ini, kita akan menjelajahi cara mengonversi dokumen XPS (XML Paper Specification) ke PDF (Portable Document Format) menggunakan pustaka Aspose.Page for .NET yang serbaguna. Pustaka canggih ini menyederhanakan konversi dokumen dan menawarkan berbagai opsi penyesuaian, menjadikannya pilihan yang sangat baik bagi para pengembang.
+Dalam tutorial ini, kita akan mempelajari cara mengonversi dokumen XPS (Spesifikasi Kertas XML) ke PDF (Format Dokumen Portabel) menggunakan pustaka Aspose.Page for .NET yang serbaguna. Pustaka canggih ini menyederhanakan konversi dokumen dan menawarkan berbagai opsi kustomisasi, menjadikannya pilihan yang sangat baik bagi para pengembang.
 
 ## Prasyarat
 
-Sebelum kita memulai, pastikan Anda telah menyiapkan hal-hal berikut:
+Sebelum kita mulai, pastikan Anda telah menyiapkan hal-hal berikut:
 
--  Pustaka Aspose.Page untuk .NET: Unduh dan instal pustaka Aspose.Page untuk .NET dari[Dokumentasi Aspose.Page](https://reference.aspose.com/page/net/).
+- Pustaka Aspose.Page untuk .NET: Unduh dan instal pustaka Aspose.Page untuk .NET dari [Dokumentasi Aspose.Page](https://reference.aspose.com/page/net/).
   
 - Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET menggunakan Visual Studio atau IDE lain yang kompatibel.
 
@@ -36,9 +37,9 @@ Tentukan jalur direktori tempat dokumen Anda disimpan:
 string dataDir = "Your Document Directory";
 ```
 
- Pastikan untuk mengganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori yang berisi dokumen XPS Anda.
+Pastikan untuk mengganti `"Your Document Directory"` dengan jalur sebenarnya ke direktori yang berisi dokumen XPS Anda.
 
-### Langkah 3: Buka Aliran PDF dan XPS
+### Langkah 3: Buka PDF dan XPS Streams
 
 Berikutnya, inisialisasi aliran untuk file XPS masukan dan file PDF keluaran:
 
@@ -91,26 +92,26 @@ document.Save(device, options);
 
 ## Kesimpulan
 
-Selamat! Anda telah berhasil mengonversi dokumen XPS ke PDF menggunakan Aspose.Page for .NET. Pustaka ini tidak hanya menyederhanakan konversi dokumen tetapi juga menawarkan kemampuan ekstensif untuk menangani berbagai format.
+Selamat! Anda telah berhasil mengonversi dokumen XPS ke PDF menggunakan Aspose.Page untuk .NET. Pustaka ini tidak hanya menyederhanakan konversi dokumen tetapi juga menawarkan kemampuan ekstensif untuk menangani berbagai format.
 
 ## Pertanyaan yang Sering Diajukan
 
-### Bisakah saya mengonversi beberapa file XPS menjadi satu PDF?
+### Bisakah saya mengonversi beberapa berkas XPS menjadi satu PDF?
 
-Tentu saja! Anda dapat mengulang beberapa file XPS dan menggabungkannya menjadi satu dokumen PDF dengan mengikuti langkah konversi yang sama.
+Tentu saja! Anda dapat menggabungkan beberapa file XPS menjadi satu dokumen PDF dengan langkah konversi yang sama.
 
-### Format keluaran apa lagi yang didukung Aspose.Page untuk .NET?
+### Format keluaran lain apa yang didukung Aspose.Page untuk .NET?
 
 Selain PDF, Aspose.Page untuk .NET mendukung berbagai format, termasuk TIFF, JPEG, dan PNG.
 
 ### Bagaimana saya dapat menyesuaikan tampilan PDF yang dikonversi?
 
- Anda dapat menyesuaikan parameter di`PdfSaveOptions` objek, seperti pengaturan kualitas dan kompresi JPEG, untuk mencapai tampilan yang Anda inginkan.
+Anda dapat menyesuaikan parameter di `PdfSaveOptions` objek, seperti pengaturan kualitas dan kompresi JPEG, untuk mencapai tampilan yang Anda inginkan.
 
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.Page untuk .NET?
 
- Ya, Anda dapat mencoba Aspose.Page untuk .NET dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mencoba Aspose.Page untuk .NET dengan uji coba gratis yang tersedia [Di Sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dukungan komunitas untuk Aspose.Page for .NET?
 
-Untuk diskusi dan dukungan komunitas, kunjungi[Forum Aspose.Halaman](https://forum.aspose.com/c/page/39).
+Untuk diskusi dan dukungan komunitas, kunjungi [Forum Aspose.Page](https://forum.aspose.com/c/page/39).

@@ -156,4 +156,4 @@ Uma licença temporária permite que você avalie todos os recursos da bibliotec
 Sim, o código é compatível com aplicativos web que usam ASP.NET ou frameworks similares.  
 
 ### Onde posso encontrar recursos adicionais?  
-Confira o [documentação](https://reference.aspose.com/email/net/) ou visite o [fórum de suporte](https://forum.aspose.com/c/email/12/) para obter ajuda.
+Confira o [documentação](https://reference.aspose.com/email/net/) ou visite o [fórum de suporte](https://forum.aspose.com/c/email/12/) para ajuda.

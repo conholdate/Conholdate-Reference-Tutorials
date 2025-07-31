@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用 Aspose.PDF for .NET 提取和操作嵌入的文件訊息，釋放 PDF 文件管理的全部潛力。本指南將逐步指導您完成整個過程。"
+"description": "透過學習如何使用 Aspose.PDF for .NET 提取和操作嵌入的文件訊息，釋放 PDF 文件管理的全部潛力。本綜合指南將引導您完成整個逐步過程。"
 "linktitle": "取得附件資訊"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "取得附件資訊"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-在文件管理中，從 PDF 文件中提取和操作資料的能力至關重要。無論您是增強應用程式的開發人員，還是管理文件的商務專業人士，Aspose.PDF for .NET 都提供了強大的 PDF 文件處理工具包。本教學課程將指導您使用 Aspose.PDF for .NET 從 PDF 文件中檢索附件資訊。最終，您將能夠有效地存取嵌入文件及其屬性。
+在文件管理中，從 PDF 文件中提取和處理資料的能力至關重要。無論您是增強應用程式的開發人員還是管理文件的商業專業人士，Aspose.PDF for .NET 都提供了處理 PDF 文件的強大工具包。本教學課程將指導您使用 Aspose.PDF for .NET 從 PDF 文件中檢索附件資訊。最後，您將能夠有效地存取嵌入的文件及其屬性。
 
 ## 先決條件
 
@@ -93,7 +93,7 @@ if (fileSpecification != null)
 
 ## 步驟5：檢查其他參數
 
-某些嵌入檔案可能包含其他元資料。讓我們檢查並顯示以下參數：
+一些嵌入文件可能有額外的元資料。讓我們檢查並顯示這些參數：
 
 ```csharp
 // 檢查附加參數
@@ -110,7 +110,7 @@ if (fileSpecification.Params != null)
 
 ## 結論
 
-恭喜！您已經學習如何使用 Aspose.PDF for .NET 從 PDF 文件中檢索附件資訊。按照這些步驟，您可以有效地存取嵌入文件及其屬性，從而增強您的文件管理能力。無論您是開發新應用程式還是改進現有應用程序，這些知識都將非常寶貴。
+恭喜！您已經了解如何使用 Aspose.PDF for .NET 從 PDF 文件中檢索附件資訊。透過遵循這些步驟，您可以有效地存取嵌入的文件及其屬性，從而增強您的文件管理能力。無論您是開發新應用程式還是改進現有應用程序，這些知識都是無價的。
 
 ## 常見問題解答
 
@@ -121,7 +121,7 @@ Aspose.PDF for .NET 是一個函式庫，可讓開發人員以程式設計方式
 您可以透過 Visual Studio 中的 NuGet 套件管理器安裝它，或從 [Aspose 網站](https://releases。aspose.com/pdf/net/).
 
 ### Aspose.PDF 可以免費使用嗎？
-Aspose 提供免費試用版供您評估。您可以找到它 [這裡](https://releases。aspose.com/).
+Aspose 提供免費試用版供評估。你可以找到它 [這裡](https://releases。aspose.com/).
 
 ### 在哪裡可以找到對 Aspose.PDF 的支援？
 可透過 Aspose 社群論壇獲得支持 [這裡](https://forum。aspose.com/c/pdf/10).

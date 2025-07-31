@@ -83,7 +83,7 @@ Console.WriteLine("Total files : {0}", embeddedFiles.Count);
 
 ## 5. lépés: Húzd át a mellékleteket
 
-Minden melléklet részleteinek kinyerése ciklus segítségével:
+Minden egyes melléklet részleteinek kinyerése ciklus segítségével:
 
 ```csharp
 int count = 1;

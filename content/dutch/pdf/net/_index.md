@@ -11,7 +11,7 @@
 
 ## PDF-documentcreatie en -manipulatie onder de knie krijgen
 
-Ontdek de uitgebreide mogelijkheden van Aspose.PDF voor .NET met onze uitgebreide tutorialcollectie. Van eenvoudige documentconversies tot geavanceerde interactieve functies, leer hoe u geavanceerde PDF-verwerkingsapplicaties bouwt die voldoen aan de eisen van bedrijven.
+Ontdek de uitgebreide mogelijkheden van Aspose.PDF voor .NET met onze uitgebreide tutorialcollectie. Van eenvoudige documentconversie tot geavanceerde interactieve functies: leer hoe u geavanceerde PDF-verwerkingsapplicaties bouwt die voldoen aan de eisen van bedrijven.
 
 ## 🚀 Wat u kunt bereiken
 
@@ -34,7 +34,7 @@ Transformeer verschillende bestandsformaten van en naar PDF met professionele kw
 | **[EPUB naar PDF converteren](./mastering-document-conversion/convert-epub-to-pdf/)** | Transformeer e-books naar PDF-formaat voor universele compatibiliteit | ⭐ Beginner |
 | **[HTML naar PDF onder de knie krijgen](./mastering-document-conversion/mastering-html-to-pdf/)** | Conversie van webinhoud naar PDF met geavanceerde stylingondersteuning | ⭐⭐ Gemiddeld |
 | **[CGM naar PDF-conversie](./mastering-document-conversion/convert-cgm-to-pdf/)** | Computer Graphics Metafile naar PDF-transformatie | ⭐⭐ Gemiddeld |
-| **[Bijlagen toevoegen aan PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** | Documentbijlagen die voldoen aan archiefnormen | ⭐⭐⭐ Geavanceerd |
+| **[Bijlagen toevoegen aan PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** Documentbijlagen die voldoen aan archiefnormen | ⭐⭐⭐ Geavanceerd |
 
 ### Master PDF-documentprogrammering
 Geavanceerde PDF-programmeertechnieken voor het creëren van geavanceerde documentoplossingen.
@@ -51,10 +51,10 @@ Essentiële PDF-paginabewerkingen voor documentorganisatie en structuurbeheer.
 
 | Tutorial | Beschrijving | Moeilijkheidsgraad |
 |----------|-------------|------------|
-| **[PDF-pagina-oriëntatie wijzigen](./master-pdf-page-management/change-pdf-page-orientation/)** | Pas de pagina-indeling en -oriëntatie aan voor een optimale weergave van het document | ⭐ Beginner |
-| **[PDF-bestanden samenvoegen](./master-pdf-page-management/concatenating-pdf-files/)** Meerdere PDF-documenten samenvoegen tot één samenhangend bestand | ⭐⭐ Gemiddeld |
-| **[Een bepaalde pagina uit een PDF-bestand verwijderen](./master-pdf-page-management/delete-particular-page-from-pdf-files/)** | Verwijder efficiënt specifieke pagina's uit PDF-documenten | ⭐ Beginner |
-| **[Lege pagina's invoegen in PDF-bestand](./master-pdf-page-management/insert-empty-pages/)** | Voeg lege pagina's toe voor organisatie en spaties van de inhoud | ⭐ Beginner |
+| **[Wijzig de PDF-pagina-oriëntatie](./master-pdf-page-management/change-pdf-page-orientation/)** | Pas de pagina-indeling en -oriëntatie aan voor een optimale weergave van het document | ⭐ Beginner |
+| **[PDF-bestanden samenvoegen](./master-pdf-page-management/concatenating-pdf-files/)** | Meerdere PDF-documenten samenvoegen tot één samenhangend bestand | ⭐⭐ Gemiddeld |
+| **[Een bepaalde pagina uit PDF-bestanden verwijderen](./master-pdf-page-management/delete-particular-page-from-pdf-files/)** | Verwijder efficiënt specifieke pagina's uit PDF-documenten | ⭐ Beginner |
+| **[Lege pagina's invoegen in PDF-bestand](./master-pdf-page-management/insert-empty-pages/)** | Voeg lege pagina's toe voor inhoudsorganisatie en spaties | ⭐ Beginner |
 | **[Een lege pagina aan het einde toevoegen](./master-pdf-page-management/adding-an-empty-page-at-end/)** | Lege pagina's programmatisch toevoegen aan PDF-documenten | ⭐ Beginner |
 
 ## 🎯 Populaire use cases
@@ -67,7 +67,7 @@ Essentiële PDF-paginabewerkingen voor documentorganisatie en structuurbeheer.
 ### **Interactieve documentcreatie**
 - **Formulierontwikkeling**: Dynamische PDF-formulieren met validatie en berekeningen
 - **Digitale handtekeningen**: Veilige ondertekening en authenticatie van documenten
-- **Multimedia-integratie**Rijke media-inhoud binnen PDF-documenten
+- **Multimedia-integratie**: Rijke media-inhoud binnen PDF-documenten
 
 ### **Web-naar-PDF-oplossingen**
 - **HTML-conversie**: Webinhoud omzetten naar PDF voor offline toegang
@@ -111,9 +111,9 @@ Essentiële PDF-paginabewerkingen voor documentorganisatie en structuurbeheer.
 ## 🔧 Geavanceerde functies beschikbaar
 
 ### **Beveiliging en naleving**
-- **Digitale handtekeningen** - Documentauthenticatie en integriteit
+- **Digitale handtekeningen** - Documentauthenticatie en -integriteit
 - **Encryptie** - Wachtwoordbeveiliging en toegangscontrole
-- **PDF/A-normen** - Naleving van archivering op lange termijn
+- **PDF/A-normen** Naleving van archivering op lange termijn
 
 ### **Documentverbetering**
 - **Watermerken** - Merkbescherming en documentmarkering
@@ -141,7 +141,7 @@ Essentiële PDF-paginabewerkingen voor documentorganisatie en structuurbeheer.
 ## 📋 Snelle handleiding
 
 ### **Documentconversie**
-- EPUB → PDF (E-book publicatie en distributie)
+- EPUB → PDF (uitgeven en distribueren van e-books)
 - HTML → PDF (Archiveren en delen van webinhoud)
 - CGM → PDF (Grafische bestandsconversie voor technische documenten)
 - PDF/A-naleving (normen voor langetermijnarchivering)
@@ -149,7 +149,7 @@ Essentiële PDF-paginabewerkingen voor documentorganisatie en structuurbeheer.
 ### **Interactieve functies**
 - JavaScript-integratie (dynamisch gedrag en automatisering)
 - Lagenbeheer (complexe documentstructuren)
-- Inhoudsopgave (Navigatie en organisatie)
+- Inhoudsopgave (navigatie en organisatie)
 - Formulierverwerking (gegevensverzameling en -validatie)
 
 ### **Paginabeheer**
@@ -160,5 +160,5 @@ Essentiële PDF-paginabewerkingen voor documentorganisatie en structuurbeheer.
 
 ### **Geavanceerde programmering**
 - Aangepast gedrag (scriptbeheer en automatisering)
-- Beveiligingsimplementatie (documentbeveiliging)
+- Beveiligingsimplementatie (Documentbeveiliging)
 - Prestatie-optimalisatie (verwerking van grote bestanden)

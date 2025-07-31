@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Words for .NET 將俄語設定為預設編輯語言，從而自訂您的 Word 文件。本指南循序漸進。"
+"description": "了解如何使用 Aspose.Words for .NET 將俄語設定為預設編輯語言來自訂您的 Word 文件。本逐步指南。"
 "linktitle": "將俄語設定為預設編輯語言"
 "second_title": "Aspose.Words文件處理API"
 "title": "將俄語設定為預設編輯語言"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-在我們日益多語言化的世界中，客製化文件以適應不同的語言偏好至關重要。如果您正在使用 Aspose.Words for .NET，本教學課程將指導您將俄語設定為 Word 文件的預設編輯語言。 
+在我們日益多語言的世界中，客製化文件以適應不同的語言偏好至關重要。如果您正在使用 Aspose.Words for .NET，本教學課程將引導您完成將俄語設定為 Word 文件中的預設編輯語言的過程。 
 
 ## 先決條件
 
@@ -99,7 +99,7 @@ Console.WriteLine(
 
 ## 結論
 
-使用 Aspose.Words for .NET 將俄語設定為 Word 文件的預設編輯語言非常簡單。透過配置 `LoadOptions`、載入文件並驗證語言設置，您可以自訂文件以有效滿足受眾的語言需求。
+使用 Aspose.Words for .NET 將俄語設定為 Word 文件的預設編輯語言是一個簡單的過程。透過配置 `LoadOptions`、載入文件並驗證語言設置，您可以自訂文件以有效滿足受眾的語言需求。
 
 ## 常見問題解答
 

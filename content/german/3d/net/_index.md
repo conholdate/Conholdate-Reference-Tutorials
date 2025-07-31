@@ -1,13 +1,14 @@
 ---
-title: Umfassende Tutorials und Beispiele zu Aspose.3D für .NET
-linktitle: Aspose.3D für .NET-Tutorials
-weight: 10
-url: /de/3d/
-description: Entdecken Sie die Welt der 3D-Modellierung und Animation mit den Tutorials zu Aspose.3D für .NET. Verbessern Sie Ihre Projekte mühelos – vom Rendering bis zur linearen Extrusion.
-is_root: true
+"description": "Entdecken Sie die Welt der 3D-Modellierung und -Animation mit Aspose.3D für .NET-Tutorials. Verbessern Sie Ihre Projekte mühelos – vom Rendering bis zur linearen Extrusion."
+"is_root": true
+"linktitle": "Aspose.3D für .NET-Tutorials"
+"title": "Umfassende Tutorials und Beispiele zu Aspose.3D für .NET"
+"url": "/de/3d/net/"
+"weight": 10
 ---
+
 ## Aspose.3D für .NET-Tutorials
 ### [Leitfaden zur 3D-Modellierung mit Aspose.Words für .NET](./guide-to-3d-modeling/)
-Entfesseln Sie die Leistungsfähigkeit von Aspose.3D für .NET mit Experten-Tutorials zum Erstellen von 3D-Modellen. Beginnen Sie damit, Ihre 3D-Designfähigkeiten zu perfektionieren.
+Entfesseln Sie die Leistungsfähigkeit von Aspose.3D für .NET mit Experten-Tutorials zum Erstellen von 3D-Modellen. Beginnen Sie, Ihre 3D-Designfähigkeiten zu perfektionieren.
 ### [Leitfaden zum Rendern von 3D-Modellen](./guide-to-rendering/)
-Entdecken Sie ausführliche Aspose.3D-Tutorials für .NET zu 3D-Modellierung, Rendering und Szenenmanipulation. Vereinfachte Anleitungen für Entwickler aller Niveaus.
+Entdecken Sie detaillierte Aspose.3D für .NET-Tutorials zu 3D-Modellierung, Rendering und Szenenbearbeitung. Vereinfachte Anleitungen für Entwickler aller Erfahrungsstufen.

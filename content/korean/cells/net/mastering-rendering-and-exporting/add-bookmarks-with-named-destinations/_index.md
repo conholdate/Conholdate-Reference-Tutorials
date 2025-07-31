@@ -84,7 +84,7 @@ Worksheet ws = wb.Worksheets[0]; // 첫 번째 워크시트에 접근하기
 ```csharp
 Cell cell = ws.Cells["C5"];
 PdfBookmarkEntry bookmarkEntry = new PdfBookmarkEntry();
-bookmarkEntry.Text = "Bookmark for C5"; // 북마크에 대한 텍스트
+bookmarkEntry.Text = "Bookmark for C5"; // 북마크의 텍스트
 bookmarkEntry.Destination = cell;  // 북마크를 셀에 연결하기
 bookmarkEntry.DestinationName = "AsposeCells--" + cell.Name; // 고유한 목적지 이름
 ```

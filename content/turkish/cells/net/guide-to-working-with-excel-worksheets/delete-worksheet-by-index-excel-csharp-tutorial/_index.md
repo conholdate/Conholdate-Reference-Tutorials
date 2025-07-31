@@ -121,7 +121,7 @@ Evet, Aspose.Cells ücretli bir kütüphanedir, ancak ücretsiz deneme sürümü
 Evet, çalışma sayfaları arasında geçiş yapabilir ve ilgili dizinlerini kullanarak silebilirsiniz. Çalışma sayfalarını silerken dizini uygun şekilde ayarlamayı unutmayın.
 
 ### Yanlış çalışma sayfasını silersem ne olur?
-Çalışma kitabını sildikten sonra kaydetmediyseniz, orijinal dosyayı yeniden açabilirsiniz. Bu tür değişiklikler yapmadan önce her zaman bir yedek alın; tedbirli olmakta fayda var!
+Çalışma kitabını sildikten sonra kaydetmediyseniz, orijinal dosyayı yeniden açabilirsiniz. Bu tür değişiklikler yapmadan önce mutlaka bir yedek alın; tedbirli olmakta fayda var!
 
 ### Aspose.Cells hakkında daha detaylı dokümantasyonu nerede bulabilirim?
 Belgeleri kontrol edebilirsiniz [Burada](https://reference.aspose.com/cells/net/) kapsamlı kılavuzlar ve ek özellikler için.

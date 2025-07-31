@@ -15,17 +15,17 @@ Aspose.Cells voor .NET is dé ultieme toolkit voor Excel-bestandsautomatisering.
 
 Heb je je ooit afgevraagd of een VBA-project vergrendeld is voor weergave? Met Aspose.Cells kun je dit programmatisch en in een handomdraai controleren. Stel je voor dat je een grote hoeveelheid Excel-bestanden hebt – elk bestand handmatig controleren zou omslachtig zijn. Deze tutorial maakt het allemaal eenvoudiger en laat je de vergrendelingsstatus bepalen met behulp van overzichtelijke, efficiënte code. Nieuwsgierig? [Lees verder](./check-vba-project-lock-status/).
 
-## VBA-gebruikersformulieren en -macro's overbrengen
+## VBA-gebruikersformulieren en macro's overbrengen
 
-Het migreren van gebruikersformulieren en macro's tussen werkmappen kan aanvoelen als het verplaatsen van meubels – tijdrovend en delicaat. Maar met Aspose.Cells voor .NET is het een fluitje van een cent. Je leert hoe je alles naadloos kopieert, met behoud van functionaliteit zonder handmatige rompslomp. Klaar om je Excel-workflow een boost te geven? [Lees hier meer](./transfer-vba-user-form-and-macro/).
+Het migreren van gebruikersformulieren en macro's tussen werkmappen kan aanvoelen als het verplaatsen van meubels – tijdrovend en delicaat. Maar met Aspose.Cells voor .NET is het een fluitje van een cent. U leert hoe u alles naadloos kunt kopiëren, met behoud van functionaliteit zonder de handmatige rompslomp. Klaar om uw Excel-workflow een boost te geven? [Lees hier meer](./transfer-vba-user-form-and-macro/).
 
 ## Veilige en met een wachtwoord beveiligde VBA-projecten
 
-Het beveiligen van je VBA-projecten is cruciaal, vooral bij het verwerken van gevoelige gegevens of bedrijfseigen automatisering. Met Aspose.Cells kun je wachtwoordbeveiliging toevoegen met slechts een paar regels code. Van eenvoudige beveiligingscontroles tot het toepassen van robuuste beveiliging, deze tutorials bieden je alles wat je nodig hebt. [Duik in de details](./password-protect-vba-projects/).
+Het beveiligen van je VBA-projecten is cruciaal, vooral bij het verwerken van gevoelige gegevens of bedrijfseigen automatisering. Met Aspose.Cells kun je wachtwoordbeveiliging toevoegen met slechts een paar regels code. Van basisbeveiligingscontroles tot het toepassen van robuuste beveiliging, deze tutorials bieden je alles wat je nodig hebt. [Duik in de details](./password-protect-vba-projects/).
 
 ## Controleer en beveilig VBA-projecten
 
-Het beveiligen van je VBA-project gaat niet alleen over het toevoegen van een wachtwoord – het gaat erom ervoor te zorgen dat je gevoelige code beschermd blijft tegen ongeautoriseerde toegang. Aspose.Cells voor .NET biedt je krachtige tools om te controleren of een project al beveiligd is en om extra beveiligingsmaatregelen toe te passen. Deze tutorial laat je zien hoe je deze taken programmatisch kunt uitvoeren en je Excel-projecten kunt beschermen tegen nieuwsgierige blikken. Wil je leren hoe je je VBA-project kunt beveiligen? [Meer informatie vindt u hier](./check-and-secure-vba-projects-is-protected/).
+Het beveiligen van je VBA-project gaat niet alleen over het toevoegen van een wachtwoord, maar ook over het beschermen van je gevoelige code tegen ongeautoriseerde toegang. Aspose.Cells voor .NET biedt je krachtige tools om te controleren of een project al beveiligd is en om extra beveiligingsmaatregelen toe te passen. Deze tutorial laat je zien hoe je deze taken programmatisch kunt uitvoeren en je Excel-projecten kunt beschermen tegen nieuwsgierige blikken. Wil je leren hoe je je VBA-project kunt beveiligen? [Lees hier meer](./check-and-secure-vba-projects-is-protected/).
 
 ## VBA-projecttutorials voor het beheersen van werkboeken
 ### [Controleer de vergrendelingsstatus van VBA-projecten in Excel met Aspose.Cells](./check-vba-project-lock-status/)
@@ -34,5 +34,5 @@ Deze uitgebreide handleiding begeleidt u door het proces om te controleren of ee
 Ontgrendel de kracht van Excel-automatisering met deze uitgebreide handleiding over het overzetten van VBA-gebruikersformulieren en macro's tussen werkmappen met Aspose.Cells voor .NET. Perfect voor zowel beginners als ervaren ontwikkelaars.
 ### [Controleer en beveilig VBA-projecten zijn beveiligd met Aspose.Cells](./check-and-secure-vba-projects-is-protected/)
 Leer hoe u VBA-projecten in Excel-bestanden programmatisch kunt controleren en beveiligen met Aspose.Cells voor .NET. Stapsgewijze handleiding met complete codevoorbeelden inbegrepen.
-### [VBA-projecten in Excel-werkmappen met een wachtwoord beveiligen](./password-protect-vba-projects/)
-Leer stapsgewijs hoe u wachtwoordbeveiliging toepast om uw macro's en gevoelige code te beschermen tegen ongeautoriseerde toegang.
+### [VBA-projecten van Excel-werkmappen met een wachtwoord beveiligen](./password-protect-vba-projects/)
+Leer stap voor stap hoe u wachtwoordbeveiliging toepast om uw macro's en gevoelige code te beschermen tegen ongeautoriseerde toegang.

@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Secties vormen de ruggengraat bij het opmaken van Word-documenten. Ze stellen je in staat om afzonderlijke onderdelen binnen een document te creëren, waardoor je de flexibiliteit hebt om verschillende opmaak toe te passen, zoals kopteksten, voetteksten en pagina-indelingen. Zie secties als hoofdstukken in een boek: elk segment kan op zichzelf staan en tegelijkertijd bijdragen aan het grotere verhaal. In deze tutorialserie verdiepen we ons in de basisprincipes van sectiebeheer met Aspose.Words voor .NET, zodat je documenten niet alleen functioneel, maar ook visueel aantrekkelijk zijn.
+Secties vormen de ruggengraat bij het opmaken van Word-documenten. Ze stellen je in staat om afzonderlijke onderdelen binnen een document te creëren, waardoor je de flexibiliteit hebt om verschillende opmaak toe te passen, zoals kopteksten, voetteksten en pagina-indelingen. Beschouw secties als hoofdstukken in een boek: elk segment kan op zichzelf staan en tegelijkertijd bijdragen aan het grotere verhaal. In deze tutorialserie verdiepen we ons in de basisprincipes van sectiebeheer met Aspose.Words voor .NET, zodat je documenten niet alleen functioneel, maar ook visueel aantrekkelijk zijn.
 
 ## Secties toevoegen en verwijderen
 
@@ -23,10 +23,10 @@ Zodra je de basis van het toevoegen en verwijderen van secties onder de knie heb
 
 Als u bovendien geïnteresseerd bent in het uitbreiden van uw documenten met nieuwe informatie, laten we eens kijken hoe u dat kunt doen [Sectie-inhoud toevoegen](./append-section-word-content/)Met deze gids krijgt u de kennis om naadloos inhoud toe te voegen aan bestaande secties, waardoor uw workflow efficiënter wordt.
 
- ## Sectiebeheer-tutorials onder de knie krijgen
+ ## Sectiebeheer onder de knie krijgen: tutorials
 | Titel | Beschrijving |
 | --- | --- |
 | [Secties toevoegen met Aspose.Words voor .NET](./adding-sections/) | Leer hoe u secties toevoegt met Aspose.Words voor .NET-documenten. Leer hoe u secties in Word-documenten kunt maken om de leesbaarheid en professionaliteit te verbeteren. Deze handleiding behandelt alles, van het initialiseren van een document tot het opslaan van uw werk. |
 | [Secties uit Word-documenten verwijderen met Aspose.Words in .NET](./delete-sections-word-document/) Ontdek hoe u efficiënt secties uit Word-documenten verwijdert met Aspose.Words voor .NET. Deze uitgebreide handleiding leidt u door de vereisten. |
-| [Sectie-Woordinhoud toevoegen met Aspose.Words in .NET](./append-section-word-content/) | Leer de basisbeginselen voor het maken, wijzigen en toevoegen van secties in Word-documenten met eenvoudig te volgen voorbeelden, perfect voor zowel beginners als ervaren ontwikkelaars. |
+| [Sectie-woordinhoud toevoegen met Aspose.Words in .NET](./append-section-word-content/) | Leer de basisbeginselen voor het maken, wijzigen en toevoegen van secties in Word-documenten met eenvoudig te volgen voorbeelden, perfect voor zowel beginners als ervaren ontwikkelaars. |
 | [Secties tussen Word-documenten kopiëren met Aspose.Words](./copy-sections-word-documents/) | Leer stap voor stap hoe u efficiënt secties tussen Word-documenten kunt kopiëren met Aspose.Words voor .NET. Deze gedetailleerde handleiding behandelt vereisten, codevoorbeelden, geavanceerde tips en veelgestelde vragen. |

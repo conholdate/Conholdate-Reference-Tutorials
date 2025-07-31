@@ -1,21 +1,22 @@
 ---
-title: .NET için Aspose.Note'ta Dosya Ekleme ve Simge Ayarlama
-linktitle: Aspose'da Dosya Ekle ve Simge Ayarla.Not
-second_title: Aspose.Not .NET API'si
-description: Aspose.Note for .NET kullanarak Microsoft OneNote belgelerine dosya eklemeyi ve özel simgeler ayarlamayı adım adım öğrenin. .NET uygulamanızı kusursuz belge yönetimi ve özelleştirme özellikleriyle geliştirin.
-weight: 10
-url: /tr/note/manage-attachments/attaching-files-setting-icons/
+"description": "Aspose.Note for .NET kullanarak Microsoft OneNote belgelerine dosya eklemeyi ve özel simgeler ayarlamayı adım adım öğrenin. .NET uygulamanızı kusursuz belge yönetimi ve özelleştirme özellikleriyle geliştirin."
+"linktitle": "Aspose'da Dosya Ekle ve Simge Ayarla.Not"
+"second_title": "Aspose.Note .NET API"
+"title": ".NET için Aspose.Note'ta Dosya Ekleme ve Simge Ayarlama"
+"url": "/tr/note/net/manage-attachments/attaching-files-setting-icons/"
+"weight": 10
 ---
+
 ## giriiş
 
-Aspose.Note for .NET, geliştiricilerin Microsoft OneNote dosyalarını programatik olarak oluşturması, düzenlemesi ve dönüştürmesi için tasarlanmış gelişmiş bir kütüphanedir. Bu kütüphanenin öne çıkan bir özelliği, OneNote belgelerine dosya ekleme ve simgelerini özelleştirme yeteneğidir. Bu kılavuzda, Aspose.Note for .NET'i sorunsuz bir şekilde dosya eklemek ve özel simgeler ayarlamak için nasıl kullanacağınızı keşfedeceğiz ve OneNote belge işlevselliğinizi zenginleştireceğiz.
+Aspose.Note for .NET, geliştiricilerin Microsoft OneNote dosyalarını programatik olarak oluşturmaları, düzenlemeleri ve dönüştürmeleri için tasarlanmış gelişmiş bir kütüphanedir. Bu kütüphanenin öne çıkan özelliklerinden biri, OneNote belgelerine dosya ekleme ve simgelerini özelleştirme yeteneğidir. Bu kılavuzda, Aspose.Note for .NET'i kullanarak dosyaları sorunsuz bir şekilde nasıl ekleyeceğinizi ve özel simgeler ayarlayarak OneNote belge işlevselliğinizi nasıl zenginleştireceğinizi inceleyeceğiz.
 
 ## Ön koşullar
 
 Çözümü uygulamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-- Geliştirme Ortamı: .NET geliştirme için yapılandırılmış Visual Studio veya benzer bir IDE.
--  Kütüphane Kurulumu: Şunu kurun:[.NET için Aspose.Note](https://releases.aspose.com/words/net/) kütüphane.
+- Geliştirme Ortamı: .NET geliştirme için yapılandırılmış Visual Studio veya benzeri bir IDE.
+- Kütüphane Kurulumu: Şunu kurun: [.NET için Aspose.Note](https://releases.aspose.com/words/net/) kütüphane.
 - Programlama Bilgisi: C# hakkında temel bilgi.
 
 ## Gerekli Ad Alanlarını İçe Aktarma
@@ -32,9 +33,9 @@ using System.Drawing.Imaging;
 
 Aşağıda adım adım detaylı uygulama yer almaktadır.
 
-## Adım 1: Yeni Bir OneNote Belgesi Oluşturun
+## Adım 1: Yeni bir OneNote Belgesi Oluşturun
 
- Yeni bir OneNote belgesini şu şekilde başlatın:`Document` sınıf.
+Yeni bir OneNote belgesini şu şekilde başlatın: `Document` sınıf.
 
 ```csharp
 Document doc = new Document();
@@ -48,17 +49,17 @@ Notlarınızı ve eklerinizi düzenlemek için belgeye bir sayfa ekleyin.
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-## Adım 3: Bir Ana Hat Oluşturun
+## Adım 3: Bir Anahat Oluşturun
 
- Bir tane oluştur`Outline` OneNote sayfanızdaki öğeler için kapsayıcı görevi gören nesne.
+Bir tane oluştur `Outline` OneNote sayfanızdaki öğeler için kapsayıcı görevi gören nesne.
 
 ```csharp
 Outline outline = new Outline(doc);
 ```
 
-## Adım 4: Bir Anahat Elemanı Başlatın
+## Adım 4: Bir Anahat Öğesini Başlatın
 
- Bir`OutlineElement` eki ve ilişkili simgeyi tutacaktır.
+Bir `OutlineElement` eki ve ilişkili simgeyi tutacaktır.
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
@@ -66,7 +67,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 
 ## Adım 5: Bir Dosya Ekleyin ve Simgesini Belirleyin
 
-Eklenecek dosyayı belirtin ve ona bir simge ekleyin.
+Eklenecek dosyayı belirtin ve ona bir simge verin.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -80,7 +81,7 @@ using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 
 ## Adım 6: Belge Yapısını Birleştirin
 
- Ekle`OutlineElement` için`Outline` ve`Outline` için`Page`.
+Ekle `OutlineElement` -e `Outline`ve `Outline` -e `Page`.
 
 ```csharp
 outline.AppendChildLast(outlineElem);
@@ -97,7 +98,7 @@ doc.AppendChildLast(page);
 
 ## Adım 8: Belgeyi Kaydedin
 
-Güncellenmiş belgenizi dosya eki ve simgesiyle birlikte dışarı aktarın.
+Güncellenmiş belgenizi dosya eki ve simgesiyle birlikte dışa aktarın.
 
 ```csharp
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
@@ -106,23 +107,23 @@ doc.Save(dataDir);
 
 ## Çözüm
 
-Bu kılavuzda özetlenen adımları izleyerek, Aspose.Note for .NET kullanarak OneNote belgelerine zahmetsizce dosya ekleyebilir ve özel simgeler ayarlayabilirsiniz. Bu işlevsellik, belge organizasyonunu ve kullanıcı deneyimini büyük ölçüde iyileştirebilir, uygulamalarınızı daha sağlam ve özellik açısından zengin hale getirebilir.
+Bu kılavuzda açıklanan adımları izleyerek, Aspose.Note for .NET kullanarak OneNote belgelerine zahmetsizce dosya ekleyebilir ve özel simgeler ayarlayabilirsiniz. Bu işlevsellik, belge düzenlemesini ve kullanıcı deneyimini önemli ölçüde iyileştirerek uygulamalarınızı daha sağlam ve özellik açısından zengin hale getirebilir.
 
 ## SSS
 
 ### Tek bir nota birden fazla dosya eklenebilir mi?
 Evet, her dosya için ekleme işlemini tekrarlayarak birden fazla dosya ekleyebilirsiniz.
 
-### Simgeler için hangi resim biçimleri destekleniyor?
+### Simgeler için hangi görüntü biçimleri destekleniyor?
 Aspose.Note, ek simgeleri için JPEG, PNG, BMP ve GIF formatlarını destekler.
 
 ### Harici URL'lerden dinamik olarak dosya eklemek mümkün müdür?
- .NET kütüphanelerini kullanarak dosyaları indirebilirsiniz.`HttpClient` ve sonra bunları Aspose.Note kullanarak ekleyin.
+.NET kütüphanelerini kullanarak dosyaları indirebilirsiniz. `HttpClient` ve sonra bunları Aspose.Note kullanarak ekleyin.
 
-### Ekler için dosya boyutu sınırlaması var mı?
+### Ekler için dosya boyutunda herhangi bir sınırlama var mı?
 Aspose.Note tarafından belirlenmiş açık bir boyut sınırı yoktur, ancak sistem kaynaklarınızın büyük dosyaları kaldırabileceğinden emin olun.
 
 ### Simgeler ayarlanmadan önce yeniden boyutlandırılabilir mi?
- Evet, .NET'i kullanarak simge görüntüsünü düzenleyebilirsiniz.`System.Drawing` Eklemeden önce kütüphaneyi kontrol edin.
+Evet, .NET'i kullanarak simge görüntüsünü düzenleyebilirsiniz. `System.Drawing` Eklemeden önce kütüphaneyi kontrol edin.
 
- Daha fazla yardım için, şunu keşfedin:[belgeleme](https://reference.aspose.com/words/net/) veya ulaşın[Aspose desteği](https://forum.aspose.com/c/words/8).
+Daha fazla yardım için, şunu keşfedin: [dokümantasyon](https://reference.aspose.com/words/net/) veya ulaşmak [Aspose desteği](https://forum.aspose.com/c/words/8).

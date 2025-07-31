@@ -99,4 +99,4 @@ Aspose.PDF for .NET は、開発者がプログラムで PDF ドキュメント�
 包括的なドキュメントを確認することができます [ここ](https://reference。aspose.com/pdf/net/).
 
 ### 問題が発生した場合はどうすればよいですか?
-問題が発生した場合は、 [Aspose サポートフォーラム](https://forum.aspose.com/c/pdf/10) 援助をお願いします。
+何か問題が発生した場合は、 [Aspose サポートフォーラム](https://forum.aspose.com/c/pdf/10) 援助をお願いします。

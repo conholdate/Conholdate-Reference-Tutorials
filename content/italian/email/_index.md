@@ -21,10 +21,10 @@ Sfrutta appieno il potenziale della gestione della posta elettronica con Aspose.
 - **📧 Supporto per il formato e-mail**: EML, MSG, MHTML, PST, OST, MBOX e altro ancora
 - **🔄 Conversione senza interruzioni**: Trasforma diversi formati di posta elettronica con alta fedeltà
 - **🤖 Analisi avanzata**: Rilevamento dello spam basato sull'apprendimento automatico ed elaborazione dei contenuti
-- **📊 Integrazione del protocollo**: Supporto SMTP, POP3, IMAP, Exchange Web Services
+- **📊 Integrazione del protocollo**Supporto SMTP, POP3, IMAP, Exchange Web Services
 - **🔒 Funzionalità di sicurezza**: Crittografia della posta elettronica, firme digitali e autenticazione
 
-## 📚 Categorie dei tutorial
+## 📚 Categorie di tutorial
 
 ### Guida completa alla conversione e all'esportazione di e-mail
 Padroneggia le trasformazioni essenziali del formato email mantenendo la qualità professionale e la compatibilità.
@@ -40,7 +40,7 @@ Elaborazione avanzata dei contenuti delle e-mail e tecniche di analisi intellige
 | Tutorial | Descrizione | Difficoltà |
 |----------|-------------|------------|
 | **[Analisi bayesiana dello spam in C#](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Rilevamento dello spam basato sull'apprendimento automatico con analisi statistica | ⭐⭐⭐ Avanzato |
-| **[Convertire l'email HTML in testo normale](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Estrai contenuto di testo pulito da email HTML | ⭐⭐ Intermedio |
+| **[Convertire l'email HTML in testo normale](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Estrai contenuto di testo pulito da email HTML | ⭐⭐ Intermedio |
 
 ### Padroneggiare le notifiche e il monitoraggio via e-mail
 Sistemi di notifica e-mail professionali e implementazioni di monitoraggio per applicazioni aziendali.
@@ -55,7 +55,7 @@ Sistemi di notifica e-mail professionali e implementazioni di monitoraggio per a
 
 ### **Integrazione del sistema di posta elettronica**
 - **Migrazione della posta elettronica**: Converti tra diversi formati di posta elettronica per le migrazioni di sistema
-- **Soluzioni di archiviazione**Archiviazione e-mail a lungo termine con standardizzazione del formato
+- **Soluzioni di archiviazione**: Archiviazione e-mail a lungo termine con standardizzazione del formato
 - **Compatibilità multipiattaforma**: Assicurati che le email funzionino su diversi client di posta elettronica
 
 ### **Sicurezza e analisi della posta elettronica**
@@ -122,10 +122,10 @@ Sistemi di notifica e-mail professionali e implementazioni di monitoraggio per a
 - **Crittografia** - Comunicazione e-mail sicura e protezione dei dati
 
 ### **Analisi e reporting**
-- **Monitoraggio e-mail** - Conferma di consegna del messaggio e ricevute di lettura
-- **Analisi del contenuto** - Text mining e classificazione delle e-mail
-- **Misure di prestazione** - Monitoraggio e analisi del sistema di posta elettronica
-- **Segnalazione di conformità** Conformità normativa e piste di controllo
+- **Monitoraggio e-mail** Conferma di consegna del messaggio e ricevute di lettura
+- **Analisi del contenuto** - Text mining e classificazione delle email
+- **Metriche delle prestazioni** - Monitoraggio e analisi del sistema di posta elettronica
+- **Segnalazione di conformità** - Conformità normativa e piste di controllo
 
 ## 🔗 Risorse aggiuntive
 

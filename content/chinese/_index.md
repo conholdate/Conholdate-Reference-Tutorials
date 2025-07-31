@@ -319,7 +319,7 @@
 
 ### 文档比较与分析
 
-#### .NET 版 GroupDocs.Comparison
+#### 适用于 .NET 的 GroupDocs.Comparison
 
 {{% alert color="primary" %}}
 **智能文档比较** 使用高级算法比较文档并突出差异。构建文档审查系统、版本控制工具和合规性解决方案。
@@ -358,7 +358,7 @@
 
 ### 元数据管理
 
-#### 适用于 .NET 的 GroupDocs.Metadata
+#### .NET 的 GroupDocs.Metadata
 
 {{% alert color="primary" %}}
 **文档元数据处理** 提取、编辑和管理跨文件格式的元数据。构建文档索引系统、内容管理平台和合规工具。

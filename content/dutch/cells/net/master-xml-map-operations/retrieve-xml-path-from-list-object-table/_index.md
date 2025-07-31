@@ -83,7 +83,7 @@ In Excel is een lijstobject een tabel met gestructureerde gegevens, vaak gebruik
 Aspose.Cells.Tables.ListObject listObject = worksheet.ListObjects[0];
 ```
 
-Hiermee wordt de eerste List Object Table opgehaald. Als uw werkblad meerdere List Object Tables bevat, past u de index dienovereenkomstig aan.
+Hiermee wordt de eerste lijstobjecttabel opgehaald. Als uw werkblad meerdere lijstobjecttabellen bevat, past u de index dienovereenkomstig aan.
 
 ## Stap 5: De XML-kaartgegevensbinding-URL ophalen
 
@@ -119,11 +119,11 @@ Een lijstobjecttabel in Excel is een gestructureerde gegevenstabel waarmee gegev
 
 ### Waarom moet ik het XML-pad uit een lijstobjecttabel ophalen?
 
-Door het XML-pad op te halen, kunt u de XML-gegevens die aan de List Object Table zijn gekoppeld, programmatisch benaderen en beheren. Dit is met name handig voor toepassingen die synchronisatie of updates van XML-gegevens in Excel-bestanden vereisen.
+Door het XML-pad op te halen, kunt u de XML-gegevens die aan de lijstobjecttabel zijn gekoppeld, programmatisch benaderen en beheren. Dit is met name handig voor toepassingen die synchronisatie of updates van XML-gegevens in Excel-bestanden vereisen.
 
 ### Kan Aspose.Cells de XML-gegevens in Excel-bestanden wijzigen?
 
-Ja, Aspose.Cells biedt krachtige functies voor het wijzigen van XML-gegevens in Excel-bestanden. Dit omvat het lezen en bijwerken van XML-gegevensbindingen, indien nodig.
+Ja, Aspose.Cells biedt krachtige functies voor het wijzigen van XML-gegevens in Excel-bestanden. Dit omvat zowel het lezen als bijwerken van XML-gegevensbindingen indien nodig.
 
 ### Is Aspose.Cells compatibel met .NET Core?
 

@@ -79,7 +79,7 @@ Ebben a részletben:
 - Újat hozunk létre `VbaModule` objektum.
 - Állítsa a nevét „AsposeModule”-ra.
 - Definiáld a modul típusát úgy, mint `VbaModuleType.ProceduralModule`.
-- Adj hozzá egy egyszerű „Hello, World!” makrót, mint a `SourceCode`.
+- Adj hozzá egy egyszerű „Hello, World!” makrót, mint `SourceCode`.
 
 ## 5. lépés: A dokumentum mentése
 

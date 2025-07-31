@@ -110,7 +110,7 @@ worksheet.Name = "My Worksheet";
 workbook.Save(dataDir, "output.xls");
 ```
 
-- `workbook.Save()`Αποθηκεύει το βιβλίο εργασίας στην καθορισμένη διαδρομή.
+- `workbook.Save()`: Αποθηκεύει το βιβλίο εργασίας στην καθορισμένη διαδρομή.
 
 ## Σύναψη
 

@@ -19,7 +19,7 @@ Voordat we in de code duiken, controleren we of alles klaar staat voor een soepe
 
 Zorg ervoor dat je de nieuwste versie van .NET Framework hebt geïnstalleerd. Dit is essentieel voor het effectief uitvoeren van je C#-code.
 
-### Aspose.PDF-bibliotheek
+### Aspose.PDF Bibliotheek
 
 Download vervolgens de Aspose.PDF-bibliotheek, waarmee u naadloos PDF-bestanden kunt maken, bewerken en converteren. U vindt deze op de [Aspose-website](https://releases.aspose.com/pdf/net/).
 
@@ -36,7 +36,7 @@ using System.IO;
 using Aspose.Pdf;
 ```
 
-Met deze stap worden de vereiste klassen en methoden toegevoegd, waarmee u voorbereid bent op PDF-manipulatie.
+Met deze stap worden de vereiste klassen en methoden toegevoegd, waarmee u zich voorbereidt op PDF-manipulatie.
 
 Laten we het proces van het samenvoegen van PDF-bestanden opsplitsen in eenvoudig te volgen stappen. Pak je code-editor en laten we beginnen met coderen!
 
@@ -48,7 +48,7 @@ Geef eerst aan waar uw PDF-bestanden zich bevinden. Dit is cruciaal voor het pro
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Vervangen `"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad op uw systeem waar de PDF's zich bevinden.
+Vervangen `"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad op uw systeem waar de PDF's zich bevinden.
 
 ## Stap 2: Open het eerste PDF-document
 
@@ -89,7 +89,7 @@ dataDir = dataDir + "ConcatenatePdfFiles_out.pdf";
 pdfDocument1.Save(dataDir);
 ```
 
-Hiermee wordt een nieuwe bestandsnaam voor het samengevoegde document gemaakt en opgeslagen, terwijl de oorspronkelijke bestanden intact blijven.
+Hiermee wordt een nieuwe bestandsnaam voor het samengevoegde document gemaakt en opgeslagen, waarbij de oorspronkelijke bestanden intact blijven.
 
 ## Stap 6: Informeer de gebruiker
 
@@ -120,4 +120,4 @@ U kunt Aspose.PDF kopen door de website te bezoeken [aankooppagina](https://purc
 Absoluut! Je kunt ondersteuning krijgen van de [Aspose-forum](https://forum.aspose.com/c/pdf/10).
 
 ### Kan ik een tijdelijke licentie voor Aspose.PDF krijgen?  
-Ja, Aspose biedt een tijdelijke licentie aan die u kunt aanvragen [hier](https://purchase.aspose.com/temporary-license/).
+Ja, Aspose biedt een tijdelijke licentie die u kunt aanvragen [hier](https://purchase.aspose.com/temporary-license/).

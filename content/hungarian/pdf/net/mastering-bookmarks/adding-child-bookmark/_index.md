@@ -86,7 +86,7 @@ OutlineItemCollection childBookmark = new OutlineItemCollection(pdfDocument.Outl
 
 ## 5. lépés: Kapcsolja össze a gyermekkönyvjelzőt a szülőkönyvjelzővel
 
-Miután mindkét könyvjelző létrejött, kapcsolja össze a gyermekkönyvjelzőt a szülőkönyvjelzővel:
+Miután mindkét könyvjelző létrejött, kösd össze a gyermekkönyvjelzőt a szülőkönyvjelzővel:
 
 ```csharp
 parentBookmark.Add(childBookmark);
@@ -94,7 +94,7 @@ parentBookmark.Add(childBookmark);
 
 ## 6. lépés: A szülőkönyvjelző hozzáadása a dokumentumhoz
 
-Most adja hozzá a szülő könyvjelzőt (és annak gyermekét) a dokumentum vázlatgyűjteményéhez:
+Most adja hozzá a szülő könyvjelzőt (a gyermekével együtt) a dokumentum vázlatgyűjteményéhez:
 
 ```csharp
 pdfDocument.Outlines.Add(parentBookmark);

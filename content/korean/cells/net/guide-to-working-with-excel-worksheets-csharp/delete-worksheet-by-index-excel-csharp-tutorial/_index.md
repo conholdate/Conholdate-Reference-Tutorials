@@ -4,7 +4,7 @@
 "date": "2025-01-02"
 "description": "C#과 Aspose.Cells를 사용하여 특정 Excel 워크시트를 인덱스별로 삭제하는 방법을 알아보세요. 코드 예제, 문제 해결 팁, 모범 사례를 담은 단계별 튜토리얼입니다."
 "lastmod": "2025-01-02"
-"linktitle": "인덱스 C#로 Excel 워크시트 삭제"
+"linktitle": "C# 인덱스로 Excel 워크시트 삭제"
 "second_title": ".NET API 참조용 Aspose.Cells"
 "tags":
 - "c-sharp"
@@ -82,7 +82,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 바꾸다 `"YOUR DOCUMENT DIRECTORY"` Excel 파일의 실제 경로를 입력합니다. 예:
 - 윈도우: `@"C:\ExcelFiles\"`
-- macOS/Linux: `"/Users/yourname/ExcelFiles/"`
+- macOS/리눅스: `"/Users/yourname/ExcelFiles/"`
 
 **프로 팁**: 사용하세요 `@` Windows에서 문자열 앞에 \ 기호를 사용하면 백슬래시를 자동으로 처리할 수 있고, 모든 플랫폼에서 작동하는 \ 기호를 사용할 수도 있습니다.
 
@@ -159,7 +159,7 @@ workbook.Save(dataDir + "output.out.xls");
 fstream.Close();
 ```
 
-이 단계는 다음의 경우에 중요합니다.
+이 단계는 다음의 경우에 중요합니다:
 - 장기 실행 애플리케이션에서 메모리 누수 방지
 - 다른 프로세스가 파일에 액세스할 수 있도록 파일 잠금 해제
 - 리소스 관리를 위한 .NET 모범 사례 따르기

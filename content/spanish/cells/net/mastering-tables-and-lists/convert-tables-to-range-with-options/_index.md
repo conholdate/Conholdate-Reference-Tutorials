@@ -9,7 +9,7 @@
 
 ## Introducción
 
-Al automatizar tareas de Excel mediante programación, una biblioteca potente como Aspose.Cells para .NET puede optimizar significativamente el flujo de trabajo. Una función clave es la conversión de tablas a rangos normales, esencial para diversas manipulaciones de datos. En esta guía, le guiaremos a través del proceso de conversión de una tabla a un rango normal en Excel, asegurándose de que domine el uso de Aspose.Cells.
+Al automatizar tareas de Excel mediante programación, una potente biblioteca como Aspose.Cells para .NET puede optimizar significativamente el flujo de trabajo. Una función clave es la conversión de tablas a rangos normales, esencial para diversas manipulaciones de datos. En esta guía, le guiaremos a través del proceso de conversión de una tabla a un rango normal en Excel, asegurándose de que domine el uso de Aspose.Cells.
 
 ## Prerrequisitos
 

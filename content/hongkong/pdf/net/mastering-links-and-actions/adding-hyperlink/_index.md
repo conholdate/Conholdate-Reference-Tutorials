@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.PDF for .NET 新增互動式超鏈接，從而提升 PDF 文件的功能。本指南提供全面的逐步教學。"
+"description": "了解如何透過使用 Aspose.PDF for .NET 新增互動式超連結來提升 PDF 文件的功能。本綜合指南提供了逐步教程。"
 "linktitle": "在 PDF 文件中添加超鏈接"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "在 PDF 文件中添加超鏈接"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-增強 PDF 文件的互動性和可導航性可以顯著提升使用者體驗。無論您是建立包含付款入口網站連結的發票，還是建立引導讀者存取線上資源的報告，新增超連結都是提升 PDF 使用者體驗的有效方法。在本指南中，我們將示範如何使用 Aspose.PDF 庫（.NET 庫）為 PDF 檔案新增超連結。
+增強PDF文件的互動性和可導航性可以顯著改善使用者體驗。無論您是建立具有支付入口網站連結的發票，還是建立引導讀者存取線上資源的報告，新增超連結都是讓您的 PDF 更友善使用者的有效方法。在本指南中，我們將介紹使用 .NET 的 Aspose.PDF 庫為 PDF 檔案新增超連結的過程。
 
 ## 先決條件
 
@@ -44,7 +44,7 @@ Document document = new Document(dataDir + "AddHyperlink.pdf");
 
 ## 步驟3：造訪PDF頁面
 
-選擇要新增超連結的頁面。例如，要將其新增至第一頁：
+選擇要新增超連結的頁面。例如，將其新增至第一頁：
 
 ```csharp
 Page page = document.Pages[1]; // 頁面索引從 1 開始
@@ -62,7 +62,7 @@ LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100
 
 ## 步驟 5：設定連結的邊框
 
-您可以自訂連結的邊框；在這裡，我們將使其不可見：
+您可以自訂連結的邊框；在這裡，我們將使它不可見：
 
 ```csharp
 Border border = new Border(link) { Width = 0 };
@@ -71,7 +71,7 @@ link.Border = border;
 
 ## 步驟 6：指定超連結操作
 
-設定超連結的操作。在本例中，我們將連結到 Aspose 網站：
+設定超連結的操作。在此範例中，我們將連結到 Aspose 網站：
 
 ```csharp
 link.Action = new GoToURIAction("http://www.aspose.com”);
@@ -114,7 +114,7 @@ document.Save(dataDir);
 
 ## 結論
 
-使用 Aspose.PDF for .NET 為您的 PDF 文件添加超鏈接，不僅可以提昇文件的專業性，還能提升用戶參與度。按照本指南中概述的步驟，您可以輕鬆地將超連結新增至您建立或修改的任何 PDF 文件。
+使用 Aspose.PDF for .NET 為您的 PDF 文件添加超連結不僅可以增強其專業性，還可以提高使用者參與度。按照本指南中概述的步驟，您可以輕鬆地將超連結新增至您建立或修改的任何 PDF。
 
 ## 常見問題解答
 

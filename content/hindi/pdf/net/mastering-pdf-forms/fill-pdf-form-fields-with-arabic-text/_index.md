@@ -117,4 +117,4 @@ Console.WriteLine("\nArabic text filled successfully in form field.\nFile saved 
 हाँ, आप परीक्षण संस्करण डाउनलोड करके Aspose.PDF को निःशुल्क आज़मा सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मैं Aspose.PDF के लिए समर्थन कैसे प्राप्त कर सकता हूं?
-आप यहां जाकर सहायता प्राप्त कर सकते हैं [एस्पोज़ फ़ोरम](https://forum.aspose.com/c/pdf/10).
+आप यहां जाकर सहायता प्राप्त कर सकते हैं [Aspose फ़ोरम](https://forum.aspose.com/c/pdf/10).

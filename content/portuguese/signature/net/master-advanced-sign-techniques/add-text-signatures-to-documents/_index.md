@@ -1,20 +1,21 @@
 ---
-title: Adicionar assinaturas de texto a documentos usando GroupDocs.Signature
-linktitle: Adicionar assinaturas de texto a documentos
-second_title: GroupDocs.Assinatura .NET API
-description: Aprenda a assinar documentos com texto usando o GroupDocs.Signature for .NET. Guia passo a passo para adicionar assinaturas de texto programaticamente.
-weight: 17
-url: /pt/signature/master-advanced-sign-techniques/add-text-signatures-to-documents/
+"description": "Aprenda a assinar documentos com texto usando o GroupDocs.Signature para .NET. Guia passo a passo para adicionar assinaturas de texto programaticamente."
+"linktitle": "Adicionar assinaturas de texto aos documentos"
+"second_title": "API .NET do GroupDocs.Signature"
+"title": "Adicionar assinaturas de texto a documentos usando GroupDocs.Signature"
+"url": "/pt/signature/net/master-advanced-sign-techniques/add-text-signatures-to-documents/"
+"weight": 17
 ---
+
 ## Introdução
 
-No cenário digital de hoje, a assinatura eletrônica de documentos se tornou essencial para agilizar fluxos de trabalho e economizar recursos. O GroupDocs.Signature for .NET fornece uma solução poderosa para adicionar assinaturas de texto programaticamente a vários formatos de documentos. Este tutorial o guiará pelas etapas para assinar um documento com texto usando o GroupDocs.Signature for .NET.
+No cenário digital atual, a assinatura eletrônica de documentos tornou-se essencial para otimizar fluxos de trabalho e economizar recursos. O GroupDocs.Signature para .NET oferece uma solução poderosa para adicionar assinaturas de texto programaticamente a diversos formatos de documentos. Este tutorial guiará você pelas etapas para assinar um documento com texto usando o GroupDocs.Signature para .NET.
 
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter o seguinte:
 
-1. GroupDocs.Signature para .NET: Baixe e instale a biblioteca de[aqui](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature para .NET: Baixe e instale a biblioteca de [aqui](https://releases.groupdocs.com/signature/net/).
 2. Ambiente de desenvolvimento: configure seu ambiente de desenvolvimento .NET.
 3. Documento: Prepare o documento que deseja assinar (por exemplo, PDF, Word).
 
@@ -78,14 +79,14 @@ using (Signature signature = new Signature(filePath))
 
 ## Conclusão
 
-Neste tutorial, demonstramos como adicionar programaticamente uma assinatura de texto a um documento usando GroupDocs.Signature for .NET. Seguindo essas etapas, você pode aumentar a segurança e a autenticidade dos seus documentos de forma eficiente.
+Neste tutorial, demonstramos como adicionar programaticamente uma assinatura de texto a um documento usando o GroupDocs.Signature para .NET. Seguindo esses passos, você pode aumentar a segurança e a autenticidade dos seus documentos com eficiência.
 
 ## Perguntas frequentes
 
 ### Posso personalizar a aparência da assinatura de texto?
 Sim, você pode personalizar vários atributos, como cor, fonte, tamanho e posição da assinatura de texto para atender às suas necessidades.
 
-### O GroupDocs.Signature é compatível com vários formatos de documentos?
+### GroupDocs.Signature é compatível com vários formatos de documentos?
 Com certeza! O GroupDocs.Signature suporta uma ampla variedade de formatos, incluindo PDF, Word, Excel, PowerPoint e muito mais.
 
 ### Posso adicionar várias assinaturas de texto a um único documento?
@@ -94,5 +95,5 @@ Sim, você pode adicionar várias assinaturas de texto, cada uma com suas própr
 ### O GroupDocs.Signature garante a integridade do documento após a assinatura?
 Sim, a biblioteca usa algoritmos criptográficos robustos para garantir a integridade do documento e evitar adulteração após a assinatura.
 
-### Existe uma versão de teste disponível para testar antes da compra?
- Sim, você pode baixar uma versão de teste gratuita em[aqui](https://releases.groupdocs.com/) para explorar os recursos antes de fazer uma compra.
+### Existe uma versão de teste disponível para testar antes de comprar?
+Sim, você pode baixar uma versão de teste gratuita em [aqui](https://releases.groupdocs.com/) para explorar os recursos antes de fazer uma compra.

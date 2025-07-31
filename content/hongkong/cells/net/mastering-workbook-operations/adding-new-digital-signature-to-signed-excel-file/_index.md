@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Cells for .NET 為現有的已簽署 Excel 檔案新增新的數位簽章。本指南內容全面，涵蓋所有先決條件、逐步說明和程式碼範例。"
+"description": "了解如何使用 Aspose.Cells for .NET 為現有已簽署的 Excel 檔案新增新的數位簽章。本綜合指南涵蓋了所有先決條件、逐步說明和程式碼範例。"
 "linktitle": "在已簽名的 Excel 檔案中新增新的數位簽名"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "在已簽名的 Excel 檔案中新增新的數位簽名"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-在當今的數位時代，確保文件的真實性和完整性比以往任何時候都更加重要。數位簽章提供了一種可靠的方法來驗證文件未被篡改且來源合法。如果您正在 .NET 中使用 Excel 文件，並且需要為已簽名的文件添加新的數位簽名，那麼本指南非常適合您！我們將逐步說明如何使用 Aspose.Cells for .NET 為現有的已簽章 Excel 檔案新增數位簽章。
+在當今的數位環境中，確保文件的真實性和完整性比以往任何時候都更加重要。數位簽章提供了一種可靠的方法來驗證文件是否已更改以及是否來自合法來源。如果您正在 .NET 中使用 Excel 文件，並且需要在已簽署的文件中新增的數位簽名，那麼本指南適合您！我們將介紹使用 Aspose.Cells for .NET 為現有簽章 Excel 檔案新增數位簽章的過程。
 
 ## 先決條件
 
@@ -17,7 +17,7 @@
 
 1. Aspose.Cells for .NET：下載並安裝 Aspose.Cells [發布頁面](https://releases。aspose.com/cells/net/).
 2. .NET Framework：確保您的機器已安裝 .NET Framework，並且您熟悉基本的 .NET 程式設計概念。
-3. 數位憑證：取得 .pfx 格式的有效數位憑證。為了進行測試，您可以建立自簽名憑證。
+3. 數位憑證：取得.pfx格式的有效數位憑證。為了測試，您可以建立一個自簽名憑證。
 4. 開發環境：使用 Visual Studio 等 IDE 編寫和執行 C# 程式碼。
 5. 範例 Excel 文件：有一個已經過數位簽章的現有 Excel 文件，它將作為新增簽章的目標。
 
@@ -115,7 +115,7 @@ Console.WriteLine("Successfully added a digital signature to the existing signed
 
 ## 結論
 
-恭喜！您已成功使用 Aspose.Cells for .NET 為已簽署的 Excel 檔案新增新的數位簽章。此過程可增強文件的安全性，並確保其真實性和完整性。
+恭喜！您已成功使用 Aspose.Cells for .NET 將新的數位簽章新增至已簽署的 Excel 檔案。此過程增強了您的文件的安全性並確保了其真實性和完整性。
 
 ## 常見問題解答
 
@@ -129,7 +129,7 @@ Console.WriteLine("Successfully added a digital signature to the existing signed
 
 ### 我可以使用自簽名憑證進行測試嗎？
 
-當然！您可以在開發和測試中使用自簽名證書，但在生產環境中，建議使用來自受信任 CA 的證書。
+絕對地！您可以使用自簽名憑證進行開發和測試目的，但對於生產，建議使用來自受信任 CA 的憑證。
 
 ### 如果我嘗試在未簽名的文檔中添加簽名會發生什麼？
 

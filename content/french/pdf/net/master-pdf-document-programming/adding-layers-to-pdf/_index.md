@@ -41,7 +41,7 @@ Avant de plonger dans le code, comprenons quand les calques PDF ont réellement 
 
 Avant de plonger dans ce tutoriel, assurez-vous d'avoir :
 
-1. **Compréhension de base de C#**:Une compréhension fondamentale du langage vous aidera à comprendre le code et à l’adapter à vos besoins.
+1. **Compréhension de base de C#**:Une compréhension fondamentale du langage vous aidera à comprendre le code et à l'adapter à vos besoins.
 2. **Bibliothèque Aspose.PDF pour .NET**: Téléchargez-le depuis [Site Web d'Aspose](https://releases.aspose.com/pdf/net/)Vous aurez besoin d'une licence valide pour une utilisation en production.
 3. **Visual Studio ou tout autre IDE C#**:Utilisez un IDE configuré sur votre machine pour écrire, compiler et exécuter votre code.
 4. **Un exemple de document PDF**:Avoir un exemple de document peut être utile pour les tests (même si nous allons tout créer à partir de zéro dans ce tutoriel).

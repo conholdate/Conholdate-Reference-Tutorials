@@ -134,7 +134,7 @@ Bạn có thể dễ dàng cài đặt nó thông qua NuGet trong Visual Studio.
 
 ### Aspose.PDF cho .NET có miễn phí không?
 
-Aspose.PDF cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống [đây](https://releases.aspose.com/)nhưng cần phải có giấy phép để sử dụng đầy đủ tính năng.
+Aspose.PDF cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống [đây](https://releases.aspose.com/), nhưng cần phải có giấy phép để sử dụng đầy đủ tính năng.
 
 ### Tôi có thể thao tác hình ảnh trong PDF bằng Aspose.PDF cho .NET không?
 

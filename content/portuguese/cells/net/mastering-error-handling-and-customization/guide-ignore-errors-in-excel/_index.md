@@ -22,7 +22,7 @@ Antes de mergulharmos no código, certifique-se de ter o seguinte em vigor:
 
 Com tudo pronto, vamos começar a codificação!
 
-## Etapa 1: Importar os pacotes necessários
+## Etapa 1: Importar pacotes necessários
 
 Para acessar as funcionalidades do Aspose.Cells, você precisará importar os namespaces necessários. Adicione as seguintes linhas no início do seu arquivo C#:
 

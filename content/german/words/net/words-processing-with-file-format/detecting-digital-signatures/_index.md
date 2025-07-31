@@ -103,4 +103,4 @@ Eine umfassende Dokumentation finden Sie unter [Aspose-Dokumentationsseite](http
 
 ### Wie erhalte ich Support für Aspose.Words für .NET?
 
-Hilfe erhalten Sie bei der [Aspose-Supportforum](https://forum.aspose.com/c/words/8).
+Sie können Hilfe suchen bei der [Aspose-Supportforum](https://forum.aspose.com/c/words/8).

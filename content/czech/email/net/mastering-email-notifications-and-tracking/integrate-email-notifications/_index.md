@@ -20,7 +20,7 @@ Než začneme s kódováním, je třeba ve vašem projektu nastavit knihovnu Asp
 Install-Package Aspose.Email
 ```
 
-2. Import jmenného prostoru: Do souboru C# uveďte potřebný jmenný prostor:
+2. Import jmenného prostoru: Do souboru C# zahrňte potřebný jmenný prostor:
 ```csharp
 using Aspose.Email;
 using Aspose.Email.Smtp;

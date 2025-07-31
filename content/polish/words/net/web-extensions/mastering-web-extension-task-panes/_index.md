@@ -13,7 +13,7 @@ tym kompleksowym przewodniku zagłębimy się w zaawansowaną funkcjonalność i
 
 ## Wymagania wstępne  
 
-Aby móc skorzystać z tego samouczka, upewnij się, że posiadasz następujące elementy:  
+Aby móc korzystać z tego samouczka, upewnij się, że posiadasz następujące elementy:  
 
 - Aspose.Words dla .NET: [Pobierz tutaj](https://releases.aspose.com/words/net/).  
 - Środowisko programistyczne: Visual Studio lub inne środowisko IDE .NET.  

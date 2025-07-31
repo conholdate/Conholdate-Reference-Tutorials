@@ -15,7 +15,7 @@ Nawigacja po dużych plikach PDF często przypomina szukanie igły w stogu siana
 
 Zanim zagłębimy się w kod, koniecznie upewnij się, że masz wszystkie narzędzia skonfigurowane do pomyślnej implementacji. Oto wymagania wstępne:
 
-1. Visual Studio: zalecane środowisko IDE do tworzenia oprogramowania .NET. Upewnij się, że jest zainstalowane i poprawnie skonfigurowane w systemie.
+1. Visual Studio: Zalecane środowisko IDE do tworzenia oprogramowania .NET. Upewnij się, że jest zainstalowane i poprawnie skonfigurowane w systemie.
 2. Aspose.Cells dla .NET: podstawowa biblioteka niezbędna do programowego manipulowania plikami Excela. Możesz [pobierz tutaj](https://releases.aspose.com/cells/net/)Jeśli jesteś nowy w Aspose, możesz zacząć od [bezpłatny okres próbny](https://releases.aspose.com/).
 3. .NET Framework: Upewnij się, że używasz zgodnej wersji .NET Framework. Aspose.Cells obsługuje wiele wersji.
 4. Podstawowa wiedza o języku C#: Podstawowa znajomość języka C# będzie pomocna w podążaniu za kodem.

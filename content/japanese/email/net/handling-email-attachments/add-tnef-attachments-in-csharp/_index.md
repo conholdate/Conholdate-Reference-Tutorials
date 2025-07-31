@@ -60,7 +60,7 @@ foreach (var attachment in message.Attachments)
 
 TNEFのプロパティまたはハンドルを変更するには、次の特定のプロパティを参照してください。 `tnefAttachment`、 のように `tnefAttachment.ContentDisposition` または `tnefAttachment。ContentType`.
 
-## 変更した添付ファイルを含むメールを保存する
+## 添付ファイルを変更したメールを保存する
 
 TNEF添付ファイルの修正が完了したら、更新したメールを保存できます。手順は以下のとおりです。
 

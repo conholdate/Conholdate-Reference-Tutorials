@@ -61,7 +61,7 @@ using Aspose.Pdf.Text;
 using System.Collections;
 ```
 
-Met deze imports hebt u toegang tot alle functies voor PDF-manipulatie die u nodig hebt, inclusief de JavaScript-functionaliteit waar we ons op richten.
+Met deze imports krijgt u toegang tot alle PDF-manipulatiefuncties die u nodig hebt, inclusief de JavaScript-functionaliteit waar we ons op richten.
 
 ## Stap 1: Een nieuw PDF-document initialiseren
 
@@ -72,9 +72,9 @@ Document doc = new Document();
 doc.Pages.Add();
 ```
 
-Dit creëert een leeg PDF-document met één pagina. Zie dit als je canvas waar je zowel content als JavaScript-functionaliteit aan toevoegt. Het mooie van beginnen met een nieuw document is dat je vanaf het begin volledige controle hebt over de JavaScript-omgeving.
+Hiermee creëer je een leeg PDF-document met één pagina. Zie dit als je canvas waar je zowel content als JavaScript-functionaliteit aan toevoegt. Het mooie van beginnen met een nieuw document is dat je vanaf het begin volledige controle hebt over de JavaScript-omgeving.
 
-**Professionele tip**:Bij het werken met JavaScript in pdf's is het vaak makkelijker om te beginnen met een overzichtelijke documentstructuur. Dit voorkomt conflicten met bestaande scripts of formulierelementen die uw nieuwe functionaliteit zouden kunnen verstoren.
+**Professionele tip**: Wanneer u met JavaScript in pdf's werkt, is het vaak gemakkelijker om te beginnen met een overzichtelijke documentstructuur. Dit voorkomt conflicten met bestaande scripts of formulierelementen die uw nieuwe functionaliteit zouden kunnen verstoren.
 
 ## Stap 2: JavaScript toevoegen aan de PDF
 
@@ -105,7 +105,7 @@ doc.Save(dataDir + "AddJavascript.pdf");
 
 Eenmaal opgeslagen, bevat uw PDF de ingesloten JavaScript-functies. Deze functies worden onderdeel van het document en zijn beschikbaar wanneer de PDF wordt geopend in een compatibele viewer.
 
-**Belangrijke opmerking**Niet alle PDF-viewers ondersteunen JavaScript even goed. Adobe Acrobat en Reader bieden de beste ondersteuning, terwijl sommige browsergebaseerde viewers of mobiele apps mogelijk beperkte functionaliteit hebben. Test uw pdf's met JavaScript altijd in uw doelomgeving.
+**Belangrijke opmerking**Niet alle PDF-viewers ondersteunen JavaScript even goed. Adobe Acrobat en Reader bieden de beste ondersteuning, terwijl sommige browsergebaseerde viewers of mobiele apps mogelijk beperkte functionaliteit hebben. Test uw JavaScript-compatibele PDF's altijd in uw doelomgeving.
 
 ## Stap 4: JavaScript laden en bekijken in de bestaande PDF
 
@@ -116,13 +116,13 @@ Document doc1 = new Document(dataDir + "AddJavascript.pdf");
 IList keys = (System.Collections.IList)doc1.JavaScript.Keys;
 ```
 
-Dit is ontzettend handig wanneer je met PDF's van anderen werkt of wanneer je de functionaliteit van bestaande JavaScript-scripts wilt controleren. Je kunt controleren welke scripts er al aanwezig zijn voordat je je eigen scripts toevoegt.
+Dit is ontzettend handig wanneer je met PDF's van anderen werkt of wanneer je de bestaande JavaScript-functionaliteit wilt controleren. Je kunt controleren welke scripts er al aanwezig zijn voordat je je eigen scripts toevoegt.
 
 **Praktische toepassing**: Deze techniek is perfect voor het debuggen van PDF-formulieren of om te begrijpen hoe bestaande interactieve elementen werken. U kunt de JavaScript-code bekijken om te zien hoe berekeningen worden uitgevoerd of hoe validatie wordt geïmplementeerd.
 
 ## Stap 5: JavaScript-functies weergeven
 
-Loop door de JavaScript-sleutels en geef de bijbehorende code weer op de console:
+Loop door de JavaScript-sleutels en druk de bijbehorende code af op de console:
 
 ```csharp
 Console.WriteLine("=============================== ");
@@ -163,9 +163,9 @@ Laten we eens een aantal praktijkscenario's bekijken waarin het toevoegen van Ja
 
 **Formulier Aanvragen**: Maak sollicitaties of enquêtes die relevante vragen tonen op basis van eerdere antwoorden. Als iemand bijvoorbeeld "Ja" selecteert voor het hebben van een rijbewijs, kunnen er automatisch extra velden voor rijbewijsgegevens verschijnen.
 
-**Rapportgeneratie**Ontwikkel dynamische rapporten die hun inhoud aanpassen op basis van gebruikersselecties of externe gegevens. JavaScript kan irrelevante secties verbergen, grafieken bijwerken of tekst aanpassen op basis van berekende waarden.
+**Rapportgeneratie**Ontwikkel dynamische rapporten die hun inhoud aanpassen op basis van gebruikersselecties of externe gegevens. JavaScript kan irrelevante secties verbergen, grafieken bijwerken of tekst wijzigen op basis van berekende waarden.
 
-**Educatief materiaal**: Maak interactieve werkbladen of beoordelingen waarbij JavaScript directe feedback geeft, scores berekent of leerlingen begeleidt bij de stappen van probleemoplossing.
+**Educatief materiaal**: Maak interactieve werkbladen of beoordelingen waarbij JavaScript directe feedback geeft, scores berekent of leerlingen begeleidt bij het oplossen van problemen.
 
 ## Aanbevolen procedures voor PDF JavaScript
 
@@ -173,11 +173,11 @@ Wanneer u met JavaScript in PDF's werkt, kunt u door de volgende best practices 
 
 **Houd functies eenvoudig**: PDF JavaScript heeft enkele beperkingen ten opzichte van web JavaScript. Houd u aan de basisbewerkingen en vermijd complexe DOM-manipulaties of moderne JavaScript-functies die mogelijk niet worden ondersteund.
 
-**Test over kijkers heen**Test uw PDF-bestanden met JavaScript altijd in meerdere viewers, vooral als uw gebruikers mogelijk verschillende toepassingen gebruiken om de bestanden te bekijken.
+**Test over kijkers heen**Test uw PDF's met JavaScript altijd in meerdere viewers, vooral als uw gebruikers mogelijk verschillende toepassingen gebruiken om de bestanden te bekijken.
 
 **Ga elegant om met fouten**Neem foutcontrole op in uw JavaScript-functies. PDF-viewers geven JavaScript-fouten mogelijk niet altijd duidelijk weer, dus defensief programmeren is essentieel.
 
-**Gebruik beschrijvende functienamen**:In plaats van generieke namen zoals "func1", gebruikt u namen die beschrijven wat de functie doet: "calculateTotalCost" of "validateEmailFormat".
+**Gebruik beschrijvende functienamen**: In plaats van generieke namen zoals "func1", gebruikt u namen die beschrijven wat de functie doet: "calculateTotalCost" of "validateEmailFormat".
 
 **Documenteer uw code**: Voeg opmerkingen toe aan uw JavaScript-functies, vooral als deze door andere ontwikkelaars worden onderhouden of als de logica complex is.
 
@@ -189,15 +189,15 @@ Wanneer u met JavaScript in PDF's werkt, kunt u door de volgende best practices 
 
 **Onverwacht gedrag**Test je JavaScript-functies stap voor stap. Gebruik eenvoudige alert()-instructies om te controleren of functies worden aangeroepen en variabelen de verwachte waarden bevatten.
 
-**Prestatieproblemen**: Grote of complexe JavaScript-functies kunnen de PDF-weergave vertragen. Als u prestatieproblemen ervaart, overweeg dan om uw scripts te vereenvoudigen of complexe bewerkingen op te splitsen in kleinere functies.
+**Prestatieproblemen**: Grote of complexe JavaScript-functies kunnen de PDF-weergave vertragen. Als u prestatieproblemen ondervindt, overweeg dan om uw scripts te vereenvoudigen of complexe bewerkingen op te splitsen in kleinere functies.
 
 ## Prestatieoverwegingen
 
 JavaScript in PDF's wordt in een andere omgeving uitgevoerd dan web-JavaScript, waardoor de prestatiekenmerken kunnen variëren:
 
-**Opstarttijd**:PDF's met uitgebreide JavaScript-informatie hebben mogelijk meer tijd nodig om te laden, omdat de JavaScript-engine uw functies initialiseert en parseert.
+**Opstarttijd**: PDF's met uitgebreide JavaScript-informatie hebben mogelijk meer tijd nodig om te laden, omdat de JavaScript-engine uw functies initialiseert en parseert.
 
-**Geheugengebruik**:Complexe berekeningen of grote datamanipulaties in PDF JavaScript kunnen veel geheugen verbruiken. Test met realistische datavolumes om goede prestaties te garanderen.
+**Geheugengebruik**: Complexe berekeningen of grote datamanipulaties in PDF JavaScript kunnen veel geheugen verbruiken. Test met realistische datavolumes om goede prestaties te garanderen.
 
 **Gebruikerservaring**Langdurige JavaScript-bewerkingen kunnen ervoor zorgen dat PDF's niet meer reageren. Overweeg bij complexe berekeningen om voortgangsindicatoren weer te geven of bewerkingen in kleinere delen op te splitsen.
 
@@ -217,7 +217,7 @@ Deze beperkingen zijn bedoeld om te voorkomen dat schadelijke PDF-documenten geb
 
 In deze uitgebreide handleiding hebt u ontdekt hoe u JavaScript kunt toevoegen aan PDF C#-applicaties met Aspose.PDF voor .NET. Deze krachtige functie transformeert statische documenten in dynamische, interactieve ervaringen die gegevens kunnen valideren, berekeningen kunnen uitvoeren en in realtime kunnen reageren op gebruikersinvoer.
 
-Je weet nu hoe je nieuwe JavaScript-functies creëert, deze in PDF-documenten integreert, bestaande scripts inspecteert en verouderde functionaliteit verwijdert. Belangrijker nog, je begrijpt de praktische toepassingen die PDF JavaScript zo waardevol maken – van geautomatiseerde factuurberekeningen tot interactieve formuliervalidatie.
+Je weet nu hoe je nieuwe JavaScript-functies creëert, deze in PDF-documenten inbouwt, bestaande scripts inspecteert en verouderde functionaliteit verwijdert. Belangrijker nog, je begrijpt de praktische toepassingen die PDF JavaScript zo waardevol maken – van geautomatiseerde factuurberekeningen tot interactieve formuliervalidatie.
 
 De sleutel tot succes met PDF JavaScript is het begrijpen van zowel de mogelijkheden als de beperkingen ervan. Hoewel het niet alles kan wat web JavaScript kan, is het ongelooflijk krachtig voor documentspecifieke taken zoals formulierverwerking, berekeningen en gebruikersinteractie binnen de PDF-omgeving.
 

@@ -19,7 +19,7 @@ Antes de comenzar, asegúrese de tener lo siguiente:
 2. Visual Studio: cualquier versión que admita .NET funcionará.
 3. Conocimientos básicos de C#: estar familiarizado con la programación en C# le ayudará a seguir el proceso fácilmente.
 4. .NET Framework: asegúrese de tener instalado .NET Framework 4.0 o superior.
-5. Un documento PDF de muestra: tenga un archivo PDF listo para trabajar con él.
+5. Un documento PDF de muestra: tenga un archivo PDF listo para trabajar.
 
 Preparemos su entorno de desarrollo en Visual Studio.
 

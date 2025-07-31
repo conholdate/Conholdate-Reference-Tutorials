@@ -106,7 +106,7 @@ El [Resumen eficiente de documentos con modelos OpenAI](./efficient-document-sum
 
 **Casos de uso avanzados**Este tutorial va más allá del resumen básico para mostrarle cómo extraer información específica, generar resúmenes ejecutivos con diferentes niveles de detalle e incluso crear comparaciones de documentos que resalten las diferencias clave.
 
-**Secreto del desarrollador**:El tutorial revela cómo utilizar técnicas de ingeniería rápida que pueden mejorar la calidad del resumen entre un 40 y un 60 % en comparación con las implementaciones básicas.
+**Secreto del desarrollador**El tutorial revela cómo utilizar técnicas de ingeniería rápida que pueden mejorar la calidad del resumen entre un 40 y un 60 % en comparación con las implementaciones básicas.
 
 ### Domine las opciones de resumen avanzadas
 
@@ -199,5 +199,5 @@ Recuerde: el objetivo no es solo procesar documentos más rápido, sino extraer 
 | --- | --- |
 | [Dominar la síntesis de documentos con modelos de IA](./mastering-document-summarization-ai-model/) Desbloquee el potencial de la automatización de documentos con Aspose.Words para .NET. Aprenda a resumir documentos fácilmente usando modelos avanzados de IA.
 | [Dominando el resumen de documentos con los modelos de IA de Google](./mastering-document-summarization-google-ai-model/) Aprenda paso a paso a resumir documentos de Word con Aspose.Words y Google AI en .NET. Siga esta guía para optimizar la extracción de contenido, la información de los documentos y la automatización.
-| [Modelo de IA abierta para resumen eficiente de documentos](./efficient-document-summarization-openai-model/) | Aprenda a resumir documentos grandes de forma rápida y precisa con este completo tutorial, que cubre los requisitos previos, la configuración y ejemplos de codificación. |
+| [Modelo de IA abierta para resumen eficiente de documentos](./efficient-document-summarization-openai-model/) Aprenda a resumir documentos grandes de forma rápida y precisa con este completo tutorial, que cubre los requisitos previos, la configuración y ejemplos de codificación. |
 | [Opciones para resumir documentos](./summarize-documents-options/) Aprenda a resumir documentos eficientemente con Aspose.Words para .NET. Esta guía completa abarca la configuración, la carga de documentos y la integración de modelos de IA.

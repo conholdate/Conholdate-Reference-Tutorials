@@ -336,7 +336,7 @@ class Program
 
 ## Çözüm
 
-Aspose.Words for .NET kullanarak PDF'yi JPEG'e dönüştürmek gerçekten bu kadar basit. Potansiyel olarak karmaşık bir görev olarak başlayan şey, sadece birkaç satır iyi yapılandırılmış kodla basit ve zarif bir çözüme dönüşüyor.
+PDF'yi Aspose.Words for .NET kullanarak JPEG'e dönüştürmek gerçekten bu kadar basit. Başlangıçta potansiyel olarak karmaşık bir görev olarak başlayan şey, sadece birkaç satır iyi yapılandırılmış kodla basit ve zarif bir çözüme dönüşüyor.
 
 Bu yaklaşımın güzelliği sadece basitliğinde değil, aynı zamanda güvenilirliğinde ve esnekliğinde de yatıyor. İster bir belge yönetim sistemi oluşturuyor olun, ister bir web uygulaması için küçük resimler oluşturuyor olun, ister PDF'lerden görsel içerikleri hızlıca çıkarmanın bir yolunu arıyor olun, artık üzerinde çalışabileceğiniz sağlam bir temele sahipsiniz.
 

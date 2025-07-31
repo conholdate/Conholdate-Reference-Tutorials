@@ -1,7 +1,7 @@
 ---
 "description": "تعرّف على كيفية إضافة ورقة عمل جديدة برمجيًا إلى مصنف Excel موجود باستخدام Aspose.Cells لـ .NET. يتناول هذا الدليل خطوة بخطوة كيفية حفظ المصنف المعدّل، مما يُسهّل على المطورين."
 "linktitle": "إضافة ورقة عمل إلى مصنف Excel موجود - برنامج تعليمي C#"
-"second_title": "مرجع Aspose.Cells لـ .NET API"
+"second_title": "مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET"
 "title": "إضافة ورقة عمل إلى مصنف Excel موجود - برنامج تعليمي C#"
 "url": "/ar/cells/net/guide-to-working-with-excel-worksheets/adding-worksheet-to-existing-excel-workbook-csharp-tutorial/"
 "weight": 10

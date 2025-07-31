@@ -81,7 +81,7 @@ Nhiều nhà phát triển gặp phải những thách thức tương tự khi b
 
 **Sự cố khóa tệp**: Các tệp Excel có thể bị khóa bởi các quy trình khác. Hãy triển khai logic thử lại và xử lý ngoại lệ phù hợp để xử lý các tình huống này một cách nhẹ nhàng.
 
-**Tiêu thụ bộ nhớ**: Các tệp Excel lớn có thể chiếm dụng đáng kể bộ nhớ. Hãy theo dõi mức sử dụng bộ nhớ của ứng dụng và triển khai các phương pháp phát trực tuyến cho các tập dữ liệu lớn.
+**Tiêu thụ bộ nhớ**: Các tệp Excel lớn có thể chiếm dụng đáng kể bộ nhớ. Hãy theo dõi mức sử dụng bộ nhớ của ứng dụng và triển khai các phương pháp truyền phát cho các tập dữ liệu lớn.
 
 **An toàn ren**: Các đối tượng Aspose.Cells mặc định không an toàn cho luồng. Nếu bạn đang làm việc trong môi trường đa luồng, hãy đảm bảo đồng bộ hóa đúng cách hoặc sử dụng các phiên bản riêng biệt cho mỗi luồng.
 

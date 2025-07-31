@@ -2,7 +2,7 @@
 "categories":
 - "Document Processing"
 "date": "2025-01-02"
-"description": "Làm chủ chuyển đổi văn bản sang từ trong .NET với Aspose.Words. Hướng dẫn từng bước với các ví dụ mã, cách khắc phục sự cố và mẹo hiệu suất dành cho nhà phát triển."
+"description": "Làm chủ việc chuyển đổi văn bản sang từ trong .NET với Aspose.Words. Hướng dẫn từng bước với các ví dụ mã, cách khắc phục sự cố và mẹo hiệu suất dành cho nhà phát triển."
 "lastmod": "2025-01-02"
 "linktitle": "Hướng dẫn chuyển đổi văn bản sang Word .NET"
 "second_title": "API xử lý tài liệu Aspose.Words"

@@ -34,7 +34,7 @@ Omvandla olika filformat till och från PDF med professionell kvalitet och forma
 | **[Konvertera EPUB till PDF](./mastering-document-conversion/convert-epub-to-pdf/)** | Omvandla e-böcker till PDF-format för universell kompatibilitet | ⭐ Nybörjare |
 | **[Bemästra HTML till PDF](./mastering-document-conversion/mastering-html-to-pdf/)** | Konvertering av webbinnehåll till PDF med avancerat formateringsstöd | ⭐⭐ Medel |
 | **[CGM till PDF-konvertering](./mastering-document-conversion/convert-cgm-to-pdf/)** | Omvandling av datorgrafikmetafiler till PDF | ⭐⭐ Medel |
-| **[Lägga till bilagor till PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** | Dokumentbilagor som uppfyller arkivstandarder | ⭐⭐⭐ Avancerat |
+| **[Lägga till bilagor till PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** Dokumentbilagor som uppfyller arkivstandarder | ⭐⭐⭐ Avancerat |
 
 ### Masterprogrammering av PDF-dokument
 Avancerade PDF-programmeringstekniker för att skapa sofistikerade dokumentlösningar.
@@ -52,7 +52,7 @@ Viktiga PDF-sidoperationer för dokumentorganisation och strukturhantering.
 | Handledning | Beskrivning | Svårighetsgrad |
 |----------|-------------|------------|
 | **[Ändra PDF-sidorientering](./master-pdf-page-management/change-pdf-page-orientation/)** | Justera sidlayout och orientering för optimal dokumentvisning | ⭐ Nybörjare |
-| **[Sammanfoga PDF-filer](./master-pdf-page-management/concatenating-pdf-files/)** Sammanfoga flera PDF-dokument till en enda sammanhängande fil | ⭐⭐ Medel |
+| **[Sammanfoga PDF-filer](./master-pdf-page-management/concatenating-pdf-files/)** | Sammanfoga flera PDF-dokument till en enda sammanhängande fil | ⭐⭐ Medel |
 | **[Ta bort en specifik sida från PDF-filer](./master-pdf-page-management/delete-particular-page-from-pdf-files/)** | Ta bort specifika sidor från PDF-dokument effektivt | ⭐ Nybörjare |
 | **[Infoga tomma sidor i PDF-fil](./master-pdf-page-management/insert-empty-pages/)** | Lägg till tomma sidor för att organisera innehållet och skapa avstånd | ⭐ Nybörjare |
 | **[Lägga till en tom sida i slutet](./master-pdf-page-management/adding-an-empty-page-at-end/)** | Lägg till tomma sidor i PDF-dokument programmatiskt | ⭐ Nybörjare |
@@ -113,7 +113,7 @@ Viktiga PDF-sidoperationer för dokumentorganisation och strukturhantering.
 ### **Säkerhet och efterlevnad**
 - **Digitala signaturer** - Dokumentautentisering och integritet
 - **Kryptering** - Lösenordsskydd och åtkomstkontroll
-- **PDF/A-standarder** - Långsiktig arkivefterlevnad
+- **PDF/A-standarder** Långsiktig arkivefterlevnad
 
 ### **Dokumentförbättring**
 - **Vattenmärken** - Varumärkesskydd och dokumentmärkning

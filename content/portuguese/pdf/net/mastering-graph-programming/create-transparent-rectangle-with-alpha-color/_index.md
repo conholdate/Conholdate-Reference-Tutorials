@@ -120,7 +120,7 @@ Com certeza! Você pode aplicar técnicas semelhantes para desenhar diversas for
 Modifique facilmente as dimensões do `Graph` instância para atender às suas necessidades alterando os parâmetros de largura e altura.
 
 ### O Aspose.PDF para .NET é gratuito?
-O Aspose.PDF para .NET oferece um teste gratuito, mas o acesso completo requer a compra de uma licença. Mais detalhes estão disponíveis em [Página de compra da Aspose](https://purchase.aspose.com/buy).
+O Aspose.PDF para .NET oferece um teste gratuito, mas o acesso completo requer a compra de uma licença. Mais detalhes estão disponíveis no [Página de compra da Aspose](https://purchase.aspose.com/buy).
 
 ### Onde posso encontrar suporte se tiver problemas?
 Você pode obter ajuda no [Fórum Aspose](https://forum.aspose.com/c/pdf/10), onde você pode fazer perguntas e navegar pelas respostas existentes.

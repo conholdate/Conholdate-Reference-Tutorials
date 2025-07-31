@@ -12,7 +12,7 @@
 Excel 파일을 프로그래밍 방식으로 관리하면 워크플로를 크게 간소화하고, 데이터 입력 효율성을 높이며, 맞춤형 보고서를 생성할 수 있습니다. Aspose.Cells for .NET은 Microsoft Excel 없이도 Excel 파일을 생성, 편집 및 관리할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 기존 Excel 스프레드시트에 새 워크시트를 추가하는 과정을 안내합니다.
 
 ## 필수 조건
-시작하기에 앞서 다음 사항이 있는지 확인하세요.
+시작하기 전에 다음 사항이 있는지 확인하세요.
 
 1. .NET 라이브러리용 Aspose.Cells: 다운로드 [.NET 라이브러리용 Aspose.Cells](https://releases.aspose.com/cells/net/) 프로젝트에 추가하세요. 무료 체험판을 시작하거나 [임시 면허](https://purchase.aspose.com/temporary-license/) 모든 기능에 액세스하려면.
 2. C#에 대한 기본 지식: C# 구문에 익숙하면 코드를 더 잘 이해하는 데 도움이 됩니다.

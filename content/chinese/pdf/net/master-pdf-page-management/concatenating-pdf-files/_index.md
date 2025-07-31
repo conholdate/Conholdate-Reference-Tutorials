@@ -25,7 +25,7 @@
 
 ### 开发环境
 
-选择可靠的开发环境。Visual Studio 是一个热门选择，但任何支持 C# 和 .NET 的 IDE 都可以正常工作。确保您的环境已设置好并准备好进行编码。
+选择可靠的开发环境。Visual Studio 是一个热门选择，但任何支持 C# 和 .NET 的 IDE 都可以。确保您的环境已设置好并准备好进行编码。
 
 ## 导入包
 
@@ -50,7 +50,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 代替 `"YOUR DOCUMENT DIRECTORY"` 使用 PDF 在您的系统中所在的实际路径。
 
-## 第 2 步：打开第一个 PDF 文档
+## 步骤2：打开第一个PDF文档
 
 接下来，我们打开第一个PDF文档：
 

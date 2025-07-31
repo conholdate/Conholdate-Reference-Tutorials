@@ -1,5 +1,5 @@
 ---
-"description": "Haal het maximale uit je Excel-documenten door te leren hoe je efficiënt gegroepeerde opmerkingen kunt extraheren met Aspose.Cells voor .NET. Deze uitgebreide tutorial leidt je stap voor stap door de instructies."
+"description": "Haal het maximale uit uw Excel-documenten door te leren hoe u efficiënt geneste opmerkingen kunt extraheren met Aspose.Cells voor .NET. Deze uitgebreide tutorial leidt u stap voor stap door de instructies."
 "linktitle": "Geneste opmerkingen in werkblad extraheren"
 "second_title": "Aspose.Cells .NET Excel-verwerkings-API"
 "title": "Geneste opmerkingen in werkblad extraheren"
@@ -9,15 +9,15 @@
 
 ## Invoering
 
-In het digitale tijdperk is het beheren van en samenwerken aan documenten essentieel voor onze workflow. Excel-spreadsheets, vaak rijk aan gegevens en inzichten, bevatten vaak opmerkingen die aanvullende context of suggesties bieden. Met Aspose.Cells voor .NET verloopt het extraheren en verwerken van opmerkingen met een thread naadloos. Deze tutorial begeleidt u door de stappen om opmerkingen met een thread efficiënt uit een Excel-werkblad te halen, ongeacht uw programmeerervaring. 
+In het digitale tijdperk is het beheren van en samenwerken aan documenten essentieel voor onze workflow. Excel-spreadsheets, vaak rijk aan gegevens en inzichten, bevatten vaak opmerkingen die aanvullende context of suggesties bieden. Met Aspose.Cells voor .NET verloopt het extraheren en verwerken van opmerkingen met een thread naadloos. Deze tutorial leidt je door de stappen om opmerkingen met een thread efficiënt uit een Excel-werkblad te halen, ongeacht je programmeerervaring. 
 
 ## Vereisten
-Voordat we met coderen beginnen, moet u ervoor zorgen dat u het volgende heeft:
+Voordat we met coderen beginnen, moet u ervoor zorgen dat u het volgende hebt:
 
 1. Basiskennis van C#: Kennis van C# en het .NET Framework is essentieel, omdat onze codevoorbeelden in C# zijn geschreven.
 2. Visual Studio: installeer Visual Studio op uw computer om de C#-code uit te voeren.
 3. Aspose.Cells voor .NET: Download en installeer de Aspose.Cells-bibliotheek van de [Aspose-website](https://releases.aspose.com/cells/net/).
-4. Voorbeeld Excel-bestand: Hier is een voorbeeld Excel-bestand (bijv. `ThreadedCommentsSample.xlsx`) opgeslagen in uw map met geneste opmerkingen ter test.
+4. Voorbeeld Excel-bestand: Hier is een voorbeeld Excel-bestand (bijv. `ThreadedCommentsSample.xlsx`) opgeslagen in uw map met geneste opmerkingen voor testdoeleinden.
 
 ## Vereiste pakketten importeren
 Om de krachtige functies van Aspose.Cells te benutten, moet u de benodigde naamruimten in uw C#-project opnemen. Voeg de volgende declaraties toe aan het begin van uw C#-bestand:
@@ -54,19 +54,19 @@ Nadat u de werkmap hebt geladen, opent u het specifieke werkblad met de gekoppel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-## Stap 4: Geneste opmerkingen verkrijgen
+## Stap 4: Geneste reacties verkrijgen
 Haal nu de gegroepeerde opmerkingen uit een specifieke cel op. In dit voorbeeld richten we ons op cel "A1".
 
 ```csharp
-// Ontvang commentaar met threads
+// Ontvang gegroepeerde opmerkingen
 ThreadedCommentCollection threadedComments = worksheet.Comments.GetThreadedComments("A1");
 ```
 
 ## Stap 5: Loop door de opmerkingen
-Met de verzameling van opmerkingen in de hand kunt u elke opmerking doornemen om relevante informatie te extraheren, zoals de tekst van de opmerking en de naam van de auteur.
+Met de verzameling reacties in de hand kunt u elke reactie doornemen om relevante informatie te extraheren, zoals de tekst van de reactie en de naam van de auteur.
 
 ```csharp
-// Doorloop elke gekoppelde opmerking
+// Doorloop elke commentaarreeks
 foreach (ThreadedComment comment in threadedComments)
 {
     Console.WriteLine("Comment: " + comment.Notes);
@@ -90,7 +90,7 @@ Gefeliciteerd! Je hebt met succes gegroepeerde opmerkingen uit een Excel-werkbla
 Aspose.Cells is een krachtige bibliotheek waarmee ontwikkelaars Excel-documenten in .NET-toepassingen kunnen maken, bewerken en converteren.
 
 ### Hoe kan ik Aspose.Cells downloaden?
-Je kunt Aspose.Cells downloaden van hun [releasepagina hier](https://releases.aspose.com/cells/net/).
+U kunt Aspose.Cells downloaden van hun [releasepagina hier](https://releases.aspose.com/cells/net/).
 
 ### Is er een gratis proefperiode beschikbaar?
 Ja! Aspose.Cells biedt een gratis proefperiode aan. Je kunt het vinden [hier](https://releases.aspose.com/).

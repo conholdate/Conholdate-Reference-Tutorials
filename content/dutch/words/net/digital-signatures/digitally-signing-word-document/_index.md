@@ -9,7 +9,7 @@
 
 ## Invoering
 
-In onze steeds digitaler wordende wereld is het beveiligen van uw documenten cruciaal. Digitale handtekeningen verifiëren niet alleen de identiteit van de ondertekenaar, maar waarborgen ook de integriteit van het document. Wilt u een Word-document programmatisch ondertekenen met Aspose.Words voor .NET? Dan bent u hier aan het juiste adres! Deze handleiding leidt u stap voor stap door het proces.
+In onze steeds digitaler wordende wereld is het beveiligen van uw documenten cruciaal. Digitale handtekeningen verifiëren niet alleen de identiteit van de ondertekenaar, maar waarborgen ook de integriteit van het document. Wilt u een Word-document programmatisch ondertekenen met Aspose.Words voor .NET? Dan bent u bij ons aan het juiste adres! Deze handleiding leidt u stap voor stap door het proces.
 
 ## Vereisten
 
@@ -43,7 +43,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 ```
 
 - `dataDir`: De map waar uw certificaat en documenten zich bevinden. Vervangen `"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad.
-- `CertificateHolder.Create`: Deze methode laadt uw certificaat. Vervangen `"morzal.pfx"` met uw certificaatbestandsnaam en `"aw"` met het bijbehorende wachtwoord.
+- `CertificateHolder.Create`: Deze methode laadt uw certificaat. Vervangen `"morzal.pfx"` met uw certificaatbestandsnaam en `"aw"` met zijn wachtwoord.
 
 ## Stap 3: Laad het Word-document
 

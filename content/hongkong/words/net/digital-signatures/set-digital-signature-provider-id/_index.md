@@ -9,7 +9,7 @@
 
 ## 介紹
 
-您好！如果您想使用特定的簽名提供者 ID 為 Word 文件添加數位簽名，那麼您來對地方了。無論是法律協議、合約或其他重要文件，安全的數位簽名都至關重要。在本教學中，我將逐步指導您使用 Aspose.Words for .NET 在 Word 文件中設定簽名提供者 ID。讓我們開始吧！
+你好！如果您希望使用特定的簽名提供者 ID 在 Word 文件中新增數位簽名，那麼您來對地方了。無論是法律協議、合約或任何重要文件，安全的數位簽名都是必不可少的。在本教學中，我將逐步指導您使用 Aspose.Words for .NET 在 Word 文件中設定簽名提供者 ID 的過程。讓我們開始吧！
 
 ## 先決條件
 
@@ -25,7 +25,7 @@
 
 ## 步驟 1：導入必要的命名空間
 
-首先，請在專案中包含必要的命名空間。這樣您就可以存取 Aspose.Words 程式庫及其相關類別。
+首先，在您的專案中包含必要的命名空間。這使您可以存取 Aspose.Words 庫和相關類別。
 
 ```csharp
 using Aspose.Words;
@@ -35,7 +35,7 @@ using Aspose.Words.DigitalSignatures;
 
 ## 第 2 步：載入 Word 文檔
 
-首先，您需要載入包含簽名行的Word文件。操作方法如下：
+首先，您需要載入包含簽名行的 Word 文件。具體操作如下：
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -46,7 +46,7 @@ Document doc = new Document(dataDir + "Signature line.docx");
 
 ## 步驟 3：存取簽名行
 
-接下來，存取文件中嵌入的簽名行。簽名行以形狀物件的形式表示：
+接下來，存取嵌入在文件中的簽名行。簽名行以形狀物件的形式表示：
 
 ```csharp
 SignatureLine signatureLine = ((Shape)doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true)).SignatureLine;
@@ -91,7 +91,7 @@ DigitalSignatureUtil.Sign(dataDir + "Digitally signed.docx",
 
 ## 結論
 
-恭喜！您已成功使用 Aspose.Words for .NET 在 Word 文件中設定簽名提供者 ID。此過程不僅可以保護您的文檔，還能確保其符合數位簽章標準。歡迎使用您自己的文件嘗試！
+恭喜！您已成功使用 Aspose.Words for .NET 在 Word 文件中設定簽名提供者 ID。此過程不僅可以保護您的文檔，還可以確保它們符合數位簽章標準。請隨意使用您自己的文件進行嘗試！
 
 如果您有任何疑問或需要進一步的協助，請查看下面的常見問題或訪問 [Aspose 支援論壇](https://forum。aspose.com/c/words/8).
 
@@ -103,7 +103,7 @@ DigitalSignatureUtil.Sign(dataDir + "Digitally signed.docx",
 
 ### 我可以使用任何 .pfx 檔案進行簽署嗎？
 
-是的，您可以使用任何有效的數位憑證。如果您的數位憑證受保護，請確保密碼正確。
+是的，您可以使用任何有效的數位憑證。如果受到保護，請確保密碼正確。
 
 ### 如何取得 .pfx 檔案？
 
@@ -111,7 +111,7 @@ DigitalSignatureUtil.Sign(dataDir + "Digitally signed.docx",
 
 ### 可以一次簽署多份文件嗎？
 
-當然！您可以循環遍歷多個文檔，並將簽名流程套用至每個文檔。
+絕對地！您可以循環遍歷多個文件並將簽名過程套用至每個文件。
 
 ### 如果我的文件沒有簽名怎麼辦？
 

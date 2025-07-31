@@ -46,7 +46,7 @@ Szükséged lesz a .NET keretrendszer telepítésére a fejlesztőgépeden. Az A
 
 ### Aspose.PDF könyvtár
 
-Ez a műsorunk sztárja. Az Aspose.PDF könyvtárat letöltheted innen: [hivatalos kiadási oldal](https://releases.aspose.com/pdf/net/)Ha NuGetet használsz (és őszintén szólva, ezt kellene tenned), közvetlenül a Package Manager Console-on keresztül telepítheted.
+Ez a műsorunk sztárja. Letöltheted az Aspose.PDF könyvtárat innen: [hivatalos kiadási oldal](https://releases.aspose.com/pdf/net/)Ha NuGetet használsz (és őszintén szólva, ezt kellene tenned), közvetlenül a Package Manager Console-on keresztül telepítheted.
 
 ### Alapvető C# ismeretek
 
@@ -98,7 +98,7 @@ Ez a sor egyszerűnek tűnhet, de a színfalak mögött komoly munkát végez. `
 
 ## 3. lépés: Dokumentumobjektum létrehozása
 
-Ideje létrehozni a `Document` objektum – itt kezdődik a tényleges konvertálási varázslat. Ez az objektum fogja a memóriában lévő jövőbeli PDF-dokumentumot képviselni.
+Ideje létrehozni a `Document` objektum – itt kezdődik a tényleges konvertálási varázslat. Ez az objektum fogja a memóriában lévő jövőbeni PDF-dokumentumot képviselni.
 
 ```csharp
 // Dokumentumobjektum létrehozása
@@ -139,7 +139,7 @@ Ez a catch blokk megjeleníti a konvertálási folyamat során előforduló öss
 
 ## Gyakori problémák és megoldások
 
-Még tökéletes kóddal is előfordulhatnak félresikerülések. Íme a leggyakoribb problémák, amelyekkel a fejlesztők találkoznak, és hogyan javíthatják ki őket:
+Még a tökéletes kóddal is előfordulhatnak félresikerülések. Íme a leggyakoribb problémák, amelyekkel a fejlesztők találkoznak, és hogyan javíthatják ki őket:
 
 ### Fájl nem található hibák
 

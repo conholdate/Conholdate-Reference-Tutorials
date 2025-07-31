@@ -110,7 +110,7 @@ Igen, végigmehetsz több SVG-ket tartalmazó HTML-fájlon, ugyanazt a folyamato
 ### Mi a különbség az EMF és a WMF között?
 Az EMF a WMF továbbfejlesztett verziója, amely jobban támogatja az összetett grafikákat és a nagyobb adatméreteket.
 
-### Az Aspose.Words kompatibilis a .NET Core-ral?
+### Kompatibilis az Aspose.Words a .NET Core-ral?
 Igen, az Aspose.Words for .NET támogatja a .NET Core-t és a .NET 5/6-ot, így alkalmas modern, többplatformos alkalmazásokhoz.
 
 ### Megtarthatom az eredeti SVG formátumot a kimenetben?

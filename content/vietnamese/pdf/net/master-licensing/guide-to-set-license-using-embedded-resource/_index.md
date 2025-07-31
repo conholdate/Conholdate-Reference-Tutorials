@@ -17,7 +17,7 @@ Trước khi đi sâu vào mã, hãy đảm bảo bạn có những điều sau:
 
 1. Visual Studio: IDE dành cho hướng dẫn này.
 2. .NET Framework: Xác nhận rằng bạn đã cài đặt đúng phiên bản để đảm bảo khả năng tương thích.
-3. Thư viện Aspose.PDF: Tải xuống thư viện từ [Trang phát hành Aspose PDF cho .NET](https://releases.aspose.com/pdf/net/)Bạn cũng có thể dùng thử miễn phí nếu muốn thử nghiệm trước.
+3. Thư viện Aspose.PDF: Tải xuống thư viện từ [Trang phát hành Aspose PDF cho .NET](https://releases.aspose.com/pdf/net/). Bạn cũng có thể dùng thử miễn phí nếu muốn thử nghiệm trước.
 4. Kiến thức cơ bản về C#: Sự quen thuộc với C# sẽ giúp bạn hiểu rõ hơn các ví dụ được cung cấp.
 
 ## Nhập các gói cần thiết

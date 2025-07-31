@@ -63,7 +63,7 @@ doc.ShowSpellingErrors = true;
 
 Tyto vlastnosti instruují Aspose.Words, aby v dokumentu zvýraznil všechny gramatické a pravopisné chyby, podobně jako to dělá Microsoft Word.
 
-## Krok 5: Uložení upraveného dokumentu
+## Krok 5: Uložte upravený dokument
 
 Nakonec dokument uložte, abyste zachovali provedené změny. Tím se vytvoří nový soubor bez přepsání originálu.
 

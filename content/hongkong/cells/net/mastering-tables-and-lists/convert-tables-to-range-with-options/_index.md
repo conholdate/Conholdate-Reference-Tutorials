@@ -1,5 +1,5 @@
 ---
-"description": "了解如何透過程式設計將 Excel 中的表格轉換為正常區域。無論您是經驗豐富的開發人員還是初學者，本教學都能提供逐步指導。"
+"description": "了解如何以程式設計方式將 Excel 中的表格轉換為正常範圍。無論您是經驗豐富的開發人員還是初學者，本教學都會提供逐步指導。"
 "linktitle": "使用選項將表轉換為區域"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "使用選項將表轉換為區域"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-當以程式設計方式自動執行 Excel 任務時，像 Aspose.Cells for .NET 這樣強大的程式庫可以顯著簡化您的工作流程。其中一項關鍵功能是將表格轉換為普通區域，這對於各種資料操作至關重要。在本指南中，我們將引導您完成在 Excel 中將表格轉換為普通區域的過程，確保您熟練使用 Aspose.Cells。
+當以程式設計方式自動執行 Excel 任務時，像 Aspose.Cells for .NET 這樣強大的程式庫可以顯著簡化您的工作流程。一項關鍵功能是將表轉換為正常範圍，這對於各種資料操作至關重要。在本指南中，我們將引導您完成將表格轉換為 Excel 中的正常範圍的過程，確保您熟練使用 Aspose.Cells。
 
 ## 先決條件
 
@@ -26,7 +26,7 @@
 
 1. 開啟您的開發環境：啟動 Visual Studio 或您喜歡的 IDE。
 2. 建立新專案：設定一個新的 C# 控制台應用程式專案（例如， `ConvertTableToRangeExample`）。
-3. 新增 Aspose.Cells 引用：如果透過 NuGet 安裝，請搜尋 Aspose.Cells 並將其新增至您的專案。或者，如果您手動下載了 DLL，請引用該 DLL。
+3. 新增 Aspose.Cells 參考：如果透過 NuGet 安裝，請搜尋 Aspose.Cells 並將其新增至您的專案。或者，如果您手動下載了 DLL，請引用它。
 
 ## 導入必要的命名空間
 
@@ -92,7 +92,7 @@ Console.WriteLine("Table conversion to range executed successfully.\n");
 
 ## 結論
 
-恭喜！您已成功學習如何使用 Aspose.Cells for .NET 將表格轉換為正常區域。此功能對於 Excel 中的資料操作和報表製作至關重要。透過練習，您將掌握這個強大的函式庫，並提升您的資料處理能力。
+恭喜！您已成功學習如何使用 Aspose.Cells for .NET 將表格轉換為正常範圍。此功能對於 Excel 中的資料操作和報表來說非常有價值。透過練習，您將掌握這個強大的函式庫並增強您的資料處理能力。
 
 ## 常見問題解答
 
@@ -106,7 +106,7 @@ Aspose.Cells 是一個強大的函式庫，用於在 .NET 應用程式中建立�
 您可以下載免費試用版來探索其功能，但繼續使用則需要購買或獲得許可。
 
 ### Aspose.Cells 是否適合初學者？  
-當然！它有豐富的文檔和範例，即使是初學者也能輕鬆上手。
+絕對地！其豐富的文檔和範例使初學者也能輕鬆使用。
 
 ### 在哪裡可以找到對 Aspose.Cells 的支援？  
 這 [Aspose 論壇](https://forum.aspose.com/c/cells/9) 是提出問題和與社區互動的好地方。

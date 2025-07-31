@@ -100,7 +100,7 @@ En este paso, creamos una instancia del `Document` y le pasamos la ruta de nuest
 
 ## Paso 3: Convertir PDF a documento de Word
 
-Ahora viene la parte emocionante: guardar el documento PDF cargado como un documento de Word (Docx). ¡Aquí es donde ocurre la magia de la conversión!
+Ahora viene la parte emocionante: guardar el documento PDF cargado como documento de Word (Docx). ¡Aquí es donde ocurre la magia de la conversión!
 
 ```csharp
 doc.Save(dataDir + "ConvertedDocument.docx");

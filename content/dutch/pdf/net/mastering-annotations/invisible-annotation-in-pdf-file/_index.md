@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Heb je ooit notities in je PDF-documenten willen opnemen die effectief, maar toch onzichtbaar zijn? Of het nu gaat om het achterlaten van verborgen berichten of het toevoegen van notities voor afdrukken, onzichtbare annotaties kunnen ongelooflijk nuttig zijn. In deze uitgebreide handleiding leer je hoe je onzichtbare annotaties in PDF-bestanden kunt maken met behulp van de krachtige Aspose.PDF-bibliotheek voor .NET. Na afloop ben je een professional in het toevoegen van deze annotaties!
+Heb je ooit notities in je PDF-documenten willen opnemen die effectief, maar toch onzichtbaar zijn? Of het nu gaat om het achterlaten van verborgen berichten of het toevoegen van notities voor afdrukken, onzichtbare annotaties kunnen ongelooflijk nuttig zijn. In deze uitgebreide handleiding leer je hoe je onzichtbare annotaties in PDF-bestanden maakt met behulp van de krachtige Aspose.PDF-bibliotheek voor .NET. Na afloop ben je een professional in het toevoegen van deze annotaties!
 
 ## Vereisten
 
@@ -55,7 +55,7 @@ Zorg ervoor dat `input.pdf` is aanwezig in de opgegeven directory.
 
 ## Stap 3: De onzichtbare annotatie maken
 
-Nu komt het spannende gedeelte: het maken van de onzichtbare annotatie! Gebruik de `FreeTextAnnotation` klasse om een onzichtbare vrije tekstaantekening toe te voegen aan de eerste pagina van uw PDF.
+Nu komt het spannende gedeelte: het maken van de onzichtbare annotatie! Gebruik de `FreeTextAnnotation` klasse om een onzichtbare vrije tekstuele aantekening toe te voegen aan de eerste pagina van uw PDF.
 
 ```csharp
 FreeTextAnnotation annotation = new FreeTextAnnotation(doc.Pages[1], 
@@ -72,7 +72,7 @@ doc.Pages[1].Annotations.Add(annotation);
 - `DefaultAppearance`Hiermee stelt u het lettertype in (Helvetica, grootte 16, rode kleur).
 - `Contents`: Deze eigenschap bevat uw verborgen bericht (in dit geval "ABCDEFG").
 - `Characteristics.Border`: Definieert de randkleur van de annotatie.
-- `Flags`: Specificeert zichtbaarheidsgedrag; `Print` zorgt voor zichtbaarheid tijdens het printen, terwijl `NoView` houdt het verborgen op het scherm.
+- `Flags`: Specificeert zichtbaarheidsgedrag; `Print` zorgt voor zichtbaarheid bij het afdrukken, terwijl `NoView` houdt het verborgen op het scherm.
 
 ## Stap 4: Sla het bijgewerkte PDF-document op
 
@@ -105,7 +105,7 @@ Gefeliciteerd! Je hebt nu succesvol geleerd hoe je onzichtbare annotaties aan ee
 ### Kan ik de aantekening weer zichtbaar maken?
 Ja! Je kunt de `AnnotationFlags.NoView` vlag om de aantekening zichtbaar te maken tijdens normaal bekijken.
 
-### Welke soorten annotaties kan ik toevoegen met Aspose.PDF?
+### Welke soorten aantekeningen kan ik toevoegen met Aspose.PDF?
 Aspose.PDF ondersteunt verschillende annotaties, waaronder tekst-, link-, markeer- en stempelannotaties.
 
 ### Is het mogelijk om een annotatie te wijzigen nadat deze is toegevoegd?

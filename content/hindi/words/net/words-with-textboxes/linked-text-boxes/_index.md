@@ -69,7 +69,7 @@ TextBox textBox1 = shape1.TextBox;
 TextBox textBox2 = shape2.TextBox;
 ```
 
-यह कोड पुनर्प्राप्त करता है `TextBox` वस्तुओं को संग्रहीत करना, उन्हें `textBox1` और `textBox2` आगे हेरफेर के लिए.
+यह कोड पुनर्प्राप्त करता है `TextBox` वस्तुओं को संग्रहीत करना, `textBox1` और `textBox2` आगे हेरफेर के लिए.
 
 ## चरण 4: टेक्स्ट बॉक्स को लिंक करें
 

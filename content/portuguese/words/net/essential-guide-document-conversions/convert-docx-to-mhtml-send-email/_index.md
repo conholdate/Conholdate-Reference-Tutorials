@@ -136,7 +136,7 @@ using (SmtpClient client = new SmtpClient())
 ## Problemas e soluções comuns
 
 ### Documento não está carregando
-**Problema**: "Arquivo não encontrado" ou erros de acesso negado.
+**Problema**:Erros de "Arquivo não encontrado" ou acesso negado.
 **Solução**: Verifique se o caminho do arquivo está correto e se o documento não está aberto em outro aplicativo. Use `File.Exists()` para verificar antes de carregar.
 
 ### Conteúdo MHTML não está sendo exibido corretamente

@@ -16,7 +16,7 @@ E-mailheaders zijn essentiële onderdelen van elk e-mailbericht en bevatten esse
 E-mailheaders vervullen verschillende belangrijke functies, waaronder:
 
 - Routering: Kopteksten bepalen het bezorgpad en leiden e-mails van verzender naar ontvanger.
-- Authenticatie: Headers als DKIM (DomainKeys Identified Mail) en SPF (Sender Policy Framework) helpen de authenticiteit van e-mails te verifiëren en bieden bescherming tegen spam.
+- Authenticatie: headers als DKIM (DomainKeys Identified Mail) en SPF (Sender Policy Framework) helpen de authenticiteit van e-mails te verifiëren en bieden bescherming tegen spam.
 - Onderwerpregel: De `Subject` De header geeft ontvangers waardevolle context over de inhoud van de e-mail voordat ze deze openen.
 - Antwoordverwerking: headers zoals `Reply-To` Zorg ervoor dat antwoorden naar de juiste adressen worden gestuurd.
 
@@ -35,7 +35,7 @@ Zodra u de bibliotheek in uw project hebt ingesteld, kunt u een e-mail met aange
 ```csharp
 using Aspose.Email;
 
-// Een nieuw exemplaar van de MailMessage-klasse maken
+// Maak een nieuw exemplaar van de MailMessage-klasse
 MailMessage message = new MailMessage();
 
 // Aangepaste headers toevoegen
@@ -73,7 +73,7 @@ message.ReplyToList.Add("reply@example.com");
 
 ### Omgaan met MIME-versie- en inhoudstypeheaders
 
-De `MIME-Version` En `Content-Type` headers zorgen ervoor dat de e-mail correct wordt verwerkt in verschillende e-mailclients:
+De `MIME-Version` En `Content-Type` Headers zorgen ervoor dat de e-mail correct wordt verwerkt in verschillende e-mailclients:
 
 ```csharp
 message.Headers.Add("MIME-Version", "1.0");
@@ -91,7 +91,7 @@ message.Headers.Add("Received-SPF", "pass");
 
 ## Conclusie
 
-Het begrijpen en configureren van e-mailheaders met Aspose.Email voor .NET is cruciaal voor het creëren van effectieve e-mailapplicaties. Met de kennis die in deze handleiding is opgedaan, kunnen ontwikkelaars de kracht van e-mailheaders benutten om routering, beveiliging en algehele gebruikersbetrokkenheid te verbeteren. Door headers aan te passen aan specifieke behoeften, kunt u ervoor zorgen dat uw e-mails effectief het beoogde doel dienen.
+Het begrijpen en configureren van e-mailheaders met Aspose.Email voor .NET is cruciaal voor het creëren van effectieve e-mailapplicaties. Met de kennis die in deze handleiding is opgedaan, kunnen ontwikkelaars de kracht van e-mailheaders benutten om de routering, beveiliging en algehele gebruikersbetrokkenheid te verbeteren. Door headers aan te passen aan specifieke behoeften, kunt u ervoor zorgen dat uw e-mails effectief het beoogde doel dienen.
 
 ## Veelgestelde vragen
 
@@ -102,9 +102,9 @@ Om Aspose.Email voor .NET te installeren, gebruikt u de NuGet Package Manager me
 Install-Package Aspose.Email
 ```
 
-### Kan ik kopteksten zoals CC en BCC aanpassen?
+### Kan ik headers zoals CC en BCC aanpassen?
 
-Absoluut! Je kunt CC- en BCC-headers aanpassen met `message.CC` En `message.Bcc` eigenschappen.
+Absoluut! U kunt CC- en BCC-headers aanpassen met `message.CC` En `message.Bcc` eigenschappen.
 
 ### Wat is het doel van de DKIM-Signature header?
 
@@ -116,4 +116,4 @@ Aspose.Email bevat validatiefuncties waarmee u kunt controleren of e-mailheaders
 
 ### Zijn e-mailheaders hoofdlettergevoelig?
 
-E-mailheaders zijn hoofdlettergevoelig, maar omwille van compatibiliteit is het raadzaam om het hoofdlettergebruik consistent te houden.
+E-mailheaders zijn hoofdlettergevoelig, maar omwille van de compatibiliteit is het raadzaam om het hoofdlettergebruik consistent te houden.

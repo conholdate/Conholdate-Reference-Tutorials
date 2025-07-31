@@ -23,7 +23,7 @@ Bạn đã bao giờ nhìn chằm chằm vào một tài liệu HTML và ước 
 
 Tin tốt đây? Việc chuyển đổi HTML sang PDF bằng C# không còn là vấn đề nan giải nữa. Với Aspose.PDF cho .NET, bạn có thể giải quyết vấn đề này một cách dễ dàng và thực sự tận hưởng quá trình này. Hướng dẫn toàn diện này sẽ hướng dẫn bạn mọi thứ cần biết – từ thiết lập ban đầu đến xử lý những tình huống khó chịu luôn xuất hiện vào những thời điểm tồi tệ nhất.
 
-Đến cuối hướng dẫn này, bạn sẽ nắm vững cách chuyển đổi HTML sang PDF bằng C#, kèm theo cách xử lý lỗi phù hợp và tối ưu hóa hiệu suất. Cùng bắt đầu thôi!
+Đến cuối hướng dẫn này, bạn sẽ nắm vững cách chuyển đổi HTML sang PDF bằng C#, cùng với cách xử lý lỗi phù hợp và tối ưu hóa hiệu suất. Cùng bắt đầu thôi!
 
 ## Tại sao nên chọn Aspose.PDF để chuyển đổi HTML sang PDF?
 

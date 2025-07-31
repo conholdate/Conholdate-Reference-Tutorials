@@ -228,7 +228,7 @@ doc.BuiltInDocumentProperties.Title = "Converted RTF Document";
 doc.BuiltInDocumentProperties.Author = "Document Converter";
 ```
 
-## Kiedy używać DOCX a kiedy RTF
+## Kiedy używać formatu DOCX, a kiedy RTF
 
 Zrozumienie, kiedy stosować poszczególne formaty, może pomóc w podejmowaniu lepszych decyzji architektonicznych:
 

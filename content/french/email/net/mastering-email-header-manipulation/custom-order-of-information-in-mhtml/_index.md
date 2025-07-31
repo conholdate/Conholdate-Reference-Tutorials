@@ -122,7 +122,7 @@ opt.RenderingHeaders.Add(MhtTemplateName.Cc);
 opt.RenderingHeaders.Add(MhtTemplateName.Subject);
 ```
 
-## Étape 8 : Enregistrer le fichier MHTML avec la nouvelle commande personnalisée
+## Étape 8 : Enregistrer le fichier MHTML avec une nouvelle commande personnalisée
 
 Enfin, enregistrez l’e-mail une dernière fois avec les nouveaux paramètres d’en-tête.
 

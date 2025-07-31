@@ -65,7 +65,7 @@ För att komma igång med Aspose.PDF för .NET, följ dessa steg för att konfig
 
 ### Importera det nödvändiga namnutrymmet
 
-Importera namnrymden Aspose.PDF högst upp i din C#-fil:
+Överst i din C#-fil importerar du namnrymden Aspose.PDF:
 
 ```csharp
 using System.IO;

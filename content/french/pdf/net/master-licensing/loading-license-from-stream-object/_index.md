@@ -51,7 +51,7 @@ Ces espaces de noms sont essentiels pour exploiter les fonctionnalités d'Aspose
 
 ## Étape 1 : Initialiser l’objet de licence
 
-Tout d’abord, nous devons créer une instance de `License` classe, qui gérera notre fichier de licence.
+Tout d’abord, nous devons créer une instance du `License` classe, qui gérera notre fichier de licence.
 
 ```csharp
 // Initialiser l'objet de licence

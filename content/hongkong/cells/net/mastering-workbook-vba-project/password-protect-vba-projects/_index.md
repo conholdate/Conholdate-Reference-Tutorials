@@ -9,7 +9,7 @@
 
 ## 介紹
 
-保護 Excel 文件中 VBA 項目的安全性對於維護巨集和敏感資訊的機密性至關重要。 Aspose.Cells for .NET 提供了一個有效的解決方案，可為 VBA 專案套用密碼保護，確保未經授權的使用者無法竄改您的程式碼。在本詳細指南中，我們將引導您完成使用 Aspose.Cells 為您的 VBA 專案設定密碼保護的每個步驟。
+保護 Excel 文件中的 VBA 專案對於維護巨集和敏感資訊的機密性至關重要。 Aspose.Cells for .NET 為 VBA 專案應用密碼保護提供了有效的解決方案，確保未經授權的使用者無法篡改您的程式碼。在本詳細指南中，我們將引導您完成使用 Aspose.Cells 對 VBA 專案進行密碼保護的每個步驟。
 
 ## 先決條件
 
@@ -65,7 +65,7 @@ Aspose.Cells.Vba.VbaProject vbaProject = workbook.VbaProject;
 
 ## 步驟4：應用密碼保護
 
-使用安全密碼鎖定 VBA 項目。此步驟可確保只有授權使用者才能檢視或修改程式碼。
+使用安全密碼鎖定 VBA 項目。此步驟可確保只有授權使用者才能查看或修改程式碼。
 
 ```csharp
 vbaProject.Protect(true, "YourSecurePassword");
@@ -86,7 +86,7 @@ workbook.Save(dataDir + "outputPasswordProtectVBAProject.xlsm");
 
 ## 結論
 
-在 Excel 中對 VBA 項目進行密碼保護是確保敏感程式碼和巨集安全的關鍵步驟。 Aspose.Cells for .NET 簡化了此過程，提供了一種直覺且有效的方法來鎖定 VBA 專案。按照本指南操作，您可以放心地保護您的工作簿，確保強大的資料安全性。
+在 Excel 中使用密碼保護 VBA 專案是保護敏感程式碼和巨集的關鍵步驟。 Aspose.Cells for .NET 簡化了這個過程，提供了一種直觀有效的方法來鎖定 VBA 專案。遵循本指南，您可以放心地保護您的工作簿，確保強大的資料安全。
 
 ## 常見問題解答
 

@@ -112,7 +112,7 @@ Artık Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasındaki zinci
 
 ### Aspose.Cells for .NET nedir?
 
-Aspose.Cells for .NET, geliştiricilerin .NET uygulamalarında Excel dosyaları oluşturmasına, düzenlemesine ve yönetmesine olanak tanıyan kapsamlı bir kütüphanedir. Excel dosyalarını programatik olarak okumak, yazmak ve değiştirmek için güçlü araçlar sağlar.
+Aspose.Cells for .NET, geliştiricilerin .NET uygulamalarında Excel dosyaları oluşturmasına, düzenlemesine ve yönetmesine olanak tanıyan kapsamlı bir kütüphanedir. Excel dosyalarını programatik olarak okumak, yazmak ve değiştirmek için güçlü araçlar sunar.
 
 ### Aspose.Cells for .NET'i nasıl indirebilirim?
 

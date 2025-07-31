@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Cells for .NET 有效清除 Excel 工作表中的所有分頁符號。本逐步指南將簡化整個過程。"
+"description": "了解如何使用 Aspose.Cells for .NET 有效清除 Excel 工作表中的所有分頁符號。本逐步指南簡化了該過程。"
 "linktitle": "使用 Aspose.Cells 清除工作表中的分頁符"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "使用 Aspose.Cells 清除工作表中的分頁符"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-在 Excel 中管理分頁符號可能很棘手，尤其是在您想要一個整潔、可列印的佈局時。幸運的是，Aspose.Cells for .NET 可以輕鬆控制和清除分頁符，確保您的文件流暢運作。本指南將引導您完成有效刪除工作表所有分頁符號的步驟。讓我們開始吧！
+管理 Excel 中的分頁符號可能很棘手，尤其是當您想要一個乾淨、可列印的佈局時。幸運的是，Aspose.Cells for .NET 可以輕鬆控制和清除分頁符，確保您的文件流暢運作。本指南將引導您完成有效地從工作表中刪除所有分頁符號的步驟。讓我們開始吧！
 
 ## 先決條件
 
@@ -32,7 +32,7 @@ using System;
 
 ## 步驟 1：設定文檔目錄
 
-首先，定義文檔目錄的路徑。這是儲存 Excel 檔案以及處理後輸出檔案的位置。
+首先，定義文檔目錄的路徑。這是儲存您的 Excel 檔案的地方，也是處理後儲存輸出檔案的地方。
 
 ```csharp
 // 文檔目錄的路徑。
@@ -43,7 +43,7 @@ string dataDir = "Your Document Directory";
 
 ## 步驟 2：建立工作簿對象
 
-接下來，創建一個 `Workbook` 物件來表示您的 Excel 檔案。此物件將包含您的所有工作表。
+接下來，創建一個 `Workbook` 物件來代表您的 Excel 檔案。該物件將包含您的所有工作表。
 
 ```csharp
 // 實例化 Workbook 物件
@@ -54,7 +54,7 @@ Workbook workbook = new Workbook();
 
 ## 步驟 3：清除水平和垂直分頁符
 
-現在，讓我們清除分頁符號。在 Excel 中，你可以使用水平和垂直分頁符號。要刪除它們，請定位到 `HorizontalPageBreaks` 和 `VerticalPageBreaks` 特定工作表的集合：
+現在，讓我們清除分頁符號。在 Excel 中，您可以同時使用水平和垂直分頁符號。若要刪除它們，請定位 `HorizontalPageBreaks` 和 `VerticalPageBreaks` 特定工作表的集合：
 
 ```csharp
 // 清除所有分頁符
@@ -81,7 +81,7 @@ workbook.Save(dataDir + "ClearAllPageBreaks_out.xls");
 
 ## 結論
 
-恭喜！您已成功使用 Aspose.Cells for .NET 清除 Excel 工作表中的所有分頁符號。只需幾行程式碼，即可將工作表轉換為乾淨的文檔，方便列印或進一步處理。此方法對於準備報告、資料表或任何可列印的文件非常有用。
+恭喜！您已成功使用 Aspose.Cells for .NET 清除了 Excel 工作表中的所有分頁符號。只需幾行程式碼，您就可以將工作表轉換為乾淨的文檔，以便列印或進一步處理。此方法對於準備報告、資料表或任何可列印的文件非常有用。
 
 ## 常見問題解答
 
@@ -92,10 +92,10 @@ workbook.Save(dataDir + "ClearAllPageBreaks_out.xls");
 是的，您可以循環遍歷工作簿中的每個工作表並單獨清除分頁符號。
 
 ### 我需要許可證才能使用 Aspose.Cells for .NET 嗎？  
-要獲得不受限制的完整功能，需要許可證。您可以 [獲得免費試用](https://releases.aspose.com/) 或者 [購買完整許可證](https://purchase。aspose.com/buy).
+要獲得不受限制的完整功能，需要許可證。你可以 [獲得免費試用](https://releases.aspose.com/) 或者 [購買完整許可證](https://purchase。aspose.com/buy).
 
 ### 清除分頁符號後我可以新增新的分頁符號嗎？  
-當然！你可以使用以下方法重新加入分頁符號： `AddHorizontalPageBreak` 和 `AddVerticalPageBreak`。
+絕對地！您可以使用以下方法重新引入分頁符 `AddHorizontalPageBreak` 和 `AddVerticalPageBreak`。
 
 ### Aspose.Cells 是否支援其他格式變更？  
 是的，Aspose.Cells 提供了用於操作 Excel 檔案的綜合 API，包括樣式、格式和使用複雜公式。

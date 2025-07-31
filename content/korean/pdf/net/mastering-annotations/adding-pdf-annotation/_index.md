@@ -126,4 +126,4 @@ Aspose.PDF for .NET을 사용하면 PDF에 주석을 쉽게 추가할 수 있는
 예, 주석은 다음을 사용하여 제거할 수 있습니다. `Annotations.Delete` Aspose.PDF에서 제공하는 방법입니다.
 
 ### Aspose.PDF for .NET을 사용하려면 라이선스가 필요합니까?
-네, 모든 기능을 잠금 해제하고 제한을 피하려면 라이선스가 필요합니다. 라이선스를 취득할 수도 있습니다. [임시 면허](https://purchase.aspose.com/temporary-license/) 평가 목적으로.
+네, 모든 기능을 잠금 해제하고 제한을 피하려면 라이선스가 필요합니다. 또한 [임시 면허](https://purchase.aspose.com/temporary-license/) 평가 목적으로.

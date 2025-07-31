@@ -38,7 +38,7 @@ using Aspose.Pdf;
 
 ```csharp
 // ドキュメント ディレクトリへのパスを定義します。
-string dataDir = "YOUR DOCUMENT DIRECTORY"; // あなたのパスに置き換えてください
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // パスに置き換えてください
 string imageFile = Path.Combine(dataDir, "aspose-logo.jpg"); // 描画する画像
 string inFile = Path.Combine(dataDir, "DrawXFormOnPage.pdf"); // 入力PDFファイル
 string outFile = Path.Combine(dataDir, "blank-sample2_out.pdf"); // 出力PDFファイル

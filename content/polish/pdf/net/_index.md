@@ -34,7 +34,7 @@ Konwertuj różne formaty plików do formatu PDF i z powrotem, zachowując profe
 | **[Konwertuj EPUB do PDF](./mastering-document-conversion/convert-epub-to-pdf/)** | Przekształć e-booki w format PDF, aby zapewnić uniwersalną zgodność | ⭐ Początkujący |
 | **[Opanowanie HTML do PDF](./mastering-document-conversion/mastering-html-to-pdf/)** | Konwersja treści internetowych do formatu PDF z obsługą zaawansowanego stylizowania | ⭐⭐ Poziom średnio zaawansowany |
 | **[Konwersja CGM do PDF](./mastering-document-conversion/convert-cgm-to-pdf/)** | Transformacja metapliku grafiki komputerowej do formatu PDF | ⭐⭐ Poziom średnio zaawansowany |
-| **[Dodawanie załączników do PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** | Załączniki dokumentów zgodne ze standardami archiwalnymi | ⭐⭐⭐ Zaawansowane |
+| **[Dodawanie załączników do PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** Załączniki dokumentów zgodne ze standardami archiwalnymi | ⭐⭐⭐ Zaawansowane |
 
 ### Opanuj programowanie dokumentów PDF
 Zaawansowane techniki programowania PDF służące do tworzenia zaawansowanych rozwiązań dokumentowych.
@@ -52,7 +52,7 @@ Podstawowe operacje na stronach PDF służące organizacji dokumentów i zarząd
 | Samouczek | Opis | Poziom trudności |
 |----------|------------|------------|
 | **[Zmień orientację strony PDF](./master-pdf-page-management/change-pdf-page-orientation/)** | Dostosuj układ i orientację strony, aby zapewnić optymalne wyświetlanie dokumentu | ⭐ Początkujący |
-| **[Łączenie plików PDF](./master-pdf-page-management/concatenating-pdf-files/)** Scalanie wielu dokumentów PDF w jeden spójny plik | ⭐⭐ Poziom średnio zaawansowany |
+| **[Łączenie plików PDF](./master-pdf-page-management/concatenating-pdf-files/)** | Scalanie wielu dokumentów PDF w jeden spójny plik | ⭐⭐ Poziom średnio zaawansowany |
 | **[Usuwanie określonej strony z plików PDF](./master-pdf-page-management/delete-particular-page-from-pdf-files/)** | Skuteczne usuwanie określonych stron z dokumentów PDF | ⭐ Początkujący |
 | **[Wstaw puste strony do pliku PDF](./master-pdf-page-management/insert-empty-pages/)** | Dodaj puste strony, aby uporządkować treść i zachować odstępy | ⭐ Początkujący |
 | **[Dodawanie pustej strony na końcu](./master-pdf-page-management/adding-an-empty-page-at-end/)** | Dodawanie pustych stron do dokumentów PDF programowo | ⭐ Początkujący |
@@ -67,12 +67,12 @@ Podstawowe operacje na stronach PDF służące organizacji dokumentów i zarząd
 ### **Interaktywne tworzenie dokumentów**
 - **Rozwój formularzy**:Dynamiczne formularze PDF z walidacją i obliczeniami
 - **Podpisy cyfrowe**:Bezpieczne podpisywanie i uwierzytelnianie dokumentów
-- **Integracja multimediów**:Treści multimedialne w dokumentach PDF
+- **Integracja multimediów**: Bogata zawartość multimedialna w dokumentach PDF
 
 ### **Rozwiązania z Internetu do PDF**
 - **Konwersja HTML**:Przekształć zawartość internetową w plik PDF, aby uzyskać do niej dostęp w trybie offline
 - **Dokumentacja**:Generuj pliki PDF z internetowych systemów dokumentacji
-- **Generowanie faktur**:Systemy rozliczeniowe oparte na sieci Web z wyjściem w formacie PDF
+- **Generowanie faktur**:Systemy rozliczeniowe oparte na sieci Web z wyjściem PDF
 
 ## 📊 Rekomendacje dotyczące ścieżki edukacyjnej
 
@@ -81,7 +81,7 @@ Podstawowe operacje na stronach PDF służące organizacji dokumentów i zarząd
 2. Uczyć się **[Podstawy konwersji HTML na PDF](./mastering-document-conversion/mastering-html-to-pdf/)**
 3. Praktyka **[Zarządzanie stronami](./master-pdf-page-management/change-pdf-page-orientation/)**
 
-### **Średnio zaawansowany programista** (Znajomość przetwarzania dokumentów)
+### **Średniozaawansowany programista** (Znajomość przetwarzania dokumentów)
 1. Gospodarz **[Konwersje CGM](./mastering-document-conversion/convert-cgm-to-pdf/)**
 2. Badać **[Warstwy PDF](./master-pdf-document-programming/adding-layers-to-pdf/)**
 3. Narzędzie **[Struktura dokumentu](./master-pdf-document-programming/adding-toc-to-pdf/)**
@@ -113,7 +113,7 @@ Podstawowe operacje na stronach PDF służące organizacji dokumentów i zarząd
 ### **Bezpieczeństwo i zgodność**
 - **Podpisy cyfrowe** - Uwierzytelnianie i integralność dokumentów
 - **Szyfrowanie** - Ochrona hasłem i kontrola dostępu
-- **Standardy PDF/A** - Długoterminowa zgodność z archiwizacją
+- **Standardy PDF/A** Długoterminowa zgodność z archiwizacją
 
 ### **Ulepszanie dokumentów**
 - **Znaki wodne** - Ochrona marki i znakowanie dokumentów

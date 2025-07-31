@@ -1,25 +1,26 @@
 ---
-title: Dodaj osadzoną ramkę wideo w prezentacjach .NET
-linktitle: Dodaj osadzoną ramkę wideo w prezentacjach .NET
-second_title: Aspose.Slides .NET API przetwarzania programu PowerPoint
-description: Odblokuj potencjał swoich prezentacji, ucząc się, jak osadzać filmy za pomocą Aspose.Slides dla .NET. Ten kompleksowy samouczek przeprowadzi Cię przez proces krok po kroku integrowania elementów multimedialnych.
-weight: 19
-url: /pl/slides/mastering-image-and-video-manipulation/add-embedded-videos-frame/
+"description": "Odkryj potencjał swoich prezentacji, ucząc się, jak osadzać filmy za pomocą Aspose.Slides dla .NET. Ten kompleksowy samouczek krok po kroku przeprowadzi Cię przez proces integracji elementów multimedialnych."
+"linktitle": "Dodawanie osadzonej ramki wideo w prezentacjach .NET"
+"second_title": "Aspose.Slides .NET Interfejs API przetwarzania programu PowerPoint"
+"title": "Dodawanie osadzonej ramki wideo w prezentacjach .NET"
+"url": "/pl/slides/net/mastering-image-and-video-manipulation/add-embedded-videos-frame/"
+"weight": 19
 ---
+
 ## Wstęp
 
-W dzisiejszym dynamicznym krajobrazie prezentacji integracja elementów multimedialnych może znacznie zwiększyć zaangażowanie i retencję odbiorców. Aspose.Slides dla .NET oferuje solidne rozwiązanie do osadzania klatek wideo w slajdach. Ten samouczek przeprowadzi Cię przez proces krok po kroku, zapewniając płynne działanie od początku do końca.
+dzisiejszym dynamicznym świecie prezentacji, integracja elementów multimedialnych może znacząco zwiększyć zaangażowanie i utrzymać uwagę odbiorców. Aspose.Slides for .NET oferuje solidne rozwiązanie do osadzania klatek wideo w slajdach. Ten samouczek przeprowadzi Cię przez ten proces krok po kroku, zapewniając płynne działanie od początku do końca.
 
 ## Wymagania wstępne
 
 Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
 
--  Biblioteka Aspose.Slides dla platformy .NET: Pobierz i zainstaluj bibliotekę z[strona wydania](https://releases.aspose.com/slides/net/).
+- Biblioteka Aspose.Slides dla platformy .NET: Pobierz i zainstaluj bibliotekę z [strona wydania](https://releases.aspose.com/slides/net/).
 - Treść multimedialna: Plik wideo (np. „Wildlife.mp4”), który chcesz osadzić w swojej prezentacji.
 
 ## Importuj niezbędne przestrzenie nazw
 
-Zacznij od zaimportowania wymaganych przestrzeni nazw do swojego projektu .NET:
+Zacznij od zaimportowania wymaganych przestrzeni nazw w projekcie .NET:
 
 ```csharp
 using System.IO;
@@ -43,7 +44,7 @@ if (!Directory.Exists(dataDir))
 
 ## Krok 2: Utwórz instancję klasy prezentacji
 
- Utwórz instancję`Presentation` klasa reprezentująca Twój plik PPTX:
+Utwórz instancję `Presentation` klasa reprezentująca plik PPTX:
 
 ```csharp
 using (Presentation pres = new Presentation())
@@ -90,13 +91,13 @@ Możesz powtórzyć te kroki dla każdego filmu, który chcesz osadzić w prezen
 
 ## Wniosek
 
-Gratulacje! Udało Ci się osadzić klatkę wideo w prezentacji za pomocą Aspose.Slides dla .NET. Ta dynamiczna funkcja może przenieść Twoje prezentacje na wyższy poziom, oczarowując odbiorców płynnie zintegrowanymi multimediami.
+Gratulacje! Udało Ci się osadzić klatkę wideo w prezentacji za pomocą Aspose.Slides dla .NET. Ta dynamiczna funkcja może przenieść Twoje prezentacje na wyższy poziom, urzekając odbiorców płynnie zintegrowanymi multimediami.
 
 ## Najczęściej zadawane pytania
 
-### Czy mogę osadzić filmy w dowolnym slajdzie prezentacji?
+### Czy mogę osadzić filmy na dowolnym slajdzie prezentacji?
 
- Tak, możesz wybrać dowolny slajd, dostosowując indeks w`pres.Slides[index]`.
+Tak, możesz wybrać dowolny slajd, dostosowując indeks w `pres.Slides[index]`.
 
 ### Jakie formaty wideo są obsługiwane?
 
@@ -104,12 +105,12 @@ Aspose.Slides obsługuje różne formaty wideo, w tym MP4, AVI i WMV.
 
 ### Czy mogę dostosować rozmiar i położenie klatki wideo?
 
- Oczywiście! Możesz modyfikować parametry w`AddVideoFrame(x, y, width, height, video)` aby spełnić Twoje potrzeby.
+Oczywiście! Możesz modyfikować parametry w `AddVideoFrame(x, y, width, height, video)` aby spełnić Twoje potrzeby.
 
 ### Czy istnieje ograniczenie liczby filmów, które mogę osadzić?
 
 Limit osadzonych filmów wideo zależy zazwyczaj od pojemności oprogramowania do prezentacji.
 
-### Gdzie mogę uzyskać dalszą pomoc lub podzielić się swoim doświadczeniem?
+### Gdzie mogę szukać dalszej pomocy lub podzielić się swoimi doświadczeniami?
 
- Zapraszamy do odwiedzenia[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) w celu uzyskania wsparcia społeczności i dyskusji.
+Zapraszamy do odwiedzenia [Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) w celu uzyskania wsparcia społeczności i dyskusji.

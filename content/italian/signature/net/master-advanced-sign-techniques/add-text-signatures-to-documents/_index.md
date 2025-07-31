@@ -1,26 +1,27 @@
 ---
-title: Aggiungere firme di testo ai documenti utilizzando GroupDocs.Signature
-linktitle: Aggiungere firme di testo ai documenti
-second_title: API .NET di GroupDocs.Signature
-description: Scopri come firmare documenti con testo usando GroupDocs.Signature per .NET. Guida passo passo per aggiungere firme di testo a livello di programmazione.
-weight: 17
-url: /it/signature/master-advanced-sign-techniques/add-text-signatures-to-documents/
+"description": "Scopri come firmare documenti con testo utilizzando GroupDocs.Signature per .NET. Guida dettagliata per aggiungere firme testuali a livello di codice."
+"linktitle": "Aggiungere firme di testo ai documenti"
+"second_title": "API .NET GroupDocs.Signature"
+"title": "Aggiungere firme di testo ai documenti utilizzando GroupDocs.Signature"
+"url": "/it/signature/net/master-advanced-sign-techniques/add-text-signatures-to-documents/"
+"weight": 17
 ---
+
 ## Introduzione
 
-Nel panorama digitale odierno, la firma elettronica dei documenti è diventata essenziale per semplificare i flussi di lavoro e risparmiare risorse. GroupDocs.Signature per .NET fornisce una potente soluzione per aggiungere a livello di programmazione firme di testo a vari formati di documenti. Questo tutorial ti guiderà attraverso i passaggi per firmare un documento con testo utilizzando GroupDocs.Signature per .NET.
+Nell'attuale panorama digitale, la firma elettronica dei documenti è diventata essenziale per semplificare i flussi di lavoro e risparmiare risorse. GroupDocs.Signature per .NET offre una soluzione potente per aggiungere firme testuali a vari formati di documento tramite codice. Questo tutorial vi guiderà attraverso i passaggi necessari per firmare un documento con testo utilizzando GroupDocs.Signature per .NET.
 
 ## Prerequisiti
 
 Prima di iniziare, assicurati di avere quanto segue:
 
-1. GroupDocs.Signature per .NET: Scarica e installa la libreria da[Qui](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature per .NET: Scarica e installa la libreria da [Qui](https://releases.groupdocs.com/signature/net/).
 2. Ambiente di sviluppo: configura il tuo ambiente di sviluppo .NET.
-3. Documento: prepara il documento che vuoi firmare (ad esempio, PDF, Word).
+3. Documento: preparare il documento che si desidera firmare (ad esempio, PDF, Word).
 
 ## Importazione degli spazi dei nomi necessari
 
-Inizia importando gli spazi dei nomi richiesti nel tuo progetto .NET:
+Per iniziare, importa gli spazi dei nomi richiesti nel tuo progetto .NET:
 
 ```csharp
 using System;
@@ -42,7 +43,7 @@ string fileName = Path.GetFileName(filePath);
 
 ## Passaggio 2: definire il percorso del file di output
 
-Quindi, imposta il percorso del file di output in cui verrà salvato il documento firmato:
+Successivamente, imposta il percorso del file di output in cui verrà salvato il documento firmato:
 
 ```csharp
 string outputFilePath = Path.Combine("Your Document Directory", "SignWithText", fileName);
@@ -55,7 +56,7 @@ Configura le opzioni per la tua firma testuale, inclusi contenuto, posizione, di
 ```csharp
 TextSignOptions options = new TextSignOptions("John Smith")
 {
-    Left = 50, // Posizione X
+    Left = 50, // posizione X
     Top = 200, // Posizione Y
     Width = 100, // Larghezza della firma
     Height = 30, // Altezza della firma
@@ -78,21 +79,21 @@ using (Signature signature = new Signature(filePath))
 
 ## Conclusione
 
-In questo tutorial, abbiamo dimostrato come aggiungere a livello di programmazione una firma di testo a un documento utilizzando GroupDocs.Signature per .NET. Seguendo questi passaggi, puoi migliorare la sicurezza e l'autenticità dei tuoi documenti in modo efficiente.
+In questo tutorial, abbiamo mostrato come aggiungere una firma testuale a un documento tramite codice utilizzando GroupDocs.Signature per .NET. Seguendo questi passaggi, è possibile migliorare la sicurezza e l'autenticità dei documenti in modo efficiente.
 
 ## Domande frequenti
 
 ### Posso personalizzare l'aspetto della firma testuale?
 Sì, puoi personalizzare vari attributi, come colore, carattere, dimensione e posizione della firma testuale, in base alle tue esigenze.
 
-### GroupDocs.Signature è compatibile con più formati di documento?
-Assolutamente! GroupDocs.Signature supporta un'ampia gamma di formati, tra cui PDF, Word, Excel, PowerPoint e altri.
+### GroupDocs.Signature è compatibile con più formati di documenti?
+Assolutamente sì! GroupDocs.Signature supporta un'ampia gamma di formati, tra cui PDF, Word, Excel, PowerPoint e altri ancora.
 
 ### Posso aggiungere più firme di testo a un singolo documento?
-Sì, puoi aggiungere più firme di testo, ciascuna con le sue opzioni di personalizzazione.
+Sì, puoi aggiungere più firme di testo, ciascuna con le proprie opzioni di personalizzazione.
 
 ### GroupDocs.Signature garantisce l'integrità del documento dopo la firma?
 Sì, la biblioteca utilizza algoritmi crittografici robusti per garantire l'integrità dei documenti e impedirne la manomissione dopo la firma.
 
-### Esiste una versione di prova disponibile per testarla prima dell'acquisto?
- Sì, puoi scaricare una versione di prova gratuita da[Qui](https://releases.groupdocs.com/) per esplorare le funzionalità prima di effettuare un acquisto.
+### È disponibile una versione di prova da testare prima dell'acquisto?
+Sì, puoi scaricare una versione di prova gratuita da [Qui](https://releases.groupdocs.com/) per esplorare le funzionalità prima di effettuare un acquisto.

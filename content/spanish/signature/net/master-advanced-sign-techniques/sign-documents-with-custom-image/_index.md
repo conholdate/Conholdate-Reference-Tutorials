@@ -1,20 +1,21 @@
 ---
-title: Firmar documentos con imágenes personalizadas mediante GroupDocs.Signature
-linktitle: Firmar documentos con imágenes personalizadas
-second_title: API .NET de GroupDocs.Signature
-description: Descubra cómo mejorar la autenticidad y la seguridad de sus documentos firmándolos con imágenes personalizadas mediante GroupDocs.Signature para .NET. Este tutorial paso a paso cubre todo, desde la carga de un documento hasta la firma de un documento.
-weight: 13
-url: /es/signature/master-advanced-sign-techniques/sign-documents-with-custom-image/
+"description": "Descubra cómo mejorar la autenticidad y seguridad de sus documentos firmándolos con imágenes personalizadas con GroupDocs.Signature para .NET. Este tutorial paso a paso lo explica todo, desde la carga de un documento."
+"linktitle": "Firmar documentos con imágenes personalizadas"
+"second_title": "API .NET de GroupDocs.Signature"
+"title": "Firmar documentos con imágenes personalizadas usando GroupDocs.Signature"
+"url": "/es/signature/net/master-advanced-sign-techniques/sign-documents-with-custom-image/"
+"weight": 13
 ---
+
 ## Introducción
 
-En este tutorial, aprenderá a utilizar GroupDocs.Signature para .NET para firmar documentos con imágenes. La firma de documentos mejora la autenticidad y la seguridad de sus archivos, lo que garantiza que sean a prueba de manipulaciones y legalmente vinculantes. Al integrar la funcionalidad de firma de documentos en sus aplicaciones .NET, puede optimizar sus flujos de trabajo de manera significativa.
+En este tutorial, aprenderá a usar GroupDocs.Signature para .NET para firmar documentos con imágenes. La firma de documentos mejora la autenticidad y la seguridad de sus archivos, garantizando su seguridad y validez legal. Al integrar la función de firma de documentos en sus aplicaciones .NET, podrá optimizar significativamente sus flujos de trabajo.
 
 ## Prerrequisitos
 
-Antes de sumergirte en el tutorial, asegúrate de tener lo siguiente:
+Antes de sumergirse en el tutorial, asegúrese de tener lo siguiente:
 
-1.  GroupDocs.Signature para .NET: Descargue e instale GroupDocs.Signature para .NET desde[sitio web](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature para .NET: Descargue e instale GroupDocs.Signature para .NET desde [sitio web](https://releases.groupdocs.com/signature/net/).
 2. Entorno de desarrollo .NET: configure un entorno de trabajo para el desarrollo .NET.
 
 ## Importar espacios de nombres
@@ -29,7 +30,7 @@ using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
 
-## Paso 1: Cargue el documento
+## Paso 1: Cargar el documento
 
 Especifique la ruta del documento que desea firmar. Por ejemplo, para cargar un archivo PDF:
 
@@ -37,7 +38,7 @@ Especifique la ruta del documento que desea firmar. Por ejemplo, para cargar un 
 string filePath = "sample.pdf";
 ```
 
-## Paso 2: Especificar la imagen de la firma
+## Paso 2: Especifique la imagen de la firma
 
 Define la ruta a la imagen de firma que deseas utilizar:
 
@@ -47,7 +48,7 @@ string imagePath = "signature_handwrite.jpg";
 
 ## Paso 3: Establecer la ruta del archivo de salida
 
-Determina dónde quieres guardar el documento firmado:
+Determine dónde desea guardar el documento firmado:
 
 ```csharp
 string outputFilePath = Path.Combine("Your Document Directory", "SignWithImage", "SignedDocument.pdf");
@@ -55,7 +56,7 @@ string outputFilePath = Path.Combine("Your Document Directory", "SignWithImage",
 
 ## Paso 4: Inicializar el objeto de firma
 
- Crear una instancia de la`Signature` clase, pasando la ruta del archivo del documento:
+Crear una instancia de la `Signature` clase, pasando la ruta del archivo del documento:
 
 ```csharp
 using (Signature signature = new Signature(filePath))
@@ -66,7 +67,7 @@ using (Signature signature = new Signature(filePath))
 
 ## Paso 5: Configurar las opciones de firma de imágenes
 
-Establezca las opciones para firmar el documento. Aquí puede especificar la posición de la firma y si debe aparecer en todas las páginas:
+Configure las opciones para firmar el documento. Aquí puede especificar la posición de la firma y si debe aparecer en todas las páginas:
 
 ```csharp
 ImageSignOptions options = new ImageSignOptions(imagePath)
@@ -77,7 +78,7 @@ ImageSignOptions options = new ImageSignOptions(imagePath)
 };
 ```
 
-## Paso 6: Firma el documento
+## Paso 6: Firmar el documento
 
 Utilice las opciones configuradas para firmar el documento:
 
@@ -95,13 +96,13 @@ Console.WriteLine($"\nSource document signed successfully with {result.Succeeded
 
 ## Conclusión
 
-En este tutorial, explicamos cómo firmar documentos mediante imágenes en aplicaciones .NET con GroupDocs.Signature para .NET. La firma de documentos es esencial para mantener la autenticidad y la seguridad de sus archivos, lo que mejora significativamente sus capacidades de administración de documentos.
+En este tutorial, explicamos cómo firmar documentos con imágenes en aplicaciones .NET con GroupDocs.Signature para .NET. La firma de documentos es esencial para mantener la autenticidad y la seguridad de sus archivos, lo que mejora significativamente sus capacidades de gestión documental.
 
 ## Preguntas frecuentes
 
 ### ¿Puedo utilizar varias imágenes de firma en un solo documento?
 
-Sí, puedes firmar un documento usando varias imágenes. Simplemente repite el proceso de firma para cada imagen según sea necesario.
+Sí, puedes firmar un documento con varias imágenes. Simplemente repite el proceso para cada imagen según sea necesario.
 
 ### ¿GroupDocs.Signature para .NET es compatible con todos los tipos de documentos?
 
@@ -109,7 +110,7 @@ GroupDocs.Signature para .NET admite una variedad de formatos de documentos, inc
 
 ### ¿Puedo personalizar la apariencia de la firma?
 
-¡Por supuesto! Puedes ajustar varios aspectos de la apariencia de la firma, como el tamaño, la posición, la transparencia y más.
+¡Claro! Puedes ajustar varios aspectos de la apariencia de la firma, como el tamaño, la posición, la transparencia y más.
 
 ### ¿Hay una versión de prueba disponible para probar?
 
@@ -117,4 +118,4 @@ Sí, puedes descargar una versión de prueba gratuita del sitio web para explora
 
 ### ¿Cómo puedo obtener soporte técnico para GroupDocs.Signature para .NET?
 
- Para obtener asistencia técnica, visite el sitio[Foro GroupDocs.Signature](https://forum.groupdocs.com/c/signature/13).
+Para obtener asistencia técnica, visite el sitio [Foro GroupDocs.Signature](https://forum.groupdocs.com/c/signature/13).

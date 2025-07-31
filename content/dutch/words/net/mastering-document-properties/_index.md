@@ -13,7 +13,7 @@ Aspose.Words voor .NET biedt een breed scala aan krachtige functies voor het bew
 
 ## Aangepaste documenteigenschappen toevoegen in Word  
 
-Het toevoegen van aangepaste documenteigenschappen kan ontzettend handig zijn wanneer u specifieke informatie in uw Word-document wilt opslaan. Of het nu gaat om het bijhouden van projectdetails of het opslaan van auteursnotities, met Aspose.Words voor .NET kunt u naadloos aangepaste eigenschappen aan uw document toevoegen. Deze tutorial begeleidt u door het proces en legt uit hoe u aangepaste eigenschappen zoals tekst, datums of getallen rechtstreeks in uw Word-bestanden kunt definiëren en invoegen. Aan het einde van deze handleiding hebt u een duidelijk inzicht in hoe u uw documenten kunt verrijken met aangepaste gegevens die gemakkelijk op te halen zijn. [Lees verder](./adding-custom-document-properties-in-word/).
+Het toevoegen van aangepaste documenteigenschappen kan ontzettend handig zijn wanneer u specifieke informatie in uw Word-document wilt opslaan. Of het nu gaat om het bijhouden van projectdetails of het opslaan van auteursnotities, met Aspose.Words voor .NET kunt u naadloos aangepaste eigenschappen aan uw document toevoegen. Deze tutorial leidt u door het proces en legt uit hoe u aangepaste eigenschappen zoals tekst, datums of getallen rechtstreeks in uw Word-bestanden kunt definiëren en invoegen. Aan het einde van deze handleiding hebt u een duidelijk inzicht in hoe u uw documenten kunt verrijken met aangepaste gegevens die gemakkelijk op te halen zijn. [Lees verder](./adding-custom-document-properties-in-word/).
 
 ## Aangepaste documenteigenschappen verwijderen uit Word-bestanden  
 
@@ -21,11 +21,11 @@ Soms kunnen Word-documenten onnodige metadata verzamelen, zoals aangepaste eigen
 
 ## Persoonlijke informatie uit Word-documenten verwijderen  
 
-Beveiliging en privacy zijn essentieel bij het werken met gevoelige documenten. Deze tutorial richt zich op het verwijderen van persoonlijke informatie in Word-bestanden, zoals auteursnamen, opmerkingen en het bijhouden van wijzigingen. Aspose.Words voor .NET biedt een eenvoudige manier om metadata te verwijderen en ervoor te zorgen dat uw documenten geen persoonlijke informatie bevatten. Dit is met name handig voor het voorbereiden van documenten om te delen, openbaar te maken of voor juridische doeleinden. [Lees verder](./remove-personal-information-word-document/).
+Beveiliging en privacy zijn essentieel bij het werken met gevoelige documenten. Deze tutorial richt zich op het verwijderen van persoonlijke informatie in Word-bestanden, zoals auteursnamen, opmerkingen en het bijhouden van wijzigingen. Aspose.Words voor .NET biedt een eenvoudige manier om metadata te verwijderen en ervoor te zorgen dat uw documenten geen persoonlijke informatie bevatten. Dit is vooral handig voor het voorbereiden van documenten om te delen, openbaar te maken of voor juridische doeleinden. [Lees verder](./remove-personal-information-word-document/).
 
 ## Converteren tussen meeteenheden  
 
-Maateenheden spelen een belangrijke rol bij de opmaak van documenten, met name bij marges, kopteksten en voetteksten. In deze tutorial ontdekt u hoe u met Aspose.Words voor .NET eenvoudig kunt omrekenen tussen verschillende maateenheden, zoals inches, centimeters en punten. Of u nu werkt aan internationale projecten of zorgt voor een consistente documentindeling, deze handleiding helpt u moeiteloos maateenheden om te zetten. [Lees verder](./converting-between-measurement-units/).
+Maateenheden spelen een belangrijke rol bij de opmaak van documenten, met name bij marges, kopteksten en voetteksten. In deze tutorial ontdekt u hoe u met Aspose.Words voor .NET eenvoudig kunt omrekenen tussen verschillende maateenheden, zoals inches, centimeters en punten. Of u nu werkt aan internationale projecten of zorgt voor consistentie in de documentindeling, deze handleiding helpt u moeiteloos maateenheden om te zetten. [Lees verder](./converting-between-measurement-units/).
 
  ## Zelfstudies over documenteigenschappen
 | Titel | Beschrijving |

@@ -128,7 +128,7 @@ Aspose.PDF for .NET を使用してPDFドキュメントにハイパーリンク
 はい、Aspose.PDF は、操作および変換のために幅広いファイル形式をサポートしています。
 
 ### 開発用の一時ライセンスを取得するにはどうすればよいですか?  
-一時ライセンスを取得するには、 [このリンク](https://purchase。aspose.com/temporary-license/).
+一時ライセンスを取得するには、次のサイトにアクセスしてください。 [このリンク](https://purchase。aspose.com/temporary-license/).
 
 ### Aspose.PDF のチュートリアルはどこで見つかりますか?  
 さらに多くのチュートリアルをご覧ください [Aspose ドキュメント](https://reference。aspose.com/pdf/net/).

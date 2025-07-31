@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Cells for .NET 保護 Excel 工作表中的特定行，從而確保敏感資訊的安全。本教學內容全面，涵蓋從環境設定到資料保護的所有內容。"
+"description": "了解如何透過使用 Aspose.Cells for .NET 保護特定行來確保 Excel 工作表中的敏感資訊安全。本綜合教程涵蓋了從設定環境開始的所有內容。"
 "linktitle": "使用 Aspose.Cells 保護工作表中的行"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "使用 Aspose.Cells 保護工作表中的行"
@@ -9,15 +9,15 @@
 
 ## 介紹
 
-以程式設計方式處理 Excel 檔案通常不僅需要資料操作，還需要資料保護。保護工作表中的特定行對於保護敏感資訊或防止意外編輯至關重要。在本教學中，我們將探討如何使用 Aspose.Cells for .NET 來保護 Excel 工作表中的行。我們將引導您完成必要的步驟，從設定環境到以簡單的方式實現行保護功能。
+以程式設計方式處理 Excel 檔案通常不僅需要資料操作，還需要資料保護。保護工作表中的特定行對於保護敏感資訊或防止意外編輯至關重要。在本教學中，我們將探討如何使用 Aspose.Cells for .NET 來保護 Excel 工作表中的行。我們將指導您完成必要的步驟，從設定環境到以簡單的方式實施行保護功能。
 
 ## 先決條件
 在開始之前，請確保已準備好以下事項：
 
 1. Aspose.Cells for .NET：從 [Aspose Cells下載頁面](https://releases。aspose.com/cells/net/).
-2. Visual Studio 或任何 .NET IDE：您需要一個開發環境。建議使用 Visual Studio，但任何相容 .NET 的 IDE 都可以。
+2. Visual Studio 或任何 .NET IDE：您需要一個開發環境。建議使用 Visual Studio，但任何與 .NET 相容的 IDE 都可以。
 3. 基本 C# 知識：熟悉 C# 程式設計將幫助您跟隨並根據需要修改範例程式碼。
-4. Aspose.Cells API 文件：查看 [Aspose.Cells for .NET 文檔](https://reference.aspose.com/cells/net/) 了解類別結構和方法的概述。
+4. Aspose.Cells API 文件：查看 [Aspose.Cells for .NET文檔](https://reference.aspose.com/cells/net/) 了解類別結構和方法的概述。
 
 一旦準備好先決條件，我們就可以開始實施。
 
@@ -54,7 +54,7 @@ StyleFlag flag;
 ```
 
 ## 步驟 3：解鎖工作表中的所有列
-預設情況下，Excel 工作表中的所有儲存格均處於鎖定狀態。若要僅保護特定行，請先解鎖所有列。
+預設情況下，Excel 工作表中的所有儲存格都會被鎖定。若要僅保護特定行，請先解鎖所有列。
 
 ```csharp
 // 循環遍歷所有列並解鎖它們。
@@ -68,7 +68,7 @@ for (int i = 0; i <= 255; i++)
 ```
 
 ## 步驟 4：鎖定特定行
-現在，鎖定要保護的行。在本例中，我們將鎖定第一行。
+現在，鎖定您想要保護的行。在這個例子中，我們將鎖定第一行。
 
 ```csharp
 // 鎖定第一行。
@@ -81,7 +81,7 @@ sheet.Cells.ApplyRowStyle(0, style, flag);
 您可以對想要鎖定的任何其他行重複此步驟。
 
 ## 步驟5：保護工作表
-鎖定必要的行後，就可以保護工作表了。除非解除保護，否則鎖定的行不會被修改。
+鎖定必要的行後，就可以保護工作表了。除非取消保護，否則這將阻止對鎖定的行進行修改。
 
 ```csharp
 // 保護床單。
@@ -89,7 +89,7 @@ sheet.Protect(ProtectionType.All);
 ```
 
 ## 步驟 6：儲存工作簿
-最後，儲存已套用變更的工作簿。您可以選擇多種格式，例如 Excel 97-2003 或更高版本。
+最後，儲存應用了變更的工作簿。您可以從多種格式中進行選擇，例如 Excel 97-2003 或更新版本。
 
 ```csharp
 // 儲存 Excel 檔案。
@@ -97,7 +97,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
 ## 結論
-恭喜！您已成功學習如何使用 Aspose.Cells for .NET 保護 Excel 工作表中的資料列。請依照以下步驟，您可以根據需要解鎖或鎖定行或列，並套用保護措施來維護資料的完整性。
+恭喜！您已成功學習如何使用 Aspose.Cells for .NET 保護 Excel 工作表中的行。透過遵循這些步驟，您可以根據需要解鎖或鎖定行或列並套用保護以維護資料的完整性。
 
 ## 常見問題解答
 ### 我怎樣才能同時保護多行？

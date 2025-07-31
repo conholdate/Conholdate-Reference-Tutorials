@@ -20,7 +20,7 @@ Aspose.Cells for .NET は、既存の Excel ファイルへのワークシート
    Install-Package Aspose.Cells
    ```
 2. .NET 開発環境: .NET 環境 (理想的には .NET Framework 4.0 以降) が動作していることを確認します。
-3. 基本的な C# の知識: C# プログラミングの知識があれば、提供されている例をよりよく理解できるようになります。
+3. 基本的な C# の知識: C# プログラミングに精通していると、提供されている例をよりよく理解するのに役立ちます。
 4. 既存のExcelファイル: Excelファイル（例： `book1.xls`) にワークシートを追加できます。
 
 ### ライセンスの設定（オプション）
@@ -120,7 +120,7 @@ workbook.Save(dataDir + "updated_book1.xls");
 ファイルを保存したら、必ず `FileStream` リソースを解放します。この手順は、大きなファイルや複数のファイルを扱う場合に特に重要です。
 
 ```csharp
-// FileStream を閉じてリソースを解放します
+// FileStreamを閉じてリソースを解放する
 fstream.Close();
 ```
 

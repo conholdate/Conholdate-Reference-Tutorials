@@ -1,26 +1,27 @@
 ---
-title: Menambahkan Tanda Tangan Teks ke Dokumen Menggunakan GroupDocs.Signature
-linktitle: Tambahkan Tanda Tangan Teks ke Dokumen
-second_title: API Tanda Tangan GroupDocs.NET
-description: Pelajari cara menandatangani dokumen dengan teks menggunakan GroupDocs.Signature untuk .NET. Panduan langkah demi langkah untuk menambahkan tanda tangan teks secara terprogram.
-weight: 17
-url: /id/signature/master-advanced-sign-techniques/add-text-signatures-to-documents/
+"description": "Pelajari cara menandatangani dokumen dengan teks menggunakan GroupDocs.Signature untuk .NET. Panduan langkah demi langkah untuk menambahkan tanda tangan teks secara terprogram."
+"linktitle": "Tambahkan Tanda Tangan Teks ke Dokumen"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Menambahkan Tanda Tangan Teks ke Dokumen Menggunakan GroupDocs.Signature"
+"url": "/id/signature/net/master-advanced-sign-techniques/add-text-signatures-to-documents/"
+"weight": 17
 ---
+
 ## Perkenalan
 
-Dalam lanskap digital saat ini, penandatanganan dokumen elektronik telah menjadi hal penting untuk merampingkan alur kerja dan menghemat sumber daya. GroupDocs.Signature untuk .NET menyediakan solusi yang hebat untuk menambahkan tanda tangan teks secara terprogram ke berbagai format dokumen. Tutorial ini akan memandu Anda melalui langkah-langkah untuk menandatangani dokumen dengan teks menggunakan GroupDocs.Signature untuk .NET.
+Dalam lanskap digital saat ini, penandatanganan dokumen elektronik telah menjadi penting untuk menyederhanakan alur kerja dan menghemat sumber daya. GroupDocs.Signature untuk .NET menyediakan solusi canggih untuk menambahkan tanda tangan teks secara terprogram ke berbagai format dokumen. Tutorial ini akan memandu Anda melalui langkah-langkah untuk menandatangani dokumen dengan teks menggunakan GroupDocs.Signature untuk .NET.
 
 ## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1. GroupDocs.Signature untuk .NET: Unduh dan instal pustaka dari[Di Sini](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature untuk .NET: Unduh dan instal pustaka dari [Di Sini](https://releases.groupdocs.com/signature/net/).
 2. Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET Anda.
 3. Dokumen: Siapkan dokumen yang ingin Anda tandatangani (misalnya, PDF, Word).
 
-## Mengimpor Ruang Nama yang Diperlukan
+## Mengimpor Namespace yang Diperlukan
 
-Mulailah dengan mengimpor namespace yang diperlukan ke proyek .NET Anda:
+Mulailah dengan mengimpor namespace yang diperlukan ke dalam proyek .NET Anda:
 
 ```csharp
 using System;
@@ -36,13 +37,13 @@ using GroupDocs.Signature.Options;
 Mulailah dengan memuat dokumen yang ingin Anda tandatangani:
 
 ```csharp
-string filePath = "sample.pdf"; // Jalur menuju dokumen Anda
+string filePath = "sample.pdf"; // Jalur ke dokumen Anda
 string fileName = Path.GetFileName(filePath);
 ```
 
 ## Langkah 2: Tentukan Jalur File Output
 
-Berikutnya, atur jalur file keluaran tempat dokumen yang ditandatangani akan disimpan:
+Berikutnya, atur jalur berkas keluaran tempat dokumen yang ditandatangani akan disimpan:
 
 ```csharp
 string outputFilePath = Path.Combine("Your Document Directory", "SignWithText", fileName);
@@ -78,7 +79,7 @@ using (Signature signature = new Signature(filePath))
 
 ## Kesimpulan
 
-Dalam tutorial ini, kami menunjukkan cara menambahkan tanda tangan teks ke dokumen secara terprogram menggunakan GroupDocs.Signature for .NET. Dengan mengikuti langkah-langkah ini, Anda dapat meningkatkan keamanan dan keaslian dokumen Anda secara efisien.
+Dalam tutorial ini, kami mendemonstrasikan cara menambahkan tanda tangan teks ke dokumen secara terprogram menggunakan GroupDocs.Signature untuk .NET. Dengan mengikuti langkah-langkah ini, Anda dapat meningkatkan keamanan dan keaslian dokumen Anda secara efisien.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -95,4 +96,4 @@ Ya, Anda dapat menambahkan beberapa tanda tangan teks, masing-masing dengan opsi
 Ya, perpustakaan menggunakan algoritma kriptografi yang kuat untuk memastikan integritas dokumen dan mencegah gangguan setelah penandatanganan.
 
 ### Apakah ada versi uji coba yang tersedia untuk pengujian sebelum membeli?
- Ya, Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.groupdocs.com/) untuk menjelajahi fitur sebelum melakukan pembelian.
+Ya, Anda dapat mengunduh versi uji coba gratis dari [Di Sini](https://releases.groupdocs.com/) untuk menjelajahi fitur sebelum melakukan pembelian.

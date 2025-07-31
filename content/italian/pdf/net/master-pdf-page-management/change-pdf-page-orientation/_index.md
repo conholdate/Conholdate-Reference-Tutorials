@@ -42,7 +42,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(Path.Combine(dataDir, "input.pdf"));
 ```
 
-Assicurati di sostituire `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del file PDF.
+Assicurati di sostituire `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del tuo file PDF.
 
 ## Passaggio 2: scorrere ogni pagina
 

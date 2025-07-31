@@ -24,16 +24,16 @@ Staan er ongewenste afbeeldingen in je PDF? Geen zorgen! Met Aspose.PDF verwijde
 
 ## Miniatuurafbeeldingen maken in PDF-bestanden  
 
-Miniaturen zijn net als snelle previews van de hoofdstukken van een boek: handig en visueel aantrekkelijk! Met Aspose.PDF voor .NET kunt u moeiteloos miniatuurafbeeldingen voor elke pagina van uw PDF genereren. Deze functie is uitstekend geschikt voor het maken van documentvoorbeelden of het verbeteren van de gebruikersnavigatie in uw applicatie. Klaar om deze vaardigheid aan uw gereedschapskist toe te voegen? [Duik in deze gids](./creating-thumbnail-images/) voor alle details en codevoorbeelden.
+Miniaturen zijn net als snelle previews van de hoofdstukken van een boek: handig en visueel aantrekkelijk! Met Aspose.PDF voor .NET kunt u moeiteloos miniaturen genereren voor elke pagina van uw PDF. Deze functie is uitstekend geschikt voor het maken van documentvoorbeelden of het verbeteren van de gebruikersnavigatie in uw applicatie. Klaar om deze vaardigheid aan uw gereedschapskist toe te voegen? [Duik in deze gids](./creating-thumbnail-images/) voor alle details en codevoorbeelden.
 
 ## Bradley-binarisatiealgoritme voor PDF naar binaire afbeeldingen  
 
-Heb je hoogwaardige binaire afbeeldingen van je PDF's nodig? Het Bradley Binarization Algorithm helpt je. Het converteert PDF-pagina's naar scherpe zwart-wit TIFF-afbeeldingen, perfect voor taken zoals documentarchivering of OCR. Aspose.PDF voor .NET maakt de implementatie van dit algoritme een fluitje van een cent. [Leer het stapsgewijze proces](./bradley-binarization-algorithm/) en til uw documentverwerking naar een hoger niveau.
+Heb je hoogwaardige binaire afbeeldingen van je PDF's nodig? Het Bradley Binarization Algorithm helpt je. Het converteert PDF-pagina's naar scherpe zwart-wit TIFF-afbeeldingen, perfect voor taken zoals documentarchivering of OCR. Aspose.PDF voor .NET maakt de implementatie van dit algoritme een fluitje van een cent. [Leer het stapsgewijze proces](./bradley-binarization-algorithm/) en breng uw documentverwerking naar een hoger niveau.
 
 ## Zelfstudies over beeldverwerking
 | Titel | Beschrijving |
 | --- | --- | 
-| [Afbeelding toevoegen aan PDF-bestand](./adding-image/) Leer hoe u programmatisch afbeeldingen toevoegt aan PDF-bestanden met Aspose.PDF voor .NET. Deze uitgebreide tutorial behandelt elke stap, van het instellen van uw omgeving tot het renderen van afbeeldingen op specifieke pagina's. |  
+| [Afbeelding toevoegen aan PDF-bestand](./adding-image/) Leer hoe u programmatisch afbeeldingen aan PDF-bestanden kunt toevoegen met Aspose.PDF voor .NET. Deze uitgebreide tutorial behandelt elke stap, van het instellen van uw omgeving tot het renderen van afbeeldingen op specifieke pagina's. |  
 | [Converteer pagina's naar TIFF-afbeeldingen met Aspose.PDF in .NET](./convert-pages-to-tiff-images/) | Ontdek hoe u PDF-bestanden naadloos kunt converteren naar hoogwaardige TIFF-afbeeldingen met behulp van de Aspose.PDF-bibliotheek voor .NET. Deze stapsgewijze tutorial biedt duidelijke instructies en codevoorbeelden. |  
 | [Bradley Binarisatie-algoritme](./bradley-binarization-algorithm/) | Leer hoe u PDF-pagina's kunt converteren naar hoogwaardige binaire TIFF-afbeeldingen met behulp van het Bradley-binarisatiealgoritme in Aspose.PDF voor .NET. Deze stapsgewijze handleiding bevat een codevoorbeeld. |   
 | [Miniatuurafbeeldingen maken in een PDF-bestand](./creating-thumbnail-images/) | Ontdek hoe u efficiënt miniaturen maakt voor elke pagina van uw PDF-documenten met behulp van de Aspose.PDF-bibliotheek voor .NET. Deze uitgebreide handleiding behandelt alles van installatie tot code-implementatie. |  

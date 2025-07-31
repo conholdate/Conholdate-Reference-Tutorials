@@ -22,7 +22,7 @@ Nutzen Sie das volle Potenzial der E-Mail-Verarbeitung mit Aspose.Email für .NE
 - **🔄 E-Mail-Konvertierung**: Nahtlose Transformation zwischen E-Mail-Formaten
 - **🤖 Spam-Analyse**: Erweiterte Filterung auf Basis maschinellen Lernens
 - **📊 E-Mail-Verarbeitung**: Inhaltsanalyse, Anhangsverwaltung und Metadatenextraktion
-- **⚡ Protokollunterstützung**: SMTP, POP3, IMAP, Exchange Web Services (EWS)
+- **⚡ Protokollunterstützung**SMTP, POP3, IMAP, Exchange Web Services (EWS)
 
 ## 📚 Tutorial-Kategorien
 
@@ -40,13 +40,13 @@ Erweiterte E-Mail-Analysetechniken, einschließlich Spam-Erkennung und Inhaltsve
 | Tutorial | Beschreibung | Schwierigkeitsgrad |
 |----------|----------|------------|
 | **[Bayesianische Spam-Analyse in C#](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Auf maschinellem Lernen basierende Spam-Erkennung mit statistischer Analyse | ⭐⭐⭐ Erweitert |
-| **[HTML-E-Mail in Nur-Text konvertieren](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Sauberen Textinhalt aus HTML-E-Mails extrahieren | ⭐⭐ Mittelstufe |
+| **[HTML-E-Mail in Nur-Text konvertieren](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Sauberen Textinhalt aus HTML-E-Mails extrahieren | ⭐⭐ Mittelstufe |
 
 ## 🎯 Beliebte Anwendungsfälle
 
 ### **E-Mail-Systemintegration**
 - **E-Mail-Migration**: Konvertieren Sie zwischen verschiedenen E-Mail-Formaten für Systemmigrationen
-- **Archivlösungen**Langfristige E-Mail-Speicherung mit Formatstandardisierung
+- **Archivlösungen**: Langfristige E-Mail-Speicherung mit Formatstandardisierung
 - **Plattformübergreifende Kompatibilität**: Sicherstellen, dass E-Mails in verschiedenen E-Mail-Clients funktionieren
 
 ### **E-Mail-Sicherheit und -Analyse**
@@ -133,7 +133,7 @@ Erweiterte E-Mail-Analysetechniken, einschließlich Spam-Erkennung und Inhaltsve
 - **[Kostenlose Testversion](https://releases.aspose.com/email/net/)** - Alle Funktionen bewerten
 
 ### **Community und Support**
-- **[Support-Forum](https://forum.aspose.com/c/email/12)** - Holen Sie sich Hilfe von Experten
+- **[Support-Forum](https://forum.aspose.com/c/email/12)** Holen Sie sich Hilfe von Experten
 
 ### **Lizenzierung und Testversionen**
 - **[Temporäre Lizenz](https://purchase.conholdate.com/temporary-license/)** - Erweiterte Auswertung

@@ -44,7 +44,7 @@ Ez a kód inicializál egy `CalendarReader`, beolvassa az eseményeket a megadot
 
 ## Események olvasása ICS fájlokból
 
-Miután betöltötte az ICS fájlt, most már kinyerheti és megjelenítheti az eseményinformációkat:
+Az ICS fájl betöltésével most már kinyerheti és megjelenítheti az eseményinformációkat:
 
 ```csharp
 foreach (var appointment in appointments)
@@ -56,7 +56,7 @@ foreach (var appointment in appointments)
 }
 ```
 
-Ez a ciklus végigmegy az időpontok listáján, kinyomtatva a fontos részleteket, például az esemény tárgyát, a kezdési dátumot és a befejezési dátumot. Nyugodtan testreszabhatja ezt az igényeinek megfelelően.
+Ez a ciklus végigmegy az időpontok listáján, és kinyomtatja a fontos részleteket, például az esemény tárgyát, a kezdési dátumot és a befejezési dátumot. Nyugodtan testreszabhatja ezt az igényeinek megfelelően.
 
 ## Hibakezelés megvalósítása
 
@@ -86,7 +86,7 @@ Ebben az útmutatóban azt vizsgáltuk meg, hogyan lehet több eseményt beolvas
 ### Mi a különbség az iCalendar és az ICS között?
 Az iCalendar a naptáradatok szabványos formátuma, míg az ICS az iCalendar fájlok kiterjesztése. Gyakran felcserélhetően használják őket.
 
-### Tudok eseményeket írni ICS fájlokba az Aspose.Email for .NET használatával?
+### Tudok eseményeket ICS fájlokba írni az Aspose.Email for .NET használatával?
 Igen, ezzel a könyvtárral létrehozhat, módosíthat és menthet eseményeket ICS formátumban.
 
 ### Az Aspose.Email for .NET kompatibilis a .NET Core és a .NET 5+ rendszerekkel?

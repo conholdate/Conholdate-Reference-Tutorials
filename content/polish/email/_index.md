@@ -21,7 +21,7 @@ Odkryj pełen potencjał zarządzania pocztą e-mail dzięki Aspose.Email dla .N
 - **📧 Wsparcie formatu e-mail**:EML, MSG, MHTML, PST, OST, MBOX i inne
 - **🔄 Bezproblemowa konwersja**:Przekształcaj różne formaty wiadomości e-mail z wysoką dokładnością
 - **🤖 Zaawansowana analiza**:Wykrywanie spamu i przetwarzanie treści oparte na uczeniu maszynowym
-- **📊 Integracja protokołów**: Obsługa SMTP, POP3, IMAP, usług sieciowych Exchange
+- **📊 Integracja protokołów**Obsługa SMTP, POP3, IMAP, usług sieciowych Exchange
 - **🔒 Funkcje bezpieczeństwa**:Szyfrowanie wiadomości e-mail, podpisy cyfrowe i uwierzytelnianie
 
 ## 📚 Kategorie samouczków
@@ -40,7 +40,7 @@ Zaawansowane przetwarzanie treści wiadomości e-mail i inteligentne techniki an
 | Samouczek | Opis | Poziom trudności |
 |----------|------------|------------|
 | **[Analiza spamu bayesowskiego w C#](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Wykrywanie spamu oparte na uczeniu maszynowym z analizą statystyczną | ⭐⭐⭐ Zaawansowane |
-| **[Konwertuj wiadomość e-mail w formacie HTML na zwykły tekst](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Wyodrębnij czystą treść tekstową z wiadomości e-mail w formacie HTML | ⭐⭐ Poziom średnio zaawansowany |
+| **[Konwertuj wiadomość e-mail w formacie HTML na zwykły tekst](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Wyodrębnij czystą treść tekstową z wiadomości e-mail w formacie HTML | ⭐⭐ Poziom średnio zaawansowany |
 
 ### Opanowanie powiadomień e-mail i śledzenia
 Profesjonalne systemy powiadomień e-mail i śledzenia dla aplikacji korporacyjnych.
@@ -80,7 +80,7 @@ Profesjonalne systemy powiadomień e-mail i śledzenia dla aplikacji korporacyjn
 2. Uczyć się **[Przetwarzanie wiadomości e-mail w formacie HTML](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)**
 3. Praktyka **[Podstawowe powiadomienia e-mail](./mastering-email-notifications-and-tracking/integrate-email-notifications/)**
 
-### **Średnio zaawansowany programista** (Znajomość systemów poczty elektronicznej)
+### **Średniozaawansowany programista** (Znajomość systemów poczty elektronicznej)
 1. Gospodarz **[Obsługa strefy czasowej](./comprehensive-guide-to-email-conversion-and-export/convert-emails-to-mht-format-with-timezone-in-csharp/)**
 2. Badać **[Przetwarzanie treści](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)**
 3. Narzędzie **[Śledzenie potwierdzenia odczytu](./mastering-email-notifications-and-tracking/email-read-receipts/)**
@@ -95,7 +95,7 @@ Profesjonalne systemy powiadomień e-mail i śledzenia dla aplikacji korporacyjn
 ### **Najlepsze praktyki konwersji wiadomości e-mail**
 - Zawsze zachowuj oryginalne znaczniki czasu i informacje o strefie czasowej
 - Prawidłowo obsługuj załączniki podczas konwersji formatu
-- Wdrożenie prawidłowej obsługi błędów w przypadku nieprawidłowo sformatowanych wiadomości e-mail
+- Wdrożenie prawidłowej obsługi błędów w przypadku niepoprawnie sformatowanych wiadomości e-mail
 
 ### **Optymalizacja wykrywania spamu**
 - Trenuj modele z różnymi zestawami danych, aby uzyskać większą dokładność
@@ -122,10 +122,10 @@ Profesjonalne systemy powiadomień e-mail i śledzenia dla aplikacji korporacyjn
 - **Szyfrowanie** - Bezpieczna komunikacja e-mailowa i ochrona danych
 
 ### **Analityka i raportowanie**
-- **Śledzenie poczty e-mail** - Potwierdzenia dostarczenia wiadomości i potwierdzenia odczytu
+- **Śledzenie poczty e-mail** Potwierdzenia dostarczenia wiadomości i potwierdzenia odczytu
 - **Analiza treści** - Eksploracja tekstu i klasyfikacja wiadomości e-mail
 - **Metryki wydajności** - Monitorowanie i analiza systemu poczty elektronicznej
-- **Raportowanie zgodności** Zgodność z przepisami i ścieżki audytu
+- **Raportowanie zgodności** - Zgodność z przepisami i ścieżki audytu
 
 ## 🔗 Dodatkowe zasoby
 

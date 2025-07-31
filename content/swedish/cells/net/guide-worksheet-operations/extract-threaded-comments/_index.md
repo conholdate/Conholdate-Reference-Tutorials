@@ -66,7 +66,7 @@ ThreadedCommentCollection threadedComments = worksheet.Comments.GetThreadedComme
 Med samlingen av trådade kommentarer till hands, loopa igenom varje kommentar för att extrahera relevant information, till exempel kommentartexten och författarens namn.
 
 ```csharp
-// Loopa igenom varje trådad kommentar
+// Gå igenom varje trådad kommentar
 foreach (ThreadedComment comment in threadedComments)
 {
     Console.WriteLine("Comment: " + comment.Notes);

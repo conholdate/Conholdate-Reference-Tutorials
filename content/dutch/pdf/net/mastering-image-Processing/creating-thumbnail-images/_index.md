@@ -43,7 +43,7 @@ Geef eerst het pad op naar de map met uw documenten, waar al uw PDF-bestanden zi
 string dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Vervang door uw werkelijke directorypad
 ```
 
-Zorg ervoor dat u vervangt `"YOUR_DOCUMENT_DIRECTORY"` met het daadwerkelijke pad naar uw PDF's, aangezien deze stap cruciaal is voor het vinden van de bestanden.
+Zorg ervoor dat u deze vervangt `"YOUR_DOCUMENT_DIRECTORY"` met het daadwerkelijke pad naar uw PDF's, aangezien deze stap cruciaal is voor het vinden van de bestanden.
 
 ## Stap 2: PDF-bestandsnamen ophalen
 
@@ -55,7 +55,7 @@ string[] fileEntries = Directory.GetFiles(dataDir, "*.pdf");
 
 Gebruiken `Directory.GetFiles`, filteren en verkrijgen wij alleen de PDF-bestanden, zodat wij alle relevante documenten verzamelen.
 
-## Stap 3: Loop door elk PDF-bestand
+## Stap 3: Door elk PDF-bestand itereren
 
 Nu gaan we elk bestand doorlopen en openen om miniaturen voor de pagina's te maken:
 
@@ -63,7 +63,7 @@ Nu gaan we elk bestand doorlopen en openen om miniaturen voor de pagina's te mak
 foreach (string filePath in fileEntries)
 {
     Document pdfDocument = new Document(filePath);
-    // Hier vindt verdere verwerking plaats
+    // Hier vindt aanvullende verwerking plaats
 }
 ```
 
@@ -82,12 +82,12 @@ for (int pageCount = 1; pageCount <= pdfDocument.Pages.Count; pageCount++)
 {
     using (FileStream imageStream = new FileStream(Path.Combine(dataDir, $"Thumbnails_{Path.GetFileNameWithoutExtension(filePath)}_{pageCount}.jpg"), FileMode.Create))
     {
-        // Hier vindt verdere verwerking plaats
+        // Hier vindt aanvullende verwerking plaats
     }
 }
 ```
 
-Hiermee wordt voor elke miniatuur een nieuw JPG-bestand gemaakt. Deze krijgt een unieke naam, gebaseerd op de naam van het originele PDF-bestand en het paginanummer.
+Hiermee wordt voor elke miniatuur een nieuw JPG-bestand gemaakt, dat een unieke naam krijgt op basis van de naam van het originele PDF-bestand en het paginanummer.
 
 ### Stap 4.2: Definieer de resolutie
 
@@ -106,11 +106,11 @@ Stel nu de `JpegDevice`, waarmee u PDF-pagina's naar afbeeldingen kunt converter
 ```csharp
 using (JpegDevice jpegDevice = new JpegDevice(45, 59, resolution, 100))
 {
-    // Hier vindt verdere verwerking plaats
+    // Hier vindt aanvullende verwerking plaats
 }
 ```
 
-Hier specificeren we de afmetingen van de miniaturen (45x59 pixels) en de kwaliteit. Pas deze waarden aan op basis van uw applicatiebehoeften.
+Hier specificeren we de afmetingen van de miniaturen (45x59 pixels) en de kwaliteit. Pas deze waarden aan op basis van uw toepassingsbehoeften.
 
 ### Stap 4.4: Verwerk elke pagina
 

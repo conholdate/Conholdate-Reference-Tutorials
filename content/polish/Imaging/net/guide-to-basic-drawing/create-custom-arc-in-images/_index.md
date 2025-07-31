@@ -1,28 +1,29 @@
 ---
-title: Tworzenie niestandardowych łuków w obrazach przy użyciu Aspose.Imaging dla .NET
-linktitle: Tworzenie niestandardowych łuków w obrazach przy użyciu Aspose.Imaging dla .NET
-second_title: Aspose.Imaging .NET Interfejs API przetwarzania obrazu
-description: Dowiedz się, jak rysować niestandardowe łuki w obrazach za pomocą Aspose.Imaging dla .NET. Postępuj zgodnie z instrukcjami krok po kroku, aby skonfigurować obraz, zainicjować kontekst graficzny, zdefiniować parametry łuku i zapisać ostateczny wynik.
-weight: 10
-url: /pl/imaging/guide-to-basic-drawing/create-custom-arc-in-images/
+"description": "Dowiedz się, jak rysować niestandardowe łuki na obrazach za pomocą Aspose.Imaging dla .NET. Postępuj zgodnie z instrukcjami krok po kroku, aby skonfigurować obraz, zainicjować kontekst graficzny, zdefiniować parametry łuku i zapisać ostateczny wynik."
+"linktitle": "Tworzenie niestandardowych łuków w obrazach przy użyciu Aspose.Imaging dla platformy .NET"
+"second_title": "Aspose.Imaging .NET Interfejs API przetwarzania obrazu"
+"title": "Tworzenie niestandardowych łuków w obrazach przy użyciu Aspose.Imaging dla platformy .NET"
+"url": "/pl/imaging/net/guide-to-basic-drawing/create-custom-arc-in-images/"
+"weight": 10
 ---
+
 ## Wstęp
 
-Aspose.Imaging for .NET to zaawansowana biblioteka przeznaczona do zadań przetwarzania obrazów, zapewniająca programistom narzędzia niezbędne do wydajnego manipulowania obrazami i ich tworzenia. W tym samouczku przeprowadzimy Cię przez proces rysowania łuku na obrazie przy użyciu tej potężnej biblioteki. Pod koniec tego przewodnika będziesz w stanie bezproblemowo włączać łuki do swoich projektów.
+Aspose.Imaging for .NET to zaawansowana biblioteka przeznaczona do przetwarzania obrazów, oferująca programistom narzędzia niezbędne do efektywnego manipulowania nimi i ich tworzenia. W tym samouczku przeprowadzimy Cię przez proces rysowania łuku na obrazie za pomocą tej potężnej biblioteki. Po ukończeniu tego przewodnika będziesz w stanie bezproblemowo włączać łuki do swoich projektów.
 
 ## Wymagania wstępne
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1.  Aspose.Imaging dla .NET: Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać ze strony[strona internetowa Aspose](https://releases.aspose.com/imaging/net/).
+1. Aspose.Imaging dla .NET: Jeśli jeszcze go nie masz zainstalowanego, możesz go pobrać ze strony [strona internetowa Aspose](https://releases.aspose.com/imaging/net/).
 
 2. Środowisko programistyczne: działające środowisko programistyczne .NET (takie jak Visual Studio), w którym można pisać i wykonywać kod C#.
 
-Gdy już spełnisz te wymagania, możemy zacząć rysować łuk!
+Gdy już spełnimy te wymagania wstępne, możemy zacząć rysować łuk!
 
 ## Importuj wymagane przestrzenie nazw
 
- Najpierw musisz zaimportować niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności zapewnianej przez Aspose.Imaging. Dodaj następujący`using` instrukcje znajdujące się na górze pliku C#:
+Najpierw musisz zaimportować niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności zapewnianej przez Aspose.Imaging. Dodaj następujący kod `using` instrukcje na górze pliku C#:
 
 ```csharp
 using Aspose.Imaging;
@@ -86,7 +87,7 @@ Teraz zdefiniujmy parametry łuku i narysujmy go:
             graphic.DrawArc(new Pen(Color.Black), 0, 0, width, height, startAngle, sweepAngle);
 ```
 
-Ten kod ustawia wymiary i kąty łuku i rysuje go czarnym długopisem.
+Ten kod ustala wymiary i kąty łuku i rysuje go czarnym długopisem.
 
 ## Krok 4: Zapisz obraz
 
@@ -104,26 +105,26 @@ Obraz został zapisany z narysowanym na nim łukiem.
 
 ## Wniosek
 
-Udało Ci się stworzyć prostą aplikację, która rysuje łuk w obrazie przy użyciu Aspose.Imaging dla .NET. Za pomocą zaledwie kilku kroków możesz teraz zaimplementować łuki i inne kształty, dodając kreatywny charakter do zadań przetwarzania obrazu.
+Udało Ci się stworzyć prostą aplikację, która rysuje łuk na obrazie za pomocą Aspose.Imaging dla .NET. W zaledwie kilku krokach możesz teraz zaimplementować łuki i inne kształty, dodając kreatywnego charakteru swoim zadaniom przetwarzania obrazu.
 
 ## Najczęściej zadawane pytania
 
 ### Gdzie mogę znaleźć szczegółową dokumentację Aspose.Imaging dla .NET?
 
- Dostępna jest kompleksowa dokumentacja[Tutaj](https://reference.aspose.com/imaging/net/).
+Dostępna jest kompleksowa dokumentacja [Tutaj](https://reference.aspose.com/imaging/net/).
 
 ### Jak mogę pobrać Aspose.Imaging dla platformy .NET?
 
- Możesz pobrać bibliotekę z[ten link](https://releases.aspose.com/imaging/net/).
+Możesz pobrać bibliotekę z [ten link](https://releases.aspose.com/imaging/net/).
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Imaging dla .NET?
 
- Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej [Tutaj](https://releases.aspose.com/).
 
-### Jak uzyskać tymczasową licencję na Aspose.Imaging dla platformy .NET?
+### Jak uzyskać tymczasową licencję na Aspose.Imaging dla .NET?
 
- Możesz poprosić o tymczasową licencję[Tutaj](https://purchase.conholdate.com/temporary-license/).
+Możesz poprosić o tymczasową licencję [Tutaj](https://purchase.conholdate.com/temporary-license/).
 
 ### Gdzie mogę zadać pytania lub uzyskać pomoc dotyczącą Aspose.Imaging dla .NET?
 
- Aby uzyskać wsparcie i wziąć udział w dyskusjach społecznościowych, odwiedź forum Aspose.Imaging[Tutaj](https://forum.aspose.com/).
+Aby uzyskać pomoc i wziąć udział w dyskusjach społeczności, odwiedź forum Aspose.Imaging [Tutaj](https://forum.aspose.com/).

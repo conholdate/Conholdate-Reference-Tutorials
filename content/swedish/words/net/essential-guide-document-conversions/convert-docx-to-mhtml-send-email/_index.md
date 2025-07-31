@@ -140,7 +140,7 @@ using (SmtpClient client = new SmtpClient())
 **Lösning**Kontrollera att filsökvägen är korrekt och att dokumentet inte är öppet i ett annat program. Använd `File.Exists()` att kontrollera innan lastning.
 
 ### MHTML-innehåll visas inte korrekt
-**Problem**Mottagare ser förvrängt innehåll eller saknade bilder.
+**Problem**Mottagarna ser förvrängt innehåll eller saknade bilder.
 **Lösning**Se till att du använder `MhtmlLoadOptions()` när du skapar e-postmeddelandet. Detta hanterar MIME-parsningen korrekt.
 
 ### SMTP-autentiseringsfel
@@ -207,7 +207,7 @@ Kom ihåg att testa noggrant med dina specifika SMTP-serverinställningar och do
 ### Kan jag använda den här metoden för att konvertera andra dokumentformat?
 Absolut! Aspose.Words stöder en mängd olika format, vilket gör att du kan konvertera DOC, DOCX, RTF, ODT och mer till MHTML med samma metod. Ändra bara indatafilen – konverteringsprocessen förblir identisk.
 
-### Hur kan jag lägga till bilagor till e-postmeddelandet?
+### Hur kan jag lägga till bilagor i e-postmeddelandet?
 Du kan enkelt lägga till bilagor med hjälp av `Attachments` egendomen tillhörande `MailMessage` klass. Till exempel: `message.Attachments.Add(new Attachment("path/to/file.pdf"))`Detta är användbart när du vill inkludera den ursprungliga DOCX-filen tillsammans med MHTML-versionen.
 
 ### Är Aspose.Words kompatibelt med .NET Core?

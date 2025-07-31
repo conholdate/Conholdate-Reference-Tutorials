@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.PDF for .NET 停用 PDF 文件中的檔案壓縮。本詳細教學將引導您逐步完成嵌入文件的操作。"
+"description": "了解如何使用 Aspose.PDF for .NET 停用 PDF 文件中的檔案壓縮。本詳細教學將引導您完成逐步的過程以確保嵌入文件。"
 "linktitle": "使用 Aspose.PDF for .NET 停用 PDF 檔案中的檔案壓縮"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "使用 Aspose.PDF for .NET 停用 PDF 檔案中的檔案壓縮"
@@ -9,13 +9,13 @@
 
 ## 介紹
 
-高效的 PDF 管理已成為專業和個人環境中的必備技能。其中一個關鍵方面是控制嵌入檔案的行為，尤其是在壓縮方面。停用 PDF 文件中的文件壓縮可確保嵌入文件保留其原始品質和格式。本指南將指導您使用 Aspose.PDF for .NET 的強大功能來停用 PDF 中的檔案壓縮。
+高效的 PDF 管理已成為專業和個人環境中的必備技能。一個關鍵方面是控制嵌入檔案的行為，特別是在壓縮方面。停用 PDF 文件中的文件壓縮可確保嵌入的文件保留其原始品質和格式。本指南將引導您完成使用 Aspose.PDF for .NET 的強大功能停用 PDF 中的檔案壓縮的過程。
 
 ## 先決條件
 
 要執行本指南中的步驟，您需要以下內容：
 
-- Aspose.PDF for .NET：確保已安裝該程式庫。您可以從 [網站](https://releases。aspose.com/pdf/net/).  
+- Aspose.PDF for .NET：請確定您已安裝程式庫。您可以從 [網站](https://releases。aspose.com/pdf/net/).  
 - 開發環境：使用 Visual Studio 或類似的 IDE 來處理 .NET 專案。
 - C# 知識：需要對 C# 程式設計有基本的了解。
 
@@ -35,9 +35,9 @@ using System;
 using Aspose.Pdf;
 ```
 
-## 步驟1：定義文檔目錄
+## 步驟 1：定義文件目錄
 
-首先指定輸入 PDF 檔案所在的目錄路徑。這可確保應用程式知道在哪裡找到該檔案。
+首先指定輸入 PDF 檔案所在的目錄路徑。這確保應用程式知道在哪裡找到該檔案。
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -53,7 +53,7 @@ Document pdfDocument = new Document(dataDir + "InputFile.pdf");
 
 ## 步驟 3：為附件建立文件規範
 
-準備要作為附件新增的文件。 `FileSpecification` 類別允許您定義檔案屬性，例如描述和編碼。
+準備要作為附件新增的文件。這 `FileSpecification` 類別允許您定義檔案屬性，例如描述和編碼。
 
 ```csharp
 FileSpecification fileSpecification = new FileSpecification("SampleFile.txt", "Sample text file");
@@ -101,7 +101,7 @@ Console.WriteLine("File compression disabled and PDF saved at: " + outputFile);
 是的，您可以對每個文件重複此過程並將它們添加到 `EmbeddedFiles` 收藏。
 
 ### Aspose.PDF for .NET 免費嗎？
-Aspose.PDF 提供免費試用版供您評估。您可以下載 [這裡](https://releases。aspose.com/).
+Aspose.PDF 提供免費試用評估。你可以下載它 [這裡](https://releases。aspose.com/).
 
 ### 在哪裡可以找到 Aspose.PDF 的詳細文件？
 完整的文檔可在 [Aspose.PDF文檔](https://reference。aspose.com/pdf/net/).

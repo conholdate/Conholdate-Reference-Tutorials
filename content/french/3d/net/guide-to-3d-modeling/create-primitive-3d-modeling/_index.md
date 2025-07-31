@@ -1,24 +1,25 @@
 ---
-title: Créer une modélisation 3D primitive
-linktitle: Créer une modélisation 3D primitive
-second_title: API .NET Aspose.3D
-description: Apprenez à créer et personnaliser des modèles 3D primitifs, y compris des boîtes et des cylindres, et à les enregistrer au format FBX sans effort.
-weight: 10
-url: /fr/3d/guide-to-3d-modeling/create-primitive-3d-modeling/
+"description": "Apprenez à créer et personnaliser des modèles 3D primitifs, y compris des boîtes et des cylindres, et à les enregistrer au format FBX sans effort."
+"linktitle": "Créer une modélisation 3D primitive"
+"second_title": "API .NET Aspose.3D"
+"title": "Créer une modélisation 3D primitive"
+"url": "/fr/3d/net/guide-to-3d-modeling/create-primitive-3d-modeling/"
+"weight": 10
 ---
+
 ## Introduction
 
-Bienvenue dans le monde immersif de la modélisation 3D avec Aspose.3D pour .NET ! Dans ce didacticiel complet, nous vous guiderons pas à pas dans le processus de création de modèles 3D primitifs. Que vous soyez un développeur expérimenté ou un débutant désireux d'apprendre, ce guide vous permettra de créer des éléments 3D visuellement époustouflants pour vos projets.
+Bienvenue dans le monde immersif de la modélisation 3D avec Aspose.3D pour .NET ! Dans ce tutoriel complet, nous vous guiderons pas à pas dans la création de modèles 3D primitifs. Que vous soyez un développeur expérimenté ou un débutant avide d'apprendre, ce guide vous permettra de créer des éléments 3D visuellement époustouflants pour vos projets.
 
 ## Prérequis
 
 Avant de vous lancer dans la modélisation 3D, assurez-vous de disposer des prérequis suivants :
 
--  Aspose.3D pour .NET : téléchargez et installez la bibliothèque Aspose.3D pour .NET à partir du[page de téléchargement](https://releases.aspose.com/3d/net/).
+- Aspose.3D pour .NET : Téléchargez et installez la bibliothèque Aspose.3D pour .NET à partir du [page de téléchargement](https://releases.aspose.com/3d/net/).
   
 - Environnement de développement .NET : configurez un environnement compatible avec Aspose.3D, tel que Visual Studio.
 
-Maintenant que tout est prêt, lançons-nous dans notre aventure de modélisation 3D !
+Avec tout préparé, embarquons-nous dans notre aventure de modélisation 3D !
 
 ## Importation des espaces de noms requis
 
@@ -36,7 +37,7 @@ Ces espaces de noms vous fourniront les outils nécessaires pour manipuler des m
 
 ## Étape 1 : Initialiser un objet de scène
 
-Créez un nouvel objet de scène qui sert de toile pour vos modèles 3D :
+Créez un nouvel objet de scène qui agit comme toile pour vos modèles 3D :
 
 ```csharp
 // Initialiser un objet Scene
@@ -65,9 +66,9 @@ Maintenant, améliorez votre scène en ajoutant un cylindre :
 scene.RootNode.CreateChildNode("cylinder", new Cylinder());
 ```
 
-Tout comme avec la boîte, n'hésitez pas à ajuster les paramètres du cylindre pour obtenir le look souhaité.
+Tout comme pour la boîte, n'hésitez pas à ajuster les paramètres du cylindre pour obtenir le look souhaité.
 
-## Étape 4 : Enregistrer la scène au format FBX
+## Étape 4 : Enregistrer la scène au format FBX
 
 Pour conserver votre modèle 3D, enregistrez-le au format FBX :
 
@@ -92,7 +93,7 @@ Votre scène 3D composée de modèles primitifs est maintenant terminée et sauv
 
 ## Conclusion
 
- Félicitations pour la création de superbes modèles 3D à l'aide d'Aspose.3D pour .NET ! Ce didacticiel a couvert les bases de la modélisation primitive, mais les possibilités sont infinies. Découvrez-en plus sur les fonctionnalités et techniques avancées dans le[documentation](https://reference.aspose.com/3d/net/).
+Félicitations pour la création de superbes modèles 3D avec Aspose.3D pour .NET ! Ce tutoriel a abordé les bases de la modélisation primitive, mais les possibilités sont infinies. Découvrez les fonctionnalités et techniques avancées dans le [documentation](https://reference.aspose.com/3d/net/).
 
 ## FAQ
 
@@ -102,16 +103,16 @@ Aspose.3D prend principalement en charge .NET, mais il existe des versions dispo
 
 ### Un essai gratuit est-il disponible ?
 
- Oui, vous pouvez tester les capacités d'Aspose.3D avec un[essai gratuit](https://releases.aspose.com/).
+Oui, vous pouvez tester les fonctionnalités d'Aspose.3D avec un [essai gratuit](https://releases.aspose.com/).
 
 ### Où puis-je trouver du support pour Aspose.3D pour .NET ?
 
-Pour le soutien de la communauté, visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18).
+Pour le soutien de la communauté, visitez le [Forum Aspose.3D](https://forum.aspose.com/c/3d/18).
 
 ### Comment puis-je obtenir un permis temporaire ?
 
- Vous pouvez demander une licence temporaire[ici](https://purchase.conholdate.com/temporary-license/).
+Vous pouvez demander une licence temporaire [ici](https://purchase.conholdate.com/temporary-license/).
 
 ### Existe-t-il des tutoriels supplémentaires disponibles ?
 
- Oui ! Découvrez plus de tutoriels et d'exemples dans le[documentation](https://reference.aspose.com/3d/net/).
+Oui ! Découvrez plus de tutoriels et d'exemples dans le [documentation](https://reference.aspose.com/3d/net/).

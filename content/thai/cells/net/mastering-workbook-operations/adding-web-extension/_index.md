@@ -71,7 +71,7 @@ int extensionIndex = extensions.Add();
 WebExtension extension = extensions[extensionIndex];
 extension.Reference.Id = "wa104379955"; // รหัสส่วนขยายเว็บของคุณ
 extension.Reference.StoreName = "en-US"; // ชื่อร้านค้า
-extension.Reference.StoreType = WebExtensionStoreType.OMEX; // ประเภทของร้านค้า
+extension.Reference.StoreType = WebExtensionStoreType.OMEX; // ประเภทร้านค้า
 ```
 
 การตั้งค่าพารามิเตอร์เหล่านี้จะกำหนดว่าส่วนขยายของคุณจะทำงานอย่างไร

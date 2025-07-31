@@ -31,7 +31,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị sẵn nhữ
 
 ## Nhập gói
 
-Để sử dụng Aspose.Email cho .NET, bạn cần nhập các không gian tên cần thiết vào dự án C# của mình. Thêm các dòng sau vào đầu mã của bạn:
+Để sử dụng Aspose.Email cho .NET, bạn cần nhập các không gian tên cần thiết vào dự án C# của mình. Thêm các dòng sau vào đầu mã:
 
 ```csharp
 using System;

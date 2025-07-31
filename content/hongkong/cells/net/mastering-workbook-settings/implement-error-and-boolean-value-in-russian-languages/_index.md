@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Cells for .NET 實作俄語錯誤和布林值的自訂本地化。本教學將引導您建立自訂全球化設定類別。"
+"description": "了解如何使用 Aspose.Cells for .NET 實作俄語錯誤和布林值的自訂本地化。本綜合教學將引導您建立自訂全球化設定類別。"
 "linktitle": "用俄語或其他語言實現錯誤和布林值"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "用俄語或其他語言實現錯誤和布林值"
@@ -92,7 +92,7 @@ wb.Save(outputDir + "outputRussianGlobalization.pdf");
 
 ## 步驟4：執行程式碼
 
-若要執行程式碼，請在所選的 .NET IDE 中建立一個新的控制台應用程式或類別庫專案。包含前面步驟中的程式碼並執行該方法：
+若要執行程式碼，請在您選擇的 .NET IDE 中建立一個新的控制台應用程式或類別庫專案。包含前面步驟中的程式碼並執行該方法：
 
 ```csharp
 public class ImplementErrorsAndBooleanValueInRussian 
@@ -116,17 +116,17 @@ public class ImplementErrorsAndBooleanValueInRussian
 
 ## 結論
 
-在本教程中，我們探討如何使用 Aspose.Cells for .NET 實作俄語等特定語言的自訂錯誤和布林值。透過建立自訂 `GlobalizationSettings` 透過類別並重寫必要的方法，我們順利地將所需的翻譯整合到電子表格處理工作流程中。這種方法可以輕鬆擴展以支援其他語言，使 Aspose.Cells for .NET 成為國際數據分析和報告的多功能選擇。
+在本教程中，我們探討如何使用 Aspose.Cells for .NET 以特定語言（俄語）實作自訂錯誤和布林值。透過建立自訂 `GlobalizationSettings` 類別並覆蓋必要的方法，我們順利地將所需的翻譯整合到我們的電子表格處理工作流程中。這種方法可以輕鬆擴展以支援其他語言，使 Aspose.Cells for .NET 成為國際數據分析和報告的多功能選擇。
 
 ## 常見問題解答
 
 ### 什麼是 `GlobalizationSettings` Aspose.Cells for .NET 中使用的類別？
 
-`GlobalizationSettings` 允許您自訂錯誤值、布林值和其他特定語言環境資訊在電子表格中的顯示方式。此功能對於滿足國際用戶或以特定語言呈現資料尤其有用。
+`GlobalizationSettings` 允許您自訂錯誤值、布林值和其他特定於語言環境的資訊在電子表格中的顯示方式。此功能對於迎合國際觀眾或以特定語言呈現數據特別有用。
 
 ### 我可以使用 `RussianGlobalization` 與其他 Aspose.Cells 功能一樣嗎？
 
-絕對！ `RussianGlobalization` 類別可以與其他 Aspose.Cells 功能無縫集成，從而允許在整個電子表格處理任務中實現一致的本地化。
+絕對地！這 `RussianGlobalization` 類別可以與其他 Aspose.Cells 功能無縫集成，從而允許在整個電子表格處理任務中實現一致的本地化。
 
 ### 如何新增更多錯誤值和布林值 `RussianGlobalization`？
 
@@ -134,7 +134,7 @@ public class ImplementErrorsAndBooleanValueInRussian
 
 ### 我可以申請 `RussianGlobalization` 類到其他 Aspose 產品？
 
-是的！ `GlobalizationSettings` 類別是 Aspose 各種產品（包括 Aspose.Words 和 Aspose.PDF）中提供的功能。您可以為其他產品建立類似的自訂類，以便在您的應用程式中保持一致的多語言體驗。
+是的！這 `GlobalizationSettings` 類別是各種 Aspose 產品中可用的功能，包括 Aspose.Words 和 Aspose.PDF。您可以為其他產品建立類似的自訂類，以在您的應用程式中保持一致的多語言體驗。
 
 ### 在哪裡可以找到更多關於 Aspose.Cells for .NET 的資源？
 

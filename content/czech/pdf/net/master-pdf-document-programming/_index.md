@@ -54,7 +54,7 @@ Moderní aplikace vyžadují robustní zabezpečení a dokumenty PDF nejsou výj
 ## Běžné problémy s programováním PDF (a jak je řešit)
 
 ### Výkon s velkými dokumenty
-Jedním z problémů, se kterými se mnoho vývojářů potýká, je snížení výkonu při práci s velkými PDF soubory nebo zpracování více dokumentů současně. Klíčem je pochopení toho, jak knihovna spravuje paměť, a implementace správných vzorců pro její uvolňování do kódu.
+Jedním z problémů, se kterými se mnoho vývojářů potýká, je snížení výkonu při práci s velkými soubory PDF nebo při zpracování více dokumentů současně. Klíčem je pochopení toho, jak knihovna spravuje paměť, a implementace správných vzorců pro její uvolňování do kódu.
 
 **Tip pro profesionály**Vždy používejte `using` příkazy při práci s objekty PDF, aby se zajistilo správné čištění zdrojů. Tento jednoduchý postup může zabránit únikům paměti, které postihují produkční aplikace.
 
@@ -97,7 +97,7 @@ V dnešním prostředí, které je zaměřeno na bezpečnost, není implementace
 ## Řešení běžných problémů
 
 ### Problémy s písmem a kódováním
-Problémy související s písmy patří mezi nejčastější problémy, se kterými se vývojáři setkávají. Klíčem je pochopení fungování písem PDF a zajištění dostupnosti cílových písem v prostředí nasazení.
+Problémy s písmy patří mezi nejčastější problémy, se kterými se vývojáři setkávají. Klíčem je pochopení fungování písem PDF a zajištění dostupnosti cílových písem v prostředí nasazení.
 
 **Běžná oprava**Pokud se písma nezobrazují správně, zkontrolujte, zda jsou soubory písem přístupné, a pro dosažení maximální kompatibility zvažte vložení písem přímo do dokumentu.
 

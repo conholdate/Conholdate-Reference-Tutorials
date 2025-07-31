@@ -13,7 +13,7 @@
 
 Használja ki az e-mail-feldolgozás teljes potenciálját az Aspose.Email for .NET segítségével. Átfogó oktatóanyag-gyűjteményünk mindent lefed az alapvető e-mail-konverzióktól a haladó spam-elemzésen át az automatizált e-mail-munkafolyamatokig, segítve Önt robusztus e-mail-feldolgozó alkalmazások létrehozásában.
 
-## 🚀 Amit Elérhetsz
+## 🚀 Amit elérhetsz
 
 **Aspose.Email .NET-hez** egy hatékony e-mail-feldolgozó könyvtár, amely lehetővé teszi a fejlesztők számára, hogy külső e-mail kliensek nélkül hozzanak létre, manipuláljanak, konvertáljanak és elemezzenek e-mail üzeneteket. Az összes főbb e-mail formátum és protokoll támogatásával ez a teljes megoldás az e-mail automatizálására és kezelésére.
 
@@ -40,7 +40,7 @@ Fejlett e-mail elemzési technikák, beleértve a spam észlelését és a tarta
 | Oktatóanyag | Leírás | Nehézség |
 |-----------|--------------|-------------|
 | **[Bayes-féle spamanalízis C#-ban](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Gépi tanuláson alapuló spamészlelés statisztikai elemzéssel | ⭐⭐⭐ Speciális |
-| **[HTML e-mail konvertálása egyszerű szöveggé](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Tiszta szöveges tartalom kinyerése HTML e-mailekből | ⭐⭐ Középhaladó |
+| **[HTML e-mail konvertálása egyszerű szöveggé](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Tiszta szöveges tartalom kinyerése HTML e-mailekből | ⭐⭐ Középhaladó |
 
 ## 🎯 Népszerű felhasználási esetek
 
@@ -133,7 +133,7 @@ Fejlett e-mail elemzési technikák, beleértve a spam észlelését és a tarta
 - **[Ingyenes próbaverzió](https://releases.aspose.com/email/net/)** - Értékelje a teljes funkciókészletet
 
 ### **Közösség és támogatás**
-- **[Támogatási fórum](https://forum.aspose.com/c/email/12)** - Kérjen segítséget szakértőktől
+- **[Támogatási fórum](https://forum.aspose.com/c/email/12)** Kérjen segítséget szakértőktől
 
 ### **Licencelés és próbaverziók**
 - **[Ideiglenes engedély](https://purchase.conholdate.com/temporary-license/)** - Bővített értékelés

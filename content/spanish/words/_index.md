@@ -34,10 +34,10 @@ Domine las transformaciones fundamentales de documentos con resultados de calida
 | **[Convertir DOCX a EPUB](./essential-guide-document-conversions/convert-docx-to-epub/)** | Publicación digital para lectores electrónicos y dispositivos móviles | ⭐⭐ Intermedio |
 | **[Convertir DOCX a TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Extracción de texto plano para procesamiento y análisis de datos | ⭐ Principiante |
 | **[Convertir DOCX a matrices de bytes](./essential-guide-document-conversions/convert-docx-to-byte-arrays/)** | Manejo de documentos eficiente en memoria para aplicaciones web | ⭐⭐ Intermedio |
-| **[Convertir DOC a DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** | Actualizaciones de compatibilidad y modernización de formatos heredados | ⭐ Principiante |
+| **[Convertir DOC a DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** Actualizaciones de compatibilidad y modernización de formatos heredados | ⭐ Principiante |
 | **[Convertir DOCX a MHTML y enviar correo electrónico](./essential-guide-document-conversions/convert-docx-to-mhtml-send-email/)** | Integración de correo electrónico con soporte de formato enriquecido | ⭐⭐ Intermedio |
 | **[Convertir PDF a JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Extracción de imágenes de alta calidad de documentos PDF | ⭐⭐ Intermedio |
-| **[Guardar como PDF](./essential-guide-document-conversions/save-as-pdf/)** Publicación profesional de documentos con opciones avanzadas | ⭐ Principiante |
+| **[Guardar como PDF](./essential-guide-document-conversions/save-as-pdf/)** | Publicación profesional de documentos con opciones avanzadas | ⭐ Principiante |
 
 ### Procesamiento avanzado de documentos con IA
 Aproveche la inteligencia artificial de vanguardia para el análisis inteligente de documentos y la generación automatizada de contenido.
@@ -46,14 +46,14 @@ Aproveche la inteligencia artificial de vanguardia para el análisis inteligente
 |----------|-------------|------------|
 | **[Dominando la síntesis de documentos con un modelo de IA](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Integración de Google AI para resúmenes inteligentes de contenido | ⭐⭐⭐ Avanzado |
 | **[Resumen eficiente de documentos con el modelo OpenAI](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Análisis de documentos y conocimientos automatizados con tecnología GPT | ⭐⭐⭐ Avanzado |
-| **[Opciones para resumir documentos](./advanced-ai-document-processing/summarize-documents-options/)** | Configuración avanzada para el procesamiento de contenido impulsado por IA | ⭐⭐⭐ Avanzado |
+| **[Opciones para resumir documentos](./advanced-ai-document-processing/summarize-documents-options/)** Configuración avanzada para el procesamiento de contenido impulsado por IA | ⭐⭐⭐ Avanzado |
 
 ### Gestión de la sección de masterización
 Estructura y organización profesional de documentos con técnicas avanzadas de manipulación de secciones.
 
 | Tutorial | Descripción | Dificultad |
 |----------|-------------|------------|
-| **[Agregar secciones](./section-management/adding-sections/)** Cree diseños de documentos estructurados con formato profesional | ⭐ Principiante |
+| **[Agregar secciones](./section-management/adding-sections/)** | Cree diseños de documentos estructurados con formato profesional | ⭐ Principiante |
 | **[Eliminar secciones de documentos de Word](./section-management/delete-sections-word-document/)** | Eliminar eficientemente secciones innecesarias de documentos | ⭐ Principiante |
 | **[Añadir contenido de Word a la sección](./section-management/append-section-word-content/)** | Combine sin problemas el contenido de múltiples secciones del documento | ⭐⭐ Intermedio |
 | **[Copiar secciones entre documentos de Word](./section-management/copy-sections-word-documents/)** | Transferir contenido estructurado entre diferentes documentos | ⭐⭐ Intermedio |
@@ -81,7 +81,7 @@ Procesamiento y optimización profesional de imágenes para publicación de docu
 |----------|-------------|------------|
 | **[Control de umbral de exposición para binarización TIFF](./guide-to-image-save-options/expose-threshold-control-for-tiff-binarization-in-word-document/)** | Procesamiento avanzado de imágenes con controles de calidad personalizados | ⭐⭐⭐ Avanzado |
 | **[Obtener rango de páginas JPEG](./guide-to-image-save-options/get-jpeg-page-range-word-document/)** | Extraer páginas de documentos específicos como imágenes de alta calidad | ⭐⭐ Intermedio |
-| **[Obtener rango de páginas TIFF](./guide-to-image-save-options/get-tiff-page-range-word-document/)** Extracción de imágenes profesional con optimización de formato TIFF | ⭐⭐ Intermedio |
+| **[Obtener rango de páginas TIFF](./guide-to-image-save-options/get-tiff-page-range-word-document/)** | Extracción de imágenes profesional con optimización de formato TIFF | ⭐⭐ Intermedio |
 | **[Crear imágenes indexadas de 1 Bpp](./guide-to-image-save-options/create-1bpp-indexed/)** | Procesamiento de imágenes que ahorra espacio para archivo y almacenamiento | ⭐⭐ Intermedio |
 | **[Devolución de llamada para guardar página](./guide-to-image-save-options/page-saving-callback-word-document/)** | Procesamiento de páginas personalizado con generación automatizada de imágenes | ⭐⭐⭐ Avanzado |
 
@@ -90,14 +90,14 @@ Manejo integral de metadatos y manipulación de propiedades de documentos para l
 
 | Tutorial | Descripción | Dificultad |
 |----------|-------------|------------|
-| **[Eliminar propiedades personalizadas del documento](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** | Limpiar metadatos de documentos y optimizar la organización de archivos | ⭐ Principiante |
+| **[Eliminar propiedades personalizadas del documento](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** Limpiar metadatos de documentos y optimizar la organización de archivos | ⭐ Principiante |
 
 ## 🎯 Casos de uso populares
 
 ### **Automatización y publicación de documentos**
 - **Informes profesionales**:Generación automatizada de documentos comerciales con formato consistente
 - **Publicación digital**:Convertir manuscritos a múltiples formatos para diversos canales de distribución
-- **Gestión de contenidos**Optimice los flujos de trabajo de documentos con el procesamiento por lotes y la estandarización de formatos
+- **Gestión de contenidos**: Optimice los flujos de trabajo de documentos con el procesamiento por lotes y la estandarización de formatos
 
 ### **Procesamiento de contenido impulsado por IA**
 - **Resumen inteligente**: Extraiga información clave de documentos extensos utilizando modelos de IA avanzados
@@ -173,7 +173,7 @@ Manejo integral de metadatos y manipulación de propiedades de documentos para l
 - **[Licencia temporal](https://purchase.conholdate.com/temporary-license/)** - Período de evaluación extendido
 - **[Opciones de compra](https://purchase.conholdate.com/buy)** - Licencias flexibles para equipos y empresas
 
-## 📋 Tutorial de referencia rápida
+## 📋 Referencia rápida del tutorial
 
 ### **Operaciones esenciales**
 - Conversiones de documentos (Word ↔ PDF, DOCX ↔ TXT, DOC ↔ DOCX)

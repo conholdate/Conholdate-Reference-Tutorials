@@ -1,31 +1,32 @@
 ---
-title: Dokumentumoldal-előnézetek létrehozása a GroupDocs.Annotation segítségével .NET-hez
-linktitle: Dokumentumoldal-előnézetek létrehozása
-second_title: GroupDocs.Annotation .NET API
-description: Fedezze fel, hogyan integrálhatja zökkenőmentesen a dokumentumoldal-előnézeti funkciókat .NET-alkalmazásaiba a GroupDocs.Annotation segítségével. Ez a lépésről lépésre bemutató útmutató.
-weight: 12
-url: /hu/annotation/master-advanced-annotation-features/generate-document-page-previews/
+"description": "Fedezze fel, hogyan integrálhatja zökkenőmentesen a dokumentumoldal-előnézeti funkciót .NET-alkalmazásaiba a GroupDocs.Annotation segítségével. Ez a lépésenkénti útmutató bemutatja, hogyan."
+"linktitle": "Dokumentumoldal-előnézetek generálása"
+"second_title": "GroupDocs.Annotation .NET API"
+"title": "Dokumentumoldal-előnézetek generálása a GroupDocs.Annotation for .NET segítségével"
+"url": "/hu/annotation/net/master-advanced-annotation-features/generate-document-page-previews/"
+"weight": 12
 ---
+
 ## Bevezetés
 
-dokumentumkezelés és együttműködés folyamatosan fejlődő világában a GroupDocs.Annotation for .NET hatékony megoldásként tündököl. Függetlenül attól, hogy Ön fejlesztő, aki a kommentár funkciókat kívánja integrálni az alkalmazásába, vagy üzleti felhasználó, aki egyszerűsíteni kívánja a dokumentumokkal való együttműködést, a GroupDocs.Annotation széleskörű lehetőségeket kínál. Ez az oktatóanyag végigvezeti a dokumentumoldal-előnézetek létrehozásának folyamatán a GroupDocs.Annotation for .NET használatával, könnyen emészthető lépésekre bontva.
+A dokumentumkezelés és az együttműködés folyamatosan fejlődő világában a GroupDocs.Annotation for .NET hatékony megoldásként ragyog. Akár fejlesztő, aki jegyzetelési funkciókat szeretne integrálni az alkalmazásába, akár üzleti felhasználó, aki a dokumentumokkal való együttműködést szeretné egyszerűsíteni, a GroupDocs.Annotation széleskörű lehetőségeket kínál. Ez az oktatóanyag végigvezeti Önt a dokumentumoldalak előnézeteinek létrehozásának folyamatán a GroupDocs.Annotation for .NET használatával, könnyen emészthető lépésekre bontva azt.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következőkkel rendelkezik a fejlesztői környezetben:
+Mielőtt elkezdené, győződjön meg arról, hogy a következők rendelkezésre állnak a fejlesztői környezetben:
 
 ### A GroupDocs.Annotation telepítése .NET-hez
- Töltse le a GroupDocs.Annotation for .NET fájlt a[letöltési oldal](https://releases.groupdocs.com/annotation/net/).
+Töltse le a GroupDocs.Annotation for .NET fájlt a következő helyről: [letöltési oldal](https://releases.groupdocs.com/annotation/net/).
 
 ### Fejlesztői környezet beállítása
-Győződjön meg arról, hogy a fejlesztői beállítások tartalmaznak .NET-kompatibilis eszközöket és könyvtárakat. A Visual Studio ajánlott, de bármilyen tetszőleges IDE-t használhat.
+Győződjön meg róla, hogy a fejlesztői beállításai tartalmaznak .NET-kompatibilis eszközöket és könyvtárakat. A Visual Studio ajánlott, de bármilyen IDE-t használhat.
 
 ### Alapvető C# ismeretek
-C# programozás ismerete elengedhetetlen, mivel ebben az oktatóanyagban C# kódot kell írni a GroupDocs.Annotation funkcióinak kihasználása érdekében.
+A C# programozásban való jártasság elengedhetetlen, mivel ez az oktatóanyag C# kód írását foglalja magában a GroupDocs.Annotation funkcióinak kihasználásához.
 
-## A szükséges névterek importálása
+## Szükséges névterek importálása
 
-Kezdje a megfelelő névterek importálásával a GroupDocs funkcióinak eléréséhez. Annotation:
+Kezdje a releváns névterek importálásával a GroupDocs funkcióinak eléréséhez.Annotation:
 
 ```csharp
 using GroupDocs.Annotation.Options;
@@ -33,20 +34,20 @@ using System;
 using System.IO;
 ```
 
-## 1. lépés: Az annotátor objektum beállítása
+## 1. lépés: Az Annotator objektum beállítása
 
- Inicializálja a`Annotator` objektumot a megtekinteni kívánt PDF-fájl elérési útjának megadásával. 
+Inicializálja a `Annotator` objektumot a megtekinteni kívánt PDF fájl elérési útjának megadásával. 
 
 ```csharp
 using (Annotator annotator = new Annotator("input.pdf"))
 {
-    // Folytassa az előnézeti beállítások meghatározásával
+    // Folytassa az előnézeti beállítások megadásával
 }
 ```
 
-## 2. lépés: Az előnézeti beállítások megadása
+## 2. lépés: Előnézeti beállítások meghatározása
 
-Ezután konfigurálja az előnézeti beállításokat a dokumentumoldal-előnézetek létrehozásához. Ez magában foglalja az előnézetek formátumának, oldalszámának és kimeneti útvonalának meghatározását.
+Ezután konfigurálja a dokumentumoldalak előnézetének létrehozására vonatkozó előnézeti beállításokat. Ez magában foglalja az előnézetek formátumának, oldalszámainak és kimeneti útvonalainak meghatározását.
 
 ```csharp
 PreviewOptions previewOptions = new PreviewOptions(pageNumber =>
@@ -58,7 +59,7 @@ PreviewOptions previewOptions = new PreviewOptions(pageNumber =>
 
 ## 3. lépés: Dokumentum előnézetek létrehozása
 
-Állítsa be a kívánt előnézeti formátumot, és adja meg, hogy mely oldalak szerepeljenek a kimenetben. Ebben az esetben az első négy oldalon PNG formátumot használunk.
+Állítsa be a kívánt előnézeti formátumot, és adja meg, hogy mely oldalakat szeretné belefoglalni a kimenetbe. Ebben az esetben az első négy oldalhoz PNG formátumot fogunk használni.
 
 ```csharp
 previewOptions.PreviewFormat = PreviewFormats.PNG;
@@ -66,25 +67,25 @@ previewOptions.PageNumbers = new int[] { 1, 2, 3, 4 };
 annotator.Document.GeneratePreview(previewOptions);
 ```
 
- Hívja a`GeneratePreview` módszert a dokumentum előnézetének létrehozásához.
+Hívd a `GeneratePreview` dokumentum előnézetek létrehozásának módja.
 
 ## Következtetés
 
-dokumentumoldal-előnézetek generálása a GroupDocs.Annotation for .NET segítségével egy egyszerű folyamat, amely jelentősen javítja a dokumentumkezelést és az együttműködési munkafolyamatokat. Az oktatóanyagban ismertetett lépések követésével könnyedén integrálhatja a dokumentum-előnézet-generálási funkciókat .NET-alkalmazásaiba.
+A GroupDocs.Annotation for .NET segítségével dokumentumoldal-előnézetek létrehozása egy egyszerű folyamat, amely jelentősen javítja a dokumentumkezelési és együttműködési munkafolyamatokat. Az ebben az oktatóanyagban ismertetett lépéseket követve könnyedén integrálhatja a dokumentumelőnézet-generálási funkciót .NET-alkalmazásaiba.
 
 ## GYIK
 
-### A GroupDocs.Annotation for .NET kompatibilis az összes .NET-keretrendszer-verzióval?
-Igen, a GroupDocs.Annotation for .NET több verzióval is kompatibilis, beleértve a .NET Core és a .NET Standard verziókat.
+### A GroupDocs.Annotation for .NET kompatibilis az összes .NET-keretrendszer verzióval?
+Igen, a GroupDocs.Annotation for .NET több verzióval is kompatibilis, beleértve a .NET Core-t és a .NET Standardot is.
 
-### Testreszabhatom a GroupDocs.Annotation segítségével generált megjegyzések megjelenését?
-Teljesen! A GroupDocs.Annotation kiterjedt testreszabási lehetőségeket kínál a megjegyzések megjelenésének személyre szabásához, hogy megfeleljen az Ön speciális igényeinek.
+### Testreszabhatom a GroupDocs.Annotation segítségével generált jegyzetek megjelenését?
+Abszolút! A GroupDocs.Annotation széleskörű testreszabási lehetőségeket kínál, hogy a jegyzetek megjelenését az Ön igényeihez igazítsa.
 
-### A GroupDocs.Annotation támogatja a PDF-től eltérő dokumentumformátumokat?
-Igen, számos formátumot támogat, beleértve a DOCX, XLSX, PPTX és még sok más formátumot.
+### GroupDocs.Annotation támogatja a PDF-en kívüli más dokumentumformátumokat is?
+Igen, számos formátumot támogat, beleértve a DOCX, XLSX, PPTX és egyebeket.
 
-### Elérhető ingyenes próbaverzió a GroupDocs.Annotation for .NET számára?
- Igen, ingyenes próbaverzió áll rendelkezésre. Elérheti a[kiadások oldala](https://releases.groupdocs.com/).
+### Van ingyenes próbaverzió a GroupDocs.Annotation for .NET-hez?
+Igen, elérhető egy ingyenes próbaverzió. Hozzáférhetsz innen: [kiadások oldala](https://releases.groupdocs.com/).
 
-### Hol találok támogatást a GroupDocs.Annotation for .NET számára?
-Segítségért keresse fel a GroupDocs.Annotation közösségi fórumait[itt](https://forum.groupdocs.com/c/annotation/10).
+### Hol találok támogatást a GroupDocs.Annotation for .NET-hez?
+Segítségért látogassa meg a GroupDocs.Annotation közösségi fórumokat. [itt](https://forum.groupdocs.com/c/annotation/10).

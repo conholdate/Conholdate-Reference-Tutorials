@@ -1,26 +1,27 @@
 ---
-title: دمج ملفات Tar باستخدام GroupDocs.Merger لـ .NET
-linktitle: دمج ملفات Tar باستخدام GroupDocs.Merger لـ .NET
-second_title: GroupDocs.Merger .NET API
-description: تعرف على كيفية دمج ملفات TAR بسلاسة داخل تطبيقات .NET باستخدام GroupDocs.Merger. يوفر هذا البرنامج التعليمي نهجًا شاملاً خطوة بخطوة، مكتملًا بمثال التعليمات البرمجية.
-weight: 11
-url: /ar/merger/merge-and-compress-files/merge-tar-files/
+"description": "تعلّم كيفية دمج ملفات TAR بسلاسة ضمن تطبيقات .NET باستخدام GroupDocs.Merger. يقدم هذا البرنامج التعليمي نهجًا شاملاً خطوة بخطوة، مع أمثلة برمجية."
+"linktitle": "دمج ملفات Tar باستخدام GroupDocs.Merger لـ .NET"
+"second_title": "واجهة برمجة تطبيقات GroupDocs.Merger .NET"
+"title": "دمج ملفات Tar باستخدام GroupDocs.Merger لـ .NET"
+"url": "/ar/merger/net/merge-and-compress-files/merge-tar-files/"
+"weight": 11
 ---
+
 ## مقدمة
 
-في تطوير البرمجيات، يعد التعامل الفعّال مع البيانات أمرًا بالغ الأهمية. ومن المتطلبات الشائعة دمج الملفات برمجيًا. وهنا تبرز ميزة GroupDocs.Merger for .NET، حيث تسمح للمطورين بدمج ملفات TAR (أرشيف الأشرطة) بسلاسة داخل تطبيقات .NET الخاصة بهم. يوفر هذا البرنامج التعليمي دليلاً شاملاً، مكتملًا بإرشادات خطوة بخطوة وأمثلة أكواد، لمساعدتك على البدء.
+في تطوير البرمجيات، يُعدّ التعامل الفعّال مع البيانات أمرًا بالغ الأهمية. ومن المتطلبات الشائعة دمج الملفات برمجيًا. وهنا يبرز GroupDocs.Merger لـ .NET، إذ يُتيح للمطورين دمج ملفات TAR (أرشيف الأشرطة) بسلاسة داخل تطبيقات .NET الخاصة بهم. يُقدّم هذا البرنامج التعليمي دليلًا شاملًا، مُزوّدًا بتعليمات خطوة بخطوة وأمثلة برمجية، لمساعدتك على البدء.
 
 ## المتطلبات الأساسية
 
 قبل أن تبدأ، تأكد من أن لديك:
 
 - بيئة التطوير: Visual Studio أو أي .NET IDE آخر مثبت.
--  GroupDocs.Merger لـ .NET: قم بتنزيل المكتبة وتثبيتها من[صفحة إصدار GroupDocs](https://releases.groupdocs.com/merger/net/).
+- GroupDocs.Merger لـ .NET: قم بتنزيل المكتبة وتثبيتها من [صفحة إصدار GroupDocs](https://releases.groupdocs.com/merger/net/).
 - المعرفة الأساسية بلغة C#: ستساعدك المعرفة ببرمجة C# على فهم الأمثلة المقدمة وتنفيذها.
 
-## استيراد المساحات المطلوبة
+## استيراد مساحات الأسماء المطلوبة
 
-ابدأ باستيراد المساحات الأساسية اللازمة إلى مشروع C# الخاص بك:
+ابدأ باستيراد المساحات الأسماء الضرورية إلى مشروع C# الخاص بك:
 
 ```csharp
 using System;
@@ -36,7 +37,7 @@ string outputFolder = "Your Output Directory";
 string outputFile = Path.Combine(outputFolder, "merged.tar");
 ```
 
- يستبدل`"Your Output Directory"` مع المسار الذي تريد حفظ الملف المدمج فيه.
+يستبدل `"Your Output Directory"` مع المسار الذي تريد حفظ الملف المدمج فيه.
 
 ## الخطوة 2: تحميل ملفات TAR ودمجها
 
@@ -54,9 +55,9 @@ using (var merger = new Merger(Constants.SAMPLE_TAR))
 }
 ```
 
--  أنت تقوم بإنشاء جديد`Merger` مثال مع المسار إلى ملف TAR الأول الخاص بك.
--  ال`Join` تسمح لك الطريقة بإضافة ملف TAR آخر إلى الدمج (هذه الخطوة اختيارية).
--  وأخيرا، اتصل`Save` لإكمال عملية الدمج وكتابة ملف الإخراج إلى الدليل المحدد.
+- أنت تقوم بإنشاء جديد `Merger` مثال مع المسار إلى ملف TAR الأول الخاص بك.
+- ال `Join` تتيح لك الطريقة إضافة ملف TAR آخر إلى الدمج (هذه الخطوة اختيارية).
+- وأخيرا، اتصل `Save` لإكمال عملية الدمج وكتابة ملف الإخراج إلى الدليل المحدد.
 
 ## الخطوة 3: عرض رسالة الإكمال
 
@@ -68,7 +69,7 @@ Console.WriteLine("\nTAR files merge completed successfully. Check the output in
 
 ## خاتمة
 
-لقد نجحت في تعلم كيفية دمج ملفات TAR باستخدام GroupDocs.Merger لـ .NET. لا تعمل هذه المكتبة القوية على تبسيط معالجة الملفات فحسب، بل تعمل أيضًا على تحسين كفاءة معالجة البيانات داخل تطبيقات .NET. جرّب الجمع بين أنواع مختلفة من الملفات واستكشف الميزات المتقدمة التي توفرها GroupDocs.Merger لتلبية احتياجاتك المحددة.
+لقد تعلمتَ بنجاح كيفية دمج ملفات TAR باستخدام GroupDocs.Merger لـ .NET. هذه المكتبة الفعّالة لا تُبسّط معالجة الملفات فحسب، بل تُحسّن أيضًا كفاءة معالجة بياناتك داخل تطبيقات .NET. جرّب دمج أنواع ملفات مختلفة واستكشف الميزات المتقدمة التي يُقدّمها GroupDocs.Merger لتلبية احتياجاتك الخاصة.
 
 ## الأسئلة الشائعة
 
@@ -76,7 +77,7 @@ Console.WriteLine("\nTAR files merge completed successfully. Check the output in
 نعم، تم تصميم GroupDocs.Merger لمعالجة ملفات TAR الكبيرة بكفاءة باستخدام خوارزميات محسّنة.
 
 ### هل يدعم GroupDocs.Merger تنسيقات الملفات التي تتجاوز TAR؟
-بالتأكيد! تدعم المكتبة تنسيقات ملفات مختلفة، بما في ذلك PDF وDOCX وXLSX وغيرها.
+بالتأكيد! تدعم المكتبة صيغ ملفات متنوعة، بما في ذلك PDF وDOCX وXLSX وغيرها.
 
 ### هل GroupDocs.Merger متوافق مع .NET Core؟
 نعم، GroupDocs.Merger متوافق مع كل من .NET Framework و.NET Core.
@@ -85,4 +86,4 @@ Console.WriteLine("\nTAR files merge completed successfully. Check the output in
 بالتأكيد! يوفر GroupDocs.Merger مجموعة متنوعة من واجهات برمجة التطبيقات التي تتيح لك تخصيص عمليات الدمج، بما في ذلك نطاقات الصفحات وترتيب الملفات.
 
 ### أين يمكنني العثور على الدعم لـ GroupDocs.Merger؟
- للحصول على الدعم والمناقشات، قم بزيارة[منتدى GroupDocs](https://forum.groupdocs.com/c/merger/32).
+للحصول على الدعم والمناقشات، قم بزيارة [منتدى GroupDocs](https://forum.groupdocs.com/c/merger/32).

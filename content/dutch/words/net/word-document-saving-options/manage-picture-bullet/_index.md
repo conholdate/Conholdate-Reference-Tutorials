@@ -9,16 +9,16 @@
 
 ## Invoering
 
-Hallo, mede-ontwikkelaars! Heb je ooit problemen gehad met opsommingstekens met afbeeldingen in Word-documenten? Het is een van die kleine details die de weergave van je document aanzienlijk kunnen beïnvloeden. Vandaag leg ik je uit hoe je opsommingstekens met afbeeldingen in Aspose.Words voor .NET beheert, met name de functie 'Opsommingsteken met afbeeldingen niet opslaan'. Laten we beginnen!
+Hallo, mede-ontwikkelaars! Heb je ooit problemen gehad met opsommingstekens met afbeeldingen in Word-documenten? Het is een van die kleine details die de weergave van je document aanzienlijk kunnen beïnvloeden. Vandaag begeleid ik je door het proces van het beheren van opsommingstekens met afbeeldingen in Aspose.Words voor .NET, met specifieke aandacht voor de functie 'Opsommingsteken met afbeeldingen niet opslaan'. Laten we beginnen!
 
 ## Vereisten
 
 Voordat u de code induikt, moet u ervoor zorgen dat u het volgende hebt:
 
-1. Aspose.Words voor .NET: Download en installeer deze robuuste bibliotheek van [De website van Aspose](https://releases.aspose.com/words/net/).
+1. Aspose.Words voor .NET: Download en installeer deze robuuste bibliotheek van [Aspose's website](https://releases.aspose.com/words/net/).
 2. Ontwikkelomgeving: Een werkende .NET-omgeving, zoals Visual Studio.
 3. Basiskennis van C#: Kennis van C#-programmering is een pré.
-4. Voorbeelddocument: Een Word-document met afbeeldingen met opsommingstekens om te testen.
+4. Voorbeelddocument: Een Word-document met afbeeldingen en opsommingstekens om te testen.
 
 Laten we het proces opsplitsen in duidelijke stappen, zodat u het gemakkelijk kunt volgen.
 
@@ -40,7 +40,7 @@ Geef vervolgens het pad naar uw documentenmap op. Hier laadt u uw Word-document 
 string dataDir = "YOUR_DOCUMENTS_DIRECTORY";
 ```
 
-Zorg ervoor dat u vervangt `"YOUR_DOCUMENTS_DIRECTORY"` met het werkelijke pad op uw systeem.
+Zorg ervoor dat u deze vervangt `"YOUR_DOCUMENTS_DIRECTORY"` met het werkelijke pad op uw systeem.
 
 ## Stap 3: Het document laden
 

@@ -46,7 +46,7 @@ Estos espacios de nombres le permitirán crear, manipular y guardar archivos ODS
 Primero, especifique las rutas para los archivos de origen (entrada) y de salida:
 
 ```csharp
-// Directorio de origen
+// Directorio de fuentes
 string sourceDir = "Your Document Directory";
 // Directorio de salida
 string outputDir = "Your Document Directory";

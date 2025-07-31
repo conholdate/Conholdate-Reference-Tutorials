@@ -91,7 +91,7 @@ string dataDir = "Your Document Directory";
 
 Sostituire `"Your Document Directory"` con il tuo percorso attuale, come `"C:\ExcelFiles\"`. 
 
-**Suggerimento professionale**: Utilizza percorsi relativi nel codice di produzione per rendere la tua applicazione più portabile in diversi ambienti.
+**Consiglio da professionista**: Utilizza percorsi relativi nel codice di produzione per rendere la tua applicazione più portabile in diversi ambienti.
 
 ### Passaggio 2: carica il file Excel
 Crea un oggetto Workbook e carica il tuo file Excel. È qui che Aspose.Cells legge ed elabora tutti i dati del tuo foglio di calcolo:
@@ -244,7 +244,7 @@ Quando si condividono analisi dei dati o report finanziari con i clienti, il for
 Per ottenere le migliori prestazioni dalle conversioni da Excel a PDF:
 
 ### Ottimizzazione dell'utilizzo della memoria
-- Elaborare cartelle di lavoro di grandi dimensioni, foglio di lavoro per foglio di lavoro, quando possibile
+- Elaborare le cartelle di lavoro di grandi dimensioni, foglio di lavoro per foglio di lavoro, quando possibile
 - Utilizzare API di streaming per set di dati estremamente grandi
 - Implementare una corretta garbage collection nelle applicazioni di lunga durata
 

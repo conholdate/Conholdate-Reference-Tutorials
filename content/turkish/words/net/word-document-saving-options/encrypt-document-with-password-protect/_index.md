@@ -87,7 +87,7 @@ Tebrikler! Aspose.Words for .NET kullanarak bir belgeyi parola ile nasıl şifre
 Evet, Aspose.Words for .NET çeşitli şifreleme yöntemlerini destekler. [dokümantasyon](https://reference.aspose.com/words/net/) Daha fazla bilgi için.
 
 ### Belge şifremi unutursam ne olur?
-Ne yazık ki, şifrenizi unutursanız belgeye erişmeniz mümkün olmayacaktır. Her zaman hatırlayabileceğiniz bir şifre seçin veya güvenli bir yerde saklayın.
+Ne yazık ki, şifrenizi unutursanız belgeye erişmeniz imkansız hale gelecektir. Her zaman hatırlayabileceğiniz bir şifre seçin veya güvenli bir yerde saklayın.
 
 ### Mevcut bir belgenin şifresini değiştirebilir miyim?
 Kesinlikle! Yukarıda belirtilen adımları izleyerek mevcut bir belgeyi yükleyip yeni bir parola ile kaydedebilirsiniz.

@@ -116,7 +116,7 @@ Herzlichen Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.Words
 ### Kann ich mehrere Lesezeichen gleichzeitig umschalten?
 Ja, rufen Sie einfach die `ShowHideBookmarkedContent` Methode für jedes Lesezeichen, das Sie umschalten möchten.
 
-### Hat das Ausblenden von Inhalten Auswirkungen auf die Struktur des Dokuments?
+### Beeinflusst das Ausblenden von Inhalten die Struktur des Dokuments?
 Nein, das Ausblenden von Inhalten wirkt sich nur auf deren Sichtbarkeit aus; der Inhalt bleibt im Dokument erhalten.
 
 ### Kann ich diese Methode für andere Arten von Inhalten verwenden?

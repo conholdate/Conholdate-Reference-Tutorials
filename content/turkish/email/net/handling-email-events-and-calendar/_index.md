@@ -1,5 +1,5 @@
 ---
-"description": "E-posta etkinliklerini ve takvim yönetimini ele alan Aspose.Email for .NET eğitimlerini keşfedin. C# uygulamalarınızı verimli bir şekilde geliştirme tekniklerini öğrenin."
+"description": "E-posta etkinliklerini yönetme ve takvim yönetimiyle ilgili Aspose.Email for .NET eğitimlerini inceleyin. C# uygulamalarınızı verimli bir şekilde geliştirme tekniklerini öğrenin."
 "linktitle": "E-posta Etkinliklerini ve Takvimini Yönetme"
 "second_title": "Aspose.Email .NET E-posta İşleme API'si"
 "title": "Aspose.Email for .NET ile E-posta Etkinliklerini ve Takvimini Yönetme"
@@ -17,7 +17,7 @@ Aspose.Email'in en kullanışlı özelliklerinden biri, ICS dosyalarından takvi
 
 ## MHTML'de Takvim Etkinliklerinin Oluşturulması 
 
-Takvim etkinliklerini MHTML formatına dönüştürmenin faydalarını hiç düşündünüz mü? Farklı platformlarda kolayca paylaşım ve görüntüleme olanağı sağlar. Aspose.Email ile bu süreç sorunsuz! Eğitimimiz [Aspose.Email Kullanarak MHTML'de Takvim Etkinliklerini Oluşturma](./render-calendar-events-in-mhtml/) MSG dosyalarını özelleştirme ve kaydetme konusunda size rehberlik edeceğiz. Takvimlerinizi görsel olarak zenginleştirirken teknik yönlerini de basit tutmayı öğreneceksiniz.
+Takvim etkinliklerini MHTML formatına dönüştürmenin faydalarını hiç düşündünüz mü? Farklı platformlarda kolayca paylaşım ve görüntüleme olanağı sağlar. Aspose.Email ile bu süreç sorunsuz! Eğitimimiz [Aspose.Email Kullanarak MHTML'de Takvim Etkinliklerini Oluşturma](./render-calendar-events-in-mhtml/) MSG dosyalarını özelleştirme ve kaydetme konusunda size rehberlik edecek. Takvimlerinizi görsel olarak zenginleştirirken teknik yönlerini de basit tutmayı öğreneceksiniz.
 
 ## Randevu Katılımcılarını Yönetme
 

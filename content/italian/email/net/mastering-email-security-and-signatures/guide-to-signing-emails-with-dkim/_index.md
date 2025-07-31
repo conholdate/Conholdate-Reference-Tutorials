@@ -62,7 +62,7 @@ MailMessage signedMsg = mailMessage.DKIMSign(rsa, signInfo);
 
 ## Passaggio 4: Invia l'e-mail firmata
 
-Infine, inviamo l'e-mail firmata tramite un client SMTP. Assicurati di sostituire i segnaposto con le tue credenziali di posta elettronica effettive.
+Infine, inviamo l'email firmata tramite un client SMTP. Assicurati di sostituire i segnaposto con le tue credenziali email effettive.
 
 ```csharp
 try

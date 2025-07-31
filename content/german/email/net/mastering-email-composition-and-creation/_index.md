@@ -34,7 +34,7 @@ E-Mail-Header sind ein grundlegender Bestandteil der E-Mail-Kommunikation. Sie e
 
 ## Tutorials zum Verfassen und Erstellen von E-Mails
 ### [Erstellen einer neuen E-Mail – C#-Implementierung](./craft-a-fresh-email-csharp-implementation/)
-Entdecken Sie die Möglichkeiten automatisierter E-Mail-Kommunikation mit unserem ausführlichen Leitfaden zur Verwendung von C# und der Aspose.Email für .NET-Bibliothek. Erfahren Sie, wie Sie E-Mails inklusive Anhängen und HTML-Inhalten erstellen, formatieren und versenden.
+Entdecken Sie die Möglichkeiten automatisierter E-Mail-Kommunikation mit unserem ausführlichen Leitfaden zur Verwendung von C# und der Aspose.Email für .NET-Bibliothek. Erfahren Sie, wie Sie E-Mails erstellen, formatieren und versenden, einschließlich Anhängen und HTML-Inhalten.
 ### [Erstellen Sie eine neue E-Mail-Nachricht in C# mit Aspose.Email für .NET](./construct-a-new-mail-message-in-csharp/)
 Erfahren Sie, wie Sie mit Aspose.Email für .NET E-Mail-Funktionen nahtlos in Ihre C#-Anwendungen integrieren. Dieser umfassende Leitfaden bietet eine detaillierte Anleitung zum programmgesteuerten Erstellen, Formatieren und Senden von E-Mails.
 ### [Konvertieren von MSG-Dateien in das TNEF-Format mit Aspose.Email](./converting-msg-files-to-tnef-format/)

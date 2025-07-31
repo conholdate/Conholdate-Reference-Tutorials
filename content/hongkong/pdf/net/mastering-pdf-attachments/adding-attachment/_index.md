@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.PDF for .NET 輕鬆將文件附加到 PDF 文件。按照我們的逐步指南，使用嵌入文件增強 PDF 功能。"
+"description": "了解如何使用 Aspose.PDF for .NET 輕鬆地將文件附加到 PDF 文件。按照我們的逐步指南，使用嵌入文件增強 PDF 功能。"
 "linktitle": "在 PDF 文件中新增附件"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "在 PDF 文件中新增附件"
@@ -9,7 +9,7 @@
 
 ## 介紹  
 
-在 PDF 文件中嵌入附件是將相關資料整合到單一文件中的實用方法。透過 Aspose.PDF for .NET，開發人員可以自動化此流程，從而將外部文件無縫整合到 PDF 中。  
+在 PDF 文件中嵌入附件是將相關資料合併到單一文件中的實用方法。使用 Aspose.PDF for .NET，開發人員可以自動化此流程，從而允許將外部文件無縫整合到 PDF 中。  
 
 ## 先決條件  
 
@@ -87,7 +87,7 @@ Console.WriteLine("Attachment added successfully. File saved at: " + outputFile)
 
 ## 結論  
 
-請依照上述步驟，您可以使用 Aspose.PDF for .NET 有效率地為 PDF 檔案新增附件。此功能可讓您透過將相關文件直接嵌入到 PDF 中，建立全面且使用者友好的文件。 Aspose.PDF 強大的 API 確保附件的無縫集成，使其成為文件管理和自動化的必備工具。  
+透過遵循上面概述的步驟，您可以使用 Aspose.PDF for .NET 有效地將附件新增至 PDF 檔案。此功能可讓您透過將相關文件直接嵌入到 PDF 中來建立全面、使用者友好的文件。 Aspose.PDF 強大的 API 確保附件的無縫集成，使其成為文件管理和自動化的重要工具。  
 
 ## 常見問題解答  
 
@@ -95,7 +95,7 @@ Console.WriteLine("Attachment added successfully. File saved at: " + outputFile)
 您可以附加任何文件類型，包括文字文件、圖像和其他文件格式。  
 
 ### 我可以向單一 PDF 添加多少個附件？  
-沒有具體限制；你可以添加多個附件到 `EmbeddedFiles` 收藏。  
+沒有具體限制；您可以添加多個附件到 `EmbeddedFiles` 收藏。  
 
 ### Aspose.PDF for .NET 免費嗎？  
 Aspose.PDF 提供免費試用，但要獲得完整功能則需要付費許可。  

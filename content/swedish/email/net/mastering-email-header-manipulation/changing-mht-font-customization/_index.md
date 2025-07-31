@@ -79,7 +79,7 @@ Förklaring: Den här loopen kontrollerar om innehållstypen för den länkade r
 
 ## Steg 4: Spara den uppdaterade MHT-filen
 
-När du har anpassat teckensnitten är det dags att spara din modifierade MHT-fil. Se till att du använder rätt sparalternativ för att bevara filens integritet.
+När du har anpassat teckensnitten är det dags att spara din modifierade MHT-fil. Se till att du använder rätt sparalternativ för att behålla filens integritet.
 
 ```csharp
 message.Save("output.mht", SaveOptions.DefaultMhtml);

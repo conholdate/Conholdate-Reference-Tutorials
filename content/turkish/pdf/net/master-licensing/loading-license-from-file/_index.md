@@ -61,7 +61,7 @@ Kullanın `SetLicense` yöntemi `License` lisans dosyasını yüklemek için sı
 license.SetLicense(dataDir + "Aspose.Pdf.lic");
 ```  
 
-Bu, lisansı uygular ve kütüphanenin tüm premium özelliklerini etkinleştirir.  
+Bu, kütüphanenin tüm premium özelliklerini etkinleştiren lisansı uygular.  
 
 ## Adım 4: Lisans Başvurusunu Doğrulayın  
 

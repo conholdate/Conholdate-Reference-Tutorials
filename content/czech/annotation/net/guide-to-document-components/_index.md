@@ -1,41 +1,42 @@
 ---
-title: Průvodce komponentami dokumentu v GroupDocs.Annotation pro .NET
-linktitle: Průvodce komponentami dokumentu
-second_title: GroupDocs.Annotation .NET API
-description: Prozkoumejte GroupDocs.Annotation pro .NET výukové programy! Naučte se krok za krokem snadno přidávat interaktivní tlačítka a zaškrtávací políčka do dokumentů PDF.
-weight: 24
-url: /cs/annotation/guide-to-document-components/
+"description": "Prozkoumejte tutoriály k GroupDocs.Annotation pro .NET! Naučte se krok za krokem snadno přidávat interaktivní tlačítka a zaškrtávací políčka do dokumentů PDF."
+"linktitle": "Průvodce komponentami dokumentu"
+"second_title": "GroupDocs.Annotation .NET API"
+"title": "Průvodce komponentami dokumentů v GroupDocs.Annotation pro .NET"
+"url": "/cs/annotation/net/guide-to-document-components/"
+"weight": 24
 ---
+
 ## Zavedení
 
-Jste připraveni posunout své dokumenty PDF na další úroveň? S GroupDocs.Annotation for .NET můžete do svých souborů přidat interaktivitu, díky čemuž jsou dynamičtější a poutavější. V této sérii výukových programů se zaměříme na přidání dvou výkonných součástí: tlačítek a zaškrtávacích políček. Ať už jste začátečník nebo ostřílený vývojář, tato příručka vás vybaví praktickým know-how.  
+Jste připraveni posunout své PDF dokumenty na další úroveň? S GroupDocs.Annotation pro .NET můžete do svých souborů přidat interaktivnost, díky čemuž budou dynamičtější a poutavější. V této sérii tutoriálů se zaměříme na přidávání dvou výkonných komponent: tlačítek a zaškrtávacích políček. Ať už jste nováček nebo zkušený vývojář, tato příručka vás vybaví praktickými znalostmi.  
 
-## Přidání komponent tlačítka do PDF  
+## Přidávání komponent tlačítek do PDF  
 
-Nejprve tlačítka! Jsou ideální pro propojování akcí, procházení stránek nebo spouštění událostí. S GroupDocs.Annotation pro .NET je můžete hladce integrovat.  
+Nejdříve tlačítka! Jsou ideální pro propojování akcí, navigaci po stránkách nebo spouštění událostí. S GroupDocs.Annotation pro .NET je můžete bez problémů integrovat.  
 
 Zde je podrobný rozpis:  
-1. Inicializujte rozhraní API pro anotaci: Načtěte dokument PDF.  
-2. Definovat vlastnosti tlačítka: Nastavte štítek, polohu a velikost.  
-3. Přidání tlačítka do dokumentu: Použijte anotační metody sady SDK.  
-4. Uložit a exportovat: Váš soubor PDF s tlačítkem je připraven!  
+1. Inicializace rozhraní Annotation API: Načtení dokumentu PDF.  
+2. Definovat vlastnosti tlačítka: Nastavte popisek, umístění a velikost.  
+3. Přidání tlačítka do dokumentu: Použijte metody anotací sady SDK.  
+4. Uložit a exportovat: Váš PDF s funkcí „ovládání tlačítek“ je připraven!  
 
- Pro hlubší ponor prozkoumejte celý tutoriál[zde](./adding-button-component/).  
+Pro hlubší ponoření se podívejte na celý tutoriál [zde](./adding-button-component/).  
 
-## Přidání komponent zaškrtávacího políčka do PDF  
+## Přidání komponent zaškrtávacích políček do PDF  
 
-Zaškrtávací políčka jsou klasickým nástrojem pro formuláře a seznamy úkolů. S GroupDocs.Annotation pro .NET je jejich přidávání hračkou.  
+Zaškrtávací políčka jsou klasickým nástrojem pro formuláře a seznamy úkolů. S GroupDocs.Annotation pro .NET je jejich přidání hračka.  
 
-Postup přidání zaškrtávacího políčka:  
-1. Načíst soubor PDF: Začněte načtením cílového dokumentu.  
-2. Nastavit atributy zaškrtávacího políčka: Pozice, velikost a výchozí stav (zaškrtnuto/nezaškrtnuto).  
-3. Použít zaškrtávací políčko: Integrujte jej do PDF pomocí rozhraní API.  
-4. Exportujte svůj soubor: Voilà, interaktivní PDF se zaškrtávacími políčky!  
+Kroky k přidání zaškrtávacího políčka:  
+1. Načtení souboru PDF: Začněte načtením cílového dokumentu.  
+2. Nastavte atributy zaškrtávacího políčka: Pozice, velikost a výchozí stav (zaškrtnuto/nezaškrtnuto).  
+3. Použijte zaškrtávací políčko: Integrujte ho do PDF pomocí API.  
+4. Exportujte soubor: Voilà, interaktivní PDF se zaškrtávacími políčky!  
 
-Získejte úplný průvodce[zde](./adding-checkbox-component/).  
+Získejte kompletního průvodce [zde](./adding-checkbox-component/).  
 
-## Průvodce výukovým programem ke komponentám dokumentu
-### [Přidání komponent tlačítka s GroupDocs.Annotation pro .NET](./adding-button-component/)
-Objevte, jak vylepšit své dokumenty PDF přidáním interaktivních komponent tlačítka pomocí GroupDocs.Annotation pro .NET. Tento návod krok za krokem.
-### [Přidání komponenty Checkbox do dokumentu PDF](./adding-checkbox-component/)
-Objevte, jak obohatit své dokumenty PDF přidáním komponent interaktivních zaškrtávacích políček pomocí sady GroupDocs.Annotation for .NET SDK. Tento komplexní tutoriál poskytuje jasného průvodce krok za krokem.
+## Průvodce komponentami dokumentu - tutoriály
+### [Přidávání komponent tlačítek pomocí GroupDocs.Annotation pro .NET](./adding-button-component/)
+Zjistěte, jak vylepšit své PDF dokumenty přidáním interaktivních komponent tlačítek pomocí GroupDocs.Annotation pro .NET. Tento podrobný návod.
+### [Přidání komponenty zaškrtávací políčko do dokumentu PDF](./adding-checkbox-component/)
+Zjistěte, jak obohatit své PDF dokumenty přidáním interaktivních komponent zaškrtávacích políček pomocí sady GroupDocs.Annotation pro .NET SDK. Tento komplexní tutoriál poskytuje srozumitelný podrobný návod.

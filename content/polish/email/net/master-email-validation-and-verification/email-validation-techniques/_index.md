@@ -181,7 +181,7 @@ protected void ValidateButton_Click(object sender, EventArgs e)
 
 ## Wniosek
 
-Wdrożenie solidnej walidacji adresów e-mail jest niezbędne do poprawy jakości danych, zadowolenia użytkowników i bezpieczeństwa aplikacji. Dzięki możliwościom Aspose.Email for .NET możesz skutecznie zagwarantować, że adresy e-mail spełniają wysokie standardy poprawności, poprawiając wydajność i niezawodność aplikacji.
+Wdrożenie solidnej walidacji adresów e-mail jest niezbędne do poprawy jakości danych, zadowolenia użytkowników i bezpieczeństwa aplikacji. Dzięki możliwościom Aspose.Email for .NET możesz skutecznie zapewnić, że adresy e-mail spełniają wysokie standardy poprawności, poprawiając wydajność i niezawodność aplikacji.
 
 ## Najczęściej zadawane pytania
 

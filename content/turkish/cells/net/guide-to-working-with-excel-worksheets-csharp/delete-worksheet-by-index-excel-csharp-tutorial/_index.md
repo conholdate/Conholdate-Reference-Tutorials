@@ -18,7 +18,7 @@
 
 ## giriiş
 
-Hiç gereksiz çalışma sayfalarıyla dolu bir Excel dosyasına baktığınızı fark ettiniz mi? Yalnız değilsiniz. İster eski raporlarla, ister test verileriyle, isterse de kullanım ömrünü tamamlamış sayfalarla uğraşıyor olun, C# kullanarak Excel'de çalışma sayfalarını dizine göre nasıl sileceğinizi bilmek, saatlerce sürecek manuel temizlikten tasarruf etmenizi sağlayabilir.
+Hiç gereksiz çalışma sayfalarıyla dolu bir Excel dosyasına baktığınızı fark ettiniz mi? Yalnız değilsiniz. İster eski raporlarla, ister test verileriyle, isterse de kullanım ömrünü doldurmuş sayfalarla uğraşıyor olun, C# kullanarak Excel'de çalışma sayfalarını dizine göre nasıl sileceğinizi bilmek, saatlerce sürecek manuel temizlikten tasarruf etmenizi sağlayabilir.
 
 Zorluk sadece sayfayı kaldırmak değil; bunu birden fazla dosyada verimli, güvenli ve programlı bir şekilde yapmaktır. İşte tam da bu noktada C# ve Aspose.Cells kütüphanesi en iyi dostunuz olur. Bu kapsamlı kılavuzda, Excel çalışma sayfalarını dizin konumlarına göre nasıl kaldıracağınızı, sık karşılaşılan hataları nasıl ele alacağınızı ve Excel otomasyonunuzu son derece sağlam hale getirecek en iyi uygulamaları nasıl uygulayacağınızı öğreneceksiniz.
 
@@ -31,7 +31,7 @@ Kodlamaya başlamadan önce şu temel unsurların hazır olduğundan emin olun:
 ### Geliştirme Ortamı Kurulumu
 1. **C# Temel Bilgisi**: C# sözdizimine ve nesne yönelimli programlama kavramlarına aşina olmalısınız. Basit bir konsol uygulaması yazabiliyorsanız, hazırsınız demektir!
 
-2. **Aspose.Cells Kütüphanesi**: .NET için Aspose.Cells kitaplığını şu adresten indirin ve yükleyin: [Burada](https://releases.aspose.com/cells/net/)Bu güçlü kütüphane Excel'de tüm ağır işleri halleder.
+2. **Aspose.Cells Kütüphanesi**: .NET için Aspose.Cells kitaplığını şu adresten indirin ve yükleyin: [Burada](https://releases.aspose.com/cells/net/)Bu güçlü kütüphane Excel'de işlem yapmak için gereken tüm ağır işleri halleder.
 
 3. **Visual Studio veya Uyumlu IDE**: Kodunuzu yazmak ve hata ayıklamak için Entegre Geliştirme Ortamına ihtiyacınız olacak. Visual Studio Community Edition bu eğitim için mükemmel bir şekilde çalışıyor.
 
@@ -232,7 +232,7 @@ for (int i = 2; i >= 0; i--)
 
 ### Koşullu Çalışma Sayfası Silme
 ```csharp
-// Boş çalışma sayfalarını sil
+// Boş çalışma sayfalarını silin
 for (int i = workbook.Worksheets.Count - 1; i >= 0; i--)
 {
     if (workbook.Worksheets[i].Cells.Count == 0)

@@ -38,7 +38,7 @@ using Aspose.Words.Saving;
 ```csharp
 string dataDir = "YOUR DOCUMENTS DIRECTORY"; // Καθορίστε τη διαδρομή σας
 Document doc = new Document(); // Αρχικοποιεί ένα νέο έγγραφο
-DocumentBuilder builder = new DocumentBuilder(doc); // Προετοιμάζεται για προσθήκη περιεχομένου
+DocumentBuilder builder = new DocumentBuilder(doc); // Προετοιμάζεται να προσθέσει περιεχόμενο
 ```
 
 - dataDir: Αυτή η μεταβλητή περιέχει τη διαδρομή όπου θα αποθηκευτεί το έγγραφό σας.

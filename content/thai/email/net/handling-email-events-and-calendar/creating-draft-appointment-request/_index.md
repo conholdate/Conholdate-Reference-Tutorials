@@ -45,7 +45,7 @@ string subject = "Meeting Appointment Request";
 กำหนดวันที่ เวลา และระยะเวลาที่ต้องการนัดหมาย:
 
 ```csharp
-DateTime appointmentDate = DateTime.Now.AddDays(7); // กำหนดนัดหมายภายในหนึ่งสัปดาห์นับจากนี้
+DateTime appointmentDate = DateTime.Now.AddDays(7); // มีกำหนดนัดหมายภายในหนึ่งสัปดาห์นับจากนี้
 TimeSpan appointmentDuration = TimeSpan.FromHours(1.5); // 1.5 ชั่วโมง
 ```
 
@@ -65,7 +65,7 @@ string emailBody = "Dear colleagues,\n\nI hope this email finds you well. I woul
 string[] attachments = { "path/to/file1.pdf", "path/to/file2.docx" };
 ```
 
-## การสร้างร่างอีเมล
+## การสร้างอีเมลร่าง
 
 ใช้ไลบรารี Aspose.Email เพื่อสร้างอีเมลร่างที่มีรายละเอียดการนัดหมาย:
 

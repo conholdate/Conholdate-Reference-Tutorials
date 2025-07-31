@@ -9,7 +9,7 @@
 
 ## Bevezetés
 
-szoftverfejlesztésben kulcsfontosságú az alkalmazások zökkenőmentes és hatékony működésének biztosítása. Ennek egyik fontos aspektusa a használt könyvtárak és keretrendszerek licenceinek kezelése. Ha az Aspose.PDF for .NET fájllal dolgozol, a licenc biztosítása elengedhetetlen a könyvtár teljes potenciáljának kiaknázásához. Ez az útmutató végigvezet a .NET-hez készült Aspose.PDF használatával történő licencbiztosítás folyamatán, így a folyamat mind a tapasztalt fejlesztők, mind az újoncok számára egyszerű.
+A szoftverfejlesztésben kulcsfontosságú az alkalmazások zökkenőmentes és hatékony működésének biztosítása. Ennek egyik fontos aspektusa a használt könyvtárak és keretrendszerek licenceinek kezelése. Ha az Aspose.PDF for .NET fájllal dolgozol, a licenc biztosítása elengedhetetlen a könyvtár teljes potenciáljának kiaknázásához. Ez az útmutató végigvezet a .NET-hez készült Aspose.PDF használatával történő licencbiztosítás folyamatán, így a folyamat mind a tapasztalt fejlesztők, mind az újoncok számára egyszerű.
 
 ## Előfeltételek
 

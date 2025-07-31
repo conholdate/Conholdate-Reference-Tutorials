@@ -33,7 +33,7 @@ Zanim zagłębimy się w kod, omówmy, dlaczego w ogóle warto dodać JavaScript
 
 **Dynamiczna zawartość**: Twórz pliki PDF, które dostosowują swoją zawartość na podstawie danych wprowadzanych przez użytkownika lub danych zewnętrznych. Idealne do spersonalizowanych raportów lub dokumentów, które muszą wyświetlać różne informacje dla różnych użytkowników.
 
-**Ulepszone wrażenia użytkownika**:Dodaj elementy interaktywne, takie jak niestandardowe przyciski, menu rozwijane wypełniające inne pola lub selektory dat zapobiegające wpisaniu nieprawidłowej daty.
+**Ulepszone wrażenia użytkownika**: Dodaj elementy interaktywne, takie jak niestandardowe przyciski, menu rozwijane wypełniające inne pola lub selektory dat zapobiegające wpisaniu nieprawidłowej daty.
 
 **Możliwości integracji**:JavaScript może pomóc Twoim plikom PDF komunikować się z systemami zewnętrznymi, przesyłać dane formularzy do usług internetowych lub uruchamiać akcje w innych aplikacjach.
 
@@ -157,7 +157,7 @@ Sprawdź, czy funkcja została pomyślnie usunięta, drukując ponownie pozosta�
 
 ## Typowe przypadki użycia i praktyczne zastosowania
 
-Przyjrzyjmy się kilku scenariuszom z życia wziętym, w których dodanie JavaScript do aplikacji PDF C# może przynieść znaczącą różnicę:
+Przyjrzyjmy się kilku scenariuszom z życia wziętym, w których dodanie JavaScript do aplikacji PDF C# robi znaczącą różnicę:
 
 **Faktury i dokumenty finansowe**: Twórz pliki PDF, które automatycznie obliczają podatki, rabaty i sumy, gdy użytkownicy wprowadzają pozycje zamówienia. JavaScript może weryfikować numery identyfikacji podatkowej, zapewniać wypełnienie wymaganych pól i spójnie formatować wartości walut.
 

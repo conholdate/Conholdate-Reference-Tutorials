@@ -56,7 +56,7 @@ Gunakan `Document` kelas untuk membuka berkas PDF Anda:
 Document pdfDocument = new Document(dataDir + "GetAttachmentInfo.pdf");
 ```
 
-Ini menciptakan contoh dari `Document` kelas, yang memungkinkan Anda berinteraksi dengan konten PDF.
+Ini menciptakan sebuah contoh dari `Document` kelas, yang memungkinkan Anda berinteraksi dengan konten PDF.
 
 ## Langkah 3: Akses File Tertanam
 

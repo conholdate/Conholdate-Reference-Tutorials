@@ -13,7 +13,7 @@ W dzisiejszym cyfrowym świecie efektywne zarządzanie wydarzeniami i spotkaniam
 
 ## Zrozumienie plików ICS
 
-Pliki ICS są powszechnie znane ze swojej zdolności do ustrukturyzowanego przedstawiania wydarzeń kalendarzowych, spotkań i zadań. Format ten umożliwia bezproblemową wymianę danych kalendarzowych między różnymi aplikacjami, co czyni go niezbędnym narzędziem do planowania i zarządzania wydarzeniami.
+Pliki ICS są powszechnie znane ze swojej zdolności do ustrukturyzowanego przedstawiania wydarzeń kalendarzowych, spotkań i zadań. Ten format umożliwia bezproblemową wymianę danych kalendarzowych między różnymi aplikacjami, co czyni go niezbędnym narzędziem do planowania i zarządzania wydarzeniami.
 
 ## Konfigurowanie środowiska programistycznego
 

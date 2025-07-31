@@ -41,7 +41,7 @@ Trước khi đi sâu vào việc triển khai kỹ thuật, chúng ta hãy cùn
 
 **Nghiên cứu học thuật**: Các nhà nghiên cứu có thể nhanh chóng xử lý nhiều bài báo để xác định các nghiên cứu có liên quan và trích xuất những phát hiện cốt lõi.
 
-**Trí tuệ kinh doanh**: Các công ty tóm tắt báo cáo thị trường, phân tích đối thủ cạnh tranh và tài liệu nội bộ để hỗ trợ việc ra quyết định.
+**Trí tuệ kinh doanh**Các công ty tóm tắt báo cáo thị trường, phân tích đối thủ cạnh tranh và tài liệu nội bộ để hỗ trợ việc ra quyết định.
 
 **Quản lý nội dung**:Các tổ chức tin tức và người sáng tạo nội dung sử dụng tính năng tóm tắt để tạo ra bản tóm tắt và điểm nổi bật từ các bài viết dài.
 
@@ -61,7 +61,7 @@ Install-Package Aspose.Words
 
 ### Bảo mật khóa API OpenAI của bạn
 
-Bạn sẽ cần một khóa API OpenAI để truy cập vào các mô hình ngôn ngữ của họ. Hãy đến [Trang web OpenAI](https://openai.com/), tạo tài khoản và lấy khóa API của bạn. **Không bao giờ mã hóa cứng khóa này** – chúng tôi sẽ chỉ cho bạn cách xử lý an toàn ở phần sau của hướng dẫn này.
+Bạn sẽ cần một khóa API OpenAI để truy cập vào các mô hình ngôn ngữ của họ. Hãy đến [Trang web OpenAI](https://openai.com/)tạo tài khoản và lấy khóa API của bạn. **Không bao giờ mã hóa cứng khóa này** – chúng tôi sẽ chỉ cho bạn cách xử lý an toàn ở phần sau của hướng dẫn này.
 
 ### Thiết lập môi trường phát triển
 Mặc dù bạn có thể sử dụng bất kỳ IDE tương thích với .NET nào, **Visual Studio** cung cấp trải nghiệm tốt nhất cho hướng dẫn này, với khả năng hỗ trợ IntelliSense tuyệt vời và khả năng gỡ lỗi cho cả tích hợp Aspose.Words và API.
@@ -105,7 +105,7 @@ Document doc1 = new Document(MyDir + "BigDocument.docx");
 Document doc2 = new Document(MyDir + "AnotherDocument.docx");
 ```
 
-**Mẹo hiệu suất**: Đối với các tài liệu lớn, hãy cân nhắc tải chúng theo phương thức không đồng bộ để tránh tình trạng giao diện người dùng bị chặn trong các ứng dụng máy tính để bàn. Aspose.Words quản lý bộ nhớ hiệu quả, nhưng các tệp rất lớn (>100MB) có thể được hưởng lợi từ phương pháp truyền phát.
+**Mẹo hiệu suất**Đối với các tài liệu lớn, hãy cân nhắc tải chúng theo phương thức không đồng bộ để tránh tình trạng giao diện người dùng bị chặn trong các ứng dụng máy tính để bàn. Aspose.Words quản lý bộ nhớ hiệu quả, nhưng các tệp rất lớn (>100MB) có thể được hưởng lợi từ phương pháp truyền phát.
 
 ### Bước 3: Quản lý khóa API an toàn
 
@@ -166,14 +166,14 @@ combinedSummary.Save(ArtifactsDir + "CombinedSummary.docx");
 
 **Cân nhắc về kích thước tài liệu**: Mặc dù Aspose.Words xử lý tốt các tài liệu lớn, nhưng các tệp cực lớn (>50MB) nên được xử lý theo từng phần để duy trì hiệu suất tối ưu và nằm trong giới hạn API.
 
-**Giới hạn tỷ lệ API**: OpenAI có giới hạn tốc độ dựa trên cấp đăng ký của bạn. Đối với xử lý khối lượng lớn, hãy triển khai logic thử lại với cơ chế lùi theo cấp số nhân để xử lý các trường hợp vượt quá giới hạn tốc độ tạm thời một cách trơn tru.
+**Giới hạn tỷ lệ API**: OpenAI có giới hạn tốc độ dựa trên cấp đăng ký của bạn. Đối với xử lý khối lượng lớn, hãy triển khai logic thử lại với cơ chế lùi theo cấp số nhân để xử lý các trường hợp vượt quá giới hạn tốc độ tạm thời một cách mượt mà.
 
 **Quản lý bộ nhớ**: Khi xử lý nhiều tài liệu, hãy loại bỏ các đối tượng Tài liệu sau khi sử dụng để giải phóng bộ nhớ:
 ```csharp
 using (Document doc = new Document(path))
 {
     // Tài liệu quy trình
-    // Tự động xử lý khi rời khỏi khối sử dụng
+    // Tự động xử lý khi rời khỏi khối
 }
 ```
 
@@ -182,7 +182,7 @@ using (Document doc = new Document(path))
 Ngoài các thiết lập độ dài cơ bản, bạn có thể tinh chỉnh quá trình tóm tắt của mình:
 
 - **Bảo tồn ngữ cảnh**: Đối với các tài liệu kỹ thuật, bản tóm tắt dài hơn thường lưu giữ được nhiều chi tiết quan trọng hơn
-- **Những cân nhắc về ngôn ngữ**: Các mô hình AI hoạt động tốt nhất với nội dung tiếng Anh nhưng có thể xử lý nhiều ngôn ngữ
+- **Những cân nhắc về ngôn ngữ**Các mô hình AI hoạt động tốt nhất với nội dung tiếng Anh nhưng có thể xử lý nhiều ngôn ngữ
 - **Tối ưu hóa loại tài liệu**: Các tài liệu pháp lý có thể cần những cách tiếp cận tóm tắt khác với các tài liệu tiếp thị
 
 ## Các vấn đề thường gặp và cách khắc phục sự cố

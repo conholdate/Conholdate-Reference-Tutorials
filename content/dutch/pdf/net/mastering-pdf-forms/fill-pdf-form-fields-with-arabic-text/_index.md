@@ -9,7 +9,7 @@
 
 ## Invoering
 
-In het huidige digitale landschap is de mogelijkheid om PDF-documenten te bewerken essentieel voor zowel bedrijven als ontwikkelaars. Of u nu formulieren invult, rapporten genereert of interactieve documenten maakt, de juiste tools kunnen uw workflow aanzienlijk verbeteren. Een van die krachtige tools is Aspose.PDF voor .NET, een bibliotheek die het maken, bewerken en bewerken van PDF-bestanden vereenvoudigt. Deze tutorial richt zich op een specifieke functie: het vullen van PDF-formuliervelden met Arabische tekst, geschikt voor Arabisch-sprekende gebruikers en toepassingen die meertalige ondersteuning nodig hebben.
+In het huidige digitale landschap is de mogelijkheid om PDF-documenten te bewerken essentieel voor zowel bedrijven als ontwikkelaars. Of u nu formulieren invult, rapporten genereert of interactieve documenten maakt, de juiste tools kunnen uw workflow aanzienlijk verbeteren. Een van die krachtige tools is Aspose.PDF voor .NET, een bibliotheek die het maken, bewerken en bewerken van PDF-bestanden vereenvoudigt. Deze tutorial richt zich op een specifieke functie: het vullen van PDF-formuliervelden met Arabische tekst, gericht op Arabisch-sprekende gebruikers en toepassingen die meertalige ondersteuning vereisen.
 
 ## Vereisten
 
@@ -31,7 +31,7 @@ using Aspose.Pdf.Forms;
 using Aspose.Pdf;
 ```
 
-Dankzij deze naamruimten kunt u effectief werken met PDF-documenten en formulieren.
+Dankzij deze naamruimten kunt u effectief werken met PDF-documenten en -formulieren.
 
 ## Stap 1: Stel uw documentenmap in
 
@@ -90,7 +90,7 @@ Hiermee wordt de ingevulde PDF opgeslagen als `ArabicTextFilling_out.pdf` in de 
 
 ## Stap 6: Bevestig de bewerking
 
-Het is altijd verstandig om te bevestigen dat de bewerking is geslaagd. U kunt dit doen door een bericht naar de console te sturen:
+Het is altijd verstandig om te bevestigen dat de bewerking succesvol is verlopen. U kunt dit doen door een bericht naar de console te sturen:
 
 ```csharp
 Console.WriteLine("\nArabic text filled successfully in form field.\nFile saved at " + dataDir);

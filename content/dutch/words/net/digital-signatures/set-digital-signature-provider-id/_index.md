@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Hallo! Als u een digitale handtekening wilt toevoegen aan uw Word-document met een specifieke Signature Provider ID, bent u hier aan het juiste adres. Of het nu gaat om juridische overeenkomsten, contracten of belangrijk papierwerk, een veilige digitale handtekening is essentieel. In deze tutorial begeleid ik u stap voor stap door het proces van het instellen van een Signature Provider ID in een Word-document met Aspose.Words voor .NET. Laten we beginnen!
+Hallo! Als u een digitale handtekening wilt toevoegen aan uw Word-document met een specifieke Signature Provider ID, bent u hier aan het juiste adres. Of het nu gaat om juridische overeenkomsten, contracten of belangrijk papierwerk, een veilige digitale handtekening is essentieel. In deze tutorial begeleid ik u stap voor stap door het instellen van een Signature Provider ID in een Word-document met Aspose.Words voor .NET. Laten we beginnen!
 
 ## Vereisten
 
@@ -42,7 +42,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Signature line.docx");
 ```
 
-Zorg ervoor dat u vervangt `"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad waar uw document is opgeslagen.
+Zorg ervoor dat u deze vervangt `"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad waar uw document is opgeslagen.
 
 ## Stap 3: Toegang tot de handtekeningregel
 
@@ -52,7 +52,7 @@ Ga vervolgens naar de handtekeningregel die in uw document is ingesloten. De han
 SignatureLine signatureLine = ((Shape)doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true)).SignatureLine;
 ```
 
-Deze code haalt de eerste vorm op in de body van de eerste sectie en zet deze om in een `SignatureLine` voorwerp.
+Deze code haalt de eerste vorm op in de body van de eerste sectie en cast deze naar een `SignatureLine` voorwerp.
 
 ## Stap 4: Ondertekeningsopties instellen
 
@@ -76,7 +76,7 @@ Om het document digitaal te ondertekenen, moet u uw `.pfx` certificaatbestand:
 CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", "your_certificate_password");
 ```
 
-Vervangen `"your_certificate_password"` met het echte wachtwoord voor uw certificaat, indien van toepassing.
+Vervangen `"your_certificate_password"` met het daadwerkelijke wachtwoord voor uw certificaat, indien van toepassing.
 
 ## Stap 6: Onderteken het document
 
@@ -91,7 +91,7 @@ Hiermee wordt uw document ondertekend en opgeslagen als `Digitally signed.docx`.
 
 ## Conclusie
 
-Gefeliciteerd! U hebt met succes een Signature Provider ID ingesteld in een Word-document met Aspose.Words voor .NET. Dit proces beveiligt uw documenten niet alleen, maar zorgt er ook voor dat ze voldoen aan de standaarden voor digitale handtekeningen. Probeer het gerust uit met uw eigen documenten!
+Gefeliciteerd! U hebt met succes een Signature Provider ID ingesteld in een Word-document met Aspose.Words voor .NET. Dit proces beveiligt niet alleen uw documenten, maar zorgt er ook voor dat ze voldoen aan de standaarden voor digitale handtekeningen. Probeer het gerust uit met uw eigen documenten!
 
 Als u vragen heeft of verdere hulp nodig heeft, bekijk dan de onderstaande veelgestelde vragen of bezoek de [Aspose-ondersteuningsforum](https://forum.aspose.com/c/words/8).
 
@@ -115,4 +115,4 @@ Absoluut! Je kunt door meerdere documenten bladeren en het ondertekeningsproces 
 
 ### Wat als mijn document geen handtekeningregel heeft?
 
-Je moet eerst een handtekeningregel invoegen. Aspose.Words biedt methoden om programmatisch handtekeningregels toe te voegen.
+U moet eerst een handtekeningregel invoegen. Aspose.Words biedt methoden om programmatisch een handtekeningregel toe te voegen.

@@ -16,7 +16,7 @@ Podczas pracy z dużymi arkuszami kalkulacyjnymi Excela, kontrolowanie układu w
 Zanim przejdziemy do konkretów, upewnij się, że masz następujące rzeczy:
 
 1. Aspose.Cells dla .NET: Pobierz ze strony [Strona internetowa Aspose](https://releases.aspose.com/cells/net/) i zainstaluj go w swoim projekcie.
-2. Środowisko programistyczne: Użyj dowolnego środowiska IDE zgodnego z .NET, np. Visual Studio.
+2. Środowisko programistyczne: Użyj dowolnego środowiska IDE zgodnego z .NET, takiego jak Visual Studio.
 3. Podstawowa wiedza o języku C#: Znajomość języka C# pomoże Ci zrozumieć fragmenty kodu.
 
 Możesz również spróbować [Aspose.Cells dla .NET z bezpłatną wersją próbną](https://releases.aspose.com/) lub zdobądź [tymczasowa licencja](https://purchase.aspose.com/temporary-license/) aby uzyskać dostęp do wszystkich funkcji.
@@ -33,7 +33,7 @@ using System;
 
 ## Krok 1: Utwórz skoroszyt
 
-Najpierw utwórz nową instancję skoroszytu, która będzie reprezentować plik programu Excel.
+Najpierw utwórz nową instancję skoroszytu, która będzie reprezentować plik Excela.
 
 ```csharp
 // Utwórz nowy obiekt skoroszytu
@@ -101,4 +101,4 @@ Chociaż Aspose.Cells pozwala na skonfigurowanie ustawień drukowania, aby wyśw
 
 ### Czy to ustawienie kolejności stron jest kompatybilne z eksportem do pliku PDF?
 
-Tak, ustawienia kolejności stron będą miały zastosowanie do eksportów do plików PDF i innych obsługiwanych formatów, zapewniając spójny przepływ stron.
+Tak, ustawienia kolejności stron będą miały zastosowanie do eksportów PDF i innych obsługiwanych formatów, zapewniając spójny przepływ stron.

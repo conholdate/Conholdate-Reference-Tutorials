@@ -22,7 +22,7 @@ Převod souborů DOCX do formátu RTF je jedním z těch úkolů, které se zdaj
 
 Formát RTF (Rich Text Format) nabízí oproti formátu DOCX několik výhod – je široce podporován, má lepší kompatibilitu napříč platformami a zachovává konzistentní formátování i ve starších aplikacích. Soubory RTF jsou navíc obecně menší a načítají se rychleji než jejich protějšky ve formátu DOCX.
 
-V tomto komplexním průvodci se dozvíte, jak přesně převést DOCX do formátu RTF pomocí Aspose.Words pro .NET. Probereme vše od základní konverze až po řešení okrajových případů, optimalizaci výkonu a dávkové zpracování. Nakonec budete mít robustní řešení, které zvládne reálné scénáře konverze dokumentů.
+V tomto komplexním průvodci se dozvíte, jak přesně převést DOCX do formátu RTF pomocí Aspose.Words pro .NET. Probereme vše od základní konverze až po řešení hraničních případů, optimalizaci výkonu a dávkové zpracování. Nakonec budete mít robustní řešení, které zvládne reálné scénáře konverze dokumentů.
 
 ## Proč zvolit formát RTF?
 
@@ -103,7 +103,7 @@ using (MemoryStream dstStream = new MemoryStream())
 }
 ```
 
-**Rozdělení tohoto kódu**:
+**Rozbor tohoto kódu**:
 1. **Vytvoření MemoryStreamu**Jako mezikrok pro lepší výkon používáme paměťový stream.
 2. **Ukládání dokumentů**: `SaveFormat.Rtf` říká Aspose.Words, aby převedl dokument do formátu RTF
 3. **Resetování pozice**Nezbytné pro správné čtení obsahu streamu
@@ -189,7 +189,7 @@ Tento dávkový přístup k zpracování zahrnuje ošetření chyb pro jednotliv
 
 ## Tipy pro optimalizaci výkonu
 
-Pokud jde o konverze dokumentů ve velkém měřítku, na výkonu záleží. Zde je několik osvědčených strategií, jak urychlit konverze:
+Pokud jde o konverze dokumentů ve velkém měřítku, na výkonu záleží. Zde je několik osvědčených strategií pro urychlení konverzí:
 
 ### Správa paměti
 - Objekty Document vždy řádně likvidujte pomocí `using` prohlášení
@@ -246,7 +246,7 @@ Pochopení toho, kdy použít který formát, vám může pomoci činit lepší 
 
 ## Závěr
 
-Převod DOCX do formátu RTF pomocí Aspose.Words pro .NET je jednoduchý a zároveň výkonný. Jednoduchý tříkrokový proces – načtení, převod, uložení – automaticky zvládne složitý převod formátování a zároveň vám poskytne flexibilitu přizpůsobit si převod podle vašich specifických potřeb.
+Převod DOCX do formátu RTF pomocí Aspose.Words pro .NET je jednoduchý a zároveň výkonný. Jednoduchý tříkrokový proces – načtení, převod, uložení – automaticky zvládne složitý převod formátování a zároveň vám dává flexibilitu přizpůsobit si převod podle vašich specifických potřeb.
 
 Ať už vytváříte systém pro správu dokumentů, nástroj pro dávkovou konverzi nebo jen potřebujete zajistit kompatibilitu napříč různými platformami, tento přístup poskytuje spolehlivý základ. Klíčem je pochopení vašich specifických požadavků a výběr správných možností konfigurace, které jim odpovídají.
 
@@ -260,7 +260,7 @@ Rozhodně! Aspose.Words podporuje konverzi z mnoha formátů včetně DOC, DOCX,
 ### Potřebuji licenci pro Aspose.Words?
 Aspose.Words nabízí bezplatnou zkušební verzi, která je ideální pro hodnocení a malé projekty. Pro produkční použití nebo rozšířené funkce budete potřebovat komerční licenci. Zvažte pořízení [dočasná licence](https://purchase.conholdate.com/temporary-license/) pro účely testování.
 
-### Co když moje konverzní výstupy neodpovídají očekáváním?
+### Co když moje konverzní výstupy nesplňují očekávání?
 Nejprve zkontrolujte vstupní dokument, zda neobsahuje neobvyklé formátování nebo poškozené prvky. Pokud problémy přetrvávají, obraťte se na [Dokumentace k Aspose.Words](https://reference.aspose.com/words/net/) nebo vyzkoušejte různé konfigurace SaveOptions. Někdy se složité formátování DOCX kvůli omezením formátu nepřevádí dokonale do RTF.
 
 ### Mohu tento proces konverze automatizovat?

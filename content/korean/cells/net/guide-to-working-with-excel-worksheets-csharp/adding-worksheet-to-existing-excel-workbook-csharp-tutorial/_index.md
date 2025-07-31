@@ -11,7 +11,7 @@
 - "aspose-cells"
 - "excel-worksheets"
 - "dotnet"
-"title": "C# Excel 통합 문서에 워크시트를 추가하는 방법"
+"title": "C#에서 Excel 통합 문서에 워크시트를 추가하는 방법"
 "url": "/ko/cells/net/guide-to-working-with-excel-worksheets-csharp/adding-worksheet-to-existing-excel-workbook-csharp-tutorial/"
 "weight": 10
 ---

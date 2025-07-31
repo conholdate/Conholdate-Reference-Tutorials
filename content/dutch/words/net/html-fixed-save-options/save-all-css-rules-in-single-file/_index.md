@@ -13,12 +13,12 @@ Heb je ooit geworsteld met een rommelige verzameling CSS-regels bij het converte
 
 ## Vereisten
 
-Voordat we met coderen beginnen, moet u ervoor zorgen dat u het volgende heeft:
+Voordat we met coderen beginnen, moet u ervoor zorgen dat u het volgende hebt:
 
 1. Aspose.Words voor .NET: Haal de bibliotheek op van [hier](https://releases.aspose.com/words/net/).
 2. .NET-ontwikkelomgeving: een omgeving als Visual Studio is ideaal voor ontwikkeling.
 3. Basiskennis van C#: Kennis van C# helpt u bij het navigeren door de code.
-4. Word-document: Zorg dat u een .docx-bestand gereed hebt voor conversie.
+4. Word-document: Zorg dat u een .docx-bestand bij de hand hebt voor conversie.
 
 ## Naamruimten importeren
 
@@ -49,7 +49,7 @@ Laad vervolgens het Word-document met behulp van de `Document` klasse uit de Asp
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
-## Stap 3: Configureer HTML-opslagopties
+## Stap 3: HTML-opslagopties configureren
 
 Laten we nu de HTML-opslagopties configureren. We willen de functie inschakelen die alle CSS-regels in één bestand samenvoegt door `SaveFontFaceCssSeparately` naar `false`.
 
@@ -72,7 +72,7 @@ doc.Save(dataDir + "ConvertedDocument.html", saveOptions);
 
 ## Conclusie
 
-Gefeliciteerd! Met slechts een paar regels code hebt u uw Word-document succesvol naar HTML geconverteerd. Zo zijn alle CSS-regels netjes in één bestand verzameld. Deze aanpak vereenvoudigt het CSS-beheer en verbetert het onderhoud van uw HTML-documenten. De volgende keer dat u een Word-document moet converteren, heeft u een gestroomlijnd proces binnen handbereik!
+Gefeliciteerd! Met slechts een paar regels code hebt u uw Word-document succesvol omgezet naar HTML, zodat alle CSS-regels netjes in één bestand zijn verzameld. Deze aanpak vereenvoudigt het CSS-beheer en verbetert het onderhoud van uw HTML-documenten. De volgende keer dat u een Word-document moet converteren, heeft u een gestroomlijnd proces binnen handbereik!
 
 ## Veelgestelde vragen
 
@@ -89,4 +89,4 @@ Aspose.Words biedt een gratis proefversie aan die u kunt downloaden [hier](https
 Aspose.Words ondersteunt verschillende formaten, waaronder PDF, TXT en afbeeldingsformaten zoals JPEG en PNG.
 
 ### Waar kan ik meer informatie vinden over Aspose.Words voor .NET?
-Voor uitgebreide handleidingen en API-referenties kunt u terecht op de [documentatie](https://reference.aspose.com/words/net/).
+Voor uitgebreide handleidingen en API-referenties, bekijk de [documentatie](https://reference.aspose.com/words/net/).

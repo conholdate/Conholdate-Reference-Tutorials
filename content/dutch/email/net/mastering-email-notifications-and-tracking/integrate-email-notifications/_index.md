@@ -43,7 +43,7 @@ MailMessage msg = new MailMessage
 
 ## Bezorgingsmeldingen configureren
 
-Om meldingen over de bezorgstatus van uw e-mail te ontvangen, configureert u de opties voor bezorgingsmeldingen. U kunt aangeven of u een melding wilt ontvangen bij een succesvolle bezorging, een mislukte bezorging of beide.
+Om meldingen te ontvangen over de bezorgstatus van uw e-mail, configureert u de opties voor bezorgingsmeldingen. U kunt aangeven of u een melding wilt ontvangen bij een succesvolle bezorging, een mislukte bezorging of beide.
 
 ```csharp
 // Opties voor bezorgmeldingen instellen
@@ -59,7 +59,7 @@ MIME-headers kunnen extra context bieden over uw e-mailbericht. U kunt indien no
 msg.Headers.Add("Disposition-Notification-To", "sender@example.com");
 ```
 
-## De e-mail verzenden
+## Het verzenden van de e-mail
 
 Nadat u uw e-mailbericht hebt geconfigureerd, kunt u het verzenden met de SMTP-client van Aspose.Email. Zo doet u dat:
 
@@ -72,11 +72,11 @@ using (SmtpClient client = new SmtpClient("smtp.example.com", 587, "username", "
 }
 ```
 
-Zorg ervoor dat u vervangt `"smtp.example.com"`, `587`, `"username"`, En `"password"` met uw werkelijke SMTP-servergegevens.
+Zorg ervoor dat u deze vervangt `"smtp.example.com"`, `587`, `"username"`, En `"password"` met uw werkelijke SMTP-servergegevens.
 
 ## Conclusie
 
-In deze tutorial hebben we uitgelegd hoe je e-mailmeldingen kunt ontvangen in C# met Aspose.Email voor .NET. We hebben de installatie besproken, hoe je een e-mailbericht maakt, hoe je bezorgingsmeldingen configureert, MIME-headers toevoegt en hoe je de e-mail verzendt. Door deze functies te integreren, kun je de communicatie binnen je applicaties verbeteren en gebruikers op de hoogte houden van belangrijke updates.
+In deze tutorial hebben we uitgelegd hoe je e-mailmeldingen kunt ontvangen in C# met Aspose.Email voor .NET. We hebben het installatieproces besproken, hoe je een e-mailbericht maakt, hoe je bezorgingsmeldingen configureert, MIME-headers toevoegt en hoe je de e-mail verzendt. Door deze functies te integreren, kun je de communicatie binnen je applicaties verbeteren en gebruikers op de hoogte houden van belangrijke updates.
 
 ## Veelgestelde vragen
 
@@ -113,7 +113,7 @@ Voordat we de code induiken, moet je Aspose.Email voor .NET in je project instel
 
 1. Aspose.Email installeren: Begin met het installeren van de Aspose.Email voor .NET-bibliotheek in uw project. U kunt dit doen via NuGet Package Manager.
 
-2. Importeer Aspose.Email-naamruimte: Zorg ervoor dat u de benodigde naamruimte in uw C#-code opneemt: `using Aspose.Email;`.
+2. Importeer Aspose.Email-naamruimte: zorg ervoor dat u de benodigde naamruimte in uw C#-code opneemt: `using Aspose.Email;`.
 
 ## Het e-mailbericht maken
 
@@ -129,7 +129,7 @@ msg.Subject = "the subject of the message";
 
 ## Meldingen configureren
 
-Om ervoor te zorgen dat u meldingen ontvangt over de bezorgstatus van uw e-mail, kunt u opties voor bezorgingsmeldingen configureren. U kunt aangeven of u meldingen wilt ontvangen bij succes, mislukking of beide.
+Om ervoor te zorgen dat u meldingen ontvangt over de bezorgstatus van uw e-mail, kunt u opties voor bezorgingsmeldingen configureren. U kunt aangeven of u een melding wilt ontvangen bij succes, mislukking of beide.
 
 ```csharp
 // Stel bezorgmeldingen in voor succes- en mislukte berichten
@@ -146,7 +146,7 @@ msg.Headers.Add("Disposition-Notification-To", "sender@sender.com");
 msg.Headers.Add("Disposition-Notification-To", "sender@sender.com");
 ```
 
-## De e-mail verzenden
+## Het verzenden van de e-mail
 
 Zodra je je e-mailbericht hebt geconfigureerd, is het tijd om het te verzenden. Aspose.Email biedt een handige manier om e-mails te verzenden via de SMTP-client.
 
@@ -179,4 +179,4 @@ Door deze stappen te volgen, kunt u e-mailmeldingen naadloos integreren in uw C#
 ### 5. Zijn er beperkingen aan het aantal e-mails dat ik met Aspose.Email kan versturen/ontvangen?
    Aspose.Email stelt geen strikte beperkingen aan het aantal e-mails dat u kunt verzenden of ontvangen. De beperkingen van uw e-mailserver kunnen echter wel van toepassing zijn.
 
-Dit is het einde van onze tutorial over het ontvangen van e-mailmeldingen met C# met behulp van Aspose.Email voor .NET. We hopen dat u deze handleiding nuttig vond bij het implementeren van e-mailmeldingen in uw applicaties.
+Hiermee is onze tutorial over het ontvangen van e-mailmeldingen met C# en Aspose.Email voor .NET afgerond. We hopen dat u deze handleiding nuttig vond bij het implementeren van e-mailmeldingen in uw applicaties.

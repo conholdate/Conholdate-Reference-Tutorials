@@ -89,7 +89,7 @@ Her mesaj nesnesi çeşitli özellikler içerir: `Subject`, `From`, `To`, Ve `Bo
 
 Son olarak, her e-postanın konusunu konsola çıktı olarak gönderin. Bu, programın beklendiği gibi çalıştığını doğrulamanın harika bir yoludur.
 
-İşte kod parçacığının tamamı:
+İşte tam kod parçası:
 
 ```csharp
 using System;

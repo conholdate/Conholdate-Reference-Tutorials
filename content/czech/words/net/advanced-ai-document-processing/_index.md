@@ -56,7 +56,7 @@ Modely GPT od OpenAI vynikají v porozumění nuancím obsahu a generování shr
 - **Výzkumné práce** kde je přesnost nejdůležitější
 - **Vícejazyčné dokumenty** (GPT-4 podporuje více než 50 jazyků)
 
-**Kdy zvolit OpenAI**Pokud potřebujete souhrny nejvyšší kvality a zvládnete mírně vyšší náklady na API, je GPT-4 tou správnou volbou.
+**Kdy zvolit OpenAI**Pokud potřebujete souhrny nejvyšší kvality a zvládnete o něco vyšší náklady na API, je GPT-4 tou správnou volbou.
 
 ### Modely umělé inteligence Google: Optimální pro rychlost a škálovatelnost
 Modely umělé inteligence od Googlu poskytují vynikající poměr výkonu a ceny a jsou ideální pro:
@@ -150,7 +150,7 @@ Až budete připraveni nasadit systém pro zpracování dokumentů s umělou int
 
 **Strategie ukládání do mezipaměti**Implementujte inteligentní ukládání do mezipaměti pro často zpracovávané typy dokumentů. Mnoho obchodních dokumentů se řídí podobnými vzory, což vám umožňuje znovu použít poznatky ze zpracování.
 
-**Ošetření chyb**Vytvořte robustní mechanismy opakování s exponenciálním odkládáním. Služby umělé inteligence občas narážejí na dočasné problémy a správné ošetření chyb zajišťuje spolehlivost vaší aplikace.
+**Ošetření chyb**Vytvořte robustní mechanismy opakování s exponenciálním odkladem. Služby umělé inteligence občas narážejí na dočasné problémy a správné ošetření chyb zajišťuje spolehlivost vaší aplikace.
 
 **Monitorování a protokolování**Sledujte dobu zpracování, využití tokenů a souhrnné metriky kvality. Tato data vám pomáhají optimalizovat výkon a předvídat náklady při škálování.
 
@@ -168,9 +168,9 @@ Při práci s umělou inteligencí při zpracování dokumentů, zejména v podn
 
 ## Řešení problémů s implementací zpracování dokumentů s umělou inteligencí
 
-I při pečlivém plánování se setkáte s problémy. Zde je návod, jak diagnostikovat a opravit nejčastější problémy:
+při pečlivém plánování se setkáte s problémy. Zde je návod, jak diagnostikovat a opravit nejčastější problémy:
 
-**Chyby ověřování API**Zkontrolujte si znovu klíče API a ujistěte se, že jejich platnost nevypršela. Mnoho poskytovatelů vyžaduje z bezpečnostních důvodů pravidelnou rotaci klíčů.
+**Chyby ověřování API**Zkontrolujte si znovu své API klíče a ujistěte se, že jejich platnost nevypršela. Mnoho poskytovatelů vyžaduje z bezpečnostních důvodů pravidelnou rotaci klíčů.
 
 **Chyby časového limitu**Velké dokumenty mohou vyžadovat delší dobu zpracování. Implementujte vhodné hodnoty časového limitu a u velmi velkých souborů zvažte rozdělení dokumentů.
 
@@ -197,7 +197,7 @@ Pamatujte: cílem není jen rychlejší zpracování dokumentů – jde o získ�
 ## Návody na zpracování dokumentů s využitím umělé inteligence
 | Název | Popis |
 | --- | --- |
-| [Zvládnutí sumarizace dokumentů pomocí modelů umělé inteligence](./mastering-document-summarization-ai-model/) Odemkněte potenciál automatizace dokumentů s Aspose.Words pro .NET. Naučte se, jak snadno shrnout dokumenty pomocí pokročilých modelů umělé inteligence. |
+| [Zvládnutí sumarizace dokumentů pomocí modelů umělé inteligence](./mastering-document-summarization-ai-model/) | Odemkněte potenciál automatizace dokumentů s Aspose.Words pro .NET. Naučte se, jak snadno shrnout dokumenty pomocí pokročilých modelů umělé inteligence. |
 | [Zvládnutí shrnutí dokumentů v modelech umělé inteligence Google](./mastering-document-summarization-google-ai-model/) | Naučte se krok za krokem, jak shrnout dokumenty Wordu pomocí Aspose.Words a Google AI v .NET. Postupujte podle tohoto průvodce a zefektivníte extrakci obsahu, analýzu dokumentů a automatizaci. |
-| [Efektivní sumarizace dokumentů s otevřeným modelem umělé inteligence](./efficient-document-summarization-openai-model/) | Naučte se, jak rychle a přesně sumarizovat rozsáhlé dokumenty s tímto komplexním tutoriálem, který zahrnuje předpoklady, nastavení a příklady kódování. |
+| [Efektivní sumarizace dokumentů s otevřeným modelem umělé inteligence](./efficient-document-summarization-openai-model/) Naučte se, jak rychle a přesně sumarizovat rozsáhlé dokumenty s tímto komplexním tutoriálem, který zahrnuje předpoklady, nastavení a příklady kódování. |
 | [Možnosti shrnutí dokumentů](./summarize-documents-options/) | Naučte se, jak efektivně shrnovat dokumenty pomocí Aspose.Words pro .NET. Tato komplexní příručka zahrnuje nastavení, načítání dokumentů a integraci modelů umělé inteligence. |

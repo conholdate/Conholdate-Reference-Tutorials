@@ -1,13 +1,14 @@
 ---
-title: دروس تعليمية شاملة وأمثلة حول Aspose.Drawing لـ .NET
-linktitle: دروس تعليمية حول Aspose.Drawing لـ .NET
-weight: 10
-url: /ar/drawing/
-description: قم بتحسين مهاراتك في الرسم باستخدام Aspose.Drawing for .NET. بدءًا من تحويلات الإحداثيات الدقيقة إلى النصوص والخطوط الديناميكية، تعمل دروسنا التعليمية على إطلاق العنان للإمكانات الكاملة للرسومات.
-is_root: true
+"description": "طوّر مهاراتك في الرسم مع Aspose.Drawing لـ .NET. من تحويلات الإحداثيات الدقيقة إلى النصوص والخطوط الديناميكية، تُطلق دروسنا التعليمية العنان لإمكانات الرسومات الكاملة."
+"is_root": true
+"linktitle": "دروس Aspose.Drawing لـ .NET"
+"title": "دروس تعليمية شاملة وأمثلة حول Aspose.Drawing لـ .NET"
+"url": "/ar/drawing/net/"
+"weight": 10
 ---
-## دروس تعليمية حول Aspose.Drawing لـ .NET
+
+## دروس Aspose.Drawing لـ .NET
 ### [إتقان تحويلات الإحداثيات في Aspose.Drawing لـ .NET](./transformations/)
-تعلم كيفية إتقان تحويلات الإحداثيات باستخدام Aspose.Drawing لـ .NET. اكتشف كيفية تنفيذ التحويلات العالمية والمحلية لتحقيق التميز البصري.
+تعلّم إتقان تحويلات الإحداثيات باستخدام Aspose.Drawing لـ .NET. اكتشف كيفية تنفيذ تحويلات عالمية ومحلية لتحقيق التميز البصري.
 ### [إتقان تحرير الصور باستخدام Aspose.Drawing لـ .NET](./master-image-editing/)
 استكشف دروس Aspose.Drawing لـ .NET لإتقان تحرير الصور وقصها وعرضها في تطبيقات .NET باستخدام أدلة خطوة بخطوة.

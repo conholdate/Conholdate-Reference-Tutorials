@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Cells for .NET 變更頁面方向，從而提升 Excel 電子表格的可讀性和顯示效果。本逐步指南將透過清晰的範例引導您完成整個操作過程。"
+"description": "了解如何透過使用 Aspose.Cells for .NET 變更頁面方向來增強 Excel 電子表格的可讀性和簡報效果。本逐步指南將引導您完成整個過程，並提供清晰的範例。"
 "linktitle": "在 Excel 工作表中實現頁面方向"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "在 Excel 工作表中實現頁面方向"
@@ -9,14 +9,14 @@
 
 ## 介紹
 
-在格式化電子表格時，頁面方向至關重要，但常常被忽略。內容的對齊方式會顯著影響文件的可讀性和整體美觀。在本指南中，我們將探討如何使用 Aspose.Cells for .NET 在 Excel 工作表中設定頁面方向。
+在格式化電子表格時，頁面方向是至關重要但經常被忽視的方面。內容的對齊方式會顯著影響文件的可讀性和整體美觀。在本指南中，我們將探討如何使用 Aspose.Cells for .NET 在 Excel 工作表中設定頁面方向。
 
 ## 先決條件
 
 在開始之前，請確保您具備以下條件：
 
-1. Visual Studio：確保已安裝。如果沒有，請從 [Visual Studio 下載頁面](https://visualstudio。microsoft.com/vs/).
-2. Aspose.Cells for .NET：從下載並安裝程式庫 [Aspose下載頁面](https://releases.aspose.com/cells/net/)。您也可以從 [免費試用](https://releases。aspose.com/).
+1. Visual Studio：確保您已安裝它。如果沒有，請從 [Visual Studio 下載頁面](https://visualstudio。microsoft.com/vs/).
+2. Aspose.Cells for .NET：從下載並安裝程式庫 [Aspose下載頁面](https://releases.aspose.com/cells/net/)。您還可以從 [免費試用](https://releases。aspose.com/).
 3. C# 基礎知識：熟悉 C# 將會有所幫助，因為我們的範例將使用這種語言。
 
 現在我們已經設定好了一切，讓我們導入必要的套件。
@@ -27,11 +27,11 @@
 
 ### 步驟 1：開啟 Visual Studio
 
-啟動 Visual Studio 並建立一個新的 C# 專案。您可以根據自己的喜好選擇「控制台應用程式」或「Windows 窗體應用程式」。
+啟動 Visual Studio 並建立一個新的 C# 專案。您可以根據自己的喜好選擇控制台應用程式或 Windows 窗體應用程式。
 
 ### 第 2 步：新增引用
 
-在解決方案資源管理器中，右鍵單擊您的項目，選擇“管理 NuGet 套件”，然後搜尋 Aspose.Cells 庫。安裝它以存取其所有功能。
+在解決方案資源管理器中，以滑鼠右鍵按一下您的項目，選擇管理 NuGet 套件，然後搜尋 Aspose.Cells 庫。安裝它以存取其所有功能。
 
 ### 步驟3：導入庫
 
@@ -47,7 +47,7 @@ using System;
 
 現在，讓我們逐步介紹在 Excel 工作表中將頁面方向設定為縱向的過程。
 
-## 步驟1：定義文檔目錄
+## 步驟 1：定義文件目錄
 
 首先，指定儲存 Excel 檔案的路徑：
 
@@ -59,7 +59,7 @@ string dataDir = "Your Document Directory";
 
 ## 步驟 2：實例化工作簿對象
 
-接下來，建立一個新的工作簿實例。此物件將作為您操作電子表格的工作區：
+接下來，建立一個新的工作簿實例。該物件將成為您操作電子表格的工作區：
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -99,7 +99,7 @@ workbook.Save(dataDir + "PageOrientation_out.xls");
 
 ## 結論
 
-恭喜！您已經學會如何使用 Aspose.Cells for .NET 在工作表中實現頁面方向調整。這是一個簡單易懂的過程，可以提升電子表格的可讀性和專業性。
+恭喜！您已經了解如何使用 Aspose.Cells for .NET 在工作表中實作頁面方向。這是一個簡單的過程，可以提高電子表格的可讀性和專業性。
 
 ## 常見問題解答
 
@@ -109,7 +109,7 @@ Aspose.Cells 是一個付費庫，但你可以從 [免費試用](https://release
 
 ### 我可以將頁面方向也改為橫向嗎？
 
-當然！只需替換 `PageOrientationType.Portrait` 和 `PageOrientationType.Landscape` 在你的程式碼中。
+絕對地！只需更換 `PageOrientationType.Portrait` 和 `PageOrientationType.Landscape` 在你的程式碼中。
 
 ### Aspose.Cells 支援哪些版本的 .NET？
 

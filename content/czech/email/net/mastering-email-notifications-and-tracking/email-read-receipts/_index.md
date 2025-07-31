@@ -67,7 +67,7 @@ message.Headers.Add("Disposition-Notification-To", "sender@sender.com");
 ```
 
 - Možnosti oznámení o doručení: Vyžádá si potvrzení o úspěšném doručení e-mailu.
-- Vrátit potvrzení o přečtení: Vyžádá si potvrzení o přečtení e-mailu.
+- Vrátit potvrzení: Požaduje potvrzení o přečtení e-mailu.
 - Oznámení o dispozici: Konkrétní záhlaví používané pro potvrzení o přečtení.
 
 ## Krok 4: Konfigurace klienta SMTP

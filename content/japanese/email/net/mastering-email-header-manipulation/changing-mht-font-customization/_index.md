@@ -16,7 +16,7 @@ Webコミュニケーションの世界では、MHT（MHTML）ファイルは、
 コードに進む前に、準備しておくべき重要なものがいくつかあります。
 
 1. Visual Studio: C# プロジェクトで作業するには、統合開発環境 (IDE) が必要です。
-2. Aspose.Email for .NET ライブラリ: ライブラリがインストールされていることを確認してください。以下のサイトからダウンロードできます。 [リンク](https://releases。aspose.com/email/net/).
+2. Aspose.Email for .NET ライブラリ: ライブラリがインストールされていることを確認してください。ダウンロードは以下から行えます。 [リンク](https://releases。aspose.com/email/net/).
 3. .NET Framework: プロジェクトは .NET Framework と互換性がある必要があります。通常、.NET Core 以降のバージョンが適切に動作します。
 
 準備はできましたか？素晴らしい！それでは始めましょう。

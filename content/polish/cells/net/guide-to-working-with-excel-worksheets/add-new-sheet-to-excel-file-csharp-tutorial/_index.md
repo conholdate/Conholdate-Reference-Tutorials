@@ -1,7 +1,7 @@
 ---
 "description": "Dowiedz się, jak bezproblemowo dodać nowy arkusz kalkulacyjny do pliku Excel za pomocą Aspose.Cells dla .NET. Ten kompleksowy przewodnik zawiera instrukcje krok po kroku, przykłady kodu i przydatne wskazówki."
 "linktitle": "Nowy arkusz w pliku Excela programowo – samouczek C#"
-"second_title": "Aspose.Cells dla .NET API Reference"
+"second_title": "Dokumentacja interfejsu API Aspose.Cells dla platformy .NET"
 "title": "Nowy arkusz w pliku Excela programowo – samouczek C#"
 "url": "/pl/cells/net/guide-to-working-with-excel-worksheets/add-new-sheet-to-excel-file-csharp-tutorial/"
 "weight": 20
@@ -71,7 +71,7 @@ Workbook workbook = new Workbook(dataDir + "ExistingWorkbook.xlsx");
 
 ## Krok 3: Dodaj nowy arkusz kalkulacyjny
 
-Użyj `Worksheets.Add()` Metoda dodawania nowego arkusza do skoroszytu:
+Użyj `Worksheets.Add()` metoda dodania nowego arkusza do skoroszytu:
 
 ```csharp
 // Dodawanie nowego arkusza do obiektu Skoroszyt
@@ -98,7 +98,7 @@ Dodawanie nowego arkusza do skoroszytu programu Excel za pomocą Aspose.Cells fo
 
 ### Czym jest Aspose.Cells dla .NET?
 
-Aspose.Cells for .NET to bogata w funkcje biblioteka do programowego tworzenia, edytowania i konwertowania plików Excel bez konieczności korzystania z programu Microsoft Excel.
+Aspose.Cells for .NET to bogata w funkcje biblioteka do programowego tworzenia, edytowania i konwertowania plików Excel bez konieczności używania programu Microsoft Excel.
 
 ### Czy mogę pracować z istniejącymi plikami Excela?
 

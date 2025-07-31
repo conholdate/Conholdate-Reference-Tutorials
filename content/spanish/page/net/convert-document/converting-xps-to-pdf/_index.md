@@ -1,20 +1,21 @@
 ---
-title: Conversión de XPS a PDF con Aspose.Page para .NET
-linktitle: Conversión de XPS a PDF
-second_title: API de Aspose.Page .NET
-description: Descubra cómo convertir sin problemas documentos XPS (XML Paper Specification) a PDF (Portable Document Format) utilizando la potente biblioteca Aspose.Page para .NET.
-weight: 11
-url: /es/page/convert-document/converting-xps-to-pdf/
+"description": "Descubra cómo convertir sin problemas documentos XPS (especificación de papel XML) a PDF (formato de documento portátil) utilizando la potente biblioteca Aspose.Page para .NET."
+"linktitle": "Conversión de XPS a PDF"
+"second_title": "API de Aspose.Page .NET"
+"title": "Conversión de XPS a PDF con Aspose.Page para .NET"
+"url": "/es/page/net/convert-document/converting-xps-to-pdf/"
+"weight": 11
 ---
+
 ## Introducción
 
-En este tutorial, exploraremos cómo convertir documentos XPS (XML Paper Specification) a PDF (Portable Document Format) utilizando la versátil biblioteca Aspose.Page para .NET. Esta potente biblioteca simplifica la conversión de documentos y ofrece varias opciones de personalización, lo que la convierte en una excelente opción para los desarrolladores.
+En este tutorial, exploraremos cómo convertir documentos XPS (XML Paper Specification) a PDF (Portable Document Format) utilizando la versátil biblioteca Aspose.Page para .NET. Esta potente biblioteca simplifica la conversión de documentos y ofrece diversas opciones de personalización, lo que la convierte en una excelente opción para desarrolladores.
 
 ## Prerrequisitos
 
 Antes de comenzar, asegúrese de tener lo siguiente en su lugar:
 
--  Biblioteca Aspose.Page para .NET: Descargue e instale la biblioteca Aspose.Page para .NET desde[Documentación de Aspose.Page](https://reference.aspose.com/page/net/).
+- Biblioteca Aspose.Page para .NET: Descargue e instale la biblioteca Aspose.Page para .NET desde [Documentación de Aspose.Page](https://reference.aspose.com/page/net/).
   
 - Entorno de desarrollo: configure un entorno de desarrollo .NET utilizando Visual Studio u otro IDE compatible.
 
@@ -36,7 +37,7 @@ Define la ruta del directorio donde se almacenan tus documentos:
 string dataDir = "Your Document Directory";
 ```
 
- Asegúrese de reemplazar`"Your Document Directory"` con la ruta real al directorio que contiene su documento XPS.
+Asegúrese de reemplazar `"Your Document Directory"` con la ruta real al directorio que contiene su documento XPS.
 
 ### Paso 3: Abra secuencias de PDF y XPS
 
@@ -57,7 +58,7 @@ Ahora, cargue su documento XPS usando la biblioteca Aspose.Page:
 XpsDocument document = new XpsDocument(xpsStream, new XpsLoadOptions());
 ```
 
-### Paso 5: Configurar las opciones para guardar PDF
+### Paso 5: Configurar las opciones de guardado de PDF
 
 Configure las opciones de guardado para su PDF, incluidos los parámetros de compresión y calidad de imagen:
 
@@ -67,7 +68,7 @@ PdfSaveOptions options = new PdfSaveOptions()
     JpegQualityLevel = 100, // Establecer el nivel de calidad JPEG
     ImageCompression = PdfImageCompression.Jpeg, // Utilice compresión JPEG para imágenes
     TextCompression = PdfTextCompression.Flate, // Aplicar compresión Flate para texto
-    PageNumbers = new int[] { 1, 2, 6 } // Especifique los números de página que desea incluir
+    PageNumbers = new int[] { 1, 2, 6 } // Especifique los números de página que se incluirán
 };
 ```
 
@@ -81,7 +82,7 @@ Crear un dispositivo de renderizado para el formato PDF:
 PdfDevice device = new PdfDevice(pdfStream);
 ```
 
-### Paso 7: Guarde el documento como PDF
+### Paso 7: Guardar el documento como PDF
 
 Por último, guarde el documento XPS en PDF utilizando el dispositivo y las opciones especificadas:
 
@@ -91,13 +92,13 @@ document.Save(device, options);
 
 ## Conclusión
 
-¡Felicitaciones! Ha convertido exitosamente un documento XPS a PDF usando Aspose.Page para .NET. Esta biblioteca no solo simplifica la conversión de documentos, sino que también ofrece amplias capacidades para manejar varios formatos.
+¡Felicitaciones! Ha convertido correctamente un documento XPS a PDF con Aspose.Page para .NET. Esta biblioteca no solo simplifica la conversión de documentos, sino que también ofrece amplias capacidades para gestionar diversos formatos.
 
 ## Preguntas frecuentes
 
 ### ¿Puedo convertir varios archivos XPS en un solo PDF?
 
-¡Por supuesto! Puedes iterar a través de varios archivos XPS y fusionarlos en un solo documento PDF siguiendo los mismos pasos de conversión.
+¡Por supuesto! Puedes iterar entre varios archivos XPS y fusionarlos en un solo documento PDF siguiendo los mismos pasos de conversión.
 
 ### ¿Qué otros formatos de salida admite Aspose.Page para .NET?
 
@@ -105,12 +106,12 @@ Además de PDF, Aspose.Page para .NET admite una variedad de formatos, incluidos
 
 ### ¿Cómo puedo personalizar la apariencia del PDF convertido?
 
- Puede ajustar los parámetros en el`PdfSaveOptions` objeto, como la calidad JPEG y la configuración de compresión, para lograr la apariencia deseada.
+Puede ajustar los parámetros en el `PdfSaveOptions` objeto, como la calidad JPEG y la configuración de compresión, para lograr la apariencia deseada.
 
 ### ¿Hay una versión de prueba disponible para Aspose.Page para .NET?
 
- Sí, puedes probar Aspose.Page para .NET con una versión de prueba gratuita disponible[aquí](https://releases.aspose.com/).
+Sí, puedes probar Aspose.Page para .NET con una prueba gratuita disponible [aquí](https://releases.aspose.com/).
 
 ### ¿Dónde puedo encontrar soporte de la comunidad para Aspose.Page para .NET?
 
-Para discusiones y soporte de la comunidad, visite el[Foro de Aspose.Page](https://forum.aspose.com/c/page/39).
+Para debates y apoyo comunitario, visite el sitio [Foro de Aspose.Page](https://forum.aspose.com/c/page/39).

@@ -9,7 +9,7 @@
 
 ## giriiş
 
-Merhaba! Word belgenize belirli bir İmza Sağlayıcı Kimliği ile dijital imza eklemek istiyorsanız, doğru yerdesiniz. İster yasal sözleşmeler, ister sözleşmeler veya herhangi bir önemli evrak için olsun, güvenli bir dijital imza olmazsa olmazdır. Bu eğitimde, .NET için Aspose.Words kullanarak bir Word belgesinde İmza Sağlayıcı Kimliği oluşturma sürecinde adım adım size rehberlik edeceğim. Hadi başlayalım!
+Merhaba! Word belgenize belirli bir İmza Sağlayıcı Kimliği ile dijital imza eklemek istiyorsanız, doğru yerdesiniz. İster yasal sözleşmeler, ister sözleşmeler veya herhangi bir önemli evrak için olsun, güvenli bir dijital imza olmazsa olmazdır. Bu eğitimde, Aspose.Words for .NET kullanarak bir Word belgesinde İmza Sağlayıcı Kimliği oluşturma sürecinde adım adım size rehberlik edeceğim. Hadi başlayalım!
 
 ## Ön koşullar
 

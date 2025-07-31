@@ -45,7 +45,7 @@ using Ionic.Zip;
 
 ## Bước 3: Khởi tạo Giấy phép bảo mật
 
-Bây giờ, hãy khởi tạo giấy phép bảo mật bằng cách sử dụng `SecureLicense` lớp. Đây là cách thực hiện:
+Bây giờ, hãy khởi tạo giấy phép bảo mật bằng cách sử dụng `SecureLicense` lớp. Sau đây là cách thực hiện:
 
 ```csharp
 using (Stream zip = new SecureLicense().GetType().Assembly.GetManifestResourceStream("Aspose.Total.lic.zip"))

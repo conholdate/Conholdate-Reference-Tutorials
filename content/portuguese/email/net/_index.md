@@ -22,7 +22,7 @@ Libere todo o potencial do processamento de e-mails com o Aspose.Email para .NET
 - **🔄 Conversão de e-mail**: Transformação perfeita entre formatos de e-mail
 - **🤖 Análise de Spam**: Filtragem avançada baseada em aprendizado de máquina
 - **📊 Processamento de e-mail**: Análise de conteúdo, tratamento de anexos e extração de metadados
-- **⚡ Suporte de Protocolo**: SMTP, POP3, IMAP, Serviços Web do Exchange (EWS)
+- **⚡ Suporte de Protocolo**SMTP, POP3, IMAP, Serviços Web do Exchange (EWS)
 
 ## 📚 Categorias de Tutoriais
 
@@ -40,13 +40,13 @@ Técnicas avançadas de análise de e-mail, incluindo detecção de spam e proce
 | Tutorial | Descrição | Dificuldade |
 |----------|-------------|------------|
 | **[Análise Bayesiana de Spam em C#](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Detecção de spam baseada em aprendizado de máquina com análise estatística | ⭐⭐⭐ Avançado |
-| **[Converter e-mail HTML em texto simples](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Extraia conteúdo de texto limpo de e-mails em HTML | ⭐⭐ Intermediário |
+| **[Converter e-mail HTML em texto simples](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Extraia conteúdo de texto limpo de e-mails em HTML | ⭐⭐ Intermediário |
 
 ## 🎯 Casos de uso populares
 
 ### **Integração do sistema de e-mail**
 - **Migração de e-mail**: Converta entre diferentes formatos de e-mail para migrações de sistemas
-- **Soluções de Arquivo**Armazenamento de e-mail de longo prazo com padronização de formato
+- **Soluções de Arquivo**: Armazenamento de e-mail de longo prazo com padronização de formato
 - **Compatibilidade entre plataformas**: Garantir que os e-mails funcionem em diferentes clientes de e-mail
 
 ### **Segurança e Análise de E-mail**
@@ -133,7 +133,7 @@ Técnicas avançadas de análise de e-mail, incluindo detecção de spam e proce
 - **[Teste grátis](https://releases.aspose.com/email/net/)** - Avalie todos os recursos
 
 ### **Comunidade e Suporte**
-- **[Fórum de Suporte](https://forum.aspose.com/c/email/12)** - Obtenha ajuda de especialistas
+- **[Fórum de Suporte](https://forum.aspose.com/c/email/12)** Obtenha ajuda de especialistas
 
 ### **Licenciamento e testes**
 - **[Licença Temporária](https://purchase.conholdate.com/temporary-license/)** - Avaliação estendida

@@ -13,7 +13,7 @@ L'interaction avec les utilisateurs dans les documents PDF peut être amélioré
 
 ## Prérequis
 
-Avant de commencer, assurez-vous d’avoir les éléments suivants :
+Avant de commencer, assurez-vous d’avoir les éléments suivants :
 
 1. .NET Framework : assurez-vous que .NET Framework est installé sur votre système. Aspose.PDF pour .NET est compatible avec différentes versions.
 2. Bibliothèque Aspose.PDF : Installez la bibliothèque Aspose.PDF. Vous pouvez la télécharger depuis le site web ou l'installer via NuGet :

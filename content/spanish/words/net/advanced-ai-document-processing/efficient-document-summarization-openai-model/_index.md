@@ -2,7 +2,7 @@
 "categories":
 - "Document Processing"
 "date": "2025-01-02"
-"description": "Domine la síntesis de documentos en .NET con OpenAI y Aspose.Words. Tutorial paso a paso con ejemplos de código, prácticas recomendadas y consejos para la resolución de problemas."
+"description": "Domine el resumen de documentos en .NET con OpenAI y Aspose.Words. Tutorial paso a paso con ejemplos de código, prácticas recomendadas y consejos para la resolución de problemas."
 "lastmod": "2025-01-02"
 "linktitle": "Resumen de documentos .NET OpenAI"
 "second_title": "API de procesamiento de documentos de Aspose.Words"
@@ -61,7 +61,7 @@ Install-Package Aspose.Words
 
 ### Cómo proteger su clave API de OpenAI
 
-Necesitará una clave API de OpenAI para acceder a sus modelos de lenguaje. Visite [Sitio web de OpenAI](https://openai.com/), crea una cuenta y obtén tu clave API. **Nunca codifique esta clave** – le mostraremos la forma segura de manejarlo más adelante en esta guía.
+Necesitará una clave API de OpenAI para acceder a sus modelos de lenguaje. Visite [Sitio web de OpenAI](https://openai.com/)crea una cuenta y obtén tu clave API. **Nunca codifique esta clave** – le mostraremos la forma segura de manejarlo más adelante en esta guía.
 
 ### Configuración del entorno de desarrollo
 Si bien puede utilizar cualquier IDE compatible con .NET, **Visual Studio** proporciona la mejor experiencia para este tutorial, con excelente soporte de IntelliSense y capacidades de depuración para integraciones de API y Aspose.Words.
@@ -196,7 +196,7 @@ Más allá de las configuraciones básicas de longitud, puedes ajustar tu proces
 **Solución**Implemente la fragmentación de documentos o utilice métodos de streaming para archivos de más de 100 MB. Considere el preprocesamiento para eliminar contenido innecesario, como imágenes incrustadas.
 
 ### Resumen de problemas de calidad
-**Asunto**: Resúmenes que carecen de información importante
+**Asunto**: Resúmenes en los que falta información importante
 **Solución**Experimente con diferentes longitudes de resumen y considere usar el modelo GPT-4 completo para documentos complejos. En ocasiones, la estructura del documento afecta la calidad del resumen; los documentos bien formateados suelen producir mejores resultados.
 
 ### Red y conectividad

@@ -77,7 +77,7 @@ Ez a kódrészlet kinyomtatja a megjegyzés részleteit a konzolra. Ezek a tulaj
 
 ## Következtetés
 
-PDF dokumentumokból a .NET-hez készült Aspose.PDF segítségével a jegyzetek kinyerése egyszerű és hatékony. Az útmutató követésével zökkenőmentesen integrálhatja ezt a funkciót alkalmazásaiba. Az Aspose.PDF hatékony eszközöket biztosít a PDF fájlok kezeléséhez, így a fejlesztők páratlan kontrollt kapnak a tartalmuk felett.
+PDF dokumentumokból a .NET-hez készült Aspose.PDF segítségével a jegyzetek kinyerése egyszerű és hatékony. Ezt az útmutatót követve zökkenőmentesen integrálhatja ezt a funkciót alkalmazásaiba. Az Aspose.PDF hatékony eszközöket biztosít a PDF fájlok kezeléséhez, így a fejlesztők páratlan kontrollt kapnak a tartalmuk felett.
 
 ## GYIK
 

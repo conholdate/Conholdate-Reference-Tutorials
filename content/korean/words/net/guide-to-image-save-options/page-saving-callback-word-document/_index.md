@@ -89,7 +89,7 @@ doc.Save(dataDir + "WorkingWithImageSaveOptions.PageSavingCallback.png", imageSa
 
 ## 자주 묻는 질문
 
-### PNG 이외의 형식으로 페이지를 저장할 수 있나요?
+### PNG 이외의 다른 형식으로 페이지를 저장할 수 있나요?
 네! JPEG, BMP, TIFF 등의 형식으로 페이지를 저장할 수 있습니다. `SaveFormat` ~에 `ImageSaveOptions`.
 
 ### 특정 페이지만 저장하려면 어떻게 해야 하나요?

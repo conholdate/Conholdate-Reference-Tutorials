@@ -35,7 +35,7 @@
 | **[Μετατροπή Word σε PDF](./essential-guide-document-conversions/convert-word-to-pdf/)** | Επαγγελματική δημιουργία PDF με διατήρηση μορφοποίησης | ⭐ Αρχάριος |
 | **[Μετατροπή DOCX σε TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Εξαγωγή απλού κειμένου από έγγραφα Word | ⭐ Αρχάριοι |
 | **[Μετατροπή αρχείων κειμένου σε έγγραφα του Word](./essential-guide-document-conversions/convert-text-files-to-word-documents/)** | Μετατροπή απλού κειμένου σε δομημένα έγγραφα Word | ⭐ Αρχάριοι |
-| **[Μετατροπή PDF σε έγγραφο Word](./essential-guide-document-conversions/convert-pdf-to-word/)** Κάντε τα PDF επεξεργάσιμα μετατρέποντάς τα σε μορφή Word | ⭐⭐ Ενδιάμεσο |
+| **[Μετατροπή PDF σε έγγραφο Word](./essential-guide-document-conversions/convert-pdf-to-word/)** | Κάντε τα PDF επεξεργάσιμα μετατρέποντάς τα σε μορφή Word | ⭐⭐ Ενδιάμεσο |
 | **[Μετατροπή PDF σε JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Εξαγωγή εικόνων υψηλής ποιότητας από έγγραφα PDF | ⭐⭐ Ενδιάμεσο |
 
 ### Προηγμένες μετατροπές εγγράφων
@@ -44,7 +44,7 @@
 | Εκμάθηση | Περιγραφή | Δυσκολία |
 |----------|--------------|-------------|
 | **[Μετατροπή DOCX σε πίνακες Byte](./essential-guide-document-conversions/convert-docx-to-byte-arrays/)** | Χειρισμός εγγράφων με αποδοτικότητα μνήμης για εφαρμογές web | ⭐⭐ Ενδιάμεσο |
-| **[Μετατροπή DOCX σε EPUB](./essential-guide-document-conversions/convert-docx-to-epub/)** | Δημιουργία ηλεκτρονικών βιβλίων από έγγραφα Word | ⭐⭐ Ενδιάμεσο επίπεδο |
+| **[Μετατροπή DOCX σε EPUB](./essential-guide-document-conversions/convert-docx-to-epub/)** | Δημιουργήστε ηλεκτρονικά βιβλία από έγγραφα Word | ⭐⭐ Ενδιάμεσο επίπεδο |
 | **[Μετατροπή DOCX σε Markdown](./essential-guide-document-conversions/convert-docx-to-markdown/)** | Μορφή φιλική προς το διαδίκτυο για τεκμηρίωση και ιστολόγια | ⭐⭐ Ενδιάμεσο |
 | **[Μετατροπή DOCX σε MHTML και αποστολή email](./essential-guide-document-conversions/convert-docx-to-mhtml-send-email/)** | Μετατροπή εγγράφων έτοιμων για email με αυτοματοποίηση | ⭐⭐⭐ Προηγμένες |
 
@@ -54,7 +54,7 @@
 | Εκμάθηση | Περιγραφή | Δυσκολία |
 |----------|--------------|-------------|
 | **[Κατακτώντας την Σύνοψη Εγγράφων με Μοντέλα Τεχνητής Νοημοσύνης](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Ανάλυση και σύνοψη περιεχομένου με τεχνητή νοημοσύνη | ⭐⭐⭐ Προηγμένες |
-| **[Σύνοψη εγγράφων με μοντέλα τεχνητής νοημοσύνης Google](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** | Ενσωματώστε την Τεχνητή Νοημοσύνη της Google για έξυπνη επεξεργασία εγγράφων | ⭐⭐⭐ Προηγμένες |
+| **[Σύνοψη εγγράφων με μοντέλα τεχνητής νοημοσύνης Google](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** Ενσωματώστε την Τεχνητή Νοημοσύνη της Google για έξυπνη επεξεργασία εγγράφων | ⭐⭐⭐ Προηγμένες |
 | **[Αποτελεσματική σύνοψη εγγράφων με μοντέλα OpenAI](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Αξιοποίηση μοντέλων OpenAI GPT για πληροφορίες εγγράφων | ⭐⭐⭐ Για προχωρημένους |
 | **[Επιλογές σύνοψης εγγράφων](./advanced-ai-document-processing/summarize-documents-options/)** | Πλήρης οδηγός για τεχνικές σύνοψης | ⭐⭐⭐ Προχωρημένο |
 
@@ -93,7 +93,7 @@
 2. Οικοδομώ **[Προσαρμοσμένες ροές εργασίας](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)**
 3. Βελτιστοποιώ **[Λύσεις απόδοσης](./advanced-ai-document-processing/summarize-documents-options/)**
 
-## 🌟 Προτεινόμενα μαθήματα αυτόν τον μήνα
+## 🌟 Προτεινόμενα εκπαιδευτικά σεμινάρια αυτόν τον μήνα
 
 ### Πιο δημοφιλή
 1. **[Μετατροπή PDF σε JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** - Εξαγωγή εικόνας υψηλής ποιότητας
@@ -129,7 +129,7 @@
 - **[Λήψη](https://releases.aspose.com/words/net/)** - Αξιολογήστε όλα τα χαρακτηριστικά
 
 ### **Κοινότητα & Υποστήριξη**
-- **[Φόρουμ Υποστήριξης](https://forum.aspose.com/c/words/8)** - Λάβετε βοήθεια από ειδικούς
+- **[Φόρουμ Υποστήριξης](https://forum.aspose.com/c/words/8)** Λάβετε βοήθεια από ειδικούς
 
 ### **Αδειοδότηση & Δοκιμές**
 - **[Προσωρινή Άδεια](https://purchase.conholdate.com/temporary-license/)** - Εκτεταμένη αξιολόγηση

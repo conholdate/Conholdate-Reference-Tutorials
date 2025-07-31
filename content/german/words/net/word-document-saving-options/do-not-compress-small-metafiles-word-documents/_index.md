@@ -99,7 +99,7 @@ Während Sie Aspose.Words für .NET ohne Lizenz zu Evaluierungszwecken verwenden
 
 ### Wie kann ich sicherstellen, dass meine Dokumente den PDF/A-Standards entsprechen?
 
-Sie können Compliance-Optionen festlegen, wie zum Beispiel `PdfCompliance.PdfA1a`, innerhalb von Aspose.Words für .NET, um sicherzustellen, dass Ihre Dokumente bestimmte Standards erfüllen.
+Sie können Compliance-Optionen festlegen, wie zum Beispiel: `PdfCompliance.PdfA1a`, innerhalb von Aspose.Words für .NET, um sicherzustellen, dass Ihre Dokumente bestimmte Standards erfüllen.
 
 ### Wo finde ich weitere Informationen zu Aspose.Words für .NET?
 

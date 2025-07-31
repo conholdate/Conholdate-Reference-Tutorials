@@ -9,7 +9,7 @@
 
 ## Einführung
 
-Die Verwaltung von Anmerkungen in PDF-Dateien kann in vielen Anwendungen eine kritische Aufgabe sein. Aspose.PDF für .NET bietet hierfür eine effiziente und umfassende Lösung. Diese Anleitung führt Sie durch das Extrahieren von Anmerkungen aus PDF-Seiten und deckt jeden Schritt mit klaren Anweisungen und detaillierten Erklärungen ab. Lassen Sie uns eintauchen.
+Die Verwaltung von Anmerkungen in PDF-Dateien kann in vielen Anwendungen eine kritische Aufgabe sein. Aspose.PDF für .NET bietet hierfür eine effiziente und umfassende Lösung. Diese Anleitung führt Sie durch das Extrahieren von Anmerkungen aus PDF-Seiten und bietet jeden Schritt mit klaren Anweisungen und detaillierten Erklärungen. Lassen Sie uns eintauchen.
 
 ## Voraussetzungen
 
@@ -77,7 +77,7 @@ Dieses Snippet gibt die Anmerkungsdetails in der Konsole aus. Diese Eigenschafte
 
 ## Abschluss
 
-Das Extrahieren von Anmerkungen aus PDF-Dokumenten mit Aspose.PDF für .NET ist unkompliziert und effizient. Mit dieser Anleitung können Sie diese Funktionalität nahtlos in Ihre Anwendungen integrieren. Aspose.PDF bietet leistungsstarke Tools zur Verwaltung von PDF-Dateien und ermöglicht Entwicklern eine beispiellose Kontrolle über ihre Inhalte.
+Das Extrahieren von Anmerkungen aus PDF-Dokumenten mit Aspose.PDF für .NET ist unkompliziert und effizient. Mit dieser Anleitung können Sie diese Funktionalität nahtlos in Ihre Anwendungen integrieren. Aspose.PDF bietet leistungsstarke Tools zur Verwaltung von PDF-Dateien und gibt Entwicklern beispiellose Kontrolle über ihre Inhalte.
 
 ## Häufig gestellte Fragen
 

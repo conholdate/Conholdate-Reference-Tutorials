@@ -13,7 +13,7 @@ Het converteren van Excel-bestanden naar PDF kan soms frustrerend zijn, vooral w
 
 ## Vereisten
 
-Voordat we in de code duiken, moet u ervoor zorgen dat u het volgende klaar hebt:
+Voordat we in de code duiken, moet u ervoor zorgen dat u het volgende op orde heeft:
 
 1. .NET-omgeving: Zorg ervoor dat .NET op uw computer is geïnstalleerd. Aspose.Cells werkt met zowel .NET Framework als .NET Core.
 2. Aspose.Cells-bibliotheek: Integreer de Aspose.Cells-bibliotheek in je project. Als je dit nog niet hebt gedaan, kun je deze downloaden. [hier](https://releases.aspose.com/cells/net/).
@@ -46,7 +46,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
-Zorg ervoor dat deze paden juist zijn om te voorkomen dat het bestand niet gevonden wordt.
+Zorg ervoor dat deze paden juist zijn om te voorkomen dat het bestand niet wordt gevonden.
 
 ## Stap 3: Laad de voorbeeldwerkmap
 
@@ -94,7 +94,7 @@ Controleer, nadat u deze code hebt uitgevoerd, uw uitvoermap op de nieuw aangema
 
 ## Conclusie
 
-Gefeliciteerd! Je hebt met succes een Excel-bestand naar PDF geconverteerd, waarbij je eventuele fouten die tijdens het proces zijn opgetreden, hebt genegeerd. Aspose.Cells voor .NET vereenvoudigt deze taak niet alleen, maar stelt je ook in staat efficiënt met je gegevens te werken zonder vast te lopen door veelvoorkomende Excel-problemen.
+Gefeliciteerd! Je hebt met succes een Excel-bestand naar PDF geconverteerd, waarbij je eventuele fouten die tijdens het proces zijn opgetreden, hebt genegeerd. Aspose.Cells voor .NET vereenvoudigt deze taak niet alleen, maar stelt je ook in staat om efficiënt met je gegevens te werken zonder vast te lopen door veelvoorkomende Excel-problemen.
 
 ## Veelgestelde vragen
 
@@ -108,7 +108,7 @@ Absoluut! Met Aspose.Cells kunt u onder andere Excel-bestanden maken, wijzigen e
 
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Cells verkrijgen?
 
-U kunt een tijdelijke licentie krijgen [hier](https://purchase.aspose.com/temporary-license/).
+U kunt een tijdelijke vergunning krijgen [hier](https://purchase.aspose.com/temporary-license/).
 
 ### Wat als ik nog steeds problemen tegenkom nadat ik de fouten heb genegeerd?
 

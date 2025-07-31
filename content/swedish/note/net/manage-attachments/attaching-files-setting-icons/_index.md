@@ -1,26 +1,27 @@
 ---
-title: Bifoga filer och inställningsikoner i Aspose.Note för .NET
-linktitle: Bifoga fil och ikon i Aspose.Note
-second_title: Aspose.Note .NET API
-description: Lär dig steg-för-steg hur du bifogar filer och ställer in anpassade ikoner i Microsoft OneNote-dokument med Aspose.Note för .NET. Förbättra din .NET-applikation med sömlös dokumenthantering och anpassningsfunktioner.
-weight: 10
-url: /sv/note/manage-attachments/attaching-files-setting-icons/
+"description": "Lär dig steg för steg hur du bifogar filer och ställer in anpassade ikoner i Microsoft OneNote-dokument med Aspose.Note för .NET. Förbättra din .NET-applikation med sömlös dokumenthantering och anpassningsfunktioner."
+"linktitle": "Bifoga fil och ange ikon i Aspose.Note"
+"second_title": "Aspose.Note .NET API"
+"title": "Bifoga filer och ställa in ikoner i Aspose.Note för .NET"
+"url": "/sv/note/net/manage-attachments/attaching-files-setting-icons/"
+"weight": 10
 ---
+
 ## Introduktion
 
-Aspose.Note for .NET är ett avancerat bibliotek designat för utvecklare att skapa, manipulera och konvertera Microsoft OneNote-filer programmatiskt. En utmärkande funktion i det här biblioteket är dess förmåga att bifoga filer till OneNote-dokument och anpassa deras ikoner. I den här guiden kommer vi att utforska hur du kan utnyttja Aspose.Note för .NET för att sömlöst bifoga filer och ställa in anpassade ikoner, vilket berikar din OneNote-dokumentfunktionalitet.
+Aspose.Note för .NET är ett avancerat bibliotek utformat för utvecklare för att skapa, manipulera och konvertera Microsoft OneNote-filer programmatiskt. En utmärkt funktion i detta bibliotek är dess möjlighet att bifoga filer till OneNote-dokument och anpassa deras ikoner. I den här guiden utforskar vi hur du kan använda Aspose.Note för .NET för att sömlöst bifoga filer och ställa in anpassade ikoner, vilket berikar dina OneNote-dokumentfunktioner.
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan du implementerar lösningen, se till att du har följande:
 
-- Utvecklingsmiljö: Visual Studio eller liknande IDE konfigurerad för .NET-utveckling.
--  Biblioteksinstallation: Installera[Aspose.Note för .NET](https://releases.aspose.com/words/net/) bibliotek.
-- Programmeringskunskap: Grundläggande förståelse för C#.
+- Utvecklingsmiljö: Visual Studio eller en liknande IDE konfigurerad för .NET-utveckling.
+- Biblioteksinstallation: Installera [Aspose.Note för .NET](https://releases.aspose.com/words/net/) bibliotek.
+- Programmeringskunskaper: Grundläggande förståelse för C#.
 
-## Importera nödvändiga namnområden
+## Importera obligatoriska namnrymder
 
-Lägg till dessa namnrymder till ditt projekt för viktig funktionalitet:
+Lägg till dessa namnrymder i ditt projekt för viktig funktionalitet:
 
 ```csharp
 using System.IO;
@@ -30,11 +31,11 @@ using System.Collections.Generic;
 using System.Drawing.Imaging;
 ```
 
-Nedan följer en detaljerad steg-för-steg implementering.
+Nedan följer den detaljerade steg-för-steg-implementeringen.
 
 ## Steg 1: Skapa ett nytt OneNote-dokument
 
- Initiera ett nytt OneNote-dokument med hjälp av`Document` klass.
+Initiera ett nytt OneNote-dokument med hjälp av `Document` klass.
 
 ```csharp
 Document doc = new Document();
@@ -50,15 +51,15 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 ## Steg 3: Skapa en disposition
 
- Skapa en`Outline` objekt, som fungerar som behållare för element på din OneNote-sida.
+Skapa en `Outline` objekt, som fungerar som behållare för element på din OneNote-sida.
 
 ```csharp
 Outline outline = new Outline(doc);
 ```
 
-## Steg 4: Initiera ett dispositionselement
+## Steg 4: Initiera ett outline-element
 
- En`OutlineElement` kommer att hålla bilagan och dess tillhörande ikon.
+En `OutlineElement` kommer att innehålla bilagan och dess tillhörande ikon.
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
@@ -80,7 +81,7 @@ using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 
 ## Steg 6: Montera dokumentstrukturen
 
- Lägg till`OutlineElement` till`Outline` , och`Outline` till`Page`.
+Lägg till `OutlineElement` till `Outline`, och den `Outline` till `Page`.
 
 ```csharp
 outline.AppendChildLast(outlineElem);
@@ -97,7 +98,7 @@ doc.AppendChildLast(page);
 
 ## Steg 8: Spara dokumentet
 
-Exportera ditt uppdaterade dokument med filbilagan och ikonen.
+Exportera ditt uppdaterade dokument med den bifogade filen och ikonen.
 
 ```csharp
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
@@ -106,23 +107,23 @@ doc.Save(dataDir);
 
 ## Slutsats
 
-Genom att följa stegen som beskrivs i den här guiden kan du enkelt bifoga filer och ställa in anpassade ikoner i OneNote-dokument med Aspose.Note för .NET. Denna funktion kan avsevärt förbättra dokumentorganisationen och användarupplevelsen, vilket gör dina applikationer mer robusta och funktionsrika.
+Genom att följa stegen som beskrivs i den här guiden kan du enkelt bifoga filer och ange anpassade ikoner i OneNote-dokument med Aspose.Note för .NET. Den här funktionen kan avsevärt förbättra dokumentorganisationen och användarupplevelsen, vilket gör dina applikationer mer robusta och funktionsrika.
 
-## FAQ's
+## Vanliga frågor
 
-### Kan flera filer bifogas till en enda anteckning?
+### Kan flera filer bifogas till en och samma anteckning?
 Ja, du kan bifoga flera filer genom att upprepa bifogningsprocessen för varje fil.
 
 ### Vilka bildformat stöds för ikoner?
-Aspose.Note stöder JPEG-, PNG-, BMP- och GIF-format för bifogade ikoner.
+Aspose.Note stöder JPEG-, PNG-, BMP- och GIF-format för ikoner för bilagor.
 
-### Är det möjligt att bifoga filer dynamiskt från externa webbadresser?
- Du kan ladda ner filer med .NET-bibliotek som`HttpClient` och sedan fäst dem med Aspose.Note.
+### Är det möjligt att bifoga filer dynamiskt från externa URL:er?
+Du kan ladda ner filer med hjälp av .NET-bibliotek som `HttpClient` och bifoga dem sedan med Aspose.Note.
 
 ### Finns det några begränsningar för filstorleken för bilagor?
-Det finns ingen explicit storleksgräns som införs av Aspose.Note, men se till att dina systemresurser kan hantera stora filer.
+Aspose.Note har ingen explicit storleksgräns, men se till att dina systemresurser kan hantera stora filer.
 
 ### Kan ikoner ändra storlek innan de ställs in?
- Ja, du kan manipulera ikonbilden med .NET`System.Drawing` biblioteket innan du bifogar det.
+Ja, du kan manipulera ikonbilden med hjälp av .NET:s `System.Drawing` biblioteket innan du ansluter det.
 
- För ytterligare hjälp, utforska[dokumentation](https://reference.aspose.com/words/net/) eller nå ut till[Aspose stöd](https://forum.aspose.com/c/words/8).
+För ytterligare hjälp, utforska [dokumentation](https://reference.aspose.com/words/net/) eller kontakta [Aspose-stöd](https://forum.aspose.com/c/words/8).

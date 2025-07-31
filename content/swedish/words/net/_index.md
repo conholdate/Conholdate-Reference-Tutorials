@@ -35,7 +35,7 @@ Bemästra de vanligaste dokumentomvandlingsuppgifterna med våra steg-för-steg-
 | **[Konvertering av Word till PDF](./essential-guide-document-conversions/convert-word-to-pdf/)** | Professionell PDF-generering med formateringsbevarande | ⭐ Nybörjare |
 | **[Konvertera DOCX till TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Extrahera vanlig text från Word-dokument | ⭐ Nybörjare |
 | **[Konvertera textfiler till Word-dokument](./essential-guide-document-conversions/convert-text-files-to-word-documents/)** | Omvandla vanlig text till strukturerade Word-dokument | ⭐ Nybörjare |
-| **[Konvertera PDF till Word-dokument](./essential-guide-document-conversions/convert-pdf-to-word/)** Gör PDF-filer redigerbara genom att konvertera till Word-format | ⭐⭐ Medel |
+| **[Konvertera PDF till Word-dokument](./essential-guide-document-conversions/convert-pdf-to-word/)** | Gör PDF-filer redigerbara genom att konvertera till Word-format | ⭐⭐ Medel |
 | **[Konvertera PDF till JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Extrahera högkvalitativa bilder från PDF-dokument | ⭐⭐ Medel |
 
 ### Avancerade dokumentkonverteringar
@@ -54,7 +54,7 @@ Utnyttja banbrytande AI-teknik för att förbättra dina dokumentbehandlingsarbe
 | Handledning | Beskrivning | Svårighetsgrad |
 |----------|-------------|------------|
 | **[Bemästra dokumentsammanfattningar med AI-modeller](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | AI-driven innehållsanalys och sammanfattning | ⭐⭐⭐ Avancerad |
-| **[Dokumentsammanfattning med Google AI-modeller](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** | Integrera Google AI för intelligent dokumentbehandling | ⭐⭐⭐ Avancerat |
+| **[Dokumentsammanfattning med Google AI-modeller](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** Integrera Google AI för intelligent dokumentbehandling | ⭐⭐⭐ Avancerat |
 | **[Effektiv dokumentsammanfattning med OpenAI-modeller](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Utnyttja OpenAI GPT-modeller för dokumentinsikter | ⭐⭐⭐ Avancerat |
 | **[Alternativ för sammanfattning av dokument](./advanced-ai-document-processing/summarize-documents-options/)** | Omfattande guide till sammanfattningstekniker | ⭐⭐⭐ Avancerad |
 
@@ -129,7 +129,7 @@ Utnyttja banbrytande AI-teknik för att förbättra dina dokumentbehandlingsarbe
 - **[Ladda ner](https://releases.aspose.com/words/net/)** - Utvärdera alla funktioner
 
 ### **Gemenskap och stöd**
-- **[Supportforum](https://forum.aspose.com/c/words/8)** - Få hjälp av experter
+- **[Supportforum](https://forum.aspose.com/c/words/8)** Få hjälp av experter
 
 ### **Licensiering och prövningar**
 - **[Tillfällig licens](https://purchase.conholdate.com/temporary-license/)** - Utökad utvärdering

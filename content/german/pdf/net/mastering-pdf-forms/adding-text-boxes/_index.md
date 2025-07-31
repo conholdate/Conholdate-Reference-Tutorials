@@ -80,7 +80,7 @@ Lassen Sie uns nun das Textfeld erstellen:
 TextBoxField textBoxField = new TextBoxField(pdfDocument.Pages[1], new Aspose.Pdf.Rectangle(100, 200, 300, 300));
 ```
 
-- Ein neues `TextBoxField` Objekt wird für die zweite Seite Ihres PDF initialisiert.
+- Eine neue `TextBoxField` Objekt wird für die zweite Seite Ihres PDF initialisiert.
 - Der `Rectangle` Der Parameter gibt die Position und Größe des Textfelds mithilfe der Koordinaten (x1, y1, x2, y2) an.
 
 ## Schritt 4: Eigenschaften für das Textfeld festlegen 

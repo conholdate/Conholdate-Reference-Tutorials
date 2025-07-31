@@ -37,7 +37,7 @@ Vamos dividir o processo em etapas claras e gerenciáveis.
 Primeiro, vamos configurar nosso documento e definir os caminhos de arquivo para o PDF de entrada, o PDF de saída e o arquivo de imagem.
 
 ```csharp
-// Defina o caminho para o seu diretório de documentos.
+// Defina o caminho para o diretório de documentos.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Substitua pelo seu caminho
 string imageFile = Path.Combine(dataDir, "aspose-logo.jpg"); // Imagem a ser desenhada
 string inFile = Path.Combine(dataDir, "DrawXFormOnPage.pdf"); // Arquivo PDF de entrada

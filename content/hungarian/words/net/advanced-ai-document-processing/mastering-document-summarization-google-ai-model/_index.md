@@ -151,7 +151,7 @@ Ez a kód egy összefoglalt verziót hoz létre `firstDoc` és elmenti azt az ar
 **Összefoglaló hosszának beállításai**:
 - **Rövid**1-3 bekezdés, ideális gyors áttekintésekhez
 - **Közepes**3-5 bekezdés, kiegyensúlyozott részletesség és tömörség  
-- **Hosszú**5+ bekezdés, átfogó, de tömör
+- **Hosszú**: 5+ bekezdés, átfogó, de tömör
 
 **Teljesítmény tipp**Nagy dokumentumok esetén a rövid összefoglalók gyorsabban dolgozódnak fel és kevesebb API-tokent igényelnek, így költséghatékonyabbak a nagy mennyiségű dokumentum-összefoglaló .NET alkalmazásokban.
 
@@ -235,7 +235,7 @@ A Google AI API kvótáin belül maradáshoz implementáljon sebességkorlátoz�
 
 ### API hitelesítési hibák
 
-**Probléma**„Érvénytelen API-kulcs” vagy hitelesítési hibák
+**Probléma**: „Érvénytelen API-kulcs” vagy hitelesítési hibák
 **Megoldás**:
 - Ellenőrizze, hogy az API-kulcs helyesen van-e beállítva a környezeti változókban
 - Ellenőrizd, hogy a Google AI szolgáltatás engedélyezve van-e a Google Cloud projektedben.
@@ -279,7 +279,7 @@ Az Aspose.Words dokumentumkezelési képességeinek és a Google AI természetes
 
 Ne felejtse el bevezetni a megfelelő hibakezelést, biztonsági intézkedéseket és teljesítményoptimalizálást az éles környezetben. Ahogy a mesterséges intelligencia modellek folyamatosan fejlődnek, ez az alap lehetővé teszi a dokumentum-összefoglaló képességek egyszerű frissítését és fejlesztését.
 
-## Gyakran Ismételt Kérdések
+## Gyakran ismételt kérdések
 
 ### Mi az Aspose.Words .NET-hez, és miért érdemes dokumentum-összefoglalókhoz használni?
 
@@ -307,7 +307,7 @@ Az összefoglaló hosszát a `SummaryLength` opció a `SummarizeOptions` osztál
 - **Közepes**3-5 bekezdés a kiegyensúlyozott részletességért
 - **Hosszú**5+ bekezdés átfogó összefoglalókhoz
 
-A jobb minőség érdekében gondoskodjon arról, hogy a forrásdokumentumok világos szerkezettel és címsorokkal rendelkezzenek, előzetesen távolítsa el a lényegtelen tartalmat, és a dokumentum összetettségétől függően válassza ki a megfelelő hosszúságú összefoglalókat. A hosszabb dokumentumokhoz általában közepes vagy hosszú összefoglalók ajánlottak, hogy minden fontos pontot rögzítsenek.
+A jobb minőség érdekében gondoskodjon arról, hogy a forrásdokumentumok világos szerkezettel és címsorokkal rendelkezzenek, előzetesen távolítsa el a lényegtelen tartalmat, és a dokumentum összetettségétől függően válassza ki a megfelelő összefoglalóhosszt. A hosszabb dokumentumokhoz általában közepes vagy hosszú összefoglalók ajánlottak, hogy minden fontos pontot rögzítsenek.
 
 ### Milyen költségekkel jár a .NET dokumentumösszefoglaló Google AI használatával?
 
@@ -335,4 +335,4 @@ A fő kompromisszumok az API-függőség és a használatonkénti költségek, d
 
 ### Hol találok további forrásokat az Aspose.Words-höz?
 
-További példákért és technikai részletekért a dokumentumösszefoglaló .NET megoldások létrehozásával kapcsolatban lásd a következőt: [Aspose.Words dokumentáció](https://reference.aspose.com/words/net/)A dokumentáció átfogó API-hivatkozásokat, kódpéldákat és a dokumentumfeldolgozó alkalmazásokhoz kapcsolódó ajánlott gyakorlatokat tartalmaz. Az Aspose webhelyén közösségi fórumokat, mintaprojekteket és haladó oktatóanyagokat is találhat.
+További példákért és technikai részletekért a dokumentumösszefoglaló .NET megoldások létrehozásával kapcsolatban lásd a következőt: [Aspose.Words dokumentáció](https://reference.aspose.com/words/net/)A dokumentáció átfogó API-hivatkozásokat, kódpéldákat és a dokumentumfeldolgozó alkalmazásokhoz kapcsolódó ajánlott gyakorlatokat tartalmaz. Közösségi fórumokat, mintaprojekteket és haladó oktatóanyagokat is találhat az Aspose webhelyén.

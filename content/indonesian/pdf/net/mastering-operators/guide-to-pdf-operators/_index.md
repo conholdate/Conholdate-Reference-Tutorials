@@ -86,7 +86,7 @@ Ingat, halaman diindeks mulai dari 1 di Aspose.PDF.
 Selanjutnya, mari muat gambar yang ingin Anda tambahkan ke PDF menggunakan `FileStream`.
 
 ```csharp
-// Muat gambar ke dalam aliran
+// Muat gambar ke aliran
 FileStream imageStream = new FileStream(dataDir + "PDFOperators.jpg", FileMode.Open);
 ```
 

@@ -99,4 +99,4 @@ Assolutamente sì! Test e validazione sono fondamentali per garantire che i file
 
 ### Dove posso trovare maggiori informazioni su Aspose.Email per .NET?
 
-Puoi trovare documentazione dettagliata e risorse per Aspose.Email per .NET su [Documentazione Aspose.Email](https://reference.aspose.com/email/net/)Questa risorsa ti aiuterà a esplorare in modo approfondito le funzionalità e le capacità della biblioteca.
+Puoi trovare documentazione dettagliata e risorse per Aspose.Email per .NET su [Documentazione di Aspose.Email](https://reference.aspose.com/email/net/)Questa risorsa ti aiuterà a esplorare in modo approfondito le funzionalità e le capacità della biblioteca.

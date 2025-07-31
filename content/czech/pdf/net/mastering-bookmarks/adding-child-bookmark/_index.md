@@ -21,7 +21,7 @@ Než se pustíme do přidávání záložek, ujistěte se, že máte následují
 
 ## Vytvořit nový projekt
 
-1. Otevřete Visual Studio a vytvořte nový projekt v C#. Pro zjednodušení vyberte konzolovou aplikaci.
+1. Otevřete Visual Studio a vytvořte nový projekt v jazyce C#. Pro zjednodušení vyberte konzolovou aplikaci.
 
 ## Přidat odkaz na Aspose.PDF
 
@@ -42,7 +42,7 @@ using Aspose.Pdf;
 
 ## Krok 1: Zadejte adresář dokumentů
 
-Před manipulací s jakýmkoli PDF souborem určete, kde jsou dokumenty uloženy:
+Před manipulací s jakýmkoli PDF souborem určete, kde jsou vaše dokumenty uloženy:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -60,7 +60,7 @@ Document pdfDocument = new Document(dataDir + "AddChildBookmark.pdf");
 
 ## Krok 3: Vytvořte nadřazenou záložku
 
-Dále vytvořte nadřazenou záložku, která bude sloužit jako hlavní nadpis pro vaše podřazené záložky:
+Dále vytvořte nadřazenou záložku, která bude sloužit jako hlavní nadpis pro vaše podřízené záložky:
 
 ```csharp
 OutlineItemCollection parentBookmark = new OutlineItemCollection(pdfDocument.Outlines)

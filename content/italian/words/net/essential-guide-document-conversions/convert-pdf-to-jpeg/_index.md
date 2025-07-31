@@ -157,7 +157,7 @@ Affrontiamo alcuni problemi che potresti incontrare (perché la legge di Murphy 
 ### Problema: errore "File non trovato"
 **Sintomi**: Eccezione generata durante il tentativo di caricare il PDF
 **Soluzione**: 
-- Controlla due volte il percorso del file
+- Controlla due volte il percorso del tuo file
 - Assicurati che il file PDF esista effettivamente
 - Prova a usare percorsi assoluti per il debug
 

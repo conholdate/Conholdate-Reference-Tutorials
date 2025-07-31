@@ -125,7 +125,7 @@ GPT-4 Mini를 선택해야 하는 이유는 무엇일까요? 대부분의 문서
 API 키를 소스 코드에 직접 하드코딩하지 마세요. 환경 변수, Azure Key Vault 또는 이와 유사한 보안 저장 메커니즘을 사용하세요. 간단한 환경 변수 설정은 다음과 같습니다.
 
 - 윈도우: `setx API_KEY "your-actual-api-key"`
-- macOS/Linux: `export API_KEY="your-actual-api-key"`
+- macOS/리눅스: `export API_KEY="your-actual-api-key"`
 
 ## 4단계: 단일 문서 요약
 

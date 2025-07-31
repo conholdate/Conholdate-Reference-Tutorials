@@ -54,7 +54,7 @@ wb.CustomXmlParts.Add(btsData, btsSchema);
 ```
 Dieser Codeausschnitt fügt vier identische benutzerdefinierte XML-Teile hinzu. Sie können dies nach Ihren Anforderungen anpassen.
 
-## Schritt 4: Zuweisen eindeutiger IDs zu benutzerdefinierten XML-Teilen
+## Schritt 4: Benutzerdefinierten XML-Teilen eindeutige IDs zuweisen
 Weisen Sie jedem XML-Teil eindeutige Kennungen zu, um später das Abrufen zu erleichtern:
 ```csharp
 // Weisen Sie benutzerdefinierten XML-Teilen IDs zu.

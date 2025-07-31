@@ -35,7 +35,7 @@
 | **[تحويل Word إلى PDF](./essential-guide-document-conversions/convert-word-to-pdf/)** | إنشاء ملفات PDF احترافية مع الحفاظ على التنسيق | ⭐ مبتدئ |
 | **[تحويل DOCX إلى TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | استخراج محتوى نص عادي من مستندات Word | ⭐ مبتدئ |
 | **[تحويل ملفات النصوص إلى مستندات Word](./essential-guide-document-conversions/convert-text-files-to-word-documents/)** | تحويل النص العادي إلى مستندات Word منظمة | ⭐ مبتدئ |
-| **[تحويل ملف PDF إلى مستند Word](./essential-guide-document-conversions/convert-pdf-to-word/)** جعل ملفات PDF قابلة للتحرير عن طريق التحويل إلى تنسيق Word | ⭐⭐ متوسط |
+| **[تحويل ملف PDF إلى مستند Word](./essential-guide-document-conversions/convert-pdf-to-word/)** | جعل ملفات PDF قابلة للتحرير عن طريق التحويل إلى تنسيق Word | ⭐⭐ متوسط |
 | **[تحويل PDF إلى JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | استخراج صور عالية الجودة من مستندات PDF | ⭐⭐ متوسط |
 
 ### تحويلات المستندات المتقدمة
@@ -54,7 +54,7 @@
 | البرنامج التعليمي | الوصف | الصعوبة |
 |----------|-------------|------------|
 | **[إتقان تلخيص المستندات باستخدام نماذج الذكاء الاصطناعي](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | تحليل المحتوى وتلخيصه باستخدام الذكاء الاصطناعي | ⭐⭐⭐ متقدم |
-| **[تلخيص المستندات باستخدام نماذج الذكاء الاصطناعي من Google](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** | دمج الذكاء الاصطناعي من Google لمعالجة المستندات الذكية | ⭐⭐⭐ متقدم |
+| **[تلخيص المستندات باستخدام نماذج الذكاء الاصطناعي من Google](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** دمج الذكاء الاصطناعي من Google لمعالجة المستندات الذكية | ⭐⭐⭐ متقدم |
 | **[تلخيص المستندات بكفاءة باستخدام نماذج OpenAI](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | تسخير نماذج OpenAI GPT للحصول على رؤى المستندات | ⭐⭐⭐ متقدم |
 | **[خيارات تلخيص المستندات](./advanced-ai-document-processing/summarize-documents-options/)** | دليل شامل لتقنيات التلخيص | ⭐⭐⭐ متقدم |
 
@@ -129,7 +129,7 @@
 - **[تحميل](https://releases.aspose.com/words/net/)** - تقييم الميزات الكاملة
 
 ### **المجتمع والدعم**
-- **[منتدى الدعم](https://forum.aspose.com/c/words/8)** - احصل على المساعدة من الخبراء
+- **[منتدى الدعم](https://forum.aspose.com/c/words/8)** احصل على المساعدة من الخبراء
 
 ### **التراخيص والتجارب**
 - **[رخصة مؤقتة](https://purchase.conholdate.com/temporary-license/)** - التقييم الموسع

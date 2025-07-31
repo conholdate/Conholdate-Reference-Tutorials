@@ -21,7 +21,7 @@ Porozmawiajmy teraz o śledzeniu interakcji e-mailowych, a konkretnie o potwierd
 
 ## Śledź postęp konwersji e-maili
 
-Wreszcie, zrozumienie, jak śledzić postępy konwersji e-maili, może być przełomowe dla Twoich projektów. Jeśli wysyłasz newslettery lub treści promocyjne, wiedza o tym, ilu odbiorców angażuje się w Twoją wiadomość, jest kluczowa. Nasz samouczek dotyczący śledzenia postępów konwersji e-maili przeprowadzi Cię przez proces wykorzystania Aspose.Email dla platformy .NET do monitorowania skuteczności Twoich wiadomości. Otrzymasz informacje, które pomogą Ci udoskonalić strategie i zwiększyć efektywność Twojego projektu. Gotowy do działania? Zajrzyj do naszego samouczka. [Śledź postęp konwersji wiadomości e-mail za pomocą Aspose.Email dla platformy .NET](./track-email-conversion-progress/) i wykorzystaj w pełni potencjał swoich kampanii e-mailowych.
+Wreszcie, zrozumienie, jak śledzić postępy w konwersji e-maili, może być przełomowe dla Twoich projektów. Jeśli wysyłasz newslettery lub treści promocyjne, wiedza o tym, ilu odbiorców angażuje się w Twoją wiadomość, jest kluczowa. Nasz samouczek dotyczący śledzenia postępów w konwersji e-maili przeprowadzi Cię przez proces wykorzystania Aspose.Email dla platformy .NET do monitorowania skuteczności Twoich wiadomości. Otrzymasz informacje, które pomogą Ci udoskonalić strategie i zwiększyć efektywność Twojego projektu. Gotowy do działania? Zajrzyj do naszego samouczka. [Śledź postęp konwersji wiadomości e-mail za pomocą Aspose.Email dla platformy .NET](./track-email-conversion-progress/) i wykorzystaj w pełni potencjał swoich kampanii e-mailowych.
 
 ## Opanowanie powiadomień e-mail i samouczków śledzenia
 ### [Zintegruj powiadomienia e-mail w C#](./integrate-email-notifications/)

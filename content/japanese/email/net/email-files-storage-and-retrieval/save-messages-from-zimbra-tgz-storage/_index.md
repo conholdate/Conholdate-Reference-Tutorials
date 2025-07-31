@@ -98,7 +98,7 @@ TGZ ファイルは、特に Zimbra 電子メール サーバーで電子メー�
 ### 2. Aspose.Email for .NET を使用するにはライセンスが必要ですか?  
 はい、でも [無料トライアル](https://releases.aspose.com/) または [一時ライセンス](https://purchase.aspose.com/temporary-license/) それをテストするためです。  
 
-### 3. TGZ ファイルから特定のメッセージだけを抽出できますか?  
+### 3. TGZ ファイルから特定のメッセージのみを抽出できますか?  
 はい、ファイルの内容を反復処理することで抽出ロジックをカスタマイズできます。 `ExportTo`。  
 
 ### 4. Aspose.Email for .NET は .NET Core と互換性がありますか?  

@@ -41,7 +41,7 @@ using Aspose.Email.Exchange;
 MailMessage emailMessage = MailMessage.Load("path/to/your/email/file.eml");
 ```
 
-## 5. استرجاع المرفقات
+## 5. استرداد المرفقات
 
 بعد تحميل البريد الإلكتروني، يمكنك الوصول إلى مجموعة المرفقات. استخدم الكود التالي لاسترجاع جميع المرفقات:
 

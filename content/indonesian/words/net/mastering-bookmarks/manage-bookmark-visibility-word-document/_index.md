@@ -84,7 +84,7 @@ public void ShowHideBookmarkedContent(Document doc, string bookmarkName, bool is
 ```
 
 - Pengambilan Penanda Buku: `Bookmark bm = doc.Range.Bookmarks[bookmarkName];` mengambil penanda yang ditentukan.
-- Penelusuran Node: Kami mengulangi node-node yang ada di dalam penanda.
+- Penelusuran Simpul: Kami mengulangi simpul-simpul dalam penanda.
 - Toggle Visibilitas: Untuk setiap `Run` simpul (mewakili segmen teks), kami mengaturnya `Hidden` properti berdasarkan `isHidden` parameter.
 
 ## Langkah 3: Menerapkan Metode

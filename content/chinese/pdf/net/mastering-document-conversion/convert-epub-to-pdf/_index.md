@@ -2,7 +2,7 @@
 "categories":
 - "Document Conversion"
 "date": "2025-01-02"
-"description": "学习如何使用 Aspose.PDF for .NET 将 EPUB 文件转换为 PDF。本教程包含 C# 代码示例、故障排除技巧和最佳实践，循序渐进。"
+"description": "学习如何使用 Aspose.PDF for .NET 将 EPUB 文件转换为 PDF。本教程包含 C# 分步教程，包含代码示例、故障排除技巧和最佳实践。"
 "lastmod": "2025-01-02"
 "linktitle": "EPUB 转 PDF 转换器 .NET 指南"
 "second_title": "Aspose.PDF for .NET API参考"
@@ -46,7 +46,7 @@
 
 ### Aspose.PDF库
 
-这是我们节目的主角。您可以从他们的 [官方发布页面](https://releases.aspose.com/pdf/net/)。如果您正在使用 NuGet（老实说，您应该使用），您可以直接通过程序包管理器控制台安装它。
+这是我们节目的主角。您可以从他们的 [官方发布页面](https://releases.aspose.com/pdf/net/)。如果您正在使用 NuGet（老实说，您应该使用），您可以直接通过包管理器控制台安装它。
 
 ### 基本 C# 知识
 
@@ -68,7 +68,7 @@ using Aspose.Pdf;
 
 这些导入使我们能够访问基本的系统功能、文件操作以及 Aspose.PDF 库。很简单，对吧？
 
-**专业提示**：始终按字母顺序组织你的 using 语句。这看似微不足道，但它会使你的代码更易于维护，尤其是在大型项目中。
+**专业提示**：始终按字母顺序组织你的 using 语句。这看似微不足道，但它可以使你的代码更易于维护，尤其是在大型项目中。
 
 ## 步骤 1：设置文档目录
 
@@ -209,7 +209,7 @@ catch (Exception ex)
 ## 常见问题解答
 
 ### 什么是 Aspose.PDF？
-Aspose.PDF 是一个功能全面的 .NET 库，可让您以编程方式创建、操作和转换 PDF 文档。它因其可靠性和丰富的功能集而广泛应用于企业应用程序。
+Aspose.PDF 是一个功能全面的 .NET 库，可让您以编程方式创建、操作和转换 PDF 文档。它因其可靠性和丰富的功能集而被广泛应用于企业应用程序。
 
 ### 我可以使用 Aspose 将其他格式转换为 PDF 吗？
 当然！Aspose.PDF 支持多种格式的转换，包括 DOCX、HTML、XML、图像等等。它就像一把操作 PDF 的瑞士军刀。

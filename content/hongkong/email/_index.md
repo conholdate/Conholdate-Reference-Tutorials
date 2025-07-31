@@ -1,5 +1,5 @@
 ---
-"description": "Aspose.Email for .NET 的全面教學與指南。透過逐步範例掌握電子郵件處理、轉換、分析和自動化。"
+"description": "Aspose.Email for .NET 的綜合教學與指南。透過逐步範例掌握電子郵件處理、轉換、分析和自動化。"
 "linktitle": "Aspose.Email for .NET"
 "second_title": "Aspose.Email .NET 電子郵件處理 API"
 "title": "Aspose.Email for .NET教程"
@@ -15,7 +15,7 @@
 
 ## 🚀 您可以實現的目標
 
-**Aspose.Email for .NET** 是一個強大的電子郵件處理庫，使開發人員無需外部電子郵件用戶端即可處理電子郵件訊息、郵箱和通訊協定。它支援所有主流電子郵件格式並具備高級分析功能，是電子郵件自動化和管理的完整解決方案。
+**Aspose.Email for .NET** 是一個強大的電子郵件處理庫，使開發人員無需外部電子郵件用戶端即可處理電子郵件訊息、郵箱和通訊協定。它支援所有主要的電子郵件格式和高級分析功能，是電子郵件自動化和管理的完整解決方案。
 
 ### 關鍵功能
 - **📧 電子郵件格式支持**：EML、MSG、MHTML、PST、OST、MBOX 等
@@ -29,27 +29,27 @@
 ### 電子郵件轉換和匯出綜合指南
 掌握必要的電子郵件格式轉換，具有專業品質和相容性保留。
 
-| 教學 | 說明 | 難度 |
+|教程 |說明 |難度 |
 |----------|-------------|------------|
-| **[使用 C# 輕鬆實現 EML 到 MSG 的轉換](./comprehensive-guide-to-email-conversion-and-export/eml-to-msg-convert-made-easy-using-csharp/)** 將 EML 檔案轉換為 MSG 格式以實現與 Outlook 的兼容性 | ⭐ 初學者 |
-| **[使用 C# 將電子郵件轉換為帶有時區的 MHT 格式](./comprehensive-guide-to-email-conversion-and-export/convert-emails-to-mht-format-with-timezone-in-csharp/)** 電子郵件到 MHT 的轉換，並帶有精確的時區處理 | ⭐⭐ 中級 |
+| **[使用 C# 輕鬆實現 EML 到 MSG 的轉換](./comprehensive-guide-to-email-conversion-and-export/eml-to-msg-convert-made-easy-using-csharp/)** |將 EML 檔案轉換為 MSG 格式以實現 Outlook 相容性 | ⭐ 初學者|
+| **[使用 C# 將電子郵件轉換為帶有時區的 MHT 格式](./comprehensive-guide-to-email-conversion-and-export/convert-emails-to-mht-format-with-timezone-in-csharp/)** |電子郵件到 MHT 的轉換，具有精確的時區處理 | ⭐⭐ 中級|
 
 ### 電子郵件處理和分析指南
 先進的電子郵件內容處理和智慧分析技術，實現安全性和自動化。
 
-| 教學 | 說明 | 難度 |
+|教程 |說明 |難度 |
 |----------|-------------|------------|
-| **[C# 中的貝葉斯垃圾郵件分析](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** 以機器學習為基礎的垃圾郵件偵測與統計分析 | ⭐⭐⭐ 進階 |
-| **[將 HTML 電子郵件轉換為純文字](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** 從 HTML 電子郵件擷取乾淨的文字內容 | ⭐⭐ 中級 |
+| **[C# 中的貝葉斯垃圾郵件分析](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** |基於機器學習的垃圾郵件偵測與統計分析 | ⭐⭐⭐ 進階|
+| **[將 HTML 電子郵件轉換為純文字](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** |從 HTML 電子郵件中提取乾淨的文字內容 | ⭐⭐ 中級|
 
 ### 掌握電子郵件通知和追蹤
 專業的電子郵件通知系統和企業應用的追蹤實施。
 
-| 教學 | 說明 | 難度 |
+|教程 |說明 |難度 |
 |----------|-------------|------------|
-| **[在 C# 中整合電子郵件通知](./mastering-email-notifications-and-tracking/integrate-email-notifications/)** 實施全面的電子郵件通知系統 | ⭐⭐ 中級 |
-| **[使用 Aspose.Email 發送已讀回執](./mastering-email-notifications-and-tracking/email-read-receipts/)** 請求並處理電子郵件閱讀回執以進行追蹤 | ⭐⭐ 中級 |
-| **[追蹤電子郵件轉換進度](./mastering-email-notifications-and-tracking/track-email-conversion-progress/)** 監控電子郵件行銷活動的成效與轉換指標 | ⭐⭐⭐ 進階 |
+| **[在 C# 中整合電子郵件通知](./mastering-email-notifications-and-tracking/integrate-email-notifications/)** |實施全面的電子郵件通知系統 | ⭐⭐ 中級|
+| **[使用 Aspose.Email 發送已讀回執](./mastering-email-notifications-and-tracking/email-read-receipts/)** |請求並處理電子郵件閱讀回執以進行追蹤 | ⭐⭐ 中級|
+| **[追蹤電子郵件轉換進度](./mastering-email-notifications-and-tracking/track-email-conversion-progress/)** |監控電子郵件行銷活動的成效與轉換指標 | ⭐⭐⭐ 進階|
 
 ## 🎯 熱門用例
 
@@ -58,7 +58,7 @@
 - **歸檔解決方案**：長期電子郵件存儲，格式標準化
 - **跨平台相容性**：確保電子郵件在不同的電子郵件用戶端上正常運作
 
-### **電子郵件安全與分析**
+### **電子郵件安全和分析**
 - **垃圾郵件偵測**：使用機器學習演算法進行自動過濾
 - **內容分析**：提取並分析電子郵件內容以確保合規性
 - **安全審計**：監控和分析電子郵件流量模式

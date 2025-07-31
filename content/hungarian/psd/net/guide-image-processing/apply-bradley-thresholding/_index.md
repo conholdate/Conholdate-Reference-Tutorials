@@ -1,56 +1,57 @@
 ---
-title: Alkalmazza a Bradley-küszöböt az Aspose.PSD-ben .NET-hez
-linktitle: Alkalmazza a Bradley Thresholding-ot
-second_title: Aspose.PSD .NET API
-description: Ismerje meg lépésről lépésre, hogyan tölthet be PSD-fájlokat, hogyan alkalmazhat küszöbérték-technikákat, és mentheti el az eredményeket különböző formátumokban, javítva a képszegmentálási feladatokat a különböző alkalmazásokhoz.
-weight: 15
-url: /hu/psd/guide-image-processing/apply-bradley-thresholding/
+"description": "Tanulja meg lépésről lépésre, hogyan tölthet be PSD fájlokat, alkalmazhat küszöbérték-technikákat, és mentheti az eredményeket különböző formátumokban, ezáltal javítva a képszegmentálási feladatokat a különféle alkalmazásokhoz."
+"linktitle": "Bradley-küszöbérték alkalmazása"
+"second_title": "Aspose.PSD .NET API"
+"title": "Bradley-küszöbértékek alkalmazása az Aspose.PSD for .NET-ben"
+"url": "/hu/psd/net/guide-image-processing/apply-bradley-thresholding/"
+"weight": 15
 ---
+
 ## Bevezetés
 
-Üdvözöljük a Bradley Threshold technika alkalmazásáról szóló oktatóanyagunkban az Aspose.PSD for .NET használatával. Ez a hatékony könyvtár lehetővé teszi a Photoshop-fájlok zökkenőmentes kezelését .NET-alkalmazásokon belül. A Bradley Thresholding egy hatékony módszer a képek binarizálására, amely segít megkülönböztetni az objektumokat a hátterüktől.
+Üdvözlünk oktatóanyagunkban, amely bemutatja a Bradley Threshold technika alkalmazását az Aspose.PSD for .NET segítségével. Ez a hatékony könyvtár lehetővé teszi a Photoshop fájlok zökkenőmentes kezelését .NET alkalmazásokon belül. A Bradley Thresholding egy hatékony módszer a képek binarizálására, amely segít megkülönböztetni az objektumokat a hátterüktől.
 
 ## Előfeltételek
 
-Mielőtt belevágna a folyamatba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt belevágna a folyamatba, győződjön meg arról, hogy a következő előfeltételekkel rendelkezik:
 
--  Aspose.PSD for .NET Library: Töltse le és telepítse a legújabb verziót a[dokumentáció](https://reference.aspose.com/psd/net/).
-- Dokumentumkönyvtár: Hozzon létre egy munkakönyvtárat a forrás PSD-fájl és a kimeneti binarizált kép tárolására.
+- Aspose.PSD .NET könyvtárhoz: Töltse le és telepítse a legújabb verziót a következő helyről: [dokumentáció](https://reference.aspose.com/psd/net/).
+- Dokumentumkönyvtár: Hozz létre egy munkakönyvtárat a forrás PSD-fájl és a kimeneti bináris kép tárolásához.
 
-## Importálja a szükséges névtereket
+## Szükséges névterek importálása
 
-Kezdje el projektjét a megfelelő névterek importálásával az Aspose.PSD funkciók eléréséhez:
+Kezdje a projektet a megfelelő névterek importálásával az Aspose.PSD funkcióinak eléréséhez:
 
 ```csharp
-// Importálja az Aspose.PSD névtereket
+// Aspose.PSD névterek importálása
 using Aspose.PSD.FileFormats.Psd;
 using Aspose.PSD.ImageOptions;
 ```
 
-## 1. lépés: Töltse be a forrásképét
+## 1. lépés: Töltse be a forrásképet
 
-Határozza meg a dokumentumkönyvtár elérési útját a forrás PSD-fájllal és a kimeneti fájl nevével együtt:
+Adja meg a dokumentumkönyvtár elérési útját a forrás PSD-fájllal és a kimeneti fájl nevével együtt:
 
 ```csharp
-// Adja meg a dokumentumkönyvtár elérési útját
+// Adja meg a dokumentumok könyvtárának elérési útját
 string dataDir = "Your Document Directory";
 
 string sourceFile = Path.Combine(dataDir, "sample.psd");
 string outputFile = Path.Combine(dataDir, "binarized_out.png");
 ```
 
-## 2. lépés: Alkalmazza a Bradley-küszöböt
+## 2. lépés: Alkalmazza a Bradley-küszöbértéket
 
-Ezután töltse be a PSD-képet, válassza ki a küszöbértéket, alkalmazza a Bradely-küszöbértéket, majd mentse az eredményeket:
+Ezután töltsd be a PSD képet, válaszd ki a küszöbértéket, alkalmazd a Bradely küszöbértéket, majd mentsd el az eredményeket:
 
 ```csharp
-// Töltse be a PSD-képet
+// Töltse be a PSD képet
 using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 {
-    // Állítsa be a küszöbértéket (szükség szerint kísérletezzen ezzel az értékkel)
+    // Állítsa be a küszöbértéket (kísérletezzen ezzel az értékkel szükség szerint)
     double threshold = 0.15;
 
-    // Binarizálja a képet a Bradley módszerrel
+    // A kép binarizálása Bradley-módszerrel
     image.BinarizeBradley(threshold);
 
     // Mentse el a bináris képet PNG formátumban
@@ -60,26 +61,26 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 
 ## Következtetés
 
-Gratulálok! Sikeresen implementálta a Bradley Threshold technikát az Aspose.PSD for .NET használatával. Ez a módszer nagymértékben javíthatja a képszegmentálást különféle alkalmazásokhoz, a dokumentumelemzéstől a grafikai tervezésig.
+Gratulálunk! Sikeresen implementáltad a Bradley Threshold technikát az Aspose.PSD for .NET használatával. Ez a módszer nagymértékben javíthatja a képszegmentálást különféle alkalmazásokban, a dokumentumelemzéstől a grafikai tervezésig.
 
 ## GYIK
 
-### Bármilyen képtípusra alkalmazhatom a Bradley Threshold funkciót?
+### Bármilyen típusú képre alkalmazhatom a Bradley-küszöbértéket?
 
-Teljesen! A Bradley Thresholding sokoldalú, és a legtöbb képtípushoz alkalmazható a szegmentálás javítása érdekében.
+Abszolút! A Bradley Thresholding sokoldalú, és a legtöbb képtípusra alkalmazható a szegmentálás javítására.
 
-### Hol találhatok több információt az Aspose.PSD-ről?
+### Hol találok több információt az Aspose.PSD-ről?
 
- Részletes dokumentációért és forrásokért keresse fel a[Aspose.PSD dokumentáció](https://reference.aspose.com/psd/net/).
+Részletes dokumentációért és forrásokért látogassa meg a következőt: [Aspose.PSD dokumentáció](https://reference.aspose.com/psd/net/).
 
-### Létezik próbaverzió?
+### Van elérhető próbaverzió?
 
-Igen! Az Aspose.PSD for .NET ingyenes próbaverzióval kipróbálható[itt](https://releases.aspose.com/).
+Igen! Kipróbálhatod az Aspose.PSD for .NET-et ingyenes próbaverzióval. [itt](https://releases.aspose.com/).
 
 ### Hogyan kaphatok támogatást az Aspose.PSD-hez?
 
- A közösségi támogatásért és beszélgetésekért tekintse meg a[Aspose.PSD fórum](https://forum.aspose.com/c/psd/34).
+Közösségi támogatásért és beszélgetésekért tekintse meg a [Aspose.PSD fórum](https://forum.aspose.com/c/psd/34).
 
 ### Hogyan vásárolhatok licencet az Aspose.PSD-hez?
 
- A licencet közvetlenül megvásárolhatja[itt](https://purchase.conholdate.com/buy).
+Közvetlenül is megvásárolhatja a licencet [itt](https://purchase.conholdate.com/buy).

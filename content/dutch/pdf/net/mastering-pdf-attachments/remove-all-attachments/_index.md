@@ -1,8 +1,8 @@
 ---
 "description": "Leer hoe u uw PDF-documenten efficiënt kunt opschonen door alle bijlagen te verwijderen met behulp van de Aspose.PDF-bibliotheek voor .NET. Deze stapsgewijze tutorial behandelt alles van installatie tot uitvoering."
-"linktitle": "Verwijder alle bijlagen in een PDF-bestand"
+"linktitle": "Verwijder alle bijlagen in het PDF-bestand"
 "second_title": "Aspose.PDF voor .NET API-referentie"
-"title": "Verwijder alle bijlagen in een PDF-bestand"
+"title": "Verwijder alle bijlagen in het PDF-bestand"
 "url": "/nl/pdf/net/mastering-pdf-attachments/remove-all-attachments/"
 "weight": 20
 ---
@@ -99,14 +99,14 @@ Gefeliciteerd! U hebt zojuist geleerd hoe u alle bijlagen uit een PDF-bestand ve
 
 ## Veelgestelde vragen
 
-### Kan ik specifieke bijlagen verwijderen in plaats van alle?
-Ja, u kunt specifieke bijlagen selectief verwijderen door de stappen te doorlopen. `EmbeddedFiles` verzameling en verwijdering van de door u gekozen items.
+### Kan ik specifieke bijlagen verwijderen in plaats van alle bijlagen?
+Ja, u kunt specifieke bijlagen selectief verwijderen door de stappen te doorlopen. `EmbeddedFiles` het verzamelen en verwijderen van de door u gekozen items.
 
 ### Wat gebeurt er als ik bijlagen verwijder?
 Eenmaal verwijderde bijlagen kunnen niet meer worden hersteld, tenzij u eerst een back-up van het originele PDF-bestand maakt.
 
 ### Is Aspose.PDF gratis te gebruiken?
-Aspose.PDF biedt een gratis proefperiode aan; voor alle functies is echter een licentie vereist. Bekijk de [aankooppagina](https://purchase.aspose.com/buy) voor meer informatie.
+Aspose.PDF biedt een gratis proefperiode aan; voor alle functies is echter een licentie vereist. Bekijk de [aankooppagina](https://purchase.aspose.com/buy) voor details.
 
 ### Waar kan ik meer documentatie vinden?
 Voor uitgebreide richtlijnen, raadpleeg de Aspose.PDF-documentatie [hier](https://reference.aspose.com/pdf/net/).

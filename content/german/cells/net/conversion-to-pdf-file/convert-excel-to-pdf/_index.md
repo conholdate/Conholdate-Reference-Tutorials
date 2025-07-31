@@ -39,7 +39,7 @@ Bevor wir uns in den Code vertiefen, wollen wir verstehen, warum Aspose.Cells si
 Bevor wir mit der Konvertierung von Excel-Dateien in PDF beginnen, stellen Sie sicher, dass Sie über die folgenden Einstellungen verfügen:
 
 ### .NET-Entwicklungsumgebung
-- **Visual Studio**: Jede aktuelle Version funktioniert hervorragend (2019 oder später empfohlen)
+- **Visual Studio**: Jede aktuelle Version funktioniert einwandfrei (2019 oder später empfohlen)
 - **.NET Framework**Erfordert .NET Framework 4.0 oder höher (unterstützt auch .NET Core und .NET 5/6)
 
 ### Aspose.Cells für die .NET-Bibliothek

@@ -203,7 +203,7 @@ catch (Exception ex)
 ### Walidacja
 Przed przystąpieniem do konwersji należy sprawdzić, czy:
 - Plik Excel istnieje i jest dostępny
-- Określony arkusz roboczy istnieje
+- Określony arkusz istnieje
 - Indeks wykresu jest prawidłowy
 - Masz uprawnienia do zapisu w katalogu wyjściowym
 
@@ -247,7 +247,7 @@ Aspose.Cells to kompleksowa biblioteka .NET przeznaczona do tworzenia, przetwarz
 
 ### Czy mogę używać Aspose.Cells bez licencji?
 
-Tak, możesz wypróbować Aspose.Cells za darmo, korzystając z wersji próbnej dostępnej na stronie [Strona internetowa Aspose](https://releases.aspose.com/cells/net/)Wersja próbna pozwala przetestować wszystkie funkcje, choć dodaje znak wodny do plików wyjściowych i ma pewne ograniczenia. Idealnie nadaje się do celów testowych i programistycznych.
+Tak, możesz wypróbować Aspose.Cells za darmo, korzystając z wersji próbnej dostępnej na stronie [Strona internetowa Aspose](https://releases.aspose.com/cells/net/)Wersja próbna pozwala przetestować wszystkie funkcje, choć dodaje znak wodny do plików wyjściowych i ma pewne ograniczenia. Idealnie nadaje się do celów testowych i rozwojowych.
 
 ### Co mam zrobić, jeśli podczas konwersji wystąpi błąd?
 
@@ -255,8 +255,8 @@ Po pierwsze, nie panikuj! Większość błędów konwersji jest związana ze śc
 
 ### Czy za pomocą Aspose.Cells można konwertować wykresy do innych formatów?
 
-Oczywiście! Aspose.Cells obsługuje różne formaty wyjściowe poza PDF. Możesz konwertować wykresy na obrazy (PNG, JPEG, BMP), HTML do wyświetlania w Internecie, a nawet SVG do skalowalnej grafiki wektorowej. Składnia jest podobna – wystarczy użyć różnych metod, takich jak: `ToImage()` zamiast `ToPdf()`Ta elastyczność sprawia, że Aspose.Cells świetnie nadaje się do różnych typów aplikacji i wymagań wyjściowych.
+Oczywiście! Aspose.Cells obsługuje różne formaty wyjściowe poza PDF. Możesz konwertować wykresy na obrazy (PNG, JPEG, BMP), HTML do wyświetlania w Internecie, a nawet SVG do skalowalnej grafiki wektorowej. Składnia jest podobna – wystarczy użyć różnych metod, takich jak: `ToImage()` zamiast `ToPdf()`Ta elastyczność sprawia, że Aspose.Cells świetnie sprawdza się w różnych typach aplikacji i wymaganiach wyjściowych.
 
 ### Czy mogę otrzymać licencję na Aspose.Cells?
 
-Tak, możesz [kupić licencję](https://purchase.conholdate.com/buy) Aby odblokować pełen potencjał Aspose.Cells. Oferują one różne opcje licencjonowania, w zależności od potrzeb – od licencji dla pojedynczego programisty po wdrożenia w całym przedsiębiorstwie. Wersja licencjonowana usuwa znaki wodne, eliminuje ograniczenia dotyczące testów i zapewnia dostęp do priorytetowego wsparcia. W przypadku aplikacji produkcyjnych, licencja jest zdecydowanie warta inwestycji.
+Tak, możesz [kupić licencję](https://purchase.conholdate.com/buy) Aby odblokować pełen potencjał Aspose.Cells. Oferują one różne opcje licencjonowania, w zależności od potrzeb – od licencji dla pojedynczego programisty po wdrożenia w całym przedsiębiorstwie. Wersja licencjonowana usuwa znaki wodne, eliminuje ograniczenia dotyczące testów i zapewnia dostęp do priorytetowego wsparcia. W przypadku aplikacji produkcyjnych licencja jest zdecydowanie warta inwestycji.

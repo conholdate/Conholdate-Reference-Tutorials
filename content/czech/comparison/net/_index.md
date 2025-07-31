@@ -1,13 +1,14 @@
 ---
-title: Návody a příklady GroupDocs.Comparison pro .NET
-linktitle: GroupDocs.Comparison pro .NET výukové programy
-weight: 10
-url: /cs/comparison/
-description: Objevte komplexní výukové programy pro GroupDocs.Comparison pro .NET, které usnadňují efektivní porovnávání dokumentů a složek, správu a integraci bez námahy.
-is_root: true
+"description": "Objevte komplexní tutoriály pro GroupDocs.Comparison pro .NET, které vám usnadní efektivní porovnávání, správu a integraci dokumentů a složek."
+"is_root": true
+"linktitle": "GroupDocs.Comparison pro .NET tutoriály"
+"title": "Návody a příklady GroupDocs.Comparison pro .NET"
+"url": "/cs/comparison/net/"
+"weight": 10
 ---
-## GroupDocs.Comparison pro .NET výukové programy 
+
+## GroupDocs.Comparison pro .NET tutoriály 
 ### [Načítání a ukládání dokumentů v GroupDocs.Comparison pro .NET](./load-and-save-documents/)
-Objevte podrobné návody na používání GroupDocs.Comparison for .NET k efektivnímu načítání a ukládání dokumentů. Ideální pro vývojáře, kteří chtějí zjednodušit porovnávání dokumentů.
-### [Průvodce základním použitím](./guide-to-basic-usage/)
-Objevte základní výukové programy na GroupDocs.Comparison for .NET pro efektivní porovnávání dokumentů a informace o vývoji. Naučte se snadno porovnávat buňky Excelu.
+Objevte podrobné návody, jak používat GroupDocs.Comparison pro .NET k efektivnímu načítání a ukládání dokumentů. Ideální pro vývojáře, kteří chtějí zefektivnit porovnávání dokumentů.
+### [Průvodce základním používáním](./guide-to-basic-usage/)
+Objevte základní tutoriály o GroupDocs.Comparison pro .NET pro efektivní porovnávání dokumentů a vývojové poznatky. Naučte se, jak snadno porovnávat buňky v Excelu.

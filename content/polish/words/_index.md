@@ -34,10 +34,10 @@ Opanuj podstawowe przekształcenia dokumentów dzięki profesjonalnej jakości w
 | **[Konwertuj DOCX do EPUB](./essential-guide-document-conversions/convert-docx-to-epub/)** | Publikacje cyfrowe na czytniki e-booków i urządzenia mobilne | ⭐⭐ Poziom średnio zaawansowany |
 | **[Konwertuj DOCX na TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Ekstrakcja zwykłego tekstu do przetwarzania i analizy danych | ⭐ Początkujący |
 | **[Konwertuj DOCX na tablice bajtów](./essential-guide-document-conversions/convert-docx-to-byte-arrays/)** | Pamięciooszczędna obsługa dokumentów w aplikacjach internetowych | ⭐⭐ Poziom średnio zaawansowany |
-| **[Konwertuj DOC do DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** | Modernizacja starszych formatów i aktualizacje zapewniające zgodność | ⭐ Początkujący |
+| **[Konwertuj DOC do DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** Modernizacja starszych formatów i aktualizacje zapewniające zgodność | ⭐ Początkujący |
 | **[Konwertuj DOCX na MHTML i wyślij e-mailem](./essential-guide-document-conversions/convert-docx-to-mhtml-send-email/)** | Integracja poczty e-mail z obsługą formatowania | ⭐⭐ Poziom średnio zaawansowany |
 | **[Konwertuj PDF do JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Wysokiej jakości ekstrakcja obrazów z dokumentów PDF | ⭐⭐ Poziom średnio zaawansowany |
-| **[Zapisz jako PDF](./essential-guide-document-conversions/save-as-pdf/)** Profesjonalne publikowanie dokumentów z zaawansowanymi opcjami | ⭐ Początkujący |
+| **[Zapisz jako PDF](./essential-guide-document-conversions/save-as-pdf/)** | Profesjonalne publikowanie dokumentów z zaawansowanymi opcjami | ⭐ Początkujący |
 
 ### Zaawansowane przetwarzanie dokumentów AI
 Wykorzystaj najnowocześniejszą sztuczną inteligencję do inteligentnej analizy dokumentów i zautomatyzowanego generowania treści.
@@ -46,14 +46,14 @@ Wykorzystaj najnowocześniejszą sztuczną inteligencję do inteligentnej analiz
 |----------|------------|------------|
 | **[Opanowanie podsumowania dokumentów za pomocą modelu AI](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Integracja z Google AI w celu inteligentnego podsumowania treści | ⭐⭐⭐ Zaawansowane |
 | **[Efektywne podsumowanie dokumentów z modelem OpenAI](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Analiza dokumentów i zautomatyzowane wnioski oparte na GPT | ⭐⭐⭐ Zaawansowane |
-| **[Podsumuj opcje dokumentów](./advanced-ai-document-processing/summarize-documents-options/)** | Zaawansowana konfiguracja do przetwarzania treści z wykorzystaniem sztucznej inteligencji | ⭐⭐⭐ Zaawansowane |
+| **[Podsumuj opcje dokumentów](./advanced-ai-document-processing/summarize-documents-options/)** Zaawansowana konfiguracja do przetwarzania treści z wykorzystaniem sztucznej inteligencji | ⭐⭐⭐ Zaawansowane |
 
 ### Opanowanie zarządzania sekcjami
 Profesjonalna struktura i organizacja dokumentów z zaawansowanymi technikami manipulowania sekcjami.
 
 | Samouczek | Opis | Poziom trudności |
 |----------|------------|------------|
-| **[Dodawanie sekcji](./section-management/adding-sections/)** Twórz uporządkowane układy dokumentów z profesjonalnym formatowaniem | ⭐ Początkujący |
+| **[Dodawanie sekcji](./section-management/adding-sections/)** | Twórz uporządkowane układy dokumentów z profesjonalnym formatowaniem | ⭐ Początkujący |
 | **[Usuwanie sekcji z dokumentów Word](./section-management/delete-sections-word-document/)** | Skuteczne usuwanie niepotrzebnych sekcji dokumentu | ⭐ Początkujący |
 | **[Dołącz zawartość sekcji Word](./section-management/append-section-word-content/)** | Bezproblemowe łączenie treści z wielu sekcji dokumentu | ⭐⭐ Poziom średnio zaawansowany |
 | **[Kopiuj sekcje między dokumentami Word](./section-management/copy-sections-word-documents/)** | Przenoszenie ustrukturyzowanej treści między różnymi dokumentami | ⭐⭐ Średnio zaawansowany |
@@ -81,7 +81,7 @@ Profesjonalne przetwarzanie i optymalizacja obrazów na potrzeby publikacji doku
 |----------|------------|------------|
 | **[Ujawnij kontrolę progu dla binaryzacji TIFF](./guide-to-image-save-options/expose-threshold-control-for-tiff-binarization-in-word-document/)** | Zaawansowane przetwarzanie obrazu z niestandardową kontrolą jakości | ⭐⭐⭐ Zaawansowane |
 | **[Pobierz zakres stron JPEG](./guide-to-image-save-options/get-jpeg-page-range-word-document/)** | Wyodrębnij określone strony dokumentu jako obrazy wysokiej jakości | ⭐⭐ Poziom średnio zaawansowany |
-| **[Pobierz zakres stron TIFF](./guide-to-image-save-options/get-tiff-page-range-word-document/)** Profesjonalna ekstrakcja obrazu z optymalizacją formatu TIFF | ⭐⭐ Poziom średnio zaawansowany |
+| **[Pobierz zakres stron TIFF](./guide-to-image-save-options/get-tiff-page-range-word-document/)** | Profesjonalna ekstrakcja obrazu z optymalizacją formatu TIFF | ⭐⭐ Poziom średnio zaawansowany |
 | **[Utwórz obrazy indeksowane 1Bpp](./guide-to-image-save-options/create-1bpp-indexed/)** | Przetwarzanie obrazów w sposób efektywny przestrzennie do celów archiwizacji i przechowywania | ⭐⭐ Poziom średnio zaawansowany |
 | **[Wywołanie zwrotne zapisywania strony](./guide-to-image-save-options/page-saving-callback-word-document/)** | Przetwarzanie niestandardowych stron z automatycznym generowaniem obrazów | ⭐⭐⭐ Zaawansowane |
 
@@ -90,7 +90,7 @@ Kompleksowe przetwarzanie metadanych i manipulowanie właściwościami dokumentu
 
 | Samouczek | Opis | Poziom trudności |
 |----------|------------|------------|
-| **[Usuń niestandardowe właściwości dokumentu](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** | Oczyść metadane dokumentu i zoptymalizuj organizację plików | ⭐ Początkujący |
+| **[Usuń niestandardowe właściwości dokumentu](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** Oczyść metadane dokumentu i zoptymalizuj organizację plików | ⭐ Początkujący |
 
 ## 🎯 Popularne przypadki użycia
 
@@ -116,7 +116,7 @@ Kompleksowe przetwarzanie metadanych i manipulowanie właściwościami dokumentu
 2. Uczyć się **[Przetwarzanie tekstu](./essential-guide-document-conversions/convert-docx-to-txt/)**
 3. Praktyka **[Konwersje formatów](./essential-guide-document-conversions/convert-doc-to-docx/)**
 
-### **Średnio zaawansowany programista** (Znajomość przetwarzania dokumentów)
+### **Średniozaawansowany programista** (Znajomość przetwarzania dokumentów)
 1. Gospodarz **[Zaawansowane konwersje](./essential-guide-document-conversions/convert-docx-to-epub/)**
 2. Badać **[Zarządzanie pamięcią](./essential-guide-document-conversions/convert-docx-to-byte-arrays/)**
 3. Narzędzie **[Integracja poczty e-mail](./essential-guide-document-conversions/convert-docx-to-mhtml-send-email/)**

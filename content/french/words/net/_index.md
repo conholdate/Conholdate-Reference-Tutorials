@@ -20,7 +20,7 @@ Découvrez la puissance d'Aspose.Words pour .NET grâce à notre collection comp
 - **📄 Prise en charge des formats**: DOC, DOCX, RTF, HTML, PDF, EPUB, TXT, Markdown, et plus
 - **🔄 Conversions**:Transformation transparente entre différents formats de documents
 - **🤖 Intégration de l'IA**:Résumé avancé de documents et analyse de contenu
-- **📊 Publipostage**Génération dynamique de documents à partir de sources de données
+- **📊 Publipostage**: Génération dynamique de documents à partir de sources de données
 - **🎨 Formatage**:Contrôle complet du style et de la mise en page des documents
 
 ## 📚 Catégories de tutoriels
@@ -35,7 +35,7 @@ Maîtrisez les tâches de transformation de documents les plus courantes grâce 
 | **[Conversion de Word en PDF](./essential-guide-document-conversions/convert-word-to-pdf/)** | Génération de PDF professionnels avec préservation de la mise en forme | ⭐ Débutant |
 | **[Convertir DOCX en TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Extraire le contenu en texte brut des documents Word | ⭐ Débutant |
 | **[Convertir des fichiers texte en documents Word](./essential-guide-document-conversions/convert-text-files-to-word-documents/)** | Transformer du texte brut en documents Word structurés | ⭐ Débutant |
-| **[Convertir un PDF en document Word](./essential-guide-document-conversions/convert-pdf-to-word/)** Rendre les PDF modifiables en les convertissant au format Word | ⭐⭐ Intermédiaire |
+| **[Convertir un PDF en document Word](./essential-guide-document-conversions/convert-pdf-to-word/)** | Rendre les PDF modifiables en les convertissant au format Word | ⭐⭐ Intermédiaire |
 | **[Convertir un PDF en JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Extraire des images de haute qualité à partir de documents PDF | ⭐⭐ Intermédiaire |
 
 ### Conversions de documents avancées
@@ -54,7 +54,7 @@ Tirez parti des technologies d’IA de pointe pour améliorer vos flux de traite
 | Tutoriel | Description | Difficulté |
 |----------|-------------|------------|
 | **[Maîtriser la synthèse de documents avec des modèles d'IA](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Analyse et résumé de contenu alimentés par l'IA | ⭐⭐⭐ Avancé |
-| **[Résumé de documents avec les modèles Google AI](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** | Intégrer Google AI pour un traitement intelligent des documents | ⭐⭐⭐ Avancé |
+| **[Résumé de documents avec les modèles Google AI](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** Intégrer Google AI pour un traitement intelligent des documents | ⭐⭐⭐ Avancé |
 | **[Synthèse efficace de documents avec les modèles OpenAI](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Exploitez les modèles OpenAI GPT pour obtenir des informations sur les documents | ⭐⭐⭐ Avancé |
 | **[Options de résumé des documents](./advanced-ai-document-processing/summarize-documents-options/)** | Guide complet des techniques de résumé | ⭐⭐⭐ Avancé |
 
@@ -79,7 +79,7 @@ Tirez parti des technologies d’IA de pointe pour améliorer vos flux de traite
 ## 📊 Recommandations de parcours d'apprentissage
 
 ### **Développeur débutant** (Nouveau sur Aspose.Words)
-1. Commencer par **[Conversion de Word en PDF](./essential-guide-document-conversions/convert-word-to-pdf/)**
+1. Commencer avec **[Conversion de Word en PDF](./essential-guide-document-conversions/convert-word-to-pdf/)**
 2. Apprendre **[Traitement de texte](./essential-guide-document-conversions/convert-docx-to-txt/)**
 3. Pratique **[Conversions de format](./essential-guide-document-conversions/convert-doc-to-docx/)**
 
@@ -129,7 +129,7 @@ Tirez parti des technologies d’IA de pointe pour améliorer vos flux de traite
 - **[Télécharger](https://releases.aspose.com/words/net/)** - Évaluer toutes les fonctionnalités
 
 ### **Communauté et soutien**
-- **[Forum d'assistance](https://forum.aspose.com/c/words/8)** - Obtenez l'aide d'experts
+- **[Forum d'assistance](https://forum.aspose.com/c/words/8)** Obtenez l'aide d'experts
 
 ### **Licences et essais**
 - **[Licence temporaire](https://purchase.conholdate.com/temporary-license/)** - Évaluation approfondie

@@ -38,7 +38,7 @@ Excel 파일을 한 단계 업그레이드하고 싶으신가요? 웹 확장 기
 Aspose.Cells for .NET을 사용하여 사용자 지정 XML 부분을 Excel 통합 문서에 통합하는 방법에 대한 포괄적인 가이드를 살펴보세요. 통합 문서를 만들고, 사용자 지정 XML을 추가하고, 고유 ID를 할당하고, 해당 부분을 효과적으로 가져오는 방법을 알아보세요.
 ### [서명된 Excel 파일에 새 디지털 서명 추가](./adding-new-digital-signature-to-signed-excel-file/)
 Aspose.Cells for .NET을 사용하여 기존에 서명된 Excel 파일에 새로운 디지털 서명을 추가하는 방법을 알아보세요. 이 종합 가이드는 모든 필수 구성 요소, 단계별 지침 및 코드 예제를 다룹니다.
-### [Aspose.Cells를 사용하여 통합 문서에 웹 확장 기능 추가](./adding-web-extension/)
+### [Aspose.Cells를 사용하여 통합 문서에 웹 확장 추가](./adding-web-extension/)
 Aspose.Cells for .NET을 사용하여 웹 확장 기능을 통합하여 Excel 통합 문서를 개선하는 방법을 알아보세요. 이 단계별 튜토리얼에서는 필수 구성 요소와 자세한 코드 예제를 다룹니다.
 ### [통합 문서에서 압축 수준 조정](./adjusting-compression-level/)
 Aspose.Cells for .NET을 사용하여 압축 수준을 조정하여 대용량 Excel 파일을 효율적으로 관리하는 방법을 알아보세요. 이 단계별 가이드는 디렉터리 설정부터 압축 시간 측정까지 모든 것을 다루며, 파일 크기를 최적화하고 성능을 향상시키는 데 도움을 줍니다.

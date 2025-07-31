@@ -62,7 +62,7 @@ foreach (AlternateView alternateView in message.AlternateViews)
 {
     if (alternateView.LinkedResources.Count > 0)
     {
-        // इस वैकल्पिक दृश्य में एम्बेडेड संदेश शामिल हैं
+        // इस वैकल्पिक दृश्य में सन्निहित संदेश शामिल हैं
         foreach (LinkedResource linkedResource in alternateView.LinkedResources)
         {
             // एम्बेडेड संदेश को संसाधित करें

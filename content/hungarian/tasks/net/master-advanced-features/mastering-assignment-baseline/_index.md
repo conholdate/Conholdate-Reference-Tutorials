@@ -1,49 +1,50 @@
 ---
-title: Hozzárendelési alapvonalak elsajátítása az Aspose.Tasks segítségével .NET-hez
-linktitle: A hozzárendelés alapvonalának kezelése az Aspose.Tasks programban
-second_title: Aspose.Tasks .NET API
-description: Ismerje meg, hogyan kezelheti hatékonyan a hozzárendelési alapvonalakat az Aspose.Tasks for .NET használatával. Ez a lépésenkénti útmutató a projektek betöltését, az alapvonalak beállítását, az adatok lekérését, az alapvonalak összehasonlítását és egyebeket ismerteti a projektmenedzsment munkafolyamatainak optimalizálása érdekében.
-weight: 14
-url: /hu/tasks/master-advanced-features/mastering-assignment-baseline/
+"description": "Tanulja meg, hogyan kezelheti hatékonyan a hozzárendelési alapvonalakat az Aspose.Tasks for .NET használatával. Ez a lépésről lépésre haladó útmutató bemutatja a projektek betöltését, az alapvonalak beállítását, az adatok lekérését, az alapvonalak összehasonlítását és egyebeket a projektmenedzsment munkafolyamatok optimalizálása érdekében."
+"linktitle": "Hozzárendelési alapvonal kezelése az Aspose.Tasks-ben"
+"second_title": "Aspose.Tasks .NET API"
+"title": "Feladat alapvonalainak elsajátítása az Aspose.Tasks for .NET segítségével"
+"url": "/hu/tasks/net/master-advanced-features/mastering-assignment-baseline/"
+"weight": 14
 ---
+
 ## Bevezetés
 
-hatékony projektmenedzsment a megbízási alapvonalak pontos nyomon követésén és kezelésén múlik. Az Aspose.Tasks for .NET segítségével robusztus eszközkészletet kap a hozzárendelési alapvonalak kezelésének egyszerűsítéséhez a jobb projektbetekintés érdekében. Ebben a cikkben végigvezetjük a hozzárendelési alaphelyzetek kezelésének folyamatán, így biztosítva, hogy a projektjei jó úton haladjanak.
+hatékony projektmenedzsment a hozzárendelési alapvonalak pontos nyomon követésétől és kezelésétől függ. Az Aspose.Tasks for .NET segítségével egy robusztus eszközkészlethez jutsz, amely egyszerűsíti a hozzárendelési alapvonalak kezelését a jobb projektbetekintés érdekében. Ebben a cikkben végigvezetünk a hozzárendelési alapvonalak kezelésének folyamatán, biztosítva, hogy projektjeid a tervek szerint haladjanak.
 
 ## Előfeltételek
 
-Mielőtt belevágna a megvalósításba, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt belevágna a megvalósításba, győződjön meg arról, hogy rendelkezik a következőkkel:
 
-- Programozási szakértelem: Alapszintű C# ismerete.
-- Fejlesztési környezet: A Visual Studio telepítve és konfigurálva.
--  Aspose.Tasks for .NET Library: Töltse le innen[Az Aspose.Tasks kiadása](https://releases.aspose.com/tasks/net/).
-- Projektfájl: Hozzáférés egy projektfájlhoz MPP formátumban.
+- Programozási szakértelem: Alapfokú C# ismeretek.
+- Fejlesztői környezet: Telepített és konfigurált Visual Studio.
+- Aspose.Tasks .NET könyvtárhoz: Töltse le innen: [Aspose.Tasks kiadások](https://releases.aspose.com/tasks/net/).
+- Projektfájl: Hozzáférés egy MPP formátumú projektfájlhoz.
 
-## Importálja a szükséges névtereket
+## Szükséges névterek importálása
 
-Az Aspose.Tasks funkcióinak használatához vegye fel a következő névtereket a projektfájlba:
+Az Aspose.Tasks funkcióinak használatához a következő névtereket kell belefoglalni a projektfájlba:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 ```
 
-## 1. lépés: Töltse be a projektet és állítsa be az alapvonalakat
+## 1. lépés: Projekt betöltése és alapvonalak beállítása
 
-projekt betöltése és az alapvonal beállítása alapvető fontosságú a hozzárendelési alapvonalak kezeléséhez. A következő kód bemutatja, hogyan töltsünk be egy projektet és állítsuk fel az alapvonalat.
+Egy projekt betöltése és egy alapvonal beállítása alapvető fontosságú a hozzárendelési alapvonalak kezeléséhez. A következő kód bemutatja, hogyan tölthet be egy projektet és hogyan hozhat létre egy alapvonalat.
 
 ```csharp
 string dataDir = "Your Document Directory";
 Project project = new Project(dataDir + "ProjectSample.mpp");
 
-// A projekt alapvonalának beállítása
+// A projekt alapvonalának meghatározása
 project.SetBaseline(BaselineType.Baseline);
 Console.WriteLine("Baseline has been set successfully.");
 ```
 
-## 2. lépés: A hozzárendelés alapadatainak lekérése
+## 2. lépés: Hozzárendelés alapadatainak lekérése
 
-Részletes alapinformációkat nyerhet ki minden egyes erőforrás-hozzárendeléshez. Íme, hogyan kell csinálni:
+Minden egyes erőforrás-hozzárendeléshez részletes alapadatokat kinyerhet. Így teheti meg:
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -58,9 +59,9 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## 3. lépés: Hasonlítsa össze az alapvonalakat a hozzárendelések között
+## 3. lépés: Hasonlítsa össze az alapértékeket a feladatok között
 
-Az Aspose.Tasks lehetővé teszi az alapvonalak programozott összehasonlítását az erőforrás-hozzárendelések közötti különbségek értékeléséhez.
+Az Aspose.Tasks lehetővé teszi az alapértékek programozott összehasonlítását az erőforrás-hozzárendelések közötti különbségek kiértékeléséhez.
 
 ```csharp
 var assignment1 = project.ResourceAssignments.GetByUid(1);
@@ -73,16 +74,16 @@ bool areEqual = baseline1.Equals(baseline2);
 Console.WriteLine("Are the baselines equal? " + areEqual);
 ```
 
-## 4. lépés: Az alapvonal részleteinek programozott módosítása
+## 4. lépés: Alapvonal részleteinek programozott módosítása
 
-Programozottan módosíthatja az alapadatokat, hogy megfeleljen a projekt változó igényeinek:
+Programozottan módosíthatja az alapadatokat a változó projektigényeknek megfelelően:
 
 ```csharp
 var assignment = project.ResourceAssignments.GetByUid(3);
 var baseline = assignment.Baselines.First();
 
-baseline.Cost += 1000;  // Az alapköltség beállítása
-baseline.Work = baseline.Work.Add(TimeSpan.FromHours(10));  // Munkaidő hozzáadása
+baseline.Cost += 1000;  // Alapköltség módosítása
+baseline.Work = baseline.Work.Add(TimeSpan.FromHours(10));  // Munkaórák hozzáadása
 
 Console.WriteLine("Modified Baseline Cost: " + baseline.Cost);
 Console.WriteLine("Modified Baseline Work: " + baseline.Work);
@@ -90,21 +91,21 @@ Console.WriteLine("Modified Baseline Work: " + baseline.Work);
 
 ## Következtetés
 
-A hozzárendelési alapállapotok hatékony kezelése elengedhetetlen a projekt ütemezése és költségvetése feletti ellenőrzés megőrzéséhez. Az Aspose.Tasks for .NET felvértezi a szükséges eszközökkel az alaphelyzetek precíz kezeléséhez, lehetővé téve az adatvezérelt döntéshozatalt.
+A feladat-alaptervek hatékony kezelése elengedhetetlen a projektek ütemtervének és költségvetésének ellenőrzéséhez. Az Aspose.Tasks for .NET felvértezi Önt a szükséges eszközökkel az alaptervek pontos kezeléséhez, lehetővé téve az adatvezérelt döntéshozatalt.
 
 ## GYIK
 
-### Az Aspose.Tasks képes több alapállást kezelni egyetlen projekthez?  
-Igen, az Aspose.Tasks több alapvonalat is támogat, rugalmasságot biztosítva a különböző projektverziók nyomon követésében.
+### Az Aspose.Tasks képes több alapvonalat kezelni egyetlen projekthez?  
+Igen, az Aspose.Tasks több alapvonalat is támogat, így rugalmasságot biztosít a különböző projektverziók nyomon követésében.
 
 ### Az Aspose.Tasks kompatibilis a nem MPP projektfájlokkal?  
-Teljesen. Az Aspose.Tasks támogatja az olyan formátumokat, mint az XML, MPX és egyebek.
+Abszolút. Az Aspose.Tasks olyan formátumokat támogat, mint az XML, MPX és egyebek.
 
-### Automatizálhatom az alapszintű frissítéseket?  
-Igen, az API lehetővé teszi a dinamikus és automatizált alapvonal-módosításokat programozottan.
+### Automatizálhatom az alapfrissítéseket?  
+Igen, az API lehetővé teszi a dinamikus és automatizált alapkonfiguráció-módosításokat programozott módon.
 
-### Az Aspose.Tasks időfázisú alapadatokat biztosít?  
-Igen, a részletes időfázisú alapadatok lekérhetők és elemezhetők.
+### Az Aspose.Tasks időfázisos alapadatokat biztosít?  
+Igen, a részletes, időfázisos alapadatok lekérdezhetők és elemezhetők.
 
-### Hol érhetem el a támogatást és a dokumentációt?  
- Látogatás[Aspose.Tasks Dokumentáció](https://reference.aspose.com/words/net/)vagy csatlakozzon a[Aspose támogatási fórum](https://forum.aspose.com/c/words/8) segítségért. 
+### Hol férhetek hozzá a támogatáshoz és a dokumentációhoz?  
+Látogatás [Aspose.Tasks dokumentáció](https://reference.aspose.com/words/net/) vagy csatlakozz a [Aspose Támogatási Fórum](https://forum.aspose.com/c/words/8) segítségért.

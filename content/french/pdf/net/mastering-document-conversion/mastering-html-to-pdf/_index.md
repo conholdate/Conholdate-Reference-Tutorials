@@ -154,7 +154,7 @@ Soyons honnêtes : tout ne se passe pas toujours comme prévu du premier coup. 
 
 **Problème 4 : Consommation de mémoire avec des documents volumineux**
 - **Cause**: Fichiers HTML volumineux ou nombreuses ressources intégrées
-- **Solution**: Traitez les documents par morceaux ou optimisez le contenu HTML avant la conversion
+- **Solution**: Traitez les documents en morceaux ou optimisez le contenu HTML avant la conversion
 
 ## Meilleures pratiques pour la conversion HTML en PDF
 
@@ -195,7 +195,7 @@ Félicitations ! Vous maîtrisez parfaitement la conversion HTML en PDF avec C#
 
 L'intérêt de cette approche réside dans sa simplicité et sa fiabilité. En quelques lignes de code seulement, vous pouvez transformer du contenu HTML en documents PDF professionnels appréciés de vos utilisateurs. Que vous développiez une petite application utilitaire ou que vous intégriez la génération de PDF à un système d'entreprise de grande envergure, Aspose.PDF offre la fiabilité et les performances dont vous avez besoin.
 
-N'oubliez pas que la clé d'une conversion HTML en PDF réussie ne réside pas seulement dans la qualité du code : il faut aussi comprendre votre contenu, anticiper les cas limites et mettre en œuvre une gestion des erreurs efficace. Prenez le temps de tester des scénarios concrets et vous créerez des solutions durables.
+N'oubliez pas que la clé d'une conversion HTML en PDF réussie ne réside pas seulement dans la qualité du code : il faut aussi comprendre votre contenu, anticiper les cas limites et mettre en place une gestion des erreurs efficace. Prenez le temps de tester des scénarios concrets et vous créerez des solutions durables.
 
 Prêt à passer à la vitesse supérieure en matière de génération de PDF ? Commencez à expérimenter différentes mises en page HTML, explorez les fonctionnalités avancées d'Aspose.PDF et n'oubliez pas de mettre en œuvre des tests adaptés à vos cas d'utilisation spécifiques.
 

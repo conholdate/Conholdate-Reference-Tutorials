@@ -66,7 +66,7 @@ MailMessage message = MailMessage.Load("email.eml");
 
 Ten `Load` Metoda jest dość prosta – pobiera ścieżkę do pliku wiadomości e-mail, którą chcesz przeanalizować. Wiadomość powinna być w formacie EML (który jest w zasadzie standardowym formatem pliku wiadomości e-mail). Jeśli nie masz pod ręką pliku EML, nie martw się! Możesz go utworzyć, zapisując dowolną wiadomość e-mail z klienta pocztowego, a nawet utworzyć prosty plik tekstowy z nagłówkami i treścią wiadomości.
 
-**Wskazówka dla profesjonalistów**: Upewnij się, że ścieżka do pliku jest poprawna w stosunku do katalogu aplikacji lub użyj ścieżki bezwzględnej, aby uniknąć problemów z komunikatem „nie znaleziono pliku”.
+**Wskazówka dla profesjonalistów**: Upewnij się, że ścieżka do pliku jest poprawna w stosunku do katalogu aplikacji lub użyj ścieżki bezwzględnej, aby uniknąć problemów typu „plik nie został znaleziony”.
 
 ## Krok 2: Utwórz swój analizator spamu
 

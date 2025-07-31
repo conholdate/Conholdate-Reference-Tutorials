@@ -21,7 +21,7 @@ Exploitez tout le potentiel de la gestion des e-mails avec Aspose.Email pour .NE
 - **📧 Prise en charge du format des e-mails**: EML, MSG, MHTML, PST, OST, MBOX et plus
 - **Conversion transparente**: Transformez entre différents formats de courrier électronique avec une haute fidélité
 - **🤖 Analyse avancée**:Détection de spam et traitement de contenu basés sur l'apprentissage automatique
-- **📊 Intégration du protocole**: Prise en charge des services Web SMTP, POP3, IMAP et Exchange
+- **📊 Intégration du protocole**Prise en charge des services Web SMTP, POP3, IMAP et Exchange
 - **🔒 Fonctionnalités de sécurité**: Cryptage des e-mails, signatures numériques et authentification
 
 ## 📚 Catégories de tutoriels
@@ -40,7 +40,7 @@ Traitement avancé du contenu des e-mails et techniques d'analyse intelligentes 
 | Tutoriel | Description | Difficulté |
 |----------|-------------|------------|
 | **[Analyse bayésienne du spam en C#](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Détection de spam basée sur l'apprentissage automatique avec analyse statistique | ⭐⭐⭐ Avancé |
-| **[Convertir un e-mail HTML en texte brut](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Extraire le contenu texte propre des e-mails HTML | ⭐⭐ Intermédiaire |
+| **[Convertir un e-mail HTML en texte brut](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Extraire le contenu texte propre des e-mails HTML | ⭐⭐ Intermédiaire |
 
 ### Maîtriser les notifications et le suivi par e-mail
 Systèmes de notification par courrier électronique professionnels et implémentations de suivi pour les applications d'entreprise.
@@ -55,7 +55,7 @@ Systèmes de notification par courrier électronique professionnels et implémen
 
 ### **Intégration du système de messagerie**
 - **Migration des e-mails**: Conversion entre différents formats de courrier électronique pour les migrations de systèmes
-- **Solutions d'archivage**Stockage de courrier électronique à long terme avec normalisation du format
+- **Solutions d'archivage**: Stockage de courrier électronique à long terme avec normalisation du format
 - **Compatibilité multiplateforme**: Assurez-vous que les e-mails fonctionnent sur différents clients de messagerie
 
 ### **Sécurité et analyse des e-mails**
@@ -76,7 +76,7 @@ Systèmes de notification par courrier électronique professionnels et implémen
 ## 📊 Recommandations de parcours d'apprentissage
 
 ### **Développeur débutant** (Nouveau dans le traitement des e-mails)
-1. Commencer par **[Conversion EML en MSG](./comprehensive-guide-to-email-conversion-and-export/eml-to-msg-convert-made-easy-using-csharp/)**
+1. Commencer avec **[Conversion EML en MSG](./comprehensive-guide-to-email-conversion-and-export/eml-to-msg-convert-made-easy-using-csharp/)**
 2. Apprendre **[Traitement des e-mails HTML](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)**
 3. Pratique **[Notifications par e-mail de base](./mastering-email-notifications-and-tracking/integrate-email-notifications/)**
 
@@ -122,10 +122,10 @@ Systèmes de notification par courrier électronique professionnels et implémen
 - **Cryptage** - Communication sécurisée par courrier électronique et protection des données
 
 ### **Analyse et rapports**
-- **Suivi des e-mails** - Confirmation de livraison du message et accusés de lecture
+- **Suivi des e-mails** Confirmation de livraison du message et accusés de lecture
 - **Analyse de contenu** - Exploration de texte et classification des e-mails
 - **Indicateurs de performance** - Surveillance et analyse du système de messagerie
-- **Rapports de conformité** Conformité réglementaire et pistes d'audit
+- **Rapports de conformité** - Conformité réglementaire et pistes d'audit
 
 ## 🔗 Ressources supplémentaires
 

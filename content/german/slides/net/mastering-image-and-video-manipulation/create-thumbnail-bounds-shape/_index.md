@@ -1,25 +1,26 @@
 ---
-title: Erstellen Sie eine Miniaturansicht mit Begrenzungen für die Form in Aspose.Slides
-linktitle: Erstellen einer Miniaturansicht mit Grenzen für die Form in Aspose.Slides
-second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Miniaturbilder mit definierten Grenzen für Formen in PowerPoint-Präsentationen erstellen. Diese umfassende Anleitung enthält schrittweise Anweisungen.
-weight: 10
-url: /de/slides/mastering-image-and-video-manipulation/create-thumbnail-bounds-shape/
+"description": "Erfahren Sie, wie Sie mit Aspose.Slides für .NET Miniaturbilder mit definierten Grenzen für Formen in PowerPoint-Präsentationen erstellen. Diese umfassende Anleitung enthält Schritt-für-Schritt-Anleitungen."
+"linktitle": "Erstellen einer Miniaturansicht mit Formgrenzen in Aspose.Slides"
+"second_title": "Aspose.Slides .NET PowerPoint-Verarbeitungs-API"
+"title": "Erstellen Sie eine Miniaturansicht mit Begrenzungen für die Form in Aspose.Slides"
+"url": "/de/slides/net/mastering-image-and-video-manipulation/create-thumbnail-bounds-shape/"
+"weight": 10
 ---
+
 ## Einführung
 
-Wenn Sie ein .NET-Entwickler sind und nach einer effizienten Möglichkeit suchen, Miniaturbilder mit Begrenzungen für Formen in PowerPoint-Präsentationen zu erstellen, ist Aspose.Slides für .NET ein hervorragendes Tool, das Sie in Betracht ziehen sollten. Diese robuste Bibliothek vereinfacht die Bearbeitung von PowerPoint-Dateien und ermöglicht Ihnen das nahtlose Extrahieren und Bearbeiten wertvoller Daten. In diesem Tutorial führen wir Sie durch den Prozess der Erstellung einer Miniaturansicht mit Begrenzungen für eine Form.
+Wenn Sie als .NET-Entwickler nach einer effizienten Möglichkeit suchen, Miniaturbilder mit Begrenzungen für Formen in PowerPoint-Präsentationen zu erstellen, ist Aspose.Slides für .NET ein hervorragendes Tool. Diese robuste Bibliothek vereinfacht die Bearbeitung von PowerPoint-Dateien und ermöglicht Ihnen das nahtlose Extrahieren und Bearbeiten wertvoller Daten. In diesem Tutorial führen wir Sie durch die Erstellung einer Miniaturansicht mit Begrenzungen für eine Form.
 
 ## Voraussetzungen
 
 Stellen Sie vor dem Start sicher, dass Sie über Folgendes verfügen:
 
-1.  Aspose.Slides für .NET-Bibliothek: Laden Sie es herunter und installieren Sie es von[Asposes Website](https://releases.aspose.com/slides/net/).
-2.  Dateipfad: Ersetzen`"Your Documents Directory"` im Code durch den tatsächlichen Pfad zu Ihren Dokumenten.
+1. Aspose.Slides für .NET-Bibliothek: Laden Sie es herunter und installieren Sie es von [Asposes Website](https://releases.aspose.com/slides/net/).
+2. Dateipfad: Ersetzen `"Your Documents Directory"` im Code durch den tatsächlichen Pfad zu Ihren Dokumenten.
 
-## Erforderliche Namespaces importieren
+## Importieren Sie die erforderlichen Namespaces
 
-Um die Funktionen von Aspose.Slides zu nutzen, importieren Sie zunächst zu Beginn Ihres Projekts die erforderlichen Namespaces:
+Um die Funktionen von Aspose.Slides zu nutzen, importieren Sie zunächst die erforderlichen Namespaces zu Beginn Ihres Projekts:
 
 ```csharp
 using System.Drawing;
@@ -29,7 +30,7 @@ using Aspose.Slides;
 
 ## Schritt 1: Instanziieren der Präsentationsklasse
 
- Zuerst müssen Sie den`Presentation` Klasse zur Darstellung Ihrer PowerPoint-Datei:
+Zuerst müssen Sie die `Presentation` Klasse zur Darstellung Ihrer PowerPoint-Datei:
 
 ```csharp
 string dataDir = "Your Documents Directory\\";
@@ -39,7 +40,7 @@ using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx")
 }
 ```
 
- Mit dem`using` Anweisung hier stellt sicher, dass die Ressourcen entsprechend freigegeben werden, nachdem Sie fertig sind.
+Verwenden des `using` Die Anweisung hier stellt sicher, dass die Ressourcen nach Abschluss entsprechend freigegeben werden.
 
 ## Schritt 2: Erstellen Sie ein Miniaturbild mit Formgrenzen
 
@@ -52,7 +53,7 @@ using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbn
 }
 ```
 
- In diesem Snippet`ShapeThumbnailBounds.Appearance` gibt an, dass Sie die Darstellungsgrenzen der Form wünschen. Passen Sie die Parameter (1, 1) für Breite und Höhe nach Bedarf entsprechend Ihren Ausgabeanforderungen an.
+In diesem Ausschnitt `ShapeThumbnailBounds.Appearance` Gibt an, dass Sie die Darstellungsgrenzen der Form festlegen möchten. Passen Sie die Parameter (1, 1) für Breite und Höhe je nach Ihren Ausgabeanforderungen an.
 
 ## Schritt 3: Speichern Sie das Miniaturbild auf der Festplatte
 
@@ -64,11 +65,11 @@ bitmap.Save(dataDir + "Shape_thumbnail_Bound_Shape_out.png", ImageFormat.Png);
 
 Hier können Sie den Dateinamen und das Format entsprechend den Anforderungen Ihres Projekts anpassen.
 
-Herzlichen Glückwunsch! Sie haben mit Aspose.Slides für .NET erfolgreich ein Miniaturbild mit Begrenzungen für eine Form erstellt. Dieser Vorgang ist unkompliziert und kann problemlos in Ihre .NET-Anwendungen integriert werden.
+Herzlichen Glückwunsch! Sie haben mit Aspose.Slides für .NET erfolgreich ein Miniaturbild mit Begrenzungen für eine Form erstellt. Dieser Vorgang ist unkompliziert und lässt sich problemlos in Ihre .NET-Anwendungen integrieren.
 
 ## Abschluss
 
-Aspose.Slides für .NET vereinfacht die Erstellung und Verwaltung von PowerPoint-Präsentationen und stattet Entwickler mit leistungsstarken Tools zum Erstellen von Miniaturansichten und mehr aus. In diesem Handbuch haben Sie die wesentlichen Schritte kennengelernt, um diese Bibliothek effizient in Ihren Projekten zu nutzen.
+Aspose.Slides für .NET vereinfacht die Erstellung und Verwaltung von PowerPoint-Präsentationen und bietet Entwicklern leistungsstarke Tools zum Erstellen von Miniaturansichten und mehr. In dieser Anleitung lernen Sie die wichtigsten Schritte für die effiziente Nutzung dieser Bibliothek in Ihren Projekten kennen.
 
 ## Häufig gestellte Fragen
 
@@ -78,16 +79,16 @@ Ja, Aspose.Slides wird regelmäßig aktualisiert, um die neuesten Versionen des 
 
 ### Kann ich Aspose.Slides für kommerzielle Projekte verwenden?
 
- Absolut! Aspose.Slides bietet verschiedene Lizenzoptionen für den individuellen und kommerziellen Gebrauch. Überprüfen Sie[Hier](https://purchase.aspose.com/buy) für weitere Informationen.
+Absolut! Aspose.Slides bietet verschiedene Lizenzoptionen für den individuellen und kommerziellen Gebrauch. Überprüfen Sie [Hier](https://purchase.aspose.com/buy) für weitere Informationen.
 
 ### Gibt es eine kostenlose Testversion?
 
- Ja! Sie können die Funktionen von Aspose.Slides mit einer kostenlosen Testversion erkunden[Hier](https://releases.aspose.com/).
+Ja! Sie können die Funktionen von Aspose.Slides mit einer kostenlosen Testversion erkunden [Hier](https://releases.aspose.com/).
 
 ### Wie kann ich Support für Aspose.Slides erhalten?
 
-Weitere Informationen finden Sie im[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) um mit der Community und erfahrenen Entwicklern in Kontakt zu treten.
+Hilfe erhalten Sie auf der [Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) um mit der Community und erfahrenen Entwicklern in Kontakt zu treten.
 
 ### Kann ich eine temporäre Lizenz für Aspose.Slides erhalten?
 
- Ja, es können temporäre Lizenzen für kurzfristige Projekte erworben werden[Hier](https://purchase.aspose.com/temporary-license/).
+Ja, es können temporäre Lizenzen für kurzfristige Projekte erworben werden [Hier](https://purchase.aspose.com/temporary-license/).

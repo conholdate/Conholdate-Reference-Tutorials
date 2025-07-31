@@ -56,7 +56,7 @@ Aspose.Words for .NETライブラリは、これらのシナリオをシーム�
 
 **メモリ管理**大きなドキュメントは変換時に大量のメモリを消費する可能性があります。大量のデータを扱う場合は、ドキュメントをバッチ処理し、オブジェクトを適切に破棄してメモリリークを防ぐことを検討してください。
 
-**並行処理**Aspose.Wordsはマルチスレッドをサポートしており、複数の変換を同時に処理できます。ただし、システムリソースに配慮し、実稼働環境では適切なスロットリングを実装してください。
+**並行処理**Aspose.Wordsはマルチスレッドをサポートしており、複数の変換処理を同時に実行できます。ただし、システムリソースに配慮し、実稼働環境では適切なスロットリングを実装してください。
 
 **フォーマット固有の最適化**出力形式によってパフォーマンス特性は異なります。PDF 変換は通常、プレーンテキスト変換よりも時間がかかります。また、画像変換はレイアウトが複雑なドキュメントの場合、多くのリソースを消費する可能性があります。
 
@@ -87,7 +87,7 @@ Aspose.Words for .NETライブラリは、これらのシナリオをシーム�
 | [Aspose.Words for .NET を使用して DOCX を MHTML に変換し、メールを送信する](./convert-docx-to-mhtml-send-email/) この包括的なガイドでは、.NET の Aspose.Words および Aspose.Email ライブラリを使用して DOCX ドキュメントを MHTML 形式に変換し、電子メールで送信する方法について、ステップバイステップのチュートリアルを提供します。 |
 | [Aspose.Words for .NET で DOCX を Markdown に変換する](./convert-docx-to-markdown/) Aspose.Words for .NET を使用して DOCX ファイルを Markdown 形式にシームレスに変換し、.NET アプリケーションを強化する方法をご紹介します。この包括的なガイドでは、ステップバイステップの手順と FAQ をご覧いただけます。 |
 | [Aspose.Words for .NET を使用して DOCX を TXT に変換する](./convert-docx-to-txt/) この包括的なガイドでは、Aspose.Words for .NET を使用して DOCX ファイルをプレーン テキスト形式 (TXT) に変換する方法について説明します。 |
-| [Aspose.Words for .NET を使用してテキスト ファイルを Word 文書に変換する](./convert-text-files-to-word-documents/) Aspose.Words for .NETライブラリを使用して、テキストファイルをWord文書に効率的に変換する方法を学びましょう。このステップバイステップガイドでは、前提条件とコード例を紹介します。 | 
+| [Aspose.Words for .NET を使用してテキスト ファイルを Word 文書に変換する](./convert-text-files-to-word-documents/) Aspose.Words for .NETライブラリを使用して、テキストファイルをWord文書に効率的に変換する方法を学びましょう。このステップバイステップガイドでは、前提条件とコード例について説明します。 | 
 | [Aspose.Words for .NET を使用して PDF を JPEG に変換する](./convert-pdf-to-jpeg/) Aspose.Words for .NET を使って、PDF ファイルを美しい JPEG 画像に簡単に変換する方法を学びましょう。開発者や愛好家に最適です。 |
 | [Aspose.Words for .NET で PDF を Word 文書に変換する](./convert-pdf-to-word/) Aspose.Words for .NET を使用して、PDF ドキュメントを Word (Docx) 形式にシームレスに変換する方法を学びましょう。このステップバイステップのガイドは、開発者にとって使いやすいものになっています。 |
 

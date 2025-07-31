@@ -42,7 +42,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(Path.Combine(dataDir, "input.pdf"));
 ```
 
-प्रतिस्थापित करना सुनिश्चित करें `"YOUR DOCUMENT DIRECTORY"` आपकी पीडीएफ फाइल का वास्तविक पथ.
+प्रतिस्थापित करना सुनिश्चित करें `"YOUR DOCUMENT DIRECTORY"` आपकी पीडीएफ फाइल के वास्तविक पथ के साथ।
 
 ## चरण 2: प्रत्येक पृष्ठ पर जाएँ
 

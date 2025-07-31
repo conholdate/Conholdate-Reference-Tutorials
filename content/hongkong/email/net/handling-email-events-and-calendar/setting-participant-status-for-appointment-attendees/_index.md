@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用 C# 和 Aspose.Email for .NET 管理預約參與者的狀態。包含原始碼的分步指南。"
+"description": "了解如何使用 C# 和 Aspose.Email for .NET 管理預約參加者的狀態。帶有原始程式碼的分步指南。"
 "linktitle": "使用 C# 設定預約出席者的參與者狀態"
 "second_title": "Aspose.Email .NET 電子郵件處理 API"
 "title": "使用 C# 設定預約出席者的參與者狀態"
@@ -9,11 +9,11 @@
 
 ## 介紹
 
-Aspose.Email for .NET 是一個功能強大且功能豐富的程式庫，旨在簡化 .NET 應用程式中的電子郵件處理。本指南將逐步說明如何建立和管理預約、新增與會者以及設定參與者狀態，確保有效率地整合到您的 .NET 專案中。
+Aspose.Email for .NET 是一個強大且功能豐富的程式庫，旨在簡化 .NET 應用程式中的電子郵件處理。本指南提供了建立和管理約會、新增與會者和設定參與者狀態的逐步演練，確保有效整合到您的 .NET 專案中。
 
 ## 先決條件
 
-在開始之前，請確保您已準備好以下內容：
+在開始之前，請確保您已具備以下條件：
 
 - Visual Studio 或相容的 C# IDE 的工作安裝。
 - Aspose.Email for .NET 函式庫的最新版本。
@@ -32,7 +32,7 @@ using Aspose.Email.Calendar;
 
 ## 建立預約實例
 
-Aspose.Email 中的預約代表已排程的事件，例如會議或任務。建立預約的方法如下：
+Aspose.Email 中的約會代表會議或任務等預定的事件。建立方法如下：
 
 ```csharp
 var appointment = new Appointment(
@@ -48,7 +48,7 @@ var appointment = new Appointment(
 - 開始時間和結束時間：定義約會的持續時間。
 - 組織者和參與者：定義參與者及其角色。
 
-## 新增出席者至約會
+## 新增出席者到約會
 
 Aspose.Email 讓您以程式方式管理與會者的電子郵件地址和參與狀態。
 
@@ -59,7 +59,7 @@ appointment.Attendees.Add(new MailAddress("jane@example.com", "Jane Smith"));
 
 ## 管理參與者狀態
 
-這 `ParticipantStatus` 屬性可協助確定與會者是否已接受、拒絕或暫時接受預約邀請。請使用以下枚舉值：
+這 `ParticipantStatus` 屬性有助於確定與會者是否接受、拒絕或暫時接受預約邀請。使用以下枚舉值：
 
 - 公認
 - 拒絕
@@ -89,7 +89,7 @@ client.Send(msg);
 
 ## 結論
 
-Aspose.Email for .NET 簡化了 .NET 應用程式中的預約管理，提供高效建立、自訂和管理預約事件的工具。借助其直覺的 API，您可以簡化溝通工作流程並確保無縫整合。
+Aspose.Email for .NET 簡化了 .NET 應用程式中的預約管理，提供了高效建立、自訂和管理預定事件的工具。借助其直覺的 API，您可以簡化通訊工作流程並確保無縫整合。
 
 ## 常見問題解答
 

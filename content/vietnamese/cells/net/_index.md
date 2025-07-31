@@ -109,7 +109,7 @@ Các thao tác bảng tính nâng cao giúp tự động hóa Excel chuyên nghi
 
 ### **Công cụ phân tích dữ liệu**
 - **Tự động hóa bảng trục** - Tóm tắt dữ liệu động
-- **Công cụ công thức** - Khả năng tính toán nâng cao
+- **Công thức Engine** - Khả năng tính toán nâng cao
 - **Xác thực dữ liệu** - Xác thực đầu vào và kiểm tra lỗi
 
 ### **Cải tiến trực quan hóa**
@@ -129,7 +129,7 @@ Các thao tác bảng tính nâng cao giúp tự động hóa Excel chuyên nghi
 - **[Dùng thử miễn phí](https://releases.aspose.com/cells/net/)** - Đánh giá đầy đủ tính năng
 
 ### **Cộng đồng & Hỗ trợ**
-- **[Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9)** - Nhận sự trợ giúp từ các chuyên gia
+- **[Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9)** Nhận sự trợ giúp từ các chuyên gia
 
 ### **Cấp phép & Thử nghiệm**
 - **[Giấy phép tạm thời](https://purchase.conholdate.com/temporary-license/)** - Đánh giá mở rộng

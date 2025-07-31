@@ -21,7 +21,7 @@ Haben Sie sich schon einmal gefragt, wie Sie den XML-Pfad aus einer Listenobjekt
 Dieses Tutorial ist Ihre ultimative Ressource für die Arbeit mit Zellbereichen, die XML-Pfaden in Excel zugeordnet sind. Mit Aspose.Cells für .NET können Sie diese zugeordneten Bereiche einfach abfragen, die Datenextraktion automatisieren und die dynamische Berichterstellung ermöglichen. [Mehr lesen](./query-cell-areas-mapped-to-xml-data-map-path/).
 
 ## Tutorials zu Master-XML-Map-Operationen
-### [Suchen Sie mit Aspose.Cells den Namen des Stammelements aus der XML-Karte](./find-root-element-name-from-xml-map/)
+### [Suchen Sie mit Aspose.Cells den Namen des Stammelements aus der XML-Map](./find-root-element-name-from-xml-map/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET effizient den Stammelementnamen einer in eine Excel-Datei eingebetteten XML-Map abrufen. Diese Schritt-für-Schritt-Anleitung führt Sie durch das Laden Ihres Excel-Dokuments.
 ### [Rufen Sie den XML-Pfad aus der Listenobjekttabelle mit Aspose.Cells ab](./retrieve-xml-path-from-list-object-table/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET den XML-Pfad aus einer Listenobjekttabelle in einem Excel-Arbeitsblatt abrufen. Diese umfassende Anleitung behandelt jeden Schritt.

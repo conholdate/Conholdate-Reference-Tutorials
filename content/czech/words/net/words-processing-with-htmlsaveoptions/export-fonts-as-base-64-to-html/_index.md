@@ -113,7 +113,7 @@ Ano! Aspose.Words pro .NET podporuje vkládání různých zdrojů, včetně obr
 
 ### Co když můj dokument obsahuje více písem?
 
-Aspose.Words pro .NET zpracovává všechna písma použitá ve vašem dokumentu a vkládá je do výstupního souboru HTML jako Base64.
+Aspose.Words pro .NET zpracovává všechna písma použitá v dokumentu a vkládá je do výstupního souboru HTML jako Base64.
 
 ### Je Aspose.Words pro .NET zdarma k použití?
 

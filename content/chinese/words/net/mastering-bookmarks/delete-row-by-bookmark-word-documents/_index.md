@@ -54,7 +54,7 @@ Row row = (Row)bookmark?.BookmarkStart.GetAncestor(typeof(Row));
 
 ## 步骤 4：删除行
 
-确定行后，即可将其从文档中移除。请务必检查空值，以免出现异常。
+确定行后，即可将其从文档中移除。请务必检查空值，以防止出现异常。
 
 ```csharp
 row?.Remove();

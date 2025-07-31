@@ -1,14 +1,15 @@
 ---
-title: Opanowanie bazowych linii zadań z Aspose.Tasks dla .NET
-linktitle: Zarządzanie bazą zadań w Aspose.Tasks
-second_title: Aspose.Tasks .NET API
-description: Dowiedz się, jak efektywnie zarządzać bazami zadań przy użyciu Aspose.Tasks dla .NET. Ten przewodnik krok po kroku obejmuje ładowanie projektów, ustawianie baz, pobieranie danych, porównywanie baz i wiele innych czynności w celu optymalizacji przepływów pracy zarządzania projektami.
-weight: 14
-url: /pl/tasks/master-advanced-features/mastering-assignment-baseline/
+"description": "Dowiedz się, jak efektywnie zarządzać liniami bazowymi zadań za pomocą Aspose.Tasks dla .NET. Ten przewodnik krok po kroku obejmuje ładowanie projektów, ustawianie linii bazowych, pobieranie danych, porównywanie linii bazowych i wiele innych czynności, aby zoptymalizować przepływy pracy w zarządzaniu projektami."
+"linktitle": "Zarządzanie linią bazową zadań w Aspose.Tasks"
+"second_title": "Aspose.Tasks .NET API"
+"title": "Opanowanie bazowych linii zadań za pomocą Aspose.Tasks dla platformy .NET"
+"url": "/pl/tasks/net/master-advanced-features/mastering-assignment-baseline/"
+"weight": 14
 ---
+
 ## Wstęp
 
-Efektywne zarządzanie projektem opiera się na dokładnym śledzeniu i zarządzaniu bazami zadań. Dzięki Aspose.Tasks dla .NET zyskujesz solidny zestaw narzędzi do usprawnienia obsługi baz zadań w celu uzyskania lepszego wglądu w projekt. W tym artykule przeprowadzimy Cię przez proces zarządzania bazami zadań, zapewniając, że Twoje projekty pozostają na dobrej drodze.
+Efektywne zarządzanie projektami opiera się na dokładnym śledzeniu i zarządzaniu bazami zadań. Dzięki Aspose.Tasks for .NET zyskujesz solidny zestaw narzędzi usprawniających obsługę baz zadań, co pozwala na lepszy wgląd w projekt. W tym artykule przeprowadzimy Cię przez proces zarządzania bazami zadań, zapewniając, że Twoje projekty będą realizowane zgodnie z planem.
 
 ## Wymagania wstępne
 
@@ -16,7 +17,7 @@ Zanim rozpoczniesz wdrażanie, upewnij się, że masz następujące elementy:
 
 - Wiedza z zakresu programowania: podstawowa znajomość języka C#.
 - Środowisko programistyczne: zainstalowany i skonfigurowany program Visual Studio.
--  Biblioteka Aspose.Tasks dla .NET: Pobierz ją ze strony[Wydania Aspose.Tasks](https://releases.aspose.com/tasks/net/).
+- Biblioteka Aspose.Tasks dla .NET: Pobierz ją ze strony [Wydania Aspose.Tasks](https://releases.aspose.com/tasks/net/).
 - Plik projektu: Dostęp do pliku projektu w formacie MPP.
 
 ## Importuj wymagane przestrzenie nazw
@@ -30,13 +31,13 @@ using System;
 
 ## Krok 1: Załaduj projekt i ustaw linie bazowe
 
-Załadowanie projektu i ustawienie linii bazowej jest podstawą zarządzania liniami bazowymi zadań. Poniższy kod pokazuje, jak załadować projekt i ustalić jego linię bazową.
+Wczytanie projektu i ustalenie linii bazowej jest podstawą zarządzania liniami bazowymi zadań. Poniższy kod pokazuje, jak wczytać projekt i ustalić jego linię bazową.
 
 ```csharp
 string dataDir = "Your Document Directory";
 Project project = new Project(dataDir + "ProjectSample.mpp");
 
-// Ustalanie punktu bazowego projektu
+// Ustalanie linii bazowej projektu
 project.SetBaseline(BaselineType.Baseline);
 Console.WriteLine("Baseline has been set successfully.");
 ```
@@ -58,7 +59,7 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Krok 3: Porównaj linie bazowe między zadaniami
+## Krok 3: Porównaj punkty bazowe między zadaniami
 
 Aspose.Tasks umożliwia programowe porównywanie linii bazowych w celu oceny różnic między przydziałami zasobów.
 
@@ -90,21 +91,21 @@ Console.WriteLine("Modified Baseline Work: " + baseline.Work);
 
 ## Wniosek
 
-Skuteczne zarządzanie bazami zadań jest integralną częścią utrzymania kontroli nad harmonogramami i budżetami projektów. Aspose.Tasks for .NET wyposaża Cię w niezbędne narzędzia do precyzyjnego zarządzania bazami, umożliwiając podejmowanie decyzji na podstawie danych.
+Efektywne zarządzanie bazami zadań jest kluczowe dla utrzymania kontroli nad harmonogramami i budżetami projektów. Aspose.Tasks for .NET wyposaża Cię w niezbędne narzędzia do precyzyjnego zarządzania bazami zadań, umożliwiając podejmowanie decyzji w oparciu o dane.
 
 ## Najczęściej zadawane pytania
 
-### Czy Aspose.Tasks obsługuje wiele linii bazowych dla jednego projektu?  
+### Czy Aspose.Tasks obsługuje wiele linii bazowych w ramach jednego projektu?  
 Tak, Aspose.Tasks obsługuje wiele linii bazowych, zapewniając elastyczność w śledzeniu różnych wersji projektu.
 
-### Czy Aspose.Tasks jest kompatybilny z plikami projektów nieobsługującymi MPP?  
-Oczywiście. Aspose.Tasks obsługuje formaty takie jak XML, MPX i inne.
+### Czy Aspose.Tasks jest kompatybilny z plikami projektów nie-MPP?  
+Zdecydowanie. Aspose.Tasks obsługuje formaty takie jak XML, MPX i inne.
 
-### Czy mogę zautomatyzować aktualizacje bazowe?  
-Tak, API pozwala na dynamiczne i zautomatyzowane modyfikacje linii bazowej programowo.
+### Czy mogę zautomatyzować aktualizacje danych bazowych?  
+Tak, API pozwala na dynamiczne i zautomatyzowane modyfikacje linii bazowej w sposób programowy.
 
-### Czy Aspose.Tasks dostarcza danych bazowych podzielonych w czasie?  
-Tak, możliwe jest pobieranie i analizowanie szczegółowych danych bazowych w poszczególnych fazach czasowych.
+### Czy Aspose.Tasks dostarcza danych bazowych podzielonych na fazy czasowe?  
+Tak, szczegółowe dane bazowe w poszczególnych fazach czasowych można pobrać i przeanalizować.
 
 ### Gdzie mogę uzyskać dostęp do pomocy technicznej i dokumentacji?  
- Odwiedzać[Dokumentacja Aspose.Tasks](https://reference.aspose.com/words/net/)lub dołącz do[Forum wsparcia Aspose](https://forum.aspose.com/c/words/8) po pomoc. 
+Odwiedzać [Dokumentacja Aspose.Tasks](https://reference.aspose.com/words/net/) lub dołącz do [Forum wsparcia Aspose](https://forum.aspose.com/c/words/8) po pomoc.

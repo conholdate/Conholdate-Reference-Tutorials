@@ -16,7 +16,7 @@ Heb je ooit willen bepalen hoe lettertypen eruitzien bij het converteren van e-m
 [Lees meer over het aanpassen van het MHT-lettertype](./changing-mht-font-customization/)  
 
 ## Aangepaste hyperlinkweergave  
-Hyperlinks in e-mails krijgen vaak niet de aandacht die ze verdienen. Waarom zou je ze niet laten opvallen? Deze gids laat zien hoe je de weergave van hyperlinks aanpast, de zichtbaarheid vergroot en je e-mails aantrekkelijker maakt. Of het nu gaat om het veranderen van kleuren of het toevoegen van effecten, dit is dé ultieme tutorial voor hyperlinkmagie.  
+Hyperlinks in e-mails krijgen vaak niet de aandacht die ze verdienen. Waarom zou je ze niet laten opvallen? Deze gids laat zien hoe je de weergave van hyperlinks kunt aanpassen, de zichtbaarheid kunt vergroten en je e-mails aantrekkelijker kunt maken. Of het nu gaat om het veranderen van kleuren of het toevoegen van effecten, dit is dé ultieme tutorial voor hyperlinkmagie.  
 [Lees meer over aangepaste hyperlinkweergave](./custom-hyperlink-rendering/)  
 
 ## Aangepaste volgorde van informatie in MHTML  
@@ -28,7 +28,7 @@ Headers bevatten cruciale metadata over e-mails. Deze tutorial laat je zien hoe 
 [Lees meer over het extraheren van e-mailheaders](./email-header-extraction/)  
 
 ## Handleidingen voor het manipuleren van e-mailheaders
-### [Het aanpassen van het MHT-lettertype met C#](./changing-mht-font-customization/)
+### [MHT-lettertype aanpassen met C#](./changing-mht-font-customization/)
 Leer hoe u lettertypen kunt wijzigen tijdens MHT-conversie met Aspose.Email voor .NET. Volg deze stapsgewijze handleiding voor eenvoudige aanpassing.
 ### [Aangepaste hyperlinkrendering met Aspose.Email voor .NET ](./custom-hyperlink-rendering/)
 Ontdek hoe u uw e-mailcommunicatie kunt transformeren door de weergave van hyperlinks aan te passen met Aspose.Email voor .NET. Deze handleiding biedt stapsgewijze instructies voor het weergeven van hyperlinks met verbeterde zichtbaarheid en aantrekkingskracht.

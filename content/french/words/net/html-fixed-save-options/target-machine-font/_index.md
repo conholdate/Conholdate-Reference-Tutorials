@@ -19,7 +19,7 @@ Avant de commencer, assurez-vous de disposer des éléments suivants :
 2. Environnement de développement : un environnement de développement .NET comme Visual Studio est essentiel.
 3. Document de travail : préparez un document Word pour les tests, tel que « Puces avec police alternative.docx ».
 
-Une fois ces prérequis en place, passons au code !
+Avec ces prérequis en place, passons au code !
 
 ## Importation des espaces de noms nécessaires
 

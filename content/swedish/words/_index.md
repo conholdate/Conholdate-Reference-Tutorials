@@ -34,10 +34,10 @@ Bemästra grundläggande dokumenttransformationer med professionell kvalitet och
 | **[Konvertera DOCX till EPUB](./essential-guide-document-conversions/convert-docx-to-epub/)** | Digital publicering för e-läsare och mobila enheter | ⭐⭐ Medelnivå |
 | **[Konvertera DOCX till TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Extraktion av vanlig text för databehandling och analys | ⭐ Nybörjare |
 | **[Konvertera DOCX till Byte-arrayer](./essential-guide-document-conversions/convert-docx-to-byte-arrays/)** | Minneseffektiv dokumenthantering för webbapplikationer | ⭐⭐ Medel |
-| **[Konvertera DOC till DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** | Modernisering av äldre format och kompatibilitetsuppdateringar | ⭐ Nybörjare |
+| **[Konvertera DOC till DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** Modernisering av äldre format och kompatibilitetsuppdateringar | ⭐ Nybörjare |
 | **[Konvertera DOCX till MHTML och skicka e-post](./essential-guide-document-conversions/convert-docx-to-mhtml-send-email/)** | E-postintegration med stöd för rikt formatering | ⭐⭐ Medel |
 | **[Konvertera PDF till JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Högkvalitativ bildutvinning från PDF-dokument | ⭐⭐ Medel |
-| **[Spara som PDF](./essential-guide-document-conversions/save-as-pdf/)** Professionell dokumentpublicering med avancerade alternativ | ⭐ Nybörjare |
+| **[Spara som PDF](./essential-guide-document-conversions/save-as-pdf/)** | Professionell dokumentpublicering med avancerade alternativ | ⭐ Nybörjare |
 
 ### Avancerad AI-dokumentbehandling
 Utnyttja banbrytande artificiell intelligens för intelligent dokumentanalys och automatiserad innehållsgenerering.
@@ -46,14 +46,14 @@ Utnyttja banbrytande artificiell intelligens för intelligent dokumentanalys och
 |----------|-------------|------------|
 | **[Bemästra dokumentsammanfattningar med AI-modell](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Google AI-integration för intelligent innehållssammanfattning | ⭐⭐⭐ Avancerat |
 | **[Effektiv dokumentsammanfattning med OpenAI-modellen](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | GPT-driven dokumentanalys och automatiserade insikter | ⭐⭐⭐ Avancerat |
-| **[Alternativ för sammanfattning av dokument](./advanced-ai-document-processing/summarize-documents-options/)** | Avancerad konfiguration för AI-driven innehållsbehandling | ⭐⭐⭐ Avancerat |
+| **[Alternativ för sammanfattning av dokument](./advanced-ai-document-processing/summarize-documents-options/)** Avancerad konfiguration för AI-driven innehållsbehandling | ⭐⭐⭐ Avancerat |
 
 ### Mastering Section Management
 Professionell dokumentstruktur och organisation med avancerade tekniker för sektionsmanipulation.
 
 | Handledning | Beskrivning | Svårighetsgrad |
 |----------|-------------|------------|
-| **[Lägga till sektioner](./section-management/adding-sections/)** Skapa strukturerade dokumentlayouter med professionell formatering | ⭐ Nybörjare |
+| **[Lägga till sektioner](./section-management/adding-sections/)** | Skapa strukturerade dokumentlayouter med professionell formatering | ⭐ Nybörjare |
 | **[Ta bort avsnitt från Word-dokument](./section-management/delete-sections-word-document/)** | Ta effektivt bort onödiga dokumentavsnitt | ⭐ Nybörjare |
 | **[Lägg till avsnitt Ordinnehåll](./section-management/append-section-word-content/)** | Kombinera sömlöst innehåll från flera dokumentavsnitt | ⭐⭐ Medel |
 | **[Kopiera avsnitt mellan Word-dokument](./section-management/copy-sections-word-documents/)** | Överför strukturerat innehåll mellan olika dokument | ⭐⭐ Medel |
@@ -81,7 +81,7 @@ Professionell bildbehandling och optimering för dokumentpublicering och webbint
 |----------|-------------|------------|
 | **[Exponeringströskelkontroll för TIFF-binarisering](./guide-to-image-save-options/expose-threshold-control-for-tiff-binarization-in-word-document/)** | Avancerad bildbehandling med anpassade kvalitetskontroller | ⭐⭐⭐ Avancerad |
 | **[Hämta JPEG-sidintervall](./guide-to-image-save-options/get-jpeg-page-range-word-document/)** | Extrahera specifika dokumentsidor som högkvalitativa bilder | ⭐⭐ Medel |
-| **[Hämta TIFF-sidintervall](./guide-to-image-save-options/get-tiff-page-range-word-document/)** Professionell bildutvinning med TIFF-formatoptimering | ⭐⭐ Medel |
+| **[Hämta TIFF-sidintervall](./guide-to-image-save-options/get-tiff-page-range-word-document/)** | Professionell bildutvinning med TIFF-formatoptimering | ⭐⭐ Medel |
 | **[Skapa 1Bpp indexerade bilder](./guide-to-image-save-options/create-1bpp-indexed/)** | Platseffektiv bildbehandling för arkivering och lagring | ⭐⭐ Medel |
 | **[Återuppringning av sida](./guide-to-image-save-options/page-saving-callback-word-document/)** | Anpassad sidbehandling med automatiserad bildgenerering | ⭐⭐⭐ Avancerat |
 
@@ -90,7 +90,7 @@ Omfattande metadatahantering och manipulering av dokumentegenskaper för profess
 
 | Handledning | Beskrivning | Svårighetsgrad |
 |----------|-------------|------------|
-| **[Ta bort anpassade dokumentegenskaper](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** | Rensa dokumentmetadata och optimera filorganisationen | ⭐ Nybörjare |
+| **[Ta bort anpassade dokumentegenskaper](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** Rensa dokumentmetadata och optimera filorganisationen | ⭐ Nybörjare |
 
 ## 🎯 Populära användningsfall
 

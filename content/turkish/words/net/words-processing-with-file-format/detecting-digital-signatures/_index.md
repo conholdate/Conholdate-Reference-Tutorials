@@ -21,7 +21,7 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 ## Ad Alanlarını İçe Aktar
 
-Öncelikle gerekli ad alanlarını içe aktaralım. Bu, Aspose.Words for .NET tarafından sağlanan sınıflara ve yöntemlere erişmenizi sağlayacağı için çok önemlidir.
+Öncelikle gerekli ad alanlarını içe aktaralım. Bu, Aspose.Words for .NET tarafından sağlanan sınıflara ve yöntemlere erişmenizi sağladığı için çok önemlidir.
 
 ```csharp
 using System;

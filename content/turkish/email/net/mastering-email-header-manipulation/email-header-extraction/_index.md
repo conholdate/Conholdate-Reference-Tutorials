@@ -13,7 +13,7 @@ Dijital iletişim alanında, e-posta başlıkları, gönderen ve alıcı bilgile
 
 ## Kurulum
 
-Başlamak için, Aspose.Email kütüphanesini .NET projenize yüklemeniz gerekiyor. Paket Yöneticisi Konsolunuzu açın ve şu komutu çalıştırın:
+Başlamak için, Aspose.Email kütüphanesini .NET projenize yüklemeniz gerekiyor. Paket Yöneticisi Konsolunuzu açın ve şunu çalıştırın:
 
 ```bash
 Install-Package Aspose.Email
@@ -124,4 +124,4 @@ Başlıklarda koşullu kontroller gerçekleştirebilirsiniz. Örneğin, acil e-p
 
 ### Aspose.Email dokümantasyonuna nereden ulaşabilirim ve kütüphaneyi nereden indirebilirim?
 
-Kapsamlı dokümantasyonu şu adreste bulabilirsiniz: [Aspose.Email Belgeleri](https://reference.aspose.com/email/net/)Kütüphaneyi indirmek için şu adresi ziyaret edin: [Aspose Sürümleri](https://releases.aspose.com/email/net/).
+Kapsamlı dokümanları şu adreste bulabilirsiniz: [Aspose.Email Belgeleri](https://reference.aspose.com/email/net/)Kütüphaneyi indirmek için şu adresi ziyaret edin: [Aspose Sürümleri](https://releases.aspose.com/email/net/).

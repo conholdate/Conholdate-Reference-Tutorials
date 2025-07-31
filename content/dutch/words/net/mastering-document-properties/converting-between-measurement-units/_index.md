@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Hallo ontwikkelaars! Als je met Aspose.Words voor .NET met Word-documenten werkt, moet je mogelijk vaak marges, kopteksten of voetteksten in verschillende maateenheden instellen. Het omrekenen tussen eenheden zoals inches en punten kan lastig zijn als je niet bekend bent met de functionaliteiten van de bibliotheek. In deze tutorial begeleiden we je door het proces van het omrekenen van maateenheden en het eenvoudig aanpassen van de lay-out van je document. Laten we beginnen!
+Hallo ontwikkelaars! Als je met Aspose.Words voor .NET met Word-documenten werkt, moet je vaak marges, kopteksten of voetteksten in verschillende maateenheden instellen. Het omrekenen tussen eenheden zoals inches en punten kan lastig zijn als je niet bekend bent met de functionaliteiten van de bibliotheek. In deze tutorial begeleiden we je door het proces van het omrekenen van maateenheden en het eenvoudig aanpassen van de lay-out van je document. Laten we beginnen!
 
 ## Vereisten
 
@@ -63,7 +63,7 @@ pageSetup.FooterDistance = ConvertUtil.InchToPoint(0.2);
 
 - Boven- en ondermarge: elk ingesteld op 1 inch.
 - Linker- en rechtermarges: elk ingesteld op 1,5 inch.
-- Afstanden tussen kop- en voettekst: Stel in op elk 0,5 cm.
+- Afstanden tussen kop- en voettekst: Stel in op elk 0,2 inch.
 
 ## Stap 4: Sla het document op
 
@@ -81,7 +81,7 @@ Gefeliciteerd! U hebt met succes marges en afstanden in een Word-document geconv
 
 ## Veelgestelde vragen
 
-### Kan ik andere eenheden, zoals centimeters, naar punten omrekenen met Aspose.Words?
+### Kan ik andere eenheden, zoals centimeters, naar punten omzetten met Aspose.Words?
 Ja, Aspose.Words biedt methoden zoals `ConvertUtil.CmToPoint` voor het omrekenen van centimeters naar punten.
 
 ### Is een licentie nodig om Aspose.Words voor .NET te gebruiken?

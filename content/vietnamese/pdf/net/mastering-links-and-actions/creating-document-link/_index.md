@@ -60,7 +60,7 @@ Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến các tệp P
 
 ### Bước 2: Mở tài liệu PDF
 
-Tải tài liệu PDF bạn muốn làm việc:
+Tải tài liệu PDF mà bạn muốn làm việc:
 
 ```csharp
 Document document = new Document(dataDir + "CreateDocumentLink.pdf");

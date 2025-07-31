@@ -179,7 +179,7 @@ Khi bạn chuyển đổi nhiều biểu đồ hoặc làm việc trong môi tr�
 - **Tái sử dụng các đối tượng trong sổ làm việc**: Nếu bạn đang chuyển đổi nhiều biểu đồ từ cùng một tệp, hãy tải sổ làm việc một lần và sử dụng lại
 - **Xử lý đúng cách**: Luôn xóa các đối tượng Workbook khi bạn hoàn tất để giải phóng bộ nhớ
 - **Xử lý hàng loạt**: Nếu bạn có nhiều chuyển đổi cần thực hiện, hãy cân nhắc xử lý chúng theo từng đợt
-- **Hoạt động không đồng bộ**: Đối với các ứng dụng web, hãy cân nhắc thực hiện chuyển đổi không đồng bộ để tránh chặn giao diện người dùng
+- **Hoạt động bất đồng bộ**: Đối với các ứng dụng web, hãy cân nhắc thực hiện chuyển đổi không đồng bộ để tránh chặn giao diện người dùng
 
 ## Thực hành tốt nhất cho mục đích sử dụng sản xuất
 
@@ -255,7 +255,7 @@ Trước tiên, đừng hoảng sợ! Hầu hết các lỗi chuyển đổi đ�
 
 ### Có thể chuyển đổi biểu đồ sang các định dạng khác bằng Aspose.Cells không?
 
-Chắc chắn rồi! Aspose.Cells hỗ trợ nhiều định dạng đầu ra khác nhau ngoài PDF. Bạn có thể chuyển đổi biểu đồ sang hình ảnh (PNG, JPEG, BMP), HTML để hiển thị trên web, hoặc thậm chí SVG để hiển thị đồ họa vector có thể mở rộng. Cú pháp tương tự nhau – chỉ cần sử dụng các phương pháp khác nhau như `ToImage()` thay vì `ToPdf()`Tính linh hoạt này khiến Aspose.Cells trở nên tuyệt vời cho nhiều loại ứng dụng và yêu cầu đầu ra khác nhau.
+Chắc chắn rồi! Aspose.Cells hỗ trợ nhiều định dạng đầu ra khác nhau ngoài PDF. Bạn có thể chuyển đổi biểu đồ sang hình ảnh (PNG, JPEG, BMP), HTML để hiển thị trên web, hoặc thậm chí SVG để hiển thị đồ họa vector có thể mở rộng. Cú pháp tương tự nhau – chỉ cần sử dụng các phương pháp khác nhau như `ToImage()` thay vì `ToPdf()`Tính linh hoạt này giúp Aspose.Cells phù hợp với nhiều loại ứng dụng và yêu cầu đầu ra khác nhau.
 
 ### Tôi có thể nhận được giấy phép cho Aspose.Cells không?
 

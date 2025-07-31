@@ -73,7 +73,7 @@ Document doc = new Document(dataDir + "Document.docx");
 
 **Problema comune**: Assicurati che il percorso del file sia corretto e che il documento non sia aperto in Word, poiché ciò potrebbe causare problemi di accesso.
 
-## Passaggio 2: salvare il documento come MHTML
+## Passaggio 2: salva il documento come MHTML
 
 Successivamente, convertire il documento caricato in formato MHTML. Questo viene fatto utilizzando `Save` metodo del `Document` classe.
 

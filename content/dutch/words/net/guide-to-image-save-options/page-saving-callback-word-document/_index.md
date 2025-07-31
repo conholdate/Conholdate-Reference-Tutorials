@@ -1,15 +1,15 @@
 ---
 "description": "Leer hoe u eenvoudig elke pagina van een Word-document kunt converteren naar afzonderlijke PNG-afbeeldingen met Aspose.Words voor .NET. Deze handleiding biedt stapsgewijze instructies, inclusief codevoorbeelden."
-"linktitle": "Terugbellen naar pagina opslaan in Word-documenten"
+"linktitle": "Terugbelfunctie voor opslaan van pagina's in Word-documenten"
 "second_title": "Aspose.Words API voor documentverwerking"
-"title": "Terugbellen naar pagina opslaan in Word-documenten"
+"title": "Terugbelfunctie voor opslaan van pagina's in Word-documenten"
 "url": "/nl/words/net/guide-to-image-save-options/page-saving-callback-word-document/"
 "weight": 10
 ---
 
 ## Invoering
 
-Heb je ooit elke pagina van een Word-document moeten omzetten naar afzonderlijke afbeeldingen? Of je nu miniaturen wilt maken voor een preview of een lang rapport wilt opsplitsen in overzichtelijke beelden, Aspose.Words voor .NET maakt deze taak eenvoudig en efficiënt. In deze handleiding leiden we je door het proces van het instellen van een callback voor paginaopslag om elke pagina van je document als een PNG-afbeelding op te slaan. Laten we beginnen!
+Heb je ooit elke pagina van een Word-document moeten converteren naar afzonderlijke afbeeldingen? Of je nu miniaturen wilt maken voor een preview of een lang rapport wilt opsplitsen in overzichtelijke beelden, Aspose.Words voor .NET maakt deze taak eenvoudig en efficiënt. In deze handleiding leiden we je door het proces van het instellen van een callback voor paginaopslag om elke pagina van je document op te slaan als een PNG-afbeelding. Laten we beginnen!
 
 ## Vereisten
 

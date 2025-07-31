@@ -302,7 +302,7 @@ Připojte se ke komunitnímu fóru [zde](https://forum.aspose.com/c/words/8) kl�
 Ano, můžete si stáhnout bezplatnou zkušební verzi [zde](https://releases.aspose.com/) prozkoumat jeho vlastnosti a možnosti.
 
 ### Jaká je maximální velikost souboru, který bych měl převést na bajtová pole?
-I když neexistuje žádný pevný limit, doporučuje se pro optimální výkon udržovat jednotlivé konverze pod 50 MB. U větších souborů zvažte blokové zpracování nebo streamování.
+I když neexistuje žádný pevný limit, doporučuje se pro optimální výkon udržovat jednotlivé konverze pod 50 MB. U větších souborů zvažte rozdělení do bloků nebo streamování.
 
 ### Mohu stejným způsobem převést jiné formáty dokumentů na bajtová pole?
 Rozhodně! Stačí změnit parametr SaveFormat. Například použijte `SaveFormat.Pdf` pro konverzi PDF nebo `SaveFormat.Html` pro HTML výstup.

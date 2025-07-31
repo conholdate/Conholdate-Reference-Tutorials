@@ -115,7 +115,7 @@ Dieser Code greift auf das erste Arbeitsblatt (Index 0) zu. Wenn sich Ihr Diagra
 
 ## Schritt 4: Wählen Sie das zu konvertierende Diagramm aus
 
-Zeit, das spezifische Diagramm auszuwählen, das Sie konvertieren möchten. Genau wie Arbeitsblätter werden Diagramme beginnend bei 0 indiziert.
+Es ist Zeit, das Diagramm auszuwählen, das Sie konvertieren möchten. Diagramme werden wie Arbeitsblätter beginnend bei 0 indiziert.
 
 ```csharp
 // Greifen Sie auf das erste Diagramm im Arbeitsblatt zu
@@ -177,7 +177,7 @@ Wenn Sie mit großen Excel-Dateien oder vielen Diagrammen arbeiten, können Spei
 Wenn Sie mehrere Diagramme konvertieren oder in einer Produktionsumgebung arbeiten, ist die Leistung entscheidend. Hier sind einige Tipps für einen reibungslosen Ablauf:
 
 - **Wiederverwenden von Arbeitsmappenobjekten**: Wenn Sie mehrere Diagramme aus derselben Datei konvertieren, laden Sie die Arbeitsmappe einmal und verwenden Sie sie erneut
-- **Ordnungsgemäß entsorgen**: Entsorgen Sie Workbook-Objekte immer, wenn Sie fertig sind, um Speicher freizugeben
+- **Ordnungsgemäß entsorgen**: Entsorgen Sie Arbeitsmappenobjekte immer, wenn Sie fertig sind, um Speicher freizugeben
 - **Stapelverarbeitung**: Wenn Sie viele Konvertierungen durchführen müssen, sollten Sie diese in Stapeln verarbeiten
 - **Asynchrone Vorgänge**: Bei Webanwendungen sollten Sie die Konvertierung asynchron durchführen, um eine Blockierung der Benutzeroberfläche zu vermeiden.
 
@@ -221,7 +221,7 @@ using (var workbook = new Workbook(dataDir + "Sample1.xls"))
 ## Wann ist dieser Ansatz zu verwenden?
 
 Diese Methode eignet sich hervorragend für:
-- **Automatisiertes Reporting**: Erstellen Sie PDF-Berichte nach einem Zeitplan aus Excel-Diagrammen
+- **Automatisiertes Reporting**: Erstellen Sie PDF-Berichte nach Zeitplan aus Excel-Diagrammen
 - **Webanwendungen**: Vom Benutzer hochgeladene Excel-Diagramme in PDFs konvertieren
 - **Datenvisualisierung**: Erstellen Sie portable Diagrammformate zum Teilen
 - **Dokumentgenerierung**: Diagramme in größere PDF-Dokumente einbinden

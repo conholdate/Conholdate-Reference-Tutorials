@@ -1,8 +1,8 @@
 ---
 "description": "Sfrutta la potenza di Aspose.Words per .NET con i nostri tutorial passo passo, che illustrano la conversione di HTML e metafile per migliorare l'elaborazione dei tuoi documenti."
-"linktitle": "Elaborazione testi con Htmlsaveoptions"
+"linktitle": "Elaborazione di testi con Htmlsaveoptions"
 "second_title": "API di elaborazione dei documenti Aspose.Words"
-"title": "Elaborazione testi con Htmlsaveoptions"
+"title": "Elaborazione di testi con Htmlsaveoptions"
 "url": "/it/words/net/words-processing-with-htmlsaveoptions/"
 "weight": 1620
 ---

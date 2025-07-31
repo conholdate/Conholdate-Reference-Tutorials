@@ -68,7 +68,7 @@ Worksheet sheet4 = wb.Worksheets[3];
 ```
 Убедитесь, что ваш файл Excel содержит не менее четырех листов.
 
-## Шаг 7: Создание закладок в PDF-файле
+## Шаг 7: Создание закладок в формате PDF
 Теперь создайте записи закладок для каждого листа:
 ```csharp
 PdfBookmarkEntry ent1 = new PdfBookmarkEntry {

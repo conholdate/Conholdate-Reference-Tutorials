@@ -40,7 +40,7 @@ Técnicas avanzadas de análisis de correo electrónico, incluida la detección 
 | Tutorial | Descripción | Dificultad |
 |----------|-------------|------------|
 | **[Análisis de spam bayesiano en C#](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Detección de spam basada en aprendizaje automático con análisis estadístico | ⭐⭐⭐ Avanzado |
-| **[Convertir correo electrónico HTML a texto sin formato](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Extraer contenido de texto limpio de correos electrónicos HTML | ⭐⭐ Intermedio |
+| **[Convertir correo electrónico HTML a texto sin formato](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Extraer contenido de texto limpio de correos electrónicos HTML | ⭐⭐ Intermedio |
 
 ## 🎯 Casos de uso populares
 
@@ -51,7 +51,7 @@ Técnicas avanzadas de análisis de correo electrónico, incluida la detección 
 
 ### **Seguridad y análisis del correo electrónico**
 - **Detección de spam**:Filtrado automatizado con algoritmos de aprendizaje automático
-- **Análisis de contenido**: Extraer y analizar el contenido del correo electrónico para comprobar su cumplimiento
+- **Análisis de contenido**: Extraer y analizar el contenido del correo electrónico para comprobar el cumplimiento
 - **Auditoría de seguridad**:Monitorear y analizar patrones de tráfico de correo electrónico
 
 ### **Procesamiento automatizado de correo electrónico**
@@ -133,13 +133,13 @@ Técnicas avanzadas de análisis de correo electrónico, incluida la detección 
 - **[Prueba gratuita](https://releases.aspose.com/email/net/)** - Evaluar todas las funciones
 
 ### **Comunidad y soporte**
-- **[Foro de soporte](https://forum.aspose.com/c/email/12)** - Obtenga ayuda de expertos
+- **[Foro de soporte](https://forum.aspose.com/c/email/12)** Obtenga ayuda de expertos
 
 ### **Licencias y pruebas**
 - **[Licencia temporal](https://purchase.conholdate.com/temporary-license/)** - Evaluación extendida
 - **[Opciones de compra](https://purchase.conholdate.com/buy)** - Licencias flexibles
 
-## 📋 Tutorial de referencia rápida
+## 📋 Referencia rápida del tutorial
 
 ### **Conversión de correo electrónico**
 - EML ↔ MSG (compatibilidad con Outlook)

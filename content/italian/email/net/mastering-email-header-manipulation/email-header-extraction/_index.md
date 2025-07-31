@@ -124,4 +124,4 @@ Le intestazioni estratte più comunemente includono "Da", "A", "Oggetto" e "Data
 
 ### Dove posso accedere alla documentazione di Aspose.Email e scaricare la libreria?
 
-Trova la documentazione completa su [Documentazione Aspose.Email](https://reference.aspose.com/email/net/)Per scaricare la libreria, visita [Rilasci di Aspose](https://releases.aspose.com/email/net/).
+Trova la documentazione completa su [Documentazione di Aspose.Email](https://reference.aspose.com/email/net/)Per scaricare la libreria, visita [Rilasci di Aspose](https://releases.aspose.com/email/net/).

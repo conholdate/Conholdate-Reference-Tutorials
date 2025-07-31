@@ -1,20 +1,21 @@
 ---
-title: Haal grafiekgegevens uit PowerPoint met Aspose.Slides
-linktitle: Haal grafiekgegevens uit PowerPoint met Aspose.Slides
-second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
-description: Ontgrendel de kracht van Aspose.Slides voor .NET door te leren hoe u het gegevensbereik programmatisch uit grafieken in uw PowerPoint-presentaties kunt extraheren. Deze stapsgewijze handleiding biedt duidelijke instructies.
-weight: 11
-url: /nl/slides/master-additional-chart-features/get-chart-data-extraction/
+"description": "Ontdek de kracht van Aspose.Slides voor .NET door te leren hoe u het gegevensbereik programmatisch uit grafieken in uw PowerPoint-presentaties kunt extraheren. Deze stapsgewijze handleiding biedt duidelijke instructies."
+"linktitle": "Haal grafiekgegevens uit PowerPoint met Aspose.Slides"
+"second_title": "Aspose.Slides .NET PowerPoint-verwerkings-API"
+"title": "Haal grafiekgegevens uit PowerPoint met Aspose.Slides"
+"url": "/nl/slides/net/master-additional-chart-features/get-chart-data-extraction/"
+"weight": 11
 ---
+
 ## Invoering
 
-Wilt u het gegevensbereik uit een grafiek in uw PowerPoint-presentatie halen met Aspose.Slides voor .NET? Dan bent u hier aan het juiste adres! Deze stapsgewijze handleiding laat u zien hoe u het gegevensbereik van de grafiek programmatisch kunt verkrijgen, waarbij u gebruikmaakt van de krachtige functies van Aspose.Slides.
+Wilt u het gegevensbereik van een grafiek in uw PowerPoint-presentatie extraheren met Aspose.Slides voor .NET? Dan bent u hier aan het juiste adres! Deze stapsgewijze handleiding laat u zien hoe u het gegevensbereik van een grafiek programmatisch kunt ophalen en daarbij de krachtige functies van Aspose.Slides kunt benutten.
 
 ## Vereisten
 
 Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
-1.  Aspose.Slides voor .NET: Download en installeer het vanaf[hier](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides voor .NET: Download en installeer het vanaf [hier](https://releases.aspose.com/slides/net/).
 2. Ontwikkelomgeving: Stel een IDE in zoals Visual Studio.
 
 ## Stap 1: Importeer de benodigde naamruimten
@@ -38,9 +39,9 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-## Stap 3: Voeg een grafiek toe aan een dia
+## Stap 3: Een grafiek toevoegen aan een dia
 
-Laten we nu een diagram toevoegen aan de eerste dia van uw presentatie. U kunt het diagramtype kiezen en de positie en grootte ervan opgeven:
+Laten we nu een grafiek toevoegen aan de eerste dia van je presentatie. Je kunt het grafiektype kiezen en de positie en grootte ervan opgeven:
 
 ```csharp
 IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.ClusteredColumn, 10, 10, 400, 300);
@@ -64,7 +65,7 @@ Console.WriteLine("Chart Data Range: {0}", result);
 
 ## Conclusie
 
-In deze tutorial hebt u geleerd hoe u het grafiekgegevensbereik uit een PowerPoint-presentatie kunt extraheren met Aspose.Slides voor .NET. Met slechts een paar regels code kunt u efficiënt toegang krijgen tot de gegevens achter uw grafieken.
+In deze tutorial heb je geleerd hoe je het gegevensbereik van een grafiek uit een PowerPoint-presentatie haalt met Aspose.Slides voor .NET. Met slechts een paar regels code krijg je efficiënt toegang tot de gegevens achter je grafieken.
 
 ## Veelgestelde vragen
 
@@ -72,13 +73,13 @@ In deze tutorial hebt u geleerd hoe u het grafiekgegevensbereik uit een PowerPoi
 Ja, Aspose.Slides voor .NET ondersteunt verschillende PowerPoint-bestandsformaten, waaronder de nieuwste. Raadpleeg de documentatie voor meer informatie.
 
 ### Kan ik andere elementen in een PowerPoint-presentatie bewerken met Aspose.Slides voor .NET?
-Absoluut! U kunt met dia's, vormen, tekst, afbeeldingen en meer werken in uw presentaties.
+Absoluut! Je kunt in je presentaties met dia's, vormen, tekst, afbeeldingen en meer werken.
 
 ### Is er een gratis proefversie beschikbaar voor Aspose.Slides voor .NET?
- Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
+Ja, u kunt een gratis proefversie downloaden van [hier](https://releases.aspose.com/).
 
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Slides voor .NET verkrijgen?
- Vraag een tijdelijke licentie aan[hier](https://purchase.aspose.com/temporary-license/).
+Vraag een tijdelijke licentie aan [hier](https://purchase.aspose.com/temporary-license/).
 
 ### Welke ondersteuningsopties zijn beschikbaar voor Aspose.Slides voor .NET-gebruikers?
- U kunt ondersteuning en hulp vinden van de Aspose-community op hun[ondersteuningsforum](https://forum.aspose.com/).
+U kunt ondersteuning en hulp vinden van de Aspose-community op hun website. [ondersteuningsforum](https://forum.aspose.com/).

@@ -1,21 +1,22 @@
 ---
-title: Chuyển đổi DGN sang PDF trong Aspose.CAD cho .NET
-linktitle: Chuyển đổi DGN sang PDF trong Aspose.CAD cho .NET
-second_title: Aspose.CAD .NET - Định dạng tệp CAD và BIM
-description: Tìm hiểu cách chuyển đổi tệp DGN sang PDF dễ dàng bằng thư viện Aspose.CAD mạnh mẽ dành cho .NET. Hướng dẫn từng bước này được thiết kế cho các nhà phát triển ở mọi cấp độ.
-weight: 12
-url: /vi/cad/guide-to-exporting-cad-format/convert-dgn-to-pdf/
+"description": "Tìm hiểu cách chuyển đổi tệp DGN sang PDF một cách dễ dàng bằng thư viện Aspose.CAD mạnh mẽ dành cho .NET. Hướng dẫn từng bước này được thiết kế dành cho các nhà phát triển ở mọi cấp độ."
+"linktitle": "Chuyển đổi DGN sang PDF trong Aspose.CAD cho .NET"
+"second_title": "Aspose.CAD .NET - Định dạng tệp CAD và BIM"
+"title": "Chuyển đổi DGN sang PDF trong Aspose.CAD cho .NET"
+"url": "/vi/cad/net/guide-to-exporting-cad-format/convert-dgn-to-pdf/"
+"weight": 12
 ---
+
 ## Giới thiệu
 
-Việc điều hướng thế giới tệp CAD có thể là một thách thức, nhưng với Aspose.CAD for .NET, các nhà phát triển có thể dễ dàng thao tác và chuyển đổi nhiều định dạng CAD khác nhau. Một nhu cầu phổ biến là chuyển đổi tệp DGN sang PDF, chúng ta sẽ khám phá từng bước trong hướng dẫn này.
+Việc điều hướng trong thế giới tệp CAD có thể khá khó khăn, nhưng với Aspose.CAD for .NET, các nhà phát triển có thể dễ dàng thao tác và chuyển đổi nhiều định dạng CAD khác nhau. Một nhu cầu phổ biến là chuyển đổi tệp DGN sang PDF, mà chúng ta sẽ tìm hiểu từng bước trong hướng dẫn này.
 
 ## Điều kiện tiên quyết
 
-Để thực hiện theo, hãy đảm bảo bạn có những điều sau:
+Để thực hiện theo, hãy đảm bảo bạn có những thông tin sau:
 
 - Thành thạo cơ bản về C# và .NET framework.
--  Đã cài đặt thư viện Aspose.CAD cho .NET. Bạn có thể tải xuống[đây](https://releases.aspose.com/cad/net/).
+- Đã cài đặt thư viện Aspose.CAD cho .NET. Bạn có thể tải xuống [đây](https://releases.aspose.com/cad/net/).
 - Một tệp DGN mẫu (ví dụ: Nikon_D90_Camera.dgn). 
 
 ## Bước 1: Nhập không gian tên bắt buộc
@@ -52,7 +53,7 @@ Tiếp theo, thiết lập các tùy chọn rasterization để xác định cá
 ```csharp
 CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions
 {
-    PageWidth = 600, // Điều chỉnh chiều rộng theo nhu cầu
+    PageWidth = 600, // Điều chỉnh chiều rộng khi cần thiết
     PageHeight = 300, // Điều chỉnh chiều cao khi cần thiết
     NoScaling = true,
     AutomaticLayoutsScaling = false
@@ -61,7 +62,7 @@ CadRasterizationOptions rasterizationOptions = new CadRasterizationOptions
 
 ## Bước 4: Tạo tùy chọn PDF
 
-Xác định các tùy chọn PDF, tích hợp các thiết lập rasterization được cấu hình trước đó:
+Xác định các tùy chọn PDF, tích hợp các thiết lập rasterization đã được cấu hình trước đó:
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions
@@ -80,7 +81,7 @@ cadImage.Save(myDir + "ExportDGNToPdf_out.pdf", pdfOptions);
 
 ## Phần kết luận
 
-Xin chúc mừng! Bạn đã chuyển đổi thành công tệp DGN thành PDF bằng Aspose.CAD cho .NET. Hướng dẫn đơn giản này hướng dẫn bạn cách tải tệp DGN, thiết lập tùy chọn rasterization và lưu đầu ra dưới dạng PDF.
+Xin chúc mừng! Bạn đã chuyển đổi thành công tệp DGN sang PDF bằng Aspose.CAD cho .NET. Hướng dẫn đơn giản này sẽ hướng dẫn bạn cách tải tệp DGN, thiết lập các tùy chọn rasterization và lưu kết quả dưới dạng PDF.
 
 ## Câu hỏi thường gặp
 
@@ -88,13 +89,13 @@ Xin chúc mừng! Bạn đã chuyển đổi thành công tệp DGN thành PDF b
 Chắc chắn rồi! Aspose.CAD được thiết kế để đơn giản hóa các tác vụ CAD phức tạp, giúp mọi nhà phát triển đều có thể sử dụng, bất kể kiến thức về CAD của họ.
 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.CAD ở đâu?  
- Bạn có thể khám phá các hướng dẫn và ví dụ toàn diện trong[Tài liệu Aspose.CAD](https://reference.aspose.com/cad/net/).
+Bạn có thể khám phá các hướng dẫn và ví dụ toàn diện trong [Tài liệu Aspose.CAD](https://reference.aspose.com/cad/net/).
 
-### Có bản dùng thử miễn phí Aspose.CAD không?  
- Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+### Có bản dùng thử miễn phí cho Aspose.CAD không?  
+Có, bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Làm thế nào tôi có thể nhận được giấy phép tạm thời cho Aspose.CAD?  
- Bạn có thể yêu cầu giấy phép tạm thời[đây](https://purchase.conholdate.com/temporary-license/).
+Bạn có thể yêu cầu giấy phép tạm thời [đây](https://purchase.conholdate.com/temporary-license/).
 
 ### Bạn cần hỗ trợ hoặc có thắc mắc?  
- Tham gia cuộc trò chuyện trong[Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để hỗ trợ cộng đồng và giải đáp thắc mắc.
+Tham gia cuộc trò chuyện trong [Diễn đàn Aspose.CAD](https://forum.aspose.com/c/cad/19) để được cộng đồng hỗ trợ và giải đáp thắc mắc.

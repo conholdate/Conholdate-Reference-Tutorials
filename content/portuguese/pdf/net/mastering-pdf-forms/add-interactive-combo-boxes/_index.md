@@ -42,7 +42,7 @@ Primeiro, você precisa de um documento PDF para trabalhar. Vamos criar um novo 
 ```csharp
 // Especifique o caminho para salvar o documento
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Criar um novo objeto Document
+// Criar um novo objeto Documento
 Document doc = new Document();
 // Adicionar uma nova página ao documento
 doc.Pages.Add();

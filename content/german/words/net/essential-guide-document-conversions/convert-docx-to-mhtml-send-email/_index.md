@@ -69,7 +69,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
-**Was ist hier los?** Der `Document` Die Klasse ist Ihr Einstieg in die Arbeit mit Word-Dokumenten in Aspose.Words. Sie verarbeitet automatisch verschiedene Word-Formate und lädt alle Inhalte, einschließlich Text, Bilder, Tabellen und Formatierungen.
+**Was passiert hier?** Der `Document` Die Klasse ist Ihr Einstieg in die Arbeit mit Word-Dokumenten in Aspose.Words. Sie verarbeitet automatisch verschiedene Word-Formate und lädt alle Inhalte, einschließlich Text, Bilder, Tabellen und Formatierungen.
 
 **Häufiger Haken**: Stellen Sie sicher, dass Ihr Dateipfad korrekt ist und das Dokument derzeit nicht in Word geöffnet ist, da dies zu Zugriffsproblemen führen kann.
 

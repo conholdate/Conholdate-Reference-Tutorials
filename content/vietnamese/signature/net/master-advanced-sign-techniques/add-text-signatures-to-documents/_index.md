@@ -1,20 +1,21 @@
 ---
-title: Thêm chữ ký văn bản vào tài liệu bằng GroupDocs.Signature
-linktitle: Thêm chữ ký văn bản vào tài liệu
-second_title: API GroupDocs.Signature .NET
-description: Tìm hiểu cách ký tài liệu bằng văn bản bằng GroupDocs.Signature cho .NET. Hướng dẫn từng bước để thêm chữ ký văn bản theo chương trình.
-weight: 17
-url: /vi/signature/master-advanced-sign-techniques/add-text-signatures-to-documents/
+"description": "Tìm hiểu cách ký tài liệu bằng văn bản bằng GroupDocs.Signature cho .NET. Hướng dẫn từng bước để thêm chữ ký văn bản theo chương trình."
+"linktitle": "Thêm chữ ký văn bản vào tài liệu"
+"second_title": "API GroupDocs.Signature .NET"
+"title": "Thêm chữ ký văn bản vào tài liệu bằng GroupDocs.Signature"
+"url": "/vi/signature/net/master-advanced-sign-techniques/add-text-signatures-to-documents/"
+"weight": 17
 ---
+
 ## Giới thiệu
 
-Trong bối cảnh kỹ thuật số ngày nay, việc ký tài liệu điện tử đã trở nên thiết yếu để hợp lý hóa quy trình làm việc và tiết kiệm tài nguyên. GroupDocs.Signature cho .NET cung cấp giải pháp mạnh mẽ để thêm chữ ký văn bản theo chương trình vào nhiều định dạng tài liệu khác nhau. Hướng dẫn này sẽ hướng dẫn bạn các bước để ký tài liệu bằng văn bản bằng GroupDocs.Signature cho .NET.
+Trong bối cảnh kỹ thuật số ngày nay, việc ký tài liệu điện tử đã trở nên thiết yếu để hợp lý hóa quy trình làm việc và tiết kiệm tài nguyên. GroupDocs.Signature for .NET cung cấp một giải pháp mạnh mẽ để tự động thêm chữ ký văn bản vào nhiều định dạng tài liệu khác nhau. Hướng dẫn này sẽ hướng dẫn bạn các bước để ký tài liệu bằng văn bản bằng GroupDocs.Signature for .NET.
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1. GroupDocs.Signature cho .NET: Tải xuống và cài đặt thư viện từ[đây](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature cho .NET: Tải xuống và cài đặt thư viện từ [đây](https://releases.groupdocs.com/signature/net/).
 2. Môi trường phát triển: Thiết lập môi trường phát triển .NET của bạn.
 3. Tài liệu: Chuẩn bị tài liệu bạn muốn ký (ví dụ: PDF, Word).
 
@@ -59,7 +60,7 @@ TextSignOptions options = new TextSignOptions("John Smith")
     Top = 200, // Vị trí Y
     Width = 100, // Chiều rộng của chữ ký
     Height = 30, // Chiều cao của chữ ký
-    ForeColor = Color.Red, // Màu chữ
+    ForeColor = Color.Red, // Màu văn bản
     Font = new SignatureFont { Size = 14, FamilyName = "Comic Sans MS" } // Cài đặt phông chữ
 };
 ```
@@ -83,10 +84,10 @@ Trong hướng dẫn này, chúng tôi đã trình bày cách lập trình thêm
 ## Câu hỏi thường gặp
 
 ### Tôi có thể tùy chỉnh giao diện của chữ ký văn bản không?
-Có, bạn có thể tùy chỉnh nhiều thuộc tính khác nhau như màu sắc, phông chữ, kích thước và vị trí của chữ ký văn bản để phù hợp với nhu cầu của bạn.
+Có, bạn có thể tùy chỉnh nhiều thuộc tính khác nhau như màu sắc, phông chữ, kích thước và vị trí của chữ ký văn bản cho phù hợp với nhu cầu của mình.
 
 ### GroupDocs.Signature có tương thích với nhiều định dạng tài liệu không?
-Chắc chắn rồi! GroupDocs.Signature hỗ trợ nhiều định dạng, bao gồm PDF, Word, Excel, PowerPoint, v.v.
+Chắc chắn rồi! GroupDocs.Signature hỗ trợ nhiều định dạng khác nhau, bao gồm PDF, Word, Excel, PowerPoint, v.v.
 
 ### Tôi có thể thêm nhiều chữ ký văn bản vào một tài liệu không?
 Có, bạn có thể thêm nhiều chữ ký văn bản, mỗi chữ ký có tùy chọn tùy chỉnh riêng.
@@ -95,4 +96,4 @@ Có, bạn có thể thêm nhiều chữ ký văn bản, mỗi chữ ký có tù
 Có, thư viện sử dụng các thuật toán mã hóa mạnh mẽ để đảm bảo tính toàn vẹn của tài liệu và ngăn chặn việc giả mạo sau khi ký.
 
 ### Có phiên bản dùng thử để kiểm tra trước khi mua không?
- Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.groupdocs.com/) để khám phá các tính năng trước khi mua hàng.
+Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ [đây](https://releases.groupdocs.com/) để khám phá các tính năng trước khi mua hàng.

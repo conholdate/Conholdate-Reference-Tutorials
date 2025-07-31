@@ -1,25 +1,26 @@
 ---
-title: Írjon alá dokumentumokat egyéni képekkel a GroupDocs.Signature segítségével
-linktitle: Írjon alá dokumentumokat egyéni képekkel
-second_title: GroupDocs.Signature .NET API
-description: Fedezze fel, hogyan javíthatja dokumentumai hitelességét és biztonságát azáltal, hogy egyéni képekkel írja alá őket a GroupDocs.Signature for .NET segítségével. Ez a lépésenkénti oktatóanyag a dokumentum betöltésétől kezdve mindenre kiterjed.
-weight: 13
-url: /hu/signature/master-advanced-sign-techniques/sign-documents-with-custom-image/
+"description": "Fedezze fel, hogyan növelheti dokumentumai hitelességét és biztonságát egyéni képekkel történő aláírással a GroupDocs.Signature for .NET segítségével. Ez a lépésről lépésre szóló útmutató mindent lefed, a dokumentum betöltésétől kezdve."
+"linktitle": "Dokumentumok aláírása egyéni képekkel"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Dokumentumok aláírása egyéni képekkel a GroupDocs.Signature használatával"
+"url": "/hu/signature/net/master-advanced-sign-techniques/sign-documents-with-custom-image/"
+"weight": 13
 ---
+
 ## Bevezetés
 
-Ebből az oktatóanyagból megtudhatja, hogyan használhatja a GroupDocs.Signature for .NET alkalmazást dokumentumok képekkel történő aláírására. A dokumentumok aláírása növeli a fájlok hitelességét és biztonságát, biztosítva, hogy azok hamisításmentesek és jogilag kötelező erejűek legyenek. A dokumentum-aláíró funkciók .NET-alkalmazásaiba való integrálásával jelentősen leegyszerűsítheti munkafolyamatait.
+Ebben az oktatóanyagban megtanulod, hogyan használhatod a GroupDocs.Signature for .NET-et dokumentumok képekkel történő aláírására. A dokumentumaláírás növeli a fájlok hitelességét és biztonságát, biztosítva azok hamisíthatatlanságát és jogilag kötelező érvényűségét. A dokumentumaláírási funkció .NET-alkalmazásokba való integrálásával jelentősen egyszerűsítheted a munkafolyamataidat.
 
 ## Előfeltételek
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt belevágnál az oktatóanyagba, győződj meg róla, hogy a következőkkel rendelkezel:
 
-1.  GroupDocs.Signature for .NET: Töltse le és telepítse a GroupDocs.Signature for .NET webhelyről[weboldal](https://releases.groupdocs.com/signature/net/).
-2. .NET fejlesztői környezet: Munkakörnyezet beállítása .NET fejlesztéshez.
+1. GroupDocs.Signature for .NET: Töltse le és telepítse a GroupDocs.Signature for .NET alkalmazást a következő címről: [weboldal](https://releases.groupdocs.com/signature/net/).
+2. .NET fejlesztői környezet: Hozzon létre egy munkakörnyezetet a .NET fejlesztéséhez.
 
 ## Névterek importálása
 
-A szükséges osztályok és metódusok eléréséhez először importálja a szükséges névtereket a projektbe:
+A szükséges osztályok és metódusok eléréséhez először importáld a szükséges névtereket a projektedbe:
 
 ```csharp
 using System;
@@ -29,7 +30,7 @@ using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
 
-## 1. lépés: Töltse be a dokumentumot
+## 1. lépés: A dokumentum betöltése
 
 Adja meg az aláírni kívánt dokumentum elérési útját. Például egy PDF fájl betöltéséhez:
 
@@ -37,15 +38,15 @@ Adja meg az aláírni kívánt dokumentum elérési útját. Például egy PDF f
 string filePath = "sample.pdf";
 ```
 
-## 2. lépés: Adja meg az aláírási képet
+## 2. lépés: Aláírás képének megadása
 
-Határozza meg a használni kívánt aláírási kép elérési útját:
+Adja meg a használni kívánt aláíráskép elérési útját:
 
 ```csharp
 string imagePath = "signature_handwrite.jpg";
 ```
 
-## 3. lépés: Állítsa be a kimeneti fájl elérési útját
+## 3. lépés: Kimeneti fájl elérési útjának beállítása
 
 Határozza meg, hová szeretné menteni az aláírt dokumentumot:
 
@@ -53,41 +54,41 @@ Határozza meg, hová szeretné menteni az aláírt dokumentumot:
 string outputFilePath = Path.Combine("Your Document Directory", "SignWithImage", "SignedDocument.pdf");
 ```
 
-## 4. lépés: Inicializálja az aláírási objektumot
+## 4. lépés: Az aláírásobjektum inicializálása
 
- Hozzon létre egy példányt a`Signature` osztály, átadja a dokumentum fájl elérési útját:
+Hozz létre egy példányt a `Signature` osztály, átadva a dokumentumfájl elérési útját:
 
 ```csharp
 using (Signature signature = new Signature(filePath))
 {
-    // A további kód ide kerül
+    // További kód kerül ide
 }
 ```
 
-## 5. lépés: Állítsa be a képaláírási beállításokat
+## 5. lépés: Képaláírási beállítások konfigurálása
 
-Adja meg a dokumentum aláírási lehetőségeit. Itt megadhatja az aláírás helyét, és azt, hogy minden oldalon megjelenjen-e:
+Állítsa be a dokumentum aláírásának beállításait. Itt megadhatja az aláírás pozícióját, és azt, hogy az minden oldalon megjelenjen-e:
 
 ```csharp
 ImageSignOptions options = new ImageSignOptions(imagePath)
 {
     Left = 50,   // Vízszintes helyzet
-    Top = 50,    // Függőleges helyzet
-    AllPages = true // Jelentkezzen be minden oldalon
+    Top = 50,    // Függőleges pozíció
+    AllPages = true // Aláírás minden oldalon
 };
 ```
 
-## 6. lépés: Aláírja a dokumentumot
+## 6. lépés: A dokumentum aláírása
 
-Használja a beállított opciókat a dokumentum aláírásához:
+Használja a konfigurált beállításokat a dokumentum aláírásához:
 
 ```csharp
 SignResult result = signature.Sign(outputFilePath, options);
 ```
 
-## 7. lépés: Jelenítse meg az eredményt
+## 7. lépés: Az eredmény megjelenítése
 
-Végül tájékoztassa a felhasználót az aláírási folyamat sikerességéről, beleértve az aláírt dokumentum helyét:
+Végül tájékoztassa a felhasználót az aláírási folyamat sikerességéről, beleértve az aláírt dokumentum helyét is:
 
 ```csharp
 Console.WriteLine($"\nSource document signed successfully with {result.Succeeded.Count} signature(s).\nFile saved at {outputFilePath}.");
@@ -95,13 +96,13 @@ Console.WriteLine($"\nSource document signed successfully with {result.Succeeded
 
 ## Következtetés
 
-Ebben az oktatóanyagban bemutattuk, hogyan írhat alá dokumentumokat képek használatával .NET-alkalmazásokban a GroupDocs.Signature for .NET segítségével. A dokumentumok aláírása elengedhetetlen az állományok hitelességének és biztonságának megőrzéséhez, ami jelentősen javítja dokumentumkezelési képességeit.
+Ebben az oktatóanyagban bemutattuk, hogyan írhatunk alá dokumentumokat képek segítségével .NET alkalmazásokban a GroupDocs.Signature for .NET segítségével. A dokumentumaláírás elengedhetetlen a fájlok hitelességének és biztonságának megőrzéséhez, jelentősen javítva a dokumentumkezelési képességeket.
 
 ## GYIK
 
-### Használhatok több aláírási képet egyetlen dokumentumban?
+### Használhatok több aláírásképet egyetlen dokumentumban?
 
-Igen, aláírhat egy dokumentumot több kép használatával. Egyszerűen ismételje meg az aláírási folyamatot minden egyes képnél, ha szükséges.
+Igen, több képpel is aláírhat egy dokumentumot. Egyszerűen ismételje meg az aláírási folyamatot minden egyes képpel, szükség szerint.
 
 ### A GroupDocs.Signature for .NET kompatibilis az összes dokumentumtípussal?
 
@@ -109,12 +110,12 @@ A GroupDocs.Signature for .NET számos dokumentumformátumot támogat, beleértv
 
 ### Testreszabhatom az aláírás megjelenését?
 
-Teljesen! Beállíthatja az aláírás megjelenésének különféle szempontjait, például méretét, helyzetét, átlátszóságát stb.
+Természetesen! Az aláírás megjelenésének különböző aspektusait, például a méretet, a pozíciót, az átlátszóságot és egyebeket módosíthatja.
 
-### Van próbaverzió tesztelésre?
+### Van elérhető próbaverzió tesztelésre?
 
-Igen, letölthet egy ingyenes próbaverziót a webhelyről, hogy felfedezze annak funkcióit, mielőtt elkötelezi magát a vásárlás mellett.
+Igen, letölthet egy ingyenes próbaverziót a weboldalról, hogy felfedezhesse a funkcióit, mielőtt elkötelezné magát a vásárlás mellett.
 
-### Hogyan szerezhetek technikai támogatást a GroupDocs.Signature for .NET-hez?
+### Hogyan kaphatok technikai támogatást a GroupDocs.Signature for .NET-hez?
 
- Technikai segítségért keresse fel a[GroupDocs.Signature fórum](https://forum.groupdocs.com/c/signature/13).
+Technikai segítségért látogassa meg a [GroupDocs.Signature fórum](https://forum.groupdocs.com/c/signature/13).

@@ -21,7 +21,7 @@ Kapsamlı eğitim koleksiyonumuzla Aspose.PDF'nin kapsamlı yeteneklerini keşfe
 - **🔄 Gelişmiş Dönüşümler**: Formatlar arasında yüksek doğrulukta dönüşümler
 - **🎨 Etkileşimli Öğeler**: JavaScript, formlar, açıklamalar ve dijital imzalar
 - **📊 Zengin İçerik**: Katmanlar, yer imleri, filigranlar ve multimedya
-- **🔒 Güvenlik Özellikleri**: Şifreleme, dijital imzalar ve erişim kontrolü
+- **🔒 Güvenlik Özellikleri**Şifreleme, dijital imzalar ve erişim kontrolü
 
 ## 📚 Mevcut Platformlar
 

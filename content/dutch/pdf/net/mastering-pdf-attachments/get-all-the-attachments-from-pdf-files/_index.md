@@ -53,7 +53,7 @@ Definieer de map waarin uw PDF-bestand is opgeslagen. Dit vertelt het programma 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Zorg ervoor dat u vervangt `YOUR DOCUMENT DIRECTORY` met het werkelijke pad.
+Zorg ervoor dat u deze vervangt `YOUR DOCUMENT DIRECTORY` met het werkelijke pad.
 
 ## Stap 2: Open het PDF-document
 
@@ -67,7 +67,7 @@ Controleer of het bestandspad en de bestandsnaam correct zijn.
 
 ## Stap 3: Toegang tot de Embedded Files Collection
 
-Om toegang te krijgen tot de bijlagen in het PDF-bestand, haalt u de verzameling ingesloten bestanden op:
+Om toegang te krijgen tot de bijlagen in de PDF, haalt u de verzameling ingesloten bestanden op:
 
 ```csharp
 EmbeddedFileCollection embeddedFiles = pdfDocument.EmbeddedFiles;
@@ -145,4 +145,4 @@ Ondersteuning is beschikbaar via het Aspose-forum, dat u kunt vinden [hier](http
 Ja, u kunt een tijdelijke licentie voor Aspose.PDF aanvragen [hier](https://purchase.aspose.com/temporary-license/).
 
 ### Waar kan ik de documentatie voor Aspose.PDF vinden?
-Uitgebreide documentatie voor Aspose.PDF voor .NET vindt u hier [hier](https://reference.aspose.com/pdf/net/).
+U kunt uitgebreide documentatie voor Aspose.PDF voor .NET vinden [hier](https://reference.aspose.com/pdf/net/).

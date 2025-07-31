@@ -17,9 +17,9 @@ Voordat we ingaan op de coderingsaspecten, moet u ervoor zorgen dat u het volgen
 
 1. Visual Studio: een IDE voor het schrijven en testen van uw .NET-applicaties. Visual Studio wordt aanbevolen vanwege de uitgebreide ondersteuning en gebruiksvriendelijke interface.
 2. Aspose.Cells voor .NET: Download de bibliotheek van de [Aspose Cells-releasepagina](https://releases.aspose.com/cells/net/).
-3. Basiskennis van C#: Kennis van C#- en .NET-concepten helpt u de implementatie beter te begrijpen.
+3. Basiskennis van C#: Kennis van C# en .NET-concepten helpt u de implementatie beter te begrijpen.
 4. Stel uw project in: zorg ervoor dat uw project verwijst naar de Aspose.Cells-bibliotheek. Deze kunt u toevoegen via NuGet Package Manager in Visual Studio.
-5. Voorbeeld bestanden: Houd een Excel-voorbeeldbestand bij de hand dat externe bronnen bevat (bijvoorbeeld gekoppelde afbeeldingen) voor demonstratiedoeleinden.
+5. Voorbeeld bestanden: Zorg dat u een Excel-voorbeeldbestand bij de hand hebt dat externe bronnen bevat (bijvoorbeeld gekoppelde afbeeldingen) voor demonstratiedoeleinden.
 
 Zodra u aan al deze vereisten voldoet, kunt u externe bronnen beheren met Aspose.Cells.
 
@@ -35,7 +35,7 @@ using Aspose.Cells.Rendering;
 using System.Drawing.Imaging;
 ```
 
-## Stap 1: Mappen definiëren
+## Stap 1: Definieer mappen
 
 Geef eerst de bron- en uitvoermappen op waar uw bestanden zijn opgeslagen en waar u wilt dat uw uitvoerbestanden worden opgeslagen.
 
@@ -81,7 +81,7 @@ public static void Execute()
     // Laad het Excel-bestand
     Workbook workbook = new Workbook(Path.Combine(sourceDir, "sample.xlsx"));
     
-    // De aangepaste streamprovider toewijzen
+    // Wijs de aangepaste streamprovider toe
     workbook.Settings.StreamProvider = new CustomStreamProvider();
 ```
 
@@ -113,7 +113,7 @@ Bepaal hoe de uitvoerafbeelding eruit moet zien door afbeeldings- of afdrukoptie
 
 Als u voor PNG kiest, bent u verzekerd van een scherp en duidelijk resultaat.
 
-### Stap 6: Het werkblad renderen naar een afbeelding
+### Stap 6: Render het werkblad naar een afbeelding
 
 Nu komt het spannende deel: het werkblad omzetten naar een afbeeldingsbestand!
 

@@ -88,7 +88,7 @@ fstream.Close();
 ```
 
 ## Phần kết luận
-Bạn đã thêm thành công một bảng tính mới vào tệp Excel hiện có bằng Aspose.Cells for .NET! Tính năng này mở ra vô vàn khả năng để tự động hóa bảng tính tùy chỉnh, đơn giản hóa việc nhập dữ liệu và tạo báo cáo có cấu trúc.
+Bạn đã thêm thành công một bảng tính mới vào tệp Excel hiện có bằng Aspose.Cells for .NET! Tính năng này mở ra vô vàn khả năng để tự động hóa bảng tính tùy chỉnh, hợp lý hóa việc nhập dữ liệu và tạo báo cáo có cấu trúc.
 
 ## Câu hỏi thường gặp
 

@@ -40,7 +40,7 @@ Bạn có thể cài đặt thư viện Aspose.Words thông qua Trình quản l�
 
 1. Nhấp chuột phải vào dự án của bạn trong Solution Explorer.
 2. Chọn Quản lý gói NuGet.
-3. Tìm Aspose.Words và cài đặt.
+3. Tìm Aspose.Words và cài đặt nó.
 
 Ngoài ra, bạn có thể sử dụng Bảng điều khiển quản lý gói để chạy:
 

@@ -15,7 +15,7 @@
 
 Πριν βουτήξετε, βεβαιωθείτε ότι έχετε έτοιμα τα ακόλουθα αντικείμενα:
 
-1. Aspose.Words για .NET: Λήψη και εγκατάσταση της τελευταίας έκδοσης από [Aspose Releases](https://releases.aspose.com/words/net/).
+1. Aspose.Words για .NET: Λήψη και εγκατάσταση της τελευταίας έκδοσης από [Aspose Κυκλοφορίες](https://releases.aspose.com/words/net/).
 2. Περιβάλλον ανάπτυξης: Χρησιμοποιήστε το Visual Studio ή οποιοδήποτε συμβατό IDE.
 3. Βασική Κατανόηση της C#: Η εξοικείωση με την C# και το .NET framework θα είναι χρήσιμη.
 4. Άδεια Aspose: Για να ξεκλειδώσετε πλήρως το Aspose.Words, αποκτώντας ένα [άδεια](https://purchase.aspose.com/buy) συνιστάται. Εναλλακτικά, μπορείτε να χρησιμοποιήσετε ένα [προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για σκοπούς αξιολόγησης.
@@ -103,4 +103,4 @@ doc.Save(dataDir + "DocumentWithDoNotCompressMetafiles.pdf", saveOptions);
 
 ### Πού μπορώ να βρω περισσότερες πληροφορίες σχετικά με το Aspose.Words για .NET;
 
-Για πλήρη τεκμηρίωση, επισκεφθείτε την [Τεκμηρίωση Aspose.Words](https://reference.aspose.com/words/net/)και για την πιο πρόσφατη έκδοση λογισμικού, ανατρέξτε στο [Aspose Releases](https://releases.aspose.com/words/net/).
+Για πλήρη τεκμηρίωση, επισκεφθείτε την [Τεκμηρίωση Aspose.Words](https://reference.aspose.com/words/net/)και για την πιο πρόσφατη έκδοση λογισμικού, ανατρέξτε στο [Aspose Κυκλοφορίες](https://releases.aspose.com/words/net/).

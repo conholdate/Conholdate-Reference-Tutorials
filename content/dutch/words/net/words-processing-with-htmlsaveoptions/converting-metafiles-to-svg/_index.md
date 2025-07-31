@@ -13,16 +13,16 @@ Hallo, codeerliefhebbers! Heb je ooit je Word-documenten willen verbeteren met s
 
 ## Vereisten
 
-Voordat we beginnen, willen we zeker weten dat je alles hebt wat je nodig hebt:
+Voordat we beginnen, willen we er zeker van zijn dat je alles hebt wat je nodig hebt:
 
 1. Aspose.Words voor .NET: Download het van de [Aspose releases pagina](https://releases.aspose.com/words/net/).
 2. .NET Framework: Zorg ervoor dat u .NET Framework hebt geïnstalleerd.
 3. Ontwikkelomgeving: U kunt elke IDE gebruiken, bijvoorbeeld Visual Studio.
-4. Basiskennis van C#: Kennis van C# is een pré, maar maak je geen zorgen als je nog geen ervaring hebt. We begeleiden je bij elke stap.
+4. Basiskennis van C#: Kennis van C# is een pré, maar maak je geen zorgen als je nieuw bent: we begeleiden je bij elke stap.
 
 ## Naamruimten importeren
 
-Laten we eerst de benodigde naamruimten in je C#-project importeren. Deze stap is cruciaal voor toegang tot de Aspose.Words-functionaliteiten.
+Laten we eerst de benodigde naamruimten in je C#-project importeren. Deze stap is cruciaal voor toegang tot de functionaliteiten van Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -52,7 +52,7 @@ Laten we nu wat context aan ons document toevoegen met een tekstbeschrijving.
 builder.Write("Here is an SVG image: ");
 ```
 
-Met deze regel voegt u de tekst 'Hier is een SVG-afbeelding:' toe aan uw document. Zo biedt u context voor de SVG die u wilt invoegen.
+Met deze regel wordt de tekst 'Hier is een SVG-afbeelding:' aan uw document toegevoegd. Zo krijgt u context voor de SVG die u wilt invoegen.
 
 ## Stap 3: SVG-afbeelding invoegen
 
@@ -89,7 +89,7 @@ Laten we ten slotte ons document opslaan met behulp van de `Save` methode van de
 doc.Save(dataDir + "ConvertMetafilesToSvg.html", saveOptions);
 ```
 
-Deze regel slaat het document op in de opgegeven directory met de bestandsnaam `ConvertMetafilesToSvg.html`, door de `saveOptions` om ervoor te zorgen dat metabestanden worden geconverteerd naar SVG.
+Deze regel slaat het document op in de opgegeven map met de bestandsnaam `ConvertMetafilesToSvg.html`, door de toepassing van de `saveOptions` om ervoor te zorgen dat metabestanden worden geconverteerd naar SVG.
 
 ## Conclusie
 

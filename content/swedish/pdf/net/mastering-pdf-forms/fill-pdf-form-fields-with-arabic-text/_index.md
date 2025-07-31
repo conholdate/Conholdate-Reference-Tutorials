@@ -1,5 +1,5 @@
 ---
-"description": "Lär dig hur du effektivt fyller i PDF-formulärfält med arabisk text med hjälp av Aspose.PDF för .NET-biblioteket. Den här steg-för-steg-handledningen guidar dig genom installationsprocessen, med ett kodningsexempel."
+"description": "Lär dig hur du effektivt fyller i PDF-formulärfält med arabisk text med hjälp av Aspose.PDF för .NET-biblioteket. Den här steg-för-steg-handledningen guidar dig genom installationsprocessen, med kodningsexempel."
 "linktitle": "Fyll PDF-formulärfält med arabisk text i Aspose.PDF för .NET"
 "second_title": "Aspose.PDF för .NET API-referens"
 "title": "Fyll PDF-formulärfält med arabisk text i Aspose.PDF för .NET"
@@ -18,7 +18,7 @@ Innan vi går in i koden, se till att du har följande förutsättningar:
 1. Grundläggande kunskaper i C#: Bekantskap med programmeringsspråket C# hjälper dig att förstå exemplen bättre.
 2. Aspose.PDF för .NET: Ladda ner och installera Aspose.PDF-biblioteket från [här](https://releases.aspose.com/pdf/net/).
 3. Visual Studio: En utvecklingsmiljö som Visual Studio rekommenderas för att skriva och testa din kod.
-4. Ett PDF-formulär: Förbered ett PDF-formulär med minst ett textfält där du vill mata in arabisk text. Du kan skapa ett enkelt PDF-formulär med valfri PDF-redigerare.
+4. Ett PDF-formulär: Förbered ett PDF-formulär med minst ett textfält där du vill mata in arabisk text. Du kan skapa ett enkelt PDF-formulär med hjälp av valfri PDF-redigerare.
 
 ## Importera nödvändiga paket
 

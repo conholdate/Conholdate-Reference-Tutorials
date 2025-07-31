@@ -32,7 +32,7 @@ Innan vi börjar, se till att du har följande:
 
 ## Importera det nödvändiga namnutrymmet
 
-Importera namnrymden Aspose.PDF högst upp i din C#-fil:
+Överst i din C#-fil importerar du namnrymden Aspose.PDF:
 
 ```csharp
 using System;

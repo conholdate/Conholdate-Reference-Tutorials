@@ -1,14 +1,15 @@
 ---
-title: Lưu tài liệu OneNote ở dạng PDF bằng Aspose.Note cho .NET
-linktitle: Lưu tài liệu OneNote ở dạng PDF
-second_title: API Aspose.Note .NET
-description: Tìm hiểu cách lưu tài liệu Microsoft OneNote dưới dạng tệp PDF hiệu quả bằng Aspose.Note cho .NET. Hướng dẫn này hướng dẫn bạn qua các điều kiện tiên quyết cần thiết và cung cấp các câu hỏi thường gặp hữu ích.
-weight: 26
-url: /vi/note/one-note-document-manipulation/saving-one-note-document-pdf/
+"description": "Tìm hiểu cách lưu tài liệu Microsoft OneNote dưới dạng tệp PDF hiệu quả bằng Aspose.Note cho .NET. Hướng dẫn này sẽ hướng dẫn bạn các điều kiện tiên quyết cần thiết và cung cấp các câu hỏi thường gặp hữu ích."
+"linktitle": "Lưu tài liệu OneNote ở định dạng PDF"
+"second_title": "API Aspose.Note .NET"
+"title": "Lưu tài liệu OneNote ở định dạng PDF bằng Aspose.Note cho .NET"
+"url": "/vi/note/net/one-note-document-manipulation/saving-one-note-document-pdf/"
+"weight": 26
 ---
+
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách lưu tài liệu ở định dạng PDF bằng Aspose.Note cho .NET. Aspose.Note là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Chúng tôi sẽ đề cập đến các điều kiện tiên quyết, nhập không gian tên và cung cấp hướng dẫn từng bước để lưu tài liệu ở định dạng PDF trong nhiều bố cục trang khác nhau.
+Trong hướng dẫn này, chúng ta sẽ khám phá cách lưu tài liệu sang định dạng PDF bằng Aspose.Note cho .NET. Aspose.Note là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Chúng tôi sẽ đề cập đến các điều kiện tiên quyết, nhập không gian tên và cung cấp hướng dẫn từng bước để lưu tài liệu sang PDF ở nhiều bố cục trang khác nhau.
 
 ## Điều kiện tiên quyết
 1. Visual Studio: Đảm bảo rằng nó đã được cài đặt.
@@ -36,7 +37,7 @@ public static void SaveToPdfUsingLetterPageSettings()
     Console.WriteLine("\nOneNote document saved successfully.\nFile saved at " + dst);
 }
 ```
-Tải tài liệu OneNote và lưu dưới dạng PDF bằng cách sử dụng cài đặt trang có kích thước khổ letter.
+Tải tài liệu OneNote và lưu dưới dạng PDF bằng cách sử dụng cài đặt trang khổ letter.
 
 ## Bước 2: Lưu thành PDF với Cài đặt trang A4 (Không giới hạn chiều cao)
 ```csharp
@@ -53,7 +54,7 @@ public static void SaveToPdfUsingA4PageSettingsWithoutHeightLimit()
 Tương tự như Bước 1 nhưng sử dụng cài đặt trang A4 mà không giới hạn chiều cao.
 
 ## Phần kết luận
-Hướng dẫn này trình bày thành công cách chuyển đổi tệp OneNote sang định dạng PDF bằng Aspose.Note. Bằng cách sử dụng các cài đặt trang khác nhau, các nhà phát triển có được sự linh hoạt trong việc quản lý tài liệu.
+Hướng dẫn này minh họa thành công cách chuyển đổi tệp OneNote sang định dạng PDF bằng Aspose.Note. Bằng cách sử dụng các cài đặt trang khác nhau, các nhà phát triển có được sự linh hoạt trong việc quản lý tài liệu.
 
 ## Câu hỏi thường gặp
 ### Aspose.Note có thể xử lý các tệp OneNote phức tạp không?

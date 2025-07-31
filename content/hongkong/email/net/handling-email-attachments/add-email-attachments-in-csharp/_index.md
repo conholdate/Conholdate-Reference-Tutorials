@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用強大的 Aspose.Email for .NET 程式庫在 C# 應用程式中有效地處理電子郵件附件。本指南內容全面，涵蓋設定流程以及如何建立電子郵件。"
+"description": "了解如何使用強大的 Aspose.Email for .NET 程式庫在 C# 應用程式中有效地處理電子郵件附件。本綜合指南涵蓋了設定過程和建立電子郵件訊息。"
 "linktitle": "使用 Aspose.Email for .NET 在 C# 中新增電子郵件附件"
 "second_title": "Aspose.Email .NET 電子郵件處理 API"
 "title": "使用 Aspose.Email for .NET 在 C# 中新增電子郵件附件"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-電子郵件附件是現代通訊的基本功能，使用戶能夠直接透過電子郵件共享文件。 Aspose.Email for .NET 是一個功能強大的程式庫，可簡化 C# 應用程式中的電子郵件處理，使建立、管理和發送帶有附件的電子郵件變得輕鬆。
+電子郵件附件是現代通訊的基本面，使用戶能夠直接透過電子郵件共享文件。 Aspose.Email for .NET 是一個功能強大的程式庫，它簡化了 C# 應用程式中的電子郵件處理，讓您可以輕鬆建立、管理和發送帶有附件的電子郵件。
 
 ## 先決條件
 
@@ -97,7 +97,7 @@ using (SmtpClient client = new SmtpClient("smtp.example.com", "username", "passw
 
 ## 結論
 
-在本指南中，我們成功學習如何使用 C# 和 Aspose.Email for .NET 程式庫建立附附件的電子郵件。借助這些技能，您可以增強應用程序，讓用戶能夠無縫地透過電子郵件發送重要文件。
+在本指南中，我們成功學習如何使用 C# 和 Aspose.Email for .NET 程式庫建立帶有附件的電子郵件。利用這些技能，您可以增強您的應用程序，允許用戶透過電子郵件無縫發送重要文件。
 
 ## 常見問題解答
 
@@ -111,11 +111,11 @@ using (SmtpClient client = new SmtpClient("smtp.example.com", "username", "passw
 
 ### Aspose.Email for .NET 是否與不同的電子郵件協定相容？
 
-當然！ Aspose.Email for .NET 支援多種電子郵件協議，包括 SMTP、POP3、IMAP 和 Exchange，可根據您的需求提供靈活性。
+絕對地！ Aspose.Email for .NET 支援各種電子郵件協議，包括 SMTP、POP3、IMAP 和 Exchange，可根據您的需求提供靈活性。
 
 ### 我可以在發送之前自訂電子郵件正文嗎？
 
-是的， `MailMessage` 此類別可讓您自訂各種屬性，例如電子郵件正文、主題和附件，以滿足您的需求。您甚至可以根據需要使用 HTML 格式化正文。
+是的， `MailMessage` 類別可讓您自訂各種屬性，例如電子郵件正文、主題和附件，以滿足您的要求。如果需要，您甚至可以使用 HTML 來格式化正文。
 
 ### 是否有 Aspose.Email for .NET 的免費試用版？
 

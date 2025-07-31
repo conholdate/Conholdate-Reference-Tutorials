@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Het beheren van e-mailbijlagen kan voelen alsof je na een lange reis een koptelefoon moet ontwarren. Verwarrend? Niet met de juiste tools! Aspose.Email voor .NET vereenvoudigt het proces en biedt krachtige functionaliteit voor het maken, bewerken en analyseren van e-mailbijlagen in C#. Zo ga je aan de slag:  
+Het beheren van e-mailbijlagen kan aanvoelen als het ontwarren van een koptelefoon na een lange reis. Verwarrend? Niet met de juiste tools! Aspose.Email voor .NET vereenvoudigt het proces en biedt krachtige functionaliteit voor het maken, bewerken en analyseren van e-mailbijlagen in C#. Zo gaat u aan de slag:  
 
 ## E-mailbijlagen toevoegen  
 
@@ -17,7 +17,7 @@ Heb je ooit een factuur of een afbeelding met een e-mail moeten versturen? Met A
 
 ## Bijlagen detecteren en extraheren  
 
-Het detecteren van verborgen bijlagen in een e-mail is cruciaal, vooral voor beveiliging en gegevensbeheer. Met Aspose.Email kunt u bijlagen nauwkeurig detecteren en extraheren. Of het nu gaat om een pdf, een ingesloten afbeelding of een multimediabestand, het proces is gestroomlijnd voor efficiëntie. Ga hier dieper in op detectiemethoden: [Bijlagen en ingesloten berichten detecteren in C#](./detecting-attachment-and-embedded-message-in-csharp/).  
+Het detecteren van verborgen bijlagen in een e-mail is cruciaal, vooral voor beveiliging en gegevensbeheer. Met Aspose.Email kunt u bijlagen nauwkeurig detecteren en extraheren. Of het nu gaat om een PDF, een ingesloten afbeelding of een multimediabestand, het proces is gestroomlijnd voor efficiëntie. Ga hier dieper in op detectiemethoden: [Bijlagen en ingesloten berichten detecteren in C#](./detecting-attachment-and-embedded-message-in-csharp/).  
 
 ## Onderscheid maken tussen inline- en reguliere bijlagen  
 
@@ -33,7 +33,7 @@ Bijlagen in Transport Neutral Encapsulation Format (TNEF) voelen vaak aan als he
 
 ## Tutorials voor het verwerken van e-mailbijlagen
 ### [E-mailbijlagen toevoegen in C# met Aspose.Email voor .NET](./add-email-attachments-in-csharp/)
-Leer hoe u efficiënt e-mailbijlagen kunt verwerken in C#-applicaties met behulp van de krachtige Aspose.Email voor .NET-bibliotheek. Deze uitgebreide handleiding behandelt het installatieproces en het maken van e-mailberichten.
+Leer hoe u efficiënt e-mailbijlagen verwerkt in C#-applicaties met behulp van de krachtige Aspose.Email voor .NET-bibliotheek. Deze uitgebreide handleiding behandelt het installatieproces en het maken van e-mailberichten.
 ### [TNEF-bijlagen toevoegen in C# met Aspose.Email voor .NET](./add-tnef-attachments-in-csharp/)
 Ontdek hoe u effectief omgaat met TNEF-bijlagen (Transport Neutral Encapsulation Format) in C# met de krachtige Aspose.Email voor .NET-bibliotheek. Deze handleiding behandelt alles, van het instellen van uw ontwikkelomgeving tot het laden ervan.
 ### [Bijlagen en ingesloten berichten detecteren in C#](./detecting-attachment-and-embedded-message-in-csharp/)

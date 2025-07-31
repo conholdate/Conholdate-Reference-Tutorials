@@ -1,13 +1,14 @@
 ---
-title: .NET için GroupDocs.Comparison'ın Eğitimleri ve Örnekleri
-linktitle: GroupDocs.Comparison .NET Eğitimleri
-weight: 10
-url: /tr/comparison/
-description: .NET için GroupDocs.Comparison'a yönelik kapsamlı eğitimleri keşfedin; verimli belge ve klasör karşılaştırmalarını, yönetimini ve entegrasyonunu zahmetsizce kolaylaştırın.
-is_root: true
+"description": ".NET için GroupDocs.Comparison'a yönelik kapsamlı eğitimleri keşfedin; verimli belge ve klasör karşılaştırması, yönetimi ve entegrasyonunu zahmetsizce kolaylaştırın."
+"is_root": true
+"linktitle": "GroupDocs.Comparison for .NET Eğitimleri"
+"title": ".NET için GroupDocs.Comparison Eğitimleri ve Örnekleri"
+"url": "/tr/comparison/net/"
+"weight": 10
 ---
-## GroupDocs.Comparison .NET Eğitimleri 
+
+## GroupDocs.Comparison for .NET Eğitimleri 
 ### [.NET için GroupDocs.Comparison'da Belgeleri Yükleme ve Kaydetme](./load-and-save-documents/)
-GroupDocs.Comparison for .NET'i kullanarak belgeleri verimli bir şekilde yüklemek ve kaydetmek için adım adım eğitimleri keşfedin. Belge karşılaştırmalarını kolaylaştırmak isteyen geliştiriciler için mükemmel.
+GroupDocs.Comparison for .NET'i kullanarak belgeleri verimli bir şekilde yükleme ve kaydetme konusunda adım adım eğitimleri keşfedin. Belge karşılaştırmalarını kolaylaştırmak isteyen geliştiriciler için mükemmel.
 ### [Temel Kullanım Kılavuzu](./guide-to-basic-usage/)
-Verimli belge karşılaştırması ve geliştirme içgörüleri için GroupDocs.Comparison for .NET'te temel eğitimleri keşfedin. Excel hücrelerini kolayca nasıl karşılaştıracağınızı öğrenin.
+Etkili belge karşılaştırması ve geliştirme içgörüleri için GroupDocs.Comparison for .NET'teki temel eğitimleri keşfedin. Excel hücrelerini nasıl kolayca karşılaştıracağınızı öğrenin.

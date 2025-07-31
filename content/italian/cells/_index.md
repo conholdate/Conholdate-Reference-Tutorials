@@ -70,7 +70,7 @@ Tutorial completi per sviluppatori .NET che coprono tutti gli aspetti dell'elabo
 - **API avanzata**: Modello di oggetti completo con funzionalità estese
 - **Documentazione**: Guide dettagliate e riferimenti API
 - **Esempi di codice**: Campioni pronti all'uso per scenari comuni
-- **Supporto alla comunità**: Forum attivi e assistenza di esperti
+- **Supporto della comunità**: Forum attivi e assistenza di esperti
 
 ## 🔗 Risorse aggiuntive
 

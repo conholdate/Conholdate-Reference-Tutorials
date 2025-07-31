@@ -1,20 +1,21 @@
 ---
-title: Preprocessingtechnieken Filters voor afbeeldingen in OCR-beeldherkenning
-linktitle: Preprocessingtechnieken Filters voor afbeeldingen in OCR-beeldherkenning
-second_title: Aspose.OCR .NET API
-description: Ontgrendel het potentieel van Optical Character Recognition (OCR) in uw .NET-toepassingen met Aspose.OCR. Deze handleiding biedt een stapsgewijze aanpak voor het implementeren van OCR met behulp van preprocessingfilters.
-weight: 12
-url: /nl/ocr/optimization-ocr/preprocessing-techniques-filters-for-image/
+"description": "Benut de mogelijkheden van Optical Character Recognition (OCR) in uw .NET-applicaties met Aspose.OCR. Deze handleiding biedt een stapsgewijze aanpak voor het implementeren van OCR met behulp van preprocessingfilters."
+"linktitle": "Preprocessingtechnieken Filters voor afbeeldingen in OCR-beeldherkenning"
+"second_title": "Aspose.OCR .NET API"
+"title": "Preprocessingtechnieken Filters voor afbeeldingen in OCR-beeldherkenning"
+"url": "/nl/ocr/net/optimization-ocr/preprocessing-techniques-filters-for-image/"
+"weight": 12
 ---
+
 ## Invoering
 
-Optical Character Recognition (OCR) transformeert afbeeldingen in bewerkbare tekst, wat de toegankelijkheid en bruikbaarheid van gegevens verbetert. In deze handleiding onderzoeken we hoe u Aspose.OCR in uw .NET-toepassingen kunt integreren en optimaliseren met behulp van preprocessingfilters om de beste resultaten voor beeldherkenning te bereiken.
+Optische tekenherkenning (OCR) transformeert afbeeldingen naar bewerkbare tekst, waardoor de toegankelijkheid en bruikbaarheid van gegevens worden verbeterd. In deze handleiding leggen we uit hoe u Aspose.OCR in uw .NET-applicaties kunt integreren en optimaliseren met behulp van preprocessingfilters om de beste resultaten voor beeldherkenning te bereiken.
 
 ## Vereisten
 
 Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
--  Aspose.OCR voor .NET: Installeer de bibliotheek om de mogelijkheden ervan te benutten. Toegang tot documentatie[hier](https://reference.aspose.com/ocr/net/) en download de nieuwste versie[hier](https://releases.aspose.com/ocr/net/).
+- Aspose.OCR voor .NET: Installeer de bibliotheek om de mogelijkheden ervan te benutten. Raadpleeg de documentatie. [hier](https://reference.aspose.com/ocr/net/) en download de nieuwste versie [hier](https://releases.aspose.com/ocr/net/).
 
 - Documentmap: maak een map voor het opslaan van uw documenten en noteer het pad ervan voor gebruik in deze handleiding.
 
@@ -45,10 +46,10 @@ string fullPath = Path.Combine(dataDir, "black.png");
 
 ## 2. Filters initialiseren en de afbeelding voorbewerken
 
-Maak gebruik van voorverwerkingsfilters om uw afbeelding te verbeteren voordat u OCR uitvoert.
+Maak gebruik van voorbewerkingsfilters om uw afbeelding te verbeteren voordat u OCR uitvoert.
 
 ```csharp
-// Initialiseer preprocessingfilters
+// Initialiseer pre-processingfilters
 PreprocessingFilter filters = new PreprocessingFilter
 {
     PreprocessingFilter.Invert(),
@@ -65,12 +66,12 @@ using (MemoryStream img = api.PreprocessImage(fullPath, filters))
 }
 ```
 
-## 3. Herken de afbeelding met aangepaste voorverwerking
+## 3. Herken de afbeelding met aangepaste voorbewerking
 
 Nu gaan we tekst uit de voorbewerkte afbeelding halen met behulp van Aspose.OCR.
 
 ```csharp
-// Herken de afbeelding met behulp van de aangepaste voorverwerkingsfilters
+// Herken de afbeelding met behulp van de aangepaste voorbewerkingsfilters
 RecognitionResult result = api.RecognizeImage(fullPath, new RecognitionSettings
 {
     PreprocessingFilters = filters
@@ -83,7 +84,7 @@ Console.WriteLine("Image recognition with preprocessing executed successfully.")
 
 ## Conclusie
 
-Aspose.OCR voor .NET biedt krachtige functionaliteit die het proces van afbeelding-naar-tekstconversie vereenvoudigt. Door gebruik te maken van preprocessingfilters kunt u de kwaliteit van de OCR-resultaten aanzienlijk verbeteren. Deze bibliotheek is ideaal voor verschillende toepassingen, van documentdigitalisering tot tekstextractie in meerdere branches.
+Aspose.OCR voor .NET biedt krachtige functionaliteit die het proces van beeld-naar-tekstconversie vereenvoudigt. Door gebruik te maken van voorbewerkingsfilters kunt u de kwaliteit van de OCR-resultaten aanzienlijk verbeteren. Deze bibliotheek is ideaal voor diverse toepassingen, van documentdigitalisering tot tekstextractie in diverse branches.
 
 ## Veelgestelde vragen
 
@@ -91,13 +92,13 @@ Aspose.OCR voor .NET biedt krachtige functionaliteit die het proces van afbeeldi
 Ja, Aspose.OCR is veelzijdig en ondersteunt zowel desktop- als webapplicaties die zijn ontwikkeld in .NET.
 
 ### Welke licentieopties zijn beschikbaar voor Aspose.OCR?  
- U kunt licentieopties verkennen en aankopen doen[hier](https://purchase.conholdate.com/buy) . Een gratis proefperiode is ook beschikbaar[hier](https://releases.aspose.com/) , en tijdelijke licenties kunnen worden verkregen[hier](https://purchase.conholdate.com/temporary-license/).
+U kunt licentieopties verkennen en aankopen doen [hier](https://purchase.conholdate.com/buy). Een gratis proefperiode is ook beschikbaar [hier](https://releases.aspose.com/)en tijdelijke vergunningen kunnen worden verkregen [hier](https://purchase.conholdate.com/temporary-license/).
 
 ### Waar kan ik ondersteuning vinden voor Aspose.OCR?  
-Voor hulp, bezoek de[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) voor gemeenschap en steun.
+Voor hulp kunt u terecht op de [Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) voor gemeenschap en steun.
 
-### Welke afbeeldingsformaten ondersteunt Aspose.OCR?  
+### Welke afbeeldingformaten ondersteunt Aspose.OCR?  
 Aspose.OCR ondersteunt verschillende formaten, waaronder PNG, JPEG, GIF, BMP en TIFF.
 
 ### Kan ik Aspose.OCR integreren in een bestaand .NET-project?  
-Absoluut! Volg de stappen in deze tutorial om Aspose.OCR-functionaliteit naadloos toe te voegen aan uw project.
+Absoluut! Volg de stappen in deze tutorial om Aspose.OCR-functionaliteit naadloos aan uw project toe te voegen.

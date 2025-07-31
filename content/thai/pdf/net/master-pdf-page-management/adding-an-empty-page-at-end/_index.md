@@ -75,7 +75,7 @@ Document pdfDocument = new Document(dataDir + "InsertEmptyPageAtEnd.pdf");
 pdfDocument.Pages.Add();
 ```
 
-## ขั้นตอนที่ 4: บันทึกเอกสารที่แก้ไขแล้ว
+## ขั้นตอนที่ 4: บันทึกเอกสารที่แก้ไข
 
 กำหนดชื่อไฟล์เอาท์พุตและบันทึก PDF ที่อัปเดต:
 

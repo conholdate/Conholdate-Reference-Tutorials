@@ -1,5 +1,5 @@
 ---
-"description": "透過我們關於使用 Aspose.Words for .NET 建立 VBA 專案的全面指南，解鎖 Word 文件自動化的強大功能。本指南循序漸進，幫助您輕鬆上手。"
+"description": "透過我們關於使用 Aspose.Words for .NET 建立 VBA 專案的綜合指南，釋放 Word 文件的自動化功能。本逐步教程指南。"
 "linktitle": "在 Word 文件中建立 Vba 項目"
 "second_title": "Aspose.Words文件處理API"
 "title": "在 Word 文件中建立 Vba 項目"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-各位科技愛好者們，大家好！準備好探索 Word 文件中令人興奮的 Visual Basic for Applications (VBA) 世界了嗎？無論您是經驗豐富的開發人員還是剛剛入門，本指南都將指導您使用 Aspose.Words for .NET 在 Word 文件中建立 VBA 專案。這個強大的程式庫可以幫助您自動執行任務、建立巨集並增強 Word 文件的功能。讓我們開始吧！
+大家好，科技愛好者們！您準備好深入探索 Word 文件中令人興奮的 Visual Basic for Applications (VBA) 世界了嗎？無論您是經驗豐富的開發人員還是剛起步，本指南都將指導您使用 Aspose.Words for .NET 在 Word 文件中建立 VBA 專案。這個強大的程式庫使您能夠自動執行任務、建立巨集並增強 Word 文件的功能。讓我們開始吧！
 
 ## 先決條件
 
@@ -22,7 +22,7 @@
 
 ## 導入命名空間
 
-若要使用 Aspose.Words 的功能，您需要匯入必要的命名空間。這些命名空間將提供對管理 Word 文件和 VBA 專案所需的所有類別和方法的存取。
+要利用 Aspose.Words 的功能，您需要匯入必要的命名空間。這些將提供對管理 Word 文件和 VBA 專案所需的所有類別和方法的存取。
 
 ```csharp
 using Aspose.Words;
@@ -39,7 +39,7 @@ using Aspose.Words.Vba;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-代替 `"YOUR DOCUMENT DIRECTORY"` 替換為您想要儲存 Word 文件的實際路徑。這就是奇蹟發生的地方！
+代替 `"YOUR DOCUMENT DIRECTORY"` 與您想要儲存 Word 文件的實際路徑。這就是奇蹟發生的地方！
 
 ## 第 2 步：建立新的 Word 文檔
 
@@ -53,7 +53,7 @@ Document doc = new Document();
 
 ## 步驟3：建立VBA項目
 
-文件準備好後，下一步是建立一個 VBA 專案。該專案將包含包含巨集和程式碼的模組和表單。
+文件準備好後，下一步是建立 VBA 專案。該專案將保存包含您的巨集和程式碼的模組和表單。
 
 ```csharp
 VbaProject project = new VbaProject();
@@ -89,7 +89,7 @@ doc.VbaProject.Modules.Add(module);
 doc.Save(dataDir + "WorkingWithVba.CreateVbaProject.docm");
 ```
 
-這行程式碼會將文件以「WorkingWithVba.CreateVbaProject.docm」的形式儲存到您指定的目錄中。恭喜！您已經建立了一個包含 VBA 專案的 Word 文件。
+此行將文件儲存為「WorkingWithVba.CreateVbaProject.docm」作為您指定的目錄。恭喜！您已經使用 VBA 專案建立了一個 Word 文件。
 
 ## 結論
 
@@ -98,16 +98,16 @@ doc.Save(dataDir + "WorkingWithVba.CreateVbaProject.docm");
 ## 常見問題解答
 
 ### 什麼是 Aspose.Words for .NET？
-Aspose.Words for .NET 是一個功能強大的程式庫，可讓開發人員在 .NET 應用程式中建立、編輯和轉換 Word 文件。它是自動化文件工作流程和使用 VBA 增強功能的理想選擇。
+Aspose.Words for .NET 是一個強大的程式庫，可讓開發人員在 .NET 應用程式中建立、編輯和轉換 Word 文件。它是自動化文件工作流程和使用 VBA 增強功能的理想選擇。
 
 ### 我可以免費試用 Aspose.Words 嗎？
-當然！你可以嘗試使用 Aspose.Words [免費試用](https://releases.aspose.com/) 或獲得 [臨時執照](https://purchase.aspose.com/temporary-license/) 以供評估。
+絕對地！您可以嘗試使用 Aspose.Words [免費試用](https://releases.aspose.com/) 或獲得 [臨時執照](https://purchase.aspose.com/temporary-license/) 以供評估。
 
 ### 如何為 Word 文件新增 VBA 程式碼？
 若要新增 VBA 程式碼，請建立一個 `VbaModule`，設定其 `SourceCode` 屬性與您的巨集程式碼，並將模組新增至您的 `VbaProject`。
 
 ### 我可以建立哪些類型的 VBA 模組？
-您可以建立各種類型的 VBA 模組，包括流程模組（用於函數和子程式）、類別模組和使用者窗體。在本教程中，我們重點介紹了過程模組。
+您可以建立各種類型的 VBA 模組，包括流程模組（用於函數和子模組）、類別模組和使用者窗體。在本教程中，我們將重點放在程式模組上。
 
 ### 我可以在哪裡購買 Aspose.Words for .NET？
 您可以從 [購買頁面](https://purchase。aspose.com/buy).

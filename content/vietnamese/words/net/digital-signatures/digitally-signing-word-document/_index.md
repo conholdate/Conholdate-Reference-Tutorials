@@ -1,8 +1,8 @@
 ---
 "description": "Tìm hiểu cách ký tài liệu Word theo chương trình bằng Aspose.Words cho .NET trong hướng dẫn từng bước toàn diện này."
-"linktitle": "Chữ ký số cho tài liệu Word"
+"linktitle": "Chữ ký số vào tài liệu Word"
 "second_title": "API xử lý tài liệu Aspose.Words"
-"title": "Chữ ký số cho tài liệu Word"
+"title": "Chữ ký số vào tài liệu Word"
 "url": "/vi/words/net/digital-signatures/digitally-signing-word-document/"
 "weight": 10
 ---

@@ -69,7 +69,7 @@ string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document doc = new Document(dataDir + "SampleDocument.doc");
 ```
 
-Sau đây là những gì đang diễn ra đằng sau hậu trường: Aspose.Words đọc định dạng DOC nhị phân, phân tích toàn bộ nội dung (văn bản, định dạng, hình ảnh, bảng biểu - tất cả mọi thứ) và tạo ra một biểu diễn trong bộ nhớ. Quá trình này diễn ra khá nhanh, ngay cả với các tài liệu lớn.
+Sau đây là những gì đang diễn ra ở hậu trường: Aspose.Words đọc định dạng DOC nhị phân, phân tích toàn bộ nội dung (văn bản, định dạng, hình ảnh, bảng biểu - tất cả mọi thứ) và tạo ra một biểu diễn trong bộ nhớ. Quá trình này diễn ra khá nhanh, ngay cả với các tài liệu lớn.
 
 **Mẹo chuyên nghiệp**: Luôn sử dụng đường dẫn tệp đầy đủ và đảm bảo tệp DOC của bạn thực sự tồn tại ở vị trí đó. Nếu tệp bị thiếu, bạn sẽ nhận được `FileNotFoundException`.
 
@@ -82,7 +82,7 @@ Sau đây là những gì đang diễn ra đằng sau hậu trường: Aspose.Wo
 doc.Save(dataDir + "ConvertedDocument.docx", SaveFormat.Docx);
 ```
 
-Vậy thôi! Nghiêm túc mà nói. Aspose.Words xử lý toàn bộ quá trình chuyển đổi định dạng phức tạp nội bộ. Nó sẽ nhận tài liệu DOC đã tải của bạn và lưu dưới dạng tệp DOCX, giữ nguyên mọi định dạng, hình ảnh, bảng biểu và các thành phần khác.
+Vậy thôi! Nghiêm túc mà nói. Aspose.Words xử lý tất cả các thao tác chuyển đổi định dạng phức tạp một cách nội bộ. Nó sẽ nhận tài liệu DOC đã tải của bạn và lưu dưới dạng tệp DOCX, giữ nguyên mọi định dạng, hình ảnh, bảng biểu và các thành phần khác.
 
 Các `SaveFormat.Docx` Tham số này cho Aspose.Words biết chính xác định dạng bạn muốn. Bạn cũng có thể dễ dàng chỉ định `SaveFhoặcmat.Pdf` or `SaveFormat.Html` nếu bạn cần các định dạng đầu ra khác nhau.
 
@@ -210,4 +210,4 @@ Document doc = new Document("protected-file.doc", options);
 Không có giới hạn cứng, nhưng các tệp rất lớn (>500MB) có thể cần nhiều bộ nhớ và thời gian xử lý hơn. Để có hiệu suất tối ưu, hãy cân nhắc xử lý các tệp cực lớn thành các phần nhỏ hơn hoặc nâng cấp tài nguyên hệ thống.
 
 ### Tôi có thể tìm tài liệu và hỗ trợ về Aspose.Words ở đâu?
-Bạn có thể truy cập tài liệu đầy đủ [đây](https://reference.aspose.com/words/net/)Để được hỗ trợ và thảo luận cộng đồng, hãy truy cập [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8). Cũng có bản dùng thử miễn phí [đây](https://releases.aspose.com/) nếu bạn muốn thử nghiệm trước.
+Bạn có thể truy cập tài liệu đầy đủ [đây](https://reference.aspose.com/words/net/)Để được hỗ trợ và thảo luận cộng đồng, hãy truy cập [Diễn đàn hỗ trợ Aspose.Words](https://forum.aspose.com/c/words/8). Ngoài ra còn có bản dùng thử miễn phí [đây](https://releases.aspose.com/) nếu bạn muốn thử nghiệm trước.

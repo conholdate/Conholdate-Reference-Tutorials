@@ -1,20 +1,21 @@
 ---
-title: Parola Korumalı Belgeleri Yükleme
-linktitle: Parola Korumalı Belgeleri Yükle
-second_title: GroupDocs.Viewer .NET API
-description: GroupDocs.Viewer ile belge görüntüleme yeteneklerini .NET uygulamalarınıza zahmetsizce nasıl entegre edeceğinizi keşfedin. Bu eğitim kapsamlı, adım adım bir kılavuz sunar.
-weight: 12
-url: /tr/viewer/advanced-document-loading/loading-password-protected-document/
+"description": "GroupDocs.Viewer ile belge görüntüleme özelliklerini .NET uygulamalarınıza nasıl zahmetsizce entegre edebileceğinizi keşfedin. Bu eğitim, kapsamlı ve adım adım bir kılavuz sunar."
+"linktitle": "Şifreyle Korunan Belgeleri Yükle"
+"second_title": "GroupDocs.Viewer .NET API"
+"title": "Şifreyle Korunan Belgeleri Yükleme"
+"url": "/tr/viewer/net/advanced-document-loading/loading-password-protected-document/"
+"weight": 12
 ---
+
 ## giriiş
 
-Dijital ortamda, çeşitli belge biçimlerini yönetme ve görüntüleme yeteneği işletmeler ve bireyler için hayati önem taşır. .NET için GroupDocs.Viewer, geliştiricilerin belge görüntüleme yeteneklerini uygulamalarına zahmetsizce entegre etmeleri için sağlam bir çözüm sunar. Bu eğitim, parola korumalı belgeleri adım adım yükleme sürecinde size rehberlik edecek ve bu özelliği projelerinizde sorunsuz bir şekilde uygulayabilmenizi sağlayacaktır.
+Dijital dünyada, çeşitli belge biçimlerini yönetme ve görüntüleme yeteneği, işletmeler ve bireyler için hayati önem taşır. GroupDocs.Viewer for .NET, geliştiricilerin belge görüntüleme özelliklerini uygulamalarına zahmetsizce entegre etmeleri için güçlü bir çözüm sunar. Bu eğitim, parola korumalı belgeleri adım adım yükleme sürecinde size rehberlik ederek, bu özelliği projelerinizde sorunsuz bir şekilde uygulayabilmenizi sağlar.
 
 ## Ön koşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  GroupDocs.Viewer for .NET Yüklendi: Şuradan indirin:[web sitesi](https://releases.groupdocs.com/viewer/net/).
+1. .NET için GroupDocs.Viewer Yüklendi: Şuradan indirin: [web sitesi](https://releases.groupdocs.com/viewer/net/).
 2. Şifreyle Korunan Belge: Test için şifreyle korunan bir belgeyi hazır bulundurun.
 
 ## Gerekli Ad Alanlarını İçe Aktar
@@ -34,7 +35,7 @@ using GroupDocs.Viewer.Options;
 ```csharp
 string outputDirectory = "Your Document Directory";
 ```
- Değiştirdiğinizden emin olun`"Your Document Directory"` kullanmak istediğiniz gerçek yol ile.
+Değiştirdiğinizden emin olun `"Your Document Directory"` kullanmak istediğiniz gerçek yol ile.
 
 ## Adım 2: Sayfa Dosyası Yolu Biçimini Ayarlayın
 
@@ -44,7 +45,7 @@ Her oluşturulan sayfanın dosya yollarının biçimini tanımlayın:
 string pageFilePathFormat = Path.Combine(outputDirectory, "page_{0}.html");
 ```
 
- Bu, şu şekilde yollar üretecektir:`"Your Document Directory/page_1.html"`, `"Your Document Directory/page_2.html"`, vesaire.
+Bu, aşağıdaki gibi yollar üretecektir: `"Your Document Directory/page_1.html"`, `"Your Document Directory/page_2.html"`, vesaire.
 
 ## Adım 3: Yükleme Seçeneklerini Yapılandırın
 
@@ -59,7 +60,7 @@ LoadOptions loadOptions = new LoadOptions
 
 ## Adım 4: Görüntüleyiciyi Başlatın
 
-Belgeniz ve yükleme seçenekleriyle bir GroupDocs.Viewer örneği oluşturun:
+Belgeniz ve yükleme seçenekleriyle GroupDocs.Viewer örneğini oluşturun:
 
 ```csharp
 using (Viewer viewer = new Viewer("Path_to_your_document", loadOptions))
@@ -67,7 +68,7 @@ using (Viewer viewer = new Viewer("Path_to_your_document", loadOptions))
     // Görüntüleme seçenekleri için kod bir sonraki adımda eklenecektir.
 }
 ```
- Değiştirdiğinizden emin olun`"Path_to_your_document"` belgenizin gerçek yolunu belirtin.
+Değiştirdiğinizden emin olun `"Path_to_your_document"` belgenizin gerçek yolunu belirtin.
 
 ## Adım 5: HTML Görünüm Seçeneklerini Yapılandırın
 
@@ -85,9 +86,9 @@ HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources(pageFilePathForma
 viewer.View(options);
 ```
 
-## Adım 7: Başarılı Mesajını Göster
+## Adım 7: Başarılı Mesajını Görüntüle
 
-Son olarak, kullanıcıya belgenin başarıyla işlendiğini bildirin:
+Son olarak, kullanıcıya belgenin başarıyla oluşturulduğunu bildirin:
 
 ```csharp
 Console.WriteLine($"\nSource document rendered successfully.\nCheck output in {outputDirectory}.");
@@ -95,7 +96,7 @@ Console.WriteLine($"\nSource document rendered successfully.\nCheck output in {o
 
 ## Çözüm
 
-Bu eğitimde, GroupDocs.Viewer for .NET kullanarak parola korumalı belgelerin nasıl yükleneceğini inceledik. Geliştiriciler bu adımları izleyerek bu işlevselliği uygulamalarına kolayca entegre edebilir ve kullanıcıların korumalı belgeleri zahmetsizce görüntülemesine olanak tanır.
+Bu eğitimde, .NET için GroupDocs.Viewer kullanarak parola korumalı belgelerin nasıl yükleneceğini inceledik. Geliştiriciler, bu adımları izleyerek bu işlevi uygulamalarına kolayca entegre edebilir ve kullanıcıların korumalı belgeleri zahmetsizce görüntülemelerine olanak tanıyabilir.
 
 ## SSS
 
@@ -103,11 +104,11 @@ Bu eğitimde, GroupDocs.Viewer for .NET kullanarak parola korumalı belgelerin n
 
 Evet, GroupDocs.Viewer PDF, DOCX, XLSX, PPTX ve daha fazlası dahil olmak üzere çok çeşitli formatları destekler.
 
-### GroupDocs.Viewer .NET Core ile uyumlu mudur?
+### GroupDocs.Viewer .NET Core ile uyumlu mu?
 
 Kesinlikle! GroupDocs.Viewer hem .NET Framework hem de .NET Core ortamlarıyla uyumludur.
 
-### Belgelerin görüntüleme seçeneklerini özelleştirebilir miyim?
+### Belgeler için görüntüleme seçeneklerini özelleştirebilir miyim?
 
 Evet, GroupDocs.Viewer çeşitli görüntüleme seçenekleri sunarak görüntüleme deneyiminizi ihtiyaçlarınıza göre uyarlamanıza olanak tanır.
 
@@ -117,4 +118,4 @@ Evet, belge açıklamalarını destekler ve kullanıcıların yorum, vurgulama v
 
 ### GroupDocs.Viewer için deneme sürümü mevcut mu?
 
- Evet, ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[web sitesi](https://releases.groupdocs.com/).
+Evet, ücretsiz deneme sürümünü şu adresten edinebilirsiniz: [web sitesi](https://releases.groupdocs.com/).

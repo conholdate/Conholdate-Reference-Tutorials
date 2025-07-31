@@ -61,7 +61,7 @@ Install-Package Aspose.Words
 
 ### Sécuriser votre clé API OpenAI
 
-Vous aurez besoin d'une clé API OpenAI pour accéder à leurs modèles linguistiques. Rendez-vous sur [Site Web d'OpenAI](https://openai.com/), créez un compte et récupérez votre clé API. **Ne jamais coder en dur cette clé** – nous vous montrerons la manière sécurisée de le gérer plus tard dans ce guide.
+Vous aurez besoin d'une clé API OpenAI pour accéder à leurs modèles linguistiques. Rendez-vous sur [Site Web d'OpenAI](https://openai.com/)créez un compte et récupérez votre clé API. **Ne jamais coder en dur cette clé** – nous vous montrerons la manière sécurisée de le gérer plus tard dans ce guide.
 
 ### Configuration de l'environnement de développement
 Bien que vous puissiez utiliser n’importe quel IDE compatible .NET, **Visual Studio** offre la meilleure expérience pour ce didacticiel, avec une excellente prise en charge d'IntelliSense et des capacités de débogage pour les intégrations Aspose.Words et API.

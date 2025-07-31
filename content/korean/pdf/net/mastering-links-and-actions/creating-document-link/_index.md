@@ -78,7 +78,7 @@ Page page = document.Pages[1]; // Aspose에서는 페이지가 1부터 인덱싱
 
 ### 4단계: 링크 주석 만들기
 
-이제 만들어 보겠습니다. `LinkAnnotation` 사용자가 클릭할 항목:
+이제, 만들어 보겠습니다. `LinkAnnotation` 사용자가 클릭할 항목:
 
 ```csharp
 LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100, 300, 300));
@@ -222,7 +222,7 @@ Document document = new Document(dataDir + "CreateDocumentLink.pdf");
 Page page = document.Pages[1];
 ```
 
-Aspose에서는 페이지가 0부터 인덱싱됩니다. 즉, 사용자별로 1부터 시작합니다. 이 단계는 링크 추가를 위한 준비 단계입니다.
+Aspose에서는 페이지가 0부터 인덱싱됩니다. 즉, 사용자 페이지를 1부터 시작합니다. 이 단계는 링크 추가를 위한 준비 단계입니다.
 
 ## 4단계: 링크 주석 만들기
 
@@ -247,7 +247,7 @@ link.Action = new GoToRemoteAction(dataDir + "RemoveOpenAction.pdf", 1);
 
 ## 6단계: 페이지에 링크 주석 추가
 
-링크가 준비되면 실을 바늘에 꿰듯이 페이지에 링크를 첨부할 차례입니다. 
+링크가 준비되면 실을 바늘에 꿰듯이 페이지에 링크를 연결할 차례입니다. 
 
 ```csharp
 page.Annotations.Add(link);

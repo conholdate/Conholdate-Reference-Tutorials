@@ -1,7 +1,7 @@
 ---
 "description": "Odkryj kompleksowe samouczki dotyczące efektywnego zarządzania arkuszami kalkulacyjnymi programu Excel za pomocą Aspose.Cells dla platformy .NET, opracowane specjalnie dla programistów C#."
-"linktitle": "Kompleksowy przewodnik po pracy z arkuszami kalkulacyjnymi Excela, samouczki C#"
-"title": "Kompleksowy przewodnik po pracy z arkuszami kalkulacyjnymi Excela, samouczki C#"
+"linktitle": "Kompleksowy przewodnik po pracy z arkuszami kalkulacyjnymi programu Excel, samouczki języka C#"
+"title": "Kompleksowy przewodnik po pracy z arkuszami kalkulacyjnymi programu Excel, samouczki języka C#"
 "url": "/pl/cells/net/guide-to-working-with-excel-worksheets/"
 "weight": 12
 ---

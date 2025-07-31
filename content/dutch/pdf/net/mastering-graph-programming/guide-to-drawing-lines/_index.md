@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Het tekenen van lijnen in een PDF kan visuele presentaties verbeteren, diagrammen creëren en belangrijke informatie benadrukken. In deze handleiding leggen we uit hoe je effectief lijnen tekent in een PDF-document met Aspose.PDF voor .NET. We behandelen alles, van het instellen van je omgeving tot het uitvoeren van code die een PDF met getekende lijnen genereert.
+Het tekenen van lijnen in een PDF kan visuele presentaties verbeteren, diagrammen creëren en belangrijke informatie benadrukken. In deze handleiding onderzoeken we hoe je effectief lijnen tekent in een PDF-document met Aspose.PDF voor .NET. We behandelen alles, van het instellen van je omgeving tot het uitvoeren van code die een PDF met getekende lijnen produceert.
 
 ## Vereisten
 
@@ -91,7 +91,7 @@ graph.Shapes.Add(line2);
 
 ## Stap 6: Voeg de grafiek toe aan de pagina
 
-Met beide lijnen getekend, voeg de `Graph` object op de pagina:
+Voeg, met beide lijnen getekend, de `Graph` object op de pagina:
 
 ```csharp
 // Voeg het Graph-object toe aan de alineaverzameling van de pagina
@@ -122,7 +122,7 @@ Ja, u kunt verschillende vormen tekenen, zoals rechthoeken, ellipsen en veelhoek
 U kunt de `StrokeColor` En `LineWidth` eigenschappen van de `Line` object om het uiterlijk ervan aan te passen.
 
 ### Kan ik lijnen op specifieke plekken op de pagina plaatsen?
-Absoluut! Wijzig de coördinaten van de `Line` object zodat u het kunt plaatsen waar u het nodig heeft.
+Absoluut! Wijzig de coördinaten van de `Line` object zodat u het kunt plaatsen waar u het nodig hebt.
 
 ### Is het mogelijk om tekst aan de lijnen toe te voegen?
 Ja, je kunt creëren `TextFragment` objecten en voeg ze toe aan de alineaverzameling van de pagina.

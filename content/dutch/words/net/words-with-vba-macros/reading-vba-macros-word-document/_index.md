@@ -2,7 +2,7 @@
 "description": "Ontdek hoe u VBA-macro's efficiënt kunt lezen en extraheren uit Word-documenten met Aspose.Words voor .NET. Deze gedetailleerde handleiding biedt stapsgewijze instructies, inclusief codevoorbeelden."
 "linktitle": "VBA-macro's lezen vanuit Word-documenten"
 "second_title": "Aspose.Words API voor documentverwerking"
-"title": "VBA-macro's lezen uit Word-documenten met Aspose.Words"
+"title": "VBA-macro's uit Word-documenten lezen met Aspose.Words"
 "url": "/nl/words/net/words-with-vba-macros/reading-vba-macros-word-document/"
 "weight": 10
 ---
@@ -51,7 +51,7 @@ Document doc = new Document(dataDir + "VBA project.docm");
 
 Dit codefragment initialiseert de `doc` object met het opgegeven document.
 
-## Stap 3: Controleren op aanwezigheid van VBA-projecten
+## Stap 3: Controleer op aanwezigheid van VBA-projecten
 
 Controleer voordat u macro's opent of het document een VBA-project bevat. Deze validatie zorgt ervoor dat de code alleen doorgaat als er VBA-inhoud beschikbaar is.
 

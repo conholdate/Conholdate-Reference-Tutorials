@@ -13,7 +13,7 @@ Vill du höja din automatiseringsnivå i Excel med .NET? Aspose.Cells för .NET 
 
 ## Lägga till och rensa sidbrytningar  
 
-Tänk dig att du försöker skriva ut ett perfekt formaterat Excel-ark, och sidbrytningarna är överallt! Med Aspose.Cells kan du enkelt lägga till horisontella och vertikala sidbrytningar för att säkerställa en ren utskriftslayout. Behöver du börja om från början? Du kan ta bort alla sidbrytningar på en gång! Dessa guider guidar dig genom varje steg med detaljerade kodavsnitt.  
+Tänk dig att du försöker skriva ut ett perfekt formaterat Excel-ark, och sidbrytningarna är överallt! Med Aspose.Cells kan du enkelt lägga till horisontella och vertikala sidbrytningar för att säkerställa en ren utskriftslayout. Behöver du börja om från början? Du kan ta bort alla sidbrytningar på en gång! De här guiderna guidar dig genom varje steg med detaljerade kodavsnitt.  
 
 [Lägga till sidbrytningar i kalkylblad med hjälp av Aspose.Cells](./adding-page-breaks/)  
 [Rensa sidbrytningar från kalkylblad med hjälp av Aspose.Cells](./clear-page-breaks/)  

@@ -65,7 +65,7 @@ Le intestazioni sono composte da tre sezioni: sinistra, centro e destra. Iniziam
 pageSetup.SetHeader(0, "&A");
 ```
 
-Utilizzo `&A` visualizza dinamicamente il nome del foglio di lavoro, il che è particolarmente utile per le cartelle di lavoro con più fogli.
+Utilizzando `&A` visualizza dinamicamente il nome del foglio di lavoro, il che è particolarmente utile per le cartelle di lavoro con più fogli.
 
 ## Passaggio 4: aggiungere data e ora al centro dell'intestazione
 

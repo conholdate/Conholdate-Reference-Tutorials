@@ -9,14 +9,14 @@
 
 ## 介紹  
 
-使用 Aspose.PDF for .NET 時，評估版會施加某些限制，例如 PDF 帶有浮水印以及功能受限。透過應用許可證，開發人員可以解鎖全套功能，從而實現高效的 PDF 創建、操作和轉換。本指南將逐步講解如何有效地載入許可證文件。  
+使用 Aspose.PDF for .NET 時，評估版本會施加某些限制，例如帶有浮水印的 PDF 和受限的功能。透過申請許可證，開發人員可以解鎖全套功能，實現高效的 PDF 創建、操作和轉換。本指南介紹了有效載入許可證文件的逐步過程。  
 
 ## 先決條件  
 
 若要遵循本指南，請確保您具備以下條件：  
 
-- Aspose.PDF for .NET：在您的開發環境中安裝該程式庫。下載地址： [Aspose PDF 發布](https://releases。aspose.com/pdf/net/).  
-- 許可證文件：取得有效的 `.lic` 文件。如需臨時許可證，請訪問 [Aspose臨時許可證](https://purchase。aspose.com/temporary-license/).  
+- Aspose.PDF for .NET：在您的開發環境中安裝該程式庫。從下載 [Aspose PDF 發布](https://releases。aspose.com/pdf/net/).  
+- 許可證文件：取得有效的 `.lic` 文件。如需臨時駕照，請訪問 [Aspose臨時許可證](https://purchase。aspose.com/temporary-license/).  
 - 開發環境：使用 Visual Studio 等 IDE 進行順利編碼和測試。  
 - C# 基礎知識：熟悉 C# 語法將使實現變得無縫。  
 
@@ -39,7 +39,7 @@ using System.Text;
 
 ## 步驟 1：初始化許可證對象  
 
-第一步是創建 `License` 類。此物件將有助於將許可證套用至 Aspose.PDF 庫。  
+第一步是創建 `License` 班級。該物件將有助於將許可證應用於 Aspose.PDF 庫。  
 
 ```csharp
 Aspose.Pdf.License license = new Aspose.Pdf.License();
@@ -47,7 +47,7 @@ Aspose.Pdf.License license = new Aspose.Pdf.License();
 
 ## 第 2 步：定義許可證路徑  
 
-指定包含許可證文件的目錄。您可以對路徑進行硬編碼，也可以使用動態路徑解析以提高靈活性。  
+指定包含許可證文件的目錄。您可以對路徑進行硬編碼或使用動態路徑解析以實現靈活性。  
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -76,7 +76,7 @@ Console.WriteLine("License applied successfully.");
 
 ## 結論  
 
-在 Aspose.PDF for .NET 中套用授權可確保您能夠充分利用其進階功能，且不受任何限制。按照本指南中概述的步驟，您可以無縫地從文件載入許可證，並增強您的文件處理能力。正確的設定和驗證對於不間斷的使用至關重要。  
+在 Aspose.PDF for .NET 中套用許可證可確保您可以不受限制地充分利用其進階功能。透過遵循本指南中概述的步驟，您可以無縫地從文件載入許可證並增強您的文件處理能力。正確的設定和驗證對於不間斷使用至關重要。  
 
 ## 常見問題解答  
 
@@ -87,7 +87,7 @@ Console.WriteLine("License applied successfully.");
 是的，您可以使用 `SetLicense` 方法使用流物件而不是檔案路徑。  
 
 ### 我如何驗證許可證是否已套用？  
-透過建立 PDF 並檢查浮水印或限制來執行測試。如果沒有浮水印，則表示許可證有效。  
+透過建立 PDF 並檢查浮水印或限制來執行測試。如果沒有出現浮水印，則許可證有效。  
 
 ### 我可以在哪裡獲得 Aspose.PDF 的許可證？  
 從購買許可證 [Aspose購買頁面](https://purchase.aspose.com/buy) 或取得臨時許可證以用於評估目的。  

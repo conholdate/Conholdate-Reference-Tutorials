@@ -1,25 +1,26 @@
 ---
-title: 使用 Aspose.Slides 在 PowerPoint 中擷取圖表數據
-linktitle: 使用 Aspose.Slides 在 PowerPoint 中擷取圖表數據
-second_title: Aspose.Slides .NET PowerPoint 處理 API
-description: 透過學習如何以程式設計方式從 PowerPoint 簡報中的圖表中提取資料範圍，釋放 Aspose.Slides for .NET 的強大功能。本逐步指南提供了清晰的說明。
-weight: 11
-url: /zh-hant/slides/master-additional-chart-features/get-chart-data-extraction/
+"description": "透過學習如何以程式設計方式從 PowerPoint 簡報中的圖表中提取資料範圍，釋放 Aspose.Slides for .NET 的強大功能。本逐步指南提供了清晰的說明。"
+"linktitle": "使用 Aspose.Slides 在 PowerPoint 中擷取圖表數據"
+"second_title": "Aspose.Slides .NET PowerPoint 處理 API"
+"title": "使用 Aspose.Slides 在 PowerPoint 中擷取圖表數據"
+"url": "/zh-hant/slides/net/master-additional-chart-features/get-chart-data-extraction/"
+"weight": 11
 ---
+
 ## 介紹
 
 您是否希望使用 Aspose.Slides for .NET 從 PowerPoint 簡報中的圖表中提取資料範圍？您來對地方了！本逐步指南將向您展示如何利用 Aspose.Slides 的強大功能以程式設計方式取得圖表資料範圍。
 
 ## 先決條件
 
-在我們開始之前，請確保您具備以下條件：
+在開始之前，請確保您具備以下條件：
 
-1.  Aspose.Slides for .NET：從以下位置下載並安裝它[這裡](https://releases.aspose.com/slides/net/).
-2. 開發環境：設定一個IDE，如Visual Studio。
+1. Aspose.Slides for .NET：從以下位置下載並安裝 [這裡](https://releases。aspose.com/slides/net/).
+2. 開發環境：設定一個像 Visual Studio 這樣的 IDE。
 
-## 步驟1：導入必要的命名空間
+## 步驟 1：導入必要的命名空間
 
-首先匯入存取 Aspose.Slides 類別和方法所需的命名空間：
+首先匯入所需的命名空間來存取 Aspose.Slides 類別和方法：
 
 ```csharp
 using Aspose.Slides;
@@ -27,26 +28,26 @@ using Aspose.Slides.Charts;
 using System;
 ```
 
-## 第 2 步：建立演示對象
+## 步驟 2：建立演示對象
 
-接下來，建立一個代表 PowerPoint 文件的簡報物件：
+接下來，建立一個代表您的 PowerPoint 文件的簡報物件：
 
 ```csharp
 using (Presentation pres = new Presentation())
 {
-    //新增圖表的程式碼將位於此處
+    // 新增圖表的程式碼將放在此處
 }
 ```
 
-## 步驟 3：將圖表新增至投影片
+## 步驟 3：為投影片新增圖表
 
-現在，讓我們將圖表新增到簡報的第一張投影片中。您可以選擇圖表類型並指定其位置和大小：
+現在，讓我們在簡報的第一張投影片中新增一個圖表。您可以選擇圖表類型並指定其位置和大小：
 
 ```csharp
 IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.ClusteredColumn, 10, 10, 400, 300);
 ```
 
-## 第 4 步：檢索圖表資料範圍
+## 步驟 4：檢索圖表資料範圍
 
 若要取得圖表所依據的資料範圍，請使用下列程式碼：
 
@@ -54,9 +55,9 @@ IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.ClusteredColumn, 10, 10,
 string result = chart.ChartData.GetRange();
 ```
 
-## 第 5 步：顯示結果
+## 步驟5：顯示結果
 
-最後，將圖表資料範圍列印到控制台：
+最後將圖表資料範圍列印到控制台：
 
 ```csharp
 Console.WriteLine("Chart Data Range: {0}", result);
@@ -68,17 +69,17 @@ Console.WriteLine("Chart Data Range: {0}", result);
 
 ## 常見問題解答
 
-### Aspose.Slides for .NET 與最新版本的 Microsoft PowerPoint 相容嗎？
-是的，Aspose.Slides for .NET 支援各種 PowerPoint 文件格式，包括最新的文件格式。具體請參閱文件。
+### Aspose.Slides for .NET 是否與最新版本的 Microsoft PowerPoint 相容？
+是的，Aspose.Slides for .NET 支援各種 PowerPoint 文件格式，包括最新的格式。有關詳細信息，請參閱文件。
 
 ### 我可以使用 Aspose.Slides for .NET 操作 PowerPoint 簡報中的其他元素嗎？
 絕對地！您可以在簡報中使用投影片、形狀、文字、圖像等。
 
 ### Aspose.Slides for .NET 有免費試用版嗎？
-是的，您可以從以下位置下載免費試用版[這裡](https://releases.aspose.com/).
+是的，您可以從下載免費試用版 [這裡](https://releases。aspose.com/).
 
 ### 如何取得 Aspose.Slides for .NET 的臨時授權？
-申請臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+申請臨時執照 [這裡](https://purchase。aspose.com/temporary-license/).
 
-### .NET 使用者的 Aspose.Slides 可以使用哪些支援選項？
-您可以從 Aspose 社群獲得支持和協助[支援論壇](https://forum.aspose.com/).
+### Aspose.Slides for .NET 使用者可以獲得哪些支援選項？
+您可以在 Aspose 社區上找到支持和幫助 [支援論壇](https://forum。aspose.com/).

@@ -34,7 +34,7 @@ Excel 워크시트에 특정 댓글이 언제 추가되었는지 궁금했던 �
 ## 워크시트 작업 튜토리얼 가이드
 ### [.NET에서 Aspose.Cells를 사용하여 HTML 이미지 기본 설정 지정](./setting-image-preferences/)
 Aspose.Cells for .NET을 사용하여 Excel 스프레드시트를 시각적으로 매력적인 HTML 웹 페이지로 효과적으로 변환하는 방법을 알아보세요. 이 단계별 가이드에서는 이미지 기본 설정부터 텍스트 렌더링 최적화까지 모든 것을 다룹니다.
-### [Excel 워크시트에서 스레드된 댓글 편집](./editing-threaded-comments/)
+### [Excel 워크시트에서 스레드 댓글 편집](./editing-threaded-comments/)
 Aspose.Cells for .NET을 사용하여 스레드 댓글을 편집하는 방법에 대한 포괄적인 가이드를 통해 Excel 협업의 잠재력을 최대한 활용하세요. 이 문서는 Excel 워크시트 내에서 소통을 개선하는 명확하고 단계별 접근 방식을 제공합니다.
 ### [Aspose.Cells를 사용하여 스레드 댓글의 생성 시간 읽기](./read-created-time-of-threaded-comment/)
 Aspose.Cells for .NET을 사용하여 Excel 워크시트에서 스레드 댓글의 생성 시간을 쉽게 읽는 방법을 알아보세요. 단계별 지침이 포함된 자세한 가이드를 참조하세요.

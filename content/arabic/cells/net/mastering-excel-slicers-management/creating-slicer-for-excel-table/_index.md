@@ -92,7 +92,7 @@ ListObject table = worksheet.ListObjects[0];
 الآن، دعونا نضيف المقطع إلى جدولنا:
 
 ```csharp
-// إضافة شريحة
+// إضافة قطاعة
 int idx = worksheet.Slicers.Add(table, 0, "H5");
 ```
 
@@ -121,7 +121,7 @@ Console.WriteLine("Slicer created successfully in the Excel table.");
 
 ## الأسئلة الشائعة
 
-### ما هي الشريحة في Excel؟
+### ما هي المقطعة في Excel؟
 المُقسّم هو أداة تصفية مرئية تسمح للمستخدمين بترشيح البيانات في الجداول بسهولة، مما يؤدي إلى تحسين تفاعل البيانات.
 
 ### هل يمكنني تخصيص مظهر المقطع؟

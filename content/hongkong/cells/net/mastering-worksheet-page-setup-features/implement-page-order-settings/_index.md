@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Cells for .NET 在 Excel 中設定頁面順序設定。本逐步指南示範如何先按行列印，再按列列印，確保您的大型電子表格在紙張上清晰顯示。"
+"description": "了解如何使用 Aspose.Cells for .NET 在 Excel 中設定頁面順序設定。本逐步指南示範如何先跨行列印，然後沿列列印，以確保您的大型電子表格整齊地顯示在紙上。"
 "linktitle": "在工作表中實作頁面順序設定"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "在工作表中實作頁面順序設定"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-處理大型 Excel 電子表格時，控制列印佈局對於清晰有序的工作表至關重要。 Aspose.Cells for .NET 提供強大的功能，讓您輕鬆自訂工作表的列印設定。在本指南中，我們將逐步講解如何設定頁面順序，先按行列印，再按列列印。
+處理大型 Excel 電子表格時，控製列印佈局對於清晰度和組織性至關重要。 Aspose.Cells for .NET 提供了強大的功能，讓您可以輕鬆自訂工作表的列印設定。在本指南中，我們將逐步介紹如何設定頁面順序，即先跨行列印，然後沿列列印。
 
 ## 先決條件
 
@@ -55,7 +55,7 @@ PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 
 ## 步驟 3：將頁面順序設定為 OverThenDown
 
-現在，讓我們設定頁面順序。預設情況下，Excel 會先按列列印；我們將它變更為先按行列印。
+現在，讓我們設定頁面順序。預設情況下，Excel 首先列印每一列；我們將首先將其變更為跨行列印。
 
 ```csharp
 // 將列印順序設定為“OverThenDown”
@@ -75,11 +75,11 @@ string dataDir = "Your Document Directory/";
 workbook.Save(dataDir + "SetPageOrder_out.xls");
 ```
 
-代替 `"Your Document Directory"` 並將其儲存為您想要的檔案路徑。您也可以將其儲存為其他格式，例如 `.xlsx`，透過更改檔案副檔名。
+代替 `"Your Document Directory"` 使用您想要的檔案路徑。您也可以將其儲存為其他格式，例如 `.xlsx`，透過更改檔案副檔名。
 
 ## 結論
 
-恭喜！您已成功使用 Aspose.Cells for .NET 設定 Excel 工作表中的頁面順序。這項簡單的調整可以顯著增強大型資料集的列印呈現效果。 Aspose.Cells 還提供許多其他可自訂的列印設置，使其成為報表準備和文件整理的寶貴工具。
+恭喜！您已成功使用 Aspose.Cells for .NET 在 Excel 工作表中設定頁面順序。這種簡單的調整可以顯著增強大型資料集列印時的呈現效果。 Aspose.Cells 提供許多其他可自訂的列印設置，使其成為報告準備和文件組織的寶貴工具。
 
 ## 常見問題解答
 
@@ -93,7 +93,7 @@ workbook.Save(dataDir + "SetPageOrder_out.xls");
 
 ### 此程式碼需要許可證嗎？
 
-某些功能在沒有許可證的情況下可能會受到限制。您可以嘗試 [Aspose.Cells for .NET 免費試用](https://releases。aspose.com/).
+如果沒有許可證，某些功能可能會受到限制。你可以嘗試 [Aspose.Cells for .NET 免費試用](https://releases。aspose.com/).
 
 ### 我可以在列印之前預覽頁面順序嗎？
 

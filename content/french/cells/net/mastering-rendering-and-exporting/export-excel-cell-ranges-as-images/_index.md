@@ -79,7 +79,7 @@ Spécifiez la plage de cellules que vous souhaitez convertir en image en défini
 worksheet.PageSetup.PrintArea = "D8:G16";
 ```
 
-Ajuster les références de cellule (`D8:G16`) selon vos besoins spécifiques.
+Ajuster les références de cellule (`D8:G16`) à vos besoins spécifiques.
 
 ## Étape 6 : Configurer les marges de page
 

@@ -113,7 +113,7 @@ Sim, você pode usá-lo com funcionalidade limitada. Para desbloquear todos os r
 ### O Aspose.Email é compatível com o .NET Core?  
 Com certeza! O Aspose.Email é compatível com as plataformas .NET Core, .NET Framework e Xamarin.
 
-### Como faço para depurar problemas com arquivos ICS?  
+### Como depuro problemas com arquivos ICS?  
 Use os recursos de registro robustos do Aspose.Email ou abra o arquivo ICS em um editor de texto para verificar se há erros de sintaxe.
 
 ### Posso modificar outras propriedades além `ProdID`?  

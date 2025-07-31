@@ -157,7 +157,7 @@ bool ValidateEmail(string email)
         }
     }
 
-    // ตรวจสอบที่อยู่อีเมลแบบใช้แล้วทิ้ง
+    // ตรวจสอบที่อยู่อีเมลแบบใช้ครั้งเดียว
     if (DisposableEmailChecker.IsDisposable(email))
         return false;
 

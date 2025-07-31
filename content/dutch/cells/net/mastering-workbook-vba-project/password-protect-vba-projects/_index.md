@@ -1,8 +1,8 @@
 ---
-"description": "Leer stapsgewijs hoe u wachtwoordbeveiliging toepast om uw macro's en gevoelige code te beschermen tegen ongeautoriseerde toegang."
-"linktitle": "VBA-projecten in Excel-werkmappen met een wachtwoord beveiligen"
+"description": "Leer stap voor stap hoe u wachtwoordbeveiliging toepast om uw macro's en gevoelige code te beschermen tegen ongeautoriseerde toegang."
+"linktitle": "VBA-projecten van Excel-werkmappen met een wachtwoord beveiligen"
 "second_title": "Aspose.Cells .NET Excel-verwerkings-API"
-"title": "VBA-projecten in Excel-werkmappen met een wachtwoord beveiligen"
+"title": "VBA-projecten van Excel-werkmappen met een wachtwoord beveiligen"
 "url": "/nl/cells/net/mastering-workbook-vba-project/password-protect-vba-projects/"
 "weight": 13
 ---
@@ -63,7 +63,7 @@ Open het VBA-project dat in de werkmap is ingesloten om beveiliging toe te passe
 Aspose.Cells.Vba.VbaProject vbaProject = workbook.VbaProject;
 ```
 
-## Stap 4: Wachtwoordbeveiliging toepassen
+## Stap 4: Pas wachtwoordbeveiliging toe
 
 Vergrendel het VBA-project met een veilig wachtwoord. Deze stap zorgt ervoor dat alleen geautoriseerde gebruikers de code kunnen bekijken of wijzigen.
 

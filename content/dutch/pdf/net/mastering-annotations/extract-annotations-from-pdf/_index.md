@@ -22,7 +22,7 @@ Zorg ervoor dat u het volgende op orde heeft voordat u begint:
 
 ## Uw omgeving instellen
 
-Om te beginnen, stelt u uw project in door Aspose.PDF voor .NET te installeren via NuGet Package Manager. Voer in de console van Visual Studio Package Manager het volgende uit:
+Om te beginnen, stelt u uw project in door Aspose.PDF voor .NET te installeren via NuGet Package Manager. Voer in de Visual Studio Package Manager-console het volgende uit:
 
 ```shell
 Install-Package Aspose.PDF
@@ -37,7 +37,7 @@ using System;
 using System.IO;
 ```
 
-## Stap 1: Het PDF-document laden
+## Stap 1: laad het PDF-document
 
 Begin met het laden van het PDF-bestand in een Aspose `Document` object. Geef het pad op naar het PDF-bestand met de annotaties.
 
@@ -45,7 +45,7 @@ Begin met het laden van het PDF-bestand in een Aspose `Document` object. Geef he
 // Geef het documentpad op
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// PDF-document laden
+// Laad het PDF-document
 Document pdfDocument = new Document(dataDir + "AnnotatedFile.pdf");
 ```
 
@@ -94,4 +94,4 @@ Absoluut! Je kunt de `AnnotationType` eigenschap om specifieke typen te filteren
 Ja, u kunt Aspose.PDF gratis uitproberen door een proefversie te downloaden van [hier](https://releases.aspose.com/).
 
 ### Waar kan ik ondersteuning vinden voor Aspose.PDF?
-U kunt ondersteuning vinden en vragen stellen op de [Aspose-forum](https://forum.aspose.com/c/pdf/10).
+U kunt op de website ondersteuning vinden en vragen stellen. [Aspose-forum](https://forum.aspose.com/c/pdf/10).

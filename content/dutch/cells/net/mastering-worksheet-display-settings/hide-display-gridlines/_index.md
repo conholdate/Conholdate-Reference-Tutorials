@@ -29,7 +29,7 @@ Stel een Integrated Development Environment (IDE) in, zoals Visual Studio of een
 
 Zodra de vereisten op orde zijn, kunt u met de implementatie beginnen.
 
-## Noodzakelijke bibliotheken importeren
+## Importeren van benodigde bibliotheken
 
 Om met Excel-bestanden te kunnen werken met Aspose.Cells, moet u eerst de relevante naamruimten importeren. Zo doet u dat:
 
@@ -62,7 +62,7 @@ Zorg ervoor dat het bestand (`book1.xlsx`) bestaat in de door u opgegeven direct
 
 ## Stap 3: Het werkmapobject instantiëren
 
-De `Workbook` klasse wordt gebruikt om het volledige Excel-bestand te vertegenwoordigen. Door een exemplaar van deze klasse te maken, krijgt u toegang tot de inhoud van het bestand en kunt u werkbladen bewerken.
+De `Workbook` klasse wordt gebruikt om het volledige Excel-bestand te representeren. Door een exemplaar van deze klasse te maken, krijgt u toegang tot de inhoud van het bestand en kunt u werkbladen bewerken.
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
@@ -72,7 +72,7 @@ Deze code opent de werkmap en maakt deze gereed voor verdere wijzigingen.
 
 ## Stap 4: Toegang tot het werkblad
 
-De meeste gebruikers geven er de voorkeur aan een specifiek werkblad binnen de werkmap te wijzigen. Aspose.Cells gebruikt nulgebaseerde indexering om toegang te krijgen tot werkbladen. Zo krijgt u toegang tot het eerste werkblad:
+De meeste gebruikers geven er de voorkeur aan om een specifiek werkblad binnen de werkmap te wijzigen. Aspose.Cells gebruikt nulgebaseerde indexering om toegang te krijgen tot werkbladen. Zo krijgt u toegang tot het eerste werkblad:
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];  // Toegang tot het eerste werkblad
@@ -80,7 +80,7 @@ Worksheet worksheet = workbook.Worksheets[0];  // Toegang tot het eerste werkbla
 
 ## Stap 5: Rasterlijnen weergeven of verbergen
 
-Nu komt het kerngedeelte: de zichtbaarheid van rasterlijnen regelen. Aspose.Cells maakt dit heel eenvoudig met de `IsGridlinesVisible` eigenschap. U kunt schakelen tussen `true` En `false` afhankelijk van uw behoeften.
+Nu komt het kerngedeelte: de zichtbaarheid van rasterlijnen regelen. Aspose.Cells maakt dit heel eenvoudig met de `IsGridlinesVisible` eigenschap. U kunt er tussen schakelen `true` En `false` afhankelijk van uw behoeften.
 
 Om de rasterlijnen te verbergen:
 

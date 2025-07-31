@@ -108,7 +108,7 @@ Aspose.Cells là một thư viện .NET mạnh mẽ cho phép các nhà phát tr
 Có! Bạn có thể bắt đầu với phiên bản dùng thử miễn phí. Chỉ cần [tải xuống tại đây](https://releases.aspose.com/).
 
 ### Có thể thêm nhiều phần XML tùy chỉnh vào một bảng tính không?
-Chắc chắn rồi! Bạn có thể thêm bao nhiêu phần XML tùy chỉnh tùy theo nhu cầu, mỗi phần có ID riêng để dễ dàng truy cập.
+Hoàn toàn có thể! Bạn có thể thêm bao nhiêu phần XML tùy chỉnh tùy theo nhu cầu, mỗi phần có ID riêng để dễ dàng truy cập.
 
 ### Làm sao tôi có thể lấy các phần XML nếu tôi không biết ID?
 Nếu bạn không biết ID, bạn có thể lặp qua `CustomXmlParts` bộ sưu tập để xem các bộ phận có sẵn và ID của chúng, giúp việc nhận dạng dễ dàng hơn.

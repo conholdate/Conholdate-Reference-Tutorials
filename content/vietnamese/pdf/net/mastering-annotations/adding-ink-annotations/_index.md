@@ -134,7 +134,7 @@ Dòng này thêm chú thích mực vào bộ sưu tập chú thích của trang.
 
 ## Bước 8: Lưu tài liệu
 
-Cuối cùng, lưu tài liệu đã sửa đổi của bạn:
+Cuối cùng, lưu tài liệu đã chỉnh sửa của bạn:
 
 ```csharp
 dataDir = dataDir + "AddInkAnnotation_out.pdf";
@@ -151,7 +151,7 @@ Xin chúc mừng! Bạn đã thêm thành công chú thích mực vào tài li�
 ## Câu hỏi thường gặp
 
 ### Aspose.PDF là gì?
-Aspose.PDF là một thư viện dùng để tạo, thao tác và chuyển đổi tài liệu PDF trong các ứng dụng .NET.
+Aspose.PDF là thư viện dùng để tạo, thao tác và chuyển đổi tài liệu PDF trong các ứng dụng .NET.
 
 ### Tôi có thể sử dụng Aspose.PDF miễn phí không?
 Có! Aspose cung cấp phiên bản dùng thử miễn phí để đánh giá sản phẩm của họ. Bạn có thể tải xuống [đây](https://releases.aspose.com/).

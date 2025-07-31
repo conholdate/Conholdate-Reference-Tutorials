@@ -1,21 +1,22 @@
 ---
-title: Salvataggio della fonte dei metadati dei documenti nel confronto GroupDocs per .NET
-linktitle: Salvataggio dei metadati dei documenti Origine in GroupDocs Confronto per .NET
-second_title: API .NET di GroupDocs.Comparison
-description: Sblocca il pieno potenziale del confronto di documenti nelle tue applicazioni .NET sfruttando GroupDocs Comparison per .NET. Questo tutorial passo dopo passo ti guida attraverso il confronto di documenti senza sforzo, concentrandosi al contempo sul salvataggio della fonte dei metadati del documento.
-weight: 14
-url: /it/comparison/load-and-save-documents/save-documents-metadata-source/
+"description": "Sfrutta appieno il potenziale del confronto di documenti nelle tue applicazioni .NET sfruttando GroupDocs Comparison per .NET. Questo tutorial passo passo ti guida attraverso il confronto di documenti senza sforzo, concentrandoti sul salvataggio della fonte dei metadati del documento."
+"linktitle": "Salvataggio della fonte dei metadati dei documenti nel confronto GroupDocs per .NET"
+"second_title": "API .NET di GroupDocs.Comparison"
+"title": "Salva la fonte dei metadati dei documenti nel confronto GroupDocs per .NET"
+"url": "/it/comparison/net/load-and-save-documents/save-documents-metadata-source/"
+"weight": 14
 ---
+
 ## Introduzione
 
-Nello sviluppo software, in particolare in settori come legale, finanziario e dell'istruzione, la capacità di confrontare documenti in modo efficiente è fondamentale. GroupDocs Comparison per .NET fornisce una soluzione solida per confrontare senza problemi i documenti all'interno delle applicazioni .NET. Questo tutorial ti guiderà nell'utilizzo di questa potente libreria per salvare la fonte dei metadati del documento, assicurandoti di massimizzarne le capacità per le tue attività di confronto dei documenti.
+Nello sviluppo software, in particolare in settori come quello legale, finanziario e dell'istruzione, la capacità di confrontare documenti in modo efficiente è fondamentale. GroupDocs Comparison per .NET offre una soluzione affidabile per confrontare senza problemi i documenti all'interno delle applicazioni .NET. Questo tutorial vi guiderà nell'utilizzo di questa potente libreria per salvare la fonte dei metadati dei documenti, assicurandovi di massimizzarne le funzionalità per le vostre attività di confronto dei documenti.
 
 ## Prerequisiti
 
 Prima di iniziare, assicurati di aver impostato quanto segue:
 
 1. Ambiente di sviluppo: un ambiente di sviluppo .NET è pronto sul tuo computer.
-2. Installazione di GroupDocs Comparison: Scarica e installa GroupDocs Comparison per .NET da[sito](https://releases.groupdocs.com/comparison/net/).
+2. Installazione di GroupDocs Comparison: Scarica e installa GroupDocs Comparison per .NET da [sito](https://releases.groupdocs.com/comparison/net/).
 3. File di documento: preparare i file di documento di origine e di destinazione che si desidera confrontare.
 4. Conoscenza di base di C#: la familiarità con le basi della programmazione C# ti aiuterà a comprendere i frammenti di codice forniti.
 
@@ -41,12 +42,12 @@ string outputFileName = Path.Combine(outputDirectory, "RESULT.docx");
 
 ## Passaggio 2: inizializzare l'oggetto Comparer
 
- Crea un`Comparer` istanza utilizzando il percorso al documento sorgente:
+Crea un `Comparer` istanza utilizzando il percorso al documento sorgente:
 
 ```csharp
 using (Comparer comparer = new Comparer("SOURCE.docx"))
 ```
- Questo inizializza il`Comparer` oggetto, fornendo una base per il confronto dei documenti.
+Questo inizializza il `Comparer` oggetto, fornendo una base per il confronto dei documenti.
 
 ## Passaggio 3: aggiungere il documento di destinazione
 
@@ -55,16 +56,16 @@ Successivamente, incorpora il documento di destinazione nel confronto:
 ```csharp
 comparer.Add("TARGET.docx");
 ```
-Questo passaggio specifica il documento che si desidera confrontare con la fonte.
+In questo passaggio viene specificato il documento che si desidera confrontare con la fonte.
 
 ## Passaggio 4: confronta i documenti e salva la fonte dei metadati
 
-Adesso è il momento di eseguire il confronto e salvare la fonte dei metadati del documento:
+Ora è il momento di eseguire il confronto e salvare la fonte dei metadati del documento:
 
 ```csharp
 comparer.Compare(outputFileName, new SaveOptions() { CloneMetadataType = MetadataType.Source });
 ```
- Qui, il`Compare`metodo confronta i documenti di origine e di destinazione. Utilizzando`CloneMetadataType`, ti assicuri che i metadati del documento sorgente vengano mantenuti.
+Qui, il `Compare` metodo confronta i documenti di origine e di destinazione. Utilizzando `CloneMetadataType`, ti assicuri che i metadati del documento sorgente vengano conservati.
 
 ## Passaggio 5: visualizzare il messaggio di output
 
@@ -73,7 +74,7 @@ Una volta completato il confronto, fornisci un feedback sull'operazione:
 ```csharp
 Console.WriteLine($"\nDocuments compared successfully.\nCheck output in {outputDirectory}.");
 ```
-Questo messaggio conferma l'esito positivo del confronto e indica dove trovare il documento di output.
+Questo messaggio conferma il corretto funzionamento del confronto e indica dove trovare il documento di output.
 
 ## Conclusione
 
@@ -87,16 +88,16 @@ Sì, supporta diversi formati, tra cui DOCX, PDF, PPTX e altri.
 
 ### È disponibile una versione di prova?
 
- Puoi accedere alla versione di prova da[Qui](https://releases.groupdocs.com/).
+Puoi accedere alla versione di prova da [Qui](https://releases.groupdocs.com/).
 
 ### Posso personalizzare il formato di output dei documenti confrontati?
 
-Assolutamente! GroupDocs Comparison consente un'ampia personalizzazione del formato di output.
+Assolutamente sì! GroupDocs Comparison consente un'ampia personalizzazione del formato di output.
 
 ### È disponibile supporto tecnico per gli utenti?
 
- Sì, puoi richiedere assistenza tramite[forum di supporto](https://forum.groupdocs.com/c/comparison/12).
+Sì, puoi cercare assistenza tramite [forum di supporto](https://forum.groupdocs.com/c/comparison/12).
 
 ### Dove posso acquistare una licenza?
 
- Le licenze possono essere acquistate dal sito web di GroupDocs[Qui](https://purchase.groupdocs.com/buy).
+Le licenze possono essere acquistate dal sito web di GroupDocs [Qui](https://purchase.groupdocs.com/buy).

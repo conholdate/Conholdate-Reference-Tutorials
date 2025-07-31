@@ -1,24 +1,25 @@
 ---
-title: Upravte soubory Zip pomocí Aspose.Zip pro .NET
-linktitle: Upravte soubory ZIP
-second_title: Aspose.Zip .NET API pro kompresi a archivaci souborů
-description: Naučte se, jak efektivně extrahovat, odstraňovat a přidávat položky do souborů zip programově, a vylepšit tak možnosti manipulace se soubory.
-weight: 15
-url: /cs/zip/file-compress/modify-zip-files/
+"description": "Naučte se, jak efektivně programově extrahovat, mazat a přidávat položky do zip souborů a vylepšit tak své schopnosti manipulace se soubory."
+"linktitle": "Úprava souborů ZIP"
+"second_title": "Aspose.Zip .NET API pro kompresi a archivaci souborů"
+"title": "Úprava souborů ZIP pomocí Aspose.Zip pro .NET"
+"url": "/cs/zip/net/file-compress/modify-zip-files/"
+"weight": 15
 ---
+
 ## Zavedení
 
-Soubory ZIP jsou zásadní pro organizaci a kompresi dat, ale jak programově upravit jejich obsah? Řešení spočívá v Aspose.Zip for .NET, robustní knihovně, která zjednodušuje manipulaci se soubory zip pomocí C#. V tomto tutoriálu vás krok za krokem provedeme extrahováním, mazáním a přidáváním položek do souborů zip.
+Soubory ZIP jsou nezbytné pro organizaci a kompresi dat, ale jak programově upravit jejich obsah? Řešení spočívá v Aspose.Zip pro .NET, robustní knihovně, která zjednodušuje manipulaci se soubory ZIP pomocí C#. V tomto tutoriálu vás krok za krokem provedeme extrakcí, mazáním a přidáváním položek do souborů ZIP.
 
 ## Předpoklady
 
-Než se ponoříme, ujistěte se, že máte následující:
+Než se do toho pustíme, ujistěte se, že máte následující:
 
-1.  Aspose.Zip for .NET Library: Nainstalujte knihovnu do svého projektu. Můžete si jej stáhnout[zde](https://releases.aspose.com/zip/net/).
+1. Aspose.Zip pro .NET knihovnu: Nainstalujte si knihovnu do svého projektu. Můžete si ji stáhnout. [zde](https://releases.aspose.com/zip/net/).
    
-2.  Adresář dokumentů: Nastavte adresář pro ukládání souborů zip. Nahradit`"Your Document Directory"` v kódu s vaší skutečnou cestou.
+2. Adresář dokumentů: Nastavte adresář pro ukládání souborů ZIP. Nahraďte `"Your Document Directory"` v kódu s vaší skutečnou cestou.
 
-## Importujte potřebné jmenné prostory
+## Importovat nezbytné jmenné prostory
 
 Začněte importem požadovaných jmenných prostorů:
 
@@ -32,21 +33,21 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-## Krok 1: Otevřete soubor vnější zip
+## Krok 1: Otevřete vnější soubor ZIP
 
-Začněte otevřením hlavního souboru zip (vnější zip):
+Začněte otevřením hlavního zip souboru (vnější zip):
 
 ```csharp
 string dataDir = "Your Data Directory";
 using (Archive outer = new Archive(dataDir + "outer.zip"))
 {
-    // Pokračujte v identifikaci vnitřních zipových vstupů
+    // Pokračujte v identifikaci vnitřních položek zipu
 }
 ```
 
-## Krok 2: Identifikujte položky vnitřního zipu
+## Krok 2: Identifikace vnitřních položek zipu
 
-Dále identifikujte a připravte se na odstranění všech vnitřních souborů zip:
+Dále identifikujte a připravte se k odstranění všech vnitřních souborů zip:
 
 ```csharp
 List<ArchiveEntry> entriesToDelete = new List<ArchiveEntry>();
@@ -63,7 +64,7 @@ foreach (ArchiveEntry entry in outer.Entries)
         {
             entry.Open().CopyTo(innerCompressed);
             
-            // Extrahujte vnitřní záznamy
+            // Extrahovat vnitřní položky
             using (Archive inner = new Archive(innerCompressed))
             {
                 foreach (ArchiveEntry ie in inner.Entries)
@@ -79,9 +80,9 @@ foreach (ArchiveEntry entry in outer.Entries)
 }
 ```
 
-## Krok 3: Odstraňte položky vnitřního archivu
+## Krok 3: Smazání položek vnitřního archivu
 
-Jakmile shromáždíte položky, které potřebujete, odstraňte vnitřní položky zip:
+Jakmile shromáždíte potřebné položky, odstraňte vnitřní položky zip archivu:
 
 ```csharp
 foreach (ArchiveEntry e in entriesToDelete)
@@ -90,9 +91,9 @@ foreach (ArchiveEntry e in entriesToDelete)
 }
 ```
 
-## Krok 4: Přidejte upravené záznamy do vnějšího zipu
+## Krok 4: Přidání upravených položek do vnějšího PSČ
 
-Nyní můžete nově extrahované položky přidat zpět do vnějšího souboru zip:
+Nyní můžete nově extrahované položky přidat zpět do vnějšího zip souboru:
 
 ```csharp
 for (int i = 0; i < namesToInsert.Count; i++)
@@ -103,7 +104,7 @@ for (int i = 0; i < namesToInsert.Count; i++)
 
 ## Krok 5: Uložte upravený soubor ZIP
 
-Nakonec uložte změny do nového souboru zip:
+Nakonec uložte změny do nového zip souboru:
 
 ```csharp
 outer.Save(dataDir + "flatten.zip");
@@ -111,21 +112,21 @@ outer.Save(dataDir + "flatten.zip");
 
 ## Závěr
 
-Aspose.Zip for .NET poskytuje výkonný a přímočarý způsob, jak programově manipulovat se soubory zip. Tento výukový program se zabýval extrahováním, mazáním a přidáváním položek do souboru zip, což ilustrovalo všestrannost knihovny. Prozkoumejte různé scénáře a vylepšete své dovednosti při manipulaci se soubory!
+Aspose.Zip pro .NET nabízí výkonný a přímočarý způsob programově manipulace se soubory ZIP. Tento tutoriál se zabýval extrakcí, mazáním a přidáváním položek do souboru ZIP a ilustroval všestrannost knihovny. Prozkoumejte různé scénáře a vylepšete si své dovednosti v manipulaci se soubory!
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu použít Aspose.Zip pro .NET s jinými programovacími jazyky?
 Aspose.Zip je primárně určen pro .NET aplikace, ale Aspose nabízí podobné knihovny pro různé programovací jazyky.
 
-### Je k dispozici bezplatná zkušební verze pro Aspose.Zip pro .NET?
- Ano, ke stažení je k dispozici bezplatná zkušební verze[zde](https://releases.aspose.com/).
+### Je k dispozici bezplatná zkušební verze Aspose.Zip pro .NET?
+Ano, je k dispozici ke stažení bezplatná zkušební verze. [zde](https://releases.aspose.com/).
 
 ### Jak získám podporu pro Aspose.Zip pro .NET?
- Navštivte[Fórum Aspose.Zip](https://forum.aspose.com/c/zip/37) za podporu a diskuze.
+Navštivte [Fórum Aspose.Zip](https://forum.aspose.com/c/zip/37) za podporu a diskuzi.
 
 ### Mohu si zakoupit dočasnou licenci pro Aspose.Zip pro .NET?
-Ano, můžete získat dočasnou licenci[zde](https://purchase.conholdate.com/temporary-license/).
+Ano, můžete získat dočasnou licenci [zde](https://purchase.conholdate.com/temporary-license/).
 
 ### Kde najdu dokumentaci k Aspose.Zip pro .NET?
- K dispozici je kompletní dokumentace[zde](https://reference.aspose.com/zip/net/).
+Kompletní dokumentace je k dispozici [zde](https://reference.aspose.com/zip/net/).

@@ -53,7 +53,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Text added to a document.");
 ```
 
-Aqui, um `Document` objeto é inicializado e o `DocumentBuilder` é usado para inserir texto. O `Writeln` O método acrescenta uma linha de texto ao documento.
+Aqui, um `Document` o objeto é inicializado e o `DocumentBuilder` é usado para inserir texto. O `Writeln` O método acrescenta uma linha de texto ao documento.
 
 ## Etapa 3: Configurar opções de salvamento
 

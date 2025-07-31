@@ -123,7 +123,7 @@ Console.WriteLine("\nBookmark added successfully.\nFile saved at " + dataDir);
 
 يمكنك تعديل مظهر الإشارة المرجعية باستخدام خصائص مثل `Italic`، `Bold`، و `Color` على `OutlineItemCollection` يمكنك أيضًا إضافة أيقونات أو أنماط مخصصة.
 
-### هل استخدام Aspose.PDF مجاني؟
+### هل Aspose.PDF مجاني للاستخدام؟
 
 يقدم Aspose.PDF نسخة تجريبية مجانية تتيح لك استكشاف ميزاته. مع ذلك، للاستفادة الكاملة من الميزات، ستحتاج إلى شراء ترخيص. تحقق من [صفحة الشراء](https://purchase.aspose.com/buy) لمزيد من التفاصيل.
 

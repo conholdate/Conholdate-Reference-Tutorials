@@ -37,7 +37,7 @@ Importując te pakiety, uzyskujesz dostęp do różnych klas i metod, które wyk
 Skonfigurujmy środowisko programistyczne:
 
 1. Utwórz nowy projekt: Otwórz program Visual Studio i utwórz nowy projekt aplikacji konsolowej C#. Będzie on stanowił bazę dla naszego kodu.
-2. Dodawanie odniesień: Kliknij prawym przyciskiem myszy projekt w Eksploratorze rozwiązań, wybierz „Dodaj”, następnie „Odwołanie…”, wyszukaj `Aspose.Cells.dll`i zaimportuj go do swojego projektu.
+2. Dodaj odwołania: Kliknij prawym przyciskiem myszy projekt w Eksploratorze rozwiązań, wybierz „Dodaj”, następnie „Odwołanie…”, wyszukaj `Aspose.Cells.dll`i zaimportuj go do swojego projektu.
 
 Teraz Twoje środowisko jest gotowe do kodowania!
 

@@ -1,13 +1,14 @@
 ---
-title: บทช่วยสอนและตัวอย่างของ GroupDocs.Annotation สำหรับ .NET
-linktitle: GroupDocs.Annotation สำหรับบทช่วยสอน .NET
-weight: 10
-url: /th/annotation/
-description: ปลดล็อกศักยภาพทั้งหมดของ GroupDocs.Annotation สำหรับ .NET ด้วยบทช่วยสอนของเรา บูรณาการอย่างราบรื่น ปรับปรุงการทำงานร่วมกัน และปรับปรุงเวิร์กโฟลว์ให้มีประสิทธิภาพ
-is_root: true
+"description": "ปลดล็อกศักยภาพทั้งหมดของ GroupDocs.Annotation สำหรับ .NET ด้วยบทช่วยสอนของเรา ผสานรวมได้อย่างราบรื่น เพิ่มประสิทธิภาพการทำงานร่วมกัน และปรับปรุงเวิร์กโฟลว์ให้มีประสิทธิภาพยิ่งขึ้น"
+"is_root": true
+"linktitle": "GroupDocs.Annotation สำหรับบทช่วยสอน .NET"
+"title": "บทช่วยสอนและตัวอย่างของ GroupDocs.Annotation สำหรับ .NET"
+"url": "/th/annotation/net/"
+"weight": 10
 ---
+
 ## GroupDocs.Annotation สำหรับบทช่วยสอน .NET
-### [เรียนรู้คุณลักษณะคำอธิบายขั้นสูงใน GroupDocs.Annotation สำหรับ .NET](./master-advanced-annotation-features/)
+### [เชี่ยวชาญคุณลักษณะคำอธิบายประกอบขั้นสูงใน GroupDocs.Annotation สำหรับ .NET](./master-advanced-annotation-features/)
 ปลดล็อกศักยภาพของ GroupDocs.Annotation สำหรับ .NET ด้วยบทช่วยสอนเกี่ยวกับการส่งออกคำอธิบายประกอบ XML และการสร้างตัวอย่างหน้าเอกสาร
 ### [คำแนะนำเกี่ยวกับส่วนประกอบเอกสารใน GroupDocs.Annotation สำหรับ .NET](./guide-to-document-components/)
-สำรวจ GroupDocs.Annotation สำหรับบทช่วยสอน .NET! เรียนรู้ทีละขั้นตอนในการเพิ่มปุ่มโต้ตอบและช่องกาเครื่องหมายลงในเอกสาร PDF ได้อย่างง่ายดาย
+สำรวจ GroupDocs.Annotation สำหรับบทช่วยสอน .NET! เรียนรู้ทีละขั้นตอนในการเพิ่มปุ่มโต้ตอบและช่องทำเครื่องหมายลงในเอกสาร PDF ได้อย่างง่ายดาย

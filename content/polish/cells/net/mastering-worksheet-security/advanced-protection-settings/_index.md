@@ -90,7 +90,7 @@ worksheet.Protection.AllowDeletingColumn = false;
 worksheet.Protection.AllowDeletingRow = false;
 ```
 
-### Ogranicz edycję zawartości i obiektów
+### Ogranicz edycję treści i obiektów
 
 Zablokuj użytkownikom możliwość modyfikowania treści lub obiektów:
 
@@ -146,7 +146,7 @@ Po skonfigurowaniu ustawień ochrony zapisz zmiany w nowym pliku:
 excel.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 ```
 
-## Krok 8: Zamknij strumień plików
+## Krok 8: Zamknij FileStream
 
 Na koniec zwolnij zasoby, zamykając strumień plików:
 

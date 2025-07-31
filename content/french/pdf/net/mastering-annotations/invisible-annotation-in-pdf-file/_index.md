@@ -13,7 +13,7 @@ Avez-vous déjà rêvé d'inclure des notes efficaces et invisibles dans vos doc
 
 ## Prérequis
 
-Avant de passer aux étapes suivantes, assurez-vous de disposer des éléments suivants :
+Avant de passer aux étapes suivantes, assurez-vous d'avoir les éléments suivants :
 
 - Aspose.PDF pour .NET : téléchargez et installez la bibliothèque Aspose.PDF [ici](https://releases.aspose.com/pdf/net/).
 - Environnement de développement .NET : utilisez Visual Studio ou un autre IDE .NET préféré.

@@ -13,7 +13,7 @@
 
 Használja ki az e-mail-kezelés teljes potenciálját az Aspose.Email for .NET segítségével. Az alapvető formátumkonverzióktól a fejlett spamészlelésig és protokollintegrációig átfogó oktatóanyagaink végigvezetik Önt a professzionális e-mail-feldolgozás és -automatizálás minden aspektusán.
 
-## 🚀 Amit Elérhetsz
+## 🚀 Amit elérhetsz
 
 **Aspose.Email .NET-hez** egy hatékony e-mail-feldolgozó könyvtár, amely lehetővé teszi a fejlesztők számára, hogy külső e-mail kliensek nélkül dolgozzanak e-mail üzenetekkel, postaládákkal és kommunikációs protokollokkal. Az összes főbb e-mail formátum támogatásával és a fejlett elemzési képességekkel ez a teljes megoldás az e-mail automatizálására és kezelésére.
 
@@ -40,7 +40,7 @@ Fejlett e-mail tartalomfeldolgozási és intelligens elemzési technikák a bizt
 | Oktatóanyag | Leírás | Nehézség |
 |-----------|--------------|-------------|
 | **[Bayes-féle spamanalízis C#-ban](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Gépi tanuláson alapuló spamészlelés statisztikai elemzéssel | ⭐⭐⭐ Speciális |
-| **[HTML e-mail konvertálása egyszerű szöveggé](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Tiszta szöveges tartalom kinyerése HTML e-mailekből | ⭐⭐ Középhaladó |
+| **[HTML e-mail konvertálása egyszerű szöveggé](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Tiszta szöveges tartalom kinyerése HTML e-mailekből | ⭐⭐ Középhaladó |
 
 ### E-mail értesítések és nyomon követés elsajátítása
 Professzionális e-mail értesítési rendszerek és nyomkövető implementációk vállalati alkalmazásokhoz.
@@ -122,10 +122,10 @@ Professzionális e-mail értesítési rendszerek és nyomkövető implementáci�
 - **Titkosítás** - Biztonságos e-mail kommunikáció és adatvédelem
 
 ### **Analitika és jelentéskészítés**
-- **E-mail követés** - Üzenet kézbesítésének visszaigazolása és olvasási visszaigazolások
+- **E-mail követés** Üzenet kézbesítésének visszaigazolása és olvasási visszaigazolások
 - **Tartalomelemzés** - Szövegbányászat és e-mail osztályozás
 - **Teljesítménymutatók** - E-mail rendszer monitorozása és elemzése
-- **Megfelelőségi jelentéstétel** Szabályozási megfelelés és auditnaplók
+- **Megfelelőségi jelentéstétel** - Szabályozási megfelelés és auditnaplók
 
 ## 🔗 További források
 

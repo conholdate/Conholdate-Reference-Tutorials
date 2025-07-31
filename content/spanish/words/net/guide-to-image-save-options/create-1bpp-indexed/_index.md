@@ -46,7 +46,7 @@ Cargue su documento de Word en un `Aspose.Words.Document` objeto. Este objeto le
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
-## Paso 4: Configurar las opciones para guardar imágenes
+## Paso 4: Configurar las opciones para guardar la imagen
 
 A continuación, configure el `ImageSaveOptions` Para definir cómo se guardará el documento como imagen. Lo configuraremos para que se guarde en formato PNG con un modo de color indexado de 1 Bpp.
 
@@ -60,7 +60,7 @@ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
 ```
 
 - SaveFormat.Png: especifica que el formato de salida será PNG.
-- PageSet(1): Indica que solo se convertirá la primera página del documento.
+- PageSet(1): indica que solo se convertirá la primera página del documento.
 - ImageColorMode.BlackAndWhite: garantiza que la imagen esté en blanco y negro.
 - ImagePixelFormat.Format1bppIndexed: establece el formato de píxel en 1 Bpp indexado, optimizando el espacio.
 

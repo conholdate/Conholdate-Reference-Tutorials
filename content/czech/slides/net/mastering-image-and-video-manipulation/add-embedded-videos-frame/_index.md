@@ -1,25 +1,26 @@
 ---
-title: Přidejte rámeček Embedded Video Frame do prezentací .NET
-linktitle: Přidejte rámeček Embedded Video Frame do prezentací .NET
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Odemkněte potenciál svých prezentací tím, že se naučíte vkládat videa pomocí Aspose.Slides for .NET. Tento obsáhlý návod vás provede procesem integrace multimediálních prvků krok za krokem.
-weight: 19
-url: /cs/slides/mastering-image-and-video-manipulation/add-embedded-videos-frame/
+"description": "Odemkněte potenciál svých prezentací tím, že se naučíte, jak vkládat videa pomocí Aspose.Slides pro .NET. Tento komplexní tutoriál vás krok za krokem provede procesem integrace multimediálních prvků."
+"linktitle": "Přidání rámečku vloženého videa do prezentací .NET"
+"second_title": "Rozhraní API pro zpracování PowerPointu v aplikaci Aspose.Slides v .NET"
+"title": "Přidání rámečku vloženého videa do prezentací .NET"
+"url": "/cs/slides/net/mastering-image-and-video-manipulation/add-embedded-videos-frame/"
+"weight": 19
 ---
+
 ## Zavedení
 
-V dnešním rychle se měnícím prostředí prezentací může integrace multimediálních prvků výrazně zvýšit zapojení a udržení publika. Aspose.Slides for .NET nabízí robustní řešení pro vkládání snímků videa do vašich snímků. Tento tutoriál vás provede procesem krok za krokem a zajistí hladký průběh od začátku do konce.
+dnešním rychle se měnícím prostředí prezentací může integrace multimediálních prvků výrazně zvýšit zapojení a udržení publika. Aspose.Slides pro .NET nabízí robustní řešení pro vkládání video snímků do vašich slidů. Tento tutoriál vás krok za krokem provede celým procesem a zajistí hladký průběh od začátku do konce.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte následující:
 
--  Aspose.Slides for .NET Library: Stáhněte a nainstalujte knihovnu z[stránka vydání](https://releases.aspose.com/slides/net/).
-- Mediální obsah: Video soubor (např. "Wildlife.mp4"), který chcete vložit do prezentace.
+- Knihovna Aspose.Slides pro .NET: Stáhněte a nainstalujte knihovnu z [stránka s vydáním](https://releases.aspose.com/slides/net/).
+- Mediální obsah: Soubor videa (např. „Wildlife.mp4“), který chcete vložit do prezentace.
 
-## Importujte potřebné jmenné prostory
+## Importovat nezbytné jmenné prostory
 
-Začněte importováním požadovaných jmenných prostorů do vašeho projektu .NET:
+Začněte importem požadovaných jmenných prostorů do vašeho projektu .NET:
 
 ```csharp
 using System.IO;
@@ -27,23 +28,23 @@ using Aspose.Slides;
 using Aspose.Slides.Export;
 ```
 
-## Krok 1: Nastavte své adresáře
+## Krok 1: Nastavení adresářů
 
-Ujistěte se, že váš projekt obsahuje potřebné adresáře pro soubory dokumentů a médií:
+Ujistěte se, že váš projekt obsahuje potřebné adresáře pro dokumenty a mediální soubory:
 
 ```csharp
 string dataDir = "Your Document Directory";
 string videoDir = "Your Media Directory";
 string resultPath = Path.Combine(dataDir, "VideoFrame_out.pptx");
 
-// Vytvořte adresář, pokud neexistuje
+// Vytvořit adresář, pokud neexistuje
 if (!Directory.Exists(dataDir))
     Directory.CreateDirectory(dataDir);
 ```
 
-## Krok 2: Vytvořte prezentační třídu
+## Krok 2: Vytvoření instance třídy Presentation
 
- Vytvořte instanci souboru`Presentation` třída, která bude reprezentovat váš soubor PPTX:
+Vytvořte instanci `Presentation` třída pro reprezentaci vašeho souboru PPTX:
 
 ```csharp
 using (Presentation pres = new Presentation())
@@ -52,7 +53,7 @@ using (Presentation pres = new Presentation())
     ISlide sld = pres.Slides[0];
 ```
 
-## Krok 3: Vložte video
+## Krok 3: Vložení videa
 
 Vložte video do prezentace pomocí následujícího kódu:
 
@@ -60,25 +61,25 @@ Vložte video do prezentace pomocí následujícího kódu:
 IVideo vid = pres.Videos.AddVideo(new FileStream(Path.Combine(videoDir, "Wildlife.mp4"), FileMode.Open), LoadingStreamBehavior.ReadStreamAndRelease);
 ```
 
-## Krok 4: Přidejte rámeček videa
+## Krok 4: Přidání videorámečku
 
-Dále přidejte na snímek snímek videa:
+Dále přidejte do snímku videorámeček:
 
 ```csharp
 IVideoFrame vf = sld.Shapes.AddVideoFrame(50, 150, 300, 350, vid);
 ```
 
-## Krok 5: Nakonfigurujte vlastnosti videa
+## Krok 5: Konfigurace vlastností videa
 
 Nastavte vlastnosti videa, včetně režimu přehrávání a hlasitosti:
 
 ```csharp
 vf.EmbeddedVideo = vid;
 vf.PlayMode = VideoPlayModePreset.Auto; // Automaticky přehrát video
-vf.Volume = AudioVolumeMode.Loud; // Nastavte úroveň hlasitosti
+vf.Volume = AudioVolumeMode.Loud; // Nastavení úrovně hlasitosti
 ```
 
-## Krok 6: Uložte svou prezentaci
+## Krok 6: Uložte prezentaci
 
 Nakonec uložte upravený soubor PPTX na disk:
 
@@ -90,26 +91,26 @@ Tyto kroky můžete opakovat pro každé video, které chcete vložit do prezent
 
 ## Závěr
 
-Gratuluji! Pomocí Aspose.Slides for .NET jste do prezentace úspěšně vložili snímek videa. Tato dynamická funkce může posunout vaše prezentace na další úroveň a zaujmout vaše publikum hladce integrovanými multimédii.
+Gratulujeme! Úspěšně jste vložili video snímek do své prezentace pomocí Aspose.Slides pro .NET. Tato dynamická funkce může posunout vaše prezentace na další úroveň a zaujmout publikum bezproblémově integrovaným multimédiem.
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu vložit videa do libovolného snímku prezentace?
 
- Ano, můžete vybrat libovolný snímek úpravou indexu`pres.Slides[index]`.
+Ano, libovolný snímek můžete vybrat úpravou indexu v `pres.Slides[index]`.
 
-### Které video formáty jsou podporovány?
+### Které formáty videa jsou podporovány?
 
-Aspose.Slides podporuje různé formáty videa, včetně MP4, AVI a WMV.
+Aspose.Slides podporuje různé video formáty, včetně MP4, AVI a WMV.
 
-### Mohu přizpůsobit velikost a polohu rámečku videa?
+### Mohu si přizpůsobit velikost a polohu videozáznamu?
 
- Absolutně! Parametry můžete upravit v`AddVideoFrame(x, y, width, height, video)` aby vyhovoval vašim potřebám.
+Rozhodně! Parametry můžete upravit v `AddVideoFrame(x, y, width, height, video)` aby vyhovovaly vašim potřebám.
 
-### Existuje nějaký limit na počet videí, která mohu vložit?
+### Existuje omezení počtu videí, která můžu vložit?
 
 Limit pro vložená videa obvykle závisí na kapacitě vašeho prezentačního softwaru.
 
-### Kde mohu hledat další pomoc nebo sdílet své zkušenosti?
+### Kde mohu vyhledat další pomoc nebo se podělit o své zkušenosti?
 
- Neváhejte a navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu komunity a diskuze.
+Neváhejte navštívit [Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) pro podporu a diskuze v komunitě.

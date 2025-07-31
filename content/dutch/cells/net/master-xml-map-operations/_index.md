@@ -21,7 +21,7 @@ Heb je je ooit afgevraagd hoe je het XML-pad uit een lijstobjecttabel in een Exc
 Deze tutorial is dé ultieme bron voor het werken met celgebieden die zijn toegewezen aan XML-paden in Excel. Met Aspose.Cells voor .NET kunt u eenvoudig query's uitvoeren op deze toegewezen gebieden, de gegevensextractie automatiseren en dynamische rapportgeneratie mogelijk maken. [Lees verder](./query-cell-areas-mapped-to-xml-data-map-path/).
 
 ## Zelfstudies voor XML-kaartbewerkingen
-### [Zoek de root-elementnaam uit een XML-map met behulp van Aspose.Cells](./find-root-element-name-from-xml-map/)
+### [Vind de root-elementnaam uit een XML-map met behulp van Aspose.Cells](./find-root-element-name-from-xml-map/)
 Ontdek hoe u met Aspose.Cells voor .NET efficiënt de naam van het root-element van een XML-map in een Excel-bestand kunt ophalen. Deze stapsgewijze handleiding begeleidt u bij het laden van uw Excel-document.
 ### [XML-pad ophalen uit lijstobjecttabel met Aspose.Cells](./retrieve-xml-path-from-list-object-table/)
 Leer hoe u het XML-pad uit een lijstobjecttabel in een Excel-werkblad kunt ophalen met Aspose.Cells voor .NET. Deze uitgebreide handleiding behandelt elke stap.

@@ -236,7 +236,7 @@ LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100
 
 ## الخطوة 5: تخصيص مظهر الرابط
 
-الآن، لنجعل هذا الرابط مميزًا! يمكنك تخصيص لونه وطريقة ظهوره عند النقر عليه.
+الآن، لنجعل هذا الرابط مميزًا بعض الشيء! يمكنك تخصيص لونه وطريقة ظهوره عند النقر عليه.
 
 ```csharp
 link.Color = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Green);

@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Het maken van visueel aantrekkelijke en goed opgemaakte spreadsheets is cruciaal voor een effectieve gegevenspresentatie, vooral bij het afdrukken of delen van documenten. Goede marges spelen een belangrijke rol bij een professionele uitstraling. In deze tutorial laten we zien hoe je marges instelt in een Excel-werkblad met behulp van de Aspose.Cells-bibliotheek voor .NET. Maak je geen zorgen als je hier nog niet bekend mee bent – het is eenvoudiger dan het klinkt!
+Het maken van visueel aantrekkelijke en goed opgemaakte spreadsheets is cruciaal voor een effectieve gegevenspresentatie, vooral bij het afdrukken of delen van documenten. Correcte marges spelen een belangrijke rol bij een professionele uitstraling. In deze tutorial laten we zien hoe je marges instelt in een Excel-werkblad met behulp van de Aspose.Cells-bibliotheek voor .NET. Maak je geen zorgen als je hier nog niet bekend mee bent: het is eenvoudiger dan het klinkt!
 
 ## Vereisten
 
@@ -83,7 +83,7 @@ pageSetup.RightMargin = 1;  // Rechtermarge instellen
 pageSetup.TopMargin = 3;     // Bovenmarge instellen
 ```
 
-U kunt deze waarden gerust aanpassen op basis van uw specifieke behoeften!
+U kunt deze waarden gerust aanpassen aan uw specifieke behoeften!
 
 ## Stap 7: Sla de werkmap op
 
@@ -97,7 +97,7 @@ Zorg ervoor dat u vervangt `dataDir` met uw daadwerkelijke directorypad. U kunt 
 
 ## Conclusie
 
-Gefeliciteerd! U hebt succesvol marges ingesteld in een Excel-werkblad met Aspose.Cells voor .NET. Dit beknopte proces toont de kracht en flexibiliteit van Aspose.Cells, waardoor het een uitstekende keuze is voor zowel professionals als hobbyisten. Of u nu zakelijke rapporten, academische papers of persoonlijke projecten schrijft, het correct beheren van marges vereenvoudigt uw workflow en verbetert de uitstraling van uw document.
+Gefeliciteerd! U hebt succesvol marges ingesteld in een Excel-werkblad met Aspose.Cells voor .NET. Dit beknopte proces toont de kracht en flexibiliteit van Aspose.Cells, waardoor het een uitstekende keuze is voor zowel professionals als hobbyisten. Of u nu zakelijke rapporten, academische papers of persoonlijke projecten schrijft, een goed beheer van marges vereenvoudigt uw workflow en verbetert de uitstraling van uw document.
 
 ## Veelgestelde vragen
 

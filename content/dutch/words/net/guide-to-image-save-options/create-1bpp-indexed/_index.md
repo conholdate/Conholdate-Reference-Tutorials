@@ -1,5 +1,5 @@
 ---
-"description": "Deze handleiding bevat stapsgewijze instructies en voorbeeldcode waarmee u op efficiënte wijze 1Bpp-geïndexeerde afbeeldingen kunt maken voor archiverings-, afdruk- of ruimtebesparende doeleinden."
+"description": "Deze handleiding bevat stapsgewijze instructies en voorbeeldcode waarmee u op efficiënte wijze 1Bpp-geïndexeerde afbeeldingen kunt maken voor archivering, afdrukken of ruimtebesparing."
 "linktitle": "Maak 1Bpp geïndexeerd"
 "second_title": "Aspose.Words API voor documentverwerking"
 "title": "Maak 1Bpp geïndexeerd"
@@ -16,9 +16,9 @@ Heb je ooit een Word-document moeten omzetten naar een zwart-witafbeelding? Of h
 Voordat u de code induikt, moet u ervoor zorgen dat u het volgende hebt:
 
 - Aspose.Words voor .NET: Download en installeer de bibliotheek van [hier](https://releases.aspose.com/words/net/).
-- .NET-ontwikkelomgeving: Hoewel Visual Studio een populaire keuze is, zal elke IDE die .NET ondersteunt werken.
+- .NET-ontwikkelomgeving: Hoewel Visual Studio een populaire keuze is, werkt elke IDE die .NET ondersteunt.
 - Basiskennis van C#: Kennis van C# is nuttig, maar we houden het simpel.
-- Voorbeeld Word-document: Zorg dat u een document gereed heeft voor conversie.
+- Voorbeeld Word-document: Zorg dat u een document gereed hebt voor conversie.
 
 ## Stap 1: Importeer de benodigde naamruimten
 
@@ -48,7 +48,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 ## Stap 4: Configureer opties voor het opslaan van afbeeldingen
 
-Stel vervolgens de `ImageSaveOptions` Om te definiëren hoe het document als afbeelding wordt opgeslagen. We configureren het om op te slaan in PNG-formaat met een geïndexeerde kleurmodus van 1Bpp.
+Stel vervolgens de `ImageSaveOptions` Om te definiëren hoe het document als afbeelding wordt opgeslagen. We configureren het om op te slaan in PNG-formaat met een geïndexeerde kleurmodus van 1 Bpp.
 
 ```csharp
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
@@ -62,7 +62,7 @@ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
 - SaveFormat.Png: Hiermee geeft u aan dat het uitvoerformaat PNG is.
 - PageSet(1): Geeft aan dat alleen de eerste pagina van het document wordt geconverteerd.
 - ImageColorMode.BlackAndWhite: zorgt ervoor dat de afbeelding in zwart-wit is.
-- ImagePixelFormat.Format1bppIndexed: stelt de pixelindeling in op 1 Bpp geïndexeerd, voor optimale ruimte-indeling.
+- ImagePixelFormat.Format1bppIndexed: stelt de pixelindeling in op 1Bpp geïndexeerd, voor optimale ruimte-indeling.
 
 ## Stap 5: Sla het document op als afbeelding
 
@@ -79,7 +79,7 @@ Gefeliciteerd! Je hebt met succes een Word-document omgezet naar een geïndexeer
 ## Veelgestelde vragen
 
 ### Wat is een 1Bpp geïndexeerde afbeelding?
-Een geïndexeerde 1Bpp (1 Bit Per Pixel) afbeelding is een zwart-witformaat waarbij elke pixel wordt weergegeven door één bit, 0 of 1. Dit formaat is zeer ruimtebesparend en daardoor ideaal voor archivering.
+Een geïndexeerde afbeelding van 1 Bpp (1 bit per pixel) is een zwart-witafbeeldingsformaat waarbij elke pixel wordt weergegeven door één bit, 0 of 1. Dit formaat is zeer ruimtebesparend en daardoor ideaal voor archivering.
 
 ### Kan ik meerdere pagina's van een Word-document tegelijk converteren?
 Ja! Pas eenvoudig de `PageSet` eigendom in de `ImageSaveOptions` om meerdere pagina's op te nemen of om het hele document te converteren.

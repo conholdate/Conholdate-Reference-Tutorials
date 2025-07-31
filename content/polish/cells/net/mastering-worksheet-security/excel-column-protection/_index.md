@@ -108,7 +108,7 @@ tym samouczku omówiliśmy cały proces ochrony kolumn w arkuszu kalkulacyjnym E
 Tak, możesz zablokować wiele kolumn, stosując styl blokady do każdej z nich, podobnie jak zablokowaliśmy pierwszą kolumnę.
 
 ### Czy mogę zezwolić użytkownikom na edycję wybranych kolumn, chroniąc jednocześnie pozostałe?
-Tak! Odblokuj określone kolumny, ustawiając `style.IsLocked = false` dla nich przed zastosowaniem ochrony arkusza roboczego.
+Tak! Odblokuj określone kolumny, ustawiając `style.IsLocked = false` przed zastosowaniem ochrony arkusza kalkulacyjnego.
 
 ### Jak usunąć ochronę z arkusza kalkulacyjnego?
 Aby usunąć ochronę, wystarczy zadzwonić `sheet.Unprotect()`. Jeśli podczas ochrony ustawiono hasło, musisz je podać.

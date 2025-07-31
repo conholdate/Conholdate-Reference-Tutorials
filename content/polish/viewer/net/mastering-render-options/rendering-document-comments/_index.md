@@ -1,27 +1,28 @@
 ---
-title: Renderowanie dokumentu z komentarzami
-linktitle: Renderowanie dokumentu z komentarzami
-second_title: GroupDocs.Viewer .NET API
-description: Ten kompleksowy samouczek przedstawia krok po kroku, jak renderować dokumenty z komentarzami w aplikacjach .NET przy użyciu biblioteki GroupDocs.Viewer.
-weight: 13
-url: /pl/viewer/mastering-render-options/rendering-document-comments/
+"description": "Ten kompleksowy samouczek przedstawia krok po kroku sposób renderowania dokumentów z komentarzami w aplikacjach .NET przy użyciu biblioteki GroupDocs.Viewer."
+"linktitle": "Renderowanie dokumentu z komentarzami"
+"second_title": "GroupDocs.Viewer .NET API"
+"title": "Renderowanie dokumentu z komentarzami"
+"url": "/pl/viewer/net/mastering-render-options/rendering-document-comments/"
+"weight": 13
 ---
+
 ## Wstęp
 
-GroupDocs.Viewer dla .NET to solidna biblioteka zaprojektowana w celu umożliwienia deweloperom renderowania dokumentów w różnych formatach. Niezależnie od tego, czy chcesz wyświetlać dokumenty Word, arkusze kalkulacyjne Excel, prezentacje PowerPoint czy pliki PDF, GroupDocs.Viewer usprawnia proces integracji. W tym samouczku przeprowadzimy Cię przez kroki niezbędne do renderowania dokumentów z komentarzami, zapewniając, że masz dogłębne zrozumienie każdego aspektu.
+GroupDocs.Viewer dla platformy .NET to rozbudowana biblioteka zaprojektowana z myślą o umożliwieniu programistom renderowania dokumentów w różnych formatach. Niezależnie od tego, czy chcesz wyświetlać dokumenty Word, arkusze kalkulacyjne Excel, prezentacje PowerPoint czy pliki PDF, GroupDocs.Viewer usprawnia proces integracji. W tym samouczku przeprowadzimy Cię przez kroki niezbędne do renderowania dokumentów z komentarzami, zapewniając dogłębne zrozumienie każdego aspektu.
 
 ## Wymagania wstępne
-Zanim zagłębimy się w szczegóły renderowania dokumentów z komentarzami, upewnij się, że masz następujące ustawienia:
+Zanim przejdziemy do szczegółów renderowania dokumentów z komentarzami, upewnij się, że masz następujące ustawienia:
 
 ### Środowisko programistyczne .NET
-Upewnij się, że masz środowisko programistyczne gotowe na .NET. Będziesz potrzebować zgodnego IDE, takiego jak Visual Studio, wraz z .NET SDK zainstalowanym na Twoim komputerze.
+Upewnij się, że posiadasz środowisko programistyczne gotowe na platformę .NET. Będziesz potrzebować kompatybilnego środowiska IDE, takiego jak Visual Studio, oraz pakietu .NET SDK zainstalowanego na komputerze.
 
-### GroupDocs.Viewer dla instalacji .NET
+### Instalacja GroupDocs.Viewer dla .NET
 GroupDocs.Viewer dla platformy .NET można pobrać i zainstalować ze strony internetowej lub bezpośrednio za pomocą tego łącza:
 [Pobierz GroupDocs.Viewer dla .NET](https://releases.groupdocs.com/viewer/net/)
 
 ## Importuj przestrzenie nazw
-Zacznij od zaimportowania niezbędnych przestrzeni nazw do swojego projektu .NET. Ten krok zapewnia dostęp do klas i metod potrzebnych do renderowania dokumentów.
+Zacznij od zaimportowania niezbędnych przestrzeni nazw do swojego projektu .NET. Ten krok zapewni Ci dostęp do klas i metod potrzebnych do renderowania dokumentów.
 
 ```csharp
 using System;
@@ -33,7 +34,7 @@ using GroupDocs.Viewer.Options;
 Wybierz katalog wyjściowy, w którym zostanie zapisany wyrenderowany dokument z komentarzami.
 
 ```csharp
-string outputDirectory = @"C:\Your\Document\Directory"; // Określ ścieżkę do katalogu
+string outputDirectory = @"C:\Your\Document\Directory"; // Podaj ścieżkę do katalogu
 ```
 
 ## Krok 2: Zdefiniuj format ścieżki pliku stronicowania
@@ -44,7 +45,7 @@ string pageFilePathFormat = Path.Combine(outputDirectory, "page_{0}.html");
 ```
 
 ## Krok 3: Utwórz obiekt Viewer
- Utwórz instancję`Viewer` klasę, przekazując ścieżkę do dokumentu zawierającego komentarze.
+Utwórz instancję `Viewer` klasa, przekazując ścieżkę do dokumentu zawierającego komentarze.
 
 ```csharp
 using (Viewer viewer = new Viewer(@"C:\Path\To\Your\DocumentWithComments.docx"))
@@ -62,7 +63,7 @@ options.RenderComments = true; // Włącz renderowanie komentarzy
 ```
 
 ## Krok 5: Wyrenderuj dokument z komentarzami
- Zadzwoń`View`metoda na`Viewer` obiekt ze skonfigurowanymi opcjami.
+Zadzwoń do `View` metoda na `Viewer` obiekt ze skonfigurowanymi opcjami.
 
 ```csharp
 viewer.View(options);
@@ -76,7 +77,7 @@ Console.WriteLine($"\nSource document rendered successfully.\nCheck output in {o
 ```
 
 ## Wniosek
-W tym samouczku nauczyłeś się, jak renderować dokumenty z komentarzami za pomocą GroupDocs.Viewer dla .NET. Postępując zgodnie z opisanymi krokami, możesz łatwo włączyć funkcjonalność renderowania dokumentów do swoich aplikacji, ulepszając doświadczenie użytkownika.
+W tym samouczku dowiesz się, jak renderować dokumenty z komentarzami za pomocą GroupDocs.Viewer dla platformy .NET. Postępując zgodnie z opisanymi krokami, możesz łatwo zintegrować funkcjonalność renderowania dokumentów z aplikacjami, poprawiając komfort użytkowania.
 
 ## Najczęściej zadawane pytania
 
@@ -84,7 +85,7 @@ W tym samouczku nauczyłeś się, jak renderować dokumenty z komentarzami za po
 Tak, GroupDocs.Viewer efektywnie renderuje dokumenty zawierające różne elementy formatowania, w tym tabele, obrazy i niestandardowe czcionki.
 
 ### Czy GroupDocs.Viewer jest kompatybilny z wieloma formatami dokumentów?
-Oczywiście! Biblioteka obsługuje szeroki zakres formatów, takich jak PDF, DOCX, XLSX, PPTX i wiele innych.
+Oczywiście! Biblioteka obsługuje szeroką gamę formatów, takich jak PDF, DOCX, XLSX, PPTX i wiele innych.
 
 ### Czy mogę dostosować opcje renderowania do swoich konkretnych potrzeb?
 Tak, GroupDocs.Viewer oferuje szereg elastycznych opcji renderowania pozwalających dostosować wyniki do wymagań danej aplikacji.
@@ -93,4 +94,4 @@ Tak, GroupDocs.Viewer oferuje szereg elastycznych opcji renderowania pozwalając
 Tak, biblioteka pozwala na renderowanie dokumentów z różnych źródeł, w tym lokalnych ścieżek plików, strumieni i adresów URL.
 
 ### Czy jest dostępna wersja próbna GroupDocs.Viewer?
-Tak, możesz zacząć poznawać GroupDocs.Viewer, korzystając z bezpłatnej wersji próbnej, aby ocenić jego funkcje i możliwości.
+Tak, możesz zacząć korzystać z bezpłatnej wersji próbnej programu GroupDocs.Viewer, aby ocenić jego funkcje i możliwości.

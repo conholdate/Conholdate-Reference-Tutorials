@@ -1,8 +1,8 @@
 ---
 "description": "Erfahren Sie, wie Sie mit Aspose.Cells für .NET effizient den Stammelementnamen einer in eine Excel-Datei eingebetteten XML-Map abrufen. Diese Schritt-für-Schritt-Anleitung führt Sie durch das Laden Ihres Excel-Dokuments."
-"linktitle": "Suchen Sie mit Aspose.Cells den Namen des Stammelements aus der XML-Karte"
+"linktitle": "Suchen Sie mit Aspose.Cells den Namen des Stammelements aus der XML-Map"
 "second_title": "Aspose.Cells .NET Excel-Verarbeitungs-API"
-"title": "Suchen Sie mit Aspose.Cells den Namen des Stammelements aus der XML-Karte"
+"title": "Suchen Sie mit Aspose.Cells den Namen des Stammelements aus der XML-Map"
 "url": "/de/cells/net/master-xml-map-operations/find-root-element-name-from-xml-map/"
 "weight": 10
 ---
@@ -50,7 +50,7 @@ Workbook wb = new Workbook(sourceDir + "sampleRootElementNameOfXmlMap.xlsx");
 
 Ersetzen `"sampleRootElementNameOfXmlMap.xlsx"` mit Ihrem tatsächlichen Dateinamen. Dieser Befehl initialisiert eine neue Instanz von `Workbook`, Laden Ihrer angegebenen Excel-Datei.
 
-## Schritt 3: Zugriff auf die XML-Karte
+## Schritt 3: Zugriff auf die XML-Zuordnung
 Excel-Dateien können mehrere XML-Maps enthalten. In diesem Beispiel konzentrieren wir uns auf den Zugriff auf die erste.
 
 ```csharp

@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Words for .NET 巧妙地控制 Word 文件內容的可見性。本指南循序漸進。"
+"description": "了解如何使用 Aspose.Words for .NET 專業地控制 Word 文件中內容的可見性。本逐步指南。"
 "linktitle": "管理 Word 文件中的書籤可見性"
 "second_title": "Aspose.Words文件處理API"
 "title": "管理 Word 文件中的書籤可見性"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-您準備好使用 Aspose.Words for .NET 提升您的文件操作技能了嗎？無論您是經驗豐富的文件自動化開發人員，還是對透過程式控制 Word 文件的好奇心十足的人士，本指南都是為您量身定制的。今天，我們將深入探討如何在 Word 文件中根據書籤顯示和隱藏內容。讓我們開始吧！
+您準備好使用 Aspose.Words for .NET 提升您的文件處理技能了嗎？無論您是經驗豐富的自動化文件任務開發人員，還是一位好奇探索 Word 文件的程式控制的個人，本指南都是為您量身定制的。今天，我們將深入研究如何根據 Word 文件中的書籤顯示和隱藏內容。讓我們開始吧！
 
 ## 先決條件
 
@@ -22,7 +22,7 @@
 
 ### 建立新專案
 
-1. 開啟 Visual Studio 並建立一個新的控制台應用程式 (.NET Core) 專案。將其命名為“BookmarkVisibilityManager”。
+1. 開啟 Visual Studio 並建立一個新的控制台應用程式（.NET Core）專案。將其命名為“BookmarkVisibilityManager”。
 
 ### 安裝 Aspose.Words for .NET
 
@@ -36,7 +36,7 @@
 
 ## 導入命名空間
 
-首先導入必要的命名空間。這些命名空間提供了使用 Aspose.Words 操作 Word 文件所需的類別和方法。
+首先導入必要的命名空間。這些提供了使用 Aspose.Words 操作 Word 文件所需的類別和方法。
 
 ```csharp
 using System;
@@ -46,7 +46,7 @@ using Aspose.Words.Bookmark;
 
 ## 步驟 1：載入文檔
 
-要操作Word文檔，我們需要先載入它。操作方法如下：
+要操作Word文檔，我們需要先載入它。具體操作如下：
 
 ```csharp
 // 定義文檔目錄的路徑。
@@ -58,7 +58,7 @@ Document doc = new Document(dataDir + "Bookmarks.docx");
 
 ## 步驟 2：顯示/隱藏已加入書籤的內容
 
-現在，讓我們建立一個方法，根據書籤切換內容的可見性。我們將此方法稱為 `ShowHideBookmarkedContent`。
+現在，讓我們建立一種方法來根據書籤切換內容的可見性。我們將此方法稱為 `ShowHideBookmarkedContent`。
 
 以下是方法的實作：
 
@@ -109,7 +109,7 @@ doc.Save(dataDir + "UpdatedBookmarks.docx");
 
 ## 結論
 
-恭喜！您已成功學習如何使用 Aspose.Words for .NET 在 Word 文件中顯示和隱藏書籤內容。這個強大的庫簡化了文件操作，使其成為自動化報告、建立範本或嘗試 Word 文件的理想選擇。祝您程式愉快！
+恭喜！您已成功學習如何使用 Aspose.Words for .NET 在 Word 文件中顯示和隱藏書籤內容。這個強大的庫簡化了文件操作，使其成為自動化報告、建立範本或試驗 Word 文件的理想選擇。編碼愉快！
 
 ## 常見問題解答
 
@@ -117,10 +117,10 @@ doc.Save(dataDir + "UpdatedBookmarks.docx");
 是的，只需致電 `ShowHideBookmarkedContent` 方法適用於您想要切換的每個書籤。
 
 ### 隱藏內容會影響文件的結構嗎？
-不會，隱藏內容只會影響其可見性；內容在文件中保持不變。
+不會，隱藏內容只會影響其可見性；文件中的內容保持不變。
 
 ### 我可以將此方法用於其他類型的內容嗎？
-此方法專為文字串設計。對於其他內容類型，您需要相應地調整節點遍歷邏輯。
+此方法是專門為文字運作而設計的。對於其他內容類型，您需要相應地調整節點遍歷邏輯。
 
 ### Aspose.Words for .NET 免費嗎？
 Aspose.Words 提供免費試用 [這裡](https://releases.aspose.com/)，但生產使用需要完整許可證。您可以購買 [這裡](https://purchase。aspose.com/buy).

@@ -1,26 +1,27 @@
 ---
-title: Aspose.Slides .NET'te Veri Noktasında Grafik İşaretleyici Seçenekleri
-linktitle: Aspose.Slides .NET'te Veri Noktasında Grafik İşaretleyici Seçenekleri
-second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET kullanarak PowerPoint grafiklerinizi özelleştirilmiş işaretleyici seçenekleriyle nasıl geliştireceğinizi öğrenin. Bu adım adım kılavuz ön koşulları, grafik oluşturmayı, veri noktası biçimlendirmeyi ve daha fazlasını kapsar.
-weight: 11
-url: /tr/slides/master-advanced-chart-customization/chart-marker-options/
+"description": "Aspose.Slides for .NET kullanarak PowerPoint grafiklerinizi özelleştirilmiş işaretçi seçenekleriyle nasıl zenginleştireceğinizi öğrenin. Bu adım adım kılavuz, ön koşulları, grafik oluşturmayı, veri noktası biçimlendirmeyi ve daha fazlasını kapsar."
+"linktitle": "Aspose.Slides .NET'te Veri Noktalarında Grafik İşaretleyici Seçenekleri"
+"second_title": "Aspose.Slides .NET PowerPoint İşleme API'si"
+"title": "Aspose.Slides .NET'te Veri Noktalarında Grafik İşaretleyici Seçenekleri"
+"url": "/tr/slides/net/master-advanced-chart-customization/chart-marker-options/"
+"weight": 11
 ---
+
 ## giriiş
 
-Sunumlara görsel yardımcılar eklemek etkili iletişim için olmazsa olmazdır. Aspose.Slides for .NET, grafikleri oluşturmak ve özelleştirmek için sağlam araçlar sunar ve geliştiricilerin veri sunumlarını geliştirmelerine olanak tanır. Öne çıkan özelliklerden biri, profesyonel görünümlü grafikler için hassas özelleştirmeye olanak tanıyan veri noktalarında grafik işaretleyici seçenekleri kullanma yeteneğidir. Bu makale, bunu başarmak için gereken her adımda size yol gösterecektir.
+Sunumlara görsel yardımcılar eklemek, etkili iletişim için olmazsa olmazdır. Aspose.Slides for .NET, grafikler oluşturmak ve özelleştirmek için güçlü araçlar sunarak geliştiricilerin veri sunumlarını geliştirmelerine olanak tanır. Öne çıkan özelliklerinden biri, veri noktalarında grafik işaretleyici seçeneklerinin kullanılabilmesi ve profesyonel görünümlü grafikler için hassas özelleştirme olanağı sağlamasıdır. Bu makale, bunu başarmak için gereken her adımda size yol gösterecektir.
 
 ## Ön koşullar
 
-Devam etmeden önce aşağıdakileri sağlayın:
+Devam etmeden önce aşağıdakilerden emin olun:
 
--  .NET için Aspose.Slides Yüklendi: Buradan indirin[Burada](https://releases.aspose.com/slides/net/).
+- .NET için Aspose.Slides Yüklendi: Şuradan indirin: [Burada](https://releases.aspose.com/slides/net/).
 - Temel Kurulum: Çalışma dizininizde "Test.pptx" gibi bir sunum dosyası.
 - Geliştirme Ortamı: .NET için yapılandırılmış Visual Studio veya eşdeğeri.
 
 ## Gerekli Ad Alanlarını İçe Aktarma
 
-Sorunsuz geliştirme için projenize gerekli ad alanlarını ekleyin:
+Kusursuz geliştirme için projenize gerekli ad alanlarını ekleyin:
 
 ```csharp
 using Aspose.Slides;
@@ -40,7 +41,7 @@ ISlide slide = pres.Slides[0];
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 50, 50, 600, 400);
 ```
 
- Bu bir şey ekler`LineWithMarkers` Belirtilen ölçülerde grafiğinizi slaydınıza ekleyin.
+Bu bir şey ekler `LineWithMarkers` Slaydınıza belirtilen ölçülerde grafik ekleyin.
 
 ## Adım 2: Grafik Veri Çalışma Sayfası Dizinini Alın
 
@@ -111,21 +112,21 @@ pres.Save(dataDir + "CustomizedChart.pptx", SaveFormat.Pptx);
 
 ## Çözüm
 
-Aspose.Slides for .NET, geliştiricilere zengin özelleştirme seçenekleriyle profesyonel grafikler oluşturmaları için araçlar sağlar. Grafik işaretleyici seçeneklerinden yararlanarak sunumlarınızın görsel çekiciliğini ve netliğini önemli ölçüde artırabilirsiniz. Bu adım adım kılavuz, karmaşık özelleştirmelerin bile uygulanmasının kolay olmasını sağlar.
+Aspose.Slides for .NET, geliştiricilere zengin özelleştirme seçenekleriyle profesyonel grafikler oluşturmaları için araçlar sunar. Grafik işaretleyici seçeneklerinden yararlanarak sunumlarınızın görsel çekiciliğini ve netliğini önemli ölçüde artırabilirsiniz. Bu adım adım kılavuz, karmaşık özelleştirmelerin bile kolayca uygulanmasını sağlar.
 
 ## SSS
 
 ### İşaretçi özelleştirmesi için herhangi bir resim formatını kullanabilir miyim?
-Evet, Aspose.Slides işaretçi özelleştirmesi için JPEG, PNG ve BMP dahil olmak üzere çeşitli resim formatlarını destekler.
+Evet, Aspose.Slides işaretleyici özelleştirmesi için JPEG, PNG ve BMP dahil olmak üzere çeşitli görüntü formatlarını destekler.
 
-### Grafik türünü oluşturduktan sonra nasıl değiştirebilirim?
- Grafik türünü değiştirmek için şuraya erişin:`chart.Type` mülkiyet ve farklı bir atama`ChartType`.
+### Grafik oluşturulduktan sonra türünü nasıl değiştirebilirim?
+Grafik türünü değiştirmek için şuraya erişin: `chart.Type` mülkiyet ve farklı bir atama `ChartType`.
 
 ### Aspose.Slides for .NET eski PowerPoint sürümleriyle uyumlu mudur?
 Evet, eski PowerPoint formatlarıyla geriye dönük uyumluluğu destekleyerek çok yönlülüğü garanti altına alır.
 
 ### Grafik verilerini dinamik olarak güncelleyebilir miyim?
- Kesinlikle. Şunu kullanın:`IChartDataWorkbook` grafik verilerini programlı olarak güncellemek için.
+Kesinlikle. Kullanın `IChartDataWorkbook` grafik verilerini programlı olarak güncellemek için.
 
 ### Daha fazla kaynağı nerede bulabilirim?
- Keşfedin[Aspose.Slides belgeleri](https://reference.aspose.com/slides/net/)veya katılın[topluluk forumları](https://forum.aspose.com/) destek için.
+Keşfet [Aspose.Slides belgeleri](https://reference.aspose.com/slides/net/) veya katılın [topluluk forumları](https://forum.aspose.com/) destek için.

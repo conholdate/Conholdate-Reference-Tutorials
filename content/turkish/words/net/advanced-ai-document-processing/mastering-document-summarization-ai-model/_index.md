@@ -85,7 +85,7 @@ using System;
 using Aspose.Words.AI;
 ```
 
-Bunun ne kadar temiz olduğunu fark ettiniz mi? Aspose, yapay zeka yeteneklerini doğrudan belge işleme süreçlerine entegre etme konusunda ağır bir yük üstlendi.
+Bunun ne kadar temiz olduğunu fark ettiniz mi? Aspose, yapay zeka yeteneklerini doğrudan belge işleme hattına entegre etme konusunda ağır bir yük üstlendi.
 
 ## Adım Adım Uygulama Kılavuzu
 
@@ -132,7 +132,7 @@ Burada dikkat edilmesi gereken birkaç nokta var:
 - `Gpt4OMini` Özetleme için genellikle en iyi noktadır; hızlı ve uygun maliyetlidir
 - The `IAiModelText` arayüz, gerektiğinde daha sonra AI sağlayıcılarını değiştirme esnekliği sağlar
 
-### 4. Adım: Tek Belge Özetleme
+### Adım 4: Tek Belge Özetleme
 
 En yaygın kullanım örneğiyle başlayalım: Bir belgeyi özetleyelim:
 

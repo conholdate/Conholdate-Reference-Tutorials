@@ -9,7 +9,7 @@
 
 ## Zavedení
 
-Potřebovali jste někdy ve svých PDF dokumentech vytvořit dobře strukturované, číslované seznamy? Ať už se jedná o právní dokumenty, zprávy nebo prezentace, efektivní styly číslování jsou klíčové pro organizaci vašeho obsahu. S Aspose.PDF pro .NET můžete snadno aplikovat různé styly číslování na nadpisy PDF, což vám umožní vylepšit a vytvořit profesionální dokumenty.
+Potřebovali jste někdy ve svých PDF dokumentech vytvořit dobře strukturované, číslované seznamy? Ať už se jedná o právní dokumenty, zprávy nebo prezentace, efektivní styly číslování jsou klíčové pro organizaci vašeho obsahu. S Aspose.PDF pro .NET můžete snadno aplikovat různé styly číslování na nadpisy PDF, což vede k propracovaným a profesionálním dokumentům.
 
 ## Předpoklady
 
@@ -135,7 +135,7 @@ Console.WriteLine($"\nNumber style applied successfully in headings.\nFile saved
 
 ## Závěr
 
-Gratulujeme! Pomocí Aspose.PDF pro .NET jste úspěšně aplikovali různé styly číslování – římské číslice a abecední – na nadpisy v souboru PDF. Flexibilita Aspose.PDF vám umožňuje ovládat rozvržení stránky, styly číslování a umístění obsahu, což vám umožňuje vytvářet dobře organizované a profesionální dokumenty PDF.
+Gratulujeme! Úspěšně jste pomocí Aspose.PDF pro .NET použili různé styly číslování – římské číslice a abecední – na nadpisy v souboru PDF. Flexibilita Aspose.PDF vám umožňuje ovládat rozvržení stránky, styly číslování a umístění obsahu, což vám umožňuje vytvářet dobře organizované a profesionální dokumenty PDF.
 
 ## Často kladené otázky
 

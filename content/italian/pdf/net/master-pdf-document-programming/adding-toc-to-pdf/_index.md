@@ -108,7 +108,7 @@ titles[2] = "Third page";
 titles[3] = "Fourth page";
 ```
 
-**In pratica**: Sostituisci questi titoli generici con nomi significativi delle sezioni del tuo documento effettivo. Pensa a "Riepilogo", "Analisi finanziaria", "Raccomandazioni", ecc. Più descrittivi sono i titoli, più utile diventa il tuo indice.
+**In pratica**: Sostituisci questi titoli generici con nomi significativi delle sezioni del tuo documento effettivo. Pensa a "Riepilogo", "Analisi finanziaria", "Raccomandazioni", ecc. Più descrittivi sono i tuoi titoli, più utile diventa il tuo indice.
 
 **Nota sulla scalabilità**: Questo esempio mostra quattro titoli, ma è possibile gestirne decine o addirittura centinaia. Per documenti molto grandi, si consiglia di raggruppare le sezioni correlate sotto i titoli principali.
 

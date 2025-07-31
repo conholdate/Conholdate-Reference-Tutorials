@@ -1,14 +1,15 @@
 ---
-title: Aspose.Slides for .NET ile Grafiklerden Çalışma Kitabı Verilerini Çıkarma
-linktitle: Aspose.Slides for .NET ile Grafiklerden Çalışma Kitabı Verilerini Çıkarma
-second_title: Aspose.Slides .NET PowerPoint İşleme API'si
-description: Aspose.Slides for .NET kullanarak grafiklerden çalışma kitabı verilerini nasıl kurtaracağınızı öğrenerek PowerPoint sunumlarınızın potansiyelini açığa çıkarın. Bu adım adım eğitim, grafik verilerini etkili bir şekilde çıkarmanızı ve kullanmanızı kolaylaştırarak sizi süreç boyunca yönlendirir.
-weight: 12
-url: /tr/slides/master-additional-chart-features/extract-workbook-data-from-charts/
+"description": "Aspose.Slides for .NET kullanarak çalışma kitabı verilerini grafiklerden nasıl kurtaracağınızı öğrenerek PowerPoint sunumlarınızın potansiyelini ortaya çıkarın. Bu adım adım eğitim, süreç boyunca size rehberlik ederek grafik verilerini etkili bir şekilde çıkarmanızı ve kullanmanızı kolaylaştırır."
+"linktitle": "Aspose.Slides for .NET ile Grafiklerden Çalışma Kitabı Verilerini Çıkarma"
+"second_title": "Aspose.Slides .NET PowerPoint İşleme API'si"
+"title": "Aspose.Slides for .NET ile Grafiklerden Çalışma Kitabı Verilerini Çıkarma"
+"url": "/tr/slides/net/master-additional-chart-features/extract-workbook-data-from-charts/"
+"weight": 12
 ---
+
 ## giriiş
 
-PowerPoint sunumlarıyla çalışmak, özellikle gömülü grafiklerden değerli veriler çıkarırken zorlayıcı olabilir. Neyse ki, .NET için Aspose.Slides bu süreci basitleştiren sağlam bir çözüm sunar. Bu eğitimde, bir PowerPoint sunumundaki bir grafikten bir çalışma kitabını nasıl kurtaracağınız konusunda adım adım size rehberlik edeceğiz.
+PowerPoint sunumlarıyla çalışmak, özellikle gömülü grafiklerden değerli veriler çıkarırken zor olabilir. Neyse ki, .NET için Aspose.Slides bu süreci kolaylaştıran güçlü bir çözüm sunuyor. Bu eğitimde, bir PowerPoint sunumundaki grafikten bir çalışma kitabını nasıl kurtaracağınızı adım adım anlatacağız.
 
 ## Ön koşullar
 
@@ -44,7 +45,7 @@ string dataDir = "Your Document Directory"; // Bu yolu gerektiği gibi ayarlayı
 
 ## Adım 3: Sunumu Yükleyin
 
-Çalışma kitabı kurtarmayı grafiğin önbelleğinden etkinleştirirken PowerPoint sunumunu yükleyebilirsiniz. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+Çalışma kitabı kurtarmayı grafiğin önbelleğinden etkinleştirerek PowerPoint sunumunu yükleyebilirsiniz. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 ```csharp
 string pptxFile = Path.Combine(dataDir, "YourPresentation.pptx");
@@ -61,39 +62,39 @@ using (Presentation pres = new Presentation(pptxFile, lo))
 }
 ```
 
- Bu adımda,`LoadOptions` nesne, çalışma kitabı kurtarmayı etkinleştirmenize olanak tanır`RecoverWorkbookFromChartCache` mülk.
+Bu adımda, `LoadOptions` nesne, çalışma kitabı kurtarmayı etkinleştirmenize olanak tanır `RecoverWorkbookFromChartCache` mülk.
 
 ## Adım 4: Tabloyu Alın ve Çalışma Kitabına Erişin
 
-Şimdi grafiğin derinliklerine inip ilişkili verileri alma zamanı:
+Şimdi grafiğin derinliklerine inip ilgili verileri alma zamanı:
 
 ```csharp
-IChart chart = pres.Slides[0].Shapes[0] as IChart; // Gerektiğinde endeksi ayarlayın
+IChart chart = pres.Slides[0].Shapes[0] as IChart; // Gerektiği gibi endeksi ayarlayın
 IChartDataWorkbook wb = chart.ChartData.ChartDataWorkbook;
 
 // Artık çalışma kitabı verileriyle gereksinimlerinize göre çalışabilirsiniz
 ```
 
-İlk slaydın ilk şekline (bir grafik olması bekleniyor) erişerek, grafik veri çalışma kitabını elde edersiniz ve verileri gerektiği gibi işleyebilir veya çıkarabilirsiniz.
+İlk slaydın ilk şekline (bir grafik olması bekleniyor) erişerek grafik veri çalışma kitabını elde edersiniz ve verileri gerektiği gibi işleyebilir veya çıkarabilirsiniz.
 
 ## Çözüm
 
-Bu eğitimde, Aspose.Slides for .NET kullanarak bir PowerPoint sunumundaki bir grafikten bir çalışma kitabını etkili bir şekilde nasıl kurtaracağınızı gösterdik. Bu adımları izleyerek, analitik ihtiyaçlarınız için grafik verilerini kolayca çıkarabilir ve kullanabilirsiniz.
+Bu eğitimde, Aspose.Slides for .NET kullanarak bir PowerPoint sunumundaki bir grafikten çalışma kitabını nasıl etkili bir şekilde kurtaracağınızı gösterdik. Bu adımları izleyerek, analitik ihtiyaçlarınız için grafik verilerini kolayca çıkarabilir ve kullanabilirsiniz.
 
 ## SSS
 
 ### Aspose.Slides for .NET nedir?
 
-Aspose.Slides for .NET, geliştiricilerin Microsoft PowerPoint sunumlarını programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan güçlü bir kütüphanedir.
+Aspose.Slides for .NET, geliştiricilerin Microsoft PowerPoint sunumlarını programlı bir şekilde oluşturmalarını, düzenlemelerini ve dönüştürmelerini sağlayan güçlü bir kütüphanedir.
 
 ### Satın almadan önce Aspose.Slides for .NET'i deneyebilir miyim?
 
- Evet! Aspose, .NET için Aspose.Slides'ın ücretsiz deneme sürümünü sunar. Satın alma yapmadan önce yeteneklerini değerlendirebilirsiniz.[Ücretsiz denemeyi buradan edinin](https://releases.aspose.com/).
+Evet! Aspose, .NET için Aspose.Slides'ın ücretsiz deneme sürümünü sunuyor. Satın almadan önce özelliklerini değerlendirebilirsiniz. [Ücretsiz denemeyi buradan edinin](https://releases.aspose.com/).
 
-### Aspose.Slides for .NET'in belgelerini nerede bulabilirim?
+### Aspose.Slides for .NET dokümanlarını nerede bulabilirim?
 
- Aspose.Slides for .NET için kapsamlı belgelere erişebilirsiniz[Burada](https://reference.aspose.com/slides/net/)Örnekler ve API referansları içeren .
+Aspose.Slides for .NET için kapsamlı belgelere erişebilirsiniz [Burada](https://reference.aspose.com/slides/net/)Örnekler ve API referansları içeren .
 
 ### Aspose.Slides for .NET için lisans nasıl satın alabilirim?
 
- Lisans satın almak için Aspose web sitesini ziyaret edin ve aşağıdaki bağlantıyı kullanın:[.NET için Aspose.Slides'ı satın alın](https://purchase.aspose.com/buy).
+Lisans satın almak için Aspose web sitesini ziyaret edin ve aşağıdaki bağlantıyı kullanın: [.NET için Aspose.Slides'ı satın alın](https://purchase.aspose.com/buy).

@@ -9,7 +9,7 @@
 
 ## Zavedení
 
-V digitálním věku je zajištění integrity a autenticity vašich dokumentů důležitější než kdy dříve. Jednou z účinných metod, jak toho dosáhnout, je použití digitálních podpisů. V tomto tutoriálu se podíváme na to, jak detekovat digitální podpisy v dokumentech Wordu pomocí knihovny Aspose.Words pro .NET. Na konci budete mít důkladné znalosti o celém procesu.
+V digitálním věku je zajištění integrity a autenticity vašich dokumentů důležitější než kdy dříve. Jednou z účinných metod, jak toho dosáhnout, je použití digitálních podpisů. V tomto tutoriálu se podíváme na to, jak detekovat digitální podpisy v dokumentech Word pomocí knihovny Aspose.Words pro .NET. Na konci budete mít důkladné znalosti o celém procesu.
 
 ## Předpoklady
 

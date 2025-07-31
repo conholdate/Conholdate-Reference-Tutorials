@@ -92,7 +92,7 @@ worksheet.IsRowColumnHeadersVisible = false;
 
 Pour afficher à nouveau les en-têtes, redéfinissez-les simplement sur `true`.
 
-## Étape 6 : Enregistrer le fichier Excel modifié
+## Étape 6 : Enregistrez le fichier Excel modifié
 
 Après avoir effectué vos modifications, enregistrez le classeur pour créer un nouveau fichier Excel ou écraser le fichier existant.
 

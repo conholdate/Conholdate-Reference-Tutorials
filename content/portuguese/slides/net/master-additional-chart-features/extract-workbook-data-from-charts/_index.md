@@ -1,14 +1,15 @@
 ---
-title: Extraia dados da pasta de trabalho de gráficos com Aspose.Slides para .NET
-linktitle: Extraia dados da pasta de trabalho de gráficos com Aspose.Slides para .NET
-second_title: API de processamento do PowerPoint Aspose.Slides .NET
-description: Desbloqueie o potencial das suas apresentações do PowerPoint aprendendo como recuperar dados de planilhas de gráficos usando o Aspose.Slides for .NET. Este tutorial passo a passo o guia pelo processo, facilitando a extração e utilização eficaz de dados de gráficos.
-weight: 12
-url: /pt/slides/master-additional-chart-features/extract-workbook-data-from-charts/
+"description": "Libere o potencial das suas apresentações do PowerPoint aprendendo a recuperar dados de planilhas de gráficos usando o Aspose.Slides para .NET. Este tutorial passo a passo guia você pelo processo, facilitando a extração e o uso eficaz de dados de gráficos."
+"linktitle": "Extraia dados da pasta de trabalho de gráficos com Aspose.Slides para .NET"
+"second_title": "API de processamento de PowerPoint Aspose.Slides .NET"
+"title": "Extraia dados da pasta de trabalho de gráficos com Aspose.Slides para .NET"
+"url": "/pt/slides/net/master-additional-chart-features/extract-workbook-data-from-charts/"
+"weight": 12
 ---
+
 ## Introdução
 
-Trabalhar com apresentações do PowerPoint pode ser desafiador, especialmente ao extrair dados valiosos de gráficos incorporados. Felizmente, o Aspose.Slides for .NET fornece uma solução robusta que simplifica esse processo. Neste tutorial, nós o guiaremos passo a passo sobre como recuperar uma pasta de trabalho de um gráfico dentro de uma apresentação do PowerPoint.
+Trabalhar com apresentações do PowerPoint pode ser desafiador, especialmente ao extrair dados valiosos de gráficos incorporados. Felizmente, o Aspose.Slides para .NET oferece uma solução robusta que simplifica esse processo. Neste tutorial, mostraremos passo a passo como recuperar uma pasta de trabalho de um gráfico em uma apresentação do PowerPoint.
 
 ## Pré-requisitos
 
@@ -16,7 +17,7 @@ Antes de começarmos o código, certifique-se de ter o seguinte pronto:
 
 ### Aspose.Slides para .NET
 
-Você precisa ter o Aspose.Slides for .NET instalado no seu ambiente de desenvolvimento. Se você ainda não fez isso, pode baixá-lo do site:
+Você precisa ter o Aspose.Slides para .NET instalado no seu ambiente de desenvolvimento. Se ainda não o fez, você pode baixá-lo do site:
 
 [Baixe Aspose.Slides para .NET](https://releases.aspose.com/slides/net/)
 
@@ -34,7 +35,7 @@ using Aspose.Slides.Charts;
 using Aspose.Slides.Export;
 ```
 
-## Etapa 2: Defina o diretório do documento
+## Etapa 2: Definir o Diretório de Documentos
 
 Especifique o diretório onde seu arquivo de apresentação está localizado:
 
@@ -44,7 +45,7 @@ string dataDir = "Your Document Directory"; // Ajuste este caminho conforme nece
 
 ## Etapa 3: Carregue a apresentação
 
-Você pode carregar a apresentação do PowerPoint enquanto habilita a recuperação da pasta de trabalho do cache do gráfico. Veja como fazer isso:
+Você pode carregar a apresentação do PowerPoint enquanto habilita a recuperação da pasta de trabalho a partir do cache do gráfico. Veja como fazer isso:
 
 ```csharp
 string pptxFile = Path.Combine(dataDir, "YourPresentation.pptx");
@@ -61,7 +62,7 @@ using (Presentation pres = new Presentation(pptxFile, lo))
 }
 ```
 
- Nesta etapa, o`LoadOptions` objeto permite que você habilite a recuperação da pasta de trabalho usando o`RecoverWorkbookFromChartCache` propriedade.
+Nesta etapa, o `LoadOptions` objeto permite que você habilite a recuperação da pasta de trabalho usando o `RecoverWorkbookFromChartCache` propriedade.
 
 ## Etapa 4: recuperar o gráfico e acessar sua pasta de trabalho
 
@@ -78,7 +79,7 @@ Ao acessar a primeira forma do primeiro slide (que deve ser um gráfico), você 
 
 ## Conclusão
 
-Neste tutorial, demonstramos como recuperar efetivamente uma pasta de trabalho de um gráfico em uma apresentação do PowerPoint usando o Aspose.Slides for .NET. Seguindo essas etapas, você pode facilmente extrair e utilizar dados do gráfico para suas necessidades analíticas.
+Neste tutorial, demonstramos como recuperar com eficiência uma pasta de trabalho a partir de um gráfico em uma apresentação do PowerPoint usando o Aspose.Slides para .NET. Seguindo esses passos, você poderá extrair e utilizar facilmente os dados do gráfico para suas necessidades analíticas.
 
 ## Perguntas frequentes
 
@@ -88,12 +89,12 @@ Aspose.Slides para .NET é uma biblioteca poderosa que permite aos desenvolvedor
 
 ### Posso testar o Aspose.Slides para .NET antes de comprar?
 
- Sim! A Aspose oferece uma versão de teste gratuita do Aspose.Slides para .NET. Você pode avaliar suas capacidades antes de fazer uma compra.[Obtenha o teste gratuito aqui](https://releases.aspose.com/).
+Sim! A Aspose oferece uma versão de teste gratuita do Aspose.Slides para .NET. Você pode avaliar seus recursos antes de fazer uma compra. [Obtenha o teste gratuito aqui](https://releases.aspose.com/).
 
 ### Onde posso encontrar a documentação do Aspose.Slides para .NET?
 
- Você pode acessar a documentação abrangente do Aspose.Slides para .NET[aqui](https://reference.aspose.com/slides/net/), que inclui exemplos e referências de API.
+Você pode acessar a documentação completa do Aspose.Slides para .NET [aqui](https://reference.aspose.com/slides/net/), que inclui exemplos e referências de API.
 
 ### Como faço para adquirir uma licença do Aspose.Slides para .NET?
 
- Para comprar uma licença, visite o site da Aspose e use o seguinte link:[Compre Aspose.Slides para .NET](https://purchase.aspose.com/buy).
+Para comprar uma licença, visite o site da Aspose e use o seguinte link: [Compre Aspose.Slides para .NET](https://purchase.aspose.com/buy).

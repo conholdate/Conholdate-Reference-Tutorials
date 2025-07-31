@@ -1,20 +1,21 @@
 ---
-title: Handleiding voor lokale transformaties met Aspose.Drawing voor .NET
-linktitle: Handleiding voor lokale transformaties met Aspose.Drawing
-second_title: Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common
-description: Verbeter de visuele mogelijkheden van uw .NET-applicatie met lokale transformaties met Aspose.Drawing. Deze uitgebreide tutorial leidt u door het proces van het maken van verbluffende graphics door transformatiematrices toe te passen.
-weight: 11
-url: /nl/drawing/transformations/guide-to-local-transformation/
+"description": "Verbeter de visuele mogelijkheden van uw .NET-applicatie met lokale transformaties met Aspose.Drawing. Deze uitgebreide tutorial begeleidt u door het proces van het maken van verbluffende graphics door transformatiematrices toe te passen."
+"linktitle": "Handleiding voor lokale transformaties met Aspose.Drawing"
+"second_title": "Aspose.Drawing .NET API - Alternatief voor System.Drawing.Common"
+"title": "Handleiding voor lokale transformaties met Aspose.Drawing voor .NET"
+"url": "/nl/drawing/net/transformations/guide-to-local-transformation/"
+"weight": 11
 ---
+
 ## Invoering
 
-Aspose.Drawing voor .NET stelt ontwikkelaars in staat om geavanceerde graphics te creëren via lokale transformaties. Deze korte handleiding leidt u stap voor stap door het instellen van lokale transformaties.
+Met Aspose.Drawing voor .NET kunnen ontwikkelaars geavanceerde graphics creëren door middel van lokale transformaties. Deze korte handleiding begeleidt u stap voor stap bij het instellen van lokale transformaties.
 
 ## Vereisten
 
-1.  Aspose.Drawing voor .NET: Download en installeer het vanaf[hier](https://releases.aspose.com/drawing/net/).
-2. Documentmap: Kies een map om uw afbeeldingen op te slaan.
-3. Basiskennis van .NET: Kennis van C# en grafische programmeerconcepten.
+1. Aspose.Drawing voor .NET: Download en installeer het vanaf [hier](https://releases.aspose.com/drawing/net/).
+2. Documentmap: Kies een map om uw afbeeldingen in op te slaan.
+3. Basiskennis van .NET: Kennis van C# en grafische programmeringsconcepten.
 
 ## Naamruimten importeren
 
@@ -38,7 +39,7 @@ Graphics graphics = Graphics.FromImage(bitmap);
 graphics.Clear(Color.FromKnownColor(KnownColor.Gray));
 ```
 
-### Stap 3: Maak een GraphicsPath
+### Stap 3: Een GraphicsPath maken
 
 Teken een ellips:
 
@@ -85,10 +86,10 @@ Ja, u kunt transformaties aan elkaar koppelen met behulp van de matrix.
 Zeker! Aspose.Drawing ondersteunt een breed scala aan grafische bewerkingen.
 
 ### Zijn er nog andere soorten transformaties?  
-Ja, het ondersteunt vertaling, schalen en scheeftrekken.
+Ja, vertaling, schalen en scheeftrekken worden ondersteund.
 
 ### Hoe ga je om met uitzonderingen?  
- Implementeer foutbehandeling en raadpleeg de[documentatie](https://reference.aspose.com/drawing/net/) voor begeleiding.
+Implementeer foutverwerking en raadpleeg de [documentatie](https://reference.aspose.com/drawing/net/) voor begeleiding.
 
 ### Kan ik het uitproberen voordat ik het koop?  
- Ja, verken een[gratis proefperiode](https://releases.aspose.com/).
+Ja, verken een [gratis proefperiode](https://releases.aspose.com/).

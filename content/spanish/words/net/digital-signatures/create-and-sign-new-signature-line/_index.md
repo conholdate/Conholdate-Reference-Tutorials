@@ -89,7 +89,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "your_certific
 
 ## Paso 7: Firma del documento
 
-Finalmente, firme el documento utilizando el `DigitalSignatureUtil` Clase. Guarde el documento firmado con un nuevo nombre para futuras referencias.
+Por último, firme el documento utilizando el `DigitalSignatureUtil` Clase. Guarde el documento firmado con un nuevo nombre para futuras referencias.
 
 ```csharp
 DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLine.docx",

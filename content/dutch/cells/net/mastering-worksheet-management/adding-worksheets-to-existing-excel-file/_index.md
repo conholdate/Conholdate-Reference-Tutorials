@@ -13,19 +13,19 @@ Aspose.Cells voor .NET biedt een krachtige manier om Excel-bestanden programmati
 
 ## Vereisten
 
-Voordat u in de code duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat u aan de slag gaat met de code, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 1. Aspose.Cells voor .NET-bibliotheek: U kunt ofwel [download Aspose.Cells voor .NET](https://releases.aspose.com/cells/net/) of installeer het via NuGet met de volgende opdracht:
    ```bash
    Install-Package Aspose.Cells
    ```
-2. .NET-ontwikkelomgeving: zorg ervoor dat u een werkende .NET-omgeving hebt, idealiter .NET Framework 4.0 of hoger.
+2. .NET-ontwikkelomgeving: zorg ervoor dat u over een werkende .NET-omgeving beschikt, bij voorkeur .NET Framework 4.0 of hoger.
 3. Basiskennis van C#: Kennis van C#-programmering helpt u de gegeven voorbeelden beter te begrijpen.
 4. Een bestaand Excel-bestand: Zorg ervoor dat u een Excel-bestand hebt (bijv. `book1.xls`) waaraan u een werkblad kunt toevoegen.
 
 ### Uw licentie instellen (optioneel)
 
-Gebruikers met een gelicentieerde versie van Aspose.Cells kunnen het volledige potentieel van de bibliotheek benutten door hun licentie toe te passen. Voor tijdelijke licentieopties kunt u terecht op [Tijdelijke licentiepagina van Aspose](https://purchase.aspose.com/temporary-license/).
+Gebruikers met een gelicentieerde versie van Aspose.Cells kunnen het volledige potentieel van de bibliotheek benutten door hun licentie toe te passen. Voor tijdelijke licentieopties kunt u terecht op [Aspose's tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
 
 ## Importeer vereiste pakketten
 
@@ -80,7 +80,7 @@ Om een nieuw werkblad aan de werkmap toe te voegen, gebruikt u de `Add()` method
 int sheetIndex = workbook.Worksheets.Add();
 ```
 
-Het nieuw toegevoegde werkblad is toegankelijk via de index. Hiermee kunt u het werkblad verder bewerken.
+Het nieuw toegevoegde werkblad is toegankelijk via de index, waarmee u het werkblad verder kunt bewerken.
 
 ## Stap 5: Toegang tot het nieuw toegevoegde werkblad
 
@@ -91,7 +91,7 @@ Met het nieuwe werkblad dat is toegevoegd, kunt u er toegang toe krijgen via de 
 Worksheet worksheet = workbook.Worksheets[sheetIndex];
 ```
 
-De `worksheet` Het object verwijst nu naar uw nieuwe werkblad. Daar kunt u de naam ervan wijzigen, gegevens toevoegen of opmaken.
+De `worksheet` Het object verwijst nu naar uw nieuwe werkblad, waar u het een andere naam kunt geven, gegevens kunt toevoegen of kunt opmaken.
 
 ## Stap 6: Hernoem het nieuwe werkblad
 

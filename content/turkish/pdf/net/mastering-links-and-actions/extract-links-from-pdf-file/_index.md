@@ -69,7 +69,7 @@ Page page = document.Pages[1]; // Sayfalar 1'den başlayarak indekslenir
 
 ## Adım 4: Bağlantı Açıklama Seçicisini Ayarlayın
 
-Şimdi sayfadaki tüm bağlantı açıklamalarını yakalamak için bir seçici oluşturalım:
+Şimdi sayfadaki tüm bağlantı açıklamalarını almak için bir seçici oluşturalım:
 
 ```csharp
 AnnotationSelector selector = new AnnotationSelector(new LinkAnnotation(page, Aspose.Pdf.Rectangle.Trivial));

@@ -1,8 +1,8 @@
 ---
 "description": ".NET के लिए Aspose.Cells की मदद से अपने Excel फ़ाइल प्रबंधन को सुव्यवस्थित करना सीखें। यह मार्गदर्शिका आपको विशिष्ट वर्कशीट्स को नाम से प्रोग्रामेटिक रूप से हटाने के चरणों से परिचित कराती है, जिससे आपका समय बचता है और आपकी स्प्रेडशीट व्यवस्थित रहती हैं।"
-"linktitle": "Aspose.Cells का उपयोग करके नाम से विशिष्ट वर्कशीट हटाएं"
+"linktitle": "Aspose.Cells का उपयोग करके नाम से विशिष्ट वर्कशीट हटाएँ"
 "second_title": "Aspose.Cells .NET Excel प्रोसेसिंग API"
-"title": "Aspose.Cells का उपयोग करके नाम से विशिष्ट वर्कशीट हटाएं"
+"title": "Aspose.Cells का उपयोग करके नाम से विशिष्ट वर्कशीट हटाएँ"
 "url": "/hi/cells/net/mastering-worksheet-management/remove-specific-worksheets-by-name/"
 "weight": 15
 ---

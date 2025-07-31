@@ -34,7 +34,7 @@ Antes de profundizar en la implementación, entendamos por qué la combinación 
 - Admite varios formatos de documentos (DOCX, DOC, RTF, PDF)
 - Confiabilidad y soporte de nivel empresarial
 
-**Beneficios de la IA de Google:**
+**Beneficios de Google AI:**
 - Comprensión del lenguaje natural de última generación
 - Resumen contextual que mantiene el significado del documento
 - API escalable con alta disponibilidad
@@ -251,7 +251,7 @@ Implementar la limitación de velocidad para mantenerse dentro de las cuotas de 
 
 ### Resumen de problemas de calidad
 
-**Asunto**: Resúmenes que carecen de información importante
+**Asunto**: Resúmenes en los que falta información importante
 **Solución**:
 - Pruebe diferentes longitudes de resumen (más largas para documentos complejos)
 - Asegúrese de que los documentos tengan una estructura y encabezados claros

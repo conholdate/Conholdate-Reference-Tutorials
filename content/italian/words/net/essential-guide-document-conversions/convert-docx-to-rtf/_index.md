@@ -106,7 +106,7 @@ using (MemoryStream dstStream = new MemoryStream())
 **Analizzando questo codice**:
 1. **Creazione di MemoryStream**: Utilizziamo un flusso di memoria come passaggio intermedio per prestazioni migliori
 2. **Salvataggio dei documenti**: `SaveFormat.Rtf` dice ad Aspose.Words di convertire il documento in formato RTF
-3. **Posizione di ripristino**: Essenziale per leggere correttamente il contenuto dello stream
+3. **Posizione ripristinata**: Essenziale per leggere correttamente il contenuto dello stream
 4. **Scrittura di file**: Il file RTF finale viene scritto sul disco
 
 **Nota di prestazione**L'utilizzo di MemoryStream per l'elaborazione intermedia è più rapido rispetto al salvataggio diretto su disco, soprattutto per documenti di grandi dimensioni o operazioni batch.

@@ -22,7 +22,7 @@ Tworzenie wiadomości e-mail programowo może wydawać się skomplikowane, ale A
 
 ## Dodawanie treści HTML do wiadomości e-mail  
 
-Po co zadowalać się zwykłym tekstem, skoro możesz zachwycić odbiorców atrakcyjnymi wizualnie wiadomościami HTML? Z Aspose.Email możesz tworzyć profesjonalne, spersonalizowane wiadomości. Dodawaj interaktywne elementy, takie jak przyciski i osadzaj obrazy, aby Twoje e-maile wyróżniały się. Chcesz się dowiedzieć, jak to zrobić? Sprawdź ten poradnik: [Dodawanie treści HTML do wiadomości e-mail — przykład w języku C#](./add-html-body-to-emails-csharp-example/).
+Po co zadowalać się zwykłym tekstem, skoro możesz zachwycić odbiorców atrakcyjnymi wizualnie wiadomościami HTML? Z Aspose.Email możesz tworzyć profesjonalne, spersonalizowane wiadomości. Dodawaj interaktywne elementy, takie jak przyciski i osadzaj obrazy, aby Twoje e-maile się wyróżniały. Chcesz się dowiedzieć, jak to zrobić? Sprawdź ten poradnik: [Dodawanie treści HTML do wiadomości e-mail — przykład w języku C#](./add-html-body-to-emails-csharp-example/).
 
 ## Konwersja plików MSG do formatu TNEF za pomocą Aspose.Email  
 

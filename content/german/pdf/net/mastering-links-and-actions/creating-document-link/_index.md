@@ -181,7 +181,7 @@ Sobald Sie alles eingerichtet haben, können Sie loslegen!
 
 ## Pakete importieren
 
-Um mit der Arbeit mit Aspose.PDF für .NET zu beginnen, besteht der erste Schritt darin, die erforderlichen Namespaces in Ihre C#-Datei zu importieren:
+Um mit Aspose.PDF für .NET zu arbeiten, müssen Sie zunächst die erforderlichen Namespaces in Ihre C#-Datei importieren:
 
 ```csharp
 using System.IO;
@@ -222,7 +222,7 @@ Als Nächstes müssen Sie festlegen, auf welcher Seite Ihres Dokuments der Link 
 Page page = document.Pages[1];
 ```
 
-Die Seiten werden in Aspose mit Null indexiert, d. h. Sie beginnen für den Benutzer bei 1 zu zählen. Dieser Schritt bereitet die Bühne für das Hinzufügen Ihres Links vor.
+Die Seiten sind in Aspose nullindexiert, d. h. Sie beginnen für den Benutzer bei 1 zu zählen. Dieser Schritt bereitet die Bühne für das Hinzufügen Ihres Links vor.
 
 ## Schritt 4: Erstellen Sie die Link-Annotation
 
@@ -236,7 +236,7 @@ Hier definiert das Rechteck den klickbaren Bereich für den Link. Die Parameter 
 
 ## Schritt 5: Link-Erscheinungsbild anpassen
 
-Lassen Sie uns den Link jetzt etwas hervorheben! Sie können seine Farbe und sein Verhalten beim Anklicken anpassen.
+Lassen Sie uns den Link nun etwas hervorheben! Sie können seine Farbe und sein Verhalten beim Anklicken anpassen.
 
 ```csharp
 link.Color = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Green);
@@ -247,17 +247,17 @@ Hier haben wir die Farbe des Links auf Grün gesetzt und eine Aktion dafür defi
 
 ## Schritt 6: Link-Anmerkung zur Seite hinzufügen
 
-Wenn Ihr Link fertig ist, können Sie ihn wie einen Faden an einer Nadel an der Seite befestigen. 
+Wenn Ihr Link fertig ist, ist es an der Zeit, ihn wie einen Faden an einer Nadel an der Seite zu befestigen. 
 
 ```csharp
 page.Annotations.Add(link);
 ```
 
-Diese Zeile tut genau das. Sie fügt unsere neu erstellte Link-Anmerkung zur angegebenen Seite hinzu und macht sie so zu einem interaktiven Element in Ihrem PDF.
+Diese Zeile macht genau das. Sie fügt unsere neu erstellte Link-Anmerkung zur angegebenen Seite hinzu und macht sie so zu einem interaktiven Element in Ihrem PDF.
 
 ## Schritt 7: Speichern Sie Ihr aktualisiertes Dokument
 
-Alles Schöne hat ein Ende und es ist Zeit, das Dokument mit dem neuen Link zu speichern. 
+Alles Gute hat ein Ende und es ist Zeit, das Dokument mit dem neuen Link zu speichern. 
 
 ```csharp
 dataDir = dataDir + "CreateDocumentLink_out.pdf";

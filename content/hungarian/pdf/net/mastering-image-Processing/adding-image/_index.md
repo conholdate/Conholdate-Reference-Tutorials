@@ -89,7 +89,7 @@ Győződjön meg arról, hogy a képfájl elérési útja helyes.
 A kép elhelyezése előtt mentse el az aktuális grafikai állapotot:
 
 ```csharp
-// A jelenlegi grafikai állapot mentése
+// Mentse el az aktuális grafikai állapotot
 page.Contents.Add(new Aspose.Pdf.Operators.GSave());
 ```
 

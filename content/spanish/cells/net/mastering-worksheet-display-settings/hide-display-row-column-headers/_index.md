@@ -42,7 +42,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Con el trabajo preliminar establecido, ¡pasemos al código!
+Con el trabajo básico establecido, ¡pasemos al código!
 
 ## Paso 1: Especifique el directorio del documento
 

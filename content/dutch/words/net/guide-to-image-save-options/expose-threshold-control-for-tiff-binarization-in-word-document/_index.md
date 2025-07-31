@@ -17,7 +17,7 @@ Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
 1. Aspose.Words voor .NET: Download het van de [Aspose releases pagina](https://releases.aspose.com/words/net/)Als u geen licentie heeft, kunt u een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
 2. Ontwikkelomgeving: U hebt Visual Studio of een andere .NET-compatibele IDE nodig.
-3. Basiskennis van C#: Kennis van C# is nuttig, maar zelfs beginners kunnen het volgen. We leggen alles duidelijk uit.
+3. Basiskennis van C#: Kennis van C# is nuttig, maar zelfs beginners kunnen meedoen. We leggen alles duidelijk uit.
 
 ## Naamruimten importeren
 
@@ -63,14 +63,14 @@ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Tiff)
 };
 ```
 
-- TiffCompressie: Bepaalt het compressietype. Hier hebben we gekozen `Ccitt3`.
+- TiffCompression: Bepaalt het compressietype. Hier hebben we gekozen `Ccitt3`.
 - ImageColorMode: Hiermee stelt u de kleurmodus in op grijstinten voor een helderder resultaat.
 - TiffBinarizationMethod: specificeert de binarisatiemethode. We gebruiken `FloydSteinbergDithering` voor vloeiende hellingen.
 - ThresholdForFloydSteinbergDithering: Pas deze waarde aan om het aantal zwarte pixels in de uitvoer te bepalen. Een hogere waarde (zoals 254) resulteert in minder zwarte pixels.
 
 ## Stap 4: Sla het document op als een TIFF
 
-Laten we het document nu opslaan als een TIFF-afbeelding met de opties die we hebben geconfigureerd.
+Laten we het document nu opslaan als een TIFF-afbeelding met behulp van de opties die we hebben geconfigureerd.
 
 ```csharp
 doc.Save(dataDir + "OutputImage.tiff", saveOptions);
@@ -80,7 +80,7 @@ Met deze coderegel wordt het document opgeslagen als een TIFF-afbeelding, waarbi
 
 ## Conclusie
 
-U hebt zojuist geleerd hoe u de binarisatiedrempel voor TIFF in een Word-document kunt beheren met Aspose.Words voor .NET! Deze krachtige bibliotheek vereenvoudigt documentbewerking en maakt het gemakkelijk om documenten te converteren naar verschillende formaten met aangepaste instellingen. Aarzel niet om met deze opties te experimenteren en te zien hoe ze uw documentverwerking kunnen verbeteren!
+U hebt zojuist geleerd hoe u de binarisatiedrempel voor TIFF in een Word-document kunt beheren met Aspose.Words voor .NET! Deze krachtige bibliotheek vereenvoudigt documentbewerking en maakt het gemakkelijk om documenten te converteren naar verschillende formaten met aangepaste instellingen. Aarzel niet om met deze opties te experimenteren om te zien hoe ze uw documentverwerking kunnen verbeteren!
 
 ## Veelgestelde vragen
 

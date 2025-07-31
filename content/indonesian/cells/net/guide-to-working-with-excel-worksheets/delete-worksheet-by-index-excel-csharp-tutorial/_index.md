@@ -107,7 +107,7 @@ Itu seperti menutup pintu saat Anda keluar, memastikan Anda tidak meninggalkan j
 
 ## Kesimpulan
 
-Selesai! Anda telah berhasil mempelajari cara menghapus lembar kerja Excel berdasarkan indeksnya menggunakan C# dan Aspose.Cells. Prosesnya mudah setelah Anda memahami dasar-dasarnya. Sekarang Anda dapat dengan mudah membersihkan lembar yang tidak diperlukan dari buku kerja Anda, membuat data Anda lebih mudah dikelola dan terorganisir.
+Dan begitulah! Anda telah berhasil mempelajari cara menghapus lembar kerja Excel berdasarkan indeksnya menggunakan C# dan Aspose.Cells. Prosesnya mudah setelah Anda memahami dasar-dasarnya. Sekarang Anda dapat dengan mudah membersihkan lembar yang tidak diperlukan dari buku kerja Anda, membuat data Anda lebih mudah dikelola dan terorganisir.
 
 ## Pertanyaan yang Sering Diajukan
 

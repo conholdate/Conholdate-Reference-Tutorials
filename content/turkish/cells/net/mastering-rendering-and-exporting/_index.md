@@ -1,5 +1,5 @@
 ---
-"description": ".NET için Aspose.Cells'e dair temel eğitimleri keşfedin. Ayrıntılı kılavuzlarımızla işleme, dışa aktarma, kaynakları yönetme, yer imleri ekleme ve daha fazlasını öğrenin."
+"description": ".NET için Aspose.Cells ile ilgili temel eğitimleri keşfedin. Ayrıntılı kılavuzlarımızla işleme, dışa aktarma, kaynakları yönetme, yer imleri ekleme ve daha fazlasını öğrenin."
 "linktitle": "Aspose.Cells for .NET'te Render ve Export'ta Uzmanlaşma"
 "second_title": "Aspose.Cells .NET Excel İşleme API'si"
 "title": "Aspose.Cells for .NET'te Render ve Export'ta Uzmanlaşma"

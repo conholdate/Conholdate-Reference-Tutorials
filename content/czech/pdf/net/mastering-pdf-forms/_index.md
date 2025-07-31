@@ -23,7 +23,7 @@ našem stále více globalizovaném světě je podpora více jazyků nezbytná. 
 Proč se zastavit u popisků a textu, když můžete vytvářet interaktivní prvky, jako jsou rozbalovací seznamy a přepínače? Tyto funkce zvyšují zapojení uživatelů, díky čemuž je vyplňování formulářů nejen příjemnější, ale také efektivnější. Náš tutoriál „Přidání interaktivních rozbalovacích seznamů“ vás provede přidáním rozbalovacích nabídek do PDF a umožní uživatelům vybírat z předdefinovaných možností. A pokud máte rádi přepínače, nenechte si ujít našeho průvodce jejich tvorbou. Přidání těchto prvků povýší vaše formuláře z nevýrazných na brilantní! [Číst dále](./add-interactive-combo-boxes/) a [Číst dále](./create-interactive-radio-buttons/).
 
 
-## Přidávání textových polí do PDF
+## Přidávání textových polí do PDF souborů
 
 Vytváření interaktivních textových polí ve vašich PDF souborech může výrazně zlepšit způsob, jakým uživatelé interagují s vaším formulářem. Představte si, že navrhujete průzkum nebo formulář pro zpětnou vazbu, kde uživatelé mohou psát své odpovědi přímo do dokumentu. S knihovnou Aspose.PDF pro .NET je přidávání přizpůsobitelných textových polí snadné. Tento tutoriál vás provede celým procesem, od nastavení PDF dokumentu až po efektivní integraci textových polí. Představte si to jako osobní doplněk k vašemu PDF dokumentu – umožňuje uživatelům volně se vyjadřovat ve formuláři! [Číst dále](./adding-text-boxes/).
 

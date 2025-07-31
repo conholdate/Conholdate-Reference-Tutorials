@@ -17,9 +17,9 @@ Zorg ervoor dat u het volgende bij de hand heeft voordat u begint:
 1. Visual Studio: installeer Visual Studio op uw systeem.
 2. Aspose.Cells voor .NET: Download de Aspose.Cells-bibliotheek van [hier](https://releases.aspose.com/cells/net/).
 3. Basiskennis van C#: Kennis van C# helpt u de besproken concepten te begrijpen.
-4. Een Excel-bestand: gebruik een voorbeeld-Excel-bestand met de naam `ThreadedCommentsSample.xlsx` dat enkele opmerkingen bevat over ons voorbeeld.
+4. Een Excel-bestand: Gebruik een voorbeeld-Excel-bestand met de naam `ThreadedCommentsSample.xlsx` dat enkele opmerkingen bevat over ons voorbeeld.
 
-Zodra u aan deze voorwaarden hebt voldaan, kunt u aan de slag!
+Als u aan deze voorwaarden voldoet, kunt u aan de slag!
 
 ## Pakketten importeren
 Om toegang te krijgen tot de krachtige functies van Aspose.Cells, importeert u de benodigde naamruimten in uw C#-project. Voeg de volgende using-richtlijnen toe aan uw code:
@@ -37,7 +37,7 @@ Door deze pakketten te importeren, opent u de deur naar verschillende klassen en
 Laten we uw ontwikkelomgeving instellen:
 
 1. Maak een nieuw project: open Visual Studio en maak een nieuw C# Console Application-project. Dit dient als basis voor onze code.
-2. Referenties toevoegen: Klik met de rechtermuisknop op het project in Solution Explorer, selecteer 'Toevoegen', vervolgens 'Referentie...' en zoek naar `Aspose.Cells.dll`en importeer het in uw project.
+2. Referenties toevoegen: Klik met de rechtermuisknop op het project in Solution Explorer, selecteer 'Toevoegen' en vervolgens 'Referentie...' en zoek naar `Aspose.Cells.dll`en importeer het in uw project.
 
 Uw omgeving is nu klaar om te coderen!
 
@@ -45,8 +45,8 @@ Uw omgeving is nu klaar om te coderen!
 Het definiëren van de bron- en uitvoermappen is cruciaal, omdat dit bepaalt waar u uw Excel-bestand kunt vinden en waar u de bewerkte versie kunt opslaan. In uw `Main` methode, declareer deze variabelen:
 
 ```csharp
-string sourceDir = "Your Document Directory"; // Vervangen met de daadwerkelijke directory
-string outDir = "Your Document Directory"; // Vervangen met de daadwerkelijke directory
+string sourceDir = "Your Document Directory"; // Vervangen door de daadwerkelijke directory
+string outDir = "Your Document Directory"; // Vervangen door de daadwerkelijke directory
 ```
 
 Vervang "Uw documentenmap" door het daadwerkelijke pad op uw computer.
@@ -58,7 +58,7 @@ Nu komt het spannende gedeelte: het laden van je werkmap! Voeg de volgende code 
 Workbook workbook = new Workbook(sourceDir + "ThreadedCommentsSample.xlsx");
 ```
 
-Deze regel creëert een instantie van de klasse Workbook door het opgegeven bestand te laden. U kunt nu officieel wijzigingen aanbrengen!
+Deze regel creëert een instantie van de klasse Workbook door het opgegeven bestand te laden. U bent nu officieel klaar om wijzigingen aan te brengen!
 
 ## Stap 4: Toegang tot het eerste werkblad
 Omdat werkmappen meerdere werkbladen kunnen bevatten, moeten we het werkblad selecteren dat we willen bewerken. Gebruik de volgende code om toegang te krijgen tot het eerste werkblad:
@@ -76,10 +76,10 @@ Deze stap is essentieel om toegang te krijgen tot de specifieke opmerking die u 
 ThreadedComment comment = worksheet.Comments.GetThreadedComments("A1")[0];
 ```
 
-Hiermee wordt de eerste gekoppelde opmerking aan cel A1 opgehaald. Nu bent u klaar om deze te bewerken!
+Hiermee wordt de eerste reactie in cel A1 opgehaald. Nu kunt u deze bewerken!
 
 ## Stap 6: Bewerk de opmerking
-Hier gebeurt het! Werk de notities van de reactie als volgt bij:
+Hier gebeurt het! Werk de notities van de opmerking als volgt bij:
 
 ```csharp
 comment.Notes = "Updated Comment";
@@ -103,7 +103,7 @@ Het is altijd fijn om te weten wanneer een proces succesvol is afgerond! Voeg de
 Console.WriteLine("EditThreadedComments executed successfully.");
 ```
 
-Dit bevestigt dat het proces soepel is verlopen: wie houdt er nou niet van een kleine erkenning voor succes?
+Dit bevestigt dat het proces soepel is verlopen. Wie houdt er nou niet van een kleine erkenning voor succes?
 
 ## Conclusie
 Gefeliciteerd! Je hebt met succes de opmerkingen in een Excel-werkblad bewerkt met Aspose.Cells voor .NET. De stappen die we hebben behandeld, vormen een solide basis voor het verbeteren van samenwerking en feedback in elk document. Of je nu de opmerkingen van je team wilt verfijnen of de communicatie wilt verduidelijken, deze handleiding heeft je de tools gegeven om dit efficiënt te doen.
@@ -111,10 +111,10 @@ Gefeliciteerd! Je hebt met succes de opmerkingen in een Excel-werkblad bewerkt m
 ## Veelgestelde vragen
 
 ### Wat zijn geneste opmerkingen in Excel?
-Met discussies en reacties kunt u in één tekstballon discussiëren en reageren. Dit maakt samenwerking eenvoudiger.
+Met discussies in de vorm van een thread kunt u discussies en reacties in één tekstballon plaatsen, wat de samenwerking vergemakkelijkt.
 
 ### Kan ik meerdere opmerkingen bewerken met Aspose.Cells?
-Absoluut! Je kunt alle opmerkingen in het werkblad doorlopen en ze indien nodig bewerken.
+Absoluut! U kunt alle opmerkingen in het werkblad doorlopen en indien nodig bewerken.
 
 ### Moet ik Aspose.Cells kopen om het te kunnen gebruiken?
 U kunt beginnen met een gratis proefperiode [hier](https://releases.aspose.com/), maar voor uitgebreid gebruik is het raadzaam een licentie aan te schaffen.

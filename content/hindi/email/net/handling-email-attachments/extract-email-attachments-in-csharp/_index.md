@@ -46,7 +46,7 @@ ImapClient client = new ImapClient("imap.example.com", "username", "password");
 client.SelectFolder(ImapFolderInfo.InBox);
 ```
 
-- प्रतिस्थापित करें `imap.example.com` आपके ईमेल प्रदाता के IMAP सर्वर पते के साथ (उदाहरण के लिए, `imap.gmail.com` (जीमेल के लिए)
+- प्रतिस्थापित करें `imap.example.com` आपके ईमेल प्रदाता के IMAP सर्वर पते के साथ (उदाहरण के लिए, `imap.gmail.com` जीमेल के लिए).
 - अपने वास्तविक ईमेल का उपयोग करें `username` और `password`.
 - `SelectFolder(ImapFolderInfo.InBox)` यह निर्दिष्ट करता है कि हम इनबॉक्स के साथ काम करना चाहते हैं।
 

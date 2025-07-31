@@ -31,7 +31,7 @@ Vill du ge dina PDF-filer en personlig, handritad touch? Bläckanteckningar är 
 
 ## Extrahera annoteringar: Avslöja dolda insikter  
 
-Annoteringar är mer än bara visuella hjälpmedel – de innehåller värdefull data. Att extrahera dem kan effektivisera granskningar, revisioner eller gemensamma arbetsflöden. Dyk ner i [Extrahera anteckningar från PDF-dokument](./extract-annotations-from-pdf/) guide för en omfattande genomgång. Du kommer att upptäcka hur du kan hämta anteckningar programmatiskt, vilket gör dina PDF-filer till ett ännu kraftfullare verktyg.  
+Annoteringar är mer än bara visuella hjälpmedel – de innehåller värdefull data. Att extrahera dem kan effektivisera granskningar, revisioner eller samarbetsflöden. Dyk ner i [Extrahera anteckningar från PDF-dokument](./extract-annotations-from-pdf/) guide för en omfattande genomgång. Du kommer att upptäcka hur du kan hämta anteckningar programmatiskt, vilket gör dina PDF-filer till ett ännu kraftfullare verktyg.  
 
 ## Bemästra anteckningar i PDF-handledningar
 | Titel | Beskrivning |

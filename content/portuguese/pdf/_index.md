@@ -21,7 +21,7 @@ Descubra os recursos abrangentes do Aspose.PDF com nossa extensa coleção de tu
 - **🔄 Conversões avançadas**: Transformações de alta fidelidade entre formatos
 - **🎨 Elementos interativos**: JavaScript, formulários, anotações e assinaturas digitais
 - **📊 Conteúdo rico**: Camadas, marcadores, marcas d'água e multimídia
-- **🔒 Recursos de segurança**: Criptografia, assinaturas digitais e controle de acesso
+- **🔒 Recursos de segurança**Criptografia, assinaturas digitais e controle de acesso
 
 ## 📚 Plataformas disponíveis
 

@@ -64,7 +64,7 @@ Asegúrese de reemplazar la ruta con su directorio real.
 
 ### 2.2 Cargar el documento
 
-Utilice el `Document` clase para cargar su archivo de Word:
+Utilice el `Document` clase para cargar su archivo Word:
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");

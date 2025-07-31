@@ -35,7 +35,7 @@ Zvládněte nejběžnější úkoly transformace dokumentů s našimi podrobným
 | **[Převod Wordu do PDF](./essential-guide-document-conversions/convert-word-to-pdf/)** | Profesionální generování PDF se zachováním formátování | ⭐ Začátečník |
 | **[Převod DOCX do TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Extrakce prostého textu z dokumentů Word | ⭐ Začátečník |
 | **[Převod textových souborů do dokumentů Wordu](./essential-guide-document-conversions/convert-text-files-to-word-documents/)** | Transformace prostého textu do strukturovaných dokumentů Wordu | ⭐ Začátečník |
-| **[Převod PDF do dokumentu Word](./essential-guide-document-conversions/convert-pdf-to-word/)** Upravte PDF soubory převodem do formátu Word | ⭐⭐ Středně pokročilí |
+| **[Převod PDF do dokumentu Word](./essential-guide-document-conversions/convert-pdf-to-word/)** | Upravte PDF soubory převodem do formátu Word | ⭐⭐ Středně pokročilí |
 | **[Převod PDF do JPEGu](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Extrakce vysoce kvalitních obrázků z PDF dokumentů | ⭐⭐ Středně pokročilí |
 
 ### Pokročilé konverze dokumentů
@@ -49,12 +49,12 @@ Posuňte své konverzní dovednosti na další úroveň s těmito specializovan�
 | **[Převod DOCX do MHTML a odeslání e-mailu](./essential-guide-document-conversions/convert-docx-to-mhtml-send-email/)** | Konverze dokumentů připravená k odesílání e-mailem s automatizací | ⭐⭐⭐ Pokročilé |
 
 ### Pokročilé zpracování dokumentů s využitím umělé inteligence
-Využijte špičkové technologie umělé inteligence ke zlepšení vašich pracovních postupů při zpracování dokumentů.
+Využijte špičkové technologie umělé inteligence ke zlepšení pracovních postupů zpracování dokumentů.
 
 | Tutoriál | Popis | Obtížnost |
 |----------|-------------|-------------|
 | **[Zvládnutí sumarizace dokumentů pomocí modelů umělé inteligence](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Analýza a shrnutí obsahu s využitím umělé inteligence | ⭐⭐⭐ Pokročilé |
-| **[Sumarizace dokumentů pomocí modelů umělé inteligence Google](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** | Integrujte umělou inteligenci od Googlu pro inteligentní zpracování dokumentů | ⭐⭐⭐ Pokročilé |
+| **[Sumarizace dokumentů pomocí modelů umělé inteligence Google](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** Integrujte umělou inteligenci od Googlu pro inteligentní zpracování dokumentů | ⭐⭐⭐ Pokročilé |
 | **[Efektivní sumarizace dokumentů s modely OpenAI](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Využijte modely OpenAI GPT pro analýzu dokumentů | ⭐⭐⭐ Pokročilé |
 | **[Možnosti shrnutí dokumentů](./advanced-ai-document-processing/summarize-documents-options/)** | Komplexní průvodce technikami sumarizace | ⭐⭐⭐ Pokročilý |
 
@@ -66,7 +66,7 @@ Využijte špičkové technologie umělé inteligence ke zlepšení vašich prac
 - **Dávkové konverze**Efektivně zpracovávejte více dokumentů
 
 ### **Správa obsahu**
-- **Standardizace formátů**: Převod starších dokumentů do moderních formátů
+- **Standardizace formátů**Převod starších dokumentů do moderních formátů
 - **Archivní řešení**Dlouhodobé uchovávání a přístup k dokumentům
 - **Víceformátové publikování**Jeden zdroj, více výstupních formátů
 
@@ -129,7 +129,7 @@ Využijte špičkové technologie umělé inteligence ke zlepšení vašich prac
 - **[Stáhnout](https://releases.aspose.com/words/net/)** - Vyhodnoťte všechny funkce
 
 ### **Komunita a podpora**
-- **[Fórum podpory](https://forum.aspose.com/c/words/8)** - Získejte pomoc od odborníků
+- **[Fórum podpory](https://forum.aspose.com/c/words/8)** Získejte pomoc od odborníků
 
 ### **Licencování a zkušební verze**
 - **[Dočasná licence](https://purchase.conholdate.com/temporary-license/)** - Rozšířené hodnocení

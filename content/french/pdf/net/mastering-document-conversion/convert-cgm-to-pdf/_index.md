@@ -144,7 +144,7 @@ Même avec un code simple, vous pourriez rencontrer des difficultés. Voici les 
 
 Pour obtenir les meilleurs résultats de vos conversions, suivez ces pratiques éprouvées :
 
-### Validation du fichier
+### Validation de fichier
 Validez toujours vos fichiers CGM d'entrée avant traitement. Cela évite les erreurs d'exécution et garantit une qualité de sortie constante.
 
 ### Gestion des erreurs

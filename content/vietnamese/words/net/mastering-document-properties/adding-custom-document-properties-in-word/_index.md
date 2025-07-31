@@ -22,7 +22,7 @@ Trước khi tìm hiểu mã, hãy đảm bảo bạn có những điều sau:
 
 ## Nhập không gian tên
 
-Để truy cập các chức năng của Aspose.Words, bạn sẽ cần nhập các không gian tên cần thiết vào đầu mã của mình:
+Để truy cập các chức năng của Aspose.Words, bạn sẽ cần phải nhập các không gian tên cần thiết vào đầu mã của mình:
 
 ```csharp
 using System;
@@ -123,7 +123,7 @@ Thuộc tính tài liệu tùy chỉnh là siêu dữ liệu bạn có thể th�
 ### Tôi có thể thêm các thuộc tính khác ngoài chuỗi và số không?
 Có, bạn có thể thêm nhiều loại thuộc tính khác nhau, bao gồm giá trị boolean, ngày tháng và thậm chí cả đối tượng tùy chỉnh.
 
-### Làm thế nào tôi có thể truy cập những thuộc tính này trong tài liệu Word?
+### Làm thế nào tôi có thể truy cập vào các thuộc tính này trong tài liệu Word?
 Bạn có thể truy cập các thuộc tính tùy chỉnh theo chương trình bằng Aspose.Words hoặc xem chúng trực tiếp trong Word thông qua thuộc tính tài liệu.
 
 ### Có thể chỉnh sửa hoặc xóa các thuộc tính tùy chỉnh không?

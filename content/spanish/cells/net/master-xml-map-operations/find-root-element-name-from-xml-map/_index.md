@@ -71,7 +71,7 @@ Console.WriteLine("Root Element Name of XML Map: " + xmap.RootElementName);
 Esta línea obtiene el nombre del elemento raíz del mapa XML y lo imprime en la consola.
 
 ## Paso 5: Ejecuta tu código
-Ahora que ya lo has configurado todo, ejecuta el programa. Si funciona correctamente, el nombre del elemento raíz de tu mapa XML se mostrará en la ventana de la consola:
+Ahora que ya lo tienes todo configurado, ejecuta el programa. Si funciona correctamente, el nombre del elemento raíz de tu mapa XML se mostrará en la ventana de la consola:
 
 ```plaintext
 Root Element Name of XML Map: [Your Root Element Name]

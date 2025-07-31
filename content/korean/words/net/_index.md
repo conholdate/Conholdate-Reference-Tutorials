@@ -20,7 +20,7 @@
 - **📄 형식 지원**: DOC, DOCX, RTF, HTML, PDF, EPUB, TXT, 마크다운 등
 - **🔄 변환**: 다양한 문서 형식 간의 원활한 변환
 - **🤖 AI 통합**: 고급 문서 요약 및 콘텐츠 분석
-- **📊 메일 병합**데이터 소스에서 동적 문서 생성
+- **📊 메일 병합**: 데이터 소스에서 동적 문서 생성
 - **🎨 서식**: 문서 스타일 및 레이아웃에 대한 완벽한 제어
 
 ## 📚 튜토리얼 카테고리
@@ -35,7 +35,7 @@
 | **[Word에서 PDF로 변환](./essential-guide-document-conversions/convert-word-to-pdf/)** | 서식을 그대로 유지하면서 전문적인 PDF 생성 | ⭐ 초보자 |
 | **[DOCX를 TXT로 변환](./essential-guide-document-conversions/convert-docx-to-txt/)** | Word 문서에서 일반 텍스트 콘텐츠 추출 | ⭐ 초보자 |
 | **[텍스트 파일을 Word 문서로 변환](./essential-guide-document-conversions/convert-text-files-to-word-documents/)** | 일반 텍스트를 구조화된 Word 문서로 변환 | ⭐ 초보자 |
-| **[PDF를 Word 문서로 변환](./essential-guide-document-conversions/convert-pdf-to-word/)** PDF를 Word 형식으로 변환하여 편집 가능하게 만들기 | ⭐⭐ 중급 |
+| **[PDF를 Word 문서로 변환](./essential-guide-document-conversions/convert-pdf-to-word/)** | PDF를 Word 형식으로 변환하여 편집 가능하게 만들기 | ⭐⭐ 중급 |
 | **[PDF를 JPEG로 변환](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | PDF 문서에서 고품질 이미지 추출 | ⭐⭐ 중급 |
 
 ### 고급 문서 변환
@@ -54,7 +54,7 @@
 | 튜토리얼 | 설명 | 난이도 |
 |----------|-------------|------------|
 | **[AI 모델을 활용한 문서 요약 마스터링](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | AI 기반 콘텐츠 분석 및 요약 | ⭐⭐⭐ 고급 |
-| **[Google AI 모델을 사용한 문서 요약](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** | 지능형 문서 처리를 위한 Google AI 통합 | ⭐⭐⭐ 고급 |
+| **[Google AI 모델을 사용한 문서 요약](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** 지능형 문서 처리를 위한 Google AI 통합 | ⭐⭐⭐ 고급 |
 | **[OpenAI 모델을 사용한 효율적인 문서 요약](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | 문서 통찰력을 위한 OpenAI GPT 모델 활용 | ⭐⭐⭐ 고급 |
 | **[문서 요약 옵션](./advanced-ai-document-processing/summarize-documents-options/)** | 요약 기술에 대한 포괄적인 가이드 | ⭐⭐⭐ 고급 |
 
@@ -129,7 +129,7 @@
 - **[다운로드](https://releases.aspose.com/words/net/)** - 전체 기능 평가
 
 ### **커뮤니티 및 지원**
-- **[지원 포럼](https://forum.aspose.com/c/words/8)** - 전문가의 도움을 받으세요
+- **[지원 포럼](https://forum.aspose.com/c/words/8)** 전문가의 도움을 받으세요
 
 ### **라이센스 및 평가판**
 - **[임시 면허](https://purchase.conholdate.com/temporary-license/)** - 확장 평가

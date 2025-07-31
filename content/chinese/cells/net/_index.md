@@ -50,7 +50,7 @@
 | **[将工作表添加到设计器电子表格](./mastering-worksheet-management/adding-worksheets-to-designer-spreadsheet/)** 通过动态工作表添加功能增强预先设计的 Excel 模板 | ⭐⭐ 中级 |
 | **[将工作表添加到新的 Excel 文件](./mastering-worksheet-management/adding-worksheets-to-new-excel-file/)** 以编程方式创建包含多个工作表的新 Excel 文件 | ⭐ 初学者 |
 | **[将工作表添加到现有 Excel 文件](./mastering-worksheet-management/adding-worksheets-to-existing-excel-file/)** 使用新的工作表功能无缝扩展现有工作簿 | ⭐ 初学者 |
-| **[按名称删除特定工作表](./mastering-worksheet-management/remove-specific-worksheets-by-name/)** 通过删除不必要的工作表来有效清理 Excel 文件 | ⭐ 初学者 |
+| **[按名称删除特定工作表](./mastering-worksheet-management/remove-specific-worksheets-by-name/)** 通过删除不必要的工作表来高效清理 Excel 文件 | ⭐ 初学者 |
 
 ## 🎯 热门用例
 

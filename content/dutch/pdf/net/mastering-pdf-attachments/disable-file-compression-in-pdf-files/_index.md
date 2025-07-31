@@ -1,8 +1,8 @@
 ---
 "description": "Leer hoe u bestandscompressie in PDF-documenten kunt uitschakelen met Aspose.PDF voor .NET. Deze gedetailleerde tutorial begeleidt u stapsgewijs door het proces om ingesloten bestanden te garanderen."
-"linktitle": "Bestandscompressie uitschakelen in PDF-bestanden met Aspose.PDF voor .NET"
+"linktitle": "Bestandscompressie in PDF-bestanden uitschakelen met Aspose.PDF voor .NET"
 "second_title": "Aspose.PDF voor .NET API-referentie"
-"title": "Bestandscompressie uitschakelen in PDF-bestanden met Aspose.PDF voor .NET"
+"title": "Bestandscompressie in PDF-bestanden uitschakelen met Aspose.PDF voor .NET"
 "url": "/nl/pdf/net/mastering-pdf-attachments/disable-file-compression-in-pdf-files/"
 "weight": 30
 ---
@@ -35,7 +35,7 @@ using System;
 using Aspose.Pdf;
 ```
 
-## Stap 1: Definieer de documentmap
+## Stap 1: Definieer de documentdirectory
 
 Begin met het opgeven van het directorypad waar uw PDF-invoerbestand zich bevindt. Zo weet de applicatie waar het bestand te vinden is.
 

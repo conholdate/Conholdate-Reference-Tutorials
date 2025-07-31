@@ -1,26 +1,27 @@
 ---
-title: Anhängen von Dateien und Festlegen von Symbolen in Aspose.Note für .NET
-linktitle: Datei anhängen und Symbol in Aspose.Note festlegen
-second_title: Aspose.Note .NET-API
-description: Erfahren Sie Schritt für Schritt, wie Sie mit Aspose.Note für .NET Dateien anhängen und benutzerdefinierte Symbole in Microsoft OneNote-Dokumenten festlegen. Erweitern Sie Ihre .NET-Anwendung mit nahtlosen Dokumentverwaltungs- und Anpassungsfunktionen.
-weight: 10
-url: /de/note/manage-attachments/attaching-files-setting-icons/
+"description": "Erfahren Sie Schritt für Schritt, wie Sie mit Aspose.Note für .NET Dateien anhängen und benutzerdefinierte Symbole in Microsoft OneNote-Dokumenten festlegen. Erweitern Sie Ihre .NET-Anwendung mit nahtlosen Dokumentverwaltungs- und Anpassungsfunktionen."
+"linktitle": "Datei anhängen und Symbol in Aspose.Note festlegen"
+"second_title": "Aspose.Note .NET API"
+"title": "Anhängen von Dateien und Festlegen von Symbolen in Aspose.Note für .NET"
+"url": "/de/note/net/manage-attachments/attaching-files-setting-icons/"
+"weight": 10
 ---
+
 ## Einführung
 
-Aspose.Note für .NET ist eine erweiterte Bibliothek, die für Entwickler entwickelt wurde, um Microsoft OneNote-Dateien programmgesteuert zu erstellen, zu bearbeiten und zu konvertieren. Ein herausragendes Merkmal dieser Bibliothek ist die Möglichkeit, Dateien an OneNote-Dokumente anzuhängen und deren Symbole anzupassen. In diesem Handbuch erfahren Sie, wie Sie Aspose.Note für .NET nutzen können, um nahtlos Dateien anzuhängen und benutzerdefinierte Symbole festzulegen und so die Funktionalität Ihres OneNote-Dokuments zu erweitern.
+Aspose.Note für .NET ist eine erweiterte Bibliothek für Entwickler zum programmgesteuerten Erstellen, Bearbeiten und Konvertieren von Microsoft OneNote-Dateien. Ein herausragendes Feature dieser Bibliothek ist die Möglichkeit, Dateien an OneNote-Dokumente anzuhängen und deren Symbole anzupassen. In dieser Anleitung erfahren Sie, wie Sie mit Aspose.Note für .NET nahtlos Dateien anhängen und benutzerdefinierte Symbole festlegen und so die Funktionalität Ihrer OneNote-Dokumente erweitern können.
 
 ## Voraussetzungen
 
 Stellen Sie vor der Implementierung der Lösung sicher, dass Sie über Folgendes verfügen:
 
 - Entwicklungsumgebung: Visual Studio oder eine ähnliche IDE, die für die .NET-Entwicklung konfiguriert ist.
--  Installation der Bibliothek: Installieren Sie die[Aspose.Note für .NET](https://releases.aspose.com/words/net/) Bibliothek.
+- Bibliotheksinstallation: Installieren Sie die [Aspose.Note für .NET](https://releases.aspose.com/words/net/) Bibliothek.
 - Programmierkenntnisse: Grundlegende Kenntnisse in C#.
 
-## Importieren erforderlicher Namespaces
+## Importieren der erforderlichen Namespaces
 
-Fügen Sie Ihrem Projekt für grundlegende Funktionen diese Namespaces hinzu:
+Fügen Sie Ihrem Projekt diese Namespaces für grundlegende Funktionen hinzu:
 
 ```csharp
 using System.IO;
@@ -34,7 +35,7 @@ Nachfolgend finden Sie die detaillierte Schritt-für-Schritt-Implementierung.
 
 ## Schritt 1: Erstellen Sie ein neues OneNote-Dokument
 
- Initialisieren Sie ein neues OneNote-Dokument mit dem`Document` Klasse.
+Initialisieren Sie ein neues OneNote-Dokument mit dem `Document` Klasse.
 
 ```csharp
 Document doc = new Document();
@@ -50,7 +51,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 ## Schritt 3: Erstellen Sie eine Gliederung
 
- Erstellen Sie ein`Outline` Objekt, das als Container für Elemente auf Ihrer OneNote-Seite dient.
+Erstellen Sie ein `Outline` Objekt, das als Container für Elemente auf Ihrer OneNote-Seite dient.
 
 ```csharp
 Outline outline = new Outline(doc);
@@ -58,15 +59,15 @@ Outline outline = new Outline(doc);
 
 ## Schritt 4: Initialisieren eines Gliederungselements
 
- Ein`OutlineElement` enthält den Anhang und das zugehörige Symbol.
+Ein `OutlineElement` enthält den Anhang und das zugehörige Symbol.
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
 ```
 
-## Schritt 5: Eine Datei anhängen und ihr Symbol angeben
+## Schritt 5: Hängen Sie eine Datei an und geben Sie ihr Symbol an
 
-Geben Sie die anzuhängende Datei an und legen Sie ein Symbol dafür fest.
+Geben Sie die anzuhängende Datei an und geben Sie ein Symbol dafür an.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -80,14 +81,14 @@ using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 
 ## Schritt 6: Erstellen Sie die Dokumentstruktur
 
- Fügen Sie den`OutlineElement` zur`Outline` und die`Outline` zur`Page`.
+Fügen Sie die `OutlineElement` zum `Outline`und die `Outline` zum `Page`.
 
 ```csharp
 outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);
 ```
 
-## Schritt 7: Seite zum Dokument hinzufügen
+## Schritt 7: Fügen Sie die Seite zum Dokument hinzu
 
 Fügen Sie die Seite abschließend in Ihr OneNote-Dokument ein.
 
@@ -106,7 +107,7 @@ doc.Save(dataDir);
 
 ## Abschluss
 
-Wenn Sie die in diesem Handbuch beschriebenen Schritte befolgen, können Sie mit Aspose.Note für .NET mühelos Dateien anhängen und benutzerdefinierte Symbole in OneNote-Dokumenten festlegen. Diese Funktion kann die Dokumentorganisation und das Benutzererlebnis erheblich verbessern und Ihre Anwendungen robuster und funktionsreicher machen.
+Mit den in dieser Anleitung beschriebenen Schritten können Sie mit Aspose.Note für .NET mühelos Dateien anhängen und benutzerdefinierte Symbole in OneNote-Dokumenten festlegen. Diese Funktionalität verbessert die Dokumentenorganisation und das Benutzererlebnis erheblich und macht Ihre Anwendungen robuster und funktionsreicher.
 
 ## Häufig gestellte Fragen
 
@@ -117,12 +118,12 @@ Ja, Sie können mehrere Dateien anhängen, indem Sie den Anhängevorgang für je
 Aspose.Note unterstützt die Formate JPEG, PNG, BMP und GIF für Anhangssymbole.
 
 ### Ist es möglich, Dateien dynamisch von externen URLs anzuhängen?
- Sie können Dateien mit .NET-Bibliotheken herunterladen wie`HttpClient` und hängen Sie sie dann mit Aspose.Note an.
+Sie können Dateien mit .NET-Bibliotheken herunterladen, wie `HttpClient` und hängen Sie sie dann mit Aspose.Note an.
 
 ### Gibt es Beschränkungen hinsichtlich der Dateigröße von Anhängen?
-Aspose.Note legt keine explizite Größenbeschränkung fest, Sie sollten jedoch sicherstellen, dass Ihre Systemressourcen große Dateien verarbeiten können.
+Es gibt keine explizite Größenbeschränkung durch Aspose.Note, aber stellen Sie sicher, dass Ihre Systemressourcen große Dateien verarbeiten können.
 
 ### Kann die Größe von Symbolen vor dem Festlegen geändert werden?
- Ja, Sie können das Symbolbild mit .NET bearbeiten.`System.Drawing` Bibliothek, bevor Sie sie anhängen.
+Ja, Sie können das Symbolbild mit .NET manipulieren. `System.Drawing` Bibliothek, bevor Sie sie anhängen.
 
- Weitere Hilfe finden Sie im[Dokumentation](https://reference.aspose.com/words/net/) oder wenden Sie sich an[Aspose-Unterstützung](https://forum.aspose.com/c/words/8).
+Weitere Hilfe finden Sie im [Dokumentation](https://reference.aspose.com/words/net/) oder wenden Sie sich an [Aspose-Unterstützung](https://forum.aspose.com/c/words/8).

@@ -85,7 +85,7 @@ public void ShowHideBookmarkedContent(Document doc, string bookmarkName, bool is
 
 - Pobieranie zakładek: `Bookmark bm = doc.Range.Bookmarks[bookmarkName];` pobiera określoną zakładkę.
 - Przechodzenie przez węzły: Przechodzimy przez węzły w zakładce.
-- Przełącznik widoczności: Dla każdego `Run` węzeł (reprezentujący segment tekstu), ustawiamy jego `Hidden` nieruchomość oparta na `isHidden` parametr.
+- Przełączanie widoczności: Dla każdego `Run` węzeł (reprezentujący segment tekstu), ustawiamy jego `Hidden` nieruchomość oparta na `isHidden` parametr.
 
 ## Krok 3: Stosowanie metody
 

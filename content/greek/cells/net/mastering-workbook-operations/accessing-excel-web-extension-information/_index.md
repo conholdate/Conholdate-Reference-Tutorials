@@ -105,7 +105,7 @@ foreach (WebExtensionTaskPane taskPane in taskPanes)
 
 ## Βήμα 7: Επιβεβαίωση επιτυχούς εκτέλεσης
 
-Τέλος, προσθέστε ένα μήνυμα επιβεβαίωσης που να υποδεικνύει την επιτυχή εκτέλεση:
+Τέλος, προσθέστε ένα μήνυμα επιβεβαίωσης που υποδεικνύει την επιτυχή εκτέλεση:
 
 ```csharp
 Console.WriteLine("Web extension information accessed successfully.");

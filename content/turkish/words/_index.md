@@ -20,7 +20,7 @@ Aspose.Words for .NET ile Word belge işlemenin tüm potansiyelini ortaya çıka
 - **📄 Biçim Desteği**: DOC, DOCX, RTF, HTML, PDF, EPUB, Markdown ve daha fazlası
 - **🔄 Gelişmiş Dönüşümler**: Profesyonel kalitede çıktıyla yüksek doğrulukta dönüşümler
 - **🤖 Yapay Zeka Entegrasyonu**: OpenAI GPT ve Google AI modellerini kullanarak belge özetleme
-- **📊 Posta Birleştirme ve Raporlama**Veri kaynaklarından dinamik belge oluşturma
+- **📊 Posta Birleştirme ve Raporlama**: Veri kaynaklarından dinamik belge oluşturma
 - **🎨 Zengin Biçimlendirme**: Belge stili, düzeni ve etkileşimli öğeler üzerinde tam kontrol
 
 ## 📚 Eğitim Kategorileri
@@ -34,10 +34,10 @@ Profesyonel kalitede çıktı ve gelişmiş biçimlendirme korumasıyla temel be
 | **[DOCX'i EPUB'a dönüştür](./essential-guide-document-conversions/convert-docx-to-epub/)** | E-okuyucular ve mobil cihazlar için dijital yayıncılık | ⭐⭐ Orta düzey |
 | **[DOCX'i TXT'ye dönüştürün](./essential-guide-document-conversions/convert-docx-to-txt/)** | Veri işleme ve analizi için düz metin çıkarma | ⭐ Başlangıç |
 | **[DOCX'i Bayt Dizilerine Dönüştür](./essential-guide-document-conversions/convert-docx-to-byte-arrays/)** | Web uygulamaları için bellek açısından verimli belge işleme | ⭐⭐ Orta |
-| **[DOC'u DOCX'e dönüştürün](./essential-guide-document-conversions/convert-doc-to-docx/)** | Eski formatların modernizasyonu ve uyumluluk güncellemeleri | ⭐ Başlangıç |
+| **[DOC'u DOCX'e dönüştürün](./essential-guide-document-conversions/convert-doc-to-docx/)** Eski formatların modernizasyonu ve uyumluluk güncellemeleri | ⭐ Başlangıç |
 | **[DOCX'i MHTML'ye Dönüştürün ve E-posta Gönderin](./essential-guide-document-conversions/convert-docx-to-mhtml-send-email/)** | Zengin biçimlendirme desteğiyle e-posta entegrasyonu | ⭐⭐ Orta |
 | **[PDF'yi JPEG'e dönüştür](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | PDF belgelerinden yüksek kaliteli görüntü çıkarma | ⭐⭐ Orta düzey |
-| **[PDF olarak kaydet](./essential-guide-document-conversions/save-as-pdf/)** Gelişmiş seçeneklerle profesyonel belge yayıncılığı | ⭐ Başlangıç |
+| **[PDF olarak kaydet](./essential-guide-document-conversions/save-as-pdf/)** | Gelişmiş seçeneklerle profesyonel belge yayıncılığı | ⭐ Başlangıç |
 
 ### Gelişmiş Yapay Zeka Belge İşleme
 Akıllı belge analizi ve otomatik içerik üretimi için son teknoloji yapay zekadan yararlanın.
@@ -46,14 +46,14 @@ Akıllı belge analizi ve otomatik içerik üretimi için son teknoloji yapay ze
 |----------|-------------|------------|
 | **[Yapay Zeka Modeli ile Belge Özetlemede Ustalaşma](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Akıllı içerik özetleme için Google AI entegrasyonu | ⭐⭐⭐ Gelişmiş |
 | **[OpenAI Modeli ile Verimli Belge Özetleme](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | GPT destekli belge analizi ve otomatik içgörüler | ⭐⭐⭐ Gelişmiş |
-| **[Belgeleri Özetleme Seçenekleri](./advanced-ai-document-processing/summarize-documents-options/)** | Yapay zeka destekli içerik işleme için gelişmiş yapılandırma | ⭐⭐⭐ Gelişmiş |
+| **[Belgeleri Özetleme Seçenekleri](./advanced-ai-document-processing/summarize-documents-options/)** Yapay zeka destekli içerik işleme için gelişmiş yapılandırma | ⭐⭐⭐ Gelişmiş |
 
 ### Bölüm Yönetiminde Ustalaşma
 Gelişmiş bölüm işleme teknikleriyle profesyonel belge yapısı ve organizasyonu.
 
 | Eğitim | Açıklama | Zorluk |
 |----------|-------------|------------|
-| **[Bölüm Ekleme](./section-management/adding-sections/)** Profesyonel biçimlendirmeyle yapılandırılmış belge düzenleri oluşturun | ⭐ Başlangıç |
+| **[Bölüm Ekleme](./section-management/adding-sections/)** | Profesyonel biçimlendirmeyle yapılandırılmış belge düzenleri oluşturun | ⭐ Başlangıç |
 | **[Word Belgelerinden Bölümleri Sil](./section-management/delete-sections-word-document/)** | Gereksiz belge bölümlerini etkili bir şekilde kaldırın | ⭐ Başlangıç |
 | **[Bölüm Kelime İçeriğini Ekle](./section-management/append-section-word-content/)** | Birden fazla belge bölümünden içerikleri sorunsuz bir şekilde birleştirin | ⭐⭐ Orta düzey |
 | **[Word Belgeleri Arasında Bölümleri Kopyala](./section-management/copy-sections-word-documents/)** | Farklı belgeler arasında yapılandırılmış içerik aktarımı | ⭐⭐ Orta seviye |
@@ -81,7 +81,7 @@ Belge yayınlama ve web entegrasyonu için profesyonel görüntü işleme ve opt
 |----------|-------------|------------|
 | **[TIFF İkilileştirme İçin Eşik Kontrolünü Açığa Çıkarın](./guide-to-image-save-options/expose-threshold-control-for-tiff-binarization-in-word-document/)** | Özel kalite kontrolleriyle gelişmiş görüntü işleme | ⭐⭐⭐ Gelişmiş |
 | **[JPEG Sayfa Aralığını Alın](./guide-to-image-save-options/get-jpeg-page-range-word-document/)** | Belirli belge sayfalarını yüksek kaliteli görüntüler olarak çıkarın | ⭐⭐ Orta |
-| **[TIFF Sayfa Aralığını Alın](./guide-to-image-save-options/get-tiff-page-range-word-document/)** TIFF formatı optimizasyonu ile profesyonel görüntü çıkarma | ⭐⭐ Orta |
+| **[TIFF Sayfa Aralığını Alın](./guide-to-image-save-options/get-tiff-page-range-word-document/)** | TIFF formatı optimizasyonu ile profesyonel görüntü çıkarma | ⭐⭐ Orta |
 | **[1Bpp Dizinlenmiş Görüntüler Oluşturun](./guide-to-image-save-options/create-1bpp-indexed/)** | Arşivleme ve depolama için yerden tasarruf sağlayan görüntü işleme | ⭐⭐ Orta |
 | **[Sayfa Kaydetme Geri Araması](./guide-to-image-save-options/page-saving-callback-word-document/)** | Otomatik görüntü oluşturma ile özel sayfa işleme | ⭐⭐⭐ Gelişmiş |
 
@@ -90,14 +90,14 @@ Profesyonel belge yönetimi için kapsamlı meta veri işleme ve belge özelliğ
 
 | Eğitim | Açıklama | Zorluk |
 |----------|-------------|------------|
-| **[Özel Belge Özelliklerini Kaldır](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** | Belge meta verilerini temizleyin ve dosya organizasyonunu optimize edin | ⭐ Başlangıç |
+| **[Özel Belge Özelliklerini Kaldır](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** Belge meta verilerini temizleyin ve dosya organizasyonunu optimize edin | ⭐ Başlangıç |
 
 ## 🎯 Popüler Kullanım Örnekleri
 
 ### **Belge Otomasyonu ve Yayınlama**
 - **Profesyonel Raporlar**: Tutarlı biçimlendirmeyle iş belgelerinin otomatik olarak oluşturulması
 - **Dijital Yayıncılık**: El yazmalarını çeşitli dağıtım kanalları için birden fazla biçime dönüştürün
-- **İçerik Yönetimi**Toplu işleme ve biçim standardizasyonuyla belge iş akışlarını kolaylaştırın
+- **İçerik Yönetimi**: Toplu işleme ve biçim standardizasyonuyla belge iş akışlarını kolaylaştırın
 
 ### **Yapay Zeka Destekli İçerik İşleme**
 - **Akıllı Özetleme**: Gelişmiş yapay zeka modelleri kullanarak uzun belgelerden önemli bilgiler çıkarın
@@ -106,7 +106,7 @@ Profesyonel belge yönetimi için kapsamlı meta veri işleme ve belge özelliğ
 
 ### **Kurumsal Entegrasyon Çözümleri**
 - **Web Uygulamaları**: Web arayüzlerinden ve veritabanlarından dinamik olarak belgeler oluşturun
-- **E-posta Otomasyonu**: Gömülü belgeler ve biçimlendirmeyle zengin e-posta içeriği oluşturun
+- **E-posta Otomasyonu**Gömülü belgeler ve biçimlendirmeyle zengin e-posta içeriği oluşturun
 - **API Geliştirme**: Belge merkezli mikro hizmetler ve otomatik işlem hatları oluşturun
 
 ## 📊 Öğrenme Yolu Önerileri

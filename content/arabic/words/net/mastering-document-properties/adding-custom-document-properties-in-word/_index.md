@@ -59,7 +59,7 @@ CustomDocumentProperties customDocumentProperties = doc.CustomDocumentProperties
 if (customDocumentProperties["Authorized"] != null) return;
 ```
 
-يتحقق هذا الكود من وجود خاصية "مُصرَّح له" مسبقًا. في حال وجودها، تُغلق الدالة مبكرًا، مما يمنع تكرارها.
+يتحقق هذا الكود من وجود خاصية "مُصرَّح به" مسبقًا. في حال وجودها، تُغلق الدالة مبكرًا، مما يمنع تكرارها.
 
 ## الخطوة 4: إضافة خاصية منطقية
 

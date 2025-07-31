@@ -34,7 +34,7 @@ message.To.Add("recipient@example.com");
 
 ## Een HTML-body toevoegen aan de e-mail
 
-Laten we vervolgens je e-mail verbeteren door een HTML-tekst toe te voegen. Gebruik de `HtmlBody` eigendom van de `MailMessage` klasse om de HTML-inhoud te definiëren.
+Laten we vervolgens uw e-mail verbeteren door een HTML-tekst toe te voegen. Gebruik de `HtmlBody` eigendom van de `MailMessage` klasse om de HTML-inhoud te definiëren.
 
 ```csharp
 string htmlContent = "<html><body><h1>Welcome to our Newsletter!</h1><p>This is a sample HTML email body.</p></body></html>";
@@ -61,7 +61,7 @@ string htmlContentWithUrlImage = "<html><body><h1>Check out our New Product!</h1
 message.HtmlBody = htmlContentWithUrlImage;
 ```
 
-## De e-mail verzenden
+## Het verzenden van de e-mail
 
 Zodra je e-mail klaar is, is het tijd om deze te verzenden. Je kunt je SMTP-instellingen configureren om je e-mailserver of een externe service te gebruiken.
 
@@ -74,7 +74,7 @@ using (SmtpClient client = new SmtpClient("smtp.example.com", 587, "username", "
 
 ## Uitzonderingen afhandelen
 
-Implementeer altijd uitzonderingsafhandeling om mogelijke netwerkproblemen of serverfouten netjes af te handelen. Dit zorgt voor een soepele gebruikerservaring en helpt bij het diagnosticeren van problemen.
+Implementeer altijd uitzonderingsafhandeling om mogelijke netwerkproblemen of serverfouten op een soepele manier af te handelen. Dit zorgt voor een soepele gebruikerservaring en helpt bij het diagnosticeren van problemen.
 
 ```csharp
 try

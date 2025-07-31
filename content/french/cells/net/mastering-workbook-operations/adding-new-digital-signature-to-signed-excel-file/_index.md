@@ -21,7 +21,7 @@ Avant de nous plonger dans la mise en œuvre, assurez-vous de disposer des élé
 4. Environnement de développement : utilisez un IDE comme Visual Studio pour écrire et exécuter votre code C#.
 5. Exemple de fichier Excel : disposez d’un fichier Excel existant qui est déjà signé numériquement, qui sera la cible pour l’ajout d’une nouvelle signature.
 
-Une fois ces prérequis en place, passons au code !
+Avec ces prérequis en place, passons au code !
 
 ## Importer les packages nécessaires
 

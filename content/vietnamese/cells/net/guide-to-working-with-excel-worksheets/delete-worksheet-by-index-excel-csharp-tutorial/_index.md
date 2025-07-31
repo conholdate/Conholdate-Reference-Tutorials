@@ -73,7 +73,7 @@ Khi luồng tập tin đã sẵn sàng, hãy tạo một `Workbook` Đối tư�
 Workbook workbook = new Workbook(fstream);
 ```
 
-Bạn đang tạo một cổng vào dữ liệu Excel của mình! Đối tượng sổ làm việc cho phép bạn truy cập vào tất cả các trang tính của nó theo cách có cấu trúc.
+Bạn đang tạo một cổng vào dữ liệu Excel của mình! Đối tượng sổ làm việc cho phép bạn truy cập vào tất cả các bảng tính của nó theo cách có cấu trúc.
 
 ## Bước 4: Xóa bảng tính theo chỉ mục
 
@@ -107,7 +107,7 @@ Giống như việc đóng cửa khi bạn ra ngoài, đảm bảo bạn không 
 
 ## Phần kết luận
 
-Và thế là xong! Bạn đã học thành công cách xóa bảng tính Excel theo chỉ mục bằng C# và Aspose.Cells. Quá trình này rất đơn giản khi bạn đã nắm vững những kiến thức cơ bản. Giờ đây, bạn có thể dễ dàng xóa các trang tính không cần thiết khỏi sổ làm việc, giúp dữ liệu của bạn dễ quản lý và ngăn nắp hơn.
+Và thế là xong! Bạn đã học thành công cách xóa bảng tính Excel theo chỉ mục bằng C# và Aspose.Cells. Quá trình này rất đơn giản khi bạn đã nắm vững những kiến thức cơ bản. Giờ đây, bạn có thể dễ dàng xóa các trang tính không cần thiết khỏi sổ làm việc, giúp dữ liệu dễ quản lý và ngăn nắp hơn.
 
 ## Câu hỏi thường gặp
 

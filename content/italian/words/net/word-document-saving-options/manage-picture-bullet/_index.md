@@ -88,7 +88,7 @@ Aspose.Words per .NET è una potente libreria progettata per creare, modificare 
 Questa funzionalità specifica si applica solo ai punti elenco immagine. Tuttavia, Aspose.Words offre ampie opzioni per la gestione di vari tipi di punti elenco.
 
 ### Dove posso ottenere supporto per Aspose.Words?
-Il supporto è disponibile tramite il [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
+Il supporto è disponibile tramite [Forum Aspose.Words](https://forum.aspose.com/c/words/8).
 
 ### Esiste una versione di prova gratuita di Aspose.Words per .NET?
 Sì, puoi ottenere una prova gratuita [Qui](https://releases.aspose.com/).

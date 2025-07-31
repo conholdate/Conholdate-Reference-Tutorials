@@ -61,7 +61,7 @@ FileSpecification fileSpecification = new FileSpecification("SampleFile.txt", "S
 
 ## الخطوة 4: تعطيل ضغط الملف
 
-اضبط `Encoding` الممتلكات إلى `FileEncoding.None`. وهذا يضمن إضافة الملف دون ضغط.
+ضبط `Encoding` الممتلكات إلى `FileEncoding.None`. وهذا يضمن إضافة الملف دون ضغط.
 
 ```csharp
 fileSpecification.Encoding = FileEncoding.None;

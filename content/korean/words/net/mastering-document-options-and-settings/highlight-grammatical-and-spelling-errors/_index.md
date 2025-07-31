@@ -50,7 +50,7 @@ string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document doc = new Document(dataDir + "Document.docx");
 ```
 
-확인해주세요 `Document.docx` 지정한 디렉토리에 존재합니다.
+그것을 확인하세요 `Document.docx` 지정한 디렉토리에 존재합니다.
 
 ## 4단계: 오류 표시 활성화
 

@@ -75,7 +75,7 @@ Document doc = new Document(dataDir + "input.pdf");
 
 **Co se tady děje?** Vytváříme `Document` objekt, který v paměti představuje váš PDF soubor. Nahraďte `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou k vašemu PDF souboru.
 
-**Kontext reálného světa**Tento přístup je ideální, když pracujete s existujícími dokumenty, jako jsou formuláře, sestavy nebo jakékoli PDF soubory, které je třeba po vytvoření osadit interaktivními funkcemi.
+**Kontext reálného světa**Tento přístup je ideální, když pracujete s existujícími dokumenty, jako jsou formuláře, zprávy nebo jakékoli PDF soubory, které je třeba po vytvoření osadit interaktivními funkcemi.
 
 ## Krok 2: Přidání JavaScriptu na úrovni dokumentu
 
@@ -173,7 +173,7 @@ Při práci s PDF v JavaScriptu se můžete setkat s těmito běžnými problém
 - Zvažte uživatelské prostředí – některé organizace JavaScript v PDF zcela zakazují.
 
 **Rozdíly mezi prohlížečem a prohlížečem na počítači:**
-- Webové prohlížeče PDF často podporují pouze JavaScript.
+- Webové prohlížeče PDF mají často omezenou podporu JavaScriptu.
 - Desktopové aplikace jako Adobe Acrobat poskytují plnou funkcionalitu JavaScriptu
 - Vždy testujte své interaktivní PDF soubory v cílovém prostředí.
 

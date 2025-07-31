@@ -22,7 +22,7 @@ Install-Package Aspose.Cells
 
 2. Vývojové prostředí: Doporučujeme používat Visual Studio, ale pro tento tutoriál postačí jakékoli IDE kompatibilní s .NET.
 
-3. Základní znalosti C#: Tato příručka předpokládá znalost programování v C#, zejména práce se soubory a externími knihovnami.
+3. Základní znalost C#: Tato příručka předpokládá znalost programování v C#, zejména práce se soubory a externími knihovnami.
 
 S těmito předpoklady jsme připraveni začít.
 
@@ -123,7 +123,7 @@ Načtení cesty XML umožňuje programově přistupovat k datům XML vázaným n
 
 ### Může Aspose.Cells upravovat XML data v souborech aplikace Excel?
 
-Ano, Aspose.Cells nabízí výkonné funkce pro úpravu XML dat v souborech aplikace Excel. To zahrnuje jak čtení, tak aktualizaci vazeb dat XML podle potřeby.
+Ano, Aspose.Cells nabízí výkonné funkce pro úpravu XML dat v souborech aplikace Excel. To zahrnuje jak čtení, tak aktualizaci vazeb XML dat dle potřeby.
 
 ### Je Aspose.Cells kompatibilní s .NET Core?
 

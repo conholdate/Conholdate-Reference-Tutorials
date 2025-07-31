@@ -1,5 +1,5 @@
 ---
-"description": "Leer hoe je naadloos tekstvakken in Word-documenten kunt maken en koppelen met Aspose.Words voor .NET. Volg onze gedetailleerde handleiding voor een moeiteloze contentflow en professionele resultaten."
+"description": "Leer hoe u naadloos tekstvakken kunt maken en koppelen in Word-documenten met Aspose.Words voor .NET. Volg onze gedetailleerde handleiding voor een moeiteloze contentflow en professionele resultaten."
 "linktitle": "Tekstvakken koppelen in Word"
 "second_title": "Aspose.Words API voor documentverwerking"
 "title": "Gekoppelde tekstvakken in Word-documenten met Aspose.Words voor .NET"
@@ -9,13 +9,13 @@
 
 ## Invoering
 
-Hallo, technologiefanaten en documentexperts! Heb je ooit moeite gehad met het koppelen van inhoud tussen tekstvakken in Word-documenten? Met Aspose.Words voor .NET wordt dat proces niet alleen haalbaar, maar ook gebruiksvriendelijk en efficiënt. In deze tutorial onderzoeken we hoe je koppelingen tussen tekstvakken kunt maken en beheren, waardoor je documenten dynamischer en interactiever worden. Of je nu een ervaren ontwikkelaar bent of net begint, deze handleiding geeft je stapsgewijze instructies. Laten we beginnen!
+Hallo, technologiefanaten en documentexperts! Heb je ooit moeite gehad met het koppelen van inhoud tussen tekstvakken in Word-documenten? Met Aspose.Words voor .NET wordt dat proces niet alleen haalbaar, maar ook gebruiksvriendelijk en efficiënt. In deze tutorial onderzoeken we het maken en beheren van koppelingen tussen tekstvakken, waardoor je documenten dynamischer en interactiever worden. Of je nu een ervaren ontwikkelaar bent of net begint, deze handleiding geeft je stapsgewijze instructies. Dus laten we beginnen!
 
 ## Vereisten
 
-Voordat we met de code aan de slag gaan, zorg ervoor dat je de volgende essentiële zaken bij de hand hebt:
+Voordat we met de code aan de slag gaan, zorg ervoor dat u de volgende essentiële zaken bij de hand hebt:
 
-1. Aspose.Words voor .NET-bibliotheek: Zorg ervoor dat u de nieuwste versie hebt geïnstalleerd. U kunt [download het hier](https://releases.aspose.com/words/net/).
+1. Aspose.Words voor .NET-bibliotheek: zorg ervoor dat u de nieuwste versie hebt geïnstalleerd. U kunt [download het hier](https://releases.aspose.com/words/net/).
 2. Ontwikkelomgeving: Een .NET-ontwikkelomgeving zoals Visual Studio voor het schrijven en testen van uw code.
 3. Basiskennis van C#: Als u bekend bent met C#, kunt u de cursus soepel volgen.
 4. Voorbeeld Word-document (optioneel): Hoewel dit niet strikt noodzakelijk is, kan een voorbeelddocument nuttig zijn bij het testen van uw gekoppelde tekstvakken.
@@ -73,7 +73,7 @@ Deze code haalt de `TextBox` objecten, ze opslaan in `textBox1` En `textBox2` vo
 
 ## Stap 4: Koppel de tekstvakken
 
-En nu het spannende gedeelte: het koppelen `textBox1` naar `textBox2`. Als de tekst overloopt van `textBox1`, het zal doorgaan in `textBox2`.
+Nu het spannende gedeelte: het koppelen `textBox1` naar `textBox2`. Als de tekst overloopt van `textBox1`, het zal doorgaan in `textBox2`.
 
 Voordat we een koppeling maken, moeten we ervoor zorgen dat: `textBox2` is een geldig doel voor het koppelen van:
 
@@ -86,11 +86,11 @@ if (textBox1.IsValidLinkTarget(textBox2))
 
 In dit fragment:
 - `IsValidLinkTarget` controleert of `textBox2` kan gekoppeld worden aan `textBox1`.
-- Indien waar, toewijzen `textBox1.Next = textBox2` legt de verbinding.
+- Als dit waar is, wordt toegewezen `textBox1.Next = textBox2` legt de verbinding.
 
 ## Stap 5: Sla het document op
 
-Nu de tekstvakken gekoppeld zijn, slaat u als laatste stap het document op en worden alle wijzigingen toegepast.
+Nu de tekstvakken gekoppeld zijn, slaat u het document als laatste op en worden alle wijzigingen toegepast.
 
 Gebruik deze code om uw werk op te slaan:
 
@@ -107,10 +107,10 @@ Gefeliciteerd! Je hebt met succes tekstvakken gemaakt en gekoppeld in een Word-d
 ## Veelgestelde vragen
 
 ### Wat is het doel van het koppelen van tekstvakken in een Word-document?  
-Door tekstvakken te koppelen, kan de tekst naadloos tussen de vakken doorstromen. Dit is vooral handig voor lay-outs waarbij doorlopende tekst over verschillende secties of kolommen moet worden weergegeven.
+Door tekstvakken te koppelen, kan de tekst naadloos tussen de vakken doorstromen. Dit is vooral handig voor lay-outs waarbij doorlopende tekst over verschillende secties of kolommen moet worden verdeeld.
 
 ### Kan ik meer dan twee tekstvakken koppelen?  
-Absoluut! Je kunt een ketting creëren door meerdere tekstvakken aan elkaar te koppelen. Zorg er wel voor dat elk volgend tekstvak een geldige link is voor het voorgaande.
+Absoluut! Je kunt een ketting creëren door meerdere tekstvakken aan elkaar te koppelen. Zorg er wel voor dat elk volgend tekstvak een geldige linkdoelgroep is voor het voorgaande.
 
 ### Hoe kan ik de tekst in de gekoppelde tekstvakken opmaken?  
 U kunt de tekst in elk tekstvak opmaken met de uitgebreide opmaakopties van Aspose.Words of via de gebruikersinterface van Word.

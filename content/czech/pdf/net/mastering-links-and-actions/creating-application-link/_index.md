@@ -9,7 +9,7 @@
 
 ## Zavedení
 
-Zvýšení zapojení uživatelů v PDF dokumentech lze dosáhnout pomocí interaktivních prvků, jako jsou odkazy na aplikace. Tyto odkazy umožňují uživatelům rychle přejít k určitým aplikacím nebo souborům, což zlepšuje celkový zážitek. V této příručce si projdeme procesem vytváření odkazů na aplikace v PDF pomocí Aspose.PDF pro .NET.
+Zvýšení zapojení uživatelů v PDF dokumentech lze dosáhnout pomocí interaktivních prvků, jako jsou odkazy na aplikace. Tyto odkazy umožňují uživatelům rychle přejít k určeným aplikacím nebo souborům, což zlepšuje celkový zážitek. V této příručce si projdeme procesem vytváření odkazů na aplikace v PDF pomocí Aspose.PDF pro .NET.
 
 ## Předpoklady
 

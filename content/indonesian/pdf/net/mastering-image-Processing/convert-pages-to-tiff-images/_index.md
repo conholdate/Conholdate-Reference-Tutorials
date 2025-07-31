@@ -103,7 +103,7 @@ Sesuaikan `Compression` ketik jika Anda lebih suka ukuran file yang lebih kecil.
 
 ## Langkah 5: Buat Perangkat TIFF
 
-Buat instance perangkat TIFF yang bertanggung jawab atas konversi:
+Buat instance perangkat TIFF yang bertanggung jawab untuk konversi:
 
 ```csharp
 // Buat perangkat TIFF

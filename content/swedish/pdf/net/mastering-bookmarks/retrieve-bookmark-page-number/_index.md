@@ -43,7 +43,7 @@ Ersätta `"YOUR_DOCUMENT_DIRECTORY"` med den faktiska sökvägen där din PDF-fi
 Skapa sedan en instans av `PdfBookmarkEditor` klass, som tillhandahåller metoder för att manipulera bokmärken i PDF-filer.
 
 ```csharp
-// Skapa PDF Bokmärkesredigerare
+// Skapa PDF-bokmärkesredigerare
 PdfBookmarkEditor bookmarkEditor = new PdfBookmarkEditor();
 ```
 

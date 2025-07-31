@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.PDF for .NET 在表單欄位中新增資訊豐富的工具提示，從而提升 PDF 表單的可用性。本逐步指南將引導您完成整個過程。"
+"description": "了解如何透過使用 Aspose.PDF for .NET 為表單欄位新增資訊工具提示來提高 PDF 表單的可用性。本逐步指南將引導您完成整個過程。"
 "linktitle": "使用 Aspose.PDF for .NET 在 PDF 表單欄位中新增工具提示"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "使用 Aspose.PDF for .NET 在 PDF 表單欄位中新增工具提示"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-工具提示為使用者與 PDF 表單互動提供必要的指導，使他們能夠理解所需訊息，而不會感到不知所措。透過將滑鼠懸停在欄位上，使用者會收到上下文相關的提示，從而提高整體可用性。在本指南中，我們將示範如何使用 Aspose.PDF for .NET 有效率地為表單欄位新增工具提示。
+工具提示為與 PDF 表單互動的使用者提供了必要的指導，使他們能夠理解所需的資訊而不會感到不知所措。透過將滑鼠懸停在某個欄位上，使用者會收到上下文相關的提示，從而提高整體可用性。在本指南中，我們將示範如何使用 Aspose.PDF for .NET 有效地在表單欄位中新增工具提示。
 
 ## 先決條件
 
@@ -49,7 +49,7 @@ Document doc = new Document(dataDir + "AddTooltipToField.pdf");
 
 ## 第 2 步：存取表單字段
 
-接下來，找到要新增工具提示的具體表單欄位。在本例中，我們將重點介紹名為 `"textbox1"`。
+接下來，找到您想要新增工具提示的特定表單欄位。在這個例子中，我們將重點放在名為 `"textbox1"`。
 
 ```csharp
 // 透過名稱存取文字字段
@@ -69,13 +69,13 @@ Field textField = doc.Form["textbox1"] as Field;
 textField.AlternateName = "This is a tooltip for the text box.";
 ```
 
-- textField.AlternateName：此屬性用於設定工具提示訊息。在本例中，我們使用 `"This is a tooltip for the text box。"`.
+- textField.AlternateName：此屬性用於設定工具提示訊息。在這個例子中，我們使用 `"This is a tooltip for the text box。"`.
 
 想像在表單欄位旁邊添加一個有用的便籤以提供更多見解！
 
 ## 步驟 4：儲存更改
 
-設定工具提示後，儲存更新後的 PDF 文件。建議使用新名稱儲存，以保留原始文件。
+設定工具提示後，儲存更新後的PDF文件。最好將其保存在新名稱下以保留原始名稱。
 
 ```csharp
 // 儲存修改後的文檔
@@ -91,7 +91,7 @@ Console.WriteLine("Tooltip added successfully. File saved at " + dataDir);
 
 ## 結論
 
-使用 Aspose.PDF for .NET 在 PDF 表單欄位中實作工具提示非常簡單，並且顯著增強了使用者互動。按照概述的步驟，您可以輕鬆地為 PDF 表單添加有價值的上下文信息，使其更加直觀、用戶友好。
+使用 Aspose.PDF for .NET 在 PDF 表單欄位中實作工具提示非常簡單，並且顯著增強了使用者互動。透過遵循概述的步驟，您可以輕鬆地為 PDF 表單添加有價值的內容，使其更加直覺且用戶友好。
 
 ## 常見問題解答
 
@@ -102,10 +102,10 @@ Console.WriteLine("Tooltip added successfully. File saved at " + dataDir);
 目前，工具提示的視覺方面（例如字體大小、顏色）由 PDF 檢視器決定，無法透過 Aspose.PDF 進行自訂。
 
 ### 如果使用者的 PDF 檢視器不支援工具提示怎麼辦？
-如果檢視器不支援工具提示，使用者將無法看到工具提示。不過，大多數現代 PDF 檢視器都支援此功能。
+如果檢視器缺少工具提示支持，那麼這些使用者將根本看不到工具提示。但是，大多數現代 PDF 檢視器都支援此功能。
 
 ### 我可以向單一欄位新增多個工具提示嗎？
-不可以，每個表單欄位只能分配一個工具提示。如果需要更多信息，請考慮使用其他欄位或在文件中添加說明性文字。
+不可以，每個表單欄位只能分配一個工具提示。如果需要更多信息，請考慮使用附加欄位或在文件中加入解釋性文字。
 
 ### 新增工具提示是否會顯著增加 PDF 檔案的大小？
 新增工具提示對檔案大小的影響很小，因此您不會注意到明顯的差異。

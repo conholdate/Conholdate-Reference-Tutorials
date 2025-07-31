@@ -77,7 +77,7 @@ Document pdfDocument = new Document(dataDir + "PageToTIFF.pdf");
 
 ## 步骤3：创建解析对象
 
-设置输出 TIFF 图像所需的分辨率。300 DPI 的分辨率是高质量图像的标准：
+设置输出 TIFF 图像所需的分辨率。300 DPI 的分辨率是高质量图像的标准分辨率：
 
 ```csharp
 // 创建分辨率对象

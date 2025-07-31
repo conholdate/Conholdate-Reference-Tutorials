@@ -1,5 +1,5 @@
 ---
-"description": "Leer hoe u uw Word-documenten kunt verbeteren met aangepaste documenteigenschappen met Aspose.Words voor .NET. Deze uitgebreide handleiding begeleidt u door het proces."
+"description": "Leer hoe u uw Word-documenten kunt verbeteren met aangepaste documenteigenschappen met Aspose.Words voor .NET. Deze uitgebreide handleiding leidt u door het proces."
 "linktitle": "Aangepaste documenteigenschappen toevoegen in Word"
 "second_title": "Aspose.Words API voor documentverwerking"
 "title": "Aangepaste documenteigenschappen toevoegen in Word"
@@ -17,8 +17,8 @@ Voordat u de code induikt, moet u ervoor zorgen dat u het volgende hebt:
 
 1. Aspose.Words voor .NET-bibliotheek: downloaden [hier](https://releases.aspose.com/words/net/).
 2. Ontwikkelomgeving: Een IDE zoals Visual Studio.
-3. Basiskennis van C#: kennis van C# en .NET is nuttig.
-4. Voorbeelddocument: Maak een voorbeeld van een Word-document met de naam `Properties.docx` voor wijziging.
+3. Basiskennis van C#: Kennis van C# en .NET is nuttig.
+4. Voorbeeld document: Maak een voorbeeld van een Word-document met de naam `Properties.docx` voor wijziging.
 
 ## Naamruimten importeren
 
@@ -39,7 +39,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "Properties.docx");
 ```
 
-Zorg ervoor dat u vervangt `"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad naar uw document.
+Zorg ervoor dat u deze vervangt `"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad naar uw document.
 
 ## Stap 2: Toegang tot aangepaste documenteigenschappen
 
@@ -73,7 +73,7 @@ Deze regel voegt een eigenschap met de naam "Authorized" toe en stelt de waarde 
 
 ## Stap 5: Een tekenreekseigenschap toevoegen
 
-Vervolgens geven we aan wie het document heeft geautoriseerd door een string-eigenschap toe te voegen.
+Vervolgens geven we aan wie het document heeft geautoriseerd door een tekenreekseigenschap toe te voegen.
 
 ```csharp
 customDocumentProperties.Add("Authorized By", "John Smith");
@@ -93,7 +93,7 @@ Deze regel voegt een eigenschap toe met de naam "Geautoriseerde datum" en wijst 
 
 ## Stap 7: Een revisienummer toevoegen
 
-Voor versiebeheer kunnen we een eigenschap toevoegen om het revisienummer van een document bij te houden.
+Voor versiebeheer kunnen we een eigenschap toevoegen om het revisienummer van het document bij te houden.
 
 ```csharp
 customDocumentProperties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
@@ -118,13 +118,13 @@ Gefeliciteerd! U hebt met succes aangepaste documenteigenschappen toegevoegd aan
 ## Veelgestelde vragen
 
 ### Wat zijn aangepaste documenteigenschappen?
-Aangepaste documenteigenschappen zijn metagegevens die u aan een Word-document kunt toevoegen om extra informatie op te slaan die niet onder de ingebouwde eigenschappen valt.
+Aangepaste documenteigenschappen zijn metagegevens die u aan een Word-document kunt toevoegen om aanvullende informatie op te slaan die niet onder de ingebouwde eigenschappen valt.
 
 ### Kan ik andere eigenschappen dan strings en getallen toevoegen?
 Ja, u kunt verschillende typen eigenschappen toevoegen, waaronder Booleaanse waarden, datums en zelfs aangepaste objecten.
 
 ### Hoe kan ik deze eigenschappen openen in een Word-document?
-U kunt aangepaste eigenschappen programmatisch openen met Aspose.Words, maar u kunt ze ook rechtstreeks in Word bekijken via de documenteigenschappen.
+U kunt aangepaste eigenschappen programmatisch openen met Aspose.Words of ze rechtstreeks in Word bekijken via de documenteigenschappen.
 
 ### Is het mogelijk om aangepaste eigenschappen te bewerken of te verwijderen?
 Absoluut! Je kunt aangepaste eigenschappen eenvoudig bewerken of verwijderen met behulp van de methoden van Aspose.Words.

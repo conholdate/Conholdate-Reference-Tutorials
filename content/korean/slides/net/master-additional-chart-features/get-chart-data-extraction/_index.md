@@ -1,20 +1,21 @@
 ---
-title: Aspose.Slides를 사용하여 PowerPoint에서 차트 데이터 추출하기
-linktitle: Aspose.Slides를 사용하여 PowerPoint에서 차트 데이터 추출하기
-second_title: Aspose.Slides .NET PowerPoint 처리 API
-description: PowerPoint 프레젠테이션의 차트에서 데이터 범위를 프로그래밍 방식으로 추출하는 방법을 배우면서 Aspose.Slides for .NET의 힘을 활용하세요. 이 단계별 가이드는 명확한 지침을 제공합니다.
-weight: 11
-url: /ko/slides/master-additional-chart-features/get-chart-data-extraction/
+"description": "PowerPoint 프레젠테이션의 차트에서 데이터 범위를 프로그래밍 방식으로 추출하는 방법을 배우고 Aspose.Slides for .NET의 강력한 기능을 활용해 보세요. 이 단계별 가이드는 명확한 지침을 제공합니다."
+"linktitle": "Aspose.Slides를 사용하여 PowerPoint에서 차트 데이터 추출하기"
+"second_title": "Aspose.Slides .NET PowerPoint 처리 API"
+"title": "Aspose.Slides를 사용하여 PowerPoint에서 차트 데이터 추출하기"
+"url": "/ko/slides/net/master-additional-chart-features/get-chart-data-extraction/"
+"weight": 11
 ---
+
 ## 소개
 
-Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션의 차트에서 데이터 범위를 추출하려고 하시나요? 당신은 올바른 곳에 있습니다! 이 단계별 가이드는 Aspose.Slides의 강력한 기능을 활용하여 차트 데이터 범위를 프로그래밍 방식으로 가져오는 방법을 보여줍니다.
+Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션의 차트에서 데이터 범위를 추출하고 싶으신가요? 잘 찾아오셨습니다! 이 단계별 가이드에서는 Aspose.Slides의 강력한 기능을 활용하여 차트 데이터 범위를 프로그래밍 방식으로 가져오는 방법을 보여줍니다.
 
 ## 필수 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 
-1.  .NET용 Aspose.Slides: 여기에서 다운로드하고 설치하세요.[여기](https://releases.aspose.com/slides/net/).
+1. .NET용 Aspose.Slides: 여기에서 다운로드하고 설치하세요. [여기](https://releases.aspose.com/slides/net/).
 2. 개발 환경: Visual Studio와 같은 IDE를 설정합니다.
 
 ## 1단계: 필요한 네임스페이스 가져오기
@@ -64,21 +65,21 @@ Console.WriteLine("Chart Data Range: {0}", result);
 
 ## 결론
 
-이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션에서 차트 데이터 범위를 추출하는 방법을 배웠습니다. 몇 줄의 코드만 있으면 차트 뒤에 있는 데이터에 효율적으로 액세스할 수 있습니다.
+이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션에서 차트 데이터 범위를 추출하는 방법을 알아보았습니다. 몇 줄의 코드만으로 차트 이면에 있는 데이터에 효율적으로 액세스할 수 있습니다.
 
 ## 자주 묻는 질문
 
-### .NET용 Aspose.Slides가 최신 버전의 Microsoft PowerPoint와 호환됩니까?
-네, Aspose.Slides for .NET은 최신을 포함한 다양한 PowerPoint 파일 형식을 지원합니다. 자세한 내용은 설명서를 참조하세요.
+### Aspose.Slides for .NET은 최신 버전의 Microsoft PowerPoint와 호환됩니까?
+네, Aspose.Slides for .NET은 최신 형식을 포함한 다양한 PowerPoint 파일 형식을 지원합니다. 자세한 내용은 설명서를 참조하세요.
 
-### Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션의 다른 요소를 조작할 수 있습니까?
-물론입니다! 프레젠테이션 내에서 슬라이드, 도형, 텍스트, 이미지 등을 작업할 수 있습니다.
+### Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션의 다른 요소를 조작할 수 있나요?
+물론입니다! 프레젠테이션에서 슬라이드, 도형, 텍스트, 이미지 등을 자유롭게 작업할 수 있습니다.
 
 ### Aspose.Slides for .NET의 무료 평가판이 있나요?
- 네, 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+네, 무료 평가판을 다운로드할 수 있습니다. [여기](https://releases.aspose.com/).
 
 ### Aspose.Slides for .NET에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
- 임시 면허 신청[여기](https://purchase.aspose.com/temporary-license/).
+임시 면허 신청 [여기](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Slides for .NET 사용자에게는 어떤 지원 옵션이 제공됩니까?
- Aspose 커뮤니티에서 지원과 도움을 받을 수 있습니다.[지원 포럼](https://forum.aspose.com/).
+Aspose 커뮤니티에서 지원과 도움을 받을 수 있습니다. [지원 포럼](https://forum.aspose.com/).

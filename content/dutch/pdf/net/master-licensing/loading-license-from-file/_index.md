@@ -9,7 +9,7 @@
 
 ## Invoering  
 
-Bij het werken met Aspose.PDF voor .NET brengt de evaluatieversie bepaalde beperkingen met zich mee, zoals PDF's met een watermerk en beperkte functionaliteit. Door een licentie toe te passen, kunnen ontwikkelaars de volledige functionaliteit benutten, waardoor ze efficiënt PDF's kunnen maken, bewerken en converteren. Deze handleiding legt het stapsgewijze proces uit om een licentiebestand effectief te laden.  
+Bij het werken met Aspose.PDF voor .NET brengt de evaluatieversie bepaalde beperkingen met zich mee, zoals PDF's met watermerk en beperkte functionaliteit. Door een licentie toe te passen, kunnen ontwikkelaars de volledige functionaliteit benutten, waardoor ze efficiënt PDF's kunnen maken, bewerken en converteren. Deze handleiding legt het stapsgewijze proces uit om een licentiebestand effectief te laden.  
 
 ## Vereisten  
 
@@ -47,7 +47,7 @@ Aspose.Pdf.License license = new Aspose.Pdf.License();
 
 ## Stap 2: Definieer het licentiepad  
 
-Geef de directory op die uw licentiebestand bevat. U kunt het pad hardcoderen of dynamische padresolutie gebruiken voor flexibiliteit.  
+Geef de map op die uw licentiebestand bevat. U kunt het pad hardcoderen of dynamische padresolutie gebruiken voor flexibiliteit.  
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -76,12 +76,12 @@ Console.WriteLine("License applied successfully.");
 
 ## Conclusie  
 
-Door een licentie aan te vragen in Aspose.PDF voor .NET kunt u de geavanceerde functies volledig en zonder beperkingen benutten. Door de stappen in deze handleiding te volgen, kunt u naadloos een licentie vanuit een bestand laden en uw documentverwerkingsmogelijkheden verbeteren. Een correcte installatie en validatie zijn cruciaal voor ononderbroken gebruik.  
+Door een licentie toe te passen in Aspose.PDF voor .NET kunt u de geavanceerde functies volledig en zonder beperkingen benutten. Door de stappen in deze handleiding te volgen, kunt u naadloos een licentie vanuit een bestand laden en uw documentverwerkingsmogelijkheden verbeteren. Een correcte installatie en validatie zijn cruciaal voor ononderbroken gebruik.  
 
 ## Veelgestelde vragen  
 
 ### Wat gebeurt er als ik geen licentie laad?  
-Zonder licentie werkt Aspose.PDF in de evaluatiemodus, waardoor er beperkingen gelden, zoals een watermerkuitvoer en beperkte functionaliteit.  
+Zonder licentie werkt Aspose.PDF in de evaluatiemodus, wat beperkingen met zich meebrengt, zoals een watermerkuitvoer en beperkte functionaliteit.  
 
 ### Kan ik een licentie vanuit een stream laden?  
 Ja, u kunt de `SetLicense` methode met een stream-object in plaats van een bestandspad.  

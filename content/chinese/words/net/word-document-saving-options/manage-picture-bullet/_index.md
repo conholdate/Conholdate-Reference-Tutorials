@@ -91,7 +91,7 @@ Aspose.Words for .NET 是一个功能强大的库，旨在在 .NET 应用程序�
 可通过以下方式获得支持 [Aspose.Words 论坛](https://forum。aspose.com/c/words/8).
 
 ### Aspose.Words for .NET 有免费试用版吗？
-是的，您可以获得免费试用 [这里](https://releases。aspose.com/).
+是的，您可以免费试用 [这里](https://releases。aspose.com/).
 
 ### 如何购买 Aspose.Words for .NET 的许可证？
 许可证可以从 [Aspose 商店](https://purchase。aspose.com/buy).

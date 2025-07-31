@@ -131,7 +131,7 @@ In diesem Tutorial haben wir untersucht, wie Sie XML-Daten, die in Excel-Dateien
 Ja, Aspose.Cells unterstützt die Verwaltung mehrerer XML-Maps innerhalb einer einzigen Arbeitsmappe.
 
 ### Was passiert, wenn der XML-Pfad in der Karte nicht vorhanden ist?  
-Wenn Sie einen ungültigen Pfad abfragen, wird die `XmlMapQuery` Die Methode gibt eine leere ArrayList zurück.
+Wenn Sie einen ungültigen Pfad abfragen, `XmlMapQuery` Die Methode gibt eine leere ArrayList zurück.
 
 ### Ist für die Verwendung von Aspose.Cells für .NET eine Lizenz erforderlich?  
 Ja, Sie benötigen eine Lizenz für die volle Funktionalität. [kostenlose Testversion](https://releases.aspose.com/) und ein [vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) sind verfügbar.

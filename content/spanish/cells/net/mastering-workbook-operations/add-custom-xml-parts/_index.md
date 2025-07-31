@@ -160,7 +160,7 @@ En una aplicación real, probablemente desearías especificar cada ID de forma d
 ## Paso 6: Busque la pieza XML personalizada por ID
 Ahora que tenemos nuestros ID de búsqueda, es momento de buscar la parte XML personalizada correspondiente al ID especificado.
 ```csharp
-// Busque parte xml personalizada por el ID de búsqueda.
+// Buscar parte xml personalizada por el ID de búsqueda.
 Aspose.Cells.Markup.CustomXmlPart cxp = wb.CustomXmlParts.SelectByID(srchID);
 ```
 Esta línea aprovecha `SelectByID` para intentar encontrar la parte XML que nos interesa.

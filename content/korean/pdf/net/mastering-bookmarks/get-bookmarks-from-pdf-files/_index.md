@@ -13,7 +13,7 @@
 
 ## 필수 조건
 
-시작하기에 앞서 다음 사항이 있는지 확인하세요.
+시작하기 전에 다음 사항이 있는지 확인하세요.
 
 1. Visual Studio: .NET 개발을 위한 기본 IDE입니다.
 2. .NET용 Aspose.PDF: Aspose.PDF 라이브러리를 다운로드하여 설치하세요. [여기](https://releases.aspose.com/pdf/net/).

@@ -129,7 +129,7 @@ Ja, Textfelder können auf verschiedene Weise verknüpft werden, solange die res
 Sie können seine `Next` oder `Previous` Eigenschaften zu `null` nach Bedarf.
 
 ### Ist es möglich, den Text in verknüpften Textfeldern anders zu formatieren?
-Auf jeden Fall! Sie können auf den Inhalt jedes Textfelds unabhängige Stile anwenden und so für mehr Flexibilität beim Design sorgen.
+Auf jeden Fall! Sie können auf den Inhalt jedes Textfelds unabhängige Stile anwenden und so für Flexibilität beim Design sorgen.
 
 ### Wo finde ich weitere Ressourcen zum Arbeiten mit Textfeldern in Aspose.Words?
 Entdecken Sie die [Aspose.Words-Dokumentation](https://reference.aspose.com/words/net/) und besuchen Sie die [Support-Forum](https://forum.aspose.com/c/words/8) für zusätzliche Ressourcen.

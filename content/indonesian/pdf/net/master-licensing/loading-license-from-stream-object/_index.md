@@ -75,7 +75,7 @@ using (FileStream myStream = new FileStream(@"c:\Keys\Aspose.Pdf.net.lic", FileM
 
 Potongan kode ini membuka berkas lisensi dan menyetelnya ke objek lisensi. `using` pernyataan memastikan bahwa aliran dibuang dengan benar setelah digunakan.
 
-## Langkah 3: Konfirmasikan Lisensi Telah Ditetapkan
+## Langkah 3: Konfirmasi Lisensi Telah Ditetapkan
 
 Untuk memverifikasi bahwa semuanya berfungsi dengan benar, mari tambahkan pesan konfirmasi sederhana:
 

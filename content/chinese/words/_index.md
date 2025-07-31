@@ -34,10 +34,10 @@
 | **[将 DOCX 转换为 EPUB](./essential-guide-document-conversions/convert-docx-to-epub/)** | 电子阅读器和移动设备的数字出版 | ⭐⭐ 中级 |
 | **[DOCX 转换为 TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | 提取纯文本进行数据处理和分析 | ⭐ 初学者 |
 | **[将 DOCX 转换为字节数组](./essential-guide-document-conversions/convert-docx-to-byte-arrays/)** 针对 Web 应用程序的内存高效文档处理 | ⭐⭐ 中级 |
-| **[将 DOC 转换为 DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** | 旧格式现代化和兼容性更新 | ⭐ 初学者 |
+| **[将 DOC 转换为 DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** 旧格式现代化和兼容性更新 | ⭐ 初学者 |
 | **[将 DOCX 转换为 MHTML 并发送电子邮件](./essential-guide-document-conversions/convert-docx-to-mhtml-send-email/)** 电子邮件集成，支持丰富的格式 | ⭐⭐ 中级 |
 | **[将 PDF 转换为 JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | 从 PDF 文档中提取高质量图像 | ⭐⭐ 中级 |
-| **[另存为 PDF](./essential-guide-document-conversions/save-as-pdf/)** 具有高级选项的专业文档发布 | ⭐ 初学者 |
+| **[另存为 PDF](./essential-guide-document-conversions/save-as-pdf/)** | 具有高级选项的专业文档发布 | ⭐ 初学者 |
 
 ### 先进的人工智能文档处理
 利用尖端人工智能进行智能文档分析和自动内容生成。

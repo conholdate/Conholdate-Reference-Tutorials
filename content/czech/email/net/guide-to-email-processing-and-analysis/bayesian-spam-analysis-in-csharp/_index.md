@@ -178,7 +178,7 @@ Nemusí to být nejlepší volba, pokud potřebujete filtrování spamu na podni
 
 ## Závěr
 
-Gratulujeme! Právě jste vytvořili chytrý, učící se spamový filtr pomocí Bayesovské analýzy a jazyka C#. Nejedná se jen o jednoduchý filtr založený na klíčových slovech – je to systém strojového učení, který se s rostoucími zkušenostmi zlepšuje.
+Gratulujeme! Právě jste vytvořili chytrý, učící se filtr spamu pomocí Bayesovské analýzy a jazyka C#. Nejedná se jen o jednoduchý filtr založený na klíčových slovech – je to systém strojového učení, který se s rostoucími zkušenostmi zlepšuje.
 
 Tento přístup je účinný díky své přizpůsobivosti. S vývojem spamových taktik se vyvíjí i váš filtr. Čím více e-mailů zpracuje, tím lépe rozumí jemným rozdílům mezi legitimní komunikací a nežádoucím spamem.
 

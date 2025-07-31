@@ -1,5 +1,5 @@
 ---
-"description": "Naučte se, jak spravovat stav účastníků schůzky pomocí C# a Aspose.Email pro .NET. Podrobný návod se zdrojovým kódem."
+"description": "Naučte se, jak spravovat stav účastníků schůzek pomocí C# a Aspose.Email pro .NET. Podrobný návod se zdrojovým kódem."
 "linktitle": "Nastavení stavu účastníka pro účastníky schůzky pomocí C#"
 "second_title": "Rozhraní API pro zpracování e-mailů Aspose.Email v .NET"
 "title": "Nastavení stavu účastníka pro účastníky schůzky pomocí C#"
@@ -59,7 +59,7 @@ appointment.Attendees.Add(new MailAddress("jane@example.com", "Jane Smith"));
 
 ## Správa stavů účastníků
 
-Ten/Ta/To `ParticipantStatus` Vlastnost pomáhá určit, zda účastník přijal, odmítl nebo předběžně přijal pozvání na schůzku. Použijte následující výčtové hodnoty:
+Ten/Ta/To `ParticipantStatus` Vlastnost pomáhá určit, zda účastník přijal, odmítl nebo předběžně přijal pozvání na schůzku. Použijte následující hodnoty výčtu:
 
 - Přijato
 - Odmítnuto
@@ -89,7 +89,7 @@ client.Send(msg);
 
 ## Závěr
 
-Aspose.Email pro .NET zjednodušuje správu schůzek v .NET aplikacích a poskytuje nástroje pro efektivní vytváření, přizpůsobení a správu naplánovaných událostí. Díky intuitivnímu API můžete zefektivnit komunikační pracovní postupy a zajistit bezproblémovou integraci.
+Aspose.Email pro .NET zjednodušuje správu schůzek v .NET aplikacích a poskytuje nástroje pro efektivní vytváření, přizpůsobování a správu naplánovaných událostí. Díky intuitivnímu API můžete zefektivnit komunikační pracovní postupy a zajistit bezproblémovou integraci.
 
 ## Často kladené otázky
 

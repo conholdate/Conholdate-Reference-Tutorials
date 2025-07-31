@@ -2,7 +2,7 @@
 "categories":
 - "Email Processing"
 "date": "2025-01-02"
-"description": "Tanuld meg, hogyan konvertálhatsz e-maileket MHT C#-vá időzóna-megőrzéssel az Aspose.Email segítségével. Teljes körű útmutató kódpéldákkal, hibaelhárítással és ajánlott gyakorlatokkal."
+"description": "Tanuld meg, hogyan konvertálhatsz e-maileket MHT C#-ra időzóna-megőrzéssel az Aspose.Email segítségével. Teljes körű útmutató kódpéldákkal, hibaelhárítással és ajánlott gyakorlatokkal."
 "lastmod": "2025-01-02"
 "linktitle": "E-mail konvertálása MHT C#-ra"
 "second_title": "Aspose.Email .NET e-mail feldolgozó API"
@@ -108,7 +108,7 @@ var timezoneInfo = TimeZoneInfo.FindSystemTimeZoneById(timezoneId);
 
 ## E-mailek MHT formátumba konvertálása – Az alapvető folyamat
 
-Most pedig térjünk rá a fő eseményre – maga az MHT formátumra való konvertálásra:
+Most pedig térjünk át a fő eseményre – maga az MHT formátumra való konvertálásra:
 
 ```csharp
 // MHT mentési beállítások megadása

@@ -129,7 +129,7 @@ Avancerade kalkylbladsoperationer för professionell Excel-automation och effekt
 - **[Gratis provperiod](https://releases.aspose.com/cells/net/)** - Utvärdera alla funktioner
 
 ### **Gemenskap och stöd**
-- **[Supportforum](https://forum.aspose.com/c/cells/9)** - Få hjälp av experter
+- **[Supportforum](https://forum.aspose.com/c/cells/9)** Få hjälp av experter
 
 ### **Licensiering och prövningar**
 - **[Tillfällig licens](https://purchase.conholdate.com/temporary-license/)** - Utökad utvärdering

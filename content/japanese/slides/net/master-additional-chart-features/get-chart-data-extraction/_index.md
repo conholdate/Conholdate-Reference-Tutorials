@@ -1,20 +1,21 @@
 ---
-title: Aspose.Slides を使用して PowerPoint でグラフ データを抽出
-linktitle: Aspose.Slides を使用して PowerPoint でグラフ データを抽出
-second_title: Aspose.Slides .NET PowerPoint 処理 API
-description: PowerPoint プレゼンテーションのグラフからデータ範囲をプログラムで抽出する方法を学習して、Aspose.Slides for .NET のパワーを解き放ちましょう。このステップ バイ ステップ ガイドでは、明確な手順が説明されています。
-weight: 11
-url: /ja/slides/master-additional-chart-features/get-chart-data-extraction/
+"description": "PowerPointプレゼンテーション内のグラフからプログラム的にデータ範囲を抽出する方法を学び、Aspose.Slides for .NETのパワーを最大限に活用しましょう。このステップバイステップガイドでは、分かりやすい手順を解説しています。"
+"linktitle": "Aspose.Slides で PowerPoint からグラフデータを抽出する"
+"second_title": "Aspose.Slides .NET PowerPoint 処理 API"
+"title": "Aspose.Slides で PowerPoint からグラフデータを抽出する"
+"url": "/ja/slides/net/master-additional-chart-features/get-chart-data-extraction/"
+"weight": 11
 ---
+
 ## 導入
 
-Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションのグラフからデータ範囲を抽出したいとお考えですか? ここが最適な場所です! このステップ バイ ステップ ガイドでは、Aspose.Slides の強力な機能を活用して、グラフ データ範囲をプログラムで取得する方法を説明します。
+Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションのグラフからデータ範囲を抽出したいとお考えですか？まさにうってつけの場所です！このステップバイステップガイドでは、Aspose.Slides の強力な機能を活用して、プログラムでグラフのデータ範囲を取得する方法を説明します。
 
 ## 前提条件
 
 始める前に、以下のものを用意してください。
 
-1.  Aspose.Slides for .NET: ダウンロードしてインストールしてください。[ここ](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: ダウンロードしてインストールしてください。 [ここ](https://releases。aspose.com/slides/net/).
 2. 開発環境: Visual Studio などの IDE をセットアップします。
 
 ## ステップ1: 必要な名前空間をインポートする
@@ -34,13 +35,13 @@ using System;
 ```csharp
 using (Presentation pres = new Presentation())
 {
-    //チャートを追加するためのコードはここに記入します
+    // チャートを追加するためのコードはここに記入します
 }
 ```
 
 ## ステップ3: スライドにグラフを追加する
 
-それでは、プレゼンテーションの最初のスライドにグラフを追加してみましょう。グラフの種類を選択し、その位置とサイズを指定できます。
+それでは、プレゼンテーションの最初のスライドにグラフを追加してみましょう。グラフの種類を選択し、位置とサイズを指定できます。
 
 ```csharp
 IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.ClusteredColumn, 10, 10, 400, 300);
@@ -64,21 +65,21 @@ Console.WriteLine("Chart Data Range: {0}", result);
 
 ## 結論
 
-このチュートリアルでは、Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションからグラフのデータ範囲を抽出する方法を学習しました。わずか数行のコードで、グラフの背後にあるデータに効率的にアクセスできます。
+このチュートリアルでは、Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションからグラフのデータ範囲を抽出する方法を学習しました。わずか数行のコードで、グラフの背後にあるデータに効率的にアクセスできます。
 
 ## よくある質問
 
 ### Aspose.Slides for .NET は最新バージョンの Microsoft PowerPoint と互換性がありますか?
-はい、Aspose.Slides for .NET は、最新のものも含め、さまざまな PowerPoint ファイル形式をサポートしています。詳細については、ドキュメントを参照してください。
+はい、Aspose.Slides for .NET は最新のものを含む様々な PowerPoint ファイル形式をサポートしています。詳細については、ドキュメントをご覧ください。
 
 ### Aspose.Slides for .NET を使用して PowerPoint プレゼンテーション内の他の要素を操作できますか?
-もちろんです! プレゼンテーション内でスライド、図形、テキスト、画像などを操作できます。
+もちろんです！プレゼンテーション内でスライド、図形、テキスト、画像などを操作できます。
 
 ### Aspose.Slides for .NET の無料試用版はありますか?
-はい、無料トライアルは以下からダウンロードできます。[ここ](https://releases.aspose.com/).
+はい、無料トライアルは以下からダウンロードできます。 [ここ](https://releases。aspose.com/).
 
 ### Aspose.Slides for .NET の一時ライセンスを取得するにはどうすればよいですか?
-一時ライセンスを申請する[ここ](https://purchase.aspose.com/temporary-license/).
+一時ライセンスを申請する [ここ](https://purchase。aspose.com/temporary-license/).
 
 ### Aspose.Slides for .NET ユーザーに利用できるサポート オプションは何ですか?
- Asposeコミュニティからのサポートと支援は、[サポートフォーラム](https://forum.aspose.com/).
+Asposeコミュニティからのサポートと援助は、 [サポートフォーラム](https://forum。aspose.com/).

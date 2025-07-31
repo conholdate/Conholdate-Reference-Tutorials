@@ -141,7 +141,7 @@ if (!File.Exists(Path.Combine(dataDir, "YourDocument.docx")))
 
 ### Problémy s vykreslováním písma
 
-**Problém**Vlastní písma v dokumentech aplikace Word se nemusí správně vykreslit v PDF.
+**Problém**Vlastní písma v dokumentech Word se nemusí správně vykreslit v PDF.
 **Řešení**Ujistěte se, že jsou fonty nainstalovány na serveru, nebo použijte funkce pro nahrazování fontů v Aspose.Words.
 
 ## Pokročilé vzorce používání
@@ -235,7 +235,7 @@ Implementujte komplexní protokolování:
 
 ### Bezpečnostní aspekty
 
-- Ošetření cest k souborům pro prevenci útoků typu „directory traversal“
+- Očistěte cesty k souborům, abyste zabránili útokům typu „directory traversal“
 - Implementujte správné kontroly přístupu
 - Zvažte spuštění konverzí v izolovaných prostředích
 

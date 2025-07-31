@@ -38,7 +38,7 @@ Most pedig nézzük meg lépésről lépésre, hogyan szúrhatunk be egy üres o
 ### 1.1 Új projekt létrehozása
 1. Nyisd meg a Visual Studio-t.
 2. Hozz létre egy új konzolalkalmazást (válassz a .NET Framework vagy a .NET Core között az igényeid szerint).
-3. Nevezd el a projektedet (pl. „ÜresOldal BeszúrásaPDF-be”) a könnyű azonosítás érdekében.
+3. Nevezd el a projektedet (pl. „ÜresOldalBeszúrásaPDF-be”) a könnyű azonosítás érdekében.
 
 ### 1.2 Aspose.PDF referencia hozzáadása
 1. A Megoldáskezelőben kattintson a jobb gombbal a projektre, és válassza a NuGet-csomagok kezelése lehetőséget.
@@ -48,7 +48,7 @@ fejlesztői környezeted most már készen áll!
 
 ## 2. lépés: Meglévő PDF dokumentum betöltése
 
-Egy üres oldal beszúrásához először szükségünk van egy PDF dokumentumra, amellyel dolgozhatunk.
+Egy üres oldal beszúrásához először egy PDF dokumentumra van szükségünk, amellyel dolgozhatunk.
 
 ### 2.1 A könyvtár elérési útjának meghatározása
 Adja meg a PDF dokumentum elérési útját. Csere `"YOUR DOCUMENT DIRECTORY"` a PDF-fájl tényleges elérési útjával.

@@ -153,4 +153,4 @@ Ja! Du kan få tillgång till en gratis provperiod genom att besöka [Gratis pro
 För supportrelaterade frågor, besök [Aspose supportforum](https://forum.aspose.com/c/cells/9).
 
 ### Hur kan jag få en tillfällig licens för Aspose.Cells?
-Du kan ansöka om ett tillfälligt körkort [här](https://purchase.aspose.com/temporary-license/).
+Du kan ansöka om en tillfällig licens [här](https://purchase.aspose.com/temporary-license/).

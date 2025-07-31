@@ -24,7 +24,7 @@ S těmito předpoklady pojďme začít!
 
 ## Nastavení projektu
 
-1. Otevřete vývojové prostředí: Spusťte Visual Studio nebo vámi preferované IDE.
+1. Otevřete své vývojové prostředí: Spusťte Visual Studio nebo vámi preferované IDE.
 2. Vytvoření nového projektu: Nastavení nového projektu konzolové aplikace v C# (např. `ConvertTableToRangeExample`).
 3. Přidání odkazu na Aspose.Cells: Pokud je soubor nainstalován pomocí NuGetu, vyhledejte Aspose.Cells a přidejte jej do svého projektu. Případně odkazujte na knihovnu DLL, pokud jste ji stáhli ručně.
 

@@ -149,7 +149,7 @@ wb.CustomXmlParts[3].ID = "Shape";
 ```
 Na tym etapie przypisujesz znaczące identyfikatory, takie jak „Owoc”, „Kolor”, „Sport” i „Kształt”. Ułatwia to późniejszą identyfikację poszczególnych części i pracę z nimi.
 ## Krok 5: Określ identyfikator wyszukiwania dla niestandardowej części XML
-Gdy chcesz pobrać konkretną część XML, korzystając z jej identyfikatora, musisz zdefiniować identyfikator, którego szukasz.
+Gdy chcesz pobrać konkretną część XML, używając jej identyfikatora, musisz zdefiniować identyfikator, którego szukasz.
 ```csharp
 // Podaj identyfikator niestandardowej części XML wyszukiwania.
 String srchID = "Fruit";

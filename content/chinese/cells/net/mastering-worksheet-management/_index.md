@@ -19,7 +19,7 @@
 
 从零开始创建一个全新的 Excel 文件可能听起来很困难，但有了 Aspose.Cells 就轻松搞定！您将学习如何以编程方式添加多个工作表、重命名并保存工作——所有这些都将以精简的方式完成。本教程非常适合初学者或任何想要深入了解 Excel 自动化的人。了解更多信息，请访问 [将工作表添加到新的 Excel 文件](./adding-worksheets-to-new-excel-file/).  
 
-## 增强现有 Excel 文件  
+## 增强现有的 Excel 文件  
 
 如果您需要将工作表添加到现有的 Excel 文件，该怎么办？别担心！Aspose.Cells for .NET 让这项任务变得轻松快捷。无论您是协作处理共享文件还是更新记录，本教程都将指导您从设置到保存更新文件。立即开始使用 [将工作表添加到现有 Excel 文件](./adding-worksheets-to-existing-excel-file/).  
 

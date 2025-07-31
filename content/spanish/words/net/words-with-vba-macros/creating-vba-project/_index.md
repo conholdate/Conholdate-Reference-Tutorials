@@ -101,7 +101,7 @@ Esta línea guarda el documento como "WorkingWithVba.CreateVbaProject.docm" en e
 Aspose.Words para .NET es una potente biblioteca que permite a los desarrolladores crear, editar y convertir documentos de Word en aplicaciones .NET. Es ideal para automatizar flujos de trabajo de documentos y optimizar la funcionalidad con VBA.
 
 ### ¿Puedo probar Aspose.Words gratis?
-¡Por supuesto! Puedes probar Aspose.Words con un [prueba gratuita](https://releases.aspose.com/) o obtener una [licencia temporal](https://purchase.aspose.com/temporary-license/) para evaluación.
+¡Por supuesto! Puedes probar Aspose.Words con... [prueba gratuita](https://releases.aspose.com/) o obtener una [licencia temporal](https://purchase.aspose.com/temporary-license/) para evaluación.
 
 ### ¿Cómo agrego código VBA a un documento de Word?
 Para agregar código VBA, cree un `VbaModule`, establecer su `SourceCode` propiedad con su código de macro y agregue el módulo a su `VbaProject`.

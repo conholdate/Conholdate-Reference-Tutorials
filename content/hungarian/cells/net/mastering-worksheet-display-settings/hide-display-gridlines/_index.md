@@ -15,7 +15,7 @@ Ez az útmutató részletesen ismerteti az összes lépést, biztosítva, hogy a
 
 Mielőtt belevágnál a kódolásba, győződj meg róla, hogy megfelelsz a következő előfeltételeknek az Aspose.Cells for .NET használatának megkezdéséhez:
 
-### 1. .NET-keretrendszer telepítése
+### 1. .NET keretrendszer telepítése
 Győződjön meg róla, hogy a .NET-keretrendszer telepítve van a gépén. Az Aspose.Cells for .NET támogatja a 4.5-ös és újabb verziókat, ezért győződjön meg arról, hogy a környezete kompatibilis.
 
 ### 2. Töltse le és telepítse az Aspose.Cells for .NET programot
@@ -45,7 +45,7 @@ Ezek a névterek lehetővé teszik az Aspose.Cells által biztosított osztályo
 Először is meg kell adnia azt a könyvtárat, ahová az Excel-fájlok kerülnek. Ez az elérési út szolgál majd referenciapontként a fájlok olvasásához és mentéséhez.
 
 ```csharp
-string dataDir = "Your Document Directory";  // Adja meg itt a könyvtárat
+string dataDir = "Your Document Directory";  // Adja meg itt a könyvtárát
 ```
 
 Csere `"C:\\YourDocumentDirectory\\"` a fájlok tényleges elérési útjával.

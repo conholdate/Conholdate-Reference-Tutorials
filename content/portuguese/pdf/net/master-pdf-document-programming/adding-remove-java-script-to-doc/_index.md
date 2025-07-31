@@ -91,7 +91,7 @@ Cada função JavaScript é armazenada como um par chave-valor na coleção Java
 - **Funções de Validação**Verifique se os campos do formulário contêm dados válidos
 - **Funções de Cálculo**: Executar operações matemáticas em valores de formulário
 - **Manipuladores de eventos**:Responder às interações do usuário, como cliques em botões
-- **Funções de utilidade**: Funções auxiliares que outros scripts podem chamar
+- **Funções utilitárias**: Funções auxiliares que outros scripts podem chamar
 
 **Melhores Práticas**: Mantenha os nomes das suas funções descritivos e evite conflitos com as funções JavaScript integradas do PDF. Em vez de "func1", considere nomes como "validateEmail" ou "calculateTotal".
 
@@ -136,7 +136,7 @@ Esta etapa demonstra como você pode auditar e verificar quais funções JavaScr
 
 **Dica de depuração**: Use esta abordagem para solucionar problemas de JavaScript em PDFs. Se uma função não estiver funcionando conforme o esperado, primeiro verifique se ela existe e sua sintaxe usando este método de inspeção.
 
-## Etapa 6: remover o JavaScript do PDF
+## Etapa 6: remover JavaScript do PDF
 
 Às vezes, você precisa limpar ou atualizar o JavaScript existente. Encontre a função JavaScript desejada pelo nome e remova-a:
 

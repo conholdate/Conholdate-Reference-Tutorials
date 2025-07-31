@@ -37,7 +37,7 @@ using Aspose.Pdf;
 
 ## Passaggio 1: definire la directory dei documenti
 
-Per prima cosa, specifica il percorso della directory in cui si trova il file PDF di input. In questo modo, l'applicazione saprà dove trovare il file.
+Inizia specificando il percorso della directory in cui si trova il file PDF di input. Questo assicura che l'applicazione sappia dove trovare il file.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";

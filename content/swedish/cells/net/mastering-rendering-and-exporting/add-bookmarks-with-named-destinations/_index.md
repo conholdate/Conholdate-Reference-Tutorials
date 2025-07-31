@@ -79,7 +79,7 @@ Nu kan vi börja skapa bokmärken. Bokmärken är i huvudsak länkar som ger sna
 
 ### Skapa ett bokmärke för en enskild cell
 
-För att skapa ett bokmärke måste du först öppna den cell du vill länka till. Därefter skapar du ett `PdfBookmarkEntry` och associera den med cellens position.
+För att skapa ett bokmärke måste du först öppna den cell du vill länka till. Därefter skapar du ett `PdfBookmarkEntry` och associera det med cellens position.
 
 ```csharp
 Cell cell = ws.Cells["C5"];

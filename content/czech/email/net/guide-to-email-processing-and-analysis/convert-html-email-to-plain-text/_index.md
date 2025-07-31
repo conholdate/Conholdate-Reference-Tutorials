@@ -100,7 +100,7 @@ Document doc = new Document();
 doc.RemoveAllChildren();
 ```
 
-První řádek vytvoří zcela nový, prázdný dokument. Druhý řádek zajistí jeho kompletní vyčištění odstraněním veškerého výchozího obsahu, který mohl Aspose.Words přidat. To nám dává prázdné plátno pro práci.
+První řádek vytvoří zcela nový, prázdný dokument. Druhý řádek zajistí, že bude zcela čistý, a to odstraněním veškerého výchozího obsahu, který mohl Aspose.Words přidat. To nám dává prázdné plátno pro práci.
 
 **Proč je tento krok důležitý**Začátek s čistým dokumentem zabraňuje neočekávanému formátování nebo obsahu, které by narušily proces převodu.
 
@@ -134,7 +134,7 @@ Tento řádek vezme náš dokument (který nyní obsahuje analyzovaný HTML obsa
 
 ## Běžné problémy a jejich řešení
 
-I s takhle jednoduchým procesem se můžete setkat s určitými problémy. Zde jsou nejčastější problémy a jak je vyřešit:
+I s takhle jednoduchým procesem se můžete setkat s určitými problémy. Zde jsou nejčastější problémy a jejich řešení:
 
 **Problém**Prázdné nebo null HTML tělo
 **Řešení**Vždy zkontrolujte, zda `message.HtmlBody` je před zpracováním null nebo prázdný:
@@ -147,7 +147,7 @@ if (string.IsNullOrEmpty(message.HtmlBody))
 ```
 
 **Problém**Chyby přístupu k souborům
-**Řešení**Ujistěte se, že vaše aplikace má oprávnění pro čtení/zápis pro adresáře, které používáte. Zvažte použití bloků try-catch pro operace se soubory.
+**Řešení**Ujistěte se, že vaše aplikace má oprávnění pro čtení/zápis pro používané adresáře. Zvažte použití bloků try-catch pro operace se soubory.
 
 **Problém**Problémy s kódováním speciálních znaků
 **Řešení**Při ukládání zadejte kódování UTF-8:
@@ -188,7 +188,7 @@ Tato metoda převodu HTML na prostý text funguje nejlépe v těchto scénáří
 
 **Úkoly analýzy dat**Pokud analyzujete obsah e-mailů z hlediska trendů, sentimentu nebo klíčových slov, prostý text vám poskytne čistší data, se kterými můžete pracovat.
 
-**Dodržování předpisů pro přístupnost**Pokud potřebujete poskytnout e-maily ve formátu HTML v prostém textu pro uživatele se zdravotním postižením nebo s asistenčními technologiemi.
+**Dodržování předpisů pro přístupnost**Pokud potřebujete poskytnout e-maily ve formátu HTML v prostém textu pro uživatele s postižením nebo s asistenčními technologiemi.
 
 **Integrace starších systémů**Mnoho starších systémů dokáže zpracovat pouze prostý text, takže je tato konverze nezbytná pro zachování kompatibility.
 

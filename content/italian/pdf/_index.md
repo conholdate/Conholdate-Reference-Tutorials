@@ -21,7 +21,7 @@ Scopri le funzionalità complete di Aspose.PDF con la nostra ampia raccolta di t
 - **🔄 Conversioni avanzate**: Trasformazioni ad alta fedeltà tra formati
 - **🎨 Elementi interattivi**: JavaScript, moduli, annotazioni e firme digitali
 - **📊 Contenuto ricco**: Livelli, segnalibri, filigrane e contenuti multimediali
-- **🔒 Funzionalità di sicurezza**: Crittografia, firme digitali e controllo degli accessi
+- **🔒 Funzionalità di sicurezza**Crittografia, firme digitali e controllo degli accessi
 
 ## 📚 Piattaforme disponibili
 
@@ -70,7 +70,7 @@ Tutorial completi per sviluppatori .NET che coprono tutti gli aspetti dell'elabo
 - **API avanzata**: Modello di oggetti completo con funzionalità estese
 - **Documentazione**: Guide dettagliate e riferimenti API
 - **Esempi di codice**: Campioni pronti all'uso per scenari comuni
-- **Supporto alla comunità**: Forum attivi e assistenza di esperti
+- **Supporto della comunità**: Forum attivi e assistenza di esperti
 
 ## 🔗 Risorse aggiuntive
 

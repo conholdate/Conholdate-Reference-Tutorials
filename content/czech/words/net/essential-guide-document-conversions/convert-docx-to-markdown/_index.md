@@ -31,7 +31,7 @@ Než se ponoříme do technických detailů, pojďme si stručně vysvětlit, pr
 - **Správa verzí**Soubory Markdown fungují s Gitem lépe než binární soubory DOCX.
 - **Integrace s redakčním systémem (CMS)**Mnoho systémů pro správu obsahu preferuje Markdown pro snazší úpravy.
 - **Publikování blogu**Převod článků napsaných ve Wordu do Markdownu pro publikování na webu
-- **Dokumentace k API**Transformace dokumentace ve Wordu do Markdownu, který je uživatelsky přívětivý pro vývojáře
+- **Dokumentace k API**Transformace dokumentace ve Wordu do podoby Markdownu, která je přátelská k vývojářům
 
 Krása Markdownu spočívá v jeho jednoduchosti a univerzální kompatibilitě – je čitelný jako prostý text, ale dá se krásně vykreslit prakticky na jakékoli platformě.
 

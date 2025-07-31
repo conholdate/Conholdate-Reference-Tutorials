@@ -31,7 +31,7 @@ using Aspose.Pdf;
 using System;
 ```
 
-## Schritt 1: Dokumentenverzeichnis einrichten
+## Schritt 1: Dokumentverzeichnis einrichten
 
 Geben Sie den Pfad zu Ihrem Dokumentverzeichnis an, in dem Ihre PDF-Eingabedatei gespeichert ist. Dieser Pfad dient dem Programm beim Laden des PDF-Dokuments.
 

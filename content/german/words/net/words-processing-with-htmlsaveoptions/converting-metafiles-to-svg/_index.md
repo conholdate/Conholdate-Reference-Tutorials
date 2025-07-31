@@ -44,7 +44,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Dieser Code initialisiert ein neues Dokument und einen Dokumentgenerator. Die `dataDir` Die Variable enthält den Pfad, in dem Sie Ihre Dateien speichern.
 
-## Schritt 2: Text zum Dokument hinzufügen
+## Schritt 2: Fügen Sie dem Dokument Text hinzu
 
 Als Nächstes fügen wir unserem Dokument mit einer Textbeschreibung etwas Kontext hinzu.
 

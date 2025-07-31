@@ -19,7 +19,7 @@ Metnin bir kutudan diğerine akıcı bir şekilde akması için metin kutuların
 
 ## Metin Kutusu Sıralarını Kontrol Etme
 
-Belgenizdeki metnin mantıksal akışı konusunda endişeli misiniz? [Word Belgelerinde TextBox Dizileri Kontrolü](./textbox-sequences-check/) Eğitim tam size göre. Metin kutularının sırasını oluşturmanıza, bağlamanıza ve doğrulamanıza yardımcı olan araçlar sunarak, belgenizde net ve tutarlı bir yapı korumanıza yardımcı olur. Bu, özellikle okunabilirlik ve hedef kitlenizin ilgisinin canlı kalmasını sağlamak açısından önemlidir.
+Belgenizdeki metnin mantıksal akışı konusunda endişeli misiniz? [Word Belgelerinde Metin Kutusu Dizileri Kontrolü](./textbox-sequences-check/) Eğitim tam size göre. Metin kutularının sırasını oluşturmanıza, bağlamanıza ve doğrulamanıza yardımcı olan araçlar sunarak, belgenizde net ve tutarlı bir yapı korumanıza yardımcı olur. Bu, özellikle okunabilirlik ve hedef kitlenizin ilgisinin canlı kalmasını sağlamak açısından önemlidir.
 
 ## İleri Bağlantıları Kırmak
 
@@ -29,5 +29,5 @@ Bazen, düzen ayarlamaları için metin kutuları arasındaki mevcut bağlantıl
 | Başlık | Açıklama |
 | --- | --- |
 | [Aspose.Words for .NET Kullanılarak Word Belgelerinde Bağlantılı Metin Kutuları](./linked-text-boxes/) | Aspose.Words for .NET ile Word belgelerinde metin kutularını sorunsuz bir şekilde nasıl oluşturacağınızı ve bağlayacağınızı öğrenin. Zahmetsiz içerik akışı ve profesyonel sonuçlar için ayrıntılı kılavuzumuzu izleyin.
-| [Word Belgelerinde TextBox Dizileri Kontrolü](./textbox-sequences-check/) | İçeriğinizin mantıksal akışını sağlamak için metin kutularını nasıl kolayca oluşturacağınızı, bağlayacağınızı ve sırasını nasıl kontrol edeceğinizi öğrenin. Belge yapısını ve tasarımını geliştirmek isteyen geliştiriciler için mükemmeldir.
+| [Word Belgelerinde Metin Kutusu Dizileri Kontrolü](./textbox-sequences-check/) | İçeriğinizin mantıksal akışını sağlamak için metin kutularını nasıl kolayca oluşturacağınızı, bağlayacağınızı ve sırasını nasıl kontrol edeceğinizi öğrenin. Belge yapısını ve tasarımını geliştirmek isteyen geliştiriciler için mükemmeldir.
 | [Aspose.Words for .NET ile Word Belgesindeki İleri Bağlantıyı Kırma](./break-forward-link/) Aspose.Words for .NET kullanarak metin kutularındaki ileri bağlantıları nasıl keseceğinizi, yöneteceğinizi ve özelleştireceğinizi keşfedin. Bu adım adım kılavuz, belge düzeninizi kolaylaştırmak ve Word dosya yönetiminizi geliştirmek için ihtiyacınız olan her şeyi kapsar.

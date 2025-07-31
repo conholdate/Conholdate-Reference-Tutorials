@@ -21,7 +21,7 @@ Perlu menyematkan metadata atau struktur data kustom di buku kerja Anda? Tutoria
 
 ## Menambahkan Tanda Tangan Digital Baru  
 
-Keamanan itu penting! Jika Anda bekerja dengan data sensitif, tutorial ini menunjukkan cara menambahkan tanda tangan digital baru ke berkas Excel yang sudah ditandatangani. Dari prasyarat hingga instruksi pengkodean langkah demi langkah, tutorial ini mencakup semua yang Anda butuhkan untuk menjaga keamanan berkas Anda. [Baca selengkapnya](./adding-new-digital-signature-to-signed-excel-file/).  
+Keamanan itu penting! Jika Anda bekerja dengan data sensitif, tutorial ini menunjukkan cara menambahkan tanda tangan digital baru ke berkas Excel yang sudah ditandatangani. Dari prasyarat hingga petunjuk pengkodean langkah demi langkah, tutorial ini mencakup semua yang Anda butuhkan untuk menjaga keamanan berkas Anda. [Baca selengkapnya](./adding-new-digital-signature-to-signed-excel-file/).  
 
 ## Mengoptimalkan Kompresi File  
 

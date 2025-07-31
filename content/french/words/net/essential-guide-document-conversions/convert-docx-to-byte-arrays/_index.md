@@ -4,7 +4,7 @@
 "date": "2025-01-02"
 "description": "Apprenez à convertir des fichiers Docx en tableaux d'octets en C# avec Aspose.Words pour .NET. Guide complet avec exemples de code, dépannage et bonnes pratiques."
 "lastmod": "2025-01-02"
-"linktitle": "Convertir un fichier Docx en tableau d'octets en C#"
+"linktitle": "Convertir un fichier Docx en tableau d'octets C#"
 "second_title": "API de traitement de documents Aspose.Words"
 "tags":
 - "aspose-words"

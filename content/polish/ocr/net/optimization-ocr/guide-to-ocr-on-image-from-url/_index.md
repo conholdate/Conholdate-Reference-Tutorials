@@ -1,21 +1,22 @@
 ---
-title: Przewodnik po OCR obrazu z adresu URL w rozpoznawaniu obrazu OCR
-linktitle: Przewodnik po OCR obrazu z adresu URL w rozpoznawaniu obrazu OCR
-second_title: Aspose.OCR .NET API
-description: Dowiedz się, jak bez wysiłku wdrożyć optyczne rozpoznawanie znaków (OCR) w aplikacjach .NET przy użyciu Aspose.OCR. Ten przewodnik krok po kroku przeprowadzi Cię przez cały proces.
-weight: 10
-url: /pl/ocr/optimization-ocr/guide-to-ocr-on-image-from-url/
+"description": "Dowiedz się, jak bezproblemowo wdrożyć optyczne rozpoznawanie znaków (OCR) w aplikacjach .NET za pomocą Aspose.OCR. Ten przewodnik krok po kroku przeprowadzi Cię przez cały proces."
+"linktitle": "Przewodnik po OCR obrazu z adresu URL w OCR Rozpoznawanie obrazu"
+"second_title": "Aspose.OCR .NET API"
+"title": "Przewodnik po OCR obrazu z adresu URL w OCR Rozpoznawanie obrazu"
+"url": "/pl/ocr/net/optimization-ocr/guide-to-ocr-on-image-from-url/"
+"weight": 10
 ---
+
 ## Wstęp
 
-Optical Character Recognition (OCR) to podstawowa technologia wyodrębniania tekstu z obrazów, umożliwiająca programistom tworzenie aplikacji, które mogą bezproblemowo odczytywać i przetwarzać informacje tekstowe. Aspose.OCR dla .NET to solidna biblioteka zaprojektowana w celu uproszczenia integracji funkcji OCR z aplikacjami .NET. Ten przewodnik pokaże, jak wykonać OCR na obrazie bezpośrednio z adresu URL w zaledwie kilku prostych krokach.
+Optyczne rozpoznawanie znaków (OCR) to niezbędna technologia do wyodrębniania tekstu z obrazów, umożliwiająca programistom tworzenie aplikacji, które mogą płynnie odczytywać i przetwarzać informacje tekstowe. Aspose.OCR dla platformy .NET to rozbudowana biblioteka zaprojektowana w celu uproszczenia integracji funkcji OCR z aplikacjami .NET. Ten przewodnik pokaże, jak wykonać OCR obrazu bezpośrednio z adresu URL w kilku prostych krokach.
 
 ## Wymagania wstępne
 
 Zanim zaczniesz, upewnij się, że spełniasz następujące wymagania wstępne:
 
--  Aspose.OCR dla .NET: Pobierz i zintegruj bibliotekę Aspose.OCR ze swoim projektem .NET z[strona wydania](https://releases.aspose.com/ocr/net/).
-- Środowisko programistyczne: Skonfiguruj na swoim komputerze środowisko programistyczne .NET (zaleca się użycie programu Visual Studio).
+- Aspose.OCR dla .NET: Pobierz i zintegruj bibliotekę Aspose.OCR ze swoim projektem .NET z [strona wydania](https://releases.aspose.com/ocr/net/).
+- Środowisko programistyczne: Skonfiguruj na swoim komputerze środowisko programistyczne .NET (zalecane jest użycie programu Visual Studio).
 
 ## Krok 1: Importuj niezbędne przestrzenie nazw
 
@@ -32,7 +33,7 @@ using Aspose.OCR.Models;
 
 ## Krok 2: Określ katalog dokumentów
 
- Zdefiniuj katalog dla swoich dokumentów. Zastąp`"Your Document Directory"` ze ścieżką do Twojego katalogu roboczego:
+Zdefiniuj katalog dla swoich dokumentów. Zastąp `"Your Document Directory"` ze ścieżką do Twojego katalogu roboczego:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -43,20 +44,20 @@ string dataDir = "Your Document Directory";
 Podaj adres URL obrazu, z którego chcesz wyodrębnić tekst. Upewnij się, że obraz jest publicznie dostępny:
 
 ```csharp
-string uri = "https://przykład.com/obraz.jpg";
+string uri = "https://example.com/image.jpg";
 ```
 
 ## Krok 4: Zainicjuj Aspose.OCR
 
- Utwórz instancję`AsposeOcr` klasa, której użyjesz do wykonania operacji OCR:
+Utwórz instancję `AsposeOcr` klasa, której użyjesz do wykonania operacji OCR:
 
 ```csharp
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Krok 5: Rozpoznaj tekst z obrazu
+## Krok 5: Rozpoznawanie tekstu z obrazu
 
- Użyj`RecognizeImageFromUri` metoda wyodrębniania tekstu z adresu URL obrazu. Możesz dostosować różne ustawienia rozpoznawania w oparciu o swoje konkretne wymagania:
+Użyj `RecognizeImageFromUri` Metoda wyodrębniania tekstu z adresu URL obrazu. Możesz dostosować różne ustawienia rozpoznawania w zależności od swoich potrzeb:
 
 ```csharp
 RecognitionResult result = api.RecognizeImageFromUri(uri, new RecognitionSettings
@@ -74,7 +75,7 @@ RecognitionResult result = api.RecognizeImageFromUri(uri, new RecognitionSetting
 
 ## Krok 6: Wyświetl wyniki rozpoznawania
 
-Wyświetl rozpoznany tekst wraz z wszelkimi istotnymi informacjami, w tym rozpoznanymi obszarami i ostrzeżeniami:
+Wyświetla rozpoznany tekst wraz z wszelkimi istotnymi informacjami, w tym rozpoznanymi obszarami i ostrzeżeniami:
 
 ```csharp
 Console.WriteLine($"Text:\n {result.RecognitionText}");
@@ -87,7 +88,7 @@ Console.WriteLine($"JSON: {result.GetJson()}");
 
 ## Krok 7: Wykonaj swoją aplikację
 
-Uruchom swoją aplikację. Jeśli wszystko jest poprawnie skonfigurowane, powinieneś zobaczyć pomyślne wykonanie procesu OCR:
+Uruchom aplikację. Jeśli wszystko jest poprawnie skonfigurowane, powinieneś zobaczyć pomyślne wykonanie procesu OCR:
 
 ```csharp
 Console.WriteLine("OCR process executed successfully.");
@@ -95,7 +96,7 @@ Console.WriteLine("OCR process executed successfully.");
 
 ## Wniosek
 
-Integracja funkcji OCR z aplikacjami .NET jest prosta dzięki Aspose.OCR. Ten przewodnik przeprowadzi Cię przez kluczowe kroki wykonywania OCR na obrazie z adresu URL, tworząc podstawę do tworzenia aplikacji wykorzystujących technologię rozpoznawania tekstu.
+Integracja funkcji OCR z aplikacjami .NET jest prosta dzięki Aspose.OCR. Ten przewodnik przedstawia kluczowe kroki wykonywania OCR obrazu z adresu URL, tworząc podstawę do tworzenia aplikacji wykorzystujących technologię rozpoznawania tekstu.
 
 ## Najczęściej zadawane pytania
 
@@ -105,16 +106,16 @@ Tak, Aspose.OCR obsługuje różne języki, co czyni go idealnym rozwiązaniem d
 
 ### Czy Aspose.OCR obsługuje rozpoznawanie tekstu jedno- i wielowierszowego?
 
-Oczywiście! Biblioteka jest wszechstronna, umożliwiając rozpoznawanie tekstu jedno- i wielowierszowego zgodnie z potrzebami projektu.
+Oczywiście! Biblioteka jest wszechstronna i umożliwia rozpoznawanie tekstu jedno- i wielowierszowego, w zależności od potrzeb projektu.
 
 ### Jakie opcje licencjonowania są dostępne dla Aspose.OCR?
 
- Możesz dowiedzieć się więcej o różnych opcjach licencjonowania i dokonać zakupów[Sklep Aspose](https://purchase.conholdate.com/buy).
+Możesz zapoznać się z różnymi opcjami licencjonowania i dokonać zakupów [Sklep Aspose](https://purchase.conholdate.com/buy).
 
 ### Czy istnieje wersja próbna Aspose.OCR?
 
- Tak, dostępna jest bezpłatna wersja próbna. Możesz ją sprawdzić na[strona wydania](https://releases.aspose.com/).
+Tak, dostępna jest bezpłatna wersja próbna. Możesz ją sprawdzić na [strona wydania](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.OCR?
 
-Aby uzyskać pomoc lub wziąć udział w dyskusjach społeczności na temat Aspose.OCR, odwiedź stronę[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16).
+Aby uzyskać pomoc lub wziąć udział w dyskusjach społeczności na temat Aspose.OCR, odwiedź stronę [Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16).

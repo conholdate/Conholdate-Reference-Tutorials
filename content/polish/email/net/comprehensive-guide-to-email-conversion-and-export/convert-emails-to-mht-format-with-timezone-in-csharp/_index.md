@@ -37,7 +37,7 @@ Zanim zagłębimy się w kod, zrozumiemy, dlaczego format MHT jest często najle
 
 ## Kiedy używać MHT, a kiedy innych formatów wiadomości e-mail
 
-Oto krótki przewodnik po decyzjach:
+Oto krótki przewodnik ułatwiający podjęcie decyzji:
 
 - **Użyj MHT, gdy**:Potrzebujesz archiwów, które można przeglądać w przeglądarce, chcesz mieć niezależne pliki lub wymagasz zachowania metadanych
 - **Użyj EML, gdy**:Później będziesz musiał ponownie zaimportować wiadomości e-mail do klientów pocztowych

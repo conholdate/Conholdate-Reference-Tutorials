@@ -1,5 +1,5 @@
 ---
-"description": "Scopri come migliorare la sicurezza dei tuoi file Excel implementando impostazioni di protezione avanzate con Aspose.Cells per .NET. Questa guida completa ti guiderà passo dopo passo attraverso istruzioni su come limitare le azioni degli utenti."
+"description": "Scopri come migliorare la sicurezza dei tuoi file Excel implementando impostazioni di protezione avanzate con Aspose.Cells per .NET. Questa guida completa ti guiderà passo dopo passo nella limitazione delle azioni degli utenti."
 "linktitle": "Impostazioni di protezione avanzate tramite Aspose.Cells"
 "second_title": "API di elaborazione Excel .NET Aspose.Cells"
 "title": "Impostazioni di protezione avanzate tramite Aspose.Cells"

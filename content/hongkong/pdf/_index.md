@@ -1,5 +1,5 @@
 ---
-"description": "跨平台 Aspose.PDF 的全面教學和指南。透過我們豐富的教程集，掌握 PDF 文件的建立、操作、轉換和互動功能。"
+"description": "跨不同平台的 Aspose.PDF 綜合教學和指南。透過我們豐富的教程集掌握 PDF 文件的建立、操作、轉換和互動功能。"
 "linktitle": "Aspose.PDF"
 "title": "Aspose.PDF教學"
 "url": "/zh-hant/pdf/"
@@ -10,7 +10,7 @@
 
 ## 掌握跨平台 PDF 文件處理
 
-透過我們豐富的教學課程集探索 Aspose.PDF 的全面功能。學習如何使用專為專業文件處理和數位出版設計的強大 API 來建立、操作、轉換和增強 PDF 文件。
+透過我們豐富的教學課程集探索 Aspose.PDF 的綜合功能。了解如何使用專為專業文件處理和數位出版而設計的強大 API 來建立、操作、轉換和增強 PDF 文件。
 
 ## 🚀 什麼是 Aspose.PDF？
 

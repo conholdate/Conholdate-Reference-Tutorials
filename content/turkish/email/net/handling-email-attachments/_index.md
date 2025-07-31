@@ -17,7 +17,7 @@ E-postayla fatura veya resim göndermeniz gerekti mi? Aspose.Email for .NET kull
 
 ## Ekleri Algılama ve Çıkarma  
 
-E-postada gizli ekleri tespit etmek, özellikle güvenlik ve veri yönetimi açısından çok önemlidir. Aspose.Email, ekleri hassas bir şekilde tespit edip çıkarmanızı sağlar. İster PDF, ister gömülü bir resim veya bir multimedya dosyası olsun, süreç verimlilik için kolaylaştırılmıştır. Tespit yöntemlerini daha ayrıntılı olarak burada bulabilirsiniz: [C#'ta Ek ve Gömülü Mesajı Algılama](./detecting-attachment-and-embedded-message-in-csharp/).  
+E-postada gizli ekleri tespit etmek, özellikle güvenlik ve veri yönetimi açısından çok önemlidir. Aspose.Email, ekleri hassas bir şekilde tespit edip çıkarmanıza olanak tanır. İster PDF, ister gömülü bir resim veya bir multimedya dosyası olsun, süreç verimlilik için optimize edilmiştir. Tespit yöntemlerini daha ayrıntılı olarak burada bulabilirsiniz: [C#'ta Ek ve Gömülü Mesajı Algılama](./detecting-attachment-and-embedded-message-in-csharp/).  
 
 ## Satır İçi ve Düzenli Ekleri Ayırt Etme  
 

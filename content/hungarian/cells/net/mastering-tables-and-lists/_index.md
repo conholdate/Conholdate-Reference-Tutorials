@@ -22,7 +22,7 @@ Szükséged van egy táblázat egyszerűsítésére egy normál tartománnyal, m
 
 ## Táblázatok konvertálása tartományokká opciókkal  
 
-táblázatok tartományokká konvertálásának testreszabása gyakran elengedhetetlen a kívánt eredmények eléréséhez. Az Aspose.Cells for .NET rugalmasságot kínál ezen konverziók finomhangolásához olyan lehetőségekkel, mint a formázás megőrzése vagy az adatszerkezetek módosítása. Akár dinamikus jelentéseket készít, akár táblázatokat finomít prezentációkhoz, ez az oktatóanyag biztosítja, hogy minden alkalommal helyesen járjon el. Többet szeretne megtudni? Tekintse meg a teljes útmutatót. [itt](./convert-tables-to-range-with-options/).  
+táblázatok tartományokká konvertálásának testreszabása gyakran elengedhetetlen a kívánt eredmények eléréséhez. Az Aspose.Cells for .NET rugalmasságot kínál ezen konverziók finomhangolásához olyan lehetőségekkel, mint a formázás megőrzése vagy az adatszerkezetek módosítása. Akár dinamikus jelentéseket készít, akár táblázatokat finomít prezentációkhoz, ez az oktatóanyag biztosítja, hogy minden alkalommal helyesen csinálja. Többet szeretne megtudni? Tekintse meg a teljes útmutatót. [itt](./convert-tables-to-range-with-options/).  
 
 ## Táblázatok és listák elsajátítása oktatóanyagok
 ### [Listaobjektumok létrehozása és kezelése Excelben az Aspose.Cells segítségével](./create-and-manage-list-object/)
@@ -32,4 +32,4 @@ Ismerje meg, hogyan konvertálhat zökkenőmentesen Excel-táblázatokat ODS-for
 ### [Excel-táblázatok tartományokká konvertálása az Aspose.Cells for .NET segítségével](./convert-excel-tables-to-range/)
 Fedezze fel, hogyan konvertálhatja zökkenőmentesen az Excel táblázatait normál tartományokká a hatékony Aspose.Cells for .NET könyvtár segítségével. Ez a lépésről lépésre szóló útmutató mindent lefed a környezet beállításától a konvertálás végrehajtásáig.
 ### [Táblázatok konvertálása tartomnyá opciókkal](./convert-tables-to-range-with-options/)
-Tanuld meg, hogyan konvertálhatsz táblázatokat normál tartományokká az Excelben programozottan. Akár tapasztalt fejlesztő vagy, akár kezdő, ez az oktatóanyag lépésről lépésre bemutatja a folyamatot.
+Tanuld meg, hogyan konvertálhatsz táblázatokat normál tartományokká az Excelben programozott módon. Akár tapasztalt fejlesztő vagy, akár kezdő, ez az oktatóanyag lépésről lépésre bemutatja a folyamatot.

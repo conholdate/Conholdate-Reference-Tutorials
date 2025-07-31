@@ -1,27 +1,28 @@
 ---
-title: Vyjmutí čárových obdélníků z rozpoznávání obrázků
-linktitle: Vyjmutí čárových obdélníků z rozpoznávání obrázků
-second_title: Aspose.OCR .NET API
-description: Naučte se, jak implementovat optické rozpoznávání znaků (OCR) ve vašich aplikacích .NET pomocí Aspose.OCR. Tento komplexní průvodce vás provede procesem extrahování obdélníků pro rozpoznané čáry.
-weight: 10
-url: /cs/ocr/master-image-and-drawing-recognition/line-rectangles-from-images-recognition/
+"description": "Naučte se, jak implementovat optické rozpoznávání znaků (OCR) ve vašich .NET aplikacích pomocí Aspose.OCR. Tato komplexní příručka vás provede procesem extrakce obdélníků pro rozpoznané čáry."
+"linktitle": "Extrakce čárových obdélníků z rozpoznávání obrázků"
+"second_title": "Rozhraní Aspose.OCR .NET API"
+"title": "Extrakce čárových obdélníků z rozpoznávání obrázků"
+"url": "/cs/ocr/net/master-image-and-drawing-recognition/line-rectangles-from-images-recognition/"
+"weight": 10
 ---
+
 ## Zavedení
 
-Vítejte ve světě Aspose.OCR for .NET, působivého nástroje určeného k integraci optického rozpoznávání znaků (OCR) do vašich aplikací .NET. Ať už jste zkušený vývojář nebo zvědavý nováček, tento průvodce vás provede kroky k získání obdélníků představujících čáry z rozpoznaného textu v obrázcích.
+Vítejte ve světě Aspose.OCR pro .NET, působivého nástroje určeného k integraci optického rozpoznávání znaků (OCR) do vašich .NET aplikací. Ať už jste zkušený vývojář nebo zvědavý nováček, tato příručka vás provede kroky k získání obdélníků představujících čáry z rozpoznaného textu v obrázcích.
 
 ## Předpoklady
 
-Než začnete, ujistěte se, že máte na svém místě následující:
+Než začnete, ujistěte se, že máte připraveno následující:
 
-- Základní znalost vývoje C# a .NET.
+- Základní znalost vývoje v C# a .NET.
 - Integrované vývojové prostředí (IDE), jako je Visual Studio.
--  Nainstalována knihovna Aspose.OCR for .NET. Můžete si jej stáhnout[zde](https://releases.aspose.com/ocr/net/).
+- Knihovna Aspose.OCR pro .NET je nainstalována. Můžete si ji stáhnout. [zde](https://releases.aspose.com/ocr/net/).
 - Ukázkový obrázek obsahující text pro rozpoznání.
 
 ## Požadované jmenné prostory
 
-Chcete-li začít, musíte do projektu přidat potřebné jmenné prostory. Zahrňte tyto řádky do horní části souboru C#:
+Pro začátek budete muset do projektu přidat potřebné jmenné prostory. Na začátek souboru C# vložte tyto řádky:
 
 ```csharp
 using System;
@@ -31,78 +32,78 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-Chcete-li načíst obdélníky pro čáry v obrazu OCR, postupujte takto.
+Chcete-li v obrázku OCR načíst obdélníky pro čáry, postupujte podle těchto kroků.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Zadejte adresář, kde se nachází váš soubor obrázku:
+Zadejte adresář, kde se nachází soubor s obrázkem:
 
 ```csharp
-// Definujte cestu k adresáři dokumentů
+// Definujte cestu k adresáři s dokumenty
 string dataDir = "Your Document Directory";
 ```
 
- Nezapomeňte vyměnit`"Your Document Directory"` se skutečnou cestou.
+Nezapomeňte vyměnit `"Your Document Directory"` se skutečnou cestou.
 
-## Krok 2: Inicializujte Aspose.OCR
+## Krok 2: Inicializace souboru Aspose.OCR
 
- Vytvořte instanci souboru`AsposeOcr` třídy pro přístup k jeho funkcím:
+Vytvořte instanci `AsposeOcr` třída pro přístup k jejím funkcím:
 
 ```csharp
-// Inicializujte Aspose.OCR API
+// Inicializace rozhraní API Aspose.OCR
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Krok 3: Zadejte cestu obrázku
+## Krok 3: Zadejte cestu k obrázku
 
-Definujte úplnou cestu k souboru obrázku, který chcete zpracovat:
+Definujte úplnou cestu k souboru s obrázkem, který chcete zpracovat:
 
 ```csharp
 // Zadejte úplnou cestu k obrázku
 string fullPath = dataDir + "sample.png";
 ```
 
-## Krok 4: Rozpoznejte obrázek a získejte obdélníky pro čáry
+## Krok 4: Rozpoznání obrazu a nalezení obdélníků pro čáry
 
- Nyní můžete použít`GetRectangles` metoda extrahování obdélníků rozpoznaných textových řádků:
+Nyní můžete použít `GetRectangles` metoda pro extrakci obdélníků z rozpoznaných textových řádků:
 
 ```csharp
-// Načíst obdélníky pro čáry v určeném obrázku
+// Načíst obdélníky pro čáry v zadaném obrázku
 List<Rectangle> lines = api.GetRectangles(fullPath, AreasType.LINES, false);
 ```
 
-## Krok 5: Výstup výsledků
+## Krok 5: Výpis výsledků
 
-Nakonec vytiskněte souřadnice každého detekovaného obdélníku čáry do konzoly:
+Nakonec vypište souřadnice každého detekovaného obdélníku čáry do konzole:
 
 ```csharp
-// Zobrazte souřadnice detekovaných obdélníků
+// Zobrazit souřadnice detekovaných obdélníků
 Console.WriteLine("Areas coordinates:");
 lines.ForEach(a => Console.WriteLine($"x:{a.X} y:{a.Y} width:{a.Width} height:{a.Height}"));
 ```
 
 ## Závěr
 
-Gratuluji! Úspěšně jste načetli obdélníky pro čáry v obrazu OCR pomocí Aspose.OCR for .NET. Tato technologie otevírá četné možnosti pro extrakci a zpracování textu ve vašich aplikacích.
+Gratulujeme! Úspěšně jste načetli obdélníky pro čáry v OCR obrazu pomocí Aspose.OCR pro .NET. Tato technologie otevírá řadu možností pro extrakci a zpracování textu ve vašich aplikacích.
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu použít Aspose.OCR pro .NET s jakýmkoli typem obrázku?
 
-Ano, Aspose.OCR podporuje různé formáty obrázků a poskytuje flexibilitu pro vaše aplikace OCR.
+Ano, Aspose.OCR podporuje různé obrazové formáty, což poskytuje flexibilitu pro vaše OCR aplikace.
 
 ### Jaká je míra přesnosti rozpoznávání OCR?
 
-Aspose.OCR používá pokročilé algoritmy k dosažení vysoké přesnosti v rozpoznávání textu, vhodné pro různé scénáře.
+Aspose.OCR využívá pokročilé algoritmy k dosažení vysoké přesnosti rozpoznávání textu, což je vhodné pro různé scénáře.
 
 ### Je k dispozici zkušební verze?
 
- Ano, funkce Aspose.OCR pro .NET můžete prozkoumat stažením souboru[zkušební verze zdarma](https://releases.aspose.com/).
+Ano, funkce Aspose.OCR pro .NET si můžete prohlédnout stažením [bezplatná zkušební verze](https://releases.aspose.com/).
 
 ### Kde najdu podrobnou dokumentaci?
 
- Komplexní dokumentaci lze nalézt[zde](https://reference.aspose.com/ocr/net/), nabízející podrobné informace a pokyny.
+Komplexní dokumentaci lze nalézt [zde](https://reference.aspose.com/ocr/net/), který nabízí podrobné informace a pokyny.
 
 ### Potřebujete další pomoc nebo máte otázky?
 
- Zapojte se do diskuze na[Fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) za podporu komunity.
+Zapojte se do diskuse na [Fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pro podporu komunity.

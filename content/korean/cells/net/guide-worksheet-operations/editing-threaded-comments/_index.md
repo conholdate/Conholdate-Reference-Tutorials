@@ -1,8 +1,8 @@
 ---
 "description": "Aspose.Cells for .NET을 사용하여 스레드 댓글을 편집하는 방법에 대한 포괄적인 가이드를 통해 Excel 협업의 잠재력을 최대한 활용하세요. 이 문서는 Excel 워크시트 내에서 소통을 개선하는 명확하고 단계별 접근 방식을 제공합니다."
-"linktitle": "Excel 워크시트에서 스레드된 댓글 편집"
+"linktitle": "Excel 워크시트에서 스레드 댓글 편집"
 "second_title": "Aspose.Cells .NET Excel 처리 API"
-"title": "Excel 워크시트에서 스레드된 댓글 편집"
+"title": "Excel 워크시트에서 스레드 댓글 편집"
 "url": "/ko/cells/net/guide-worksheet-operations/editing-threaded-comments/"
 "weight": 14
 ---

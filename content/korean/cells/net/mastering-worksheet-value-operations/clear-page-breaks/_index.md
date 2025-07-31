@@ -70,7 +70,7 @@ workbook.Worksheets[0].VerticalPageBreaks.Clear();
 
 ## 4단계: 통합 문서 저장
 
-페이지 나누기를 지운 후 변경 사항을 저장하여 통합 문서를 완성하세요.
+페이지 나누기를 지운 후 변경 사항을 저장하여 통합 문서를 마무리합니다.
 
 ```csharp
 // Excel 파일을 저장합니다
@@ -92,7 +92,7 @@ workbook.Save(dataDir + "ClearAllPageBreaks_out.xls");
 네, 통합 문서의 각 워크시트를 반복하고 페이지 나누기를 개별적으로 지울 수 있습니다.
 
 ### Aspose.Cells for .NET을 사용하려면 라이선스가 필요합니까?  
-제한 없이 모든 기능을 사용하려면 라이선스가 필요합니다. [무료 체험판을 받으세요](https://releases.aspose.com/) 또는 [정식 라이센스를 구매하세요](https://purchase.aspose.com/buy).
+제한 없이 모든 기능을 사용하려면 라이선스가 필요합니다. [무료 체험판을 받으세요](https://releases.aspose.com/) 또는 [정식 라이센스를 구매하다](https://purchase.aspose.com/buy).
 
 ### 기존 페이지 나누기를 지운 후 새로운 페이지 나누기를 추가할 수 있나요?  
 물론입니다! 다음과 같은 방법을 사용하여 페이지 나누기를 다시 도입할 수 있습니다. `AddHorizontalPageBreak` 그리고 `AddVerticalPageBreak`.

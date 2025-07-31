@@ -19,7 +19,7 @@
 
 Sıkı uyumluluk standartlarını koruyarak PDF/A belgelerine ek dosya eklemeniz mi gerekiyor? Yalnız değilsiniz. Birçok geliştirici, özellikle uzun süreli erişilebilirlik gerektiren arşiv belgeleriyle çalışırken, PDF/A ek dosyası gereksinimleriyle başa çıkmakta zorlanıyor.
 
-Bu kapsamlı kılavuzda, Aspose.PDF for .NET kullanarak PDF/A belgelerine tam olarak nasıl ek ekleyeceğinizi göstereceğiz. Sadece teknik adımları değil, aynı zamanda PDF/A eklerini ne zaman kullanacağınızı, kaçınılması gereken yaygın hataları ve uyumluluğu korumak için en iyi uygulamaları da öğreneceksiniz. Sonunda, arşiv standartlarını ihlal etmeden dosyaları PDF/A belgelerine güvenle yerleştirebileceksiniz.
+Bu kapsamlı kılavuzda, .NET için Aspose.PDF kullanarak PDF/A belgelerine tam olarak nasıl ek ekleyeceğinizi göstereceğiz. Sadece teknik adımları değil, aynı zamanda PDF/A eklerini ne zaman kullanacağınızı, kaçınılması gereken yaygın hataları ve uyumluluğu korumak için en iyi uygulamaları da öğreneceksiniz. Sonunda, arşiv standartlarını ihlal etmeden dosyaları PDF/A belgelerine güvenle yerleştirebileceksiniz.
 
 ## PDF/A Ekleri Ne Zaman Kullanılır?
 
@@ -121,7 +121,7 @@ PDF/A ekleriyle çalışırken aşağıdaki uygulamaları izlemek ileride baş a
 
 **Dosya Türü Seçimi**PDF/A-3A her türlü dosya türünü desteklese de, mümkün olduğunca yaygın ve iyi desteklenen formatlara bağlı kalın. Bu, uzun vadede daha iyi erişilebilirlik sağlar.
 
-**Adlandırma Kuralları**: Hem PDF/A belgeniz hem de ekleriniz için açık ve tanımlayıcı dosya adları kullanın. Gelecekteki kullanıcılar (siz de dahil) bu netliği takdir edecektir.
+**Adlandırma Kuralları**: Hem PDF/A belgeniz hem de ekleriniz için açık ve tanımlayıcı dosya adları kullanın. Gelecekteki kullanıcılar (kendiniz de dahil) bu netliği takdir edecektir.
 
 **Uyumluluğun Test Edilmesi**PDF/A belgelerinizi her zaman uyumluluk denetleyicilerini kullanarak doğrulayın. Aspose.PDF yerleşik doğrulama sağlar, ancak üçüncü taraf araçlar ek doğrulama sunabilir.
 

@@ -1,5 +1,5 @@
 ---
-"description": "Leer hoe u programmatisch afbeeldingen toevoegt aan PDF-bestanden met Aspose.PDF voor .NET. Deze uitgebreide tutorial behandelt elke stap, van het instellen van uw omgeving tot het renderen van afbeeldingen op specifieke pagina's."
+"description": "Leer hoe u programmatisch afbeeldingen aan PDF-bestanden kunt toevoegen met Aspose.PDF voor .NET. Deze uitgebreide tutorial behandelt elke stap, van het instellen van uw omgeving tot het renderen van afbeeldingen op specifieke pagina's."
 "linktitle": "Afbeelding toevoegen aan PDF-bestand"
 "second_title": "Aspose.PDF voor .NET API-referentie"
 "title": "Afbeelding toevoegen aan PDF-bestand"
@@ -37,14 +37,14 @@ Met deze naamruimten kunt u PDF-documenten bewerken en bestandsstromen effectief
 Zoek uw PDF-bestand en open het met de `Document` klas:
 
 ```csharp
-// Geef het pad naar uw documentenmap op
+// Geef het pad naar uw documentmap op
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 // Open het PDF-document
 Document pdfDocument = new Document(dataDir + "AddImage.pdf");
 ```
 
-Zorg ervoor dat u vervangt `YOUR DOCUMENT DIRECTORY` met het werkelijke pad waar uw PDF is opgeslagen.
+Zorg ervoor dat u deze vervangt `YOUR DOCUMENT DIRECTORY` met het daadwerkelijke pad waar uw PDF is opgeslagen.
 
 ## Stap 3: Definieer beeldcoördinaten
 
@@ -86,7 +86,7 @@ Zorg ervoor dat het pad naar het afbeeldingsbestand correct is.
 
 ## Stap 6: Sla de huidige grafische status op
 
-Voordat u de afbeelding plaatst, slaat u de huidige grafische status op:
+Sla de huidige grafische status op voordat u de afbeelding plaatst:
 
 ```csharp
 // De huidige grafische status opslaan
@@ -112,7 +112,7 @@ Gebruik de `ConcatenateMatrix` operator om de afbeelding correct te positioneren
 page.Contents.Add(new Aspose.Pdf.Operators.ConcatenateMatrix(matrix));
 ```
 
-## Stap 9: De afbeelding op de PDF-pagina weergeven
+## Stap 9: Render de afbeelding op de PDF-pagina
 
 Render de afbeelding met behulp van de `Do` operator:
 
@@ -154,9 +154,9 @@ Ja, u kunt de stappen herhalen voor elke afbeelding die u wilt invoegen.
 De grootte wordt bepaald door de rechthoekcoördinaten die u definieert.
 
 ### Kan ik andere bestandstypen invoegen, zoals PNG of GIF?
-Ja, Aspose.PDF ondersteunt verschillende afbeeldingformaten, waaronder PNG, GIF, BMP en JPEG.
+Ja, Aspose.PDF ondersteunt verschillende afbeeldingsformaten, waaronder PNG, GIF, BMP en JPEG.
 
-### Is het mogelijk om dynamisch afbeeldingen toe te voegen?
+### Is het mogelijk om afbeeldingen dynamisch toe te voegen?
 Absoluut! Je kunt afbeeldingen dynamisch laden door het bestandspad op te geven of door streams te gebruiken.
 
 ### Kan ik afbeeldingen in bulk aan meerdere pagina's toevoegen?

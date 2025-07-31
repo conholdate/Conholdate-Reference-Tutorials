@@ -1,13 +1,14 @@
 ---
-title: Komplexní návody a příklady Aspose.CAD pro .NET
-linktitle: Výukové programy Aspose.CAD for .NET
-weight: 10
-url: /cs/cad/
-description: Naučte se krok za krokem snadno a efektivně vytvářet, upravovat, převádět a manipulovat s výkresy CAD ve vašich aplikacích .NET. Perfektní pro začátečníky i profesionály.
-is_root: true
+"description": "Naučte se krok za krokem, jak snadno a efektivně vytvářet, upravovat, převádět a manipulovat s CAD výkresy ve vašich .NET aplikacích. Ideální pro začátečníky i profesionály."
+"is_root": true
+"linktitle": "Výukové programy k Aspose.CAD pro .NET"
+"title": "Komplexní návody a příklady Aspose.CAD pro .NET"
+"url": "/cs/cad/net/"
+"weight": 10
 ---
-## Výukové programy Aspose.CAD for .NET
+
+## Výukové programy k Aspose.CAD pro .NET
 ### [Průvodce funkcemi a podporou CAD](./guide-to-cad-features-and-support/)
-Prozkoumejte našeho komplexního průvodce výukovými programy Aspose.CAD for .NET, ideální pro vývojáře, kteří chtějí vylepšit svůj software pomocí funkcí CAD.
-### [Průvodce exportem formátu souborů CAD](./guide-to-exporting-cad-format/)
-Objevte výukové programy Aspose.CAD for .NET. Zvládněte export souborů CAD, převod CAD na rastrové obrázky a transformaci DGN do PDF bez námahy.
+Prozkoumejte našeho komplexního průvodce tutoriály k Aspose.CAD pro .NET, který je ideální pro vývojáře, kteří chtějí vylepšit svůj software pomocí CAD funkcí.
+### [Průvodce exportem souborů CAD](./guide-to-exporting-cad-format/)
+Objevte tutoriály k Aspose.CAD pro .NET. Zvládněte export CAD souborů, převod CAD do rastrových obrázků a transformaci DGN do PDF bez námahy.

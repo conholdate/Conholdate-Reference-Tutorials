@@ -17,7 +17,7 @@ Voordat we in de code duiken, controleren we of je alles hebt wat je nodig hebt:
 
 - Aspose.Words voor .NET-bibliotheek: Download het van [hier](https://releases.aspose.com/words/net/).
 - .NET Framework: Zorg ervoor dat .NET Framework op uw computer is geïnstalleerd.
-- IDE: een geïntegreerde ontwikkelomgeving zoals Visual Studio.
+- IDE: Een geïntegreerde ontwikkelomgeving zoals Visual Studio.
 - Basiskennis van C#: Als u bekend bent met C#, kunt u deze tutorial gemakkelijk volgen.
 
 ## Stap 1: Vereiste naamruimten importeren
@@ -28,7 +28,7 @@ Om te beginnen moet je de benodigde naamruimten importeren. Voeg de volgende reg
 using Aspose.Words;
 ```
 
-## Stap 2: Definieer de documentmap
+## Stap 2: Definieer de documentdirectory
 
 Geef vervolgens het pad op naar de map waar uw documenten zijn opgeslagen. Vervang `"YOUR DOCUMENT DIRECTORY"` met het werkelijke pad:
 
@@ -36,7 +36,7 @@ Geef vervolgens het pad op naar de map waar uw documenten zijn opgeslagen. Verva
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## Stap 3: Het bestandsformaat detecteren
+## Stap 3: Detecteer het bestandsformaat
 
 Nu gaan we de `DetectFileFormat` methode van de `FileFormatUtil` klasse om informatie over het bestandsformaat te verzamelen. Voor dit voorbeeld gaan we ervan uit dat het gecodeerde document "Encrypted.docx" heet en zich in de opgegeven directory bevindt:
 
@@ -46,7 +46,7 @@ FileFormatInfo info = FileFormatUtil.DetectFileFormat(dataDir + "Encrypted.docx"
 
 ## Stap 4: Controleer of het document versleuteld is
 
-Om te bepalen of het document gecodeerd is, kunnen we de `IsEncrypted` eigendom van de `FileFormatInfo` object. Deze eigenschap retourneert `true` als het document gecodeerd is, en `false` Anders. We tonen het resultaat in de console:
+Om te bepalen of het document gecodeerd is, kunnen we de `IsEncrypted` eigendom van de `FileFormatInfo` object. Deze eigenschap retourneert `true` als het document gecodeerd is, en `false` Anders tonen we het resultaat in de console:
 
 ```csharp
 Console.WriteLine($"Is the document encrypted? {info.IsEncrypted}");
@@ -54,12 +54,12 @@ Console.WriteLine($"Is the document encrypted? {info.IsEncrypted}");
 
 ## Conclusie
 
-En dat is alles! Je hebt de versleutelingsstatus van een Word-document succesvol geverifieerd met Aspose.Words voor .NET. Het is indrukwekkend hoe een paar regels code dergelijke taken kunnen vereenvoudigen. Als je vragen hebt of problemen ondervindt, neem dan gerust contact met ons op via [Aspose Ondersteuningsforum](https://forum.aspose.com/c/words/8).
+En dat is alles! Je hebt de encryptiestatus van een Word-document succesvol geverifieerd met Aspose.Words voor .NET. Het is indrukwekkend hoe een paar regels code dergelijke taken kunnen vereenvoudigen. Als je vragen hebt of problemen ondervindt, neem dan gerust contact met ons op via [Aspose Ondersteuningsforum](https://forum.aspose.com/c/words/8).
 
 ## Veelgestelde vragen
 
 ### Wat is Aspose.Words voor .NET?
-Aspose.Words voor .NET is een robuuste bibliotheek waarmee u Word-documenten kunt maken, bewerken, converteren en manipuleren in uw .NET-toepassingen.
+Aspose.Words voor .NET is een robuuste bibliotheek waarmee u Word-documenten in uw .NET-toepassingen kunt maken, bewerken, converteren en manipuleren.
 
 ### Kan ik Aspose.Words voor .NET gebruiken met .NET Core?
 Absoluut! Aspose.Words voor .NET is compatibel met zowel .NET Framework als .NET Core.

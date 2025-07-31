@@ -24,6 +24,6 @@
 ### [使用 Aspose.Cells 从 Xml Map 中查找根元素名称](./find-root-element-name-from-xml-map/)
 了解如何使用 Aspose.Cells for .NET 高效检索嵌入在 Excel 文件中的 XML 映射的根元素名称。本分步指南将指导您完成 Excel 文档的加载。
 ### [使用 Aspose.Cells 从列表对象表中检索 XML 路径](./retrieve-xml-path-from-list-object-table/)
-了解如何使用 Aspose.Cells for .NET 从 Excel 工作表中的列表对象表中检索 XML 路径。本指南涵盖了每个步骤。
+学习如何使用 Aspose.Cells for .NET 从 Excel 工作表中的列表对象表中检索 XML 路径。本指南涵盖了每个步骤。
 ### [使用 Aspose.Cells 查询映射到 Xml 数据映射路径的单元格区域](./query-cell-areas-mapped-to-xml-data-map-path/)
 了解如何使用 Aspose.Cells for .NET 在 Excel 中无缝处理 XML 数据。本教程将指导您完成查询映射到 XML 路径的单元格区域的过程，让您能够自动提取数据并轻松创建动态报表。

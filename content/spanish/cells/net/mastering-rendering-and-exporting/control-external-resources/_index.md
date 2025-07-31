@@ -70,7 +70,7 @@ class MyStreamProvider : IStreamProvider
 A continuación, defina los directorios para su archivo Excel y el PDF de salida.
 
 ```csharp
-// Directorio de origen
+// Directorio de fuentes
 string sourceDir = "Your Document Directory";
 // Directorio de salida
 string outputDir = "Your Document Directory";

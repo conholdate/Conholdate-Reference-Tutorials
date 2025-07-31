@@ -38,7 +38,7 @@ Workbook wb = new Workbook();
 ## ขั้นตอนที่ 2: เตรียมข้อมูลและโครงร่าง XML ของคุณ
 ขั้นต่อไป ให้เตรียมข้อมูลและ schema ของ XML ในรูปแบบอาร์เรย์ไบต์ แม้ว่าตัวอย่างนี้จะใช้ข้อมูลตัวแทน แต่คุณควรแทนที่ข้อมูลเหล่านี้ด้วยเนื้อหา XML จริงของคุณ
 ```csharp
-// ข้อมูลตัวอย่างในรูปแบบอาร์เรย์ไบต์
+// ตัวอย่างข้อมูลในรูปแบบอาร์เรย์ไบต์
 byte[] btsData = System.Text.Encoding.UTF8.GetBytes("<root><data>Example</data></root>");
 byte[] btsSchema = System.Text.Encoding.UTF8.GetBytes("<root><data></data></root>");
 ```

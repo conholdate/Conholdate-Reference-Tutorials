@@ -46,7 +46,7 @@ string subject = "Meeting Appointment Request";
 
 ```csharp
 DateTime appointmentDate = DateTime.Now.AddDays(7); // تم تحديد الموعد بعد اسبوع من الآن
-TimeSpan appointmentDuration = TimeSpan.FromHours(1.5); // ساعة ونصف
+TimeSpan appointmentDuration = TimeSpan.FromHours(1.5); // 1.5 ساعة
 ```
 
 ## كتابة نص البريد الإلكتروني

@@ -1,25 +1,26 @@
 ---
-title: Menguasai Baseline Penugasan dengan Aspose.Tasks untuk .NET
-linktitle: Mengelola Baseline Penugasan di Aspose.Tasks
-second_title: Aspose.Tasks .NET API
-description: Pelajari cara mengelola garis dasar penugasan secara efisien menggunakan Aspose.Tasks untuk .NET. Panduan langkah demi langkah ini mencakup pemuatan proyek, pengaturan garis dasar, pengambilan data, perbandingan garis dasar, dan banyak lagi untuk mengoptimalkan alur kerja manajemen proyek.
-weight: 14
-url: /id/tasks/master-advanced-features/mastering-assignment-baseline/
+"description": "Pelajari cara mengelola baseline penugasan secara efisien menggunakan Aspose.Tasks untuk .NET. Panduan langkah demi langkah ini mencakup pemuatan proyek, pengaturan baseline, pengambilan data, perbandingan baseline, dan lainnya untuk mengoptimalkan alur kerja manajemen proyek."
+"linktitle": "Mengelola Baseline Penugasan di Aspose.Tasks"
+"second_title": "Aspose.Tasks .NET API"
+"title": "Menguasai Baseline Penugasan dengan Aspose.Tasks untuk .NET"
+"url": "/id/tasks/net/master-advanced-features/mastering-assignment-baseline/"
+"weight": 14
 ---
+
 ## Perkenalan
 
-Manajemen proyek yang efisien bergantung pada pelacakan dan pengelolaan garis dasar penugasan yang akurat. Dengan Aspose.Tasks untuk .NET, Anda memperoleh perangkat yang kuat untuk menyederhanakan penanganan garis dasar penugasan guna mendapatkan wawasan proyek yang lebih baik. Dalam artikel ini, kami memandu Anda melalui proses pengelolaan garis dasar penugasan, untuk memastikan proyek Anda tetap pada jalurnya.
+Manajemen proyek yang efisien bergantung pada pelacakan dan pengelolaan baseline penugasan yang akurat. Dengan Aspose.Tasks untuk .NET, Anda mendapatkan perangkat yang andal untuk menyederhanakan penanganan baseline penugasan demi wawasan proyek yang lebih baik. Dalam artikel ini, kami memandu Anda melalui proses pengelolaan baseline penugasan, memastikan proyek Anda tetap sesuai rencana.
 
 ## Prasyarat
 
 Sebelum terjun ke implementasi, pastikan Anda memiliki hal berikut:
 
-- Keahlian Pemrograman: Kemampuan dasar dalam C#.
+- Keahlian Pemrograman: Pengetahuan dasar tentang C#.
 - Lingkungan Pengembangan: Visual Studio terinstal dan dikonfigurasi.
--  Pustaka Aspose.Tasks untuk .NET: Unduh dari[Rilis Aspose.Tasks](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks untuk Pustaka .NET: Unduh dari [Rilis Aspose.Tasks](https://releases.aspose.com/tasks/net/).
 - Berkas Proyek: Akses ke berkas proyek dalam format MPP.
 
-## Mengimpor Ruang Nama yang Diperlukan
+## Mengimpor Namespace yang Diperlukan
 
 Untuk menggunakan fungsionalitas Aspose.Tasks, sertakan namespace berikut dalam berkas proyek Anda:
 
@@ -28,9 +29,9 @@ using Aspose.Tasks;
 using System;
 ```
 
-## Langkah 1: Muat Proyek dan Tetapkan Baseline
+## Langkah 1: Muat Proyek dan Tetapkan Garis Dasar
 
-Memuat proyek dan menetapkan garis dasar merupakan hal mendasar untuk mengelola garis dasar penugasan. Kode berikut menunjukkan cara memuat proyek dan menetapkan garis dasarnya.
+Memuat proyek dan menetapkan garis dasar merupakan dasar untuk mengelola garis dasar penugasan. Kode berikut menunjukkan cara memuat proyek dan menetapkan garis dasarnya.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -43,7 +44,7 @@ Console.WriteLine("Baseline has been set successfully.");
 
 ## Langkah 2: Ambil Data Dasar Penugasan
 
-Anda dapat mengekstrak informasi dasar terperinci untuk setiap penugasan sumber daya. Berikut cara melakukannya:
+Anda dapat mengekstrak informasi dasar terperinci untuk setiap alokasi sumber daya. Berikut caranya:
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -73,7 +74,7 @@ bool areEqual = baseline1.Equals(baseline2);
 Console.WriteLine("Are the baselines equal? " + areEqual);
 ```
 
-## Langkah 4: Ubah Rincian Dasar Secara Terprogram
+## Langkah 4: Ubah Detail Dasar Secara Terprogram
 
 Anda dapat memodifikasi data dasar secara terprogram untuk memenuhi kebutuhan proyek yang terus berkembang:
 
@@ -90,21 +91,21 @@ Console.WriteLine("Modified Baseline Work: " + baseline.Work);
 
 ## Kesimpulan
 
-Mengelola garis dasar penugasan secara efektif merupakan bagian penting dalam mempertahankan kendali atas jadwal dan anggaran proyek. Aspose.Tasks for .NET membekali Anda dengan berbagai alat yang diperlukan untuk menangani garis dasar dengan presisi, sehingga memungkinkan pengambilan keputusan berdasarkan data.
+Mengelola baseline penugasan secara efektif merupakan bagian penting dalam menjaga kendali atas jadwal dan anggaran proyek. Aspose.Tasks untuk .NET membekali Anda dengan perangkat yang diperlukan untuk menangani baseline secara presisi, memungkinkan pengambilan keputusan berbasis data.
 
 ## Pertanyaan yang Sering Diajukan
 
-### Bisakah Aspose.Tasks menangani beberapa baseline untuk satu proyek?  
-Ya, Aspose.Tasks mendukung beberapa baseline, memberikan fleksibilitas dalam melacak berbagai versi proyek.
+### Bisakah Aspose.Tasks menangani beberapa garis dasar untuk satu proyek?  
+Ya, Aspose.Tasks mendukung beberapa garis dasar, memberikan fleksibilitas dalam melacak berbagai versi proyek.
 
 ### Apakah Aspose.Tasks kompatibel dengan file proyek non-MPP?  
-Tentu saja. Aspose.Tasks mendukung format seperti XML, MPX, dan banyak lagi.
+Tentu saja. Aspose.Tasks mendukung format seperti XML, MPX, dan lainnya.
 
 ### Bisakah saya mengotomatiskan pembaruan dasar?  
-Ya, API memperbolehkan modifikasi dasar yang dinamis dan otomatis secara terprogram.
+Ya, API memungkinkan modifikasi dasar yang dinamis dan otomatis secara terprogram.
 
 ### Apakah Aspose.Tasks menyediakan data dasar bertahap waktu?  
 Ya, data dasar bertahap waktu yang terperinci dapat diambil dan dianalisis.
 
 ### Di mana saya dapat mengakses dukungan dan dokumentasi?  
- Mengunjungi[Dokumentasi Aspose.Tasks](https://reference.aspose.com/words/net/)atau bergabung dengan[Forum Dukungan Aspose](https://forum.aspose.com/c/words/8) untuk bantuan. 
+Mengunjungi [Dokumentasi Aspose.Tasks](https://reference.aspose.com/words/net/) atau bergabung dengan [Forum Dukungan Aspose](https://forum.aspose.com/c/words/8) untuk bantuan.

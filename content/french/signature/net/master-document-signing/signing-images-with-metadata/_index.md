@@ -1,20 +1,21 @@
 ---
-title: Guide de signature d'images avec des métadonnées à l'aide de GroupDocs.Signature
-linktitle: Guide de signature d'images avec des métadonnées
-second_title: API .NET de GroupDocs.Signature
-description: Découvrez comment signer efficacement des images avec des métadonnées dans vos applications .NET à l'aide de GroupDocs.Signature. Ce didacticiel étape par étape couvre tout, de l'installation à la mise en œuvre, vous permettant d'améliorer vos documents avec des signatures de métadonnées sans effort.
-weight: 10
-url: /fr/signature/master-document-signing/signing-images-with-metadata/
+"description": "Découvrez comment signer efficacement des images avec des métadonnées dans vos applications .NET grâce à GroupDocs.Signature. Ce tutoriel étape par étape couvre toutes les étapes, de l'installation à la mise en œuvre, pour vous permettre d'enrichir vos documents avec des signatures de métadonnées en toute simplicité."
+"linktitle": "Guide de signature d'images avec des métadonnées"
+"second_title": "API .NET GroupDocs.Signature"
+"title": "Guide de signature d'images avec métadonnées à l'aide de GroupDocs.Signature"
+"url": "/fr/signature/net/master-document-signing/signing-images-with-metadata/"
+"weight": 10
 ---
+
 ## Introduction
 
-GroupDocs.Signature for .NET est une bibliothèque puissante qui permet aux développeurs de signer efficacement des images avec des métadonnées. Ce tutoriel vous guidera pas à pas tout au long du processus.
+GroupDocs.Signature pour .NET est une bibliothèque puissante qui permet aux développeurs de signer efficacement des images avec des métadonnées. Ce tutoriel vous guidera pas à pas.
 
 ## Prérequis
 
-Avant de commencer, assurez-vous de disposer des éléments suivants :
+Avant de commencer, assurez-vous d’avoir les éléments suivants :
 
-1.  GroupDocs.Signature pour .NET : installez le package GroupDocs.Signature dans votre projet .NET. Vous pouvez le télécharger à partir de[ici](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature pour .NET : installez le package GroupDocs.Signature dans votre projet .NET. Vous pouvez le télécharger depuis [ici](https://releases.groupdocs.com/signature/net/).
 2. Fichier image : préparez le fichier image que vous souhaitez signer avec des métadonnées.
 
 ## Importer les espaces de noms nécessaires
@@ -29,7 +30,7 @@ using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
 
-## Étape 1 : Chargez votre fichier image
+## Étape 1 : Chargez votre fichier image
 
 Commencez par spécifier le chemin d’accès à votre fichier image et le répertoire de sortie de l’image signée :
 
@@ -51,7 +52,7 @@ using (Signature signature = new Signature(filePath))
     // Ajouter différents types de signatures de métadonnées
     options
         .Add(new ImageMetadataSignature(imgsMetadataId++, "Mr. Sherlock Holmes")) // Valeur de chaîne
-        .Add(new ImageMetadataSignature(imgsMetadataId++, DateTime.Now))          // Valeur DateHeure
+        .Add(new ImageMetadataSignature(imgsMetadataId++, DateTime.Now))          // Valeur DateTime
         .Add(new ImageMetadataSignature(imgsMetadataId++, 123456))                // Valeur entière
         .Add(new ImageMetadataSignature(imgsMetadataId++, 123.456D))              // Valeur double
         .Add(new ImageMetadataSignature(imgsMetadataId++, 123.456M))              // Valeur décimale
@@ -65,7 +66,7 @@ using (Signature signature = new Signature(filePath))
 
 ## Conclusion
 
-Dans ce didacticiel, vous avez appris à signer une image avec des métadonnées à l'aide de GroupDocs.Signature pour .NET. En suivant ces étapes, vous pouvez facilement ajouter des signatures de métadonnées à vos applications .NET, améliorant ainsi la fonctionnalité et l'intégrité de vos images.
+Dans ce tutoriel, vous avez appris à signer une image avec des métadonnées grâce à GroupDocs.Signature pour .NET. En suivant ces étapes, vous pouvez facilement ajouter des signatures de métadonnées à vos applications .NET, améliorant ainsi la fonctionnalité et l'intégrité de vos images.
 
 ## FAQ
 
@@ -73,13 +74,13 @@ Dans ce didacticiel, vous avez appris à signer une image avec des métadonnées
 Oui, vous pouvez signer plusieurs images en parcourant chaque fichier image et en appliquant les signatures de métadonnées.
 
 ### Existe-t-il une version d'essai disponible pour GroupDocs.Signature pour .NET ?
- Oui, vous pouvez télécharger la version d'essai à partir de[ici](https://releases.groupdocs.com/).
+Oui, vous pouvez télécharger la version d'essai à partir de [ici](https://releases.groupdocs.com/).
 
 ### GroupDocs.Signature pour .NET prend-il en charge d’autres formats de fichiers en plus des images ?
-Absolument ! GroupDocs.Signature prend en charge divers formats, notamment PDF, Word, Excel, etc.
+Absolument ! GroupDocs.Signature prend en charge divers formats, notamment PDF, Word, Excel, etc.
 
-### Puis-je personnaliser l’apparence de la signature des métadonnées ?
+### Puis-je personnaliser l’apparence de la signature des métadonnées ?
 Oui, vous pouvez personnaliser des aspects tels que la taille de la police, la couleur et la position de la signature des métadonnées.
 
 ### Où puis-je obtenir de l'aide pour GroupDocs.Signature pour .NET ?
- Pour obtenir de l'aide, visitez le forum GroupDocs.Signature[ici](https://forum.groupdocs.com/c/signature/13).
+Pour obtenir de l'aide, visitez le forum GroupDocs.Signature [ici](https://forum.groupdocs.com/c/signature/13).

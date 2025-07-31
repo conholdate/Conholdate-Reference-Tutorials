@@ -61,7 +61,7 @@ Install-Package Aspose.Words
 
 ### OpenAI API Anahtarınızın Güvenliğini Sağlama
 
-Dil modellerine erişmek için bir OpenAI API anahtarına ihtiyacınız olacak. [OpenAI web sitesi](https://openai.com/), bir hesap oluşturun ve API anahtarınızı alın. **Bu anahtarı asla sabit kodlamayın** – bu konuyu güvenli bir şekilde ele almanın yolunu bu kılavuzun ilerleyen kısımlarında göstereceğiz.
+Dil modellerine erişmek için bir OpenAI API anahtarına ihtiyacınız olacak. [OpenAI web sitesi](https://openai.com/)bir hesap oluşturun ve API anahtarınızı alın. **Bu anahtarı asla sabit kodlamayın** – bu konuyu güvenli bir şekilde ele almanın yolunu bu kılavuzun ilerleyen kısımlarında göstereceğiz.
 
 ### Geliştirme Ortamı Kurulumu
 Herhangi bir .NET uyumlu IDE'yi kullanabilirsiniz, ancak **Görsel Stüdyo** Aspose.Words ve API entegrasyonları için mükemmel IntelliSense desteği ve hata ayıklama yetenekleriyle bu eğitim için en iyi deneyimi sağlar.
@@ -105,7 +105,7 @@ Document doc1 = new Document(MyDir + "BigDocument.docx");
 Document doc2 = new Document(MyDir + "AnotherDocument.docx");
 ```
 
-**Performans İpucu**: Büyük belgeler için, masaüstü uygulamalarında kullanıcı arayüzünün engellenmesini önlemek amacıyla bunları eşzamansız olarak yüklemeyi düşünün. Aspose.Words bellek yönetimini verimli bir şekilde yönetir, ancak çok büyük dosyalar (>100MB) akış yaklaşımlarından faydalanabilir.
+**Performans İpucu**Büyük belgeler için, masaüstü uygulamalarında kullanıcı arayüzünün engellenmesini önlemek amacıyla bunları eşzamansız olarak yüklemeyi düşünün. Aspose.Words bellek yönetimini verimli bir şekilde yönetir, ancak çok büyük dosyalar (>100MB) akış yaklaşımlarından faydalanabilir.
 
 ### Adım 3: Güvenli API Anahtar Yönetimi
 
@@ -182,7 +182,7 @@ using (Document doc = new Document(path))
 Temel uzunluk ayarlarının ötesinde, özetleme sürecinizi ince ayarlayabilirsiniz:
 
 - **Bağlam Koruma**: Teknik belgeler için, daha uzun özetler genellikle daha önemli ayrıntıları korur
-- **Dil Hususları**: Yapay zeka modelleri İngilizce içerikle en iyi şekilde çalışır ancak birden fazla dili de işleyebilir
+- **Dil Hususları**Yapay zeka modelleri İngilizce içerikle en iyi şekilde çalışır ancak birden fazla dili de işleyebilir
 - **Belge Türü Optimizasyonu**: Yasal belgeler, pazarlama materyallerinden farklı özetleme yaklaşımlarına ihtiyaç duyabilir
 
 ## Yaygın Sorunlar ve Sorun Giderme

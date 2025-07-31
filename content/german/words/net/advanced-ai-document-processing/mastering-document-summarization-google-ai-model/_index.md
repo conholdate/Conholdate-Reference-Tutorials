@@ -172,7 +172,7 @@ Dieser Ansatz führt zu einer umfassenden Zusammenfassung, die Inhalte aus beide
 - Spart API-Aufrufe im Vergleich zur Einzelzusammenfassung
 - Behält Kontextbeziehungen zwischen Dokumenten bei
 
-**Bewährte Methode**Achten Sie beim Zusammenfassen mehrerer Dokumente darauf, dass sie thematisch oder zweckbezogen zusammenhängen, um möglichst kohärente Ergebnisse zu erzielen.
+**Bewährte Vorgehensweise**Achten Sie beim Zusammenfassen mehrerer Dokumente darauf, dass sie thematisch oder zweckbezogen zusammenhängen, um möglichst kohärente Ergebnisse zu erzielen.
 
 ## Erweiterte Konfigurationsoptionen
 

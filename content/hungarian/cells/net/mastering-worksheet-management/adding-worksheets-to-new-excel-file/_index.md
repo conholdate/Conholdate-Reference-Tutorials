@@ -15,7 +15,7 @@ Az Excel-fájlok programozott létrehozása jelentősen leegyszerűsítheti a mu
 
 Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy a következő alapvető dolgok készen állnak:
 
-1. Aspose.Cells .NET-hez: Töltse le a [Aspose.Cells .NET-hez](https://releases.aspose.com/cells/net/) könyvtár. Ez a hatékony API az Excel-fájlok programozott kezeléséhez készült.
+1. Aspose.Cells .NET-hez: Töltse le a [Aspose.Cells .NET-hez](https://releases.aspose.com/cells/net/) könyvtár. Ez a hatékony API az Excel-fájlok programozott kezelésére szolgál.
 2. .NET-keretrendszer: Győződjön meg arról, hogy telepítve van egy .NET-kompatibilis fejlesztői környezet, például a Visual Studio.
 3. Licenc (opcionális): Ha a próbaverzió korlátain túlmutató speciális funkciókat szeretne felfedezni, fontolja meg ideiglenes licenc igénylését. [itt](https://purchase.aspose.com/temporary-license/).
 

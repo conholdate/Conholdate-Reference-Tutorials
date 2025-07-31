@@ -90,7 +90,7 @@ foreach (Attachment attachment in message.Attachments)
 }
 ```
 
-- Le `Attachments` la propriété répertorie toutes les pièces jointes dans l'e-mail.
+- Le `Attachments` la propriété répertorie toutes les pièces jointes de l'e-mail.
 - Utiliser `attachment.Name` pour obtenir le nom du fichier.
 
 

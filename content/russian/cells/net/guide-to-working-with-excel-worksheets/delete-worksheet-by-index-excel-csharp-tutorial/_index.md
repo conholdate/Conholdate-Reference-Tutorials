@@ -67,7 +67,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## Шаг 3: Создание экземпляра объекта Workbook
 
-Как только поток файлов будет готов, создайте `Workbook` Объект, представляющий файл Excel. Этот объект служит основным интерфейсом при работе с данными Excel.
+Как только файловый поток будет готов, создайте `Workbook` Объект, представляющий файл Excel. Этот объект служит основным интерфейсом при работе с данными Excel.
 
 ```csharp
 Workbook workbook = new Workbook(fstream);

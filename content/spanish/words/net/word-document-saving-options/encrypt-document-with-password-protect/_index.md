@@ -90,7 +90,7 @@ Sí, Aspose.Words para .NET admite varios métodos de cifrado. Consulte [documen
 Lamentablemente, si olvida su contraseña, no podrá acceder al documento. Elija siempre una contraseña que pueda recordar o guárdela de forma segura.
 
 ### ¿Puedo cambiar la contraseña de un documento existente?
-¡Claro! Puedes cargar un documento existente y guardarlo con una nueva contraseña siguiendo los mismos pasos descritos anteriormente.
+¡Por supuesto! Puedes cargar un documento existente y guardarlo con una nueva contraseña siguiendo los mismos pasos descritos anteriormente.
 
 ### ¿Es posible eliminar la contraseña de un documento?
 Sí, puede guardar el documento sin especificar una contraseña para eliminar la protección existente.

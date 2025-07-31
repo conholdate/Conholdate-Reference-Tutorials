@@ -9,11 +9,11 @@
 
 ## Einführung
 
-Möchten Sie Ihre Excel-Kenntnisse verbessern? Aspose.Cells für .NET macht komplexe Excel-Workflows zum Kinderspiel. Egal, ob Sie mit Fehlern bei der Dateikonvertierung kämpfen oder Office-Add-Ins nahtlos integrieren müssen – diese Tutorials unterstützen Sie.  
+Möchten Sie Ihre Excel-Kenntnisse verbessern? Aspose.Cells für .NET macht komplexe Excel-Workflows zum Kinderspiel. Ob Sie mit Fehlern bei der Dateikonvertierung kämpfen oder Office-Add-Ins nahtlos integrieren müssen – diese Tutorials unterstützen Sie.  
 
 ## Rendern Sie Office-Add-Ins in Excel in PDF  
 
-Haben Sie sich schon einmal gefragt, wie Sie Ihre praktischen Office-Add-Ins beim Konvertieren von Excel-Dateien in PDF beibehalten? Dieses Tutorial führt Sie Schritt für Schritt durch die Darstellung von Office-Add-Ins aus Ihren Excel-Dateien direkt in die endgültige PDF-Ausgabe. Mit Aspose.Cells für .NET ist es nicht nur möglich – es ist mühelos!  
+Haben Sie sich schon einmal gefragt, wie Sie die praktischen Office-Add-Ins beim Konvertieren von Excel-Dateien in PDF beibehalten? Dieses Tutorial führt Sie Schritt für Schritt durch die Darstellung von Office-Add-Ins aus Ihren Excel-Dateien direkt in die endgültige PDF-Ausgabe. Mit Aspose.Cells für .NET ist es nicht nur möglich – es ist mühelos!  
 
 Das Handbuch enthält außerdem Codeausschnitte und Tipps, um sicherzustellen, dass die konvertierten PDFs professionell aussehen und ihre ursprüngliche Funktionalität beibehalten. Möchten Sie diese Fähigkeit erlernen? [Lesen Sie hier mehr](./render-office-add-ins-in-excel-to-pdf-format/).  
 

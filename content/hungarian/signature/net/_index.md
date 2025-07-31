@@ -1,12 +1,13 @@
 ---
-title: Oktatóanyagok és példák a GroupDocs.Signature for .NET-hez
-linktitle: GroupDocs.Signature for .NET Tutorials
-weight: 10
-url: /hu/signature/
-description: Fedezze fel a GroupDocs.Signature for .NET használatával kapcsolatos átfogó oktatóanyagokat. Ismerje meg a digitális aláírások megvalósítását, a munkafolyamatok testreszabását és a dokumentumok biztonságának fokozását világos, lépésről lépésre bemutatott útmutatók segítségével.
-is_root: true
+"description": "Fedezzen fel átfogó oktatóanyagokat a GroupDocs.Signature for .NET használatáról. Tanulja meg, hogyan valósíthat meg digitális aláírásokat, testreszabhatja a munkafolyamatokat és fokozhatja a dokumentumok biztonságát világos, lépésről lépésre haladó útmutatók segítségével."
+"is_root": true
+"linktitle": "GroupDocs.Signature .NET-hez – Oktatóanyagok"
+"title": "A GroupDocs.Signature for .NET oktatóanyagai és példái"
+"url": "/hu/signature/net/"
+"weight": 10
 ---
-### [Fődokumentum-aláírás a GroupDocs.Signature segítségével .NET-hez](./master-document-signing/)
-Részletes oktatóanyagainkban bemutatja a fődokumentum-aláírást a GroupDocs.Signature for .NET segítségével. Könnyedén írhat alá képeket és PDF-fájlokat metaadatokkal.
-### [Sajátítsa el a fejlett aláírási technikákat](./master-advanced-sign-techniques/)
-Növelje dokumentumbiztonságát a GroupDocs.Signature for .NET oktatóanyagaival. Tanuljon meg fejlett aláírási technikákat, az egyéni képektől a szöveges aláírásokig.
+
+### [Fődokumentum-aláírás a GroupDocs.Signature for .NET segítségével](./master-document-signing/)
+Részletes oktatóanyagainkban bemutatjuk a GroupDocs.Signature for .NET segítségével aláírható dokumentumok mesterszintű leírását. Könnyedén aláírhat képeket és PDF-eket metaadatokkal.
+### [Sajátítsd el a haladó egyedi technikákat](./master-advanced-sign-techniques/)
+Növelje dokumentumai biztonságát a GroupDocs.Signature for .NET oktatóanyagaival. Ismerjen meg fejlett aláírási technikákat, az egyéni képektől a szöveges aláírásokig.

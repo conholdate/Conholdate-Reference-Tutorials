@@ -1,24 +1,25 @@
 ---
-title: Převod XPS do PDF pomocí Aspose.Page pro .NET
-linktitle: Převod XPS do PDF
-second_title: Aspose.Page .NET API
-description: Objevte, jak plynule převádět dokumenty XPS (XML Paper Specification) do PDF (Portable Document Format) pomocí výkonné knihovny Aspose.Page for .NET.
-weight: 11
-url: /cs/page/convert-document/converting-xps-to-pdf/
+"description": "Zjistěte, jak bez problémů převést dokumenty XPS (XML Paper Specification) do PDF (Portable Document Format) pomocí výkonné knihovny Aspose.Page pro .NET."
+"linktitle": "Převod XPS do PDF"
+"second_title": "Rozhraní Aspose.Page .NET API"
+"title": "Převod XPS do PDF pomocí Aspose.Page pro .NET"
+"url": "/cs/page/net/convert-document/converting-xps-to-pdf/"
+"weight": 11
 ---
+
 ## Zavedení
 
-tomto tutoriálu prozkoumáme, jak převést dokumenty XPS (XML Paper Specification) do PDF (Portable Document Format) pomocí všestranné knihovny Aspose.Page for .NET. Tato výkonná knihovna zjednodušuje převod dokumentů a nabízí různé možnosti přizpůsobení, což z ní činí vynikající volbu pro vývojáře.
+V tomto tutoriálu se podíváme na to, jak převést dokumenty XPS (XML Paper Specification) do PDF (Portable Document Format) pomocí všestranné knihovny Aspose.Page pro .NET. Tato výkonná knihovna zjednodušuje převod dokumentů a nabízí různé možnosti přizpůsobení, což z ní činí vynikající volbu pro vývojáře.
 
 ## Předpoklady
 
-Než začneme, ujistěte se, že máte na svém místě následující:
+Než začneme, ujistěte se, že máte připraveno následující:
 
--  Knihovna Aspose.Page for .NET: Stáhněte a nainstalujte knihovnu Aspose.Page for .NET z[Dokumentace Aspose.Page](https://reference.aspose.com/page/net/).
+- Knihovna Aspose.Page pro .NET: Stáhněte a nainstalujte knihovnu Aspose.Page pro .NET z [Dokumentace k Aspose.Page](https://reference.aspose.com/page/net/).
   
-- Vývojové prostředí: Nastavte vývojové prostředí .NET pomocí sady Visual Studio nebo jiného kompatibilního IDE.
+- Vývojové prostředí: Nastavte vývojové prostředí .NET pomocí Visual Studia nebo jiného kompatibilního IDE.
 
-- Dokument XPS: Připravte si soubor XPS, který chcete převést, a uložte jej do určeného adresáře.
+- Dokument XPS: Mějte připravený soubor XPS, který chcete převést, uložený v určeném adresáři.
 
 ## Krok 1: Importujte požadované jmenné prostory
 
@@ -28,7 +29,7 @@ Začněte importem potřebného jmenného prostoru pro přístup k funkcím Aspo
 using Aspose.Page.XPS;
 ```
 
-## Krok 2: Inicializujte adresář dokumentů
+## Krok 2: Inicializace adresáře dokumentů
 
 Definujte cestu k adresáři, kde jsou uloženy vaše dokumenty:
 
@@ -36,9 +37,9 @@ Definujte cestu k adresáři, kde jsou uloženy vaše dokumenty:
 string dataDir = "Your Document Directory";
 ```
 
- Nezapomeňte vyměnit`"Your Document Directory"` se skutečnou cestou k adresáři obsahujícímu váš dokument XPS.
+Nezapomeňte vyměnit `"Your Document Directory"` se skutečnou cestou k adresáři obsahujícímu váš dokument XPS.
 
-### Krok 3: Otevřete PDF a XPS Streams
+### Krok 3: Otevření datových proudů PDF a XPS
 
 Dále inicializujte streamy pro vstupní soubor XPS i výstupní soubor PDF:
 
@@ -47,31 +48,31 @@ using (System.IO.Stream pdfStream = System.IO.File.Open(dataDir + "XPStoPDF_out.
 using (System.IO.Stream xpsStream = System.IO.File.Open(dataDir + "input.xps", System.IO.FileMode.Open))
 ```
 
-Ujistěte se, že máte pro soubory nastavenou správnou cestu.
+Ujistěte se, že máte nastavenou správnou cestu k souborům.
 
-### Krok 4: Vložte dokument XPS
+### Krok 4: Načtěte dokument XPS
 
-Nyní načtěte svůj dokument XPS pomocí knihovny Aspose.Page:
+Nyní načtěte dokument XPS pomocí knihovny Aspose.Page:
 
 ```csharp
 XpsDocument document = new XpsDocument(xpsStream, new XpsLoadOptions());
 ```
 
-### Krok 5: Nakonfigurujte možnosti uložení PDF
+### Krok 5: Konfigurace možností ukládání PDF
 
-Nastavte možnosti uložení pro váš PDF, včetně parametrů kvality obrazu a komprese:
+Nastavte možnosti ukládání PDF, včetně kvality obrazu a parametrů komprese:
 
 ```csharp
 PdfSaveOptions options = new PdfSaveOptions()
 {
-    JpegQualityLevel = 100, // Nastavte úroveň kvality JPEG
-    ImageCompression = PdfImageCompression.Jpeg, // Pro obrázky použijte kompresi JPEG
-    TextCompression = PdfTextCompression.Flate, // Použít plošnou kompresi pro text
-    PageNumbers = new int[] { 1, 2, 6 } // Zadejte čísla stránek, které chcete zahrnout
+    JpegQualityLevel = 100, // Nastavení úrovně kvality JPEGu
+    ImageCompression = PdfImageCompression.Jpeg, // Používejte kompresi JPEG pro obrázky
+    TextCompression = PdfTextCompression.Flate, // Použít kompresi Flate pro text
+    PageNumbers = new int[] { 1, 2, 6 } // Zadejte čísla stránek, která mají být zahrnuta
 };
 ```
 
-Tyto parametry si klidně upravte podle svých požadavků.
+Neváhejte upravit tyto parametry podle svých požadavků.
 
 ### Krok 6: Vytvořte zařízení pro vykreslování PDF
 
@@ -91,26 +92,26 @@ document.Save(device, options);
 
 ## Závěr
 
-Gratuluji! Úspěšně jste převedli dokument XPS do PDF pomocí Aspose.Page for .NET. Tato knihovna nejen zjednodušuje převod dokumentů, ale nabízí také rozsáhlé možnosti pro práci s různými formáty.
+Gratulujeme! Úspěšně jste převedli dokument XPS do PDF pomocí knihovny Aspose.Page pro .NET. Tato knihovna nejen zjednodušuje převod dokumentů, ale také nabízí rozsáhlé možnosti pro práci s různými formáty.
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu převést více souborů XPS do jednoho PDF?
 
-Absolutně! Můžete iterovat více soubory XPS a sloučit je do jednoho dokumentu PDF pomocí stejných kroků převodu.
+Rozhodně! Můžete procházet více souborů XPS a sloučit je do jednoho dokumentu PDF pomocí stejných kroků převodu.
 
-### Jaké další výstupní formáty Aspose.Page for .NET podporuje?
+### Jaké další výstupní formáty podporuje Aspose.Page pro .NET?
 
-Kromě PDF podporuje Aspose.Page for .NET řadu formátů, včetně TIFF, JPEG a PNG.
+Kromě PDF podporuje Aspose.Page pro .NET řadu formátů, včetně TIFF, JPEG a PNG.
 
-### Jak mohu přizpůsobit vzhled převedeného PDF?
+### Jak si mohu přizpůsobit vzhled převedeného PDF?
 
- Parametry můžete upravit v`PdfSaveOptions` objekt, jako je kvalita JPEG a nastavení komprese, abyste dosáhli požadovaného vzhledu.
+Parametry můžete upravit v `PdfSaveOptions` objektu, například nastavení kvality JPEG a komprese, abyste dosáhli požadovaného vzhledu.
 
-### Je k dispozici zkušební verze pro Aspose.Page pro .NET?
+### Je k dispozici zkušební verze Aspose.Page pro .NET?
 
- Ano, můžete vyzkoušet Aspose.Page for .NET s bezplatnou zkušební verzí[zde](https://releases.aspose.com/).
+Ano, můžete si vyzkoušet Aspose.Page pro .NET s bezplatnou zkušební verzí. [zde](https://releases.aspose.com/).
 
-### Kde najdu podporu komunity pro Aspose.Page for .NET?
+### Kde najdu komunitní podporu pro Aspose.Page pro .NET?
 
-Pro diskuse a podporu komunity navštivte stránku[Fórum Aspose.Page](https://forum.aspose.com/c/page/39).
+Pro diskuze s komunitou a podporu navštivte [Fórum Aspose.Page](https://forum.aspose.com/c/page/39).

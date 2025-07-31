@@ -46,7 +46,7 @@ Na vývojovém počítači budete potřebovat nainstalovaný framework .NET. Asp
 
 ### Knihovna Aspose.PDF
 
-Toto je hvězda naší show. Knihovnu Aspose.PDF si můžete stáhnout z jejich [oficiální stránka s vydáními](https://releases.aspose.com/pdf/net/)Pokud používáte NuGet (a upřímně řečeno, měli byste), můžete jej nainstalovat přímo prostřednictvím konzole Správce balíčků.
+Toto je hvězda naší show. Knihovnu Aspose.PDF si můžete stáhnout z jejich [oficiální stránka s vydáními](https://releases.aspose.com/pdf/net/)Pokud používáte NuGet (a upřímně řečeno, měli byste), můžete si ho nainstalovat přímo prostřednictvím konzole Správce balíčků.
 
 ### Základní znalost C#
 
@@ -191,7 +191,7 @@ Tento přístup k Aspose.PDF funguje nejlépe, když potřebujete:
 - **Vysoce kvalitní konverze** s přesným zachováním formátování
 - **Programové řízení** během procesu konverze
 - **Dávkové zpracování** možnosti pro více souborů
-- **Integrace** s existujícími aplikacemi .NET
+- **Integrace** s existujícími .NET aplikacemi
 - **Komerční podpora** a pravidelné aktualizace
 
 Pro jednoduché, jednorázové konverze mohou stačit online nástroje. Pokud ale vytváříte systém nebo potřebujete spolehlivé a opakovatelné konverze, Aspose.PDF je rozhodně tou správnou volbou.

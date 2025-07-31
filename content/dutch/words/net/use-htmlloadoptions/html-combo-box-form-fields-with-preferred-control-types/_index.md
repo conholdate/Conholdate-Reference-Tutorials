@@ -1,8 +1,8 @@
 ---
 "description": "Leer hoe u invoervelden in Word-documenten invoegt met Aspose.Words voor .NET. Deze stapsgewijze handleiding behandelt HTML-laadopties, voorkeurstypen voor besturingselementen en geavanceerde aanpassingstips voor naadloze documentautomatisering."
-"linktitle": "HTML-combinatieboxformuliervelden met voorkeursbesturingselementen"
+"linktitle": "HTML-comboboxformuliervelden met voorkeursbesturingstypen"
 "second_title": "Aspose.Words API voor documentverwerking"
-"title": "HTML-combinatieboxformuliervelden met voorkeursbesturingselementen"
+"title": "HTML-comboboxformuliervelden met voorkeursbesturingstypen"
 "url": "/nl/words/net/use-htmlloadoptions/html-combo-box-form-fields-with-preferred-control-types/"
 "weight": 10
 ---
@@ -62,7 +62,7 @@ Vervangen `"YOUR_DOCUMENT_DIRECTORY"` met het werkelijke pad naar de map op uw s
 
 ## Stap 3: HTML-laadopties configureren
 
-De `HtmlLoadOptions` Met de klasse Aspose.Words kunnen we specificeren hoe HTML-inhoud geïnterpreteerd moet worden. Om ervoor te zorgen dat de keuzelijst wordt weergegeven als een gestructureerde documenttag:
+De `HtmlLoadOptions` Met de klasse in Aspose.Words kunnen we specificeren hoe HTML-inhoud moet worden geïnterpreteerd. Om ervoor te zorgen dat de keuzelijst wordt weergegeven als een gestructureerde documenttag:
 
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions
@@ -92,7 +92,7 @@ Sla ten slotte het Word-document op in de opgegeven map in het door u gewenste f
 doc.Save(dataDir + "ComboBoxFormField.docx", SaveFormat.Docx);
 ```
 
-Hiermee wordt een Word-bestand gegenereerd met daarin het correct weergegeven keuzelijstveld.
+Hiermee wordt een Word-bestand gegenereerd met het correct weergegeven keuzelijstveld.
 
 ## Conclusie
 

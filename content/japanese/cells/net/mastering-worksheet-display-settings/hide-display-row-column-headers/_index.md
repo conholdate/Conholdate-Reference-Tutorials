@@ -94,7 +94,7 @@ worksheet.IsRowColumnHeadersVisible = false;
 
 ## ステップ6: 変更したExcelファイルを保存する
 
-変更を加えたら、ワークブックを保存して新しい Excel ファイルを作成するか、既存のファイルを上書きします。
+変更を加えたら、ブックを保存して新しい Excel ファイルを作成するか、既存のファイルを上書きします。
 
 ```csharp
 workbook.Save(dataDir + "output.xls");

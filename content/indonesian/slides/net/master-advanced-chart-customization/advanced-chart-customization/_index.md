@@ -1,20 +1,21 @@
 ---
-title: Kustomisasi Bagan Lanjutan dengan Aspose.Slides untuk .NET
-linktitle: Kustomisasi Bagan Lanjutan dengan Aspose.Slides untuk .NET
-second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
-description: Manfaatkan sepenuhnya potensi Aspose.Slides untuk .NET dengan menguasai teknik kustomisasi bagan tingkat lanjut. Panduan langkah demi langkah ini mencakup semuanya, mulai dari pembuatan bagan dasar hingga detail rumit seperti garis kisi, judul sumbu, dan warna khusus.
-weight: 10
-url: /id/slides/master-advanced-chart-customization/advanced-chart-customization/
+"description": "Maksimalkan potensi Aspose.Slides untuk .NET dengan menguasai teknik kustomisasi bagan tingkat lanjut. Panduan langkah demi langkah ini mencakup semuanya, mulai dari pembuatan bagan dasar hingga detail rumit seperti garis kisi, judul sumbu, dan warna kustom."
+"linktitle": "Kustomisasi Bagan Lanjutan dengan Aspose.Slides untuk .NET"
+"second_title": "API Pemrosesan PowerPoint Aspose.Slides .NET"
+"title": "Kustomisasi Bagan Lanjutan dengan Aspose.Slides untuk .NET"
+"url": "/id/slides/net/master-advanced-chart-customization/advanced-chart-customization/"
+"weight": 10
 ---
+
 ## Perkenalan
 
-Membuat bagan yang menarik secara visual dan informatif sangat penting untuk penyajian data yang efektif. Aspose.Slides for .NET menawarkan berbagai alat canggih untuk kustomisasi bagan, yang memungkinkan Anda untuk menyesuaikan setiap aspek bagan Anda. Dalam tutorial ini, kita akan menjelajahi berbagai teknik lanjutan untuk kustomisasi bagan menggunakan Aspose.Slides for .NET.
+Membuat bagan yang menarik secara visual dan informatif sangat penting untuk presentasi data yang efektif. Aspose.Slides untuk .NET menawarkan alat canggih untuk kustomisasi bagan, memungkinkan Anda menyesuaikan setiap aspek bagan Anda. Dalam tutorial ini, kita akan menjelajahi teknik-teknik lanjutan untuk kustomisasi bagan menggunakan Aspose.Slides untuk .NET.
 
 ## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
-1.  Pustaka Aspose.Slides untuk .NET: Unduh dan instal pustaka Aspose.Slides dari[Di Sini](https://releases.aspose.com/slides/net/).
+1. Pustaka Aspose.Slides untuk .NET: Unduh dan instal pustaka Aspose.Slides dari [Di Sini](https://releases.aspose.com/slides/net/).
 2. Lingkungan Pengembangan .NET: Siapkan lingkungan pengembangan .NET, seperti Visual Studio.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan bermanfaat, karena kita akan menulis kode C#.
 
@@ -32,13 +33,13 @@ string dataDir = "Your Document Directory";
 if (!System.IO.Directory.Exists(dataDir))
     System.IO.Directory.CreateDirectory(dataDir);
 
-// Membuat contoh presentasi
+// Membuat presentasi
 Presentation pres = new Presentation();
 ```
 
 ## Langkah 2: Akses Slide Pertama
 
-Berikutnya, akses slide pertama di mana Anda ingin menambahkan bagan.
+Berikutnya, akses slide pertama tempat Anda ingin menambahkan bagan.
 
 ```csharp
 // Akses slide pertama
@@ -59,7 +60,7 @@ IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 50, 50, 500, 400
 Menetapkan judul untuk bagan Anda memberikan konteks yang penting.
 
 ```csharp
-// Mengatur judul grafik
+// Tetapkan judul bagan
 chart.HasTitle = true;
 chart.ChartTitle.AddTextFrameForOverriding("");
 IPortion chartTitle = chart.ChartTitle.TextFrameForOverriding.Paragraphs[0].Portions[0];
@@ -83,7 +84,7 @@ chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.Width = 5;
 chart.Axes.VerticalAxis.MajorGridLinesFormat.Line.DashStyle = LineDashStyle.DashDot;
 ```
 
-## Langkah 6: Sesuaikan Garis Grid Kecil
+## Langkah 6: Sesuaikan Garis Kisi Minor
 
 Demikian pula, sesuaikan garis kisi minor untuk sumbu nilai.
 
@@ -99,7 +100,7 @@ chart.Axes.VerticalAxis.MinorGridLinesFormat.Line.Width = 3;
 Anda dapat memformat angka yang ditampilkan pada sumbu nilai.
 
 ```csharp
-// Atur format angka sumbu nilai
+// Tetapkan format angka sumbu nilai
 chart.Axes.VerticalAxis.IsNumberFormatLinkedToSource = false;
 chart.Axes.VerticalAxis.DisplayUnit = DisplayUnitType.Thousands;
 chart.Axes.VerticalAxis.NumberFormat = "0.0%";
@@ -122,7 +123,7 @@ chart.Axes.VerticalAxis.MinorUnit = 0.5f;
 chart.Axes.VerticalAxis.MajorUnit = 2.0f;
 ```
 
-## Langkah 9: Sesuaikan Properti Teks Sumbu Nilai
+## Langkah 9: Kustomisasi Properti Teks Sumbu Nilai
 
 Meningkatkan properti teks pada sumbu nilai meningkatkan keterbacaan.
 
@@ -154,7 +155,7 @@ valTitle.PortionFormat.FontBold = NullableBool.True;
 valTitle.PortionFormat.FontItalic = NullableBool.True;
 ```
 
-## Langkah 11: Sesuaikan Garis Grid Utama untuk Sumbu Kategori
+## Langkah 11: Sesuaikan Garis Kisi Utama untuk Sumbu Kategori
 
 Sekarang, mari tingkatkan garis kisi utama untuk sumbu kategori.
 
@@ -178,7 +179,7 @@ chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
 
 ## Langkah 13: Sesuaikan Properti Teks Sumbu Kategori
 
-Tingkatkan gaya font dan tampilan label sumbu kategori.
+Memperbaiki gaya font dan tampilan label sumbu kategori.
 
 ```csharp
 // Sesuaikan Properti Teks Sumbu Kategori
@@ -226,12 +227,12 @@ txtLeg.FillFormat.SolidFillColor.Color = Color.DarkRed;
 // Tampilkan legenda bagan tanpa bagan yang tumpang tindih
 chart.Legend.Overlay = true;
 
-// Mengatur warna dinding belakang grafik
+// Mengatur warna dinding belakang bagan
 chart.BackWall.Thickness = 1;
 chart.BackWall.Format.Fill.FillType = FillType.Solid;
 chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 
-// Atur warna lantai grafik
+// Tetapkan warna lantai bagan
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
@@ -245,7 +246,7 @@ pres.Save(dataDir + "FormattedChart_out.pptx", SaveFormat.Pptx);
 
 ## Kesimpulan
 
-Dalam panduan lengkap ini, kami membahas teknik kustomisasi bagan tingkat lanjut menggunakan Aspose.Slides for .NET. Anda mempelajari cara membuat presentasi, menambahkan bagan, menyempurnakan tampilannya, dan mengkustomisasi berbagai elemen bagan seperti garis kisi, label sumbu, dan legenda. 
+Dalam panduan komprehensif ini, kami membahas teknik kustomisasi bagan tingkat lanjut menggunakan Aspose.Slides untuk .NET. Anda akan mempelajari cara membuat presentasi, menambahkan bagan, menyempurnakan tampilannya, dan mengkustomisasi berbagai elemen bagan seperti garis kisi, label sumbu, dan legenda. 
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -253,13 +254,13 @@ Dalam panduan lengkap ini, kami membahas teknik kustomisasi bagan tingkat lanjut
 Aspose.Slides untuk .NET mendukung berbagai versi .NET, termasuk .NET Framework dan .NET Core. Lihat dokumentasi untuk daftar lengkap versi yang didukung.
 
 ### Bisakah saya membuat bagan dari sumber data seperti file Excel?
-Ya, Aspose.Slides memungkinkan Anda membuat bagan dari sumber data eksternal seperti lembar kerja Excel. Lihat dokumentasi untuk contoh terperinci.
+Ya, Aspose.Slides memungkinkan Anda membuat bagan dari sumber data eksternal seperti lembar kerja Excel. Lihat dokumentasi untuk contoh detail.
 
 ### Bagaimana cara menambahkan label data khusus ke rangkaian bagan saya?
- Untuk menambahkan label data khusus, akses`DataLabels` properti seri dan sesuaikan label sesuai kebutuhan. Anda dapat menemukan contoh kode dalam dokumentasi.
+Untuk menambahkan label data khusus, akses `DataLabels` properti seri dan sesuaikan label sesuai kebutuhan. Anda dapat menemukan contoh kode dalam dokumentasi.
 
-### Apakah mungkin untuk mengekspor grafik ke format lain, seperti PDF atau gambar?
-Tentu saja! Aspose.Slides memungkinkan Anda mengekspor presentasi Anda dengan diagram ke berbagai format, termasuk format PDF dan gambar.
+### Apakah mungkin untuk mengekspor bagan ke format lain, seperti PDF atau gambar?
+Tentu saja! Aspose.Slides memungkinkan Anda mengekspor presentasi beserta bagan ke berbagai format, termasuk PDF dan gambar.
 
-### Di mana saya dapat menemukan lebih banyak tutorial dan contoh untuk Aspose.Slides for .NET?
- Kunjungi Aspose.Slides[situs web](https://reference.aspose.com/slides/net/) untuk tutorial lengkap, contoh kode, dan dokumentasi.
+### Di mana saya dapat menemukan lebih banyak tutorial dan contoh untuk Aspose.Slides untuk .NET?
+Kunjungi Aspose.Slides [situs web](https://reference.aspose.com/slides/net/) untuk tutorial lengkap, contoh kode, dan dokumentasi.

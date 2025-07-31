@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用 Aspose.PDF for .NET 從 PDF 文件中提取註解。本教學提供詳細的說明。"
+"description": "了解如何使用 Aspose.PDF for .NET 從 PDF 文件中提取註解。本綜合教程提供了詳細的說明。"
 "linktitle": "從 PDF 文件中提取註釋"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "從 PDF 文件中提取註釋"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-在許多應用程式中，管理 PDF 檔案中的註解是一項至關重要的任務，而 Aspose.Pdf for .NET 則為此提供了高效全面的解決方案。本指南將引導您從 PDF 頁面中提取註釋，並為每個步驟提供清晰的說明和詳細的解釋。讓我們開始吧。
+在許多應用程式中，管理 PDF 檔案中的註解可能是一項關鍵任務，而 Aspose.PDF for .NET 為此提供了高效且全面的解決方案。本指南將引導您從 PDF 頁面中提取註釋，並為每個步驟提供清晰的說明和詳細的解釋。讓我們開始吧。
 
 ## 先決條件
 
@@ -39,7 +39,7 @@ using System.IO;
 
 ## 步驟 1：載入 PDF 文檔
 
-首先將 PDF 檔案載入到 Aspose `Document` 對象。指定包含註釋的 PDF 檔案的路徑。
+首先將 PDF 檔案載入到 Aspose `Document` 目的。指定包含註釋的 PDF 檔案的路徑。
 
 ```csharp
 // 指定文檔路徑
@@ -73,11 +73,11 @@ foreach (MarkupAnnotation annotation in pdfDocument.Pages[1].Annotations)
 }
 ```
 
-此程式碼段將註解詳細資訊列印到控制台。這些屬性可以根據應用程式的需求進行儲存或顯示。
+此程式碼片段將註釋詳細資訊列印到控制台。這些屬性可以根據您的應用程式的要求進行儲存或顯示。
 
 ## 結論
 
-使用 Aspose.PDF for .NET 從 PDF 文件中提取註解既簡單又有效率。按照本指南操作，您可以將此功能無縫整合到您的應用程式中。 Aspose.PDF 提供了強大的 PDF 文件管理工具，使開發人員能夠更好地控制其內容。
+使用 Aspose.PDF for .NET 從 PDF 文件中提取註解既簡單又有效率。透過遵循本指南，您可以將此功能無縫整合到您的應用程式中。 Aspose.PDF 提供了強大的 PDF 文件管理工具，讓開發人員能夠對其內容進行無與倫比的控制。
 
 ## 常見問題解答
 
@@ -88,7 +88,7 @@ foreach (MarkupAnnotation annotation in pdfDocument.Pages[1].Annotations)
 是的，Aspose.PDF 支援從所有標準 PDF 文件中提取註釋，無論其複雜程度如何。
 
 ### 是否可以按類型過濾註解？
-當然！您可以使用 `AnnotationType` 屬性來過濾特定類型，例如突出顯示、註釋或評論
+絕對地！您可以使用 `AnnotationType` 屬性來過濾特定類型，例如突出顯示、註釋或評論
 
 ### 有免費試用嗎？
 是的，您可以免費下載試用版 Aspose.PDF，下載地址： [這裡](https://releases。aspose.com/).

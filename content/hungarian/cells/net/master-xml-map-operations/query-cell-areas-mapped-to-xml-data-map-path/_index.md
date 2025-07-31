@@ -131,7 +131,7 @@ Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan lehet lekérdezni az Excel-
 Igen, az Aspose.Cells támogatja több XML-megfeleltetés kezelését egyetlen munkafüzeten belül.
 
 ### Mi van, ha az XML elérési út nem létezik a térképen?  
-Ha érvénytelen elérési utat kérdez le, a `XmlMapQuery` metódus egy üres ArrayList-et fog visszaadni.
+Ha érvénytelen elérési utat kérdez le, a `XmlMapQuery` metódus egy üres ArrayList-et ad vissza.
 
 ### Szükséges licenc az Aspose.Cells for .NET használatához?  
 Igen, a teljes funkcionalitáshoz licenc szükséges. [ingyenes próba](https://releases.aspose.com/) és egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) elérhetőek.

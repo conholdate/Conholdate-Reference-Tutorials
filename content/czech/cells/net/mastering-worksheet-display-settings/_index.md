@@ -20,7 +20,7 @@ Mřížky jsou jako okraje omalovánky – mohou vás vodit nebo odvádět pozor
 ## Úprava záhlaví řádků a sloupců  
 Chcete si ulehčit pracovní list nebo zvýraznit konkrétní oblasti dat? Naučte se, jak skrýt nebo zobrazit záhlaví řádků a sloupců pomocí Aspose.Cells. Tato funkce je neocenitelná pro vytváření uživatelsky přívětivých rozhraní nebo ochranu citlivých dat. Jste připraveni prozkoumat? Přejděte na [Skrýt nebo zobrazit záhlaví řádků a sloupců](./hide-display-row-column-headers/).  
 
-## Ovládání viditelnosti posuvníku  
+## Viditelnost posuvníku  
 Příliš mnoho rušivých elementů na vašem listu? Získejte plnou kontrolu nad viditelností vodorovného a svislého posuvníku. Toto nastavení je obzvláště užitečné pro řídicí panely nebo šablony s uzamčeným zobrazením. Prozkoumejte podrobný postup v našem průvodci na [Ovládání viditelnosti posuvníku](./controlling-scroll-bar-visibility/).  
 
 ## Použití úprav faktoru přiblížení  

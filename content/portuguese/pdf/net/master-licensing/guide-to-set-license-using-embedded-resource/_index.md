@@ -17,7 +17,7 @@ Antes de mergulharmos no código, certifique-se de ter o seguinte:
 
 1. Visual Studio: seu IDE para este tutorial.
 2. .NET Framework: confirme se você tem a versão correta instalada para compatibilidade.
-3. Biblioteca Aspose.PDF: Baixe a biblioteca do [Página de lançamentos do Aspose PDF para .NET](https://releases.aspose.com/pdf/net/)Um teste gratuito também está disponível se você quiser experimentar primeiro.
+3. Biblioteca Aspose.PDF: Baixe a biblioteca do [Página de lançamentos do Aspose PDF para .NET](https://releases.aspose.com/pdf/net/). Um teste gratuito também está disponível se você quiser experimentar primeiro.
 4. Conhecimento básico de C#: a familiaridade com C# ajudará você a entender melhor os exemplos fornecidos.
 
 ## Importando os Pacotes Necessários
@@ -42,7 +42,7 @@ Com o Aspose.PDF integrado ao seu projeto, vamos passar para o licenciamento.
 Primeiro, você precisará especificar o caminho para o diretório de documentos onde os arquivos PDF serão armazenados.
 
 ```csharp
-// Defina o caminho para o diretório dos seus documentos.
+// Defina o caminho para o diretório de documentos.
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
 

@@ -39,7 +39,7 @@ using System.Text;
 Especifique los directorios para sus archivos de origen y dónde guardar el archivo de salida:
 
 ```csharp
-// Directorio de origen
+// Directorio de fuentes
 string sourceDir = "Your Document Directory"; // Reemplazar con su directorio actual
 // Directorio de salida
 string outputDir = "Your Document Directory"; // Reemplazar con su directorio actual

@@ -24,7 +24,7 @@ Başlamadan önce her şeyin yolunda olduğundan emin olalım:
 
 Başlamak için, Aspose.Words'den gerekli ad alanlarını içe aktarmanız gerekir. Bu ad alanları, belge düzenleme için gerekli sınıfları ve yöntemleri sağlar.
 
-Bunları içe aktarmak için yapmanız gerekenler:
+Bunları nasıl içe aktaracağınız aşağıda açıklanmıştır:
 
 ```csharp
 using Aspose.Words;

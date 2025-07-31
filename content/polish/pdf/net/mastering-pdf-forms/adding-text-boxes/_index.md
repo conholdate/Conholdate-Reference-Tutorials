@@ -109,7 +109,7 @@ textBoxField.Color = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Green);
 
 - Tworzy obramowanie i ustala jego szerokość.
 - Zastosowuje przerywany styl do obramowania.
-- Przypisuje polu tekstowemu kolor zielony.
+- Przypisuje zielony kolor do pola tekstowego.
 
 ## Krok 6: Dodaj pole tekstowe do dokumentu
 

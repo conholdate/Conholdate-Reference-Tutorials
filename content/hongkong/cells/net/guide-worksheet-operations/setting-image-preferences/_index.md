@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用 Aspose.Cells for .NET 將 Excel 電子表格高效轉換為美觀的 HTML 網頁。本逐步指南涵蓋從設定影像首選項到優化文字渲染的所有內容。"
+"description": "了解如何使用 Aspose.Cells for .NET 將 Excel 電子表格有效地轉換為具有視覺吸引力的 HTML 網頁。本逐步指南涵蓋了從設定影像首選項到優化文字渲染的所有內容。"
 "linktitle": "在.NET中使用Aspose.Cells設定HTML影像首選項"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "在.NET中使用Aspose.Cells設定HTML影像首選項"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-將 Excel 電子表格轉換為美觀的網頁可以顯著提升您的線上資料呈現效果。使用 Aspose.Cells for .NET，您不僅可以將電子表格轉換為 HTML，還可以自訂各種設定來優化網頁映像。在本指南中，我們將引導您完成將 Excel 檔案轉換為 HTML 時設定影像首選項的過程。讓我們開始吧！
+將 Excel 電子表格轉換為視覺上吸引人的網頁可以顯著增強您的線上資料呈現。使用 Aspose.Cells for .NET，您不僅可以將電子表格轉換為 HTML，還可以自訂各種設定以優化 Web 映像。在本指南中，我們將引導您完成將 Excel 檔案轉換為 HTML 時設定影像首選項的過程。讓我們開始吧！
 
 ## 先決條件
 
@@ -18,7 +18,7 @@
 1. 已安裝 Visual Studio：像 Visual Studio 這樣的開發環境對於執行和測試 .NET 應用程式至關重要。
 2. Aspose.Cells for .NET：從下載並安裝最新版本 [Aspose 網站](https://releases。aspose.com/cells/net/).
 3. 基本 C# 知識：熟悉 C# 程式設計將幫助您更有效地理解範例。
-4. 範例 Excel 檔案：準備一個名為 `Book1.xlsx` 並將其放在指定的資料夾中以供在程式碼中引用。
+4. 範例 Excel 檔案：準備一個名為 `Book1.xlsx` 並將其放在指定的資料夾中以供程式碼中引用。
 
 ## 設定你的項目
 
@@ -45,7 +45,7 @@ using Aspose.Cells;
 
 ## 步驟 1：指定文檔目錄
 
-設定文檔儲存目錄的路徑。這對於文件存取至關重要。
+設定儲存文檔的目錄的路徑。這對於文件存取至關重要。
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -83,7 +83,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
 
 ## 步驟5：將影像格式設定為PNG
 
-指定轉換的影像格式。這裡我們將其設定為 PNG：
+指定轉換的影像格式。在這裡，我們將其設定為 PNG：
 
 ```csharp
 saveOptions.ImageOptions.ImageType = Drawing.ImageType.Png;
@@ -123,7 +123,7 @@ book.Save(Path.Combine(dataDir, "output.html"), saveOptions);
 
 ## 結論
 
-恭喜！您已成功學習如何使用 Aspose.Cells for .NET 設定 HTML 匯出的圖片首選項。這些配置不僅可以創建美觀的 Excel 資料呈現，還可以優化其 Web 使用體驗。無論您是產生報表、儀表板還是視覺化數據，這些實用的設定都能顯著提升您的簡報品質。
+恭喜！您已成功學習如何使用 Aspose.Cells for .NET 設定 HTML 匯出的圖片首選項。這些配置不僅可以為您的 Excel 資料建立視覺上吸引人的表示，還可以對其進行最佳化以用於 Web 使用。無論您是產生報表、儀表板還是視覺化數據，這些實用設定都會對您的簡報產生重大影響。
 
 ## 常見問題解答
 
@@ -137,7 +137,7 @@ Aspose.Cells for .NET 是一個功能強大的程式庫，旨在在 .NET 應用�
 
 ### 有試用版嗎？
 
-當然！您可以從 [Aspose 網站](https://releases。aspose.com/).
+絕對地！您可以從 [Aspose 網站](https://releases。aspose.com/).
 
 ### 我可以使用 Aspose.Cells 哪些圖像格式？
 

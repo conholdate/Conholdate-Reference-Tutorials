@@ -2,7 +2,7 @@
 "categories":
 - "Document Processing"
 "date": "2025-01-02"
-"description": "Aprenda a convertir Word a PDF en C# con Aspose.Words para .NET. Tutorial paso a paso con ejemplos de código, solución de problemas y recomendaciones para desarrolladores."
+"description": "Aprenda a convertir Word a PDF en C# con Aspose.Words para .NET. Tutorial paso a paso con ejemplos de código, solución de problemas y buenas prácticas para desarrolladores."
 "lastmod": "2025-01-02"
 "linktitle": "Guía de C# para convertir Word a PDF"
 "second_title": "API de procesamiento de documentos de Aspose.Words"

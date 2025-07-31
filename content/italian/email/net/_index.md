@@ -22,9 +22,9 @@ Sfrutta appieno il potenziale dell'elaborazione delle email con Aspose.Email per
 - **🔄 Conversione e-mail**: Trasformazione senza soluzione di continuità tra i formati di posta elettronica
 - **🤖 Analisi dello spam**: Filtraggio avanzato basato sull'apprendimento automatico
 - **📊 Elaborazione e-mail**: Analisi del contenuto, gestione degli allegati ed estrazione dei metadati
-- **⚡ Supporto del protocollo**: SMTP, POP3, IMAP, Servizi Web Exchange (EWS)
+- **⚡ Supporto del protocollo**SMTP, POP3, IMAP, Servizi Web Exchange (EWS)
 
-## 📚 Categorie dei tutorial
+## 📚 Categorie di tutorial
 
 ### Guida completa alla conversione e all'esportazione di e-mail
 Padroneggia le trasformazioni del formato e-mail e le operazioni di esportazione con qualità professionale e conservazione dei dati.
@@ -40,13 +40,13 @@ Tecniche avanzate di analisi delle e-mail, tra cui il rilevamento dello spam e l
 | Tutorial | Descrizione | Difficoltà |
 |----------|-------------|------------|
 | **[Analisi bayesiana dello spam in C#](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Rilevamento dello spam basato sull'apprendimento automatico con analisi statistica | ⭐⭐⭐ Avanzato |
-| **[Convertire l'email HTML in testo normale](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Estrai contenuto di testo pulito da email HTML | ⭐⭐ Intermedio |
+| **[Convertire l'email HTML in testo normale](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Estrai contenuto di testo pulito da email HTML | ⭐⭐ Intermedio |
 
 ## 🎯 Casi d'uso popolari
 
 ### **Integrazione del sistema di posta elettronica**
 - **Migrazione della posta elettronica**: Converti tra diversi formati di posta elettronica per le migrazioni di sistema
-- **Soluzioni di archiviazione**Archiviazione e-mail a lungo termine con standardizzazione del formato
+- **Soluzioni di archiviazione**: Archiviazione e-mail a lungo termine con standardizzazione del formato
 - **Compatibilità multipiattaforma**: Assicurati che le email funzionino su diversi client di posta elettronica
 
 ### **Sicurezza e analisi della posta elettronica**
@@ -123,7 +123,7 @@ Tecniche avanzate di analisi delle e-mail, tra cui il rilevamento dello spam e l
 ### **Analisi e reporting**
 - **Monitoraggio e-mail** - Consegna dei messaggi e ricevute di lettura
 - **Analisi del contenuto** - Estrazione e classificazione di testo
-- **Misure di prestazione** - Monitoraggio del sistema di posta elettronica
+- **Metriche delle prestazioni** - Monitoraggio del sistema di posta elettronica
 - **Segnalazione di conformità** - Strumenti di conformità normativa
 
 ## 🔗 Risorse aggiuntive
@@ -133,7 +133,7 @@ Tecniche avanzate di analisi delle e-mail, tra cui il rilevamento dello spam e l
 - **[Prova gratuita](https://releases.aspose.com/email/net/)** - Valutare le funzionalità complete
 
 ### **Comunità e supporto**
-- **[Forum di supporto](https://forum.aspose.com/c/email/12)** - Ricevi aiuto dagli esperti
+- **[Forum di supporto](https://forum.aspose.com/c/email/12)** Ricevi aiuto dagli esperti
 
 ### **Licenze e prove**
 - **[Licenza temporanea](https://purchase.conholdate.com/temporary-license/)** - Valutazione estesa

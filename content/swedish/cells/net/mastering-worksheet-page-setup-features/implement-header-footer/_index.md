@@ -43,7 +43,7 @@ string dataDir = "Your Document Directory";
 Workbook excel = new Workbook();
 ```
 
-Här, en `Workbook` objektet representerar din Excel-fil. Det `PageSetup` Med egenskapen "Sidhuvuden och sidfot" kan du anpassa kalkylbladet.
+Här, en `Workbook` objektet representerar din Excel-fil. `PageSetup` Med egenskapen "Sidhuvuden och sidfot" kan du anpassa kalkylbladet.
 
 ## Steg 2: Åtkomst till egenskaperna för kalkylblad och sidinställningar
 

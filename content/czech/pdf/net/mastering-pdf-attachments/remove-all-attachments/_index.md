@@ -58,7 +58,7 @@ Pro otevření PDF dokumentu použijte následující kód:
 Document pdfDocument = new Document(dataDir + "DeleteAllAttachments.pdf");
 ```
 
-Ujistěte se, že název souboru odpovídá názvu souboru, který máte ve svém adresáři.
+Ujistěte se, že název souboru odpovídá názvu souboru ve vašem adresáři.
 
 ## Krok 6: Odstraňte všechny přílohy
 

@@ -20,7 +20,7 @@ Trước khi đi sâu vào mã, hãy đảm bảo bạn đã thiết lập xong 
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ giúp bạn điều hướng qua mã.
 4. Một tệp Excel mẫu: Tạo một tệp Excel đơn giản có hỗ trợ macro (với `.xlsm` phần mở rộng) và khóa dự án VBA để kiểm tra chức năng.
 
-Khi đã đáp ứng được những điều kiện tiên quyết này, bạn đã sẵn sàng để tiến hành!
+Khi bạn đã đáp ứng được những điều kiện tiên quyết này, bạn đã sẵn sàng để tiến hành!
 
 ## Nhập các gói cần thiết
 

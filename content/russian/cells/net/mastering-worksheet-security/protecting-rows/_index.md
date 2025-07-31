@@ -71,7 +71,7 @@ for (int i = 0; i <= 255; i++)
 Теперь заблокируйте строки, которые вы хотите защитить. В этом примере мы заблокируем первую строку.
 
 ```csharp
-// Заблокируйте первый ряд.
+// Закройте первый ряд.
 style = sheet.Cells.Rows[0].Style;
 style.IsLocked = true;
 flag = new StyleFlag { Locked = true };

@@ -5,7 +5,7 @@
 "description": "Dowiedz się, jak usuwać określone arkusze kalkulacyjne programu Excel według indeksu, używając języka C# i funkcji Aspose.Cells. Samouczek krok po kroku z przykładami kodu, wskazówkami dotyczącymi rozwiązywania problemów i najlepszymi praktykami."
 "lastmod": "2025-01-02"
 "linktitle": "Usuwanie arkusza kalkulacyjnego Excel według indeksu C#"
-"second_title": "Aspose.Cells dla .NET API Reference"
+"second_title": "Dokumentacja interfejsu API Aspose.Cells dla platformy .NET"
 "tags":
 - "c-sharp"
 - "aspose-cells"
@@ -270,5 +270,5 @@ Użyj `RemoveByName()` zamiast tego metoda: `workbook.Worksheets.RemoveByName("S
 ### Czy istnieje sposób na odzyskanie usuniętego arkusza kalkulacyjnego?
 Po usunięciu arkusza i zapisaniu skoroszytu nie ma wbudowanej metody odzyskiwania. Najlepszą ochroną jest regularne tworzenie kopii zapasowych plików Excel przed wprowadzeniem automatycznych modyfikacji.
 
-### Czy ta metoda działa w przypadku plików Excel chronionych hasłem?
+### Czy ta metoda działa w przypadku plików Excel zabezpieczonych hasłem?
 Tak, ale będziesz musiał podać hasło podczas otwierania skoroszytu: `new Workbook(fstream, new LoadOptions() { Password = "yourpassword" })`Proces usuwania pozostaje taki sam po pomyślnym uwierzytelnieniu.

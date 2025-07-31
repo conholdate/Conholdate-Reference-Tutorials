@@ -30,7 +30,7 @@ Antes de adentrarnos en el código, asegurémonos de que todo esté configurado 
 
 1. **Visual Studio**: Descargue e instale Visual Studio desde [aquí](https://visualstudio.microsoft.com/vs/)Cualquier versión reciente funcionará perfectamente.
 2. **Aspose.Cells para .NET**Esta es tu arma secreta para manipular Excel. Puedes descargarla desde [sitio](https://releases.aspose.com/cells/net/).
-3. **Conocimientos básicos de C#**No es necesario que seas un experto en C#, pero estar familiarizado con los conceptos básicos te ayudará a seguir el proceso sin problemas.
+3. **Conocimientos básicos de C#**No es necesario que seas un gurú de C#, pero estar familiarizado con los conceptos básicos te ayudará a seguir el proceso sin problemas.
 4. **Directorio de documentos**Crea una carpeta dedicada en tu computadora para guardar tus archivos de Excel para este tutorial. ¡La organización es clave!
 
 ¿Ya tienes todo listo? ¡Genial! Vamos a importar los paquetes que necesitaremos.
@@ -122,7 +122,7 @@ Una hoja de cálculo llamada "Hoja4" u "Hoja5" no es muy descriptiva, ¿verdad? 
 worksheet.Name = "My Worksheet";
 ```
 
-Elige un nombre que se adapte a tu aplicación. Si creas informes mensuales, podrías usar "Enero_2025" o "Resumen_Ventas". Sé descriptivo; ¡tu yo del futuro te lo agradecerá!
+Elige un nombre que se adapte a tu aplicación. Si creas informes mensuales, podrías usar "Enero_2025" o "Resumen_Ventas". Sé descriptivo: ¡tu yo del futuro te lo agradecerá!
 
 ## Paso 7: Guarde el archivo de Excel
 
@@ -159,7 +159,7 @@ Incluso con las mejores instrucciones, las cosas pueden salir mal. Estos son los
 **Solución**:Procese datos en fragmentos o utilice las funciones de transmisión de Aspose.Cells para archivos muy grandes.
 
 ### Problema 3: El nombre de la hoja de trabajo ya existe
-**Problema**:Intentando nombrar una hoja de cálculo con un nombre que ya existe.
+**Problema**:Intentando nombrar una hoja de trabajo con un nombre que ya existe.
 **Solución**: Verifique los nombres de las hojas de trabajo existentes antes de configurar una nueva:
 ```csharp
 if (!workbook.Worksheets.Cast<Worksheet>().Any(ws => ws.Name == "My Worksheet"))
@@ -192,7 +192,7 @@ A continuación se presentan algunas prácticas probadas que harán que su autom
 
 2. **Utilice nombres significativos**Nombra tus hojas de trabajo de manera descriptiva: evita nombres genéricos como "Hoja1" o "Datos".
 
-3. **Manejar excepciones con elegancia**:Envuelva sus operaciones de Excel en bloques try-catch para solucionar problemas inesperados.
+3. **Manejar excepciones con elegancia**:Envuelva sus operaciones de Excel en bloques try-catch para manejar problemas inesperados.
 
 4. **Prueba con diferentes formatos de archivo**:Asegúrese de que su código funcione con ambos `.xls` y `.xlsx` archivos.
 

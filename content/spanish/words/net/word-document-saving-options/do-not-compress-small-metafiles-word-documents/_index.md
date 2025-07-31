@@ -87,7 +87,7 @@ Siguiendo estos pasos, puede garantizar que los metarchivos pequeños de sus doc
 
 ### ¿Por qué debería utilizar la función "No comprimir metarchivos pequeños"?
 
-Esta función es beneficiosa para preservar la calidad visual de pequeños metarchivos, lo cual es crucial para lograr resultados de documentos profesionales y de alta calidad.
+Esta función es beneficiosa para preservar la calidad visual de metarchivos pequeños, lo cual es crucial para lograr resultados de documentos profesionales y de alta calidad.
 
 ### ¿Puedo utilizar esta función con otros formatos de archivo?
 

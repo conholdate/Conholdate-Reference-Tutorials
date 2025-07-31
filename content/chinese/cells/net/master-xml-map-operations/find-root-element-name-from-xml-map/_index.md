@@ -88,7 +88,7 @@ Root Element Name of XML Map: [Your Root Element Name]
 XML 映射将 Excel 工作表中的数据链接到 XML 模式，允许在 XML 文件和电子表格之间导入和导出结构化数据。
 
 ### 我可以使用 Aspose.Cells 访问 Excel 文件中的多个 XML 映射吗？
-是的！您可以使用 `XmlMaps` 属性并根据需要对其进行迭代。
+是的！您可以使用 `XmlMaps` 属性并根据需要对它们进行迭代。
 
 ### Aspose.Cells 是否支持 XML 模式验证？
 Aspose.Cells 不提供 XML 模式验证，但它支持导入和使用 Excel 文件中的 XML 映射进行数据操作。

@@ -106,7 +106,7 @@ eml.Save(dataDir + "CustomOrderOfInformationInMHTML_2.mhtml", opt);
 
 Bu kodu çalıştırın ve ardından açın `CustomOrderOfInformationInMHTML_2.mhtml`Başlık sıralamanıza göre bilgilerin nasıl değiştiğini görmek için ilkiyle karşılaştırın.
 
-## Adım 7: Başlık Sırasını Temizle ve Yeni Sıralama Ekle
+## Adım 7: Başlık Sırasını Temizle ve Yeni Ekle
 
 Tamamen farklı bir sıralama istiyorsanız, mevcut başlık ayarlarını temizleyerek baştan başlayabilirsiniz.
 

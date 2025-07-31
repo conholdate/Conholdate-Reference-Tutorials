@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Heb je ooit geworsteld met rommelige rij- en kolomkoppen in een Excel-werkblad, waardoor het moeilijk was om je te concentreren op de daadwerkelijke gegevens? Of je nu een rapport opstelt, een interactief dashboard ontwerpt of gewoon streeft naar een betere datavisualisatie, het beheren van deze koppen kan de duidelijkheid verbeteren. Gelukkig biedt Aspose.Cells voor .NET een eenvoudige oplossing! In deze tutorial leiden we je door de stappen om rij- en kolomkoppen in een Excel-werkblad weer te geven of te verbergen met Aspose.Cells. Aan het einde ben je bedreven in het beheren van deze essentiële onderdelen van je spreadsheets!
+Heb je ooit geworsteld met rommelige rij- en kolomkoppen in een Excel-werkblad, waardoor het moeilijk was om je te concentreren op de daadwerkelijke gegevens? Of je nu een rapport opstelt, een interactief dashboard ontwerpt of gewoon streeft naar een betere datavisualisatie, het beheren van deze koppen kan de duidelijkheid verbeteren. Gelukkig biedt Aspose.Cells voor .NET een eenvoudige oplossing! In deze tutorial leiden we je door de stappen om rij- en kolomkoppen in een Excel-werkblad weer te geven of te verbergen met Aspose.Cells. Na afloop ben je bedreven in het beheren van deze essentiële onderdelen van je spreadsheets!
 
 ## Vereisten
 
@@ -23,7 +23,7 @@ Voordat u met de tutorial begint, moet u ervoor zorgen dat u het volgende hebt:
 
 ### Een nieuw C#-project maken
 
-1. Visual Studio openen.
+1. Open Visual Studio.
 2. Klik op ‘Een nieuw project maken’.
 3. Kies ‘Console App (.NET Framework)’ of het projecttype van uw voorkeur en stel de naam en locatie van uw project in.
 
@@ -94,7 +94,7 @@ Om de headers opnieuw te tonen, zet u ze eenvoudig terug naar `true`.
 
 ## Stap 6: Sla het gewijzigde Excel-bestand op
 
-Nadat u uw wijzigingen hebt aangebracht, slaat u de werkmap op om een nieuw Excel-bestand te maken of om het bestaande bestand te overschrijven.
+Nadat u de wijzigingen hebt aangebracht, slaat u de werkmap op om een nieuw Excel-bestand te maken of overschrijft u het bestaande bestand.
 
 ```csharp
 workbook.Save(dataDir + "output.xls");
@@ -117,7 +117,7 @@ Het kunnen weergeven of verbergen van rij- en kolomkoppen in Excel is een waarde
 ## Veelgestelde vragen
 
 ### Wat is Aspose.Cells?
-Aspose.Cells is een .NET-bibliotheek waarmee u Excel-bestanden programmatisch kunt manipuleren, zodat u efficiënt spreadsheets kunt maken, wijzigen en converteren.
+Aspose.Cells is een .NET-bibliotheek waarmee u Excel-bestanden programmatisch kunt bewerken, zodat u efficiënt spreadsheets kunt maken, wijzigen en converteren.
 
 ### Kan ik de headers opnieuw weergeven nadat ik ze heb verborgen?
 Absoluut! Gewoon instellen `worksheet.IsRowColumnHeadersVisible` naar `true` om de headers opnieuw te tonen.

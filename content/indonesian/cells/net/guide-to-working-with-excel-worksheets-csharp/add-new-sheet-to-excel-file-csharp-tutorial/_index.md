@@ -123,7 +123,7 @@ Saatnya membuat perubahan kita permanen:
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-**Format file itu penting**:Perhatikan kami menyimpan sebagai `.xls` (Format Excel 97-2003). Untuk file Excel modern, Anda mungkin lebih suka `.xlsx`:
+**Format file itu penting**:Perhatikan kami menyimpan sebagai `.xls` (format Excel 97-2003). Untuk file Excel modern, Anda mungkin lebih suka `.xlsx`:
 
 ```csharp
 workbook.Save(dataDir + "output.xlsx");

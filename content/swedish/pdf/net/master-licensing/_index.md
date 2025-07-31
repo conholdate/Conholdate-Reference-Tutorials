@@ -25,8 +25,8 @@ Att förstå Aspose.PDF för .NET-licensiering kan verka skrämmande till en bö
 ## Handledningar om masterlicensering
 | Titel | Beskrivning |
 | --- | --- | 
-| [Konfigurera mätta licensnycklar i PDF-fil](./configureing-metered-license-keys/) | Frigör Aspose.PDFs fulla potential för .NET med vår steg-för-steg-guide för att konfigurera mätlicenser. Oavsett om du hanterar omfattande PDF-arbetsflöden eller gör mindre justeringar. |  
+| [Konfigurera mätta licensnycklar i PDF-fil](./configureing-metered-license-keys/) Frigör Aspose.PDFs fulla potential för .NET med vår steg-för-steg-guide för att konfigurera mätlicenser. Oavsett om du hanterar omfattande PDF-arbetsflöden eller gör mindre justeringar. |  
 | [Laddar licens från fil](./loading-license-from-file/) | Lär dig hur du frigör Aspose.PDFs fulla potential för .NET med vår steg-för-steg-guide om hur du laddar en licens från en fil. |  
-| [Läser in licens från strömobjekt](./loading-license-from-stream-object/) Frigör Aspose.PDFs fulla potential för .NET genom att lära dig hur man laddar en licens från en ström. Den här omfattande guiden ger steg-för-steg-instruktioner. |  
+| [Läser in licens från strömobjekt](./loading-license-from-stream-object/) | Frigör Aspose.PDFs fulla potential för .NET genom att lära dig hur man laddar en licens från en ström. Den här omfattande guiden ger steg-för-steg-instruktioner. |  
 | [Säkra licens i PDF-fil](./securing-license/) | Lär dig hur du säkrar din licens i en PDF-fil med Aspose.PDF för .NET med den här detaljerade steg-för-steg-guiden. Lås upp avancerade funktioner och säkerställ efterlevnad. |  
-| [Guide för att ställa in licens med hjälp av inbäddad resurs](./guide-to-set-license-using-embedded-resource/) | Frigör din potential som utvecklare med den här omfattande guiden till Aspose.PDF för .NET. Lär dig hur du enkelt skapar, redigerar och manipulerar PDF-dokument programmatiskt. Den här handledningen täcker förkunskapskrav och steg-för-steg-instruktioner. |
+| [Guide för att ställa in licens med hjälp av inbäddad resurs](./guide-to-set-license-using-embedded-resource/) Frigör din potential som utvecklare med den här omfattande guiden till Aspose.PDF för .NET. Lär dig hur du enkelt skapar, redigerar och manipulerar PDF-dokument programmatiskt. Den här handledningen täcker förkunskapskrav och steg-för-steg-instruktioner. |

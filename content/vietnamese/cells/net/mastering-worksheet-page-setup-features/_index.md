@@ -25,7 +25,7 @@ Tiêu đề và chân trang (Header and Footer) mang đến nét chuyên nghiệ
 
 ## Triển khai lề trong bảng tính với Aspose.Cells  
 
-Thiết lập lề là một chi tiết nhỏ nhưng vô cùng quan trọng, đảm bảo dữ liệu của bạn không bị chật chội hoặc bị cắt xén khi in. Hướng dẫn này sẽ hướng dẫn bạn cách tự động điều chỉnh lề trong bảng tính Excel bằng Aspose.Cells. Cho dù bạn đang tạo báo cáo tài chính hay hóa đơn, việc thiết lập lề phù hợp sẽ đảm bảo mọi thứ đều vừa vặn trên trang và trông chuyên nghiệp.  
+Thiết lập lề là một chi tiết nhỏ nhưng vô cùng quan trọng, giúp đảm bảo dữ liệu của bạn không bị chật chội hoặc bị cắt xén khi in. Hướng dẫn này sẽ hướng dẫn bạn cách tự động điều chỉnh lề trong bảng tính Excel bằng Aspose.Cells. Cho dù bạn đang tạo báo cáo tài chính hay hóa đơn, việc thiết lập lề phù hợp sẽ đảm bảo mọi thứ đều vừa vặn trên trang và trông chuyên nghiệp.  
 [Đọc thêm](./implement-margins-in-worksheet/)
 
 ## Triển khai Cài đặt Thứ tự Trang trong Trang tính  

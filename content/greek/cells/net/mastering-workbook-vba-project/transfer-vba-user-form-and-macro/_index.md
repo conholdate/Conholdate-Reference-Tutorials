@@ -102,7 +102,7 @@ foreach (VbaModule vbaItem in templateFile.VbaProject.Modules)
         {
             // Αποκτήστε τον χώρο αποθήκευσης του σχεδιαστή φόρμας χρήστη
             byte[] designerStorage = templateFile.VbaProject.Modules.GetDesignerStorage(vbaItem.Name);
-            // Προσθήκη του χώρου αποθήκευσης σχεδιαστή στο έργο Vba προορισμού
+            // Προσθέστε τον αποθηκευτικό χώρο σχεδίασης στο έργο Vba προορισμού
             target.VbaProject.Modules.AddDesignerStorage(vbaItem.Name, designerStorage);
         }
     }

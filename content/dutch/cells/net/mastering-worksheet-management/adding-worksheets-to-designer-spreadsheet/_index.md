@@ -1,8 +1,8 @@
 ---
 "description": "Leer hoe u programmatisch nieuwe werkbladen aan Excel-bestanden kunt toevoegen met Aspose.Cells voor .NET. Deze uitgebreide handleiding leidt u door de benodigde stappen."
-"linktitle": "Werkbladen toevoegen aan Designer-spreadsheet met Aspose.Cells"
+"linktitle": "Werkbladen toevoegen aan Designer-spreadsheets met Aspose.Cells"
 "second_title": "Aspose.Cells .NET Excel-verwerkings-API"
-"title": "Werkbladen toevoegen aan Designer-spreadsheet met Aspose.Cells"
+"title": "Werkbladen toevoegen aan Designer-spreadsheets met Aspose.Cells"
 "url": "/nl/cells/net/mastering-worksheet-management/adding-worksheets-to-designer-spreadsheet/"
 "weight": 11
 ---
@@ -14,9 +14,9 @@ Het programmatisch beheren van Excel-bestanden kan uw workflows aanzienlijk stro
 ## Vereisten
 Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
-1. Aspose.Cells voor .NET-bibliotheek: Download de [Aspose.Cells voor .NET-bibliotheek](https://releases.aspose.com/cells/net/) en voeg het toe aan uw project. U kunt beginnen met een gratis proefperiode of een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor volledige toegang tot de functies.
+1. Aspose.Cells voor .NET-bibliotheek: Download de [Aspose.Cells voor .NET-bibliotheek](https://releases.aspose.com/cells/net/) en voeg het toe aan uw project. U kunt beginnen met een gratis proefversie of een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor volledige toegang tot de functies.
 2. Basiskennis van C#: Kennis van de C#-syntaxis helpt u de code beter te begrijpen.
-3. Visual Studio of compatibele IDE: gebruik een .NET-compatibele Integrated Development Environment (IDE) zoals Visual Studio om uw code te schrijven en testen.
+3. Visual Studio of compatibele IDE: gebruik een .NET-compatibele Integrated Development Environment (IDE) zoals Visual Studio om uw code te schrijven en te testen.
 
 ## Stap 1: Importeer de benodigde pakketten
 Om met Aspose.Cells te werken, moet u de relevante naamruimten importeren. Voeg de volgende richtlijnen toe bovenaan uw C#-bestand:
@@ -81,7 +81,7 @@ workbook.Save(Path.Combine(dataDir, "output.xlsx"));
 ```
 
 ## Stap 9: Sluit de bestandsstroom
-Zorg ervoor dat u de bestandsstroom sluit om systeembronnen vrij te geven.
+Zorg ervoor dat u de bestandsstroom sluit om systeembronnen vrij te maken.
 
 ```csharp
 fstream.Close();
@@ -93,7 +93,7 @@ U hebt met succes een nieuw werkblad toegevoegd aan een bestaand Excel-bestand m
 ## Veelgestelde vragen
 
 ### Kan ik meerdere werkbladen tegelijk toevoegen?
-Ja, u kunt de `Add()` Herhaal deze methode meerdere keren om zoveel werkbladen te maken als u nodig hebt.
+Ja, u kunt de `Add()` Herhaal de methode meerdere keren om zoveel werkbladen te maken als u nodig hebt.
 
 ### Hoe kan ik het aantal werkbladen in een werkmap controleren?
 Gebruik `workbook.Worksheets.Count` om het totale aantal werkbladen op te halen.

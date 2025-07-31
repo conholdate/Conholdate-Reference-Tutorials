@@ -114,7 +114,7 @@ page.Contents.Add(new Aspose.Pdf.Operators.ConcatenateMatrix(matrix));
 
 ## चरण 9: पीडीएफ पृष्ठ पर छवि प्रस्तुत करें
 
-का उपयोग करके छवि प्रस्तुत करें `Do` ऑपरेटर:
+छवि को रेंडर करने के लिए निम्न का उपयोग करें: `Do` ऑपरेटर:
 
 ```csharp
 XImage ximage = page.Resources.Images[page.Resources.Images.Count];

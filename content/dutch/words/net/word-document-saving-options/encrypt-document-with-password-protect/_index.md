@@ -9,7 +9,7 @@
 
 ## Invoering
 
-In de digitale wereld van vandaag is het beschermen van gevoelige informatie cruciaal. Of het nu gaat om persoonlijke notities of vertrouwelijke zakelijke documenten, het beveiligen van uw bestanden met een wachtwoord is een slimme zet. Aspose.Words voor .NET biedt een eenvoudige en effectieve manier om uw documenten te versleutelen. Zie het als een slot op uw dagboek: alleen degenen met de sleutel (of het wachtwoord) hebben toegang tot de inhoud. Laten we stap voor stap doornemen hoe u een document met een wachtwoord kunt beveiligen met Aspose.Words.
+In de digitale wereld van vandaag is het beschermen van gevoelige informatie cruciaal. Of het nu gaat om persoonlijke notities of vertrouwelijke zakelijke documenten, het beveiligen van uw bestanden met een wachtwoord is een slimme zet. Aspose.Words voor .NET biedt een eenvoudige en effectieve manier om uw documenten te versleutelen. Zie het als een slot op uw agenda: alleen degenen met de sleutel (of het wachtwoord) hebben toegang tot de inhoud. Laten we stap voor stap doornemen hoe u een document met een wachtwoord kunt beveiligen met Aspose.Words.
 
 ## Vereisten
 
@@ -90,7 +90,7 @@ Ja, Aspose.Words voor .NET ondersteunt verschillende encryptiemethoden. Controle
 Helaas is het onmogelijk om het document te openen als u uw wachtwoord vergeet. Kies altijd een wachtwoord dat u kunt onthouden of bewaar het veilig.
 
 ### Kan ik het wachtwoord van een bestaand document wijzigen?
-Absoluut! Je kunt een bestaand document laden en opslaan met een nieuw wachtwoord, net zoals hierboven beschreven.
+Absoluut! U kunt een bestaand document laden en opslaan met een nieuw wachtwoord, met behulp van dezelfde stappen als hierboven beschreven.
 
 ### Is het mogelijk om het wachtwoord van een document te verwijderen?
 Ja, u kunt het document opslaan zonder een wachtwoord op te geven om de bestaande beveiliging te verwijderen.

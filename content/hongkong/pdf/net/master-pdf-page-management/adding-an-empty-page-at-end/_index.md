@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.PDF .NET 程式庫輕鬆地將空白頁新增至 PDF 文件中。本教學將逐步引導您完成整個過程，從設定開發環境到進行必要的程式碼調整。"
+"description": "了解如何使用 .NET 的 Aspose.PDF 庫輕鬆地將空白頁新增至 PDF 文件中。本逐步教學將引導您完成整個過程，從設定開發環境到進行必要的程式碼調整。"
 "linktitle": "在最後加上空白頁"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "在最後加上空白頁"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-在當今的數位環境中，高效的文件管理至關重要。 PDF 是用於共享和儲存文件的最廣泛使用的格式之一，有時您可能需要進行修改，例如添加額外的空白頁以用於臨時筆記。在本教學中，我們將逐步介紹如何使用 .NET 的 Aspose.PDF 庫在 PDF 文件末尾插入空白頁。
+在當今的數位環境中，高效的文件管理至關重要。 PDF 是用於共享和儲存文件的最廣泛使用的格式之一，有時您可能需要進行修改 - 例如添加額外的空白頁以用於最後一刻的筆記。在本教學中，我們將逐步介紹使用 .NET 的 Aspose.PDF 庫在 PDF 文件末尾插入空白頁的步驟。
 
 ## 先決條件
 
@@ -47,7 +47,7 @@ using Aspose.Pdf;
 
 現在您已準備好開始處理 PDF！
 
-## 步驟1：定義文檔目錄
+## 步驟 1：定義文件目錄
 
 設定您的 PDF 文件所在的目錄：
 
@@ -96,21 +96,21 @@ Console.WriteLine("\nEmpty page inserted successfully at the end of the document
 
 ## 結論
 
-恭喜！您已成功使用 Aspose.PDF for .NET 在 PDF 文件末尾插入空白頁。這個簡單的添加功能對於註釋或未來的編輯非常有用。 Aspose.PDF 的多功能性使開發人員能夠對 PDF 文件執行各種操作，使其成為您 C# 開發工具包中不可或缺的工具。
+恭喜！您已成功使用 Aspose.PDF for .NET 在 PDF 文件末尾插入空白頁。這個簡單的添加對於註釋或未來的編輯非常有用。 Aspose.PDF 的多功能性使開發人員能夠對 PDF 文件執行各種操作，使其成為 C# 開發工具包中不可或缺的工具。
 
 ## 常見問題解答
 
 ### 我可以一次插入多頁嗎？
-是的！您可以使用循環來新增多個頁面，只需重複以下操作即可 `pdfDocument.Pages.Add();` 線。
+是的！您可以使用循環來新增多個頁面，只需重複 `pdfDocument.Pages.Add();` 線。
 
 ### Aspose.PDF 免費嗎？
-Aspose.PDF 提供免費試用，但長期使用需要授權。查看價格 [這裡](https://purchase。aspose.com/buy).
+Aspose.PDF 提供免費試用，但延長使用期限則需要許可證。查看價格 [這裡](https://purchase。aspose.com/buy).
 
 ### 如果我在儲存 PDF 時遇到錯誤怎麼辦？
 確保您對儲存檔案的目錄具有必要的寫入權限。
 
 ### 此方法可以用於現有的已填寫的 PDF 表單嗎？
-當然！ Aspose.PDF 可以處理 PDF，包括已填寫表格的 PDF。
+絕對地！ Aspose.PDF 可以處理 PDF，包括填寫表格的 PDF。
 
 ### 我可以在哪裡獲得 Aspose.PDF 的支援？
 如需支持，請造訪 Aspose 支援論壇 [這裡](https://forum。aspose.com/c/pdf/10).

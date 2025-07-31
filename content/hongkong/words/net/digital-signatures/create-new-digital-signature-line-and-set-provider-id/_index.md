@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Words for .NET 以程式設計方式將簽名行新增至 Word 文件。本指南內容全面，涵蓋從設定開發環境到插入簽名行以及安全簽署文件的所有內容。"
+"description": "了解如何使用 Aspose.Words for .NET 以程式設計方式將簽名行新增至 Word 文件。本綜合指南涵蓋了從設定開發環境到插入簽名行和安全簽署文件的所有內容。"
 "linktitle": "建立新的數位簽章行並設定提供者 ID"
 "second_title": "Aspose.Words文件處理API"
 "title": "建立新的數位簽章行並設定提供者 ID"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-各位科技愛好者們，大家好！您是否想過在 Word 文件中自動新增簽名行？今天，我們將深入探討如何使用 Aspose.Words for .NET 來實現這一目標。本逐步指南將指導您建立簽名行並設定提供者 ID，讓您的文件處理任務更有效率、更流暢。
+大家好，科技愛好者們！您是否曾經想過在 Word 文件中自動新增簽名行？今天，我們將深入研究如何使用 Aspose.Words for .NET 來實現這一點。本逐步指南將引導您建立簽名行並設定提供者 ID，從而使您的文件處理任務更加有效率和簡化。
 
 ## 先決條件
 
@@ -125,12 +125,12 @@ DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLineProviderId.docx"
 
 ## 結論
 
-恭喜！您已成功使用 Aspose.Words for .NET 在 Word 文件中建立簽名行並設定提供者 ID。這個強大的庫可以簡化文件處理任務，提高您的工作流程效率。快來試用，看看它如何提升您的專案效率！
+恭喜！您已成功建立簽名行並使用 Aspose.Words for .NET 在 Word 文件中設定提供者 ID。這個強大的庫簡化了文件處理任務，使您的工作流程更加有效率。嘗試一下，看看它如何增強您的專案！
 
 ## 常見問題解答
 
 ### 我可以自訂簽名行的外觀嗎？
-當然！您可以在 `SignatureLineOptions` 以滿足您的風格和要求。
+絕對地！您可以在 `SignatureLineOptions` 以滿足您的風格和要求。
 
 ### 如果我沒有 PFX 憑證怎麼辦？
 您需要從受信任的證書頒發機構獲取一個證書，因為它對於數位簽署文件至關重要。

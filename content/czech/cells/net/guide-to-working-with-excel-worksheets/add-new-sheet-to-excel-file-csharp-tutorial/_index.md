@@ -1,8 +1,8 @@
 ---
 "description": "Naučte se, jak snadno přidat nový list do souboru Excelu pomocí Aspose.Cells pro .NET. Tato komplexní příručka nabízí podrobný postup, ukázky kódu a užitečné tipy."
-"linktitle": "Nový list do souboru Excelu pomocí programování v C#"
+"linktitle": "Nový list do souboru Excelu pomocí programování v C# – tutoriál"
 "second_title": "Referenční příručka k Aspose.Cells pro .NET API"
-"title": "Nový list do souboru Excelu pomocí programování v C#"
+"title": "Nový list do souboru Excelu pomocí programování v C# – tutoriál"
 "url": "/cs/cells/net/guide-to-working-with-excel-worksheets/add-new-sheet-to-excel-file-csharp-tutorial/"
 "weight": 20
 ---

@@ -20,7 +20,7 @@
 
 Ti è mai capitato di dover creare manualmente decine di fogli di lavoro Excel per report, analisi dati o consegne ai clienti? Non sei il solo: esiste un modo molto migliore per gestire questa attività ripetitiva.
 
-Aggiungere fogli di lavoro ai file Excel tramite codice C# può farti risparmiare ore di lavoro manuale, garantendo al contempo la coerenza tra i tuoi fogli di calcolo. Che tu stia creando sistemi di reporting automatizzati, pipeline di elaborazione dati o applicazioni aziendali personalizzate, saper manipolare i fogli di lavoro Excel tramite codice è un'abilità inestimabile.
+Aggiungere fogli di lavoro ai file Excel in modo programmatico utilizzando C# può farti risparmiare ore di lavoro manuale, garantendo al contempo la coerenza tra i tuoi fogli di calcolo. Che tu stia creando sistemi di reporting automatizzati, pipeline di elaborazione dati o applicazioni aziendali personalizzate, saper manipolare i fogli di lavoro Excel tramite codice è un'abilità inestimabile.
 
 In questa guida completa, ti guideremo attraverso tutto ciò che devi sapere sull'aggiunta di nuovi fogli di lavoro ai file Excel utilizzando Aspose.Cells per .NET. Imparerai non solo il "come", ma anche il "perché" e il "quando", oltre a illustrare errori comuni e best practice che ti faranno risparmiare tempo di debug in futuro.
 
@@ -182,7 +182,7 @@ Aspose.Cells per .NET è una libreria completa che consente di creare, modificar
 
 ### Posso lavorare con file Excel esistenti?
 
-Assolutamente! È possibile caricare file Excel esistenti fornendo i relativi percorsi file al `Workbook` costruttore. Ciò consente di aggiungere fogli di lavoro a file che contengono già dati, formattazione e altri fogli.
+Assolutamente! Puoi caricare file Excel esistenti fornendo i loro percorsi file al `Workbook` costruttore. Ciò consente di aggiungere fogli di lavoro a file che contengono già dati, formattazione e altri fogli.
 
 ### Come faccio ad aggiungere più fogli contemporaneamente?
 

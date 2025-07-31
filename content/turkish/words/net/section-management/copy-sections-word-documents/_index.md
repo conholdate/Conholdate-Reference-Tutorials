@@ -103,7 +103,7 @@ Word belgeleri arasında bölüm kopyalamak, Aspose.Words for .NET ile artık g�
 ### Bölümlerle Birlikte Başlık ve Alt Bilgileri de Kopyalayabilir miyim?
 Evet, Aspose.Words bölümleri içe aktarırken otomatik olarak üstbilgileri, altbilgileri ve diğer bölüme özgü özellikleri ekler.
 
-### Aspose.Words for .NET Eski Word Sürümleriyle Uyumlu mu?
+### Aspose.Words for .NET, Word'ün Eski Sürümleriyle Uyumlu mu?
 Kesinlikle. Eski DOC dosyaları da dahil olmak üzere çok çeşitli formatları destekler.
 
 ### Biçimlendirmeyi Kaybetmeden Belgeler Arası İçeriği Nasıl Kopyalayabilirim?

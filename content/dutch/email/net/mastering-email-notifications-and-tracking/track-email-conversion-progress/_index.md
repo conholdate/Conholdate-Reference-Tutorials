@@ -9,11 +9,11 @@
 
 ## Invoering
 
-Efficiënt e-maildocumenten beheren betekent vaak dat de conversievoortgang moet worden bijgehouden. Aspose.Email voor .NET biedt robuuste tools om dit te bereiken, zodat ontwikkelaars e-mailbewerkingen naadloos kunnen afhandelen. Deze tutorial gaat dieper in op hoe u de conversievoortgang van e-maildocumenten in C# kunt volgen, waarbij het proces stap voor stap wordt uitgelegd voor een beter begrip.  
+Efficiënt e-maildocumenten beheren betekent vaak dat de voortgang van de conversie moet worden bijgehouden. Aspose.Email voor .NET biedt robuuste tools om dit te bereiken, zodat ontwikkelaars e-mailbewerkingen naadloos kunnen afhandelen. Deze tutorial gaat dieper in op hoe je de voortgang van de conversie van e-maildocumenten in C# kunt volgen, waarbij het proces stap voor stap wordt uitgelegd voor een beter begrip.  
 
 ## Vereisten  
 
-Voordat we met de tutorial beginnen, willen we ervoor zorgen dat je alles hebt ingesteld:  
+Voordat we met de tutorial beginnen, willen we ervoor zorgen dat alles is ingesteld:  
 
 1. Aspose.Email voor .NET: Download en installeer de [Aspose.Email voor .NET](https://releases.aspose.com/email/net/) bibliotheek.  
 2. Ontwikkelomgeving: Installeer Visual Studio of een andere .NET-compatibele IDE.  
@@ -23,7 +23,7 @@ Voordat we met de tutorial beginnen, willen we ervoor zorgen dat je alles hebt i
 
 ## Pakketten importeren  
 
-Om Aspose.Email in uw project te gebruiken, moet u de vereiste naamruimten importeren. Voeg de volgende using-instructies bovenaan uw bestand toe:  
+Om Aspose.Email in uw project te gebruiken, moet u de vereiste naamruimten importeren. Voeg de volgende using statements bovenaan uw bestand toe:  
 
 ```csharp
 using Aspose.Email;
@@ -35,7 +35,7 @@ using System.IO;
 
 ## Stap 1: Stel uw project in  
 
-Begin met het maken van een nieuwe C#-consoletoepassing in Visual Studio. Dit dient als basis voor de implementatie van de conversietracking voor e-maildocumenten.  
+Begin met het maken van een nieuwe C#-consoletoepassing in Visual Studio. Dit vormt de basis voor de implementatie van de conversietracking voor e-maildocumenten.  
   
 1. Open Visual Studio en maak een nieuw Console Application-project.  
 2. Installeer het Aspose.Email NuGet-pakket:  
@@ -54,7 +54,7 @@ var fileName = dataDir + "test.eml";
 MailMessage msg = MailMessage.Load(fileName);
 ```
  
-- `dataDir`: Geeft de map aan waar uw e-mailbestand zich bevindt.  
+- `dataDir`: Geeft de map aan waarin uw e-mailbestand zich bevindt.  
 - `MailMessage.Load`: Leest de `.eml` bestand en bereidt het voor op verdere bewerkingen.  
 
 ## Stap 3: Initialiseer een geheugenstroom  
@@ -76,7 +76,7 @@ EmlSaveOptions opt = new EmlSaveOptions(MailMessageSaveType.EmlFormat);
 opt.CustomProgressHandler = new ConversionProgressEventHandler(ShowEmlConversionProgress);
 ```
   
-- `MailMessageSaveType.EmlFormat`: Hiermee geeft u het uitvoerformaat op.  
+- `MailMessageSaveType.EmlFormat`: Geeft het uitvoerformaat aan.  
 - `CustomProgressHandler`: Wijst een aangepaste handlerfunctie toe om de voortgang te bewaken.  
 
 ## Stap 5: Sla de e-mail op in de geheugenstroom  
@@ -91,7 +91,7 @@ Met deze stap start u het e-mailconversieproces en stuurt u updates naar de voor
 
 ## Stap 6: Implementeer de voortgangshandler  
 
-Definieer de `ShowEmlConversionProgress` Methode om voortgangsupdates te verwerken en deze in de console weer te geven.  
+Definieer de `ShowEmlConversionProgress` Methode om voortgangsupdates te verwerken en weer te geven in de console.  
  
 ```csharp
 private static void ShowEmlConversionProgress(ProgressEventHandlerInfo info)
@@ -152,7 +152,7 @@ Overweeg het gebruik van een `FileStream` in plaats van een `MemoryStream` voor 
 ### Wat is een tijdelijk rijbewijs en hoe kom ik eraan?  
 Met een tijdelijke licentie kunt u de volledige functionaliteit van de bibliotheek gratis uitproberen. [hier](https://purchase.aspose.com/temporary-license/).  
 
-### Kan ik deze code in een webapplicatie integreren?  
+### Kan ik deze code integreren in een webapplicatie?  
 Ja, de code is compatibel met webapplicaties die gebruikmaken van ASP.NET of vergelijkbare frameworks.  
 
 ### Waar kan ik aanvullende informatie vinden?  

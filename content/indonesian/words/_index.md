@@ -34,10 +34,10 @@ Kuasai transformasi dokumen mendasar dengan keluaran berkualitas profesional dan
 | **[Konversi DOCX ke EPUB](./essential-guide-document-conversions/convert-docx-to-epub/)** | Penerbitan digital untuk pembaca elektronik dan perangkat seluler | ⭐⭐ Menengah Bahasa Indonesia: |
 | **[Konversi DOCX ke TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Ekstraksi teks biasa untuk pemrosesan dan analisis data | ⭐ Pemula Bahasa Indonesia: |
 | **[Konversi DOCX ke Array Byte](./essential-guide-document-conversions/convert-docx-to-byte-arrays/)** | Penanganan dokumen yang hemat memori untuk aplikasi web | ⭐⭐ Menengah Bahasa Indonesia: |
-| **[Konversi DOC ke DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** | Pembaruan kompatibilitas dan modernisasi format lama | ⭐ Pemula Bahasa Indonesia: |
+| **[Konversi DOC ke DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** Pembaruan kompatibilitas dan modernisasi format lama | ⭐ Pemula Bahasa Indonesia: |
 | **[Konversi DOCX ke MHTML dan Kirim Email](./essential-guide-document-conversions/convert-docx-to-mhtml-send-email/)** | Integrasi email dengan dukungan format kaya | ⭐⭐ Menengah Bahasa Indonesia: |
 | **[Konversi PDF ke JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Ekstraksi gambar berkualitas tinggi dari dokumen PDF | ⭐⭐ Menengah Bahasa Indonesia: |
-| **[Simpan sebagai PDF](./essential-guide-document-conversions/save-as-pdf/)** Penerbitan dokumen profesional dengan opsi lanjutan | ⭐ Pemula |
+| **[Simpan sebagai PDF](./essential-guide-document-conversions/save-as-pdf/)** | Penerbitan dokumen profesional dengan opsi lanjutan | ⭐ Pemula |
 
 ### Pemrosesan Dokumen AI Tingkat Lanjut
 Memanfaatkan kecerdasan buatan yang canggih untuk analisis dokumen cerdas dan pembuatan konten otomatis.
@@ -46,14 +46,14 @@ Memanfaatkan kecerdasan buatan yang canggih untuk analisis dokumen cerdas dan pe
 |----------|-------------|------------Bahasa Indonesia: |
 | **[Menguasai Peringkasan Dokumen dengan Model AI](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Integrasi Google AI untuk peringkasan konten cerdas | ⭐⭐⭐ Lanjutan Bahasa Indonesia: |
 | **[Ringkasan Dokumen yang Efisien dengan Model OpenAI](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Analisis dokumen bertenaga GPT dan wawasan otomatis | ⭐⭐⭐ Lanjutan Bahasa Indonesia: |
-| **[Opsi Ringkasan Dokumen](./advanced-ai-document-processing/summarize-documents-options/)** | Konfigurasi lanjutan untuk pemrosesan konten bertenaga AI | ⭐⭐⭐ Lanjutan |
+| **[Opsi Ringkasan Dokumen](./advanced-ai-document-processing/summarize-documents-options/)** Konfigurasi lanjutan untuk pemrosesan konten bertenaga AI | ⭐⭐⭐ Lanjutan |
 
 ### Menguasai Manajemen Bagian
 Struktur dan organisasi dokumen profesional dengan teknik manipulasi bagian yang canggih.
 
 | Tutorial | Deskripsi | Kesulitan |
 |----------|-------------|------------Bahasa Indonesia: |
-| **[Menambahkan Bagian](./section-management/adding-sections/)** Buat tata letak dokumen terstruktur dengan format profesional | ⭐ Pemula Bahasa Indonesia: |
+| **[Menambahkan Bagian](./section-management/adding-sections/)** | Buat tata letak dokumen terstruktur dengan format profesional | ⭐ Pemula Bahasa Indonesia: |
 | **[Hapus Bagian dari Dokumen Word](./section-management/delete-sections-word-document/)** | Hapus bagian dokumen yang tidak diperlukan secara efisien | ⭐ Pemula Bahasa Indonesia: |
 | **[Tambahkan Bagian Kata Konten](./section-management/append-section-word-content/)** | Gabungkan konten dari beberapa bagian dokumen secara mulus | ⭐⭐ Menengah Bahasa Indonesia: |
 | **[Salin Bagian Antar Dokumen Word](./section-management/copy-sections-word-documents/)** | Mentransfer konten terstruktur antar dokumen berbeda | ⭐⭐ Menengah |
@@ -81,7 +81,7 @@ Pemrosesan dan pengoptimalan gambar profesional untuk penerbitan dokumen dan int
 |----------|-------------|------------Bahasa Indonesia: |
 | **[Kontrol Ambang Ekspos untuk Binarisasi TIFF](./guide-to-image-save-options/expose-threshold-control-for-tiff-binarization-in-word-document/)** | Pemrosesan gambar tingkat lanjut dengan kontrol kualitas khusus | ⭐⭐⭐ Lanjutan Bahasa Indonesia: |
 | **[Dapatkan Rentang Halaman JPEG](./guide-to-image-save-options/get-jpeg-page-range-word-document/)** | Ekstrak halaman dokumen tertentu sebagai gambar berkualitas tinggi | ⭐⭐ Menengah Bahasa Indonesia: |
-| **[Dapatkan Rentang Halaman TIFF](./guide-to-image-save-options/get-tiff-page-range-word-document/)** Ekstraksi gambar profesional dengan optimasi format TIFF | ⭐⭐ Menengah Bahasa Indonesia: |
+| **[Dapatkan Rentang Halaman TIFF](./guide-to-image-save-options/get-tiff-page-range-word-document/)** | Ekstraksi gambar profesional dengan optimasi format TIFF | ⭐⭐ Menengah Bahasa Indonesia: |
 | **[Buat Gambar Terindeks 1Bpp](./guide-to-image-save-options/create-1bpp-indexed/)** | Pemrosesan gambar hemat-ruang untuk pengarsipan dan penyimpanan | ⭐⭐ Menengah Bahasa Indonesia: |
 | **[Panggilan Balik Penyimpanan Halaman](./guide-to-image-save-options/page-saving-callback-word-document/)** | Pemrosesan halaman khusus dengan pembuatan gambar otomatis | ⭐⭐⭐ Lanjutan |
 
@@ -90,7 +90,7 @@ Penanganan metadata yang komprehensif dan manipulasi properti dokumen untuk mana
 
 | Tutorial | Deskripsi | Kesulitan |
 |----------|-------------|------------Bahasa Indonesia: |
-| **[Hapus Properti Dokumen Kustom](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** | Bersihkan metadata dokumen dan optimalkan organisasi file | ⭐ Pemula |
+| **[Hapus Properti Dokumen Kustom](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** Bersihkan metadata dokumen dan optimalkan organisasi file | ⭐ Pemula |
 
 ## 🎯 Kasus Penggunaan Populer
 
@@ -106,7 +106,7 @@ Penanganan metadata yang komprehensif dan manipulasi properti dokumen untuk mana
 
 ### **Solusi Integrasi Perusahaan**
 - **Aplikasi Web**: : Hasilkan dokumen secara dinamis dari antarmuka web dan database
-- **Otomatisasi Email**: Buat konten email yang kaya dengan dokumen dan format tertanam
+- **Otomatisasi Email**Buat konten email yang kaya dengan dokumen dan format tertanam
 - **Pengembangan API**:Membangun layanan mikro yang berpusat pada dokumen dan jalur pemrosesan otomatis
 
 ## 📊 Rekomendasi Jalur Pembelajaran

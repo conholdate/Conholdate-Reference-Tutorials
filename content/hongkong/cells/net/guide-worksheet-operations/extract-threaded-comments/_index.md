@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用 Aspose.Cells for .NET 高效提取線程註釋，釋放 Excel 文件的全部潛力。本教學將逐步指導您。"
+"description": "透過學習如何使用 Aspose.Cells for .NET 高效提取線程註釋，釋放 Excel 文件的全部潛力。本綜合教學將逐步引導您完成操作。"
 "linktitle": "提取工作表中的線索評論"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "提取工作表中的線索評論"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-在數位時代，文件管理和協作對我們的工作流程至關重要。 Excel 電子表格通常包含豐富的數據和見解，其中經常包含提供額外背景資訊或建議的註釋。使用 Aspose.Cells for .NET，可以無縫提取和處理執行緒註解。本教學將引導您完成從 Excel 工作表中高效檢索線程註釋的步驟，無論您的程式設計經驗如何。 
+在數位時代，文件的管理和協作對於我們的工作流程至關重要。 Excel 電子表格通常包含豐富的數據和見解，經常包含提供額外背景資訊或建議的註釋。使用 Aspose.Cells for .NET，可以無縫提取和處理執行緒註解。本教學將引導您完成從 Excel 工作表中有效檢索線程註釋的步驟，無論您是否有程式設計經驗。 
 
 ## 先決條件
 在開始編碼之前，請確保您具備以下條件：
@@ -47,7 +47,7 @@ Workbook workbook = new Workbook(sourceDir + "ThreadedCommentsSample.xlsx");
 ```
 
 ## 步驟 3：訪問工作表
-載入工作簿後，請造訪包含主題評論的特定工作表。在本例中，我們將存取第一個工作表。
+載入工作簿後，請訪問包含線程評論的特定工作表。對於此範例，我們將存取第一個工作表。
 
 ```csharp
 // 訪問第一個工作表
@@ -55,7 +55,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
 
 ## 步驟 4：取得主題評論
-現在，從特定單元格中檢索已討論的評論。本例中，我們將目標儲存格「A1」。
+現在，從特定單元格中檢索線程評論。在這個例子中，我們將以儲存格「A1」為目標。
 
 ```csharp
 // 獲取主題評論
@@ -82,7 +82,7 @@ Console.WriteLine("ReadThreadedComments executed successfully.");
 ```
 
 ## 結論
-恭喜！您已成功使用 Aspose.Cells for .NET 從 Excel 工作表中擷取主題註解。只需幾行程式碼，即可從 Excel 文件中獲得有價值的見解，增強團隊內部的溝通與協作。
+恭喜！您已成功使用 Aspose.Cells for .NET 從 Excel 工作表中擷取執行緒註解。只需幾行程式碼，您就可以從 Excel 文件中獲得有價值的見解，增強團隊內的溝通和協作。
 
 ## 常見問題解答
 
@@ -93,10 +93,10 @@ Aspose.Cells 是一個功能強大的程式庫，可讓開發人員在 .NET 應�
 您可以從他們的 [發布頁面在這裡](https://releases。aspose.com/cells/net/).
 
 ### 有免費試用嗎？
-是的！ Aspose.Cells 提供免費試用。您可以找到 [這裡](https://releases。aspose.com/).
+是的！ Aspose.Cells 提供免費試用。你可以找到它 [這裡](https://releases。aspose.com/).
 
 ### 我可以獲得 Aspose.Cells 的支援嗎？
-當然！您可以訪問 [Aspose 支援論壇](https://forum。aspose.com/c/cells/9).
+絕對地！您可以透過訪問 [Aspose 支援論壇](https://forum。aspose.com/c/cells/9).
 
 ### 哪裡可以買到 Aspose.Cells？
 如果您決定購買 Aspose.Cells，您可以這樣做 [這裡](https://purchase。aspose.com/buy).

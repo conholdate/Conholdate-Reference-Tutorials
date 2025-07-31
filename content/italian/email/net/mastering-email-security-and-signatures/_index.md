@@ -9,7 +9,7 @@
 
 ## Introduzione 
 
-Hai mai pensato a quanto sia facile per qualcuno manomettere le tue email? Senza adeguate misure di sicurezza, le email sono vulnerabili a spoofing e falsificazione. È qui che entra in gioco DomainKeys Identified Mail (DKIM). DKIM garantisce l'autenticazione delle tue email, proteggendo la reputazione del tuo brand e tenendo a bada i fastidiosi criminali informatici.  
+Hai mai pensato a quanto potrebbe essere facile per qualcuno manomettere le tue email? Senza adeguate misure di sicurezza, le email sono vulnerabili a spoofing e falsificazione. È qui che entra in gioco DomainKeys Identified Mail (DKIM). DKIM garantisce l'autenticazione delle tue email, proteggendo la reputazione del tuo brand e tenendo a bada i fastidiosi criminali informatici.  
 
 ## Firma delle email con DKIM in C#  
 

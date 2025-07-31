@@ -1,14 +1,15 @@
 ---
-title: Dominando as linhas de base de atribuição com Aspose.Tasks para .NET
-linktitle: Gerenciando a linha de base de atribuição no Aspose.Tasks
-second_title: Aspose.Tarefas .NET API
-description: Aprenda a gerenciar linhas de base de tarefas de forma eficiente usando o Aspose.Tasks para .NET. Este guia passo a passo abrange o carregamento de projetos, a configuração de linhas de base, a recuperação de dados, a comparação de linhas de base e muito mais para otimizar os fluxos de trabalho de gerenciamento de projetos.
-weight: 14
-url: /pt/tasks/master-advanced-features/mastering-assignment-baseline/
+"description": "Aprenda a gerenciar linhas de base de tarefas com eficiência usando o Aspose.Tasks para .NET. Este guia passo a passo aborda o carregamento de projetos, a definição de linhas de base, a recuperação de dados, a comparação de linhas de base e muito mais para otimizar os fluxos de trabalho de gerenciamento de projetos."
+"linktitle": "Gerenciando a linha de base de atribuições no Aspose.Tasks"
+"second_title": "API Aspose.Tasks .NET"
+"title": "Dominando as linhas de base de atribuição com Aspose.Tasks para .NET"
+"url": "/pt/tasks/net/master-advanced-features/mastering-assignment-baseline/"
+"weight": 14
 ---
+
 ## Introdução
 
-gerenciamento eficiente de projetos depende do rastreamento e gerenciamento precisos de linhas de base de atribuição. Com o Aspose.Tasks para .NET, você ganha um kit de ferramentas robusto para agilizar o manuseio de linhas de base de atribuição para melhores insights do projeto. Neste artigo, nós o orientamos no processo de gerenciamento de linhas de base de atribuição, garantindo que seus projetos permaneçam no caminho certo.
+eficiência do gerenciamento de projetos depende do acompanhamento e gerenciamento precisos das linhas de base das atribuições. Com o Aspose.Tasks para .NET, você obtém um conjunto de ferramentas robusto para otimizar o gerenciamento das linhas de base das atribuições e obter melhores insights sobre o projeto. Neste artigo, orientamos você no processo de gerenciamento das linhas de base das atribuições, garantindo que seus projetos permaneçam no caminho certo.
 
 ## Pré-requisitos
 
@@ -16,7 +17,7 @@ Antes de mergulhar na implementação, certifique-se de ter o seguinte:
 
 - Conhecimento em programação: Familiaridade básica com C#.
 - Ambiente de desenvolvimento: Visual Studio instalado e configurado.
--  Biblioteca Aspose.Tasks para .NET: Baixe em[Lançamentos do Aspose.Tasks](https://releases.aspose.com/tasks/net/).
+- Biblioteca Aspose.Tasks para .NET: Baixe em [Lançamentos do Aspose.Tasks](https://releases.aspose.com/tasks/net/).
 - Arquivo de projeto: acesso a um arquivo de projeto no formato MPP.
 
 ## Importar namespaces necessários
@@ -28,9 +29,9 @@ using Aspose.Tasks;
 using System;
 ```
 
-## Etapa 1: Carregue um projeto e defina linhas de base
+## Etapa 1: Carregar um projeto e definir linhas de base
 
-Carregar um projeto e definir uma linha de base é fundamental para gerenciar linhas de base de atribuição. O código a seguir demonstra como carregar um projeto e estabelecer sua linha de base.
+Carregar um projeto e definir uma linha de base é fundamental para gerenciar as linhas de base das atribuições. O código a seguir demonstra como carregar um projeto e estabelecer sua linha de base.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -43,7 +44,7 @@ Console.WriteLine("Baseline has been set successfully.");
 
 ## Etapa 2: recuperar dados de linha de base da atribuição
 
-Você pode extrair informações de linha de base detalhadas para cada atribuição de recurso. Veja como fazer isso:
+Você pode extrair informações básicas detalhadas para cada atribuição de recurso. Veja como fazer isso:
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -58,7 +59,7 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Etapa 3: Compare as linhas de base entre as atribuições
+## Etapa 3: comparar as linhas de base entre as atribuições
 
 O Aspose.Tasks permite que você compare programaticamente linhas de base para avaliar diferenças entre atribuições de recursos.
 
@@ -75,7 +76,7 @@ Console.WriteLine("Are the baselines equal? " + areEqual);
 
 ## Etapa 4: Modifique os detalhes da linha de base programaticamente
 
-Você pode modificar programaticamente os dados de base para atender às necessidades em evolução do projeto:
+Você pode modificar programaticamente os dados de base para atender às necessidades evolutivas do projeto:
 
 ```csharp
 var assignment = project.ResourceAssignments.GetByUid(3);
@@ -90,7 +91,7 @@ Console.WriteLine("Modified Baseline Work: " + baseline.Work);
 
 ## Conclusão
 
-Gerenciar linhas de base de atribuição de forma eficaz é essencial para manter o controle sobre cronogramas e orçamentos de projetos. O Aspose.Tasks for .NET equipa você com as ferramentas necessárias para lidar com linhas de base com precisão, permitindo a tomada de decisões orientada por dados.
+Gerenciar as linhas de base das tarefas com eficácia é essencial para manter o controle sobre os cronogramas e orçamentos dos projetos. O Aspose.Tasks para .NET equipa você com as ferramentas necessárias para lidar com as linhas de base com precisão, permitindo a tomada de decisões baseada em dados.
 
 ## Perguntas frequentes
 
@@ -98,13 +99,13 @@ Gerenciar linhas de base de atribuição de forma eficaz é essencial para mante
 Sim, o Aspose.Tasks suporta múltiplas linhas de base, proporcionando flexibilidade no rastreamento de várias versões do projeto.
 
 ### O Aspose.Tasks é compatível com arquivos de projeto não MPP?  
-Absolutamente. Aspose.Tasks suporta formatos como XML, MPX e mais.
+Com certeza. O Aspose.Tasks suporta formatos como XML, MPX e outros.
 
 ### Posso automatizar atualizações de linha de base?  
-Sim, a API permite modificações dinâmicas e automatizadas na linha de base programaticamente.
+Sim, a API permite modificações dinâmicas e automatizadas de linha de base programaticamente.
 
 ### O Aspose.Tasks fornece dados de linha de base com fases no tempo?  
-Sim, dados de linha de base detalhados e divididos em fases podem ser recuperados e analisados.
+Sim, dados de base detalhados e divididos em fases podem ser recuperados e analisados.
 
 ### Onde posso acessar suporte e documentação?  
- Visita[Documentação do Aspose.Tasks](https://reference.aspose.com/words/net/)ou junte-se ao[Fórum de suporte Aspose](https://forum.aspose.com/c/words/8) para obter assistência. 
+Visita [Documentação do Aspose.Tasks](https://reference.aspose.com/words/net/) ou junte-se ao [Fórum de Suporte Aspose](https://forum.aspose.com/c/words/8) para assistência.

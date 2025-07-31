@@ -57,7 +57,7 @@ using (Document doc = new Document(inFile))
 }
 ```
 
-Mithilfe der `using` Anweisung stellt sicher, dass Ressourcen nach Abschluss der Vorgänge automatisch freigegeben werden.
+Verwenden des `using` Anweisung stellt sicher, dass Ressourcen nach Abschluss der Vorgänge automatisch freigegeben werden.
 
 ## Schritt 3: Auf Seiteninhalte zugreifen und mit dem Zeichnen beginnen
 

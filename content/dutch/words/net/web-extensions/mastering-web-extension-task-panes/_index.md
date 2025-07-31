@@ -29,9 +29,9 @@ using Aspose.Words;
 using Aspose.Words.WebExtensions;
 ```
 
-## Stap 1: Definieer de documentmap  
+## Stap 1: Definieer de documentdirectory  
 
-Definieer de map waar het Word-document wordt gemaakt en opgeslagen:  
+Definieer de map waarin het Word-document wordt gemaakt en opgeslagen:  
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY_PATH";
@@ -72,7 +72,7 @@ taskPane.Width = 300;
 
 - DockState: bepaalt waar het taakvenster wordt weergegeven (bijvoorbeeld rechts, links).  
 - IsVisible: zorgt ervoor dat het deelvenster zichtbaar is voor de gebruiker.  
-- Breedte: Hiermee stelt u de breedte van het deelvenster in pixels in.
+- Breedte: Hiermee stelt u de breedte van het venster in pixels in.
 
 ## Stap 5: Definieer webextensiereferentie  
 
@@ -87,7 +87,7 @@ taskPane.WebExtension.Reference.Store = "en-US";
 
 - Id: Unieke identificatie voor de webextensie.  
 - Versie: Geeft de versie van de extensie aan.  
-- StoreType: Geeft het brontype aan (bijvoorbeeld OMEX voor Office Marketplace).  
+- StoreType: Geeft het brontype aan (bijv. OMEX voor Office Marketplace).  
 - Winkel: Definieert de taal- of regiocode.
 
 ## Stap 6: Eigenschappen toevoegen aan de webextensie  
@@ -111,8 +111,8 @@ taskPane.WebExtension.Bindings.Add(
 ```
 
 - Bindingsnaam: Een unieke naam voor de binding.  
-- Bindingstype: definieert het type binding (bijvoorbeeld tekst).  
-- Binding-ID: identificeert de gebonden inhoud.
+- Bindingstype: definieert het type binding (bijv. tekst).  
+- Bindings-ID: identificeert de gebonden inhoud.
 
 ## Stap 8: Sla het document op  
 
@@ -140,7 +140,7 @@ Hiermee worden de details van elk taakvenster in de console weergegeven.
 
 ## Conclusie  
 
-Integratie van taakvensters met Web Extension in Word-documenten met Aspose.Words voor .NET transformeert statische documenten in dynamische, interactieve interfaces. Door deze tutorial te volgen, kunt u taakvensters naadloos configureren en beheren, wat zorgt voor robuuste verbeteringen voor gebruikers.
+Integratie van Web Extension-taakvensters in Word-documenten met Aspose.Words voor .NET transformeert statische documenten in dynamische, interactieve interfaces. Door deze tutorial te volgen, kunt u taakvensters naadloos configureren en beheren, wat zorgt voor robuuste verbeteringen voor gebruikers.
 
 ## Veelgestelde vragen  
 
@@ -150,8 +150,8 @@ Een taakvenster verbetert Word-documenten door zijpanelen te voorzien van extra 
 ### Kunnen taakvensters worden aangepast?  
 Ja, eigenschappen zoals breedte, zichtbaarheid en dockingstatus kunnen worden aangepast voor een op maat gemaakte gebruikerservaring.
 
-### Hoe werken webextensie-eigenschappen?  
-Ze definiëren metagegevens of instellingen voor de webextensie, waardoor dynamisch gedrag mogelijk is.
+### Hoe werken Web Extension Properties?  
+Ze definiëren metagegevens of instellingen voor de webextensie, waardoor dynamisch gedrag mogelijk wordt.
 
 ### Is het nodig om het taakvenster aan het document te koppelen?  
 Bindingen koppelen het taakvenster aan specifieke secties in het document, waardoor de contextuele functionaliteit wordt verbeterd.

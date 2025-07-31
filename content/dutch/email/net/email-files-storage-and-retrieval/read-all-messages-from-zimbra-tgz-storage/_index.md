@@ -69,7 +69,7 @@ while (reader.ReadNextMessage())
     string directoryName = reader.CurrentDirectory;
     MailMessage eml = reader.CurrentMessage;
 
-    // De directorynaam en het e-mailonderwerp weergeven
+    // Geef de directorynaam en het e-mailonderwerp weer
     Console.WriteLine($"Directory: {directoryName}");
     Console.WriteLine($"Subject: {eml.Subject}");
 }
@@ -89,7 +89,7 @@ In deze tutorial hebben we onderzocht hoe je efficiënt berichten kunt lezen uit
 Ja, Aspose.Email voor .NET is een commerciële bibliotheek. Er is echter een gratis proefversie beschikbaar, zodat u de functies kunt uitproberen voordat u tot aankoop overgaat.
 
 ### Kan ik Aspose.Email voor .NET gebruiken met andere programmeertalen?
-Aspose.Email voor .NET is specifiek ontworpen voor het .NET Framework. Als u andere programmeertalen gebruikt, overweeg dan eens de mogelijkheden van Aspose.Email voor Java en andere platforms.
+Aspose.Email voor .NET is specifiek ontworpen voor het .NET Framework. Als u andere programmeertalen gebruikt, overweeg dan eens om de mogelijkheden van Aspose.Email voor Java en andere platforms te bekijken.
 
 ### Zijn er beperkingen aan de grootte van het TGZ-bestand dat kan worden verwerkt?
 Aspose.Email voor .NET kan TGZ-bestanden van verschillende grootten verwerken, maar de prestaties zijn afhankelijk van de bestandsgrootte en de beschikbare systeembronnen.

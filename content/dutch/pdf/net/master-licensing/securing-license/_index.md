@@ -1,5 +1,5 @@
 ---
-"description": "Leer hoe u uw licentie in een PDF-bestand kunt vastleggen met Aspose.PDF voor .NET met deze gedetailleerde, stapsgewijze handleiding. Ontgrendel geavanceerde functies en zorg voor compliance."
+"description": "Leer hoe u uw licentie in een PDF-bestand kunt vastleggen met Aspose.PDF voor .NET met deze gedetailleerde, stapsgewijze handleiding. Ontgrendel geavanceerde functies en zorg voor naleving."
 "linktitle": "Licentie beveiligen in PDF-bestand"
 "second_title": "Aspose.PDF voor .NET API-referentie"
 "title": "Licentie beveiligen in PDF-bestand"
@@ -18,7 +18,7 @@ Voordat u begint, moet u ervoor zorgen dat u het volgende heeft:
 1. Visual Studio: Geïnstalleerd op uw computer voor het schrijven en uitvoeren van .NET-code.
 2. Aspose.PDF voor .NET: Download de bibliotheek van de [Aspose PDF-releases](https://releases.aspose.com/pdf/net/).
 3. Basiskennis van C#: Kennis van C#-programmering helpt u de code te begrijpen.
-4. Licentiebestand: Verkrijg uw Aspose-licentiebestand. Als u er geen heeft, kunt u een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor testen.
+4. Licentiebestand: Verkrijg uw Aspose-licentiebestand. Als u er geen heeft, kunt u een aanvraag indienen. [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor testen.
 
 ## Pakketten importeren
 
@@ -81,7 +81,7 @@ pdfDocument.Pages.Add();
 pdfDocument.Save("TestDocument.pdf");
 ```
 
-- Document pdfDocument: maakt een nieuw PDF-document.
+- Document pdfDocument: Maakt een nieuw PDF-document.
 - pdfDocument.Pages.Add(): Voegt een nieuwe pagina toe aan het document.
 - pdfDocument.Save(): Slaat het document op naar het opgegeven pad.
 
@@ -95,7 +95,7 @@ Het beveiligen van uw licentie in Aspose.PDF voor .NET is een eenvoudig proces d
 Aspose.PDF voor .NET is een krachtige bibliotheek waarmee ontwikkelaars PDF-documenten in .NET-toepassingen kunnen maken, bewerken en converteren.
 
 ### Hoe krijg ik een tijdelijke licentie voor Aspose.PDF?
-U kunt een tijdelijke licentie verkrijgen door de website te bezoeken [tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
+U kunt een tijdelijke vergunning verkrijgen door naar de website te gaan [tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
 
 ### Kan ik Aspose.PDF gratis gebruiken?
 Aspose biedt een gratis proefversie aan waarmee u de bibliotheek kunt uitproberen voordat u een licentie aanschaft.

@@ -27,7 +27,7 @@ Innan vi går in på koden, låt oss förstå när PDF/A-bilagor är vettiga. PD
 
 - **Juridisk dokumentation** där stödjande bevis behöver kombineras med primära dokument
 - **Forskningsartiklar** kräver datamängder, kompletterande material eller rådatafiler
-- **Rapportering om efterlevnad** där källfiler måste åtfölja bearbetade rapporter
+- **Efterlevnadsrapportering** där källfiler måste åtfölja bearbetade rapporter
 - **Arkivsystem** behöver allt relaterat material i ett enda, standardkompatibelt paket
 
 Den största fördelen? Allt samlas i en enda fil samtidigt som det uppfyller strikta arkivkrav som säkerställer att dina dokument förblir tillgängliga i årtionden framöver.

@@ -23,9 +23,9 @@ Tin tốt là gì? **Aspose.PDF cho .NET** Biến việc lập trình tài liệ
 
 ## Tại sao nên chọn tạo PDF theo chương trình?
 
-Thành thật mà nói, việc tạo PDF thủ công hoặc dựa vào các công cụ của bên thứ ba không phải là giải pháp khả thi. Khi bạn phải xử lý hàng trăm (hoặc hàng nghìn) tài liệu, nội dung động hoặc các yêu cầu kinh doanh phức tạp, bạn cần một mã nguồn hoạt động đáng tin cậy mọi lúc.
+Thành thật mà nói, việc tạo PDF thủ công hoặc dựa vào các công cụ của bên thứ ba không phải là giải pháp khả thi. Khi xử lý hàng trăm (hoặc hàng nghìn) tài liệu, nội dung động hoặc các yêu cầu kinh doanh phức tạp, bạn cần một mã nguồn hoạt động đáng tin cậy mọi lúc.
 
-Sau đây là những gì giải pháp tạo PDF theo chương trình có thể giải quyết:
+Sau đây là những gì giải pháp tạo PDF theo chương trình giải quyết:
 - **Sự nhất quán**: Mọi tài liệu đều tuân theo cùng một định dạng và kiểu dáng
 - **Tự động hóa**: Tự động tạo báo cáo mà không cần sự can thiệp của con người  
 - **Nội dung động**: Lấy dữ liệu từ cơ sở dữ liệu và API theo thời gian thực
@@ -36,14 +36,14 @@ Sau đây là những gì giải pháp tạo PDF theo chương trình có thể 
 
 Trước khi tìm hiểu các tính năng nâng cao, hãy cùng tìm hiểu điều gì làm nên sự đặc biệt của Aspose.PDF for .NET. Thư viện này không chỉ tạo tài liệu tĩnh – nó còn cho phép bạn kiểm soát hoàn toàn mọi khía cạnh của tệp PDF, từ việc sắp xếp văn bản cơ bản đến các thành phần tương tác phức tạp.
 
-Ưu điểm của phương pháp này là bạn có thể bắt đầu từ những tính năng đơn giản và dần dần bổ sung các tính năng phức tạp hơn khi nhu cầu tăng lên. Hầu hết các nhà phát triển đều nhận thấy họ có thể tạo tài liệu PDF đầu tiên chỉ trong vài phút, sau đó dành thời gian tinh chỉnh các tính năng nâng cao giúp ứng dụng của họ nổi bật.
+Điểm hay của phương pháp này là bạn có thể bắt đầu từ những tính năng đơn giản và dần dần bổ sung các tính năng phức tạp hơn khi nhu cầu tăng lên. Hầu hết các nhà phát triển đều nhận thấy họ có thể tạo tài liệu PDF đầu tiên chỉ trong vài phút, sau đó dành thời gian tinh chỉnh các tính năng nâng cao giúp ứng dụng của họ nổi bật.
 
 ## Khả năng lập trình PDF cốt lõi
 
 ### Các hoạt động tài liệu thiết yếu
 Thư viện Aspose.PDF for .NET cung cấp cho các nhà phát triển những công cụ mạnh mẽ để tạo, chỉnh sửa và nâng cao tài liệu PDF theo chương trình. Cho dù bạn đang thêm văn bản, hình ảnh, bảng biểu hay triển khai các tính năng bảo mật, thư viện này đều giúp đơn giản hóa việc xử lý PDF phức tạp.
 
-Điểm khác biệt của thư viện này là cách tiếp cận toàn diện trong việc xử lý PDF. Bạn không bị giới hạn ở việc chèn văn bản cơ bản – bạn có thể tạo ra các tài liệu phong phú, tương tác, sánh ngang với bất kỳ tài liệu nào được tạo bằng phần mềm xuất bản trên máy tính để bàn.
+Điểm khác biệt của thư viện này là cách tiếp cận toàn diện trong việc xử lý PDF. Bạn không bị giới hạn ở việc chèn văn bản cơ bản – bạn có thể tạo ra các tài liệu phong phú, tương tác, sánh ngang với bất kỳ tài liệu nào được tạo bằng phần mềm xuất bản trên máy tính.
 
 ### Quản lý nội dung nâng cao
 Khi bạn cần vượt ra ngoài khả năng tạo PDF cơ bản, Aspose.PDF sẽ đáp ứng. Thư viện này vượt trội trong việc xử lý các tình huống phức tạp như tích hợp đa phương tiện, nội dung nhiều lớp và tạo bảng động. Điều này có nghĩa là bạn có thể xây dựng mọi thứ, từ báo cáo đơn giản đến danh mục tương tác với video nhúng và các thành phần có thể nhấp chuột.
@@ -113,7 +113,7 @@ Khi tích hợp việc tạo PDF vào các ứng dụng hiện có, xung đột 
 Xử lý lỗi mạnh mẽ là yếu tố then chốt cho các ứng dụng PDF thương mại. Triển khai các khối try-catch toàn diện xung quanh các thao tác PDF và cung cấp thông báo lỗi hữu ích giúp gỡ lỗi.
 
 ### Quản lý cấu hình
-Lưu các cài đặt liên quan đến PDF trong các tệp cấu hình thay vì mã hóa cứng chúng. Điều này giúp dễ dàng điều chỉnh các thông số như kích thước trang, lề và cài đặt chất lượng mà không cần biên dịch lại ứng dụng.
+Lưu các cài đặt liên quan đến PDF trong các tệp cấu hình thay vì mã hóa cứng chúng. Điều này giúp bạn dễ dàng điều chỉnh các thông số như kích thước trang, lề và cài đặt chất lượng mà không cần biên dịch lại ứng dụng.
 
 ### Kiểm tra và Xác nhận
 Luôn kiểm tra logic tạo PDF của bạn với nhiều dữ liệu đầu vào và trường hợp ngoại lệ khác nhau. Việc kết xuất PDF có thể nhạy cảm với các ký tự bất thường, tập dữ liệu lớn và các loại nội dung khác nhau.

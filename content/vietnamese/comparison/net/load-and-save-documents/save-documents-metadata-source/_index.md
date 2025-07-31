@@ -1,21 +1,22 @@
 ---
-title: Lưu Nguồn Siêu Dữ Liệu Tài Liệu trong So Sánh GroupDocs cho .NET
-linktitle: Lưu nguồn siêu dữ liệu tài liệu trong GroupDocs So sánh cho .NET
-second_title: API GroupDocs.So sánh .NET
-description: Mở khóa toàn bộ tiềm năng so sánh tài liệu trong các ứng dụng .NET của bạn bằng cách tận dụng GroupDocs Comparison for .NET. Hướng dẫn từng bước này hướng dẫn bạn cách so sánh tài liệu một cách dễ dàng, đồng thời tập trung vào việc lưu nguồn siêu dữ liệu tài liệu.
-weight: 14
-url: /vi/comparison/load-and-save-documents/save-documents-metadata-source/
+"description": "Khai phá toàn bộ tiềm năng so sánh tài liệu trong các ứng dụng .NET của bạn bằng cách tận dụng GroupDocs Comparison for .NET. Hướng dẫn từng bước này sẽ hướng dẫn bạn so sánh tài liệu một cách dễ dàng, đồng thời tập trung vào việc lưu trữ nguồn siêu dữ liệu tài liệu."
+"linktitle": "Lưu nguồn siêu dữ liệu tài liệu trong GroupDocs So sánh cho .NET"
+"second_title": "API GroupDocs.Comparison .NET"
+"title": "Lưu nguồn siêu dữ liệu tài liệu trong So sánh GroupDocs cho .NET"
+"url": "/vi/comparison/net/load-and-save-documents/save-documents-metadata-source/"
+"weight": 14
 ---
+
 ## Giới thiệu
 
-Trong phát triển phần mềm, đặc biệt là trong các ngành như pháp lý, tài chính và giáo dục, khả năng so sánh tài liệu hiệu quả là tối quan trọng. GroupDocs Comparison for .NET cung cấp giải pháp mạnh mẽ để so sánh tài liệu liền mạch trong các ứng dụng .NET của bạn. Hướng dẫn này sẽ hướng dẫn bạn cách sử dụng thư viện mạnh mẽ này để lưu nguồn siêu dữ liệu tài liệu, đảm bảo bạn tối đa hóa khả năng của nó cho các tác vụ so sánh tài liệu của mình.
+Trong phát triển phần mềm, đặc biệt là trong các ngành như pháp lý, tài chính và giáo dục, khả năng so sánh tài liệu hiệu quả là vô cùng quan trọng. GroupDocs Comparison for .NET cung cấp một giải pháp mạnh mẽ để so sánh tài liệu liền mạch trong các ứng dụng .NET của bạn. Hướng dẫn này sẽ hướng dẫn bạn cách sử dụng thư viện mạnh mẽ này để lưu nguồn siêu dữ liệu tài liệu, đảm bảo bạn tối đa hóa khả năng của nó cho các tác vụ so sánh tài liệu.
 
 ## Điều kiện tiên quyết
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập những điều sau:
+Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập xong những điều sau:
 
 1. Môi trường phát triển: Môi trường phát triển .NET đã sẵn sàng trên máy của bạn.
-2. Cài đặt So sánh GroupDocs: Tải xuống và cài đặt So sánh GroupDocs cho .NET từ[địa điểm](https://releases.groupdocs.com/comparison/net/).
+2. Cài đặt So sánh GroupDocs: Tải xuống và cài đặt So sánh GroupDocs cho .NET từ [địa điểm](https://releases.groupdocs.com/comparison/net/).
 3. Tệp tài liệu: Chuẩn bị tệp tài liệu nguồn và đích mà bạn muốn so sánh.
 4. Kiến thức cơ bản về C#: Sự quen thuộc với những kiến thức cơ bản về lập trình C# sẽ giúp bạn hiểu được các đoạn mã được cung cấp.
 
@@ -35,18 +36,18 @@ using GroupDocs.Comparison.Options;
 Đầu tiên, hãy chỉ định nơi lưu tài liệu đã so sánh và tên của tài liệu đó:
 
 ```csharp
-string outputDirectory = "Your Document Directory"; // ví dụ, "C:\\Documents"
+string outputDirectory = "Your Document Directory"; // ví dụ: "C:\\Documents"
 string outputFileName = Path.Combine(outputDirectory, "RESULT.docx");
 ```
 
-## Bước 2: Khởi tạo đối tượng Comparer
+## Bước 2: Khởi tạo đối tượng so sánh
 
- Tạo một`Comparer` ví dụ sử dụng đường dẫn đến tài liệu nguồn của bạn:
+Tạo một `Comparer` thể hiện bằng cách sử dụng đường dẫn đến tài liệu nguồn của bạn:
 
 ```csharp
 using (Comparer comparer = new Comparer("SOURCE.docx"))
 ```
- Điều này khởi tạo`Comparer` đối tượng, cung cấp nền tảng để bạn so sánh tài liệu.
+Điều này khởi tạo `Comparer` đối tượng, cung cấp nền tảng để bạn so sánh tài liệu.
 
 ## Bước 3: Thêm tài liệu mục tiêu
 
@@ -64,11 +65,11 @@ Bây giờ là lúc thực hiện so sánh và lưu nguồn siêu dữ liệu t�
 ```csharp
 comparer.Compare(outputFileName, new SaveOptions() { CloneMetadataType = MetadataType.Source });
 ```
- Ở đây,`Compare`phương pháp so sánh các tài liệu nguồn và mục tiêu. Bằng cách sử dụng`CloneMetadataType`, bạn đảm bảo rằng siêu dữ liệu từ tài liệu nguồn được giữ lại.
+Ở đây, `Compare` phương pháp so sánh các tài liệu nguồn và đích. Bằng cách sử dụng `CloneMetadataType`, bạn đảm bảo rằng siêu dữ liệu từ tài liệu nguồn được giữ lại.
 
 ## Bước 5: Hiển thị thông báo đầu ra
 
-Sau khi so sánh hoàn tất, hãy cung cấp phản hồi về thao tác:
+Sau khi so sánh xong, hãy cung cấp phản hồi về thao tác:
 
 ```csharp
 Console.WriteLine($"\nDocuments compared successfully.\nCheck output in {outputDirectory}.");
@@ -77,7 +78,7 @@ Thông báo này xác nhận việc so sánh thành công và cho biết nơi t�
 
 ## Phần kết luận
 
-GroupDocs Comparison for .NET là một công cụ vô giá cho các tác vụ so sánh tài liệu trong các ứng dụng .NET. Bằng cách làm theo hướng dẫn này, bạn đã học được cách lưu nguồn siêu dữ liệu tài liệu hiệu quả, nâng cao quy trình so sánh tài liệu và năng suất chung của bạn.
+So sánh GroupDocs cho .NET là một công cụ vô cùng hữu ích cho các tác vụ so sánh tài liệu trong các ứng dụng .NET. Bằng cách làm theo hướng dẫn này, bạn đã học được cách lưu trữ nguồn siêu dữ liệu tài liệu một cách hiệu quả, nâng cao quy trình so sánh tài liệu và năng suất tổng thể.
 
 ## Câu hỏi thường gặp
 
@@ -87,7 +88,7 @@ Có, nó hỗ trợ nhiều định dạng khác nhau, bao gồm DOCX, PDF, PPTX
 
 ### Có phiên bản dùng thử không?
 
- Bạn có thể truy cập phiên bản dùng thử từ[đây](https://releases.groupdocs.com/).
+Bạn có thể truy cập phiên bản dùng thử từ [đây](https://releases.groupdocs.com/).
 
 ### Tôi có thể tùy chỉnh định dạng đầu ra của các tài liệu được so sánh không?
 
@@ -95,8 +96,8 @@ Chắc chắn rồi! So sánh GroupDocs cho phép tùy chỉnh rộng rãi đị
 
 ### Người dùng có được hỗ trợ kỹ thuật không?
 
- Có, bạn có thể tìm kiếm sự hỗ trợ thông qua[diễn đàn hỗ trợ](https://forum.groupdocs.com/c/comparison/12).
+Có, bạn có thể tìm kiếm sự hỗ trợ thông qua [diễn đàn hỗ trợ](https://forum.groupdocs.com/c/comparison/12).
 
 ### Tôi có thể mua giấy phép ở đâu?
 
- Có thể mua giấy phép từ trang web GroupDocs[đây](https://purchase.groupdocs.com/buy).
+Có thể mua giấy phép từ trang web GroupDocs [đây](https://purchase.groupdocs.com/buy).

@@ -1,5 +1,5 @@
 ---
-"description": "Ontgrendel je potentieel als ontwikkelaar met deze uitgebreide handleiding voor Aspose.PDF voor .NET. Leer hoe je moeiteloos PDF-documenten programmatisch kunt maken, bewerken en manipuleren. Deze tutorial behandelt de vereisten en stapsgewijze instructies."
+"description": "Ontgrendel je potentieel als ontwikkelaar met deze uitgebreide gids voor Aspose.PDF voor .NET. Leer hoe je moeiteloos PDF-documenten programmatisch kunt maken, bewerken en manipuleren. Deze tutorial behandelt de vereisten en stapsgewijze instructies."
 "linktitle": "Handleiding voor het instellen van een licentie met behulp van ingebedde bronnen"
 "second_title": "Aspose.PDF voor .NET API-referentie"
 "title": "Handleiding voor het instellen van een licentie met behulp van ingebedde bronnen"
@@ -17,7 +17,7 @@ Voordat we in de code duiken, moet u ervoor zorgen dat u het volgende hebt:
 
 1. Visual Studio: uw IDE voor deze tutorial.
 2. .NET Framework: Controleer of u de juiste versie hebt geïnstalleerd voor compatibiliteit.
-3. Aspose.PDF Bibliotheek: Download de bibliotheek van de [Aspose PDF voor .NET-releasespagina](https://releases.aspose.com/pdf/net/)Er is ook een gratis proefperiode beschikbaar als u het eerst wilt uitproberen.
+3. Aspose.PDF Bibliotheek: Download de bibliotheek van de [Aspose PDF voor .NET-releasepagina](https://releases.aspose.com/pdf/net/)Er is ook een gratis proefversie beschikbaar als u het eerst wilt uitproberen.
 4. Basiskennis van C#: Kennis van C# helpt u de gegeven voorbeelden beter te begrijpen.
 
 ## De benodigde pakketten importeren
@@ -35,14 +35,14 @@ using System.Linq;
 using System.Text;
 ```
 
-Nu Aspose.PDF in uw project is geïntegreerd, kunnen we verder met licenties.
+Nu Aspose.PDF in uw project is geïntegreerd, kunnen we verder met de licentieverlening.
 
 ## Stap 1: Uw documentenmap voorbereiden
 
 Eerst moet u het pad naar de documentenmap opgeven waar de PDF-bestanden worden opgeslagen.
 
 ```csharp
-// Stel het pad in naar uw documentenmap.
+// Stel het pad naar uw documentenmap in.
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
 
@@ -50,7 +50,7 @@ Vervangen `"YOUR_DOCUMENT_DIRECTORY"` met het daadwerkelijke pad waar u uw PDF-b
 
 ## Stap 2: Initialiseer het licentieobject
 
-moet een exemplaar van de maken `License` klasse van Aspose.PDF. Dit object wordt gebruikt om uw licentiebestand te laden.
+U moet een exemplaar van de maken `License` klasse van Aspose.PDF. Dit object wordt gebruikt om uw licentiebestand te laden.
 
 ```csharp
 // Initialiseer het licentieobject
@@ -68,7 +68,7 @@ Laten we nu de licentie zo instellen dat Aspose.PDF zonder beperkingen kan werke
 license.SetLicense("MergedAPI.Aspose.Total.lic");
 ```
 
-Zorg ervoor dat u bijwerkt `"MergedAPI.Aspose.Total.lic"` zodat deze overeenkomt met uw daadwerkelijke licentiebestandsnaam. Het instellen van de licentie is essentieel om alle functies van de Aspose.PDF-bibliotheek te ontgrendelen.
+Zorg ervoor dat u bijwerkt `"MergedAPI.Aspose.Total.lic"` zodat deze overeenkomt met de naam van uw daadwerkelijke licentiebestand. Het instellen van de licentie is essentieel om alle functies van de Aspose.PDF-bibliotheek te ontgrendelen.
 
 ## Stap 4: Bevestig de licentie-instelling
 
@@ -82,7 +82,7 @@ Met deze bevestiging wordt gecontroleerd of alles goed functioneert.
 
 ## Conclusie
 
-Gefeliciteerd! Je hebt Aspose.PDF voor .NET succesvol geïnstalleerd. Met deze krachtige bibliotheek ben je nu in staat om als een professional PDF-documenten te maken, bewerken en bewerken. Vergeet niet dat oefening essentieel is om elke tool onder de knie te krijgen, dus voel je vrij om de verschillende functies van Aspose.PDF te verkennen.
+Gefeliciteerd! Je hebt Aspose.PDF voor .NET succesvol geïnstalleerd. Met deze krachtige bibliotheek ben je nu in staat om als een professional PDF-documenten te maken, bewerken en manipuleren. Vergeet niet dat oefening essentieel is om elke tool onder de knie te krijgen, dus voel je vrij om de verschillende functies van Aspose.PDF te verkennen.
 
 ## Veelgestelde vragen
 

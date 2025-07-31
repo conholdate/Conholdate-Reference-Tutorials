@@ -20,7 +20,7 @@ Kapsamlı eğitim koleksiyonumuzla Aspose.Words for .NET'in gücünü keşfedin.
 - **📄 Biçim Desteği**: DOC, DOCX, RTF, HTML, PDF, EPUB, TXT, Markdown ve daha fazlası
 - **🔄 Dönüşümler**: Farklı belge biçimleri arasında kusursuz dönüşüm
 - **🤖 Yapay Zeka Entegrasyonu**: Gelişmiş belge özetleme ve içerik analizi
-- **📊 Posta Birleştirme**Veri kaynaklarından dinamik belge oluşturma
+- **📊 Posta Birleştirme**: Veri kaynaklarından dinamik belge oluşturma
 - **🎨 Biçimlendirme**: Belge stili ve düzeni üzerinde tam kontrol
 
 ## 📚 Eğitim Kategorileri
@@ -35,7 +35,7 @@ Adım adım dönüştürme kılavuzlarımızla en yaygın belge dönüştürme g
 | **[Word'den PDF'e Dönüştürme](./essential-guide-document-conversions/convert-word-to-pdf/)** | Biçimlendirme korumasıyla profesyonel PDF oluşturma | ⭐ Başlangıç |
 | **[DOCX'i TXT'ye dönüştürün](./essential-guide-document-conversions/convert-docx-to-txt/)** | Word belgelerinden düz metin içeriğini çıkarın | ⭐ Başlangıç |
 | **[Metin Dosyalarını Word Belgelerine Dönüştürün](./essential-guide-document-conversions/convert-text-files-to-word-documents/)** | Düz metni yapılandırılmış Word belgelerine dönüştürün | ⭐ Başlangıç |
-| **[PDF'yi Word Belgesine Dönüştür](./essential-guide-document-conversions/convert-pdf-to-word/)** PDF'leri Word formatına dönüştürerek düzenlenebilir hale getirin | ⭐⭐ Orta |
+| **[PDF'yi Word Belgesine Dönüştür](./essential-guide-document-conversions/convert-pdf-to-word/)** | PDF'leri Word formatına dönüştürerek düzenlenebilir hale getirin | ⭐⭐ Orta |
 | **[PDF'yi JPEG'e dönüştür](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | PDF belgelerinden yüksek kaliteli görseller çıkarın | ⭐⭐ Orta seviye |
 
 ### Gelişmiş Belge Dönüştürmeleri
@@ -54,7 +54,7 @@ Belge işleme iş akışlarınızı geliştirmek için son teknoloji yapay zeka 
 | Eğitim | Açıklama | Zorluk |
 |----------|-------------|------------|
 | **[Yapay Zeka Modelleriyle Belge Özetlemede Ustalaşma](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Yapay zeka destekli içerik analizi ve özetleme | ⭐⭐⭐ Gelişmiş |
-| **[Google AI Modelleri ile Belge Özetleme](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** | Akıllı belge işleme için Google AI'yı entegre edin | ⭐⭐⭐ Gelişmiş |
+| **[Google AI Modelleri ile Belge Özetleme](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** Akıllı belge işleme için Google AI'yı entegre edin | ⭐⭐⭐ Gelişmiş |
 | **[OpenAI Modelleriyle Verimli Belge Özetleme](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Belge içgörüleri için OpenAI GPT modellerini kullanın | ⭐⭐⭐ Gelişmiş |
 | **[Belgeleri Özetleme Seçenekleri](./advanced-ai-document-processing/summarize-documents-options/)** | Özetleme tekniklerine dair kapsamlı rehber | ⭐⭐⭐ İleri |
 
@@ -129,7 +129,7 @@ Belge işleme iş akışlarınızı geliştirmek için son teknoloji yapay zeka 
 - **[İndirmek](https://releases.aspose.com/words/net/)** - Tüm özellikleri değerlendirin
 
 ### **Topluluk ve Destek**
-- **[Destek Forumu](https://forum.aspose.com/c/words/8)** - Uzmanlardan yardım alın
+- **[Destek Forumu](https://forum.aspose.com/c/words/8)** Uzmanlardan yardım alın
 
 ### **Lisanslama ve Denemeler**
 - **[Geçici Lisans](https://purchase.conholdate.com/temporary-license/)** - Genişletilmiş değerlendirme

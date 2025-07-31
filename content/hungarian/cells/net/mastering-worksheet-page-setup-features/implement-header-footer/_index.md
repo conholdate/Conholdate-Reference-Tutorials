@@ -146,7 +146,7 @@ A fejlécek és láblécek testreszabása az Excel-munkafüzetekben fokozza a do
 Igen, az Aspose.Cells lehetővé teszi egyedi betűtípusok megadását a fejléc és a lábléc minden szakaszához.
 
 ### Hogyan távolíthatom el a fejléceket és a lábléceket?
-Töröld a fejléceket és lábléceket úgy, hogy a szövegüket üres karakterláncra állítod a következő használatával: `SetHeader` vagy `SetFooter`.
+Törölje a fejléceket és lábléceket úgy, hogy a szövegüket üres karakterláncra állítja a következő használatával: `SetHeader` vagy `SetFooter`.
 
 ### Beszúrhatok képeket fejlécekbe vagy láblécekbe az Aspose.Cells for .NET segítségével?
 Jelenleg az Aspose.Cells elsősorban a fejlécekben és láblécekben lévő szöveget támogatja. A képekhez alternatív módszerekre lehet szükség, például közvetlenül a munkalapba való beszúrásra.

@@ -74,7 +74,7 @@ PageSetup pageSetup = worksheet.PageSetup;
 
 ## Schritt 6: Ränder festlegen
 
-Mit dem `PageSetup` Objekt fertig, Sie können jetzt die Ränder in Zoll angeben:
+Mit der `PageSetup` Objekt fertig, Sie können jetzt die Ränder in Zoll angeben:
 
 ```csharp
 pageSetup.BottomMargin = 2; // Unteren Rand festlegen

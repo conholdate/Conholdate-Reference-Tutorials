@@ -85,7 +85,7 @@ Definieren Sie zunächst den Pfad zum Verzeichnis, in dem sich Ihre CGM-Datei be
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-**Bewährte Methode**: Verwenden Sie nach Möglichkeit absolute Pfade, um Verwirrung bezüglich der Dateispeicherorte zu vermeiden. Wenn Sie mehrere Dateien verarbeiten, sollten Sie separate Eingabe- und Ausgabeverzeichnisse erstellen.
+**Bewährte Vorgehensweise**: Verwenden Sie nach Möglichkeit absolute Pfade, um Verwirrung bezüglich der Dateispeicherorte zu vermeiden. Wenn Sie mehrere Dateien verarbeiten, sollten Sie separate Eingabe- und Ausgabeverzeichnisse erstellen.
 
 ### Schritt 2: Instanziieren der Ladeoptionen
 

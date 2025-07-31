@@ -1,8 +1,8 @@
 ---
 "description": "Aprenda a configurar el orden de páginas en Excel con Aspose.Cells para .NET. Esta guía paso a paso muestra cómo imprimir primero en las filas y luego en las columnas, garantizando que sus hojas de cálculo grandes se vean ordenadas en el papel."
-"linktitle": "Implementar la configuración del orden de páginas en la hoja de trabajo"
+"linktitle": "Implementar la configuración de orden de páginas en la hoja de trabajo"
 "second_title": "API de procesamiento de Excel Aspose.Cells .NET"
-"title": "Implementar la configuración del orden de páginas en la hoja de trabajo"
+"title": "Implementar la configuración de orden de páginas en la hoja de trabajo"
 "url": "/es/cells/net/mastering-worksheet-page-setup-features/implement-page-order-settings/"
 "weight": 24
 ---

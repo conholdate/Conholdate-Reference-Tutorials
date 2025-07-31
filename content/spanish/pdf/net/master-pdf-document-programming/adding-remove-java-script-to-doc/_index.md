@@ -183,7 +183,7 @@ Al trabajar con JavaScript en archivos PDF, seguir estas prácticas recomendadas
 
 ## Solución de problemas comunes
 
-**JavaScript no se ejecuta**Compruebe que el visor de PDF sea compatible con JavaScript y que esté habilitado en la configuración del visor. Algunos entornos corporativos deshabilitan JavaScript para PDF por motivos de seguridad.
+**JavaScript no se ejecuta**Compruebe que el visor de PDF sea compatible con JavaScript y que esté habilitado en la configuración del visor. Algunos entornos corporativos deshabilitan JavaScript para PDF por razones de seguridad.
 
 **Funciones no encontradas**Verifique que los nombres de las funciones estén escritos correctamente y coincidan exactamente entre su definición y su llamada. JavaScript en archivos PDF distingue entre mayúsculas y minúsculas.
 

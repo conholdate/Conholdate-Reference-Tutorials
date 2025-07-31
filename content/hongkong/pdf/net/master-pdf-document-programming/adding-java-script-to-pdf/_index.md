@@ -2,7 +2,7 @@
 "categories":
 - "PDF Programming"
 "date": "2025-01-02"
-"description": "學習如何使用 Aspose.PDF for .NET 將 JavaScript 新增到 PDF C# 中。建立具有彈出視窗、自動列印和自訂操作的互動式 PDF。包含完整的程式碼範例。"
+"description": "了解如何使用 Aspose.PDF for .NET 將 JavaScript 新增至 PDF C#。使用彈出視窗、自動列印和自訂操作建立互動式 PDF。包含完整的程式碼範例。"
 "lastmod": "2025-01-02"
 "linktitle": "新增 JavaScript PDF C#"
 "second_title": "Aspose.PDF for .NET API參考"
@@ -19,9 +19,9 @@
 
 ## 介紹
 
-您是否想過如何將 JavaScript 添加到 PDF C# 應用程式以建立真正互動的文件？您來對地方了！無論您需要自動列印功能、自訂警報或動態用戶交互，將 JavaScript 新增至 PDF 都可以將靜態文件轉換為引人入勝的互動式體驗。
+有沒有想過如何將 JavaScript 加入 PDF C# 應用程式來建立真正互動的文件？您來對地方了！無論您需要自動列印功能、自訂警報還是動態用戶交互，將 JavaScript 添加到您的 PDF 都可以將靜態文件轉變為引人入勝的交互式體驗。
 
-本指南全面展示如何使用 Aspose.PDF for .NET 將 JavaScript 新增至 PDF 檔案。我們將涵蓋從基本的彈出警報到高級自動列印功能的所有內容，以及您在其他地方找不到的故障排除技巧和最佳實踐。
+本綜合指南向您展示如何使用 Aspose.PDF for .NET 將 JavaScript 新增至 PDF 檔案。我們將涵蓋從基本彈出警報到高級自動列印功能的所有內容，以及您在其他地方找不到的故障排除技巧和最佳實踐。
 
 在本教程結束時，您將建立互動式 PDF 文檔，該文檔可以響應用戶操作、自動觸發行為並提供比標準 PDF 更豐富的用戶體驗。
 
@@ -48,7 +48,7 @@
 - 開發環境（建議使用Visual Studio）
 - 用於測試的範例 PDF 檔案（或者我們將建立一個）
 
-**專業提示**：如果您剛開始，請從 [releases.aspose.com](http://releases.aspose.com)。對於生產工作，請考慮取得臨時許可證，以避免開發過程中的任何限制。
+**專業提示**：如果您剛開始，請從 [releases.aspose.com](http://releases.aspose.com)。對於生產工作，請考慮取得臨時許可證以避免開發過程中的任何限制。
 
 ## 導入必要的套件
 
@@ -73,13 +73,13 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
-**這裡發生了什麼事？** 我們正在創建一個 `Document` 代表記憶體中 PDF 檔案的物件。替換 `"YOUR DOCUMENT DIRECTORY"` 使用您的 PDF 檔案的實際路徑。
+**這裡發生了什麼事？** 我們正在創建一個 `Document` 代表記憶體中的 PDF 檔案的物件。代替 `"YOUR DOCUMENT DIRECTORY"` 使用您的 PDF 檔案的實際路徑。
 
 **現實世界背景**：當您處理現有文件（如表單、報告或任何需要在建立後添加互動功能的 PDF）時，這種方法非常適合。
 
 ## 步驟 2：在文件層級新增 JavaScript
 
-現在到了令人興奮的部分——添加當有人打開你的 PDF 時觸發的 JavaScript。這對於自動列印功能非常有用：
+現在到了令人興奮的部分——添加當有人打開您的 PDF 時觸發的 JavaScript。這對於自動列印功能非常有用：
 
 ```csharp
 JavascriptAction javaScript = new JavascriptAction("this.print({bUI:true,bSilent:false,bShrinkToFit:true});");
@@ -97,7 +97,7 @@ doc.OpenAction = javaScript;
 
 ## 步驟 3：在頁面層級新增 JavaScript
 
-有時您需要更精細的控制。以下是如何將 JavaScript 新增到特定頁面：
+有時您需要更精細的控制。以下是向特定頁面新增 JavaScript 的方法：
 
 ```csharp
 doc.Pages[2].Actions.OnOpen = new JavascriptAction("app.alert('Page 2 opened')");
@@ -126,14 +126,14 @@ doc.Save(dataDir);
 Console.WriteLine("\nJavaScript added successfully to the PDF.\nFile saved at " + dataDir);
 ```
 
-這 `Save()` 此方法會建立新的互動式 PDF 檔案。原始檔案保持不變，因此您始終擁有備份。
+這 `Save()` 方法建立您的新的互動式 PDF 檔案。原始檔案保持不變，因此您始終有備份。
 
 ## 常見用例和進階場景
 
 讓我們來探討一些將 JavaScript 添加到 PDF C# 應用程式真正發揮作用的實際場景：
 
 ### 自動列印商業文件
-非常適合需要立即列印的發票、運輸標籤或收據。我們之前介紹的自動列印 JavaScript 可以完美地處理這些情況。
+非常適合需要立即列印的發票、運輸標籤或收據。我們之前介紹的自動列印 JavaScript 可以完美地處理這個問題。
 
 ### 表單驗證和使用者指南
 雖然我們沒有新增新的程式碼範例，但您可以使用類似的 JavaScript 操作來驗證表單欄位、顯示有用的工具提示或引導使用者完成複雜的表單。
@@ -210,25 +210,25 @@ JavaScript 可以根據使用者選擇顯示或隱藏內容，讓您的 PDF 更�
 
 ## 結論
 
-使用 Aspose.PDF for .NET 將 JavaScript 新增至 PDF C# 應用程序，為建立互動式、使用者友善的文件開闢了無限可能。無論您是要實現自動列印功能、建立動態表單或增強使用者導航，本指南中涵蓋的技術都能為您提供堅實的基礎。
+使用 Aspose.PDF for .NET 將 JavaScript 新增至 PDF C# 應用程式為建立互動式、使用者友善的文件開闢了無限可能。無論您是實現自動列印功能、建立動態表單或增強使用者導航，本指南涵蓋的技術都能為您提供堅實的基礎。
 
-請記住，成功實現 PDF JavaScript 的關鍵在於了解使用者環境並進行徹底的測試。從簡單的互動（例如我們介紹的自動列印範例）開始，然後根據需要逐步建立更複雜的功能。
+請記住，成功實施 PDF JavaScript 的關鍵是了解使用者的環境並進行徹底的測試。從簡單的互動開始，例如我們介紹的自動列印範例，然後根據需要逐步建立更複雜的功能。
 
 Aspose.PDF 強大的 API 與 JavaScript 的互動性相結合，為您提供了創建真正引人入勝的 PDF 體驗的工具，讓您從靜態文件中脫穎而出。
 
 ## 常見問題
 
 ### 我可以為 PDF 中的不同頁面新增多個 JavaScript 操作嗎？
-當然！您可以為各個頁面指派不同的 JavaScript 操作，也可以在文件層級套用它們。每個頁面都可以有自己的 `OnOpen` 和 `OnClose` 操作，讓您可以對整個文件中的使用者互動進行細粒度的控制。
+絕對地！您可以為各個頁面指派不同的 JavaScript 操作或在文件層級套用它們。每個頁面都可以有自己的 `OnOpen` 和 `OnClose` 操作，讓您可以對整個文件中的使用者互動進行細粒度的控制。
 
 ### 添加 JavaScript 後是否可以從 PDF 中刪除它？
-是的，您可以透過清除 `Actions` 文檔或特定頁面的屬性。只需設定 `doc.OpenAction = null` 用於文檔級操作或 `doc.Pages[pageNumber].Actions.OnOpen = null` 用於頁面層級操作。
+是的，您可以透過清除 `Actions` 文檔或特定頁面的屬性。簡單設定 `doc.OpenAction = null` 用於文檔級操作或 `doc.Pages[pageNumber].Actions.OnOpen = null` 用於頁面層級操作。
 
 ### 我可以在 PDF 中使用哪些類型的 JavaScript 函數？
 您可以使用 Adobe Acrobat 的 JavaScript 引擎支援的任何 JavaScript，包括列印功能（`this.print()`)、警報（`app.alert()`)、表單欄位操作、數學計算和字串操作。然而，它是完整 JavaScript 的子集——沒有 DOM 操作或 Web API。
 
 ### JavaScript 是否適用於所有 PDF 檢視器？
-大多數 JavaScript 操作在支援互動式 PDF 的 PDF 檢視器（例如 Adobe Acrobat 和 Adobe Reader）中均可運作。但是，一些基本的 PDF 閱讀器（例如某些瀏覽器內建程式或行動應用程式）可能不支援 JavaScript。請務必在目標使用者常用的檢視器中測試您的互動式 PDF。
+大多數 JavaScript 操作在支援互動式 PDF 的 PDF 檢視器中運行，例如 Adobe Acrobat 和 Adobe Reader。但是，基本的 PDF 閱讀器（如某些瀏覽器內建程式或行動應用程式）可能不支援 JavaScript。始終在目標使用者的首選檢視器中測試您的互動式 PDF。
 
 ### 我可以調試 PDF 文件中的 JavaScript 嗎？
-由於 PDF JavaScript 運行在 PDF 檢視器環境中，因此調試它可能會比較困難。 Adobe Acrobat Pro 提供了一個 JavaScript 控制台用於調試。對於開發，可以從簡單的 `app.alert()` 語句來驗證您的程式碼是否正在執行，然後在測試每個步驟時逐漸建立複雜性。
+調試 PDF JavaScript 可能具有挑戰性，因為它在 PDF 檢視器的環境中運行。 Adobe Acrobat Pro 提供了一個用於調試的 JavaScript 控制台。對於開發，從簡單的開始 `app.alert()` 語句來驗證您的程式碼是否正在執行，然後在測試每個步驟時逐漸建立複雜性。

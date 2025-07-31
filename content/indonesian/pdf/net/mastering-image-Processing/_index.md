@@ -30,7 +30,7 @@ Thumbnail bagaikan pratinjau singkat bab-bab dalam buku—bermanfaat dan menarik
 
 Butuh gambar biner berkualitas tinggi dari PDF Anda? Algoritma Binarisasi Bradley siap membantu. Algoritma ini mengonversi halaman PDF menjadi gambar TIFF hitam-putih yang tajam, sempurna untuk tugas-tugas seperti pengarsipan dokumen atau OCR. Aspose.PDF untuk .NET membuat penerapan algoritma ini sangat mudah. [Pelajari proses langkah demi langkah](./bradley-binarization-algorithm/) dan membawa pemrosesan dokumen Anda ke tingkat berikutnya.
 
-## Menguasai Tutorial Pengolahan Gambar
+## Tutorial Menguasai Pengolahan Gambar
 | Judul | Deskripsi |
 | --- | --- Bahasa Indonesia: | 
 | [Menambahkan Gambar Dalam File PDF](./adding-image/) Pelajari cara menambahkan gambar ke berkas PDF secara terprogram dengan Aspose.PDF untuk .NET. Tutorial komprehensif ini mencakup setiap langkah, mulai dari menyiapkan lingkungan hingga merender gambar pada halaman tertentu.  

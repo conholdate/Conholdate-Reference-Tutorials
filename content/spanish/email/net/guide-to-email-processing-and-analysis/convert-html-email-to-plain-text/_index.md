@@ -130,7 +130,7 @@ doc.Save("plain_text.txt", SaveFormat.Text);
 
 Esta línea toma nuestro documento (que ahora contiene el contenido HTML analizado) y lo guarda como un `.txt` archivo con todo el marcado HTML eliminado. El `SaveFormat.Text` El parámetro le dice a Aspose.Words que genere texto puro sin ningún código de formato.
 
-**Resultado**:Ahora tienes una `plain_text.txt` ¡Archivo que contiene todo el contenido de texto de su correo electrónico HTML, con un formato limpio y listo para usar!
+**Resultado**:Ahora tienes un `plain_text.txt` ¡Archivo que contiene todo el contenido de texto de su correo electrónico HTML, con un formato limpio y listo para usar!
 
 ## Problemas comunes y soluciones
 

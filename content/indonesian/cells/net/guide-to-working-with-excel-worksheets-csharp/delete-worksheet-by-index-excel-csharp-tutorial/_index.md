@@ -253,7 +253,7 @@ Lain kali Anda menghadapi file Excel yang berantakan dengan lusinan lembar kerja
 ## Pertanyaan yang Sering Diajukan
 
 ### Apa itu Aspose.Cells dan mengapa menggunakannya untuk otomatisasi Excel?
-Aspose.Cells adalah pustaka .NET canggih yang memungkinkan pengembang membuat, membaca, memodifikasi, dan mengonversi berkas Excel tanpa perlu menginstal Microsoft Excel. Pustaka ini ideal untuk aplikasi sisi server dan pemrosesan Excel otomatis.
+Aspose.Cells adalah pustaka .NET canggih yang memungkinkan pengembang membuat, membaca, memodifikasi, dan mengonversi berkas Excel tanpa perlu menginstal Microsoft Excel. Aspose.Cells ideal untuk aplikasi sisi server dan pemrosesan Excel otomatis.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells dalam produksi?
 Ya, Aspose.Cells memerlukan lisensi untuk penggunaan komersial. Namun, Anda dapat memulai dengan uji coba gratis yang tersedia. [Di Sini](https://releases.aspose.com/) untuk mengevaluasi semua fitur sebelum membeli.

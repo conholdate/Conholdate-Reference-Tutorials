@@ -9,7 +9,7 @@
 
 ## Invoering
 
-In de wereld van digitale communicatie zijn e-mailheaders een essentieel onderdeel dat belangrijke metadata over een e-mail bevat, waaronder informatie over afzender en ontvanger, onderwerp en tijdstempels. Het extraheren van deze informatie kan nuttig zijn voor diverse toepassingen, van het analyseren van de authenticiteit van e-mails tot het categoriseren en volgen van berichten. In deze handleiding leiden we u door het proces van het extraheren van e-mailheaders met behulp van Aspose.Email voor .NET, een krachtige bibliotheek die is ontworpen voor naadloze verwerking van e-mailberichten.
+In de wereld van digitale communicatie zijn e-mailheaders een essentieel onderdeel dat belangrijke metadata over een e-mail bevat, waaronder informatie over afzender en ontvanger, onderwerp en tijdstempels. Het extraheren van deze informatie kan nuttig zijn voor diverse toepassingen, van het analyseren van de authenticiteit van e-mails tot het categoriseren en volgen van berichten. In deze handleiding leiden we u door het proces van het extraheren van e-mailheaders met Aspose.Email voor .NET, een krachtige bibliotheek die is ontworpen voor naadloze verwerking van e-mailberichten.
 
 ## Installatie
 
@@ -79,7 +79,7 @@ string mimeVersion = message.Headers["MIME-Version"];
 string contentType = message.Headers["Content-Type"];
 ```
 
-## Gebruikmaken van geëxtraheerde headergegevens
+## Gebruik van geëxtraheerde headergegevens
 
 Nu u de benodigde informatie hebt verzameld, kunt u deze effectief gebruiken:
 
@@ -96,7 +96,7 @@ foreach (var header in message.Headers)
 
 ## Conclusie
 
-Het extraheren van e-mailheaders is een essentiële vaardigheid voor iedereen die met e-mailverwerkingsapplicaties werkt. Met Aspose.Email voor .NET wordt dit proces beter beheersbaar en efficiënter. Door de stappen in deze handleiding te volgen, kunt u met vertrouwen waardevolle e-mailheaderinformatie extraheren en gebruiken in uw C#-applicaties.
+Het extraheren van e-mailheaders is een essentiële vaardigheid voor iedereen die met e-mailverwerkingsapplicaties werkt. Met Aspose.Email voor .NET wordt dit proces beter beheersbaar en efficiënter. Door de stappen in deze handleiding te volgen, kunt u vol vertrouwen waardevolle e-mailheaderinformatie extraheren en gebruiken in uw C#-applicaties.
 
 ## Veelgestelde vragen
 
@@ -109,7 +109,7 @@ Install-Package Aspose.Email
 
 ### Kan ik meerdere exemplaren van dezelfde header uit een e-mail halen?
 
-Ja, u kunt de `GetValues` Methode om meerdere instanties van een header te extraheren:
+Ja, u kunt de `GetValues` Methode om meerdere exemplaren van een header te extraheren:
 ```csharp
 var receivedHeaders = message.Headers.GetValues("Received");
 ```
@@ -124,4 +124,4 @@ kunt voorwaardelijke controles op de headers uitvoeren. Om bijvoorbeeld urgente 
 
 ### Waar kan ik de Aspose.Email-documentatie raadplegen en de bibliotheek downloaden?
 
-Vind uitgebreide documentatie op [Aspose.Email Documentatie](https://reference.aspose.com/email/net/)Om de bibliotheek te downloaden, ga naar [Aspose-releases](https://releases.aspose.com/email/net/).
+Vind uitgebreide documentatie op [Aspose.Email Documentatie](https://reference.aspose.com/email/net/)Om de bibliotheek te downloaden, bezoek [Aspose-releases](https://releases.aspose.com/email/net/).

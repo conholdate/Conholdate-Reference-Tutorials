@@ -31,7 +31,7 @@ using Aspose.Cells;
 
 ## Stap 1: Een aangepaste globalisatie-instellingenklasse maken
 
-In deze stap gaan we een aangepaste `GlobalizationSettings` klasse voor het beheren van de vertaling van fout- en Booleaanse waarden naar het Russisch.
+In deze stap definiëren we een aangepaste `GlobalizationSettings` klasse om de vertaling van fout- en Booleaanse waarden naar het Russisch te beheren.
 
 ```csharp
 public class RussianGlobalization : GlobalizationSettings
@@ -60,9 +60,9 @@ public class RussianGlobalization : GlobalizationSettings
 
 In de `RussianGlobalization` klasse, we hebben de `GetErrorValueString` En `GetBooleanValueString` Methoden om de gewenste Russische vertalingen voor specifieke fout- en Booleaanse waarden te leveren.
 
-## Stap 2: Laad het spreadsheet en stel de globalisatie-instellingen in
+## Stap 2: Laad het spreadsheet en stel de globaliseringsinstellingen in
 
-Vervolgens laden we het bronbestand en passen we onze `RussianGlobalization` klasinstellingen.
+Vervolgens laden we het bronspreadsheet en passen we onze `RussianGlobalization` klasinstellingen.
 
 ```csharp
 // Stel mappen in voor bron en uitvoer
@@ -92,7 +92,7 @@ wb.Save(outputDir + "outputRussianGlobalization.pdf");
 
 ## Stap 4: Voer de code uit
 
-Om de code uit te voeren, maakt u een nieuwe consoletoepassing of een klassenbibliotheekproject in de door u gekozen .NET IDE. Neem de code uit de vorige stappen op en voer de volgende methode uit:
+Om de code uit te voeren, maakt u een nieuwe consoletoepassing of een klassebibliotheekproject in de door u gekozen .NET IDE. Neem de code uit de vorige stappen op en voer de volgende methode uit:
 
 ```csharp
 public class ImplementErrorsAndBooleanValueInRussian 
@@ -116,13 +116,13 @@ Nadat u deze code hebt uitgevoerd, vindt u de PDF-uitvoer in de opgegeven uitvoe
 
 ## Conclusie
 
-In deze tutorial hebben we onderzocht hoe je aangepaste fout- en Booleaanse waarden kunt implementeren in een specifieke taal, Russisch, met behulp van Aspose.Cells voor .NET. Door een aangepaste `GlobalizationSettings` Door de klasse te integreren en de benodigde methoden te overschrijven, integreerden we de vereiste vertalingen naadloos in onze spreadsheetverwerkingsworkflow. Deze aanpak kan eenvoudig worden uitgebreid met ondersteuning voor extra talen, waardoor Aspose.Cells voor .NET een veelzijdige keuze is voor internationale data-analyse en rapportage.
+In deze tutorial hebben we onderzocht hoe je aangepaste fout- en Booleaanse waarden kunt implementeren in een specifieke taal, Russisch, met behulp van Aspose.Cells voor .NET. Door een aangepaste `GlobalizationSettings` Door de klasse te integreren en de benodigde methoden te overschrijven, integreerden we de vereiste vertalingen probleemloos in onze spreadsheetverwerkingsworkflow. Deze aanpak kan eenvoudig worden uitgebreid met ondersteuning voor extra talen, waardoor Aspose.Cells voor .NET een veelzijdige keuze is voor internationale data-analyse en rapportage.
 
 ## Veelgestelde vragen
 
-### Wat is de `GlobalizationSettings` klasse gebruikt in Aspose.Cells voor .NET?
+### Wat is de `GlobalizationSettings` klasse gebruikt voor in Aspose.Cells voor .NET?
 
-`GlobalizationSettings` Hiermee kunt u aanpassen hoe foutwaarden, Booleaanse waarden en andere landspecifieke informatie in uw spreadsheets worden weergegeven. Deze functie is met name handig voor internationale doelgroepen of voor het presenteren van gegevens in specifieke talen.
+`GlobalizationSettings` Hiermee kunt u aanpassen hoe foutwaarden, Booleaanse waarden en andere landspecifieke informatie in uw spreadsheets worden weergegeven. Deze functie is vooral handig voor internationale doelgroepen of voor het presenteren van gegevens in specifieke talen.
 
 ### Kan ik gebruiken `RussianGlobalization` met andere Aspose.Cells-functies?
 

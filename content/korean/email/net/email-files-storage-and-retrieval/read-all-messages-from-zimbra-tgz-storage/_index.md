@@ -86,12 +86,12 @@ while (reader.ReadNextMessage())
 ## 자주 묻는 질문
 
 ### Aspose.Email for .NET은 유료 라이브러리인가요?
-네, Aspose.Email for .NET은 상용 라이브러리입니다. 하지만 무료 평가판을 제공하여 구매 전에 기능을 직접 체험해 보실 수 있습니다.
+네, Aspose.Email for .NET은 상용 라이브러리입니다. 하지만 무료 평가판을 제공하여 구매 전에 기능을 평가해 보실 수 있습니다.
 
 ### Aspose.Email for .NET을 다른 프로그래밍 언어와 함께 사용할 수 있나요?
 Aspose.Email for .NET은 .NET 프레임워크용으로 특별히 설계되었습니다. 다른 프로그래밍 언어를 사용하는 경우, Java 및 기타 플랫폼용 Aspose.Email을 살펴보는 것을 고려해 보세요.
 
-### 처리할 수 있는 TGZ 파일 크기에 제한이 있나요?
+### 처리할 수 있는 TGZ 파일의 크기에 제한이 있나요?
 .NET용 Aspose.Email은 다양한 크기의 TGZ 파일을 처리할 수 있지만, 성능은 파일 크기와 사용 가능한 시스템 리소스에 따라 달라질 수 있습니다.
 
 ### Aspose.Email for .NET을 사용하여 이메일 메시지에서 첨부 파일을 추출할 수 있나요?

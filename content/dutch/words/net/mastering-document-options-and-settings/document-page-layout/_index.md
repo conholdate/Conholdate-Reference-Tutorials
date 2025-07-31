@@ -51,7 +51,7 @@ doc.FirstSection.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 
 ## Stap 3: Definieer tekens per regel
 
-Het is cruciaal om de uniformiteit van het uiterlijk van uw document te behouden. Stel het aantal tekens per regel als volgt in:
+Het is cruciaal om de weergave van uw document uniform te houden. Stel het aantal tekens per regel als volgt in:
 
 ```csharp
 doc.FirstSection.PageSetup.CharactersPerLine = 30;

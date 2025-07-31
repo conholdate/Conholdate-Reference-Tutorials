@@ -129,7 +129,7 @@
 - **[نسخة تجريبية مجانية](https://releases.aspose.com/cells/net/)** - تقييم الميزات الكاملة
 
 ### **المجتمع والدعم**
-- **[منتدى الدعم](https://forum.aspose.com/c/cells/9)** - احصل على المساعدة من الخبراء
+- **[منتدى الدعم](https://forum.aspose.com/c/cells/9)** احصل على المساعدة من الخبراء
 
 ### **التراخيص والتجارب**
 - **[رخصة مؤقتة](https://purchase.conholdate.com/temporary-license/)** - التقييم الموسع

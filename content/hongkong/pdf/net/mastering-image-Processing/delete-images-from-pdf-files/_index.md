@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.PDF for .NET 輕鬆刪除 PDF 文件中的影像。本逐步教學將引導您完成載入 PDF 和刪除影像的過程。"
+"description": "了解如何使用 Aspose.PDF for .NET 輕鬆地從 PDF 文件中刪除影像。本逐步教學將引導您完成載入 PDF 和刪除影像的過程。"
 "linktitle": "使用 Aspose.PDF for .NET 從 PDF 檔案中刪除影像"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "使用 Aspose.PDF for .NET 從 PDF 檔案中刪除影像"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-從 PDF 中刪除圖像是文件處理中的常見任務，無論您是要優化文件大小還是刪除不需要的內容。在本教學中，我們將指導您使用 Aspose.PDF for .NET 從 PDF 中刪除圖像。讓我們開始吧！
+從 PDF 中刪除影像是文件處理中的常見任務，無論您是優化文件大小還是刪除不需要的內容。在本教學中，我們將指導您使用 Aspose.PDF for .NET 從 PDF 中刪除圖像的過程。讓我們開始吧！
 
 ## 先決條件
 
@@ -56,7 +56,7 @@ Document pdfDocument = new Document(dataDir + "DeleteImages.pdf");
 
 ## 步驟3：從特定頁面刪除圖像
 
-若要刪除圖片，請造訪包含該圖片的頁面。以下是刪除第一頁上第一張圖片的方法：
+若要刪除圖像，請造訪包含該圖像的頁面。以下是刪除第一頁上的第一張圖片的方法：
 
 ```csharp
 pdfDocument.Pages[1].Resources.Images.Delete(1);
@@ -89,15 +89,15 @@ Console.WriteLine("\nImages deleted successfully.\nFile saved at " + dataDir);
 
 ## 結論
 
-恭喜！您已成功使用 Aspose.PDF for .NET 從 PDF 檔案中刪除影像。請按照以下步驟操作，您可以輕鬆修改 PDF 文件以滿足您的需求。如需更多高級功能（例如提取圖像或添加文字），請探索 [Aspose.PDF for .NET文檔](https://reference。aspose.com/pdf/net/).
+恭喜！您已成功使用 Aspose.PDF for .NET 從 PDF 檔案中刪除影像。透過遵循這些步驟，您可以輕鬆修改 PDF 文件以滿足您的需求。如需更多高級功能（例如提取圖像或添加文字），請探索 [Aspose.PDF for .NET文檔](https://reference。aspose.com/pdf/net/).
 
 ## 常見問題解答
 
 ### 我可以從 PDF 中刪除多個圖像嗎？
-是的！您可以循環瀏覽頁面上或整個文件中的圖像，以刪除多張圖片。
+是的！您可以循環瀏覽頁面上或整個文件中的圖像以刪除多個圖像。
 
 ### 刪除圖像會減少 PDF 檔案的大小嗎？
-當然！刪除圖片可以顯著減小檔案大小，尤其是大圖片。
+絕對地！刪除影像可以顯著減小檔案大小，尤其是大影像。
 
 ### 我可以一次從多個頁面刪除圖像嗎？
 是的，您可以遍歷頁面並使用 `Resources.Images.Delete` 方法。
@@ -106,4 +106,4 @@ Console.WriteLine("\nImages deleted successfully.\nFile saved at " + dataDir);
 您可以在檢視器中直觀地檢查 PDF 或以程式方式驗證頁面上剩餘的圖像數量。
 
 ### 影像刪除後可以撤銷嗎？
-不可以。一旦刪除圖片並保存 PDF 文件，將無法恢復。請務必保留原始 PDF 的備份。
+不可以，一旦刪除圖像並保存 PDF，就無法撤消。始終保留原始 PDF 的備份。

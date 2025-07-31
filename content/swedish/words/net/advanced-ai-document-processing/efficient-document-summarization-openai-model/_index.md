@@ -23,7 +23,7 @@ Drunknar du i långa dokument? Du är inte ensam. I dagens informationstunga vä
 
 Det är där den kraftfulla kombinationen av **Aspose.Words för .NET- och OpenAI-modeller** kommer in. Den här integrationen förändrar hur du hanterar dokumenthantering och genererar automatiskt korrekta sammanfattningar som fångar kärnan i ditt innehåll. I den här omfattande guiden lär du dig exakt hur du implementerar automatiserade dokumentsammanfattningslösningar som sparar dig timmar av manuellt arbete.
 
-slutet av den här handledningen har du ett system för sammanfattning av fungerande dokument som kan hantera enskilda dokument, bearbeta flera filer samtidigt och integreras sömlöst i dina befintliga .NET-applikationer.
+I slutet av den här handledningen har du ett system för sammanfattning av fungerande dokument som kan hantera enskilda dokument, bearbeta flera filer samtidigt och integreras sömlöst i dina befintliga .NET-applikationer.
 
 ## Varför dokumentsammanfattning är viktig i modern utveckling
 
@@ -61,7 +61,7 @@ Install-Package Aspose.Words
 
 ### Säkra din OpenAI API-nyckel
 
-Du behöver en OpenAI API-nyckel för att komma åt deras språkmodeller. Gå till [OpenAI-webbplats](https://openai.com/), skapa ett konto och hämta din API-nyckel. **Hårdkoda aldrig den här nyckeln** – vi visar dig det säkra sättet att hantera det senare i den här guiden.
+Du behöver en OpenAI API-nyckel för att komma åt deras språkmodeller. Gå till [OpenAI-webbplats](https://openai.com/)skapa ett konto och hämta din API-nyckel. **Hårdkoda aldrig den här nyckeln** – vi visar dig det säkra sättet att hantera det senare i den här guiden.
 
 ### Installation av utvecklingsmiljö
 Även om du kan använda vilken .NET-kompatibel IDE som helst, **Visual Studio** ger den bästa upplevelsen för den här handledningen, med utmärkt IntelliSense-stöd och felsökningsfunktioner för både Aspose.Words och API-integrationer.

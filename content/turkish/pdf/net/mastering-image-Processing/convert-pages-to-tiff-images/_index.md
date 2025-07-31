@@ -95,7 +95,7 @@ TiffSettings tiffSettings = new TiffSettings
     Compression = CompressionType.None, // Sıkıştırma yok
     Depth = ColorDepth.Default,          // Varsayılan renk derinliği
     Shape = ShapeType.Landscape,         // Manzara şekli
-    SkipBlankPages = false               // Boş sayfalar ekle
+    SkipBlankPages = false               // Boş sayfaları ekle
 };
 ```
 

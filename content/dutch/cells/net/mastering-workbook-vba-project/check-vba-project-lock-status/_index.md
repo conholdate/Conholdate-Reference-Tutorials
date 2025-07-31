@@ -9,7 +9,7 @@
 
 ## Invoering
 
-In de wereld van Excel-programmering is Visual Basic for Applications (VBA) een ware revolutie. Het stelt gebruikers in staat om repetitieve taken te automatiseren, aangepaste functies te creëren en de functionaliteit van Excel-spreadsheets te verbeteren. Het kan echter frustrerend zijn om te maken te krijgen met geblokkeerde VBA-projecten, waardoor u geen toegang hebt tot de code die u nodig hebt. Deze handleiding helpt u controleren of een VBA-project beveiligd en vergrendeld is voor weergave met Aspose.Cells voor .NET. Als u ooit te maken hebt gehad met de ergernis van geblokkeerde VBA-projecten, dan is deze handleiding iets voor u!
+In de wereld van Excel-programmering is Visual Basic for Applications (VBA) een ware revolutie. Het stelt gebruikers in staat om repetitieve taken te automatiseren, aangepaste functies te creëren en de functionaliteit van Excel-spreadsheets te verbeteren. Het kan echter frustrerend zijn om geblokkeerde VBA-projecten tegen te komen, waardoor u geen toegang hebt tot de code die u nodig hebt. Deze handleiding helpt u controleren of een VBA-project beveiligd en vergrendeld is voor weergave met Aspose.Cells voor .NET. Als u ooit te maken hebt gehad met de ergernis van geblokkeerde VBA-projecten, dan is deze handleiding iets voor u!
 
 ## Vereisten
 

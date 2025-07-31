@@ -25,7 +25,7 @@ Successivamente, scarica la libreria Aspose.PDF, che ti consente di creare, mani
 
 ### Ambiente di sviluppo
 
-Scegli un ambiente di sviluppo affidabile. Visual Studio è una scelta popolare, ma qualsiasi IDE che supporti C# e .NET funzionerà bene. Assicurati che il tuo ambiente sia configurato e pronto per la codifica.
+Scegli un ambiente di sviluppo affidabile. Visual Studio è una scelta popolare, ma qualsiasi IDE che supporti C# e .NET funzionerà correttamente. Assicurati che il tuo ambiente sia configurato e pronto per la codifica.
 
 ## Importazione di pacchetti
 

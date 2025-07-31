@@ -24,7 +24,7 @@ Neste guia completo, você aprenderá exatamente como converter corpos de e-mail
 
 Vamos mergulhar e resolver isso passo a passo!
 
-## Por que converter e-mails em HTML para texto simples?
+## Por que converter e-mails HTML em texto simples?
 
 Antes de começarmos a analisar o código, vale a pena entender quando e por que você deseja remover a formatação HTML dos e-mails:
 

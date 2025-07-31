@@ -115,7 +115,7 @@ Dieser Überprüfungsschritt ist zwar optional, wird aber für Produktionsanwend
 
 ## Best Practices für PDF/A-Konformität
 
-Wenn Sie mit PDF/A-Anhängen arbeiten, ersparen Sie sich durch die Befolgung dieser Vorgehensweisen später Ärger:
+Wenn Sie mit PDF/A-Anhängen arbeiten, können Sie sich durch die Befolgung dieser Vorgehensweisen später Kopfschmerzen ersparen:
 
 **Überlegungen zur Dateigröße**: Große Anhänge können Ihre PDF/A-Dateien unhandlich machen. Komprimieren Sie die Anhänge oder verwenden Sie mehrere kleinere Dateien anstelle eines großen Anhangs.
 

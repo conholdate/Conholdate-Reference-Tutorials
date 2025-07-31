@@ -60,7 +60,7 @@ ImapMessageInfoCollection messages = client.ListMessages();
 ```
 
 - `ListMessages()` recupera i metadati di tutte le email nella posta in arrivo.
-- IL `ImapMessageInfoCollection` l'oggetto contiene dettagli quali mittente, oggetto e ID univoci.
+- IL `ImapMessageInfoCollection` L'oggetto contiene dettagli quali mittente, oggetto e ID univoci.
 
 
 ## Passaggio 3: recupera ogni messaggio e-mail

@@ -129,7 +129,7 @@ catch (Exception ex)
 doc.Save(dataDir + "ConvertedImage.jpeg", SaveFormat.Jpeg);
 ```
 
-هذا كل شيء! سطر واحد من التعليمات البرمجية ويتحول ملف PDF الخاص بك إلى صيغة JPEG. ولكن هناك أكثر من ذلك بكثير.
+هذا كل شيء! سطر واحد من التعليمات البرمجية ويتحول ملف PDF الخاص بك إلى صيغة JPEG. ولكن الأمر أعمق من ذلك بكثير.
 
 ### فهم طريقة الحفظ
 ال `Save` الطريقة هي القيام بعدة أشياء خلف الكواليس:
@@ -150,7 +150,7 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg)
 doc.Save(dataDir + "ConvertedImage.jpeg", options);
 ```
 
-## المشاكل والحلول الشائعة
+## القضايا والحلول الشائعة
 
 دعونا نتناول بعض المشاكل التي قد تواجهها (لأن قانون مورفي ينطبق على الترميز أيضًا):
 

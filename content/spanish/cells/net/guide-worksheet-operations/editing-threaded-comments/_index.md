@@ -79,7 +79,7 @@ ThreadedComment comment = worksheet.Comments.GetThreadedComments("A1")[0];
 Esto recupera el primer comentario enlazado a la celda A1. ¡Ya puedes editarlo!
 
 ## Paso 6: Editar el comentario
-¡Aquí es donde ocurre la acción! Actualiza las notas del comentario de la siguiente manera:
+¡Aquí es donde ocurre la acción! Actualiza las notas del comentario como sigue:
 
 ```csharp
 comment.Notes = "Updated Comment";

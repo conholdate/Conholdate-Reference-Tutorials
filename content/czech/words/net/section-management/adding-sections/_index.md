@@ -1,5 +1,5 @@
 ---
-"description": "Naučte se, jak vytvářet oddíly v dokumentech Wordu pro zvýšení čitelnosti a profesionality. Tato příručka zahrnuje vše od inicializace dokumentu až po uložení vaší práce."
+"description": "Naučte se, jak vytvářet sekce v dokumentech Wordu pro zvýšení čitelnosti a profesionality. Tato příručka zahrnuje vše od inicializace dokumentu až po uložení vaší práce."
 "linktitle": "Přidávání sekcí pomocí Aspose.Words pro .NET"
 "second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
 "title": "Přidávání sekcí pomocí Aspose.Words pro .NET"
@@ -100,7 +100,7 @@ Gratulujeme! Právě jste se naučili, jak přidávat sekce do dokumentu Word po
 
 ## Často kladené otázky
 
-### Co je to sekce v dokumentu Wordu?
+### Co je to sekce v dokumentu Word?
 
 Sekce je část v dokumentu Wordu, která může mít vlastní rozvržení a formátování, například záhlaví, zápatí a sloupce, což pomáhá strukturovat obsah do snadno spravovatelných částí.
 

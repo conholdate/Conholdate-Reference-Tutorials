@@ -78,7 +78,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 
 바꾸다 `"your_certificate_password"` 해당되는 경우 인증서의 실제 비밀번호를 입력하세요.
 
-## 6단계: 문서에 서명하기
+## 6단계: 문서 서명
 
 이제 문서에 서명할 준비가 되었습니다. 다음 코드를 사용하여 서명 작업을 수행하세요.
 

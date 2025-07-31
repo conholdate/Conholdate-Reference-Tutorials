@@ -1,5 +1,5 @@
 ---
-"description": "Ontdek hoe u uw Excel-werkbladen kunt verbeteren door effectief horizontale en verticale pagina-einden toe te voegen met Aspose.Cells voor .NET. Deze uitgebreide handleiding begeleidt u door de benodigde installatie- en coderingsstappen."
+"description": "Ontdek hoe u uw Excel-werkbladen kunt verbeteren door effectief horizontale en verticale pagina-einden toe te voegen met Aspose.Cells voor .NET. Deze uitgebreide handleiding leidt u door de benodigde installatie- en coderingsstappen."
 "linktitle": "Pagina-einden toevoegen aan een werkblad met Aspose.Cells"
 "second_title": "Aspose.Cells .NET Excel-verwerkings-API"
 "title": "Pagina-einden toevoegen aan een werkblad met Aspose.Cells"
@@ -12,7 +12,7 @@
 In deze tutorial laten we je zien hoe je horizontale en verticale pagina-einden toevoegt aan je Excel-werkbladen met Aspose.Cells voor .NET. Na afloop ben je in staat om deze technieken naadloos in je projecten te implementeren. Laten we beginnen!
 
 ## Vereisten
-Voordat we in de code duiken, zorg ervoor dat je het volgende bij de hand hebt:
+Voordat we in de code duiken, zorg ervoor dat u het volgende bij de hand hebt:
 - Visual Studio: Zorg ervoor dat Visual Studio op uw systeem is geïnstalleerd.
 - Aspose.Cells voor .NET: Download en installeer de Aspose.Cells-bibliotheek. U kunt een gratis proefversie downloaden. [hier](https://releases.aspose.com/cells/net/).
 - .NET Framework: In deze tutorial wordt ervan uitgegaan dat u .NET Framework of .NET Core gebruikt. Het proces kan enigszins afwijken voor andere omgevingen.
@@ -27,9 +27,9 @@ using Aspose.Cells;
 using System;
 ```
 
-Nadat u deze naamruimten hebt geïmporteerd, kunt u met Excel-bestanden werken en wijzigingen aanbrengen, waaronder pagina-einden.
+Nadat u deze naamruimten hebt geïmporteerd, kunt u met Excel-bestanden aan de slag en wijzigingen aanbrengen, waaronder pagina-einden.
 
-## Stap 1: Stel uw werkboek in
+## Stap 1: Stel uw werkmap in
 Maak een nieuwe werkmap met behulp van de `Workbook` klasse, die als basis dient voor het manipuleren van Excel-bestanden.
 
 ```csharp
@@ -51,7 +51,7 @@ workbook.Worksheets[0].HorizontalPageBreaks.Add("Y30");
 ```
 Hier, `Worksheets[0]` verwijst naar het eerste blad in de werkmap, en `HorizontalPageBreaks.Add("Y30")` voegt een afbreking toe op rij 30, waardoor de inhoud erboven op de ene pagina verschijnt en de inhoud eronder op een nieuwe pagina begint.
 
-## Stap 3: Een verticale pagina-einde toevoegen
+## Stap 3: Voeg een verticale pagina-einde toe
 Vervolgens kunt u een verticale pagina-einde toevoegen om de inhoud horizontaal over de kolommen te scheiden:
 
 ```csharp
@@ -84,7 +84,7 @@ Ja, specificeer het werkblad met behulp van de `Worksheets[index]` eigendom, waa
 Een pagina-einde verwijderen met `HofizontalPageBreaks.RemoveAt()` or `VerticalPageBreaks.RemoveAt()` door de index op te geven van de pagina-einde die u wilt verwijderen.
 
 ### Kan ik automatisch pagina-einden toevoegen op basis van de grootte van de inhoud?
-Aspose.Cells biedt hiervoor geen automatische functie, maar u kunt via een programma berekenen waar onderbrekingen moeten voorkomen op basis van het aantal rijen/kolommen.
+Aspose.Cells biedt hiervoor geen automatische functie, maar u kunt via een programma berekenen waar onderbrekingen moeten plaatsvinden op basis van het aantal rijen/kolommen.
 
 ### Kan ik pagina-einden instellen op basis van een specifiek celbereik?
 Ja, u kunt pagina-einden voor elke cel of elk celbereik opgeven door de bijbehorende celverwijzing op te geven, zoals 'A1' of 'B15'.

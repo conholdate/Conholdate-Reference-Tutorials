@@ -1,20 +1,21 @@
 ---
-title: Aspose.Imaging for .NET Kullanarak Görüntülerde Özel Yaylar Oluşturma
-linktitle: Aspose.Imaging for .NET Kullanarak Görüntülerde Özel Yaylar Oluşturma
-second_title: Aspose.Imaging .NET Görüntü İşleme API'si
-description: Aspose.Imaging for .NET kullanarak resimlerde özel yaylar çizmeyi öğrenin. Resminizi kurmak, grafik bağlamını başlatmak, yay parametrelerini tanımlamak ve son çıktıyı kaydetmek için adım adım talimatları izleyin.
-weight: 10
-url: /tr/imaging/guide-to-basic-drawing/create-custom-arc-in-images/
+"description": "Aspose.Imaging for .NET kullanarak görsellerde özel yaylar çizmeyi öğrenin. Görselinizi oluşturmak, grafik bağlamını başlatmak, yay parametrelerini tanımlamak ve nihai çıktıyı kaydetmek için adım adım talimatları izleyin."
+"linktitle": "Aspose.Imaging for .NET Kullanarak Görüntülerde Özel Yaylar Oluşturma"
+"second_title": "Aspose.Imaging .NET Görüntü İşleme API'si"
+"title": "Aspose.Imaging for .NET Kullanarak Görüntülerde Özel Yaylar Oluşturma"
+"url": "/tr/imaging/net/guide-to-basic-drawing/create-custom-arc-in-images/"
+"weight": 10
 ---
+
 ## giriiş
 
-Aspose.Imaging for .NET, geliştiricilere görüntüleri etkili bir şekilde işlemek ve oluşturmak için gerekli araçları sağlayan, görüntü işleme görevleri için tasarlanmış gelişmiş bir kütüphanedir. Bu eğitimde, bu güçlü kütüphaneyi kullanarak bir görüntüye yay çizme sürecinde size rehberlik edeceğiz. Bu kılavuzun sonunda, projelerinize sorunsuz bir şekilde yaylar dahil edebileceksiniz.
+Aspose.Imaging for .NET, görüntü işleme görevleri için tasarlanmış gelişmiş bir kütüphanedir ve geliştiricilere görüntüleri verimli bir şekilde düzenlemeleri ve oluşturmaları için gerekli araçları sağlar. Bu eğitimde, bu güçlü kütüphaneyi kullanarak bir görüntüye yay çizme sürecinde size rehberlik edeceğiz. Bu kılavuzun sonunda, projelerinize sorunsuz bir şekilde yaylar entegre edebileceksiniz.
 
 ## Ön koşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Imaging for .NET: Eğer henüz yüklemediyseniz, şu adresten indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/imaging/net/).
+1. Aspose.Imaging for .NET: Eğer henüz yüklemediyseniz, şu adresten indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/imaging/net/).
 
 2. Geliştirme Ortamı: C# kodu yazıp çalıştırabileceğiniz çalışan bir .NET geliştirme ortamı (örneğin Visual Studio).
 
@@ -22,7 +23,7 @@ Bu ön koşullar sağlandıktan sonra, bir yay çizmeye başlayabiliriz!
 
 ## Gerekli Ad Alanlarını İçe Aktar
 
- Öncelikle, Aspose.Imaging tarafından sağlanan işlevselliğe erişmek için gerekli ad alanlarını içe aktarmanız gerekir. Aşağıdakileri ekleyin`using` C# dosyanızın en üstündeki ifadeler:
+Öncelikle, Aspose.Imaging tarafından sağlanan işlevselliğe erişmek için gerekli ad alanlarını içe aktarmanız gerekir. Aşağıdakileri ekleyin: `using` C# dosyanızın en üstündeki ifadeler:
 
 ```csharp
 using Aspose.Imaging;
@@ -63,23 +64,23 @@ using (FileStream stream = new FileStream(Path.Combine(dataDir, "DrawingArc_out.
 Daha sonra, görüntüyü düzenlemek için grafik bağlamını başlatıyoruz:
 
 ```csharp
-        // Graphics nesnesini başlatın ve bir arka plan rengi ayarlayın
+        // Grafik nesnesini başlatın ve arka plan rengini ayarlayın
         using (Graphics graphic = new Graphics(image))
         {
             graphic.Clear(Color.Yellow); // Sarı arka planlı görüntüyü temizleyin
 ```
 
-Bu kısımda görünürlüğü arttırmak için görüntü yüzeyini sarı renkle temizliyoruz.
+Bu bölümde görünürlüğü arttırmak için görüntü yüzeyini sarı renkle temizliyoruz.
 
 ## Adım 3: Yayı çizin
 
-Şimdi yayın parametrelerini tanımlayalım ve çizelim:
+Şimdi yay için parametreleri tanımlayalım ve çizelim:
 
 ```csharp
             // Ark için parametreleri tanımlayın
             int width = 100;   // Sınırlayıcı dikdörtgenin genişliği
             int height = 200;  // Sınırlayıcı dikdörtgenin yüksekliği
-            int startAngle = 45;  // Başlangıç açısı derece cinsinden
+            int startAngle = 45;  // Başlangıç açısı (derece)
             int sweepAngle = 270; // Derece cinsinden tarama açısı
 
             // Yayı çiz
@@ -95,35 +96,35 @@ Son olarak görselde yaptığımız değişiklikleri kaydediyoruz:
 ```csharp
             // Çizilen yayla görüntüyü kaydedin
             image.Save();
-        } // Grafik nesnesi otomatik olarak elden çıkarılır
-    } // FileStream otomatik olarak atılır
+        } // Grafik nesnesi otomatik olarak atılır
+    } // FileStream otomatik olarak imha edilir
 }
 ```
 
-Resim artık üzerine çizilen yay ile birlikte kaydedilmiştir.
+Resim artık üzerine çizilen yay ile kaydedilmiştir.
 
 ## Çözüm
 
-Aspose.Imaging for .NET kullanarak bir görüntüde yay çizen basit bir uygulamayı başarıyla oluşturdunuz. Sadece birkaç adımla, artık yaylar ve diğer şekilleri uygulayabilir, görüntü işleme görevlerinize yaratıcı bir hava katabilirsiniz.
+Aspose.Imaging for .NET kullanarak bir görüntüye yay çizen basit bir uygulamayı başarıyla oluşturdunuz. Artık sadece birkaç adımda yaylar ve diğer şekilleri uygulayarak görüntü işleme görevlerinize yaratıcı bir hava katabilirsiniz.
 
 ## SSS
 
-### Aspose.Imaging for .NET için özel belgeleri nerede bulabilirim?
+### Aspose.Imaging for .NET'e ilişkin özel belgeleri nerede bulabilirim?
 
- Kapsamlı dokümantasyon mevcuttur[Burada](https://reference.aspose.com/imaging/net/).
+Kapsamlı dokümantasyon mevcuttur [Burada](https://reference.aspose.com/imaging/net/).
 
 ### Aspose.Imaging for .NET'i nasıl indirebilirim?
 
- Kütüphaneyi şu adresten indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/imaging/net/).
+Kütüphaneyi şu adresten indirebilirsiniz: [bu bağlantı](https://releases.aspose.com/imaging/net/).
 
 ### Aspose.Imaging for .NET için ücretsiz deneme sürümü mevcut mu?
 
- Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümüne erişebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Imaging for .NET için geçici lisansı nasıl alabilirim?
 
- Geçici lisans talebinde bulunabilirsiniz[Burada](https://purchase.conholdate.com/temporary-license/).
+Geçici lisans talebinde bulunabilirsiniz [Burada](https://purchase.conholdate.com/temporary-license/).
 
 ### Aspose.Imaging for .NET ile ilgili sorularımı nereye sorabilirim veya destek alabilirim?
 
- Destek ve topluluk tartışmaları için Aspose.Imaging forumunu ziyaret edin[Burada](https://forum.aspose.com/).
+Destek ve topluluk tartışmaları için Aspose.Imaging forumunu ziyaret edin [Burada](https://forum.aspose.com/).

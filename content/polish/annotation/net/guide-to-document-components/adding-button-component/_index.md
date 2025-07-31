@@ -1,20 +1,21 @@
 ---
-title: Dodawanie komponentów przycisków za pomocą GroupDocs.Annotation dla .NET
-linktitle: Dodawanie komponentów przycisków
-second_title: GroupDocs.Annotation .NET API
-description: Dowiedz się, jak podnieść poziom swoich dokumentów PDF, dodając interaktywne komponenty przycisków za pomocą GroupDocs.Annotation dla .NET. Ten samouczek krok po kroku.
-weight: 10
-url: /pl/annotation/guide-to-document-components/adding-button-component/
+"description": "Dowiedz się, jak ulepszyć swoje dokumenty PDF, dodając interaktywne komponenty przycisków za pomocą GroupDocs.Annotation dla .NET. Ten samouczek krok po kroku."
+"linktitle": "Dodawanie komponentów przycisków"
+"second_title": "GroupDocs.Annotation .NET API"
+"title": "Dodawanie komponentów przycisków za pomocą adnotacji GroupDocs.Annotation dla platformy .NET"
+"url": "/pl/annotation/net/guide-to-document-components/adding-button-component/"
+"weight": 10
 ---
+
 ## Wstęp
 
-W tym samouczku przeprowadzimy Cię przez prosty proces dodawania komponentu przycisku do dokumentu PDF przy użyciu biblioteki GroupDocs.Annotation dla .NET. Pod koniec tego przewodnika będziesz w stanie wzbogacić swoje dokumenty PDF o interaktywne funkcje.
+W tym samouczku przeprowadzimy Cię przez prosty proces dodawania komponentu przycisku do dokumentu PDF za pomocą biblioteki GroupDocs.Annotation dla platformy .NET. Po ukończeniu tego przewodnika będziesz w stanie wzbogacić swoje dokumenty PDF o funkcje interaktywne.
 
 ## Wymagania wstępne
 
-Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
+Zanim zaczniesz, upewnij się, że masz przygotowane następujące rzeczy:
 
-1.  GroupDocs.Annotation dla .NET: Pobierz i zainstaluj bibliotekę GroupDocs.Annotation dla .NET z[Tutaj](https://releases.groupdocs.com/annotation/net/).
+1. GroupDocs.Annotation dla .NET: Pobierz i zainstaluj bibliotekę GroupDocs.Annotation dla .NET z [Tutaj](https://releases.groupdocs.com/annotation/net/).
 2. Środowisko programistyczne: Skonfiguruj odpowiednie środowisko programistyczne z zainstalowanym środowiskiem .NET Framework.
 
 ## Krok 1: Importuj niezbędne przestrzenie nazw
@@ -53,7 +54,7 @@ using (Annotator annotator = new Annotator("input.pdf"))
         Style = BorderStyle.Dashed,             // Styl obramowania
         BorderWidth = 0,                        // Szerokość obramowania
         BorderColor = 0,                        // Kolor obramowania
-        AlternateName = "Name",                 // Inna nazwa przycisku
+        AlternateName = "Name",                 // Alternatywna nazwa przycisku
         PartialName = "Partial Name",           // Częściowa nazwa przycisku
         NormalCaption = "Caption",               // Tekst wyświetlany na przycisku
         ButtonColor = 16761035,                 // Kolor tła przycisku
@@ -71,36 +72,36 @@ using (Annotator annotator = new Annotator("input.pdf"))
 
 ## Krok 4: Wyświetl ścieżkę wyjściową
 
-Na koniec poinformuj użytkownika, gdzie zapisany jest plik wyjściowy:
+Na koniec poinformuj użytkownika, gdzie zapisany zostanie plik wyjściowy:
 
 ```csharp
 Console.WriteLine($"\nDocument saved successfully.\nCheck output in {outputPath}.");
 ```
 
-Gratulacje! Udało Ci się dodać komponent przycisku do dokumentu PDF przy użyciu GroupDocs.Annotation dla .NET.
+Gratulacje! Udało Ci się dodać komponent przycisku do dokumentu PDF za pomocą GroupDocs.Annotation dla platformy .NET.
 
 ## Wniosek
 
-W tym samouczku zademonstrowaliśmy, jak włączyć komponenty przycisków do dokumentów PDF za pomocą GroupDocs.Annotation dla .NET. Postępując zgodnie z tymi krokami, możesz znacznie zwiększyć interaktywność swoich dokumentów PDF.
+W tym samouczku pokazaliśmy, jak wstawiać komponenty przycisków do dokumentów PDF za pomocą GroupDocs.Annotation dla platformy .NET. Postępując zgodnie z tymi krokami, możesz znacznie zwiększyć interaktywność swoich dokumentów PDF.
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę dostosować wygląd przycisku?
 
-Oczywiście! Możesz modyfikować różne właściwości, takie jak rozmiar, kolor i styl, aby dopasować je do swoich wymagań.
+Oczywiście! Możesz modyfikować różne właściwości, takie jak rozmiar, kolor i styl, aby dopasować je do swoich potrzeb.
 
 ### Czy GroupDocs.Annotation dla .NET jest kompatybilny ze wszystkimi wersjami PDF?
 
-Tak, GroupDocs.Annotation dla platformy .NET obsługuje szeroką gamę wersji PDF, zapewniając zgodność z większością dokumentów.
+Tak, GroupDocs.Annotation dla .NET obsługuje szeroką gamę wersji PDF, zapewniając zgodność z większością dokumentów.
 
-### Czy mogę dodać wiele komponentów przycisków do jednego dokumentu PDF?
+### Czy mogę dodać wiele komponentów przycisku do jednego dokumentu PDF?
 
-Tak, do dokumentu PDF można dodać dowolną liczbę komponentów przycisków.
+Tak, do dokumentu PDF możesz dodać dowolną liczbę komponentów przycisków.
 
-### Czy GroupDocs.Annotation dla platformy .NET obsługuje inne formaty plików?
+### Czy GroupDocs.Annotation dla .NET obsługuje inne formaty plików?
 
-Tak, oprócz PDF obsługuje różne formaty dokumentów, w tym DOCX, PPTX i XLSX.
+Tak, oprócz formatu PDF obsługuje różne formaty dokumentów, w tym DOCX, PPTX i XLSX.
 
-### Czy jest dostępna wersja próbna do celów testowych?
+### Czy jest dostępna wersja próbna w celach testowych?
 
- Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej GroupDocs.Annotation dla .NET z[Tutaj](https://releases.groupdocs.com/).
+Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej GroupDocs.Annotation dla .NET z [Tutaj](https://releases.groupdocs.com/).

@@ -61,7 +61,7 @@ wb.Worksheets[0].ListObjects[0].ConvertToRange();
 
 - `Worksheets[0]` richt zich op het eerste werkblad in de werkmap.
 - `ListObjects[0]` selecteert de eerste tabel in dat werkblad.
-- De `ConvertToRange()` methode voert de conversie uit en transformeert de tabel naar een standaardbereik.
+- De `ConvertToRange()` De methode voert de conversie uit en transformeert de tabel naar een standaardbereik.
 
 ## Stap 4: Sla de wijzigingen op
 Sla na de conversie uw wijzigingen op om een nieuwe versie van het bestand te maken:
@@ -83,7 +83,7 @@ Aspose.Cells is een robuuste .NET-bibliotheek waarmee ontwikkelaars Excel-bestan
 Ja, Aspose.Cells biedt een gratis proefversie die u kunt downloaden [hier](https://releases.aspose.com/cells/net/).
 
 ### Is het mogelijk om een nieuwe tabel aan te maken na het converteren?
-Absoluut! Je kunt nieuwe tabellen in het Excel-bestand maken, zelfs nadat je bestaande tabellen naar bereiken hebt geconverteerd.
+Absoluut! U kunt nieuwe tabellen in het Excel-bestand maken, zelfs nadat u bestaande tabellen naar bereiken hebt geconverteerd.
 
 ### Waar kan ik meer voorbeelden en documentatie vinden?
 Uitgebreide documentatie en voorbeelden vindt u op de [Aspose.Cells Documentatiepagina](https://reference.aspose.com/cells/net/).

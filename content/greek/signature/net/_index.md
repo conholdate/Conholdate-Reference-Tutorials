@@ -1,12 +1,13 @@
 ---
-title: Εκμάθηση και Παραδείγματα GroupDocs.Signature για .NET
-linktitle: GroupDocs.Signature για .NET Tutorials
-weight: 10
-url: /el/signature/
-description: Εξερευνήστε ολοκληρωμένα σεμινάρια σχετικά με τη χρήση του GroupDocs.Signature για .NET. Μάθετε να εφαρμόζετε ψηφιακές υπογραφές, να προσαρμόζετε ροές εργασίας και να βελτιώνετε την ασφάλεια των εγγράφων με σαφείς, βήμα προς βήμα οδηγούς.
-is_root: true
+"description": "Εξερευνήστε ολοκληρωμένα εκπαιδευτικά βίντεο σχετικά με τη χρήση του GroupDocs.Signature για .NET. Μάθετε να εφαρμόζετε ψηφιακές υπογραφές, να προσαρμόζετε τις ροές εργασίας και να βελτιώνετε την ασφάλεια των εγγράφων με σαφείς, βήμα προς βήμα οδηγούς."
+"is_root": true
+"linktitle": "GroupDocs.Signature για .NET Tutorials"
+"title": "Εκπαιδευτικά βίντεο και παραδείγματα του GroupDocs.Signature για .NET"
+"url": "/el/signature/net/"
+"weight": 10
 ---
-### [Υπογραφή βασικού εγγράφου με GroupDocs.Signature για .NET](./master-document-signing/)
-Υπογραφή βασικού εγγράφου με το GroupDocs.Signature για .NET στα αναλυτικά μας σεμινάρια. Υπογράψτε εικόνες και αρχεία PDF με μεταδεδομένα χωρίς κόπο.
-### [Master Advanced Signature Techniques](./master-advanced-sign-techniques/)
-Αυξήστε την ασφάλεια των εγγράφων σας με τα μαθήματα GroupDocs.Signature για .NET. Μάθετε προηγμένες τεχνικές υπογραφής, από προσαρμοσμένες εικόνες έως υπογραφές κειμένου.
+
+### [Υπογραφή κύριου εγγράφου με το GroupDocs.Signature για .NET](./master-document-signing/)
+Εξασφαλίστε την υπογραφή εγγράφων με το GroupDocs.Signature για .NET στα λεπτομερή μας εκπαιδευτικά σεμινάρια. Υπογράψτε εικόνες και PDF με μεταδεδομένα χωρίς κόπο.
+### [Κατακτήστε Προηγμένες Τεχνικές Υπογραφής](./master-advanced-sign-techniques/)
+Αναβαθμίστε την ασφάλεια των εγγράφων σας με τα σεμινάρια GroupDocs.Signature για .NET. Μάθετε προηγμένες τεχνικές υπογραφής, από προσαρμοσμένες εικόνες έως υπογραφές κειμένου.

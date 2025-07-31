@@ -1,20 +1,21 @@
 ---
-title: Panduan Menandatangani PDF dengan Metadata Menggunakan GroupDocs.Signature
-linktitle: Panduan Menandatangani PDF dengan Metadata
-second_title: API Tanda Tangan GroupDocs.NET
-description: Pelajari cara memperkuat dokumen PDF Anda dengan keamanan dan keterlacakan yang lebih baik dengan menandatanganinya menggunakan metadata menggunakan GroupDocs.Signature untuk .NET. Tutorial komprehensif ini memberikan penjelasan yang jelas.
-weight: 11
-url: /id/signature/master-document-signing/signing-pdf-with-metadata/
+"description": "Pelajari cara memperkuat dokumen PDF Anda dengan keamanan dan keterlacakan yang lebih baik dengan menandatanganinya menggunakan metadata menggunakan GroupDocs.Signature untuk .NET. Tutorial komprehensif ini memberikan panduan yang jelas."
+"linktitle": "Panduan Menandatangani PDF dengan Metadata"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Panduan Menandatangani PDF dengan Metadata Menggunakan GroupDocs.Signature"
+"url": "/id/signature/net/master-document-signing/signing-pdf-with-metadata/"
+"weight": 11
 ---
+
 ## Perkenalan
 
-Dalam tutorial ini, kita akan mempelajari cara menandatangani dokumen PDF dan menambahkan metadata menggunakan GroupDocs.Signature untuk .NET. Menambahkan metadata akan menyempurnakan dokumen dengan memberikan informasi penting seperti kepengarangan, tanggal pembuatan, ID dokumen, dan banyak lagi.
+Dalam tutorial ini, kita akan mempelajari cara menandatangani dokumen PDF dan menambahkan metadata menggunakan GroupDocs.Signature untuk .NET. Menambahkan metadata akan menyempurnakan dokumen dengan memberikan informasi penting seperti kepengarangan, tanggal pembuatan, ID dokumen, dan lainnya.
 
 ## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  GroupDocs.Signature untuk .NET: Unduh dari[Di Sini](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature untuk .NET: Unduh dari [Di Sini](https://releases.groupdocs.com/signature/net/).
 2. Dokumen PDF: Siapkan contoh file PDF untuk ditandatangani.
 3. Pengetahuan Dasar Pemrograman C#: Keakraban dengan sintaksis C# diperlukan untuk memahami contoh kode.
 
@@ -48,33 +49,33 @@ string outputFilePath = Path.Combine("Your Document Directory", "SignPdfWithMeta
 
 ## Langkah 3: Buat Instansi Tanda Tangan
 
- Inisialisasi a`Signature` contoh dengan jalur ke dokumen PDF:
+Inisialisasi a `Signature` contoh dengan jalur ke dokumen PDF:
 
 ```csharp
 using (Signature signature = new Signature(filePath))
 {
-    // Kode terkait tanda tangan akan ada di sini
+    // Kode terkait tanda tangan akan ditempatkan di sini
 }
 ```
 
 ## Langkah 4: Tentukan Opsi Metadata
 
- Membuat`MetadataSignOptions` dan tambahkan bidang metadata beserta nilainya:
+Membuat `MetadataSignOptions` dan tambahkan bidang metadata beserta nilainya:
 
 ```csharp
 MetadataSignOptions options = new MetadataSignOptions();
 options
     .Add(new PdfMetadataSignature("Author", "Mr. Sherlock Holmes")) // Nilai string
-    .Add(new PdfMetadataSignature("CreatedOn", DateTime.Now))       // Nilai TanggalWaktu
-    .Add(new PdfMetadataSignature("DocumentId", 123456))            // Nilai integer
+    .Add(new PdfMetadataSignature("CreatedOn", DateTime.Now))       // Nilai DateTime
+    .Add(new PdfMetadataSignature("DocumentId", 123456))            // Nilai bilangan bulat
     .Add(new PdfMetadataSignature("SignatureId", 123.456D))         // Nilai ganda
     .Add(new PdfMetadataSignature("Amount", 123.456M))              // Nilai desimal
-    .Add(new PdfMetadataSignature("Total", 123.456F));              // Nilai mengapung
+    .Add(new PdfMetadataSignature("Total", 123.456F));              // Nilai mengambang
 ```
 
 ## Langkah 5: Tandatangani Dokumen
 
-Tanda tangani dokumen PDF dengan opsi metadata yang ditentukan dan simpan dokumen yang ditandatangani:
+Tandatangani dokumen PDF dengan opsi metadata yang ditentukan dan simpan dokumen yang telah ditandatangani:
 
 ```csharp
 SignResult result = signature.Sign(outputFilePath, options);
@@ -83,7 +84,7 @@ Console.WriteLine($"\nSource document signed successfully with {result.Succeeded
 
 ## Kesimpulan
 
-Dalam tutorial ini, kami membahas cara menandatangani dokumen PDF dengan metadata menggunakan GroupDocs.Signature untuk .NET. Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah memperkaya berkas PDF Anda dengan metadata yang berharga, meningkatkan keterlacakan dan kegunaannya.
+Dalam tutorial ini, kami membahas cara menandatangani dokumen PDF dengan metadata menggunakan GroupDocs.Signature untuk .NET. Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah memperkaya berkas PDF Anda dengan metadata berharga, meningkatkan ketertelusuran dan kegunaannya.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -101,8 +102,8 @@ Ya, GroupDocs.Signature mendukung berbagai format dokumen, termasuk Word, Excel,
 
 ### Bisakah saya menandatangani beberapa dokumen sekaligus menggunakan GroupDocs.Signature untuk .NET?
 
-Tentu saja! Anda dapat menandatangani beberapa dokumen secara massal dengan mengulangi daftar file dan menerapkan proses tanda tangan secara terprogram.
+Tentu saja! Anda dapat menandatangani beberapa dokumen sekaligus dengan mengulangi daftar berkas dan menerapkan proses tanda tangan secara terprogram.
 
 ### Apakah dukungan teknis tersedia untuk pengguna GroupDocs.Signature?
 
- Ya, GroupDocs menyediakan dukungan teknis khusus melalui forumnya. Anda dapat mengakses forum dukungan[Di Sini](https://forum.groupdocs.com/c/signature/13).
+Ya, GroupDocs menyediakan dukungan teknis khusus melalui forumnya. Anda dapat mengakses forum dukungan. [Di Sini](https://forum.groupdocs.com/c/signature/13).

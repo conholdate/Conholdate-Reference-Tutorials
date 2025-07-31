@@ -76,7 +76,7 @@ signatureLine.ProviderId = Guid.Parse("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2");
 
 A `InsertSignatureLine` A metódus hozzáadja az aláírási sort, és hozzárendelünk egy egyedi szolgáltatói azonosítót.
 
-## 4. lépés: A dokumentum mentése
+## 4. lépés: Mentse el a dokumentumot
 
 Az aláírás sor beillesztése után mentsük el a dokumentumot:
 

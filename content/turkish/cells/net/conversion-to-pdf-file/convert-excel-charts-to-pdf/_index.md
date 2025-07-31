@@ -76,7 +76,7 @@ Bu kütüphaneler, Excel grafiklerini işlemek ve bunları PDF'lere dönüştür
 string dataDir = "Your Document Directory Path";
 ```
 
-Yer değiştirmek `"Your Document Directory Path"` Dosyanızın gerçek yolunu belirtin. İşte birkaç ipucu:
+Yer değiştirmek `"Your Document Directory Path"` Dosyanızın gerçek yolunu da belirtin. İşte birkaç ipucu:
 - Use forward slashes (/) or double backslashes (\\\\) in your path
 - Kodunuzu çalıştırmadan önce dizinin gerçekten var olduğundan emin olun
 - Excel dosyalarınız proje klasörünüzdeyse bağıl yolları kullanmayı düşünün

@@ -93,7 +93,7 @@ Modificare i font nei file MHT può migliorare significativamente l'aspetto dei 
 
 ## Domande frequenti
 
-### Che cos'è il formato MHT?
+### Cos'è il formato MHT?
 MHT è un formato di archivio di pagine web che memorizza documenti HTML, immagini e altre risorse in un unico file.
 
 ### Posso modificare altri aspetti dei file MHT utilizzando Aspose?

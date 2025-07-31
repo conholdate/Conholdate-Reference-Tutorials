@@ -80,7 +80,7 @@ foreach (AlternateView alternateView in message.AlternateViews)
 
 ### Πώς μπορώ να κατεβάσω τη βιβλιοθήκη Aspose.Email για .NET;
 
-Μπορείτε να κατεβάσετε τη βιβλιοθήκη Aspose.Email για .NET από [Aspose Releases](https://releases.aspose.com/email/net/).
+Μπορείτε να κατεβάσετε τη βιβλιοθήκη Aspose.Email για .NET από [Aspose Κυκλοφορίες](https://releases.aspose.com/email/net/).
 
 ### Μπορώ να χρησιμοποιήσω αυτόν τον οδηγό για άλλες γλώσσες προγραμματισμού;
 

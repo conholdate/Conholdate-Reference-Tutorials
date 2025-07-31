@@ -26,7 +26,7 @@ Na konci tohoto tutoriálu budete mít funkční kód, který převede vaše exc
 
 ## Předpoklady a nastavení
 
-Než se ponoříme do kódu (a věřte mi, je to jednodušší, než si myslíte), ujistěme se, že máte vše potřebné k úspěšnému začátku.
+Než se ponoříme do kódu (a věřte mi, je to jednodušší, než si myslíte), ujistěme se, že máte vše, co potřebujete k úspěšnému začátku.
 
 ### Nastavení prostředí .NET
 Na vývojovém počítači budete potřebovat nainstalovaný buď .NET Framework, nebo .NET Core. Aspose.Cells funguje dobře s oběma prostředími, takže se můžete držet toho, co již pro svůj projekt používáte. Pokud začínáte znovu, .NET Core (nyní .NET 5+) je pro nové projekty obvykle tou správnou volbou.

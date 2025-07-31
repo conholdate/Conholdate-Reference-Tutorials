@@ -16,7 +16,7 @@ Excel 파일을 PDF로 변환하는 것은, 특히 예기치 않게 오류가 �
 코드를 살펴보기 전에 다음 사항이 준비되었는지 확인하세요.
 
 1. .NET 환경: 컴퓨터에 .NET이 설치되어 있는지 확인하세요. Aspose.Cells는 .NET Framework와 .NET Core 모두에서 작동합니다.
-2. Aspose.Cells 라이브러리: Aspose.Cells 라이브러리를 프로젝트에 통합하세요. 아직 통합하지 않으셨다면 여기에서 다운로드할 수 있습니다. [여기](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells 라이브러리: Aspose.Cells 라이브러리를 프로젝트에 통합하세요. 아직 통합하지 않으셨다면 다운로드할 수 있습니다. [여기](https://releases.aspose.com/cells/net/).
 3. C#에 대한 기본적인 이해: C#에 대한 지식이 있으면 원활하게 따라갈 수 있습니다.
 4. 샘플 Excel 파일: 변환하는 동안 오류가 발생할 수 있는 샘플 Excel 통합 문서를 준비합니다.
 

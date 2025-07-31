@@ -55,7 +55,7 @@ doc.Pages.Add();
 接下来，让我们实例化组合框。这将是用户在 PDF 中交互的下拉菜单。
 
 ```csharp
-// 创建 ComboBox 字段对象
+// 创建 ComboBox Field 对象
 ComboBoxField combo = new ComboBoxField(doc.Pages[1], new Aspose.Pdf.Rectangle(100, 600, 150, 616));
 ```
 

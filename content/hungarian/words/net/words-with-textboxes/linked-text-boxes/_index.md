@@ -47,7 +47,7 @@ Ez a sor inicializál egy üres Word dokumentumot, amely készen áll a kreatív
 
 ## 2. lépés: Szövegdobozok hozzáadása
 
-Miután beállítottuk a dokumentumot, a következő feladat a szövegdobozok hozzáadása – ezek a tárolók fogják tárolni és megjeleníteni a szöveget a dokumentumban.
+Miután beállítottuk a dokumentumunkat, a következő feladat a szövegdobozok hozzáadása – ezek a tárolók fogják tárolni és megjeleníteni a szöveget a dokumentumban.
 
 Két szövegdobozt hozhatsz létre a következő kóddal:
 

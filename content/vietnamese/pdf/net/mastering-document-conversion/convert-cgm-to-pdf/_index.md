@@ -165,7 +165,7 @@ catch (Exception ex)
 Nếu bạn đang chuyển đổi nhiều tệp, hãy triển khai quản lý tài nguyên phù hợp để ngăn rò rỉ bộ nhớ và cải thiện hiệu suất.
 
 ### Tối ưu hóa đầu ra
-Hãy cân nhắc mục đích sử dụng cuối cùng khi lưu tệp PDF. Khi xem trên web, bạn có thể muốn tối ưu hóa kích thước tệp. Khi in, hãy ưu tiên chất lượng.
+Hãy cân nhắc mục đích sử dụng cuối cùng của bạn khi lưu tệp PDF. Khi xem trên web, bạn có thể muốn tối ưu hóa kích thước tệp. Khi in, hãy ưu tiên chất lượng.
 
 ## Mẹo tối ưu hóa hiệu suất
 

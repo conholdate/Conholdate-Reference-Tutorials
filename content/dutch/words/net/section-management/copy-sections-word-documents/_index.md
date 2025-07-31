@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Efficiënt beheer van Word-documenten is cruciaal voor het stroomlijnen van workflows. Aspose.Words voor .NET stelt ontwikkelaars in staat om complexe bewerkingen van Word-documenten eenvoudig te automatiseren. Een van de meest opvallende mogelijkheden is het naadloos kopiëren van secties tussen documenten. Deze uitgebreide handleiding leidt u door de exacte stappen om deze taak uit te voeren. Laten we erin duiken.
+Efficiënt beheer van Word-documenten is cruciaal voor het stroomlijnen van workflows. Aspose.Words voor .NET stelt ontwikkelaars in staat om complexe bewerkingen van Word-documenten eenvoudig te automatiseren. Een van de meest opvallende mogelijkheden is het naadloos kopiëren van secties tussen documenten. Deze uitgebreide handleiding leidt je door de exacte stappen om deze taak uit te voeren. Laten we erin duiken.
 
 ## Vereisten
 
@@ -28,7 +28,7 @@ Importeer vóór het coderen de vereiste naamruimten. Dit geeft toegang tot Aspo
 using Aspose.Words;
 ```
 
-Deze naamruimte biedt alle hulpmiddelen die u nodig hebt om Word-documenten programmatisch te verwerken.
+Deze naamruimte biedt alle hulpmiddelen die nodig zijn voor het programmatisch verwerken van Word-documenten.
 
 ## Stap 1: Uw omgeving instellen
 
@@ -92,7 +92,7 @@ Sla het bijgewerkte doeldocument op.
 destinationDoc.Save(dataDir + "WorkingWithSection.CopySection.docx");
 ```
 
-- Uitvoerpad: zorg dat het opslagpad juist is om te voorkomen dat bestanden onbedoeld worden overschreven.
+- Uitvoerpad: zorg ervoor dat het opslagpad juist is om te voorkomen dat bestanden onbedoeld worden overschreven.
 
 ## Conclusie
 

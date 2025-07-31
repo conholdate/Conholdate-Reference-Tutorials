@@ -65,7 +65,7 @@ Aspose.Pdf.Rectangle r = page.MediaBox;
 
 O `MediaBox` fornece as dimensões da página, incluindo largura e altura.
 
-## Etapa 4: troque largura e altura
+## Etapa 4: Troque largura e altura
 
 Para alterar a orientação da página, trocaremos os valores de largura e altura. Este ajuste alterará as dimensões da página:
 

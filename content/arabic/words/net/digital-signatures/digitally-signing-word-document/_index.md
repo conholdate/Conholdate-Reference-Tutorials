@@ -47,7 +47,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 
 ## الخطوة 3: تحميل مستند Word
 
-الآن، قم بتحميل مستند Word الذي ترغب في توقيعه:
+الآن قم بتحميل مستند Word الذي ترغب في توقيعه:
 
 ```csharp
 // قم بتحميل المستند المراد توقيعه.
@@ -61,7 +61,7 @@ Document doc = new Document(dataDir + "Digitally signed.docx");
 بعد تحميل المستند والشهادة، حان وقت التوقيع:
 
 ```csharp
-// توقيع الوثيقة
+// توقيع الوثيقة.
 DigitalSignatureUtil.Sign(dataDir + "Digitally signed.docx", dataDir + "Document.Signed.docx", certHolder);
 ```
 

@@ -120,7 +120,7 @@ In diesem Tutorial haben wir untersucht, wie benutzerdefinierte Fehler- und Bool
 
 ## Häufig gestellte Fragen
 
-### Was ist die `GlobalizationSettings` Klasse, die in Aspose.Cells für .NET verwendet wird?
+### Was ist der `GlobalizationSettings` Klasse, die in Aspose.Cells für .NET verwendet wird?
 
 `GlobalizationSettings` Ermöglicht die Anpassung der Anzeige von Fehlerwerten, Booleschen Werten und anderen länderspezifischen Informationen in Ihren Tabellen. Diese Funktion ist besonders nützlich, wenn Sie ein internationales Publikum ansprechen oder Daten in bestimmten Sprachen präsentieren möchten.
 

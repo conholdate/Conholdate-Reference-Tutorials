@@ -15,7 +15,7 @@ A la hora de crear documentos de Word con aspecto profesional, los marcadores so
 
 Los marcadores funcionan como accesos directos en tu documento de Word. Te permiten resaltar y acceder fácilmente a ciertas secciones. Esto es especialmente útil al trabajar con informes o libros extensos, donde encontrar contenido específico puede resultar tedioso. Con Aspose.Words para .NET, puedes crear, eliminar y administrar marcadores fácilmente. Pero, ¿cómo implementar esto en tus proyectos?
 
-Echa un vistazo a nuestro [Crear un marcador en un documento de Word con Aspose.Words para .NET](./create-bookmark-in-word-document/) Tutorial práctico para crear marcadores. Este método paso a paso te permitirá optimizar tus documentos de Word, haciéndolos más fáciles de navegar y administrar.
+Echa un vistazo a nuestro [Crear un marcador en un documento de Word con Aspose.Words para .NET](./create-bookmark-in-word-document/) Tutorial práctico para crear marcadores. Este método paso a paso te permitirá mejorar tus documentos de Word, haciéndolos más fáciles de navegar y administrar.
 
 ## Administrar sus marcadores
 
@@ -23,7 +23,7 @@ Una vez creados los marcadores, es fundamental saber cómo administrarlos. ¿Qu�
 
 ## Funciones avanzadas de marcadores
 
-Si buscas funciones más avanzadas, considera tareas como añadir texto de secciones marcadas. Esta es una forma eficaz de recopilar contenido dinámicamente según las secciones definidas por el usuario. ¡Imagina crear un informe con texto esencial basado en marcadores que hayas creado previamente! Consulta nuestra guía sobre [Añadir texto de secciones marcadas en documentos de Word](./append-text-from-bookmarked-sections/) para ver cómo se hace esto y aprender consejos para gestionar el contenido de manera eficiente.
+Si buscas funciones más avanzadas, considera tareas como añadir texto de secciones marcadas. Esta es una forma eficaz de recopilar contenido dinámicamente según las secciones definidas por el usuario. ¡Imagina crear un informe con texto esencial basado en marcadores que hayas creado previamente! Consulta nuestra guía sobre [Añadir texto de secciones marcadas en documentos de Word](./append-text-from-bookmarked-sections/) para ver cómo se hace esto y aprender consejos para administrar el contenido de manera eficiente.
 
 ## Eliminar filas mediante marcadores
 

@@ -15,7 +15,7 @@ Aspose.Cells for .NET là bộ công cụ tối ưu giúp bạn tự động hó
 
 Bạn đã bao giờ thắc mắc liệu một dự án VBA có bị khóa để xem không? Với Aspose.Cells, bạn có thể kiểm tra điều này bằng chương trình một cách nhanh chóng. Hãy tưởng tượng bạn có một khối lượng lớn tệp Excel—việc kiểm tra thủ công từng tệp sẽ rất tẻ nhạt. Hướng dẫn này sẽ đơn giản hóa tất cả, cho phép bạn xác định trạng thái khóa thông qua mã lệnh rõ ràng và hiệu quả. Bạn có tò mò không? [Đọc thêm](./check-vba-project-lock-status/).
 
-## Chuyển biểu mẫu người dùng và macro VBA
+## Chuyển đổi biểu mẫu người dùng và macro VBA
 
 Việc di chuyển biểu mẫu người dùng và macro giữa các sổ làm việc có thể giống như việc di chuyển đồ đạc—tốn thời gian và tinh tế. Nhưng với Aspose.Cells for .NET, việc này thật dễ dàng. Bạn sẽ học cách sao chép mọi thứ một cách liền mạch, bảo toàn chức năng mà không cần phải thực hiện thủ công. Sẵn sàng nâng cấp quy trình làm việc Excel của bạn? [Tìm hiểu thêm tại đây](./transfer-vba-user-form-and-macro/).
 

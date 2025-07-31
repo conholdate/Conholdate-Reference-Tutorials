@@ -17,7 +17,7 @@ Antes de mergulhar, certifique-se de ter o seguinte configurado:
 
 1. Visual Studio: necessário para escrever e executar seu código C#.
 2. Aspose.Cells para .NET: Baixar [aqui](https://releases.aspose.com/cells/net/).
-3. Exemplo de arquivo Excel: Utilizaremos `WebExtensionsSample.xlsx` para analisar dados de extensão da web.
+3. Arquivo Excel de exemplo: Utilizaremos `WebExtensionsSample.xlsx` para analisar dados de extensão da web.
 4. Conhecimento básico de C#: a familiaridade com C# ajudará você a navegar pelo código de forma eficaz.
 5. Configuração do projeto .NET: crie um novo projeto .NET no Visual Studio para implementar o código.
 
@@ -67,7 +67,7 @@ Workbook workbook = new Workbook(sourceDir + "WebExtensionsSample.xlsx");
 
 Esta linha cria uma instância do `Workbook` classe, permitindo que você explore o conteúdo do arquivo.
 
-## Etapa 5: Acessar os painéis de tarefas da extensão da Web
+## Etapa 5: acessar os painéis de tarefas da extensão da Web
 
 Hora de acessar os painéis de tarefas da extensão da web associados à sua pasta de trabalho:
 

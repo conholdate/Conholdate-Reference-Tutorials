@@ -18,7 +18,7 @@ Koda dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 1. Visual Studio Kurulu: .NET uygulamalarınızı çalıştırmak ve test etmek için Visual Studio gibi bir geliştirme ortamı gereklidir.
 2. Aspose.Cells for .NET: En son sürümü indirin ve yükleyin [Aspose web sitesi](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# programlamaya aşinalık, örnekleri daha etkili bir şekilde anlamanıza yardımcı olacaktır.
-4. Örnek Excel Dosyası: Adını Excel dosyası olarak hazırlayın `Book1.xlsx` ve kodunuzda referans olması için belirlenmiş bir klasöre yerleştirin.
+4. Örnek Excel Dosyası: Adını şu şekilde koyabileceğiniz bir Excel dosyası hazırlayın: `Book1.xlsx` ve kodunuzda referans olması için belirlenmiş bir klasöre yerleştirin.
 
 ## Projenizi Kurma
 

@@ -26,4 +26,4 @@ Scopri come proteggere in modo efficace colonne specifiche nei fogli di lavoro d
 ### [Protezione delle righe nel foglio di lavoro tramite Aspose.Cells](./protecting-rows/)
 Scopri come proteggere le informazioni sensibili nei tuoi fogli di lavoro Excel proteggendo righe specifiche con Aspose.Cells per .NET. Questo tutorial completo copre tutto, dalla configurazione dell'ambiente.
 ### [Impostazioni di protezione avanzate tramite Aspose.Cells](./advanced-protection-settings/)
-Scopri come migliorare la sicurezza dei tuoi file Excel implementando impostazioni di protezione avanzate con Aspose.Cells per .NET. Questa guida completa ti guiderà passo dopo passo attraverso istruzioni su come limitare le azioni degli utenti.
+Scopri come migliorare la sicurezza dei tuoi file Excel implementando impostazioni di protezione avanzate con Aspose.Cells per .NET. Questa guida completa ti guiderà passo dopo passo nella limitazione delle azioni degli utenti.

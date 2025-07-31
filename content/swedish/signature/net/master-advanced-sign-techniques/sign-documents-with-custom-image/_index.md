@@ -1,25 +1,26 @@
 ---
-title: Signera dokument med anpassade bilder med GroupDocs.Signature
-linktitle: Signera dokument med anpassade bilder
-second_title: GroupDocs.Signature .NET API
-description: Upptäck hur du förbättrar äktheten och säkerheten för dina dokument genom att signera dem med anpassade bilder med GroupDocs.Signature för .NET. Denna steg-för-steg handledning täcker allt från att ladda ett dokument.
-weight: 13
-url: /sv/signature/master-advanced-sign-techniques/sign-documents-with-custom-image/
+"description": "Upptäck hur du kan förbättra äktheten och säkerheten för dina dokument genom att signera dem med anpassade bilder med GroupDocs.Signature för .NET. Den här steg-för-steg-handledningen täcker allt från att ladda ett dokument."
+"linktitle": "Signera dokument med anpassade bilder"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Signera dokument med anpassade bilder med GroupDocs.Signature"
+"url": "/sv/signature/net/master-advanced-sign-techniques/sign-documents-with-custom-image/"
+"weight": 13
 ---
+
 ## Introduktion
 
-I den här handledningen kommer du att lära dig hur du använder GroupDocs.Signature för .NET för att signera dokument med bilder. Dokumentsignering förbättrar äktheten och säkerheten för dina filer och säkerställer att de är manipuleringssäkra och juridiskt bindande. Genom att integrera dokumentsigneringsfunktioner i dina .NET-applikationer kan du effektivisera dina arbetsflöden avsevärt.
+I den här handledningen lär du dig hur du använder GroupDocs.Signature för .NET för att signera dokument med bilder. Dokumentsignering förbättrar dina filers autenticitet och säkerhet, vilket säkerställer att de är manipulationssäkra och juridiskt bindande. Genom att integrera dokumentsigneringsfunktioner i dina .NET-applikationer kan du effektivisera dina arbetsflöden avsevärt.
 
-## Förutsättningar
+## Förkunskapskrav
 
-Innan du dyker in i handledningen, se till att du har följande:
+Innan du går in i handledningen, se till att du har följande:
 
-1.  GroupDocs.Signature för .NET: Ladda ner och installera GroupDocs.Signature för .NET från[webbplats](https://releases.groupdocs.com/signature/net/).
-2. .NET-utvecklingsmiljö: Skapa en arbetsmiljö för .NET-utveckling.
+1. GroupDocs.Signature för .NET: Ladda ner och installera GroupDocs.Signature för .NET från [webbplats](https://releases.groupdocs.com/signature/net/).
+2. .NET-utvecklingsmiljö: Konfigurera en arbetsmiljö för .NET-utveckling.
 
-## Importera namnområden
+## Importera namnrymder
 
-För att komma åt de obligatoriska klasserna och metoderna, börja med att importera de nödvändiga namnrymden i ditt projekt:
+För att komma åt de obligatoriska klasserna och metoderna, börja med att importera de nödvändiga namnrymderna i ditt projekt:
 
 ```csharp
 using System;
@@ -45,7 +46,7 @@ Definiera sökvägen till signaturbilden som du tänker använda:
 string imagePath = "signature_handwrite.jpg";
 ```
 
-## Steg 3: Ange sökväg för utdatafil
+## Steg 3: Ange sökväg till utdatafil
 
 Bestäm var du vill spara det signerade dokumentet:
 
@@ -55,24 +56,24 @@ string outputFilePath = Path.Combine("Your Document Directory", "SignWithImage",
 
 ## Steg 4: Initiera signaturobjektet
 
- Skapa en instans av`Signature` klass, passerar i dokumentets sökväg:
+Skapa en instans av `Signature` klass, skickar in dokumentets sökväg:
 
 ```csharp
 using (Signature signature = new Signature(filePath))
 {
-    // Ytterligare kod kommer hit
+    // Ytterligare kod kommer att placeras här
 }
 ```
 
-## Steg 5: Konfigurera bildsigneringsalternativ
+## Steg 5: Konfigurera alternativ för bildsignering
 
-Ställ in alternativen för att signera dokumentet. Här kan du ange positionen för signaturen och om den ska visas på alla sidor:
+Ställ in alternativen för att signera dokumentet. Här kan du ange signaturens position och om den ska visas på alla sidor:
 
 ```csharp
 ImageSignOptions options = new ImageSignOptions(imagePath)
 {
     Left = 50,   // Horisontellt läge
-    Top = 50,    // Vertikal position
+    Top = 50,    // Vertikalt läge
     AllPages = true // Logga in på alla sidor
 };
 ```
@@ -87,7 +88,7 @@ SignResult result = signature.Sign(outputFilePath, options);
 
 ## Steg 7: Visa resultatet
 
-Slutligen, informera användaren om framgången med signeringsprocessen, inklusive platsen för det undertecknade dokumentet:
+Slutligen, informera användaren om hur signeringsprocessen har lyckats, inklusive var det signerade dokumentet finns:
 
 ```csharp
 Console.WriteLine($"\nSource document signed successfully with {result.Succeeded.Count} signature(s).\nFile saved at {outputFilePath}.");
@@ -95,26 +96,26 @@ Console.WriteLine($"\nSource document signed successfully with {result.Succeeded
 
 ## Slutsats
 
-I den här handledningen tog vi upp hur man signerar dokument med bilder i .NET-applikationer med GroupDocs.Signature för .NET. Dokumentsignering är avgörande för att upprätthålla äktheten och säkerheten för dina filer, vilket avsevärt förbättrar dina dokumenthanteringsmöjligheter.
+den här handledningen gick vi igenom hur man signerar dokument med hjälp av bilder i .NET-applikationer med GroupDocs.Signature för .NET. Dokumentsignering är avgörande för att upprätthålla äktheten och säkerheten för dina filer, vilket avsevärt förbättrar dina dokumenthanteringsfunktioner.
 
-## FAQ's
+## Vanliga frågor
 
 ### Kan jag använda flera signaturbilder i ett enda dokument?
 
-Ja, du kan signera ett dokument med flera bilder. Upprepa helt enkelt signeringsprocessen för varje bild efter behov.
+Ja, du kan signera ett dokument med flera bilder. Upprepa bara signeringsprocessen för varje bild efter behov.
 
 ### Är GroupDocs.Signature för .NET kompatibelt med alla dokumenttyper?
 
-GroupDocs.Signature för .NET stöder en mängd olika dokumentformat, inklusive PDF, Word, Excel och mer.
+GroupDocs.Signature för .NET stöder en mängd olika dokumentformat, inklusive PDF, Word, Excel med flera.
 
 ### Kan jag anpassa utseendet på signaturen?
 
-Absolut! Du kan justera olika aspekter av signaturens utseende, som storlek, position, transparens med mera.
+Absolut! Du kan justera olika aspekter av signaturens utseende, såsom storlek, position, transparens med mera.
 
 ### Finns en testversion tillgänglig för testning?
 
-Ja, du kan ladda ner en gratis testversion från webbplatsen för att utforska dess funktionalitet innan du förbinder dig till ett köp.
+Ja, du kan ladda ner en gratis testversion från webbplatsen för att utforska dess funktioner innan du bestämmer dig för ett köp.
 
 ### Hur kan jag få teknisk support för GroupDocs.Signature för .NET?
 
- För teknisk hjälp, besök[GroupDocs.Signature forum](https://forum.groupdocs.com/c/signature/13).
+För teknisk hjälp, besök [GroupDocs.Signature-forumet](https://forum.groupdocs.com/c/signature/13).

@@ -19,7 +19,7 @@ Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 2. Ontwikkelomgeving: Een IDE zoals Visual Studio.
 3. .NET Framework: Controleer of .NET op uw systeem is geïnstalleerd.
 4. Basiskennis van C#: Kennis van C#-programmering wordt verondersteld.
-5. Voorbeeld PDF-bestand: Houd een PDF met afbeeldingen bij de hand om te testen.
+5. Voorbeeld PDF-bestand: Zorg dat u een PDF met afbeeldingen bij de hand hebt om te testen.
 
 Als u geen licentie hebt, kunt u een gratis proefversie van Aspose.PDF gebruiken door een tijdelijke licentie aan te schaffen [hier](https://purchase.aspose.com/temporary-license/).
 
@@ -75,7 +75,7 @@ dataDir = dataDir + "DeleteImages_out.pdf";
 pdfDocument.Save(dataDir);
 ```
 
-Hiermee wordt de bijgewerkte PDF opgeslagen als `DeleteImages_out.pdf` in dezelfde directory, waarbij het originele bestand behouden blijft.
+Hiermee wordt de bijgewerkte PDF opgeslagen als `DeleteImages_out.pdf` in dezelfde map, waarbij het originele bestand behouden blijft.
 
 ## Stap 5: Bevestig het proces
 
@@ -89,7 +89,7 @@ Er wordt een succesbericht weergegeven met de locatie van het bijgewerkte bestan
 
 ## Conclusie
 
-Gefeliciteerd! U hebt met succes een afbeelding uit een PDF-bestand verwijderd met Aspose.PDF voor .NET. Door deze stappen te volgen, kunt u PDF-documenten eenvoudig aanpassen aan uw wensen. Voor geavanceerdere functies, zoals het extraheren van afbeeldingen of het toevoegen van tekst, kunt u de [Aspose.PDF voor .NET-documentatie](https://reference.aspose.com/pdf/net/).
+Gefeliciteerd! U hebt met succes een afbeelding uit een PDF-bestand verwijderd met Aspose.PDF voor .NET. Door deze stappen te volgen, kunt u PDF-documenten eenvoudig aanpassen aan uw wensen. Voor meer geavanceerde functies, zoals het extraheren van afbeeldingen of het toevoegen van tekst, kunt u de [Aspose.PDF voor .NET-documentatie](https://reference.aspose.com/pdf/net/).
 
 ## Veelgestelde vragen
 
@@ -103,7 +103,7 @@ Absoluut! Het verwijderen van afbeeldingen kan de bestandsgrootte aanzienlijk ve
 Ja, u kunt door de pagina's bladeren en afbeeldingen verwijderen met behulp van de `Resources.Images.Delete` methode.
 
 ### Hoe kan ik controleren of een afbeelding succesvol is verwijderd?
-U kunt het PDF-bestand visueel controleren in een viewer of via een programma verifiëren hoeveel afbeeldingen er nog op een pagina staan.
+U kunt het PDF-bestand visueel controleren in een viewer of programmatisch verifiëren hoeveel afbeeldingen er nog op een pagina staan.
 
-### Kan ik het verwijderen van de afbeelding ongedaan maken?
+### Is het mogelijk om het verwijderen van de afbeelding ongedaan te maken?
 Nee, zodra een afbeelding is verwijderd en de PDF is opgeslagen, kan dit niet meer ongedaan worden gemaakt. Bewaar altijd een back-up van de originele PDF.

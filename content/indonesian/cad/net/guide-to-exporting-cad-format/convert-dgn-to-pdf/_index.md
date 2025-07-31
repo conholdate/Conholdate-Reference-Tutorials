@@ -1,21 +1,22 @@
 ---
-title: Konversi DGN ke PDF di Aspose.CAD untuk .NET
-linktitle: Konversi DGN ke PDF di Aspose.CAD untuk .NET
-second_title: Aspose.CAD .NET - Format Berkas CAD dan BIM
-description: Pelajari cara mengonversi file DGN ke PDF dengan mudah menggunakan pustaka Aspose.CAD yang canggih untuk .NET. Panduan langkah demi langkah ini dirancang untuk pengembang dari semua tingkatan.
-weight: 12
-url: /id/cad/guide-to-exporting-cad-format/convert-dgn-to-pdf/
+"description": "Pelajari cara mengonversi berkas DGN ke PDF dengan mudah menggunakan pustaka Aspose.CAD yang canggih untuk .NET. Panduan langkah demi langkah ini dirancang untuk pengembang dari semua tingkatan."
+"linktitle": "Konversi DGN ke PDF di Aspose.CAD untuk .NET"
+"second_title": "Aspose.CAD .NET - Format Berkas CAD dan BIM"
+"title": "Konversi DGN ke PDF di Aspose.CAD untuk .NET"
+"url": "/id/cad/net/guide-to-exporting-cad-format/convert-dgn-to-pdf/"
+"weight": 12
 ---
+
 ## Perkenalan
 
-Menjelajahi dunia file CAD bisa jadi menantang, tetapi dengan Aspose.CAD untuk .NET, pengembang dapat dengan mudah memanipulasi dan mengonversi berbagai format CAD. Salah satu kebutuhan umum adalah mengonversi file DGN ke PDF, yang akan kita bahas langkah demi langkah dalam tutorial ini.
+Menjelajahi dunia berkas CAD bisa jadi menantang, tetapi dengan Aspose.CAD untuk .NET, pengembang dapat dengan mudah memanipulasi dan mengonversi berbagai format CAD. Salah satu kebutuhan umum adalah mengonversi berkas DGN ke PDF, yang akan kita bahas langkah demi langkah dalam tutorial ini.
 
 ## Prasyarat
 
 Untuk mengikutinya, pastikan Anda memiliki hal berikut:
 
 - Kemampuan dasar dalam C# dan kerangka kerja .NET.
--  Pustaka Aspose.CAD untuk .NET telah terinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cad/net/).
+- Pustaka Aspose.CAD untuk .NET telah terinstal. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/cad/net/).
 - Contoh file DGN (misalnya, Nikon_D90_Camera.dgn). 
 
 ## Langkah 1: Impor Namespace yang Diperlukan
@@ -80,21 +81,21 @@ cadImage.Save(myDir + "ExportDGNToPdf_out.pdf", pdfOptions);
 
 ## Kesimpulan
 
-Selamat! Anda telah berhasil mengonversi file DGN menjadi PDF menggunakan Aspose.CAD untuk .NET. Tutorial sederhana ini memandu Anda memuat file DGN, mengatur opsi rasterisasi, dan menyimpan output sebagai PDF.
+Selamat! Anda telah berhasil mengonversi berkas DGN menjadi PDF menggunakan Aspose.CAD untuk .NET. Tutorial sederhana ini memandu Anda dalam memuat berkas DGN, mengatur opsi rasterisasi, dan menyimpan hasilnya sebagai PDF.
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Apakah saya perlu pengetahuan CAD sebelumnya untuk menggunakan Aspose.CAD?  
-Tentu saja! Aspose.CAD dirancang untuk menyederhanakan tugas CAD yang rumit, sehingga dapat diakses oleh semua pengembang, apa pun pengetahuan CAD mereka.
+Tentu saja! Aspose.CAD dirancang untuk menyederhanakan tugas-tugas CAD yang kompleks, sehingga dapat diakses oleh semua pengembang, terlepas dari pengetahuan CAD mereka.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.CAD?  
- Anda dapat menjelajahi panduan dan contoh lengkap di[Dokumentasi Aspose.CAD](https://reference.aspose.com/cad/net/).
+Anda dapat menjelajahi panduan dan contoh lengkap di [Dokumentasi Aspose.CAD](https://reference.aspose.com/cad/net/).
 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.CAD?  
- Ya, uji coba gratis dapat diperoleh[Di Sini](https://releases.aspose.com/).
+Ya, uji coba gratis dapat diperoleh [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.CAD?  
- Anda dapat meminta lisensi sementara[Di Sini](https://purchase.conholdate.com/temporary-license/).
+Anda dapat meminta lisensi sementara [Di Sini](https://purchase.conholdate.com/temporary-license/).
 
 ### Butuh bantuan atau punya pertanyaan?  
- Bergabunglah dalam percakapan di[Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk dukungan dan pertanyaan komunitas.
+Bergabunglah dalam percakapan di [Forum Aspose.CAD](https://forum.aspose.com/c/cad/19) untuk dukungan dan pertanyaan komunitas.

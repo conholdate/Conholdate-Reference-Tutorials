@@ -20,7 +20,7 @@ Antes de começar, certifique-se de ter o seguinte pronto:
 3. Conhecimento básico de C#: A familiaridade com C# e .NET ajudará você a seguir este tutorial com mais facilidade.
 4. Arquivo Excel de exemplo: para esta demonstração, usaremos um arquivo chamado `sampleExportRangeOfCellsInWorksheetToImage.xlsx`, que você pode criar para testes.
 
-## Etapa 1: Importar os pacotes necessários
+## Etapa 1: Importar pacotes necessários
 
 Para trabalhar com arquivos e imagens do Excel no .NET, você precisa importar os seguintes namespaces:
 

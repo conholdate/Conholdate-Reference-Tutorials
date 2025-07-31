@@ -1,20 +1,21 @@
 ---
-title: .NET용 Aspose.Drawing을 사용한 로컬 변환 가이드
-linktitle: Aspose.Drawing을 사용한 로컬 변환 가이드
-second_title: Aspose.Drawing .NET API - System.Drawing.Common의 대안
-description: Aspose.Drawing을 사용하여 로컬 변환으로 .NET 애플리케이션의 시각적 기능을 향상시키세요. 이 포괄적인 튜토리얼은 변환 행렬을 적용하여 놀라운 그래픽을 만드는 과정을 안내합니다.
-weight: 11
-url: /ko/drawing/transformations/guide-to-local-transformation/
+"description": "Aspose.Drawing을 사용하여 로컬 변환을 통해 .NET 애플리케이션의 시각적 성능을 향상시키세요. 이 포괄적인 튜토리얼은 변환 행렬을 적용하여 멋진 그래픽을 만드는 과정을 안내합니다."
+"linktitle": "Aspose.Drawing을 사용한 로컬 변환 가이드"
+"second_title": "Aspose.Drawing .NET API - System.Drawing.Common의 대안"
+"title": ".NET용 Aspose.Drawing을 사용한 로컬 변환 가이드"
+"url": "/ko/drawing/net/transformations/guide-to-local-transformation/"
+"weight": 11
 ---
+
 ## 소개
 
-Aspose.Drawing for .NET을 사용하면 개발자가 로컬 변환을 통해 정교한 그래픽을 만들 수 있습니다. 이 간략한 가이드에서는 로컬 변환을 단계별로 설정하는 방법을 안내합니다.
+Aspose.Drawing for .NET을 사용하면 개발자가 로컬 변환을 통해 정교한 그래픽을 제작할 수 있습니다. 이 간략한 가이드에서는 로컬 변환을 단계별로 설정하는 방법을 안내합니다.
 
 ## 필수 조건
 
-1.  .NET용 Aspose.Drawing: 여기에서 다운로드하고 설치하세요.[여기](https://releases.aspose.com/drawing/net/).
+1. Aspose.Drawing for .NET: 여기에서 다운로드하고 설치하세요. [여기](https://releases.aspose.com/drawing/net/).
 2. 문서 디렉토리: 이미지를 저장할 디렉토리를 선택하세요.
-3. 기본 .NET 지식: C# 및 그래픽 프로그래밍 개념에 익숙함.
+3. .NET 기본 지식: C# 및 그래픽 프로그래밍 개념에 대한 지식이 필요합니다.
 
 ## 네임스페이스 가져오기
 
@@ -78,17 +79,17 @@ bitmap.Save(@"Your Document Directory\CoordinateSystemsTransformations\LocalTran
 
 ## 자주 묻는 질문
 
-### 여러 변환을 순차적으로 적용할 수 있나요?  
+### 여러 변환을 순서대로 적용할 수 있나요?  
 네, 행렬을 사용하여 변환을 연결할 수 있습니다.
 
 ### 복잡한 그래픽 애플리케이션에 적합합니까?  
-물론입니다! Aspose.Drawing은 광범위한 그래픽 작업을 지원합니다.
+물론입니다! Aspose.Drawing은 다양한 그래픽 작업을 지원합니다.
 
-### 다른 유형의 변환이 있나요?  
+### 다른 유형의 변형이 있나요?  
 네, 변환, 크기 조정, 기울이기가 지원됩니다.
 
 ### 예외를 어떻게 처리하나요?  
- 오류 처리를 구현하고 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/drawing/net/) 지침을 위해.
+오류 처리를 구현하고 다음을 참조하세요. [선적 서류 비치](https://reference.aspose.com/drawing/net/) 지침을 위해.
 
-### 구매하기 전에 체험해 볼 수 있나요?  
- 네, 탐색해보세요[무료 체험](https://releases.aspose.com/).
+### 구매하기 전에 미리 체험해 볼 수 있나요?  
+네, 탐색해보세요 [무료 체험](https://releases.aspose.com/).

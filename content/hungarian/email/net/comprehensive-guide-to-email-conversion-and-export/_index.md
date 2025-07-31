@@ -38,7 +38,7 @@ Itt kezdenek érdekessé (és a fejlesztők számára gyakran frusztrálóvá) v
 - Offline e-mail olvasók fejlesztése
 - E-mail biztonsági mentési megoldások megvalósítása
 
-Részletes útmutatónk a témában [E-mailek konvertálása MHT formátumba időzónával C#-ban](./convert-emails-to-mht-format-with-timezone-in-csharp/) ezzel szemben áll. Nem csak a kódot mutatjuk meg – elmagyarázzuk, miért fontos minden egyes lépés, és hogyan kerülheted el a gyakori buktatókat, amelyek még a tapasztalt fejlesztőket is eltántorítják.
+Részletes útmutatónk a témában [E-mailek konvertálása MHT formátumba időzónával C#-ban](./convert-emails-to-mht-format-with-timezone-in-csharp/) ezzel szemben áll. Nem csak a kódot mutatjuk meg, hanem elmagyarázzuk, miért fontos minden egyes lépés, és hogyan kerülheted el a gyakori buktatókat, amelyek még a tapasztalt fejlesztőket is eltántorítják.
 
 **Amit tanulni fogsz**:
 - Az időzóna adatainak hatása az e-mailek megjelenítésére

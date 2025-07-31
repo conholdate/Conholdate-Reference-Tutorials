@@ -21,7 +21,7 @@
 
 Behöver du konvertera e-post till MHT C#-format samtidigt som tidszoninformationen behålls intakt? Då har du kommit rätt. MHT-formatet (MIME HTML) är perfekt när du behöver arkivera e-postmeddelanden som enskilda filer som bevarar allt innehåll, formatering och metadata – inklusive de knepiga tidszonsdetaljer som ofta går förlorade i andra konverteringsmetoder.
 
-Den här omfattande guiden guidar dig genom hur du konverterar e-postmeddelanden till MHT-format med Aspose.Email för .NET, med särskild tonvikt på tidszonhantering. Oavsett om du bygger ett system för e-postarkivering, skapar säkerhetskopieringslösningar eller behöver visa e-postmeddelanden i webbläsare, har den här handledningen det du behöver.
+Den här omfattande guiden guidar dig genom hur du konverterar e-postmeddelanden till MHT-format med hjälp av Aspose.Email för .NET, med särskild tonvikt på tidszonhantering. Oavsett om du bygger ett system för e-postarkivering, skapar säkerhetskopieringslösningar eller behöver visa e-postmeddelanden i webbläsare, har den här handledningen det du behöver.
 
 ## Varför välja MHT-format för e-postkonvertering?
 

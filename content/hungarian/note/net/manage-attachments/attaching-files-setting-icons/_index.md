@@ -1,26 +1,27 @@
 ---
-title: Fájlok csatolása és ikonok beállítása az Aspose.Note for .NET programban
-linktitle: Csatoljon fájlt és állítsa be az ikont az Aspose.Note-ban
-second_title: Aspose.Note .NET API
-description: Ismerje meg lépésről lépésre, hogyan csatolhat fájlokat és állíthat be egyéni ikonokat a Microsoft OneNote dokumentumokban az Aspose.Note for .NET használatával. Bővítse .NET-alkalmazását zökkenőmentes dokumentumkezelési és testreszabási funkciókkal.
-weight: 10
-url: /hu/note/manage-attachments/attaching-files-setting-icons/
+"description": "Tanulja meg lépésről lépésre, hogyan csatolhat fájlokat és állíthat be egyéni ikonokat a Microsoft OneNote dokumentumokban az Aspose.Note for .NET használatával. Fejlessze .NET alkalmazását zökkenőmentes dokumentumkezeléssel és testreszabási funkciókkal."
+"linktitle": "Fájl csatolása és ikon beállítása az Aspose.Note-ban"
+"second_title": "Aspose.Note .NET API"
+"title": "Fájlok csatolása és ikonok beállítása az Aspose.Note for .NET programban"
+"url": "/hu/note/net/manage-attachments/attaching-files-setting-icons/"
+"weight": 10
 ---
+
 ## Bevezetés
 
-Az Aspose.Note for .NET egy fejlett könyvtár, amelyet a fejlesztők számára terveztek Microsoft OneNote-fájlok programozott létrehozására, kezelésére és konvertálására. A könyvtár kiemelkedő funkciója, hogy képes fájlokat csatolni a OneNote-dokumentumokhoz, és személyre szabni az ikonjaikat. Ebben az útmutatóban megvizsgáljuk, hogyan használhatja ki az Aspose.Note for .NET alkalmazást a fájlok zökkenőmentes csatolásához és egyéni ikonok beállításához, gazdagítva ezzel a OneNote dokumentumfunkcióit.
+Az Aspose.Note for .NET egy fejlett függvénytár, amelyet fejlesztők számára terveztek Microsoft OneNote fájlok programozott létrehozásához, kezeléséhez és konvertálásához. A függvénytár egyik kiemelkedő tulajdonsága, hogy fájlokat csatolhat OneNote dokumentumokhoz, és testreszabhatja ikonjaikat. Ebben az útmutatóban azt vizsgáljuk meg, hogyan használhatja ki az Aspose.Note for .NET-et fájlok zökkenőmentes csatolására és egyéni ikonok beállítására, gazdagítva a OneNote dokumentumok funkcionalitását.
 
 ## Előfeltételek
 
-A megoldás bevezetése előtt győződjön meg arról, hogy rendelkezik az alábbiakkal:
+A megoldás megvalósítása előtt győződjön meg arról, hogy rendelkezik a következőkkel:
 
-- Fejlesztői környezet: Visual Studio vagy egy hasonló IDE .NET-fejlesztéshez konfigurálva.
--  Könyvtár telepítése: Telepítse a[Aspose.Note for .NET](https://releases.aspose.com/words/net/) könyvtár.
-- Programozási ismeretek: A C# alapvető ismerete.
+- Fejlesztői környezet: Visual Studio vagy hasonló, .NET fejlesztéshez konfigurált IDE.
+- Könyvtár telepítése: Telepítse a [Aspose.Note .NET-hez](https://releases.aspose.com/words/net/) könyvtár.
+- Programozási ismeretek: C# alapismeretek.
 
-## Kötelező névterek importálása
+## Szükséges névterek importálása
 
-Adja hozzá ezeket a névtereket a projekthez az alapvető funkciók érdekében:
+Adja hozzá ezeket a névtereket a projektjéhez az alapvető funkciók érdekében:
 
 ```csharp
 using System.IO;
@@ -30,11 +31,11 @@ using System.Collections.Generic;
 using System.Drawing.Imaging;
 ```
 
-Az alábbiakban bemutatjuk a részletes, lépésről lépésre történő megvalósítást.
+Az alábbiakban részletesen bemutatjuk a lépésről lépésre történő megvalósítást.
 
-## 1. lépés: Hozzon létre egy új OneNote-dokumentumot
+## 1. lépés: Új OneNote-dokumentum létrehozása
 
- Inicializáljon egy új OneNote-dokumentumot a`Document` osztály.
+Új OneNote dokumentum inicializálása a következővel: `Document` osztály.
 
 ```csharp
 Document doc = new Document();
@@ -48,23 +49,23 @@ Adjon hozzá egy oldalt a dokumentumhoz a jegyzetek és mellékletek rendszerez�
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-## 3. lépés: Állítson be egy körvonalat
+## 3. lépés: Vázlat beállítása
 
- Hozzon létre egy`Outline` objektum, amely a OneNote oldalon lévő elemek tárolójaként szolgál.
+Hozzon létre egy `Outline` objektum, amely a OneNote-lap elemeinek tárolójaként szolgál.
 
 ```csharp
 Outline outline = new Outline(doc);
 ```
 
-## 4. lépés: Inicializáljon egy Vázlat elemet
+## 4. lépés: Vázlatelem inicializálása
 
- An`OutlineElement` tartalmazza a mellékletet és a hozzá tartozó ikont.
+Egy `OutlineElement` a mellékletet és a hozzá tartozó ikont fogja tartalmazni.
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
 ```
 
-## 5. lépés: Csatoljon egy fájlt, és adja meg az ikonját
+## 5. lépés: Fájl csatolása és ikonjának megadása
 
 Adja meg a csatolni kívánt fájlt, és adjon hozzá egy ikont.
 
@@ -78,26 +79,26 @@ using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 }
 ```
 
-## 6. lépés: Állítsa össze a dokumentumszerkezetet
+## 6. lépés: A dokumentum szerkezetének összeállítása
 
- Add hozzá a`OutlineElement` a`Outline` , és a`Outline` a`Page`.
+Add hozzá a `OutlineElement` a `Outline`, és a `Outline` a `Page`.
 
 ```csharp
 outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);
 ```
 
-## 7. lépés: Adja hozzá az oldalt a dokumentumhoz
+## 7. lépés: Oldal hozzáadása a dokumentumhoz
 
-Végül foglalja bele az oldalt a OneNote-dokumentumba.
+Végül vegye fel az oldalt a OneNote-dokumentumba.
 
 ```csharp
 doc.AppendChildLast(page);
 ```
 
-## 8. lépés: Mentse el a dokumentumot
+## 8. lépés: A dokumentum mentése
 
-Exportálja a frissített dokumentumot a fájlmelléklettel és ikonnal.
+Exportálja a frissített dokumentumot a fájlmelléklettel és az ikonnal.
 
 ```csharp
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
@@ -106,23 +107,23 @@ doc.Save(dataDir);
 
 ## Következtetés
 
-Az ebben az útmutatóban ismertetett lépések követésével könnyedén csatolhat fájlokat és állíthat be egyéni ikonokat a OneNote-dokumentumokban az Aspose.Note for .NET segítségével. Ez a funkció nagymértékben javíthatja a dokumentumok rendszerezését és a felhasználói élményt, így alkalmazásai robusztusabbak és funkciókban gazdagabbak.
+Az útmutatóban ismertetett lépéseket követve könnyedén csatolhat fájlokat és állíthat be egyéni ikonokat a OneNote dokumentumokban az Aspose.Note for .NET segítségével. Ez a funkció nagymértékben javíthatja a dokumentumok rendszerezését és a felhasználói élményt, így alkalmazásai robusztusabbak és funkciókban gazdagabbak lesznek.
 
 ## GYIK
 
-### Egy jegyzethez több fájl is csatolható?
-Igen, több fájlt is csatolhat, ha minden fájlhoz megismétli a csatolási folyamatot.
+### Lehet több fájlt csatolni egyetlen jegyzethez?
+Igen, több fájlt is csatolhat a csatolási folyamat megismétlésével.
 
-### Milyen képformátumok támogatottak az ikonokhoz?
-Az Aspose.Note támogatja a JPEG, PNG, BMP és GIF formátumokat a melléklet ikonokhoz.
+### Milyen képformátumok támogatottak ikonok esetén?
+Az Aspose.Note JPEG, PNG, BMP és GIF formátumokat támogat a mellékletikonokhoz.
 
-### Lehetséges-e dinamikusan csatolni fájlokat külső URL-ekről?
- Fájlokat tölthet le .NET-könyvtárak használatával, például`HttpClient` majd csatolja őket az Aspose.Note segítségével.
+### Lehetséges dinamikusan fájlokat csatolni külső URL-ekről?
+Fájlokat tölthet le .NET könyvtárak segítségével, mint például `HttpClient` majd csatolja őket az Aspose.Note használatával.
 
-### Vannak korlátozások a mellékletek fájlméretére vonatkozóan?
-Az Aspose.Note nem ír elő kifejezett méretkorlátot, de ügyeljen arra, hogy a rendszererőforrások képesek legyenek kezelni a nagy fájlokat.
+### Vannak-e korlátozások a csatolmányok fájlméretére vonatkozóan?
+Az Aspose.Note nem szab meg explicit méretkorlátot, de győződj meg róla, hogy a rendszer erőforrásai elbírják a nagy fájlokat.
 
-### Átméretezhetők az ikonok beállítása előtt?
- Igen, manipulálhatja az ikonképet a .NET segítségével`System.Drawing` csatolása előtt.
+### Átméretezhetők az ikonok a beállítás előtt?
+Igen, az ikonképet .NET-ekkel lehet manipulálni. `System.Drawing` könyvtárat a csatolás előtt.
 
- További segítségért keresse fel a[dokumentáció](https://reference.aspose.com/words/net/) vagy nyúlj hozzá[Aspose támogatást](https://forum.aspose.com/c/words/8).
+További segítségért tekintse meg a [dokumentáció](https://reference.aspose.com/words/net/) vagy forduljon hozzá [Aspose támogatás](https://forum.aspose.com/c/words/8).

@@ -90,10 +90,10 @@ A VBA-projektek jelszóval való védelme az Excelben kritikus lépés a bizalma
 
 ## GYIK
 
-### Tesztelhetem az Aspose.Cells-t vásárlás előtt?
+### Kipróbálhatom az Aspose.Cells-t vásárlás előtt?
 Igen, az Aspose.Cells kínál egy [ingyenes próba](https://releases.aspose.com/) hogy a vásárlás előtt kipróbálhasd a funkcióit.
 
-### Eltávolíthatók vagy módosíthatók a jelszavak később?
+### Eltávolíthatók vagy később módosíthatók a jelszavak?
 Igen, feloldhatja a VBA-projekt védelmét a következővel: `Unprotect` módszer a helyes jelszóval.
 
 ### Ez a módszer makrók nélküli fájlok esetén is működik?

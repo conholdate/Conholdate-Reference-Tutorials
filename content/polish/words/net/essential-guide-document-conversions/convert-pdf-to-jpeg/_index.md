@@ -33,7 +33,7 @@ Tutaj właśnie sprawdza się konwersja JPEG:
 - **Integracja internetowa**:Obrazy ładują się szybciej i są łatwiejsze do wyświetlania w aplikacjach internetowych
 - **Generowanie miniatur**:Doskonały do tworzenia obrazów podglądowych w systemach zarządzania dokumentami
 - **Udostępnianie w mediach społecznościowych**:Większość platform preferuje formaty obrazów zamiast plików PDF
-- **Załączniki e-mail**:Mniejsze rozmiary plików i uniwersalna kompatybilność
+- **Załączniki do wiadomości e-mail**:Mniejsze rozmiary plików i uniwersalna kompatybilność
 - **Aplikacje mobilne**:Lepsza wydajność i lepsze doświadczenia użytkownika na urządzeniach mobilnych
 
 ## Wymagania wstępne
@@ -121,7 +121,7 @@ catch (Exception ex)
 }
 ```
 
-## Krok 4: Konwertuj PDF do JPEG
+## Krok 4: Konwersja PDF do JPEG
 
 To jest moment, do którego dążyliśmy – faktyczna konwersja. To zaskakująco proste:
 

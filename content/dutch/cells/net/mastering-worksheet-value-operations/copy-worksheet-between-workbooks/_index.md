@@ -9,15 +9,15 @@
 
 ## Invoering
 
-Het overzetten van gegevens tussen Excel-werkmappen is een veelvoorkomende taak in .NET-toepassingen, met name voor het genereren van rapporten of het beheren van sjablonen. Gelukkig maakt Aspose.Cells voor .NET dit proces eenvoudig en efficiënt. In deze tutorial leiden we u door de stappen om een werkblad van de ene werkmap naar de andere te kopiëren, zodat u volledige controle krijgt over uw gegevensbeheer.
+Het overzetten van gegevens tussen Excel-werkmappen is een veelvoorkomende taak in .NET-toepassingen, met name voor het genereren van rapporten of het beheren van sjablonen. Gelukkig maakt Aspose.Cells voor .NET dit proces eenvoudig en efficiënt. In deze tutorial leiden we je door de stappen om een werkblad van de ene werkmap naar de andere te kopiëren, zodat je volledige controle hebt over je gegevensbeheer.
 
 ## Vereisten
 
-Voordat we beginnen, zorg ervoor dat u de volgende hulpmiddelen hebt:
+Voordat we beginnen, zorg ervoor dat u over de volgende hulpmiddelen beschikt:
 
 1. Aspose.Cells voor .NET-bibliotheek: download de bibliotheek [hier](https://releases.aspose.com/cells/net/).
 2. Visual Studio of een vergelijkbare IDE: Hiermee schrijft en voert u uw .NET-code uit.
-3. Aspose-licentie: Om evaluatiebeperkingen te omzeilen, kunt u: [vraag een gratis proefperiode aan](https://releases.aspose.com/) of een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
+3. Aspose-licentie: Om evaluatiebeperkingen te omzeilen, kunt u: [Vraag een gratis proefperiode aan](https://releases.aspose.com/) of een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
 
 ## Pakketten importeren
 
@@ -33,10 +33,10 @@ Met deze naamruimten krijgt u toegang tot de klassen die u nodig hebt om Excel-w
 
 ## Stap 1: Stel het directorypad in
 
-Definieer eerst de map waarin uw Excel-werkmappen moeten worden opgeslagen. Dit vereenvoudigt de toegang tot uw bestanden later.
+Definieer eerst de map waarin uw Excel-werkmappen moeten worden opgeslagen. Dit vereenvoudigt de toegang tot bestanden later.
 
 ```csharp
-// Stel het pad in naar uw documentenmap.
+// Stel het pad naar uw documentenmap in.
 string dataDir = "Your Document Directory";
 ```
 Vervangen `"Your Document Directory"` met uw werkelijke pad.
@@ -108,7 +108,7 @@ ws1.Name = "MySheet";
 
 ## Stap 8: Gegevens kopiëren naar het bestemmingswerkblad
 
-Gebruik de `Copy` Methode om het volledige werkblad van de eerste werkmap naar de tweede over te brengen.
+Gebruik de `Copy` Methode om het hele werkblad van de eerste werkmap naar de tweede over te brengen.
 
 ```csharp
 // Kopieer gegevens van het eerste werkblad van de eerste werkmap naar het eerste werkblad van de tweede werkmap.

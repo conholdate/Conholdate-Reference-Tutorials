@@ -38,7 +38,7 @@ using System.Text;
 Primero, especifique las rutas para sus archivos de entrada y salida:
 
 ```csharp
-// Directorio de origen
+// Directorio de fuentes
 string sourceDir = "Your Document Directory"; // Reemplace con la ruta de su directorio de origen
 // Directorio de salida
 string outputDir = "Your Document Directory"; // Reemplace con la ruta de su directorio de salida

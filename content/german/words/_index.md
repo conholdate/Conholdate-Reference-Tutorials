@@ -20,7 +20,7 @@ Nutzen Sie das volle Potenzial der Word-Dokumentenverarbeitung mit Aspose.Words 
 - **📄 Formatunterstützung**: DOC, DOCX, RTF, HTML, PDF, EPUB, Markdown und mehr
 - **🔄 Erweiterte Konvertierungen**: High-Fidelity-Transformationen mit professioneller Ausgabequalität
 - **🤖 KI-Integration**: Dokumentzusammenfassung mit OpenAI GPT- und Google AI-Modellen
-- **📊 Serienbriefe und Berichte**Dynamische Dokumentgenerierung aus Datenquellen
+- **📊 Serienbriefe und Berichte**: Dynamische Dokumentgenerierung aus Datenquellen
 - **🎨 Umfangreiche Formatierung**: Vollständige Kontrolle über Dokumentstil, Layout und interaktive Elemente
 
 ## 📚 Tutorial-Kategorien
@@ -34,10 +34,10 @@ Meistern Sie grundlegende Dokumenttransformationen mit professioneller Ausgabequ
 | **[Konvertieren Sie DOCX in EPUB](./essential-guide-document-conversions/convert-docx-to-epub/)** | Digitales Publizieren für E-Reader und Mobilgeräte | ⭐⭐ Mittelstufe |
 | **[Konvertieren Sie DOCX in TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Klartextextraktion zur Datenverarbeitung und -analyse | ⭐ Anfänger |
 | **[Konvertieren Sie DOCX in Byte-Arrays](./essential-guide-document-conversions/convert-docx-to-byte-arrays/)** | Speichereffiziente Dokumentenverwaltung für Webanwendungen | ⭐⭐ Mittelstufe |
-| **[Konvertieren Sie DOC in DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** | Modernisierung des Legacy-Formats und Kompatibilitätsupdates | ⭐ Anfänger |
+| **[Konvertieren Sie DOC in DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** Modernisierung des Legacy-Formats und Kompatibilitätsupdates | ⭐ Anfänger |
 | **[DOCX in MHTML konvertieren und E-Mail senden](./essential-guide-document-conversions/convert-docx-to-mhtml-send-email/)** | E-Mail-Integration mit umfassender Formatierungsunterstützung | ⭐⭐ Mittelstufe |
 | **[Konvertieren Sie PDF in JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Hochwertige Bildextraktion aus PDF-Dokumenten | ⭐⭐ Mittelstufe |
-| **[Als PDF speichern](./essential-guide-document-conversions/save-as-pdf/)** Professionelle Dokumentveröffentlichung mit erweiterten Optionen | ⭐ Anfänger |
+| **[Als PDF speichern](./essential-guide-document-conversions/save-as-pdf/)** | Professionelle Dokumentveröffentlichung mit erweiterten Optionen | ⭐ Anfänger |
 
 ### Erweiterte KI-Dokumentenverarbeitung
 Nutzen Sie modernste künstliche Intelligenz für intelligente Dokumentenanalyse und automatisierte Inhaltserstellung.
@@ -46,14 +46,14 @@ Nutzen Sie modernste künstliche Intelligenz für intelligente Dokumentenanalyse
 |----------|----------|------------|
 | **[Dokumentzusammenfassung mit KI-Modell meistern](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Google AI-Integration für intelligente Inhaltszusammenfassung | ⭐⭐⭐ Erweitert |
 | **[Effiziente Dokumentzusammenfassung mit OpenAI-Modell](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | GPT-gestützte Dokumentenanalyse und automatisierte Erkenntnisse | ⭐⭐⭐ Erweitert |
-| **[Optionen zum Zusammenfassen von Dokumenten](./advanced-ai-document-processing/summarize-documents-options/)** | Erweiterte Konfiguration für KI-gestützte Inhaltsverarbeitung | ⭐⭐⭐ Erweitert |
+| **[Optionen zum Zusammenfassen von Dokumenten](./advanced-ai-document-processing/summarize-documents-options/)** Erweiterte Konfiguration für KI-gestützte Inhaltsverarbeitung | ⭐⭐⭐ Erweitert |
 
 ### Sektionsmanagement meistern
 Professionelle Dokumentstruktur und -organisation mit erweiterten Techniken zur Abschnittsbearbeitung.
 
 | Tutorial | Beschreibung | Schwierigkeitsgrad |
 |----------|----------|------------|
-| **[Abschnitte hinzufügen](./section-management/adding-sections/)** Erstellen Sie strukturierte Dokumentlayouts mit professioneller Formatierung | ⭐ Anfänger |
+| **[Abschnitte hinzufügen](./section-management/adding-sections/)** | Erstellen Sie strukturierte Dokumentlayouts mit professioneller Formatierung | ⭐ Anfänger |
 | **[Abschnitte aus Word-Dokumenten löschen](./section-management/delete-sections-word-document/)** | Unnötige Dokumentabschnitte effizient entfernen | ⭐ Anfänger |
 | **[Abschnitts-Word-Inhalt anhängen](./section-management/append-section-word-content/)** | Inhalte aus mehreren Dokumentabschnitten nahtlos kombinieren | ⭐⭐ Mittelstufe |
 | **[Abschnitte zwischen Word-Dokumenten kopieren](./section-management/copy-sections-word-documents/)** | Strukturierte Inhalte zwischen verschiedenen Dokumenten übertragen | ⭐⭐ Mittelstufe |
@@ -81,7 +81,7 @@ Professionelle Bildverarbeitung und -optimierung für die Veröffentlichung von 
 |----------|----------|------------|
 | **[Belichtungsschwellenwertsteuerung für die TIFF-Binarisierung](./guide-to-image-save-options/expose-threshold-control-for-tiff-binarization-in-word-document/)** | Erweiterte Bildverarbeitung mit benutzerdefinierten Qualitätskontrollen | ⭐⭐⭐ Erweitert |
 | **[JPEG-Seitenbereich abrufen](./guide-to-image-save-options/get-jpeg-page-range-word-document/)** | Extrahieren Sie bestimmte Dokumentseiten als qualitativ hochwertige Bilder | ⭐⭐ Mittelstufe |
-| **[TIFF-Seitenbereich abrufen](./guide-to-image-save-options/get-tiff-page-range-word-document/)** Professionelle Bildextraktion mit TIFF-Formatoptimierung | ⭐⭐ Mittelstufe |
+| **[TIFF-Seitenbereich abrufen](./guide-to-image-save-options/get-tiff-page-range-word-document/)** | Professionelle Bildextraktion mit TIFF-Formatoptimierung | ⭐⭐ Mittelstufe |
 | **[Erstellen Sie 1Bpp-indizierte Bilder](./guide-to-image-save-options/create-1bpp-indexed/)** | Platzsparende Bildverarbeitung für Archivierung und Speicherung | ⭐⭐ Mittelstufe |
 | **[Rückruf zum Speichern der Seite](./guide-to-image-save-options/page-saving-callback-word-document/)** | Benutzerdefinierte Seitenverarbeitung mit automatischer Bildgenerierung | ⭐⭐⭐ Erweitert |
 
@@ -90,14 +90,14 @@ Umfassende Metadatenverwaltung und Dokumenteigenschaftenmanipulation für profes
 
 | Tutorial | Beschreibung | Schwierigkeitsgrad |
 |----------|----------|------------|
-| **[Benutzerdefinierte Dokumenteigenschaften entfernen](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** | Dokumentmetadaten bereinigen und Dateiorganisation optimieren | ⭐ Anfänger |
+| **[Benutzerdefinierte Dokumenteigenschaften entfernen](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** Dokumentmetadaten bereinigen und Dateiorganisation optimieren | ⭐ Anfänger |
 
 ## 🎯 Beliebte Anwendungsfälle
 
 ### **Dokumentenautomatisierung und -veröffentlichung**
 - **Professionelle Berichte**: Automatisierte Generierung von Geschäftsdokumenten mit konsistenter Formatierung
 - **Digitales Publizieren**: Konvertieren Sie Manuskripte in mehrere Formate für verschiedene Vertriebskanäle
-- **Inhaltsverwaltung**Optimieren Sie Dokument-Workflows mit Stapelverarbeitung und Formatstandardisierung
+- **Inhaltsverwaltung**: Optimieren Sie Dokument-Workflows mit Stapelverarbeitung und Formatstandardisierung
 
 ### **KI-gestützte Inhaltsverarbeitung**
 - **Intelligente Zusammenfassung**: Extrahieren Sie mithilfe fortschrittlicher KI-Modelle wichtige Erkenntnisse aus langen Dokumenten
@@ -106,7 +106,7 @@ Umfassende Metadatenverwaltung und Dokumenteigenschaftenmanipulation für profes
 
 ### **Enterprise-Integrationslösungen**
 - **Webanwendungen**: Generieren Sie Dokumente dynamisch aus Webschnittstellen und Datenbanken
-- **E-Mail-Automatisierung**: Erstellen Sie umfangreiche E-Mail-Inhalte mit eingebetteten Dokumenten und Formatierungen
+- **E-Mail-Automatisierung**Erstellen Sie umfangreiche E-Mail-Inhalte mit eingebetteten Dokumenten und Formatierungen
 - **API-Entwicklung**: Erstellen Sie dokumentenzentrierte Microservices und automatisierte Verarbeitungspipelines
 
 ## 📊 Empfehlungen für Lernpfade
@@ -151,7 +151,7 @@ Umfassende Metadatenverwaltung und Dokumenteigenschaftenmanipulation für profes
 - **Echtzeitverarbeitung** - Live-Dokumentenanalyse und Vorschläge
 
 ### **Cloud-Integration**
-- **Azure Document Intelligence** Dokumentenverarbeitung auf Unternehmensniveau
+- **Azure Document Intelligence** - Dokumentenverarbeitung auf Unternehmensniveau
 - **AWS-Integration** - Skalierbare Cloud-basierte Workflows
 - **Google Workspace** - Nahtlose Integration von Tools für die Zusammenarbeit
 
@@ -171,7 +171,7 @@ Umfassende Metadatenverwaltung und Dokumenteigenschaftenmanipulation für profes
 
 ### **Lizenzierung und Testversionen**
 - **[Temporäre Lizenz](https://purchase.conholdate.com/temporary-license/)** - Verlängerter Evaluierungszeitraum
-- **[Kaufoptionen](https://purchase.conholdate.com/buy)** - Flexible Lizenzierung für Teams und Unternehmen
+- **[Kaufoptionen](https://purchase.conholdate.com/buy)** Flexible Lizenzierung für Teams und Unternehmen
 
 ## 📋 Kurzanleitung zum Tutorial
 

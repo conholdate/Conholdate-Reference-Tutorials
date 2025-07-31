@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Cells for .NET 高效管理和驗證 Excel 工作表中的紙張尺寸設定。本指南提供全面的逐步說明。"
+"description": "了解如何使用 Aspose.Cells for .NET 有效地管理和驗證 Excel 工作表中的紙張尺寸設定。本綜合指南提供了逐步說明。"
 "linktitle": "檢查工作表的紙張大小設定是否為自動"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "檢查工作表的紙張大小設定是否為自動"
@@ -9,14 +9,14 @@
 
 ## 介紹
 
-處理電子表格時，確保最佳的列印效果至關重要。其中一個關鍵點是紙張大小的設定。在本指南中，我們將探討如何使用 Aspose.Cells for .NET 來確定工作表的紙張大小是否設定為自動。這個強大的庫可以無縫操作 Excel，讓您的任務更有效率、更易於管理。
+處理電子表格時，確保最佳的列印呈現效果至關重要。其中一個關鍵方面是紙張尺寸設定。在本指南中，我們將探討如何使用 Aspose.Cells for .NET 確定工作表的紙張尺寸是否設定為自動。這個強大的庫允許無縫地操作 Excel，使您的任務更有效率、更易於管理。
 
 ## 先決條件
 在深入編碼之前，請確保您已完成必要的設定：
 
-1. C# 開發環境：您需要一個合適的 IDE，例如 Visual Studio。如果您尚未安裝，可以從 Microsoft 網站下載。
+1. C# 開發環境：您需要一個合適的 IDE，例如 Visual Studio。如果您尚未安裝，您可以從 Microsoft 網站下載它。
    
-2. Aspose.Cells 庫：確保您已安裝 Aspose.Cells 庫。您可以從以下網址輕鬆下載： [Aspose](https://releases。aspose.com/cells/net/).
+2. Aspose.Cells 庫：確保您有 Aspose.Cells 庫。您可以從以下位置輕鬆下載 [Aspose](https://releases。aspose.com/cells/net/).
 
 3. 基本 C# 知識：熟悉 C# 程式設計原理將幫助您有效地理解所提供的範例。
 
@@ -30,7 +30,7 @@
 
 ### 建立新專案
 1. 開啟 Visual Studio。
-2. 建立一個新的 C# 控制台應用程式專案。您可以將其命名為 `CheckPaperSize`。
+2. 建立一個新的 C# 控制台應用程式專案。你可以這樣命名 `CheckPaperSize`。
 
 ### 新增 Aspose.Cells 引用
 1. 在解決方案資源管理器中以滑鼠右鍵按一下您的專案。
@@ -87,7 +87,7 @@ Console.WriteLine("Paper size check executed successfully.");
 ```
 
 ## 結論
-在本教學中，我們成功探索如何使用 Aspose.Cells for .NET 檢查 Excel 檔案中工作表的紙張大小設定是否已設定為自動。透過遵循這些步驟，您現在掌握了以程式設計方式操作 Excel 檔案並驗證紙張大小等特定配置的基礎技能。
+在本教學中，我們成功探索如何使用 Aspose.Cells for .NET 檢查 Excel 檔案中工作表的紙張尺寸設定是否設定為自動。透過遵循這些步驟，您現在掌握了以程式設計方式操作 Excel 檔案和驗證特定配置（如紙張尺寸）的基礎技能。
 
 ## 常見問題解答
 

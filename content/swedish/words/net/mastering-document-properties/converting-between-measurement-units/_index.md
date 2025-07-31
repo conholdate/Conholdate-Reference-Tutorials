@@ -67,7 +67,7 @@ pageSetup.FooterDistance = ConvertUtil.InchToPoint(0.2);
 
 ## Steg 4: Spara dokumentet
 
-När du har konfigurerat ditt dokument sparar du det för att tillämpa alla ändringar:
+När du har konfigurerat ditt dokument, spara det för att tillämpa alla ändringar:
 
 ```csharp
 doc.Save("ConvertedDocument.docx");
@@ -91,7 +91,7 @@ Ja, Aspose.Words erbjuder metoder som `ConvertUtil.CmToPoint` för att omvandla 
 Ladda ner den från [webbplats](https://releases.aspose.com/words/net/) och följ de medföljande installationsanvisningarna.
 
 ### Kan jag ange olika enheter för olika avsnitt i ett dokument?
-Absolut! Du kan anpassa marginaler och inställningar för olika avsnitt med hjälp av `Section` klass.
+Absolut! Du kan anpassa marginaler och inställningar för olika sektioner med hjälp av `Section` klass.
 
 ### Vilka andra funktioner erbjuder Aspose.Words?
 Aspose.Words stöder ett brett utbud av funktioner, inklusive dokumentkonvertering, dokumentkoppling och omfattande formateringsalternativ. Kontrollera [dokumentation](https://reference.aspose.com/words/net/) för mer information.

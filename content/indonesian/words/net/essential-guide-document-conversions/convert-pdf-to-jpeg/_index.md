@@ -69,7 +69,7 @@ Alternatifnya, Anda dapat menggunakan GUI: klik kanan proyek Anda → Kelola Pak
 
 ### Struktur Proyek
 Buatlah struktur folder yang masuk akal. Saya biasanya mengatur:
-- Folder "Dokumen" untuk input PDF
+- Folder "Dokumen" untuk memasukkan PDF
 - Folder "Output" untuk JPEG yang dihasilkan
 - Jaga agar file sumber Anda tetap terorganisir
 

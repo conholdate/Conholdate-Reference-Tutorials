@@ -50,7 +50,7 @@ Ahora que tenemos nuestros prerrequisitos ordenados y los paquetes importados, d
 Define los directorios para tus archivos de entrada y salida:
 
 ```csharp
-// Directorio de origen
+// Directorio de fuentes
 string sourceDir = "Your Document Directory/";
 // Directorio de salida
 string outputDir = "Your Document Directory/";

@@ -50,7 +50,7 @@ Mielőtt elkezdenénk HTML e-maileket egyszerű szöveggé konvertálni, győző
 
 4. **Aspose.Words .NET-hez**Ezt a könyvtárat fogjuk használni a HTML-ből sima szöveggé konvertálás hatékony kezeléséhez. Megtalálhatja itt: [itt](https://releases.aspose.com/words/net/) vagy telepítsd a NuGet-en keresztül.
 
-5. **Minta HTML e-mail fájl**: Hozz létre egy tesztfájlt, melynek neve: `sample.html` némi HTML e-mail tartalommal kísérletezhetsz. Ez segít látni a konverziót működés közben.
+5. **Minta HTML e-mail fájl**: Hozz létre egy tesztfájlt, melynek neve: `sample.html` némi HTML e-mail tartalommal kísérletezhetsz. Ez segít látni a konverziót a gyakorlatban.
 
 **Profi tipp**Ha vállalati környezetben dolgozol, ellenőrizd, hogy a szervezeted rendelkezik-e már Aspose licencekkel – sok cég vásárol webhelyszintű licenceket, amelyeket használhatsz.
 

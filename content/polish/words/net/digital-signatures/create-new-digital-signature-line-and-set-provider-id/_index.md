@@ -48,7 +48,7 @@ Tutaj inicjujemy nowy `Document` i `DocumentBuilder`, co pozwala nam na łatwe d
 
 ## Krok 2: Zdefiniuj opcje linii podpisu
 
-Następnie zdefiniujemy opcje dla naszego podpisu, obejmujące imię i nazwisko osoby podpisującej, stanowisko, adres e-mail i inne istotne szczegóły:
+Następnie zdefiniujemy opcje dla naszego podpisu, obejmujące imię i nazwisko osoby podpisującej, jej stanowisko, adres e-mail i inne istotne szczegóły:
 
 ```csharp
 SignatureLineOptions signatureLineOptions = new SignatureLineOptions

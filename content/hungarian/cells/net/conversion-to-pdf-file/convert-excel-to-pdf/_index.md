@@ -20,7 +20,7 @@
 
 Az Excel-fájlok PDF-be konvertálása az egyik leggyakoribb feladat, amellyel .NET-fejlesztőként találkozhatsz. Akár üzleti jelentéseket készítesz, akár automatizált dokumentum-munkafolyamatokat hozol létre, akár táblázatformázást kell megőrizned a terjesztéshez, elengedhetetlen egy megbízható Excel-ből PDF-be konvertáló megoldás.
 
-Az Aspose.Cells for .NET segítségével zökkenőmentesen alakíthatsz át Excel-táblázatokat professzionális PDF-dokumentumokká, miközben megőrzöd az összes formázást, stílust és vizuális elemet. Ez nem csak az alapvető konverzióról szól – vállalati szintű funkciókat kapsz, amelyek kezelik az összetett táblázatokat, az egyéni formázást és a különféle Excel-funkciókat, amelyekkel más megoldások gyakran küzdenek.
+Az Aspose.Cells for .NET segítségével zökkenőmentesen alakíthatsz át Excel-táblázatokat professzionális PDF-dokumentumokká, miközben megőrizheted az összes formázást, stílust és vizuális elemet. Ez nem csak az alapvető konverzióról szól – vállalati szintű funkciókat kapsz, amelyek kezelik az összetett táblázatokat, az egyéni formázást és a különféle Excel-funkciókat, amelyekkel más megoldások gyakran küzdenek.
 
 Ebben az átfogó útmutatóban mindent bemutatunk, amit az Excel PDF-be konvertálásával kapcsolatban .NET-ben tudni kell. Lépésről lépésre megismerheted a megvalósítást, felfedezheted a termelési környezetekre vonatkozó legjobb gyakorlatokat, és gyakorlati megoldásokat kapsz a fejlesztők által tapasztalt gyakori kihívásokra.
 
@@ -261,7 +261,7 @@ Ne feledd, a sikeres megvalósítás túlmutat a konvertálás működésén. Go
 
 Akár automatizált jelentéskészítő rendszereket, dokumentumkezelő alkalmazásokat vagy egyszerű konvertáló segédprogramokat épít, az Aspose.Cells biztosítja a szükséges alapot a robusztus, vállalati szintű Excel-ből PDF-be konvertáláshoz .NET-ben.
 
-## Gyakran Ismételt Kérdések
+## Gyakran ismételt kérdések
 
 ### A .NET mely verzióit támogatja az Aspose.Cells?
 Az Aspose.Cells támogatja a .NET Framework 4.0-s és újabb verzióit, beleértve a .NET Core-t és a .NET 5/6-ot is. Ez a széleskörű kompatibilitás azt jelenti, hogy gyakorlatilag bármilyen modern .NET alkalmazásban használható.

@@ -1,20 +1,21 @@
 ---
-title: Czyszczenie określonych punktów danych serii wykresów za pomocą Aspose.Slides .NET
-linktitle: Czyszczenie określonych punktów danych serii wykresów za pomocą Aspose.Slides .NET
-second_title: Aspose.Slides .NET API przetwarzania programu PowerPoint
-description: Dowiedz się, jak skutecznie czyścić określone punkty danych serii wykresów w prezentacjach PowerPoint za pomocą biblioteki Aspose.Slides dla .NET. Ten kompleksowy samouczek przeprowadzi Cię krok po kroku przez ładowanie prezentacji.
-weight: 13
-url: /pl/slides/master-additional-chart-features/clearing-specific-chart-series-data-points/
+"description": "Dowiedz się, jak skutecznie usuwać punkty danych z określonych serii wykresów w prezentacjach PowerPoint za pomocą biblioteki Aspose.Slides dla platformy .NET. Ten kompleksowy samouczek krok po kroku przeprowadzi Cię przez proces ładowania prezentacji."
+"linktitle": "Czyszczenie określonych punktów danych serii wykresów za pomocą Aspose.Slides .NET"
+"second_title": "Aspose.Slides .NET Interfejs API przetwarzania programu PowerPoint"
+"title": "Czyszczenie określonych punktów danych serii wykresów za pomocą Aspose.Slides .NET"
+"url": "/pl/slides/net/master-additional-chart-features/clearing-specific-chart-series-data-points/"
+"weight": 13
 ---
+
 ## Wstęp
 
-Aspose.Slides dla .NET to wszechstronna biblioteka, która umożliwia programowe zarządzanie prezentacjami PowerPoint. W tym samouczku dowiesz się, jak usuwać określone punkty danych z serii wykresów w prezentacjach. Zaczynajmy!
+Aspose.Slides dla platformy .NET to wszechstronna biblioteka, która umożliwia programowe zarządzanie prezentacjami PowerPoint. W tym samouczku dowiesz się, jak usuwać określone punkty danych z serii wykresów w prezentacjach. Zaczynajmy!
 
 ## Wymagania wstępne
 
 Upewnij się, że masz przygotowane następujące rzeczy:
 
-1.  Biblioteka Aspose.Slides dla .NET: Pobierz bibliotekę[Tutaj](https://releases.aspose.com/slides/net/).
+1. Biblioteka Aspose.Slides dla platformy .NET: Pobierz bibliotekę [Tutaj](https://releases.aspose.com/slides/net/).
 2. Środowisko programistyczne: Skonfiguruj środowisko za pomocą programu Visual Studio lub innego środowiska IDE .NET.
 
 ### 1. Importuj wymagane przestrzenie nazw
@@ -28,20 +29,20 @@ using Aspose.Slides.Charts;
 
 ### 2. Załaduj swoją prezentację
 
- Załaduj plik PowerPoint zawierający wykres. Zastąp`"Your Document Directory"` z rzeczywistą ścieżką do pliku.
+Załaduj plik programu PowerPoint zawierający wykres. Zastąp `"Your Document Directory"` z rzeczywistą ścieżką do pliku.
 
 ```csharp
 string dataDir = "Your Document Directory";
 
 using (Presentation pres = new Presentation(dataDir + "TestChart.pptx"))
 {
-    // Twój kod wpisz tutaj
+    // Twój kod znajduje się tutaj
 }
 ```
 
 ### 3. Uzyskaj dostęp do slajdu i wykresu
 
-Następnie uzyskaj dostęp do konkretnego slajdu i wykresu. W tym przykładzie pracujemy z pierwszym slajdem (indeks 0).
+Następnie przejdź do konkretnego slajdu i wykresu. W tym przykładzie pracujemy z pierwszym slajdem (indeks 0).
 
 ```csharp
 ISlide slide = pres.Slides[0];
@@ -50,7 +51,7 @@ IChart chart = (IChart)slide.Shapes[0]; // Zakładając, że wykres jest pierwsz
 
 ### 4. Wyczyść konkretne punkty danych
 
-Przejrzyj punkty danych w serii wykresów i wyczyść ich wartości. Oto jak to zrobić wydajnie:
+Przejrzyj punkty danych w serii wykresów i wyczyść ich wartości. Oto jak to zrobić sprawnie:
 
 ```csharp
 foreach (IChartDataPoint dataPoint in chart.ChartData.Series[0].DataPoints)
@@ -59,7 +60,7 @@ foreach (IChartDataPoint dataPoint in chart.ChartData.Series[0].DataPoints)
     dataPoint.YValue.AsCell.Value = null; // Wyczyść wartość Y
 }
 
-// Opcjonalnie wyczyść cały zbiór punktów danych
+// Opcjonalnie wyczyść całą kolekcję punktów danych
 chart.ChartData.Series[0].DataPoints.Clear();
 ```
 
@@ -73,42 +74,42 @@ pres.Save(dataDir + "ClearedChartSeriesDataPoints.pptx", SaveFormat.Pptx);
 
 ## Wniosek
 
-Gratulacje! Udało Ci się nauczyć, jak czyścić określone punkty danych serii wykresów w prezentacjach PowerPoint przy użyciu Aspose.Slides dla .NET. Ta technika może być szczególnie przydatna do zarządzania i dostosowywania danych wykresów programowo.
+Gratulacje! Udało Ci się z powodzeniem nauczyć, jak czyścić określone punkty danych serii wykresów w prezentacjach PowerPoint za pomocą Aspose.Slides dla .NET. Ta technika może być szczególnie przydatna do programowego zarządzania danymi wykresów i ich dostosowywania.
 
 ### Potrzebujesz więcej pomocy?
 
- Jeśli masz pytania lub napotkasz problemy, sprawdź[Dokumentacja Aspose.Slides dla .NET](https://reference.aspose.com/slides/net/) i rozważ odwiedzenie[Forum Aspose.Slides](https://forum.aspose.com/) w celu uzyskania wsparcia i informacji na temat społeczności.
+Jeśli masz pytania lub napotkasz problemy, sprawdź [Dokumentacja Aspose.Slides dla .NET](https://reference.aspose.com/slides/net/) i rozważ odwiedzenie [Forum Aspose.Slides](https://forum.aspose.com/) aby uzyskać wsparcie i informacje na temat społeczności.
 
 ## Często zadawane pytania
 
 - Czy Aspose.Slides dla .NET można używać z innymi językami programowania?  
-  Aspose.Slides jest przeznaczony głównie dla platformy .NET, ale istnieją wersje dla Java i innych platform.
+  Aspose.Slides został zaprojektowany przede wszystkim dla platformy .NET, ale istnieją wersje dla Java i innych platform.
 
 - Czy Aspose.Slides jest biblioteką płatną?  
-   Tak, to biblioteka komercyjna, ale[bezpłatny okres próbny](https://releases.aspose.com/) jest dostępny do celów testowych.
+  Tak, to jest biblioteka komercyjna, ale [bezpłatny okres próbny](https://releases.aspose.com/) jest dostępny do celów testowych.
 
 - Jak mogę dodać nowe punkty danych do wykresu?  
-   Utwórz nowy`IChartDataPoint` wystąpienia i wypełnij je pożądanymi wartościami.
+  Utwórz nowy `IChartDataPoint` instancje i wypełnij je żądanymi wartościami.
 
 - Czy mogę dostosować wygląd wykresu?  
-  Oczywiście! Modyfikuj właściwości, takie jak kolory, czcionki, style i inne, aby odpowiadały Twoim potrzebom.
+  Oczywiście! Modyfikuj właściwości, takie jak kolory, czcionki, style i inne, aby dopasować je do swoich potrzeb.
 
 - Czy istnieje społeczność dla użytkowników Aspose.Slides?  
   Tak! Dołącz do społeczności Aspose na ich forum, aby dyskutować i dzielić się swoimi doświadczeniami.
 
 ---
 
-Aspose.Slides for .NET to potężna biblioteka, która umożliwia programową pracę z prezentacjami PowerPoint. W tym samouczku przeprowadzimy Cię przez proces czyszczenia określonych punktów danych serii wykresów w prezentacji PowerPoint przy użyciu Aspose.Slides for .NET. Pod koniec tego samouczka będziesz w stanie z łatwością manipulować punktami danych wykresów.
+Aspose.Slides for .NET to potężna biblioteka, która umożliwia programową pracę z prezentacjami PowerPoint. W tym samouczku przeprowadzimy Cię przez proces usuwania określonych punktów danych serii wykresów w prezentacji PowerPoint za pomocą Aspose.Slides for .NET. Po ukończeniu tego samouczka będziesz w stanie z łatwością manipulować punktami danych wykresów.
 
 ## Wymagania wstępne
 
 Zanim zaczniemy, musisz mieć pewność, że spełnione są następujące wymagania wstępne:
 
-1.  Biblioteka Aspose.Slides dla .NET: Powinieneś mieć zainstalowaną bibliotekę Aspose.Slides dla .NET. Możesz ją pobrać[Tutaj](https://releases.aspose.com/slides/net/).
+1. Biblioteka Aspose.Slides dla .NET: Biblioteka Aspose.Slides dla .NET powinna być zainstalowana. Możesz ją pobrać. [Tutaj](https://releases.aspose.com/slides/net/).
 
 2. Środowisko programistyczne: Należy skonfigurować środowisko programistyczne za pomocą programu Visual Studio lub innego narzędzia programistycznego .NET.
 
-Teraz, gdy masz już wszystkie niezbędne informacje, możemy przejść do przewodnika krok po kroku, który przeprowadzi Cię przez proces czyszczenia określonych punktów danych serii wykresów przy użyciu Aspose.Slides dla platformy .NET.
+Teraz, gdy masz już wszystkie niezbędne informacje, możemy przejść do przewodnika krok po kroku, który pokaże Ci, jak wyczyścić konkretne punkty danych serii wykresów przy użyciu Aspose.Slides dla platformy .NET.
 
 ## Importuj przestrzenie nazw
 
@@ -121,14 +122,14 @@ using Aspose.Slides.Charts;
 
 ## Krok 1: Załaduj prezentację
 
- Najpierw musisz załadować prezentację PowerPoint zawierającą wykres, z którym chcesz pracować. Zastąp`"Your Document Directory"` z rzeczywistą ścieżką do pliku prezentacji.
+Najpierw musisz załadować prezentację programu PowerPoint zawierającą wykres, z którym chcesz pracować. Zastąp `"Your Document Directory"` z rzeczywistą ścieżką do pliku prezentacji.
 
 ```csharp
 string dataDir = "Your Document Directory";
 
 using (Presentation pres = new Presentation(dataDir + "TestChart.pptx"))
 {
-    // Twój kod wpisz tutaj
+    // Twój kod znajduje się tutaj
 }
 ```
 
@@ -157,7 +158,7 @@ chart.ChartData.Series[0].DataPoints.Clear();
 
 ## Krok 4: Zapisz prezentację
 
-Po usunięciu określonych punktów danych serii wykresów należy zapisać zmodyfikowaną prezentację w nowym pliku lub nadpisać oryginalną, zależnie od potrzeb.
+Po usunięciu określonych punktów danych serii wykresów należy zapisać zmodyfikowaną prezentację w nowym pliku lub nadpisać oryginalną, zależnie od wymagań.
 
 ```csharp
 pres.Save(dataDir + "ClearSpecificChartSeriesDataPointsData.pptx", SaveFormat.Pptx);
@@ -165,23 +166,23 @@ pres.Save(dataDir + "ClearSpecificChartSeriesDataPointsData.pptx", SaveFormat.Pp
 
 ## Wniosek
 
-Udało Ci się pomyślnie nauczyć, jak wyczyścić określone punkty danych serii wykresów za pomocą Aspose.Slides dla .NET. Może to być przydatna funkcja, gdy musisz programowo manipulować danymi wykresu w prezentacjach PowerPoint.
+Udało Ci się pomyślnie nauczyć, jak czyścić określone punkty danych serii wykresów za pomocą Aspose.Slides dla .NET. Może to być przydatna funkcja, gdy musisz programowo manipulować danymi wykresów w prezentacjach PowerPoint.
 
- Jeśli masz jakiekolwiek pytania lub napotkasz jakiekolwiek problemy, możesz odwiedzić stronę[Dokumentacja Aspose.Slides dla .NET](https://reference.aspose.com/slides/net/) lub poszukaj pomocy w[Forum Aspose.Slides](https://forum.aspose.com/).
+Jeśli masz jakiekolwiek pytania lub napotkasz jakiekolwiek problemy, możesz odwiedzić naszą stronę [Dokumentacja Aspose.Slides dla .NET](https://reference.aspose.com/slides/net/) lub poszukaj pomocy w [Forum Aspose.Slides](https://forum.aspose.com/).
 
 ## Często zadawane pytania
 
 ### Czy mogę używać Aspose.Slides dla .NET z innymi językami programowania?
-Aspose.Slides jest przeznaczony głównie dla języków .NET. Istnieją jednak wersje dostępne również dla Java i innych platform.
+Aspose.Slides jest przeznaczony głównie dla języków .NET. Dostępne są jednak również wersje dla Javy i innych platform.
 
-### Czy Aspose.Slides dla .NET jest biblioteką płatną?
- Tak, Aspose.Slides to biblioteka komercyjna, ale możesz ją przeglądać[bezpłatny okres próbny](https://releases.aspose.com/) przed zakupem.
+### Czy Aspose.Slides dla .NET jest płatną biblioteką?
+Tak, Aspose.Slides jest biblioteką komercyjną, ale możesz ją przeglądać [bezpłatny okres próbny](https://releases.aspose.com/) przed zakupem.
 
-### Jak mogę dodać nowe punkty danych do wykresu za pomocą Aspose.Slides dla .NET?
- Możesz dodać nowe punkty danych, tworząc wystąpienia`IChartDataPoint` wypełnianie ich pożądanymi wartościami.
+### Jak mogę dodać nowe punkty danych do wykresu przy użyciu Aspose.Slides dla .NET?
+Możesz dodać nowe punkty danych, tworząc wystąpienia `IChartDataPoint` i wypełnianie ich pożądanymi wartościami.
 
 ### Czy mogę dostosować wygląd wykresu w Aspose.Slides?
 Tak, możesz dostosować wygląd wykresów, modyfikując ich właściwości, takie jak kolory, czcionki i style.
 
 ### Czy istnieje społeczność lub środowisko programistów dla Aspose.Slides dla .NET?
-Tak, możesz dołączyć do społeczności Aspose na ich forum, aby dyskutować, zadawać pytania i dzielić się swoimi doświadczeniami.
+Tak, możesz dołączyć do społeczności Aspose na ich forum, aby prowadzić dyskusje, zadawać pytania i dzielić się swoimi doświadczeniami.

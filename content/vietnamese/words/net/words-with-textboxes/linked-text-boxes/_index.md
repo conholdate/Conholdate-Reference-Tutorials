@@ -60,7 +60,7 @@ Trong đoạn mã này:
 - `ShapeType.TextBox` chỉ rõ rằng các hình dạng là hộp văn bản.
 - `shape1` Và `shape2` là hai hộp văn bản chúng ta đã tạo.
 
-## Bước 3: Truy cập đối tượng TextBox
+## Bước 3: Truy cập các đối tượng TextBox
 
 Mọi `Shape` đối tượng có một `TextBox` thuộc tính cung cấp quyền truy cập vào các thuộc tính và phương thức của nó, cho phép bạn thiết lập và liên kết các hộp văn bản.
 

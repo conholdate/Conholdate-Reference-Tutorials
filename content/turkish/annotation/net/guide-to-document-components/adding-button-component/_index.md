@@ -1,20 +1,21 @@
 ---
-title: .NET için GroupDocs.Annotation ile Düğme Bileşenleri Ekleme
-linktitle: Düğme Bileşenleri Ekleme
-second_title: GroupDocs.Annotation .NET API
-description: GroupDocs.Annotation for .NET kullanarak etkileşimli Düğme Bileşenleri ekleyerek PDF belgelerinizi nasıl yükselteceğinizi keşfedin. Bu adım adım öğretici.
-weight: 10
-url: /tr/annotation/guide-to-document-components/adding-button-component/
+"description": ".NET için GroupDocs.Annotation'ı kullanarak etkileşimli Düğme Bileşenleri ekleyerek PDF belgelerinizi nasıl daha üst düzeye çıkaracağınızı adım adım anlatan bu eğitimde keşfedin."
+"linktitle": "Düğme Bileşenleri Ekleme"
+"second_title": "GroupDocs.Annotation .NET API"
+"title": ".NET için GroupDocs.Annotation ile Düğme Bileşenleri Ekleme"
+"url": "/tr/annotation/net/guide-to-document-components/adding-button-component/"
+"weight": 10
 ---
+
 ## giriiş
 
-Bu eğitimde, .NET için GroupDocs.Annotation kütüphanesini kullanarak bir PDF belgesine Button Component eklemenin basit sürecini size göstereceğiz. Bu kılavuzun sonunda, PDF belgelerinizi etkileşimli özelliklerle zenginleştirmek için donanımlı olacaksınız.
+Bu eğitimde, .NET için GroupDocs.Annotation kütüphanesini kullanarak bir PDF belgesine Düğme Bileşeni eklemenin basit sürecini adım adım anlatacağız. Bu kılavuzun sonunda, PDF belgelerinizi etkileşimli özelliklerle zenginleştirebilecek donanıma sahip olacaksınız.
 
 ## Ön koşullar
 
 Başlamadan önce aşağıdakilerin mevcut olduğundan emin olun:
 
-1.  GroupDocs.Annotation for .NET: GroupDocs.Annotation for .NET kitaplığını şu adresten indirin ve yükleyin:[Burada](https://releases.groupdocs.com/annotation/net/).
+1. GroupDocs.Annotation for .NET: GroupDocs.Annotation for .NET kitaplığını şu adresten indirin ve yükleyin: [Burada](https://releases.groupdocs.com/annotation/net/).
 2. Geliştirme Ortamı: .NET framework'ün yüklü olduğu uygun bir geliştirme ortamı kurun.
 
 ## Adım 1: Gerekli Ad Alanlarını İçe Aktarın
@@ -55,7 +56,7 @@ using (Annotator annotator = new Annotator("input.pdf"))
         BorderColor = 0,                        // Sınır rengi
         AlternateName = "Name",                 // Düğme için alternatif ad
         PartialName = "Partial Name",           // Düğme için kısmi ad
-        NormalCaption = "Caption",               // Düğmede görüntülenen metin
+        NormalCaption = "Caption",               // Butonda görüntülenen metin
         ButtonColor = 16761035,                 // Düğmenin arka plan rengi
         Replies = new List<Reply>
         {
@@ -64,14 +65,14 @@ using (Annotator annotator = new Annotator("input.pdf"))
         }
     };
 
-    annotator.Add(button); // Düğmeyi açıklamacıya ekleyin
-    annotator.Save("result.pdf"); // Değiştirilen PDF'yi kaydet
+    annotator.Add(button); // Düğmeyi açıklama kısmına ekleyin
+    annotator.Save("result.pdf"); // Değiştirilen PDF'yi kaydedin
 }
 ```
 
 ## Adım 4: Çıkış Yolunu Görüntüle
 
-Son olarak, kullanıcıya çıktı dosyasının nereye kaydedildiğini bildirin:
+Son olarak kullanıcıya çıktı dosyasının nereye kaydedildiğini bildirin:
 
 ```csharp
 Console.WriteLine($"\nDocument saved successfully.\nCheck output in {outputPath}.");
@@ -81,17 +82,17 @@ Tebrikler! GroupDocs.Annotation for .NET kullanarak bir PDF belgesine Düğme Bi
 
 ## Çözüm
 
-Bu eğitimde, .NET için GroupDocs.Annotation ile Düğme Bileşenlerini PDF belgelerine nasıl dahil edeceğinizi gösterdik. Bu adımları izleyerek, PDF belgelerinizin etkileşimini önemli ölçüde artırabilirsiniz.
+Bu eğitimde, .NET için GroupDocs.Annotation ile Düğme Bileşenlerini PDF belgelerine nasıl entegre edeceğinizi gösterdik. Bu adımları izleyerek PDF belgelerinizin etkileşimini önemli ölçüde artırabilirsiniz.
 
 ## SSS
 
 ### Butonun görünümünü özelleştirebilir miyim?
 
-Kesinlikle! Boyut, renk ve stil gibi çeşitli özellikleri ihtiyaçlarınıza uyacak şekilde değiştirebilirsiniz.
+Kesinlikle! Boyut, renk ve stil gibi çeşitli özellikleri ihtiyaçlarınıza göre değiştirebilirsiniz.
 
 ### GroupDocs.Annotation for .NET tüm PDF sürümleriyle uyumlu mudur?
 
-Evet, GroupDocs.Annotation for .NET çok çeşitli PDF sürümlerini destekleyerek çoğu belgeyle uyumluluğu garanti eder.
+Evet, GroupDocs.Annotation for .NET çok çeşitli PDF sürümlerini destekler ve çoğu belgeyle uyumluluğu garanti eder.
 
 ### Tek bir PDF belgesine birden fazla düğme bileşeni ekleyebilir miyim?
 
@@ -101,6 +102,6 @@ Evet, bir PDF belgesine ihtiyacınız olduğu kadar çok düğme bileşeni ekley
 
 Evet, PDF'nin yanı sıra DOCX, PPTX ve XLSX gibi çeşitli belge formatlarını destekler.
 
-### Test amaçlı deneme sürümü mevcut mu?
+### Test amaçlı bir deneme sürümü mevcut mu?
 
- Evet, GroupDocs.Annotation for .NET'in ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[Burada](https://releases.groupdocs.com/).
+Evet, GroupDocs.Annotation for .NET'in ücretsiz deneme sürümüne şu adresten erişebilirsiniz: [Burada](https://releases.groupdocs.com/).

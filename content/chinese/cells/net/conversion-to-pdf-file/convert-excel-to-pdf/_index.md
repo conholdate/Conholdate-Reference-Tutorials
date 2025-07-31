@@ -89,7 +89,7 @@ using Aspose.Cells;
 string dataDir = "Your Document Directory";
 ```
 
-代替 `"Your Document Directory"` 与您的实际路径一样 `"C:\ExcelFiles\"`。 
+代替 `"Your Document Directory"` 与您的实际路径，例如 `"C:\ExcelFiles\"`。 
 
 **专业提示**：在生产代码中使用相对路径，使您的应用程序在不同环境中更具可移植性。
 

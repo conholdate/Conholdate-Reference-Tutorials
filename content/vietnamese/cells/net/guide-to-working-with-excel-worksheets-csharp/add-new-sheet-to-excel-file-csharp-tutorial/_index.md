@@ -84,7 +84,7 @@ Bây giờ chúng ta sẽ đến phần thú vị – tạo hoặc tải bảng 
 Workbook workbook = new Workbook();
 ```
 
-Thao tác này sẽ tạo một bảng tính Excel hoàn toàn mới trong bộ nhớ. Nó giống như việc mở Excel và tạo một tệp mới, ngoại trừ việc tất cả đều diễn ra theo chương trình.
+Thao tác này sẽ tạo một bảng tính Excel hoàn toàn mới trong bộ nhớ. Nó giống như việc mở Excel và tạo một tệp mới, ngoại trừ việc mọi thứ đều diễn ra theo chương trình.
 
 **Làm việc với các tập tin hiện có?** Nếu bạn cần thêm trang tính vào tệp Excel hiện có, chỉ cần truyền đường dẫn tệp vào hàm tạo:
 

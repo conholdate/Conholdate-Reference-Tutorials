@@ -78,7 +78,7 @@ Aspose.Email maakt rijke opmaak mogelijk met HTML en CSS. Hier is een voorbeeld 
 message.HtmlBody += "<p style='color: blue;'>This text is blue.</p>";
 ```
 
-## De e-mail verzenden
+## Het verzenden van de e-mail
 
 Nadat u het e-mailbericht hebt samengesteld, gebruikt u de `SmtpClient` klasse om het te versturen. Zo doe je dat:
 
@@ -102,13 +102,13 @@ Gefeliciteerd! Je hebt succesvol geleerd hoe je een e-mail kunt samenstellen en 
 ## Veelgestelde vragen
 
 ### Is Aspose.Email een gratis bibliotheek?
-Aspose.Email biedt zowel gratis als betaalde versies. De gratis versie biedt beperkte functionaliteit, terwijl de betaalde versie alle mogelijkheden van de bibliotheek ontsluit.
+Aspose.Email biedt zowel gratis als betaalde versies. De gratis versie biedt beperkte functionaliteit, terwijl de betaalde versie het volledige potentieel van de bibliotheek ontsluit.
 
 ### Kan ik bijlagen van elke grootte meesturen?
-Hoewel Aspose.Email geen strikte beperkingen oplegt, is het belangrijk om rekening te houden met de limieten voor bijlagegrootte van de e-mailprovider en de mailboxcapaciteit van de ontvanger.
+Hoewel Aspose.Email geen strikte beperkingen oplegt, is het belangrijk om rekening te houden met de limieten voor de bijlagegrootte van de e-mailprovider en de mailboxcapaciteit van de ontvanger.
 
 ### Ondersteunt Aspose.Email het versturen van e-mails met platte tekst?
-Ja, u kunt met Aspose.Email eenvoudig e-mails in HTML-indeling en platte tekst versturen.
+Ja, u kunt met Aspose.Email eenvoudig e-mails in HTML- en platte tekstformaat versturen.
 
 ### Is het mogelijk om e-mails te plannen met deze bibliotheek?
 Aspose.Email richt zich op het maken en bewerken van e-mails. Voor het plannen van e-mails is integratie met een apart taakplanningssysteem nodig.

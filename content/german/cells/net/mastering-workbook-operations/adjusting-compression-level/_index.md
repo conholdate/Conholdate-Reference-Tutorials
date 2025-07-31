@@ -30,7 +30,7 @@ using Aspose.Cells.WebExtensions;
 using System;
 ```
 
-Diese Pakete sind für die Arbeit mit Excel-Dateien mit der Aspose.Cells-Bibliothek unerlässlich. Die `Aspose.Cells` Der Namespace enthält alle Klassen, die zum Bearbeiten von Excel-Dateien erforderlich sind, während `Aspose.Cells.Xlsb` bietet Optionen zum Speichern von Dateien im XLSB-Format.
+Diese Pakete sind für die Arbeit mit Excel-Dateien mit der Aspose.Cells-Bibliothek unerlässlich. Die `Aspose.Cells` Namespace enthält alle Klassen, die zum Bearbeiten von Excel-Dateien erforderlich sind, während `Aspose.Cells.Xlsb` bietet Optionen zum Speichern von Dateien im XLSB-Format.
 
 ## Schritt 1: Quell- und Ausgabeverzeichnisse definieren
 

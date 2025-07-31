@@ -1,21 +1,22 @@
 ---
-title: حفظ مستندات OneNote بصيغة PDF باستخدام Aspose.Note لـ .NET
-linktitle: حفظ مستندات OneNote بصيغة PDF
-second_title: واجهة برمجة تطبيقات Aspose.Note .NET
-description: تعرف على كيفية حفظ مستندات Microsoft OneNote بكفاءة كملفات PDF باستخدام Aspose.Note for .NET. يرشدك هذا الدليل إلى المتطلبات الأساسية الضرورية، ويقدم أسئلة شائعة مفيدة.
-weight: 26
-url: /ar/note/one-note-document-manipulation/saving-one-note-document-pdf/
+"description": "تعرّف على كيفية حفظ مستندات Microsoft OneNote بكفاءة كملفات PDF باستخدام Aspose.Note لـ .NET. يشرح لك هذا الدليل المتطلبات الأساسية اللازمة، ويقدم أسئلة شائعة مفيدة."
+"linktitle": "حفظ مستندات OneNote بتنسيق PDF"
+"second_title": "واجهة برمجة تطبيقات Aspose.Note .NET"
+"title": "حفظ مستندات OneNote بتنسيق PDF باستخدام Aspose.Note لـ .NET"
+"url": "/ar/note/net/one-note-document-manipulation/saving-one-note-document-pdf/"
+"weight": 26
 ---
+
 ## مقدمة
 
-في هذا البرنامج التعليمي، سنستكشف كيفية حفظ المستندات بتنسيق PDF باستخدام Aspose.Note for .NET. Aspose.Note هي مكتبة قوية تمكن المطورين من العمل مع ملفات Microsoft OneNote برمجيًا. سنغطي المتطلبات الأساسية، واستيراد مساحات الأسماء، وتوفير أدلة خطوة بخطوة لحفظ المستندات بتنسيق PDF في تخطيطات صفحات مختلفة.
+في هذا البرنامج التعليمي، سنستكشف كيفية حفظ المستندات بتنسيق PDF باستخدام Aspose.Note لـ .NET. Aspose.Note مكتبة فعّالة تُمكّن المطورين من العمل مع ملفات Microsoft OneNote برمجيًا. سنغطي المتطلبات الأساسية، ونستورد مساحات الأسماء، ونقدم أدلة خطوة بخطوة لحفظ المستندات بتنسيق PDF بتخطيطات صفحات مختلفة.
 
 ## المتطلبات الأساسية
 1. Visual Studio: تأكد من تثبيته.
 2. Aspose.Note لـ .NET: قم بتنزيل المكتبة وتثبيتها.
 3. معرفة لغة C#: مطلوب فهم أساسي للغة.
 
-## استيراد المساحات الأساسية الضرورية
+## استيراد مساحات الأسماء الضرورية
 قبل المتابعة، قم باستيراد المساحات التالية في الكود الخاص بك:
 
 ```csharp
@@ -36,9 +37,9 @@ public static void SaveToPdfUsingLetterPageSettings()
     Console.WriteLine("\nOneNote document saved successfully.\nFile saved at " + dst);
 }
 ```
-يقوم بتحميل مستند OneNote ويحفظه بتنسيق PDF باستخدام إعدادات الصفحة بحجم الحرف.
+يقوم بتحميل مستند OneNote وحفظه بتنسيق PDF باستخدام إعدادات الصفحة بحجم الحرف.
 
-## الخطوة 2: الحفظ في ملف PDF باستخدام إعدادات الصفحة A4 (بدون حد أقصى للارتفاع)
+## الخطوة 2: الحفظ في ملف PDF باستخدام إعدادات الصفحة A4 (لا يوجد حد أقصى للارتفاع)
 ```csharp
 public static void SaveToPdfUsingA4PageSettingsWithoutHeightLimit()
 {
@@ -50,14 +51,14 @@ public static void SaveToPdfUsingA4PageSettingsWithoutHeightLimit()
     Console.WriteLine("\nOneNote document saved successfully.\nFile saved at " + dst);
 }
 ```
-مماثل للخطوة 1 ولكنه يستخدم إعدادات الصفحة A4 دون قيود الارتفاع.
+مماثل للخطوة 1 ولكن يستخدم إعدادات الصفحة A4 دون قيود الارتفاع.
 
 ## خاتمة
-يوضح البرنامج التعليمي بنجاح كيفية تحويل ملفات OneNote إلى تنسيق PDF باستخدام Aspose.Note. من خلال الاستفادة من إعدادات الصفحة المختلفة، يكتسب المطورون المرونة في إدارة المستندات.
+يوضح هذا البرنامج التعليمي بنجاح كيفية تحويل ملفات OneNote إلى صيغة PDF باستخدام Aspose.Note. باستخدام إعدادات صفحات مختلفة، يكتسب المطورون مرونة في إدارة المستندات.
 
 ## الأسئلة الشائعة
 ### هل يمكن لـ Aspose.Note التعامل مع ملفات OneNote المعقدة؟
-نعم، فهو يتعامل بشكل فعال مع الميزات المختلفة لملفات OneNote المعقدة.
+نعم، فهو يتعامل بفعالية مع الميزات المختلفة لملفات OneNote المعقدة.
 
 ### هل Aspose.Note مناسب للمشاريع التجارية؟
 نعم، يمكنك استخدامه للتطبيقات التجارية بعد شراء الترخيص.
@@ -65,7 +66,7 @@ public static void SaveToPdfUsingA4PageSettingsWithoutHeightLimit()
 ### هل يقدم Aspose.Note نسخة تجريبية مجانية؟
 نعم، تتوفر نسخة تجريبية مجانية للاستكشاف.
 
-### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Note؟
+### أين يمكنني العثور على وثائق لـ Aspose.Note؟
 تتوفر وثائق مفصلة على موقع Aspose المرجعي.
 
 ### هل تحتاج إلى مزيد من المساعدة؟

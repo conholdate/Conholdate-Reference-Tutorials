@@ -49,7 +49,7 @@ namespace CustomHyperlinkRendering
 }
 ```
 
-## Href를 사용한 하이퍼링크 렌더링
+## Href를 사용하여 하이퍼링크 렌더링
 
 우리가 구현할 첫 번째 방법은 다음과 같습니다. `RenderHyperlinkWithHref`하이퍼링크를 추출하는 , `href` 속성.
 

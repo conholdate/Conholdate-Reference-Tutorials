@@ -85,7 +85,7 @@ Assolutamente sì! Aspose.Cells supporta .NET Core, rendendolo adatto ad applica
 
 ### Posso annullare l'eliminazione di un foglio di lavoro?
 
-Una volta eliminato e salvato un foglio di lavoro, non sarà più possibile recuperarlo dallo stesso file. Conservare sempre un backup per evitare la perdita di dati.
+Una volta eliminato e salvato un foglio di lavoro, non sarà più possibile recuperarlo dallo stesso file. Conserva sempre un backup per evitare la perdita di dati.
 
 ### Come posso ottenere una licenza temporanea per Aspose.Cells?
 

@@ -29,7 +29,7 @@ using System;
 using Aspose.Pdf;
 ```
 
-Ruang nama ini menyediakan akses ke alat yang dibutuhkan untuk manipulasi PDF dan menggambar bentuk.
+Ruang nama ini menyediakan akses ke alat yang dibutuhkan untuk manipulasi PDF dan penggambaran bentuk.
 
 ## Langkah 1: Inisialisasi Dokumen Anda
 

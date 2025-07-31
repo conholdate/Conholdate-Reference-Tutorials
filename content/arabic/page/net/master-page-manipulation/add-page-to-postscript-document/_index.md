@@ -1,14 +1,15 @@
 ---
-title: إضافة صفحات إلى مستندات PostScript باستخدام Aspose.Page لـ .NET
-linktitle: إضافة صفحات إلى مستندات PostScript
-second_title: واجهة برمجة تطبيقات Aspose.Page .NET
-description: اكتشف كيفية تحسين تطبيقات .NET الخاصة بك عن طريق معالجة مستندات PostScript باستخدام Aspose.Page. يوفر هذا الدليل خطوة بخطوة تعليمات واضحة حول تهيئة مستند.
-weight: 10
-url: /ar/page/master-page-manipulation/add-page-to-postscript-document/
+"description": "اكتشف كيفية تحسين تطبيقات .NET الخاصة بك من خلال معالجة مستندات PostScript باستخدام Aspose.Page. يقدم هذا الدليل خطوة بخطوة تعليمات واضحة حول تهيئة مستند."
+"linktitle": "إضافة صفحات إلى مستندات PostScript"
+"second_title": "واجهة برمجة تطبيقات Aspose.Page .NET"
+"title": "إضافة صفحات إلى مستندات PostScript باستخدام Aspose.Page لـ .NET"
+"url": "/ar/page/net/master-page-manipulation/add-page-to-postscript-document/"
+"weight": 10
 ---
+
 ## مقدمة
 
-في عالم تطوير .NET، يعد التعامل مع المستندات مهارة أساسية. Aspose.Page for .NET عبارة عن مكتبة قوية تمكن المطورين من العمل دون عناء مع مستندات PostScript (PS). سيرشدك هذا الدليل خلال عملية إضافة الصفحات إلى مستند PostScript خطوة بخطوة.
+في مجال تطوير .NET، يُعدّ التعامل مع المستندات مهارة أساسية. Aspose.Page لـ .NET مكتبة فعّالة تُمكّن المطورين من العمل بسلاسة مع مستندات PostScript (PS). سيرشدك هذا الدليل خطوة بخطوة خلال عملية إضافة الصفحات إلى مستند PostScript.
 
 ## المتطلبات الأساسية
 
@@ -16,12 +17,12 @@ url: /ar/page/master-page-manipulation/add-page-to-postscript-document/
 
 - فهم أساسي لبرمجة .NET.
 - تم تثبيت Visual Studio على جهازك.
--  مكتبة Aspose.Page لـ .NET، والتي يمكنك تنزيلها[هنا](https://releases.aspose.com/page/net/).
+- مكتبة Aspose.Page لـ .NET، والتي يمكنك تنزيلها [هنا](https://releases.aspose.com/page/net/).
 - دليل مخصص لمستنداتك لأغراض الاختبار.
 
-## استيراد المساحات الاسمية الضرورية
+## استيراد مساحات الأسماء الضرورية
 
-للاستفادة من Aspose.Page، يتعين عليك تضمين المساحات المناسبة في مشروعك. وإليك كيفية إعدادها:
+لاستخدام Aspose.Page، عليك تضمين مساحات الأسماء المناسبة في مشروعك. إليك كيفية إعدادها:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -42,8 +43,8 @@ using System.IO;
 قم بإعداد مستند PostScript الخاص بك باستخدام التكوينات المطلوبة:
 
 ```csharp
-// البداية:1
-string dataDir = "Your Document Directory"; // قم بتعيين مسار دليل المستند الخاص بك
+// بداية سابقة: 1
+string dataDir = "Your Document Directory"; // تعيين مسار دليل المستند الخاص بك
 using (Stream outPsStream = new FileStream(Path.Combine(dataDir, "document1.ps"), FileMode.Create))
 {
     // إعداد خيارات الحفظ لحجم A4
@@ -76,14 +77,14 @@ using (Stream outPsStream = new FileStream(Path.Combine(dataDir, "document1.ps")
     // افتح الصفحة الثانية بحجم مخصص (على سبيل المثال، 400 × 700)
     document.OpenPage(400, 700);
     
-    // إضافة محتوى خاص بهذه الصفحة
-    // مثال: document.AddText("هذه هي الصفحة الثانية!");
+    // أضف محتوى خاصًا بهذه الصفحة
+    // مثال: document.AddText("هذه صفحة ثانية!");
 
     // اغلاق الصفحة الثانية
     document.ClosePage();
 ```
 
-## الخطوة 5: احفظ المستند
+## الخطوة 5: حفظ المستند
 
 وأخيرًا، احفظ مستندك للتأكد من تخزين كافة التغييرات:
 
@@ -91,26 +92,26 @@ using (Stream outPsStream = new FileStream(Path.Combine(dataDir, "document1.ps")
     // حفظ مستند PostScript
     document.Save();
 }
-// نهاية:1
+// نهاية: 1
 ```
 
 ## خاتمة
 
-تهانينا! لقد نجحت في إضافة صفحات إلى مستند PostScript باستخدام Aspose.Page لـ .NET. تجعل واجهة برمجة التطبيقات البديهية لهذه المكتبة معالجة المستندات أمرًا بسيطًا، مما يعزز قدرات التطوير لديك.
+تهانينا! لقد نجحت في إضافة صفحات إلى مستند PostScript باستخدام Aspose.Page لـ .NET. تُسهّل واجهة برمجة التطبيقات البديهية لهذه المكتبة معالجة المستندات، مما يُحسّن قدراتك على التطوير.
 
 ## الأسئلة الشائعة
 
 ### هل Aspose.Page متوافق مع تنسيقات المستندات الأخرى؟  
-يتخصص موقع Aspose.Page في مستندات PostScript. للحصول على الدعم مع التنسيقات الأخرى، فكر في استكشاف مكتبات Aspose الأخرى المناسبة لاحتياجاتك.
+يتخصص Aspose.Page في مستندات PostScript. للحصول على دعم لتنسيقات أخرى، يمكنك استكشاف مكتبات Aspose الأخرى التي تناسب احتياجاتك.
 
 ### هل يمكنني تخصيص حجم الصفحة في Aspose.Page؟  
-نعم! كما هو موضح في هذا الدليل، يمكنك تحديد أحجام مختلفة لكل صفحة وفقًا لمتطلباتك المحددة.
+نعم! كما هو موضح في هذا الدليل، يمكنك تحديد أحجام مختلفة لكل صفحة وفقًا لمتطلباتك الخاصة.
 
 ### أين يمكنني العثور على المزيد من الموارد والوثائق؟  
- لمزيد من المعلومات والأمثلة التفصيلية، قم بزيارة[توثيق Aspose.Page](https://reference.aspose.com/page/net/).
+لمزيد من المعلومات والأمثلة التفصيلية، قم بزيارة [توثيق Aspose.Page](https://reference.aspose.com/page/net/).
 
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page؟  
- يمكنك الحصول على ترخيص مؤقت للاختبار بالانتقال إلى[هذا الرابط](https://purchase.conholdate.com/temporary-license/).
+يمكنك الحصول على ترخيص مؤقت للاختبار بالانتقال إلى [هذا الرابط](https://purchase.conholdate.com/temporary-license/).
 
 ### أين يمكنني الحصول على الدعم المجتمعي؟  
- انضم إلى[منتدى مجتمع Aspose.Page](https://forum.aspose.com/c/page/39) للتواصل مع المطورين الآخرين ومشاركة الخبرات وطلب المساعدة.
+انضم إلى [منتدى مجتمع Aspose.Page](https://forum.aspose.com/c/page/39) للتواصل مع المطورين الآخرين ومشاركة الخبرات وطلب المساعدة.

@@ -259,7 +259,7 @@ public async Task<byte[]> ConvertDocumentAsync(string filePath)
 }
 ```
 
-## 이 접근 방식을 사용할 때
+## 이 접근 방식을 사용해야 하는 경우
 
 Docx를 바이트 배열로 변환하는 것이 항상 올바른 해결책은 아닙니다. 다음과 같은 경우에 유용합니다.
 

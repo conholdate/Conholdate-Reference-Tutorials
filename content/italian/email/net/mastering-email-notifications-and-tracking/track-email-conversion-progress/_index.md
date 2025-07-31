@@ -9,7 +9,7 @@
 
 ## Introduzione
 
-Gestire in modo efficiente i documenti di posta elettronica spesso implica il monitoraggio dell'avanzamento della loro conversione. Aspose.Email per .NET fornisce strumenti affidabili per raggiungere questo obiettivo, consentendo agli sviluppatori di gestire le operazioni di posta elettronica senza problemi. Questo tutorial illustra come monitorare l'avanzamento della conversione dei documenti di posta elettronica in C#, suddividendo il processo passo dopo passo per facilitarne la comprensione.  
+Gestire in modo efficiente i documenti di posta elettronica spesso implica il monitoraggio dell'avanzamento della loro conversione. Aspose.Email per .NET fornisce strumenti affidabili per raggiungere questo obiettivo, consentendo agli sviluppatori di gestire le operazioni di posta elettronica senza problemi. Questo tutorial illustra come monitorare l'avanzamento della conversione dei documenti di posta elettronica in C#, analizzando il processo passo dopo passo per facilitarne la comprensione.  
 
 ## Prerequisiti  
 
@@ -42,7 +42,7 @@ Inizia creando una nuova applicazione console C# in Visual Studio. Questa servir
 ```sh
 Install-Package Aspose.Email
 ```  
-3. Aggiungere il `.eml` file nella directory del progetto.  
+3. Aggiungi il `.eml` file nella directory del progetto.  
 
 ## Passaggio 2: carica il file di posta elettronica  
 

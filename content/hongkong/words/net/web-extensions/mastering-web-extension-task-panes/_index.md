@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Words for .NET 在 Word 文件中新增和設定 Web 擴充任務窗格。本指南包含詳細的程式碼範例和逐步說明，幫助您實現無縫整合。"
+"description": "了解如何使用 Aspose.Words for .NET 在 Word 文件中新增和設定 Web 擴充任務窗格。按照本綜合指南，透過詳細的程式碼範例和逐步說明實現無縫整合。"
 "linktitle": "掌握 Word 文件中的 Web 擴充任務窗格"
 "second_title": "Aspose.Words文件處理API"
 "title": "掌握 Word 文件中的 Web 擴充任務窗格"
@@ -9,7 +9,7 @@
 
 ## 介紹  
 
-在本指南中，我們將深入探討使用 Aspose.Words for .NET 將 Web 擴充任務窗格整合到 Word 文件的強大功能。任務窗格為使用者提供直接在 Word 文件中運行的動態互動式工具，使工作流程更加順暢有效率。讓我們一起探索如何使用 Aspose.Words 設定和設定 Web 擴充任務窗格。
+在本綜合指南中，我們深入研究了使用 Aspose.Words for .NET 將 Web 擴充任務窗格整合到 Word 文件的強大功能。任務窗格為使用者直接在 Word 文件中提供動態、互動式工具，讓工作流程更加順暢、有效率。讓我們探索如何使用 Aspose.Words 設定和設定 Web 擴充任務窗格。
 
 ## 先決條件  
 
@@ -29,7 +29,7 @@ using Aspose.Words;
 using Aspose.Words.WebExtensions;
 ```
 
-## 步驟1：定義文檔目錄  
+## 步驟 1：定義文件目錄  
 
 定義將建立和儲存 Word 文件的目錄：  
 
@@ -140,7 +140,7 @@ foreach (TaskPane pane in doc.WebExtensionTaskPanes)
 
 ## 結論  
 
-使用 Aspose.Words for .NET 將 Web 擴充任務窗格整合到 Word 文件中，可將靜態文件轉換為動態的互動式介面。按照本教學課程，您可以無縫地配置和管理任務窗格，從而為使用者帶來強大的增強功能。
+使用 Aspose.Words for .NET 將 Web 擴充任務窗格整合到 Word 文件中，將靜態文件轉換為動態的互動式介面。透過遵循本教學課程，您可以無縫配置和管理任務窗格，為使用者提供強大的增強功能。
 
 ## 常見問題解答  
 

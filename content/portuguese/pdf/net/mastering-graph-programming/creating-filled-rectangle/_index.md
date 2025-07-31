@@ -81,7 +81,7 @@ Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 Anexe o gráfico à página:
 
 ```csharp
-// Adicionar objeto gráfico à coleção de parágrafos da instância da página
+// Adicionar objeto gráfico à coleção de parágrafos da instância de página
 page.Paragraphs.Add(graph);
 ```
 

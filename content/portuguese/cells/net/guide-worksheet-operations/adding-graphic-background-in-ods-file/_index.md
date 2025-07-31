@@ -95,7 +95,7 @@ worksheet.Cells[5, 1].Value = 12;
 
 Isso preenche as duas primeiras colunas com números sequenciais, fornecendo contexto para seu histórico.
 
-## Etapa 5: definir o plano de fundo da página
+## Etapa 5: defina o plano de fundo da página
 
 Agora, a parte mais interessante: definir o fundo gráfico. Use o `ODSPageBackground` classe da seguinte forma:
 

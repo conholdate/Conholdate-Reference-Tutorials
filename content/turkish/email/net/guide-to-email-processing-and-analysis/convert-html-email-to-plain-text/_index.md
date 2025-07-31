@@ -235,4 +235,4 @@ Bu dönüştürme işlemi yalnızca metin içeriğine odaklanır. Görseller alt
 The [Aspose E-posta belgeleri](https://reference.aspose.com/email/net/) Kapsamlı örnekler ve API referansları içerir. Farklı e-posta formatlarını yönetme, Exchange sunucularıyla çalışma ve karmaşık e-posta yapılarını işleme gibi gelişmiş senaryolar için çözümler bulacaksınız.
 
 ### Uygulama sırasında sorunlarla karşılaşırsam ne olur?  
-Sorun giderme ve topluluk desteği için şu adresi ziyaret edin: [Aspose Destek Forumu](https://forum.aspose.com/c/email/12/)Topluluk ve Aspose geliştiricileri, uygulama zorluklarının çözümüne aktif olarak yardımcı oluyor. Ayrıca, güncel örnekler ve en iyi uygulamalar için resmi belgeleri kontrol ettiğinizden emin olun.
+Sorun giderme ve topluluk desteği için şu adresi ziyaret edin: [Aspose Destek Forumu](https://forum.aspose.com/c/email/12/)Topluluk ve Aspose geliştiricileri, uygulama zorluklarının çözümüne aktif olarak yardımcı olmaktadır. Ayrıca, güncel örnekler ve en iyi uygulamalar için resmi belgeleri kontrol ettiğinizden emin olun.

@@ -13,7 +13,7 @@ Ahoj, kolegové vývojáři a nadšenci do dokumentů! 🌟 Pokud jste se někdy
 
 ## Předpoklady
 
-Než se do toho pustíme, ujistěte se, že máte vše, co potřebujete:
+Než se do toho pustíme, ujistěme se, že máte vše, co potřebujete:
 
 1. Knihovna Aspose.Words pro .NET: Ujistěte se, že máte nejnovější verzi. [Stáhněte si to zde](https://releases.aspose.com/words/net/).
 2. Vývojové prostředí: Prostředí kompatibilní s .NET, jako je Visual Studio, bude fungovat perfektně.
@@ -33,7 +33,7 @@ Tyto jmenné prostory poskytují přístup ke třídám a metodám, které budem
 
 ## Krok 1: Vytvoření nového dokumentu
 
-Nejdříve to nejdůležitější – vytvořme nový dokument Wordu. Bude to naše prázdné plátno pro přidávání textových polí a provádění různých operací.
+Nejdříve to nejdůležitější – vytvořme si nový dokument Wordu. Bude to naše prázdné plátno pro přidávání textových polí a provádění různých operací.
 
 Pro inicializaci nového dokumentu Word použijte následující řádek kódu:
 
@@ -113,6 +113,6 @@ Ano, můžete zkontrolovat, zda textové pole obsahuje odkaz dopředu, a to kont
 
 Ano, nefunkční odkazy mohou ovlivnit rozvržení, zejména pokud byla textová pole navržena tak, aby dodržovala určitou sekvenci nebo tok.
 
-### Kde najdu další zdroje informací o práci s Aspose.Words?
+### Kde najdu další zdroje o práci s Aspose.Words?
 
 Pro více informací a zdrojů navštivte [Dokumentace k Aspose.Words](https://reference.aspose.com/words/net/) a [fórum podpory](https://forum.aspose.com/c/words/8).

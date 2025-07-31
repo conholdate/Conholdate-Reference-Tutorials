@@ -145,7 +145,7 @@ Aspose.Cells는 XLSX, XLSM, CSV 등 다양한 Excel 형식을 지원합니다.
 Visual Studio는 사용자 친화적인 기능으로 인해 권장되지만 .NET 개발을 지원하는 C# IDE라면 무엇이든 충분합니다.
 
 ### 더 많은 예와 문서는 어디에서 찾을 수 있나요?
-당신은 탐험할 수 있습니다 [Aspose.Cells 문서](https://reference.aspose.com/cells/net/) 더 많은 예와 자세한 설명은 여기에서 확인하세요.
+당신은 탐험할 수 있습니다 [Aspose.Cells 문서](https://reference.aspose.com/cells/net/) 더 많은 예와 자세한 설명은 여기를 참조하세요.
 
 ### Aspose.Cells를 사용하는 동안 문제를 해결하려면 어떻게 해야 하나요?
 당신은 방문해야합니다 [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9) 커뮤니티와 Aspose 지원 직원에게 도움을 요청하세요.

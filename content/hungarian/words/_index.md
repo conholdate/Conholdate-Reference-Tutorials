@@ -12,7 +12,7 @@
 ## Mesterszintű Word dokumentumfeldolgozás és mesterséges intelligencia integráció
 Használja ki a Word dokumentumszerkesztés teljes potenciálját az Aspose.Words for .NET segítségével. Az alapvető fájlkonvertálásoktól a legmodernebb mesterséges intelligencia által vezérelt dokumentumelemzésig átfogó oktatóanyagaink végigvezetik Önt a modern dokumentumautomatizálás minden aspektusán.
 
-## 🚀 Amit Elérhetsz
+## 🚀 Amit elérhetsz
 
 **Aspose.Words .NET-hez** egy hatékony dokumentumfeldolgozó könyvtár, amely lehetővé teszi a fejlesztők számára Word-dokumentumok létrehozását, kezelését, konvertálását és elemzését Microsoft Word használata nélkül. Az összes főbb dokumentumformátum támogatásával és a forradalmi mesterséges intelligencia integrációs képességeivel ez a teljes megoldás az intelligens dokumentumautomatizáláshoz.
 
@@ -34,10 +34,10 @@ Sajátítsa el az alapvető dokumentumátalakításokat professzionális minős�
 | **[DOCX konvertálása EPUB-ba](./essential-guide-document-conversions/convert-docx-to-epub/)** | Digitális kiadványszerkesztés e-könyv olvasókra és mobileszközökre | ⭐⭐ Középhaladó |
 | **[DOCX konvertálása TXT-vé](./essential-guide-document-conversions/convert-docx-to-txt/)** | Sima szöveg kinyerése adatfeldolgozáshoz és -elemzéshez | ⭐ Kezdő |
 | **[DOCX konvertálása bájttömbökké](./essential-guide-document-conversions/convert-docx-to-byte-arrays/)** | Memóriahatékony dokumentumkezelés webes alkalmazásokhoz | ⭐⭐ Középhaladó |
-| **[DOC konvertálása DOCX-be](./essential-guide-document-conversions/convert-doc-to-docx/)** | Régi formátumok modernizálása és kompatibilitási frissítések | ⭐ Kezdő |
+| **[DOC konvertálása DOCX-be](./essential-guide-document-conversions/convert-doc-to-docx/)** Régi formátumok modernizálása és kompatibilitási frissítések | ⭐ Kezdő |
 | **[DOCX konvertálása MHTML-be és e-mail küldése](./essential-guide-document-conversions/convert-docx-to-mhtml-send-email/)** | E-mail integráció gazdag formázási támogatással | ⭐⭐ Középhaladó |
 | **[PDF konvertálása JPEG-re](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Kiváló minőségű képkinyerés PDF dokumentumokból | ⭐⭐ Középhaladó |
-| **[Mentés PDF-ként](./essential-guide-document-conversions/save-as-pdf/)** Professzionális dokumentumkiadás haladó lehetőségekkel | ⭐ Kezdő |
+| **[Mentés PDF-ként](./essential-guide-document-conversions/save-as-pdf/)** | Professzionális dokumentumkiadás haladó lehetőségekkel | ⭐ Kezdő |
 
 ### Fejlett mesterséges intelligencia általi dokumentumfeldolgozás
 Használja ki a legmodernebb mesterséges intelligenciát az intelligens dokumentumelemzéshez és az automatizált tartalomgeneráláshoz.
@@ -46,14 +46,14 @@ Használja ki a legmodernebb mesterséges intelligenciát az intelligens dokumen
 |-----------|--------------|-------------|
 | **[Dokumentum-összefoglaló elsajátítása AI modellel](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Google AI integráció az intelligens tartalom-összefoglaláshoz | ⭐⭐⭐ Speciális |
 | **[Hatékony dokumentum-összefoglaló az OpenAI modellel](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | GPT-alapú dokumentumelemzés és automatizált elemzések | ⭐⭐⭐ Speciális |
-| **[Dokumentumok összefoglalásának beállításai](./advanced-ai-document-processing/summarize-documents-options/)** | Speciális konfiguráció mesterséges intelligenciával vezérelt tartalomfeldolgozáshoz | ⭐⭐⭐ Speciális |
+| **[Dokumentumok összefoglalásának beállításai](./advanced-ai-document-processing/summarize-documents-options/)** Speciális konfiguráció mesterséges intelligenciával vezérelt tartalomfeldolgozáshoz | ⭐⭐⭐ Speciális |
 
 ### Szakaszkezelés elsajátítása
 Professzionális dokumentumstruktúra és -szervezés fejlett szakaszkezelési technikákkal.
 
 | Oktatóanyag | Leírás | Nehézség |
 |-----------|--------------|-------------|
-| **[Szakaszok hozzáadása](./section-management/adding-sections/)** Strukturált dokumentumelrendezések létrehozása professzionális formázással | ⭐ Kezdő |
+| **[Szakaszok hozzáadása](./section-management/adding-sections/)** | Strukturált dokumentumelrendezések létrehozása professzionális formázással | ⭐ Kezdő |
 | **[Szakaszok törlése Word-dokumentumokból](./section-management/delete-sections-word-document/)** | Hatékonyan távolítsa el a felesleges dokumentumrészeket | ⭐ Kezdő |
 | **[Szakasz szótartalmának hozzáfűzése](./section-management/append-section-word-content/)** | Több dokumentumszakasz tartalmának zökkenőmentes kombinálása | ⭐⭐ Középhaladó |
 | **[Szakaszok másolása Word-dokumentumok között](./section-management/copy-sections-word-documents/)** | Strukturált tartalom átvitele különböző dokumentumok között | ⭐⭐ Középhaladó |
@@ -81,7 +81,7 @@ Professzionális képfeldolgozás és optimalizálás dokumentum publikáláshoz
 |-----------|--------------|-------------|
 | **[Threshold vezérlés megjelenítése TIFF binarizáláshoz](./guide-to-image-save-options/expose-threshold-control-for-tiff-binarization-in-word-document/)** | Fejlett képfeldolgozás egyéni minőségellenőrzésekkel | ⭐⭐⭐ Speciális |
 | **[JPEG oldaltartomány beolvasása](./guide-to-image-save-options/get-jpeg-page-range-word-document/)** | Meghatározott dokumentumoldalak kinyerése kiváló minőségű képekként | ⭐⭐ Középhaladó |
-| **[TIFF oldaltartomány beolvasása](./guide-to-image-save-options/get-tiff-page-range-word-document/)** Professzionális képkivonás TIFF formátum optimalizálással | ⭐⭐ Középhaladó |
+| **[TIFF oldaltartomány beolvasása](./guide-to-image-save-options/get-tiff-page-range-word-document/)** | Professzionális képkivonás TIFF formátum optimalizálással | ⭐⭐ Középhaladó |
 | **[1Bpp indexelt képek létrehozása](./guide-to-image-save-options/create-1bpp-indexed/)** | Helytakarékos képfeldolgozás archiváláshoz és tároláshoz | ⭐⭐ Középhaladó |
 | **[Oldalmentés visszahívása](./guide-to-image-save-options/page-saving-callback-word-document/)** | Egyedi oldalfeldolgozás automatizált képgenerálással | ⭐⭐⭐ Speciális |
 
@@ -90,14 +90,14 @@ Professzionális képfeldolgozás és optimalizálás dokumentum publikáláshoz
 
 | Oktatóanyag | Leírás | Nehézség |
 |-----------|--------------|-------------|
-| **[Egyéni dokumentumtulajdonságok eltávolítása](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** | Dokumentum metaadatok tisztítása és fájlrendszer optimalizálása | ⭐ Kezdő |
+| **[Egyéni dokumentumtulajdonságok eltávolítása](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** Dokumentum metaadatok tisztítása és fájlrendszer optimalizálása | ⭐ Kezdő |
 
 ## 🎯 Népszerű felhasználási esetek
 
 ### **Dokumentumautomatizálás és -kiadás**
 - **Szakmai jelentések**: Üzleti dokumentumok automatikus generálása egységes formázással
 - **Digitális kiadás**Kéziratok konvertálása több formátumba a különböző terjesztési csatornákhoz
-- **Tartalomkezelés**Dokumentumfeldolgozás és formátumszabványosítás egyszerűsítése
+- **Tartalomkezelés**: Dokumentumfeldolgozás és formátumszabványosítás egyszerűsítése
 
 ### **Mesterséges intelligencia által vezérelt tartalomfeldolgozás**
 - **Intelligens Összefoglalás**: Hosszú dokumentumokból kulcsfontosságú információk kinyerése fejlett mesterséges intelligencia modellek segítségével
@@ -106,7 +106,7 @@ Professzionális képfeldolgozás és optimalizálás dokumentum publikáláshoz
 
 ### **Vállalati integrációs megoldások**
 - **Webalkalmazások**Dokumentumok dinamikus generálása webes felületekről és adatbázisokból
-- **E-mail automatizálás**: Gazdag e-mail tartalom létrehozása beágyazott dokumentumokkal és formázással
+- **E-mail automatizálás**Gazdag e-mail tartalom létrehozása beágyazott dokumentumokkal és formázással
 - **API fejlesztés**Dokumentumközpontú mikroszolgáltatások és automatizált feldolgozási folyamatok létrehozása
 
 ## 📊 Tanulási útvonal ajánlások
@@ -124,7 +124,7 @@ Professzionális képfeldolgozás és optimalizálás dokumentum publikáláshoz
 ### **Haladó fejlesztő** (Vállalati megoldások építése)
 1. Integrálás **[AI-összefoglaló](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)**
 2. Épít **[Egyéni munkafolyamatok](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)**
-3. Optimalizálás **[Teljesítménymegoldások](./advanced-ai-document-processing/summarize-documents-options/)**
+3. Optimalizálás **[Teljesítménynövelő megoldások](./advanced-ai-document-processing/summarize-documents-options/)**
 
 ## 💡 Profi tippek és bevált gyakorlatok
 
@@ -139,7 +139,7 @@ Professzionális képfeldolgozás és optimalizálás dokumentum publikáláshoz
 - Vegye figyelembe a fájlméret és a minőség közötti kompromisszumokat
 
 ### **MI-integráció**
-- Válassza ki a megfelelő MI-modelleket a dokumentum összetettsége alapján
+- Válassza ki a megfelelő AI-modelleket a dokumentum összetettsége alapján
 - Megfelelő hibakezelés megvalósítása API-hívásokhoz
 - Eredmények gyorsítótárazása a jobb teljesítmény érdekében
 

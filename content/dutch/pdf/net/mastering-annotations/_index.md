@@ -8,7 +8,7 @@
 
 ## Invoering
 
-Als je ooit met pdf's hebt gewerkt, weet je dat annotaties een game-changer zijn. Ze zijn net als plaknotities, markeerstiften of zelfs krabbels – ze maken je documenten interactief en boeiend. Maar hoe maak je deze magie programmatisch waar? Met Aspose.PDF voor .NET word je een pro in annotaties! Laten we een paar essentiële tutorials doornemen om je op weg te helpen.
+Als je ooit met PDF's hebt gewerkt, weet je dat annotaties een game-changer zijn. Ze zijn net als plaknotities, markeerstiften of zelfs krabbels – ze maken je documenten interactief en boeiend. Maar hoe maak je deze magie programmatisch waar? Met Aspose.PDF voor .NET word je een pro in annotaties! Laten we een paar essentiële tutorials doornemen om je op weg te helpen.
 
 ## Aantekeningen toevoegen aan uw PDF's  
 
@@ -27,11 +27,11 @@ Heb je ooit een geheim briefje willen achterlaten? Met onzichtbare annotaties ku
 
 ## PDF's interactief maken met inktannotaties  
 
-Wil je een persoonlijke, handgetekende touch aan je pdf's toevoegen? Inkt-annotaties zijn perfect voor krabbels, handtekeningen of aangepaste diagrammen. [Inkt-annotaties toevoegen met Aspose.PDF voor .NET](./adding-ink-annotations/) De tutorial begeleidt je door het proces. Je leert hoe je tekeningen uit de vrije hand vastlegt en ze naadloos in je pdf's integreert. Het is alsof je je document verandert in een virtueel whiteboard – ideaal voor brainstormsessies of creatieve projecten.  
+Wil je een persoonlijke, handgetekende touch aan je pdf's toevoegen? Inkt-annotaties zijn perfect voor krabbels, handtekeningen of aangepaste diagrammen. [Inkt-annotaties toevoegen met Aspose.PDF voor .NET](./adding-ink-annotations/) De tutorial begeleidt je door het proces. Je leert hoe je tekeningen uit de losse pols vastlegt en deze naadloos in je pdf's integreert. Het is alsof je je document verandert in een virtueel whiteboard – ideaal voor brainstormsessies of creatieve projecten.  
 
 ## Annotaties extraheren: verborgen inzichten onthullen  
 
-Annotaties zijn meer dan alleen visuele hulpmiddelen: ze bevatten waardevolle gegevens. Het extraheren ervan kan reviews, audits of samenwerkingsprocessen stroomlijnen. Duik in de [Annotaties uit PDF-documenten extraheren](./extract-annotations-from-pdf/) Handleiding voor een uitgebreide walkthrough. Je ontdekt hoe je programmatisch annotaties kunt maken, waardoor je pdf's een nog krachtiger hulpmiddel worden.  
+Annotaties zijn meer dan alleen visuele hulpmiddelen: ze bevatten waardevolle gegevens. Het extraheren ervan kan reviews, audits of samenwerkingsworkflows stroomlijnen. Duik in de [Annotaties uit PDF-documenten extraheren](./extract-annotations-from-pdf/) Handleiding voor een uitgebreide walkthrough. Je ontdekt hoe je programmatisch annotaties kunt maken, waardoor je PDF's een nog krachtiger hulpmiddel worden.  
 
 ## Annotaties in PDF-tutorials onder de knie krijgen
 | Titel | Beschrijving |
@@ -40,4 +40,4 @@ Annotaties zijn meer dan alleen visuele hulpmiddelen: ze bevatten waardevolle ge
 | [Inkt-annotaties toevoegen met Aspose.PDF voor .NET](./adding-ink-annotations/) | Leer hoe u uw PDF-documenten interactiever en aantrekkelijker kunt maken door inktannotaties toe te voegen met Aspose.PDF voor .NET. Deze uitgebreide handleiding begeleidt u door het hele proces. |    
 | [Gemarkeerde tekst uit PDF's extraheren met Aspose.PDF voor .NET](./extract-highlighted-text-from-pdf/) | Haal het maximale uit uw PDF-documenten door te leren hoe u gemarkeerde tekst kunt extraheren met Aspose.PDF voor .NET. Deze uitgebreide handleiding begeleidt u bij elke stap, van installatie tot implementatie. |  
 | [Annotaties uit PDF-documenten extraheren](./extract-annotations-from-pdf/) | Leer hoe u annotaties uit PDF-documenten kunt halen met Aspose.PDF voor .NET. Deze uitgebreide tutorial biedt gedetailleerde instructies. |    
-| [Onzichtbare annotatie in een PDF-bestand met Aspose.PDF voor .NET](./invisible-annotation-in-pdf-file/) Ontdek hoe u uw PDF-documenten kunt verbeteren met onzichtbare annotaties met Aspose.PDF voor .NET. Deze uitgebreide tutorial begeleidt u door het proces van het maken van effectieve maar discrete notities in uw PDF's.
+| [Onzichtbare annotatie in een PDF-bestand met Aspose.PDF voor .NET](./invisible-annotation-in-pdf-file/) | Ontdek hoe u uw PDF-documenten kunt verbeteren met onzichtbare annotaties met Aspose.PDF voor .NET. Deze uitgebreide tutorial begeleidt u door het proces van het maken van effectieve maar discrete notities in uw PDF's. |

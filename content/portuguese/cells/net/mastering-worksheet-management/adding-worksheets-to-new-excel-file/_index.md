@@ -16,7 +16,7 @@ Criar arquivos do Excel programaticamente pode otimizar significativamente seu f
 Antes de mergulhar no código, certifique-se de ter os seguintes elementos essenciais prontos:
 
 1. Aspose.Cells para .NET: Baixe o [Aspose.Cells para .NET](https://releases.aspose.com/cells/net/) biblioteca. Esta poderosa API foi projetada para manipulação programática de arquivos do Excel.
-2. .NET Framework: certifique-se de ter um ambiente de desenvolvimento compatível com o .NET, como o Visual Studio, instalado.
+2. .NET Framework: certifique-se de ter um ambiente de desenvolvimento compatível com o .NET instalado, como o Visual Studio.
 3. Licença (opcional): se você quiser explorar recursos avançados além das limitações do teste, considere solicitar uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
 
 ## Importando Pacotes Necessários

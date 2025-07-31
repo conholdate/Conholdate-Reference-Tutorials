@@ -84,7 +84,7 @@ Gratulujeme k dokončení tohoto průvodce! Naučili jste se, jak využít kniho
 
 ## Často kladené otázky
 
-### Co je to mapa XML v Excelu?
+### Co je to XML mapa v Excelu?
 Mapa XML propojuje data v listu aplikace Excel se schématem XML, což umožňuje import a export strukturovaných dat mezi soubory XML a tabulkami.
 
 ### Mohu přistupovat k více mapám XML v souboru Excelu pomocí Aspose.Cells?

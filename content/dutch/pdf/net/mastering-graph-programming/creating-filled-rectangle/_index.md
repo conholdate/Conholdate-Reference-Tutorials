@@ -1,5 +1,5 @@
 ---
-"description": "Ontdek de kracht van PDF-manipulatie met Aspose.PDF voor .NET in deze stapsgewijze tutorial. Leer hoe u programmatisch visueel aantrekkelijke PDF-documenten kunt maken door gevulde rechthoeken te tekenen."
+"description": "Ontdek de kracht van PDF-manipulatie met Aspose.PDF voor .NET in deze stapsgewijze tutorial. Leer hoe u programmatisch visueel aantrekkelijke PDF-documenten maakt door gevulde rechthoeken te tekenen."
 "linktitle": "Een gevulde rechthoek maken"
 "second_title": "Aspose.PDF voor .NET API-referentie"
 "title": "Een gevulde rechthoek maken"
@@ -9,13 +9,13 @@
 
 ## Invoering
 
-Heb je ooit visueel verbluffende PDF's programmatisch willen maken? Zo ja, dan ben je hier aan het juiste adres! In deze tutorial verkennen we Aspose.PDF voor .NET, een krachtige bibliotheek die het bewerken van PDF-documenten vereenvoudigt. Vandaag concentreren we ons op het maken van een gevulde rechthoek in een PDF-bestand. Of je nu een ervaren ontwikkelaar bent of net begint, deze handleiding leidt je op een vriendelijke en boeiende manier door elke stap. Dus, pak je programmeerhoed en laten we beginnen!
+Heb je ooit visueel verbluffende PDF's willen maken met behulp van programma's? Zo ja, dan ben je hier aan het juiste adres! In deze tutorial verkennen we Aspose.PDF voor .NET, een krachtige bibliotheek die het bewerken van PDF-documenten vereenvoudigt. Vandaag concentreren we ons op het maken van een gevulde rechthoek in een PDF-bestand. Of je nu een ervaren ontwikkelaar bent of net begint, deze handleiding leidt je op een vriendelijke en boeiende manier door elke stap. Dus, pak je programmeerhoed en laten we beginnen!
 
 ## Vereisten
 
 Voordat we in de code duiken, moet u ervoor zorgen dat u het volgende hebt:
 
-1. Visual Studio: Installeer Visual Studio op uw computer. Het is een uitstekende IDE voor .NET-ontwikkeling.
+1. Visual Studio: Installeer Visual Studio op uw computer, want het is een uitstekende IDE voor .NET-ontwikkeling.
 2. Aspose.PDF voor .NET: Download en installeer de Aspose.PDF-bibliotheek van [hier](https://releases.aspose.com/pdf/net/).
 3. Basiskennis van C#: Kennis van C#-programmering helpt u de codefragmenten beter te begrijpen.
 
@@ -63,7 +63,7 @@ Document doc = new Document();
 Elke PDF heeft minimaal één pagina nodig. Laten we er één toevoegen:
 
 ```csharp
-// Pagina toevoegen aan pagina'sverzameling van PDF-bestand
+// Pagina toevoegen aan paginaverzameling van PDF-bestand
 Page page = doc.Pages.Add();
 ```
 
@@ -90,11 +90,11 @@ page.Paragraphs.Add(graph);
 Definieer de positie en grootte van de rechthoek:
 
 ```csharp
-// Rechthoekinstantie maken
+// Maak een rechthoekinstantie
 Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 120);
 ```
 
-## Stap 9: De vulkleur specificeren
+## Stap 9: Geef de vulkleur op
 
 Kies een kleur voor je rechthoek. Voor dit voorbeeld gebruiken we rood:
 
@@ -149,4 +149,4 @@ Absoluut! Je kunt ondersteuning krijgen via het Aspose-forum. [hier](https://for
 U kunt Aspose.PDF kopen door de aankooppagina te bezoeken [hier](https://purchase.aspose.com/buy).
 
 ### Welke soorten vormen kan ik maken met Aspose.PDF?
-Met de Aspose.PDF-bibliotheek kunt u verschillende vormen maken, waaronder rechthoeken, cirkels, lijnen en meer.
+Met de Aspose.PDF-bibliotheek kunt u verschillende vormen maken, zoals rechthoeken, cirkels, lijnen en meer.

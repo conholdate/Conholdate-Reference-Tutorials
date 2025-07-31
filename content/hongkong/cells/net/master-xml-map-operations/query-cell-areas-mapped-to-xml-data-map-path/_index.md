@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Cells for .NET 在 Excel 中無縫處理 XML 資料。本教學將引導您完成查詢對應到 XML 路徑的儲存格區域的過程，讓您能夠自動擷取資料並輕鬆建立動態報表。"
+"description": "了解如何使用 Aspose.Cells for .NET 無縫處理 Excel 中的 XML 資料。本綜合教學將引導您完成查詢對應到 XML 路徑的儲存格區域的過程，使您能夠自動擷取資料並輕鬆建立動態報表。"
 "linktitle": "使用 Aspose.Cells 查詢對應到 Xml 資料映射路徑的單元格區域"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "使用 Aspose.Cells 查詢對應到 Xml 資料映射路徑的單元格區域"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-您是否想過使用 .NET 在 Excel 中高效處理 XML 資料？透過 Aspose.Cells for .NET 這個強大的電子表格操作庫，您可以無縫地與 Excel 文件中的 XML 映射進行互動。在本教學中，我們將探索如何查詢 Excel 檔案中對應到 XML 路徑的特定區域，這對於產生動態報表或自動擷取資料非常理想。讓我們一步步深入了解操作過程！
+您是否曾經想使用 .NET 在 Excel 中高效處理 XML 資料？借助 Aspose.Cells for .NET（一個強大的電子表格操作庫），與 Excel 文件中的 XML 地圖的交互變得無縫。在本教學中，我們將探討如何查詢 Excel 檔案中對應到 XML 路徑的特定區域，這對於產生動態報表或自動擷取資料非常理想。讓我們深入了解逐步過程！
 
 ## 先決條件
 
@@ -58,7 +58,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleXmlMapQuery.xlsx");
 XmlMap xmlMap = workbook.Worksheets.XmlMaps[0];
 ```
 
-這將從您的工作簿中檢索第一個 XML 對應。如果您的工作簿包含多個映射，請根據需要調整索引。
+這將從您的工作簿中檢索第一個 XML 對應。如果您的工作簿包含多張地圖，請根據需要調整索引。
 
 ## 步驟 3：選擇工作表
 
@@ -123,7 +123,7 @@ foreach (var result in results)
 
 ## 結論
 
-在本教學中，我們探討如何使用 Aspose.Cells for .NET 查詢 Excel 檔案中所對應的 XML 資料。此功能對於需要動態提取特定 XML 資料的開發人員來說非常寶貴。掌握這些基礎知識後，現在可以實作更複雜的 XML 查詢，甚至可以在 Excel 專案中處理多個 XML 對應。 
+在本教學中，我們探討如何使用 Aspose.Cells for .NET 查詢 Excel 檔案中所對應的 XML 資料。對於尋求動態提取特定 XML 資料的開發人員來說，此功能非常有價值。有了這些基礎知識，您現在可以實作更複雜的 XML 查詢，甚至可以在 Excel 專案中使用多個 XML 對應。 
 
 ## 常見問題解答
 
@@ -134,10 +134,10 @@ foreach (var result in results)
 如果查詢無效路徑， `XmlMapQuery` 方法將傳回一個空的ArrayList。
 
 ### 使用 Aspose.Cells for .NET 是否需要許可證？  
-是的，您需要許可證才能使用全部功能。 [免費試用](https://releases.aspose.com/) 和一個 [臨時執照](https://purchase.aspose.com/temporary-license/) 可用。
+是的，您需要許可證才能使用全部功能。一個 [免費試用](https://releases.aspose.com/) 和一個 [臨時執照](https://purchase.aspose.com/temporary-license/) 可用。
 
 ### 我可以將查詢的資料儲存到新的 Excel 檔案嗎？  
-當然！您可以提取資料並將其保存到另一個Excel文件，或將其匯出為Aspose.Cells支援的其他格式。
+絕對地！您可以提取資料並將其儲存到另一個 Excel 檔案或將其匯出為 Aspose.Cells 支援的不同格式。
 
 ### 是否支援除 Excel（.xlsx）以外的格式的 XML 地圖查詢？  
 XML 映射主要在 .xlsx 檔案中受支持，其他格式的功能可能受到限制。

@@ -30,7 +30,7 @@ A dokumentumkonverzió elengedhetetlenné válik, ha a következőkkel van dolgu
 - **Régi rendszerintegráció** ahol a különböző formátumoknak együtt kell működniük
 - **Automatizált jelentéskészítési munkafolyamatok** amelyek PDF-eket generálnak Word-sablonokból  
 - **Tartalomkezelő rendszerek** több fájlformátum támogatása
-- **E-mail automatizálás** HTML vagy MHTML formátumokat igénylő
+- **E-mail automatizálás** HTML vagy MHTML formátumot igényel
 - **Archívumrendszerek** szabványosított formátumokra van szükség, mint például a PDF/A
 - **Mobilalkalmazások** amelyek jobb teljesítmény érdekében könnyű formátumokat igényelnek
 

@@ -96,7 +96,7 @@ Eine kostenlose Testversion ist verfügbar, für die volle Funktionalität ist j
 [Informationen zur Lizenzierung](https://purchase.aspose.com/buy).
 
 ### Kann ich bestimmte Registerkarten statt aller Registerkarten ausblenden?
-Nein, die `ShowTabs` Die Eigenschaft „+“ steuert die Sichtbarkeit aller Blattregisterkarten in der Arbeitsmappe.
+Nein, die `ShowTabs` Die Eigenschaft steuert die Sichtbarkeit aller Blattregisterkarten in der Arbeitsmappe.
 
 ### Wird diese Funktion von allen Excel-Formaten unterstützt?
 Ja, Aspose.Cells unterstützt die Anpassung der Tab-Leistenbreite für alle Excel-Dateiformate, einschließlich `.xls` Und `.xlsx`.

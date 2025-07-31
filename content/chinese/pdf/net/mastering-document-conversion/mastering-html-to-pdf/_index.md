@@ -21,7 +21,7 @@
 
 你是否曾经盯着一份 HTML 文档，渴望能神奇地将其转换成一份干净专业的 PDF？你绝对不是一个人。无论你是在构建发票生成器、创建可下载的报告，还是存档 Web 内容，将 HTML 转换为 PDF 都是每个 .NET 开发人员迟早都会遇到的基本任务之一。
 
-好消息？使用 C# 将 HTML 转换为 PDF 不再是一件令人头疼的事。有了 Aspose.PDF for .NET，您可以轻松应对这一挑战，并真正享受这个过程。这份全面的指南将带您了解所有需要了解的内容——从初始设置到处理那些总是在最糟糕时刻出现的棘手边缘情况。
+好消息？使用 C# 将 HTML 转换为 PDF 不再是一件令人头疼的事。有了 Aspose.PDF for .NET，您可以轻松应对这一挑战，并真正享受这个过程。这份全面的指南将带您了解所有需要了解的内容——从初始设置到处理那些总是在最糟糕的时刻突然出现的棘手边缘情况。
 
 在本教程结束时，您将对如何使用 C# 将 HTML 转换为 PDF 有深入的理解，并掌握正确的错误处理和性能优化方法。让我们开始吧！
 
@@ -103,7 +103,7 @@ options.CustomLoaderOfExternalResources = new LoadOptions.ResourceLoadingStrateg
 Document pdfDocument = new Document(dataDir + "HTMLToPDF.html", options);
 ```
 
-这行代码完成了许多繁重的工作。在后台，Aspose.PDF 会解析您的 HTML，解析外部资源，并构建可渲染为 PDF 的内部表示。
+这一行代码完成了许多繁重的工作。在后台，Aspose.PDF 会解析您的 HTML，解析外部资源，并构建可渲染为 PDF 的内部表示。
 
 **性能说明**：对于大型 HTML 文件或包含大量外部资源的文档，此步骤可能需要几秒钟。这很正常——图书馆正在认真处理，以确保输出质量。
 

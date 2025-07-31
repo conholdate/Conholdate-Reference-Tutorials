@@ -76,7 +76,7 @@ Zaawansowane operacje arkuszy kalkulacyjnych umożliwiające profesjonalną auto
 2. Uczyć się **[Dodawanie arkuszy roboczych](./guide-to-working-with-excel-worksheets-csharp/adding-worksheet-to-existing-excel-workbook-csharp-tutorial/)**
 3. Praktyka **[Zarządzanie arkuszami kalkulacyjnymi](./guide-to-working-with-excel-worksheets-csharp/add-new-sheet-to-excel-file-csharp-tutorial/)**
 
-### **Średnio zaawansowany programista** (Znajomość podstaw arkusza kalkulacyjnego)
+### **Średniozaawansowany programista** (Znajomość podstaw arkusza kalkulacyjnego)
 1. Gospodarz **[Konwersje wykresów](./conversion-to-pdf-file/convert-excel-charts-to-pdf/)**
 2. Badać **[Zaawansowane operacje arkusza kalkulacyjnego](./guide-to-working-with-excel-worksheets-csharp/delete-worksheet-by-index-excel-csharp-tutorial/)**
 3. Narzędzie **[Ulepszenie arkusza kalkulacyjnego projektanta](./mastering-worksheet-management/adding-worksheets-to-designer-spreadsheet/)**
@@ -129,7 +129,7 @@ Zaawansowane operacje arkuszy kalkulacyjnych umożliwiające profesjonalną auto
 - **[Bezpłatny okres próbny](https://releases.aspose.com/cells/net/)** - Oceń wszystkie funkcje
 
 ### **Społeczność i wsparcie**
-- **[Forum wsparcia](https://forum.aspose.com/c/cells/9)** - Uzyskaj pomoc od ekspertów
+- **[Forum wsparcia](https://forum.aspose.com/c/cells/9)** Uzyskaj pomoc od ekspertów
 
 ### **Licencjonowanie i wersje próbne**
 - **[Licencja tymczasowa](https://purchase.conholdate.com/temporary-license/)** - Rozszerzona ocena

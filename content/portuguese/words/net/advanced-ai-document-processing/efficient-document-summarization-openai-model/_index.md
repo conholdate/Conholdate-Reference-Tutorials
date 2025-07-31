@@ -61,7 +61,7 @@ Install-Package Aspose.Words
 
 ### Protegendo sua chave de API OpenAI
 
-Você precisará de uma chave de API OpenAI para acessar seus modelos de linguagem. Acesse o [Site OpenAI](https://openai.com/), crie uma conta e pegue sua chave de API. **Nunca codifique esta chave** – mostraremos a maneira segura de fazer isso mais adiante neste guia.
+Você precisará de uma chave de API OpenAI para acessar seus modelos de linguagem. Acesse o [Site OpenAI](https://openai.com/)crie uma conta e pegue sua chave de API. **Nunca codifique esta chave** – mostraremos a maneira segura de fazer isso mais adiante neste guia.
 
 ### Configuração do ambiente de desenvolvimento
 Embora você possa usar qualquer IDE compatível com .NET, **Estúdio Visual** oferece a melhor experiência para este tutorial, com excelente suporte ao IntelliSense e recursos de depuração para integrações de Aspose.Words e API.
@@ -105,7 +105,7 @@ Document doc1 = new Document(MyDir + "BigDocument.docx");
 Document doc2 = new Document(MyDir + "AnotherDocument.docx");
 ```
 
-**Dica de desempenho**: Para documentos grandes, considere carregá-los de forma assíncrona para evitar bloqueios na interface do usuário em aplicativos de desktop. O Aspose.Words gerencia a memória com eficiência, mas arquivos muito grandes (>100 MB) podem se beneficiar de abordagens de streaming.
+**Dica de desempenho**Para documentos grandes, considere carregá-los de forma assíncrona para evitar bloqueios na interface do usuário em aplicativos de desktop. O Aspose.Words gerencia a memória com eficiência, mas arquivos muito grandes (>100 MB) podem se beneficiar de abordagens de streaming.
 
 ### Etapa 3: Gerenciamento seguro de chaves de API
 

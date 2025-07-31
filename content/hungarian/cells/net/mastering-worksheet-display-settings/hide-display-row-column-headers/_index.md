@@ -84,7 +84,7 @@ Szükség esetén módosíthatja a zárójelben lévő indexet egy másik munkal
 
 ## 5. lépés: Fejlécek elrejtése
 
-Most rejtsük el a sor- és oszlopfejléceket! `IsRowColumnHeadersVisible` hogy `false` hogy ezt elérje.
+Most rejtsük el a sor- és oszlopfejléceket! `IsRowColumnHeadersVisible` hogy `false` hogy ezt elérjük.
 
 ```csharp
 worksheet.IsRowColumnHeadersVisible = false;

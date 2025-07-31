@@ -87,12 +87,12 @@ Jeśli widzisz ten komunikat w konsoli, gratulacje! Pomyślnie załadowałeś li
 
 ## Wniosek
 
-gotowe! Nauczyłeś się, jak załadować licencję z obiektu strumieniowego w Aspose.PDF dla .NET. Ten krok jest kluczowy dla odblokowania pełnego zakresu funkcji oferowanych przez Aspose.PDF. Miej ten przewodnik pod ręką, a będziesz dobrze przygotowany do wszelkich zadań związanych z licencjonowaniem plików PDF.
+I gotowe! Nauczyłeś się, jak załadować licencję z obiektu strumieniowego w Aspose.PDF dla .NET. Ten krok jest kluczowy dla odblokowania pełnego zakresu funkcji oferowanych przez Aspose.PDF. Miej ten przewodnik pod ręką, a będziesz dobrze przygotowany do wszelkich zadań związanych z licencjonowaniem plików PDF.
 
 ## Najczęściej zadawane pytania
 
 ### Co się stanie, jeśli nie załaduję licencji w pliku Aspose.PDF dla platformy .NET?  
-Jeśli nie załadujesz licencji, Aspose.PDF będzie działać w trybie testowym, który wiąże się z takimi ograniczeniami, jak znaki wodne na dokumentach i ograniczona funkcjonalność.
+Jeśli nie załadujesz licencji, Aspose.PDF będzie działać w trybie testowym, który wiąże się z pewnymi ograniczeniami, takimi jak znaki wodne na dokumentach i ograniczona funkcjonalność.
 
 ### Czy mogę załadować licencję z innych typów strumieni?  
 Tak, licencję można załadować z dowolnego strumienia nadającego się do odczytu, takiego jak strumienie pamięci lub strumienie sieciowe, a nie tylko strumienie plików.

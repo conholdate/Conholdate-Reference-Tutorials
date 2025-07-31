@@ -140,7 +140,7 @@ slicer.Refresh();
 Τέλος, αποθηκεύστε το βιβλίο εργασίας σας με τις ενημερωμένες ρυθμίσεις του αναλυτή:
 
 ```csharp
-// Αποθηκεύστε το βιβλίο εργασίας σε μορφή XLSX εξόδου.
+// Αποθηκεύστε το βιβλίο εργασίας σε μορφή XLSX.
 workbook.Save(outputDir + "outputChangeSlicerProperties.xlsx", SaveFormat.Xlsx);
 ```
 

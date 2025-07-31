@@ -178,7 +178,7 @@ if (!File.Exists(fullPath))
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg)
 {
     JpegQuality = 95,
-    Resolution = 300 // DPI más alto para una mejor calidad
+    Resolution = 300 // Mayor DPI para una mejor calidad
 };
 ```
 

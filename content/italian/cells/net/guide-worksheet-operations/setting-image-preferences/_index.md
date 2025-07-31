@@ -61,7 +61,7 @@ Specificare il percorso del file per il documento Excel che si desidera converti
 string filePath = Path.Combine(dataDir, "Book1.xlsx");
 ```
 
-Utilizzo `Path.Combine` assicura che il percorso del file sia costruito correttamente.
+Utilizzando `Path.Combine` assicura che il percorso del file sia costruito correttamente.
 
 ## Passaggio 3: caricare la cartella di lavoro
 

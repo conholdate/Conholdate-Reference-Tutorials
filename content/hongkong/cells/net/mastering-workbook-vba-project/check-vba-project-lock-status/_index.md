@@ -1,5 +1,5 @@
 ---
-"description": "本指南全面指導您使用強大的 Aspose.Cells for .NET 程式庫檢查 Excel 中的 VBA 專案是否已鎖定檢視。非常適合 .NET 開發人員和 Excel 使用者。"
+"description": "本綜合指南將引導您使用強大的 Aspose.Cells for .NET 函式庫檢查 Excel 中的 VBA 項目是否已鎖定以供檢視。非常適合 .NET 開發人員和 Excel 使用者。"
 "linktitle": "使用 Aspose.Cells 檢查 Excel 中的 VBA 專案鎖定狀態"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "使用 Aspose.Cells 檢查 Excel 中的 VBA 專案鎖定狀態"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-在 Excel 程式設計領域，Visual Basic for Applications (VBA) 堪稱顛覆性技術。它允許使用者自動執行重複性任務、建立自訂函數並增強 Excel 電子表格的功能。然而，遇到 VBA 專案被鎖定的情況可能會令人沮喪，因為它會阻止您存取所需的程式碼。本指南將指導您使用 Aspose.Cells for .NET 檢查 VBA 項目是否受到保護並被鎖定，無法查看。如果您曾經遇到 VBA 專案被鎖定的煩惱，那麼本指南正適合您！
+在 Excel 程式設計領域，Visual Basic for Applications (VBA) 是一個改變遊戲規則的工具。它允許使用者自動執行重複性任務、建立自訂功能並增強 Excel 電子表格的功能。然而，遇到鎖定的 VBA 專案可能會令人沮喪，因為它會阻止您存取所需的程式碼。本指南將引導您檢查 VBA 專案是否受到保護並鎖定以使用 Aspose.Cells for .NET 進行檢視。如果您曾經遇到過鎖定的 VBA 專案的煩惱，那麼本指南適合您！
 
 ## 先決條件
 
@@ -37,7 +37,7 @@ using System.Text;
 
 ## 步驟 1：定義文件目錄
 
-首先指定 Excel 檔案所在的路徑。此步驟對於應用程式定位您要處理的文件至關重要。
+首先指定 Excel 檔案所在的路徑。此步驟對於應用程式定位您要使用的檔案至關重要。
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -47,7 +47,7 @@ string dataDir = "Your Document Directory";
 
 ## 第 2 步：載入工作簿
 
-接下來，將 Excel 文件載入到 `Workbook` 對象。此物件代表整個 Excel 文件，使您能夠無縫地對其進行操作。
+接下來，將 Excel 文件載入到 `Workbook` 目的。該物件代表整個 Excel 文件，使您能夠無縫地操作它。
 
 ```csharp
 Workbook wb = new Workbook(dataDir + "sampleCheckifVBAProjectisProtected.xlsm");
@@ -57,7 +57,7 @@ Workbook wb = new Workbook(dataDir + "sampleCheckifVBAProjectisProtected.xlsm");
 
 ## 步驟 3：訪問 VBA 項目
 
-若要檢查 VBA 項目的鎖定狀態，請造訪 `VbaProject` 與工作簿關聯。此物件提供對與 VBA 項目相關的屬性和方法的存取。
+若要檢查 VBA 項目的鎖定狀態，請造訪 `VbaProject` 與工作簿關聯。該物件提供對與 VBA 項目相關的屬性和方法的存取。
 
 ```csharp
 Aspose.Cells.Vba.VbaProject vbaProject = wb.VbaProject;
@@ -65,7 +65,7 @@ Aspose.Cells.Vba.VbaProject vbaProject = wb.VbaProject;
 
 ## 步驟 4：檢查 VBA 項目是否已鎖定以供查看
 
-最後，使用 `IsLockedForViewing` 的財產 `VbaProject` 對象。如果返回 `true`，則項目已鎖定；如果 `false`，即可進入。
+最後，使用 `IsLockedForViewing` 的財產 `VbaProject` 目的。如果它返回 `true`，該項目已被鎖定；如果 `false`，即可進入。
 
 ```csharp
 Console.WriteLine("Is VBA Project Locked for Viewing: " + vbaProject.IsLockedForViewing);
@@ -73,7 +73,7 @@ Console.WriteLine("Is VBA Project Locked for Viewing: " + vbaProject.IsLockedFor
 
 ## 結論
 
-在本指南中，我們探討如何使用 Aspose.Cells for .NET 檢查 VBA 專案是否受到保護並被鎖定，無法查看。我們介紹了先決條件、導入了必要的軟體包，並將整個過程分解為易於遵循的步驟。 Aspose.Cells 簡化了複雜的任務，使其成為處理 Excel 檔案的 .NET 開發人員的寶貴工具。
+在本指南中，我們探討如何使用 Aspose.Cells for .NET 檢查 VBA 專案是否受到保護並鎖定以供查看。我們涵蓋了先決條件，導入了必要的軟體包，並將流程分解為易於遵循的步驟。 Aspose.Cells 簡化了複雜的任務，使其成為處理 Excel 檔案的 .NET 開發人員的寶貴工具。
 
 如果您曾經因鎖定的 VBA 專案而感到沮喪，本指南將為您提供評估和有效克服這些障礙的知識。
 
@@ -85,7 +85,7 @@ Aspose.Cells 是一個功能強大的 .NET 程式庫，用於以程式設計方�
 
 ### 我可以免費使用 Aspose.Cells 嗎？
 
-是的！ Aspose 提供免費試用，您可以探索一下。快來看看吧 [這裡](https://releases。aspose.com/).
+是的！ Aspose 提供免費試用版供您探索。一探究竟 [這裡](https://releases。aspose.com/).
 
 ### Aspose.Cells 支援哪些程式語言？
 

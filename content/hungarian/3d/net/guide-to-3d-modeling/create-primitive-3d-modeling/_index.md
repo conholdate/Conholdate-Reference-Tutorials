@@ -1,28 +1,29 @@
 ---
-title: Primitív 3D modellezés létrehozása
-linktitle: Primitív 3D modellezés létrehozása
-second_title: Aspose.3D .NET API
-description: Tanulja meg, hogyan hozhat létre és szabhat testre primitív 3D-s modelleket, beleértve a dobozokat és hengereket, és könnyedén mentheti FBX formátumba.
-weight: 10
-url: /hu/3d/guide-to-3d-modeling/create-primitive-3d-modeling/
+"description": "Tanuld meg, hogyan hozhatsz létre és szabhatsz testre primitív 3D modelleket, beleértve a dobozokat és a hengereket, és hogyan mentheted el őket könnyedén FBX formátumban."
+"linktitle": "Primitív 3D modellezés létrehozása"
+"second_title": "Aspose.3D .NET API"
+"title": "Primitív 3D modellezés létrehozása"
+"url": "/hu/3d/net/guide-to-3d-modeling/create-primitive-3d-modeling/"
+"weight": 10
 ---
+
 ## Bevezetés
 
-Üdvözöljük a 3D modellezés magával ragadó világában az Aspose.3D for .NET használatával! Ebben az átfogó oktatóanyagban lépésről lépésre végigvezetjük a primitív 3D modellek létrehozásának folyamatán. Legyen szó tapasztalt fejlesztőről vagy kezdő, tanulni vágyó, ez az útmutató lehetővé teszi, hogy vizuálisan lenyűgöző 3D-s elemeket készítsen projektjeihez.
+Üdvözlünk a 3D modellezés magával ragadó világában az Aspose.3D for .NET használatával! Ebben az átfogó oktatóanyagban lépésről lépésre végigvezetünk a primitív 3D modellek létrehozásának folyamatán. Akár tapasztalt fejlesztő, akár tanulni vágyó kezdő, ez az útmutató segít abban, hogy vizuálisan lenyűgöző 3D elemeket hozzon létre projektjeihez.
 
 ## Előfeltételek
 
-Mielőtt belemerülne a 3D modellezésbe, győződjön meg arról, hogy a következő előfeltételekkel rendelkezik:
+Mielőtt belevágna a 3D modellezésbe, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
--  Aspose.3D for .NET: Töltse le és telepítse az Aspose.3D for .NET könyvtárat a[letöltési oldal](https://releases.aspose.com/3d/net/).
+- Aspose.3D .NET-hez: Töltse le és telepítse az Aspose.3D .NET-hez könyvtárat a következő helyről: [letöltési oldal](https://releases.aspose.com/3d/net/).
   
-- .NET fejlesztői környezet: Az Aspose.3D-vel kompatibilis környezet beállítása, például a Visual Studio.
+- .NET fejlesztői környezet: Állítson be egy Aspose.3D-vel kompatibilis környezetet, például a Visual Studio-t.
 
-Mindennel felkészülve induljunk 3D-s modellezési kalandunknak!
+Mindennel előkészülve, vágjunk bele a 3D modellezési kalandunkba!
 
-## Kötelező névterek importálása
+## Szükséges névterek importálása
 
-Kezdje a szükséges névterek importálásával az Aspose.3D funkciók eléréséhez:
+Kezdje a szükséges névterek importálásával az Aspose.3D funkcióinak eléréséhez:
 
 ```csharp
 using System;
@@ -32,54 +33,54 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Formats;
 ```
 
-Ezek a névterek biztosítják a 3D-s modellek kezeléséhez és az alkotások mentéséhez szükséges eszközöket.
+Ezek a névterek biztosítják a 3D modellek kezeléséhez és alkotásaid mentéséhez szükséges eszközöket.
 
-## 1. lépés: Inicializáljon egy jelenetobjektumot
+## 1. lépés: Jelenetobjektum inicializálása
 
-Hozzon létre egy új jelenetobjektumot, amely vászonként működik 3D modelljeihez:
+Hozz létre egy új jelenetobjektumot, amely a 3D modellek vászonjaként szolgál:
 
 ```csharp
-// Inicializáljon egy jelenet objektumot
+// Jelenet objektum inicializálása
 Scene scene = new Scene();
 ```
 
-Ez a jelenet tartalmazza azokat a primitív alakzatokat, amelyeket éppen létrehozni készül.
+Ez a jelenet fogja tartalmazni a létrehozni kívánt primitív formákat.
 
-## 2. lépés: Hozzon létre egy doboz modellt
+## 2. lépés: Dobozmodell létrehozása
 
-Ezután adjunk hozzá egy dobozmodellt a jelenethez:
+Következő lépésként adjunk hozzá egy dobozmodellt a jelenethez:
 
 ```csharp
-// Hozzon létre egy Box modellt
+// Dobozmodell létrehozása
 scene.RootNode.CreateChildNode("box", new Box());
 ```
 
-Testreszabhatja a doboz méreteit és tulajdonságait kreatív elképzeléseinek megfelelően.
+A doboz méreteit és tulajdonságait testreszabhatod a kreatív elképzeléseidnek megfelelően.
 
-## 3. lépés: Hozzon létre egy hengermodellt
+## 3. lépés: Hengermodell létrehozása
 
-Most fokozza a jelenetet egy henger hozzáadásával:
+Most pedig egészítsd ki a jelenetedet egy henger hozzáadásával:
 
 ```csharp
-// Hozzon létre egy hengermodellt
+// Hengermodell létrehozása
 scene.RootNode.CreateChildNode("cylinder", new Cylinder());
 ```
 
-Csakúgy, mint a doboznál, nyugodtan állítsa be a henger paramétereit, hogy elérje a kívánt megjelenést.
+A dobozhoz hasonlóan a henger paramétereit is szabadon állíthatod a kívánt megjelenés eléréséhez.
 
 ## 4. lépés: Mentse el a jelenetet FBX formátumban
 
-3D modell megőrzéséhez mentse el FBX formátumban:
+A 3D modell megőrzéséhez mentse el FBX formátumban:
 
 ```csharp
-// Mentse el a rajzot FBX formátumban
+// Rajz mentése FBX formátumban
 var output = Path.Combine("Your Output Directory", "test.fbx");
 scene.Save(output, FileFormat.FBX7500ASCII);
 ```
 
-Ügyeljen arra, hogy a modellnek megfelelő kimeneti könyvtárat és fájlnevet válassza.
+Győződjön meg róla, hogy a modelljének megfelelő kimeneti könyvtárat és fájlnevet választ.
 
-## 5. lépés: Jelenítsen meg egy sikerüzenetet
+## 5. lépés: Sikeres üzenet megjelenítése
 
 Végül ünnepelje meg sikerét egy üzenet megjelenítésével:
 
@@ -88,30 +89,30 @@ Végül ünnepelje meg sikerét egy üzenet megjelenítésével:
 Console.WriteLine($"\nBuilding a scene from primitive 3D models was successful.\nFile saved at {output}");
 ```
 
-A primitív modellekből összeállított 3D-s jelenet most elkészült és elmentve!
+primitív modellekből összeállított 3D-s jelenet elkészült és mentésre került!
 
 ## Következtetés
 
- Gratulálunk a lenyűgöző 3D modellek létrehozásához az Aspose.3D for .NET használatával! Ez az oktatóanyag a primitív modellezés alapjait ismertette, de a lehetőségek végtelenek. Fedezzen fel többet a speciális funkciókról és technikákról a[dokumentáció](https://reference.aspose.com/3d/net/).
+Gratulálunk a lenyűgöző 3D modellek létrehozásához az Aspose.3D for .NET segítségével! Ez az oktatóanyag a primitív modellezés alapjait ismertette, de a lehetőségek végtelenek. Fedezzen fel többet a haladó funkciókról és technikákról a következőben: [dokumentáció](https://reference.aspose.com/3d/net/).
 
 ## GYIK
 
-### Használhatom az Aspose.3D for .NET programot a .NET-től eltérő programozási nyelvekkel?
+### Használhatom az Aspose.3D for .NET-et .NET-től eltérő programozási nyelvekkel?
 
-Az Aspose.3D főként a .NET-et támogatja, de vannak Java- és más platformok verziói is.
+Az Aspose.3D főként .NET-et támogat, de vannak Java és más platformokra készült verziók is.
 
 ### Ingyenes próbaverzió elérhető?
 
- Igen, kipróbálhatja az Aspose.3D képességeit a[ingyenes próbaverzió](https://releases.aspose.com/).
+Igen, kipróbálhatod az Aspose.3D képességeit egy [ingyenes próba](https://releases.aspose.com/).
 
-### Hol találok támogatást az Aspose.3D for .NET számára?
+### Hol találok támogatást az Aspose.3D for .NET-hez?
 
-Közösségi támogatásért látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18).
+Közösségi támogatásért látogassa meg a [Aspose.3D fórum](https://forum.aspose.com/c/3d/18).
 
-### Hogyan szerezhetek ideiglenes engedélyt?
+### Hogyan szerezhetek ideiglenes jogosítványt?
 
- Ideiglenes engedélyt kérhet[itt](https://purchase.conholdate.com/temporary-license/).
+Ideiglenes jogosítványt kérhetsz [itt](https://purchase.conholdate.com/temporary-license/).
 
 ### Vannak további oktatóanyagok?
 
- Igen! Fedezzen fel további oktatóanyagokat és példákat a[dokumentáció](https://reference.aspose.com/3d/net/).
+Igen! További oktatóanyagokat és példákat itt találsz: [dokumentáció](https://reference.aspose.com/3d/net/).

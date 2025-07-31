@@ -20,7 +20,7 @@ Bevor Sie fortfahren, stellen Sie sicher, dass Folgendes vorhanden ist:
 - C#-Programmierkenntnisse: Grundkenntnisse in C#.  
 - HTML-Grundlagen: Vertrautheit mit der HTML-Struktur, insbesondere mit Formularsteuerelementen.  
 
-## Importieren von wesentlichen Namespaces
+## Importieren von wichtigen Namespaces
 
 Beginnen Sie mit dem Importieren der erforderlichen Namespaces:
 

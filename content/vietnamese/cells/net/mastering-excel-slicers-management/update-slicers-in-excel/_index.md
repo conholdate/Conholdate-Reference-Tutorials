@@ -33,7 +33,7 @@ using System.Text;
 
 Các không gian tên này cung cấp các lớp và phương thức cần thiết để làm việc với các bộ lọc Excel theo cách lập trình.
 
-## Bước 1: Thiết lập đường dẫn nguồn và đầu ra
+## Bước 1: Thiết lập đường dẫn nguồn và đường dẫn đầu ra
 
 Xác định thư mục cho tệp Excel nguồn và tệp đầu ra:
 

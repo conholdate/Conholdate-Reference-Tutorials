@@ -1,8 +1,8 @@
 ---
 "description": "Aspose.Cells for .NET을 사용하여 웹 확장 기능을 통합하여 Excel 통합 문서를 개선하는 방법을 알아보세요. 이 단계별 튜토리얼에서는 필수 구성 요소와 자세한 코드 예제를 다룹니다."
-"linktitle": "Aspose.Cells를 사용하여 통합 문서에 웹 확장 기능 추가"
+"linktitle": "Aspose.Cells를 사용하여 통합 문서에 웹 확장 추가"
 "second_title": "Aspose.Cells .NET Excel 처리 API"
-"title": "Aspose.Cells를 사용하여 통합 문서에 웹 확장 기능 추가"
+"title": "Aspose.Cells를 사용하여 통합 문서에 웹 확장 추가"
 "url": "/ko/cells/net/mastering-workbook-operations/adding-web-extension/"
 "weight": 13
 ---
@@ -123,7 +123,7 @@ Aspose.Cells는 개발자가 Microsoft Excel을 설치하지 않고도 Excel 파
 예, 전체 기능을 사용하려면 라이선스가 필요하지만 무료 평가판을 사용하여 시작할 수 있습니다. [여기](https://releases.aspose.com/).
 
 ### 통합 문서에 여러 개의 웹 확장 기능을 추가할 수 있나요?
-물론입니다! 각 확장 프로그램에 대해 단계를 반복하여 여러 개의 웹 확장 프로그램을 추가할 수 있습니다.
+물론입니다! 각 확장 프로그램에 대해 위 단계를 반복하여 여러 개의 웹 확장 프로그램을 추가할 수 있습니다.
 
 ### 문제가 발생하면 어떻게 지원을 받을 수 있나요?
 Aspose 커뮤니티에서 도움을 요청할 수 있습니다. [지원 포럼](https://forum.aspose.com/c/cells/9).

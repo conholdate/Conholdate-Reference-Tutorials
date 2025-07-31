@@ -39,7 +39,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ## Krok 3: Vložte dokument
 
-Nyní načtěme dokument, který chcete zpracovat. Ujistěte se, že se váš dokument s názvem „Rendering.docx“ nachází v zadaném adresáři.
+Nyní načtěme dokument, který chcete zpracovat. Ujistěte se, že váš dokument s názvem „Rendering.docx“ je v zadaném adresáři.
 
 ```csharp
 Document doc = new Document(dataDir + "Rendering.docx");

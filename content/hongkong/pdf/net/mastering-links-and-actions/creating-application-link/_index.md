@@ -1,5 +1,5 @@
 ---
-"description": "本指南將全面指導您使用 Aspose.PDF for .NET 將互動式應用程式連結新增至 PDF 文件。透過快速導航到指定的應用程式或文件，增強用戶參與度。"
+"description": "本綜合指南將引導您完成使用 Aspose.PDF for .NET 為 PDF 文件新增互動式應用程式連結的過程。透過快速導航到指定的應用程式或檔案來增強用戶參與度。"
 "linktitle": "在 PDF 文件中建立應用程式鏈接"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "在 PDF 文件中建立應用程式鏈接"
@@ -9,14 +9,14 @@
 
 ## 介紹
 
-可以透過互動元素（例如應用程式連結）來增強使用者在 PDF 文件中的參與度。這些連結允許用戶快速導航到指定的應用程式或文件，從而提升整體體驗。在本指南中，我們將逐步說明如何使用 Aspose.PDF for .NET 在 PDF 中建立應用程式連結。
+可以透過互動元素（例如應用程式連結）來增強使用者對 PDF 文件的參與度。這些連結允許用戶快速導航到指定的應用程式或文件，從而改善整體體驗。在本指南中，我們將介紹使用 Aspose.PDF for .NET 在 PDF 中建立應用程式連結的過程。
 
 ## 先決條件
 
 在開始之前，請確保您具備以下條件：
 
-1. .NET Framework：確保您的系統上已安裝.NET Framework。 Aspose.PDF for .NET 相容於各種版本。
-2. Aspose.PDF 庫：安裝 Aspose.PDF 庫。您可以從官網下載，也可以透過 NuGet 安裝：
+1. .NET Framework：確保您的系統上安裝了 .NET 框架。 Aspose.PDF for .NET 相容於各種版本。
+2. Aspose.PDF 庫：安裝 Aspose.PDF 庫。您可以從網站下載它或透過 NuGet 安裝它：
 ```bash
 Install-Package Aspose.PDF
 ```
@@ -24,7 +24,7 @@ Install-Package Aspose.PDF
 
 ## 導入所需的套件
 
-在你常用的 IDE（例如 Visual Studio）中建立一個新的控制台應用程式。不要忘記匯入必要的命名空間：
+在您喜歡的 IDE（如 Visual Studio）中建立一個新的控制台應用程式。不要忘記匯入必要的命名空間：
 
 ```csharp
 using System.IO;
@@ -107,7 +107,7 @@ Console.WriteLine("\nApplication link created successfully.\nFile saved at " + d
 
 ## 結論
 
-只需幾個簡單的步驟，您就學會如何使用 Aspose.PDF for .NET 在 PDF 檔案中建立應用程式連結。這個強大的程式庫可以幫助您使 PDF 文件更具互動性和吸引力，引導使用者找到有價值的資訊或應用程式。
+只需幾個簡單的步驟，您就學會如何使用 Aspose.PDF for .NET 在 PDF 檔案中建立應用程式連結。這個強大的程式庫使您能夠使 PDF 文件更具互動性和吸引力，引導用戶獲取有價值的資訊或應用程式。
 
 ## 常見問題解答
 

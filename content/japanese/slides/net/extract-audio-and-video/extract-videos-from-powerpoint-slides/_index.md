@@ -1,25 +1,26 @@
 ---
-title: Aspose.Slides を使用して PowerPoint スライドからビデオを抽出する
-linktitle: PowerPoint スライドからビデオを抽出する
-second_title: Aspose.Slides .NET PowerPoint 処理 API
-description: Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションから埋め込まれたビデオ ファイルを簡単に抽出する方法を説明します。この包括的なステップ バイ ステップ ガイドでは、環境の設定から抽出したビデオの保存まで、すべてを網羅しています。
-weight: 14
-url: /ja/slides/extract-audio-and-video/extract-videos-from-powerpoint-slides/
+"description": "Aspose.Slides for .NET を使って、PowerPoint プレゼンテーションから埋め込まれたビデオファイルを簡単に抽出する方法をご紹介します。この包括的なステップバイステップガイドでは、環境設定から抽出したビデオの保存まで、あらゆる手順を網羅しています。"
+"linktitle": "PowerPointスライドからビデオを抽出する"
+"second_title": "Aspose.Slides .NET PowerPoint 処理 API"
+"title": "Aspose.Slides で PowerPoint スライドからビデオを抽出する"
+"url": "/ja/slides/net/extract-audio-and-video/extract-videos-from-powerpoint-slides/"
+"weight": 14
 ---
+
 ## 導入
 
-Aspose.Slides for .NET は、開発者が PowerPoint プレゼンテーションをプログラムで操作できるようにする強力なライブラリです。このガイドでは、Aspose.Slides for .NET を使用して PowerPoint スライドに埋め込まれたビデオを抽出するプロセスについて説明します。 
+Aspose.Slides for .NETは、開発者がPowerPointプレゼンテーションをプログラム的に操作できるようにする強力なライブラリです。このガイドでは、Aspose.Slides for .NETを使用してPowerPointスライドに埋め込まれたビデオを抽出する手順を詳しく説明します。 
 
 ## 前提条件
 
 始める前に、次のものがあることを確認してください。
 
--  Aspose.Slides for .NET: ライブラリを入手してインストールします。[Aspose ウェブサイト](https://purchase.aspose.com/buy).
--  PowerPointプレゼンテーション: PowerPointファイル（例：`Video.pptx`）を抽出したいビデオに置き換えます。
+- Aspose.Slides for .NET: ライブラリを入手してインストールします。 [Aspose ウェブサイト](https://purchase。aspose.com/buy).
+- PowerPointプレゼンテーション: PowerPointファイル（例： `Video.pptx`）を抽出したいビデオに置き換えます。
 
 ## 必要な名前空間
 
-Aspose.Slides for .NET を使用するには、適切な名前空間をインポートする必要があります。コードに次の内容を含めます。
+Aspose.Slides for .NET を使用するには、適切な名前空間をインポートする必要があります。コードに以下のコードを含めてください。
 
 ```csharp
 using Aspose.Slides;
@@ -34,17 +35,17 @@ using Aspose.Slides.Video;
 string dataDir = "Your Document Directory";
 ```
 
-交換する`"Your Document Directory"` PowerPoint ファイルを含むディレクトリへの実際のパスを入力します。
+交換する `"Your Document Directory"` PowerPoint ファイルが含まれているディレクトリへの実際のパスを入力します。
 
 ## ステップ2: プレゼンテーションを読み込む
 
- PowerPointプレゼンテーションを`Presentation`物体：
+PowerPointプレゼンテーションを `Presentation` 物体：
 
 ```csharp
 Presentation presentation = new Presentation(dataDir + "Video.pptx");
 ```
 
-これにより、`Presentation`指定した PowerPoint ファイルでオブジェクトを作成します。
+これにより、 `Presentation` 指定した PowerPoint ファイルでオブジェクトを作成します。
 
 ## ステップ3: スライドと図形を反復処理する
 
@@ -57,26 +58,26 @@ foreach (ISlide slide in presentation.Slides)
     {
         if (shape is VideoFrame videoFrame)
         {
-            //ビデオの抽出に進む
+            // ビデオの抽出に進む
         }
     }
 }
 ```
 
-## ステップ4: ビデオデータを抽出する
+## ステップ4：ビデオデータを抽出する
 
 ビデオ フレームを見つけたら、そのプロパティとバイナリ データを抽出します。
 
 ```csharp
-IVideoFrame vf = (IVideoFrame)shape;  //形状をビデオフレームとして保存する
+IVideoFrame vf = (IVideoFrame)shape;  // 図形をビデオフレームとして保存する
 string contentType = vf.EmbeddedVideo.ContentType;
 Byte[] buffer = vf.EmbeddedVideo.BinaryData;
 
-//ファイル拡張子を取得する
+// ファイル拡張子を取得する
 string fileExtension = contentType.Substring(contentType.LastIndexOf('/') + 1);
 ```
 
-## ステップ5: ビデオを保存する
+## ステップ5：ビデオを保存する
 
 最後に、抽出したビデオ データをファイルに書き込みます。
 
@@ -91,7 +92,7 @@ using (FileStream stream = new FileStream(dataDir + "ExtractedVideo." + fileExte
 
 ## 結論
 
-Aspose.Slides for .NET を使用すると、PowerPoint スライドからビデオを抽出するプロセスが簡単になります。このガイドに従うことで、.NET アプリケーション内でマルチメディア コンテンツを簡単に管理し、ユーザー エクスペリエンスと機能を強化できます。
+Aspose.Slides for .NETを使えば、PowerPointスライドからビデオを簡単に抽出できます。このガイドに従うことで、.NETアプリケーション内でマルチメディアコンテンツを簡単に管理し、ユーザーエクスペリエンスと機能性を向上させることができます。
 
 ## よくある質問
 
@@ -99,13 +100,13 @@ Aspose.Slides for .NET を使用すると、PowerPoint スライドからビデ�
 Aspose.Slides for .NET は、PowerPoint プレゼンテーションを操作するために設計されたライブラリであり、ユーザーはプログラムを使用してプレゼンテーション ファイルを作成、編集、操作できます。
 
 ### Aspose.Slides for .NET のドキュメントはどこにありますか?
-完全なドキュメントにアクセスできます[ここ](https://reference.aspose.com/slides/net/).
+完全なドキュメントにアクセスできます [ここ](https://reference。aspose.com/slides/net/).
 
-### Aspose.Slides for .NET は無料試用版として利用できますか?
-はい、無料試用版は以下からダウンロードできます。[このリンク](https://releases.aspose.com/).
+### Aspose.Slides for .NET は無料で試用できますか?
+はい、無料試用版は以下からダウンロードできます。 [このリンク](https://releases。aspose.com/).
 
 ### Aspose.Slides for .NET の一時ライセンスを取得するにはどうすればよいですか?
-一時ライセンスの申請は[ここ](https://purchase.aspose.com/temporary-license/).
+一時ライセンスの申請は [ここ](https://purchase。aspose.com/temporary-license/).
 
 ### Aspose.Slides for .NET のサポートはどこで受けられますか?
-サポートは以下からご利用いただけます。[Aspose.Slides フォーラム](https://forum.aspose.com/).
+サポートは以下からご利用いただけます。 [Aspose.Slides フォーラム](https://forum。aspose.com/).

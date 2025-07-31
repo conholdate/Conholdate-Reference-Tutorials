@@ -100,7 +100,7 @@ foreach (VbaModule vbaItem in templateFile.VbaProject.Modules)
 
         if (vbaItem.Type == VbaModuleType.Designer)
         {
-            // รับแบบฟอร์มการออกแบบของผู้ใช้
+            // รับแบบฟอร์มผู้ใช้ออกแบบที่เก็บข้อมูล
             byte[] designerStorage = templateFile.VbaProject.Modules.GetDesignerStorage(vbaItem.Name);
             // เพิ่มที่เก็บข้อมูลของนักออกแบบลงในโครงการ VBA เป้าหมาย
             target.VbaProject.Modules.AddDesignerStorage(vbaItem.Name, designerStorage);

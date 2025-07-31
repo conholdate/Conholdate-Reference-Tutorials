@@ -52,7 +52,7 @@ Belge özetleme .NET geliştirmeye başlamak için aşağıdakilere sahip olduğ
 
 3. **Google AI için API Anahtarı**: Google'ın yapay zeka modeline yapılan istekleri doğrulamak için bir API anahtarı gereklidir. Bu anahtarı ortam değişkenlerinizde güvenli bir şekilde saklayın; asla kaynak kodunuza sabit bir şekilde kodlamayın. Bir Google Cloud hesabı oluşturmanız ve uygun yapay zeka hizmetlerini etkinleştirmeniz gerekecektir.
 
-4. **Geliştirme Ortamı**Uygulamayı derlemek ve çalıştırmak için Visual Studio veya JetBrains Rider gibi .NET uyumlu bir IDE gereklidir. .NET 6.0 veya üzeri bir sürümün yüklü olduğundan emin olun.
+4. **Geliştirme Ortamı**Uygulamayı oluşturmak ve çalıştırmak için Visual Studio veya JetBrains Rider gibi .NET uyumlu bir IDE gereklidir. .NET 6.0 veya üzeri bir sürümün yüklü olduğundan emin olun.
 
 5. **Örnek Word Belgeleri**Özetleme işlevini test etmek için örnek Word belgeleri hazırlayın (örneğin, "Büyük belge.docx", "Belge.docx"). Farklı uzunluk ve karmaşıklıkta belgelere sahip olmak, sistemin farklı içerik türlerini nasıl işlediğini anlamanıza yardımcı olacaktır.
 

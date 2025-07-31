@@ -1,8 +1,8 @@
 ---
 "description": "Leer hoe u eenvoudig specifieke pagina's uit Word-documenten kunt converteren naar JPEG-afbeeldingen met Aspose.Words voor .NET. Deze uitgebreide handleiding behandelt alles, van het laden van uw document en het configureren van afbeeldingsinstellingen tot het opslaan als JPEG."
-"linktitle": "Jpeg-paginabereik in Word-documenten ophalen"
+"linktitle": "Jpeg-paginabereik ophalen in Word-documenten"
 "second_title": "Aspose.Words API voor documentverwerking"
-"title": "Jpeg-paginabereik in Word-documenten ophalen"
+"title": "Jpeg-paginabereik ophalen in Word-documenten"
 "url": "/nl/words/net/guide-to-image-save-options/get-jpeg-page-range-word-document/"
 "weight": 10
 ---

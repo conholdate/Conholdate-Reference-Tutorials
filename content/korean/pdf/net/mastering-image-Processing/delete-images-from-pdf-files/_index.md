@@ -13,7 +13,7 @@ PDF에서 이미지를 삭제하는 것은 파일 크기를 최적화하거나 �
 
 ## 필수 조건
 
-시작하기에 앞서 다음 사항이 있는지 확인하세요.
+시작하기 전에 다음 사항이 있는지 확인하세요.
 
 1. .NET용 Aspose.PDF: 여기에서 다운로드하세요. [여기](https://releases.aspose.com/pdf/net/).
 2. 개발 환경: Visual Studio와 같은 IDE.

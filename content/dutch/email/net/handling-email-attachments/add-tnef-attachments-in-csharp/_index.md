@@ -58,7 +58,7 @@ foreach (var attachment in message.Attachments)
 }
 ```
 
-Om TNEF-eigenschappen of -handgrepen te wijzigen, kunt u verwijzen naar de specifieke eigenschappen van `tnefAttachment`, leuk vinden `tnefAttachment.ContentDisposition` of `tnefAttachment.ContentType`.
+Om TNEF-eigenschappen of -handvatten te wijzigen, kunt u verwijzen naar de specifieke eigenschappen van `tnefAttachment`, leuk vinden `tnefAttachment.ContentDisposition` of `tnefAttachment.ContentType`.
 
 ## De e-mail met gewijzigde bijlagen opslaan
 
@@ -93,8 +93,8 @@ Ja, Aspose.Email voor .NET is geschikt voor zowel persoonlijke als commerciële 
 
 ### Waar kan ik meer documentatie en voorbeelden vinden?
 
-Voor meer documentatie, gedetailleerde API-referenties en extra voorbeelden kunt u terecht op de [Aspose.Email voor .NET-documentatie](https://reference.aspose.com/email/net/).
+Voor meer documentatie, gedetailleerde API-referenties en aanvullende voorbeelden, bezoek de [Aspose.Email voor .NET-documentatie](https://reference.aspose.com/email/net/).
 
 ### Meer hulp nodig?
 
-Als u vragen heeft of verduidelijking nodig heeft over een bepaald onderdeel van het proces, aarzel dan niet om ons om hulp te vragen!
+Als u vragen heeft of verduidelijking nodig heeft over een bepaald onderdeel van het proces, vraag dan gerust om hulp!

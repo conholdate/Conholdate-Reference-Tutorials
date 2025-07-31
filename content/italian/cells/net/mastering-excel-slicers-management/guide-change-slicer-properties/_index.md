@@ -124,7 +124,7 @@ slicer.IsLocked = false;
 - IsPrintable: controlla se l'affettatrice viene visualizzata nelle versioni stampate.
 - IsLocked: determina se gli utenti possono spostare o ridimensionare l'affettatrice.
 
-## Passaggio 7: Aggiorna l'affettatrice
+## Passaggio 7: Aggiorna lo slicer
 
 Per assicurarti che le modifiche abbiano effetto, aggiorna lo slicer:
 

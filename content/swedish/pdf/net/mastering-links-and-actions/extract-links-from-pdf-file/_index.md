@@ -121,7 +121,7 @@ det här utdraget kontrollerar vi om några anteckningar hittades. Om så är fa
 
 ## Slutsats
 
-Och där har du det! Med bara några få enkla steg kan du extrahera länkar från vilken PDF-fil som helst med Aspose.PDF för .NET. Detta kraftfulla bibliotek öppnar upp en värld av möjligheter för att arbeta med PDF-filer, från enkel länkextraktion till avancerad dokumentmanipulation. För mer djupgående kunskap, utforska [Aspose-dokumentation](https://reference.aspose.com/pdf/net/) och upptäck ytterligare funktioner.
+Och där har du det! Med bara några få enkla steg kan du extrahera länkar från vilken PDF-fil som helst med Aspose.PDF för .NET. Detta kraftfulla bibliotek öppnar upp en värld av möjligheter för att arbeta med PDF-filer, från enkel länkextrahering till avancerad dokumentmanipulation. För mer djupgående kunskap, utforska [Aspose-dokumentation](https://reference.aspose.com/pdf/net/) och upptäck ytterligare funktioner.
 
 ## Vanliga frågor
 

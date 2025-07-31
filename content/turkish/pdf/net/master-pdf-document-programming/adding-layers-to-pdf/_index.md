@@ -42,7 +42,7 @@ Koda dalmadan önce, PDF katmanlarının projelerinizde ne zaman gerçekten mant
 Bu eğitime başlamadan önce şunlara sahip olduğunuzdan emin olun:
 
 1. **C#'ın temel anlayışı**:Dilin temellerini anlamak, kodu anlamanıza ve ihtiyaçlarınıza göre uyarlamanıza yardımcı olacaktır.
-2. **.NET için Aspose.PDF Kütüphanesi**: Buradan indirin [Aspose web sitesi](https://releases.aspose.com/pdf/net/)Üretim amaçlı kullanım için geçerli bir lisansa ihtiyacınız olacak.
+2. **.NET için Aspose.PDF Kitaplığı**: Buradan indirin [Aspose web sitesi](https://releases.aspose.com/pdf/net/)Üretim amaçlı kullanım için geçerli bir lisansa ihtiyacınız olacak.
 3. **Visual Studio veya herhangi bir C# IDE**: Kodunuzu yazmak, derlemek ve çalıştırmak için makinenizde kurulu bir IDE kullanın.
 4. **Örnek bir PDF belgesi**: Test için örnek bir belgeye sahip olmak faydalı olabilir (yine de bu eğitimde her şeyi sıfırdan oluşturacağız).
 

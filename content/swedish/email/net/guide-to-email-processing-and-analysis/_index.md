@@ -91,7 +91,7 @@ E-posthantering kan misslyckas på oväntade sätt. Bygg in motståndskraft i di
 E-posthantering innebär hantering av potentiellt känsliga uppgifter:
 
 - **Inmatningsrensning**Rengör e-postinnehåll före analys eller lagring
-- **Åtkomstkontroller**Begränsa vem som kan komma åt e-postbehandlingsfunktioner
+- **Åtkomstkontroller**Begränsa vem som kan komma åt funktioner för e-postbehandling
 - **Datakryptering**Skydda e-postinnehåll både under överföring och i vila
 - **Revisionsspår**Logga e-postbehandlingsaktiviteter för efterlevnadskrav
 

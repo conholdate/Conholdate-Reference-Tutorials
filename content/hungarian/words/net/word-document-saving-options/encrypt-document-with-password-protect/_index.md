@@ -66,7 +66,7 @@ DocSaveOptions saveOptions = new DocSaveOptions { Password = "yourPassword" }; /
 - DocSaveOptions saveOptions = new DocSaveOptions: Létrehoz egy DocSaveOptions példányt a mentési konfigurációk tárolásához.
 - Jelszó = "aJelszavad": Hozzárendeli a dokumentum védelméhez szükséges jelszót. Ne felejtsd el ezt a saját jelszavadra cserélni.
 
-## 4. lépés: A dokumentum mentése
+## 4. lépés: Mentse el a dokumentumot
 
 Végül mentsük el a dokumentumot a konfigurált beállításokkal:
 

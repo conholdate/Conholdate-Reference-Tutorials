@@ -22,7 +22,7 @@ Sebelum kita mulai, pastikan Anda memiliki hal berikut:
    Pastikan Anda telah memasang pustaka Aspose.Cells di proyek Anda. Jika Anda belum melakukannya, Anda dapat [unduh di sini](https://releases.aspose.com/cells/net/).
 
 3. Gambar Grafis  
-   Siapkan gambar grafis (JPG atau PNG) yang ingin Anda gunakan sebagai latar belakang. Catat jalur direktorinya untuk penggunaan selanjutnya.
+   Siapkan gambar grafis (JPG atau PNG) yang ingin Anda gunakan sebagai latar belakang. Catat jalur direktorinya untuk digunakan nanti.
 
 4. Lingkungan Pengembangan  
    Pastikan Anda telah menyiapkan lingkungan pengembangan .NET, seperti Visual Studio.

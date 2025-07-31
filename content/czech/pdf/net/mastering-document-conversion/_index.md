@@ -27,7 +27,7 @@ Buďme upřímní – existuje spousta knihoven PDF. Ale tady je to, co odlišuj
 
 **Přesnost, na které skutečně záleží**Na rozdíl od bezplatných řešení, která často mění rozvržení nebo ztrácejí formátování, Aspose.PDF zachovává původní strukturu, písma, obrázky a rozvržení s pozoruhodnou přesností. To je klíčové, když pracujete s obchodními dokumenty, kde se počítá každý detail.
 
-**Komplexní podpora formátů**Můžete převádět mezi PDF a prakticky jakýmkoli formátem, který potřebujete – dokumenty Word, tabulky Excel, soubory HTML a různé obrazové formáty. Navíc to funguje oběma způsoby: vytvářet PDF z těchto formátů nebo extrahovat obsah zpět.
+**Komplexní podpora formátů**Můžete převádět mezi PDF a prakticky jakýmkoli formátem, který potřebujete – dokumenty Word, tabulky Excel, soubory HTML a různé obrazové formáty. Navíc to funguje oběma způsoby: vytvářet PDF soubory z těchto formátů nebo extrahovat obsah zpět.
 
 **Výkon připravený pro podniky**Při zpracování stovek nebo tisíců dokumentů je důležitý výkon. Aspose.PDF je optimalizován pro dávkové operace a dokáže zpracovat velké soubory, aniž by zatěžoval paměť serveru.
 

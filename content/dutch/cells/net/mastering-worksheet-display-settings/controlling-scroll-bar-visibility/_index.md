@@ -40,7 +40,7 @@ Geef eerst de locatie van uw Excel-bestand op. Dit is waar u de applicatie naart
 string dataDir = "Your Document Directory"; // Werk dit pad bij!
 ```
 
-Zorg ervoor dat u vervangt `"Your Document Directory"` met het werkelijke pad waar `book1.xls` wordt opgeslagen.
+Zorg ervoor dat u deze vervangt `"Your Document Directory"` met het werkelijke pad waar `book1.xls` wordt opgeslagen.
 
 ## Stap 2: Een bestandsstroom maken
 
@@ -102,11 +102,11 @@ Hiermee wordt uw bijgewerkte Excel-bestand opgeslagen als `output.xls`, waarin d
 Vergeet ten slotte niet de bestandsstroom te sluiten om bronnen vrij te maken:
 
 ```csharp
-// De bestandsstroom sluiten om alle bronnen vrij te maken
+// Sluit de bestandsstroom om alle bronnen vrij te maken
 fstream.Close();
 ```
 
-Zo voorkomt u geheugenlekken en andere mogelijke problemen.
+Hiermee voorkomt u geheugenlekken en andere mogelijke problemen.
 
 ## Conclusie
 

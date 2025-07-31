@@ -167,7 +167,7 @@ pdfOptions.OptimizationType = Pdf.PdfOptimizationType.MinimumSize;
 **解決**Aspose.Cells の最新バージョンを使用していることを確認し、特定のレンダリング オプションを確認してください。
 
 ```csharp
-// チャートのレンダリングを有効にする
+// チャートレンダリングを有効にする
 pdfOptions.ExportDocumentStructure = true;
 ```
 

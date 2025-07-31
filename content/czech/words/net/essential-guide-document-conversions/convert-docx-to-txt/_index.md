@@ -68,7 +68,7 @@ Je čas správně nastavit vývojové prostředí:
 
 ## Krok 2: Zadejte cestu k adresáři dokumentů
 
-Dále budete muset definovat, kde se vaše soubory nacházejí. Tento krok je klíčový pro vyhnutí se frustrujícím chybám „soubor nebyl nalezen“:
+Dále budete muset definovat, kde se vaše soubory nacházejí. Tento krok je klíčový pro vyhnutí se frustrujícím chybám „soubor nenalezen“:
 
 1. **Definujte svou cestu**Nastavte cestu k adresáři s dokumenty:
 

@@ -59,7 +59,7 @@ Teraz nadchodzi najważniejsza część — konwersja tabeli do zwykłego zakres
 wb.Worksheets[0].ListObjects[0].ConvertToRange();
 ```
 
-- `Worksheets[0]` kieruje do pierwszego arkusza w skoroszycie.
+- `Worksheets[0]` dotyczy pierwszego arkusza w skoroszycie.
 - `ListObjects[0]` wybiera pierwszą tabelę w arkuszu.
 - Ten `ConvertToRange()` Metoda ta wykonuje konwersję, przekształcając tabelę do standardowego zakresu.
 
@@ -77,7 +77,7 @@ Za pomocą Aspose.Cells for .NET, wykonując zaledwie kilka prostych kroków, mo
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells?
-Aspose.Cells to solidna biblioteka .NET umożliwiająca programistom tworzenie, przetwarzanie i konwertowanie plików Excel bez konieczności instalowania programu Microsoft Excel.
+Aspose.Cells to solidna biblioteka .NET umożliwiająca programistom tworzenie, edytowanie i konwertowanie plików Excel bez konieczności instalowania programu Microsoft Excel.
 
 ### Czy mogę używać Aspose.Cells za darmo?
 Tak, Aspose.Cells oferuje bezpłatną wersję próbną, którą możesz pobrać [Tutaj](https://releases.aspose.com/cells/net/).

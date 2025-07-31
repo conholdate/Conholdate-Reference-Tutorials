@@ -34,7 +34,7 @@ Om te beginnen, volgt u deze stappen om uw C#-project in te stellen met Aspose.P
 
 - Klik met de rechtermuisknop op uw project in Solution Explorer en selecteer NuGet-pakketten beheren.
 - Zoek naar Aspose.PDF en installeer de nieuwste versie.
-- Hiermee voegt u de benodigde verwijzingen naar uw project toe, zodat u met PDF-bestanden kunt werken.
+- Hiermee worden de benodigde verwijzingen naar uw project toegevoegd, zodat u met PDF-bestanden kunt werken.
 
 ## Importeer de benodigde naamruimten
 
@@ -98,13 +98,13 @@ Console.WriteLine("All bookmarks have been deleted successfully.");
 
 ## Conclusie
 
-Door deze eenvoudige stappen te volgen, kunt u snel en eenvoudig alle bladwijzers uit uw PDF-bestanden verwijderen met Aspose.PDF voor .NET. Of u nu documenten opschoont voor presentatie, delen of archiveren, weten hoe u bladwijzers beheert is een waardevolle vaardigheid voor elke ontwikkelaar die met PDF's werkt.
+Door deze eenvoudige stappen te volgen, kunt u snel en eenvoudig alle bladwijzers uit uw PDF-bestanden verwijderen met Aspose.PDF voor .NET. Of u nu documenten opschoont voor presentatie, delen of archiveren, weten hoe u bladwijzers beheert, is een waardevolle vaardigheid voor elke ontwikkelaar die met PDF's werkt.
 
 ## Veelgestelde vragen
 
 ### Kan ik specifieke bladwijzers verwijderen in plaats van alle?
 
-Ja, u kunt door de overzichtenverzameling bladeren en bladwijzers verwijderen die aan specifieke criteria voldoen (bijvoorbeeld titel, paginanummer).
+Ja, u kunt door de Outlines-verzameling bladeren en bladwijzers verwijderen die aan specifieke criteria voldoen (bijvoorbeeld titel, paginanummer).
 
 ### Is Aspose.PDF gratis te gebruiken?
 

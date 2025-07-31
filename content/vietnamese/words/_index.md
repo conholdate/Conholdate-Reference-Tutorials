@@ -20,7 +20,7 @@ Khai phá toàn bộ tiềm năng xử lý tài liệu Word với Aspose.Words f
 - **📄 Hỗ trợ định dạng**: DOC, DOCX, RTF, HTML, PDF, EPUB, Markdown và nhiều định dạng khác
 - **🔄 Chuyển đổi nâng cao**: Chuyển đổi độ trung thực cao với đầu ra chất lượng chuyên nghiệp
 - **🤖 Tích hợp AI**: Tóm tắt tài liệu bằng mô hình OpenAI GPT và Google AI
-- **📊 Trộn thư & Báo cáo**Tạo tài liệu động từ các nguồn dữ liệu
+- **📊 Trộn thư & Báo cáo**: Tạo tài liệu động từ các nguồn dữ liệu
 - **🎨 Định dạng phong phú**: Kiểm soát hoàn toàn kiểu dáng, bố cục và các yếu tố tương tác của tài liệu
 
 ## 📚 Danh mục hướng dẫn
@@ -34,10 +34,10 @@ Nắm vững các chuyển đổi tài liệu cơ bản với chất lượng đ
 | **[Chuyển đổi DOCX sang EPUB](./essential-guide-document-conversions/convert-docx-to-epub/)** | Xuất bản kỹ thuật số cho máy đọc sách điện tử và thiết bị di động | ⭐⭐ Trung cấp |
 | **[Chuyển đổi DOCX sang TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Trích xuất văn bản thuần túy để xử lý và phân tích dữ liệu | ⭐ Người mới bắt đầu |
 | **[Chuyển đổi DOCX sang Mảng Byte](./essential-guide-document-conversions/convert-docx-to-byte-arrays/)** | Xử lý tài liệu tiết kiệm bộ nhớ cho ứng dụng web | ⭐⭐ Trung cấp |
-| **[Chuyển đổi DOC sang DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** | Cập nhật hiện đại hóa và tương thích định dạng cũ | ⭐ Người mới bắt đầu |
+| **[Chuyển đổi DOC sang DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** Cập nhật hiện đại hóa và tương thích định dạng cũ | ⭐ Người mới bắt đầu |
 | **[Chuyển đổi DOCX sang MHTML và gửi email](./essential-guide-document-conversions/convert-docx-to-mhtml-send-email/)** | Tích hợp email với hỗ trợ định dạng phong phú | ⭐⭐ Trung cấp |
 | **[Chuyển đổi PDF sang JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Trích xuất hình ảnh chất lượng cao từ tài liệu PDF | ⭐⭐ Trung cấp |
-| **[Lưu dưới dạng PDF](./essential-guide-document-conversions/save-as-pdf/)** Xuất bản tài liệu chuyên nghiệp với các tùy chọn nâng cao | ⭐ Người mới bắt đầu |
+| **[Lưu dưới dạng PDF](./essential-guide-document-conversions/save-as-pdf/)** | Xuất bản tài liệu chuyên nghiệp với các tùy chọn nâng cao | ⭐ Người mới bắt đầu |
 
 ### Xử lý tài liệu AI nâng cao
 Tận dụng trí tuệ nhân tạo tiên tiến để phân tích tài liệu thông minh và tạo nội dung tự động.
@@ -46,14 +46,14 @@ Tận dụng trí tuệ nhân tạo tiên tiến để phân tích tài liệu t
 |----------|-------------|------------|
 | **[Làm chủ tóm tắt tài liệu với mô hình AI](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Tích hợp Google AI để tóm tắt nội dung thông minh | ⭐⭐⭐ Nâng cao |
 | **[Tóm tắt tài liệu hiệu quả với mô hình OpenAI](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Phân tích tài liệu được hỗ trợ bởi GPT và thông tin chi tiết tự động | ⭐⭐⭐ Nâng cao |
-| **[Tóm tắt các tùy chọn tài liệu](./advanced-ai-document-processing/summarize-documents-options/)** | Cấu hình nâng cao để xử lý nội dung hỗ trợ AI | ⭐⭐⭐ Nâng cao |
+| **[Tóm tắt các tùy chọn tài liệu](./advanced-ai-document-processing/summarize-documents-options/)** Cấu hình nâng cao để xử lý nội dung hỗ trợ AI | ⭐⭐⭐ Nâng cao |
 
 ### Quản lý phần thành thạo
 Cấu trúc và tổ chức tài liệu chuyên nghiệp với các kỹ thuật thao tác phần nâng cao.
 
 | Hướng dẫn | Mô tả | Độ khó |
 |----------|-------------|------------|
-| **[Thêm phần](./section-management/adding-sections/)** Tạo bố cục tài liệu có cấu trúc với định dạng chuyên nghiệp | ⭐ Người mới bắt đầu |
+| **[Thêm phần](./section-management/adding-sections/)** | Tạo bố cục tài liệu có cấu trúc với định dạng chuyên nghiệp | ⭐ Người mới bắt đầu |
 | **[Xóa các phần khỏi tài liệu Word](./section-management/delete-sections-word-document/)** | Xóa bỏ hiệu quả các phần tài liệu không cần thiết | ⭐ Người mới bắt đầu |
 | **[Thêm phần nội dung từ](./section-management/append-section-word-content/)** | Kết hợp nội dung từ nhiều phần tài liệu một cách liền mạch | ⭐⭐ Trung cấp |
 | **[Sao chép các phần giữa các tài liệu Word](./section-management/copy-sections-word-documents/)** | Chuyển nội dung có cấu trúc giữa các tài liệu khác nhau | ⭐⭐ Trung cấp |
@@ -81,7 +81,7 @@ Xử lý và tối ưu hóa hình ảnh chuyên nghiệp để xuất bản tài
 |----------|-------------|------------|
 | **[Kiểm soát ngưỡng phơi sáng cho nhị phân hóa TIFF](./guide-to-image-save-options/expose-threshold-control-for-tiff-binarization-in-word-document/)** | Xử lý hình ảnh nâng cao với các điều khiển chất lượng tùy chỉnh | ⭐⭐⭐ Nâng cao |
 | **[Nhận Phạm vi Trang JPEG](./guide-to-image-save-options/get-jpeg-page-range-word-document/)** | Trích xuất các trang tài liệu cụ thể thành hình ảnh chất lượng cao | ⭐⭐ Trung cấp |
-| **[Nhận Phạm vi Trang TIFF](./guide-to-image-save-options/get-tiff-page-range-word-document/)** Trích xuất hình ảnh chuyên nghiệp với tối ưu hóa định dạng TIFF | ⭐⭐ Trung cấp |
+| **[Nhận Phạm vi Trang TIFF](./guide-to-image-save-options/get-tiff-page-range-word-document/)** | Trích xuất hình ảnh chuyên nghiệp với tối ưu hóa định dạng TIFF | ⭐⭐ Trung cấp |
 | **[Tạo hình ảnh được lập chỉ mục 1Bpp](./guide-to-image-save-options/create-1bpp-indexed/)** | Xử lý hình ảnh tiết kiệm không gian để lưu trữ và lưu trữ | ⭐⭐ Trung cấp |
 | **[Gọi lại lưu trang](./guide-to-image-save-options/page-saving-callback-word-document/)** | Xử lý trang tùy chỉnh với tính năng tạo hình ảnh tự động | ⭐⭐⭐ Nâng cao |
 
@@ -90,14 +90,14 @@ Xử lý siêu dữ liệu toàn diện và thao tác thuộc tính tài liệu 
 
 | Hướng dẫn | Mô tả | Độ khó |
 |----------|-------------|------------|
-| **[Xóa Thuộc tính Tài liệu Tùy chỉnh](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** | Dọn dẹp siêu dữ liệu tài liệu và tối ưu hóa việc sắp xếp tệp | ⭐ Người mới bắt đầu |
+| **[Xóa Thuộc tính Tài liệu Tùy chỉnh](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** Dọn dẹp siêu dữ liệu tài liệu và tối ưu hóa việc sắp xếp tệp | ⭐ Người mới bắt đầu |
 
 ## 🎯 Các trường hợp sử dụng phổ biến
 
 ### **Tự động hóa và xuất bản tài liệu**
 - **Báo cáo chuyên nghiệp**: Tự động tạo các tài liệu kinh doanh với định dạng nhất quán
 - **Xuất bản kỹ thuật số**: Chuyển đổi bản thảo sang nhiều định dạng khác nhau cho nhiều kênh phân phối khác nhau
-- **Quản lý nội dung**Tinh giản quy trình làm việc của tài liệu với xử lý hàng loạt và chuẩn hóa định dạng
+- **Quản lý nội dung**: Tinh giản quy trình làm việc của tài liệu với xử lý hàng loạt và chuẩn hóa định dạng
 
 ### **Xử lý nội dung hỗ trợ bởi AI**
 - **Tóm tắt thông minh**: Trích xuất những thông tin chi tiết quan trọng từ các tài liệu dài bằng cách sử dụng các mô hình AI tiên tiến
@@ -106,7 +106,7 @@ Xử lý siêu dữ liệu toàn diện và thao tác thuộc tính tài liệu 
 
 ### **Giải pháp tích hợp doanh nghiệp**
 - **Ứng dụng web**: Tạo tài liệu động từ giao diện web và cơ sở dữ liệu
-- **Tự động hóa email**: Tạo nội dung email phong phú với các tài liệu nhúng và định dạng
+- **Tự động hóa email**Tạo nội dung email phong phú với các tài liệu nhúng và định dạng
 - **Phát triển API**: Xây dựng các dịch vụ vi mô tập trung vào tài liệu và các quy trình xử lý tự động
 
 ## 📊 Đề xuất lộ trình học tập

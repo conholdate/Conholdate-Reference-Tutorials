@@ -136,13 +136,13 @@ Akkor miért várna? Kezdje el felfedezni a PDF-manipuláció lehetőségeit mé
 ## GYIK
 
 ### Mi az Aspose.PDF?
-Az Aspose.PDF egy .NET könyvtár, amelyet PDF dokumentumok egyszerű létrehozására, kezelésére és konvertálására terveztek.
+Az Aspose.PDF egy .NET könyvtár, amelyet PDF dokumentumok egyszerű létrehozásához, kezeléséhez és konvertálásához terveztek.
 
 ### Kipróbálhatom az Aspose.PDF-et vásárlás előtt?
 Természetesen! Letölthet egy ingyenes próbaverziót innen [itt](https://releases.aspose.com/).
 
 ### Milyen képformátumokat támogat az Aspose.PDF a konvertáláshoz?
-Az Aspose.PDF számos formátumot támogat, beleértve a TIFF, PNG, JPEG és egyebeket.
+Az Aspose.PDF számos formátumot támogat, beleértve a TIFF-et, PNG-t, JPEG-et és egyebeket.
 
 ### Szükségem van licencre az Aspose.PDF használatához?
 Igen, a próbaidőszak lejárta után kereskedelmi célú felhasználáshoz licencet kell vásárolnia. Ellenőrizze [itt](https://purchase.aspose.com/) az árképzési részletekért.

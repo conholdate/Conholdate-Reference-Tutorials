@@ -1,5 +1,5 @@
 ---
-"description": "Zvládněte anotace PDF s Aspose.PDF pro .NET. Prozkoumejte podrobné návody, jak přidávat, upravovat a extrahovat anotace, aby byly PDF soubory interaktivnější."
+"description": "Zvládněte anotace PDF s Aspose.PDF pro .NET. Prozkoumejte podrobné návody na přidávání, úpravy a extrahování anotací, abyste PDF soubory učinili interaktivnějšími."
 "linktitle": "Zvládnutí anotací v PDF s Aspose.PDF pro .NET"
 "title": "Zvládnutí anotací v PDF s Aspose.PDF pro .NET"
 "url": "/cs/pdf/net/mastering-annotations/"

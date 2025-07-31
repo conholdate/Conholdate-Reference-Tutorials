@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Bij het converteren van PDF-bestanden naar afbeeldingsformaten stuiten veel ontwikkelaars op uitdagingen met verschillende bibliotheken en tools. Gelukkig vereenvoudigt Aspose.PDF voor .NET dit proces aanzienlijk. In deze tutorial leiden we je door het converteren van alle pagina's van een PDF-document naar één TIFF-bestand. Of je nu een ervaren ontwikkelaar bent of net begint, deze handleiding maakt het proces eenvoudig en plezierig.
+Bij het converteren van PDF-bestanden naar afbeeldingsformaten stuiten veel ontwikkelaars op uitdagingen met verschillende bibliotheken en tools. Gelukkig vereenvoudigt Aspose.PDF voor .NET dit proces aanzienlijk. In deze tutorial begeleiden we je bij het converteren van alle pagina's van een PDF-document naar één TIFF-bestand. Of je nu een ervaren ontwikkelaar bent of net begint, deze handleiding maakt het proces eenvoudig en plezierig.
 
 ## Vereisten
 
@@ -18,7 +18,7 @@ Voordat we met de conversie beginnen, moet u ervoor zorgen dat u aan de volgende
 1. Visual Studio: Zorg ervoor dat u Visual Studio als ontwikkelomgeving hebt geïnstalleerd.
 2. Aspose.PDF voor .NET: Download de Aspose.PDF-bibliotheek van [hier](https://releases.aspose.com/pdf/net/).
 3. Basiskennis van C#: Kennis van C# helpt u de concepten beter te begrijpen.
-4. Voorbeeld PDF-bestand: Zorg dat je een PDF-bestand klaar hebt om te converteren. Je kunt desgewenst een eenvoudig bestand maken.
+4. Voorbeeld PDF-bestand: Zorg dat u een PDF-bestand klaar heeft om te converteren. U kunt indien nodig een eenvoudig bestand maken.
 5. .NET-omgeving: zorg ervoor dat u .NET Framework of .NET Core hebt ingesteld.
 
 Nu alles op zijn plaats staat, kunnen we beginnen!
@@ -42,7 +42,7 @@ Zodra het pakket is geïnstalleerd, kunt u het in uw code importeren.
 
 ##  Importeer de naamruimte
 
-Neem bovenaan uw C#-bestand de volgende naamruimten op:
+Voeg bovenaan uw C#-bestand de volgende naamruimten toe:
 
 ```csharp
 using System.IO;
@@ -119,7 +119,7 @@ Converteer nu het PDF-document en sla het op als een TIFF-bestand:
 tiffDevice.Process(pdfDocument, dataDir + "AllPagesToTIFF_out.tif");
 ```
 
-## Stap 7: Print een succesbericht
+## Stap 7: Druk een succesbericht af
 
 Druk ten slotte een succesbericht af om de conversie te bevestigen:
 

@@ -251,7 +251,7 @@ catch (Exception ex)
 
 ### Aspose.Words for .NET 可以将其他格式转换为 PDF 吗？
 
-是的！它支持多种格式，包括 DOCX、RTF、ODT 和 HTML。 `Save()` 方法适用于不同的输入格式——只需更改输出路径中的文件扩展名。
+是的！它支持多种格式，包括 DOCX、RTF、ODT 和 HTML。同样 `Save()` 方法适用于不同的输入格式——只需更改输出路径中的文件扩展名。
 
 ### 有免费试用吗？
 

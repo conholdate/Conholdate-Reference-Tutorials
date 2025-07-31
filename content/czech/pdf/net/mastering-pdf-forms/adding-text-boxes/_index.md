@@ -18,7 +18,7 @@ Než začneme, ujistěte se, že máte následující:
 1. Základní znalost C#: Znalost syntaxe a struktury C# vám pomůže sledovat kód.
 2. Nainstalovaný soubor Aspose.PDF pro .NET: Stáhněte a nainstalujte knihovnu Aspose.PDF z [místo](https://releases.aspose.com/pdf/net/).
 3. Vývojové prostředí: Pro kódování a testování použijte IDE, jako je Visual Studio.
-4. .NET Framework: Ujistěte se, že máte nainstalovanou kompatibilní verzi .NET Frameworku.
+4. .NET Framework: Ujistěte se, že máte nainstalovanou kompatibilní verzi rozhraní .NET Framework.
 
 S těmito předpoklady jsme připraveni pustit se do kódování!
 
@@ -28,7 +28,7 @@ Spusťte preferované vývojové prostředí (doporučuje se Visual Studio).
 
 ### Vytvořit nový projekt
 
-Vytvořte nový projekt v jazyce C# výběrem možnosti „Vytvořit nový projekt“ a pro zjednodušení výběrem šablony Konzolová aplikace.
+Vytvořte nový projekt C# výběrem možnosti „Vytvořit nový projekt“ a pro zjednodušení výběrem šablony Konzolová aplikace.
 
 ### Nainstalujte balíček Aspose.PDF
 

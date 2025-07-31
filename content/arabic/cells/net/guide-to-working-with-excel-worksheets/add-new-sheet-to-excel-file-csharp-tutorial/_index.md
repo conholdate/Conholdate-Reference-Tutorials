@@ -1,7 +1,7 @@
 ---
 "description": "تعلّم كيفية إضافة ورقة عمل جديدة إلى ملف Excel بسهولة باستخدام Aspose.Cells لـ .NET. يقدم هذا الدليل الشامل نهجًا تفصيليًا، ونماذج برمجية، ونصائح مفيدة."
 "linktitle": "إضافة ورقة جديدة إلى ملف Excel برمجيًا باستخدام برنامج تعليمي C#"
-"second_title": "مرجع Aspose.Cells لـ .NET API"
+"second_title": "مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET"
 "title": "إضافة ورقة جديدة إلى ملف Excel برمجيًا باستخدام برنامج تعليمي C#"
 "url": "/ar/cells/net/guide-to-working-with-excel-worksheets/add-new-sheet-to-excel-file-csharp-tutorial/"
 "weight": 20

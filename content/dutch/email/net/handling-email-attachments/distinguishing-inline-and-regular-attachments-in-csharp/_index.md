@@ -9,7 +9,7 @@
 
 ## Invoering
 
-E-mailbijlagen zijn essentieel om informatie over te brengen die verder gaat dan de tekst van een e-mail. Van de verschillende soorten bijlagen zijn inline-bijlagen (ingesloten in de e-mail) en gewone bijlagen (afzonderlijke bestanden) de meest voorkomende. Deze handleiding behandelt het onderscheid tussen deze twee typen bijlagen met behulp van de Aspose.Email voor .NET-bibliotheek, met stapsgewijze instructies en praktische codefragmenten.
+E-mailbijlagen zijn essentieel om informatie over te brengen die verder gaat dan de tekst van een e-mail. Van de verschillende soorten bijlagen zijn inline-bijlagen (ingesloten in de e-mail) en reguliere bijlagen (afzonderlijke bestanden) de meest voorkomende. Deze handleiding behandelt het onderscheid tussen deze twee typen bijlagen met behulp van de Aspose.Email voor .NET-bibliotheek, met stapsgewijze instructies en praktische codefragmenten.
 
 ## 1. Uw ontwikkelomgeving instellen
 
@@ -17,7 +17,7 @@ Voordat u begint met coderen, moet u ervoor zorgen dat uw ontwikkelomgeving gere
 
 ## 2. Een nieuw project maken
 
-- Visual Studio openen.
+- Open Visual Studio.
 - Selecteer Een nieuw project maken.
 - Kies een projectsjabloon die bij uw behoeften past (zoals Console Application voor snelle tests).
 
@@ -51,7 +51,7 @@ AttachmentCollection attachments = emailMessage.Attachments;
 
 ## 6. Onderscheid maken tussen inline- en reguliere bijlagen
 
-Om inline-bijlagen van gewone bijlagen te onderscheiden, controleert u de `ContentDisposition` Eigenschap van elke bijlage. Inline-bijlagen hebben het type 'inline'.
+Om inline-bijlagen van gewone bijlagen te onderscheiden, controleert u de `ContentDisposition` Eigenschap van elke bijlage. Inline-bijlagen hebben het dispositietype 'inline'.
 
 ### Voorbeeld van inline-bijlage:
 
@@ -97,7 +97,7 @@ Deze handleiding biedt inzicht in het onderscheid tussen inline- en reguliere bi
 U kunt het installeren via NuGet Package Manager door het volgende uit te voeren: `Install-Package Aspose.Email` in de Pakketbeheerconsole.
 
 ### Kan ik programmatisch onderscheid maken tussen inline- en gewone bijlagen?
-Ja, door het controleren van de `ContentDisposition` eigenschap, kunt u eenvoudig inline-bijlagen identificeren die het dispositietype 'inline' hebben.
+Ja, door het controleren van de `ContentDisposition` Met deze eigenschap kunt u eenvoudig inline-bijlagen identificeren die het type 'inline' hebben.
 
 ### Is Aspose.Email geschikt voor het verwerken van e-mailbijlagen in andere programmeertalen?
 Ja, Aspose.Email is beschikbaar voor meerdere programmeertalen, waardoor het beheer van e-mailbijlagen op verschillende platforms eenvoudiger wordt.

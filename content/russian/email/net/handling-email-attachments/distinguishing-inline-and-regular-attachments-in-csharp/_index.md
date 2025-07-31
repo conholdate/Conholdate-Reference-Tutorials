@@ -62,7 +62,7 @@ foreach (Attachment attachment in attachments)
 {
     if (attachment.ContentDisposition.DispositionType.Equals("inline"))
     {
-        // Ручка для встроенного крепления
+        // Ручка встроенного крепления
         string contentId = attachment.ContentId;
         string contentType = attachment.ContentType.Name;
         Console.WriteLine($"Inline Attachment: {contentId}, Type: {contentType}");

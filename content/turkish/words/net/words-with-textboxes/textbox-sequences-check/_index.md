@@ -1,8 +1,8 @@
 ---
 "description": "İçeriğinizin mantıksal akışını sağlamak için metin kutularını nasıl kolayca oluşturacağınızı, bağlayacağınızı ve sırasını nasıl kontrol edeceğinizi öğrenin. Belge yapısını ve tasarımını geliştirmek isteyen geliştiriciler için mükemmeldir."
-"linktitle": "Word Belgelerinde TextBox Dizileri Kontrolü"
+"linktitle": "Word Belgelerinde Metin Kutusu Dizileri Kontrolü"
 "second_title": "Aspose.Words Belge İşleme API'si"
-"title": "Word Belgelerinde TextBox Dizileri Kontrolü"
+"title": "Word Belgelerinde Metin Kutusu Dizileri Kontrolü"
 "url": "/tr/words/net/words-with-textboxes/textbox-sequences-check/"
 "weight": 10
 ---
@@ -122,7 +122,7 @@ Tebrikler! 🎉 Aspose.Words for .NET kullanarak bir Word belgesinde metin kutul
 ### Word belgesinde metin kutularının sırasını kontrol etmenin amacı nedir?
 Sıralamayı bilmek, özellikle bağlantılı veya sıralı belgeler için içeriğin mantıksal akışını yönetmenize olanak tanır.
 
-### Metin kutuları doğrusal olmayan bir sıraya göre birbirine bağlanabilir mi?
+### Metin kutuları doğrusal olmayan bir sıraya bağlanabilir mi?
 Evet, metin kutuları çeşitli şekillerde birbirine bağlanabilir; yeter ki ortaya çıkan düzenleme içeriğiniz için mantıklı olsun.
 
 ### Bir metin kutusunu bir diziden nasıl ayırabilirim?

@@ -129,7 +129,7 @@ Aspose.Cells for .NET을 사용하여 Excel 스프레드시트 처리의 잠재�
 - **[무료 체험](https://releases.aspose.com/cells/net/)** - 전체 기능 평가
 
 ### **커뮤니티 및 지원**
-- **[지원 포럼](https://forum.aspose.com/c/cells/9)** - 전문가의 도움을 받으세요
+- **[지원 포럼](https://forum.aspose.com/c/cells/9)** 전문가의 도움을 받으세요
 
 ### **라이센스 및 평가판**
 - **[임시 면허](https://purchase.conholdate.com/temporary-license/)** - 확장 평가

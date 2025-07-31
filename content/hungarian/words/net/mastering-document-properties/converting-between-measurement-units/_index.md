@@ -65,7 +65,7 @@ pageSetup.FooterDistance = ConvertUtil.InchToPoint(0.2);
 - Bal és jobb margók: Állítsa egyenként 1,5 hüvelykre.
 - Fejléc és lábléc távolsága: Állítsa 0,2 hüvelykre egyenként.
 
-## 4. lépés: A dokumentum mentése
+## 4. lépés: Mentse el a dokumentumot
 
 Miután beállította a dokumentumot, mentse el, hogy az összes módosítás érvénybe lépjen:
 

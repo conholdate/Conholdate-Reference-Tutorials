@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.PDF for .NET 新增墨跡註釋，讓您的 PDF 文件更具互動性和吸引力。本指南將全程引導您完成整個流程。"
+"description": "了解如何透過使用 Aspose.PDF for .NET 新增墨跡註解使您的 PDF 文件更具互動性和吸引力。本綜合指南將引導您完成整個過程。"
 "linktitle": "使用 Aspose.PDF for .NET 新增墨跡註釋"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "使用 Aspose.PDF for .NET 新增墨跡註釋"
@@ -9,14 +9,14 @@
 
 ## 介紹
 
-歡迎來到 Aspose.PDF for .NET 精彩的 PDF 處理世界！無論您是想增強文件以用於專業用途、個人專案或其他用途，Aspose.PDF 都能滿足您的需求。在本指南中，我們將探索 Aspose.PDF 的一項實用功能：為您的 PDF 檔案添加墨跡註解。此功能非常適合添加手寫筆記或簽名，讓您的文件更具互動性和吸引力。
+歡迎來到 Aspose.PDF for .NET 令人興奮的 PDF 操作世界！無論您是為了專業用途、個人專案還是其他任何目的而增強文檔，您都來到了正確的地方。在本指南中，我們將探討 Aspose.PDF 的一個實用功能：在您的 PDF 檔案中新增墨跡註解。此功能非常適合合併手寫筆記或簽名，使您的文件更具互動性和吸引力。
 
 ## 先決條件
 
 在我們進入程式碼之前，讓我們確保您已設定好一切：
 
-1. .NET Framework：確保您的電腦上已安裝 .NET Framework。 Aspose.PDF 可與包括 .NET Core 在內的各種版本無縫相容。
-2. Aspose.PDF 庫：下載並引用適用於 .NET 的 Aspose.PDF 庫。您可以從 [下載連結](https://releases。aspose.com/pdf/net/).
+1. .NET Framework：確保您的機器上安裝了 .NET Framework。 Aspose.PDF 可與包括 .NET Core 在內的各種版本無縫協作。
+2. Aspose.PDF 庫：下載並在您的專案中引用適用於 .NET 的 Aspose.PDF 庫。您可以從 [下載連結](https://releases。aspose.com/pdf/net/).
 3. 程式碼編輯器：雖然您可以使用任何程式碼編輯器，但強烈建議使用 Visual Studio，因為它具有與 .NET 應用程式的使用者友好介面。
 4. 基本 C# 知識：熟悉 C# 將幫助您順利瀏覽編碼範例。
 5. 開發環境設定：確保您的 IDE 已針對 .NET 專案進行配置，並且您已正確引用 Aspose.PDF 程式庫。
@@ -25,7 +25,7 @@
 
 ## 導入必要的套件
 
-在開始編寫程式碼之前，我們先導入所需的套件。在 C# 檔案的頂部，加入以下 using 語句：
+在深入編碼之前，讓我們先匯入所需的套件。在 C# 檔案的頂部，加入以下 using 語句：
 
 ```csharp
 using System.IO;
@@ -90,7 +90,7 @@ arrpt[1] = new Aspose.Pdf.Point(200, 800);
 arrpt[2] = new Aspose.Pdf.Point(200, 700);
 ```
 
-此區塊建立一個 Point 數組列表，其中每個數組代表墨跡筆畫的一組點。這裡，我們定義了三個點，它們組成一個三角形，但您可以隨意調整座標以適合您的設計。
+此區塊建立一個點數組列表，其中每個數組代表墨跡筆畫的一組點。在這裡，我們定義三個點形成一個三角形，但您可以隨意調整座標以適合您的設計。
 
 ## 步驟 5：建立墨跡註釋
 
@@ -105,7 +105,7 @@ InkAnnotation ia = new InkAnnotation(pdfPage, arect, inkList)
 };
 ```
 
-我們實例化 `InkAnnotation` 對象，傳入頁、矩形和墨點。自訂屬性，例如 `Title`， `Color`， 和 `CapStyle` 滿足您的需求！
+我們實例化 `InkAnnotation` 對象，傳入頁、矩形和墨點。自訂屬性 `Title`， `Color`， 和 `CapStyle` 滿足您的需求！
 
 ## 步驟 6：設定邊框和不透明度
 
@@ -142,11 +142,11 @@ doc.Save(dataDir);
 Console.WriteLine("\nInk annotation added successfully.\nFile saved at " + dataDir);
 ```
 
-在這裡，我們修改 `dataDir` 新增輸出檔名並儲存文件。系統會顯示確認訊息，告知您一切順利。
+在這裡，我們修改 `dataDir` 包括輸出檔名並儲存文件。確認訊息將通知您一切順利。
 
 ## 結論
 
-恭喜！您已成功使用 Aspose.PDF for .NET 為您的 PDF 文件新增墨跡註解。這個簡單而強大的功能可以增強您的文件並使其更具互動性。無論您添加的是簽名、註釋還是塗鴉，墨跡註釋都能以獨特的方式豐富您的內容。
+恭喜！您已成功使用 Aspose.PDF for .NET 為您的 PDF 文件新增墨跡註解。這個簡單但強大的功能可以增強您的文件並使其具有互動性。無論您添加簽名、註釋還是塗鴉，墨跡註釋都能提供一種獨特的方式來豐富您的內容。
 
 ## 常見問題解答
 
@@ -154,10 +154,10 @@ Console.WriteLine("\nInk annotation added successfully.\nFile saved at " + dataD
 Aspose.PDF 是一個用於在 .NET 應用程式中建立、操作和轉換 PDF 文件的程式庫。
 
 ### 我可以免費使用 Aspose.PDF 嗎？
-是的！ Aspose 提供免費試用版供您評估其產品。您可以下載。 [這裡](https://releases。aspose.com/).
+是的！ Aspose 提供免費試用版來評估其產品。你可以下載它 [這裡](https://releases。aspose.com/).
 
 ### 可以新增多個墨跡註解嗎？
-當然！您可以建立多個 `InkAnnotation` 物件並將它們新增至文件頁面。
+絕對地！您可以建立多個 `InkAnnotation` 物件並將它們新增至文件頁面。
 
 ### 在哪裡可以找到更多範例？
 查看 [文件](https://reference.aspose.com/pdf/net/) 以獲得詳細的教學和範例。

@@ -58,7 +58,7 @@ Här hämtar vi upp `PageSetup` för det första kalkylbladet, där vi konfigure
 Nu ska vi ställa in sidordningen. Som standard skriver Excel ut varje kolumn först; vi ändrar det till att skriva ut över raderna först.
 
 ```csharp
-// Ställ in utskriftsordningen på ÖverThenDown
+// Ställ in utskriftsordningen till ÖverDärefterNer
 pageSetup.Order = PrintOrderType.OverThenDown;
 ```
 

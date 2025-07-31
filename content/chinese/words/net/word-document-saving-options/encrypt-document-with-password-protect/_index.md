@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Words for .NET 添加密码保护，从而保障文档安全。本指南将全面指导您完成整个操作。"
+"description": "了解如何使用 Aspose.Words for .NET 添加密码保护，从而保障文档安全。本指南将全面指导您完成整个过程。"
 "linktitle": "使用密码保护加密文档"
 "second_title": "Aspose.Words文档处理API"
 "title": "使用密码保护加密文档"

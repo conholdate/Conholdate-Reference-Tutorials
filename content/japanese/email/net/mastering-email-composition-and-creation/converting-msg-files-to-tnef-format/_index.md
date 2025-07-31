@@ -99,4 +99,4 @@ TNEF 形式を使用すると、電子メール メッセージ内にリッチ �
 
 ### Aspose.Email for .NET について詳しくはどこで知ることができますか?
 
-Aspose.Email for .NETの詳細なドキュメントとリソースは以下から参照できます。 [Aspose.Email ドキュメント](https://reference.aspose.com/email/net/)このリソースは、ライブラリの機能と機能を詳しく調べるのに役立ちます。
+Aspose.Email for .NETの詳細なドキュメントとリソースは以下から参照できます。 [Aspose.Email ドキュメント](https://reference.aspose.com/email/net/)このリソースは、ライブラリの機能と機能を詳細に調べるのに役立ちます。

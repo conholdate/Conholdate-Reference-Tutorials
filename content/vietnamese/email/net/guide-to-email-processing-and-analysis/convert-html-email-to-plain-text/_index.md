@@ -173,7 +173,7 @@ doc.Save("plain_text.txt", saveOptions);
 using (var doc = new Document())
 {
     // Mã chuyển đổi của bạn ở đây
-} // Tài liệu được tự động loại bỏ
+} // Tài liệu được tự động hủy bỏ
 ```
 
 **Xử lý lỗi**: Luôn bao bọc mã chuyển đổi của bạn trong các khối try-catch để xử lý các cấu trúc HTML không mong muốn một cách khéo léo.

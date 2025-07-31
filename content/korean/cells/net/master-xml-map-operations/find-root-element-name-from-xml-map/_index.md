@@ -41,7 +41,7 @@ string sourceDir = "Your Document Directory";
 경로를 Excel 파일의 실제 위치로 바꿔야 합니다.
 
 ## 2단계: Excel 파일 로드
-다음으로 다음을 사용하여 Excel 파일을 로드합니다. `Workbook` Excel 문서를 나타내는 클래스입니다.
+다음으로, 다음을 사용하여 Excel 파일을 로드합니다. `Workbook` Excel 문서를 나타내는 클래스입니다.
 
 ```csharp
 // XML 맵이 포함된 Excel 파일을 로드합니다.

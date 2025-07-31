@@ -1,13 +1,14 @@
 ---
-title: Átfogó oktatóanyagok és példák az Aspose.OCR-re .NET-hez
-linktitle: Aspose.OCR for .NET Tutorials
-weight: 10
-url: /hu/ocr/
-description: Az Aspose.OCR for .NET segítségével precíziós OCR képfelismerés érhető el. Fedezze fel az oktatóanyagokat a ferdeszög-számításról, a szövegfelismerésről, az OCR-konfigurációról és az optimalizálásról.
-is_root: true
+"description": "Növeld a pontosságot az OCR képfelismerésben az Aspose.OCR for .NET segítségével. Ismerkedj meg az ferdeségi szög kiszámításával, a szövegfelismeréssel, az OCR konfigurációjával és optimalizálásával kapcsolatos oktatóanyagokkal."
+"is_root": true
+"linktitle": "Aspose.OCR .NET-hez oktatóanyagok"
+"title": "Átfogó oktatóanyagok és példák az Aspose.OCR for .NET használatához"
+"url": "/hu/ocr/net/"
+"weight": 10
 ---
-## Aspose.OCR for .NET Tutorials
-### [Mesterkép- és rajzfelismerés az Aspose.OCR segítségével .NET-hez](./master-image-and-drawing-recognition/)
-A kép- és rajzfelismerésről szóló oktatóanyagainkkal tárja fel az Aspose.OCR for .NET-ben rejlő lehetőségeit, így könnyedén kivonhatja alkalmazásait.
-### [Az OCR teljesítményének optimalizálása az Aspose.OCR segítségével .NET-hez](./optimization-ocr/)
-Ismerje meg, hogyan optimalizálhatja az OCR teljesítményét az Aspose.OCR for .NET használatával. Részletes oktatóanyagaink a képfelismerésről, az előfeldolgozási szűrőkről és a gyakorlati megvalósítási lépésekről szólnak.
+
+## Aspose.OCR .NET-hez oktatóanyagok
+### [Kép- és rajzfelismerés mesteri szintje az Aspose.OCR for .NET segítségével](./master-image-and-drawing-recognition/)
+Engedd szabadjára az Aspose.OCR for .NET lehetőségeit kép- és rajzfelismerési oktatóanyagainkkal, és könnyedén vidd be a szövegkinyerést alkalmazásaidba.
+### [OCR teljesítmény optimalizálása az Aspose.OCR for .NET segítségével](./optimization-ocr/)
+Ismerje meg, hogyan optimalizálhatja az OCR teljesítményét az Aspose.OCR for .NET használatával. Részletes oktatóanyagaink a képfelismerést, az előfeldolgozási szűrőket és a gyakorlati megvalósítási lépéseket ismertetik.

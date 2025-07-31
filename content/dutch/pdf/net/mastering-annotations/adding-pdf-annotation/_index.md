@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Annotaties verrijken PDF-documenten en maken ze interactief en informatief. Of u nu samenwerkt met anderen of lezers extra inzichten biedt, annotaties zijn essentiële tools. In deze tutorial onderzoeken we hoe u PDF-annotaties kunt toevoegen aan PDF-bestanden met Aspose.PDF voor .NET en begeleiden we u bij elke stap om ervoor te zorgen dat u bedreven raakt in dit proces.
+Annotaties verrijken PDF-documenten en maken ze interactief en informatief. Of u nu samenwerkt met anderen of lezers extra inzichten biedt, annotaties zijn essentiële tools. In deze tutorial onderzoeken we hoe u PDF-annotaties kunt toevoegen aan PDF-bestanden met Aspose.PDF voor .NET. We begeleiden u bij elke stap om ervoor te zorgen dat u bedreven raakt in dit proces.
 
 ## Vereisten
 
@@ -40,7 +40,7 @@ Begin met het laden van het PDF-document waaraan u PDF-annotaties wilt toevoegen
 ```csharp
 // Geef het pad naar uw documentenmap op.
 string dataDir = "YOUR DATA DIRECTORY";
-// PDF-document laden
+// Laad het PDF-document
 Document pdfDocument = new Document(dataDir + "AddAnnotation.pdf");
 ```
 
@@ -92,7 +92,7 @@ Nu is het tijd om de aantekening aan uw PDF-pagina toe te voegen.
 pdfDocument.Pages[1].Annotations.Add(textAnnotation);
 ```
 
-Met deze regel wordt de zojuist gemaakte aantekening toegevoegd aan de eerste pagina van het PDF-bestand en wordt deze in het document geïntegreerd.
+Met deze regel wordt uw nieuwe aantekening toegevoegd aan de eerste pagina van het PDF-bestand en wordt deze in het document geïntegreerd.
 
 ## Stap 5: Sla het bijgewerkte PDF-document op
 
@@ -114,7 +114,7 @@ Het toevoegen van annotaties aan PDF's is een krachtige functie die eenvoudig is
 ## Veelgestelde vragen
 
 ### Welke soorten annotaties kan ik toevoegen met Aspose.PDF voor .NET?
-U kunt verschillende soorten aantekeningen toevoegen, waaronder tekst-, link-, markeer- en stempelaantekeningen.
+U kunt verschillende aantekeningen toevoegen, waaronder tekst-, link-, markeer- en stempelaantekeningen.
 
 ### Kan ik het uiterlijk van annotaties aanpassen?
 Absoluut! Je kunt de grootte, kleur, rand en pictogrammen van je aantekeningen aanpassen.

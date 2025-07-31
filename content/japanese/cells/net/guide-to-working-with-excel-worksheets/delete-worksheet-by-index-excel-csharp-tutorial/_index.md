@@ -47,7 +47,7 @@ using Aspose.Cells;
 
 ## ステップ1: ドキュメントディレクトリを指定する
 
-まず、Excelファイルの場所を指定します。ここで、プログラムに作業対象のファイルを見つけるよう指示します。
+まず、Excelファイルの場所を指定します。ここで、プログラムが作業対象のファイルを見つけるよう指示します。
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";

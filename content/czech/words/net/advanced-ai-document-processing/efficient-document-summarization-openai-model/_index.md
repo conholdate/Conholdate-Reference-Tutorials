@@ -61,7 +61,7 @@ Install-Package Aspose.Words
 
 ### Zabezpečení klíče OpenAI API
 
-Pro přístup k jejich jazykovým modelům budete potřebovat klíč OpenAI API. Přejděte na [Webové stránky OpenAI](https://openai.com/), vytvořte si účet a získejte svůj API klíč. **Nikdy tento klíč nenaprogramujte pevně** – bezpečný způsob, jak to zvládnout, vám ukážeme později v této příručce.
+Pro přístup k jejich jazykovým modelům budete potřebovat klíč OpenAI API. Přejděte na [Webové stránky OpenAI](https://openai.com/)vytvořte si účet a získejte svůj API klíč. **Nikdy tento klíč nenaprogramujte pevně** – bezpečný způsob, jak to zvládnout, vám ukážeme později v této příručce.
 
 ### Nastavení vývojového prostředí
 I když můžete použít jakékoli IDE kompatibilní s .NET, **Visual Studio** poskytuje nejlepší zážitek z tohoto tutoriálu s vynikající podporou IntelliSense a možnostmi ladění pro integrace Aspose.Words i API.
@@ -94,7 +94,7 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY_PATH";
 string ArtifactsDir = "YOUR_OUTPUT_DIRECTORY_PATH";
 ```
 
-**Nejlepší postupy**Pro tyto cesty v produkčním prostředí použijte proměnné prostředí nebo konfigurační soubory. Díky tomu bude vaše aplikace flexibilnější a její nasazení v různých prostředích se snáze provádí.
+**Nejlepší postupy**Pro tyto cesty v produkčním prostředí použijte proměnné prostředí nebo konfigurační soubory. Díky tomu bude vaše aplikace flexibilnější a její nasazení v různých prostředích se snáze nasadí.
 
 ### Krok 2: Načtení dokumentů ke zpracování
 
@@ -105,7 +105,7 @@ Document doc1 = new Document(MyDir + "BigDocument.docx");
 Document doc2 = new Document(MyDir + "AnotherDocument.docx");
 ```
 
-**Tip pro výkon**U velkých dokumentů zvažte jejich asynchronní načítání, abyste zabránili blokování uživatelského rozhraní v desktopových aplikacích. Aspose.Words efektivně zvládá správu paměti, ale velmi velké soubory (>100 MB) by mohly mít prospěch ze streamování.
+**Tip pro výkon**velkých dokumentů zvažte jejich asynchronní načítání, abyste zabránili blokování uživatelského rozhraní v desktopových aplikacích. Aspose.Words efektivně zvládá správu paměti, ale velmi velké soubory (>100 MB) by mohly mít prospěch ze streamování.
 
 ### Krok 3: Bezpečná správa klíčů API
 

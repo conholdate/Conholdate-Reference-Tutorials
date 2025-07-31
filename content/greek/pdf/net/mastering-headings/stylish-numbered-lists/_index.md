@@ -43,7 +43,7 @@ Document pdfDoc = new Document();
 // Ορισμός διαστάσεων σελίδας και περιθωρίων
 pdfDoc.PageInfo.Width = 612.0; // 8,5 ίντσες
 pdfDoc.PageInfo.Height = 792.0; // 11 ίντσες
-pdfDoc.PageInfo.Margin = new Aspose.Pdf.MarginInfo(72, 72, 72, 72); // περιθώρια 1 ίντσας
+pdfDoc.PageInfo.Margin = new Aspose.Pdf.MarginInfo(72, 72, 72, 72); // Περιθώρια 1 ίντσας
 ```
 
 Αυτή η ρύθμιση δίνει στο έγγραφό σας ένα τυπικό μέγεθος γράμματος με περιθώρια μίας ίντσας σε όλες τις πλευρές.

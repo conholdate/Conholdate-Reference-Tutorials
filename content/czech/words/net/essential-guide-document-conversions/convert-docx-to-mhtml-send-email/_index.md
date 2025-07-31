@@ -119,7 +119,7 @@ using (SmtpClient client = new SmtpClient())
 }
 ```
 
-**Úvahy o produkci**V reálných aplikacích budete chtít přidat ověřování, nastavení SSL/TLS a ošetření chyb. Robustnější konfigurace by mohla vypadat takto:
+**Úvahy o výrobě**V reálných aplikacích budete chtít přidat ověřování, nastavení SSL/TLS a ošetření chyb. Robustnější konfigurace by mohla vypadat takto:
 
 ```csharp
 using (SmtpClient client = new SmtpClient())
@@ -207,7 +207,7 @@ Před nasazením do produkčního prostředí nezapomeňte důkladně otestovat 
 ### Mohu tuto metodu použít k převodu jiných formátů dokumentů?
 Rozhodně! Aspose.Words podporuje širokou škálu formátů, což vám umožňuje převádět DOC, DOCX, RTF, ODT a další do MHTML pomocí stejného přístupu. Stačí změnit vstupní soubor - proces převodu zůstává stejný.
 
-### Jak mohu k e-mailu přidat přílohy?
+### Jak mohu přidat přílohy k e-mailu?
 Přílohy můžete snadno přidat pomocí `Attachments` majetek `MailMessage` třída. Například: `message.Attachments.Add(new Attachment("path/to/file.pdf"))`To je užitečné, pokud chcete vedle verze MHTML zahrnout i původní soubor DOCX.
 
 ### Je Aspose.Words kompatibilní s .NET Core?
@@ -217,7 +217,7 @@ Ano, Aspose.Words je plně kompatibilní s .NET Core, .NET 5 a .NET 6+. Díky to
 Ano, obě knihovny vyžadují licenci pro produkční použití. Dočasnou licenci pro účely hodnocení však můžete získat od [Nákupní stránka Aspose](https://purchase.conholdate.com/temporary-license/)Zkušební verze obsahuje vodoznaky, ale je plně funkční pro testování.
 
 ### Jak mám zpracovat dokumenty se složitým formátováním nebo vloženými objekty?
-Aspose.Words vyniká v zachování složitého formátování, tabulek, grafů a vložených objektů při převodu do formátu MHTML. Knihovna automaticky zpracovává většinu formátovacích prvků, i když pro zajištění kompatibility je vhodné provést test s vašimi konkrétními typy dokumentů.
+Aspose.Words vyniká v zachování složitého formátování, tabulek, grafů a vložených objektů při převodu do formátu MHTML. Knihovna automaticky zpracovává většinu formátovacích prvků, i když pro zajištění kompatibility můžete provést test s vašimi konkrétními typy dokumentů.
 
 ### Mohu si přizpůsobit výstupní formát MHTML?
 Ano, můžete použít `HtmlSaveOptions` místo výchozího formátu ukládání MHTML pro přizpůsobení výstupu. To vám dává kontrolu nad zpracováním obrázků, styly CSS a dalšími aspekty formátování převedeného dokumentu.

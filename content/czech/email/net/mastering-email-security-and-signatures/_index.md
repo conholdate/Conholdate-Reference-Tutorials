@@ -19,7 +19,7 @@ Zde je to, co dělá podepisování DKIM s Aspose.Email hračkou:
 
 1. Uživatelsky přívětivé API: Intuitivní design umožňuje vývojářům rychle integrovat ověřování e-mailů.  
 2. Komplexní funkce: Aspose.Email se o vás postará od psaní e-mailů až po podepisování a ověřování.  
-3. Všestrannost: Funguje bezproblémově s aplikacemi .NET, což z něj činí skvělou volbu pro vývojáře v C#.
+3. Všestrannost: Bezproblémově funguje s aplikacemi .NET, což z něj činí skvělou volbu pro vývojáře v C#.
 
 ## Zvládnutí zabezpečení e-mailů a tutoriálů o digitálních podpisech
 ### [Průvodce podepisováním e-mailů pomocí DKIM v C# s využitím Aspose.Email](./guide-to-signing-emails-with-dkim/)

@@ -1,20 +1,21 @@
 ---
-title: Zastosuj progowanie Bradleya w Aspose.PSD dla .NET
-linktitle: Zastosuj progowanie Bradleya
-second_title: Aspose.PSD .NET API
-description: Dowiedz się, jak krok po kroku ładować pliki PSD, stosować techniki progowania i zapisywać wyniki w różnych formatach, co pozwoli Ci udoskonalić zadania segmentacji obrazu w różnych zastosowaniach.
-weight: 15
-url: /pl/psd/guide-image-processing/apply-bradley-thresholding/
+"description": "Dowiedz się, jak krok po kroku ładować pliki PSD, stosować techniki progowania i zapisywać wyniki w różnych formatach, zwiększając w ten sposób możliwości segmentacji obrazu w różnych zastosowaniach."
+"linktitle": "Zastosuj progowanie Bradleya"
+"second_title": "Aspose.PSD .NET API"
+"title": "Zastosuj progowanie Bradleya w Aspose.PSD dla .NET"
+"url": "/pl/psd/net/guide-image-processing/apply-bradley-thresholding/"
+"weight": 15
 ---
+
 ## Wstęp
 
-Witamy w naszym samouczku dotyczącym stosowania techniki Bradley Threshold przy użyciu Aspose.PSD dla .NET. Ta potężna biblioteka umożliwia bezproblemową manipulację plikami Photoshop w aplikacjach .NET. Bradley Thresholding to skuteczna metoda binaryzacji obrazu, która pomaga odróżnić obiekty od ich tła.
+Witamy w naszym samouczku dotyczącym stosowania techniki progu Bradleya w pakiecie Aspose.PSD dla platformy .NET. Ta potężna biblioteka umożliwia płynną manipulację plikami Photoshopa w aplikacjach .NET. Progowanie Bradleya to skuteczna metoda binaryzacji obrazu, która pomaga odróżnić obiekty od ich tła.
 
 ## Wymagania wstępne
 
-Zanim rozpoczniesz proces, upewnij się, że spełniasz następujące wymagania wstępne:
+Zanim rozpoczniesz proces, upewnij się, że spełnione są następujące warunki wstępne:
 
--  Aspose.PSD dla biblioteki .NET: Pobierz i zainstaluj najnowszą wersję ze strony[dokumentacja](https://reference.aspose.com/psd/net/).
+- Biblioteka Aspose.PSD dla platformy .NET: Pobierz i zainstaluj najnowszą wersję z witryny [dokumentacja](https://reference.aspose.com/psd/net/).
 - Katalog dokumentów: Utwórz katalog roboczy, w którym będziesz przechowywać źródłowy plik PSD i wyjściowy obraz binarny.
 
 ## Importuj niezbędne przestrzenie nazw
@@ -60,26 +61,26 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 
 ## Wniosek
 
-Gratulacje! Udało Ci się zaimplementować technikę Bradley Threshold przy użyciu Aspose.PSD dla .NET. Ta metoda może znacznie poprawić segmentację obrazu w różnych aplikacjach, od analizy dokumentów po projektowanie graficzne.
+Gratulacje! Udało Ci się pomyślnie zaimplementować technikę progu Bradleya za pomocą Aspose.PSD dla .NET. Ta metoda może znacznie usprawnić segmentację obrazu w różnych zastosowaniach, od analizy dokumentów po projektowanie graficzne.
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę zastosować próg Bradleya do dowolnego typu obrazu?
 
-Oczywiście! Bradley Thresholding jest wszechstronny i można go stosować do większości typów obrazów w celu poprawy segmentacji.
+Zdecydowanie! Progowanie Bradleya jest wszechstronne i można je stosować do większości typów obrazów w celu poprawy segmentacji.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.PSD?
 
- Aby uzyskać szczegółową dokumentację i zasoby, odwiedź stronę[Dokumentacja Aspose.PSD](https://reference.aspose.com/psd/net/).
+Aby uzyskać szczegółową dokumentację i zasoby, odwiedź stronę [Dokumentacja Aspose.PSD](https://reference.aspose.com/psd/net/).
 
 ### Czy jest dostępna wersja próbna?
 
-Tak! Możesz wypróbować Aspose.PSD dla .NET za pomocą bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+Tak! Możesz wypróbować Aspose.PSD dla .NET za darmo w ramach okresu próbnego. [Tutaj](https://releases.aspose.com/).
 
-### Gdzie mogę uzyskać pomoc dotyczącą Aspose.PSD?
+### Jak mogę uzyskać pomoc techniczną dotyczącą Aspose.PSD?
 
- Aby uzyskać wsparcie społeczności i wziąć udział w dyskusjach, zapoznaj się z[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+Aby uzyskać wsparcie społeczności i wziąć udział w dyskusjach, zapoznaj się z [Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
 
 ### Jak mogę zakupić licencję na Aspose.PSD?
 
- Możesz kupić licencję bezpośrednio[Tutaj](https://purchase.conholdate.com/buy).
+Możesz kupić licencję bezpośrednio [Tutaj](https://purchase.conholdate.com/buy).

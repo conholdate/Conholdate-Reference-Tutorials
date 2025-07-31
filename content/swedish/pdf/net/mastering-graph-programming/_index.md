@@ -25,7 +25,7 @@ Förbättra dina dokument med den här guiden: [Lägg till gradientfyllda ritnin
 
 ## Transparenta rektanglar och alfafärger  
 
-Transparens ger en professionell känsla, eller hur? Oavsett om det handlar om vattenmärkning eller att skapa lager-på-lager-designer, hjälper den här guiden dig att bemästra transparenta rektanglar med hjälp av alfafärger. Tänk på det som att skapa en glaseffekt över dina PDF-filer – enkelt men elegant!  
+Transparens ger en professionell känsla, eller hur? Oavsett om det gäller vattenmärkning eller att skapa lager-på-lager-designer, hjälper den här guiden dig att bemästra transparenta rektanglar med hjälp av alfafärger. Tänk på det som att skapa en glaseffekt över dina PDF-filer – enkelt men elegant!  
 
 Lär dig hur du uppnår den här effekten här: [Skapa en transparent rektangel med alfafärg](./create-transparent-rectangle-with-alpha-color/).
 

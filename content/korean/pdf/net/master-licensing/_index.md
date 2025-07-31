@@ -25,8 +25,8 @@ Aspose.PDF for .NET 라이선싱을 이해하는 것은 처음에는 어려울 �
 ## 마스터 라이선싱 튜토리얼
 | 제목 | 설명 |
 | --- | --- | 
-| [PDF 파일로 미터링된 라이선스 키 구성](./configureing-metered-license-keys/) | 계량형 라이선스 구성에 대한 단계별 가이드를 통해 .NET용 Aspose.PDF의 잠재력을 최대한 활용하세요. 방대한 PDF 워크플로를 처리하든, 사소한 조정을 하든 상관없이 사용 가능합니다. |  
+| [PDF 파일로 미터링된 라이선스 키 구성](./configureing-metered-license-keys/) 계량형 라이선스 구성에 대한 단계별 가이드를 통해 .NET용 Aspose.PDF의 잠재력을 최대한 활용하세요. 방대한 PDF 워크플로를 처리하든, 사소한 조정을 하든 상관없이 사용 가능합니다. |  
 | [파일에서 라이센스 로드](./loading-license-from-file/) | 파일에서 라이선스를 로드하는 방법에 대한 단계별 가이드를 통해 Aspose.PDF for .NET의 모든 잠재력을 활용하는 방법을 알아보세요. |  
-| [스트림 객체에서 라이센스 로드](./loading-license-from-stream-object/) 스트림에서 라이선스를 로드하는 방법을 알아보고 Aspose.PDF for .NET의 잠재력을 최대한 활용하세요. 이 포괄적인 가이드는 단계별 지침을 제공합니다. |  
+| [스트림 객체에서 라이센스 로드](./loading-license-from-stream-object/) | 스트림에서 라이선스를 로드하는 방법을 알아보고 Aspose.PDF for .NET의 잠재력을 최대한 활용하세요. 이 포괄적인 가이드는 단계별 지침을 제공합니다. |  
 | [PDF 파일로 라이센스 보안](./securing-license/) | Aspose.PDF for .NET을 사용하여 PDF 파일로 라이선스를 보호하는 방법을 단계별로 자세히 알아보세요. 고급 기능을 활용하고 규정 준수를 보장하세요. |  
-| [임베디드 리소스를 사용하여 라이선스 설정 가이드](./guide-to-set-license-using-embedded-resource/) | Aspose.PDF for .NET에 대한 포괄적인 가이드를 통해 개발자로서의 잠재력을 발휘해 보세요. PDF 문서를 프로그래밍 방식으로 손쉽게 생성, 편집 및 조작하는 방법을 알아보세요. 이 튜토리얼에서는 필수 조건과 단계별 지침을 다룹니다. |
+| [임베디드 리소스를 사용하여 라이선스 설정 가이드](./guide-to-set-license-using-embedded-resource/) Aspose.PDF for .NET에 대한 포괄적인 가이드를 통해 개발자로서의 잠재력을 발휘해 보세요. PDF 문서를 프로그래밍 방식으로 손쉽게 생성, 편집 및 조작하는 방법을 알아보세요. 이 튜토리얼에서는 필수 조건과 단계별 지침을 다룹니다. |

@@ -121,8 +121,8 @@ Ya, Anda dapat menggambar berbagai bentuk seperti persegi panjang, elips, dan po
 ### Bagaimana cara menyesuaikan warna dan ketebalan garis?
 Anda dapat menyesuaikan `StrokeColor` Dan `LineWidth` properti dari `Line` objek untuk menyesuaikan tampilannya.
 
-### Bisakah saya menempatkan baris di area tertentu pada halaman?
-Tentu saja! Ubah koordinat `Line` objek untuk meletakkannya di mana pun Anda membutuhkan.
+### Bisakah saya menempatkan baris di area tertentu di halaman?
+Tentu saja! Ubah koordinat `Line` objek untuk meletakkannya di mana pun Anda membutuhkannya.
 
 ### Apakah mungkin untuk menambahkan teks bersama barisnya?
 Ya, Anda bisa membuatnya `TextFragment` objek dan menambahkannya ke koleksi paragraf halaman.

@@ -1,14 +1,15 @@
 ---
-title: Extraindo retângulos de linhas de reconhecimento de imagens
-linktitle: Extraindo retângulos de linhas de reconhecimento de imagens
-second_title: Aspose.OCR .NET API
-description: Aprenda como implementar o Reconhecimento Óptico de Caracteres (OCR) em seus aplicativos .NET usando Aspose.OCR. Este guia abrangente o orienta pelo processo de extração de retângulos para linhas reconhecidas.
-weight: 10
-url: /pt/ocr/master-image-and-drawing-recognition/line-rectangles-from-images-recognition/
+"description": "Aprenda a implementar o Reconhecimento Óptico de Caracteres (OCR) em seus aplicativos .NET usando o Aspose.OCR. Este guia completo orienta você no processo de extração de retângulos para linhas reconhecidas."
+"linktitle": "Extraindo retângulos de linhas de reconhecimento de imagens"
+"second_title": "Aspose.OCR .NET API"
+"title": "Extraindo retângulos de linhas de reconhecimento de imagens"
+"url": "/pt/ocr/net/master-image-and-drawing-recognition/line-rectangles-from-images-recognition/"
+"weight": 10
 ---
+
 ## Introdução
 
-Bem-vindo ao mundo do Aspose.OCR para .NET, uma ferramenta impressionante projetada para integrar o Reconhecimento Óptico de Caracteres (OCR) em seus aplicativos .NET. Seja você um desenvolvedor experiente ou um novato curioso, este guia o guiará pelas etapas para obter retângulos representando linhas de texto reconhecido em imagens.
+Bem-vindo ao mundo do Aspose.OCR para .NET, uma ferramenta impressionante projetada para integrar o Reconhecimento Óptico de Caracteres (OCR) aos seus aplicativos .NET. Seja você um desenvolvedor experiente ou um novato curioso, este guia o guiará pelas etapas necessárias para obter retângulos representando linhas de texto reconhecido em imagens.
 
 ## Pré-requisitos
 
@@ -16,12 +17,12 @@ Antes de começar, certifique-se de ter o seguinte em mãos:
 
 - Conhecimento básico de desenvolvimento em C# e .NET.
 - Um ambiente de desenvolvimento integrado (IDE) como o Visual Studio.
--  A biblioteca Aspose.OCR para .NET instalada. Você pode baixá-la[aqui](https://releases.aspose.com/ocr/net/).
+- A biblioteca Aspose.OCR para .NET está instalada. Você pode baixá-la [aqui](https://releases.aspose.com/ocr/net/).
 - Uma imagem de amostra contendo texto para reconhecimento.
 
-## Espaços para Nomes Obrigatórios
+## Espaços para nomes obrigatórios
 
-Para começar, você precisará adicionar os namespaces necessários ao seu projeto. Inclua estas linhas no topo do seu arquivo C#:
+Para começar, você precisará adicionar os namespaces necessários ao seu projeto. Inclua estas linhas no início do seu arquivo C#:
 
 ```csharp
 using System;
@@ -42,11 +43,11 @@ Especifique o diretório onde seu arquivo de imagem está localizado:
 string dataDir = "Your Document Directory";
 ```
 
- Certifique-se de substituir`"Your Document Directory"` com o caminho real.
+Certifique-se de substituir `"Your Document Directory"` com o caminho real.
 
 ## Etapa 2: inicializar Aspose.OCR
 
- Crie uma instância do`AsposeOcr` classe para acessar seus recursos:
+Crie uma instância do `AsposeOcr` classe para acessar seus recursos:
 
 ```csharp
 // Inicializar a API Aspose.OCR
@@ -62,9 +63,9 @@ Defina o caminho completo para o arquivo de imagem que você deseja processar:
 string fullPath = dataDir + "sample.png";
 ```
 
-## Etapa 4: reconhecer a imagem e obter retângulos para linhas
+## Etapa 4: reconhecer a imagem e obter retângulos para as linhas
 
- Agora, você pode usar o`GetRectangles` método para extrair retângulos de linhas de texto reconhecidas:
+Agora, você pode usar o `GetRectangles` método para extrair retângulos de linhas de texto reconhecidas:
 
 ```csharp
 // Recuperar retângulos para linhas na imagem especificada
@@ -83,7 +84,7 @@ lines.ForEach(a => Console.WriteLine($"x:{a.X} y:{a.Y} width:{a.Width} height:{a
 
 ## Conclusão
 
-Parabéns! Você recuperou retângulos para linhas em uma imagem OCR com sucesso usando Aspose.OCR para .NET. Essa tecnologia abre inúmeras possibilidades para extração e processamento de texto em seus aplicativos.
+Parabéns! Você recuperou retângulos para linhas em uma imagem OCR com sucesso usando o Aspose.OCR para .NET. Essa tecnologia abre inúmeras possibilidades para extração e processamento de texto em seus aplicativos.
 
 ## Perguntas frequentes
 
@@ -91,18 +92,18 @@ Parabéns! Você recuperou retângulos para linhas em uma imagem OCR com sucesso
 
 Sim, o Aspose.OCR suporta vários formatos de imagem, proporcionando flexibilidade para seus aplicativos de OCR.
 
-### Qual é a taxa de precisão do reconhecimento OCR?
+### Qual é a taxa de precisão do reconhecimento do OCR?
 
-O Aspose.OCR usa algoritmos avançados para atingir alta precisão no reconhecimento de texto, adequado para diversos cenários.
+O Aspose.OCR usa algoritmos avançados para alcançar alta precisão no reconhecimento de texto, adequado para diversos cenários.
 
-### Existe uma versão de teste disponível?
+### Há uma versão de teste disponível?
 
- Sim, você pode explorar os recursos do Aspose.OCR para .NET baixando o[teste gratuito](https://releases.aspose.com/).
+Sim, você pode explorar os recursos do Aspose.OCR para .NET baixando o [teste gratuito](https://releases.aspose.com/).
 
 ### Onde posso encontrar documentação detalhada?
 
- Documentação abrangente pode ser encontrada[aqui](https://reference.aspose.com/ocr/net/), oferecendo informações e diretrizes detalhadas.
+Documentação abrangente pode ser encontrada [aqui](https://reference.aspose.com/ocr/net/), oferecendo informações e diretrizes detalhadas.
 
-### Precisa de mais ajuda ou tem dúvidas?
+### Precisa de mais assistência ou tem dúvidas?
 
- Participe da discussão no[Fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) para apoio da comunidade.
+Participe da discussão no [Fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) para apoio da comunidade.

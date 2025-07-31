@@ -1,8 +1,8 @@
 ---
 "description": "Zjistěte, jak efektivně mazat oddíly z dokumentů Word pomocí Aspose.Words pro .NET. Tato komplexní příručka vás provede všemi potřebnými postupy."
-"linktitle": "Odstranění oddílů z dokumentů Word pomocí Aspose.Words v .NET"
+"linktitle": "Odstranění sekcí z dokumentů Word pomocí Aspose.Words v .NET"
 "second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
-"title": "Odstranění oddílů z dokumentů Word pomocí Aspose.Words v .NET"
+"title": "Odstranění sekcí z dokumentů Word pomocí Aspose.Words v .NET"
 "url": "/cs/words/net/section-management/delete-sections-word-document/"
 "weight": 10
 ---
@@ -22,7 +22,7 @@ Než začneme, ujistěte se, že máte následující:
 
 ## Nastavení prostředí
 
-Abyste mohli začít, budete muset importovat potřebné jmenné prostory. Tím se nastaví vaše kódovací prostředí a připraví vás na práci s dokumenty Wordu.
+Pro zahájení budete muset importovat potřebné jmenné prostory. Tím se nastaví vaše kódovací prostředí a připraví vás na práci s dokumenty Wordu.
 
 ```csharp
 using System;

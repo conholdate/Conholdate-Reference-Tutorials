@@ -55,14 +55,14 @@ foreach (Attachment attachment in message.Attachments)
 
 ## Ingesloten berichten detecteren
 
-Ingesloten berichten zijn e-mails die in het hoofde-mailbericht zijn genest. Gebruik deze code om ze te detecteren en te verwerken:
+Ingesloten berichten zijn e-mails die in het hoofde-mailadres zijn genest. Gebruik deze code om ze te detecteren en te verwerken:
 
 ```csharp
 foreach (AlternateView alternateView in message.AlternateViews)
 {
     if (alternateView.LinkedResources.Count > 0)
     {
-        // Deze alternatieve weergave bevat ingebedde berichten
+        // Deze alternatieve weergave bevat ingesloten berichten
         foreach (LinkedResource linkedResource in alternateView.LinkedResources)
         {
             // Verwerk het ingebedde bericht

@@ -20,7 +20,7 @@ Entdecken Sie die Leistungsfähigkeit von Aspose.Words für .NET mit unserer umf
 - **📄 Formatunterstützung**: DOC, DOCX, RTF, HTML, PDF, EPUB, TXT, Markdown und mehr
 - **🔄 Konvertierungen**: Nahtlose Transformation zwischen verschiedenen Dokumentformaten
 - **🤖 KI-Integration**: Erweiterte Dokumentzusammenfassung und Inhaltsanalyse
-- **📊 Seriendruck**Dynamische Dokumentgenerierung aus Datenquellen
+- **📊 Seriendruck**: Dynamische Dokumentgenerierung aus Datenquellen
 - **🎨 Formatierung**: Vollständige Kontrolle über Dokumentstil und -layout
 
 ## 📚 Tutorial-Kategorien
@@ -35,7 +35,7 @@ Meistern Sie die gängigsten Aufgaben zur Dokumentkonvertierung mit unseren Schr
 | **[Word-zu-PDF-Konvertierung](./essential-guide-document-conversions/convert-word-to-pdf/)** | Professionelle PDF-Erstellung mit Formatierungserhaltung | ⭐ Anfänger |
 | **[Konvertieren Sie DOCX in TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Reinen Textinhalt aus Word-Dokumenten extrahieren | ⭐ Anfänger |
 | **[Konvertieren Sie Textdateien in Word-Dokumente](./essential-guide-document-conversions/convert-text-files-to-word-documents/)** | Wandeln Sie einfachen Text in strukturierte Word-Dokumente um | ⭐ Anfänger |
-| **[PDF in Word-Dokument konvertieren](./essential-guide-document-conversions/convert-pdf-to-word/)** PDFs durch Konvertierung ins Word-Format bearbeitbar machen | ⭐⭐ Mittelstufe |
+| **[PDF in Word-Dokument konvertieren](./essential-guide-document-conversions/convert-pdf-to-word/)** | PDFs durch Konvertierung ins Word-Format bearbeitbar machen | ⭐⭐ Mittelstufe |
 | **[Konvertieren Sie PDF in JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Hochwertige Bilder aus PDF-Dokumenten extrahieren | ⭐⭐ Mittelstufe |
 
 ### Erweiterte Dokumentkonvertierungen
@@ -54,7 +54,7 @@ Nutzen Sie modernste KI-Technologien, um Ihre Dokumentenverarbeitungs-Workflows 
 | Tutorial | Beschreibung | Schwierigkeitsgrad |
 |----------|----------|------------|
 | **[Dokumentzusammenfassung mit KI-Modellen meistern](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | KI-gestützte Inhaltsanalyse und -zusammenfassung | ⭐⭐⭐ Erweitert |
-| **[Dokumentzusammenfassung mit Google AI-Modellen](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** | Integrieren Sie Google AI für die intelligente Dokumentenverarbeitung | ⭐⭐⭐ Erweitert |
+| **[Dokumentzusammenfassung mit Google AI-Modellen](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** Integrieren Sie Google AI für die intelligente Dokumentenverarbeitung | ⭐⭐⭐ Erweitert |
 | **[Effiziente Dokumentzusammenfassung mit OpenAI-Modellen](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Nutzen Sie OpenAI GPT-Modelle für Dokumenteneinblicke | ⭐⭐⭐ Erweitert |
 | **[Optionen zum Zusammenfassen von Dokumenten](./advanced-ai-document-processing/summarize-documents-options/)** | Umfassender Leitfaden zu Zusammenfassungstechniken | ⭐⭐⭐ Fortgeschritten |
 
@@ -129,7 +129,7 @@ Nutzen Sie modernste KI-Technologien, um Ihre Dokumentenverarbeitungs-Workflows 
 - **[Herunterladen](https://releases.aspose.com/words/net/)** - Alle Funktionen bewerten
 
 ### **Community und Support**
-- **[Support-Forum](https://forum.aspose.com/c/words/8)** - Holen Sie sich Hilfe von Experten
+- **[Support-Forum](https://forum.aspose.com/c/words/8)** Holen Sie sich Hilfe von Experten
 
 ### **Lizenzierung und Testversionen**
 - **[Temporäre Lizenz](https://purchase.conholdate.com/temporary-license/)** - Erweiterte Auswertung

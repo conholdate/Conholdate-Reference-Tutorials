@@ -97,7 +97,7 @@ Mari beri lembar kerja baru kita nama yang bermakna!
 worksheet.Name = "My Worksheet";
 ```
 
-Jangan ragu untuk berubah `"My Worksheet"` nama apa pun yang sesuai dengan kebutuhan Anda.
+Jangan ragu untuk berubah `"My Worksheet"` dengan nama apa pun yang sesuai dengan kebutuhan Anda.
 
 ## Langkah 7: Simpan File Excel
 

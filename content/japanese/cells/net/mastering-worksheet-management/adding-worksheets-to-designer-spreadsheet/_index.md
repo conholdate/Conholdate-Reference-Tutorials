@@ -1,5 +1,5 @@
 ---
-"description": "Aspose.Cells for .NET を使用して、プログラムでExcelファイルに新しいワークシートを追加する方法を学びましょう。この包括的なガイドでは、必要な手順を詳しく説明します。"
+"description": "Aspose.Cells for .NET を使用して、プログラムで Excel ファイルに新しいワークシートを追加する方法を学びましょう。この包括的なガイドでは、必要な手順を詳しく説明します。"
 "linktitle": "Aspose.Cells を使用してデザイナー スプレッドシートにワークシートを追加する"
 "second_title": "Aspose.Cells .NET Excel 処理 API"
 "title": "Aspose.Cells を使用してデザイナー スプレッドシートにワークシートを追加する"

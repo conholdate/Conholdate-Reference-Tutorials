@@ -1,22 +1,23 @@
 ---
-title: Bestanden toevoegen en pictogrammen instellen in Aspose.Note voor .NET
-linktitle: Bestand toevoegen en pictogram instellen in Aspose.Note
-second_title: Aspose.Note .NET API
-description: Leer stapsgewijs hoe u bestanden kunt toevoegen en aangepaste pictogrammen kunt instellen in Microsoft OneNote-documenten met Aspose.Note voor .NET. Verbeter uw .NET-toepassing met naadloze functies voor documentbeheer en aanpassing.
-weight: 10
-url: /nl/note/manage-attachments/attaching-files-setting-icons/
+"description": "Leer stapsgewijs hoe u bestanden kunt toevoegen en aangepaste pictogrammen kunt instellen in Microsoft OneNote-documenten met Aspose.Note voor .NET. Verbeter uw .NET-applicatie met naadloos documentbeheer en aanpassingsfuncties."
+"linktitle": "Bestand toevoegen en pictogram instellen in Aspose.Note"
+"second_title": "Aspose.Note .NET API"
+"title": "Bestanden toevoegen en pictogrammen instellen in Aspose.Note voor .NET"
+"url": "/nl/note/net/manage-attachments/attaching-files-setting-icons/"
+"weight": 10
 ---
+
 ## Invoering
 
-Aspose.Note voor .NET is een geavanceerde bibliotheek die is ontworpen voor ontwikkelaars om Microsoft OneNote-bestanden programmatisch te maken, te bewerken en te converteren. Een opvallende functie van deze bibliotheek is de mogelijkheid om bestanden aan OneNote-documenten toe te voegen en hun pictogrammen aan te passen. In deze handleiding onderzoeken we hoe u Aspose.Note voor .NET kunt gebruiken om naadloos bestanden toe te voegen en aangepaste pictogrammen in te stellen, waardoor de functionaliteit van uw OneNote-document wordt verrijkt.
+Aspose.Note voor .NET is een geavanceerde bibliotheek waarmee ontwikkelaars programmatisch Microsoft OneNote-bestanden kunnen maken, bewerken en converteren. Een opvallende functie van deze bibliotheek is de mogelijkheid om bestanden aan OneNote-documenten toe te voegen en hun pictogrammen aan te passen. In deze handleiding leggen we uit hoe u Aspose.Note voor .NET kunt gebruiken om naadloos bestanden toe te voegen en aangepaste pictogrammen in te stellen, waardoor de functionaliteit van uw OneNote-documenten wordt uitgebreid.
 
 ## Vereisten
 
 Voordat u de oplossing implementeert, moet u ervoor zorgen dat u over het volgende beschikt:
 
 - Ontwikkelomgeving: Visual Studio of een vergelijkbare IDE geconfigureerd voor .NET-ontwikkeling.
--  Bibliotheekinstallatie: Installeer de[Aspose.Note voor .NET](https://releases.aspose.com/words/net/) bibliotheek.
-- Programmeerkennis: Basiskennis van C#.
+- Bibliotheekinstallatie: Installeer de [Aspose.Note voor .NET](https://releases.aspose.com/words/net/) bibliotheek.
+- Programmeerkennis: basiskennis van C#.
 
 ## Vereiste naamruimten importeren
 
@@ -32,9 +33,9 @@ using System.Drawing.Imaging;
 
 Hieronder vindt u de gedetailleerde, stapsgewijze implementatie.
 
-## Stap 1: Maak een nieuw OneNote-document
+## Stap 1: Een nieuw OneNote-document maken
 
- Initialiseer een nieuw OneNote-document met behulp van de`Document` klas.
+Initialiseer een nieuw OneNote-document met behulp van de `Document` klas.
 
 ```csharp
 Document doc = new Document();
@@ -48,17 +49,17 @@ Voeg een pagina toe aan het document om uw notities en bijlagen te ordenen.
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-## Stap 3: Stel een overzicht op
+## Stap 3: Maak een overzicht
 
- Maak een`Outline` object, dat dient als container voor elementen op uw OneNote-pagina.
+Maak een `Outline` object, dat dient als container voor elementen op uw OneNote-pagina.
 
 ```csharp
 Outline outline = new Outline(doc);
 ```
 
-## Stap 4: Initialiseer een overzichtselement
+## Stap 4: Initialiseer een outline-element
 
- Een`OutlineElement` bevat de bijlage en het bijbehorende pictogram.
+Een `OutlineElement` bevat de bijlage en het bijbehorende pictogram.
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
@@ -78,9 +79,9 @@ using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 }
 ```
 
-## Stap 6: Stel de documentstructuur samen
+## Stap 6: De documentstructuur samenstellen
 
- Voeg de`OutlineElement` naar de`Outline` , en de`Outline` naar de`Page`.
+Voeg de `OutlineElement` naar de `Outline`, en de `Outline` naar de `Page`.
 
 ```csharp
 outline.AppendChildLast(outlineElem);
@@ -106,7 +107,7 @@ doc.Save(dataDir);
 
 ## Conclusie
 
-Door de stappen in deze handleiding te volgen, kunt u moeiteloos bestanden toevoegen en aangepaste pictogrammen instellen in OneNote-documenten met Aspose.Note voor .NET. Deze functionaliteit kan de organisatie van documenten en de gebruikerservaring aanzienlijk verbeteren, waardoor uw toepassingen robuuster en rijker aan functies worden.
+Door de stappen in deze handleiding te volgen, kunt u moeiteloos bestanden toevoegen en aangepaste pictogrammen instellen in OneNote-documenten met Aspose.Note voor .NET. Deze functionaliteit kan de documentorganisatie en gebruikerservaring aanzienlijk verbeteren, waardoor uw applicaties robuuster en veelzijdiger worden.
 
 ## Veelgestelde vragen
 
@@ -114,15 +115,15 @@ Door de stappen in deze handleiding te volgen, kunt u moeiteloos bestanden toevo
 Ja, u kunt meerdere bestanden toevoegen door het bijlageproces voor elk bestand te herhalen.
 
 ### Welke afbeeldingsformaten worden ondersteund voor pictogrammen?
-Aspose.Note ondersteunt de indelingen JPEG, PNG, BMP en GIF voor bijlagepictogrammen.
+Aspose.Note ondersteunt de formaten JPEG, PNG, BMP en GIF voor bijlagepictogrammen.
 
-### Is het mogelijk om bestanden dynamisch toe te voegen vanuit externe URL's?
- U kunt bestanden downloaden met behulp van .NET-bibliotheken zoals`HttpClient` en voeg ze vervolgens toe met Aspose.Note.
+### Is het mogelijk om dynamisch bestanden toe te voegen vanuit externe URL's?
+U kunt bestanden downloaden met behulp van .NET-bibliotheken zoals `HttpClient` en voeg ze vervolgens toe met Aspose.Note.
 
 ### Zijn er beperkingen aan de bestandsgrootte van bijlagen?
-Aspose.Let op: zorg ervoor dat uw systeembronnen grote bestanden aankunnen.
+Aspose.Note stelt geen expliciete limiet aan de bestandsgrootte, maar zorg ervoor dat uw systeembronnen grote bestanden aankunnen.
 
-### Kunnen pictogrammen worden aangepast voordat ze worden ingesteld?
- Ja, u kunt de pictogramafbeelding manipuleren met behulp van .NET's`System.Drawing` bibliotheek voordat u deze koppelt.
+### Kunnen pictogrammen van formaat worden veranderd voordat ze worden ingesteld?
+Ja, u kunt de pictogramafbeelding bewerken met behulp van .NET's `System.Drawing` bibliotheek voordat u deze koppelt.
 
- Voor verdere hulp kunt u de volgende pagina's raadplegen:[documentatie](https://reference.aspose.com/words/net/) of neem contact op met[Aspose-ondersteuning](https://forum.aspose.com/c/words/8).
+Voor verdere hulp kunt u de [documentatie](https://reference.aspose.com/words/net/) of neem contact op met [Aspose-ondersteuning](https://forum.aspose.com/c/words/8).

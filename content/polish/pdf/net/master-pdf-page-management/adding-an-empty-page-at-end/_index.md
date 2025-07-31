@@ -96,7 +96,7 @@ Console.WriteLine("\nEmpty page inserted successfully at the end of the document
 
 ## Wniosek
 
-Gratulacje! Udało Ci się wstawić pustą stronę na końcu dokumentu PDF za pomocą Aspose.PDF dla .NET. Ten prosty dodatek może być niezwykle przydatny do adnotacji i przyszłych edycji. Wszechstronność Aspose.PDF umożliwia programistom wykonywanie różnych operacji na dokumentach PDF, co czyni go nieocenionym narzędziem w Twoim zestawie narzędzi programistycznych C#.
+Gratulacje! Udało Ci się wstawić pustą stronę na końcu dokumentu PDF za pomocą Aspose.PDF dla .NET. Ten prosty dodatek może być niezwykle przydatny do adnotacji lub przyszłych edycji. Wszechstronność Aspose.PDF umożliwia programistom wykonywanie różnych operacji na dokumentach PDF, co czyni go nieocenionym narzędziem w Twoim zestawie narzędzi programistycznych C#.
 
 ## Najczęściej zadawane pytania
 

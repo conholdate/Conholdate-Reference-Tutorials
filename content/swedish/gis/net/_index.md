@@ -1,13 +1,14 @@
 ---
-title: Omfattande handledningar och exempel på Aspose.GIS för .NET
-linktitle: Aspose.GIS för .NET Tutorials
-weight: 10
-url: /sv/gis/
-description: Upptäck kraften i Aspose.GIS för .NET genom omfattande självstudier. Master GeoData-konvertering, skapande av geometri, analys, lagerhantering och mer.
-is_root: true
+"description": "Upptäck kraften hos Aspose.GIS för .NET genom omfattande handledningar. Bemästra GeoData-konvertering, geometriskapande, analys, lagerhantering och mer."
+"is_root": true
+"linktitle": "Aspose.GIS för .NET-handledningar"
+"title": "Omfattande handledningar och exempel på Aspose.GIS för .NET"
+"url": "/sv/gis/net/"
+"weight": 10
 ---
-## Omfattande handledning och exempel på Aspose.GIS för .NET 
-### [Guide till Geo Data Conversion med Aspose.GIS för .NET](./guide-to-geo-data-conversion/)
-Konvertera enkelt olika geodataformat med Aspose.GIS för .NET. Utforska våra handledningar om GeoJSON, TopoJSON och Shapefiler.
+
+## Omfattande handledningar och exempel på Aspose.GIS för .NET 
+### [Guide till geodatakonvertering med Aspose.GIS för .NET](./guide-to-geo-data-conversion/)
+Konvertera enkelt olika geodataformat med Aspose.GIS för .NET. Utforska våra handledningar om GeoJSON, TopoJSON och Shapefiles.
 ### [Bemästra lagerhantering i Aspose.GIS för .NET](./mastering-layer-management/)
-Lås upp potentialen hos Aspose.GIS för .NET med tutorials om TopoJSON och File Geodatabases. Förenkla din lagerhantering.
+Frigör potentialen hos Aspose.GIS för .NET med handledningar om TopoJSON och filgeodatabaser. Förenkla din lagerhantering.

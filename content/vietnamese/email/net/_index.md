@@ -22,7 +22,7 @@ Khai phá toàn bộ tiềm năng xử lý email với Aspose.Email for .NET. B�
 - **🔄 Chuyển đổi Email**: Chuyển đổi liền mạch giữa các định dạng email
 - **🤖 Phân tích thư rác**: Lọc dựa trên máy học nâng cao
 - **📊 Xử lý email**: Phân tích nội dung, xử lý tệp đính kèm và trích xuất siêu dữ liệu
-- **⚡ Hỗ trợ giao thức**: SMTP, POP3, IMAP, Dịch vụ Web Exchange (EWS)
+- **⚡ Hỗ trợ giao thức**SMTP, POP3, IMAP, Dịch vụ Web Exchange (EWS)
 
 ## 📚 Danh mục hướng dẫn
 
@@ -40,13 +40,13 @@ Các kỹ thuật phân tích email tiên tiến bao gồm phát hiện thư rá
 | Hướng dẫn | Mô tả | Độ khó |
 |----------|-------------|------------|
 | **[Phân tích thư rác Bayesian trong C#](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Phát hiện thư rác dựa trên máy học với phân tích thống kê | ⭐⭐⭐ Nâng cao |
-| **[Chuyển đổi email HTML thành văn bản thuần túy](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Trích xuất nội dung văn bản sạch từ email HTML | ⭐⭐ Trung cấp |
+| **[Chuyển đổi email HTML thành văn bản thuần túy](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Trích xuất nội dung văn bản sạch từ email HTML | ⭐⭐ Trung cấp |
 
 ## 🎯 Các trường hợp sử dụng phổ biến
 
 ### **Tích hợp hệ thống email**
 - **Di chuyển email**: Chuyển đổi giữa các định dạng email khác nhau để di chuyển hệ thống
-- **Giải pháp lưu trữ**Lưu trữ email dài hạn với chuẩn hóa định dạng
+- **Giải pháp lưu trữ**: Lưu trữ email dài hạn với chuẩn hóa định dạng
 - **Khả năng tương thích đa nền tảng**: Đảm bảo email hoạt động trên nhiều ứng dụng email khác nhau
 
 ### **Bảo mật và Phân tích Email**
@@ -133,7 +133,7 @@ Các kỹ thuật phân tích email tiên tiến bao gồm phát hiện thư rá
 - **[Dùng thử miễn phí](https://releases.aspose.com/email/net/)** - Đánh giá đầy đủ tính năng
 
 ### **Cộng đồng & Hỗ trợ**
-- **[Diễn đàn hỗ trợ](https://forum.aspose.com/c/email/12)** - Nhận sự trợ giúp từ các chuyên gia
+- **[Diễn đàn hỗ trợ](https://forum.aspose.com/c/email/12)** Nhận sự trợ giúp từ các chuyên gia
 
 ### **Cấp phép & Thử nghiệm**
 - **[Giấy phép tạm thời](https://purchase.conholdate.com/temporary-license/)** - Đánh giá mở rộng

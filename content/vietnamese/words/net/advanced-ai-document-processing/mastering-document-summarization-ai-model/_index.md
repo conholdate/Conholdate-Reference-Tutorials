@@ -193,7 +193,7 @@ catch (Exception ex)
 
 ## Những thách thức phổ biến và cách khắc phục sự cố
 
-Hãy để tôi chia sẻ một số vấn đề bạn có thể gặp phải và cách giải quyết chúng:
+Tôi xin chia sẻ một số vấn đề bạn có thể gặp phải và cách giải quyết chúng:
 
 ### Lỗi "Không tìm thấy khóa API"
 
@@ -333,7 +333,7 @@ Chi phí thay đổi đáng kể tùy theo nhà cung cấp AI và khối lượn
 
 ### Có bản dùng thử miễn phí cho Aspose.Words không?
 
-Có, Aspose cung cấp bản dùng thử miễn phí cho phép bạn đánh giá đầy đủ chức năng với một số hạn chế (như hình mờ trên đầu ra). Điều này hoàn hảo để kiểm tra việc triển khai tóm tắt AI của bạn trước khi cam kết mua bản quyền. Bạn có thể tải xuống từ trang web của họ và bắt đầu xây dựng ngay lập tức.
+Có, Aspose cung cấp bản dùng thử miễn phí cho phép bạn đánh giá đầy đủ chức năng với một số hạn chế (như hình mờ trên đầu ra). Đây là lựa chọn hoàn hảo để kiểm tra việc triển khai tóm tắt AI của bạn trước khi cam kết mua bản quyền. Bạn có thể tải xuống từ trang web của họ và bắt đầu xây dựng ngay lập tức.
 
 ### Làm thế nào để xử lý các tài liệu rất lớn vượt quá giới hạn mã thông báo AI?
 

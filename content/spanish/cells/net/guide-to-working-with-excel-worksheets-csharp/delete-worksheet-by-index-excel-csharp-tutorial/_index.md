@@ -271,4 +271,4 @@ Utilice el `RemoveByName()` método en su lugar: `workbook.Worksheets.RemoveByNa
 Una vez eliminada una hoja de cálculo y guardado el libro, no existe un método de recuperación integrado. La mejor protección es realizar copias de seguridad periódicas de los archivos de Excel antes de realizar modificaciones automáticas.
 
 ### ¿Puede este método funcionar con archivos de Excel protegidos con contraseña?
-Sí, pero necesitarás proporcionar la contraseña al abrir el libro de trabajo: `new Workbook(fstream, new LoadOptions() { Password = "yourpassword" })`El proceso de eliminación sigue siendo el mismo después de la autenticación exitosa.
+Sí, pero deberá proporcionar la contraseña al abrir el libro de trabajo: `new Workbook(fstream, new LoadOptions() { Password = "yourpassword" })`El proceso de eliminación sigue siendo el mismo después de la autenticación exitosa.

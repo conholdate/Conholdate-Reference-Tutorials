@@ -1,23 +1,24 @@
 ---
-title: إضافة مكون مربع الاختيار إلى مستند PDF
-linktitle: إضافة مكون مربع الاختيار إلى مستند PDF
-second_title: GroupDocs.Annotation .NET API
-description: اكتشف كيفية إثراء مستندات PDF الخاصة بك عن طريق إضافة مكونات مربع الاختيار التفاعلية باستخدام GroupDocs.Annotation for .NET SDK. يوفر هذا البرنامج التعليمي الشامل دليلاً واضحًا خطوة بخطوة.
-weight: 11
-url: /ar/annotation/guide-to-document-components/adding-checkbox-component/
+"description": "اكتشف كيفية إثراء مستندات PDF الخاصة بك بإضافة مكونات مربعات اختيار تفاعلية باستخدام GroupDocs.Annotation لـ .NET SDK. يقدم هذا البرنامج التعليمي الشامل دليلاً واضحًا خطوة بخطوة."
+"linktitle": "إضافة مكون مربع الاختيار إلى مستند PDF"
+"second_title": "GroupDocs.Annotation .NET API"
+"title": "إضافة مكون مربع الاختيار إلى مستند PDF"
+"url": "/ar/annotation/net/guide-to-document-components/adding-checkbox-component/"
+"weight": 11
 ---
+
 ## مقدمة
 
-في هذا البرنامج التعليمي، سنوضح لك عملية إضافة مكون مربع الاختيار إلى مستند PDF باستخدام GroupDocs.Annotation for .NET SDK. تتيح لك هذه الميزة تحسين مستندات PDF الخاصة بك باستخدام عناصر تفاعلية، مما يجعلها أكثر جاذبية للمستخدمين.
+في هذا البرنامج التعليمي، سنشرح لك عملية إضافة مكون خانة الاختيار إلى مستند PDF باستخدام GroupDocs.Annotation لـ .NET SDK. تتيح لك هذه الميزة تحسين مستندات PDF بعناصر تفاعلية، مما يجعلها أكثر جاذبية للمستخدمين.
 
 ## المتطلبات الأساسية
 
 قبل أن نبدأ، تأكد من أن لديك ما يلي:
 
-1.  GroupDocs.Annotation لـ .NET SDK: قم بتنزيله من[هنا](https://releases.groupdocs.com/annotation/net/).
+1. GroupDocs.Annotation لـ .NET SDK: قم بتنزيله من [هنا](https://releases.groupdocs.com/annotation/net/).
 2. بيئة التطوير: قم بإعداد بيئة تطوير .NET على جهازك.
 
-## الخطوة 1: استيراد المساحات المطلوبة
+## الخطوة 1: استيراد مساحات الأسماء المطلوبة
 
 أولاً، قم بتضمين المساحات الأساسية اللازمة في مشروعك:
 
@@ -33,15 +34,15 @@ using GroupDocs.Annotation.Options;
 
 ## الخطوة 2: تحديد مسار الإخراج
 
-حدد المكان الذي سيتم فيه حفظ مستند PDF المعدل:
+حدد المكان الذي سيتم حفظ مستند PDF المعدل فيه:
 
 ```csharp
 string outputPath = Path.Combine("Your Document Directory", "result" + Path.GetExtension("input.pdf"));
 ```
 
-## الخطوة 3: تهيئة المشرح
+## الخطوة 3: تهيئة المُعلق
 
- إنشاء مثيل لـ`Annotator` الفئة التي تحتوي على المسار إلى مستند PDF المدخل الخاص بك:
+إنشاء مثيل لـ `Annotator` الفئة التي تحتوي على المسار إلى مستند PDF المدخل الخاص بك:
 
 ```csharp
 using (Annotator annotator = new Annotator("input.pdf"))
@@ -66,7 +67,7 @@ CheckBoxComponent checkBox = new CheckBoxComponent
 };
 ```
 
-## الخطوة 5: أضف مربع الاختيار إلى المستند
+## الخطوة 5: إضافة مربع الاختيار إلى المستند
 
 أضف مكون مربع الاختيار الذي تم إنشاؤه إلى ملف PDF:
 
@@ -92,13 +93,13 @@ Console.WriteLine($"\nDocument saved successfully.\nCheck output in {outputPath}
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، نجحنا في إضافة مكون مربع اختيار إلى مستند PDF باستخدام GroupDocs.Annotation for .NET. تتيح لك هذه الوظيفة إنشاء ملفات PDF تفاعلية يمكنها تحسين تجربة المستخدم وتفاعله.
+في هذا البرنامج التعليمي، نجحنا في إضافة مكون خانة اختيار إلى مستند PDF باستخدام GroupDocs.Annotation لـ .NET. تتيح لك هذه الوظيفة إنشاء ملفات PDF تفاعلية تُحسّن تجربة المستخدم وتفاعله.
 
 ## الأسئلة الشائعة
 
 ### هل يمكنني تخصيص مظهر مربع الاختيار؟
 
-بالتأكيد! يمكنك تعديل خصائص مختلفة مثل اللون والأسلوب والحجم لتلبية احتياجاتك المحددة.
+بالتأكيد! يمكنك تعديل خصائص متنوعة، كاللون والنمط والحجم، لتلبية احتياجاتك الخاصة.
 
 ### هل GroupDocs.Annotation لـ .NET مناسب للاستخدام التجاري؟
 
@@ -106,12 +107,12 @@ Console.WriteLine($"\nDocument saved successfully.\nCheck output in {outputPath}
 
 ### هل يمكنني تجربة GroupDocs.Annotation لـ .NET قبل الشراء؟
 
- نعم، تتوفر نسخة تجريبية مجانية، ويمكنك الوصول إليها[هنا](https://releases.groupdocs.com/).
+نعم، تتوفر نسخة تجريبية مجانية. يمكنك الوصول إليها. [هنا](https://releases.groupdocs.com/).
 
 ### أين يمكنني العثور على الدعم لـ GroupDocs.Annotation لـ .NET؟
 
- الدعم والموارد الإضافية متاحة على[منتدى GroupDocs](https://forum.groupdocs.com/c/annotation/10).
+الدعم والموارد الإضافية متاحة على [منتدى GroupDocs](https://forum.groupdocs.com/c/annotation/10).
 
 ### هل أحتاج إلى ترخيص مؤقت لأغراض الاختبار؟
 
- يمكنك الحصول على ترخيص مؤقت للاختبار من[هنا](https://purchase.groupdocs.com/temporary-license/).
+يمكنك الحصول على ترخيص مؤقت للاختبار من [هنا](https://purchase.groupdocs.com/temporary-license/).

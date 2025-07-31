@@ -15,9 +15,9 @@ Heb je het ooit lastig gevonden om tekst uit een bladwijzersectie in een Word-do
 
 Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
-- Aspose.Words voor .NET: Als u het nog niet hebt geïnstalleerd, kunt u het nu installeren. [download het hier](https://releases.aspose.com/words/net/).
+- Aspose.Words voor .NET: Als u het nog niet hebt geïnstalleerd, kunt u het nu doen [download het hier](https://releases.aspose.com/words/net/).
 - Ontwikkelomgeving: Een .NET-ontwikkelomgeving zoals Visual Studio.
-- Basiskennis van C#: Kennis van de basisconcepten van C#-programmering is nuttig.
+- Basiskennis van C#: Kennis van de basisconcepten van C#-programmering is een pré.
 - Word-document met bladwijzers: een Word-document met bladwijzers waaraan we tekst kunnen toevoegen.
 
 ## Importeer noodzakelijke naamruimten
@@ -72,7 +72,7 @@ if (startPara.ParentNode != endPara.ParentNode)
 
 ## Stap 4: Identificeer het knooppunt dat gestopt moet worden
 
-Nu moeten we bepalen waar we moeten stoppen met het kopiëren van tekst. Dit komt bij het knooppunt direct na de laatste alinea.
+Nu moeten we bepalen waar we moeten stoppen met het kopiëren van tekst. Dit is het knooppunt direct na de laatste alinea.
 
 ```csharp
 // Identificeer het knooppunt direct na de laatste alinea.
@@ -113,7 +113,7 @@ In het huidige voorbeeld wordt ervan uitgegaan dat ze dezelfde ouder hebben. Zo 
 Absoluut! Gebruik `ImportFormatMode.KeepSourceFormatting` zorgt ervoor dat de originele opmaak behouden blijft.
 
 ### Is het mogelijk om tekst toe te voegen aan een specifieke positie in het doeldocument?
-Ja, u kunt tekst aan elke gewenste positie toevoegen door naar het juiste knooppunt in het doeldocument te navigeren.
+Ja, u kunt tekst op elke gewenste positie toevoegen door naar het juiste knooppunt in het doeldocument te navigeren.
 
 ### Kan ik tekst van een bladwijzer aan een nieuwe sectie toevoegen?
 Ja, u kunt een nieuwe sectie in het doeldocument maken en de tekst daar toevoegen.

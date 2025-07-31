@@ -158,7 +158,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nTOC added successfully to an existing PDF.\nFile saved at " + dataDir);
 ```
 
-## المشاكل والحلول الشائعة
+## القضايا والحلول الشائعة
 
 **المشكلة 1: روابط جدول المحتويات لا تعمل**
 *حل*:تأكد من أن `DestinationPage` المراجع صحيحة. تذكر أن فهرسة الصفحات تبدأ من ١، وليس ٠.

@@ -129,7 +129,7 @@ Operações avançadas de planilhas para automação profissional do Excel e ger
 - **[Teste grátis](https://releases.aspose.com/cells/net/)** - Avalie todos os recursos
 
 ### **Comunidade e Suporte**
-- **[Fórum de Suporte](https://forum.aspose.com/c/cells/9)** - Obtenha ajuda de especialistas
+- **[Fórum de Suporte](https://forum.aspose.com/c/cells/9)** Obtenha ajuda de especialistas
 
 ### **Licenciamento e testes**
 - **[Licença Temporária](https://purchase.conholdate.com/temporary-license/)** - Avaliação estendida

@@ -31,7 +31,7 @@ Extraer archivos adjuntos es una tarea vital, ya sea que estés creando un clien
 
 Los archivos adjuntos en formato de encapsulación neutral de transporte (TNEF) a menudo parecen como descifrar un código secreto. Pero con Aspose.Email para .NET, gestionar el TNEF es tan sencillo como abrir un regalo bien envuelto. Tanto si trabaja con solicitudes de reunión como con formatos de correo electrónico enriquecidos, la biblioteca proporciona herramientas para procesar datos TNEF sin problemas. Empiece aquí: [Agregar archivos adjuntos TNEF en C# usando Aspose.Email para .NET](./add-tnef-attachments-in-csharp/).  
 
-## Tutoriales sobre cómo manejar archivos adjuntos de correo electrónico
+## Tutoriales sobre cómo manejar archivos adjuntos en correos electrónicos
 ### [Agregar archivos adjuntos de correo electrónico en C# usando Aspose.Email para .NET](./add-email-attachments-in-csharp/)
 Aprenda a gestionar eficazmente los archivos adjuntos de correo electrónico en aplicaciones de C# con la potente biblioteca Aspose.Email para .NET. Esta guía completa abarca el proceso de configuración y la creación de mensajes de correo electrónico.
 ### [Agregar archivos adjuntos TNEF en C# usando Aspose.Email para .NET](./add-tnef-attachments-in-csharp/)

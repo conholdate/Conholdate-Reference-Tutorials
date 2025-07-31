@@ -76,7 +76,7 @@ using (Stream stream = File.OpenRead(dataDir + "Document.docx"))
 ```
 
 **¿Por qué utilizar un enfoque de flujo?** La carga de documentos a través de flujos de trabajo ofrece varias ventajas:
-- **Eficiencia de la memoria**:Los streams no cargan todo el archivo en la memoria a la vez
+- **Eficiencia de la memoria**:Los streams no cargan el archivo completo en la memoria a la vez
 - **Mejor manejo de errores**:Puedes detectar problemas de acceso a archivos de forma temprana
 - **Flexibilidad**: Funciona con archivos, flujos de red o flujos de memoria.
 

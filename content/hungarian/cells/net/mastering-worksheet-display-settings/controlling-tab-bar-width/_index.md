@@ -32,7 +32,7 @@ Kezdésként hozz létre egy új konzolalkalmazást a Visual Studio-ban. Adj hoz
 
 1. Kattintson a jobb gombbal a projektre a Megoldáskezelőben.
 2. Válassza a Hozzáadás → Hivatkozás lehetőséget.
-3. Böngésszen a következő könyvtárban: `Aspose.Cells.dll` és add hozzá.
+3. Böngésszen a könyvtárban, amely tartalmazza `Aspose.Cells.dll` és add hozzá.
 
 Adja hozzá a szükséges névteret a fájl tetejéhez:
 
@@ -67,7 +67,7 @@ workbook.Settings.ShowTabs = true; // Állítsa hamisra a fülek elrejtéséhez
 fülek láthatóvá tétele gyakran ideális a használhatóság szempontjából, de elrejtésük egyszerűsítheti a prezentációk elrendezését.
 
 ## 4. lépés: A tabulátorsáv szélességének beállítása
-A `SheetTabBarWidth` tulajdonság határozza meg, hogy a lapfülek mennyi helyet foglalnak el. Módosítsa ezt az értéket az igényei szerint.
+A `SheetTabBarWidth` tulajdonság határozza meg, hogy mennyi helyet foglalnak el a lapfülek. Módosítsa ezt az értéket az igényei szerint.
 
 ```csharp
 workbook.Settings.SheetTabBarWidth = 800; // Példa szélességre pixelben

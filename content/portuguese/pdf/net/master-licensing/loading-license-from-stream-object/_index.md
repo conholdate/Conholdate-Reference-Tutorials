@@ -87,7 +87,7 @@ Se você vir esta mensagem no seu console, parabéns! Você carregou a licença 
 
 ## Conclusão
 
-pronto! Você aprendeu a carregar uma licença de um objeto de fluxo no Aspose.PDF para .NET. Esta etapa é crucial para desbloquear todos os recursos que o Aspose.PDF oferece. Mantenha este guia à mão e você estará bem preparado para lidar com quaisquer tarefas de licenciamento de PDF que surgirem.
+E pronto! Você aprendeu a carregar uma licença de um objeto de fluxo no Aspose.PDF para .NET. Esta etapa é crucial para desbloquear todos os recursos que o Aspose.PDF oferece. Mantenha este guia à mão e você estará bem preparado para lidar com quaisquer tarefas de licenciamento de PDF que surgirem.
 
 ## Perguntas frequentes
 

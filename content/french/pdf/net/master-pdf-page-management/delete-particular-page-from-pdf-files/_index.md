@@ -17,7 +17,7 @@ Avant de commencer, assurez-vous d’avoir les éléments suivants à dispositio
 
 1. Bibliothèque Aspose.PDF pour .NET : téléchargez-la depuis [Le site d'Aspose](https://releases.aspose.com/pdf/net/).
 2. Environnement .NET : assurez-vous que votre machine dispose d’un environnement .NET configuré.
-3. Fichier PDF : Vous aurez besoin d'un PDF de plusieurs pages. Si vous n'en avez pas, pensez à créer un PDF de test.
+3. Fichier PDF : vous aurez besoin d'un PDF de plusieurs pages. Si vous n'en avez pas, pensez à créer un PDF de test.
 4. Licence temporaire ou complète : Bien qu'une période d'essai puisse être utilisée, demandez une [permis temporaire](https://purchase.aspose.com/temporary-license/) si vous avez besoin de fonctionnalités étendues sans limitations.
 
 ## Étape 1 : Importer les packages nécessaires

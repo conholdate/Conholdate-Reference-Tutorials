@@ -25,7 +25,7 @@ Nu deze voorwaarden vervuld zijn, kunnen we aan de slag!
 ## Uw project instellen
 
 1. Open uw ontwikkelomgeving: start Visual Studio of uw favoriete IDE.
-2. Een nieuw project maken: een nieuw C# Console Application-project opzetten (bijv. `ConvertTableToRangeExample`).
+2. Een nieuw project maken: een nieuw C# Console Application-project instellen (bijv. `ConvertTableToRangeExample`).
 3. Voeg Aspose.Cells-referentie toe: Als u via NuGet hebt geïnstalleerd, zoek dan naar Aspose.Cells en voeg het toe aan uw project. U kunt ook naar de DLL verwijzen als u deze handmatig hebt gedownload.
 
 ## Noodzakelijke naamruimten importeren
@@ -39,7 +39,7 @@ using Aspose.Cells;
 using Aspose.Cells.Tables;
 ```
 
-Laten we de tabel nu omzetten naar een normaal bereik!
+Laten we nu de tabel omzetten naar een normaal bereik!
 
 ## Stap 1: Definieer uw documentenmap
 
@@ -92,7 +92,7 @@ Console.WriteLine("Table conversion to range executed successfully.\n");
 
 ## Conclusie
 
-Gefeliciteerd! Je hebt met succes geleerd hoe je een tabel naar een normaal bereik converteert met Aspose.Cells voor .NET. Deze functionaliteit is van onschatbare waarde voor gegevensmanipulatie en -rapportage in Excel. Met wat oefening zul je deze krachtige bibliotheek onder de knie krijgen en je mogelijkheden voor gegevensverwerking verbeteren.
+Gefeliciteerd! Je hebt met succes geleerd hoe je een tabel naar een normaal bereik converteert met Aspose.Cells voor .NET. Deze functionaliteit is van onschatbare waarde voor gegevensbewerking en -rapportage in Excel. Met wat oefening zul je deze krachtige bibliotheek onder de knie krijgen en je mogelijkheden voor gegevensverwerking verbeteren.
 
 ## Veelgestelde vragen
 

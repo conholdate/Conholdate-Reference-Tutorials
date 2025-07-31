@@ -23,7 +23,7 @@ Toniesz w długich dokumentach? Nie jesteś sam. W dzisiejszym świecie przepeł
 
 To właśnie tam znajduje się potężna kombinacja **Aspose.Words dla modeli .NET i OpenAI** Wchodzi. Ta integracja zmienia sposób, w jaki przetwarzasz dokumenty, automatycznie generując dokładne podsumowania, które oddają istotę Twoich treści. W tym kompleksowym przewodniku dowiesz się dokładnie, jak wdrożyć zautomatyzowane rozwiązania do podsumowań dokumentów, które zaoszczędzą Ci wiele godzin ręcznej pracy.
 
-Po ukończeniu tego samouczka będziesz dysponować systemem podsumowania dokumentów roboczych, który może obsługiwać pojedyncze dokumenty, przetwarzać wiele plików jednocześnie i płynnie integrować się z istniejącymi aplikacjami .NET.
+Po ukończeniu tego samouczka będziesz dysponować systemem podsumowania dokumentów roboczych, który obsługuje pojedyncze dokumenty, przetwarza wiele plików jednocześnie i bezproblemowo integruje się z istniejącymi aplikacjami .NET.
 
 ## Dlaczego podsumowanie dokumentów ma znaczenie w nowoczesnym rozwoju
 
@@ -61,7 +61,7 @@ Install-Package Aspose.Words
 
 ### Zabezpieczanie klucza API OpenAI
 
-Aby uzyskać dostęp do ich modeli językowych, potrzebny będzie klucz API OpenAI. Przejdź do [Strona internetowa OpenAI](https://openai.com/), załóż konto i pobierz swój klucz API. **Nigdy nie koduj tego klucza na stałe** – w dalszej części poradnika pokażemy Ci bezpieczny sposób postępowania.
+Aby uzyskać dostęp do ich modeli językowych, potrzebny będzie klucz API OpenAI. Przejdź do [Strona internetowa OpenAI](https://openai.com/)załóż konto i pobierz swój klucz API. **Nigdy nie koduj tego klucza na stałe** – w dalszej części poradnika pokażemy Ci bezpieczny sposób postępowania.
 
 ### Konfiguracja środowiska programistycznego
 Chociaż możesz używać dowolnego środowiska IDE zgodnego z .NET, **Visual Studio** zapewnia najlepsze doświadczenie w tym samouczku, z doskonałą obsługą IntelliSense i możliwościami debugowania zarówno dla Aspose.Words, jak i integracji API.
@@ -105,7 +105,7 @@ Document doc1 = new Document(MyDir + "BigDocument.docx");
 Document doc2 = new Document(MyDir + "AnotherDocument.docx");
 ```
 
-**Wskazówka dotycząca wydajności**W przypadku dużych dokumentów warto rozważyć ładowanie ich asynchronicznie, aby zapobiec blokowaniu interfejsu użytkownika w aplikacjach desktopowych. Aspose.Words sprawnie zarządza pamięcią, ale bardzo duże pliki (>100 MB) mogą skorzystać z metod strumieniowych.
+**Wskazówka dotycząca wydajności**przypadku dużych dokumentów warto rozważyć ładowanie ich asynchronicznie, aby zapobiec blokowaniu interfejsu użytkownika w aplikacjach desktopowych. Aspose.Words sprawnie zarządza pamięcią, ale bardzo duże pliki (>100 MB) mogą skorzystać z metod strumieniowych.
 
 ### Krok 3: Bezpieczne zarządzanie kluczami API
 

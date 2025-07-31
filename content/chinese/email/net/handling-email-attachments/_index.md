@@ -13,7 +13,7 @@
 
 ## 添加电子邮件附件  
 
-您是否曾经需要通过电子邮件发送发票或图片？使用 Aspose.Email for .NET，您可以轻松添加文件。该库支持添加多种类型的文件，非常适合发送从文本文档到多媒体文件的任何内容。查看我们的详细指南，了解分步说明： [使用 Aspose.Email for .NET 在 C# 中添加电子邮件附件](./add-email-attachments-in-csharp/).  
+您是否需要通过电子邮件发送发票或图片？使用 Aspose.Email for .NET，您可以轻松添加文件。该库支持添加多种类型的文件，非常适合发送从文本文档到多媒体文件的任何内容。查看我们的详细指南，了解分步说明： [使用 Aspose.Email for .NET 在 C# 中添加电子邮件附件](./add-email-attachments-in-csharp/).  
 
 ## 检测并提取附件  
 

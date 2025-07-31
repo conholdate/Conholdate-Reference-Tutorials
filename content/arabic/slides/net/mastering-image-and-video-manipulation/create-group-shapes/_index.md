@@ -1,27 +1,28 @@
 ---
-title: إنشاء أشكال المجموعات في PowerPoint باستخدام Aspose.Slides لـ .NET
-linktitle: إنشاء أشكال المجموعات في PowerPoint باستخدام Aspose.Slides لـ .NET
-second_title: واجهة برمجة تطبيقات معالجة PowerPoint الخاصة بـ Aspose.Slides .NET
-description: تعرف على كيفية إنشاء أشكال المجموعات وإدارتها باستخدام Aspose.Slides for .NET. يوفر هذا الدليل الشامل تعليمات واضحة خطوة بخطوة.
-weight: 11
-url: /ar/slides/mastering-image-and-video-manipulation/create-group-shapes/
+"description": "تعرّف على كيفية إنشاء أشكال المجموعات وإدارتها باستخدام Aspose.Slides لـ .NET. يقدم هذا الدليل الشامل تعليمات واضحة خطوة بخطوة."
+"linktitle": "إنشاء أشكال المجموعة في PowerPoint باستخدام Aspose.Slides لـ .NET"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint لـ Aspose.Slides .NET"
+"title": "إنشاء أشكال المجموعة في PowerPoint باستخدام Aspose.Slides لـ .NET"
+"url": "/ar/slides/net/mastering-image-and-video-manipulation/create-group-shapes/"
+"weight": 11
 ---
+
 ## مقدمة
 
-إن تحسين المظهر المرئي وتنظيم عروض PowerPoint الخاصة بك يمكن أن يؤثر بشكل كبير على تفاعل الجمهور. إحدى الطرق الفعّالة لتحقيق ذلك هي من خلال أشكال المجموعات. في هذا البرنامج التعليمي، سنستكشف كيفية الاستفادة من Aspose.Slides for .NET لإنشاء أشكال المجموعات في عروضك التقديمية والتلاعب بها.
+إن تحسين المظهر العام لعروض PowerPoint التقديمية وتنظيمها يُؤثر بشكل كبير على تفاعل جمهورك. ومن الطرق الفعّالة لتحقيق ذلك استخدام أشكال المجموعات. في هذا البرنامج التعليمي، سنستكشف كيفية استخدام Aspose.Slides for .NET لإنشاء أشكال المجموعات وتعديلها في عروضك التقديمية.
 
 ## المتطلبات الأساسية
 
 قبل الغوص في البرنامج التعليمي، تأكد من أن لديك ما يلي:
 
--  Aspose.Slides لـ .NET: قم بتنزيل أحدث إصدار من مكتبة Aspose.Slides وتثبيته من[موقع اسبوس](https://releases.aspose.com/slides/net/).
-- بيئة التطوير: قم بإعداد IDE متوافق مع .NET، مثل Visual Studio، للعمل على مشروعك.
+- Aspose.Slides لـ .NET: قم بتنزيل أحدث إصدار من مكتبة Aspose.Slides وتثبيته من [موقع Aspose](https://releases.aspose.com/slides/net/).
+- بيئة التطوير: قم بإعداد بيئة تطوير متكاملة متوافقة مع .NET، مثل Visual Studio، للعمل على مشروعك.
 - المعرفة الأساسية بلغة C#: تعرف على المفاهيم الأساسية للغة C#.
 
 
-## استيراد المساحات الاسمية الضرورية
+## استيراد مساحات الأسماء الضرورية
 
-في مشروع C# الخاص بك، ابدأ بتضمين المساحات الأسماءية التالية:
+في مشروع C# الخاص بك، ابدأ بتضمين مساحات الأسماء التالية:
 
 ```csharp
 using Aspose.Slides.Export;
@@ -30,7 +31,7 @@ using Aspose.Slides;
 
 ## الخطوة 1: إنشاء مثيل لفئة العرض التقديمي
 
- إنشاء مثيل لـ`Presentation`الصف الذي ستعمل فيه على شرائحك. حدد الدليل الذي يتم تخزين مستنداتك فيه:
+إنشاء مثيل لـ `Presentation` الصف الذي ستعمل فيه على شرائحك. حدد المجلد الذي تُخزّن فيه مستنداتك:
 
 ```csharp
 string dataDir = "Your Documents Directory";
@@ -93,26 +94,26 @@ pres.Save(dataDir + "GroupShape_out.pptx", SaveFormat.Pptx);
 
 ## خاتمة
 
-تهانينا! لقد نجحت في إنشاء أشكال مجموعات في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. من خلال تنظيم الأشكال بهذه الطريقة، يمكنك تحسين التخطيط المرئي ووضوح المحتوى بشكل كبير، مما يجعل عروضك التقديمية أكثر تأثيرًا.
+تهانينا! لقد نجحت في إنشاء أشكال المجموعات في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ .NET. بتنظيم الأشكال بهذه الطريقة، يمكنك تحسين المظهر المرئي ووضوح المحتوى بشكل كبير، مما يجعل عروضك التقديمية أكثر تأثيرًا.
 
 ## الأسئلة الشائعة
 
 ### هل Aspose.Slides متوافق مع أحدث إصدار من .NET؟
 
- نعم، يتم تحديث Aspose.Slides بانتظام للتوافق مع أحدث إصدارات .NET. تحقق من[التوثيق](https://reference.aspose.com/slides/net/) للحصول على أحدث تفاصيل التوافق.
+نعم، يتم تحديث Aspose.Slides بانتظام للتوافق مع أحدث إصدارات .NET. تحقق من [التوثيق](https://reference.aspose.com/slides/net/) للحصول على أحدث تفاصيل التوافق.
 
 ### هل يمكنني تجربة Aspose.Slides قبل الشراء؟
 
- بالتأكيد! يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+بالتأكيد! يمكنك تنزيل نسخة تجريبية مجانية. [هنا](https://releases.aspose.com/).
 
 ### أين يمكنني العثور على الدعم للاستعلامات المتعلقة بـ Aspose.Slides؟
 
- قم بزيارة موقع Aspose.Slides[منتدى](https://forum.aspose.com/c/slides/11) للدعم المجتمعي والمناقشات.
+قم بزيارة Aspose.Slides [المنتدى](https://forum.aspose.com/c/slides/11) لدعم المجتمع والمناقشات.
 
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides؟
 
- يمكنك طلب ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+يمكنك طلب ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
 ### أين يمكنني شراء ترخيص كامل لـ Aspose.Slides؟
 
- يمكنك شراء ترخيص من[صفحة الشراء](https://purchase.aspose.com/buy).
+يمكنك شراء ترخيص من [صفحة الشراء](https://purchase.aspose.com/buy).

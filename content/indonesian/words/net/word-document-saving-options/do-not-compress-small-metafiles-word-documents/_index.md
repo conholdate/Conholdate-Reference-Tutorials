@@ -66,7 +66,7 @@ DocSaveOptions saveOptions = new DocSaveOptions {
 };
 ```
 
-Langkah ini membuat contoh `DocSaveOptions` dan mengatur `Compliance` properti untuk `PdfCompliance.PdfA1a`, memastikan dokumen mematuhi standar PDF/A-1a.
+Langkah ini membuat sebuah contoh `DocSaveOptions` dan mengatur `Compliance` properti untuk `PdfCompliance.PdfA1a`, memastikan dokumen mematuhi standar PDF/A-1a.
 
 ## Langkah 4: Simpan Dokumen
 

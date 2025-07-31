@@ -53,7 +53,7 @@ Successivamente, recupera i nomi di tutti i file PDF nella tua directory. Questo
 string[] fileEntries = Directory.GetFiles(dataDir, "*.pdf");
 ```
 
-Utilizzo `Directory.GetFiles`, filtriamo e otteniamo solo i file PDF, assicurandoci di raccogliere tutti i documenti rilevanti.
+Utilizzando `Directory.GetFiles`, filtriamo e otteniamo solo i file PDF, assicurandoci di raccogliere tutti i documenti rilevanti.
 
 ## Passaggio 3: scorrere ogni file PDF
 

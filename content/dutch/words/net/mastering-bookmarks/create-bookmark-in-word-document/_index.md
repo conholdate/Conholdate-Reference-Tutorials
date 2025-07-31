@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Navigeren door grote documenten kan een uitdaging zijn, maar bladwijzers maken het een fluitje van een cent! Deze tutorial begeleidt je bij het maken van bladwijzers in een Word-document met Aspose.Words voor .NET. Je leert stap voor stap hoe je je document opzet, bladwijzers toevoegt en opslaat als PDF. Aan de slag!
+Navigeren door grote documenten kan een uitdaging zijn, maar bladwijzers maken het een fluitje van een cent! Deze tutorial begeleidt je bij het maken van bladwijzers in een Word-document met Aspose.Words voor .NET. Je leert stap voor stap hoe je je document opzet, bladwijzers toevoegt en opslaat als PDF. Laten we beginnen!
 
 ## Vereisten
 
@@ -38,7 +38,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Stap 2: De hoofdbladwijzer maken
+## Stap 2: Maak de hoofdbladwijzer
 
 Om een bladwijzer te maken, moet u het begin- en eindpunt opgeven. Zo maakt u een bladwijzer met de naam 'Mijn bladwijzer':
 
@@ -94,7 +94,7 @@ De `Save` Met deze methode wordt het document opgeslagen in de opgegeven indelin
 
 ## Conclusie
 
-Bladwijzers maken in een Word-document met Aspose.Words voor .NET is eenvoudig en verbetert de documentnavigatie. Of u nu rapporten, e-books genereert of uitgebreide documenten beheert, bladwijzers zijn onmisbaar. Volg deze tutorial en u hebt in een mum van tijd een overzichtelijke PDF met bladwijzers!
+Bladwijzers maken in een Word-document met Aspose.Words voor .NET is eenvoudig en verbetert de documentnavigatie. Of u nu rapporten of e-books genereert of uitgebreide documenten beheert, bladwijzers zijn onmisbaar. Volg deze tutorial en u hebt in een mum van tijd een overzichtelijke PDF met bladwijzers!
 
 ## Veelgestelde vragen
 

@@ -84,7 +84,7 @@ var message = MailMessage.Load("path/to/your/email.eml");
 // Acceder a las propiedades del mensaje
 var subject = message.Subject;
 var sender = message.From.Address;
-// ...otras propiedades según sea necesario
+// ... otras propiedades según sea necesario
 ```
 
 **Qué hace este código**: El `MailMessage.Load()` El método es increíblemente versátil: detecta y carga automáticamente EML, MSG y otros formatos de correo electrónico comunes. Una vez cargado, tendrá acceso a todas las propiedades del correo electrónico, incluyendo encabezados, contenido del cuerpo, archivos adjuntos y metadatos.
@@ -102,7 +102,7 @@ var timezoneInfo = TimeZoneInfo.FindSystemTimeZoneById(timezoneId);
 // Ahora puedes usar timezoneInfo para gestionar las conversiones de zona horaria
 ```
 
-**Por qué esto importa**Los clientes de correo electrónico suelen almacenar las marcas de tiempo de diferentes maneras. Algunos usan UTC con información de diferencia horaria, mientras que otros almacenan la hora local. Al convertir al formato MHT sin una gestión adecuada de la zona horaria, es posible que las marcas de tiempo tengan horas de diferencia, lo cual puede ser crucial en contextos comerciales o legales.
+**Por qué esto es importante**Los clientes de correo electrónico suelen almacenar las marcas de tiempo de diferentes maneras. Algunos usan UTC con información de diferencia horaria, mientras que otros almacenan la hora local. Al convertir al formato MHT sin una gestión adecuada de la zona horaria, es posible que las marcas de tiempo tengan horas de diferencia, lo cual puede ser crucial en contextos comerciales o legales.
 
 **Mejores prácticas**Valide siempre la información de la zona horaria antes de la conversión. Si el correo electrónico de origen contiene datos de zona horaria inválidos o incompletos, considere usar la zona horaria local del sistema como alternativa, pero registre esta decisión para fines de auditoría.
 
@@ -177,7 +177,7 @@ Estos son los problemas más frecuentes que enfrentan los desarrolladores al imp
 
 ## Mejores prácticas para el uso en producción
 
-Al implementar la conversión de MHT de correo electrónico en aplicaciones de producción, tenga en cuenta estas pautas:
+Al implementar la conversión de correo electrónico MHT en aplicaciones de producción, tenga en cuenta estas pautas:
 
 **Manejo de errores**: Siempre envuelva su código de conversión en bloques try-catch. Los archivos de correo electrónico pueden estar dañados o tener formatos inesperados, y la gestión de errores eficiente evita fallos en la aplicación.
 

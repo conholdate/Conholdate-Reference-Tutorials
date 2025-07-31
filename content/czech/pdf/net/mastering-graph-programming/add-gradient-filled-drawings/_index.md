@@ -9,7 +9,7 @@
 
 ## Zavedení
 
-V dnešní digitální krajině je vytváření vizuálně přitažlivých dokumentů prvořadé. Jedním z účinných způsobů, jak vylepšit své PDF dokumenty, je začlenění kreseb s přechodovými výplněmi. Tato příručka vás provede procesem použití Aspose.PDF pro .NET k přidání úžasných přechodových výplní do vašich PDF souborů. Začněme!
+V dnešní digitální krajině je vytváření vizuálně přitažlivých dokumentů prvořadé. Jedním z efektivních způsobů, jak vylepšit vaše PDF dokumenty, je začlenění kreseb s přechodovými výplněmi. Tato příručka vás provede procesem použití Aspose.PDF pro .NET k přidání úžasných přechodových výplní do vašich PDF souborů. Začněme!
 
 ## Předpoklady
 

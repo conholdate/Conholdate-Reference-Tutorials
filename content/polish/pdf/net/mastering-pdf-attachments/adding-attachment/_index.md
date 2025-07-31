@@ -69,7 +69,7 @@ Dodaj plik do kolekcji załączników dokumentu za pomocą `EmbeddedFiles.Add` m
 pdfDocument.EmbeddedFiles.Add(fileSpecification);
 ```  
 
-Każdy załącznik jest przechowywany w `EmbeddedFiles` zbiór dokumentów.  
+Każdy załącznik jest przechowywany w `EmbeddedFiles` zbiór dokumentu.  
 
 ## Krok 4: Zapisz zaktualizowany plik PDF  
 

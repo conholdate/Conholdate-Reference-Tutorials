@@ -101,7 +101,7 @@ Ja, Aspose bietet eine kostenlose Testversion an, mit der Sie die Bibliothek tes
 Die komplette Dokumentation ist verfügbar [Hier](https://reference.aspose.com/pdf/net/).
 
 ### Wie erwerbe ich eine Lizenz für Aspose.PDF?
-Sie können eine Lizenz erwerben bei der [Kaufseite](https://purchase.aspose.com/buy).
+Sie können eine Lizenz erwerben bei [Kaufseite](https://purchase.aspose.com/buy).
 
 ### Was soll ich tun, wenn ich auf Probleme stoße?
 Wenn Sie auf Probleme stoßen, können Sie Hilfe auf der [Aspose-Supportforum](https://forum.aspose.com/c/pdf/10).

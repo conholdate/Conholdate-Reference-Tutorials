@@ -30,7 +30,7 @@ Avant de nous plonger dans le code, assurons-nous que tout est correctement conf
 
 1. **Visual Studio**: Téléchargez et installez Visual Studio depuis [ici](https://visualstudio.microsoft.com/vs/). Toute version récente fonctionnera parfaitement.
 2. **Aspose.Cells pour .NET**:Voici votre arme secrète pour manipuler Excel. Vous pouvez la télécharger depuis le [site](https://releases.aspose.com/cells/net/).
-3. **Connaissances de base en C#**:Vous n’avez pas besoin d’être un gourou de C#, mais une familiarité avec les concepts de base vous aidera à suivre en douceur.
+3. **Connaissances de base en C#**:Vous n’avez pas besoin d’être un gourou de C#, mais la familiarité avec les concepts de base vous aidera à suivre en douceur.
 4. **Répertoire de documents**Créez un dossier dédié sur votre ordinateur pour stocker vos fichiers Excel pour ce tutoriel. L'organisation est essentielle !
 
 Tout est prêt ? Parfait ! Importons les paquets nécessaires.

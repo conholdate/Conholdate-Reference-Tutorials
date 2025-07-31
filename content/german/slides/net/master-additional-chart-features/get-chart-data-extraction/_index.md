@@ -1,11 +1,12 @@
 ---
-title: Extrahieren Sie Diagrammdaten in PowerPoint mit Aspose.Slides
-linktitle: Extrahieren Sie Diagrammdaten in PowerPoint mit Aspose.Slides
-second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Nutzen Sie die Leistungsfähigkeit von Aspose.Slides für .NET, indem Sie lernen, wie Sie den Datenbereich programmgesteuert aus Diagrammen in Ihren PowerPoint-Präsentationen extrahieren. Diese Schritt-für-Schritt-Anleitung enthält klare Anweisungen.
-weight: 11
-url: /de/slides/master-additional-chart-features/get-chart-data-extraction/
+"description": "Entdecken Sie die Leistungsfähigkeit von Aspose.Slides für .NET, indem Sie lernen, wie Sie den Datenbereich aus Diagrammen in Ihren PowerPoint-Präsentationen programmgesteuert extrahieren. Diese Schritt-für-Schritt-Anleitung bietet klare Anweisungen."
+"linktitle": "Holen Sie sich Diagrammdatenextraktion in PowerPoint mit Aspose.Slides"
+"second_title": "Aspose.Slides .NET PowerPoint-Verarbeitungs-API"
+"title": "Holen Sie sich Diagrammdatenextraktion in PowerPoint mit Aspose.Slides"
+"url": "/de/slides/net/master-additional-chart-features/get-chart-data-extraction/"
+"weight": 11
 ---
+
 ## Einführung
 
 Möchten Sie den Datenbereich aus einem Diagramm in Ihrer PowerPoint-Präsentation mit Aspose.Slides für .NET extrahieren? Dann sind Sie hier richtig! Diese Schritt-für-Schritt-Anleitung zeigt Ihnen, wie Sie den Diagrammdatenbereich programmgesteuert abrufen und dabei die leistungsstarken Funktionen von Aspose.Slides nutzen.
@@ -14,7 +15,7 @@ Möchten Sie den Datenbereich aus einem Diagramm in Ihrer PowerPoint-Präsentati
 
 Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
-1.  Aspose.Slides für .NET: Laden Sie es herunter und installieren Sie es von[Hier](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides für .NET: Laden Sie es herunter und installieren Sie es von [Hier](https://releases.aspose.com/slides/net/).
 2. Entwicklungsumgebung: Richten Sie eine IDE wie Visual Studio ein.
 
 ## Schritt 1: Erforderliche Namespaces importieren
@@ -34,7 +35,7 @@ Erstellen Sie als Nächstes ein Präsentationsobjekt, das Ihre PowerPoint-Datei 
 ```csharp
 using (Presentation pres = new Presentation())
 {
-    // Der Code zum Hinzufügen eines Diagramms wird hier eingefügt
+    // Der Code zum Hinzufügen eines Diagramms wird hier eingefügt.
 }
 ```
 
@@ -56,7 +57,7 @@ string result = chart.ChartData.GetRange();
 
 ## Schritt 5: Ergebnis anzeigen
 
-Drucken Sie abschließend den Datenbereich des Diagramms auf der Konsole aus:
+Drucken Sie abschließend den Diagrammdatenbereich auf der Konsole aus:
 
 ```csharp
 Console.WriteLine("Chart Data Range: {0}", result);
@@ -69,16 +70,16 @@ In diesem Tutorial haben Sie gelernt, wie Sie mit Aspose.Slides für .NET den Di
 ## Häufig gestellte Fragen
 
 ### Ist Aspose.Slides für .NET mit den neuesten Versionen von Microsoft PowerPoint kompatibel?
-Ja, Aspose.Slides für .NET unterstützt verschiedene PowerPoint-Dateiformate, einschließlich der neuesten. Einzelheiten finden Sie in der Dokumentation.
+Ja, Aspose.Slides für .NET unterstützt verschiedene PowerPoint-Dateiformate, einschließlich der neuesten. Weitere Informationen finden Sie in der Dokumentation.
 
 ### Kann ich mit Aspose.Slides für .NET andere Elemente in einer PowerPoint-Präsentation bearbeiten?
 Auf jeden Fall! Sie können in Ihren Präsentationen mit Folien, Formen, Text, Bildern und mehr arbeiten.
 
 ### Gibt es eine kostenlose Testversion für Aspose.Slides für .NET?
- Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
+Ja, Sie können eine kostenlose Testversion herunterladen von [Hier](https://releases.aspose.com/).
 
 ### Wie kann ich eine temporäre Lizenz für Aspose.Slides für .NET erhalten?
- Fordern Sie eine temporäre Lizenz an[Hier](https://purchase.aspose.com/temporary-license/).
+Fordern Sie eine temporäre Lizenz an [Hier](https://purchase.aspose.com/temporary-license/).
 
 ### Welche Supportoptionen stehen für Aspose.Slides für .NET-Benutzer zur Verfügung?
- Sie finden Unterstützung und Hilfe von der Aspose-Community auf deren[Support-Forum](https://forum.aspose.com/).
+Sie finden Unterstützung und Hilfe von der Aspose-Community auf deren [Support-Forum](https://forum.aspose.com/).

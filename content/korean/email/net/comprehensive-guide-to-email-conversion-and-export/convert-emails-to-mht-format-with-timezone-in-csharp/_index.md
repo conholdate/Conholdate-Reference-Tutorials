@@ -146,7 +146,7 @@ message.Save(mhtStream, customMhtOptions);
 이메일을 MHT 형식으로 변환한 후 올바르게 저장하는 방법은 다음과 같습니다.
 
 ```csharp
-// MHT 스트림을 파일에 저장
+// MHT 스트림을 파일에 저장합니다.
 using var fileStream = new FileStream("output.mht", FileMode.Create);
 mhtStream.Seek(0, SeekOrigin.Begin);
 mhtStream.CopyTo(fileStream);
@@ -160,7 +160,7 @@ mhtStream.CopyTo(fileStream);
 
 개발자가 이메일을 MHT로 변환할 때 가장 자주 마주치는 문제는 다음과 같습니다.
 
-**문제**: MHT 파일에 첨부 파일이 나타나지 않음
+**문제**: MHT 파일에 첨부 파일이 나타나지 않습니다.
 **해결책**: 보장하다 `SaveAttachments` 로 설정됩니다 `true` MhtSaveOptions에서 확인하세요. 또한 원본 이메일에 예상한 첨부 파일이 실제로 포함되어 있는지도 확인하세요.
 
 **문제**: 시간대 정보가 올바르지 않습니다.

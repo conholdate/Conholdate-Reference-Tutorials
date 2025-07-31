@@ -219,7 +219,7 @@ Per l'elaborazione di documenti su larga scala:
 
 Implementare la limitazione della frequenza per rimanere entro le quote dell'API Google AI:
 
-- Monitora regolarmente l'utilizzo delle tue API
+- Monitora regolarmente l'utilizzo della tua API
 - Implementare il backoff esponenziale per gli errori di limite di velocità
 - Valutare la memorizzazione nella cache dei riepiloghi per i documenti a cui si accede frequentemente
 
@@ -303,7 +303,7 @@ Sì! La soluzione .NET per il riepilogo dei documenti supporta l'elaborazione ba
 ### Come posso controllare la lunghezza e la qualità del riepilogo?
 
 Puoi controllare la lunghezza del riepilogo utilizzando `SummaryLength` opzione all'interno del `SummarizeOptions` classe:
-- **Corto**: 1-3 paragrafi per panoramiche rapide
+- **Corto**: 1-3 paragrafi per rapide panoramiche
 - **Medio**: 3-5 paragrafi per dettagli bilanciati
 - **Lungo**: 5+ paragrafi per riassunti completi
 

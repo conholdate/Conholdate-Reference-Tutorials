@@ -1,5 +1,5 @@
 ---
-"description": "Leer hoe u papierformaatinstellingen in Excel-werkbladen efficiënt kunt beheren en controleren met Aspose.Cells voor .NET. Deze uitgebreide handleiding biedt stapsgewijze instructies."
+"description": "Leer hoe u papierformaatinstellingen in Excel-werkbladen efficiënt kunt beheren en verifiëren met Aspose.Cells voor .NET. Deze uitgebreide handleiding biedt stapsgewijze instructies."
 "linktitle": "Controleren of de papierformaatinstellingen van het werkblad automatisch zijn"
 "second_title": "Aspose.Cells .NET Excel-verwerkings-API"
 "title": "Controleren of de papierformaatinstellingen van het werkblad automatisch zijn"
@@ -18,7 +18,7 @@ Voordat we beginnen met coderen, willen we ervoor zorgen dat je over de benodigd
    
 2. Aspose.Cells-bibliotheek: Zorg ervoor dat u de Aspose.Cells-bibliotheek hebt. U kunt deze eenvoudig downloaden van [Aspose](https://releases.aspose.com/cells/net/).
 
-3. Basiskennis van C#: Kennis van de programmeerprincipes van C# helpt u de gegeven voorbeelden effectief te begrijpen.
+3. Basiskennis van C#: Kennis van de C#-programmeerprincipes helpt u de gegeven voorbeelden effectief te begrijpen.
 
 4. Voorbeeld-Excel-bestanden: Gebruik de volgende voorbeeldbestanden om mee te werken:
    - `samplePageSetupIsAutomaticPaperSize-False.xlsx`
@@ -29,7 +29,7 @@ Als u aan deze voorwaarden voldoet, kunt u beginnen!
 ## Uw project instellen
 
 ### Een nieuw project maken
-1. Visual Studio openen.
+1. Open Visual Studio.
 2. Maak een nieuw C# Console Application-project. Je kunt het de naam geven `CheckPaperSize`.
 
 ### Voeg Aspose.Cells-referentie toe
@@ -71,13 +71,13 @@ Worksheet ws2 = wb2.Worksheets[0];
 ```
 
 ## Stap 4: Controleer de eigenschap IsAutomaticPaperSize
-Om de instellingen voor het papierformaat te controleren, controleert u het volgende: `IsAutomaticPaperSize` eigendom:
+Om de instellingen voor het papierformaat te controleren, controleert u de `IsAutomaticPaperSize` eigendom:
 ```csharp
 // Geef de eigenschap PageSetup.IsAutomaticPaperSize van beide werkbladen weer
 Console.WriteLine("First Workbook - IsAutomaticPaperSize: " + ws1.PageSetup.IsAutomaticPaperSize);
 Console.WriteLine("Second Workbook - IsAutomaticPaperSize: " + ws2.PageSetup.IsAutomaticPaperSize);
 ```
-Hier wordt voor elk werkblad weergegeven of de functie voor automatische papierformaatbepaling is ingeschakeld.
+Hier wordt voor elk werkblad weergegeven of de functie voor automatische papierformaatinstelling is ingeschakeld.
 
 ## Stap 5: Bevestiging van de resultaten
 Druk ten slotte een succesbericht af om te bevestigen dat het programma succesvol is uitgevoerd:

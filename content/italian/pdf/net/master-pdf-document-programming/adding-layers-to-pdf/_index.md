@@ -163,7 +163,7 @@ Console.WriteLine("\nLayers added successfully to PDF file.\nFile saved at " + d
 
 Quando si lavora con i livelli PDF in .NET, tenere a mente questi suggerimenti sulle prestazioni:
 
-**Complessità degli strati**: Le forme geometriche semplici (come le nostre linee) hanno prestazioni migliori rispetto alla grafica complessa o alle immagini di grandi dimensioni all'interno di livelli.
+**Complessità degli strati**: Le forme geometriche semplici (come le nostre linee) hanno prestazioni migliori rispetto a grafiche complesse o immagini di grandi dimensioni all'interno di livelli.
 
 **Gestione della memoria**: Eliminare correttamente l'oggetto Documento, soprattutto quando si elaborano più PDF in operazioni batch.
 

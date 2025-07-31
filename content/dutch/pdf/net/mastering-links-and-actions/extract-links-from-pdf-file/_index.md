@@ -24,7 +24,7 @@ U kunt de nieuwste versie ook rechtstreeks downloaden van de [Aspose-website](ht
 3. Basiskennis van C#: Een basiskennis van C# helpt je om de cursus gemakkelijk te volgen. Maak je geen zorgen als je nieuw bent; we houden het overzichtelijk!
 4. Voorbeeld PDF-document: Je hebt een PDF-bestand met links nodig. Je kunt er zelf een maken of voorbeeld-PDF's van internet downloaden.
 
-Zodra alles is ingesteld, kunnen we beginnen!
+Nu alles is ingesteld, kunnen we beginnen!
 
 ## Importeer noodzakelijke naamruimten
 
@@ -57,7 +57,7 @@ Open vervolgens het PDF-document met Aspose.PDF:
 Document document = new Document(dataDir + "ExtractLinks.pdf");
 ```
 
-Zorg ervoor dat u vervangt `"ExtractLinks.pdf"` met de naam van uw PDF-bestand.
+Zorg ervoor dat u deze vervangt `"ExtractLinks.pdf"` met de naam van uw PDF-bestand.
 
 ## Stap 3: Selecteer de doelpagina
 
@@ -85,7 +85,7 @@ Laat de pagina weten dat deze de selector moet accepteren en de relevante annota
 page.Accept(selector);
 ```
 
-## Stap 6: De lijst met annotaties ophalen
+## Stap 6: Haal de lijst met annotaties op
 
 Verzamel alle geëxtraheerde links:
 

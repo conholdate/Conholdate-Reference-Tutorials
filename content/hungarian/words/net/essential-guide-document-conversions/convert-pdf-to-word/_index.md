@@ -245,7 +245,7 @@ Igen, az Aspose.Words kiválóan megőrzi az eredeti formázást a konvertálás
 Nagy PDF-ek esetén érdemes lehet a LoadOptions függvényt használni, hogy csak bizonyos oldalakat dolgozzon fel, ahol lehetséges, folyamatos szerkesztést alkalmazzon, és ügyeljen a Document objektumok megfelelő eltávolítására. Nagyon nagy fájlok esetén előfordulhat, hogy növelnie kell az alkalmazás memóriafoglalását is.
 
 ### Szükségem van licencre az Aspose.Words for .NET használatához?
-Míg az értékeléshez ideiglenes licenc áll rendelkezésre, kereskedelmi felhasználáshoz teljes licenc szükséges. Tekintse meg a [vásárlási oldal](https://purchase.conholdate.com/buy) további részletekért. A befektetés jellemzően olyan alkalmazásoknál éri meg, amelyek megbízható, nagy volumenű dokumentumfeldolgozást igényelnek.
+Míg az értékeléshez ideiglenes licenc áll rendelkezésre, kereskedelmi felhasználáshoz teljes licenc szükséges. Tekintse meg a [vásárlási oldal](https://purchase.conholdate.com/buy) további részletekért. A befektetés jellemzően olyan alkalmazásokhoz éri meg, amelyek megbízható, nagy volumenű dokumentumfeldolgozást igényelnek.
 
 ### Használhatom az Aspose.Words for .NET-et különböző operációs rendszereken?
 Igen! Az Aspose.Words for .NET többplatformos, és Windows, Linux és macOS rendszereken is használható. Ez a rugalmasság kiváló választássá teszi változatos telepítési környezetekhez és felhőalapú alkalmazásokhoz.

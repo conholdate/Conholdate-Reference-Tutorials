@@ -46,7 +46,7 @@ Nezapomeňte vyměnit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde je v
 
 ## Krok 3: Otevřete řádek podpisu
 
-Dále přejděte k řádku podpisu vloženému do dokumentu. Řádek podpisu je reprezentován jako objekt tvaru:
+Dále zpřístupněte řádek podpisu vložený do dokumentu. Řádek podpisu je reprezentován jako objekt tvaru:
 
 ```csharp
 SignatureLine signatureLine = ((Shape)doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true)).SignatureLine;

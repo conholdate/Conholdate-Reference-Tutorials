@@ -1,22 +1,23 @@
 ---
-title: Aspose.Zip for .NET ile Zip Dosyalarını Değiştirin
-linktitle: Zip Dosyalarını Değiştir
-second_title: Dosya Sıkıştırma ve Arşivleme için Aspose.Zip .NET API'si
-description: Zip dosyalarına program aracılığıyla girdileri etkin bir şekilde nasıl çıkaracağınızı, sileceğinizi ve ekleyeceğinizi öğrenerek dosya düzenleme yeteneklerinizi geliştirin.
-weight: 15
-url: /tr/zip/file-compress/modify-zip-files/
+"description": "Zip dosyalarına programlı olarak girdileri nasıl etkili bir şekilde çıkaracağınızı, sileceğinizi ve ekleyeceğinizi öğrenerek dosya düzenleme yeteneklerinizi geliştirin."
+"linktitle": "Zip Dosyalarını Değiştir"
+"second_title": "Dosya Sıkıştırma ve Arşivleme için Aspose.Zip .NET API'si"
+"title": "Aspose.Zip for .NET ile Zip Dosyalarını Değiştirin"
+"url": "/tr/zip/net/file-compress/modify-zip-files/"
+"weight": 15
 ---
+
 ## giriiş
 
-Zip dosyaları veri organizasyonu ve sıkıştırma için hayati önem taşır, ancak içeriklerini programatik olarak nasıl değiştirirsiniz? Çözüm, C# ile zip dosyası manipülasyonunu basitleştiren sağlam bir kütüphane olan .NET için Aspose.Zip'te yatmaktadır. Bu eğitimde, zip dosyalarına girişleri adım adım çıkarma, silme ve ekleme konusunda size rehberlik edeceğiz.
+Zip dosyaları veri düzenleme ve sıkıştırma için hayati önem taşır, ancak içeriklerini programatik olarak nasıl değiştirirsiniz? Çözüm, C# ile zip dosyası düzenlemeyi kolaylaştıran güçlü bir kütüphane olan .NET için Aspose.Zip'te yatıyor. Bu eğitimde, zip dosyalarına girişleri adım adım çıkarma, silme ve ekleme konusunda size rehberlik edeceğiz.
 
 ## Ön koşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Aspose.Zip for .NET Library: Kütüphaneyi projenize yükleyin. İndirebilirsiniz[Burada](https://releases.aspose.com/zip/net/).
+1. .NET için Aspose.Zip Kütüphanesi: Kütüphaneyi projenize yükleyin. İndirebilirsiniz. [Burada](https://releases.aspose.com/zip/net/).
    
-2.  Belge Dizini: Zip dosyalarınızı depolamak için bir dizin ayarlayın. Değiştir`"Your Document Directory"` gerçek yolunuzla birlikte kodda.
+2. Belge Dizini: Zip dosyalarınızı depolamak için bir dizin ayarlayın. Değiştir `"Your Document Directory"` gerçek yolunuzla kodda.
 
 ## Gerekli Ad Alanlarını İçe Aktar
 
@@ -34,19 +35,19 @@ using System.Threading.Tasks;
 
 ## Adım 1: Dış Zip Dosyasını Açın
 
-Öncelikle ana zip dosyanızı (dış zip) açın:
+Öncelikle ana zip dosyanızı (dış zip) açarak başlayın:
 
 ```csharp
 string dataDir = "Your Data Directory";
 using (Archive outer = new Archive(dataDir + "outer.zip"))
 {
-    // İç zip girişlerini tanımlamaya devam edin
+    // İç posta kodu girişlerini tanımlamaya devam edin
 }
 ```
 
-## Adım 2: İç Posta Kodu Girişlerini Tanımlayın
+## Adım 2: Dahili Posta Kodu Girişlerini Belirleyin
 
-Daha sonra, iç zip dosyalarını tanımlayın ve silmeye hazırlanın:
+Sonra, iç zip dosyalarını belirleyin ve silmeye hazırlanın:
 
 ```csharp
 List<ArchiveEntry> entriesToDelete = new List<ArchiveEntry>();
@@ -81,7 +82,7 @@ foreach (ArchiveEntry entry in outer.Entries)
 
 ## Adım 3: Dahili Arşiv Girişlerini Silin
 
-İhtiyacınız olan girdileri topladıktan sonra, iç zip girdilerini silin:
+İhtiyacınız olan girdileri topladıktan sonra iç zip girdilerini silin:
 
 ```csharp
 foreach (ArchiveEntry e in entriesToDelete)
@@ -90,9 +91,9 @@ foreach (ArchiveEntry e in entriesToDelete)
 }
 ```
 
-## Adım 4: Dış Zip'e Değiştirilmiş Girdileri Ekleyin
+## Adım 4: Dış Posta Koduna Değiştirilmiş Girdileri Ekleyin
 
-Artık yeni çıkartılan girdileri dış zip dosyanıza geri ekleyebilirsiniz:
+Artık yeni çıkarılan girdileri dış zip dosyanıza geri ekleyebilirsiniz:
 
 ```csharp
 for (int i = 0; i < namesToInsert.Count; i++)
@@ -111,7 +112,7 @@ outer.Save(dataDir + "flatten.zip");
 
 ## Çözüm
 
-.NET için Aspose.Zip, zip dosyalarını programatik olarak işlemek için güçlü ve basit bir yol sağlar. Bu eğitim, bir zip dosyasına girdi çıkarmayı, silmeyi ve eklemeyi ele alarak, kütüphanenin çok yönlülüğünü göstermektedir. Farklı senaryoları keşfedin ve dosya işleme becerilerinizi geliştirin!
+.NET için Aspose.Zip, zip dosyalarını programatik olarak düzenlemenin güçlü ve basit bir yolunu sunar. Bu eğitimde, bir zip dosyasına girdi çıkarma, silme ve ekleme konuları ele alınarak, kütüphanenin çok yönlülüğü gösterilmiştir. Farklı senaryoları keşfedin ve dosya düzenleme becerilerinizi geliştirin!
 
 ## SSS
 
@@ -119,13 +120,13 @@ outer.Save(dataDir + "flatten.zip");
 Aspose.Zip öncelikli olarak .NET uygulamaları için tasarlanmıştır, ancak Aspose çeşitli programlama dilleri için de benzer kütüphaneler sunmaktadır.
 
 ### Aspose.Zip for .NET için ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümü indirilebilir[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümü indirilebilir [Burada](https://releases.aspose.com/).
 
 ### Aspose.Zip for .NET desteğini nasıl alabilirim?
- Ziyaret edin[Aspose.Zip forumu](https://forum.aspose.com/c/zip/37) Destek ve tartışmalar için.
+Ziyaret edin [Aspose.Zip forumu](https://forum.aspose.com/c/zip/37) Destek ve tartışmalar için.
 
 ### Aspose.Zip for .NET için geçici bir lisans satın alabilir miyim?
-Evet, geçici bir lisans alabilirsiniz[Burada](https://purchase.conholdate.com/temporary-license/).
+Evet, geçici bir lisans alabilirsiniz [Burada](https://purchase.conholdate.com/temporary-license/).
 
-### Aspose.Zip for .NET'in belgelerini nerede bulabilirim?
- Tam dokümantasyon mevcuttur[Burada](https://reference.aspose.com/zip/net/).
+### Aspose.Zip for .NET'in dokümanlarını nerede bulabilirim?
+Tam dokümantasyon mevcuttur [Burada](https://reference.aspose.com/zip/net/).

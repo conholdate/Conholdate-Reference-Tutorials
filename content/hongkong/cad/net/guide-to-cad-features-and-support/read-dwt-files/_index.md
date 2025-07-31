@@ -1,11 +1,12 @@
 ---
-title: 使用 Aspose.CAD for .NET 讀取 DWT 文件
-linktitle: 讀取DWT文件
-second_title: Aspose.CAD .NET - CAD 和 BIM 檔案格式
-description: 逐步了解如何有效讀取 DWT 檔案、導航 CAD 實體以及將 CAD 功能無縫整合到您的專案中。
-weight: 13
-url: /zh-hant/cad/guide-to-cad-features-and-support/read-dwt-files/
+"description": "逐步了解如何有效讀取 DWT 檔案、導航 CAD 實體以及將 CAD 功能無縫整合到您的專案中。"
+"linktitle": "讀取 DWT 文件"
+"second_title": "Aspose.CAD .NET - CAD 和 BIM 檔案格式"
+"title": "使用 Aspose.CAD for .NET 讀取 DWT 文件"
+"url": "/zh-hant/cad/net/guide-to-cad-features-and-support/read-dwt-files/"
+"weight": 13
 ---
+
 ## 介紹
 
 Aspose.CAD for .NET 為在應用程式中處理 CAD 資料提供了強大的解決方案。本教學將引導您完成高效讀取 DWT 檔案的過程，使您能夠在 .NET 專案中無縫利用 CAD 的強大功能。 
@@ -14,9 +15,9 @@ Aspose.CAD for .NET 為在應用程式中處理 CAD 資料提供了強大的解�
 
 在我們開始實施之前，請確保您已準備好以下內容：
 
--  Aspose.CAD for .NET：從下列位置下載並安裝程式庫[阿斯普斯網站](https://releases.aspose.com/cad/net/).
-- 開發環境：設定適當的.NET開發環境（例如Visual Studio）。
-- 文檔目錄：標識 DWT 文件的路徑並相應地替換程式碼片段中的“您的文檔目錄”。
+- Aspose.CAD for .NET：從下載並安裝程式庫 [Aspose 網站](https://releases。aspose.com/cad/net/).
+- 開發環境：設定適當的.NET開發環境（例如，Visual Studio）。
+- 文件目錄：確定 DWT 檔案的路徑並相應地替換程式碼片段中的「您的文檔目錄」。
 
 ## 導入必要的命名空間
 
@@ -34,7 +35,7 @@ using Aspose.CAD.FileFormats.Cad;
 using Aspose.CAD.FileFormats.Cad.CadObjects;
 ```
 
-## 第 1 步：初始化您的文件目錄
+## 步驟 1：初始化文件目錄
 
 設定 DWT 檔案所在的目錄：
 
@@ -44,32 +45,32 @@ string MyDir = "Your Document Directory";
 
 請務必將「您的文件目錄」替換為 DWT 檔案的實際路徑。
 
-## 第 2 步：載入 DWT 文件
+## 步驟 2：載入 DWT 文件
 
-將 DWT 檔案加載到`CadImage`使用以下程式碼物件：
+將 DWT 檔案加載到 `CadImage` 物件使用以下程式碼：
 
 ```csharp
 using (CadImage image = (CadImage)Image.Load(MyDir + "example.dwt"))
 {
-    //圖像現已載入並準備處理
+    // 圖像現已載入並準備處理
 }
 ```
 
-這`Image.Load`方法開啟 DWT 文件，為後續步驟做好準備。
+這 `Image.Load` 方法開啟 DWT 文件，為後續步驟做好準備。
 
 ## 步驟 3：迭代 CAD 實體
 
-現在您可以循環存取 DWT 檔案中的實體。自訂循環內的邏輯以根據需要操作或提取資料：
+現在您可以循環遍歷 DWT 檔案中的實體。自訂循環內的邏輯以根據需要操作或提取資料：
 
 ```csharp
 foreach (CadBaseEntity entity in image.Entities)
 {
-    //對每個 CAD 實體執行操作
+    // 對每個 CAD 實體執行操作
     ProcessEntity(entity);
 }
 ```
 
-在循環內，您可以實現所需的任何特定功能，例如分析或修改 CAD 資料。
+在循環內部，您可以實現所需的任何特定功能，例如分析或修改 CAD 資料。
 
 ## 結論
 
@@ -83,16 +84,16 @@ Aspose.CAD 旨在支援多種 CAD 格式，包括各種版本的 DWT 檔案。�
 
 ### 我可以將 Aspose.CAD 用於商業項目嗎？
 
-是的，Aspose.CAD 適合個人和商業用途。有關許可信息，請訪問[購買頁面](https://purchase.conholdate.com/buy).
+是的，Aspose.CAD 適合個人和商業用途。有關許可信息，請訪問 [購買頁面](https://purchase。conholdate.com/buy).
 
 ### 有免費試用嗎？
 
-絕對地！您可以下載免費試用 Aspose.CAD[這裡](https://releases.aspose.com/).
+絕對地！您可以免費下載試用 Aspose.CAD [這裡](https://releases。aspose.com/).
 
-### 我如何獲得 Aspose.CAD 支援？
+### 如何獲得 Aspose.CAD 的支援？
 
-如需社區支持，請查看[Aspose.CAD論壇](https://forum.aspose.com/c/cad/19)。如果您需要高級支持，請考慮購買許可證。
+如需社區支持，請查看 [Aspose.CAD 論壇](https://forum.aspose.com/c/cad/19)。如果您需要高級支持，請考慮購買許可證。
 
-### 可以使用臨時許可證嗎？
+### 有臨時執照嗎？
 
-是的，可以申請臨時許可證[這裡](https://purchase.conholdate.com/temporary-license/).
+是的，可以申請臨時許可證 [這裡](https://purchase。conholdate.com/temporary-license/).

@@ -1,5 +1,5 @@
 ---
-"description": "Leer hoe u eenvoudig de aanmaaktijd van opmerkingen in een Excel-werkblad kunt aflezen met Aspose.Cells voor .NET. Volg onze gedetailleerde handleiding met stapsgewijze instructies."
+"description": "Leer hoe u eenvoudig de aanmaaktijd van geneste opmerkingen in een Excel-werkblad kunt aflezen met Aspose.Cells voor .NET. Volg onze gedetailleerde handleiding met stapsgewijze instructies."
 "linktitle": "Lees de aanmaaktijd van geneste opmerkingen met Aspose.Cells"
 "second_title": "Aspose.Cells .NET Excel-verwerkings-API"
 "title": "Lees de aanmaaktijd van geneste opmerkingen met Aspose.Cells"
@@ -9,20 +9,20 @@
 
 ## Invoering
 
-Bij het werken met Excel-bestanden kan het beheren van opmerkingen essentieel zijn voor samenwerking en het bijhouden van feedback. In deze handleiding leiden we u door het proces van het aflezen van de aanmaaktijd van opmerkingen in een Excel-werkblad met behulp van Aspose.Cells voor .NET. Deze krachtige tool biedt een efficiënte manier om met Excel-bestanden te werken, waardoor ontwikkelaars gedetailleerde informatie uit opmerkingen kunnen halen, wat met name handig is voor het bijhouden van de timing van feedback in samenwerkingsscenario's.
+Bij het werken met Excel-bestanden kan het beheren van opmerkingen essentieel zijn voor samenwerking en het bijhouden van feedback. In deze handleiding leiden we je door het proces van het aflezen van de aanmaaktijd van opmerkingen in een Excel-werkblad met behulp van Aspose.Cells voor .NET. Deze krachtige tool biedt een efficiënte manier om met Excel-bestanden te werken, waardoor ontwikkelaars gedetailleerde informatie uit opmerkingen kunnen halen, wat met name handig is voor het bijhouden van de timing van feedback in samenwerkingsscenario's.
 
 ## Vereisten
 
 Voordat we beginnen, is het belangrijk om ervoor te zorgen dat je ontwikkelomgeving correct is ingesteld voor het gebruik van Aspose.Cells voor .NET. Dit heb je nodig:
 
-1. Aspose.Cells voor .NET: Je hebt de Aspose.Cells-bibliotheek nodig. Je kunt de nieuwste versie downloaden via de [Aspose-website](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells voor .NET: De Aspose.Cells-bibliotheek moet geïnstalleerd zijn. Je kunt de nieuwste versie downloaden via de [Aspose-website](https://releases.aspose.com/cells/net/).
 2. IDE: Visual Studio (of een .NET IDE naar keuze) om uw code te schrijven en uit te voeren.
 3. Basiskennis van C#: Kennis van C#-programmering maakt het gemakkelijker om de voorbeelden te volgen.
 4. Excel-bestand: voor deze tutorial gebruiken we een Excel-bestand met de naam `ThreadedCommentsSample.xlsx`, die een aantal opmerkingen bevat. Zorg ervoor dat je bestand opmerkingen bevat om het te kunnen volgen.
 
 ## De vereiste pakketten importeren
 
-Om te beginnen moet je de benodigde naamruimten importeren om met Aspose.Cells te kunnen werken. Open je C#-project en voeg de volgende instructies toe bovenaan je codebestand:
+Om te beginnen moet u de benodigde naamruimten importeren om met Aspose.Cells te werken. Open uw C#-project en voeg de volgende instructies toe bovenaan uw codebestand:
 
 ```csharp
 using System;
@@ -49,7 +49,7 @@ Vervangen `"C:\\YourDirectory\\"` met het daadwerkelijke pad naar uw bestand. Di
 Nu de map is ingesteld, kunnen we de Excel-werkmap laden. Dit doen we door een nieuwe map aan te maken. `Workbook` object en het bestandspad ernaartoe doorgeven.
 
 ```csharp
-// De Excel-werkmap laden
+// Laad de Excel-werkmap
 Workbook workbook = new Workbook(sourceDir + "ThreadedCommentsSample.xlsx");
 ```
 
@@ -77,7 +77,7 @@ ThreadedCommentCollection threadedComments = worksheet.Comments.GetThreadedComme
 
 Dit retourneert een verzameling van gekoppelde opmerkingen voor cel A1. Als er geen opmerkingen in de opgegeven cel staan, is de verzameling leeg.
 
-## Stap 5: Loop door de opmerkingen en extraheer de gecreëerde tijd
+## Stap 5: Loop door de opmerkingen en extraheer de gemaakte tijd
 
 Nadat de reacties met de thread zijn opgehaald, is de volgende stap het doorlopen van de verzameling en het extraheren van relevante details, inclusief de aanmaaktijd voor elke reactie. We kunnen dit eenvoudig bereiken door de `ThreadedCommentCollection`.
 
@@ -91,11 +91,11 @@ foreach (ThreadedComment comment in threadedComments)
 }
 ```
 
-Deze code geeft de inhoud van de reactie, de naam van de auteur en het tijdstip waarop de reactie is gemaakt weer. `CreatedTime` eigenschap retourneert het tijdstempel van het moment waarop de opmerking oorspronkelijk is gemaakt.
+Deze code geeft de inhoud van de opmerking, de naam van de auteur en het tijdstip waarop de opmerking is gemaakt, weer. `CreatedTime` De eigenschap retourneert het tijdstempel van het moment waarop de opmerking oorspronkelijk is gemaakt.
 
-## Stap 6: Een bevestigingsbericht weergeven
+## Stap 6: Geef een bevestigingsbericht weer
 
-Nadat je de reacties succesvol hebt gelezen en de informatie hebt weergegeven, is het altijd verstandig om een bevestigingsbericht in je code op te nemen. Dit helpt te bevestigen dat het proces correct is uitgevoerd.
+Nadat u de geplaatste reacties succesvol hebt gelezen en de informatie hebt weergegeven, is het altijd verstandig om een bevestigingsbericht in uw code op te nemen. Dit helpt te bevestigen dat het proces correct is uitgevoerd.
 
 ```csharp
 // Bevestigingsbericht
@@ -106,7 +106,7 @@ Zodra de uitvoering van de code is voltooid, wordt dit bericht op de console wee
 
 ## Conclusie
 
-U hebt nu geleerd hoe u eenvoudig de aanmaaktijd van opmerkingen in een Excel-werkblad kunt aflezen met Aspose.Cells voor .NET. Deze functionaliteit is van onschatbare waarde voor het bijhouden van opmerkingen en feedback in samenwerkingsomgevingen en biedt essentiële tijdstempels voor documentbeoordelingsprocessen. Door deze handleiding te volgen, kunt u efficiënt gegevens over opmerkingen extraheren en gebruiken in uw .NET-applicaties, waardoor uw workflow en de samenwerking met teamleden worden verbeterd.
+U hebt nu geleerd hoe u eenvoudig de aanmaaktijd van opmerkingen in een Excel-werkblad kunt aflezen met Aspose.Cells voor .NET. Deze functionaliteit is van onschatbare waarde voor het bijhouden van opmerkingen en feedback in samenwerkingsomgevingen en biedt essentiële tijdstempels voor documentbeoordelingsprocessen. Door deze handleiding te volgen, kunt u efficiënt opmerkingsgegevens extraheren en gebruiken in uw .NET-applicaties, waardoor uw workflow en de samenwerking met teamleden worden verbeterd.
 
 ## Veelgestelde vragen
 
@@ -122,10 +122,10 @@ U kunt de nieuwste versie van Aspose.Cells voor .NET downloaden van de [Aspose-w
 
 Ja, Aspose biedt een gratis proefversie aan voor Aspose.Cells voor .NET. U kunt de proefversie downloaden via de [gratis proefpagina](https://releases.aspose.com/).
 
-### Kan ik opmerkingen uit andere cellen bekijken?
+### Kan ik opmerkingen uit andere cellen openen?
 
-Ja, u kunt toegang krijgen tot geneste opmerkingen vanuit elke cel in het werkblad door de celverwijzing in de `GetThreadedComments` methode. Verander eenvoudig `"A1"` naar de gewenste celreferentie.
+Ja, u kunt toegang krijgen tot geneste opmerkingen vanuit elke cel in het werkblad door de celverwijzing in de `GetThreadedComments` methode. Verander eenvoudigweg `"A1"` naar de gewenste celreferentie.
 
 ### Waar kan ik ondersteuning krijgen voor Aspose.Cells?
 
-Als u ondersteuning nodig heeft of vragen heeft, bezoek dan de [Aspose-forum](https://forum.aspose.com/c/cells/9), waar u antwoorden kunt vinden of hulp kunt vragen aan de community.
+Als u ondersteuning nodig hebt of vragen hebt, bezoek dan de [Aspose-forum](https://forum.aspose.com/c/cells/9), waar u antwoorden kunt vinden of hulp kunt vragen aan de community.

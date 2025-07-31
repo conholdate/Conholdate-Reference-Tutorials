@@ -29,9 +29,9 @@ Hướng dẫn toàn diện này sẽ hướng dẫn bạn mọi thứ cần bi�
 
 Trước khi đi sâu vào việc triển khai kỹ thuật, chúng ta hãy cùng giải quyết vấn đề nan giải: tại sao bạn nên quan tâm đến việc xử lý tài liệu bằng AI? 
 
-**Kiểm tra thực tế**: Các nghiên cứu cho thấy người lao động trí óc dành tới 30% thời gian để tìm kiếm và xử lý thông tin từ tài liệu. Đối với các nhà phát triển, điều này thường có nghĩa là xây dựng các hệ thống có thể xử lý thông minh mọi thứ, từ hợp đồng pháp lý đến thông số kỹ thuật mà không cần sự can thiệp của con người.
+**Kiểm tra thực tế**Các nghiên cứu cho thấy người lao động trí óc dành tới 30% thời gian để tìm kiếm và xử lý thông tin từ tài liệu. Đối với các nhà phát triển, điều này thường có nghĩa là xây dựng các hệ thống có thể xử lý thông minh mọi thứ, từ hợp đồng pháp lý đến thông số kỹ thuật mà không cần sự can thiệp của con người.
 
-**Lợi thế của AI**Các mô hình AI hiện đại không chỉ trích xuất văn bản—chúng còn hiểu ngữ cảnh, xác định các chủ đề chính và tạo ra những thông tin chuyên sâu mà con người phải mất hàng giờ mới tổng hợp được. Khi kết hợp điều này với khả năng xử lý tài liệu mạnh mẽ của Aspose.Words, bạn sẽ có được một bộ công cụ tự động hóa mạnh mẽ.
+**Lợi thế của AI**: Các mô hình AI hiện đại không chỉ trích xuất văn bản—chúng còn hiểu ngữ cảnh, xác định các chủ đề chính và tạo ra những thông tin chuyên sâu mà con người phải mất hàng giờ mới tổng hợp được. Khi kết hợp điều này với khả năng xử lý tài liệu mạnh mẽ của Aspose.Words, bạn sẽ có được một bộ công cụ tự động hóa mạnh mẽ.
 
 ## Bắt đầu: Danh sách kiểm tra xử lý tài liệu AI của bạn
 
@@ -104,7 +104,7 @@ Các [Tóm tắt tài liệu hiệu quả với các mô hình OpenAI](./efficie
 
 **Tại sao OpenAI lại vượt trội**: Các mô hình GPT đã được đào tạo trên một tập dữ liệu cực kỳ đa dạng, giúp chúng đặc biệt hiệu quả trong việc xử lý các tài liệu có nội dung hỗn hợp, thuật ngữ chuyên ngành hoặc thuật ngữ chuyên ngành. Chúng có thể điều chỉnh phong cách tóm tắt dựa trên loại tài liệu đang xử lý.
 
-**Các trường hợp sử dụng nâng cao**: Hướng dẫn này không chỉ giới thiệu tóm tắt cơ bản mà còn chỉ cho bạn cách trích xuất thông tin chi tiết cụ thể, tạo bản tóm tắt với nhiều mức độ chi tiết khác nhau và thậm chí tạo các so sánh tài liệu làm nổi bật những điểm khác biệt chính.
+**Các trường hợp sử dụng nâng cao**Hướng dẫn này không chỉ giới thiệu tóm tắt cơ bản mà còn chỉ cho bạn cách trích xuất thông tin chi tiết cụ thể, tạo bản tóm tắt với nhiều mức độ chi tiết khác nhau và thậm chí tạo các so sánh tài liệu làm nổi bật những điểm khác biệt chính.
 
 **Bí mật của nhà phát triển**: Hướng dẫn này tiết lộ cách sử dụng các kỹ thuật thiết kế nhanh chóng có thể cải thiện chất lượng bản tóm tắt của bạn lên 40-60% so với các triển khai cơ bản.
 
@@ -123,12 +123,12 @@ Dựa trên kinh nghiệm thực tế của nhà phát triển, sau đây là nh
 ### Thử thách 1: Lỗi vượt quá giới hạn mã thông báo
 **Vấn đề**:Các tài liệu lớn thường vượt quá giới hạn mã thông báo mô hình AI, gây ra lỗi xử lý.
 
-**Giải pháp**Triển khai các chiến lược phân đoạn tài liệu giúp bảo toàn ngữ cảnh trong khi vẫn nằm trong giới hạn cho phép. Các hướng dẫn sẽ chỉ cho bạn cách phân đoạn tài liệu một cách thông minh theo ranh giới tự nhiên (đoạn văn, phần) thay vì số lượng ký tự tùy ý.
+**Giải pháp**: Triển khai các chiến lược phân đoạn tài liệu giúp bảo toàn ngữ cảnh trong khi vẫn nằm trong giới hạn cho phép. Các hướng dẫn sẽ chỉ cho bạn cách phân đoạn tài liệu một cách thông minh theo ranh giới tự nhiên (đoạn văn, phần) thay vì số lượng ký tự tùy ý.
 
 ### Thách thức 2: Chất lượng tóm tắt không nhất quán
 **Vấn đề**: Tóm tắt có chất lượng và định dạng rất khác nhau, khiến chúng khó sử dụng theo chương trình.
 
-**Giải pháp**: Nắm vững các kỹ thuật thiết kế nhanh và định dạng đầu ra để đảm bảo kết quả nhất quán và có cấu trúc mọi lúc.
+**Giải pháp**Nắm vững các kỹ thuật thiết kế nhanh và định dạng đầu ra để đảm bảo kết quả nhất quán và có cấu trúc mọi lúc.
 
 ### Thử thách 3: Tốc độ xử lý chậm
 **Vấn đề**: Việc xử lý tài liệu mất quá nhiều thời gian để sử dụng trong sản xuất.
@@ -138,19 +138,19 @@ Dựa trên kinh nghiệm thực tế của nhà phát triển, sau đây là nh
 ### Thử thách 4: Quản lý chi phí API
 **Vấn đề**:Chi phí API AI tăng vọt ngoài tầm kiểm soát do xử lý quy mô lớn.
 
-**Giải pháp**Triển khai xử lý trước thông minh để loại bỏ nội dung không cần thiết, sử dụng các mô hình phù hợp cho các loại tài liệu khác nhau và lưu trữ kết quả một cách hiệu quả.
+**Giải pháp**: Triển khai xử lý trước thông minh để loại bỏ nội dung không cần thiết, sử dụng các mô hình phù hợp cho các loại tài liệu khác nhau và lưu trữ kết quả một cách hiệu quả.
 
 ## Mẹo tối ưu hóa hiệu suất cho hệ thống sản xuất
 
 Khi bạn đã sẵn sàng triển khai hệ thống xử lý tài liệu AI, các chiến lược tối ưu hóa này sẽ đảm bảo hoạt động trơn tru:
 
-**Tối ưu hóa tiền xử lý**: Xóa tiêu đề, chân trang và nội dung lặp lại trước khi gửi tài liệu đến mô hình AI. Điều này có thể giảm 20-30% lượng mã thông báo sử dụng mà vẫn duy trì chất lượng tóm tắt.
+**Tối ưu hóa tiền xử lý**Xóa tiêu đề, chân trang và nội dung lặp lại trước khi gửi tài liệu đến mô hình AI. Điều này có thể giảm 20-30% lượng mã thông báo sử dụng mà vẫn duy trì chất lượng tóm tắt.
 
 **Xử lý hàng loạt**: Nhóm các tài liệu tương tự lại với nhau để xử lý. Các mô hình AI thường hoạt động tốt hơn khi chúng có thể thiết lập ngữ cảnh trên các tài liệu liên quan.
 
 **Chiến lược lưu trữ đệm**: Triển khai bộ nhớ đệm thông minh cho các loại tài liệu được xử lý thường xuyên. Nhiều tài liệu kinh doanh tuân theo các mô hình tương tự, cho phép bạn tái sử dụng thông tin chi tiết về quy trình xử lý.
 
-**Xử lý lỗi**Xây dựng cơ chế thử lại mạnh mẽ với khả năng lùi theo cấp số nhân. Các dịch vụ AI đôi khi gặp sự cố tạm thời, và việc xử lý lỗi phù hợp sẽ đảm bảo ứng dụng của bạn luôn đáng tin cậy.
+**Xử lý lỗi**: Xây dựng cơ chế thử lại mạnh mẽ với khả năng lùi theo cấp số nhân. Các dịch vụ AI đôi khi gặp sự cố tạm thời, và việc xử lý lỗi phù hợp sẽ đảm bảo ứng dụng của bạn luôn đáng tin cậy.
 
 **Giám sát và ghi nhật ký**: Theo dõi thời gian xử lý, mức sử dụng mã thông báo và số liệu tóm tắt về chất lượng. Dữ liệu này giúp bạn tối ưu hóa hiệu suất và dự đoán chi phí khi mở rộng quy mô.
 
@@ -162,7 +162,7 @@ Khi làm việc với quy trình xử lý tài liệu AI, đặc biệt là tron
 
 **Quản lý khóa API**: Không bao giờ mã hóa cứng khóa API trong ứng dụng của bạn. Hãy sử dụng biến môi trường, Azure Key Vault hoặc các giải pháp lưu trữ an toàn tương tự.
 
-**Đường mòn kiểm toán**Triển khai hệ thống ghi nhật ký toàn diện để theo dõi tài liệu nào đã được xử lý, khi nào và bởi ai. Điều này thường được yêu cầu để tuân thủ trong các ngành được quản lý.
+**Đường mòn kiểm toán**: Triển khai hệ thống ghi nhật ký toàn diện để theo dõi tài liệu nào đã được xử lý, khi nào và bởi ai. Điều này thường được yêu cầu để tuân thủ trong các ngành được quản lý.
 
 **Lọc nội dung**Lưu ý rằng một số dịch vụ AI lưu trữ dữ liệu yêu cầu tạm thời. Hãy xem lại chính sách lưu giữ dữ liệu của nhà cung cấp AI và cân nhắc xử lý trước để xóa thông tin nhạy cảm.
 
@@ -170,11 +170,11 @@ Khi làm việc với quy trình xử lý tài liệu AI, đặc biệt là tron
 
 Ngay cả khi đã lên kế hoạch cẩn thận, bạn vẫn có thể gặp phải vấn đề. Sau đây là cách chẩn đoán và khắc phục những sự cố thường gặp nhất:
 
-**Lỗi xác thực API**: Kiểm tra kỹ khóa API của bạn và đảm bảo chúng chưa hết hạn. Nhiều nhà cung cấp yêu cầu thay đổi khóa định kỳ để đảm bảo an toàn.
+**Lỗi xác thực API**: Kiểm tra kỹ khóa API của bạn và đảm bảo chúng chưa hết hạn. Nhiều nhà cung cấp yêu cầu thay đổi khóa định kỳ để đảm bảo bảo mật.
 
 **Lỗi thời gian chờ**: Tài liệu lớn có thể cần thời gian xử lý lâu hơn. Hãy triển khai các giá trị thời gian chờ phù hợp và cân nhắc việc chia nhỏ tài liệu cho các tệp rất lớn.
 
-**Nội dung tóm tắt không mong đợi**Nếu bản tóm tắt không khớp với mong đợi, hãy xem lại yêu cầu kỹ thuật kịp thời của bạn và cân nhắc thêm hướng dẫn cụ thể hơn về định dạng đầu ra mong muốn.
+**Nội dung tóm tắt không mong đợi**: Nếu bản tóm tắt không khớp với mong đợi, hãy xem lại yêu cầu kỹ thuật kịp thời của bạn và cân nhắc thêm hướng dẫn cụ thể hơn về định dạng đầu ra mong muốn.
 
 **Các vấn đề về trí nhớ**: Xử lý nhiều tài liệu lớn cùng lúc có thể làm cạn kiệt bộ nhớ hệ thống. Hãy triển khai các mô hình xử lý phù hợp và cân nhắc xử lý tài liệu tuần tự cho các lô hàng rất lớn.
 
@@ -188,7 +188,7 @@ Sau khi bạn đã nắm vững những kiến thức cơ bản được đề c
 
 **Tự động hóa quy trình làm việc**:Tích hợp quy trình xử lý tài liệu AI của bạn vào các hệ thống tự động hóa quy trình kinh doanh rộng hơn.
 
-**Phân tích và báo cáo**Xây dựng bảng thông tin cung cấp thông tin chi tiết về hiệu suất và kết quả xử lý tài liệu của bạn.
+**Phân tích và báo cáo**: Xây dựng bảng thông tin cung cấp thông tin chi tiết về hiệu suất và kết quả xử lý tài liệu của bạn.
 
 Tương lai của việc xử lý tài liệu được thúc đẩy bởi AI, và những nhà phát triển nắm vững các kỹ thuật này hôm nay sẽ xây dựng nên những hệ thống hỗ trợ các doanh nghiệp thông minh trong tương lai. Hãy bắt đầu với các hướng dẫn cơ bản, thử nghiệm các phương pháp khác nhau và dần dần xây dựng các giải pháp phức tạp hơn khi bạn hiểu rõ hơn.
 
@@ -197,7 +197,7 @@ Hãy nhớ rằng: mục tiêu không chỉ là xử lý tài liệu nhanh hơn 
 ## Hướng dẫn xử lý tài liệu bằng AI
 | Tiêu đề | Mô tả |
 | --- | --- |
-| [Làm chủ tóm tắt tài liệu với các mô hình AI](./mastering-document-summarization-ai-model/) Khai phá tiềm năng tự động hóa tài liệu với Aspose.Words cho .NET. Tìm hiểu cách tóm tắt tài liệu một cách dễ dàng bằng các mô hình AI tiên tiến. |
+| [Làm chủ tóm tắt tài liệu với các mô hình AI](./mastering-document-summarization-ai-model/) | Khai phá tiềm năng tự động hóa tài liệu với Aspose.Words cho .NET. Tìm hiểu cách tóm tắt tài liệu một cách dễ dàng bằng các mô hình AI tiên tiến. |
 | [Làm chủ mô hình AI tóm tắt tài liệu của Google](./mastering-document-summarization-google-ai-model/) | Tìm hiểu từng bước cách tóm tắt tài liệu Word bằng Aspose.Words và Google AI trong .NET. Làm theo hướng dẫn này để tối ưu hóa việc trích xuất nội dung, phân tích tài liệu và tự động hóa. |
-| [Tóm tắt tài liệu hiệu quả Mô hình AI mở](./efficient-document-summarization-openai-model/) | Tìm hiểu cách tóm tắt các tài liệu lớn một cách nhanh chóng và chính xác với hướng dẫn toàn diện này, bao gồm các điều kiện tiên quyết, thiết lập và ví dụ mã hóa. |
+| [Tóm tắt tài liệu hiệu quả Mô hình AI mở](./efficient-document-summarization-openai-model/) Tìm hiểu cách tóm tắt các tài liệu lớn một cách nhanh chóng và chính xác với hướng dẫn toàn diện này, bao gồm các điều kiện tiên quyết, thiết lập và ví dụ về mã hóa. |
 | [Tóm tắt các tùy chọn tài liệu](./summarize-documents-options/) | Tìm hiểu cách tóm tắt tài liệu hiệu quả với Aspose.Words cho .NET. Hướng dẫn toàn diện này bao gồm thiết lập, tải tài liệu và tích hợp mô hình AI. |

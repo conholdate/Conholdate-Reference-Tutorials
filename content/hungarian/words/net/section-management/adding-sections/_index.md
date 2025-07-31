@@ -112,7 +112,7 @@ Természetesen! Annyi szakaszt adhatsz hozzá, amennyire szükséged van, mindeg
 
 Testreszabhatod egy szakasz elrendezését olyan tulajdonságok módosításával, mint az oldalméret, a tájolás, a margók, és fejlécek/láblécek hozzáadásával az Aspose.Words segítségével.
 
-### Beágyazhatók szakaszok a Word dokumentumokban?
+### Lehetséges a szakaszok beágyazása a Word dokumentumokba?
 
 Nem, a szakaszok nem ágyazhatók be egymásba, de egy dokumentumban több szakasz is lehet egymás után, mindegyik különálló elrendezéssel.
 

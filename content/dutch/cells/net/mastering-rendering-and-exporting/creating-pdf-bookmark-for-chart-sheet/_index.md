@@ -9,14 +9,14 @@
 
 ## Invoering
 
-Aspose.Cells voor .NET is een krachtige bibliotheek waarmee ontwikkelaars Excel-bestanden programmatisch kunnen bewerken. Een van de meest opvallende functies is de mogelijkheid om PDF-bladwijzers te maken voor individuele grafiekbladen, wat de navigatie en bruikbaarheid van het document verbetert. Deze tutorial leidt je stap voor stap door het proces, waardoor het toegankelijk is, ongeacht je programmeerervaring. Pak je code-editor erbij en laten we beginnen!
+Aspose.Cells voor .NET is een krachtige bibliotheek waarmee ontwikkelaars Excel-bestanden programmatisch kunnen bewerken. Een van de meest opvallende functies is de mogelijkheid om PDF-bladwijzers te maken voor afzonderlijke grafiekbladen, wat de navigatie en bruikbaarheid van het document verbetert. Deze tutorial leidt je stap voor stap door het proces, waardoor het toegankelijk is, ongeacht je programmeerervaring. Pak je code-editor erbij en laten we beginnen!
 
 ## Vereisten
 
 Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
 1. Aspose.Cells voor .NET: Download de bibliotheek van [hier](https://releases.aspose.com/cells/net/).
-2. Visual Studio of een .NET IDE: U hebt een ontwikkelomgeving nodig om uw C#-code te schrijven en uit te voeren.
+2. Visual Studio of een andere .NET IDE: U hebt een ontwikkelomgeving nodig om uw C#-code te schrijven en uit te voeren.
 3. Basiskennis van C#: Kennis van de basisprincipes van C# is nuttig als we de code doornemen.
 4. Voorbeeld Excel-bestand: Zorg dat u een voorbeeld Excel-bestand met grafieken bij de hand hebt voor deze oefening.
 
@@ -30,7 +30,7 @@ Zodra u aan deze vereisten hebt voldaan, bent u klaar om PDF-bladwijzers voor gr
 2. Selecteer NuGet-pakketten beheren.
 3. Zoek naar Aspose.Cells en installeer de nieuwste versie.
 
-## Stap 3: Neem noodzakelijke gebruiksrichtlijnen op
+## Stap 3: Neem de nodige gebruiksrichtlijnen op
 In jouw `Program.cs` Voeg bovenaan de volgende regels toe om de vereiste naamruimten te importeren:
 
 ```csharp
@@ -47,11 +47,11 @@ Met deze naamruimten kunt u met Excel-bestanden werken en deze omzetten in PDF's
 ## Stap 4: Definieer uw directorypaden
 Organiseer uw code door de paden voor uw bestanden te definiëren:
 ```csharp
-string sourceDir = "Your Document Directory"; // Aanpassen aan uw bronmap
-string outputDir = "Your Document Directory"; // Aanpassen aan uw uitvoermap
+string sourceDir = "Your Document Directory"; // Pas aan uw bronmap aan
+string outputDir = "Your Document Directory"; // Pas aan uw uitvoermap aan
 ```
 
-## Stap 5: De Excel-werkmap laden
+## Stap 5: Laad de Excel-werkmap
 Laad de Excel-werkmap die u wilt bewerken:
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleCreatePdfBookmarkEntryForChartSheet.xlsx");
@@ -91,7 +91,7 @@ PdfBookmarkEntry ent4 = new PdfBookmarkEntry {
 Elk `PdfBookmarkEntry` object specificeert een doelcel en een tekstlabel voor de bladwijzer.
 
 ## Stap 8: De bladwijzervermeldingen ordenen
-Om een hiërarchische structuur van bladwijzers te creëren, organiseert u ze als volgt:
+Om een hiërarchische structuur van bladwijzers te maken, organiseert u ze als volgt:
 ```csharp
 ArrayList lst = new ArrayList();
 ent1.SubEntry = lst;
@@ -136,7 +136,7 @@ Ja, u kunt bladwijzers zo instellen dat ze naar elke cel in uw werkblad verwijze
 Hoewel Aspose.Cells een gratis proefversie aanbiedt, is voor volledige functionaliteit in productieomgevingen een betaalde licentie vereist.
 
 ### Kan ik bladwijzers maken voor meer dan vier vellen?
-Absoluut! Je kunt bladwijzers maken voor zoveel bladen als nodig is door een vergelijkbare structuur in de code te volgen.
+Absoluut! Je kunt bladwijzers maken voor zoveel werkbladen als nodig is door een vergelijkbare structuur in de code te volgen.
 
 ### Waar kan ik meer hulp vinden?
 Voor extra ondersteuning, bekijk de [Aspose community ondersteuningsforum](https://forum.aspose.com/c/cells/9) voor eventuele problemen of vragen.

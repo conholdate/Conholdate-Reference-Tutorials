@@ -1,20 +1,21 @@
 ---
-title: PDF ドキュメントにチェックボックス コンポーネントを追加する
-linktitle: PDF ドキュメントにチェックボックス コンポーネントを追加する
-second_title: GroupDocs.Annotation .NET API
-description: GroupDocs.Annotation for .NET SDK を使用してインタラクティブなチェックボックス コンポーネントを追加し、PDF ドキュメントを充実させる方法を学びます。この包括的なチュートリアルでは、わかりやすいステップ バイ ステップ ガイドを提供します。
-weight: 11
-url: /ja/annotation/guide-to-document-components/adding-checkbox-component/
+"description": "GroupDocs.Annotation for .NET SDKを使用してインタラクティブなチェックボックスコンポーネントを追加し、PDFドキュメントを充実させる方法をご紹介します。この包括的なチュートリアルでは、分かりやすいステップバイステップのガイドを提供しています。"
+"linktitle": "PDFドキュメントにチェックボックスコンポーネントを追加する"
+"second_title": "GroupDocs.Annotation .NET API"
+"title": "PDFドキュメントにチェックボックスコンポーネントを追加する"
+"url": "/ja/annotation/net/guide-to-document-components/adding-checkbox-component/"
+"weight": 11
 ---
+
 ## 導入
 
-このチュートリアルでは、GroupDocs.Annotation for .NET SDK を使用して PDF ドキュメントにチェックボックス コンポーネントを追加する手順について説明します。この機能を使用すると、インタラクティブな要素を使用して PDF ドキュメントを拡張し、ユーザーにとってより魅力的なものにすることができます。
+このチュートリアルでは、GroupDocs.Annotation for .NET SDKを使用してPDFドキュメントにチェックボックスコンポーネントを追加する手順を詳しく説明します。この機能を使用すると、インタラクティブな要素を追加してPDFドキュメントを拡張し、ユーザーにとってより魅力的なものにすることができます。
 
 ## 前提条件
 
 始める前に、以下のものを用意してください。
 
-1.  GroupDocs.Annotation for .NET SDK: ダウンロードはこちらから[ここ](https://releases.groupdocs.com/annotation/net/).
+1. GroupDocs.Annotation for .NET SDK: ダウンロードはこちら [ここ](https://releases。groupdocs.com/annotation/net/).
 2. 開発環境: マシンに .NET 開発環境をセットアップします。
 
 ## ステップ1: 必要な名前空間をインポートする
@@ -41,7 +42,7 @@ string outputPath = Path.Combine("Your Document Directory", "result" + Path.GetE
 
 ## ステップ3: アノテーターを初期化する
 
-インスタンスを作成する`Annotator`入力 PDF ドキュメントへのパスを持つクラス:
+インスタンスを作成する `Annotator` 入力 PDF ドキュメントへのパスを持つクラス:
 
 ```csharp
 using (Annotator annotator = new Annotator("input.pdf"))
@@ -55,9 +56,9 @@ using (Annotator annotator = new Annotator("input.pdf"))
 CheckBoxComponent checkBox = new CheckBoxComponent
 {
     Checked = true,
-    Box = new Rectangle(100, 100, 100, 100), //位置とサイズを定義する
-    PenColor = 65535, //色を設定します（この場合は黄色）
-    Style = BoxStyle.Star, //チェックボックスのスタイルを選択する
+    Box = new Rectangle(100, 100, 100, 100), // 位置とサイズを定義する
+    PenColor = 65535, // 色を設定します（この場合は黄色）
+    Style = BoxStyle.Star, // チェックボックスのスタイルを選択する
     Replies = new List<Reply>
     {
         new Reply { Comment = "First comment", RepliedOn = DateTime.Now },
@@ -92,13 +93,13 @@ Console.WriteLine($"\nDocument saved successfully.\nCheck output in {outputPath}
 
 ## 結論
 
-このチュートリアルでは、GroupDocs.Annotation for .NET を使用して PDF ドキュメントにチェックボックス コンポーネントを追加しました。この機能を使用すると、ユーザー エクスペリエンスとエンゲージメントを強化できるインタラクティブな PDF を作成できます。
+このチュートリアルでは、GroupDocs.Annotation for .NET を使用して、PDFドキュメントにチェックボックスコンポーネントを追加しました。この機能により、ユーザーエクスペリエンスとエンゲージメントを向上させるインタラクティブなPDFを作成できます。
 
 ## よくある質問
 
 ### チェックボックスの外観をカスタマイズできますか?
 
-もちろんです! 特定のニーズに合わせて、色、スタイル、サイズなどのさまざまなプロパティを変更できます。
+もちろんです！色、スタイル、サイズなど、さまざまなプロパティを特定のニーズに合わせて変更できます。
 
 ### GroupDocs.Annotation for .NET は商用利用に適していますか?
 
@@ -106,12 +107,12 @@ Console.WriteLine($"\nDocument saved successfully.\nCheck output in {outputPath}
 
 ### 購入前に GroupDocs.Annotation for .NET を試すことはできますか?
 
-はい、無料トライアルをご利用いただけます。[ここ](https://releases.groupdocs.com/).
+はい、無料トライアルをご利用いただけます。 [ここ](https://releases。groupdocs.com/).
 
 ### GroupDocs.Annotation for .NET のサポートはどこで見つかりますか?
 
-サポートと追加リソースは、[GroupDocs フォーラム](https://forum.groupdocs.com/c/annotation/10).
+サポートと追加リソースは、 [GroupDocsフォーラム](https://forum。groupdocs.com/c/annotation/10).
 
 ### テスト目的で一時ライセンスは必要ですか?
 
-テスト用の臨時ライセンスは以下から取得できます。[ここ](https://purchase.groupdocs.com/temporary-license/).
+試験用の臨時ライセンスは以下から取得できます。 [ここ](https://purchase。groupdocs.com/temporary-license/).

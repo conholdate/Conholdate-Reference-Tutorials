@@ -76,7 +76,7 @@ string password = "aspose"; // Sua senha de certificado
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
-## Etapa 5: Crie uma nova assinatura digital
+## Etapa 5: Criar uma nova assinatura digital
 
 Agora, crie uma nova assinatura digital e adicione-a à sua coleção:
 

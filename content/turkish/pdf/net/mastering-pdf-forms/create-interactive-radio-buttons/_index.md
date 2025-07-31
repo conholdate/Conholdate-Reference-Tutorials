@@ -77,7 +77,7 @@ Bu örnekte iki seçenek ekleniyor: "Seçenek 1" ve "Seçenek 2". `Rectangle` ne
 
 ## Adım 6: Belge Formuna Radyo Düğmesi Ekleyin
 
-Radyo butonunu PDF formuna entegre edin:
+Radyo düğmesini PDF formuna entegre edin:
 
 ```csharp
 pdfDocument.Form.Add(radio);

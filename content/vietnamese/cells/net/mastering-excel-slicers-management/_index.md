@@ -1,8 +1,8 @@
 ---
 "description": "Khám phá danh sách chi tiết các hướng dẫn về Aspose.Cells dành cho .NET tập trung vào việc quản lý các slicer Excel, bao gồm việc thêm, tùy chỉnh và cập nhật các slicer trong các tệp Excel."
-"linktitle": "Làm chủ việc quản lý các công cụ cắt của Excel"
+"linktitle": "Làm chủ việc quản lý Slicer trong Excel"
 "second_title": "API xử lý Excel của Aspose.Cells .NET"
-"title": "Làm chủ việc quản lý các công cụ cắt của Excel"
+"title": "Làm chủ việc quản lý Slicer trong Excel"
 "url": "/vi/cells/net/mastering-excel-slicers-management/"
 "weight": 25
 ---

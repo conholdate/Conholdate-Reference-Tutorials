@@ -1,26 +1,27 @@
 ---
-title: Hướng dẫn đính kèm tệp trong tài liệu OneNote với Aspose.Note
-linktitle: Hướng dẫn đính kèm tệp trong tài liệu OneNote với Aspose.Note
-second_title: API Aspose.Note .NET
-description: Hướng dẫn toàn diện này hướng dẫn bạn quy trình đính kèm tệp theo chương trình vào tài liệu OneNote, cho phép bạn nâng cao các tác vụ ghi chú và quản lý tài liệu. Với hướng dẫn từng bước rõ ràng và các câu hỏi thường gặp hữu ích.
-weight: 11
-url: /vi/note/manage-attachments/attach-file-in-one-note-documents/
+"description": "Hướng dẫn toàn diện này sẽ hướng dẫn bạn quy trình đính kèm tệp vào tài liệu OneNote theo chương trình, cho phép bạn nâng cao hiệu quả ghi chú và quản lý tài liệu. Với hướng dẫn từng bước rõ ràng và các câu hỏi thường gặp hữu ích."
+"linktitle": "Hướng dẫn đính kèm tệp trong tài liệu OneNote với Aspose.Note"
+"second_title": "API Aspose.Note .NET"
+"title": "Hướng dẫn đính kèm tệp trong tài liệu OneNote với Aspose.Note"
+"url": "/vi/note/net/manage-attachments/attach-file-in-one-note-documents/"
+"weight": 11
 ---
+
 ## Giới thiệu
 
-Aspose.Note for .NET là một thư viện mạnh mẽ được thiết kế để trao quyền cho các nhà phát triển khả năng tạo, chỉnh sửa và thao tác các tệp Microsoft OneNote theo chương trình. Thư viện này đơn giản hóa việc xử lý các tài liệu OneNote, biến nó thành một công cụ thiết yếu cho các ứng dụng yêu cầu xử lý tài liệu mở rộng. Cho dù bạn đang muốn tự động hóa việc ghi chú, tạo báo cáo hay quản lý kiến thức tổ chức, Aspose.Note for .NET đều cung cấp chức năng bạn cần.
+Aspose.Note for .NET là một thư viện mạnh mẽ được thiết kế để hỗ trợ các nhà phát triển khả năng tạo, chỉnh sửa và thao tác các tệp Microsoft OneNote theo chương trình. Thư viện này đơn giản hóa việc xử lý tài liệu OneNote, biến nó thành một công cụ thiết yếu cho các ứng dụng yêu cầu xử lý tài liệu chuyên sâu. Cho dù bạn đang tìm cách tự động hóa việc ghi chú, tạo báo cáo hay quản lý kiến thức tổ chức, Aspose.Note for .NET đều cung cấp các chức năng bạn cần.
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu sử dụng Aspose.Note cho .NET, hãy đảm bảo bạn có những điều sau:
 
-1. Môi trường phát triển: Máy tính được trang bị nền tảng .NET và môi trường phát triển tích hợp (IDE) như Visual Studio.
+1. Môi trường phát triển: Máy tính được trang bị .NET framework và môi trường phát triển tích hợp (IDE) như Visual Studio.
   
-2.  Aspose.Note cho .NET: Tải xuống thư viện từ[trang phát hành](https://releases.aspose.com/note/net/).
+2. Aspose.Note cho .NET: Tải xuống thư viện từ [trang phát hành](https://releases.aspose.com/note/net/).
 
-3. Kiến thức về C#: Việc quen thuộc với C# là điều cần thiết vì Aspose.Note chủ yếu được sử dụng với ngôn ngữ lập trình này.
+3. Kiến thức về C#: Sự quen thuộc với C# là điều cần thiết vì Aspose.Note chủ yếu được sử dụng với ngôn ngữ lập trình này.
 
-4. Hiểu biết cơ bản về OneNote: Mặc dù không bắt buộc, nhưng việc hiểu cấu trúc và khái niệm của OneNote sẽ giúp bạn sử dụng thư viện hiệu quả hơn.
+4. Hiểu biết cơ bản về OneNote: Mặc dù không bắt buộc, nhưng việc hiểu cấu trúc và khái niệm của OneNote sẽ nâng cao hiệu quả sử dụng thư viện của bạn.
 
 ## Nhập không gian tên
 
@@ -34,11 +35,11 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-Đính kèm tệp vào tài liệu OneNote rất đơn giản với Aspose.Note for .NET. Thực hiện theo các bước sau:
+Việc đính kèm tệp vào tài liệu OneNote rất đơn giản với Aspose.Note for .NET. Hãy làm theo các bước sau:
 
 ## Bước 1: Khởi tạo đối tượng tài liệu
 
- Tạo một phiên bản của`Document` lớp để biểu diễn tài liệu OneNote của bạn.
+Tạo một phiên bản của `Document` lớp để đại diện cho tài liệu OneNote của bạn.
 
 ```csharp
 string dataDir = RunExamples.GetDataDir_Attachments();
@@ -47,15 +48,15 @@ Document doc = new Document();
 
 ## Bước 2: Tạo trang mới
 
- Bước này bao gồm việc khởi tạo một cái mới`Page` đối tượng sẽ lưu trữ nội dung của bạn.
+Bước này bao gồm việc khởi tạo một cái mới `Page` đối tượng sẽ lưu trữ nội dung của bạn.
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-## Bước 3: Thiết lập Đối tượng phác thảo
+## Bước 3: Thiết lập Đối tượng Phác thảo
 
- Tạo một`Outline` đối tượng để sắp xếp nội dung trên trang của bạn.
+Tạo một `Outline` đối tượng để sắp xếp nội dung trên trang của bạn.
 
 ```csharp
 Outline outline = new Outline(doc);
@@ -63,7 +64,7 @@ Outline outline = new Outline(doc);
 
 ## Bước 4: Thêm phần tử phác thảo
 
- Các`OutlineElement` đại diện cho một phần tử duy nhất trong cấu trúc phác thảo.
+Các `OutlineElement` đại diện cho một phần tử duy nhất trong cấu trúc phác thảo.
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
@@ -71,7 +72,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 
 ## Bước 5: Khởi tạo tệp đính kèm
 
- Chỉ định đường dẫn đến tệp mà bạn muốn đính kèm bằng cách sử dụng`AttachedFile` lớp học.
+Chỉ định đường dẫn đến tệp mà bạn muốn đính kèm bằng cách sử dụng `AttachedFile` lớp học.
 
 ```csharp
 AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
@@ -85,9 +86,9 @@ Bây giờ, hãy thêm tệp đính kèm vào phần phác thảo của bạn.
 outlineElem.AppendChildLast(attachedFile);
 ```
 
-## Bước 7: Tổ chức các thành phần phác thảo
+## Bước 7: Sắp xếp các thành phần phác thảo
 
- Thêm vào`OutlineElement` đến`Outline`.
+Thêm vào `OutlineElement` đến `Outline`.
 
 ```csharp
 outline.AppendChildLast(outlineElem);
@@ -95,7 +96,7 @@ outline.AppendChildLast(outlineElem);
 
 ## Bước 8: Thêm phác thảo vào trang
 
- Tiếp theo, thêm vào`Outline` đến`Page`.
+Tiếp theo, thêm `Outline` đến `Page`.
 
 ```csharp
 page.AppendChildLast(outline);
@@ -103,7 +104,7 @@ page.AppendChildLast(outline);
 
 ## Bước 9: Hoàn thiện cấu trúc tài liệu
 
- Thêm vào`Page` đến`Document`.
+Thêm vào `Page` đến `Document`.
 
 ```csharp
 doc.AppendChildLast(page);
@@ -120,7 +121,7 @@ doc.Save(dataDir);
 
 ## Phần kết luận
 
-Với Aspose.Note for .NET, tương tác với các tài liệu OneNote trở thành trải nghiệm liền mạch. Các bước đơn giản được cung cấp ở trên minh họa cách đính kèm tệp dễ dàng như thế nào, cho phép các nhà phát triển nâng cao chức năng và cải thiện trải nghiệm người dùng trong ứng dụng của họ.
+Với Aspose.Note for .NET, việc tương tác với tài liệu OneNote trở nên liền mạch. Các bước đơn giản được cung cấp ở trên minh họa việc đính kèm tệp dễ dàng như thế nào, cho phép các nhà phát triển nâng cao chức năng và cải thiện trải nghiệm người dùng trong ứng dụng của họ.
 
 ## Câu hỏi thường gặp
 
@@ -134,12 +135,12 @@ Hoàn toàn có thể! Bạn có thể chỉnh sửa, sửa đổi và quản l�
 
 ### Có cần giấy phép khi sử dụng cho mục đích thương mại không?
 
- Có, việc sử dụng Aspose.Note cho mục đích thương mại cho .NET yêu cầu phải có giấy phép, có thể mua từ[Trang mua hàng Aspose](https://purchase.conholdate.com/buy).
+Có, việc sử dụng Aspose.Note cho .NET vì mục đích thương mại cần phải có giấy phép, có thể mua từ [Trang mua hàng Aspose](https://purchase.conholdate.com/buy).
 
 ### Có bản dùng thử miễn phí không?
 
- Có, Aspose.Note cho .NET cung cấp bản dùng thử miễn phí. Bạn có thể tải xuống từ[trang dùng thử](https://releases.aspose.com/).
+Có, Aspose.Note cho .NET cung cấp bản dùng thử miễn phí. Bạn có thể tải xuống từ [trang dùng thử](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thấy sự hỗ trợ ở đâu?
 
- Bạn có thể tìm kiếm sự hỗ trợ từ diễn đàn cộng đồng Aspose[đây](https://forum.aspose.com/c/note/28).
+Bạn có thể tìm kiếm sự hỗ trợ từ diễn đàn cộng đồng Aspose [đây](https://forum.aspose.com/c/note/28).

@@ -18,7 +18,7 @@ Para garantizar una experiencia de desarrollo fluida, confirme que se cumplan lo
 - Aspose.Words para .NET: Obtenga la última versión de [Página de lanzamiento de Aspose](https://releases.aspose.com/words/net/).
 - .NET Framework: Verifique la instalación de .NET Framework (o .NET Core/5/6 según su entorno).
 - Entorno de desarrollo: Se recomienda Visual Studio por sus sólidas funciones.
-- Conocimiento de C#: Es esencial tener conocimientos básicos de programación en C#.
+- Conocimiento de C#: Es esencial tener familiaridad básica con la programación en C#.
 
 ## Importación de espacios de nombres requeridos
 
@@ -31,7 +31,7 @@ using Aspose.Words.Saving;
 
 ## Paso 1: Definir el directorio del documento
 
-Establezca una ruta de directorio donde se almacenarán sus documentos de Word. Esto es esencial para gestionar eficazmente los archivos de salida.
+Configure la ruta del directorio donde se almacenarán sus documentos de Word. Esto es esencial para gestionar eficazmente los archivos de salida.
 
 ```csharp
 string dataDir = @"C:\MyDocuments\";

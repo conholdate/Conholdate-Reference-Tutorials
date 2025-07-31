@@ -45,7 +45,7 @@ Stel het pad naar uw PDF-document in:
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
 
-Vervangen `"YOUR_DOCUMENT_DIRECTORY"` met het werkelijke pad waar uw PDF-bestand is opgeslagen.
+Vervangen `"YOUR_DOCUMENT_DIRECTORY"` met het daadwerkelijke pad waar uw PDF-bestand is opgeslagen.
 
 ## Stap 2: Open het PDF-document
 
@@ -56,7 +56,7 @@ Gebruik de `Document` klasse om uw PDF-bestand te openen:
 Document pdfDocument = new Document(dataDir + "GetAttachmentInfo.pdf");
 ```
 
-Dit creëert een instantie van de `Document` klasse, waarmee u met de inhoud van de PDF kunt interacteren.
+Hiermee wordt een exemplaar van de `Document` klasse, waarmee u met de inhoud van de PDF kunt interacteren.
 
 ## Stap 3: Toegang tot ingesloten bestanden
 
@@ -89,11 +89,11 @@ if (fileSpecification != null)
 }
 ```
 
-Met dit codefragment worden de naam, beschrijving en het MIME-type van het ingesloten bestand afgedrukt, waardoor u inzicht krijgt in de inhoud ervan.
+Met dit codefragment worden de naam, beschrijving en het MIME-type van het ingesloten bestand weergegeven, waardoor u inzicht krijgt in de inhoud ervan.
 
 ## Stap 5: Controleer aanvullende parameters
 
-Sommige ingesloten bestanden kunnen extra metadata bevatten. Laten we deze parameters controleren en weergeven:
+Sommige ingesloten bestanden kunnen aanvullende metadata bevatten. Laten we deze parameters controleren en weergeven:
 
 ```csharp
 // Controleer op aanvullende parameters

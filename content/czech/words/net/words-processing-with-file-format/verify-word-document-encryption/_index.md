@@ -18,7 +18,7 @@ Než se pustíme do kódu, ujistěte se, že máte vše potřebné:
 - Knihovna Aspose.Words pro .NET: Stáhněte si ji z [zde](https://releases.aspose.com/words/net/).
 - .NET Framework: Ujistěte se, že máte na svém počítači nainstalovaný .NET Framework.
 - IDE: Integrované vývojové prostředí, podobné Visual Studiu.
-- Základní znalost C#: Znalost C# vám pomůže snadno se v tomto tutoriálu orientovat.
+- Základní znalost C#: Znalost C# vám pomůže snadno pochopit tento tutoriál.
 
 ## Krok 1: Importujte požadované jmenné prostory
 

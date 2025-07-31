@@ -31,7 +31,7 @@ Než se pustíme do kódu, ujistěte se, že máte vše správně nastavené. V�
 1. **Visual Studio**Stáhněte a nainstalujte Visual Studio z [zde](https://visualstudio.microsoft.com/vs/)Jakákoli novější verze bude fungovat perfektně.
 2. **Aspose.Cells pro .NET**Toto je vaše tajná zbraň pro manipulaci s Excelem. Můžete si ji stáhnout z [místo](https://releases.aspose.com/cells/net/).
 3. **Základní znalost C#**Nemusíte být guru C#, ale znalost základních konceptů vám pomůže plynule se orientovat.
-4. **Adresář dokumentů**Vytvořte si v počítači vyhrazenou složku pro ukládání souborů aplikace Excel pro tento tutoriál. Organizace je klíčová!
+4. **Adresář dokumentů**Vytvořte si v počítači vyhrazenou složku pro ukládání souborů Excelu pro tento tutoriál. Organizace je klíčová!
 
 Máte všechno připravené? Skvělé! Pojďme importovat balíčky, které budeme potřebovat.
 

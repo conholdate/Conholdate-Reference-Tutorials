@@ -1,5 +1,5 @@
 ---
-"description": "Entdecken Sie die Möglichkeiten automatisierter E-Mail-Kommunikation mit unserem ausführlichen Leitfaden zur Verwendung von C# und der Aspose.Email für .NET-Bibliothek. Erfahren Sie, wie Sie E-Mails inklusive Anhängen und HTML-Inhalten erstellen, formatieren und versenden."
+"description": "Entdecken Sie die Möglichkeiten automatisierter E-Mail-Kommunikation mit unserem ausführlichen Leitfaden zur Verwendung von C# und der Aspose.Email für .NET-Bibliothek. Erfahren Sie, wie Sie E-Mails erstellen, formatieren und versenden, einschließlich Anhängen und HTML-Inhalten."
 "linktitle": "Erstellen Sie eine neue E-Mail – C#-Implementierung"
 "second_title": "Aspose.Email .NET E-Mail-Verarbeitungs-API"
 "title": "Erstellen Sie eine neue E-Mail – C#-Implementierung"

@@ -12,7 +12,7 @@
 Lorsque vous travaillez avec des fichiers Excel par programmation, vous pouvez avoir besoin de protéger certaines zones d'une feuille de calcul tout en permettant aux autres de rester modifiables. Aspose.Cells pour .NET offre une solution performante pour y parvenir. Dans ce tutoriel, nous vous guiderons pas à pas dans la protection de colonnes spécifiques d'une feuille de calcul Excel.
 
 ## Prérequis
-Avant de commencer, assurez-vous d’avoir les éléments suivants :
+Avant de commencer, assurez-vous d’avoir les éléments suivants :
 - Visual Studio : un IDE compatible .NET installé sur votre machine.
 - Aspose.Cells pour .NET : la bibliothèque intégrée à votre projet. Vous pouvez la télécharger depuis le [Site Web d'Aspose](https://releases.aspose.com/cells/net/).
 - Connaissances de base en C# : Une familiarité avec la programmation C# est supposée.

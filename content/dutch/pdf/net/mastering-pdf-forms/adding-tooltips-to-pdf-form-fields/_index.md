@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Tooltips bieden essentiële begeleiding aan gebruikers die met PDF-formulieren werken, zodat ze de benodigde informatie kunnen begrijpen zonder zich overweldigd te voelen. Door de muisaanwijzer op een veld te plaatsen, ontvangen gebruikers contextgevoelige prompts die de bruikbaarheid verbeteren. In deze handleiding laten we zien hoe u efficiënt tooltips aan formuliervelden kunt toevoegen met Aspose.PDF voor .NET.
+Tooltips bieden essentiële begeleiding aan gebruikers die met PDF-formulieren werken, zodat ze de benodigde informatie kunnen begrijpen zonder zich overweldigd te voelen. Door de muisaanwijzer op een veld te plaatsen, ontvangen gebruikers contextgevoelige prompts die de algehele bruikbaarheid verbeteren. In deze handleiding laten we zien hoe u efficiënt tooltips aan formuliervelden kunt toevoegen met Aspose.PDF voor .NET.
 
 ## Vereisten
 
@@ -31,7 +31,7 @@ using Aspose.Pdf;
 using System;
 ```
 
-## Stap 1: Het PDF-document laden
+## Stap 1: laad het PDF-document
 
 Begin met het laden van het PDF-document met de formuliervelden die u wilt wijzigen.
 
@@ -58,14 +58,14 @@ Field textField = doc.Form["textbox1"] as Field;
 
 - doc.Form["tekstvak1"]: Hiermee wordt het gewenste formulierveld opgehaald, dat vervolgens wordt omgezet in een `Field` voorwerp. 
 
-Het is alsof je het specifieke gedeelte van een formulier aangeeft dat een notitie nodig heeft voor de duidelijkheid.
+Het is alsof je het specifieke gedeelte van een formulier identificeert dat een notitie nodig heeft voor de duidelijkheid.
 
 ## Stap 3: De tooltip instellen
 
-Nu u het formulierveld hebt gelokaliseerd, kunt u eenvoudig de tekst toevoegen die verschijnt als u eroverheen zweeft.
+Nu u het formulierveld hebt gelokaliseerd, kunt u eenvoudig de tooltiptekst toevoegen die verschijnt als u eroverheen zweeft.
 
 ```csharp
-// De tooltip voor het tekstveld toewijzen
+// Wijs de tooltip toe voor het tekstveld
 textField.AlternateName = "This is a tooltip for the text box.";
 ```
 
@@ -98,8 +98,8 @@ Het implementeren van tooltips in PDF-formuliervelden met Aspose.PDF voor .NET i
 ### Kan ik tooltips toevoegen aan elk type formulierveld?
 Ja, tooltips kunnen worden toegepast op verschillende typen formuliervelden, waaronder tekstvakken, selectievakjes en interactieve keuzerondjes.
 
-### Hoe pas ik het uiterlijk van de tooltips aan?
-Momenteel worden de visuele aspecten van tooltips (bijvoorbeeld lettergrootte en kleur) bepaald door de PDF-viewer en kunnen deze niet worden aangepast via Aspose.PDF.
+### Hoe pas ik het uiterlijk van de tooltip aan?
+Momenteel worden de visuele aspecten van tooltips (bijvoorbeeld lettergrootte en kleur) bepaald door de PDF-viewer en kunnen ze niet worden aangepast via Aspose.PDF.
 
 ### Wat als de PDF-viewer van een gebruiker geen tooltips ondersteunt?
 Als een viewer geen tooltips ondersteunt, zien die gebruikers de tooltips gewoon niet. De meeste moderne PDF-viewers ondersteunen deze functie echter wel.

@@ -35,7 +35,7 @@ using System;
 using Aspose.Pdf;
 ``` 
 
-## Stap 1: Het PDF-document laden  
+## Stap 1: laad het PDF-document  
 
 Laad eerst het PDF-document waaraan u een bijlage wilt toevoegen. Gebruik de `Document` klasse om het PDF-bestand te verwerken:  
 
@@ -43,7 +43,7 @@ Laad eerst het PDF-document waaraan u een bijlage wilt toevoegen. Gebruik de `Do
 // Definieer het directorypad
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// PDF-document laden
+// Laad het PDF-document
 Document pdfDocument = new Document(dataDir + "Sample.pdf");
 ```  
 
@@ -65,7 +65,7 @@ Dit object verwijst naar het bestand `Attachment.txt` en geeft een beschrijving 
 Voeg het bestand toe aan de bijlagenverzameling van het document met behulp van de `EmbeddedFiles.Add` methode:  
 
 ```csharp
-// Voeg het bestand toe aan de ingesloten bestandenverzameling van de PDF
+// Voeg het bestand toe aan de ingesloten bestandsverzameling van de PDF
 pdfDocument.EmbeddedFiles.Add(fileSpecification);
 ```  
 
@@ -100,7 +100,7 @@ Er is geen specifieke limiet; u kunt meerdere bijlagen toevoegen aan de `Embedde
 ### Is Aspose.PDF voor .NET gratis?  
 Aspose.PDF biedt een gratis proefperiode aan, maar voor volledige functionaliteit is een betaalde licentie vereist.  
 
-### Kan ik een aangepaste beschrijving toevoegen aan bijlagen?  
+### Kan ik een aangepaste beschrijving voor bijlagen toevoegen?  
 Ja, u kunt een aangepaste beschrijving opgeven bij het maken van de `FileSpecification` voorwerp.  
 
 ### Waar kan ik meer documentatie vinden?  

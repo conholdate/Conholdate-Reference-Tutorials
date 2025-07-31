@@ -50,7 +50,7 @@ VbaProject vbaProject = workbook.VbaProject;
 
 ## Schritt 3: Überprüfen Sie den aktuellen Schutzstatus
 
-Bevor Sie Änderungen vornehmen, sollten Sie prüfen, ob das VBA-Projekt bereits geschützt ist. Die `IsProtected` Eigenschaft stellt diese Informationen bereit.
+Bevor Sie Änderungen vornehmen, prüfen Sie, ob das VBA-Projekt bereits geschützt ist. Die `IsProtected` Eigenschaft stellt diese Informationen bereit.
 
 ```csharp
 // Überprüfen Sie, ob das VBA-Projekt geschützt ist

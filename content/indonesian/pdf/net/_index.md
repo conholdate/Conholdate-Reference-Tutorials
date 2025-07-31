@@ -34,7 +34,7 @@ Ubah berbagai format file ke dan dari PDF dengan kualitas profesional dan pelest
 | **[Konversi EPUB ke PDF](./mastering-document-conversion/convert-epub-to-pdf/)** | Ubah e-book menjadi format PDF untuk kompatibilitas universal | ⭐ Pemula Bahasa Indonesia: |
 | **[Menguasai HTML ke PDF](./mastering-document-conversion/mastering-html-to-pdf/)** | Konversi konten web ke PDF dengan dukungan gaya tingkat lanjut | ⭐⭐ Menengah Bahasa Indonesia: |
 | **[Konversi CGM ke PDF](./mastering-document-conversion/convert-cgm-to-pdf/)** | Transformasi Metafile Grafik Komputer ke PDF | ⭐⭐ Menengah Bahasa Indonesia: |
-| **[Menambahkan Lampiran ke PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** | Lampiran dokumen yang sesuai dengan standar kearsipan | ⭐⭐⭐ Lanjutan |
+| **[Menambahkan Lampiran ke PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** Lampiran dokumen yang sesuai dengan standar kearsipan | ⭐⭐⭐ Lanjutan |
 
 ### Menguasai Pemrograman Dokumen PDF
 Teknik pemrograman PDF tingkat lanjut untuk membuat solusi dokumen yang canggih.
@@ -52,7 +52,7 @@ Operasi halaman PDF penting untuk pengorganisasian dokumen dan manajemen struktu
 | Tutorial | Deskripsi | Kesulitan |
 |----------|-------------|------------Bahasa Indonesia: |
 | **[Ubah Orientasi Halaman PDF](./master-pdf-page-management/change-pdf-page-orientation/)** | Sesuaikan tata letak dan orientasi halaman untuk tampilan dokumen yang optimal | ⭐ Pemula Bahasa Indonesia: |
-| **[Menggabungkan File PDF](./master-pdf-page-management/concatenating-pdf-files/)** Gabungkan beberapa dokumen PDF menjadi satu file yang kohesif | ⭐⭐ Menengah Bahasa Indonesia: |
+| **[Menggabungkan File PDF](./master-pdf-page-management/concatenating-pdf-files/)** | Gabungkan beberapa dokumen PDF menjadi satu file yang kohesif | ⭐⭐ Menengah Bahasa Indonesia: |
 | **[Hapus Halaman Tertentu dari File PDF](./master-pdf-page-management/delete-particular-page-from-pdf-files/)** | Hapus halaman tertentu dari dokumen PDF secara efisien | ⭐ Pemula Bahasa Indonesia: |
 | **[Masukkan Halaman Kosong ke dalam File PDF](./master-pdf-page-management/insert-empty-pages/)** | Tambahkan halaman kosong untuk pengaturan konten dan spasi | ⭐ Pemula Bahasa Indonesia: |
 | **[Menambahkan Halaman Kosong di Akhir](./master-pdf-page-management/adding-an-empty-page-at-end/)** | Tambahkan halaman kosong ke dokumen PDF secara terprogram | ⭐ Pemula |
@@ -67,7 +67,7 @@ Operasi halaman PDF penting untuk pengorganisasian dokumen dan manajemen struktu
 ### **Pembuatan Dokumen Interaktif**
 - **Pengembangan Formulir**:Formulir PDF dinamis dengan validasi dan perhitungan
 - **Tanda Tangan Digital**: Penandatanganan dan otentikasi dokumen yang aman
-- **Integrasi Multimedia**Konten media kaya dalam dokumen PDF
+- **Integrasi Multimedia**: Konten media kaya dalam dokumen PDF
 
 ### **Solusi Web-ke-PDF**
 - **Konversi HTML**: Ubah konten web menjadi PDF untuk akses offline
@@ -113,7 +113,7 @@ Operasi halaman PDF penting untuk pengorganisasian dokumen dan manajemen struktu
 ### **Keamanan & Kepatuhan**
 - **Tanda Tangan Digital** - Autentikasi dan integritas dokumen
 - **Enkripsi** - Perlindungan kata sandi dan kontrol akses
-- **Standar PDF/A** - Kepatuhan arsip jangka panjang
+- **Standar PDF/A** Kepatuhan arsip jangka panjang
 
 ### **Peningkatan Dokumen**
 - **Tanda air** - Perlindungan merek dan penandaan dokumen

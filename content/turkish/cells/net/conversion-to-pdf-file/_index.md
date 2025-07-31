@@ -2,7 +2,7 @@
 "categories":
 - "Excel Processing"
 "date": "2025-01-02"
-"description": "Aspose.Cells ile Excel'i .NET'te zahmetsizce PDF'e dönüştürün. Excel'den PDF'e kusursuz dönüşüm için adım adım eğitimler, kod örnekleri ve uzman ipuçları."
+"description": "Aspose.Cells ile Excel'i .NET'te zahmetsizce PDF'e dönüştürün. Excel'i PDF'e sorunsuz dönüştürme için adım adım eğitimler, kod örnekleri ve uzman ipuçları."
 "lastmod": "2025-01-02"
 "linktitle": "Excel'den PDF'e Dönüştürme .NET Kılavuzu"
 "second_title": "Aspose.Cells .NET Excel İşleme API'si"
@@ -118,4 +118,4 @@ Excel'i .NET'te PDF'e dönüştürmenin birkaç yolu olsa da, Aspose.Cells belir
 Aspose.Cells kullanarak Excel dosyalarını .NET'te zahmetsizce PDF'ye dönüştürün. Bu adım adım kılavuz, .NET geliştiricilerine kod parçacıkları, kurulum ipuçları ve sorun giderme SSS'leri sağlar.
 
 ### [Aspose.Cells for .NET Kullanarak Excel Grafiklerini PDF'ye Dönüştürme](./convert-excel-charts-to-pdf/)
-Aspose.Cells kullanarak Excel grafiklerini .NET'te PDF formatına nasıl kolayca dönüştürebileceğinizi öğrenin. Adım adım kılavuzumuz ön koşulları, kurulumu, kod örneklerini ve SSS'leri kapsar.
+Aspose.Cells kullanarak Excel grafiklerini .NET'te PDF formatına nasıl kolayca dönüştürebileceğinizi öğrenin. Adım adım kılavuzumuz, ön koşulları, kurulumu, kod örneklerini ve SSS'leri kapsar.

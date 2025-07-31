@@ -30,7 +30,7 @@ using System;
 using Aspose.Pdf;
 ```
 
-## Stap 2: Definieer de documentmap
+## Stap 2: Definieer de documentdirectory
 
 Geef het pad op naar de map waarin uw PDF-document zich bevindt, evenals de uitvoerpaden voor de TIFF-afbeeldingen:
 
@@ -115,7 +115,7 @@ De `BinarizeBradley` Deze methode gebruikt twee bestandsstromen (invoer en uitvo
 
 ## Stap 10: Bevestig succesvolle conversie
 
-Bevestig ten slotte dat de conversie succesvol was:
+Bevestig ten slotte dat de conversie succesvol is:
 
 ```csharp
 Console.WriteLine("Conversion using Bradley algorithm performed successfully!");
@@ -123,12 +123,12 @@ Console.WriteLine("Conversion using Bradley algorithm performed successfully!");
 
 ## Conclusie
 
-Gefeliciteerd! U hebt met succes een PDF-pagina geconverteerd naar een TIFF-afbeelding en het Bradley Binarization Algorithm toegepast met Aspose.PDF voor .NET. Dit proces is essentieel voor documentarchivering, OCR en andere professionele toepassingen. Dankzij de hoge resolutie en efficiënte compressie zijn uw documentafbeeldingen helder en beheersbaar qua formaat.
+Gefeliciteerd! U hebt met succes een PDF-pagina geconverteerd naar een TIFF-afbeelding en het Bradley Binarization Algorithm toegepast met Aspose.PDF voor .NET. Dit proces is essentieel voor documentarchivering, OCR en andere professionele toepassingen. Dankzij de hoge resolutie en efficiënte compressie zijn uw documentafbeeldingen helder en beheersbaar van formaat.
 
 ## Veelgestelde vragen
 
 ### Wat is het Bradley-algoritme?
-Het Bradley-algoritme is een binarisatietechniek waarmee grijswaardenafbeeldingen worden omgezet in binaire afbeeldingen door voor elke pixel een adaptieve drempelwaarde te bepalen op basis van de omgeving.
+Het Bradley-algoritme is een binarisatietechniek die grijstintenafbeeldingen omzet in binaire afbeeldingen door voor elke pixel een adaptieve drempelwaarde te bepalen op basis van de omgeving.
 
 ### Kan ik met deze methode meerdere PDF-pagina's naar TIFF converteren?
 Ja, u kunt de `Process` Methode om alle pagina's in het document te doorlopen voor conversie.

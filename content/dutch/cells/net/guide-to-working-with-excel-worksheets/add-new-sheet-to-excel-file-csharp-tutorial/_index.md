@@ -1,5 +1,5 @@
 ---
-"description": "Leer hoe u moeiteloos een nieuw werkblad aan een Excel-bestand toevoegt met Aspose.Cells voor .NET. Deze uitgebreide handleiding biedt een stapsgewijze aanpak, codevoorbeelden en nuttige tips."
+"description": "Leer hoe u moeiteloos een nieuw werkblad aan een Excel-bestand toevoegt met Aspose.Cells voor .NET. Deze uitgebreide handleiding biedt een stapsgewijze aanpak, codevoorbeelden en handige tips."
 "linktitle": "Nieuw werkblad naar een Excel-bestand programmatisch C#-zelfstudie"
 "second_title": "Aspose.Cells voor .NET API-referentie"
 "title": "Nieuw werkblad naar een Excel-bestand programmatisch C#-zelfstudie"
@@ -16,7 +16,7 @@ Het programmatisch beheren van Excel-bestanden kan een revolutie betekenen voor 
 Voordat u aan de slag gaat met coderen, moet u controleren of u aan de volgende vereisten voldoet:
 
 1. Visual Studio: Geïnstalleerd op uw systeem (downloaden van [Microsoft](https://visualstudio.microsoft.com/)).
-2. Aspose.Cells-bibliotheek: beschikbaar voor uw project. Downloaden via [Aspose-releases](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Bibliotheek: Beschikbaar voor uw project. Downloaden via [Aspose-releases](https://releases.aspose.com/cells/net/).
 3. NuGet Package Manager: Hiermee integreert u Aspose.Cells in uw project.
 4. .NET Framework of .NET Core: zorg voor compatibiliteit met uw project.
 5. Basiskennis van C#: Kennis van klassen en objectgeoriënteerd programmeren wordt aanbevolen.
@@ -24,14 +24,14 @@ Voordat u aan de slag gaat met coderen, moet u controleren of u aan de volgende 
 ### Aspose.Cells installeren via NuGet
 
 1. Start Visual Studio en maak een nieuw project.
-2. Navigeren naar `Tools` > `NuGet Package Manager` > `Manage NuGet Packages for Solution`.
+2. Navigeer naar `Tools` > `NuGet Package Manager` > `Manage NuGet Packages for Solution`.
 3. Zoek naar Aspose.Cells en installeer de nieuwste versie.  
-   Nadat u de bibliotheek hebt geïnstalleerd, kunt u deze direct in uw project gebruiken.
+   Nadat u de bibliotheek hebt geïnstalleerd, kunt u deze in uw project gebruiken.
 
 
 ## Vereiste naamruimten importeren
 
-Voeg de benodigde naamruimten bovenaan uw code toe om toegang tot de Aspose.Cells-functionaliteiten te garanderen:
+Voeg de benodigde naamruimten bovenaan uw code toe om toegang tot de functionaliteiten van Aspose.Cells te garanderen:
 
 ```csharp
 using System.IO;

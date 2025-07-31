@@ -9,7 +9,7 @@
 
 ## Invoering
 
-E-mailhyperlinks dienen als toegangspoorten tot websites en andere bronnen. Standaard bevatten deze hyperlinks platte tekst, die mooi in de achtergrond van uw bericht kan opgaan. Door echter gebruik te maken van de krachtige mogelijkheden van Aspose.Email voor .NET, kunt u de weergave van hyperlinks aanpassen, waardoor ze opvallen en een betere gebruikerservaring bieden.
+E-mailhyperlinks dienen als toegangspoorten tot websites en andere bronnen. Standaard bevatten deze hyperlinks platte tekst, die op de achtergrond van uw bericht kan opgaan. Door echter gebruik te maken van de krachtige mogelijkheden van Aspose.Email voor .NET, kunt u de weergave van hyperlinks aanpassen, waardoor ze opvallen en een betere gebruikerservaring bieden.
 
 ## Uw ontwikkelomgeving instellen
 
@@ -44,7 +44,7 @@ namespace CustomHyperlinkRendering
             Console.WriteLine(RenderHyperlinkWithoutHref(msg.GetHtmlBodyText()));
         }
 
-        // Aangepaste methoden voor het weergeven van hyperlinks vindt u hier
+        // Aangepaste methoden voor het renderen van hyperlinks vindt u hier
     }
 }
 ```
@@ -97,7 +97,7 @@ private static string RenderHyperlinkWithoutHref(string source)
 }
 ```
 
-Deze methode haalt tekst op die is omsloten door HTML-ankertags, maar laat de `href`, wat resulteert in een eenvoudige weergave van de linktekst.
+Deze methode haalt tekst op die is ingesloten door HTML-ankertags, maar laat de `href`, wat resulteert in een eenvoudige weergave van de linktekst.
 
 ## Conclusie
 

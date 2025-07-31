@@ -93,7 +93,7 @@ Uygulamanızın çok sayıda Excel dosyasını işlemesi veya büyük veri küme
 
 **Seçmeli Yükleme**: Tüm çalışma kitaplarını yüklemek yerine yalnızca ihtiyacınız olan verileri yüklemek için Aspose.Cells' LoadOptions'ı kullanın.
 
-**Arka Plan İşleme**: Web uygulamaları için, duyarlı kullanıcı arayüzlerini korumak amacıyla yoğun Excel işlemleri için arka plan iş işlemeyi uygulamayı düşünün.
+**Arka Plan İşleme**:Web uygulamaları için, duyarlı kullanıcı arayüzlerini korumak amacıyla yoğun Excel işlemleri için arka plan iş işlemeyi uygulamayı düşünün.
 
 ## Gerçek Dünya Uygulamaları ve Kullanım Örnekleri
 

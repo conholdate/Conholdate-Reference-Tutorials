@@ -81,7 +81,7 @@ MhtSaveOptions opt = SaveOptions.DefaultMhtml;
 eml.Save(dataDir + "CustomOrderOfInformationInMHTML_1.mhtml", opt);
 ```
 
-この行を実行し、指定したディレクトリを確認してください。新しいMHTMLファイルが作成され、 `CustomOrderOfInformationInMHTML_1.mhtml`これを開いて、デフォルトで情報がどのように表示されるかを確認します。
+この行を実行し、指定したディレクトリを確認してください。新しいMHTMLファイルが作成され、 `CustomOrderOfInformationInMHTML_1.mhtml`これを開くと、デフォルトで情報がどのように表示されるかを確認できます。
 
 ## ステップ5: ヘッダーの順序をカスタマイズする
 

@@ -83,7 +83,7 @@ Section importedSection = (Section)destinationDoc.ImportNode(sectionToCopy, true
 destinationDoc.Sections.Add(importedSection);
 ```
 
-## Шаг 6: Сохранение итогового документа
+## Шаг 6: Сохранение финального документа
 
 Сохраните обновленный целевой документ.
 
@@ -92,7 +92,7 @@ destinationDoc.Sections.Add(importedSection);
 destinationDoc.Save(dataDir + "WorkingWithSection.CopySection.docx");
 ```
 
-- Путь к файлу вывода: убедитесь, что путь сохранения указан правильно, чтобы избежать непреднамеренной перезаписи файлов.
+- Путь к выходу: убедитесь, что путь сохранения указан правильно, чтобы избежать непреднамеренной перезаписи файлов.
 
 ## Заключение
 

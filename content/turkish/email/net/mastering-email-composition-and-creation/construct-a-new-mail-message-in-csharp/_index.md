@@ -70,7 +70,7 @@ HTML kullanarak köprüler ekleyerek e-posta gövdesini geliştirebilirsiniz `<a
 message.HtmlBody += "<p>Click <a href='https://Web sitemizi ziyaret etmek için example.com'>buraya</a> tıklayın.</p>";
 ```
 
-## E-posta İçeriğinin Biçimlendirilmesi
+## E-posta İçeriğini Biçimlendirme
 
 Aspose.Email, HTML ve CSS kullanarak zengin biçimlendirme olanağı sunar. İşte biçimlendirilmiş metin eklemeye bir örnek:
 

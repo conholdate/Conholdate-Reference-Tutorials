@@ -83,7 +83,7 @@ radio.AddOption("Option 2", new Rectangle(0, 30, 20, 20));
 pdfDocument.Form.Add(radio);
 ```
 
-## ステップ7: PDF文書を保存する
+## ステップ7: PDFドキュメントを保存する
 
 PDF ドキュメントを指定されたディレクトリに保存します。
 

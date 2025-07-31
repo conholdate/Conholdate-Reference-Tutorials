@@ -84,7 +84,7 @@ using Aspose.Words;
 
 就是这样！Aspose.Words 保持整洁，最大程度减少命名空间污染。
 
-## 步骤3：加载PDF文档
+## 步骤3：加载您的PDF文档
 
 现在我们进入最有趣的部分。使用 Aspose.Words 加载 PDF 非常简单，但需要注意以下几点：
 
@@ -246,7 +246,7 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg)
 根据您的具体需求，您可能还考虑：
 - **ImageSharp 或 SkiaSharp** 用于更多图像处理控制
 - **Adobe PDF SDK** 如果您需要高级 PDF 操作
-- **在线 API** 无需本地处理即可进行偶尔的转换
+- **在线 API** 无需本地处理的偶尔转换
 
 ## 最佳实践
 

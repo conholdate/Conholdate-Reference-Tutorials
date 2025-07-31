@@ -9,7 +9,7 @@
 
 ## 介紹
 
-在文件處理領域，文件的保存方式會極大地影響其品質和功能。 Aspose.Words for .NET 擁有豐富的功能，可協助您精確儲存 Word 文件。其中一個值得注意的功能是「不壓縮小型圖元檔案」選項。本教學將指導您如何使用此功能，以確保圖元檔案保持其完整性。讓我們開始吧！
+在文件處理領域，保存文件的方式會極大地影響文件的品質和功能。 Aspose.Words for .NET 具有多種功能，可協助您精確儲存 Word 文件。一個值得注意的功能是「不壓縮小型元檔案」選項。本教學將指導您使用此功能以確保您的元文件保持其完整性。讓我們開始吧！
 
 ## 先決條件
 
@@ -18,7 +18,7 @@
 1. Aspose.Words for .NET：從下載並安裝最新版本 [Aspose 版本](https://releases。aspose.com/words/net/).
 2. 開發環境：使用 Visual Studio 或任何相容的 IDE。
 3. 對 C# 的基本了解：熟悉 C# 和 .NET 架構將會有所幫助。
-4. Aspose 許可證：要完全解鎖 Aspose.Words，需要取得 [執照](https://purchase.aspose.com/buy) 建議使用。或者，您可以使用 [臨時執照](https://purchase.aspose.com/temporary-license/) 用於評估目的。
+4. Aspose 許可證：要完全解鎖 Aspose.Words，需要取得 [執照](https://purchase.aspose.com/buy) 建議。或者，您可以使用 [臨時執照](https://purchase.aspose.com/temporary-license/) 用於評估目的。
 
 ## 導入命名空間
 
@@ -33,7 +33,7 @@ using Aspose.Words.Saving;
 
 ## 步驟 1：設定文檔目錄
 
-首先，確定文檔的保存目錄。正確管理文件路徑至關重要。
+首先，建立保存文檔的目錄。正確管理文件路徑至關重要。
 
 ```csharp
 // 文檔目錄的路徑
@@ -53,7 +53,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Text added to a document.");
 ```
 
-這裡， `Document` 物件被初始化，並且 `DocumentBuilder` 用於插入文字。 `Writeln` 方法將一行文字附加到文件。
+這裡， `Document` 物件被初始化，並且 `DocumentBuilder` 用於插入文字。這 `Writeln` 方法將一行文字附加到文件。
 
 ## 步驟 3：配置儲存選項
 
@@ -77,11 +77,11 @@ DocSaveOptions saveOptions = new DocSaveOptions {
 doc.Save(dataDir + "DocumentWithDoNotCompressMetafiles.pdf", saveOptions);
 ```
 
-在這一行中， `Save` 方法 `Document` 呼叫該類別來儲存文檔。路徑由您的目錄和所需的檔案名稱「DocumentWithDoNotCompressMetafiles.pdf」組成。
+在這一行中， `Save` 方法 `Document` 呼叫該類別來儲存文檔。該路徑結合了您的目錄和所需的檔案名稱「DocumentWithDoNotCompressMetafiles.pdf」。
 
 ## 結論
 
-透過遵循這些步驟，您可以確保Word文件中的小型圖元檔案無需壓縮即可保存，從而保持其品質和完整性。 Aspose.Words for .NET是一款功能強大的工具，可協助開發人員有效地自訂其文件處理需求。
+透過遵循這些步驟，您可以確保 Word 文件中的小型元檔案不會被壓縮，從而保持其品質和完整性。 Aspose.Words for .NET 是一個強大的工具，使開發人員能夠有效地自訂他們的文件處理需求。
 
 ## 常見問題解答
 
@@ -91,11 +91,11 @@ doc.Save(dataDir + "DocumentWithDoNotCompressMetafiles.pdf", saveOptions);
 
 ### 我可以將此功能用於其他文件格式嗎？
 
-當然！ Aspose.Words for .NET 為各種文件格式提供了可設定的儲存選項，讓您在文件處理方面更加靈活。
+絕對地！ Aspose.Words for .NET 為各種文件格式提供了可設定的儲存選項，為您提供文件處理的彈性。
 
 ### 我需要許可證才能使用 Aspose.Words for .NET 嗎？
 
-雖然您可以無需許可證即可使用 Aspose.Words for .NET 進行評估，但要使用完整功能則需要授權。您可以購買許可證 [這裡](https://purchase.aspose.com/buy) 或嘗試 [臨時執照](https://purchase.aspose.com/temporary-license/) 以供評估。
+雖然您可以在沒有授權的情況下使用 Aspose.Words for .NET 進行評估，但要使用完整功能則需要授權。您可以購買許可證 [這裡](https://purchase.aspose.com/buy) 或嘗試 [臨時執照](https://purchase.aspose.com/temporary-license/) 以供評估。
 
 ### 我如何確保我的文件符合 PDF/A 標準？
 

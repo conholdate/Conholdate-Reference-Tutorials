@@ -65,7 +65,7 @@ Si vous devez joindre des fichiers pertinents, spécifiez leurs chemins :
 string[] attachments = { "path/to/file1.pdf", "path/to/file2.docx" };
 ```
 
-## Génération du brouillon de l'e-mail
+## Génération du brouillon de courrier électronique
 
 Utilisez la bibliothèque Aspose.Email pour créer un brouillon d'e-mail contenant les détails du rendez-vous :
 

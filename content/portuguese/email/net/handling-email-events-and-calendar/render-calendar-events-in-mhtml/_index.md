@@ -78,7 +78,7 @@ else
 - `MhtTemplateName.Start`: Refere-se à propriedade "Iniciar" do evento do calendário.
 - `options.FormatTemplates`: Personaliza o modelo de exibição para propriedades específicas.
 
-## Etapa 4: Salve o evento do calendário como MHTML
+## Etapa 4: salvar o evento do calendário como MHTML
 
 Por fim, salve o evento do calendário em um arquivo MHTML com as opções configuradas.
 

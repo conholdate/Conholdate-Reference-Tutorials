@@ -17,11 +17,11 @@ Heb je je ooit afgevraagd hoe je webextensiegegevens in Excel kunt beheren? Met 
 
 ## Aangepaste XML-onderdelen toevoegen aan Excel  
 
-Moet u metadata of aangepaste datastructuren in uw werkmappen insluiten? Deze tutorial begeleidt u bij het toevoegen van aangepaste XML-onderdelen, het toewijzen van unieke ID's en het eenvoudig ophalen van de gegevens. Het is alsof u uw Excel-werkmappen een geheim vak geeft voor extra informatie! [Lees verder](./add-custom-xml-parts/).  
+Moet u metadata of aangepaste datastructuren in uw werkmappen insluiten? Deze tutorial laat u zien hoe u aangepaste XML-onderdelen toevoegt, unieke ID's toewijst en de gegevens eenvoudig ophaalt. Het is alsof u uw Excel-werkmappen een geheim vak geeft voor extra informatie! [Lees verder](./add-custom-xml-parts/).  
 
 ## Een nieuwe digitale handtekening toevoegen  
 
-Beveiliging is belangrijk! Als je met gevoelige gegevens werkt, laat deze tutorial je zien hoe je nieuwe digitale handtekeningen toevoegt aan reeds ondertekende Excel-bestanden. Van vereisten tot stapsgewijze coderingsinstructies: alles wat je nodig hebt om je bestanden veilig te houden, komt aan bod. [Lees verder](./adding-new-digital-signature-to-signed-excel-file/).  
+Beveiliging is belangrijk! Als u met gevoelige gegevens werkt, leert deze tutorial u hoe u nieuwe digitale handtekeningen toevoegt aan reeds ondertekende Excel-bestanden. Van vereisten tot stapsgewijze coderingsinstructies: alles wat u nodig hebt om uw bestanden veilig te houden, komt aan bod. [Lees verder](./adding-new-digital-signature-to-signed-excel-file/).  
 
 ## Bestandscompressie optimaliseren  
 

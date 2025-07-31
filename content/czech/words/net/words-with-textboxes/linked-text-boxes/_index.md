@@ -13,7 +13,7 @@ Ahoj techničtí nadšenci a dokumentoví mágové! Potýkali jste se někdy s p
 
 ## Předpoklady
 
-Než se pustíme do kódu, ujistěte se prosím, že máte připravené následující základní náležitosti:
+Než se pustíme do kódu, ujistěte se prosím, že máte připravené následující nezbytné prvky:
 
 1. Knihovna Aspose.Words pro .NET: Ujistěte se, že máte nainstalovanou nejnovější verzi. Můžete [stáhněte si to zde](https://releases.aspose.com/words/net/).
 2. Vývojové prostředí: Vývojové prostředí pro .NET, jako je Visual Studio, pro psaní a testování kódu.

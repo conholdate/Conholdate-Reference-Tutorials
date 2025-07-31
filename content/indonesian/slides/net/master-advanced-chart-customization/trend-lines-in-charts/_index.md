@@ -1,24 +1,25 @@
 ---
-title: Garis Tren dalam Grafik dengan Aspose.Slides untuk .NET
-linktitle: Garis Tren dalam Grafik dengan Aspose.Slides untuk .NET
-second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
-description: Pelajari cara menambahkan dan menyesuaikan garis tren dalam bagan menggunakan Aspose.Slides for .NET. Panduan komprehensif ini mencakup garis tren eksponensial, linier, logaritmik, polinomial, dan rata-rata bergerak untuk menyempurnakan visualisasi data Anda.
-weight: 12
-url: /id/slides/master-advanced-chart-customization/trend-lines-in-charts/
+"description": "Pelajari cara menambahkan dan menyesuaikan garis tren pada grafik menggunakan Aspose.Slides untuk .NET. Panduan komprehensif ini mencakup garis tren eksponensial, linear, logaritmik, polinomial, dan rata-rata bergerak untuk menyempurnakan visualisasi data Anda."
+"linktitle": "Garis Tren dalam Grafik dengan Aspose.Slides untuk .NET"
+"second_title": "API Pemrosesan PowerPoint Aspose.Slides .NET"
+"title": "Garis Tren dalam Grafik dengan Aspose.Slides untuk .NET"
+"url": "/id/slides/net/master-advanced-chart-customization/trend-lines-in-charts/"
+"weight": 12
 ---
+
 ## Perkenalan  
 
-Menambahkan garis tren ke bagan merupakan teknik utama untuk menganalisis tren data dan memperkirakan nilai di masa mendatang. Dengan Aspose.Slides for .NET, Anda dapat menambahkan dan menyesuaikan garis tren ke bagan presentasi dengan mudah, sehingga meningkatkan visualisasi data Anda. Panduan ini menyediakan panduan terperinci untuk menambahkan garis tren ke berbagai jenis bagan dalam presentasi PowerPoint menggunakan Aspose.Slides for .NET.  
+Menambahkan garis tren ke bagan merupakan teknik kunci untuk menganalisis tren data dan memperkirakan nilai di masa mendatang. Dengan Aspose.Slides for .NET, Anda dapat menambahkan dan menyesuaikan garis tren ke bagan presentasi Anda dengan mudah, sehingga meningkatkan visualisasi data Anda. Panduan ini memberikan panduan mendetail untuk menambahkan garis tren ke berbagai jenis bagan dalam presentasi PowerPoint menggunakan Aspose.Slides for .NET.  
 
 ## Prasyarat  
 
-Sebelum kita mulai implementasinya, pastikan Anda memiliki pengaturan berikut:  
+Sebelum kita masuk ke implementasi, pastikan Anda memiliki pengaturan berikut:  
 
-1.  Aspose.Slides untuk .NET: Unduh dan instal pustaka dari[halaman unduhan](https://releases.aspose.com/slides/net/).  
+1. Aspose.Slides untuk .NET: Unduh dan instal pustaka dari [halaman unduhan](https://releases.aspose.com/slides/net/).  
 2. Lingkungan Pengembangan: Gunakan IDE seperti Visual Studio untuk pengkodean.  
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# diperlukan untuk mengikuti tutorial ini.  
 
-## Mengimpor Ruang Nama yang Diperlukan  
+## Mengimpor Namespace yang Diperlukan  
 
 Untuk memulai, impor namespace penting ke dalam proyek Anda:  
 
@@ -30,7 +31,7 @@ using Aspose.Slides.Export;
 
 ## Langkah 1: Menyiapkan Presentasi  
 
-Pertama, buat presentasi kosong. Ini akan berfungsi sebagai wadah untuk diagram Anda.  
+Pertama, inisialisasi presentasi kosong. Ini akan berfungsi sebagai wadah untuk bagan Anda.  
 
 ```csharp
 string dataDir = "Your/Documents/Directory";
@@ -57,10 +58,10 @@ IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 50, 50, 500, 400
 
 ## Langkah 3: Mengisi Data Bagan  
 
-Isi bagan dengan data sampel.  
+Isi bagan dengan data contoh.  
 
 ```csharp
-// Mengakses buku kerja data grafik default
+// Mengakses buku kerja data bagan default
 IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
 
 // Perbarui kategori default dan nilai seri
@@ -90,14 +91,14 @@ linTrendLine.Format.Line.FillFormat.FillType = FillType.Solid;
 linTrendLine.Format.Line.FillFormat.SolidFillColor.Color = Color.Blue;
 ```
 
-### Garis Tren Logaritma  
+### Garis Tren Logaritmik  
 
 ```csharp
 ITrendline logTrendLine = chart.ChartData.Series[0].TrendLines.Add(TrendlineType.Logarithmic);
 logTrendLine.AddTextFrameForOverriding("Logarithmic Trend");
 ```
 
-### Garis Tren Rata-rata Bergerak  
+### Garis Tren Rata-Rata Bergerak  
 
 ```csharp
 ITrendline movAvgTrendLine = chart.ChartData.Series[0].TrendLines.Add(TrendlineType.MovingAverage);
@@ -131,21 +132,21 @@ presentation.Save(dataDir + "TrendLinesPresentation.pptx", SaveFormat.Pptx);
 
 ## Kesimpulan  
 
-Dengan menggunakan Aspose.Slides for .NET, menambahkan garis tren ke diagram Anda menjadi tugas yang mudah. Fitur ini memungkinkan Anda menyajikan tren data secara efektif dan menambahkan sentuhan profesional ke presentasi Anda. Ikuti langkah-langkah di atas untuk menggabungkan berbagai jenis garis tren dan meningkatkan visualisasi data Anda.  
+Dengan Aspose.Slides for .NET, menambahkan garis tren ke bagan Anda menjadi tugas yang mudah. Fitur ini memungkinkan Anda menyajikan tren data secara efektif dan menambahkan sentuhan profesional pada presentasi Anda. Ikuti langkah-langkah di atas untuk menggabungkan berbagai jenis garis tren dan meningkatkan visualisasi data Anda.  
 
 ## Pertanyaan yang Sering Diajukan  
 
 ### Bisakah saya menyesuaikan tampilan garis tren?  
- Ya, Anda dapat menyesuaikan warna, ketebalan, dan gaya garis tren menggunakan`Format.Line` milik.  
+Ya, Anda dapat menyesuaikan warna, ketebalan, dan gaya garis tren menggunakan `Format.Line` milik.  
 
 ### Apakah ada dukungan untuk jenis grafik lainnya?  
 Ya, Aspose.Slides untuk .NET mendukung berbagai jenis bagan, termasuk bagan batang, bagan pai, dan bagan garis.  
 
 ### Bagaimana cara menampilkan persamaan dan nilai R-kuadrat?  
- Memungkinkan`DisplayEquation` Dan`DisplayRSquaredValue` properti untuk garis tren untuk menampilkan nilai-nilai ini pada bagan.  
+Memungkinkan `DisplayEquation` Dan `DisplayRSquaredValue` properti untuk garis tren untuk menampilkan nilai-nilai ini pada grafik.  
 
 ### Bisakah saya menggunakan Aspose.Slides untuk .NET dengan bahasa lain?  
-Ya, pustaka ini kompatibel dengan bahasa apa pun yang mendukung .NET, termasuk VB.NET dan F#.  
+Ya, pustaka ini kompatibel dengan bahasa apa pun yang didukung .NET, termasuk VB.NET dan F#.  
 
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut?  
- Kunjungi[Dokumentasi Aspose.Slides untuk .NET](https://reference.aspose.com/slides/net/) untuk informasi lebih lanjut.
+Kunjungi [Dokumentasi Aspose.Slides untuk .NET](https://reference.aspose.com/slides/net/) untuk informasi lebih lanjut.

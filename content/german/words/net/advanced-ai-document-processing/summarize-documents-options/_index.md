@@ -80,7 +80,7 @@ Ersetzen `"YOUR_DOCUMENT_DIRECTORY"` Und `"YOUR_ARTIFACTS_DIRECTORY"` mit tatsä
 
 Wenn Sie Dokumente in großem Umfang zusammenfassen, werden Sie schnell feststellen, dass die Übersicht über Eingabedateien, Ausgabezusammenfassungen und Verarbeitungsprotokolle entscheidend ist. Eine gut organisierte Dateistruktur verhindert das gefürchtete „Wo habe ich diese Zusammenfassung gespeichert?“-Problem.
 
-**Bewährte Methode**: Erstellen Sie separate Unterverzeichnisse für unterschiedliche Dokumenttypen oder Verarbeitungsdaten. Beispiel: `Documents/2025/January/Contracts/` Und `Summaries/2025/January/Contracts/`Dadurch wird die Stapelverarbeitung wesentlich einfacher.
+**Bewährte Vorgehensweise**: Erstellen Sie separate Unterverzeichnisse für unterschiedliche Dokumenttypen oder Verarbeitungsdaten. Beispiel: `Documents/2025/January/Contracts/` Und `Summaries/2025/January/Contracts/`Dadurch wird die Stapelverarbeitung wesentlich einfacher.
 
 ## Schritt 2: Dokumente zur Zusammenfassung laden
 

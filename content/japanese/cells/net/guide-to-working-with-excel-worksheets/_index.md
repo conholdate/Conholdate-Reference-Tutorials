@@ -22,6 +22,6 @@ Excelファイルに新しいシートを追加することは、データをよ
 ## Excel ワークシートの操作 C# チュートリアル
 | タイトル | 説明 |
 | --- | --- | 
-| [既存の Excel ブックにワークシートを追加する C# チュートリアル C# チュートリアル](./adding-worksheet-to-existing-excel-workbook-csharp-tutorial/) この詳細なステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して既存のブックに Excel ワークシートを追加する方法を学習します。 |  
+| [既存の Excel ブックにワークシートを追加する C# チュートリアル C# チュートリアル](./adding-worksheet-to-existing-excel-workbook-csharp-tutorial/) この詳細なステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して、Excel ワークシートを既存のブックに追加する方法を説明します。 |  
 | [Excelファイルにプログラムで新しいシートを追加するC#チュートリアル C#チュートリアル](./add-new-sheet-to-excel-file-csharp-tutorial/) C#とAspose.Cellsを使ってExcelに新しいシートを追加する方法を学びましょう。このチュートリアルでは、プロセスをシンプルで実践的なステップに分解します。 |  
-| [C#チュートリアルを使用してExcelでインデックスでワークシートを削除する C#チュートリアル](./delete-worksheet-by-index-excel-csharp-tutorial/) C#とAspose.Cellsライブラリを使用して、Excelファイルから特定のワークシートをインデックスで効率的に削除する方法を学びましょう。この簡単なステップバイステップのチュートリアルに従ってください。 |
+| [Excelでインデックスを使用してワークシートを削除する C#チュートリアル C#チュートリアル](./delete-worksheet-by-index-excel-csharp-tutorial/) C#とAspose.Cellsライブラリを使用して、Excelファイルから特定のワークシートをインデックスで効率的に削除する方法を学びましょう。この簡単なステップバイステップのチュートリアルに従ってください。 |

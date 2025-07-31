@@ -106,7 +106,7 @@ if (fileSpecification.Params != null)
 }
 ```
 
-Tento krok načte a zobrazí kontrolní součet, datum vytvoření, datum úpravy a velikost souboru, což může být užitečné pro audit a sledování.
+Tento krok načte a zobrazí kontrolní součet, datum vytvoření, datum úpravy a velikost souboru, což může být užitečné pro auditování a sledování.
 
 ## Závěr
 

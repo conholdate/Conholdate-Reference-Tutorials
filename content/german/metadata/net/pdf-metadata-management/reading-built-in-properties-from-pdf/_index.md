@@ -1,19 +1,20 @@
 ---
-title: Lesen integrierter Eigenschaften aus PDFs in .NET
-linktitle: Lesen integrierter Eigenschaften aus PDFs in .NET
-second_title: GroupDocs.Metadata .NET API
-description: Erfahren Sie, wie Sie GroupDocs.Metadata für .NET effektiv nutzen, um Metadaten in PDF-Dateien zu lesen, zu bearbeiten und zu verwalten. Dieses Tutorial bietet eine Schritt-für-Schritt-Anleitung.
-weight: 10
-url: /de/metadata/pdf-metadata-management/reading-built-in-properties-from-pdf/
+"description": "Erfahren Sie, wie Sie GroupDocs.Metadata für .NET effektiv nutzen, um Metadaten in PDF-Dateien zu lesen, zu bearbeiten und zu verwalten. Dieses Tutorial bietet eine Schritt-für-Schritt-Anleitung."
+"linktitle": "Lesen integrierter Eigenschaften aus PDFs in .NET"
+"second_title": "GroupDocs.Metadata .NET API"
+"title": "Lesen integrierter Eigenschaften aus PDFs in .NET"
+"url": "/de/metadata/net/pdf-metadata-management/reading-built-in-properties-from-pdf/"
+"weight": 10
 ---
+
 ## Einführung
-In diesem Tutorial erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET Metadaten in PDF-Dateien lesen und bearbeiten können. Diese leistungsstarke Bibliothek ermöglicht Entwicklern den Zugriff auf verschiedene Metadatenattribute wie Autor, Erstellungsdatum und Betreff und verbessert so die Dokumentverwaltungsfunktionen in Anwendungen.
+In diesem Tutorial erfahren Sie, wie Sie mit GroupDocs.Metadata für .NET Metadaten in PDF-Dateien lesen und bearbeiten können. Diese leistungsstarke Bibliothek ermöglicht Entwicklern den Zugriff auf verschiedene Metadatenattribute wie Autor, Erstellungsdatum und Betreff und verbessert so die Dokumentenverwaltung in Anwendungen.
 
 ## Voraussetzungen
 Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
 - Visual Studio: Stellen Sie sicher, dass es auf Ihrem System installiert ist.
--  GroupDocs.Metadata für .NET: Laden Sie es herunter und installieren Sie es von der[offizielle Website](https://releases.groupdocs.com/metadata/net/).
+- GroupDocs.Metadata für .NET: Laden Sie es herunter und installieren Sie es von der [offizielle Website](https://releases.groupdocs.com/metadata/net/).
 - Grundkenntnisse in C#: Vertrautheit mit C# und dem .NET-Framework wird empfohlen.
 
 ## Namespaces importieren
@@ -30,7 +31,7 @@ Um Metadaten aus einer PDF-Datei zu lesen, laden Sie das Dokument und extrahiere
 ```csharp
 using (Metadata metadata = new Metadata("YourInputFile.pdf"))
 {
-    //Zugriff auf das Stammpaket der PDF-Datei
+    // Greifen Sie auf das Stammpaket der PDF-Datei zu
     var root = metadata.GetRootPackage<PdfRootPackage>();
     
     // Abrufen und Anzeigen integrierter Eigenschaften
@@ -46,14 +47,14 @@ using (Metadata metadata = new Metadata("YourInputFile.pdf"))
 Mit diesem unkomplizierten Ansatz können Sie wichtige Metadatenattribute, die in Ihren PDF-Dateien eingebettet sind, problemlos anzeigen.
 
 ## Abschluss
-In diesem Tutorial haben wir gezeigt, wie Sie mit GroupDocs.Metadata für .NET integrierte Eigenschaften aus PDF-Dateien mit C# extrahieren und verwalten. Durch die Integration dieser Bibliothek in Ihre Projekte verbessern Sie die Handhabung von Dokumentmetadaten und gestalten sie effizienter und rationalisierter.
+In diesem Tutorial haben wir gezeigt, wie Sie mit GroupDocs.Metadata für .NET integrierte Eigenschaften aus PDF-Dateien mit C# extrahieren und verwalten. Die Integration dieser Bibliothek in Ihre Projekte verbessert die Handhabung von Dokumentmetadaten und macht sie effizienter und optimierter.
 
 ## Häufig gestellte Fragen
 ### Kann GroupDocs.Metadata mit anderen Dokumentformaten arbeiten?
 Ja, es unterstützt eine Vielzahl von Formaten, darunter DOCX, XLSX, PPTX, PDF, JPG, PNG und mehr.
 
 ### Gibt es eine kostenlose Testversion für GroupDocs.Metadata?
- Auf jeden Fall! Sie können eine kostenlose Testversion über den[GroupDocs.Metadata-Website](https://releases.groupdocs.com/).
+Absolut! Sie können auf eine kostenlose Testversion zugreifen von der [GroupDocs.Metadata-Website](https://releases.groupdocs.com/).
 
 ### Wie kann ich Metadateneigenschaften mit GroupDocs.Metadata ändern?
 Sie können Metadateneigenschaften ändern, indem Sie auf das entsprechende Dokumentpaket zugreifen und bei Bedarf neue Werte festlegen.
@@ -62,4 +63,4 @@ Sie können Metadateneigenschaften ändern, indem Sie auf das entsprechende Doku
 Ja, es ist sowohl mit .NET Framework als auch mit .NET Core kompatibel.
 
 ### Wo finde ich Unterstützung oder kann Fragen zu GroupDocs.Metadata stellen?
- Für Support und Community-Diskussionen besuchen Sie die[GroupDocs.Metadata-Forum](https://forum.groupdocs.com/c/metadata/14).
+Für Support und Community-Diskussionen besuchen Sie die [GroupDocs.Metadata-Forum](https://forum.groupdocs.com/c/metadata/14).

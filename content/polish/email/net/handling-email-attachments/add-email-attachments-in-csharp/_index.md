@@ -26,7 +26,7 @@ Aby skonfigurować środowisko programistyczne, wykonaj następujące kroki:
 1. Uruchom program Visual Studio.
 2. Utwórz nową aplikację konsolową C#:
    - Przejdź do Plik > Nowy > Projekt.
-   - Wybierz opcję Aplikacja konsolowa (.NET Framework) i nadaj nazwę swojemu projektowi.
+   - Wybierz Aplikację konsolową (.NET Framework) i nadaj nazwę swojemu projektowi.
 3. Zainstaluj Aspose.Email dla .NET:
    - Otwórz Menedżera pakietów NuGet (kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań i wybierz opcję Zarządzaj pakietami NuGet).
    - Szukaj `Aspose.Email` i zainstaluj pakiet.

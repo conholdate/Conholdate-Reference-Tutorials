@@ -101,7 +101,7 @@ string MyDir = "YOUR_DOCUMENT_DIRECTORY";
 string ArtifactsDir = "YOUR_ARTIFACTS_DIRECTORY";
 ```
 
-Nahraďte tyto zástupné cesty skutečnými adresáři ve vašem systému. Obvykle vytvářím složku „Dokumenty“ pro vstupy a „Výstup“ pro výsledky. Díky tomu je vše uspořádané a ladění je mnohem snazší při práci s více soubory.
+Nahraďte tyto zástupné cesty skutečnými adresáři ve vašem systému. Obvykle vytvářím složku „Dokumenty“ pro vstupy a „Výstup“ pro výsledky. Díky tomu je vše uspořádané a ladění je mnohem snazší, když pracujete s více soubory.
 
 **Rychlý tip**Použití `Path.Combine()` místo pevně zakódovaných cest, pokud chcete, aby váš kód fungoval napříč různými operačními systémy.
 
@@ -165,7 +165,7 @@ Nyní, když máte základy, pojďme si promluvit o optimalizaci vaší implemen
 Při zpracování velkých dokumentů nebo více souborů se výkon stává klíčovým:
 
 - **Dávkové zpracování**Seskupujte menší dokumenty, místo abyste je zpracovávali jednotlivě.
-- **Asynchronní operace**Používejte vzory async/await pro volání AI API, abyste zabránili blokování uživatelského rozhraní.
+- **Asynchronní operace**Pro volání AI API používejte vzory async/await, abyste zabránili blokování uživatelského rozhraní.
 - **Ukládání do mezipaměti**Pokud opakovaně shrnujete stejné dokumenty, zvažte ukládání výsledků do mezipaměti.
 - **Omezení rychlosti**Většina API AI má limity rychlosti – zabudujte do nich vhodné zpoždění nebo logiku opakování.
 

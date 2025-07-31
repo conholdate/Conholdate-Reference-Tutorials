@@ -20,7 +20,7 @@ Než začneme, ujistěte se, že máte vše, co potřebujete:
 3. Základní znalost C# a .NET: Předpokládá se znalost základních programovacích konceptů v C#.
 4. Visual Studio: Fungovat bude jakákoli verze, která podporuje .NET framework.
 
-Teď, když máme vyřešené všechny předpoklady, pojďme se pustit do akce!
+Teď, když máme splněny všechny předpoklady, pojďme se pustit do akce!
 
 ## Import nezbytných jmenných prostorů
 

@@ -1,26 +1,27 @@
 ---
-title: Előfeldolgozási technikák Képszűrők az OCR képfelismerésben
-linktitle: Előfeldolgozási technikák Képszűrők az OCR képfelismerésben
-second_title: Aspose.OCR .NET API
-description: Az Aspose.OCR segítségével tárja fel az optikai karakterfelismerésben (OCR) rejlő lehetőségeket .NET-alkalmazásaiban. Ez az útmutató lépésről lépésre bemutatja az OCR végrehajtását előfeldolgozó szűrők használatával.
-weight: 12
-url: /hu/ocr/optimization-ocr/preprocessing-techniques-filters-for-image/
+"description": "Használja ki az optikai karakterfelismerés (OCR) lehetőségeit .NET alkalmazásaiban az Aspose.OCR segítségével. Ez az útmutató lépésről lépésre bemutatja az OCR megvalósítását előfeldolgozó szűrők használatával."
+"linktitle": "Előfeldolgozási technikák Képszűrők OCR képfelismerésben"
+"second_title": "Aspose.OCR .NET API"
+"title": "Előfeldolgozási technikák Képszűrők OCR képfelismerésben"
+"url": "/hu/ocr/net/optimization-ocr/preprocessing-techniques-filters-for-image/"
+"weight": 12
 ---
+
 ## Bevezetés
 
-Az optikai karakterfelismerés (OCR) a képeket szerkeszthető szöveggé alakítja, javítva az adatok hozzáférhetőségét és használhatóságát. Ebben az útmutatóban megvizsgáljuk, hogyan integrálhatja és optimalizálhatja az Aspose.OCR-t .NET-alkalmazásaiba előfeldolgozó szűrők segítségével a legjobb képfelismerési eredmények elérése érdekében.
+Az optikai karakterfelismerés (OCR) szerkeszthető szöveggé alakítja a képeket, javítva az adatok hozzáférhetőségét és használhatóságát. Ebben az útmutatóban azt vizsgáljuk meg, hogyan integrálható és optimalizálható az Aspose.OCR a .NET alkalmazásokban előfeldolgozó szűrők segítségével a legjobb képfelismerési eredmények elérése érdekében.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 
--  Aspose.OCR for .NET: Telepítse a könyvtárat, hogy kihasználja a képességeit. Hozzáférés a dokumentációhoz[itt](https://reference.aspose.com/ocr/net/) és töltse le a legújabb verziót[itt](https://releases.aspose.com/ocr/net/).
+- Aspose.OCR .NET-hez: Telepítse a könyvtárat a képességeinek kihasználásához. Hozzáférés a dokumentációhoz [itt](https://reference.aspose.com/ocr/net/) és töltsd le a legújabb verziót [itt](https://releases.aspose.com/ocr/net/).
 
-- Dokumentumkönyvtár: Hozzon létre egy könyvtárat a dokumentumok tárolására, és jegyezze fel annak elérési útját ebben az útmutatóban.
+- Dokumentumkönyvtár: Hozzon létre egy könyvtárat a dokumentumok tárolására, és jegyezze fel az elérési útját a jelen útmutatóban való használathoz.
 
-## Kötelező névterek importálása
+## Szükséges névterek importálása
 
-Kezdje a szükséges névterek hozzáadásával a .NET-alkalmazásban:
+Kezdje a szükséges névterek hozzáadásával a .NET alkalmazásában:
 
 ```csharp
 using System;
@@ -28,34 +29,34 @@ using System.IO;
 using Aspose.OCR.Models.PreprocessingFilters;
 ```
 
-## 1. Inicializálja az Aspose.OCR fájlt, és állítsa be a képútvonalat
+## 1. Inicializálja az Aspose.OCR fájlt, és állítsa be a kép elérési útját
 
-Kezdje az Aspose.OCR példány beállításával és a kép elérési útjának meghatározásával.
+Kezdjük az Aspose.OCR példány beállításával és a kép elérési útjának meghatározásával.
 
 ```csharp
-// Állítsa be a dokumentumkönyvtár elérési útját.
+// Adja meg a dokumentumok könyvtárának elérési útját.
 string dataDir = "Your Document Directory Path";
 
-// Inicializálja az AsposeOcr egy példányát
+// Az AsposeOcr egy példányának inicializálása
 AsposeOcr api = new AsposeOcr();
 
-// Határozza meg a kép útvonalát
+// A kép elérési útjának meghatározása
 string fullPath = Path.Combine(dataDir, "black.png");
 ```
 
-## 2. Inicializálja a szűrőket és dolgozza fel a képet
+## 2. Szűrők inicializálása és a kép előfeldolgozása
 
-Használjon előfeldolgozó szűrőket a kép javításához, mielőtt OCR-t hajt végre.
+Használja ki az előfeldolgozó szűrőket a kép javításához az OCR végrehajtása előtt.
 
 ```csharp
-// Inicializálja az előfeldolgozó szűrőket
+// Előfeldolgozási szűrők inicializálása
 PreprocessingFilter filters = new PreprocessingFilter
 {
     PreprocessingFilter.Invert(),
     PreprocessingFilter.Dilate()
 };
 
-// Elődolgozza a képet, és mentse el egy MemoryStream-be
+// A kép előfeldolgozása és mentése MemoryStream mappába
 using (MemoryStream img = api.PreprocessImage(fullPath, filters))
 {
     using (FileStream fs = new FileStream(Path.Combine(dataDir, "preprocessed.png"), FileMode.Create))
@@ -65,39 +66,39 @@ using (MemoryStream img = api.PreprocessImage(fullPath, filters))
 }
 ```
 
-## 3. Ismerje fel a képet egyéni előfeldolgozással
+## 3. Kép felismerése egyéni előfeldolgozással
 
-Most vegyünk ki szöveget az előfeldolgozott képből az Aspose.OCR segítségével.
+Most vonjunk ki szöveget az előfeldolgozott képből az Aspose.OCR segítségével.
 
 ```csharp
-// A kép felismerése az egyéni előfeldolgozási szűrők segítségével
+// A kép felismerése egyéni előfeldolgozási szűrők használatával
 RecognitionResult result = api.RecognizeImage(fullPath, new RecognitionSettings
 {
     PreprocessingFilters = filters
 });
 
-// A felismert szöveg kiadása
+// A felismert szöveg kimenete
 Console.WriteLine($"Text Recognized:\n{result.RecognitionText}");
 Console.WriteLine("Image recognition with preprocessing executed successfully.");
 ```
 
 ## Következtetés
 
-Az Aspose.OCR for .NET hatékony funkciókat kínál, amelyek leegyszerűsítik a képből szöveggé konvertálás folyamatát. Az előfeldolgozó szűrők használatával jelentősen javíthatja az OCR-eredmények minőségét. Ez a könyvtár ideális különféle alkalmazásokhoz, a dokumentumok digitalizálásától a szövegkivonásig számos iparágban.
+Az Aspose.OCR for .NET hatékony funkciókat kínál, amelyek leegyszerűsítik a kép-szöveg konvertálás folyamatát. Az előfeldolgozó szűrők használatával jelentősen javíthatja az OCR-eredmények minőségét. Ez a könyvtár ideális különféle alkalmazásokhoz, a dokumentumok digitalizálásától a szövegkinyerésig számos iparágban.
 
 ## GYIK
 
-### Használhatom az Aspose.OCR for .NET fájlt asztali és webes alkalmazásokban is?  
-Igen, az Aspose.OCR sokoldalú, és támogatja a .NET-ben fejlesztett asztali és webes alkalmazásokat.
+### Használhatom az Aspose.OCR for .NET-et asztali és webes alkalmazásokban is?  
+Igen, az Aspose.OCR sokoldalú, és támogatja mind a .NET-ben fejlesztett asztali, mind a webes alkalmazásokat.
 
-### Milyen licencelési lehetőségek állnak rendelkezésre az Aspose.OCR számára?  
- Felfedezheti a licencelési lehetőségeket és vásárolhat[itt](https://purchase.conholdate.com/buy) . Ingyenes próbaverzió is elérhető[itt](https://releases.aspose.com/) , és ideiglenes engedélyek szerezhetők be[itt](https://purchase.conholdate.com/temporary-license/).
+### Milyen licencelési lehetőségek érhetők el az Aspose.OCR-hez?  
+Böngészheted a licencelési lehetőségeket és vásárolhatsz [itt](https://purchase.conholdate.com/buy)Ingyenes próbaverzió is elérhető. [itt](https://releases.aspose.com/)és ideiglenes engedélyek is beszerezhetők [itt](https://purchase.conholdate.com/temporary-license/).
 
 ### Hol találok támogatást az Aspose.OCR-hez?  
-Segítségért keresse fel a[Aspose.OCR fórum](https://forum.aspose.com/c/ocr/16) közösségért és támogatásért.
+Segítségért látogassa meg a [Aspose.OCR fórum](https://forum.aspose.com/c/ocr/16) közösségért és támogatásért.
 
-### Mely képformátumokat támogatja az Aspose.OCR?  
-Az Aspose.OCR számos formátumot támogat, beleértve a PNG, JPEG, GIF, BMP és TIFF formátumokat.
+### Milyen képformátumokat támogat az Aspose.OCR?  
+Az Aspose.OCR számos formátumot támogat, beleértve a PNG, JPEG, GIF, BMP és TIFF fájlokat.
 
-### Integrálhatom az Aspose.OCR-t egy meglévő .NET-projektbe?  
-Teljesen! Kövesse az ebben az oktatóanyagban található lépéseket az Aspose.OCR funkciók zökkenőmentes hozzáadásához a projekthez.
+### Integrálhatom az Aspose.OCR-t egy meglévő .NET projektbe?  
+Természetesen! Kövesd az ebben az oktatóanyagban található lépéseket az Aspose.OCR funkcionalitás zökkenőmentes hozzáadásához a projektedhez.

@@ -1,26 +1,27 @@
 ---
-title: Přidejte textové podpisy do dokumentů pomocí GroupDocs.Signature
-linktitle: Přidejte textové podpisy do dokumentů
-second_title: GroupDocs.Signature .NET API
-description: Naučte se podepisovat dokumenty textem pomocí GroupDocs.Signature for .NET. Podrobný průvodce programovým přidáváním textových podpisů.
-weight: 17
-url: /cs/signature/master-advanced-sign-techniques/add-text-signatures-to-documents/
+"description": "Naučte se, jak podepisovat dokumenty textem pomocí GroupDocs.Signature pro .NET. Podrobný návod pro programově přidávání textových podpisů."
+"linktitle": "Přidání textových podpisů do dokumentů"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Přidání textových podpisů do dokumentů pomocí GroupDocs.Signature"
+"url": "/cs/signature/net/master-advanced-sign-techniques/add-text-signatures-to-documents/"
+"weight": 17
 ---
+
 ## Zavedení
 
-V dnešním digitálním prostředí se elektronické podepisování dokumentů stalo nezbytným pro zefektivnění pracovních postupů a úsporu zdrojů. GroupDocs.Signature for .NET poskytuje výkonné řešení pro programové přidávání textových podpisů do různých formátů dokumentů. Tento tutoriál vás provede kroky k podepsání dokumentu pomocí textu pomocí GroupDocs.Signature for .NET.
+dnešní digitální krajině se elektronické podepisování dokumentů stalo nezbytným pro zefektivnění pracovních postupů a úsporu zdrojů. GroupDocs.Signature for .NET poskytuje výkonné řešení pro programově přidávat textové podpisy do různých formátů dokumentů. Tento tutoriál vás provede kroky pro podepsání dokumentu textem pomocí GroupDocs.Signature for .NET.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující:
 
-1. GroupDocs.Signature for .NET: Stáhněte a nainstalujte knihovnu z[zde](https://releases.groupdocs.com/signature/net/).
-2. Vývojové prostředí: Nastavte své vývojové prostředí .NET.
-3. Dokument: Připravte dokument, který chcete podepsat (např. PDF, Word).
+1. GroupDocs.Signature pro .NET: Stáhněte a nainstalujte knihovnu z [zde](https://releases.groupdocs.com/signature/net/).
+2. Vývojové prostředí: Nastavte si vývojové prostředí .NET.
+3. Dokument: Připravte si dokument, který chcete podepsat (např. PDF, Word).
 
 ## Import nezbytných jmenných prostorů
 
-Začněte importováním požadovaných jmenných prostorů do vašeho projektu .NET:
+Začněte importem požadovaných jmenných prostorů do vašeho projektu .NET:
 
 ```csharp
 using System;
@@ -31,7 +32,7 @@ using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
 
-## Krok 1: Vložte dokument
+## Krok 1: Vložení dokumentu
 
 Začněte načtením dokumentu, který chcete podepsat:
 
@@ -40,7 +41,7 @@ string filePath = "sample.pdf"; // Cesta k vašemu dokumentu
 string fileName = Path.GetFileName(filePath);
 ```
 
-## Krok 2: Definujte cestu k výstupnímu souboru
+## Krok 2: Definování cesty k výstupnímu souboru
 
 Dále nastavte cestu k výstupnímu souboru, kam bude podepsaný dokument uložen:
 
@@ -50,13 +51,13 @@ string outputFilePath = Path.Combine("Your Document Directory", "SignWithText", 
 
 ## Krok 3: Vytvořte možnosti podpisu
 
-Nakonfigurujte možnosti pro váš textový podpis, včetně obsahu, pozice, velikosti, barvy a stylu písma:
+Nakonfigurujte možnosti pro textový podpis, včetně obsahu, pozice, velikosti, barvy a stylu písma:
 
 ```csharp
 TextSignOptions options = new TextSignOptions("John Smith")
 {
-    Left = 50, // pozice X
-    Top = 200, // Y pozice
+    Left = 50, // Pozice X
+    Top = 200, // Poloha Y
     Width = 100, // Šířka podpisu
     Height = 30, // Výška podpisu
     ForeColor = Color.Red, // Barva textu
@@ -78,21 +79,21 @@ using (Signature signature = new Signature(filePath))
 
 ## Závěr
 
-tomto tutoriálu jsme si ukázali, jak programově přidat textový podpis do dokumentu pomocí GroupDocs.Signature for .NET. Dodržováním těchto kroků můžete efektivně zvýšit zabezpečení a autenticitu svých dokumentů.
+V tomto tutoriálu jsme si ukázali, jak programově přidat textový podpis do dokumentu pomocí GroupDocs.Signature pro .NET. Dodržením těchto kroků můžete efektivně zvýšit zabezpečení a autenticitu svých dokumentů.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu upravit vzhled textového podpisu?
-Ano, můžete přizpůsobit různé atributy, jako je barva, písmo, velikost a umístění textového podpisu, aby vyhovovaly vašim potřebám.
+### Mohu si přizpůsobit vzhled textového podpisu?
+Ano, můžete si přizpůsobit různé atributy, jako je barva, písmo, velikost a umístění textového podpisu, aby vyhovovaly vašim potřebám.
 
 ### Je GroupDocs.Signature kompatibilní s více formáty dokumentů?
-Absolutně! GroupDocs.Signature podporuje širokou škálu formátů, včetně PDF, Wordu, Excelu, PowerPointu a dalších.
+Rozhodně! GroupDocs.Signature podporuje širokou škálu formátů, včetně PDF, Wordu, Excelu, PowerPointu a dalších.
 
-### Mohu přidat více textových podpisů do jednoho dokumentu?
+### Mohu do jednoho dokumentu přidat více textových podpisů?
 Ano, můžete přidat více textových podpisů, každý s vlastními možnostmi přizpůsobení.
 
-### Zajišťuje GroupDocs.Signature integritu dokumentu po podpisu?
-Ano, knihovna používá robustní kryptografické algoritmy k zajištění integrity dokumentu a zabránění neoprávněné manipulaci po podpisu.
+### Zajišťuje GroupDocs.Signature integritu dokumentu po podepsání?
+Ano, knihovna používá robustní kryptografické algoritmy k zajištění integrity dokumentů a zabránění jejich neoprávněné manipulaci po podepsání.
 
-### Je k dispozici zkušební verze pro testování před zakoupením?
- Ano, můžete si stáhnout bezplatnou zkušební verzi z[zde](https://releases.groupdocs.com/) k prozkoumání funkcí před nákupem.
+### Je k dispozici zkušební verze pro vyzkoušení před zakoupením?
+Ano, můžete si stáhnout bezplatnou zkušební verzi z [zde](https://releases.groupdocs.com/) prozkoumat funkce před nákupem.

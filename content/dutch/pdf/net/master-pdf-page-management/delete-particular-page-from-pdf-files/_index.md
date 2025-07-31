@@ -39,7 +39,7 @@ Vervolgens moet u het pad naar uw PDF-bestand opgeven. Deze stap is cruciaal, om
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Zorg ervoor dat u vervangt `"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad naar uw PDF-bestand.
+Zorg ervoor dat u deze vervangt `"YOUR DOCUMENT DIRECTORY"` met het daadwerkelijke pad naar uw PDF-bestand.
 
 ## Stap 3: Open het PDF-document
 
@@ -50,7 +50,7 @@ Nu is het tijd om het PDF-bestand te openen en te bewerken. Dit doe je met behul
 Document pdfDocument = new Document(dataDir + "YourPdfFileName.pdf");
 ```
 
-Vervangen `"YourPdfFileName.pdf"` met uw werkelijke PDF-bestandsnaam.
+Vervangen `"YourPdfFileName.pdf"` met de werkelijke naam van uw PDF-bestand.
 
 ## Stap 4: De opgegeven pagina verwijderen
 

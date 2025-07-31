@@ -70,7 +70,7 @@ Nu kan du komma åt listobjekten i det första kalkylbladet:
 Aspose.Cells.Tables.ListObjectCollection listObjects = workbook.Worksheets[0].ListObjects;
 ```
 
-Den här raden hämtar listobjekten, ungefär som att söka efter ett specifikt verktyg i en verktygslåda.
+Den här raden hämtar listobjekten, ungefär som att söka i en verktygslåda efter ett specifikt verktyg.
 
 ## Steg 4: Lägg till ett listobjekt
 

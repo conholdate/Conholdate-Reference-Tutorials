@@ -12,14 +12,14 @@
 ## Mesterképzés Excel automatizálás és adatfeldolgozás terén
 Használja ki az Excel táblázatkezelő feldolgozásában rejlő összes lehetőséget az Aspose.Cells for .NET segítségével. Az alapvető fájlműveletektől a haladó adatelemzésig és diagramkészítésig oktatóanyagaink végigvezetik az Excel automatizálásának minden aspektusán.
 
-## 🚀 Amit Elérhetsz
+## 🚀 Amit elérhetsz
 
 **Aspose.Cells .NET-hez** egy hatékony táblázatkezelő könyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok létrehozását, kezelését, konvertálását és renderelését Microsoft Excel nélkül. Az összes főbb Excel-formátum és a fejlett funkciók támogatásával ez a teljes megoldás az Excel-automatizáláshoz.
 
 ### Főbb képességek
 - **📊 Formátumtámogatás**XLS, XLSX, XLSM, CSV, ODS, PDF, HTML és egyebek
 - **🔄 Konverziók**: Excelből PDF-be, képekbe és más formátumokba konvertálása nagy pontossággal
-- **📈 Táblázatok és grafikonok**Diagramok programozott létrehozása, módosítása és konvertálása
+- **📈 Táblázatok és grafikonok**Diagramok létrehozása, módosítása és konvertálása programozottan
 - **💾 Adatfeldolgozás**: Speciális képletek, pivot táblázatok és adatelemzés
 - **🎨 Formázás**Teljes kontroll a cellaformázás, a feltételes formázás és a témák felett
 
@@ -129,7 +129,7 @@ Speciális munkalapműveletek a professzionális Excel-automatizáláshoz és az
 - **[Ingyenes próbaverzió](https://releases.aspose.com/cells/net/)** - Értékelje a teljes funkciókészletet
 
 ### **Közösség és támogatás**
-- **[Támogatási fórum](https://forum.aspose.com/c/cells/9)** - Kérjen segítséget szakértőktől
+- **[Támogatási fórum](https://forum.aspose.com/c/cells/9)** Kérjen segítséget szakértőktől
 
 ### **Licencelés és próbaverziók**
 - **[Ideiglenes engedély](https://purchase.conholdate.com/temporary-license/)** - Bővített értékelés

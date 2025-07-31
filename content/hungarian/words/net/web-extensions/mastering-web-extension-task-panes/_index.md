@@ -60,7 +60,7 @@ doc.WebExtensionTaskPanes.Add(taskPane);
 
 A `WebExtensionTaskPanes` A gyűjtemény a dokumentumhoz társított összes feladatpanelt kezeli.
 
-## 4. lépés: A Feladatpanel konfigurálása  
+## 4. lépés: A Feladatablak konfigurálása  
 
 A Feladatpanel tulajdonságainak testreszabása:  
 

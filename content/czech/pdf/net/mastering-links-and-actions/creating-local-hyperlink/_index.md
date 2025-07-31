@@ -89,7 +89,7 @@ link.TargetPageNumber = 7; // Nastavte cílovou stránku pro odkaz
 text.Hyperlink = link; // Nastavení hypertextového odkazu pro textový fragment
 ```
 
-Ten/Ta/To `LocalHyperlink` třída umožňuje zadat číslo cílové stránky pro hypertextový odkaz.
+Ten/Ta/To `LocalHyperlink` třída umožňuje zadat cílové číslo stránky pro hypertextový odkaz.
 
 ## Krok 5: Přidání fragmentu textu na stránku
 
@@ -117,12 +117,12 @@ Vytvořte další lokální hypertextový odkaz pro stránku 1.
 ```csharp
 Aspose.Pdf.LocalHyperlink linkBack = new Aspose.Pdf.LocalHyperlink(); // Vytvořit další lokální hypertextový odkaz
 linkBack.TargetPageNumber = 1; // Nastavit cílovou stránku pro druhý hypertextový odkaz
-textBack.Hyperlink = linkBack; // Nastavení hypertextového odkazu pro druhý textový fragment
+textBack.Hyperlink = linkBack; // Nastavte hypertextový odkaz pro druhý textový fragment
 ```
 
 ## Krok 8: Přidání druhého textového fragmentu na novou stránku
 
-Přidejte druhý textový fragment na jeho stránku.
+Přidejte druhý fragment textu na jeho stránku.
 
 ```csharp
 Page newPage = doc.Pages.Add(); // Přidat novou stránku pro druhý odkaz

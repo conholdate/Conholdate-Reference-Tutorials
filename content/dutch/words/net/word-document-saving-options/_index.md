@@ -1,8 +1,8 @@
 ---
 "description": "Ontdek de uitgebreide Aspose.Words voor .NET-zelfstudies voor het aanpassen van de opties voor het opslaan van Word-documenten, waaronder wachtwoordbeveiliging, behoud van beeldkwaliteit en het beheren van opsommingstekens met afbeeldingen."
-"linktitle": "Pas de opslagopties voor Word-documenten aan"
+"linktitle": "Pas de opties voor het opslaan van Word-documenten aan"
 "second_title": "Aspose.Words API voor documentverwerking"
-"title": "Pas de opslagopties voor Word-documenten aan"
+"title": "Pas de opties voor het opslaan van Word-documenten aan"
 "url": "/nl/words/net/word-document-saving-options/"
 "weight": 1600
 ---
@@ -25,6 +25,6 @@ Wie zei dat opsommingstekens saai moeten zijn? Opsommingstekens met afbeeldingen
  ## Zelfstudies over het aanpassen van de opslagopties voor Word-documenten
 | Titel | Beschrijving |
 | --- | --- |
-| [Document versleutelen met wachtwoordbeveiliging](./encrypt-document-with-password-protect/) | Leer hoe u uw documenten kunt beveiligen met wachtwoordbeveiliging met Aspose.Words voor .NET. Deze uitgebreide handleiding leidt u door het proces. |
-| [Comprimeer geen kleine metabestanden in Word-documenten](./do-not-compress-small-metafiles-word-documents/) | Deze handleiding begeleidt u stapsgewijs door het proces voor het gebruik van de functie 'Kleine metabestanden niet comprimeren'. Zo zorgt u ervoor dat uw documenten hun integriteit en kwaliteit behouden tijdens het opslagproces.
+| [Document versleutelen met wachtwoordbeveiliging](./encrypt-document-with-password-protect/) | Leer hoe u uw documenten kunt beveiligen door wachtwoordbeveiliging toe te voegen met Aspose.Words voor .NET. Deze uitgebreide handleiding leidt u door het proces. |
+| [Comprimeer geen kleine metabestanden in Word-documenten](./do-not-compress-small-metafiles-word-documents/) | Deze handleiding begeleidt u stapsgewijs door het proces voor het gebruik van de functie 'Kleine metabestanden niet comprimeren', zodat de integriteit en kwaliteit van uw documenten behouden blijven tijdens het opslagproces.
 | [Afbeeldingsopsommingstekens beheren in Word-documenten](./manage-picture-bullet/) Ontdek hoe u opsommingstekens met afbeeldingen in Word-documenten effectief kunt beheren met Aspose.Words voor .NET. Deze uitgebreide handleiding leidt u door de stappen voor het instellen van uw omgeving en het configureren van opslagopties. |

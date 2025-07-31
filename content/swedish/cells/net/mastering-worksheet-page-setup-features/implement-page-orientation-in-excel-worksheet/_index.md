@@ -9,7 +9,7 @@
 
 ## Introduktion
 
-När du formaterar kalkylblad är sidorientering en viktig men ofta förbisedd aspekt. Hur ditt innehåll är justerat kan avsevärt påverka läsbarheten och dokumentets övergripande estetik. I den här guiden utforskar vi hur du ställer in sidorienteringen i ett Excel-kalkylblad med Aspose.Cells för .NET.
+När du formaterar kalkylblad är sidorientering en viktig men ofta förbisedd aspekt. Hur innehållet är justerat kan avsevärt påverka läsbarheten och dokumentets övergripande estetik. I den här guiden utforskar vi hur du ställer in sidorienteringen i ett Excel-kalkylblad med Aspose.Cells för .NET.
 
 ## Förkunskapskrav
 

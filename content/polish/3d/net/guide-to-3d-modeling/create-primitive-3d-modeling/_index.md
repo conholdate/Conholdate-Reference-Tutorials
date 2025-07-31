@@ -1,20 +1,21 @@
 ---
-title: Utwórz prymitywne modelowanie 3D
-linktitle: Utwórz prymitywne modelowanie 3D
-second_title: Aspose.3D .NET API
-description: Dowiedz się, jak tworzyć i dostosowywać prymitywne modele 3D, w tym prostopadłościany i cylindry, i bez trudu zapisywać je w formacie FBX.
-weight: 10
-url: /pl/3d/guide-to-3d-modeling/create-primitive-3d-modeling/
+"description": "Dowiedz się, jak tworzyć i dostosowywać prymitywne modele 3D, w tym prostopadłościany i cylindry, a następnie bez trudu zapisywać je w formacie FBX."
+"linktitle": "Twórz prymitywne modelowanie 3D"
+"second_title": "Aspose.3D .NET API"
+"title": "Twórz prymitywne modelowanie 3D"
+"url": "/pl/3d/net/guide-to-3d-modeling/create-primitive-3d-modeling/"
+"weight": 10
 ---
+
 ## Wstęp
 
-Witamy w immersyjnym świecie modelowania 3D przy użyciu Aspose.3D dla .NET! W tym kompleksowym samouczku przeprowadzimy Cię przez proces tworzenia prymitywnych modeli 3D krok po kroku. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, który chce się uczyć, ten przewodnik umożliwi Ci tworzenie wizualnie oszałamiających elementów 3D do Twoich projektów.
+Witamy w immersyjnym świecie modelowania 3D z wykorzystaniem Aspose.3D dla .NET! W tym kompleksowym samouczku krok po kroku przeprowadzimy Cię przez proces tworzenia prymitywnych modeli 3D. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, który chce się czegoś nauczyć, ten przewodnik pomoże Ci tworzyć wizualnie oszałamiające elementy 3D do Twoich projektów.
 
 ## Wymagania wstępne
 
 Zanim zaczniesz zajmować się modelowaniem 3D, upewnij się, że spełnione są następujące warunki wstępne:
 
--  Aspose.3D dla .NET: Pobierz i zainstaluj bibliotekę Aspose.3D dla .NET z[strona do pobrania](https://releases.aspose.com/3d/net/).
+- Aspose.3D dla .NET: Pobierz i zainstaluj bibliotekę Aspose.3D dla .NET z [strona pobierania](https://releases.aspose.com/3d/net/).
   
 - Środowisko programistyczne .NET: skonfiguruj środowisko zgodne z Aspose.3D, np. Visual Studio.
 
@@ -36,10 +37,10 @@ Te przestrzenie nazw zapewnią Ci narzędzia niezbędne do manipulowania modelam
 
 ## Krok 1: Zainicjuj obiekt sceny
 
-Utwórz nowy obiekt sceny, który będzie stanowił płótno dla Twoich modeli 3D:
+Utwórz nowy obiekt sceny, który będzie pełnił funkcję płótna dla Twoich modeli 3D:
 
 ```csharp
-// Zainicjuj obiekt Sceny
+// Zainicjuj obiekt sceny
 Scene scene = new Scene();
 ```
 
@@ -50,7 +51,7 @@ Ta scena będzie zawierać prymitywne kształty, które zamierzasz utworzyć.
 Następnie dodajmy model pudełkowy do sceny:
 
 ```csharp
-// Utwórz model Box
+// Utwórz model pudełkowy
 scene.RootNode.CreateChildNode("box", new Box());
 ```
 
@@ -58,7 +59,7 @@ Możesz dostosować wymiary i właściwości pudełka do swojej kreatywnej wizji
 
 ## Krok 3: Utwórz model cylindra
 
-Teraz ulepsz swoją scenę dodając cylinder:
+Teraz ulepsz swoją scenę, dodając cylinder:
 
 ```csharp
 // Utwórz model cylindra
@@ -69,7 +70,7 @@ Podobnie jak w przypadku pudełka, możesz swobodnie dostosować parametry cylin
 
 ## Krok 4: Zapisz scenę w formacie FBX
 
-Aby zachować swój model 3D, zapisz go w formacie FBX:
+Aby zachować model 3D, zapisz go w formacie FBX:
 
 ```csharp
 // Zapisz rysunek w formacie FBX
@@ -77,41 +78,41 @@ var output = Path.Combine("Your Output Directory", "test.fbx");
 scene.Save(output, FileFormat.FBX7500ASCII);
 ```
 
-Pamiętaj o wybraniu odpowiedniego katalogu wyjściowego i nazwy pliku dla swojego modelu.
+Upewnij się, że wybrałeś właściwy katalog wyjściowy i nazwę pliku dla swojego modelu.
 
 ## Krok 5: Wyświetl komunikat o powodzeniu
 
-Na koniec uczcij swój sukces wyświetlając wiadomość:
+Na koniec uczcij swój sukces, wyświetlając wiadomość:
 
 ```csharp
 // Wyświetl komunikat o powodzeniu
 Console.WriteLine($"\nBuilding a scene from primitive 3D models was successful.\nFile saved at {output}");
 ```
 
-Twoja scena 3D złożona z prymitywnych modeli jest teraz ukończona i zapisana!
+Twoja scena 3D złożona z modeli pierwotnych jest teraz ukończona i zapisana!
 
 ## Wniosek
 
- Gratulacje za stworzenie oszałamiających modeli 3D przy użyciu Aspose.3D dla .NET! Ten samouczek obejmuje podstawy modelowania prymitywnego, ale możliwości są nieograniczone. Dowiedz się więcej o zaawansowanych funkcjach i technikach w[dokumentacja](https://reference.aspose.com/3d/net/).
+Gratulacje! Udało Ci się stworzyć zachwycające modele 3D z wykorzystaniem Aspose.3D dla .NET! W tym samouczku omówiono podstawy modelowania prymitywnego, ale możliwości są nieograniczone. Dowiedz się więcej o zaawansowanych funkcjach i technikach w… [dokumentacja](https://reference.aspose.com/3d/net/).
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę używać Aspose.3D dla .NET z innymi językami programowania niż .NET?
 
-Aspose.3D obsługuje głównie platformę .NET, ale dostępne są wersje dla Java i innych platform.
+Aspose.3D obsługuje głównie platformę .NET, ale dostępne są wersje dla Javy i innych platform.
 
 ### Czy jest dostępna bezpłatna wersja próbna?
 
- Tak, możesz wypróbować możliwości Aspose.3D za pomocą[bezpłatny okres próbny](https://releases.aspose.com/).
+Tak, możesz wypróbować możliwości Aspose.3D za pomocą [bezpłatny okres próbny](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć pomoc techniczną dotyczącą Aspose.3D dla .NET?
 
-Aby uzyskać wsparcie społeczności, odwiedź stronę[Forum Aspose.3D](https://forum.aspose.com/c/3d/18).
+Aby uzyskać wsparcie społeczności, odwiedź stronę [Forum Aspose.3D](https://forum.aspose.com/c/3d/18).
 
 ### Jak mogę uzyskać tymczasową licencję?
 
- Możesz poprosić o tymczasową licencję[Tutaj](https://purchase.conholdate.com/temporary-license/).
+Możesz poprosić o tymczasową licencję [Tutaj](https://purchase.conholdate.com/temporary-license/).
 
 ### Czy są dostępne dodatkowe samouczki?
 
- Tak! Odkryj więcej samouczków i przykładów w[dokumentacja](https://reference.aspose.com/3d/net/).
+Tak! Więcej samouczków i przykładów znajdziesz w [dokumentacja](https://reference.aspose.com/3d/net/).

@@ -1,5 +1,5 @@
 ---
-"description": "Dieses Handbuch enthält schrittweise Anweisungen und Beispielcode, mit denen Sie effizient 1Bpp-indizierte Bilder zum Archivieren, Drucken oder zur Platzersparnis erstellen können."
+"description": "Dieses Handbuch enthält schrittweise Anweisungen und Beispielcode, mit denen Sie effizient indizierte 1-Bpp-Bilder zum Archivieren, Drucken oder zur Platzersparnis erstellen können."
 "linktitle": "Erstellen Sie 1Bpp Indexed"
 "second_title": "Aspose.Words Dokumentverarbeitungs-API"
 "title": "Erstellen Sie 1Bpp Indexed"

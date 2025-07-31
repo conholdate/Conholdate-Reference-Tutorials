@@ -153,7 +153,7 @@ Anda dapat memperoleh lisensi sementara melalui [halaman lisensi sementara](http
 
 ## Perkenalan
 
-Membuat tautan dalam dokumen PDF dapat meningkatkan pengalaman pengguna secara signifikan, menjadikan navigasi lebih lancar dan intuitif. Jika Anda pernah merasa kebingungan saat membuka PDF dan kebingungan mencari halaman yang tepat, Anda pasti mengerti betapa pentingnya tautan. Dalam panduan ini, kita akan membahas cara membuat tautan dokumen menggunakan Aspose.PDF for .NET, pustaka canggih yang memungkinkan pengembang mengelola berkas PDF dengan mudah. Baik Anda sedang membuat laporan, eBook, atau konten interaktif, kemampuan untuk membuat tautan semacam itu dapat meningkatkan kegunaan dokumen Anda.
+Membuat tautan dalam dokumen PDF dapat meningkatkan pengalaman pengguna secara signifikan, menjadikan navigasi lebih lancar dan intuitif. Jika Anda pernah merasa kebingungan saat membuka PDF dan kebingungan mencari halaman yang tepat, Anda pasti mengerti betapa pentingnya tautan. Dalam panduan ini, kita akan membahas cara membuat tautan dokumen menggunakan Aspose.PDF for .NET, pustaka canggih yang memungkinkan pengembang mengelola berkas PDF dengan mudah. Baik Anda sedang membuat laporan, eBook, atau konten interaktif, kemampuan untuk membuat tautan tersebut dapat meningkatkan kegunaan dokumen Anda.
 
 ## Prasyarat
 

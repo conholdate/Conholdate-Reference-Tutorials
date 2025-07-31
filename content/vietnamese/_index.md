@@ -159,7 +159,7 @@ Chào mừng bạn đến với bộ sưu tập hướng dẫn xử lý tài li�
 - Chuyển đổi HTML sang PDF/Hình ảnh
 - Thao tác và phân tích DOM
 - Xử lý bố cục và kiểu dáng CSS
-- Trích xuất nội dung và thu thập dữ liệu web
+- Quét web và trích xuất nội dung
 - Hệ thống kết xuất mẫu
 
 **[Xử lý tài liệu HTML →](./html/)**

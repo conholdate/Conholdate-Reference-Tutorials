@@ -17,10 +17,10 @@ Het toevoegen van DKIM-handtekeningen aan je e-mails hoeft geen hogere wiskunde 
 
 Dit maakt DKIM-ondertekening met Aspose zo eenvoudig.E-mail:  
 
-1. Gebruiksvriendelijke API: dankzij het intuïtieve ontwerp kunnen ontwikkelaars e-mailverificatie snel integreren.  
+1. Gebruiksvriendelijke API: dankzij het intuïtieve ontwerp kunnen ontwikkelaars e-mailauthenticatie snel integreren.  
 2. Uitgebreide functies: van het opstellen van e-mails tot het ondertekenen en verifiëren, Aspose.Email heeft alles voor u geregeld.  
 3. Veelzijdigheid: Werkt naadloos met .NET-toepassingen, waardoor het een uitstekende keuze is voor C#-ontwikkelaars.
 
-## Tutorials over het beheersen van e-mailbeveiliging en digitale handtekeningen
+## Tutorials voor het beheersen van e-mailbeveiliging en digitale handtekeningen
 ### [Handleiding voor het ondertekenen van e-mails met DKIM in C# met behulp van Aspose.Email](./guide-to-signing-emails-with-dkim/)
 Ontdek het belang van e-mailauthenticatie met DomainKeys Identified Mail (DKIM) in deze stapsgewijze handleiding. Leer hoe u uw e-mails effectief ondertekent met C# en de Aspose.Email voor .NET-bibliotheek.

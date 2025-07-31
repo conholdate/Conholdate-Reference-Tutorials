@@ -57,7 +57,7 @@ Operaciones avanzadas de hojas de cálculo para la automatización profesional d
 ### **Análisis de datos e informes**
 - **Informes comerciales**:Generación automatizada de informes financieros y operativos
 - **Visualización de datos**:Creación de gráficos dinámicos a partir de fuentes de datos en vivo
-- **Creación de tableros de control**:Paneles interactivos de Excel para inteligencia empresarial
+- **Creación de un panel de control**:Paneles interactivos de Excel para inteligencia empresarial
 
 ### **Automatización de documentos**
 - **Procesamiento de plantillas**:Rellenar plantillas de Excel con datos dinámicos
@@ -129,13 +129,13 @@ Operaciones avanzadas de hojas de cálculo para la automatización profesional d
 - **[Prueba gratuita](https://releases.aspose.com/cells/net/)** - Evaluar todas las funciones
 
 ### **Comunidad y soporte**
-- **[Foro de soporte](https://forum.aspose.com/c/cells/9)** - Obtenga ayuda de expertos
+- **[Foro de soporte](https://forum.aspose.com/c/cells/9)** Obtenga ayuda de expertos
 
 ### **Licencias y pruebas**
 - **[Licencia temporal](https://purchase.conholdate.com/temporary-license/)** - Evaluación extendida
 - **[Opciones de compra](https://purchase.conholdate.com/buy)** - Licencias flexibles
 
-## 📋 Tutorial de referencia rápida
+## 📋 Referencia rápida del tutorial
 
 ### **Operaciones de conversión**
 - Excel → PDF (Publicación de documentos de alta calidad)

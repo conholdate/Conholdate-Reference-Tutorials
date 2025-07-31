@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Het beheren van grote Excel-bestanden kan een uitdaging zijn, vooral als het gaat om de efficiëntie van opslag en gegevensoverdracht. Gelukkig kan bestandscompressie de bestandsgrootte aanzienlijk verkleinen, waardoor ze gemakkelijker te hanteren zijn. Als u Aspose.Cells voor .NET gebruikt, kunt u het compressieniveau van uw werkmappen eenvoudig aanpassen. Deze handleiding leidt u stap voor stap door het proces en geeft duidelijke uitleg over elk onderdeel van de code.
+Het beheren van grote Excel-bestanden kan een uitdaging zijn, vooral als het gaat om opslag- en overdrachtsefficiëntie. Gelukkig kan bestandscompressie de bestandsgrootte aanzienlijk verkleinen, waardoor ze gemakkelijker te verwerken zijn. Als u Aspose.Cells voor .NET gebruikt, kunt u het compressieniveau van uw werkmappen eenvoudig aanpassen. Deze handleiding leidt u stap voor stap door het proces en geeft duidelijke uitleg over elk onderdeel van de code.
 
 ## Vereisten
 
@@ -22,7 +22,7 @@ Voordat we in de code duiken, moet u ervoor zorgen dat u aan de volgende vereist
 
 ## Noodzakelijke pakketten importeren
 
-Om te beginnen moet je de benodigde pakketten in je C#-project importeren. Voeg de volgende regels bovenaan je codebestand toe:
+Om te beginnen moet u de benodigde pakketten in uw C#-project importeren. Voeg de volgende regels bovenaan uw codebestand toe:
 
 ```csharp
 using Aspose.Cells.Rendering;
@@ -42,7 +42,7 @@ string sourceDir = "Your Document Directory\\";
 string outDir = "Your Document Directory\\";
 ```
 
-Zorg ervoor dat u vervangt `"Your Document Directory\\"` met de daadwerkelijke paden naar uw mappen. Dit zorgt ervoor dat uw programma de bestanden kan vinden die het nodig heeft om ermee te werken.
+Zorg ervoor dat u deze vervangt `"Your Document Directory\\"` met de daadwerkelijke paden naar uw mappen. Dit zorgt ervoor dat uw programma de bestanden kan vinden die het nodig heeft om ermee te werken.
 
 ## Stap 2: Laad de werkmap
 

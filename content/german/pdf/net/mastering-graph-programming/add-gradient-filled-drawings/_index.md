@@ -101,7 +101,7 @@ doc.Save(dataDir + "GradientFilledDrawing.pdf");
 
 ## Abschluss
 
-Herzlichen Glückwunsch! Sie haben Ihrem PDF-Dokument mit Aspose.PDF für .NET erfolgreich eine Zeichnung mit Farbverlauf hinzugefügt. Diese einfache, aber leistungsstarke Technik kann die visuelle Attraktivität Ihrer Dokumente erheblich steigern, egal ob es sich um Berichte, Rechnungen oder Präsentationen handelt.
+Herzlichen Glückwunsch! Sie haben Ihrem PDF-Dokument mit Aspose.PDF für .NET erfolgreich eine Zeichnung mit Farbverlauf hinzugefügt. Diese einfache, aber leistungsstarke Technik kann die visuelle Attraktivität Ihrer Dokumente, egal ob Berichte, Rechnungen oder Präsentationen, deutlich steigern.
 
 ## Häufig gestellte Fragen
 

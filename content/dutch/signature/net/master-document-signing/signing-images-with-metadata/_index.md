@@ -1,20 +1,21 @@
 ---
-title: Handleiding voor het ondertekenen van afbeeldingen met metagegevens met behulp van GroupDocs.Signature
-linktitle: Handleiding voor het ondertekenen van afbeeldingen met metagegevens
-second_title: GroupDocs.Signature .NET API
-description: Leer hoe u afbeeldingen efficiënt kunt ondertekenen met metadata in uw .NET-toepassingen met behulp van GroupDocs.Signature. Deze stapsgewijze tutorial behandelt alles van installatie tot implementatie, zodat u uw documenten moeiteloos kunt verbeteren met metadatahandtekeningen.
-weight: 10
-url: /nl/signature/master-document-signing/signing-images-with-metadata/
+"description": "Leer hoe u afbeeldingen in uw .NET-toepassingen efficiënt kunt ondertekenen met metadata met behulp van GroupDocs.Signature. Deze stapsgewijze tutorial behandelt alles van installatie tot implementatie, zodat u uw documenten moeiteloos kunt voorzien van metadatahandtekeningen."
+"linktitle": "Handleiding voor het ondertekenen van afbeeldingen met metagegevens"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Handleiding voor het ondertekenen van afbeeldingen met metagegevens met behulp van GroupDocs.Signature"
+"url": "/nl/signature/net/master-document-signing/signing-images-with-metadata/"
+"weight": 10
 ---
+
 ## Invoering
 
-GroupDocs.Signature voor .NET is een krachtige bibliotheek waarmee ontwikkelaars afbeeldingen efficiënt kunnen ondertekenen met metadata. Deze tutorial leidt u stap voor stap door het proces.
+GroupDocs.Signature voor .NET is een krachtige bibliotheek waarmee ontwikkelaars afbeeldingen efficiënt kunnen ondertekenen met metadata. Deze tutorial leidt je stap voor stap door het proces.
 
 ## Vereisten
 
 Zorg ervoor dat u het volgende bij de hand hebt voordat u begint:
 
-1.  GroupDocs.Signature voor .NET: Installeer het GroupDocs.Signature-pakket in uw .NET-project. U kunt het downloaden van[hier](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature voor .NET: Installeer het GroupDocs.Signature-pakket in uw .NET-project. U kunt het downloaden van [hier](https://releases.groupdocs.com/signature/net/).
 2. Afbeeldingsbestand: bereid het afbeeldingsbestand voor dat u wilt ondertekenen met metagegevens.
 
 ## Importeer noodzakelijke naamruimten
@@ -48,10 +49,10 @@ using (Signature signature = new Signature(filePath))
     ushort imgsMetadataId = 41996; // Start-ID voor metagegevens
     MetadataSignOptions options = new MetadataSignOptions();
 
-    // Voeg verschillende soorten metadatahandtekeningen toe
+    // Verschillende soorten metadatahandtekeningen toevoegen
     options
         .Add(new ImageMetadataSignature(imgsMetadataId++, "Mr. Sherlock Holmes")) // Stringwaarde
-        .Add(new ImageMetadataSignature(imgsMetadataId++, DateTime.Now))          // DateTime-waarde
+        .Add(new ImageMetadataSignature(imgsMetadataId++, DateTime.Now))          // Datum/tijd-waarde
         .Add(new ImageMetadataSignature(imgsMetadataId++, 123456))                // Gehele waarde
         .Add(new ImageMetadataSignature(imgsMetadataId++, 123.456D))              // Dubbele waarde
         .Add(new ImageMetadataSignature(imgsMetadataId++, 123.456M))              // Decimale waarde
@@ -65,7 +66,7 @@ using (Signature signature = new Signature(filePath))
 
 ## Conclusie
 
-In deze tutorial hebt u geleerd hoe u een afbeelding kunt ondertekenen met metagegevens met behulp van GroupDocs.Signature voor .NET. Door deze stappen te volgen, kunt u eenvoudig metagegevenshandtekeningen toevoegen aan uw .NET-toepassingen, waardoor de functionaliteit en integriteit van uw afbeeldingen wordt verbeterd.
+In deze tutorial hebt u geleerd hoe u een afbeelding kunt ondertekenen met metadata met behulp van GroupDocs.Signature voor .NET. Door deze stappen te volgen, kunt u eenvoudig metadatahandtekeningen toevoegen aan uw .NET-toepassingen, waardoor de functionaliteit en integriteit van uw afbeeldingen wordt verbeterd.
 
 ## Veelgestelde vragen
 
@@ -73,7 +74,7 @@ In deze tutorial hebt u geleerd hoe u een afbeelding kunt ondertekenen met metag
 Ja, u kunt meerdere afbeeldingen ondertekenen door door elk afbeeldingsbestand te itereren en de metagegevenshandtekeningen toe te passen.
 
 ### Is er een proefversie beschikbaar voor GroupDocs.Signature voor .NET?
- Ja, u kunt de proefversie downloaden van[hier](https://releases.groupdocs.com/).
+Ja, u kunt de proefversie downloaden van [hier](https://releases.groupdocs.com/).
 
 ### Ondersteunt GroupDocs.Signature voor .NET andere bestandsindelingen dan afbeeldingen?
 Absoluut! GroupDocs.Signature ondersteunt verschillende formaten, waaronder PDF, Word, Excel en meer.
@@ -82,4 +83,4 @@ Absoluut! GroupDocs.Signature ondersteunt verschillende formaten, waaronder PDF,
 Ja, u kunt aspecten zoals lettergrootte, kleur en positie van de metadatahandtekening aanpassen.
 
 ### Waar kan ik ondersteuning krijgen voor GroupDocs.Signature voor .NET?
- Voor ondersteuning kunt u terecht op het GroupDocs.Signature-forum[hier](https://forum.groupdocs.com/c/signature/13).
+Voor ondersteuning kunt u terecht op het GroupDocs.Signature-forum [hier](https://forum.groupdocs.com/c/signature/13).

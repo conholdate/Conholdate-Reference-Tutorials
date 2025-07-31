@@ -13,7 +13,7 @@ Ahoj, nadšenci do programování! Chtěli jste někdy vylepšit své dokumenty 
 
 ## Předpoklady
 
-Než se do toho pustíme, ujistěte se, že máte vše, co potřebujete:
+Než se do toho pustíme, ujistěme se, že máte vše, co potřebujete:
 
 1. Aspose.Words pro .NET: Stáhněte si jej z [Stránka s vydáním Aspose](https://releases.aspose.com/words/net/).
 2. .NET Framework: Ujistěte se, že máte nainstalovaný .NET Framework.

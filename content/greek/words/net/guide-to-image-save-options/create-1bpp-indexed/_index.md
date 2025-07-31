@@ -54,7 +54,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png)
 {
     PageSet = new PageSet(1), // Μετατροπή μόνο της πρώτης σελίδας
-    ImageColorMode = ImageColorMode.BlackAndWhite, // Ρύθμιση σε ασπρόμαυρο
+    ImageColorMode = ImageColorMode.BlackAndWhite, // Ρυθμισμένο σε ασπρόμαυρο
     PixelFormat = ImagePixelFormat.Format1bppIndexed // Χρησιμοποιήστε μορφή με ευρετήριο 1Bpp
 };
 ```

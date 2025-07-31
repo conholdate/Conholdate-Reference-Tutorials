@@ -40,7 +40,7 @@ Mielőtt belevágnánk a kódba, beszéljünk arról, hogy miért emelkedik ki a
 Mielőtt belekezdenénk, győződjünk meg róla, hogy minden megvan, amire szükséged van. Ne aggódj – a beállítás egyszerű:
 
 1. **Vizuális Stúdió**Ez lesz a fejlesztői környezetünk. Bármely újabb verziónak tökéletesen működnie kell.
-2. **.NET keretrendszer**: Győződjön meg róla, hogy telepítve van a .NET-keretrendszer. Az Aspose.PDF számos verziót támogat, így valószínűleg már rendelkezik ezzel a lehetőséggel.
+2. **.NET keretrendszer**: Győződjön meg arról, hogy telepítve van a .NET-keretrendszer. Az Aspose.PDF számos verziót támogat, így valószínűleg már rendelkezik ezzel a lehetőséggel.
 3. **Aspose.PDF könyvtár**: Töltse le és telepítse az Aspose.PDF könyvtárat innen: [itt](https://releases.aspose.com/pdf/net/)Itt történik a varázslat.
 4. **C# alapismeretek**A C# ismeretsége segít megérteni a kódrészleteket. Ha tudsz egy egyszerű konzolos alkalmazást írni, akkor nyugodtan elkezdheted.
 
@@ -211,7 +211,7 @@ Igen, az Aspose ingyenes próbaverziót kínál, amellyel kiértékelheted a kö
 Abszolút! Az Aspose.PDF támogatja a .NET Core-t, így alkalmas modern alkalmazásokhoz és mikroszolgáltatás-architektúrákhoz. Ez azt jelenti, hogy felhőalapú alkalmazásokban és konténerizált környezetekben is használható.
 
 ### Hogyan kaphatok támogatást az Aspose.PDF fájlhoz?
-Az Aspose közösség aktív és segítőkész. Támogatást kaphatsz, ha ellátogatsz a következő oldalra: [Aspose fórum](https://forum.aspose.com/c/pdf/10), ahol mind a közösségi tagok, mind az Aspose munkatársai készen állnak a technikai kérdések megválaszolására.
+Az Aspose közösség aktív és segítőkész. Támogatást kaphatsz, ha ellátogatsz a következő oldalra: [Aspose fórum](https://forum.aspose.com/c/pdf/10), ahol mind a közösségi tagok, mind az Aspose munkatársai készséggel állnak rendelkezésére technikai kérdésekben.
 
 ### Hol tudom megvásárolni az Aspose.PDF-et?
 Ha készen állsz a próbaverzión túlra, vásárolhatsz licencet az Aspose.PDF fájlhoz. [itt](https://purchase.conholdate.com/buy)Különböző licencelési lehetőségeket kínálnak, hogy megfeleljenek a különböző projektméreteknek és szervezeti igényeknek.

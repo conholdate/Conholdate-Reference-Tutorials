@@ -149,7 +149,7 @@ Ganz gleich, ob Sie eine Veröffentlichungsplattform oder ein Content-Management
 Aspose.Words unterstützt eine Vielzahl von Dokumentformaten, darunter DOCX, DOC, RTF, HTML, PDF, EPUB, ODT und viele mehr. Die Bibliothek kann zwischen den gängigsten Dokumentformaten konvertieren und ist somit eine vielseitige Wahl für Dokumentverarbeitungsanwendungen.
 
 ### Kann ich Stapelkonvertierungen mehrerer DOCX-Dateien durchführen?
-Absolut! Aspose.Words eignet sich perfekt für Stapelkonvertierungen. Sie können mehrere Dateien durchlaufen, jedes Dokument laden und ins EPUB-Format konvertieren. Für optimale Leistung sollten Sie bei großen Stapeln die parallele Verarbeitung in Betracht ziehen, aber die Speichernutzung sorgfältig überwachen.
+Absolut! Aspose.Words eignet sich perfekt für Stapelkonvertierungen. Sie können mehrere Dateien durchlaufen, jedes Dokument laden und in das EPUB-Format konvertieren. Für optimale Leistung sollten Sie bei großen Stapeln die parallele Verarbeitung in Betracht ziehen, aber die Speichernutzung sorgfältig überwachen.
 
 ### Ist Aspose.Words mit .NET Core kompatibel?
 Ja, Aspose.Words unterstützt sowohl .NET Framework als auch .NET Core vollständig, einschließlich der neuesten .NET-Versionen. Das bedeutet, dass Sie es ohne Kompatibilitätsprobleme in modernen Cloud-basierten Anwendungen, Microservices und herkömmlichen Desktop-Anwendungen verwenden können.

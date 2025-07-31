@@ -40,7 +40,7 @@ Esto le permitirá utilizar las clases y métodos proporcionados por Aspose.Cell
 Define la ubicación de tu archivo Excel de origen y dónde quieres guardar el PDF de salida. Crea variables para estas rutas:
 
 ```csharp
-// Directorio de origen
+// Directorio de fuentes
 string sourceDir = "Your Document Directory";
 // Directorio de salida
 string outputDir = "Your Document Directory";

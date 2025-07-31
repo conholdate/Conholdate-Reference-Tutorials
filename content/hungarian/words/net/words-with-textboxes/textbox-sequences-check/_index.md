@@ -128,7 +128,7 @@ Igen, a szövegdobozok többféleképpen is összekapcsolhatók, amennyiben az e
 ### Hogyan tudok leválasztani egy szövegdobozt egy sorozatról?
 Beállíthatja `Next` vagy `Previous` tulajdonságok `null` szükség szerint.
 
-### Lehetséges a hivatkozott szövegdobozokban lévő szöveget másképp formázni?
+### Lehetséges a hivatkozott szövegdobozokban lévő szöveg stílusát másképp beállítani?
 Természetesen! Független stílusokat alkalmazhatsz minden szövegdoboz tartalmára, ami tervezési rugalmasságot biztosít.
 
 ### Hol találok további forrásokat a szövegdobozokkal való munkáról az Aspose.Words-ben?

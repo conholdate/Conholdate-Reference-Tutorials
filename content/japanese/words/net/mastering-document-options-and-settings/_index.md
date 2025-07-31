@@ -34,4 +34,4 @@ Word文書を特定の言語設定に合わせてカスタマイズすること�
 | [文法やスペルの間違いを強調表示](./highlight-grammatical-and-spelling-errors/) Aspose.Words for .NET を使用して、Word 文書内の文法エラーとスペルミスの検出を自動化する方法をステップバイステップで説明します。 |
 | [ドキュメントページレイアウト](./document-page-layout/) ページレイアウトの設定、行ごとの文字数の定義、ドキュメントの外観の最適化を、シンプルで実践的な手順で学びましょう。あらゆるレベルの開発者に最適です。 |
 | [編集言語として日本語を追加する](./adding-japanese-as-editing-languages/) Aspose.Words for .NET を使用して、ドキュメントに日本語を編集言語としてシームレスに統合する方法をステップバイステップで解説します。 |
-| [ロシア語をデフォルトの言語として設定する](./set-russian-as-default-edit-language/) Aspose.Words for .NET を使用して、ロシア語をデフォルトの編集言語に設定し、Word 文書をカスタマイズする方法を学びましょう。このステップバイステップガイドをご覧ください。 |
+| [ロシア語をデフォルトの言語として設定する](./set-russian-as-default-edit-language/) Aspose.Words for .NET を使用して、ロシア語をデフォルトの編集言語に設定し、Word 文書をカスタマイズする方法をステップバイステップで説明します。 |

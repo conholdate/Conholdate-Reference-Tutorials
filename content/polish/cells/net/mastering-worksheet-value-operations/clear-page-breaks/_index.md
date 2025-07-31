@@ -50,7 +50,7 @@ Następnie utwórz `Workbook` Obiekt reprezentujący plik Excel. Ten obiekt będ
 Workbook workbook = new Workbook();
 ```
 
-Jeśli chcesz edytować już utworzony plik programu Excel, możesz także wczytać istniejący skoroszyt, określając ścieżkę do pliku.
+Jeśli chcesz edytować już utworzony plik programu Excel, możesz również wczytać istniejący skoroszyt, określając ścieżkę pliku.
 
 ## Krok 3: Wyczyść poziome i pionowe podziały stron
 

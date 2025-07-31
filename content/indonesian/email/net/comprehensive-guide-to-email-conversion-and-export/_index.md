@@ -82,7 +82,7 @@ Berdasarkan pengalaman di dunia nyata, berikut adalah beberapa kiat profesional 
 
 **Masalah Zona Waktu**Jika Anda melihat stempel waktu yang salah setelah konversi, periksa apakah Anda menangani informasi zona waktu sumber dengan benar. Jangan berasumsi semua email menggunakan UTC.
 
-**Kehilangan Pemformatan**Jika pemformatan tidak berhasil setelah konversi, biasanya karena format target tidak mendukung fitur tertentu. Dokumentasikan batasan ini kepada pengguna Anda.
+**Kehilangan Format**Jika pemformatan tidak berhasil setelah konversi, biasanya karena format target tidak mendukung fitur tertentu. Dokumentasikan batasan ini kepada pengguna Anda.
 
 **Hambatan Kinerja**Lampiran berukuran besar dapat memperlambat konversi secara signifikan. Pertimbangkan untuk mengekstrak dan memproses lampiran secara terpisah untuk kinerja yang lebih baik.
 

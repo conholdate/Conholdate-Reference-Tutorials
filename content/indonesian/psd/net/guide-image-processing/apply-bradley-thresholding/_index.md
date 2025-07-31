@@ -1,23 +1,24 @@
 ---
-title: Terapkan Bradley Thresholding di Aspose.PSD untuk .NET
-linktitle: Terapkan Bradley Thresholding
-second_title: API Aspose.PSD .NET
-description: Pelajari langkah demi langkah cara memuat file PSD, menerapkan teknik ambang batas, dan menyimpan hasil Anda dalam berbagai format, meningkatkan tugas segmentasi gambar Anda untuk beragam aplikasi.
-weight: 15
-url: /id/psd/guide-image-processing/apply-bradley-thresholding/
+"description": "Pelajari langkah demi langkah cara memuat file PSD, menerapkan teknik ambang batas, dan menyimpan hasil Anda dalam berbagai format, meningkatkan tugas segmentasi gambar Anda untuk beragam aplikasi."
+"linktitle": "Terapkan Bradley Thresholding"
+"second_title": "Aspose.PSD .NET API"
+"title": "Terapkan Bradley Thresholding di Aspose.PSD untuk .NET"
+"url": "/id/psd/net/guide-image-processing/apply-bradley-thresholding/"
+"weight": 15
 ---
+
 ## Perkenalan
 
-Selamat datang di tutorial kami tentang penerapan teknik Bradley Threshold menggunakan Aspose.PSD untuk .NET. Pustaka canggih ini memungkinkan manipulasi file Photoshop yang lancar dalam aplikasi .NET. Bradley Thresholding adalah metode efektif untuk binerisasi gambar, yang membantu membedakan objek dari latar belakangnya.
+Selamat datang di tutorial kami tentang penerapan teknik Bradley Threshold menggunakan Aspose.PSD untuk .NET. Pustaka canggih ini memungkinkan manipulasi berkas Photoshop yang mulus dalam aplikasi .NET. Bradley Thresholding adalah metode efektif untuk binerisasi gambar, yang membantu membedakan objek dari latar belakangnya.
 
 ## Prasyarat
 
 Sebelum memulai prosesnya, pastikan Anda memiliki prasyarat berikut:
 
--  Aspose.PSD untuk Pustaka .NET: Unduh dan instal versi terbaru dari[dokumentasi](https://reference.aspose.com/psd/net/).
-- Direktori Dokumen: Buat direktori kerja untuk menyimpan berkas PSD sumber dan gambar biner keluaran.
+- Aspose.PSD untuk Pustaka .NET: Unduh dan instal versi terbaru dari [dokumentasi](https://reference.aspose.com/psd/net/).
+- Direktori Dokumen: Buat direktori kerja untuk menyimpan file PSD sumber dan gambar biner keluaran.
 
-## Impor Ruang Nama yang Diperlukan
+## Impor Namespace yang Diperlukan
 
 Mulailah proyek Anda dengan mengimpor namespace yang relevan untuk mengakses fungsionalitas Aspose.PSD:
 
@@ -60,7 +61,7 @@ using (PsdImage image = (PsdImage)Image.Load(sourceFile))
 
 ## Kesimpulan
 
-Selamat! Anda telah berhasil menerapkan teknik Bradley Threshold menggunakan Aspose.PSD untuk .NET. Metode ini dapat meningkatkan segmentasi gambar untuk berbagai aplikasi, mulai dari analisis dokumen hingga desain grafis.
+Selamat! Anda telah berhasil menerapkan teknik Bradley Threshold menggunakan Aspose.PSD untuk .NET. Metode ini dapat meningkatkan segmentasi gambar secara signifikan untuk berbagai aplikasi, mulai dari analisis dokumen hingga desain grafis.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -70,16 +71,16 @@ Tentu saja! Bradley Thresholding bersifat serbaguna dan dapat diterapkan pada se
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.PSD?
 
- Untuk dokumentasi dan sumber daya terperinci, kunjungi[Dokumentasi Aspose.PSD](https://reference.aspose.com/psd/net/).
+Untuk dokumentasi dan sumber daya terperinci, kunjungi [Dokumentasi Aspose.PSD](https://reference.aspose.com/psd/net/).
 
 ### Apakah ada versi uji coba yang tersedia?
 
-Ya! Anda dapat mencoba Aspose.PSD untuk .NET dengan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya! Anda bisa mencoba Aspose.PSD untuk .NET dengan uji coba gratis. [Di Sini](https://releases.aspose.com/).
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.PSD?
 
- Untuk dukungan dan diskusi komunitas, lihat[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+Untuk dukungan dan diskusi komunitas, lihat [Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
 
-### Bagaimana saya dapat membeli lisensi untuk Aspose.PSD?
+### Bagaimana cara membeli lisensi untuk Aspose.PSD?
 
- Anda dapat membeli lisensi secara langsung[Di Sini](https://purchase.conholdate.com/buy).
+Anda dapat membeli lisensi secara langsung [Di Sini](https://purchase.conholdate.com/buy).

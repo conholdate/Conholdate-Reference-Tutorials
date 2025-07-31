@@ -20,7 +20,7 @@ Exploitez tout le potentiel du traitement de documents Word avec Aspose.Words po
 - **📄 Prise en charge des formats**: DOC, DOCX, RTF, HTML, PDF, EPUB, Markdown et plus
 - **🔄 Conversions avancées**:Transformations haute fidélité avec un rendu de qualité professionnelle
 - **🤖 Intégration de l'IA**:Résumé de documents à l'aide des modèles OpenAI GPT et Google AI
-- **📊 Publipostage et rapports**Génération dynamique de documents à partir de sources de données
+- **📊 Publipostage et rapports**: Génération dynamique de documents à partir de sources de données
 - **🎨 Formatage enrichi**:Contrôle complet sur le style, la mise en page et les éléments interactifs du document
 
 ## 📚 Catégories de tutoriels
@@ -34,10 +34,10 @@ Maîtrisez les transformations fondamentales de documents avec une sortie de qua
 | **[Convertir DOCX en EPUB](./essential-guide-document-conversions/convert-docx-to-epub/)** | Édition numérique pour liseuses et appareils mobiles | ⭐⭐ Intermédiaire |
 | **[Convertir DOCX en TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Extraction de texte brut pour le traitement et l'analyse des données | ⭐ Débutant |
 | **[Convertir DOCX en tableaux d'octets](./essential-guide-document-conversions/convert-docx-to-byte-arrays/)** | Gestion efficace des documents en mémoire pour les applications Web | ⭐⭐ Intermédiaire |
-| **[Convertir DOC en DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** | Modernisation des formats hérités et mises à jour de compatibilité | ⭐ Débutant |
+| **[Convertir DOC en DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** Modernisation des formats hérités et mises à jour de compatibilité | ⭐ Débutant |
 | **[Convertir DOCX en MHTML et envoyer un e-mail](./essential-guide-document-conversions/convert-docx-to-mhtml-send-email/)** | Intégration de messagerie avec prise en charge de formatage enrichi | ⭐⭐ Intermédiaire |
 | **[Convertir un PDF en JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Extraction d'images de haute qualité à partir de documents PDF | ⭐⭐ Intermédiaire |
-| **[Enregistrer au format PDF](./essential-guide-document-conversions/save-as-pdf/)** Publication de documents professionnels avec options avancées | ⭐ Débutant |
+| **[Enregistrer au format PDF](./essential-guide-document-conversions/save-as-pdf/)** | Publication de documents professionnels avec options avancées | ⭐ Débutant |
 
 ### Traitement avancé des documents par l'IA
 Tirez parti de l’intelligence artificielle de pointe pour une analyse intelligente des documents et une génération de contenu automatisée.
@@ -46,16 +46,16 @@ Tirez parti de l’intelligence artificielle de pointe pour une analyse intellig
 |----------|-------------|------------|
 | **[Maîtriser la synthèse de documents avec un modèle d'IA](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Intégration de l'IA Google pour un résumé intelligent du contenu | ⭐⭐⭐ Avancé |
 | **[Synthèse efficace de documents avec le modèle OpenAI](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Analyse de documents et informations automatisées optimisées par GPT | ⭐⭐⭐ Avancé |
-| **[Options de résumé des documents](./advanced-ai-document-processing/summarize-documents-options/)** | Configuration avancée pour le traitement de contenu alimenté par l'IA | ⭐⭐⭐ Avancé |
+| **[Options de résumé des documents](./advanced-ai-document-processing/summarize-documents-options/)** Configuration avancée pour le traitement de contenu alimenté par l'IA | ⭐⭐⭐ Avancé |
 
 ### Maîtriser la gestion des sections
 Structure et organisation de documents professionnels avec des techniques avancées de manipulation de sections.
 
 | Tutoriel | Description | Difficulté |
 |----------|-------------|------------|
-| **[Ajout de sections](./section-management/adding-sections/)** Créez des mises en page de documents structurées avec un formatage professionnel | ⭐ Débutant |
+| **[Ajout de sections](./section-management/adding-sections/)** | Créez des mises en page de documents structurées avec un formatage professionnel | ⭐ Débutant |
 | **[Supprimer des sections de documents Word](./section-management/delete-sections-word-document/)** | Supprimez efficacement les sections de documents inutiles | ⭐ Débutant |
-| **[Ajouter le contenu de la section Word](./section-management/append-section-word-content/)** | Combinez de manière transparente le contenu de plusieurs sections de documents | ⭐⭐ Intermédiaire |
+| **[Ajouter le contenu du mot de la section](./section-management/append-section-word-content/)** | Combinez de manière transparente le contenu de plusieurs sections de documents | ⭐⭐ Intermédiaire |
 | **[Copier des sections entre des documents Word](./section-management/copy-sections-word-documents/)** | Transférer du contenu structuré entre différents documents | ⭐⭐ Intermédiaire |
 
 ### Traitement de texte avec zones de texte
@@ -81,7 +81,7 @@ Traitement et optimisation d'images professionnelles pour la publication de docu
 |----------|-------------|------------|
 | **[Contrôle du seuil d'exposition pour la binarisation TIFF](./guide-to-image-save-options/expose-threshold-control-for-tiff-binarization-in-word-document/)** | Traitement d'image avancé avec contrôles de qualité personnalisés | ⭐⭐⭐ Avancé |
 | **[Obtenir une plage de pages JPEG](./guide-to-image-save-options/get-jpeg-page-range-word-document/)** | Extraire des pages de documents spécifiques sous forme d'images de haute qualité | ⭐⭐ Intermédiaire |
-| **[Obtenir la plage de pages TIFF](./guide-to-image-save-options/get-tiff-page-range-word-document/)** Extraction d'images professionnelle avec optimisation du format TIFF | ⭐⭐ Intermédiaire |
+| **[Obtenir la plage de pages TIFF](./guide-to-image-save-options/get-tiff-page-range-word-document/)** | Extraction d'images professionnelle avec optimisation du format TIFF | ⭐⭐ Intermédiaire |
 | **[Créer des images indexées 1Bpp](./guide-to-image-save-options/create-1bpp-indexed/)** | Traitement d'images peu encombrant pour l'archivage et le stockage | ⭐⭐ Intermédiaire |
 | **[Rappel d'enregistrement de page](./guide-to-image-save-options/page-saving-callback-word-document/)** | Traitement de page personnalisé avec génération d'images automatisée | ⭐⭐⭐ Avancé |
 
@@ -90,7 +90,7 @@ Gestion complète des métadonnées et manipulation des propriétés des documen
 
 | Tutoriel | Description | Difficulté |
 |----------|-------------|------------|
-| **[Supprimer les propriétés personnalisées du document](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** | Nettoyer les métadonnées des documents et optimiser l'organisation des fichiers | ⭐ Débutant |
+| **[Supprimer les propriétés personnalisées du document](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** Nettoyer les métadonnées des documents et optimiser l'organisation des fichiers | ⭐ Débutant |
 
 ## 🎯 Cas d'utilisation populaires
 
@@ -106,13 +106,13 @@ Gestion complète des métadonnées et manipulation des propriétés des documen
 
 ### **Solutions d'intégration d'entreprise**
 - **Applications Web**: Générer des documents de manière dynamique à partir d'interfaces Web et de bases de données
-- **Automatisation des e-mails**: Créez un contenu de courrier électronique riche avec des documents et un formatage intégrés
+- **Automatisation des e-mails**Créez un contenu de courrier électronique riche avec des documents et un formatage intégrés
 - **Développement d'API**:Créez des microservices centrés sur les documents et des pipelines de traitement automatisés
 
 ## 📊 Recommandations de parcours d'apprentissage
 
 ### **Développeur débutant** (Nouveau dans le traitement des documents)
-1. Commencer par **[Conversion de Word en PDF](./essential-guide-document-conversions/convert-word-to-pdf/)**
+1. Commencer avec **[Conversion de Word en PDF](./essential-guide-document-conversions/convert-word-to-pdf/)**
 2. Apprendre **[Traitement de texte](./essential-guide-document-conversions/convert-docx-to-txt/)**
 3. Pratique **[Conversions de format](./essential-guide-document-conversions/convert-doc-to-docx/)**
 

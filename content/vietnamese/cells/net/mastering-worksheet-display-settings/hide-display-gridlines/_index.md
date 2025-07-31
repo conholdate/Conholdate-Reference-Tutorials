@@ -94,7 +94,7 @@ worksheet.IsGridlinesVisible = false;  // Ẩn đường lưới
 worksheet.IsGridlinesVisible = true;  // Hiển thị các đường lưới
 ```
 
-## Bước 6: Lưu bảng tính đã sửa đổi
+## Bước 6: Lưu sổ làm việc đã sửa đổi
 
 Sau khi thực hiện các thay đổi cần thiết cho bảng tính, đã đến lúc lưu tệp đã chỉnh sửa. Bạn có thể ghi đè lên tệp gốc hoặc lưu thành tệp mới.
 

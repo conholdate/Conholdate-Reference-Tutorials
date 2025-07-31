@@ -149,7 +149,7 @@ oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
 Mã này tạo ra một phiên bản tóm tắt của `firstDoc` và lưu vào thư mục hiện vật. Quá trình tóm tắt bảo toàn cấu trúc tài liệu đồng thời cô đọng nội dung một cách thông minh.
 
 **Tùy chọn độ dài tóm tắt**:
-- **Ngắn**: 1-3 đoạn văn, lý tưởng cho phần tóm tắt nhanh
+- **Ngắn**: 1-3 đoạn văn, lý tưởng cho phần tổng quan nhanh
 - **Trung bình**: 3-5 đoạn văn, cân bằng chi tiết và ngắn gọn  
 - **Dài**: 5+ đoạn văn, toàn diện nhưng cô đọng
 

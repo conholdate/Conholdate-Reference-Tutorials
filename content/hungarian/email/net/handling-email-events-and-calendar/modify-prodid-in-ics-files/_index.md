@@ -116,5 +116,5 @@ Abszolút! Az Aspose.Email támogatja a .NET Core, a .NET Framework és a Xamari
 ### Hogyan tudok hibakeresni az ICS fájlokkal kapcsolatos problémákat?  
 Használd az Aspose.Email robusztus naplózási funkcióit, vagy nyisd meg az ICS fájlt egy szövegszerkesztőben a szintaktikai hibák ellenőrzéséhez.
 
-### Módosíthatok más tulajdonságokat is a következőkön kívül? `ProdID`?  
+### Módosíthatok más tulajdonságokat is amellett, hogy `ProdID`?  
 Igen, az Aspose.Email lehetővé teszi különféle tulajdonságok testreszabását, például az események ismétlődését, a résztvevőket és az emlékeztetőket.

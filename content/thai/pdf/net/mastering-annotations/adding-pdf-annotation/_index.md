@@ -105,7 +105,7 @@ pdfDocument.Save(dataDir);
 Console.WriteLine("\nAnnotation added successfully.\nFile saved at " + dataDir);
 ```
 
-รหัสนี้จะบันทึกเอกสารที่แก้ไขแล้วเป็น `AddAnnotation_out.pdf`โดยรักษาไฟล์ต้นฉบับไว้และยืนยันการเพิ่มคำอธิบายสำเร็จ
+รหัสนี้จะบันทึกเอกสารที่แก้ไขแล้วเป็น `AddAnnotation_out.pdf`, รักษาไฟล์ต้นฉบับและยืนยันการเพิ่มคำอธิบายสำเร็จ
 
 ## บทสรุป
 

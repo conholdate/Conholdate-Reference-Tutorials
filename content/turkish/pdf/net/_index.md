@@ -1,5 +1,5 @@
 ---
-"description": "Aspose.PDF for .NET için kapsamlı eğitimler ve kılavuzlar. Adım adım örneklerle PDF belge oluşturma, düzenleme, dönüştürme ve etkileşimli özelliklerde ustalaşın."
+"description": "Aspose.PDF for .NET için kapsamlı eğitimler ve kılavuzlar. Adım adım örneklerle PDF belgesi oluşturma, düzenleme, dönüştürme ve etkileşimli özelliklerde ustalaşın."
 "linktitle": ".NET için Aspose.PDF"
 "second_title": ".NET API Referansı için Aspose.PDF"
 "title": ".NET için Aspose.PDF Eğitimleri"
@@ -34,7 +34,7 @@ Kapsamlı eğitim koleksiyonumuzla Aspose.PDF for .NET'in kapsamlı yeteneklerin
 | **[EPUB'ı PDF'ye dönüştür](./mastering-document-conversion/convert-epub-to-pdf/)** | Evrensel uyumluluk için e-kitapları PDF formatına dönüştürün | ⭐ Başlangıç |
 | **[HTML'den PDF'e Geçişte Ustalaşma](./mastering-document-conversion/mastering-html-to-pdf/)** | Gelişmiş stil desteğiyle web içeriğini PDF'ye dönüştürme | ⭐⭐ Orta |
 | **[CGM'den PDF'e Dönüştürme](./mastering-document-conversion/convert-cgm-to-pdf/)** | Bilgisayar Grafikleri Meta Dosyasını PDF'ye dönüştürme | ⭐⭐ Orta |
-| **[PDF/A'ya Ek Ekleme](./mastering-document-conversion/adding-attachment-to-pdfa/)** | Arşiv standartlarına uygun belge ekleri | ⭐⭐⭐ Gelişmiş |
+| **[PDF/A'ya Ek Ekleme](./mastering-document-conversion/adding-attachment-to-pdfa/)** Arşiv standartlarına uygun belge ekleri | ⭐⭐⭐ Gelişmiş |
 
 ### PDF Belgesi Programlamada Ustalaşın
 Gelişmiş belge çözümleri oluşturmak için gelişmiş PDF programlama teknikleri.
@@ -52,7 +52,7 @@ Belge organizasyonu ve yapı yönetimi için temel PDF sayfa işlemleri.
 | Eğitim | Açıklama | Zorluk |
 |----------|-------------|------------|
 | **[PDF Sayfa Yönünü Değiştir](./master-pdf-page-management/change-pdf-page-orientation/)** | Belgenin en iyi şekilde görüntülenmesi için sayfa düzenini ve yönlendirmeyi ayarlayın | ⭐ Başlangıç |
-| **[PDF Dosyalarını Birleştirme](./master-pdf-page-management/concatenating-pdf-files/)** Birden fazla PDF belgesini tek bir tutarlı dosyada birleştirin | ⭐⭐ Orta düzey |
+| **[PDF Dosyalarını Birleştirme](./master-pdf-page-management/concatenating-pdf-files/)** | Birden fazla PDF belgesini tek bir tutarlı dosyada birleştirin | ⭐⭐ Orta düzey |
 | **[PDF Dosyalarından Belirli Bir Sayfayı Sil](./master-pdf-page-management/delete-particular-page-from-pdf-files/)** | PDF belgelerinden belirli sayfaları etkili bir şekilde kaldırın | ⭐ Başlangıç |
 | **[PDF Dosyasına Boş Sayfalar Ekle](./master-pdf-page-management/insert-empty-pages/)** | İçerik organizasyonu ve aralığı için boş sayfalar ekleyin | ⭐ Başlangıç |
 | **[Sonuna Boş Sayfa Ekleme](./master-pdf-page-management/adding-an-empty-page-at-end/)** | PDF belgelerine programatik olarak boş sayfalar ekleme | ⭐ Başlangıç |
@@ -67,7 +67,7 @@ Belge organizasyonu ve yapı yönetimi için temel PDF sayfa işlemleri.
 ### **Etkileşimli Belge Oluşturma**
 - **Form Geliştirme**: Doğrulama ve hesaplamalarla dinamik PDF formları
 - **Dijital İmzalar**: Güvenli belge imzalama ve kimlik doğrulama
-- **Multimedya Entegrasyonu**PDF belgelerinde zengin medya içeriği
+- **Multimedya Entegrasyonu**: PDF belgelerinde zengin medya içeriği
 
 ### **Web'den PDF'e Çözümler**
 - **HTML Dönüşümü**: Web içeriğini çevrimdışı erişim için PDF'ye dönüştürün
@@ -113,7 +113,7 @@ Belge organizasyonu ve yapı yönetimi için temel PDF sayfa işlemleri.
 ### **Güvenlik ve Uyumluluk**
 - **Dijital İmzalar** - Belgenin doğrulanması ve bütünlüğü
 - **Şifreleme** - Şifre koruması ve erişim kontrolü
-- **PDF/A Standartları** - Uzun vadeli arşiv uyumluluğu
+- **PDF/A Standartları** Uzun vadeli arşiv uyumluluğu
 
 ### **Belge Geliştirme**
 - **Filigranlar** - Marka koruması ve belge işaretlemesi

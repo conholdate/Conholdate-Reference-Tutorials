@@ -77,7 +77,7 @@ Um die Papierformateinstellungen zu überprüfen, überprüfen Sie die `IsAutoma
 Console.WriteLine("First Workbook - IsAutomaticPaperSize: " + ws1.PageSetup.IsAutomaticPaperSize);
 Console.WriteLine("Second Workbook - IsAutomaticPaperSize: " + ws2.PageSetup.IsAutomaticPaperSize);
 ```
-Hiermit wird für jedes Arbeitsblatt ausgedruckt, ob die Funktion zur automatischen Papiergröße aktiviert ist.
+Hier wird für jedes Arbeitsblatt ausgedruckt, ob die automatische Papiergrößenfunktion aktiviert ist.
 
 ## Schritt 5: Bestätigung der Ergebnisse
 Drucken Sie abschließend eine Erfolgsmeldung, um die erfolgreiche Ausführung des Programms zu bestätigen:

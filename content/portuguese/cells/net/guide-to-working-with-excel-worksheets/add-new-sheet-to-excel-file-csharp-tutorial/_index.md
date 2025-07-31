@@ -9,7 +9,7 @@
 
 ## Introdução
 
-Gerenciar arquivos do Excel programaticamente pode ser um divisor de águas na automação de fluxos de trabalho e processamento de dados. Uma das tarefas essenciais é adicionar novas planilhas a um arquivo Excel existente ou novo. O Aspose.Cells para .NET oferece uma maneira robusta e eficiente de lidar com essas operações. Neste guia, abordaremos como adicionar facilmente uma nova planilha a uma pasta de trabalho do Excel usando o Aspose.Cells, garantindo que você possa aproveitar ao máximo essa poderosa biblioteca.
+Gerenciar arquivos do Excel programaticamente pode ser um divisor de águas na automação de fluxos de trabalho e processamento de dados. Uma das tarefas essenciais é adicionar novas planilhas a um arquivo Excel existente ou novo. O Aspose.Cells para .NET oferece uma maneira robusta e eficiente de lidar com essas operações. Neste guia, abordaremos como adicionar facilmente uma nova planilha a uma pasta de trabalho do Excel usando o Aspose.Cells, garantindo que você aproveite ao máximo essa poderosa biblioteca.
 
 ## Pré-requisitos para o sucesso
 

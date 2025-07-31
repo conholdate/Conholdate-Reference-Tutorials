@@ -124,4 +124,4 @@ draftMessage.AddAlternateView(appointment.RequestApointment());
 
 ### Где я могу найти более подробную информацию об Aspose.Email для .NET?
 
-Для получения полной документации и дополнительных ресурсов посетите [Справочник Aspose.Email для .NET](https://reference.aspose.com/email/net/).
+Для получения полной документации и дополнительных ресурсов посетите [Справочник по Aspose.Email для .NET](https://reference.aspose.com/email/net/).

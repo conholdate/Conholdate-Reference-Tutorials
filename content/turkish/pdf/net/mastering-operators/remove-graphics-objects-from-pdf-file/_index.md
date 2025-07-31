@@ -116,7 +116,7 @@ Son olarak, değiştirilen PDF dosyasını kaydedin. Dosyayı aynı dizine veya 
 doc.Save(dataDir + "No_Graphics_out.pdf");
 ```
 
-Bu, adlı yeni bir PDF dosyası oluşturur `No_Graphics_out.pdf` belirtilen dizinde.
+Bu, şu adla yeni bir PDF dosyası oluşturur: `No_Graphics_out.pdf` belirtilen dizinde.
 
 ## Çözüm
 

@@ -34,10 +34,10 @@ using Aspose.Email.Clients.Imap;
 using Aspose.Email.Clients.Pop3;
 ```
 
-Laten we het proces opsplitsen in begrijpelijke stappen. Volg elke stap zorgvuldig om een soepele uitvoering te garanderen.
+Laten we het proces opsplitsen in overzichtelijke stappen. Volg elke stap zorgvuldig om een soepele uitvoering te garanderen.
 
 
-## Stap 1: Uw IMAP-client instellen
+## Stap 1: Stel uw IMAP-client in
 
 De eerste stap is verbinding maken met uw e-mailserver via het IMAP-protocol. Met IMAP kunnen we e-mailberichten van de server openen en ophalen.
 
@@ -51,7 +51,7 @@ client.SelectFolder(ImapFolderInfo.InBox);
 - `SelectFolder(ImapFolderInfo.InBox)` geeft aan dat we met de inbox willen werken.
 
 
-## Stap 2: E-mails uit de inbox ophalen
+## Stap 2: E-mails ophalen uit de inbox
 
 Zodra u verbinding hebt gemaakt, moet u e-mailberichten uit de inbox ophalen. Aspose.Email biedt een eenvoudige methode om alle berichten weer te geven.
 
@@ -65,7 +65,7 @@ ImapMessageInfoCollection messages = client.ListMessages();
 
 ## Stap 3: Elk e-mailbericht ophalen
 
-Om toegang te krijgen tot de inhoud en bijlagen, moet u elk e-mailbericht ophalen met behulp van de unieke ID.
+Om toegang te krijgen tot de inhoud en bijlagen, moet u elke e-mail ophalen met behulp van de unieke ID.
 
 
 ```csharp
@@ -136,7 +136,7 @@ else if (attachment.ContentType.MediaType == "image/jpeg")
 
 En voilà! Het extraheren van bijlagen uit e-mails is niet langer een vervelende klus. Met Aspose.Email voor .NET kunt u dit proces automatiseren met slechts een paar regels code. Van het instellen van de IMAP-client tot het lokaal opslaan van bijlagen, deze handleiding behandelt alles wat u nodig hebt om aan de slag te gaan. 
 
-Dus waarom zouden we wachten? [Download Aspose.E-mail](https://releases.aspose.com/email/net/) en begin vandaag nog met het stroomlijnen van uw e-mailworkflows!
+Waarom zouden we dan nog wachten? [Download Aspose.E-mail](https://releases.aspose.com/email/net/) en begin vandaag nog met het stroomlijnen van uw e-mailworkflows!
 
 
 ## Veelgestelde vragen
@@ -145,7 +145,7 @@ Dus waarom zouden we wachten? [Download Aspose.E-mail](https://releases.aspose.c
 Ja! Vervangen `imap.example.com` met Gmail's (`imap.gmail.com`) of Outlook's (`outlook.office365.com`) IMAP-serveradres.
 
 ### Is Aspose.Email gratis te gebruiken?
-Voor Aspose.Email is een licentie vereist voor volledige functionaliteit. U kunt een [gratis proefperiode](https://releases.aspose.com/) of een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
+Voor volledige functionaliteit heeft Aspose.Email een licentie nodig. U kunt een [gratis proefperiode](https://releases.aspose.com/) of een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
 
 ### Hoe kan ik de beveiliging van mijn wachtwoorden regelen?
 Overweeg om omgevingsvariabelen of veilige opslag van inloggegevens te gebruiken in plaats van het hardcoderen van wachtwoorden.

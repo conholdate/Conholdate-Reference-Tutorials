@@ -48,7 +48,7 @@ Ten fragment kodu ustawia katalog dla pliku PDF i ładuje go do `Document` obiek
 
 ## Krok 2: Utwórz adnotację
 
-Następnie utworzymy `TextAnnotation`, idealny do dodawania komentarzy i notatek.
+Następnie utworzymy `TextAnnotation`, idealne do dodawania komentarzy i notatek.
 
 ```csharp
 // Utwórz adnotację tekstową

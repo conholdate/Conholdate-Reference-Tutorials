@@ -12,7 +12,7 @@
 Programmatisch werken met Excel-bestanden vereist vaak niet alleen gegevensmanipulatie, maar ook gegevensbescherming. Het beveiligen van specifieke rijen in een werkblad kan cruciaal zijn om gevoelige informatie te beschermen of onbedoelde wijzigingen te voorkomen. In deze tutorial onderzoeken we hoe u rijen in een Excel-werkblad kunt beveiligen met Aspose.Cells voor .NET. We begeleiden u door de benodigde stappen, van het instellen van uw omgeving tot het eenvoudig implementeren van functies voor rijbeveiliging.
 
 ## Vereisten
-Voordat u begint, moet u ervoor zorgen dat u het volgende heeft geregeld:
+Voordat u begint, moet u ervoor zorgen dat u het volgende geregeld hebt:
 
 1. Aspose.Cells voor .NET: Download en installeer het vanaf de [Aspose Cells downloadpagina](https://releases.aspose.com/cells/net/).
 2. Visual Studio of een andere .NET IDE: U hebt een ontwikkelomgeving nodig. Visual Studio wordt aanbevolen, maar elke .NET-compatibele IDE is voldoende.
@@ -29,7 +29,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-## Stap 1: Een nieuwe werkmap en werkblad maken
+## Stap 1: Maak een nieuwe werkmap en werkblad
 Voordat u beveiligingsinstellingen toepast, maakt u een nieuwe werkmap en selecteert u het werkblad waarmee u wilt werken.
 
 ```csharp
@@ -45,7 +45,7 @@ Worksheet sheet = wb.Worksheets[0];
 ```
 
 ## Stap 2: Stijl- en StyleFlag-objecten definiëren
-Definieer de stijl- en stijlvlagobjecten, waarmee u de celeigenschappen kunt wijzigen (bijvoorbeeld vergrendelen of ontgrendelen).
+Definieer de stijl- en stijlvlagobjecten, waarmee u de celeigenschappen kunt wijzigen, zoals vergrendelen of ontgrendelen.
 
 ```csharp
 // Definieer de stijl en stijlvlagobjecten.
@@ -97,7 +97,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
 ## Conclusie
-Gefeliciteerd! U hebt succesvol geleerd hoe u rijen in een Excel-werkblad kunt beveiligen met Aspose.Cells voor .NET. Door deze stappen te volgen, kunt u rijen of kolommen naar wens ontgrendelen of vergrendelen en beveiliging toepassen om de integriteit van uw gegevens te behouden.
+Gefeliciteerd! U hebt met succes geleerd hoe u rijen in een Excel-werkblad kunt beveiligen met Aspose.Cells voor .NET. Door deze stappen te volgen, kunt u rijen of kolommen naar wens ontgrendelen of vergrendelen en beveiliging toepassen om de integriteit van uw gegevens te behouden.
 
 ## Veelgestelde vragen
 ### Hoe kan ik meerdere rijen tegelijk beveiligen?
@@ -113,4 +113,4 @@ Ja, u kunt afzonderlijke cellen ontgrendelen door hun stijleigenschappen te wijz
 Wanneer een rij is beveiligd, kan Excel de vergrendelde cellen niet bewerken, tenzij het werkblad niet is beveiligd.
 
 ### Kan ik specifieke bereiken binnen een rij beschermen?
-Ja! U kunt individuele bereiken in een rij vergrendelen door de `IsLocked` eigenschap voor specifieke cellen binnen dat bereik.
+Ja! U kunt afzonderlijke bereiken in een rij vergrendelen door de `IsLocked` eigenschap voor specifieke cellen binnen dat bereik.

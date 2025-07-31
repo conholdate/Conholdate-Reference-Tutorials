@@ -17,7 +17,7 @@ Aspose.Cells for .NET은 개발자가 Excel 파일을 프로그래밍 방식으�
 
 1. .NET용 Aspose.Cells: 라이브러리를 다운로드하세요. [여기](https://releases.aspose.com/cells/net/).
 2. Visual Studio나 .NET IDE: C# 코드를 작성하고 실행하려면 개발 환경이 필요합니다.
-3. C#에 대한 기본 이해: C#의 기본 사항에 대한 지식이 있으면 코드를 살펴보는 데 도움이 됩니다.
+3. C#에 대한 기본 이해: C#의 기본 사항을 알고 있으면 코드를 살펴보는 데 도움이 됩니다.
 4. 샘플 Excel 파일: 이 연습을 위해 차트가 포함된 샘플 Excel 파일을 준비하세요.
 
 이러한 전제 조건을 갖추면 차트 시트에 대한 PDF 책갈피를 만들 준비가 된 것입니다!
@@ -68,7 +68,7 @@ Worksheet sheet4 = wb.Worksheets[3];
 ```
 Excel 파일에 최소 4개의 시트가 포함되어 있는지 확인하세요.
 
-## 7단계: PDF 북마크 항목 만들기
+## 7단계: PDF 책갈피 항목 만들기
 이제 각 시트에 대한 책갈피 항목을 만듭니다.
 ```csharp
 PdfBookmarkEntry ent1 = new PdfBookmarkEntry {

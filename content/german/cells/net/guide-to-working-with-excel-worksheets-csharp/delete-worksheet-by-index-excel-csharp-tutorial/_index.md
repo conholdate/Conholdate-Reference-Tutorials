@@ -94,7 +94,7 @@ Stellen Sie anschließend mithilfe eines FileStreams eine Verbindung zu Ihrer Ex
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-**Was ist hier los?**
+**Was passiert hier?**
 - `FileMode.Open` weist das System an, eine vorhandene Datei zu öffnen (keine neue zu erstellen)
 - Der FileStream bietet einen Pfad zum Lesen und Schreiben in die Datei
 - Diese Methode funktioniert mit jedem von Aspose.Cells unterstützten Excel-Format
@@ -149,7 +149,7 @@ workbook.Save(dataDir + "output.out.xls");
 - Überschreiben Sie die Originaldatei: `"book1.xls"`
 - In einem anderen Format speichern: Ändern Sie die Erweiterung in `.xlsx` für neuere Excel-Formate
 
-**Bewährte Methode**: Speichern Sie immer zuerst unter einem anderen Dateinamen, um einen versehentlichen Datenverlust während der Entwicklung zu vermeiden.
+**Bewährte Vorgehensweise**: Speichern Sie immer zuerst unter einem anderen Dateinamen, um einen versehentlichen Datenverlust während der Entwicklung zu vermeiden.
 
 ## Schritt 6: Ressourcen bereinigen
 
@@ -262,7 +262,7 @@ Ja, Aspose.Cells benötigt eine Lizenz für die kommerzielle Nutzung. Sie könne
 Absolut! Sie können Indizes durchlaufen und mehrere Arbeitsblätter löschen. Denken Sie daran, rückwärts zu arbeiten (vom höchsten zum niedrigsten Index), um Indexverschiebungen zu vermeiden, die dazu führen könnten, dass Sie die falschen Arbeitsblätter löschen.
 
 ### Was passiert, wenn ich ein Arbeitsblatt lösche, das wichtige Daten enthält?
-Wenn Sie die Arbeitsmappe noch nicht gespeichert haben, können Sie die Originaldatei einfach neu laden. Sobald Sie die Änderungen speichern, ist die Löschung jedoch endgültig. Erstellen Sie vor der Durchführung von Massenvorgängen immer eine Sicherungskopie wichtiger Dateien.
+Wenn Sie die Arbeitsmappe noch nicht gespeichert haben, können Sie die Originaldatei einfach neu laden. Sobald Sie die Änderungen speichern, ist die Löschung jedoch endgültig. Erstellen Sie vor der Durchführung von Massenvorgängen immer Sicherungskopien wichtiger Dateien.
 
 ### Wie kann ich ein Arbeitsblatt nach Namen statt nach Index löschen?
 Verwenden Sie die `RemoveByName()` Methode stattdessen: `workbook.Worksheets.RemoveByName("SheetName")`Dieser Ansatz ist oft sicherer, wenn Sie den spezifischen Arbeitsblattnamen kennen, da dieser nicht von Indexänderungen betroffen ist.

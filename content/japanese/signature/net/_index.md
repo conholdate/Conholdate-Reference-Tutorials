@@ -1,12 +1,13 @@
 ---
-title: GroupDocs.Signature for .NET のチュートリアルと例
-linktitle: GroupDocs.Signature for .NET チュートリアル
-weight: 10
-url: /ja/signature/
-description: GroupDocs.Signature for .NET の使用に関する包括的なチュートリアルをご覧ください。わかりやすいステップバイステップのガイドを使用して、デジタル署名の実装、ワークフローのカスタマイズ、ドキュメントのセキュリティの強化について学習します。
-is_root: true
+"description": "GroupDocs.Signature for .NET の使い方に関する包括的なチュートリアルをご覧ください。分かりやすいステップバイステップのガイドで、デジタル署名の実装、ワークフローのカスタマイズ、ドキュメントのセキュリティ強化の方法を学びます。"
+"is_root": true
+"linktitle": "GroupDocs.Signature for .NET チュートリアル"
+"title": "GroupDocs.Signature for .NET のチュートリアルと例"
+"url": "/ja/signature/net/"
+"weight": 10
 ---
-### [GroupDocs.Signature for .NET によるマスター ドキュメントの署名](./master-document-signing/)
-詳細なチュートリアルで、GroupDocs.Signature for .NET を使用したドキュメント署名をマスターします。メタデータを使用して画像や PDF に簡単に署名します。
+
+### [GroupDocs.Signature for .NET によるマスタードキュメント署名](./master-document-signing/)
+GroupDocs.Signature for .NETを使ったドキュメント署名の詳細なチュートリアルをご覧ください。メタデータを使って画像やPDFに簡単に署名できます。
 ### [高度な署名テクニックをマスターする](./master-advanced-sign-techniques/)
-GroupDocs.Signature for .NET チュートリアルを使用してドキュメントのセキュリティを強化します。カスタム画像からテキスト署名まで、高度な署名テクニックを学習します。
+GroupDocs.Signature for .NETチュートリアルでドキュメントのセキュリティを強化しましょう。カスタム画像からテキスト署名まで、高度な署名テクニックを習得できます。

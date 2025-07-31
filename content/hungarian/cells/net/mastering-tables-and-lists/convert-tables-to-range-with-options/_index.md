@@ -1,5 +1,5 @@
 ---
-"description": "Tanuld meg, hogyan konvertálhatsz táblázatokat normál tartományokká az Excelben programozottan. Akár tapasztalt fejlesztő vagy, akár kezdő, ez az oktatóanyag lépésről lépésre bemutatja a folyamatot."
+"description": "Tanuld meg, hogyan konvertálhatsz táblázatokat normál tartományokká az Excelben programozott módon. Akár tapasztalt fejlesztő vagy, akár kezdő, ez az oktatóanyag lépésről lépésre bemutatja a folyamatot."
 "linktitle": "Táblázatok konvertálása tartomnyá opciókkal"
 "second_title": "Aspose.Cells .NET Excel feldolgozási API"
 "title": "Táblázatok konvertálása tartomnyá opciókkal"

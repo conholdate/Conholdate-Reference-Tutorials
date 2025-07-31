@@ -1,20 +1,21 @@
 ---
-title: PDF Belgesine Onay Kutusu Bileşeni Ekleme
-linktitle: PDF Belgesine Onay Kutusu Bileşeni Ekleme
-second_title: GroupDocs.Annotation .NET API
-description: GroupDocs.Annotation for .NET SDK'sını kullanarak etkileşimli onay kutusu bileşenleri ekleyerek PDF belgelerinizi nasıl zenginleştireceğinizi keşfedin. Bu kapsamlı eğitim, net bir adım adım kılavuz sağlar.
-weight: 11
-url: /tr/annotation/guide-to-document-components/adding-checkbox-component/
+"description": "GroupDocs.Annotation for .NET SDK'sını kullanarak etkileşimli onay kutusu bileşenleri ekleyerek PDF belgelerinizi nasıl zenginleştireceğinizi keşfedin. Bu kapsamlı eğitim, adım adım anlaşılır bir kılavuz sunar."
+"linktitle": "PDF Belgesine Onay Kutusu Bileşeni Ekleme"
+"second_title": "GroupDocs.Annotation .NET API"
+"title": "PDF Belgesine Onay Kutusu Bileşeni Ekleme"
+"url": "/tr/annotation/net/guide-to-document-components/adding-checkbox-component/"
+"weight": 11
 ---
+
 ## giriiş
 
-Bu eğitimde, .NET SDK için GroupDocs.Annotation'ı kullanarak bir PDF belgesine Onay Kutusu Bileşeni ekleme sürecini adım adım anlatacağız. Bu özellik, PDF belgelerinizi etkileşimli öğelerle zenginleştirmenize ve kullanıcılar için daha ilgi çekici hale getirmenize olanak tanır.
+Bu eğitimde, .NET SDK için GroupDocs.Annotation'ı kullanarak bir PDF belgesine Onay Kutusu Bileşeni ekleme sürecini adım adım anlatacağız. Bu özellik, PDF belgelerinizi etkileşimli öğelerle zenginleştirerek kullanıcılar için daha ilgi çekici hale getirmenize olanak tanır.
 
 ## Ön koşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  GroupDocs.Annotation for .NET SDK: Buradan indirin[Burada](https://releases.groupdocs.com/annotation/net/).
+1. GroupDocs.Annotation for .NET SDK: Şuradan indirin: [Burada](https://releases.groupdocs.com/annotation/net/).
 2. Geliştirme Ortamı: Makinenize bir .NET geliştirme ortamı kurun.
 
 ## Adım 1: Gerekli Ad Alanlarını İçe Aktarın
@@ -41,7 +42,7 @@ string outputPath = Path.Combine("Your Document Directory", "result" + Path.GetE
 
 ## Adım 3: Açıklamayı Başlatın
 
- Bir örneğini oluşturun`Annotator` Giriş PDF belgenizin yolunu içeren sınıf:
+Bir örneğini oluşturun `Annotator` Giriş PDF belgenizin yolunu içeren sınıf:
 
 ```csharp
 using (Annotator annotator = new Annotator("input.pdf"))
@@ -49,7 +50,7 @@ using (Annotator annotator = new Annotator("input.pdf"))
 
 ## Adım 4: Onay Kutusu Bileşenini Oluşturun
 
-Şimdi, Onay Kutusu Bileşenini oluşturalım ve özelleştirelim:
+Şimdi Onay Kutusu Bileşenini oluşturalım ve özelleştirelim:
 
 ```csharp
 CheckBoxComponent checkBox = new CheckBoxComponent
@@ -66,7 +67,7 @@ CheckBoxComponent checkBox = new CheckBoxComponent
 };
 ```
 
-## Adım 5: Belgeye Onay Kutusunu Ekleyin
+## Adım 5: Onay Kutusunu Belgeye Ekleyin
 
 Oluşturulan onay kutusu bileşenini PDF'e ekleyin:
 
@@ -98,7 +99,7 @@ Bu eğitimde, .NET için GroupDocs.Annotation kullanarak bir PDF belgesine başa
 
 ### Onay kutusunun görünümünü özelleştirebilir miyim?
 
-Kesinlikle! Renk, stil ve boyut gibi çeşitli özellikleri özel ihtiyaçlarınızı karşılayacak şekilde değiştirebilirsiniz.
+Kesinlikle! Renk, stil ve boyut gibi çeşitli özellikleri özel ihtiyaçlarınıza göre değiştirebilirsiniz.
 
 ### GroupDocs.Annotation for .NET ticari kullanıma uygun mudur?
 
@@ -106,12 +107,12 @@ Evet, GroupDocs.Annotation for .NET işletmelere yönelik ticari lisanslar sağl
 
 ### Satın almadan önce GroupDocs.Annotation for .NET'i deneyebilir miyim?
 
- Evet, ücretsiz deneme mevcuttur. Erişim sağlayabilirsiniz[Burada](https://releases.groupdocs.com/).
+Evet, ücretsiz deneme sürümü mevcut. Erişim sağlayabilirsiniz. [Burada](https://releases.groupdocs.com/).
 
 ### GroupDocs.Annotation for .NET desteğini nerede bulabilirim?
 
- Destek ve ek kaynaklar şu adreste mevcuttur:[GroupDocs forumu](https://forum.groupdocs.com/c/annotation/10).
+Destek ve ek kaynaklar şu adreste mevcuttur: [GroupDocs forumu](https://forum.groupdocs.com/c/annotation/10).
 
 ### Test amaçlı geçici lisansa ihtiyacım var mı?
 
- Test için geçici lisansı şuradan alabilirsiniz:[Burada](https://purchase.groupdocs.com/temporary-license/).
+Geçici bir test lisansı alabilirsiniz. [Burada](https://purchase.groupdocs.com/temporary-license/).

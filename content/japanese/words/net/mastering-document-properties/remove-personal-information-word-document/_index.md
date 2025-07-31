@@ -98,7 +98,7 @@ Aspose.Wordsは [無料トライアル](https://releases.aspose.com/) ユーザ�
 
 ### 問題が発生した場合、どうすればサポートを受けられますか?
 
-問題が発生した場合や質問がある場合は、Aspose.Words [サポートフォーラム](https://forum.aspose.com/c/words/8) サポートを見つけるには最適な場所です。
+問題が発生した場合や質問がある場合は、Aspose.Words [サポートフォーラム](https://forum.aspose.com/c/words/8) サポートを見つけるのに最適な場所です。
 
 ### Aspose.Words には他にどのような機能がありますか?
 

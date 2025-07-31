@@ -1,22 +1,23 @@
 ---
-title: Uložte soubory MS Project do formátu HTML pomocí Aspose.Tasks pro .NET
-linktitle: Uložte soubory MS Project do formátu HTML
-second_title: Aspose.Tasks .NET API
-description: Naučte se, jak bez námahy převádět soubory Microsoft Project (.mpp) do formátu HTML pomocí Aspose.Tasks for .NET. Tento komplexní výukový program poskytuje podrobné pokyny, včetně toho, jak načíst soubory projektu, přizpůsobit výstup HTML a uložit konkrétní stránky.
-weight: 10
-url: /cs/tasks/guide-to-saving-options/save-ms-project-files-to-html-format/
+"description": "Naučte se, jak snadno převést soubory Microsoft Projectu (.mpp) do formátu HTML pomocí Aspose.Tasks pro .NET. Tento komplexní tutoriál poskytuje podrobné pokyny, včetně toho, jak načíst soubory projektu, přizpůsobit výstup HTML a uložit konkrétní stránky."
+"linktitle": "Ukládání souborů MS Project do formátu HTML"
+"second_title": "Rozhraní Aspose.Tasks .NET API"
+"title": "Ukládání souborů MS Project do formátu HTML pomocí Aspose.Tasks pro .NET"
+"url": "/cs/tasks/net/guide-to-saving-options/save-ms-project-files-to-html-format/"
+"weight": 10
 ---
+
 ## Zavedení
 
-Vítejte v našem komplexním návodu na převod souborů Microsoft Project do formátu HTML pomocí Aspose.Tasks for .NET. Tato výkonná knihovna nabízí vývojářům možnost snadno programově manipulovat se soubory Microsoft Project. V tomto tutoriálu vás provedeme procesem krok za krokem.
+Vítejte v našem komplexním tutoriálu o převodu souborů Microsoft Project do formátu HTML pomocí knihovny Aspose.Tasks pro .NET. Tato výkonná knihovna nabízí vývojářům možnost snadno programově manipulovat se soubory Microsoft Project. V tomto tutoriálu vás krok za krokem provedeme celým procesem.
 
 ## Předpoklady
 
-Než začneme, ujistěte se, že máte splněny následující předpoklady:
+Než začneme, ujistěte se prosím, že máte splněny následující předpoklady:
 
 1. Základní znalost C#: Předpokládá se znalost programovacího jazyka C#.
-2.  Instalace Aspose.Tasks: Ujistěte se, že máte ve vývojovém prostředí nainstalovaný Aspose.Tasks for .NET. Můžete jej snadno získat z[Aspose webové stránky](https://www.aspose.com).
-3. Soubor Microsoft Project: Připravte si soubor Microsoft Project pro převod (s a`.mpp` rozšíření).
+2. Instalace Aspose.Tasks: Ujistěte se, že máte ve svém vývojovém prostředí nainstalován Aspose.Tasks pro .NET. Můžete jej snadno získat z [Webové stránky Aspose](https://www.aspose.com).
+3. Soubor Microsoft Project: Mějte připravený soubor Microsoft Project pro převod (s `.mpp` rozšíření).
 
 ## Import nezbytných jmenných prostorů
 
@@ -30,31 +31,31 @@ using Aspose.Tasks.Visualization;
 
 ## Krok 1: Načtěte soubor Microsoft Project
 
- Načtěte soubor Microsoft Project pomocí následujícího fragmentu kódu. Nahradit`"YourProjectFile.mpp"` s cestou k souboru vašeho skutečného projektu.
+Načtěte soubor Microsoft Project pomocí následujícího úryvku kódu. Nahraďte `"YourProjectFile.mpp"` s cestou k vašemu skutečnému souboru projektu.
 
 ```csharp
 var project = new Project("YourProjectFile.mpp");
 ```
 
-## Krok 2: Zadejte možnosti uložení HTML
+## Krok 2: Zadejte možnosti ukládání HTML
 
-Dále definujte možnosti uložení HTML. To vám umožní přizpůsobit, jak se data projektu zobrazí při převodu do HTML.
+Dále definujte možnosti ukládání do HTML. To vám umožní přizpůsobit, jak se budou data projektu zobrazovat po převodu do HTML.
 
 ```csharp
 var options = new HtmlSaveOptions();
 ```
 
-## Krok 3: Uložte data projektu jako HTML
+## Krok 3: Uložení dat projektu jako HTML
 
- Nyní je čas uložit data projektu ve formátu HTML. Místo toho zadejte výstupní cestu`"OutputFilePath.html"`.
+Nyní je čas uložit data projektu ve formátu HTML. Místo cesty zadejte výstupní cestu. `"OutputFilePath.html"`.
 
 ```csharp
 project.Save("OutputFilePath.html", options);
 ```
 
-## Další funkce: Uložení konkrétních stránek
+## Další funkce: Ukládání konkrétních stránek
 
-Pokud máte zájem o uložení konkrétních stránek z vašeho projektu, můžete tak učinit definováním, které stránky chcete zahrnout. Zde je návod, jak určit konkrétní číslo stránky:
+Pokud chcete z projektu uložit konkrétní stránky, můžete tak učinit definováním, které stránky chcete zahrnout. Zde je návod, jak zadat konkrétní číslo stránky:
 
 ```csharp
 options.Pages.Add(pageNumber); // Nahraďte požadovaným číslem stránky
@@ -63,21 +64,21 @@ project.Save("OutputFilePath.html", options);
 
 ## Závěr
 
-Gratuluji! Nyní jste se naučili, jak převést soubory Microsoft Project do formátu HTML pomocí Aspose.Tasks for .NET. Tento jednoduchý proces vám umožní zpřístupnit vaše projektová data napříč různými platformami.
+Gratulujeme! Nyní jste se naučili, jak převést soubory Microsoft Projectu do formátu HTML pomocí Aspose.Tasks pro .NET. Tento jednoduchý proces vám umožní zpřístupnit data vašeho projektu na různých platformách.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu přizpůsobit vzhled výstupu HTML?
- Ano! Aspekty, jako jsou styly písma, barvy a rozvržení, můžete upravit úpravou`HtmlSaveOptions` nastavení podle vašich potřeb.
+### Mohu si přizpůsobit vzhled HTML výstupu?
+Ano! Můžete upravit aspekty, jako jsou styly písma, barvy a rozvržení, úpravou `HtmlSaveOptions` nastavení podle vašich potřeb.
 
-### Podporuje Aspose.Tasks jiné formáty souborů pro převod?
-Absolutně! Aspose.Tasks podporuje konverzi do mnoha formátů, včetně PDF, XLSX a PNG, mezi ostatními.
+### Podporuje Aspose.Tasks i jiné formáty souborů pro převod?
+Rozhodně! Aspose.Tasks podporuje konverzi do mnoha formátů, včetně PDF, XLSX a PNG a dalších.
 
-### Je Aspose.Tasks kompatibilní s různými verzemi souborů Microsoft Project?
-Ano, knihovna je navržena tak, aby byla kompatibilní s širokou škálou verzí souborů Microsoft Project, což zajišťuje bezproblémové zpracování vašich projektů.
+### Je Aspose.Tasks kompatibilní s různými verzemi souborů Microsoft Projectu?
+Ano, knihovna je navržena tak, aby byla kompatibilní s širokou škálou verzí souborů Microsoft Projectu, což zajišťuje bezproblémové zpracování vašich projektů.
 
-### Mohu extrahovat konkrétní data projektu pro konverzi HTML?
-Rozhodně! Můžete vybrat a zahrnout konkrétní stránky nebo části vašeho projektu na základě vašich požadavků na výstup HTML.
+### Mohu extrahovat specifická data projektu pro konverzi HTML?
+Rozhodně! Můžete si vybrat a zahrnout konkrétní stránky nebo části projektu na základě vašich požadavků na HTML výstup.
 
 ### Je k dispozici zkušební verze pro Aspose.Tasks?
-Ano, Aspose nabízí bezplatnou zkušební verzi Aspose.Tasks, takže můžete prozkoumat její funkce, než se rozhodnete pro nákup.
+Ano, Aspose nabízí bezplatnou zkušební verzi Aspose.Tasks, abyste si mohli prohlédnout její funkce před rozhodnutím o koupi.

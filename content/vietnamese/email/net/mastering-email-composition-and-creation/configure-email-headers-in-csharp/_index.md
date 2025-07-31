@@ -16,7 +16,7 @@ Tiêu đề email là thành phần quan trọng của mỗi email, chứa các 
 Tiêu đề email có một số chức năng quan trọng, bao gồm:
 
 - Định tuyến: Tiêu đề kiểm soát đường dẫn phân phối, hướng dẫn email từ người gửi đến người nhận.
-- Xác thực: Các tiêu đề như DKIM (DomainKeys Identified Mail) và SPF (Sender Policy Framework) giúp xác minh tính hợp pháp của email, cung cấp khả năng bảo vệ chống thư rác.
+- Xác thực: Các tiêu đề như DKIM (Thư xác định bằng khóa miền) và SPF (Khung chính sách người gửi) giúp xác minh tính hợp pháp của email, cung cấp khả năng bảo vệ chống thư rác.
 - Dòng chủ đề: The `Subject` tiêu đề cung cấp cho người nhận bối cảnh có giá trị về nội dung email trước khi mở nó.
 - Xử lý trả lời: Các tiêu đề như `Reply-To` đảm bảo rằng các phản hồi được chuyển đến đúng địa chỉ.
 

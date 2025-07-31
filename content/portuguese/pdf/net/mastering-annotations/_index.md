@@ -33,7 +33,7 @@ Quer adicionar um toque pessoal e artesanal aos seus PDFs? As anotações à tin
 
 Anotações são mais do que apenas recursos visuais — elas contêm dados valiosos. Extraí-las pode agilizar revisões, auditorias ou fluxos de trabalho colaborativos. Mergulhe no [Extrair anotações de documentos PDF](./extract-annotations-from-pdf/) Guia para um passo a passo completo. Você descobrirá como extrair anotações programaticamente, tornando seus PDFs uma ferramenta ainda mais poderosa.  
 
-## Dominando anotações em tutoriais em PDF
+## Dominando Anotações em Tutoriais em PDF
 | Título | Descrição |
 | --- | --- | 
 | [Adicionar anotação em PDF](./adding-pdf-annotation/) | Aprenda a adicionar anotações usando o Aspose.PDF para .NET. Este tutorial passo a passo aborda tudo, desde a instalação da biblioteca até a personalização das suas anotações. |  

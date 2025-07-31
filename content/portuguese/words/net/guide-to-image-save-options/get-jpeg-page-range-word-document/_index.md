@@ -40,7 +40,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Substitua pelo caminho do seu dir
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
-Este trecho de código inicializa o caminho do documento e o carrega em um Aspose.Words `Document` objeto para manipulação.
+Este trecho de código inicializa o caminho do documento e o carrega em um Aspose.Words `Document` objeto de manipulação.
 
 ## Etapa 3: Configurar opções de salvamento de imagem
 

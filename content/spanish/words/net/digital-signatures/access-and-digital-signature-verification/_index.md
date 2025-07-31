@@ -140,7 +140,7 @@ Aspose.Words para .NET puede verificar firmas digitales en archivos DOCX que uti
 
 Sí, es compatible con todas las versiones de documentos de Microsoft Word, incluidos DOC, DOCX, RTF y más.
 
-### ¿Cómo puedo obtener una licencia temporal para Aspose.Words para .NET?
+### ¿Cómo puedo obtener una licencia temporal de Aspose.Words para .NET?
 
 Puede obtener una licencia temporal en [aquí](https://purchase.aspose.com/temporary-license/), lo que le permite explorar todas las funciones de la biblioteca sin limitaciones.
 

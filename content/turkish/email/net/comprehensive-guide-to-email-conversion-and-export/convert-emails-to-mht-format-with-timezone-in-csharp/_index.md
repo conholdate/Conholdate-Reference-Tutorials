@@ -185,7 +185,7 @@ Geliştiricilerin e-postayı MHT'ye dönüştürürken karşılaştıkları en s
 
 **Güvenlik Hususları**E-posta içeriği kötü amaçlı komut dosyaları veya içerik içerebilir. Dönüştürülmüş MHT dosyalarını web uygulamalarında görüntülüyorsanız, uygun içerik temizleme işlemini uygulayın.
 
-**Test Stratejisi**Dönüşümünüzü farklı istemcilerden (Outlook, Gmail, Thunderbird vb.) ve çeşitli biçimlerden gelen e-postalarla test edin. Her istemcinin dönüşüm sonuçlarını etkileyebilecek kendine has özellikleri vardır.
+**Test Stratejisi**Dönüşümünüzü farklı istemcilerden (Outlook, Gmail, Thunderbird vb.) ve çeşitli biçimlerden gelen e-postalarla test edin. Her istemcinin dönüşüm sonuçlarını etkileyebilecek tuhaflıkları vardır.
 
 **Kayıt ve İzleme**Dönüşüm başarı oranlarını, işlem sürelerini ve olası hataları izlemek için kapsamlı günlük kaydı uygulayın. Bu veriler, sorun giderme ve optimizasyon için paha biçilmezdir.
 

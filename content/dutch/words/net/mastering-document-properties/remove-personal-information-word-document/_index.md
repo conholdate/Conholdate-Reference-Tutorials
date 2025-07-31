@@ -17,7 +17,7 @@ Voordat u in de code duikt, is het belangrijk dat u de nodige instellingen op or
 
 ### Aspose.Words voor .NET
 
-Om te beginnen heb je Aspose.Words voor .NET nodig. Als je dat nog niet hebt gedaan, download het dan via de [website](https://releases.aspose.com/words/net/)Als je nieuw bent bij Aspose.Words, kun je het gratis proberen door een [gratis proefperiode](https://releases.aspose.com/).
+Om te beginnen heb je Aspose.Words voor .NET nodig. Als je dat nog niet hebt gedaan, download het dan via de [website](https://releases.aspose.com/words/net/)Als u nieuw bent bij Aspose.Words, kunt u het gratis proberen door een [gratis proefperiode](https://releases.aspose.com/).
 
 ### Ontwikkelomgeving
 
@@ -68,7 +68,7 @@ Om deze functie in te schakelen, gebruikt u de volgende coderegel:
 doc.RemovePersonalInformation = true;
 ```
 
-Met één enkele regel code zorgt u ervoor dat er geen persoonlijke gegevens meer in de eigenschappen van het document zijn opgeslagen.
+Met deze ene regel code zorgt u ervoor dat er geen persoonlijke gegevens meer in de eigenschappen van het document zijn opgeslagen.
 
 ### 2.2 Het gereinigde document opslaan
 
@@ -90,11 +90,11 @@ Aspose.Words kan auteursnamen, documenteigenschappen, aangepaste metagegevens en
 
 ### Is Aspose.Words voor .NET gratis?
 
-Aspose.Words biedt een [gratis proefperiode](https://releases.aspose.com/) zodat gebruikers de functies kunnen testen. Voor verder gebruik is echter een volledige licentie vereist. Ga voor meer informatie over de prijzen naar de [kooppagina](https://purchase.aspose.com/buy).
+Aspose.Words biedt een [gratis proefperiode](https://releases.aspose.com/) zodat gebruikers de functies kunnen testen. Voor verder gebruik is echter een volledige licentie vereist. Ga voor meer informatie over prijzen naar de [kooppagina](https://purchase.aspose.com/buy).
 
 ### Kan ik Aspose.Words gebruiken voor andere documentformaten?
 
-Jazeker! Aspose.Words ondersteunt verschillende formaten, waaronder DOCX, PDF, HTML en nog veel meer. U kunt documenten eenvoudig tussen deze formaten converteren.
+Ja! Aspose.Words ondersteunt verschillende formaten, waaronder DOCX, PDF, HTML en nog veel meer. U kunt documenten eenvoudig tussen deze formaten converteren.
 
 ### Hoe krijg ik ondersteuning als ik problemen ondervind?
 
@@ -102,4 +102,4 @@ Als u problemen ondervindt of vragen heeft, kunt u contact opnemen met Aspose.Wo
 
 ### Welke andere functies biedt Aspose.Words?
 
-Aspose.Words biedt een uitgebreide set functies, waaronder het maken, bewerken, converteren en bewerken van documenten in verschillende formaten. Voor meer informatie, zie de [documentatie](https://reference.aspose.com/words/net/).
+Aspose.Words biedt een uitgebreide set functies, waaronder het maken, bewerken, converteren en manipuleren van documenten in verschillende formaten. Voor meer informatie, zie de [documentatie](https://reference.aspose.com/words/net/).

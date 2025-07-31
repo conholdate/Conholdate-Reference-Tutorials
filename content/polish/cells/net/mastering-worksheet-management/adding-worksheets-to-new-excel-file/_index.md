@@ -53,7 +53,7 @@ if (!Directory.Exists(dataDir))
 }
 ```
 
-- `Directory.Exists(dataDir)`: Sprawdza czy katalog istnieje.
+- `Directory.Exists(dataDir)`:Sprawdza czy katalog istnieje.
 - `Directory.CreateDirectory(dataDir)`: Tworzy katalog, jeśli nie zostanie znaleziony.
 
 ## Krok 3: Zainicjuj nowy skoroszyt

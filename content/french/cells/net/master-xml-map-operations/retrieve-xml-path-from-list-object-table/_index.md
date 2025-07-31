@@ -105,7 +105,7 @@ Enfin, pour vérifier que le chemin XML a été récupéré correctement, nous a
 Console.WriteLine("The XML path is: " + xmlPath);
 ```
 
-L'exécution de ce code imprimera le chemin XML vers la console, confirmant que le processus de récupération est réussi.
+L'exécution de ce code imprimera le chemin XML vers la console, confirmant que le processus de récupération a réussi.
 
 ## Conclusion
 

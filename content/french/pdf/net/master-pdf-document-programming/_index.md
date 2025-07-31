@@ -110,7 +110,7 @@ Lors de l'intégration de la génération PDF dans des applications existantes, 
 ## Meilleures pratiques pour les applications de production
 
 ### Stratégies de gestion des erreurs
-Une gestion des erreurs robuste est essentielle pour les applications PDF de production. Implémentez des blocs try-catch complets autour des opérations PDF et fournissez des messages d'erreur pertinents pour faciliter le débogage.
+Une gestion fiable des erreurs est essentielle pour les applications PDF de production. Implémentez des blocs try-catch complets autour des opérations PDF et fournissez des messages d'erreur pertinents pour faciliter le débogage.
 
 ### Gestion de la configuration
 Conservez les paramètres PDF dans les fichiers de configuration plutôt que de les coder en dur. Cela facilite l'ajustement de paramètres tels que la taille des pages, les marges et la qualité, sans recompiler votre application.

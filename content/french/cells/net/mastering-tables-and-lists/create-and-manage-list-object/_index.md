@@ -54,7 +54,7 @@ Considérez cela comme la configuration de votre espace de travail, tout comme u
 
 ## Étape 2 : Créer un objet classeur
 
-Ensuite, créez un `Workbook` objet pour représenter votre fichier Excel :
+Ensuite, créez un `Workbook` objet pour représenter votre fichier Excel :
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");

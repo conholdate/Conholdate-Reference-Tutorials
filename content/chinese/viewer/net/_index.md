@@ -1,11 +1,12 @@
 ---
-title: GroupDocs.Viewer for .NET 的综合教程和示例
-linktitle: GroupDocs.Viewer for .NET 教程
-weight: 10
-url: /zh/viewer/
-description: 发现将 GroupDocs.Viewer .NET 集成到您的应用程序中的全面教程和示例。学习增强文档管理的分步技术。
-is_root: true
+"description": "探索将 GroupDocs.Viewer .NET 集成到您的应用的全面教程和示例。逐步学习增强文档管理的技巧。"
+"is_root": true
+"linktitle": "GroupDocs.Viewer for .NET 教程"
+"title": "GroupDocs.Viewer for .NET 的综合教程和示例"
+"url": "/zh/viewer/net/"
+"weight": 10
 ---
+
 ## GroupDocs.Viewer for .NET 教程
 ### [掌握高级文档加载](./advanced-document-loading/)
 探索 GroupDocs.Viewer for .NET 教程，轻松将高级文档查看功能集成到您的应用程序中。

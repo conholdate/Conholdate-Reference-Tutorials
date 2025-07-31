@@ -113,7 +113,7 @@ Console.WriteLine("\nEmpty page inserted successfully.\nFile saved at " + dataDi
 ## 자주 묻는 질문
 
 ### 여러 페이지를 한 번에 삽입할 수 있나요?
-예, 다음을 호출하여 여러 페이지를 삽입할 수 있습니다. `Insert` 반복적으로 또는 루프를 사용하여 방법을 수행합니다.
+예, 다음을 호출하여 여러 페이지를 삽입할 수 있습니다. `Insert` 반복적으로 또는 루프를 사용하여 방법을 실행합니다.
 
 ### 이 방법이 매우 큰 PDF 파일에도 적용되나요?
 물론입니다! Aspose.PDF는 크고 작은 PDF 파일을 모두 효율적으로 처리할 수 있도록 최적화되어 있습니다.

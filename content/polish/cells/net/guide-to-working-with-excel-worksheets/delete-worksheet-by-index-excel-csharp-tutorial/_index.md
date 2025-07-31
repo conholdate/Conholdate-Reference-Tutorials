@@ -1,7 +1,7 @@
 ---
 "description": "Dowiedz się, jak skutecznie usunąć konkretny arkusz kalkulacyjny z pliku Excela według jego indeksu, używając języka C# i biblioteki Aspose.Cells. Skorzystaj z tego prostego samouczka krok po kroku."
 "linktitle": "Usuwanie arkusza kalkulacyjnego według indeksu w programie Excel za pomocą samouczka języka C#"
-"second_title": "Aspose.Cells dla .NET API Reference"
+"second_title": "Dokumentacja interfejsu API Aspose.Cells dla platformy .NET"
 "title": "Usuwanie arkusza kalkulacyjnego według indeksu w programie Excel za pomocą samouczka języka C#"
 "url": "/pl/cells/net/guide-to-working-with-excel-worksheets/delete-worksheet-by-index-excel-csharp-tutorial/"
 "weight": 30
@@ -32,7 +32,7 @@ Dodaj bibliotekę Aspose.Cells do swojego projektu za pomocą Menedżera pakiet�
 2. Wybierz „Zarządzaj pakietami NuGet”.
 3. Szukaj `Aspose.Cells` i kliknij „Instaluj”.
 
-Ten krok konfiguracji stanowi podstawę Twoich operacji w programie Excel!
+Ten krok konfiguracji stanowi podstawę dla operacji w programie Excel!
 
 ### Korzystanie z instrukcji
 
@@ -97,7 +97,7 @@ Możesz wybrać zapisanie go pod nową nazwą, zmieniając `"output.out.xls"` co
 
 ## Krok 5: Zamknij strumień plików
 
-Na koniec warto zamknąć strumień plików po zakończeniu. Ten krok zwalnia wszystkie używane zasoby.
+Na koniec warto zamknąć strumień plików po zakończeniu pracy. Ten krok zwalnia wszystkie używane zasoby.
 
 ```csharp
 fstream.Close();

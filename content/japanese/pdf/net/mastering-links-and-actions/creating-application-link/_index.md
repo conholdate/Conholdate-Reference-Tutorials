@@ -24,7 +24,7 @@ Install-Package Aspose.PDF
 
 ## 必要なパッケージのインポート
 
-お好みのIDE（Visual Studioなど）で新しいコンソールアプリケーションを作成します。必要な名前空間をインポートすることを忘れないでください。
+お好みのIDE（Visual Studioなど）で新しいコンソールアプリケーションを作成してください。必要な名前空間をインポートすることを忘れないでください。
 
 ```csharp
 using System.IO;

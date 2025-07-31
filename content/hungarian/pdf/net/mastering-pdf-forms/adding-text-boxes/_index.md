@@ -52,7 +52,7 @@ using Aspose.Pdf.Annotations;
 
 Ez a beállítás felkészít az előtted álló izgalmas feladatokra!
 
-Most, hogy mindennel készen állunk, bontsuk le a lépéseket, hogyan adhatunk hozzá egy szövegdobozt a PDF dokumentumhoz.
+Most, hogy mindennel készen állunk, bontsuk le a lépéseket, hogy hogyan adhatunk hozzá egy szövegdobozt a PDF dokumentumunkhoz.
 
 ## 1. lépés: Dokumentumkönyvtár meghatározása
 
@@ -83,7 +83,7 @@ TextBoxField textBoxField = new TextBoxField(pdfDocument.Pages[1], new Aspose.Pd
 - Egy új `TextBoxField` Az objektum inicializálása a PDF második oldalához történik.
 - A `Rectangle` A paraméter a szövegdoboz pozícióját és méretét adja meg koordináták (x1, y1, x2, y2) segítségével.
 
-## 4. lépés: A szövegmező tulajdonságainak beállítása 
+## 4. lépés: A szövegdoboz-mező tulajdonságainak beállítása 
 
 Szabja testre a szövegdobozt a következő tulajdonságokkal:
 
@@ -93,7 +93,7 @@ textBoxField.Value = "Text Box";
 ```
 
 - `PartialName` egyedi azonosítót ad a szövegmezőnek.
-- `Value` beállítja a mezőben megjelenő alapértelmezett szöveget.
+- `Value` beállítja a mezőben alapértelmezettként megjelenő szöveget.
 
 ## 5. lépés: A szegély testreszabása
 

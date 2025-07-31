@@ -117,7 +117,7 @@ System.Console.WriteLine("\nPDFs are concatenated successfully.\nFile saved at "
 आप Aspose.PDF को यहां जाकर खरीद सकते हैं [खरीद पृष्ठ](https://purchase.aspose.com/buy).
 
 ### क्या Aspose.PDF के लिए समर्थन उपलब्ध है?  
-बिल्कुल! आपको सहायता मिल सकती है [एस्पोज़ फ़ोरम](https://forum.aspose.com/c/pdf/10).
+बिल्कुल! आपको सहायता मिल सकती है [Aspose फ़ोरम](https://forum.aspose.com/c/pdf/10).
 
 ### क्या मुझे Aspose.PDF के लिए अस्थायी लाइसेंस मिल सकता है?  
 हाँ, Aspose एक अस्थायी लाइसेंस प्रदान करता है जिसका आप अनुरोध कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).

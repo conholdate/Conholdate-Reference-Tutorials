@@ -46,7 +46,7 @@ Voici le moyen le plus rapide d'intégrer Aspose.Cells dans votre projet :
 3. Sélectionnez « Gérer les packages NuGet »
 4. Recherchez « Aspose.Cells » et installez la dernière version stable
 
-**Conseil de pro**: Vérifiez toujours la version du package et lisez les notes de publication. Parfois, les versions plus récentes incluent des modifications radicales qui peuvent affecter votre code existant.
+**Conseil de pro**: Vérifiez toujours la version du package et lisez les notes de publication. Parfois, les versions plus récentes incluent des modifications importantes qui peuvent affecter votre code existant.
 
 ## Importer les espaces de noms requis
 

@@ -20,7 +20,7 @@ Khám phá sức mạnh của Aspose.Words cho .NET với bộ sưu tập hướ
 - **📄 Hỗ trợ định dạng**: DOC, DOCX, RTF, HTML, PDF, EPUB, TXT, Markdown và nhiều định dạng khác
 - **🔄 Chuyển đổi**: Chuyển đổi liền mạch giữa các định dạng tài liệu khác nhau
 - **🤖 Tích hợp AI**: Tóm tắt tài liệu nâng cao và phân tích nội dung
-- **📊 Trộn thư**Tạo tài liệu động từ các nguồn dữ liệu
+- **📊 Trộn thư**: Tạo tài liệu động từ các nguồn dữ liệu
 - **🎨 Định dạng**: Kiểm soát hoàn toàn kiểu dáng và bố cục tài liệu
 
 ## 📚 Danh mục hướng dẫn
@@ -31,11 +31,11 @@ Nắm vững các tác vụ chuyển đổi tài liệu phổ biến nhất vớ
 | Hướng dẫn | Mô tả | Độ khó |
 |----------|-------------|------------|
 | **[Chuyển đổi DOC sang DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** | Hiện đại hóa các tài liệu Word cũ sang định dạng hiện tại | ⭐ Người mới bắt đầu |
-| **[Chuyển đổi DOCX sang RTF](./essential-guide-document-conversions/convert-docx-to-rtf/)** | Chuyển đổi định dạng Rich Text để tương thích đa nền tảng | ⭐ Người mới bắt đầu |
+| **[Chuyển đổi DOCX sang RTF](./essential-guide-document-conversions/convert-docx-to-rtf/)** | Chuyển đổi định dạng Rich Text Format để tương thích đa nền tảng | ⭐ Người mới bắt đầu |
 | **[Chuyển đổi Word sang PDF](./essential-guide-document-conversions/convert-word-to-pdf/)** | Tạo PDF chuyên nghiệp với tính năng giữ nguyên định dạng | ⭐ Người mới bắt đầu |
 | **[Chuyển đổi DOCX sang TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Trích xuất nội dung văn bản thuần túy từ tài liệu Word | ⭐ Người mới bắt đầu |
 | **[Chuyển đổi tệp văn bản thành tài liệu Word](./essential-guide-document-conversions/convert-text-files-to-word-documents/)** | Chuyển đổi văn bản thuần túy thành tài liệu Word có cấu trúc | ⭐ Người mới bắt đầu |
-| **[Chuyển đổi PDF sang tài liệu Word](./essential-guide-document-conversions/convert-pdf-to-word/)** Chuyển đổi PDF sang định dạng Word để có thể chỉnh sửa | ⭐⭐ Trung cấp |
+| **[Chuyển đổi PDF sang tài liệu Word](./essential-guide-document-conversions/convert-pdf-to-word/)** | Chuyển đổi PDF sang định dạng Word để có thể chỉnh sửa | ⭐⭐ Trung cấp |
 | **[Chuyển đổi PDF sang JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Trích xuất hình ảnh chất lượng cao từ tài liệu PDF | ⭐⭐ Trung cấp |
 
 ### Chuyển đổi tài liệu nâng cao
@@ -54,7 +54,7 @@ Tận dụng công nghệ AI tiên tiến để nâng cao quy trình xử lý t�
 | Hướng dẫn | Mô tả | Độ khó |
 |----------|-------------|------------|
 | **[Làm chủ tóm tắt tài liệu với các mô hình AI](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Phân tích và tóm tắt nội dung hỗ trợ bởi AI | ⭐⭐⭐ Nâng cao |
-| **[Tóm tắt tài liệu bằng mô hình AI của Google](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** | Tích hợp Google AI để xử lý tài liệu thông minh | ⭐⭐⭐ Nâng cao |
+| **[Tóm tắt tài liệu bằng mô hình AI của Google](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** Tích hợp Google AI để xử lý tài liệu thông minh | ⭐⭐⭐ Nâng cao |
 | **[Tóm tắt tài liệu hiệu quả với các mô hình OpenAI](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Sử dụng mô hình OpenAI GPT để có thông tin chi tiết về tài liệu | ⭐⭐⭐ Nâng cao |
 | **[Tóm tắt các tùy chọn tài liệu](./advanced-ai-document-processing/summarize-documents-options/)** | Hướng dẫn toàn diện về các kỹ thuật tóm tắt | ⭐⭐⭐ Nâng cao |
 
@@ -129,7 +129,7 @@ Tận dụng công nghệ AI tiên tiến để nâng cao quy trình xử lý t�
 - **[Tải xuống](https://releases.aspose.com/words/net/)** - Đánh giá đầy đủ tính năng
 
 ### **Cộng đồng & Hỗ trợ**
-- **[Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8)** - Nhận sự trợ giúp từ các chuyên gia
+- **[Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8)** Nhận sự trợ giúp từ các chuyên gia
 
 ### **Cấp phép & Thử nghiệm**
 - **[Giấy phép tạm thời](https://purchase.conholdate.com/temporary-license/)** - Đánh giá mở rộng

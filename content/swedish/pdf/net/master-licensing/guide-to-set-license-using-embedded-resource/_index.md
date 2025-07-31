@@ -64,7 +64,7 @@ Detta förbereder din ansökan för att ställa in licensen.
 Nu ska vi ställa in licensen så att Aspose.PDF kan fungera utan begränsningar. För att göra detta med en inbäddad licensfil, använd följande kod:
 
 ```csharp
-// Ange licens
+// Ställ in licens
 license.SetLicense("MergedAPI.Aspose.Total.lic");
 ```
 

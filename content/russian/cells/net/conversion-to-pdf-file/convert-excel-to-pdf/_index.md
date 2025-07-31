@@ -195,7 +195,7 @@ try
 {
     Workbook workbook = new Workbook(excelPath);
     workbook.Save(pdfPath, SaveFormat.Pdf);
-    // Успех журнала
+    // Успешность регистрации
 }
 catch (Exception ex)
 {

@@ -71,7 +71,7 @@ Document doc = new Document(dataDir + "SampleDocument.doc");
 
 Ecco cosa succede dietro le quinte: Aspose.Words legge il formato binario DOC, analizza tutto il contenuto (testo, formattazione, immagini, tabelle, tutto) e crea una rappresentazione in memoria. Questo processo è piuttosto veloce, anche per documenti di grandi dimensioni.
 
-**Suggerimento professionale**: Utilizza sempre il percorso completo del file e assicurati che il tuo file DOC esista effettivamente in quella posizione. Se il file è mancante, riceverai un `FileNotFoundException`.
+**Consiglio da professionista**: Utilizza sempre il percorso completo del file e assicurati che il tuo file DOC esista effettivamente in quella posizione. Se il file è mancante, riceverai un `FileNotFoundException`.
 
 ## Passaggio 2: convertire il formato DOC in DOCX
 

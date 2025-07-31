@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用 Aspose.Cells for .NET 輕鬆地將新工作表新增至 Excel 檔案。本指南提供逐步操作方法、程式碼範例和實用技巧。"
+"description": "了解如何使用 Aspose.Cells for .NET 輕鬆地將新工作表新增至 Excel 檔案。本綜合指南提供了循序漸進的方法、程式碼範例和有用的提示。"
 "linktitle": "以程式設計方式將新工作表新增至 Excel 檔案 C# 教學課程"
 "second_title": "Aspose.Cells for .NET API參考"
 "title": "以程式設計方式將新工作表新增至 Excel 檔案 C# 教學課程"
@@ -9,14 +9,14 @@
 
 ## 介紹
 
-以程式設計方式管理 Excel 檔案可以徹底改變工作流程和資料處理的自動化。其中一項重要任務是將新工作表新增至現有或新的 Excel 檔案。 Aspose.Cells for .NET 提供了一種強大且有效率的方法來處理此類操作。在本指南中，我們將介紹如何使用 Aspose.Cells 將新工作表無縫新增至 Excel 工作簿，確保您能夠充分利用這個強大的程式庫。
+以程式設計方式管理 Excel 檔案可以徹底改變工作流程和資料處理的自動化。一項基本任務是為現有或新的 Excel 檔案新增工作表。 Aspose.Cells for .NET 提供了一種強大、高效的方法來處理此類操作。在本指南中，我們將介紹如何使用 Aspose.Cells 將新工作表無縫新增至 Excel 工作簿，確保您可以充分利用這個強大的程式庫。
 
 ## 成功的先決條件
 
 在開始編寫程式碼之前，請確認您已滿足以下先決條件：
 
 1. Visual Studio：安裝在您的系統上（從 [微軟](https://visualstudio.microsoft.com/)）。
-2. Aspose.Cells 庫：適用於您的專案。取得方式： [Aspose 版本](https://releases。aspose.com/cells/net/).
+2. Aspose.Cells 庫：可用於您的專案。從中獲取 [Aspose 版本](https://releases。aspose.com/cells/net/).
 3. NuGet 套件管理器：用於將 Aspose.Cells 整合到您的專案中。
 4. .NET Framework 或 .NET Core：確保與您的專案相容。
 5. 基本 C# 知識：建議熟悉類別和物件導向程式設計。
@@ -92,7 +92,7 @@ workbook.Save(dataDir + "output.out.xls");
 
 ## 結論
 
-使用 Aspose.Cells for .NET 為 Excel 工作簿新增工作表非常簡單且靈活。只需設定項目、初始化工作簿和儲存變更等簡單步驟，即可輕鬆處理 Excel 自動化任務。除了新增工作表之外，您還可以自訂內容、應用程式格式以及建立進階資料工作流程。
+使用 Aspose.Cells for .NET 為 Excel 工作簿新增工作表非常簡單且靈活。透過設定項目、初始化工作簿和儲存變更等簡單步驟，您可以輕鬆處理 Excel 自動化任務。除了新增工作表之外，您還可以自訂內容、應用程式格式以及建立進階資料工作流程。
 
 ## 常見問題解答
 

@@ -1,6 +1,6 @@
 ---
 "description": "Entfesseln Sie die Leistungsfähigkeit von Aspose.Words für .NET mit unseren umfassenden Tutorials zu HTML Fixed Save Options. Lernen Sie, Ihren Dokumenten-Workflow zu optimieren."
-"linktitle": "HTML-Feste Speicheroptionen"
+"linktitle": "HTML-Speicheroptionen (fest)"
 "second_title": "Aspose.Words Dokumentverarbeitungs-API"
 "title": "HTML-Speicheroptionen mit Aspose.Words für .NET behoben"
 "url": "/de/words/net/html-fixed-save-options/"

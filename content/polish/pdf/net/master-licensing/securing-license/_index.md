@@ -9,7 +9,7 @@
 
 ## Wstęp
 
-tworzeniu oprogramowania kluczowe jest zapewnienie płynnego i wydajnego działania aplikacji. Istotnym aspektem jest zarządzanie licencjami na wykorzystywane biblioteki i frameworki. Jeśli korzystasz z Aspose.PDF dla platformy .NET, zabezpieczenie licencji jest niezbędne do pełnego wykorzystania potencjału biblioteki. Ten przewodnik przeprowadzi Cię przez proces zabezpieczania licencji za pomocą Aspose.PDF dla platformy .NET, ułatwiając zadanie zarówno doświadczonym programistom, jak i nowicjuszom.
+W tworzeniu oprogramowania kluczowe jest zapewnienie płynnego i wydajnego działania aplikacji. Istotnym aspektem jest zarządzanie licencjami na wykorzystywane biblioteki i frameworki. Jeśli korzystasz z Aspose.PDF dla platformy .NET, zabezpieczenie licencji jest niezbędne do pełnego wykorzystania potencjału biblioteki. Ten przewodnik przeprowadzi Cię przez proces zabezpieczania licencji za pomocą Aspose.PDF dla platformy .NET, ułatwiając zadanie zarówno doświadczonym programistom, jak i nowicjuszom.
 
 ## Wymagania wstępne
 

@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Het beheren van Excel-bestanden met meerdere werkbladen kan lastig zijn, vooral wanneer u er maar een paar nodig hebt. In plaats van elk tabblad handmatig te verwijderen, kunt u Aspose.Cells voor .NET gebruiken: een robuuste bibliotheek waarmee u Excel-bestanden programmatisch kunt bewerken. In deze tutorial laten we u zien hoe u specifieke werkbladen op basis van hun naam kunt verwijderen, zodat u uw spreadsheets efficiënt kunt ordenen.
+Het beheren van Excel-bestanden met meerdere werkbladen kan lastig zijn, vooral wanneer u er maar een paar nodig hebt. In plaats van elk tabblad handmatig te verwijderen, kunt u Aspose.Cells voor .NET gebruiken: een robuuste bibliotheek waarmee u Excel-bestanden programmatisch kunt bewerken. In deze tutorial doorlopen we de stappen om specifieke werkbladen op basis van hun naam te verwijderen, zodat u uw spreadsheets efficiënt kunt ordenen.
 
 ## Vereisten
 
@@ -22,7 +22,7 @@ Voordat u in de code duikt, moet u ervoor zorgen dat u het volgende hebt ingeste
 
 ## Stap 1: Stel het pad naar uw documentmap in
 
-Begin met het definiëren van de map waarin je Excel-bestanden worden opgeslagen. Deze indeling helpt je code gestructureerd te houden.
+Begin met het definiëren van de map waarin uw Excel-bestanden worden opgeslagen. Deze indeling helpt uw code gestructureerd te houden.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -49,7 +49,7 @@ Workbook workbook = new Workbook(fstream);
 
 ## Stap 4: Een werkblad verwijderen op basis van de naam
 
-Nu komt de belangrijkste taak: een werkblad verwijderen. Aspose.Cells maakt dit eenvoudig met de ingebouwde methode.
+Nu komt de hoofdtaak: een werkblad verwijderen. Aspose.Cells maakt dit eenvoudig met de ingebouwde methode.
 
 ```csharp
 workbook.Worksheets.RemoveAt("Sheet1");
@@ -59,7 +59,7 @@ workbook.Worksheets.RemoveAt("Sheet1");
 
 ## Stap 5: Sla de gewijzigde werkmap op
 
-Nadat u het ongewenste werkblad hebt verwijderd, slaat u uw wijzigingen op in een nieuw bestand om de originele wijzigingen te behouden.
+Nadat u het ongewenste werkblad hebt verwijderd, slaat u uw wijzigingen op in een nieuw bestand om het origineel te behouden.
 
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
@@ -81,7 +81,7 @@ Als de opgegeven werkbladnaam niet wordt gevonden, wordt er een uitzondering geg
 
 ### Is Aspose.Cells compatibel met .NET Core?
 
-Absoluut! Aspose.Cells ondersteunt .NET Core, waardoor het geschikt is voor platformonafhankelijke applicaties.
+Absoluut! Aspose.Cells ondersteunt .NET Core, waardoor het geschikt is voor platformonafhankelijke toepassingen.
 
 ### Kan ik het verwijderen van een werkblad ongedaan maken?
 

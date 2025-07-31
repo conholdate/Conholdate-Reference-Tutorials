@@ -50,7 +50,7 @@ Zanim zaczniesz pisać kod, upewnij się, że masz przygotowane następujące po
 Nie wszystkie modele AI są sobie równe, a wybór odpowiedniego może znacząco wpłynąć na wyniki. Oto, co musisz wiedzieć:
 
 ### Modele OpenAI: najlepsze do analizy złożonej
-Modele GPT OpenAI doskonale rozumieją niuanse treści i generują podsumowania zbliżone do ludzkich. Są szczególnie skuteczne w:
+Modele GPT OpenAI doskonale rozumieją niuanse treści i generują podsumowania przypominające te w języku ludzkim. Są szczególnie skuteczne w:
 - **Dokumenty prawne** ze złożoną terminologią
 - **Dane techniczne** wymagająca świadomości kontekstu  
 - **Prace badawcze** gdzie dokładność jest najważniejsza
@@ -59,7 +59,7 @@ Modele GPT OpenAI doskonale rozumieją niuanse treści i generują podsumowania 
 **Kiedy wybrać OpenAI**:Jeśli potrzebujesz podsumowań najwyższej jakości i możesz sobie pozwolić na nieco wyższe koszty API, GPT-4 będzie dla Ciebie najlepszym wyborem.
 
 ### Modele Google AI: Optymalne pod względem szybkości i skali
-Modele sztucznej inteligencji firmy Google zapewniają doskonały stosunek wydajności do kosztów i idealnie sprawdzają się w następujących zastosowaniach:
+Modele sztucznej inteligencji Google’a zapewniają doskonały stosunek wydajności do kosztów i idealnie sprawdzają się w następujących zastosowaniach:
 - **Przetwarzanie wielkoobjętościowe** scenariusze
 - **Aplikacje w czasie rzeczywistym** wymagające szybkich odpowiedzi
 - **Dokumenty strukturalne** jak formularze i raporty
@@ -70,7 +70,7 @@ Modele sztucznej inteligencji firmy Google zapewniają doskonały stosunek wydaj
 ### Claude (antropiczny): Zrównoważone podejście
 Claude oferuje rozwiązanie pośrednie, wykazując się silnymi zdolnościami rozumowania:
 - **Raporty analityczne** wymagające logicznego rozumowania
-- **Dokumenty zgodności** gdzie dokładność ma kluczowe znaczenie
+- **Dokumenty zgodności** gdzie dokładność jest kluczowa
 - **Treści edukacyjne** potrzebujących jasnych wyjaśnień
 - **Treści kreatywne** który korzysta ze zrozumienia niuansów
 
@@ -144,7 +144,7 @@ Oto najczęściej spotykane problemy i sprawdzone rozwiązania oparte na doświa
 
 Gdy będziesz gotowy wdrożyć system przetwarzania dokumentów oparty na sztucznej inteligencji (AI), poniższe strategie optymalizacji zapewnią jego płynne działanie:
 
-**Optymalizacja wstępnego przetwarzania**: Usuń nagłówki, stopki i powtarzającą się treść przed wysłaniem dokumentów do modeli AI. Może to zmniejszyć zużycie tokenów o 20–30% przy jednoczesnym zachowaniu jakości podsumowania.
+**Optymalizacja wstępnego przetwarzania**Usuń nagłówki, stopki i powtarzającą się treść przed wysłaniem dokumentów do modeli AI. Może to zmniejszyć zużycie tokenów o 20–30% przy jednoczesnym zachowaniu jakości podsumowania.
 
 **Przetwarzanie wsadowe**:Grupuj podobne dokumenty w celu ich przetworzenia. Modele sztucznej inteligencji często działają lepiej, gdy potrafią ustalić kontekst w powiązanych dokumentach.
 
@@ -197,7 +197,7 @@ Pamiętaj: celem nie jest tylko szybsze przetwarzanie dokumentów, ale także wy
 ## Samouczki dotyczące przetwarzania dokumentów z wykorzystaniem sztucznej inteligencji
 | Tytuł | Opis |
 | --- | --- |
-| [Opanowanie podsumowania dokumentów za pomocą modeli AI](./mastering-document-summarization-ai-model/) Odkryj potencjał automatyzacji dokumentów dzięki Aspose.Words dla .NET. Dowiedz się, jak bez wysiłku podsumowywać dokumenty za pomocą zaawansowanych modeli AI. |
+| [Opanowanie podsumowania dokumentów za pomocą modeli AI](./mastering-document-summarization-ai-model/) | Odkryj potencjał automatyzacji dokumentów dzięki Aspose.Words dla .NET. Dowiedz się, jak bez wysiłku podsumowywać dokumenty za pomocą zaawansowanych modeli AI. |
 | [Opanowanie podsumowania dokumentów w modelach Google AI](./mastering-document-summarization-google-ai-model/) | Dowiedz się krok po kroku, jak podsumowywać dokumenty Word za pomocą Aspose.Words i Google AI w .NET. Skorzystaj z tego przewodnika, aby usprawnić wyodrębnianie treści, analizowanie dokumentów i automatyzację. |
-| [Efektywne podsumowanie dokumentów Otwarty model sztucznej inteligencji](./efficient-document-summarization-openai-model/) | Dowiedz się, jak szybko i dokładnie podsumowywać duże dokumenty dzięki temu kompleksowemu samouczkowi, obejmującemu wymagania wstępne, konfigurację i przykłady kodowania. |
+| [Efektywne podsumowanie dokumentów Otwarty model sztucznej inteligencji](./efficient-document-summarization-openai-model/) Dowiedz się, jak szybko i dokładnie podsumowywać duże dokumenty dzięki temu kompleksowemu samouczkowi, obejmującemu wymagania wstępne, konfigurację i przykłady kodowania. |
 | [Podsumuj opcje dokumentów](./summarize-documents-options/) | Dowiedz się, jak skutecznie podsumowywać dokumenty za pomocą Aspose.Words dla .NET. Ten kompleksowy przewodnik obejmuje konfigurację, ładowanie dokumentów i integrację modelu AI. |

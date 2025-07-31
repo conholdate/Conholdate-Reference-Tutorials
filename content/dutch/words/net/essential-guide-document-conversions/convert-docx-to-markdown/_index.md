@@ -30,8 +30,8 @@ Voordat we in de technische details duiken, leggen we eerst kort uit waarom u DO
 - **Documentatiewebsites**: Word-documenten converteren naar Markdown voor Jekyll-, Hugo- of Gatsby-sites
 - **Versiebeheer**Markdown-bestanden werken beter met Git dan binaire DOCX-bestanden
 - **CMS-integratie**: Veel contentmanagementsystemen geven de voorkeur aan Markdown vanwege eenvoudiger bewerken
-- **Blogpublicatie**: Artikelen geschreven in Word omzetten naar Markdown voor webpublicatie
-- **API-documentatie**: Word-gebaseerde documentatie omzetten naar ontwikkelaarsvriendelijke Markdown
+- **Blogpublicatie**: Artikelen geschreven in Word converteren naar Markdown voor webpublicatie
+- **API-documentatie**: Word-gebaseerde documentatie omzetten in ontwikkelaarsvriendelijke Markdown
 
 Het mooie van Markdown is de eenvoud en universele compatibiliteit: het is leesbaar als platte tekst, maar kan op vrijwel elk platform prachtig worden weergegeven.
 
@@ -81,7 +81,7 @@ doc.Save(dataDir + "ConvertedDocument.md", SaveFormat.Markdown);
 Dat is alles! Deze ene regel code regelt het volledige conversieproces, waarbij de essentiële opmaak en structuur behouden blijven en uw Word-document wordt omgezet in een duidelijke, leesbare Markdown.
 
 **Wat wordt bewaard:**
-- Koppen (geconverteerd naar # syntaxis)
+- Koppen (geconverteerd naar #-syntaxis)
 - Vetgedrukte en cursieve opmaak
 - Lijsten (zowel geordend als ongeordend)
 - Links en basistabellen
@@ -92,7 +92,7 @@ Dat is alles! Deze ene regel code regelt het volledige conversieproces, waarbij 
 
 Hoewel de basisconversie eenvoudig is, volgen hier enkele tips om de beste resultaten te krijgen:
 
-**Documentstructuur is belangrijk**Gebruik de juiste kopstijlen in uw Word-document (Kop 1, Kop 2, enz.) in plaats van tekst alleen maar vet en groot te maken. Dit zorgt voor een correcte conversie van Markdown-koppen.
+**Documentstructuur is belangrijk**Gebruik de juiste koptekststijlen in uw Word-document (Kop 1, Kop 2, enz.) in plaats van tekst alleen maar vet en groot te maken. Dit zorgt voor een correcte Markdown-koptekstconversie.
 
 **Ga verstandig om met afbeeldingen**: Als je DOCX afbeeldingen bevat, worden deze geëxtraheerd en in de Markdown vermeld. Zorg ervoor dat je een plan hebt voor de opslag van deze afbeeldingen in je definitieve configuratie.
 
@@ -104,9 +104,9 @@ Hoewel de basisconversie eenvoudig is, volgen hier enkele tips om de beste resul
 
 Zelfs met een robuuste API zoals Aspose.Words kun je nog steeds tegen uitdagingen aanlopen. Hier zijn de meest voorkomende problemen en hoe je ze kunt oplossen:
 
-**Fouten 'Bestand niet gevonden'**Controleer uw bestandspaden nogmaals. Onthoud dat relatieve paden relatief zijn ten opzichte van de uitvoeringsmap van uw applicatie, niet ten opzichte van uw broncodemap.
+**Fouten 'Bestand niet gevonden'**Controleer uw bestandspaden nogmaals. Houd er rekening mee dat relatieve paden relatief zijn ten opzichte van de uitvoermap van uw applicatie, niet ten opzichte van uw broncodemap.
 
-**Geheugenproblemen met grote bestanden**:Voor zeer grote DOCX-bestanden kunt u overwegen om streamingopties te gebruiken of de conversie, indien mogelijk, in kleinere delen op te splitsen.
+**Geheugenproblemen met grote bestanden**: Voor zeer grote DOCX-bestanden kunt u overwegen om streamingopties te gebruiken of de conversie, indien mogelijk, in kleinere delen op te splitsen.
 
 **Opmaak wordt niet goed geconverteerd**: Sommige complexe Word-opmaak heeft geen directe Markdown-equivalenten. Controleer uw geconverteerde bestanden en pas uw brondocumenten indien nodig aan.
 
@@ -134,9 +134,9 @@ Klaar om uw documentconversieproces te stroomlijnen? Aspose.Words voor .NET maak
 
 ## Veelgestelde vragen
 
-### Welke documentformaten ondersteunt Aspose.Words voor .NET voor conversie?
+### Welke documentformaten worden door Aspose.Words voor .NET ondersteund voor conversie?
 
-Aspose.Words ondersteunt een indrukwekkend scala aan formaten, waaronder DOCX, DOC, PDF, HTML, RTF, ODT en Markdown. Deze veelzijdigheid betekent dat u het kunt gebruiken als een centrale hub voor al uw documentconversiebehoeften, niet alleen van DOCX naar Markdown.
+Aspose.Words ondersteunt een indrukwekkend scala aan formaten, waaronder DOCX, DOC, PDF, HTML, RTF, ODT en Markdown. Deze veelzijdigheid betekent dat u het kunt gebruiken als centrale hub voor al uw documentconversiebehoeften, niet alleen van DOCX naar Markdown.
 
 ### Kan Aspose.Words complexe documentstructuren zoals tabellen en afbeeldingen verwerken?
 
@@ -156,8 +156,8 @@ Uitgebreide documentatie vindt u op de [Aspose.Words voor .NET-referentiesite](h
 
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Words verkrijgen?
 
-Een tijdelijke licentie voor Aspose.Words kan worden aangevraagd [hier](https://purchase.conholdate.com/temporary-license/), waardoor u de volledige functionaliteit van de API tijdens uw ontwikkelings- en testfase zonder beperkingen kunt evalueren.
+Een tijdelijke licentie voor Aspose.Words kan worden aangevraagd [hier](https://purchase.conholdate.com/temporary-license/), zodat u de volledige functionaliteit van de API tijdens uw ontwikkelings- en testfase zonder beperkingen kunt evalueren.
 
 ### Waar kan ik communityondersteuning vinden voor Aspose.Words?
 
-Voor community-ondersteuning en om contact te leggen met andere ontwikkelaars, bezoek je het Aspose-forum [hier](https://forum.aspose.com/c/words/8)Het is een actieve community waar u vragen kunt stellen, inzichten kunt delen en kunt leren van de ervaringen van anderen met documentconversie en -verwerking.
+Voor community-ondersteuning en om in contact te komen met andere ontwikkelaars, bezoek je het Aspose-forum [hier](https://forum.aspose.com/c/words/8)Het is een actieve community waar u vragen kunt stellen, inzichten kunt delen en kunt leren van de ervaringen van anderen met documentconversie en -verwerking.

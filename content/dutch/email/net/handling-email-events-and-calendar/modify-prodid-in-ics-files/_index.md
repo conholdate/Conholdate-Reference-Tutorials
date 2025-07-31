@@ -1,15 +1,15 @@
 ---
 "description": "Leer hoe u de ProdID in ICS-bestanden kunt wijzigen met Aspose.Email voor .NET. Stapsgewijze tutorial met code, tips en veelgestelde vragen voor naadloos agendabeheer."
-"linktitle": "ProdID wijzigen in ICS-bestanden met Aspose.Email voor .NET"
+"linktitle": "ProdID in ICS-bestanden wijzigen met Aspose.Email voor .NET"
 "second_title": "Aspose.Email .NET e-mailverwerkings-API"
-"title": "ProdID wijzigen in ICS-bestanden met Aspose.Email voor .NET"
+"title": "ProdID in ICS-bestanden wijzigen met Aspose.Email voor .NET"
 "url": "/nl/email/net/handling-email-events-and-calendar/modify-prodid-in-ics-files/"
 "weight": 12
 ---
 
 ## Invoering
 
-Heeft u zich ooit afgevraagd hoe u de `ProdID` in een ICS (iCalendar)-bestand met C#? Als u met kalendergegevens werkt en de `ProdID`—wat de product-ID in ICS-bestanden vertegenwoordigt—bent u hier aan het juiste adres! Met Aspose.Email voor .NET, een robuuste bibliotheek die is ontworpen voor het programmatisch beheren van e-mail- en agendataken, kunt u dit met slechts een paar regels code bereiken. In deze tutorial doorlopen we het hele proces stap voor stap, op een conversatievriendelijke en boeiende manier.
+Heeft u zich ooit afgevraagd hoe u de `ProdID` in een ICS (iCalendar)-bestand met C#? Als u met kalendergegevens werkt en de `ProdID`—wat de product-ID in ICS-bestanden vertegenwoordigt—bent u hier aan het juiste adres! Met Aspose.Email voor .NET, een robuuste bibliotheek die is ontworpen voor het programmatisch beheren van e-mail- en agendataken, kunt u dit met slechts een paar regels code bereiken. In deze tutorial doorlopen we het hele proces stap voor stap, op een interactieve en boeiende manier.
 
 Aan het einde van deze handleiding beschikt u over alle tools die u nodig hebt om vol vertrouwen met ICS-bestanden en Aspose.Email voor .NET te werken. Laten we beginnen!
 
@@ -39,7 +39,7 @@ using Aspose.Email;
 using Aspose.Email.Calendar;
 ```
 
-Nu komt het leukste gedeelte: het proces opdelen in hanteerbare stappen. Elke stap wordt gedetailleerd uitgelegd, zodat het gemakkelijk te volgen is.
+Nu komt het leukste gedeelte: het proces opdelen in beheersbare stappen. Elke stap wordt gedetailleerd uitgelegd, zodat het gemakkelijk te volgen is.
 
 ## Stap 1: Stel het bestandspad in
 
@@ -69,7 +69,7 @@ Appointment app = new Appointment(
 );
 ```
  
-- Locatie: waar het evenement plaatsvindt.  
+- Locatie: Waar het evenement plaatsvindt.  
 - Onderwerp: Een korte titel voor uw evenement.  
 - Beschrijving: Aanvullende details over het evenement.  
 - Begin- en einddatum: bepaalt de duur van het evenement.  
@@ -108,7 +108,7 @@ En daar heb je het: een eenvoudige manier om de `ProdID` in een ICS-bestand met 
 `ProdID` Identificeert de software die het ICS-bestand heeft gemaakt. Het wordt vaak gebruikt voor compatibiliteits- en foutopsporingsdoeleinden.
 
 ### Kan ik Aspose.Email gratis gebruiken?  
-Ja, je kunt het met beperkte functionaliteit gebruiken. Om alle functies te ontgrendelen, kun je een [gratis proefperiode](https://releases.aspose.com/) of [tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
+Ja, je kunt het met beperkte functionaliteit gebruiken. Om alle functies te ontgrendelen, moet je een [gratis proefperiode](https://releases.aspose.com/) of [tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
 
 ### Is Aspose.Email compatibel met .NET Core?  
 Absoluut! Aspose.Email ondersteunt .NET Core-, .NET Framework- en Xamarin-platformen.

@@ -69,7 +69,7 @@ Nu när du har preciserat formulärfältet kan du enkelt lägga till verktygstip
 textField.AlternateName = "This is a tooltip for the text box.";
 ```
 
-- textField.AlternateName: Den här egenskapen används för att ställa in verktygstipsmeddelandet. I det här exemplet använder vi `"This is a tooltip for the text box."`.
+- textField.AlternateName: Den här egenskapen används för att ange verktygstipsmeddelandet. I det här exemplet använder vi `"This is a tooltip for the text box."`.
 
 Tänk dig att lägga till en praktisk post-it bredvid formulärfältet för att ge ytterligare insikter!
 

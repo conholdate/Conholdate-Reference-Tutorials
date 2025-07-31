@@ -66,7 +66,7 @@ Ajustez l'index si le slicer se trouve sur une feuille de calcul différente.
 
 ## Étape 4 : Accéder au Slicer
 
-Accéder à l'objet slicer dans la feuille de calcul :
+Accéder à l’objet slicer dans la feuille de calcul :
 
 ```csharp
 Aspose.Cells.Slicers.Slicer slicer = ws.Slicers[0];

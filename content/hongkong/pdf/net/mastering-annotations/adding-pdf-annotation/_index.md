@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用 Aspose.PDF for .NET 新增註解。本逐步教程涵蓋了從安裝庫到自訂註釋的所有內容。"
+"description": "了解如何使用 Aspose.PDF for .NET 新增註解。本逐步教程涵蓋了從安裝庫到自訂註釋的所有內容。"
 "linktitle": "新增 PDF 註釋"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "新增 PDF 註釋"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-註釋可以豐富 PDF 文檔，使其更具互動性和資訊量。無論您是與他人協作，還是為讀者提供更多見解，註釋都是必不可少的工具。在本教程中，我們將探索如何使用 Aspose.PDF for .NET 在 PDF 文件中添加註釋，並指導您完成每個步驟，確保您熟練此流程。
+註釋豐富了 PDF 文檔，使其具有互動性和資訊性。無論您是與他人合作還是為讀者提供額外的見解，註釋都是必不可少的工具。在本教學中，我們將探討如何使用 Aspose.PDF for .NET 在 PDF 檔案中新增 PDF 註釋，引導您完成每個步驟，以確保您熟練此流程。
 
 ## 先決條件
 
@@ -63,7 +63,7 @@ TextAnnotation textAnnotation = new TextAnnotation(pdfDocument.Pages[1], new Asp
 ```
 
 - 位置和大小： `Rectangle` 類別定義頁面上註解的位置和尺寸。
-- 屬性：您可以設定註釋的標題、主題和內容。 `Open` 屬性決定註釋是否預設顯示開啟。
+- 屬性：可以設定註釋的標題、主題、內容。這 `Open` 屬性決定註釋是否預設顯示開啟。
 - 圖示: `TextIcon.Key` 為註釋添加視覺元素。
 
 ## 步驟 3：自訂註解的外觀
@@ -109,7 +109,7 @@ Console.WriteLine("\nAnnotation added successfully.\nFile saved at " + dataDir);
 
 ## 結論
 
-使用 Aspose.PDF for .NET，您可以輕鬆為 PDF 添加註釋，這是一個強大的功能。無論是用於文件審閱或個人筆記，本指南都能協助您有效地建立和自訂註解。請依照以下步驟操作，您可以增強 PDF 文件的互動性和實用性。
+使用 Aspose.PDF for .NET 可以輕鬆為 PDF 添加註釋，這是一個強大的功能。無論是用於文件審查還是個人筆記，本指南都為您提供了有效建立和自訂註釋的知識。透過遵循這些步驟，您可以增強 PDF 文件的互動性和實用性。
 
 ## 常見問題解答
 
@@ -117,7 +117,7 @@ Console.WriteLine("\nAnnotation added successfully.\nFile saved at " + dataDir);
 您可以新增各種註釋，包括文字、連結、突出顯示和圖章註釋。
 
 ### 我可以自訂註釋的外觀嗎？
-當然！您可以修改註解的大小、顏色、邊框和圖示。
+絕對地！您可以修改註解的大小、顏色、邊框和圖示。
 
 ### 是否可以在單一頁面上新增多個註解？
 是的，您可以在 PDF 中的任何頁面中新增多個註解。

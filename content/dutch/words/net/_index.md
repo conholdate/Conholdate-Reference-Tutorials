@@ -14,13 +14,13 @@ Ontdek de kracht van Aspose.Words voor .NET met onze uitgebreide tutorialcollect
 
 ## 🚀 Wat u kunt bereiken
 
-**Aspose.Words voor .NET** is een krachtige bibliotheek waarmee ontwikkelaars Word-documenten kunnen maken, wijzigen, converteren en bewerken zonder Microsoft Word nodig te hebben. Met meer dan 100 ondersteunde bestandsindelingen en uitgebreide automatiseringsmogelijkheden is het dé oplossing voor documentverwerking binnen bedrijven.
+**Aspose.Words voor .NET** is een krachtige bibliotheek waarmee ontwikkelaars Word-documenten kunnen maken, wijzigen, converteren en bewerken zonder Microsoft Word nodig te hebben. Met meer dan 100 ondersteunde bestandsindelingen en uitgebreide automatiseringsmogelijkheden is het dé oplossing voor documentverwerking in bedrijven.
 
 ### Belangrijkste mogelijkheden
 - **📄 Formaatondersteuning**: DOC, DOCX, RTF, HTML, PDF, EPUB, TXT, Markdown en meer
 - **🔄 Conversies**: Naadloze transformatie tussen verschillende documentformaten
-- **🤖 AI-integratie**: Geavanceerde documentensamenvatting en inhoudsanalyse
-- **📊 Samenvoegen**Dynamische documentgeneratie uit gegevensbronnen
+- **🤖 AI-integratie**: Geavanceerde documentsamenvatting en inhoudsanalyse
+- **📊 Samenvoegen**: Dynamische documentgeneratie uit gegevensbronnen
 - **🎨 Opmaak**: Volledige controle over de vormgeving en lay-out van het document
 
 ## 📚 Tutorial Categorieën
@@ -35,7 +35,7 @@ Beheers de meest voorkomende documenttransformatietaken met onze stapsgewijze co
 | **[Word naar PDF-conversie](./essential-guide-document-conversions/convert-word-to-pdf/)** | Professionele PDF-generatie met behoud van opmaak | ⭐ Beginner |
 | **[Converteer DOCX naar TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Platte tekstinhoud uit Word-documenten extraheren | ⭐ Beginner |
 | **[Tekstbestanden converteren naar Word-documenten](./essential-guide-document-conversions/convert-text-files-to-word-documents/)** | Transformeer platte tekst naar gestructureerde Word-documenten | ⭐ Beginner |
-| **[PDF naar Word-document converteren](./essential-guide-document-conversions/convert-pdf-to-word/)** Maak PDF's bewerkbaar door ze te converteren naar Word-formaat | ⭐⭐ Gemiddeld |
+| **[PDF naar Word-document converteren](./essential-guide-document-conversions/convert-pdf-to-word/)** | Maak PDF's bewerkbaar door ze te converteren naar Word-formaat | ⭐⭐ Gemiddeld |
 | **[PDF naar JPEG converteren](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Haal afbeeldingen van hoge kwaliteit uit PDF-documenten | ⭐⭐ Gemiddeld |
 
 ### Geavanceerde documentconversies
@@ -53,8 +53,8 @@ Maak gebruik van geavanceerde AI-technologieën om uw documentverwerkingsworkflo
 
 | Tutorial | Beschrijving | Moeilijkheidsgraad |
 |----------|-------------|------------|
-| **[Het beheersen van documentsamenvattingen met AI-modellen](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | AI-gestuurde inhoudsanalyse en samenvatting | ⭐⭐⭐ Geavanceerd |
-| **[Documentsamenvatting met Google AI-modellen](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** | Integreer Google AI voor intelligente documentverwerking | ⭐⭐⭐ Geavanceerd |
+| **[Het beheersen van het samenvatten van documenten met AI-modellen](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | AI-gestuurde inhoudsanalyse en samenvatting | ⭐⭐⭐ Geavanceerd |
+| **[Documentsamenvatting met Google AI-modellen](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** Integreer Google AI voor intelligente documentverwerking | ⭐⭐⭐ Geavanceerd |
 | **[Efficiënte samenvatting van documenten met OpenAI-modellen](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Gebruik OpenAI GPT-modellen voor documentinzichten | ⭐⭐⭐ Geavanceerd |
 | **[Opties voor het samenvatten van documenten](./advanced-ai-document-processing/summarize-documents-options/)** | Uitgebreide gids voor samenvattingstechnieken | ⭐⭐⭐ Geavanceerd |
 
@@ -129,7 +129,7 @@ Maak gebruik van geavanceerde AI-technologieën om uw documentverwerkingsworkflo
 - **[Download](https://releases.aspose.com/words/net/)** - Evalueer alle functies
 
 ### **Gemeenschap en ondersteuning**
-- **[Ondersteuningsforum](https://forum.aspose.com/c/words/8)** - Krijg hulp van experts
+- **[Ondersteuningsforum](https://forum.aspose.com/c/words/8)** Krijg hulp van experts
 
 ### **Licenties en proefversies**
 - **[Tijdelijke licentie](https://purchase.conholdate.com/temporary-license/)** - Uitgebreide evaluatie

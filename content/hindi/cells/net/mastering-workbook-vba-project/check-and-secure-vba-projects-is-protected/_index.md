@@ -53,7 +53,7 @@ VbaProject vbaProject = workbook.VbaProject;
 कोई भी परिवर्तन करने से पहले, यह जांचना महत्वपूर्ण है कि VBA प्रोजेक्ट पहले से सुरक्षित है या नहीं। `IsProtected` संपत्ति यह जानकारी प्रदान करती है।
 
 ```csharp
-// जाँच करें कि VBA प्रोजेक्ट सुरक्षित है या नहीं
+// जांचें कि क्या VBA प्रोजेक्ट सुरक्षित है
 Console.WriteLine("VBA Project Protection Status: " + vbaProject.IsProtected);
 ```
 

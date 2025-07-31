@@ -66,7 +66,7 @@ Ideje megfelelően beállítani a fejlesztői környezetet:
 
 **Profi tipp**Ha többféle dokumentumtípussal dolgozik, az Aspose.Words ugyanazt az API-t használja a DOC, DOCM, RTF és sok más formátum kezelésére is – így ez a befektetés nem csak a DOCX fájlok kezelésére fordítható.
 
-## 2. lépés: Dokumentumkönyvtár-útvonal megadása
+## 2. lépés: Dokumentumkönyvtár-elérési út megadása
 
 Ezután meg kell határoznia, hogy hol találhatók a fájljai. Ez a lépés kulcsfontosságú a bosszantó „fájl nem található” hibák elkerülése érdekében:
 
@@ -87,7 +87,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Most pedig a fő esemény – a DOCX fájl betöltése:
 
-1. **Dokumentum inicializálása**: Használd a `Document` osztály a fájl betöltéséhez:
+1. **Dokumentum inicializálása**: Használja a `Document` osztály a fájl betöltéséhez:
 
 ```csharp
 Document doc = new Document(dataDir + "Document.docx");
@@ -101,7 +101,7 @@ Document doc = new Document(dataDir + "Document.docx");
 
 Itt történik a varázslat – a tényleges átalakulás:
 
-1. **Végezze el az átalakítást**: Használd a `Save` módszer egy `.txt` kiterjesztés:
+1. **Végezze el az átalakítást**: Használja a `Save` módszer egy `.txt` kiterjesztés:
 
 ```csharp
 doc.Save(dataDir + "BaseConversions.DocxToTxt.txt");
@@ -239,7 +239,7 @@ A képek teljesen eltávolításra kerülnek (mivel a TXT nem tudja megjeleníte
 
 ### Mekkorák lehetnek a DOCX fájlok ennél a konvertálási módszernél?
 
-Az Aspose.Words képes kezelni a meglehetősen nagy fájlokat (több száz MB-ot), de a teljesítmény a rendszer rendelkezésre álló memóriájától függ. Nagyon nagy fájlok esetén érdemes kisebb darabokban feldolgozni őket, vagy optimalizálni a memória-elosztást.
+Az Aspose.Words meglehetősen nagy fájlokat képes kezelni (több száz MB-ot), de a teljesítmény a rendszer rendelkezésre álló memóriájától függ. Nagyon nagy fájlok esetén érdemes kisebb részletekben feldolgozni őket, vagy optimalizálni a memória-elosztást.
 
 ### Ez működik jelszóval védett DOCX fájlokkal?
 

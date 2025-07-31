@@ -35,7 +35,7 @@ using System.Linq;
 using System.Text;
 ```
 
-S integrovaným Aspose.PDF do vašeho projektu se můžeme přesunout k licencování.
+S integrací Aspose.PDF do vašeho projektu se můžeme přesunout k licencování.
 
 ## Krok 1: Příprava adresáře dokumentů
 
@@ -46,7 +46,7 @@ Nejprve budete muset zadat cestu k adresáři s dokumenty, kam budou uloženy so
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
 
-Nahradit `"YOUR_DOCUMENT_DIRECTORY"` se skutečnou cestou, kam chcete ukládat soubory PDF. Přesné určení cesty je klíčové pro správný přístup k souboru s licencí.
+Nahradit `"YOUR_DOCUMENT_DIRECTORY"` se skutečnou cestou, kam chcete ukládat soubory PDF. Přesné určení cesty je zásadní pro správný přístup k souboru s licencí.
 
 ## Krok 2: Inicializace objektu licence
 
@@ -87,7 +87,7 @@ Gratulujeme! Úspěšně jste nastavili Aspose.PDF pro .NET. S touto výkonnou k
 ## Často kladené otázky
 
 ### Co je Aspose.PDF pro .NET?
-Aspose.PDF pro .NET je knihovna určená pro vývojáře, kteří chtějí programově vytvářet, upravovat a manipulovat s PDF dokumenty.
+Aspose.PDF pro .NET je knihovna určená pro vývojáře, která jim umožňuje programově vytvářet, upravovat a manipulovat s PDF dokumenty.
 
 ### Jak nastavím licenci pro Aspose.PDF?
 Licenci můžete nastavit vytvořením `License` objektu a jeho použití `SetLicense` s cestou k souboru s licencí.

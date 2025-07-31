@@ -53,7 +53,7 @@ Con la directory impostata, possiamo ora caricare la cartella di lavoro di Excel
 Workbook workbook = new Workbook(sourceDir + "ThreadedCommentsSample.xlsx");
 ```
 
-Se il file non viene trovato nel percorso specificato, verrà generata un'eccezione. Assicurarsi quindi che il percorso del file sia corretto prima di procedere.
+Se il file non viene trovato nel percorso specificato, verrà generata un'eccezione, quindi assicurarsi che il percorso del file sia corretto prima di procedere.
 
 ## Passaggio 3: accedere al foglio di lavoro desiderato
 

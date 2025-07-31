@@ -1,18 +1,19 @@
 ---
-title: Panduan Transformasi Lokal dengan Aspose.Drawing untuk .NET
-linktitle: Panduan Transformasi Lokal dengan Aspose.Drawing
-second_title: Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common
-description: Tingkatkan kemampuan visual aplikasi .NET Anda dengan transformasi lokal menggunakan Aspose.Drawing. Tutorial komprehensif ini memandu Anda melalui proses pembuatan grafik yang memukau dengan menerapkan matriks transformasi.
-weight: 11
-url: /id/drawing/transformations/guide-to-local-transformation/
+"description": "Tingkatkan kemampuan visual aplikasi .NET Anda dengan transformasi lokal menggunakan Aspose.Drawing. Tutorial komprehensif ini memandu Anda melalui proses pembuatan grafis yang memukau dengan menerapkan matriks transformasi."
+"linktitle": "Panduan Transformasi Lokal dengan Aspose.Drawing"
+"second_title": "Aspose.Drawing .NET API - Alternatif untuk System.Drawing.Common"
+"title": "Panduan Transformasi Lokal dengan Aspose.Drawing untuk .NET"
+"url": "/id/drawing/net/transformations/guide-to-local-transformation/"
+"weight": 11
 ---
+
 ## Perkenalan
 
-Aspose.Drawing untuk .NET memungkinkan pengembang membuat grafik canggih melalui transformasi lokal. Panduan singkat ini akan memandu Anda menyiapkan transformasi lokal langkah demi langkah.
+Aspose.Drawing untuk .NET memungkinkan pengembang membuat grafik canggih melalui transformasi lokal. Panduan singkat ini akan memandu Anda langkah demi langkah dalam menyiapkan transformasi lokal.
 
 ## Prasyarat
 
-1.  Aspose.Drawing untuk .NET: Unduh dan instal dari[Di Sini](https://releases.aspose.com/drawing/net/).
+1. Aspose.Drawing untuk .NET: Unduh dan instal dari [Di Sini](https://releases.aspose.com/drawing/net/).
 2. Direktori Dokumen: Pilih direktori untuk menyimpan gambar Anda.
 3. Pengetahuan Dasar .NET: Keakraban dengan C# dan konsep pemrograman grafis.
 
@@ -57,7 +58,7 @@ matrix.RotateAt(45, new Point(500, 400));
 path.Transform(matrix);
 ```
 
-### Langkah 5: Gambarkan Jalur yang Ditransformasikan
+### Langkah 5: Gambar Jalur yang Ditransformasikan
 
 Gunakan pena untuk menggambar jalur pada objek grafik:
 
@@ -66,7 +67,7 @@ Pen pen = new Pen(Color.Blue, 2);
 graphics.DrawPath(pen, path);
 ```
 
-### Langkah 6: Simpan Gambar yang Telah Diubah
+### Langkah 6: Simpan Gambar yang Telah Ditransformasi
 
 ```csharp
 bitmap.Save(@"Your Document Directory\CoordinateSystemsTransformations\LocalTransformation_out.png");
@@ -74,7 +75,7 @@ bitmap.Save(@"Your Document Directory\CoordinateSystemsTransformations\LocalTran
 
 ## Kesimpulan
 
-Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah mengimplementasikan transformasi lokal dengan Aspose.Drawing, memperkaya kemampuan visual aplikasi .NET Anda.
+Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah menerapkan transformasi lokal dengan Aspose.Drawing, memperkaya kemampuan visual aplikasi .NET Anda.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -84,11 +85,11 @@ Ya, Anda dapat merangkai transformasi menggunakan matriks.
 ### Apakah cocok untuk aplikasi grafis yang kompleks?  
 Tentu saja! Aspose.Drawing mendukung berbagai operasi grafis.
 
-### Apakah ada jenis transformasi yang lain?  
+### Apakah ada jenis transformasi lainnya?  
 Ya, ini mendukung penerjemahan, penskalaan, dan penyimpangan.
 
 ### Bagaimana menangani pengecualian?  
- Terapkan penanganan kesalahan dan konsultasikan[dokumentasi](https://reference.aspose.com/drawing/net/) untuk panduan.
+Terapkan penanganan kesalahan dan konsultasikan dengan [dokumentasi](https://reference.aspose.com/drawing/net/) untuk panduan.
 
 ### Bisakah saya mencobanya sebelum membeli?  
- Ya, jelajahi[uji coba gratis](https://releases.aspose.com/).
+Ya, jelajahi [uji coba gratis](https://releases.aspose.com/).

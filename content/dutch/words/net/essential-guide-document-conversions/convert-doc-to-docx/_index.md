@@ -18,7 +18,7 @@
 
 ## Invoering
 
-Als u met oudere Word-documenten werkt, bent u waarschijnlijk al eens de behoefte tegengekomen om DOC naar DOCX te converteren. Of u nu een oude documentbibliotheek wilt moderniseren, de compatibiliteit met nieuwere systemen wilt waarborgen of gewoon wilt profiteren van de verbeterde functies van DOCX, deze conversie komt vaker voor dan u denkt.
+Als u met oudere Word-documenten werkt, bent u waarschijnlijk al eens de behoefte tegengekomen om DOC naar DOCX te converteren. Of u nu een oude documentbibliotheek moderniseert, de compatibiliteit met nieuwere systemen waarborgt of gewoon wilt profiteren van de verbeterde functies van DOCX, deze conversie komt vaker voor dan u denkt.
 
 Het goede nieuws? Het converteren van DOC-bestanden naar DOCX met Aspose.Words voor .NET is verrassend eenvoudig. In deze uitgebreide handleiding leggen we je alles uit wat je moet weten - van het basisconversieproces tot het omgaan met edge cases en het optimaliseren voor productieomgevingen.
 
@@ -26,12 +26,12 @@ Aan het einde van deze tutorial kunt u vol vertrouwen DOC programmatisch naar DO
 
 ## Waarom DOC naar DOCX converteren?
 
-Voordat we in de code duiken, leggen we kort uit waarom deze conversie zo belangrijk is. Het DOCX-formaat (geïntroduceerd met Office 2007) biedt verschillende voordelen ten opzichte van het oudere DOC-formaat:
+Voordat we in de code duiken, leggen we kort uit waarom deze conversie belangrijk is. Het DOCX-formaat (geïntroduceerd met Office 2007) biedt verschillende voordelen ten opzichte van het oudere DOC-formaat:
 
 - **Betere compressie**:DOCX-bestanden zijn doorgaans 75% kleiner dan hun DOC-tegenhangers
 - **Verbeterd gegevensherstel**:De XML-gebaseerde structuur maakt het gemakkelijker om beschadigde bestanden te repareren
 - **Verbeterde beveiliging**: Betere bescherming tegen macrovirussen en schadelijke code
-- **Moderne compatibiliteit**: Volledige ondersteuning in huidige versies van Microsoft Office en andere applicaties
+- **Moderne compatibiliteit**: Volledige ondersteuning in de huidige versies van Microsoft Office en andere applicaties
 
 Als u met bedrijfsapplicaties of documentbeheersystemen werkt, is DOCX vaak het vereiste standaardformaat.
 
@@ -41,7 +41,7 @@ Voordat we beginnen met het converteren van documenten, moet u ervoor zorgen dat
 
 - **Visuele Studio**: Elke recente versie werkt - wij raden Visual Studio 2019 of later aan
 - **Aspose.Words voor .NET**: Download en installeer het vanaf [hier](https://releases.aspose.com/words/net/)
-- **Basiskennis van C#**:Je hoeft geen expert te zijn, maar vertrouwdheid met de C#-syntaxis is wel handig
+- **Basiskennis van C#**: Je hoeft geen expert te zijn, maar vertrouwdheid met de C#-syntaxis is wel handig
 - **Voorbeeld DOC-bestanden**: Zorg dat u een paar testdocumenten bij de hand hebt (we laten u zien hoe u verschillende scenario's kunt aanpakken)
 
 ## Vereiste naamruimten importeren
@@ -54,7 +54,7 @@ using Aspose.Words;
 
 Dat is alles! Aspose.Words houdt het simpel: je hebt alleen deze ene naamruimte nodig voor basisbewerkingen van documenten. Als je van plan bent om met geavanceerdere functies te werken, zoals samenvoegen of documentvergelijking, heb je mogelijk extra naamruimten nodig, maar voor DOC naar DOCX-conversie is dit alles.
 
-## Stapsgewijze DOC naar DOCX-conversie
+## Stapsgewijze conversie van DOC naar DOCX
 
 Laten we nu naar de kern van de tutorial gaan. We zullen dit opsplitsen in duidelijke, hanteerbare stappen die je kunt volgen.
 
@@ -69,26 +69,26 @@ string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document doc = new Document(dataDir + "SampleDocument.doc");
 ```
 
-Dit is wat er achter de schermen gebeurt: Aspose.Words leest het binaire DOC-formaat, parseert alle inhoud (tekst, opmaak, afbeeldingen, tabellen - alles) en creëert een in-memory weergave. Dit proces verloopt behoorlijk snel, zelfs voor grote documenten.
+Dit is wat er achter de schermen gebeurt: Aspose.Words leest het binaire DOC-formaat, parseert alle inhoud (tekst, opmaak, afbeeldingen, tabellen - alles) en creëert een in-memory representatie. Dit proces verloopt behoorlijk snel, zelfs voor grote documenten.
 
 **Professionele tip**: Gebruik altijd het volledige bestandspad en zorg ervoor dat uw DOC-bestand daadwerkelijk op die locatie bestaat. Als het bestand ontbreekt, krijgt u een `FileNotFoundException`.
 
 ## Stap 2: Converteer DOC naar DOCX-formaat
 
-Hier gebeurt de magie - en eerlijk gezegd is het bijna een anticlimax hoe eenvoudig deze stap is. Zodra je het document hebt geladen, is het converteren naar DOCX slechts een kwestie van opslaan met de juiste opmaakspecificatie.
+Hier gebeurt de magie - en eerlijk gezegd is het bijna een anticlimax hoe eenvoudig deze stap is. Zodra je het document hebt geladen, is converteren naar DOCX slechts een kwestie van opslaan met de juiste opmaakspecificatie.
 
 ```csharp
 // Opslaan als DOCX-formaat
 doc.Save(dataDir + "ConvertedDocument.docx", SaveFormat.Docx);
 ```
 
-Dat is alles! Echt waar. Aspose.Words verwerkt alle complexe opmaakconversies intern. Het slaat je geladen DOC-document op als een DOCX-bestand, waarbij alle opmaak, afbeeldingen, tabellen en andere elementen behouden blijven.
+Dat is alles! Echt waar. Aspose.Words verwerkt alle complexe formaatconversies intern. Het slaat je geladen DOC-document op als een DOCX-bestand, waarbij alle opmaak, afbeeldingen, tabellen en andere elementen behouden blijven.
 
 De `SaveFormat.Docx` De parameter vertelt Aspose.Words precies welke opmaak u wilt. U kunt net zo gemakkelijk specificeren `SaveFofmat.Pdf` or `SaveFormat.Html` als u verschillende uitvoerformaten nodig hebt.
 
 ## Veelvoorkomende problemen en oplossingen
 
-Hoewel het conversieproces eenvoudig is, kunt u toch tegen een paar problemen aanlopen. Hieronder vindt u de meest voorkomende problemen en hoe u ze kunt oplossen:
+Hoewel het conversieproces eenvoudig is, kunt u toch tegen een paar problemen aanlopen. Hier zijn de meest voorkomende problemen en hoe u ze kunt oplossen:
 
 ### Problemen met bestandspad
 **Probleem**: Foutmelding "Bestand niet gevonden" bij het laden van documenten.
@@ -101,11 +101,11 @@ Document doc = new Document(fullPath);
 
 ### Geheugenproblemen met grote bestanden
 **Probleem**: Uitzonderingen wegens onvoldoende geheugen bij zeer grote DOC-bestanden.
-**Oplossing**: Verwerk bestanden in kleinere batches of verhoog de geheugentoewijzing van uw applicatie. Overweeg streaming-benaderingen voor bestanden groter dan 100 MB.
+**Oplossing**: Verwerk bestanden in kleinere batches of vergroot de geheugentoewijzing van uw applicatie. Overweeg streaming-benaderingen voor bestanden groter dan 100 MB.
 
 ### Beschadigde DOC-bestanden
-**Probleem**:Sommige oudere DOC-bestanden kunnen gedeeltelijk beschadigd zijn.
-**Oplossing**:Aspose.Words heeft ingebouwde foutherstel, maar voor ernstig beschadigde bestanden moet u mogelijk de `LoadOptions` met herstelinstellingen:
+**Probleem**: Sommige oudere DOC-bestanden kunnen gedeeltelijk beschadigd zijn.
+**Oplossing**: Aspose.Words heeft ingebouwde foutherstel, maar voor ernstig beschadigde bestanden moet u mogelijk de `LoadOptions` met herstelinstellingen:
 
 ```csharp
 LoadOptions options = new LoadOptions();
@@ -161,14 +161,14 @@ foreach (string docFile in docFiles)
 ### Prestatieoverwegingen
 - **Geheugenbeheer**: Gooi Document-objecten weg als u er klaar mee bent
 - **Rijgen**:Aspose.Words is thread-safe, dus u kunt meerdere bestanden parallel verwerken
-- **Cachen**:Als u dezelfde bestanden herhaaldelijk converteert, implementeer dan een cachemechanisme
+- **Cachen**: Als u dezelfde bestanden herhaaldelijk converteert, implementeer dan een cachemechanisme
 
 ## Wanneer u deze aanpak moet gebruiken
 
 Deze DOC naar DOCX conversiemethode werkt het beste wanneer:
 
-- U hebt programmatische controle nodig over het conversieproces
-- U verwerkt documenten als onderdeel van een grotere aanvraagworkflow
+- U hebt programmatische controle over het conversieproces nodig
+- U verwerkt documenten als onderdeel van een grotere applicatieworkflow
 - U moet een perfecte opmaakgetrouwheid behouden
 - werkt met documenten die complexe elementen bevatten (tabellen, afbeeldingen, kop- en voetteksten)
 
@@ -178,8 +178,8 @@ Voor eenvoudige, eenmalige conversies gebruikt u misschien liever rechtstreeks M
 
 Voor optimale prestaties van uw DOC naar DOCX-conversies:
 
-1. **Geheugen vooraf toewijzen**:Als u weet dat u veel bestanden zult verwerken, kunt u overwegen de initiële geheugentoewijzing van uw applicatie te verhogen
-2. **Gebruik de juiste bestandspaden**:Netwerkstations kunnen de prestaties vertragen - kopieer bestanden indien mogelijk eerst lokaal
+1. **Geheugen vooraf toewijzen**: Als u weet dat u veel bestanden zult verwerken, kunt u overwegen de initiële geheugentoewijzing van uw applicatie te verhogen
+2. **Gebruik de juiste bestandspaden**: Netwerkstations kunnen de boel vertragen - kopieer bestanden indien mogelijk eerst lokaal
 3. **Controleer het resourcegebruik**: Houd het geheugen- en CPU-gebruik in de gaten, vooral bij grote bestanden
 4. **Overweeg asynchrone verwerking**: Gebruik voor webapplicaties asynchrone methoden om te voorkomen dat de UI-thread wordt geblokkeerd
 
@@ -189,7 +189,7 @@ Het converteren van DOC-bestanden naar DOCX-formaat met Aspose.Words voor .NET i
 
 De kracht van Aspose.Words schuilt in de eenvoud van basisbewerkingen zoals deze, terwijl het toch de kracht en flexibiliteit biedt die u nodig hebt voor complexere documentverwerkingstaken. Of u nu één bestand converteert of duizenden documenten batchgewijs verwerkt, deze aanpak biedt u de betrouwbaarheid en prestaties die u nodig hebt.
 
-Zorg ervoor dat u op een correcte manier met fouten omgaat, vooral in productieomgevingen. Aarzel niet om de uitgebreide documentatie van Aspose.Words te raadplegen voor meer geavanceerde functies en optimalisatietechnieken.
+Zorg ervoor dat u zorgvuldig met fouten omgaat, vooral in productieomgevingen. Aarzel niet om de uitgebreide documentatie van Aspose.Words te raadplegen voor meer geavanceerde functies en optimalisatietechnieken.
 
 ## Veelgestelde vragen
 
@@ -206,8 +206,8 @@ LoadOptions options = new LoadOptions { Password = "your-password" };
 Document doc = new Document("protected-file.doc", options);
 ```
 
-### Is er een limiet aan de bestandsgrootte bij conversie?
+### Is er een bestandsgroottelimiet voor conversie?
 Er is geen harde limiet, maar zeer grote bestanden (> 500 MB) vereisen mogelijk meer geheugen en verwerkingstijd. Voor optimale prestaties kunt u overwegen om extreem grote bestanden in kleinere delen te verwerken of uw systeembronnen te upgraden.
 
 ### Waar kan ik documentatie en ondersteuning voor Aspose.Words vinden?
-U kunt de volledige documentatie raadplegen [hier](https://reference.aspose.com/words/net/)Voor ondersteuning en discussies met de community kunt u terecht op de [Aspose.Words ondersteuningsforum](https://forum.aspose.com/c/words/8)Er is ook een gratis proefversie beschikbaar [hier](https://releases.aspose.com/) als je het eerst wilt uitproberen.
+U kunt de volledige documentatie raadplegen [hier](https://reference.aspose.com/words/net/)Voor ondersteuning en discussies in de community kunt u terecht op de [Aspose.Words ondersteuningsforum](https://forum.aspose.com/c/words/8)Er is ook een gratis proefversie beschikbaar [hier](https://releases.aspose.com/) als je het eerst wilt uitproberen.

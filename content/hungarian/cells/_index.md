@@ -8,7 +8,7 @@
 
 # Aspose.Cells oktatóanyagok
 
-## Mesterfokú Excel automatizálás és adatfeldolgozás platformfüggetlenül
+## Excel automatizálás és adatfeldolgozás mestere platformfüggetlenül
 
 Fedezze fel az Aspose.Cells átfogó képességeit kiterjedt oktatóanyag-gyűjteményünk segítségével. Tanulja meg, hogyan hozhat létre, manipulálhat, konvertálhat és automatizálhat Excel-táblázatokat professzionális adatfeldolgozáshoz és üzleti intelligenciához tervezett hatékony API-k segítségével.
 
@@ -19,7 +19,7 @@ Fedezze fel az Aspose.Cells átfogó képességeit kiterjedt oktatóanyag-gyűjt
 ### Főbb jellemzők
 - **📊 Excel formátumtámogatás**XLS, XLSX, XLSM, CSV, ODS és egyebek
 - **🔄 Kiváló minőségű konverziók**: Excelből PDF-be, képekbe és más formátumokba konvertálás
-- **📈 Diagramfeldolgozás**Diagramok programozott létrehozása, módosítása és konvertálása
+- **📈 Diagramfeldolgozás**Diagramok létrehozása, módosítása és konvertálása programozottan
 - **💾 Adatelemzés**Speciális képletek, pivottáblázatok és számítások
 - **🎨 Gazdag formázás**Teljes kontroll a cellaformázás és a feltételes formázás felett
 

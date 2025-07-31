@@ -1,5 +1,5 @@
 ---
-"description": "In deze handleiding wordt stapsgewijs uitgelegd hoe u de functie 'Kleine metabestanden niet comprimeren' kunt gebruiken. Zo weet u zeker dat uw documenten hun integriteit en kwaliteit behouden tijdens het opslagproces."
+"description": "In deze handleiding wordt stapsgewijs uitgelegd hoe u de functie 'Kleine metabestanden niet comprimeren' kunt gebruiken. Zo weet u zeker dat uw documenten hun integriteit en kwaliteit behouden tijdens het opslaan."
 "linktitle": "Comprimeer geen kleine metabestanden in Word-documenten"
 "second_title": "Aspose.Words API voor documentverwerking"
 "title": "Comprimeer geen kleine metabestanden in Word-documenten"
@@ -17,19 +17,19 @@ Zorg ervoor dat u de volgende benodigdheden bij de hand hebt voordat u aan de sl
 
 1. Aspose.Words voor .NET: Download en installeer de nieuwste versie van [Aspose-releases](https://releases.aspose.com/words/net/).
 2. Ontwikkelomgeving: Gebruik Visual Studio of een andere compatibele IDE.
-3. Basiskennis van C#: kennis van C# en het .NET Framework is nuttig.
+3. Basiskennis van C#: Kennis van C# en het .NET Framework is nuttig.
 4. Aspose-licentie: Om Aspose.Words volledig te ontgrendelen, moet u een [licentie](https://purchase.aspose.com/buy) wordt aanbevolen. Als alternatief kunt u een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor evaluatiedoeleinden.
 
 ## Naamruimten importeren
 
-Om Aspose.Words in uw project te gaan gebruiken, importeert u de benodigde naamruimten door de volgende regels boven aan uw C#-bestand toe te voegen:
+Om Aspose.Words in uw project te gaan gebruiken, importeert u de benodigde naamruimten door de volgende regels bovenaan uw C#-bestand toe te voegen:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-Nu gaan we stap voor stap bekijken hoe u de functie 'Kleine metabestanden niet comprimeren' kunt gebruiken.
+Nu gaan we stap voor stap bekijken hoe u de functie "Kleine metabestanden niet comprimeren" kunt gebruiken.
 
 ## Stap 1: Stel uw documentenmap in
 
@@ -40,11 +40,11 @@ Bepaal eerst de map waarin uw document wordt opgeslagen. Goed beheer van bestand
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
 
-Vervangen `"YOUR DOCUMENTS DIRECTORY"` met het werkelijke pad waar u uw document wilt opslaan.
+Vervangen `"YOUR DOCUMENTS DIRECTORY"` met het daadwerkelijke pad waar u uw document wilt opslaan.
 
 ## Stap 2: Een nieuw document maken
 
-Vervolgens maken we een nieuw document en voegen we er wat inhoud aan toe met behulp van een documentbuilder.
+Vervolgens maken we een nieuw document en voegen we er inhoud aan toe met behulp van een documentbuilder.
 
 ```csharp
 // Een nieuw document maken
@@ -66,18 +66,18 @@ DocSaveOptions saveOptions = new DocSaveOptions {
 };
 ```
 
-Met deze stap wordt een exemplaar gemaakt van `DocSaveOptions` en stelt de `Compliance` eigendom van `PdfCompliance.PdfA1a`, zodat het document voldoet aan de PDF/A-1a-standaard.
+Deze stap maakt een exemplaar van `DocSaveOptions` en stelt de `Compliance` eigendom van `PdfCompliance.PdfA1a`, zodat het document voldoet aan de PDF/A-1a-standaard.
 
 ## Stap 4: Sla het document op
 
-Sla ten slotte het document op volgens de geconfigureerde opties. Zorg er hierbij voor dat kleine metabestanden niet worden gecomprimeerd.
+Sla ten slotte het document op volgens de geconfigureerde opties. Zorg er daarbij voor dat kleine metabestanden niet worden gecomprimeerd.
 
 ```csharp
 // Sla het document op met de opgegeven opties
 doc.Save(dataDir + "DocumentWithDoNotCompressMetafiles.pdf", saveOptions);
 ```
 
-In deze lijn is de `Save` methode van de `Document` De klasse wordt aangeroepen om het document op te slaan. Het pad combineert uw directory met de gewenste bestandsnaam "DocumentWithDoNotCompressMetafiles.pdf".
+In deze lijn is de `Save` methode van de `Document` klasse wordt aangeroepen om het document op te slaan. Het pad combineert uw directory en de gewenste bestandsnaam "DocumentWithDoNotCompressMetafiles.pdf".
 
 ## Conclusie
 

@@ -1,20 +1,21 @@
 ---
-title: Opções de marcador de gráfico em ponto de dados no Aspose.Slides .NET
-linktitle: Opções de marcador de gráfico em ponto de dados no Aspose.Slides .NET
-second_title: API de processamento do PowerPoint Aspose.Slides .NET
-description: Aprenda como aprimorar seus gráficos do PowerPoint com opções de marcadores personalizados usando o Aspose.Slides para .NET. Este guia passo a passo abrange pré-requisitos, criação de gráficos, formatação de pontos de dados e muito mais.
-weight: 11
-url: /pt/slides/master-advanced-chart-customization/chart-marker-options/
+"description": "Aprenda a aprimorar seus gráficos do PowerPoint com opções de marcadores personalizados usando o Aspose.Slides para .NET. Este guia passo a passo aborda pré-requisitos, criação de gráficos, formatação de pontos de dados e muito mais."
+"linktitle": "Opções de marcador de gráfico em ponto de dados no Aspose.Slides .NET"
+"second_title": "API de processamento de PowerPoint Aspose.Slides .NET"
+"title": "Opções de marcador de gráfico em ponto de dados no Aspose.Slides .NET"
+"url": "/pt/slides/net/master-advanced-chart-customization/chart-marker-options/"
+"weight": 11
 ---
+
 ## Introdução
 
-Incorporar recursos visuais em apresentações é essencial para uma comunicação impactante. O Aspose.Slides para .NET fornece ferramentas robustas para criar e personalizar gráficos, permitindo que os desenvolvedores aprimorem suas apresentações de dados. Um dos recursos de destaque é a capacidade de usar opções de marcadores de gráfico em pontos de dados, permitindo uma personalização precisa para gráficos com aparência profissional. Este artigo o guiará por todas as etapas necessárias para atingir isso.
+Incorporar recursos visuais em apresentações é essencial para uma comunicação impactante. O Aspose.Slides para .NET oferece ferramentas robustas para criar e personalizar gráficos, permitindo que desenvolvedores aprimorem suas apresentações de dados. Um dos recursos de destaque é a possibilidade de usar marcadores de gráfico em pontos de dados, permitindo uma personalização precisa para gráficos com aparência profissional. Este artigo explicará todas as etapas necessárias para alcançar esse objetivo.
 
 ## Pré-requisitos
 
 Antes de prosseguir, certifique-se do seguinte:
 
--  Aspose.Slides para .NET instalado: Baixe-o em[aqui](https://releases.aspose.com/slides/net/).
+- Aspose.Slides para .NET instalado: Baixe-o em [aqui](https://releases.aspose.com/slides/net/).
 - Configuração básica: Um arquivo de apresentação, como "Test.pptx", no seu diretório de trabalho.
 - Ambiente de desenvolvimento: Visual Studio ou equivalente, configurado para .NET.
 
@@ -40,7 +41,7 @@ ISlide slide = pres.Slides[0];
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 50, 50, 600, 400);
 ```
 
- Isso adiciona um`LineWithMarkers` gráfico para seu slide com dimensões especificadas.
+Isso adiciona um `LineWithMarkers` gráfico para seu slide com dimensões especificadas.
 
 ## Etapa 2: recuperar o índice da planilha de dados do gráfico
 
@@ -60,7 +61,7 @@ IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 
 ## Etapa 4: Configurar séries de gráficos e adicionar pontos de dados
 
-Limpe as séries padrão e adicione novos pontos de dados para sua série:
+Limpe as séries padrão e adicione novos pontos de dados para suas séries:
 
 ```csharp
 chart.ChartData.Series.Clear();
@@ -93,7 +94,7 @@ series.DataPoints[1].Marker.Format.Fill.FillType = FillType.Picture;
 series.DataPoints[1].Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
 ```
 
-## Etapa 6: Personalize o tamanho do marcador
+## Etapa 6: personalize o tamanho do marcador
 
 Modifique o tamanho dos marcadores para melhorar a visibilidade:
 
@@ -111,21 +112,21 @@ pres.Save(dataDir + "CustomizedChart.pptx", SaveFormat.Pptx);
 
 ## Conclusão
 
-O Aspose.Slides para .NET equipa os desenvolvedores com ferramentas para criar gráficos profissionais com opções de personalização avançadas. Ao aproveitar as opções de marcadores de gráfico, você pode melhorar significativamente o apelo visual e a clareza de suas apresentações. Este guia passo a passo garante que até mesmo personalizações complexas sejam simples de implementar.
+O Aspose.Slides para .NET equipa os desenvolvedores com ferramentas para criar gráficos profissionais com ricas opções de personalização. Ao utilizar as opções de marcadores de gráfico, você pode melhorar significativamente o apelo visual e a clareza das suas apresentações. Este guia passo a passo garante que até mesmo personalizações complexas sejam simples de implementar.
 
 ## Perguntas frequentes
 
-### Posso usar qualquer formato de imagem para personalização de marcadores?
+### Posso usar qualquer formato de imagem para personalização do marcador?
 Sim, o Aspose.Slides suporta vários formatos de imagem, incluindo JPEG, PNG e BMP, para personalização de marcadores.
 
 ### Como altero o tipo de gráfico após a criação?
- Para alterar o tipo de gráfico, acesse o`chart.Type` propriedade e atribuir um diferente`ChartType`.
+Para alterar o tipo de gráfico, acesse o `chart.Type` propriedade e atribuir um diferente `ChartType`.
 
 ### O Aspose.Slides para .NET é compatível com versões mais antigas do PowerPoint?
 Sim, ele suporta compatibilidade com formatos mais antigos do PowerPoint, garantindo versatilidade.
 
 ### Posso atualizar dados do gráfico dinamicamente?
- Absolutamente. Use o`IChartDataWorkbook` para atualizar programaticamente os dados do gráfico.
+Com certeza. Use o `IChartDataWorkbook` para atualizar programaticamente os dados do gráfico.
 
 ### Onde posso encontrar mais recursos?
- Explorar o[Documentação do Aspose.Slides](https://reference.aspose.com/slides/net/)ou junte-se ao[fóruns da comunidade](https://forum.aspose.com/) para suporte.
+Explorar o [Documentação do Aspose.Slides](https://reference.aspose.com/slides/net/) ou junte-se ao [fóruns da comunidade](https://forum.aspose.com/) para suporte.

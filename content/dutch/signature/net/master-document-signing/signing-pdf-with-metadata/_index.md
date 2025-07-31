@@ -1,20 +1,21 @@
 ---
-title: Handleiding voor het ondertekenen van PDF's met metagegevens met behulp van GroupDocs.Signature
-linktitle: Handleiding voor het ondertekenen van PDF's met metagegevens
-second_title: GroupDocs.Signature .NET API
-description: Leer hoe u uw PDF-documenten kunt versterken met verbeterde beveiliging en traceerbaarheid door ze te ondertekenen met metagegevens met behulp van GroupDocs.Signature voor .NET. Deze uitgebreide tutorial biedt een duidelijke.
-weight: 11
-url: /nl/signature/master-document-signing/signing-pdf-with-metadata/
+"description": "Leer hoe u uw PDF-documenten kunt beveiligen en traceren met verbeterde beveiliging door ze te ondertekenen met metadata met GroupDocs.Signature voor .NET. Deze uitgebreide tutorial biedt een duidelijke uitleg."
+"linktitle": "Handleiding voor het ondertekenen van PDF's met metagegevens"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Handleiding voor het ondertekenen van PDF's met metagegevens met behulp van GroupDocs.Signature"
+"url": "/nl/signature/net/master-document-signing/signing-pdf-with-metadata/"
+"weight": 11
 ---
+
 ## Invoering
 
-In deze tutorial leren we hoe we een PDF-document ondertekenen en metadata toevoegen met behulp van GroupDocs.Signature voor .NET. Het toevoegen van metadata verbetert het document door essentiële informatie te verstrekken, zoals auteurschap, aanmaakdatum, document-ID en meer.
+In deze tutorial leren we hoe we een PDF-document kunnen ondertekenen en metadata kunnen toevoegen met GroupDocs.Signature voor .NET. Het toevoegen van metadata verbetert het document door essentiële informatie te verstrekken, zoals auteurschap, aanmaakdatum, document-ID en meer.
 
 ## Vereisten
 
 Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
-1.  GroupDocs.Signature voor .NET: Download het van[hier](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature voor .NET: Download het van [hier](https://releases.groupdocs.com/signature/net/).
 2. Een PDF-document: Zorg dat u een voorbeeld-PDF-bestand bij de hand hebt om te ondertekenen.
 3. Basiskennis van C#-programmering: Kennis van de C#-syntaxis is noodzakelijk om de codevoorbeelden te begrijpen.
 
@@ -30,7 +31,7 @@ using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
 
-## Stap 1: Het PDF-document laden
+## Stap 1: laad het PDF-document
 
 Geef het pad op van het PDF-document dat u wilt ondertekenen:
 
@@ -38,9 +39,9 @@ Geef het pad op van het PDF-document dat u wilt ondertekenen:
 string filePath = "sample.pdf";
 ```
 
-## Stap 2: Geef het pad van het uitvoerbestand op
+## Stap 2: Geef het pad naar het uitvoerbestand op
 
-Definieer waar de ondertekende PDF met metagegevens wordt opgeslagen:
+Definieer waar het ondertekende PDF-bestand met metagegevens wordt opgeslagen:
 
 ```csharp
 string outputFilePath = Path.Combine("Your Document Directory", "SignPdfWithMetadata", "SignedWithMetadata.pdf");
@@ -48,7 +49,7 @@ string outputFilePath = Path.Combine("Your Document Directory", "SignPdfWithMeta
 
 ## Stap 3: Een handtekeninginstantie maken
 
- Initialiseren van een`Signature` exemplaar met het pad naar het PDF-document:
+Initialiseer een `Signature` instantie met het pad naar het PDF-document:
 
 ```csharp
 using (Signature signature = new Signature(filePath))
@@ -59,13 +60,13 @@ using (Signature signature = new Signature(filePath))
 
 ## Stap 4: Metagegevensopties definiëren
 
- Creëren`MetadataSignOptions` en voeg de metagegevensvelden samen met hun waarden toe:
+Creëren `MetadataSignOptions` en voeg de metagegevensvelden samen met hun waarden toe:
 
 ```csharp
 MetadataSignOptions options = new MetadataSignOptions();
 options
     .Add(new PdfMetadataSignature("Author", "Mr. Sherlock Holmes")) // Stringwaarde
-    .Add(new PdfMetadataSignature("CreatedOn", DateTime.Now))       // DateTime-waarde
+    .Add(new PdfMetadataSignature("CreatedOn", DateTime.Now))       // Datum/tijd-waarde
     .Add(new PdfMetadataSignature("DocumentId", 123456))            // Gehele waarde
     .Add(new PdfMetadataSignature("SignatureId", 123.456D))         // Dubbele waarde
     .Add(new PdfMetadataSignature("Amount", 123.456M))              // Decimale waarde
@@ -83,7 +84,7 @@ Console.WriteLine($"\nSource document signed successfully with {result.Succeeded
 
 ## Conclusie
 
-In deze tutorial hebben we behandeld hoe u een PDF-document ondertekent met metadata met behulp van GroupDocs.Signature voor .NET. Door deze stappen te volgen, kunt u uw PDF-bestanden eenvoudig verrijken met waardevolle metadata, waardoor hun traceerbaarheid en bruikbaarheid worden verbeterd.
+In deze tutorial hebben we uitgelegd hoe je een PDF-document kunt ondertekenen met metadata met behulp van GroupDocs.Signature voor .NET. Door deze stappen te volgen, kun je je PDF-bestanden eenvoudig verrijken met waardevolle metadata, waardoor ze beter vindbaar en bruikbaarder worden.
 
 ## Veelgestelde vragen
 
@@ -101,8 +102,8 @@ Ja, GroupDocs.Signature ondersteunt een breed scala aan documentformaten, waaron
 
 ### Kan ik meerdere documenten in bulk ondertekenen met GroupDocs.Signature voor .NET?
 
-Absoluut! U kunt meerdere documenten in bulk ondertekenen door een lijst met bestanden te doorlopen en het handtekeningproces programmatisch toe te passen.
+Absoluut! U kunt meerdere documenten in bulk ondertekenen door een lijst met bestanden te doorlopen en het ondertekeningsproces programmatisch toe te passen.
 
 ### Is er technische ondersteuning beschikbaar voor GroupDocs.Signature-gebruikers?
 
- Ja, GroupDocs biedt toegewijde technische ondersteuning via haar forums. U kunt het supportforum bereiken[hier](https://forum.groupdocs.com/c/signature/13).
+Ja, GroupDocs biedt speciale technische ondersteuning via de forums. U kunt het ondersteuningsforum bereiken via [hier](https://forum.groupdocs.com/c/signature/13).

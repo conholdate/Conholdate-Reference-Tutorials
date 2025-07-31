@@ -1,13 +1,14 @@
 ---
-title: Komplexní návody a příklady GroupDocs.Viewer pro .NET
-linktitle: GroupDocs.Viewer pro .NET výukové programy
-weight: 10
-url: /cs/viewer/
-description: Objevte komplexní výukové programy a příklady pro integraci GroupDocs.Viewer .NET do vašich aplikací. Naučte se krok za krokem techniky pro vylepšenou správu dokumentů.
-is_root: true
+"description": "Objevte komplexní návody a příklady pro integraci GroupDocs.Viewer .NET do vašich aplikací. Naučte se krok za krokem techniky pro vylepšenou správu dokumentů."
+"is_root": true
+"linktitle": "Výukové programy pro GroupDocs.Viewer pro .NET"
+"title": "Komplexní návody a příklady pro GroupDocs.Viewer pro .NET"
+"url": "/cs/viewer/net/"
+"weight": 10
 ---
-## GroupDocs.Viewer pro .NET výukové programy
+
+## Výukové programy pro GroupDocs.Viewer pro .NET
 ### [Zvládnutí pokročilého načítání dokumentů](./advanced-document-loading/)
-Prozkoumejte výukové programy GroupDocs.Viewer for .NET a snadno integrujte pokročilé možnosti prohlížení dokumentů do vašich aplikací.
+Prozkoumejte tutoriály k GroupDocs.Viewer pro .NET a snadno integrujte pokročilé funkce prohlížení dokumentů do svých aplikací.
 ### [Zvládnutí možností vykreslování v GroupDocs.Viewer pro .NET](./mastering-render-options/)
-Odemkněte potenciál .NET pomocí výukových programů GroupDocs.Viewer. Naučte se snadno vykreslovat dokumenty, spravovat komentáře a měnit pořadí stránek.
+Odemkněte potenciál .NET s tutoriály GroupDocs.Viewer. Naučte se snadno vykreslovat dokumenty, spravovat komentáře a měnit pořadí stránek.

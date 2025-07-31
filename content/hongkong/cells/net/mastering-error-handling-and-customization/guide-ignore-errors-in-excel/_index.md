@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Cells for .NET 將 Excel 文件無縫轉換為 PDF，並避免轉換過程中的錯誤。本逐步指南提供了清晰的說明和必要的程式碼片段。"
+"description": "了解如何使用 Aspose.Cells for .NET 將 Excel 文件無縫轉換為 PDF，同時避免轉換過程中的錯誤。本逐步指南提供了清晰的說明和必要的程式碼片段。"
 "linktitle": "Excel 到 PDF 渲染忽略錯誤的指南"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "Excel 到 PDF 渲染忽略錯誤的指南"
@@ -9,14 +9,14 @@
 
 ## 介紹
 
-將 Excel 檔案轉換為 PDF 有時會令人沮喪，尤其是在出現意外錯誤時。如果您正在處理需要共享或存檔的關鍵數據，轉換過程中的中斷可能會是一場噩夢。幸運的是，Aspose.Cells for .NET 提供了一個解決方案，讓您忽略這些惱人的錯誤，並將您的 Excel 工作表無縫轉換為精美的 PDF。在本指南中，我們將逐步引導您完成整個過程！
+將 Excel 檔案轉換為 PDF 有時會令人沮喪，尤其是當錯誤意外彈出時。如果您正在處理需要共享或存檔的關鍵數據，轉換過程中的中斷可能會成為一場噩夢。幸運的是，Aspose.Cells for .NET 提供了一個解決方案，讓您可以忽略這些討厭的錯誤並將您的 Excel 表無縫轉換為精美的 PDF。在本指南中，我們將逐步引導您完成整個過程！
 
 ## 先決條件
 
 在深入研究程式碼之前，請確保您已做好以下準備：
 
-1. .NET 環境：確保您的電腦上已安裝 .NET。 Aspose.Cells 相容於 .NET Framework 和 .NET Core。
-2. Aspose.Cells 庫：將 Aspose.Cells 庫整合到您的專案中。如果您還沒有集成，可以下載。 [這裡](https://releases。aspose.com/cells/net/).
+1. .NET 環境：請確定您的機器上安裝了 .NET。 Aspose.Cells 可與 .NET Framework 和 .NET Core 搭配使用。
+2. Aspose.Cells 庫：將 Aspose.Cells 庫整合到您的專案中。如果你還沒有這樣做，你可以下載 [這裡](https://releases。aspose.com/cells/net/).
 3. 對 C# 的基本了解：熟悉 C# 將有助於您順利跟進。
 4. 範例 Excel 檔案：準備一個您預期在轉換過程中可能會出現錯誤的範例 Excel 工作簿。
 
@@ -24,7 +24,7 @@
 
 ## 步驟1：導入必要的套件
 
-若要存取 Aspose.Cells 功能，您需要匯入所需的命名空間。在 C# 檔案的頂部新增以下幾行：
+若要存取 Aspose.Cells 功能，您需要匯入所需的命名空間。在 C# 檔案的頂部新增以下行：
 
 ```csharp
 using System;
@@ -37,7 +37,7 @@ using System.Text;
 
 ## 第 2 步：設定目錄
 
-定義來源 Excel 檔案的位置以及要儲存輸出 PDF 的位置。為以下路徑建立變數：
+定義來源 Excel 檔案的位置以及要儲存輸出 PDF 的位置。為這些路徑建立變數：
 
 ```csharp
 // 來源目錄
@@ -84,7 +84,7 @@ wb.Save(outputDir + "outputErrorExcel2Pdf.pdf", opts);
 
 ## 步驟6：確認執行成功
 
-儲存 PDF 後，最好通知自己（或使用者）流程已成功。您可以透過一條簡單的控制台訊息來做到這一點：
+儲存 PDF 後，最好通知自己（或使用者）流程已成功。您可以使用簡單的控制台訊息來完成此操作：
 
 ```csharp
 Console.WriteLine("Conversion executed successfully. Check your output directory for the PDF.");
@@ -94,7 +94,7 @@ Console.WriteLine("Conversion executed successfully. Check your output directory
 
 ## 結論
 
-恭喜！您已成功將 Excel 檔案轉換為 PDF，且流程中遇到的所有錯誤都已忽略。 Aspose.Cells for .NET 不僅簡化了此任務，還使您能夠有效率地處理數據，避免常見的 Excel 問題。
+恭喜！您已成功將 Excel 檔案轉換為 PDF，同時忽略了流程中遇到的任何錯誤。 Aspose.Cells for .NET 不僅簡化了這項任務，而且還允許您有效率地處理數據，而不會受到常見 Excel 問題的困擾。
 
 ## 常見問題解答
 
@@ -104,7 +104,7 @@ Aspose.Cells 是一個強大的 .NET 程式庫，使開發人員能夠以程式�
 
 ### 除了將 Excel 轉換為 PDF 之外，我可以將 Aspose.Cells 用於其他用途嗎？
 
-當然！ Aspose.Cells 還允許您建立、修改和渲染 Excel 文件，以及其他功能。
+絕對地！ Aspose.Cells 還允許您建立、修改和呈現 Excel 檔案以及其他功能。
 
 ### 如何取得 Aspose.Cells 的臨時授權？
 

@@ -45,7 +45,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-## Stap 2: Definieer de documentmap
+## Stap 2: Definieer de documentdirectory
 
 Bepaal het pad naar uw Excel-bestand. Dit is waar uw code wordt gelezen en opgeslagen:
 

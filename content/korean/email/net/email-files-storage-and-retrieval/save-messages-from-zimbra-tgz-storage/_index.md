@@ -63,7 +63,7 @@ using (TgzReader reader = new TgzReader(dataDir + "ZimbraSample.tgz"))
 reader.ExportTo(outputDir);  
 ```  
 
-### 작동 방식  
+### 작동 원리  
 그만큼 `ExportTo` 이 방법은 TGZ 파일을 탐색하여 내용을 추출하고 지정한 폴더에 저장합니다. 두 폴더 간에 파일을 복사하여 붙여넣는 것만큼 간단하지만 훨씬 더 효율적입니다!  
 
 

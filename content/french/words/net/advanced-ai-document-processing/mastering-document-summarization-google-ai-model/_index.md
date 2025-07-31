@@ -58,7 +58,7 @@ Pour commencer le développement de résumés de documents .NET, assurez-vous de
 
 ## Importer les espaces de noms nécessaires
 
-Commencez par importer les espaces de noms requis pour intégrer Aspose.Words à Google AI pour votre projet .NET de résumé de documents.
+Commencez par importer les espaces de noms requis pour intégrer Aspose.Words à Google AI pour votre projet de résumé de documents .NET.
 
 ```csharp
 using System;
@@ -151,7 +151,7 @@ Ce code crée une version résumée de `firstDoc` et l'enregistre dans le réper
 **Options de longueur du résumé**:
 - **Court**: 1 à 3 paragraphes, idéal pour des aperçus rapides
 - **Moyen**: 3 à 5 paragraphes, détails équilibrés et concision  
-- **Long**: 5+ paragraphes, complet mais condensé
+- **Long**:5+ paragraphes, complet mais condensé
 
 **Conseil de performance**:Pour les documents volumineux, les résumés courts sont traités plus rapidement et consomment moins de jetons API, ce qui les rend plus rentables pour les applications .NET de résumé de documents à volume élevé.
 

@@ -40,7 +40,7 @@ Utwórzmy nowy projekt w programie Visual Studio:
 1. Otwórz program Visual Studio.
 2. Kliknij Utwórz nowy projekt.
 3. Wybierz opcję Aplikacja konsolowa (.NET Core) lub Aplikacja konsolowa (.NET Framework).
-4. Kliknij Dalej, nadaj nazwę swojemu projektowi i kliknij Utwórz.
+4. Kliknij Dalej, nadaj nazwę projektowi i kliknij Utwórz.
 
 ### Zainstaluj Aspose.Words dla .NET
 

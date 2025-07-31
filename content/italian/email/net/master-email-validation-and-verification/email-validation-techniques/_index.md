@@ -195,7 +195,7 @@ Sì! Sebbene questo articolo si concentri su C# e Aspose.Email per .NET, princip
 
 ### Aspose.Email offre il rilevamento delle email monouso?
 
-Aspose.Email non fornisce direttamente funzionalità di rilevamento delle email usa e getta. Tuttavia, è possibile integrare librerie di terze parti a questo scopo.
+Aspose.Email non fornisce direttamente funzionalità di rilevamento delle email monouso. Tuttavia, è possibile integrare librerie di terze parti a questo scopo.
 
 ### La sola convalida della sintassi è sufficiente per una convalida affidabile delle e-mail?
 

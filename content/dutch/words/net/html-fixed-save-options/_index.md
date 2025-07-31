@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Aspose.Words voor .NET is een krachtige bibliotheek die het werken met Microsoft Word-documenten een fluitje van een cent maakt. Ben je een ontwikkelaar die programmatisch documenten wil bewerken? Dan ben je hier aan het juiste adres! Een van de essentiële functies van Aspose.Words is de mogelijkheid om documenten op te slaan in verschillende formaten, waaronder HTML. In dit artikel gaan we dieper in op de vaste opties voor het opslaan van HTML, waarmee je consistente en visueel aantrekkelijke resultaten kunt creëren.
+Aspose.Words voor .NET is een krachtige bibliotheek die het verwerken van Microsoft Word-documenten een fluitje van een cent maakt. Ben je een ontwikkelaar die programmatisch documenten wil bewerken? Dan ben je hier aan het juiste adres! Een van de essentiële functies van Aspose.Words is de mogelijkheid om documenten op te slaan in verschillende formaten, waaronder HTML. In dit artikel gaan we dieper in op de vaste opties voor het opslaan van HTML, waarmee je consistente en visueel aantrekkelijke resultaten kunt creëren.
 
 ## Waarom vaste HTML-opslagopties gebruiken?
 
@@ -19,7 +19,7 @@ Stel je voor dat je een prachtig Word-document maakt, compleet met mooie lettert
 
 Heb je ooit meerdere CSS-bestanden moeten jongleren bij het werken met HTML-uitvoer? Dat kan overweldigend aanvoelen, toch? Gelukkig biedt Aspose.Words een oplossing die dit proces vereenvoudigt. Bij het opslaan van documenten met de HtmlFixedSaveOptions-functie kan Aspose.Words alle CSS-regels in één bestand consolideren. Dit ruimt niet alleen je code op, maar verbetert ook de laadtijden van webapplicaties. Wil je leren hoe je dit kunt implementeren? Duik in onze tutorial over [Sla alle CSS-regels op in één bestand](./save-all-css-rules-in-single-file/), waar u gedetailleerde stappen vindt om deze techniek onder de knie te krijgen.
 
- ## HTML Vaste Opslagopties Tutorials
+ ## HTML Vaste opslagopties Tutorials
 | Titel | Beschrijving |
 | --- | --- |
 | [Doelmachinelettertypen met Aspose.Words voor .NET](./target-machine-font/) | Ontdek hoe u ervoor kunt zorgen dat uw Word-documenten er op verschillende platforms consistent uitzien door gebruik te maken van machinelettertypen met Aspose.Words voor .NET. |

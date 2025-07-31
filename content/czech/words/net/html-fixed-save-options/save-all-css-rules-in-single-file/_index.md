@@ -1,6 +1,6 @@
 ---
 "description": "Naučte se, jak pomocí Aspose.Words pro .NET zapsat všechna pravidla CSS do jednoho souboru při ukládání dokumentů pomocí HtmlFixedSaveOptions. Postupujte podle tohoto podrobného návodu, který vám krok za krokem pomůže."
-"linktitle": "Zapsat všechna pravidla CSS do jednoho souboru"
+"linktitle": "Zapsat všechna CSS pravidla do jednoho souboru"
 "second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
 "title": "Uložit všechna pravidla CSS do jednoho souboru"
 "url": "/cs/words/net/html-fixed-save-options/save-all-css-rules-in-single-file/"
@@ -22,7 +22,7 @@ Než se pustíme do kódování, ujistěte se, že máte následující:
 
 ## Importovat jmenné prostory
 
-Nejdříve si do vašeho projektu v C# importujme potřebné jmenné prostory. To nám umožní snadný přístup k funkcím Aspose.Words.
+Nejdříve si importujme potřebné jmenné prostory do vašeho projektu v C#. To nám umožní snadný přístup k funkcím Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -33,7 +33,7 @@ Rozdělme si tento proces na zvládnutelné kroky, abychom zajistili hladký pr�
 
 ## Krok 1: Nastavení adresáře dokumentů
 
-Nejprve si určete cestu k adresáři, kde se nachází váš dokument Word a kam bude uložen převedený HTML soubor.
+Nejprve určete cestu k adresáři, kde se nachází váš dokument Word a kam bude uložen převedený HTML soubor.
 
 ```csharp
 // Definujte cestu k adresáři s dokumenty

@@ -33,7 +33,7 @@ using Aspose.Pdf;
 using Aspose.Pdf.Forms;
 ```
 
-Diese Namespaces ermöglichen den Zugriff auf Klassen wie `Document`, `ComboBoxField`und andere wichtige Dienstprogramme.
+Diese Namespaces ermöglichen den Zugriff auf Klassen wie `Document`, `ComboBoxField`und andere wichtige Versorgungseinrichtungen.
 
 ## Schritt 1: Richten Sie Ihr PDF-Dokument ein
 

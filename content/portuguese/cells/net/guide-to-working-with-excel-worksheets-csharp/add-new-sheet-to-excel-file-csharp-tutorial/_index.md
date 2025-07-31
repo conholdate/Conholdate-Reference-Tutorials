@@ -57,7 +57,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Esses namespaces dão acesso a operações de arquivo e a todas as funcionalidades do Aspose.Cells necessárias. Sem eles, você terá erros de compilação que podem ser confusos se você for novo na biblioteca.
+Esses namespaces dão acesso a operações de arquivo e a todas as funcionalidades do Aspose.Cells necessárias. Sem eles, você terá erros de compilação que podem ser confusos para quem não tem familiaridade com a biblioteca.
 
 ## Etapa 1: Configurar diretório para armazenamento de arquivos
 

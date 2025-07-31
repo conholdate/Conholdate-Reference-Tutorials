@@ -154,14 +154,14 @@ Bahkan dengan kode yang sempurna, terkadang ada hal-hal yang tidak berjalan sesu
 ### Masalah Memori dengan File Besar
 
 **Masalah**: Mengonversi file EPUB yang sangat besar menyebabkan pengecualian kehabisan memori.
-**Larutan**: Jika memungkinkan, proses file besar dalam potongan-potongan kecil, atau tingkatkan alokasi memori aplikasi Anda. Selain itu, pastikan untuk menghapus objek Dokumen setelah selesai digunakan.
+**Larutan**: Jika memungkinkan, proses berkas besar dalam potongan-potongan kecil, atau tingkatkan alokasi memori aplikasi Anda. Selain itu, pastikan untuk menghapus objek Dokumen setelah selesai digunakan.
 
 ### File EPUB Rusak atau Tidak Valid
 
 **Masalah**:Beberapa file EPUB tidak dapat dikonversi dengan benar.
 **Larutan**Validasi berkas EPUB Anda menggunakan alat seperti EPUBCheck sebelum mencoba konversi. Tidak semua berkas EPUB dibuat sama—beberapa mungkin memiliki masalah struktural yang mencegah konversi yang tepat.
 
-## Praktik Terbaik dan Tips Pro
+## Praktik Terbaik dan Kiat Pro
 
 ### Optimasi Kinerja
 

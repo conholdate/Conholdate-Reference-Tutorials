@@ -36,7 +36,7 @@ Ensuite, spécifiez le chemin d'accès au répertoire où sont stockés vos docu
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-## Étape 3 : Détecter le format de fichier
+## Étape 3 : Détecter le format du fichier
 
 Maintenant, nous allons utiliser le `DetectFileFormat` méthode de la `FileFormatUtil` classe pour collecter des informations sur le format du fichier. Dans cet exemple, nous supposons que le document chiffré s'appelle « Encrypted.docx » et se trouve dans le répertoire spécifié :
 

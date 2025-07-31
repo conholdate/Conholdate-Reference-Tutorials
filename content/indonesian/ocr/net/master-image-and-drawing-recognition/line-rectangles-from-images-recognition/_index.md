@@ -1,14 +1,15 @@
 ---
-title: Mengekstrak Garis Persegi Panjang dari Pengenalan Gambar
-linktitle: Mengekstrak Garis Persegi Panjang dari Pengenalan Gambar
-second_title: API Aspose.OCR .NET
-description: Pelajari cara menerapkan Optical Character Recognition (OCR) di aplikasi .NET Anda menggunakan Aspose.OCR. Panduan komprehensif ini memandu Anda melalui proses mengekstraksi persegi panjang untuk garis yang dikenali.
-weight: 10
-url: /id/ocr/master-image-and-drawing-recognition/line-rectangles-from-images-recognition/
+"description": "Pelajari cara menerapkan Pengenalan Karakter Optik (OCR) di aplikasi .NET Anda menggunakan Aspose.OCR. Panduan komprehensif ini memandu Anda melalui proses ekstraksi persegi panjang untuk garis yang dikenali."
+"linktitle": "Mengekstrak Garis Persegi Panjang dari Pengenalan Gambar"
+"second_title": "Aspose.OCR .NET API"
+"title": "Mengekstrak Garis Persegi Panjang dari Pengenalan Gambar"
+"url": "/id/ocr/net/master-image-and-drawing-recognition/line-rectangles-from-images-recognition/"
+"weight": 10
 ---
+
 ## Perkenalan
 
-Selamat datang di dunia Aspose.OCR untuk .NET, alat yang mengagumkan yang dirancang untuk mengintegrasikan Pengenalan Karakter Optik (OCR) ke dalam aplikasi .NET Anda. Apakah Anda seorang pengembang berpengalaman atau pendatang baru yang penasaran, panduan ini akan memandu Anda melalui langkah-langkah untuk memperoleh persegi panjang yang mewakili garis dari teks yang dikenali dalam gambar.
+Selamat datang di dunia Aspose.OCR untuk .NET, alat impresif yang dirancang untuk mengintegrasikan Pengenalan Karakter Optik (OCR) ke dalam aplikasi .NET Anda. Baik Anda pengembang berpengalaman maupun pemula yang penasaran, panduan ini akan memandu Anda melalui langkah-langkah untuk mendapatkan persegi panjang yang mewakili garis dari teks yang dikenali dalam gambar.
 
 ## Prasyarat
 
@@ -16,12 +17,12 @@ Sebelum memulai, pastikan Anda telah menyiapkan hal-hal berikut:
 
 - Pengetahuan dasar tentang pengembangan C# dan .NET.
 - Lingkungan pengembangan terpadu (IDE) seperti Visual Studio.
--  Pustaka Aspose.OCR untuk .NET telah terinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/ocr/net/).
+- Pustaka Aspose.OCR untuk .NET telah terinstal. Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/ocr/net/).
 - Contoh gambar yang berisi teks untuk pengenalan.
 
 ## Ruang Nama yang Diperlukan
 
-Untuk memulai, Anda perlu menambahkan namespace yang diperlukan ke proyek Anda. Sertakan baris berikut di bagian atas berkas C# Anda:
+Untuk memulai, Anda perlu menambahkan namespace yang diperlukan ke proyek Anda. Sertakan baris-baris ini di bagian atas berkas C# Anda:
 
 ```csharp
 using System;
@@ -42,11 +43,11 @@ Tentukan direktori tempat berkas gambar Anda berada:
 string dataDir = "Your Document Directory";
 ```
 
- Pastikan untuk mengganti`"Your Document Directory"` dengan jalur sebenarnya.
+Pastikan untuk mengganti `"Your Document Directory"` dengan jalur sebenarnya.
 
 ## Langkah 2: Inisialisasi Aspose.OCR
 
- Buat contoh dari`AsposeOcr` kelas untuk mengakses fitur-fiturnya:
+Buat contoh dari `AsposeOcr` kelas untuk mengakses fitur-fiturnya:
 
 ```csharp
 // Inisialisasi API Aspose.OCR
@@ -64,7 +65,7 @@ string fullPath = dataDir + "sample.png";
 
 ## Langkah 4: Kenali Gambar dan Dapatkan Persegi Panjang untuk Garis
 
- Sekarang, Anda dapat menggunakan`GetRectangles` metode untuk mengekstrak persegi panjang dari baris teks yang dikenali:
+Sekarang, Anda dapat menggunakan `GetRectangles` metode untuk mengekstrak persegi panjang dari baris teks yang dikenali:
 
 ```csharp
 // Ambil persegi panjang untuk garis pada gambar yang ditentukan
@@ -97,12 +98,12 @@ Aspose.OCR menggunakan algoritma canggih untuk mencapai akurasi tinggi dalam pen
 
 ### Apakah versi uji coba tersedia?
 
- Ya, Anda dapat menjelajahi fitur Aspose.OCR untuk .NET dengan mengunduh[uji coba gratis](https://releases.aspose.com/).
+Ya, Anda dapat menjelajahi fitur Aspose.OCR untuk .NET dengan mengunduh [uji coba gratis](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi terperinci?
 
- Dokumentasi lengkap dapat ditemukan[Di Sini](https://reference.aspose.com/ocr/net/), menawarkan informasi dan panduan yang mendalam.
+Dokumentasi lengkap dapat ditemukan [Di Sini](https://reference.aspose.com/ocr/net/), menawarkan informasi dan panduan mendalam.
 
 ### Butuh bantuan lebih lanjut atau punya pertanyaan?
 
- Bergabunglah dalam diskusi di[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan komunitas.
+Bergabunglah dalam diskusi di [Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan komunitas.

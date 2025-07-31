@@ -143,12 +143,12 @@ Ici, le modèle d’IA génère un bref résumé de `firstDoc`Le document résum
 Le `SummaryLength` Le paramètre est plus important qu'on ne le pense. Voici ce que chaque option produit généralement :
 
 - **Court**: 2 à 3 paragraphes, parfaits pour les aperçus exécutifs
-- **Moyen**: 1 à 2 pages, idéal pour les briefings détaillés
+- **Moyen**: 1 à 2 pages, idéal pour des briefings détaillés
 - **Long**: 3 à 5 pages, idéal pour une analyse complète
 
 ### Quand utiliser le résumé d'un seul document
 
-Le traitement de documents uniques est parfait pour :
+Le traitement d'un seul document est parfait pour :
 - Demandes de résumé en temps réel
 - Applications interactives où les utilisateurs téléchargent des documents
 - Tests de qualité et validation de votre pipeline de synthèse

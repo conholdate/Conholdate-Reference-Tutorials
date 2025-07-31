@@ -156,4 +156,4 @@ MimePartSaved - SavedMimePartCount: 5
 ใช่ โค้ดนี้เข้ากันได้กับแอปพลิเคชันเว็บที่ใช้ ASP.NET หรือเฟรมเวิร์กที่คล้ายคลึงกัน  
 
 ### ฉันสามารถหาแหล่งข้อมูลเพิ่มเติมได้ที่ไหน  
-ลองตรวจดู [เอกสารประกอบ](https://reference.aspose.com/email/net/) หรือเยี่ยมชม [ฟอรัมสนับสนุน](https://forum.aspose.com/c/email/12/) เพื่อขอความช่วยเหลือ
+ลองตรวจสอบดู [เอกสารประกอบ](https://reference.aspose.com/email/net/) หรือเยี่ยมชม [ฟอรัมสนับสนุน](https://forum.aspose.com/c/email/12/) เพื่อขอความช่วยเหลือ

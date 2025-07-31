@@ -9,7 +9,7 @@
 
 ## Introducción
 
-Al trabajar con archivos de Excel mediante programación, es posible que necesite proteger áreas específicas de una hoja de cálculo y permitir que otras permanezcan editables. Aspose.Cells para .NET ofrece una forma eficaz de lograrlo. En este tutorial, le guiaremos paso a paso por el proceso de proteger columnas específicas en una hoja de cálculo de Excel.
+Al trabajar programáticamente con archivos de Excel, es posible que necesite proteger áreas específicas de una hoja de cálculo y permitir que otras permanezcan editables. Aspose.Cells para .NET ofrece una forma eficaz de lograrlo. En este tutorial, le guiaremos paso a paso por el proceso de proteger columnas específicas en una hoja de cálculo de Excel.
 
 ## Prerrequisitos
 Antes de comenzar, asegúrese de tener lo siguiente:

@@ -65,7 +65,7 @@ Här är några praktiska tips som kommer att bespara dig huvudvärk längre fra
 
 **Layoutproblem efter konvertering**Detta händer vanligtvis med komplexa PDF-filer som använder ovanliga teckensnitt eller avancerad formatering. Försök att justera konverteringsinställningarna eller överväg att använda OCR för skannade dokument.
 
-**Stor filbehandling**Om du når minnesgränserna med stora filer kan du överväga att dela upp PDF-filen i mindre avsnitt eller öka programmets minnesallokering.
+**Stora filbehandlingar**Om du når minnesgränserna med stora filer kan du överväga att dela upp PDF-filen i mindre avsnitt eller öka programmets minnesallokering.
 
 **Problem med teckensnittsersättning**När teckensnitt inte är tillgängliga kommer biblioteket att ersätta dem, vilket kan påverka utseendet. Installera de nödvändiga teckensnitten på din server eller konfigurera teckensnittskataloger korrekt.
 

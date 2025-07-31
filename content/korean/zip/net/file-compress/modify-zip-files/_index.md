@@ -1,26 +1,27 @@
 ---
-title: Aspose.Zip for .NET으로 Zip 파일 수정
-linktitle: Zip 파일 수정
-second_title: 파일 압축 및 보관을 위한 Aspose.Zip .NET API
-description: 프로그래밍 방식으로 zip 파일을 효율적으로 추출, 삭제하고 항목을 추가하는 방법을 알아보고 파일 조작 역량을 강화하세요.
-weight: 15
-url: /ko/zip/file-compress/modify-zip-files/
+"description": "프로그래밍 방식으로 zip 파일을 효율적으로 추출, 삭제, 추가하는 방법을 배우고 파일 조작 역량을 향상시켜 보세요."
+"linktitle": "Zip 파일 수정"
+"second_title": "파일 압축 및 보관을 위한 Aspose.Zip .NET API"
+"title": "Aspose.Zip for .NET을 사용하여 Zip 파일 수정"
+"url": "/ko/zip/net/file-compress/modify-zip-files/"
+"weight": 15
 ---
+
 ## 소개
 
-Zip 파일은 데이터 구성 및 압축에 필수적이지만, 어떻게 프로그래밍 방식으로 내용을 수정할까요? 해결책은 C#으로 zip 파일 조작을 간소화하는 강력한 라이브러리인 Aspose.Zip for .NET에 있습니다. 이 튜토리얼에서는 zip 파일을 추출, 삭제 및 추가하는 방법을 단계별로 안내합니다.
+Zip 파일은 데이터 구성 및 압축에 필수적이지만, 프로그래밍 방식으로 내용을 어떻게 수정할 수 있을까요? 해결책은 C#을 사용하여 Zip 파일을 간편하게 조작할 수 있는 강력한 라이브러리인 Aspose.Zip for .NET을 사용하는 것입니다. 이 튜토리얼에서는 Zip 파일의 압축을 풀고, 삭제하고, 항목을 추가하는 방법을 단계별로 안내합니다.
 
 ## 필수 조건
 
-자세한 내용을 살펴보기 전에 다음 사항이 있는지 확인하세요.
+자세히 알아보기 전에 다음 사항을 확인하세요.
 
-1.  Aspose.Zip for .NET 라이브러리: 프로젝트에 라이브러리를 설치하세요. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/zip/net/).
+1. Aspose.Zip for .NET 라이브러리: 프로젝트에 라이브러리를 설치하세요. 다운로드할 수 있습니다. [여기](https://releases.aspose.com/zip/net/).
    
-2.  문서 디렉토리: zip 파일을 저장할 디렉토리를 설정합니다. 바꾸기`"Your Document Directory"` 실제 경로를 코드에 넣으세요.
+2. 문서 디렉터리: zip 파일을 저장할 디렉터리를 설정합니다. 바꾸기 `"Your Document Directory"` 실제 경로를 코드에 넣으세요.
 
 ## 필요한 네임스페이스 가져오기
 
-필요한 네임스페이스를 가져오는 것으로 시작합니다.
+먼저 필요한 네임스페이스를 가져옵니다.
 
 ```csharp
 using Aspose.Zip;
@@ -40,7 +41,7 @@ using System.Threading.Tasks;
 string dataDir = "Your Data Directory";
 using (Archive outer = new Archive(dataDir + "outer.zip"))
 {
-    // 내부 우편번호 항목 식별로 진행
+    // 내부 우편번호 항목을 식별하세요
 }
 ```
 
@@ -103,7 +104,7 @@ for (int i = 0; i < namesToInsert.Count; i++)
 
 ## 5단계: 수정된 Zip 파일 저장
 
-마지막으로 변경 사항을 새 zip 파일에 저장합니다.
+마지막으로, 변경 사항을 새 zip 파일에 저장합니다.
 
 ```csharp
 outer.Save(dataDir + "flatten.zip");
@@ -111,21 +112,21 @@ outer.Save(dataDir + "flatten.zip");
 
 ## 결론
 
-Aspose.Zip for .NET은 zip 파일을 프로그래밍 방식으로 조작하는 강력하고 간단한 방법을 제공합니다. 이 튜토리얼은 zip 파일에서 항목을 추출, 삭제 및 추가하는 방법을 다루며 라이브러리의 다양성을 보여줍니다. 다양한 시나리오를 탐색하고 파일 조작 기술을 향상시키세요!
+Aspose.Zip for .NET은 zip 파일을 프로그래밍 방식으로 조작하는 강력하고 간편한 방법을 제공합니다. 이 튜토리얼에서는 zip 파일의 압축 해제, 삭제, 항목 추가를 다루며 라이브러리의 다재다능함을 보여주었습니다. 다양한 시나리오를 살펴보고 파일 조작 기술을 향상시켜 보세요!
 
 ## 자주 묻는 질문
 
 ### Aspose.Zip for .NET을 다른 프로그래밍 언어와 함께 사용할 수 있나요?
-Aspose.Zip은 주로 .NET 애플리케이션용으로 설계되었지만 Aspose는 다양한 프로그래밍 언어에 대한 유사한 라이브러리를 제공합니다.
+Aspose.Zip은 주로 .NET 애플리케이션용으로 설계되었지만 Aspose는 다양한 프로그래밍 언어에 대해 유사한 라이브러리를 제공합니다.
 
 ### Aspose.Zip for .NET에 대한 무료 평가판이 있나요?
- 네, 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+네, 무료 체험판을 다운로드할 수 있습니다. [여기](https://releases.aspose.com/).
 
-### .NET용 Aspose.Zip에 대한 지원을 받으려면 어떻게 해야 하나요?
- 방문하세요[Aspose.Zip 포럼](https://forum.aspose.com/c/zip/37) 지원과 토론을 위해.
+### .NET용 Aspose.Zip에 대한 지원은 어떻게 받을 수 있나요?
+방문하세요 [Aspose.Zip 포럼](https://forum.aspose.com/c/zip/37) 지원과 토론을 위해.
 
-### Aspose.Zip for .NET에 대한 임시 라이센스를 구매할 수 있나요?
-네, 임시면허를 취득할 수 있습니다.[여기](https://purchase.conholdate.com/temporary-license/).
+### Aspose.Zip for .NET에 대한 임시 라이선스를 구매할 수 있나요?
+네, 임시면허를 취득할 수 있습니다. [여기](https://purchase.conholdate.com/temporary-license/).
 
-### .NET용 Aspose.Zip에 대한 설명서는 어디에서 찾을 수 있나요?
- 전체 문서를 사용할 수 있습니다[여기](https://reference.aspose.com/zip/net/).
+### .NET용 Aspose.Zip에 대한 문서는 어디에서 찾을 수 있나요?
+전체 문서를 사용할 수 있습니다 [여기](https://reference.aspose.com/zip/net/).

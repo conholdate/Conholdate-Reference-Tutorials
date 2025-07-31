@@ -73,7 +73,7 @@ Cuối cùng, lưu tài liệu bằng các tùy chọn đã cấu hình. Thao t�
 doc.Save(dataDir + "Output_Without_Picture_Bullets.docx", saveOptions);
 ```
 
-Tập tin mới, `"Output_Without_Picture_Bullets.docx"`sẽ được lưu trong thư mục tài liệu của bạn.
+Tập tin mới, `"Output_Without_Picture_Bullets.docx"`, sẽ được lưu trong thư mục tài liệu của bạn.
 
 ## Phần kết luận
 

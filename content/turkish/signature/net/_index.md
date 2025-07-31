@@ -1,12 +1,13 @@
 ---
-title: .NET için GroupDocs.Signature Eğitimleri ve Örnekleri
-linktitle: GroupDocs.Signature for .NET Eğitimleri
-weight: 10
-url: /tr/signature/
-description: GroupDocs.Signature for .NET'i kullanma hakkında kapsamlı eğitimleri keşfedin. Net, adım adım kılavuzlarla dijital imzaları uygulamayı, iş akışlarını özelleştirmeyi ve belge güvenliğini geliştirmeyi öğrenin.
-is_root: true
+"description": "GroupDocs.Signature for .NET kullanımıyla ilgili kapsamlı eğitimleri keşfedin. Net, adım adım kılavuzlarla dijital imzaları nasıl uygulayacağınızı, iş akışlarını nasıl özelleştireceğinizi ve belge güvenliğini nasıl artıracağınızı öğrenin."
+"is_root": true
+"linktitle": ".NET için GroupDocs.Signature Eğitimleri"
+"title": ".NET için GroupDocs.Signature Eğitimleri ve Örnekleri"
+"url": "/tr/signature/net/"
+"weight": 10
 ---
-### [GroupDocs.Signature for .NET ile Ana Belge İmzalama](./master-document-signing/)
+
+### [.NET için GroupDocs.Signature ile Ana Belge İmzalama](./master-document-signing/)
 Ayrıntılı eğitimlerimizde GroupDocs.Signature for .NET ile belge imzalamada ustalaşın. Resimleri ve PDF'leri meta verilerle zahmetsizce imzalayın.
-### [İleri İmza Tekniklerine Hakim Olun](./master-advanced-sign-techniques/)
-GroupDocs.Signature for .NET eğitimleriyle belge güvenliğinizi artırın. Özel resimlerden metin imzalarına kadar gelişmiş imza tekniklerini öğrenin.
+### [Gelişmiş İmza Tekniklerinde Ustalaşın](./master-advanced-sign-techniques/)
+GroupDocs.Signature for .NET eğitimleriyle belge güvenliğinizi artırın. Özel görsellerden metin imzalarına kadar gelişmiş imza tekniklerini öğrenin.

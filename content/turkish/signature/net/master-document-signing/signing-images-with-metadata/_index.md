@@ -1,20 +1,21 @@
 ---
-title: GroupDocs.Signature Kullanarak Görüntüleri Meta Verilerle İmzalama Kılavuzu
-linktitle: Görüntüleri Meta Verilerle İmzalama Kılavuzu
-second_title: GroupDocs.Signature .NET API
-description: GroupDocs.Signature kullanarak .NET uygulamalarınızda meta verilerle görüntüleri etkili bir şekilde nasıl imzalayacağınızı öğrenin. Bu adım adım eğitim, kurulumdan uygulamaya kadar her şeyi kapsar ve belgelerinizi meta veri imzalarıyla zahmetsizce geliştirmenizi sağlar.
-weight: 10
-url: /tr/signature/master-document-signing/signing-images-with-metadata/
+"description": "GroupDocs.Signature kullanarak .NET uygulamalarınızda görselleri meta verilerle nasıl etkili bir şekilde imzalayacağınızı öğrenin. Bu adım adım eğitim, kurulumdan uygulamaya kadar her şeyi kapsayarak belgelerinizi meta veri imzalarıyla zahmetsizce geliştirmenizi sağlar."
+"linktitle": "Görüntüleri Meta Verilerle İmzalama Kılavuzu"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "GroupDocs.Signature Kullanarak Görüntüleri Meta Verilerle İmzalama Kılavuzu"
+"url": "/tr/signature/net/master-document-signing/signing-images-with-metadata/"
+"weight": 10
 ---
+
 ## giriiş
 
-GroupDocs.Signature for .NET, geliştiricilerin meta verilerle görüntüleri etkili bir şekilde imzalamalarına olanak tanıyan güçlü bir kütüphanedir. Bu eğitim sizi adım adım süreç boyunca yönlendirecektir.
+GroupDocs.Signature for .NET, geliştiricilerin görselleri meta verilerle verimli bir şekilde imzalamalarına olanak tanıyan güçlü bir kütüphanedir. Bu eğitim, süreci adım adım anlatacaktır.
 
 ## Ön koşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  GroupDocs.Signature for .NET: GroupDocs.Signature paketini .NET projenize yükleyin. Bunu şu adresten indirebilirsiniz:[Burada](https://releases.groupdocs.com/signature/net/).
+1. .NET için GroupDocs.Signature: GroupDocs.Signature paketini .NET projenize yükleyin. Buradan indirebilirsiniz. [Burada](https://releases.groupdocs.com/signature/net/).
 2. Resim Dosyası: Meta verilerle imzalamak istediğiniz resim dosyasını hazırlayın.
 
 ## Gerekli Ad Alanlarını İçe Aktar
@@ -31,7 +32,7 @@ using GroupDocs.Signature.Options;
 
 ## Adım 1: Görüntü Dosyanızı Yükleyin
 
-İmzalanmış görüntü dosyanızın yolunu ve çıktı dizinini belirterek başlayın:
+İmzalı görüntü dosyanızın yolunu ve çıktı dizinini belirterek başlayın:
 
 ```csharp
 string filePath = "sample.png";            
@@ -48,7 +49,7 @@ using (Signature signature = new Signature(filePath))
     ushort imgsMetadataId = 41996; // Meta veriler için başlangıç kimliği
     MetadataSignOptions options = new MetadataSignOptions();
 
-    // Çeşitli meta veri imzaları türleri ekleyin
+    // Çeşitli meta veri imzası türleri ekleyin
     options
         .Add(new ImageMetadataSignature(imgsMetadataId++, "Mr. Sherlock Holmes")) // Dize değeri
         .Add(new ImageMetadataSignature(imgsMetadataId++, DateTime.Now))          // DateTime değeri
@@ -70,16 +71,16 @@ Bu eğitimde, .NET için GroupDocs.Signature kullanarak bir görüntüyü meta v
 ## SSS
 
 ### GroupDocs.Signature for .NET kullanarak birden fazla görseli meta verilerle imzalayabilir miyim?
-Evet, her resim dosyasını tek tek inceleyerek ve meta veri imzalarını uygulayarak birden fazla resmi imzalayabilirsiniz.
+Evet, her resim dosyasında yineleme yaparak ve meta veri imzalarını uygulayarak birden fazla resmi imzalayabilirsiniz.
 
 ### GroupDocs.Signature for .NET için deneme sürümü mevcut mu?
- Evet, deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.groupdocs.com/).
+Evet, deneme sürümünü şu adresten indirebilirsiniz: [Burada](https://releases.groupdocs.com/).
 
-### GroupDocs.Signature for .NET resimlerin dışında başka dosya biçimlerini de destekliyor mu?
+### GroupDocs.Signature for .NET resimlerin yanı sıra diğer dosya biçimlerini de destekliyor mu?
 Kesinlikle! GroupDocs.Signature, PDF, Word, Excel ve daha fazlası dahil olmak üzere çeşitli formatları destekler.
 
 ### Meta veri imzasının görünümünü özelleştirebilir miyim?
 Evet, yazı tipi boyutu, rengi ve meta veri imzasının konumu gibi özellikleri özelleştirebilirsiniz.
 
 ### GroupDocs.Signature for .NET için desteği nereden alabilirim?
- Destek için GroupDocs.Signature forumunu ziyaret edin[Burada](https://forum.groupdocs.com/c/signature/13).
+Destek için GroupDocs.Signature forumunu ziyaret edin [Burada](https://forum.groupdocs.com/c/signature/13).

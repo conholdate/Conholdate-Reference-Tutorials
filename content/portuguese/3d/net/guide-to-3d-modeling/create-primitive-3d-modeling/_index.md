@@ -1,20 +1,21 @@
 ---
-title: Crie modelagem 3D primitiva
-linktitle: Crie modelagem 3D primitiva
-second_title: API Aspose.3D .NET
-description: Aprenda a criar e personalizar modelos 3D primitivos, incluindo caixas e cilindros, e salve-os no formato FBX sem esforço.
-weight: 10
-url: /pt/3d/guide-to-3d-modeling/create-primitive-3d-modeling/
+"description": "Aprenda a criar e personalizar modelos 3D primitivos, incluindo caixas e cilindros, e salve-os no formato FBX sem esforço."
+"linktitle": "Crie modelagem 3D primitiva"
+"second_title": "API Aspose.3D .NET"
+"title": "Crie modelagem 3D primitiva"
+"url": "/pt/3d/net/guide-to-3d-modeling/create-primitive-3d-modeling/"
+"weight": 10
 ---
+
 ## Introdução
 
-Bem-vindo ao mundo imersivo da modelagem 3D usando Aspose.3D para .NET! Neste tutorial abrangente, nós o guiaremos pelo processo de criação de modelos 3D primitivos passo a passo. Seja você um desenvolvedor experiente ou um iniciante ansioso para aprender, este guia o capacitará a criar elementos 3D visualmente impressionantes para seus projetos.
+Bem-vindo ao mundo imersivo da modelagem 3D com o Aspose.3D para .NET! Neste tutorial abrangente, guiaremos você pelo processo de criação de modelos 3D primitivos passo a passo. Seja você um desenvolvedor experiente ou um iniciante ansioso para aprender, este guia o capacitará a criar elementos 3D visualmente impressionantes para seus projetos.
 
 ## Pré-requisitos
 
 Antes de mergulhar na modelagem 3D, certifique-se de ter os seguintes pré-requisitos:
 
--  Aspose.3D para .NET: Baixe e instale a biblioteca Aspose.3D para .NET do[página de download](https://releases.aspose.com/3d/net/).
+- Aspose.3D para .NET: Baixe e instale a biblioteca Aspose.3D para .NET do [página de download](https://releases.aspose.com/3d/net/).
   
 - Ambiente de desenvolvimento .NET: configure um ambiente compatível com o Aspose.3D, como o Visual Studio.
 
@@ -54,14 +55,14 @@ Em seguida, vamos adicionar um modelo de caixa à sua cena:
 scene.RootNode.CreateChildNode("box", new Box());
 ```
 
-Você pode personalizar as dimensões e propriedades da caixa para adaptá-la à sua visão criativa.
+Você pode personalizar as dimensões e propriedades da caixa para adequá-la à sua visão criativa.
 
 ## Etapa 3: Crie um modelo de cilindro
 
 Agora, melhore sua cena adicionando um cilindro:
 
 ```csharp
-// Crie um modelo de cilindro
+// Criar um modelo de cilindro
 scene.RootNode.CreateChildNode("cylinder", new Cylinder());
 ```
 
@@ -92,7 +93,7 @@ Sua cena 3D composta de modelos primitivos agora está completa e salva!
 
 ## Conclusão
 
- Parabéns por criar modelos 3D impressionantes usando Aspose.3D para .NET! Este tutorial cobriu os fundamentos da modelagem primitiva, mas as possibilidades são infinitas. Explore mais sobre recursos e técnicas avançadas no[documentação](https://reference.aspose.com/3d/net/).
+Parabéns por criar modelos 3D impressionantes usando o Aspose.3D para .NET! Este tutorial abordou os fundamentos da modelagem primitiva, mas as possibilidades são infinitas. Explore mais sobre recursos e técnicas avançadas no [documentação](https://reference.aspose.com/3d/net/).
 
 ## Perguntas frequentes
 
@@ -102,16 +103,16 @@ O Aspose.3D suporta principalmente .NET, mas há versões disponíveis para Java
 
 ### Há um teste gratuito disponível?
 
- Sim, você pode experimentar os recursos do Aspose.3D com um[teste gratuito](https://releases.aspose.com/).
+Sim, você pode experimentar os recursos do Aspose.3D com um [teste gratuito](https://releases.aspose.com/).
 
 ### Onde posso encontrar suporte para o Aspose.3D para .NET?
 
-Para obter suporte da comunidade, visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18).
+Para obter suporte da comunidade, visite o [Fórum Aspose.3D](https://forum.aspose.com/c/3d/18).
 
 ### Como posso obter uma licença temporária?
 
- Você pode solicitar uma licença temporária[aqui](https://purchase.conholdate.com/temporary-license/).
+Você pode solicitar uma licença temporária [aqui](https://purchase.conholdate.com/temporary-license/).
 
 ### Há tutoriais adicionais disponíveis?
 
- Sim! Explore mais tutoriais e exemplos no[documentação](https://reference.aspose.com/3d/net/).
+Sim! Explore mais tutoriais e exemplos no [documentação](https://reference.aspose.com/3d/net/).

@@ -53,7 +53,7 @@ Daha sonra, bir örnek oluşturacağız `Document` Giriş PDF'imizi temsil eden 
 ```csharp
 using (Document doc = new Document(inFile))
 {
-    // Daha sonraki adımlar burada olacak...
+    // Bundan sonraki adımlar burada olacak...
 }
 ```
 

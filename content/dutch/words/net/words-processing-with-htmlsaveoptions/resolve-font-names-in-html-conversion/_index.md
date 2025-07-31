@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Hallo, mede-programmeur! Als je ooit problemen hebt gehad met lettertypen bij het opslaan van Word-documenten als HTML, ben je niet de enige. Lettertypen kunnen lastig zijn, maar maak je geen zorgen; deze handleiding helpt je bij het oplossen van lettertypenamen in je Word-documenten met Aspose.Words voor .NET. Laten we het proces stap voor stap doornemen om ervoor te zorgen dat je lettertypen er perfect uitzien in HTML-formaat.
+Hallo, medeprogrammeur! Als je ooit problemen hebt gehad met lettertypen bij het opslaan van Word-documenten als HTML, ben je niet de enige. Lettertypen kunnen lastig zijn, maar maak je geen zorgen; deze handleiding helpt je bij het oplossen van lettertypenamen in je Word-documenten met Aspose.Words voor .NET. Laten we het proces stap voor stap doornemen om ervoor te zorgen dat je lettertypen er perfect uitzien in HTML-formaat.
 
 ## Vereisten
 
@@ -24,7 +24,7 @@ Nu we alle vereisten op een rijtje hebben, kunnen we aan de slag!
 
 ## Noodzakelijke naamruimten importeren
 
-Zorg ervoor dat je de benodigde naamruimten in je project hebt geïmporteerd voordat je gaat coderen. Dit is cruciaal voor toegang tot de Aspose.Words-functionaliteiten.
+Zorg ervoor dat je de benodigde naamruimten in je project hebt geïmporteerd voordat je begint met coderen. Dit is cruciaal voor toegang tot de functionaliteiten van Aspose.Words.
 
 ```csharp
 using Aspose.Words;
@@ -92,7 +92,7 @@ U kunt Aspose.Words voor .NET downloaden van [hier](https://releases.aspose.com/
 Ja, maar er zijn enkele beperkingen. Voor volledige functionaliteit kunt u een licentie aanschaffen. [hier](https://purchase.aspose.com/buy) of een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
 
 ### Waarom worden mijn lettertypen niet correct weergegeven in HTML?
-Dit probleem kan zich voordoen als de lettertypen niet goed worden omgezet tijdens de conversie. `ResolveFontNames = true` in `HtmlSaveOptions` kan dit probleem verhelpen.
+Dit probleem kan zich voordoen als de lettertypen niet goed worden omgezet tijdens de conversie. Instelling `ResolveFontNames = true` in `HtmlSaveOptions` kan dit probleem verhelpen.
 
 ### Waar kan ik ondersteuning krijgen voor Aspose.Words voor .NET?
 U kunt ondersteuning krijgen van de [Aspose.Words ondersteuningsforum](https://forum.aspose.com/c/words/8).

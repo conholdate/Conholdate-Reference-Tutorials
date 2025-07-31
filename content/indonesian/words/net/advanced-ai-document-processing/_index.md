@@ -56,7 +56,7 @@ Model GPT OpenAI unggul dalam memahami konten bernuansa dan menghasilkan ringkas
 - **Makalah penelitian** di mana akurasi adalah yang terpenting
 - **Dokumen multibahasa** (GPT-4 menangani 50+ bahasa)
 
-**Kapan harus memilih OpenAI**:Jika Anda memerlukan ringkasan berkualitas tertinggi dan dapat menangani biaya API yang sedikit lebih tinggi, GPT-4 adalah pilihan tepat Anda.
+**Kapan harus memilih OpenAI**Jika Anda memerlukan ringkasan berkualitas tertinggi dan dapat menangani biaya API yang sedikit lebih tinggi, GPT-4 adalah pilihan tepat Anda.
 
 ### Model AI Google: Optimal untuk Kecepatan dan Skala
 Model AI Google memberikan rasio kinerja-biaya yang sangat baik dan ideal untuk:
@@ -112,7 +112,7 @@ Itu [Ringkasan Dokumen yang Efisien dengan Model OpenAI](./efficient-document-su
 
 Jangan lewatkan [Opsi Ringkasan Dokumen](./summarize-documents-options/) tutorial yang membahas secara mendalam tentang penyempurnaan pendekatan peringkasan Anda.
 
-**Kekuatan kustomisasi**Ini bukan pendekatan yang cocok untuk semua. Anda akan mempelajari cara menyesuaikan panjang ringkasan, area fokus, dan format keluaran berdasarkan kasus penggunaan spesifik Anda. Baik Anda membutuhkan ringkasan poin-poin untuk eksekutif maupun analisis mendetail untuk peneliti, tutorial ini siap membantu Anda.
+**Kekuatan kustomisasi**Ini bukan pendekatan satu-untuk-semua. Anda akan mempelajari cara menyesuaikan panjang ringkasan, area fokus, dan format keluaran berdasarkan kasus penggunaan spesifik Anda. Baik Anda membutuhkan ringkasan poin-poin untuk eksekutif atau analisis terperinci untuk peneliti, tutorial ini siap membantu Anda.
 
 **Teknik efisiensi**:Temukan cara memproses dokumen secara batch, menerapkan strategi caching, dan mengoptimalkan penggunaan API Anda untuk mengurangi biaya sambil mempertahankan hasil berkualitas tinggi.
 
@@ -128,7 +128,7 @@ Berdasarkan pengalaman pengembang sesungguhnya, berikut adalah masalah paling se
 ### Tantangan 2: Kualitas Ringkasan yang Tidak Konsisten
 **Masalahnya**:Ringkasan sangat bervariasi dalam kualitas dan format, membuatnya sulit digunakan secara terprogram.
 
-**Solusinya**: Kuasai teknik rekayasa perintah dan format keluaran yang memastikan hasil konsisten dan terstruktur setiap saat.
+**Solusinya**Kuasai teknik rekayasa perintah dan format keluaran yang memastikan hasil konsisten dan terstruktur setiap saat.
 
 ### Tantangan 3: Kecepatan Pemrosesan Lambat
 **Masalahnya**: Pemrosesan dokumen membutuhkan waktu terlalu lama untuk penggunaan produksi.
@@ -138,7 +138,7 @@ Berdasarkan pengalaman pengembang sesungguhnya, berikut adalah masalah paling se
 ### Tantangan 4: Manajemen Biaya API
 **Masalahnya**:Biaya API AI melonjak tak terkendali karena pemrosesan berskala besar.
 
-**Solusinya**Terapkan praproses cerdas untuk menghapus konten yang tidak diperlukan, gunakan model yang sesuai untuk berbagai jenis dokumen, dan simpan hasil secara efektif.
+**Solusinya**: Terapkan praproses cerdas untuk menghapus konten yang tidak diperlukan, gunakan model yang sesuai untuk berbagai jenis dokumen, dan simpan hasil secara efektif.
 
 ## Tips Optimalisasi Kinerja untuk Sistem Produksi
 
@@ -170,7 +170,7 @@ Saat bekerja dengan pemrosesan dokumen AI, terutama di lingkungan perusahaan, ke
 
 Meskipun perencanaan sudah matang, Anda tetap akan menghadapi masalah. Berikut cara mendiagnosis dan memperbaiki masalah yang paling umum:
 
-**Kegagalan autentikasi API**Periksa kembali kunci API Anda dan pastikan kunci tersebut belum kedaluwarsa. Banyak penyedia mewajibkan rotasi kunci secara berkala demi keamanan.
+**Kegagalan autentikasi API**Periksa kembali kunci API Anda dan pastikan kunci tersebut belum kedaluwarsa. Banyak penyedia yang mewajibkan rotasi kunci secara berkala demi keamanan.
 
 **Kesalahan batas waktu**Dokumen berukuran besar mungkin memerlukan waktu pemrosesan yang lebih lama. Terapkan nilai batas waktu yang sesuai dan pertimbangkan pemisahan dokumen untuk berkas yang sangat besar.
 
@@ -188,7 +188,7 @@ Setelah Anda menguasai dasar-dasar yang dibahas dalam tutorial ini, pertimbangka
 
 **Otomatisasi alur kerja**:Integrasikan pemrosesan dokumen AI Anda ke dalam sistem otomasi proses bisnis yang lebih luas.
 
-**Analisis dan pelaporan**Buat dasbor yang memberikan wawasan tentang kinerja dan hasil pemrosesan dokumen Anda.
+**Analisis dan pelaporan**: Buat dasbor yang memberikan wawasan tentang kinerja dan hasil pemrosesan dokumen Anda.
 
 Masa depan pemrosesan dokumen digerakkan oleh AI, dan pengembang yang menguasai teknik ini saat ini akan membangun sistem yang mendukung bisnis cerdas di masa depan. Mulailah dengan tutorial dasar, bereksperimen dengan berbagai pendekatan, dan secara bertahap kembangkan solusi yang lebih canggih seiring bertambahnya pemahaman Anda.
 
@@ -197,7 +197,7 @@ Ingat: tujuannya bukan hanya untuk memproses dokumen lebih cepat—melainkan unt
 ## Tutorial Pemrosesan Dokumen Bertenaga AI
 | Judul | Deskripsi |
 | --- | --- Bahasa Indonesia: |
-| [Menguasai Ringkasan Dokumen dengan Model AI](./mastering-document-summarization-ai-model/) Manfaatkan potensi otomatisasi dokumen dengan Aspose.Words untuk .NET. Pelajari cara meringkas dokumen dengan mudah menggunakan model AI canggih. Bahasa Indonesia: |
+| [Menguasai Ringkasan Dokumen dengan Model AI](./mastering-document-summarization-ai-model/) | Manfaatkan potensi otomatisasi dokumen dengan Aspose.Words untuk .NET. Pelajari cara meringkas dokumen dengan mudah menggunakan model AI canggih. Bahasa Indonesia: |
 | [Menguasai Ringkasan Dokumen Model AI Google](./mastering-document-summarization-google-ai-model/) Pelajari langkah demi langkah cara meringkas dokumen Word dengan Aspose.Words dan Google AI di .NET. Ikuti panduan ini untuk menyederhanakan ekstraksi konten, wawasan dokumen, dan otomatisasi.
-Bahasa Indonesia: | [Ringkasan Dokumen yang Efisien Model AI Terbuka](./efficient-document-summarization-openai-model/) | Pelajari cara meringkas dokumen besar dengan cepat dan akurat dengan tutorial komprehensif ini, yang mencakup prasyarat, pengaturan, dan contoh pengkodean. Bahasa Indonesia: |
+Bahasa Indonesia: | [Ringkasan Dokumen yang Efisien Model AI Terbuka](./efficient-document-summarization-openai-model/) Pelajari cara meringkas dokumen besar dengan cepat dan akurat dengan tutorial komprehensif ini, yang mencakup prasyarat, pengaturan, dan contoh pengkodean. Bahasa Indonesia: |
 | [Opsi Ringkasan Dokumen](./summarize-documents-options/) Pelajari cara meringkas dokumen secara efisien dengan Aspose.Words untuk .NET. Panduan komprehensif ini mencakup pengaturan, pemuatan dokumen, dan integrasi model AI.

@@ -29,7 +29,7 @@ Než začneme, ujistěte se, že máte vše potřebné k tomu, abyste mohli pokr
 
 ## Importovat jmenné prostory
 
-Než se ponoříte do kódování, nezapomeňte importovat požadované jmenné prostory. Tím zajistíte, že budete mít přístup ke všem třídám a metodám potřebným pro zpracování souborů NSF.
+Než se ponoříte do kódování, nezapomeňte importovat požadované jmenné prostory. Tím zajistíte přístup ke všem třídám a metodám potřebným pro zpracování souborů NSF.
 
 ```csharp
 using System;

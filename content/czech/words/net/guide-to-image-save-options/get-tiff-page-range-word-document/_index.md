@@ -24,7 +24,7 @@ Jakmile splníte tyto předpoklady, můžete začít!
 
 ## Import nezbytných jmenných prostorů
 
-Začněte importem požadovaných jmenných prostorů do vašeho projektu C#. Na začátek souboru s kódem přidejte následující using direktivy:
+Začněte importem požadovaných jmenných prostorů do vašeho projektu C#. Na začátek souboru s kódem přidejte následující direktivy using:
 
 ```csharp
 using Aspose.Words;

@@ -144,7 +144,7 @@ Igen, létrehozhatsz külső webhelyekre mutató hivatkozásokat a következő h
 Teljesen! Meg tudod csinálni [töltse le az ingyenes próbaverziót itt](https://releases.aspose.com/).
 
 ### Hol kaphatok támogatást, ha problémákba ütközöm?
-Kapcsolatba léphet a következő címen: [Aspose Támogatási Fórum](https://forum.aspose.com/c/pdf/10) segítségért.
+Elérheted a következő címen: [Aspose Támogatási Fórum](https://forum.aspose.com/c/pdf/10) segítségért.
 
 ### Hogyan szerezhetek ideiglenes jogosítványt?
 Ideiglenes jogosítványt szerezhet a [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
@@ -167,7 +167,7 @@ Mielőtt belemerülnél a PDF-manipuláció világába az Aspose.PDF for .NET se
 
 Az Aspose.PDF for .NET telepítéséhez használhatja a Visual Studio NuGet csomagkezelőjét. Így teheti meg:
 
-1. Nyisd meg a projekted: Indítsd el a Visual Studio programot, és nyisd meg a meglévő projektedet, vagy hozz létre egy újat.
+1. Nyisd meg a projektedet: Indítsd el a Visual Studio programot, és nyisd meg a meglévő projektedet, vagy hozz létre egy újat.
    
 2. NuGet csomagkezelő: Kattintson a jobb gombbal a projektre a Megoldáskezelőben.
    
@@ -292,7 +292,7 @@ Igen, létrehozhatsz külső webhelyekre mutató hivatkozásokat a hivatkozás m
 Teljesen! Meg tudod csinálni [töltse le az ingyenes próbaverziót itt](https://releases.aspose.com/).
 
 ### Hol kaphatok támogatást, ha problémákba ütközöm?
-Kapcsolatba léphet a következő címen: [Aspose Támogatási Fórum](https://forum.aspose.com/c/pdf/10) segítségért.
+Elérheted a következő címen: [Aspose Támogatási Fórum](https://forum.aspose.com/c/pdf/10) segítségért.
 
 ### Hogyan szerezhetek ideiglenes jogosítványt?
 Ideiglenes jogosítványt szerezhet a [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).

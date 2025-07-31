@@ -59,7 +59,7 @@ Với Aspose.Words for .NET, việc thao tác với tài liệu Word trở nên 
 
 ## Câu hỏi thường gặp
 
-### Tôi có thể xóa nhiều phần cùng lúc không?
+### Tôi có thể xóa nhiều phần cùng một lúc không?
 Có! Bạn có thể lặp qua các phần bạn muốn xóa và xóa từng phần một. Dưới đây là một ví dụ nhanh:
 
 ```csharp

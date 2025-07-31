@@ -9,21 +9,21 @@
 
 ## Invoering
 
-In het huidige digitale landschap is het converteren van Excel-spreadsheets naar PDF-documenten een veelvoorkomende en essentiële taak. Of u nu rapporten, financiële gegevens of presentatiemateriaal voorbereidt, het is cruciaal dat uw PDF's het gewenste formaat hebben. Aspose.Cells voor .NET biedt een krachtige bibliotheek waarmee u dit conversieproces tot in detail kunt beheren, met name bij het werken met externe bronnen zoals afbeeldingen. In deze handleiding onderzoeken we hoe u externe bronnen effectief kunt beheren tijdens de conversie van Excel naar PDF met Aspose.Cells. Laten we beginnen!
+In het huidige digitale landschap is het converteren van Excel-spreadsheets naar PDF-documenten een veelvoorkomende en essentiële taak. Of u nu rapporten, financiële gegevens of presentatiemateriaal voorbereidt, het is cruciaal dat uw PDF's de gewenste opmaak hebben. Aspose.Cells voor .NET biedt een krachtige bibliotheek waarmee u dit conversieproces tot in detail kunt beheren, met name bij het werken met externe bronnen zoals afbeeldingen. In deze handleiding onderzoeken we hoe u externe bronnen effectief kunt beheren tijdens de conversie van Excel naar PDF met Aspose.Cells. Laten we beginnen!
 
 ## Vereisten
 
-Voordat we beginnen, zorg ervoor dat u het volgende bij de hand hebt:
+Zorg ervoor dat u het volgende bij de hand heeft voordat we beginnen:
 
 1. Visual Studio of een andere .NET-compatibele IDE: dit wordt uw ontwikkelomgeving.
-2. Aspose.Cells voor .NET: Als u het nog niet hebt geïnstalleerd, bezoek dan de [Aspose-downloads](https://releases.aspose.com/cells/net/) pagina om de nieuwste versie te downloaden.
+2. Aspose.Cells voor .NET: Als u het nog niet hebt geïnstalleerd, bezoek dan de [Aspose-downloads](https://releases.aspose.com/cells/net/) pagina om de nieuwste versie te verkrijgen.
 3. Basiskennis van C#: Kennis van C# is een pré. Mocht je verduidelijking nodig hebben over bepaalde concepten, zoek ze dan gerust op.
 4. Voorbeeld Excel-bestand: Maak een Excel-bestand, bijvoorbeeld 'samplePdfSaveOptions_StreamProvider.xlsx', dat de externe bronnen bevat die u wilt converteren.
 5. Afbeeldingsbestand voor testen: Gebruik een afbeeldingsbestand zoals "newPdfSaveOptions_StreamProvider.png" als externe bron tijdens de conversie.
 
 ## Importeer benodigde pakketten
 
-Om te beginnen moet je de vereiste naamruimten importeren uit de Aspose.Cells-bibliotheek. Voeg de volgende instructies toe bovenaan je C#-bestand:
+Om te beginnen moet u de vereiste naamruimten importeren uit de Aspose.Cells-bibliotheek. Voeg de volgende instructies toe bovenaan uw C#-bestand:
 
 ```csharp
 using System.IO;
@@ -105,7 +105,7 @@ Dit creëert een instantie van `PdfSaveOptions`, waarmee u het PDF-formaat kunt 
 
 ## Stap 5: Wijs uw streamprovider toe
 
-Sluit uw `Workbook` bijvoorbeeld met de `MyStreamProvider` de klas die u eerder hebt aangemaakt.
+Sluit uw `Workbook` bijvoorbeeld met de `MyStreamProvider` de klasse die u eerder hebt aangemaakt.
 
 ```csharp
 wb.Settings.StreamProvider = new MyStreamProvider();
@@ -136,12 +136,12 @@ Met dit bericht informeren we u over de status van uw bewerking en geven we u nu
 
 ## Conclusie
 
-Je beheerst nu het proces van het beheren van externe bronnen tijdens Excel-naar-PDF-conversies met Aspose.Cells! Door deze stappen te volgen, zorg je ervoor dat je documenten afbeeldingen en andere externe elementen nauwkeurig bevatten, wat keer op keer resulteert in een gepolijst eindproduct.
+Je beheerst nu het proces van het beheren van externe bronnen tijdens Excel-naar-PDF-conversies met Aspose.Cells! Door deze stappen te volgen, kun je ervoor zorgen dat je documenten afbeeldingen en andere externe elementen nauwkeurig bevatten, wat keer op keer resulteert in een gepolijst eindproduct.
 
 ## Veelgestelde vragen
 
 ### Wat is Aspose.Cells?
-Aspose.Cells is een krachtige bibliotheek voor .NET-ontwikkelaars waarmee u Excel-bestanden in verschillende indelingen kunt maken, bewerken, converteren en weergeven.
+Aspose.Cells is een krachtige bibliotheek voor .NET-ontwikkelaars waarmee u Excel-bestanden in verschillende formaten kunt maken, bewerken, converteren en weergeven.
 
 ### Hoe download ik Aspose.Cells?
 U kunt de nieuwste versie downloaden van de [Downloadlink](https://releases.aspose.com/cells/net/).

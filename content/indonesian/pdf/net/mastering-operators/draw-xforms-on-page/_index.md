@@ -9,7 +9,7 @@
 
 ## Perkenalan
 
-Di era digital saat ini, kemampuan untuk membuat dokumen PDF yang dinamis dan menarik secara visual sangat penting bagi pengembang maupun desainer. Baik Anda membuat laporan, formulir, atau materi pemasaran, menguasai manipulasi PDF merupakan keterampilan yang berharga. Tutorial ini akan memandu Anda melalui proses menggambar XForm pada halaman PDF menggunakan pustaka Aspose.PDF untuk .NET. Dengan mengikuti panduan langkah demi langkah ini, Anda akan mempelajari cara membuat XForm dan memposisikannya secara efektif di dalam dokumen PDF Anda.
+Di era digital saat ini, kemampuan membuat dokumen PDF yang dinamis dan menarik secara visual sangat penting bagi pengembang maupun desainer. Baik Anda membuat laporan, formulir, atau materi pemasaran, menguasai manipulasi PDF merupakan keterampilan yang berharga. Tutorial ini akan memandu Anda melalui proses menggambar XForm pada halaman PDF menggunakan pustaka Aspose.PDF untuk .NET. Dengan mengikuti panduan langkah demi langkah ini, Anda akan mempelajari cara membuat XForm dan memposisikannya secara efektif di dalam dokumen PDF Anda.
 
 ## Prasyarat
 

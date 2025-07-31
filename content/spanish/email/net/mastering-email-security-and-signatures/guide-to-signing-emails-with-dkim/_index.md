@@ -1,5 +1,5 @@
 ---
-"description": "Descubra la importancia de la autenticación de correo electrónico con DomainKeys Identified Mail (DKIM) en esta guía paso a paso. Aprenda a firmar eficazmente sus correos electrónicos con C# y la biblioteca Aspose.Email para .NET."
+"description": "Descubra la importancia de la autenticación de correo electrónico con DomainKeys Identified Mail (DKIM) en esta guía paso a paso. Aprenda a firmar sus correos electrónicos eficazmente con C# y la biblioteca Aspose.Email para .NET."
 "linktitle": "Guía para firmar correos electrónicos con DKIM en C# usando Aspose.Email"
 "second_title": "API de procesamiento de correo electrónico Aspose.Email .NET"
 "title": "Guía para firmar correos electrónicos con DKIM en C# usando Aspose.Email"

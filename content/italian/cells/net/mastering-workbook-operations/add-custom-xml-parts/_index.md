@@ -189,6 +189,6 @@ Sì! Puoi iniziare con una versione di prova gratuita. Basta [scaricalo qui](htt
 ### È possibile aggiungere più parti XML personalizzate a una cartella di lavoro?  
 Assolutamente sì! Puoi aggiungere tutte le parti XML personalizzate di cui hai bisogno e a ciascuna di esse puoi assegnare un ID univoco per un facile accesso.
 ### Come posso recuperare parti XML se non conosco gli ID?  
-Se non conosci gli ID, puoi scorrere il `CustomXmlParts` raccolta per visualizzare le parti disponibili e i relativi ID, rendendone più semplice l'identificazione e l'accesso.
+Se non conosci gli ID, puoi scorrere il `CustomXmlParts` raccolta per visualizzare le parti disponibili e i relativi ID, rendendo più semplice identificarle e accedervi.
 ### Dove posso trovare ulteriori risorse o supporto per Aspose.Cells?  
 Puoi controllare il [documentazione](https://reference.aspose.com/cells/net/) per una guida dettagliata, o visitare il [forum di supporto](https://forum.aspose.com/c/cells/9) per l'aiuto della comunità.

@@ -1,5 +1,5 @@
 ---
-"description": "Узнайте, как эффективно использовать HTMLLoadOptions с Aspose.Words для .NET, в нашем подробном руководстве. Узнайте о функциях, советах и практических примерах."
+"description": "Узнайте, как эффективно использовать HTMLLoadOptions с Aspose.Words для .NET, из нашего подробного руководства. Узнайте о функциях, советах и практических примерах."
 "linktitle": "Использование HTMLLoadOptions в Aspose.Words для .NET"
 "second_title": "API обработки документов Aspose.Words"
 "title": "Использование HTMLLoadOptions в Aspose.Words для .NET"

@@ -214,7 +214,7 @@ foreach (string emlFile in emlFiles)
 }
 ```
 
-### Bảo tồn Thuộc tính Email
+### Bảo tồn các thuộc tính của email
 
 Quá trình chuyển đổi sẽ tự động giữ nguyên hầu hết các thuộc tính của email, nhưng bạn có thể xác minh các yếu tố cụ thể:
 

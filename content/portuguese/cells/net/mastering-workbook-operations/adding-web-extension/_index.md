@@ -21,7 +21,7 @@ Antes de começar, certifique-se de ter o seguinte configurado:
 4. Visual Studio: use o Visual Studio ou qualquer outro IDE compatível com C# para codificação e testes.
 5. Configuração do projeto: crie um novo projeto C# no seu IDE e faça referência à biblioteca Aspose.Cells.
 
-## Etapa 1: Importar os pacotes necessários
+## Etapa 1: Importar pacotes necessários
 
 Para utilizar os recursos do Aspose.Cells, comece importando os namespaces necessários no topo do seu arquivo C#:
 

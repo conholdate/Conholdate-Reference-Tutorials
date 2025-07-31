@@ -133,7 +133,7 @@ Formát je automaticky detekován z přípony souboru, ale pro lepší kontrolu 
 
 ## Běžné problémy a jejich řešení
 
-Na základě praktických zkušeností uvádíme níže problémy, se kterými se vývojáři nejčastěji setkávají při přidávání listů do souborů aplikace Excel:
+Na základě praktických zkušeností uvádíme problémy, se kterými se vývojáři nejčastěji setkávají při přidávání listů do souborů aplikace Excel:
 
 **Problém 1: „Index byl mimo hranice pole“**
 K tomu obvykle dochází při pokusu o přístup k listu pomocí indexu, který neexistuje. Vždy zkontrolujte `workbook.Worksheets.Count` před přístupem pomocí indexu.

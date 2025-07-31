@@ -1,23 +1,24 @@
 ---
-title: Anleitung zum Signieren von Bildern mit Metadaten unter Verwendung von GroupDocs.Signature
-linktitle: Anleitung zum Signieren von Bildern mit Metadaten
-second_title: GroupDocs.Signature .NET API
-description: Erfahren Sie, wie Sie mit GroupDocs.Signature Bilder in Ihren .NET-Anwendungen effizient mit Metadaten signieren. Dieses Schritt-für-Schritt-Tutorial deckt alles von der Installation bis zur Implementierung ab und ermöglicht es Ihnen, Ihre Dokumente mühelos mit Metadatensignaturen zu verbessern.
-weight: 10
-url: /de/signature/master-document-signing/signing-images-with-metadata/
+"description": "Erfahren Sie, wie Sie mit GroupDocs.Signature Bilder in Ihren .NET-Anwendungen effizient mit Metadaten signieren. Dieses Schritt-für-Schritt-Tutorial deckt alles von der Installation bis zur Implementierung ab und ermöglicht Ihnen, Ihre Dokumente mühelos mit Metadatensignaturen zu versehen."
+"linktitle": "Anleitung zum Signieren von Bildern mit Metadaten"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Anleitung zum Signieren von Bildern mit Metadaten mithilfe von GroupDocs.Signature"
+"url": "/de/signature/net/master-document-signing/signing-images-with-metadata/"
+"weight": 10
 ---
+
 ## Einführung
 
-GroupDocs.Signature für .NET ist eine leistungsstarke Bibliothek, mit der Entwickler Bilder effizient mit Metadaten signieren können. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess.
+GroupDocs.Signature für .NET ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, Bilder effizient mit Metadaten zu signieren. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess.
 
 ## Voraussetzungen
 
 Stellen Sie vor dem Start sicher, dass Sie über Folgendes verfügen:
 
-1.  GroupDocs.Signature für .NET: Installieren Sie das GroupDocs.Signature-Paket in Ihrem .NET-Projekt. Sie können es herunterladen von[Hier](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature für .NET: Installieren Sie das Paket GroupDocs.Signature in Ihrem .NET-Projekt. Sie können es herunterladen von [Hier](https://releases.groupdocs.com/signature/net/).
 2. Bilddatei: Bereiten Sie die Bilddatei vor, die Sie mit Metadaten signieren möchten.
 
-## Erforderliche Namespaces importieren
+## Importieren Sie die erforderlichen Namespaces
 
 Importieren Sie in Ihren C#-Code die folgenden Namespaces:
 
@@ -48,7 +49,7 @@ using (Signature signature = new Signature(filePath))
     ushort imgsMetadataId = 41996; // Start-ID für Metadaten
     MetadataSignOptions options = new MetadataSignOptions();
 
-    // Verschiedene Arten von Metadatensignaturen hinzufügen
+    // Fügen Sie verschiedene Arten von Metadatensignaturen hinzu
     options
         .Add(new ImageMetadataSignature(imgsMetadataId++, "Mr. Sherlock Holmes")) // Zeichenfolgenwert
         .Add(new ImageMetadataSignature(imgsMetadataId++, DateTime.Now))          // DateTime-Wert
@@ -65,21 +66,21 @@ using (Signature signature = new Signature(filePath))
 
 ## Abschluss
 
-In diesem Tutorial haben Sie gelernt, wie Sie mithilfe von GroupDocs.Signature für .NET ein Bild mit Metadaten signieren. Indem Sie diese Schritte befolgen, können Sie Ihren .NET-Anwendungen problemlos Metadatensignaturen hinzufügen und so die Funktionalität und Integrität Ihrer Bilder verbessern.
+In diesem Tutorial haben Sie gelernt, wie Sie mithilfe von GroupDocs.Signature für .NET ein Bild mit Metadaten signieren. Mit diesen Schritten können Sie Ihren .NET-Anwendungen ganz einfach Metadatensignaturen hinzufügen und so die Funktionalität und Integrität Ihrer Bilder verbessern.
 
 ## Häufig gestellte Fragen
 
 ### Kann ich mit GroupDocs.Signature für .NET mehrere Bilder mit Metadaten signieren?
-Ja, Sie können mehrere Bilder signieren, indem Sie jede Bilddatei durchgehen und die Metadatensignaturen anwenden.
+Ja, Sie können mehrere Bilder signieren, indem Sie jede Bilddatei durchlaufen und die Metadatensignaturen anwenden.
 
-### Gibt es eine Testversion von GroupDocs.Signature für .NET?
- Ja, Sie können die Testversion herunterladen von[Hier](https://releases.groupdocs.com/).
+### Gibt es eine Testversion für GroupDocs.Signature für .NET?
+Ja, Sie können die Testversion herunterladen von [Hier](https://releases.groupdocs.com/).
 
-### Unterstützt GroupDocs.Signature für .NET andere Dateiformate außer Bildern?
-Auf jeden Fall! GroupDocs.Signature unterstützt verschiedene Formate, darunter PDF, Word, Excel und mehr.
+### Unterstützt GroupDocs.Signature für .NET neben Bildern auch andere Dateiformate?
+Absolut! GroupDocs.Signature unterstützt verschiedene Formate, darunter PDF, Word, Excel und mehr.
 
 ### Kann ich das Erscheinungsbild der Metadatensignatur anpassen?
 Ja, Sie können Aspekte wie Schriftgröße, Farbe und Position der Metadatensignatur anpassen.
 
 ### Wo erhalte ich Support für GroupDocs.Signature für .NET?
- Für Support besuchen Sie das GroupDocs.Signature-Forum[Hier](https://forum.groupdocs.com/c/signature/13).
+Für Support besuchen Sie das GroupDocs.Signature-Forum [Hier](https://forum.groupdocs.com/c/signature/13).

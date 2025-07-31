@@ -124,4 +124,4 @@ Puoi usare un [versione di prova gratuita](https://releases.aspose.com/) o acqui
 Aspose.Email offre solide funzionalità di sicurezza, tra cui la crittografia SSL/TLS per comunicazioni e-mail sicure.
 
 ### Posso personalizzare ulteriormente le intestazioni delle email?
-Sì, Aspose.Email consente di aggiungere intestazioni personalizzate per esigenze specifiche. Fare riferimento a [documentazione](https://reference.aspose.com/email/net/) per maggiori dettagli.
+Sì, Aspose.Email consente di aggiungere intestazioni personalizzate per esigenze specifiche. Fare riferimento a [documentazione](https://reference.aspose.com/email/net/) per i dettagli.

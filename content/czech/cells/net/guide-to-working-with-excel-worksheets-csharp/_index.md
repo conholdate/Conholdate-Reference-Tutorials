@@ -43,7 +43,7 @@ Proces zahrnuje přístup k cílovému sešitu, vytvoření nového listu s vhod
 
 ### Programové přidání nového listu do souboru aplikace Excel
 
-Programové vytváření nových pracovních listů otevírá široké možnosti pro dynamické generování dat v Excelu. Ať už vytváříte modul pro tvorbu sestav, který na vyžádání vytváří vlastní soubory Excelu, nebo vyvíjíte funkce exportu dat, pochopení této základní operace je klíčové.
+Programové vytváření nových pracovních listů otevírá široké možnosti pro dynamické generování dat v Excelu. Ať už vytváříte modul pro tvorbu sestav, který vytváří vlastní soubory Excelu na vyžádání, nebo vyvíjíte funkce exportu dat, pochopení této základní operace je klíčové.
 
 Tento komplexní tutoriál pokrývá vše od základní tvorby listů až po pokročilé strategie umisťování a pojmenování. Naučíte se, jak pracovat s kolekcemi listů, spravovat indexy listů a implementovat robustní ošetření chyb, abyste zajistili, že vaše automatizace v Excelu nikdy neselže tiše.
 
@@ -51,9 +51,9 @@ Tento komplexní tutoriál pokrývá vše od základní tvorby listů až po pok
 
 [Zvládněte tuto základní dovednost zde](./add-new-sheet-to-excel-file-csharp-tutorial/)
 
-### Smazání listu podle indexu v Excelu
+### Odstranění listu podle indexu v Excelu
 
-Někdy je potřeba odstranit listy, které již nejsou relevantní nebo byly vytvořeny pro dočasné zpracování. Mazání listů podle indexu je často bezpečnější a předvídatelnější než mazání podle názvu, zejména v automatizovaných prostředích, kde mohou být názvy listů generovány dynamicky.
+Někdy je potřeba odstranit listy, které již nejsou relevantní nebo byly vytvořeny pro dočasné zpracování. Mazání listů podle indexu je často bezpečnější a předvídatelnější než mazání podle názvu, zejména v automatizovaných prostředích, kde se názvy listů mohou generovat dynamicky.
 
 Tento specializovaný tutoriál ukazuje přesné kroky pro bezpečné smazání pracovního listu, včetně ověřovacích kontrol, které zabraňují náhodné ztrátě dat, a správného zpracování výjimek pro robustní aplikace.
 
@@ -73,7 +73,7 @@ Při programově práci s excelovými soubory vám dodržování zavedených osv
 
 **Konvence pojmenování**Zaveďte konzistentní vzorce pojmenování pracovních listů, které zabrání konfliktům a zvýší udržovatelnost kódu.
 
-## Časté nástrahy a jak se jim vyhnout
+## Časté úskalí a jak se jim vyhnout
 
 Mnoho vývojářů se při zavádění automatizace v Excelu setkává s podobnými problémy. Zde je návod, jak se nejčastějším problémům vyhnout:
 
@@ -91,7 +91,7 @@ Pokud vaše aplikace potřebuje zpracovat velké množství souborů Excelu nebo
 
 **Dávkové operace**Seskupování více operací s pracovním listem namísto ukládání po každé změně. To výrazně snižuje režii I/O.
 
-**Selektivní načítání**Použijte LoadOptions v Aspose.Cells k načtení pouze potřebných dat, nikoli celých sešitů.
+**Selektivní načítání**Použijte LoadOptions třídy Aspose.Cells k načtení pouze potřebných dat, nikoli celých sešitů.
 
 **Zpracování na pozadí**U webových aplikací zvažte implementaci zpracování úloh na pozadí pro náročné operace v Excelu, aby se zachovala responzivní uživatelská rozhraní.
 
@@ -113,6 +113,6 @@ Klíčem je identifikace opakujících se úloh v Excelu ve vaší oblasti a jej
 
 ## Další kroky na vaší cestě k automatizaci Excelu
 
-Zvládnutí těchto základních operací s listy je jen začátkem toho, co je možné s automatizací Excelu v jazyce C#. Tyto klíčové dovednosti tvoří základ pro pokročilejší scénáře, jako je generování dynamických grafů, komplexní transformace dat a integrace s externími zdroji dat.
+Zvládnutí těchto základních operací s listy je jen začátkem toho, čeho je možné dosáhnout s automatizací Excelu v jazyce C#. Tyto klíčové dovednosti tvoří základ pro pokročilejší scénáře, jako je generování dynamických grafů, komplexní transformace dat a integrace s externími zdroji dat.
 
 Jakmile tyto techniky implementujete do svých aplikací, objevíte příležitosti k automatizaci ještě většího počtu úkolů souvisejících s Excelem, což v konečném důsledku ušetří čas a sníží počet manuálních chyb ve vašich pracovních postupech zpracování dat. Investice do osvojení těchto dovedností se vyplatí prakticky v jakékoli aplikaci, která pracuje se strukturovanými daty nebo požadavky na reporting.

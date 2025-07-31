@@ -65,7 +65,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 Csere `YOUR DOCUMENT DIRECTORY` a mappa tényleges elérési útjával. Például: `@"C:\ExcelFiles\"` vagy `@"D:\Projects\ExcelData\"`.
 
-**Profi tipp**: Használd a `@` szimbólumot a karakterlánc elé, hogy elkerüld a fájlútvonalakban a fordított perjelekkel kapcsolatos problémákat. Ez egy apró részlet, ami megakadályozza a nagy fejfájást!
+**Profi tipp**: Használja a `@` szimbólumot a karakterlánc elé, hogy elkerüld a fájlútvonalakban a fordított perjelekkel kapcsolatos problémákat. Ez egy apró részlet, ami megakadályozza a nagy fejfájást!
 
 ## 2. lépés: Fájlfolyam létrehozása a munkafüzet megnyitásához
 
@@ -137,7 +137,7 @@ A kimeneti fájlt bármilyen, a projekt szempontjából logikus elnevezéssel el
 
 ## 8. lépés: Zárja be a fájlfolyamot
 
-Végül zárd le a fájlfolyamot, és tisztítsd meg. Ez jó programozási gyakorlat, és megakadályozza a memóriaszivárgásokat:
+Végül zárd be a fájlfolyamot, és tisztítsd meg. Ez jó programozási gyakorlat, és megakadályozza a memóriaszivárgásokat:
 
 ```csharp
 // A fájlfolyam bezárása az összes erőforrás felszabadításához
@@ -159,7 +159,7 @@ Még a legjobb utasítások ellenére is előfordulhatnak hibák. Íme a leggyak
 **Megoldás**Az adatokat darabokban dolgozza fel, vagy nagyon nagy fájlokhoz használja az Aspose.Cells streamelési funkcióit.
 
 ### 3. probléma: A munkalap neve már létezik
-**Probléma**: Egy már létező nevű munkalap elnevezésére tesz kísérletet.
+**Probléma**: Egy már létező nevű munkalap elnevezésére teszek kísérletet.
 **Megoldás**: Új munkalapnevek beállítása előtt ellenőrizze a meglévőket:
 ```csharp
 if (!workbook.Worksheets.Cast<Worksheet>().Any(ws => ws.Name == "My Worksheet"))
@@ -226,7 +226,7 @@ Készen állsz arra, hogy az Excel automatizálásodat a következő szintre eme
 Az Aspose.Cells egy hatékony .NET könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, szerkesszenek és kezeljenek Excel fájlokat anélkül, hogy a Microsoft Excelt telepíteni kellene a gépre. Olyan, mintha az Excel funkciói közvetlenül a C# kódodban lennének elérhetők!
 
 ### Ingyenes az Aspose.Cells?
-Az Aspose.Cells ingyenes próbaverziót kínál, amely lehetővé teszi az összes funkció kipróbálását a vásárlási döntés meghozatala előtt. A próbaverziót letöltheti [itt](https://releases.aspose.com/cells/net/)Éles használatra fizetős licencre lesz szükséged, de a próbaverzió tökéletes tanulásra és prototípuskészítésre.
+Az Aspose.Cells ingyenes próbaverziót kínál, amely lehetővé teszi az összes funkció kipróbálását a vásárlási döntés meghozatala előtt. A próbaverziót letöltheti. [itt](https://releases.aspose.com/cells/net/)Éles használatra fizetős licencre lesz szükséged, de a próbaverzió tökéletes tanulásra és prototípuskészítésre.
 
 ### Használhatom az Aspose.Cells-t Linuxon?
 Abszolút! Az Aspose.Cells for .NET kompatibilis a .NET Core-ral, ami azt jelenti, hogy Excel automatizálási alkalmazásait Linux, macOS és Windows rendszereken is futtathatja. Ez a platformfüggetlen kompatibilitás tökéletessé teszi a modern fejlesztői környezetekhez.

@@ -1,6 +1,6 @@
 ---
 "description": "Maîtrisez la gestion des pièces jointes aux e-mails en C# avec Aspose.Email pour .NET. Découvrez comment ajouter, détecter, extraire et distinguer les pièces jointes grâce à des guides étape par étape."
-"linktitle": "Gestion des pièces jointes aux e-mails"
+"linktitle": "Gestion des pièces jointes des e-mails"
 "second_title": "API de traitement des e-mails Aspose.Email .NET"
 "title": "Guide de gestion des pièces jointes aux e-mails dans Aspose.Email pour .NET"
 "url": "/fr/email/net/handling-email-attachments/"

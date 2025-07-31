@@ -1,26 +1,27 @@
 ---
-title: Guide till att signera PDF-filer med metadata med GroupDocs.Signature
-linktitle: Guide till att signera PDF-filer med metadata
-second_title: GroupDocs.Signature .NET API
-description: Lär dig hur du förstärker dina PDF-dokument med förbättrad säkerhet och spårbarhet genom att signera dem med metadata med GroupDocs.Signature för .NET. Denna omfattande handledning ger en tydlig.
-weight: 11
-url: /sv/signature/master-document-signing/signing-pdf-with-metadata/
+"description": "Lär dig hur du förstärker dina PDF-dokument med förbättrad säkerhet och spårbarhet genom att signera dem med metadata med GroupDocs.Signature för .NET. Den här omfattande handledningen ger en tydlig översikt."
+"linktitle": "Guide till att signera PDF-filer med metadata"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Guide till att signera PDF-filer med metadata med GroupDocs.Signature"
+"url": "/sv/signature/net/master-document-signing/signing-pdf-with-metadata/"
+"weight": 11
 ---
+
 ## Introduktion
 
-den här handledningen kommer vi att lära oss hur du signerar ett PDF-dokument och lägger till metadata med GroupDocs.Signature för .NET. Att lägga till metadata förbättrar dokumentet genom att tillhandahålla viktig information som författare, skapandedatum, dokument-ID och mer.
+den här handledningen lär vi oss hur man signerar ett PDF-dokument och lägger till metadata med GroupDocs.Signature för .NET. Att lägga till metadata förbättrar dokumentet genom att tillhandahålla viktig information som författarskap, skapandedatum, dokument-ID med mera.
 
-## Förutsättningar
+## Förkunskapskrav
 
 Innan vi börjar, se till att du har följande:
 
-1.  GroupDocs.Signature för .NET: Ladda ner den från[här](https://releases.groupdocs.com/signature/net/).
-2. Ett PDF-dokument: Ha ett exempel på en PDF-fil redo för signering.
-3. Grundläggande kunskaper i C#-programmering: Förtrogenhet med C#-syntax är nödvändig för att förstå kodexemplen.
+1. GroupDocs.Signature för .NET: Ladda ner det från [här](https://releases.groupdocs.com/signature/net/).
+2. Ett PDF-dokument: Ha en exempel-PDF-fil redo för signering.
+3. Grundläggande kunskaper i C#-programmering: Bekantskap med C#-syntax är nödvändig för att förstå kodexemplen.
 
-## Importera namnområden
+## Importera namnrymder
 
-Börja med att importera de nödvändiga namnområdena för att komma åt de nödvändiga klasserna och metoderna:
+Börja med att importera de namnrymder som krävs för att komma åt de nödvändiga klasserna och metoderna:
 
 ```csharp
 using System;
@@ -38,7 +39,7 @@ Ange sökvägen till PDF-dokumentet du vill signera:
 string filePath = "sample.pdf";
 ```
 
-## Steg 2: Ange sökväg för utdatafil
+## Steg 2: Ange sökvägen till utdatafilen
 
 Definiera var den signerade PDF-filen med metadata ska sparas:
 
@@ -48,28 +49,28 @@ string outputFilePath = Path.Combine("Your Document Directory", "SignPdfWithMeta
 
 ## Steg 3: Skapa en signaturinstans
 
- Initiera a`Signature` instans med sökvägen till PDF-dokumentet:
+Initiera en `Signature` exempel med sökvägen till PDF-dokumentet:
 
 ```csharp
 using (Signature signature = new Signature(filePath))
 {
-    // Signaturrelaterad kod kommer hit
+    // Signaturrelaterad kod kommer att placeras här
 }
 ```
 
 ## Steg 4: Definiera metadataalternativ
 
- Skapa`MetadataSignOptions` och lägg till metadatafälten tillsammans med deras värden:
+Skapa `MetadataSignOptions` och lägg till metadatafälten tillsammans med deras värden:
 
 ```csharp
 MetadataSignOptions options = new MetadataSignOptions();
 options
     .Add(new PdfMetadataSignature("Author", "Mr. Sherlock Holmes")) // Strängvärde
-    .Add(new PdfMetadataSignature("CreatedOn", DateTime.Now))       // DateTime värde
+    .Add(new PdfMetadataSignature("CreatedOn", DateTime.Now))       // DateTime-värde
     .Add(new PdfMetadataSignature("DocumentId", 123456))            // Heltalsvärde
     .Add(new PdfMetadataSignature("SignatureId", 123.456D))         // Dubbelt värde
     .Add(new PdfMetadataSignature("Amount", 123.456M))              // Decimalvärde
-    .Add(new PdfMetadataSignature("Total", 123.456F));              // Flytande värde
+    .Add(new PdfMetadataSignature("Total", 123.456F));              // Flytvärde
 ```
 
 ## Steg 5: Signera dokumentet
@@ -83,26 +84,26 @@ Console.WriteLine($"\nSource document signed successfully with {result.Succeeded
 
 ## Slutsats
 
-I den här handledningen tog vi upp hur man signerar ett PDF-dokument med metadata med GroupDocs.Signature för .NET. Genom att följa dessa steg kan du enkelt berika dina PDF-filer med värdefull metadata, vilket förbättrar deras spårbarhet och användbarhet.
+I den här handledningen går vi igenom hur man signerar ett PDF-dokument med metadata med GroupDocs.Signature för .NET. Genom att följa dessa steg kan du enkelt berika dina PDF-filer med värdefulla metadata, vilket förbättrar deras spårbarhet och användbarhet.
 
-## FAQ's
+## Vanliga frågor
 
 ### Kan jag lägga till anpassade metadatafält i mina PDF-dokument?
 
-Ja, du kan lägga till anpassade metadatafält genom att ange fältnamnet och dess motsvarande värde med GroupDocs.Signature för .NET.
+Ja, du kan lägga till anpassade metadatafält genom att ange fältnamnet och motsvarande värde med GroupDocs.Signature för .NET.
 
-### Är GroupDocs.Signature för .NET kompatibel med alla versioner av .NET Framework?
+### Är GroupDocs.Signature för .NET kompatibelt med alla versioner av .NET Framework?
 
-GroupDocs.Signature för .NET är kompatibel med olika versioner av .NET Framework, vilket säkerställer flexibilitet och enkel integration.
+GroupDocs.Signature för .NET är kompatibelt med olika versioner av .NET Framework, vilket säkerställer flexibilitet och enkel integration.
 
 ### Stöder GroupDocs.Signature signering av andra dokumentformat förutom PDF?
 
-Ja, GroupDocs.Signature stöder ett brett utbud av dokumentformat, inklusive Word, Excel, PowerPoint och mer.
+Ja, GroupDocs.Signature stöder en mängd olika dokumentformat, inklusive Word, Excel, PowerPoint med flera.
 
 ### Kan jag signera flera dokument samtidigt med GroupDocs.Signature för .NET?
 
-Absolut! Du kan signera flera dokument samtidigt genom att iterera genom en lista med filer och tillämpa signaturprocessen programmatiskt.
+Absolut! Du kan signera flera dokument samtidigt genom att gå igenom en lista med filer och tillämpa signeringsprocessen programmatiskt.
 
 ### Finns teknisk support tillgänglig för GroupDocs.Signature-användare?
 
- Ja, GroupDocs tillhandahåller dedikerad teknisk support genom sina forum. Du kan komma åt supportforumet[här](https://forum.groupdocs.com/c/signature/13).
+Ja, GroupDocs erbjuder dedikerad teknisk support via sina forum. Du kan komma åt supportforumet [här](https://forum.groupdocs.com/c/signature/13).

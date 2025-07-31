@@ -29,7 +29,7 @@ Aspose.Email-biblioteket underlättar e-posthantering, inklusive åtkomst till b
 Install-Package Aspose.Email
 ```
 
-## 4. Läsa in ett e-postmeddelande
+## 4. Läser in ett e-postmeddelande
 
 För att arbeta med bilagor måste du först ladda ett e-postmeddelande. Här är ett exempel på hur du gör detta:
 

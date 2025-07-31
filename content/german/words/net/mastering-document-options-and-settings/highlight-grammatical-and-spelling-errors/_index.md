@@ -86,7 +86,7 @@ Aspose.Words für .NET ist eine robuste Bibliothek zum programmgesteuerten Erste
 Absolut! Aspose.Words lässt sich nahtlos in Ihre .NET-Projekte integrieren.
 
 ### Wie installiere ich Aspose.Words für .NET?
-Laden Sie die Bibliothek von der [Aspose-Website](https://releases.aspose.com/words/net/) und fügen Sie es Ihrem Projekt als Referenz hinzu.
+Laden Sie die Bibliothek herunter von der [Aspose-Website](https://releases.aspose.com/words/net/) und fügen Sie es Ihrem Projekt als Referenz hinzu.
 
 ### Gibt es eine kostenlose Testversion für Aspose.Words für .NET?
 Ja, Sie können eine kostenlose Testversion erhalten von [Hier](https://releases.aspose.com/).

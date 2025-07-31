@@ -22,7 +22,7 @@ Aspose.Email for .NET ile e-posta işlemenin tüm potansiyelini ortaya çıkarı
 - **🔄 E-posta Dönüşümü**: E-posta formatları arasında kusursuz dönüşüm
 - **🤖 Spam Analizi**: Gelişmiş makine öğrenimine dayalı filtreleme
 - **📊 E-posta İşleme**: İçerik analizi, ek işleme ve meta veri çıkarma
-- **⚡ Protokol Desteği**: SMTP, POP3, IMAP, Exchange Web Hizmetleri (EWS)
+- **⚡ Protokol Desteği**SMTP, POP3, IMAP, Exchange Web Hizmetleri (EWS)
 
 ## 📚 Eğitim Kategorileri
 
@@ -31,7 +31,7 @@ Profesyonel kalitede ve veri korumayla e-posta formatı dönüşümlerini ve dı
 
 | Eğitim | Açıklama | Zorluk |
 |----------|-------------|------------|
-| **[E-postaları Zaman Dilimi ile MHT Formatına Dönüştürün](./comprehensive-guide-to-email-conversion-and-export/convert-emails-to-mht-format-with-timezone-in-csharp/)** | Hassas zaman yönetimiyle zaman dilimine duyarlı e-posta arşivleme | ⭐⭐ Orta |
+| **[E-postaları Timezone ile MHT Formatına Dönüştürün](./comprehensive-guide-to-email-conversion-and-export/convert-emails-to-mht-format-with-timezone-in-csharp/)** | Hassas zaman yönetimiyle zaman dilimine duyarlı e-posta arşivleme | ⭐⭐ Orta |
 | **[EML'den MSG'ye Dönüştürme Kolaylaştırıldı](./comprehensive-guide-to-email-conversion-and-export/eml-to-msg-convert-made-easy-using-csharp/)** | Outlook uyumlu e-posta formatı dönüşümü | ⭐ Başlangıç |
 
 ### E-posta İşleme ve Analizi Kılavuzu
@@ -40,13 +40,13 @@ Spam tespiti ve içerik işleme dahil olmak üzere gelişmiş e-posta analiz tek
 | Eğitim | Açıklama | Zorluk |
 |----------|-------------|------------|
 | **[C#'ta Bayes Spam Analizi](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | İstatistiksel analizle makine öğrenimine dayalı spam tespiti | ⭐⭐⭐ Gelişmiş |
-| **[HTML E-postayı Düz Metne Dönüştür](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | HTML e-postalarından temiz metin içeriği çıkarın | ⭐⭐ Orta düzey |
+| **[HTML E-postayı Düz Metne Dönüştür](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** HTML e-postalarından temiz metin içeriği çıkarın | ⭐⭐ Orta düzey |
 
 ## 🎯 Popüler Kullanım Örnekleri
 
 ### **E-posta Sistemi Entegrasyonu**
 - **E-posta Göçü**: Sistem geçişleri için farklı e-posta biçimleri arasında dönüştürme yapın
-- **Arşiv Çözümleri**Biçim standardizasyonu ile uzun vadeli e-posta depolama
+- **Arşiv Çözümleri**: Biçim standardizasyonu ile uzun vadeli e-posta depolama
 - **Platformlar Arası Uyumluluk**: E-postaların farklı e-posta istemcilerinde çalışmasını sağlayın
 
 ### **E-posta Güvenliği ve Analizi**
@@ -109,7 +109,7 @@ Spam tespiti ve içerik işleme dahil olmak üzere gelişmiş e-posta analiz tek
 ## 🔧 Gelişmiş Özellikler Mevcuttur
 
 ### **E-posta Protokolü Desteği**
-- **SMTP İstemcisi** - E-postaları programatik olarak gönderin
+- **SMTP İstemcisi** - E-postaları programlı olarak gönderin
 - **POP3 İstemcisi** - Sunuculardan e-postaları alın
 - **IMAP İstemcisi** - Tam posta kutusu yönetimi
 - **Borsa Entegrasyonu** - Kurumsal e-posta sistemleri
@@ -133,7 +133,7 @@ Spam tespiti ve içerik işleme dahil olmak üzere gelişmiş e-posta analiz tek
 - **[Ücretsiz Deneme](https://releases.aspose.com/email/net/)** - Tüm özellikleri değerlendirin
 
 ### **Topluluk ve Destek**
-- **[Destek Forumu](https://forum.aspose.com/c/email/12)** - Uzmanlardan yardım alın
+- **[Destek Forumu](https://forum.aspose.com/c/email/12)** Uzmanlardan yardım alın
 
 ### **Lisanslama ve Denemeler**
 - **[Geçici Lisans](https://purchase.conholdate.com/temporary-license/)** - Genişletilmiş değerlendirme

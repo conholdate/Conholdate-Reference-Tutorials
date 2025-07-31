@@ -58,7 +58,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document pdfDocument1 = new Document(dataDir + "Concat1.pdf");
 ```
 
-هذا الخط ينشئ خطًا جديدًا `Document` الكائن ويحمل ملف PDF الأول إلى الذاكرة.
+هذا الخط ينشئ خطًا جديدًا `Document` الكائن ويقوم بتحميل ملف PDF الأول في الذاكرة.
 
 ## الخطوة 3: افتح مستند PDF الثاني
 

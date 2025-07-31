@@ -44,7 +44,7 @@ Stellen Sie sicher, dass die Datei `"AddHyperlink.pdf"` ist in Ihrem angegebenen
 
 ## Schritt 3: Zugriff auf die PDF-Seite
 
-Wählen Sie die Seite aus, auf der Sie den Hyperlink hinzufügen möchten. So fügen Sie ihn beispielsweise zur ersten Seite hinzu:
+Wählen Sie die Seite aus, auf der Sie den Hyperlink hinzufügen möchten. So fügen Sie ihn beispielsweise der ersten Seite hinzu:
 
 ```csharp
 Page page = document.Pages[1]; // Seitenindex beginnt bei 1

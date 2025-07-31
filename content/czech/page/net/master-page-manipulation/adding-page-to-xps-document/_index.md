@@ -1,25 +1,26 @@
 ---
-title: Přidávání stránek do dokumentů XPS pomocí Aspose.Page pro .NET
-linktitle: Přidávání stránek do dokumentů XPS
-second_title: Aspose.Page .NET API
-description: Naučte se, jak programově přidávat stránky do dokumentů XPS pomocí Aspose.Page for .NET. Tato komplexní příručka obsahuje předpoklady, příklady kódu a časté dotazy.
-weight: 11
-url: /cs/page/master-page-manipulation/adding-page-to-xps-document/
+"description": "Naučte se, jak programově přidávat stránky do dokumentů XPS pomocí Aspose.Page pro .NET. Tato komplexní příručka zahrnuje předpoklady, příklady kódu a nejčastější dotazy."
+"linktitle": "Přidávání stránek do dokumentů XPS"
+"second_title": "Rozhraní Aspose.Page .NET API"
+"title": "Přidávání stránek do dokumentů XPS pomocí Aspose.Page pro .NET"
+"url": "/cs/page/net/master-page-manipulation/adding-page-to-xps-document/"
+"weight": 11
 ---
+
 ## Zavedení
 
-Pokud chcete programově přidávat stránky do dokumentů XPS v .NET, Aspose.Page for .NET je vynikající volbou. Tato příručka vás provede procesem krok za krokem a zajistí, že nejen pochopíte, jak knihovnu používat, ale také budete dodržovat doporučené postupy SEO, aby byl tento obsah snadno zjistitelný.
+Pokud chcete programově přidávat stránky do dokumentů XPS v .NET, Aspose.Page pro .NET je vynikající volbou. Tato příručka vás krok za krokem provede celým procesem a zajistí, že nejen pochopíte, jak knihovnu používat, ale také budete dodržovat osvědčené postupy SEO, abyste tento obsah snadno našli.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte následující předpoklady:
 
--  Aspose.Page for .NET Library:[Stáhněte si z dokumentace Aspose.Page](https://reference.aspose.com/page/net/).
-- Vývojové prostředí: Nastavte si preferované vývojové prostředí .NET, jako je Visual Studio.
+- Aspose.Page pro knihovnu .NET: [Stáhnout z dokumentace k Aspose.Page](https://reference.aspose.com/page/net/).
+- Vývojové prostředí: Nastavte si preferované vývojové prostředí .NET, například Visual Studio.
 
 ## Import jmenných prostorů
 
-Chcete-li začít, musíte importovat potřebné jmenné prostory a zpřístupnit tak funkce Aspose.Page ve vašem projektu.
+Pro začátek je potřeba importovat potřebné jmenné prostory, čímž zpřístupníte funkce Aspose.Page ve svém projektu.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -27,11 +28,11 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-Pojďme si tento proces rozdělit na zvládnutelné kroky:
+Rozdělme si proces na zvládnutelné kroky:
 
-## Krok 1: Definujte cestu k adresáři dokumentu
+## Krok 1: Definování cesty k adresáři dokumentů
 
-Nejprve zadejte adresář, kde jsou uloženy vaše dokumenty. To pomůže při hledání souborů XPS.
+Nejprve zadejte adresář, kde jsou uloženy vaše dokumenty. To vám pomůže najít soubory XPS.
 
 ```csharp
 // Definujte cestu k adresáři dokumentů
@@ -43,22 +44,22 @@ string dataDir = "Your Document Directory";
 Dále vytvoříte nový dokument XPS nebo načtete existující.
 
 ```csharp
-// Vytvořte nebo načtěte dokument XPS
+// Vytvoření nebo načtení dokumentu XPS
 XpsDocument doc = new XpsDocument(dataDir + "Sample1.xps");
 ```
 
-## Krok 3: Vložte novou prázdnou stránku
+## Krok 3: Vložení nové prázdné stránky
 
 Nyní můžete do dokumentu XPS vložit novou prázdnou stránku. Tento příklad přidá stránku na začátek.
 
 ```csharp
-// Vložte prázdnou stránku na začátek dokumentu
+// Vložení prázdné stránky na začátek dokumentu
 doc.InsertPage(1, true);
 ```
 
 ## Krok 4: Uložte aktualizovaný dokument XPS
 
-Nakonec uložte upravený dokument do nového souboru, abyste zachovali své změny.
+Nakonec upravený dokument uložte do nového souboru, aby se změny zachovaly.
 
 ```csharp
 // Uložte aktualizovaný dokument XPS
@@ -67,26 +68,26 @@ doc.Save(dataDir + "AddPages_out.xps");
 
 ## Závěr
 
-V tomto kurzu jste se naučili, jak přidat stránky do dokumentu XPS pomocí Aspose.Page for .NET. Aspose.Page se svým přímočarým rozhraním API zjednodušuje tento úkol a umožňuje vývojářům vylepšit jejich aplikace o výkonné možnosti zpracování dokumentů.
+V tomto tutoriálu jste se naučili, jak přidávat stránky do dokumentu XPS pomocí Aspose.Page pro .NET. Díky svému přímočarému API Aspose.Page zjednodušuje úkol a umožňuje vývojářům vylepšit jejich aplikace o výkonné funkce pro zpracování dokumentů.
 
-## FAQ
+## Často kladené otázky
 
-### Je Aspose.Page for .NET vhodný pro začátečníky?
+### Je Aspose.Page pro .NET vhodný pro začátečníky?
 
-Ano! Rozhraní API je navrženo tak, aby bylo uživatelsky přívětivé, takže je dostupné jak pro nováčky, tak pro zkušené vývojáře.
+Ano! API je navrženo tak, aby bylo uživatelsky přívětivé, takže je přístupné jak začátečníkům, tak i zkušeným vývojářům.
 
-### Mohu používat Aspose.Page pro .NET v komerčních projektech?
+### Mohu použít Aspose.Page pro .NET v komerčních projektech?
 
 Rozhodně! Aspose.Page je všestranný a vhodný pro osobní i komerční aplikace.
 
 ### Kde najdu další dokumentaci a příklady?
 
- Pro další podrobnosti navštivte[Dokumentace Aspose.Page](https://reference.aspose.com/page/net/) pro komplexní zdroje.
+Pro více informací navštivte [Dokumentace k Aspose.Page](https://reference.aspose.com/page/net/) pro komplexní zdroje.
 
 ### Je k dispozici bezplatná zkušební verze?
 
- Ano, můžete vyzkoušet Aspose.Page for .NET s bezplatnou zkušební verzí, která je k dispozici[zde](https://releases.aspose.com/).
+Ano, můžete si vyzkoušet Aspose.Page pro .NET s bezplatnou zkušební verzí, která je k dispozici. [zde](https://releases.aspose.com/).
 
-### Jak mohu získat dočasnou licenci pro testování?
+### Jak mohu získat dočasnou licenci k testování?
 
- Chcete-li získat dočasnou licenci pro účely hodnocení, navštivte stránku[dočasná licenční stránka](https://purchase.conholdate.com/temporary-license/).
+Chcete-li získat dočasnou licenci pro účely hodnocení, navštivte [stránka s dočasnou licencí](https://purchase.conholdate.com/temporary-license/).

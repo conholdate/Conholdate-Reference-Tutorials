@@ -13,7 +13,7 @@ Excel 파일을 프로그래밍 방식으로 관리하면 생산성을 향상하
 
 ## .NET용 Aspose.Cells 사용을 위한 필수 조건
 
-따라오려면 다음 사항이 있는지 확인하세요.
+따라오시려면 다음 사항이 있는지 확인하세요.
 
 1. Visual Studio 설치: 원활한 개발 환경을 위해 최신 버전을 설정하세요.  
    [Visual Studio 다운로드](https://visualstudio.microsoft.com/).

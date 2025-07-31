@@ -16,7 +16,7 @@ Ciao, appassionati di tecnologia! Vi è mai capitato di dover verificare le firm
 Prima di iniziare, assicurati di avere a portata di mano quanto segue:
 
 1. Visual Studio: assicurati che sia installato sul tuo computer per la codifica.
-2. Aspose.Words per .NET: scaricalo e installalo da [Qui](https://releases.aspose.com/words/net/)Se non l'hai ancora fatto, provalo gratuitamente [Qui](https://releases.aspose.com/).
+2. Aspose.Words per .NET: scaricalo e installalo da [Qui](https://releases.aspose.com/words/net/)Se non l'hai ancora fatto, prova la tua prova gratuita [Qui](https://releases.aspose.com/).
 3. Un documento Word firmato digitalmente: tieni a portata di mano un documento Word con una firma digitale per la verifica.
 
 ## Importazione di spazi dei nomi

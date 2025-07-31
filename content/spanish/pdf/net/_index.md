@@ -32,9 +32,9 @@ Transforme varios formatos de archivos hacia y desde PDF con calidad profesional
 | Tutorial | Descripción | Dificultad |
 |----------|-------------|------------|
 | **[Convertir EPUB a PDF](./mastering-document-conversion/convert-epub-to-pdf/)** | Transformar libros electrónicos al formato PDF para compatibilidad universal | ⭐ Principiante |
-| **[Dominando HTML a PDF](./mastering-document-conversion/mastering-html-to-pdf/)** | Conversión de contenido web a PDF con soporte de estilo avanzado | ⭐⭐ Intermedio |
+| **[Dominando la conversión de HTML a PDF](./mastering-document-conversion/mastering-html-to-pdf/)** | Conversión de contenido web a PDF con soporte de estilo avanzado | ⭐⭐ Intermedio |
 | **[Conversión de CGM a PDF](./mastering-document-conversion/convert-cgm-to-pdf/)** | Transformación de metarchivo de gráficos de computadora a PDF | ⭐⭐ Intermedio |
-| **[Agregar archivos adjuntos a PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** | Adjuntos de documentos compatibles con los estándares de archivo | ⭐⭐⭐ Avanzado |
+| **[Agregar archivos adjuntos a PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** Adjuntos de documentos compatibles con los estándares de archivo | ⭐⭐⭐ Avanzado |
 
 ### Domine la programación de documentos PDF
 Técnicas avanzadas de programación de PDF para crear soluciones de documentos sofisticadas.
@@ -52,7 +52,7 @@ Operaciones esenciales de páginas PDF para la organización de documentos y la 
 | Tutorial | Descripción | Dificultad |
 |----------|-------------|------------|
 | **[Cambiar la orientación de la página PDF](./master-pdf-page-management/change-pdf-page-orientation/)** | Ajustar el diseño y la orientación de la página para una visualización óptima del documento | ⭐ Principiante |
-| **[Concatenación de archivos PDF](./master-pdf-page-management/concatenating-pdf-files/)** Fusionar varios documentos PDF en un único archivo cohesivo | ⭐⭐ Intermedio |
+| **[Concatenación de archivos PDF](./master-pdf-page-management/concatenating-pdf-files/)** | Fusionar varios documentos PDF en un único archivo cohesivo | ⭐⭐ Intermedio |
 | **[Eliminar una página específica de un archivo PDF](./master-pdf-page-management/delete-particular-page-from-pdf-files/)** | Eliminar páginas específicas de documentos PDF de manera eficiente | ⭐ Principiante |
 | **[Insertar páginas vacías en un archivo PDF](./master-pdf-page-management/insert-empty-pages/)** | Agregar páginas en blanco para organizar y espaciar el contenido | ⭐ Principiante |
 | **[Agregar una página vacía al final](./master-pdf-page-management/adding-an-empty-page-at-end/)** | Añadir páginas vacías a documentos PDF mediante programación | ⭐ Principiante |
@@ -113,7 +113,7 @@ Operaciones esenciales de páginas PDF para la organización de documentos y la 
 ### **Seguridad y cumplimiento**
 - **Firmas digitales** - Autenticación e integridad de documentos
 - **Cifrado** - Protección de contraseña y control de acceso
-- **Estándares PDF/A** - Cumplimiento de archivo a largo plazo
+- **Estándares PDF/A** Cumplimiento de archivo a largo plazo
 
 ### **Mejora de documentos**
 - **Marcas de agua** - Protección de marca y marcado de documentos
@@ -138,7 +138,7 @@ Operaciones esenciales de páginas PDF para la organización de documentos y la 
 - **[Licencia temporal](https://purchase.conholdate.com/temporary-license/)** - Período de evaluación extendido para las pruebas
 - **[Opciones de compra](https://purchase.conholdate.com/buy)** - Licencias flexibles para equipos y empresas
 
-## 📋 Tutorial de referencia rápida
+## 📋 Referencia rápida del tutorial
 
 ### **Conversión de documentos**
 - EPUB → PDF (Edición y distribución de libros electrónicos)

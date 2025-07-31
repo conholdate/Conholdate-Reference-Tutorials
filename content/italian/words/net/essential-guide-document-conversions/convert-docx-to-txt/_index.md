@@ -229,7 +229,7 @@ No, è una scelta intenzionale. I file TXT sono in formato testo normale: non su
 ### Posso convertire i file DOCX in altri formati utilizzando lo stesso metodo?
 
 Sì! Aspose.Words supporta la conversione di DOCX in PDF, HTML, RTF, ODT e molti altri formati. Basta cambiare l'estensione del file nel `Save()` metodo:
-- Formato PDF: `doc.Save("output.pdf")`
+- PDF: `doc.Save("output.pdf")`
 - HTML: `doc.Save("output.html")`
 - RTF: `doc.Save("output.rtf")`
 

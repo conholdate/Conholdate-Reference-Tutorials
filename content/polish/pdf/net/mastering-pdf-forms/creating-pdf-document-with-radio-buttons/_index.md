@@ -112,7 +112,7 @@ opt3.OptionName = "Option 3";
 opt3.Border = new Border(opt3) { Width = 1, Color = System.Drawing.Color.Black };
 ```
 
-Każda opcja jest definiowana za pomocą atrybutów pozycji, nazwy i obramowania.
+Każda opcja jest definiowana za pomocą pozycji, nazwy i atrybutów obramowania.
 
 ## Krok 5: Dodaj opcje do pola
 

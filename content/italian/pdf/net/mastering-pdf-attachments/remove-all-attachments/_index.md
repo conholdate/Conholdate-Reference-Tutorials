@@ -106,7 +106,7 @@ Sì, puoi eliminare selettivamente allegati specifici scorrendo la `EmbeddedFile
 Una volta eliminati, gli allegati non potranno essere recuperati a meno che non si esegua prima il backup del file PDF originale.
 
 ### Aspose.PDF è gratuito?
-Aspose.PDF offre una prova gratuita; tuttavia, per usufruire di tutte le funzionalità, è necessario acquistare una licenza. Controlla [pagina di acquisto](https://purchase.aspose.com/buy) per maggiori dettagli.
+Aspose.PDF offre una prova gratuita; tuttavia, per usufruire di tutte le funzionalità, è necessario acquistare una licenza. Controlla [pagina di acquisto](https://purchase.aspose.com/buy) per i dettagli.
 
 ### Dove posso trovare ulteriore documentazione?
 Per una guida completa, fare riferimento alla documentazione Aspose.PDF [Qui](https://reference.aspose.com/pdf/net/).

@@ -88,7 +88,7 @@ The `SaveFormat.Docx` parametresi, Aspose.Words'e tam olarak hangi formatı iste
 
 ## Yaygın Sorunlar ve Çözümleri
 
-Dönüştürme işlemi basit olsa da, birkaç sorunla karşılaşabilirsiniz. İşte en sık karşılaşılan sorunlar ve çözümleri:
+Dönüştürme işlemi basit olsa da, birkaç sorunla karşılaşabilirsiniz. İşte en sık karşılaşılan sorunlar ve bunların nasıl çözüleceği:
 
 ### Dosya Yolu Sorunları
 **Sorun**: Belgeler yüklenirken "Dosya bulunamadı" hataları.
@@ -199,7 +199,7 @@ Evet, Aspose.Words PDF, HTML, RTF, TXT, ODT ve daha birçok format dahil olmak �
 ### Dönüştürme işlemi tüm biçimlendirmeyi ve içeriği koruyacak mı?
 Kesinlikle! Aspose.Words, dönüştürme sırasında metin biçimlendirmesini, görüntüleri, tabloları, başlıkları, alt bilgileri, sayfa düzenlerini ve hatta grafikler ve gömülü nesneler gibi karmaşık öğeleri koruyarak tam bir doğruluk sağlar.
 
-### Şifreyle korunan DOC dosyalarını nasıl işlerim?
+### Şifre korumalı DOC dosyalarını nasıl işlerim?
 Parola korumalı belgeleri, LoadOptions'da parolayı belirterek yükleyebilirsiniz:
 ```csharp
 LoadOptions options = new LoadOptions { Password = "your-password" };

@@ -1,5 +1,5 @@
 ---
-"description": "Leer hoe u efficiënt e-mailbijlagen kunt verwerken in C#-applicaties met behulp van de krachtige Aspose.Email voor .NET-bibliotheek. Deze uitgebreide handleiding behandelt het installatieproces en het maken van e-mailberichten."
+"description": "Leer hoe u efficiënt e-mailbijlagen verwerkt in C#-applicaties met behulp van de krachtige Aspose.Email voor .NET-bibliotheek. Deze uitgebreide handleiding behandelt het installatieproces en het maken van e-mailberichten."
 "linktitle": "E-mailbijlagen toevoegen in C# met Aspose.Email voor .NET"
 "second_title": "Aspose.Email .NET e-mailverwerkings-API"
 "title": "E-mailbijlagen toevoegen in C# met Aspose.Email voor .NET"
@@ -9,13 +9,13 @@
 
 ## Invoering
 
-E-mailbijlagen vormen een fundamenteel aspect van moderne communicatie en stellen gebruikers in staat bestanden rechtstreeks via e-mail te delen. Aspose.Email voor .NET is een krachtige bibliotheek die de verwerking van e-mail in C#-applicaties vereenvoudigt, waardoor het gemakkelijk wordt om e-mails met bijlagen te maken, beheren en verzenden.
+E-mailbijlagen vormen een fundamenteel aspect van moderne communicatie en stellen gebruikers in staat bestanden rechtstreeks via e-mail te delen. Aspose.Email voor .NET is een krachtige bibliotheek die e-mailverwerking in C#-applicaties vereenvoudigt, waardoor het gemakkelijk wordt om e-mails met bijlagen te maken, beheren en verzenden.
 
 ## Vereisten
 
 Voordat u met de implementatie begint, moet u ervoor zorgen dat u over het volgende beschikt:
 
-- Visual Studio: zorg ervoor dat u Visual Studio hebt geïnstalleerd om uw C#-projecten te maken en beheren.
+- Visual Studio: Zorg ervoor dat u Visual Studio hebt geïnstalleerd om uw C#-projecten te maken en beheren.
 - Basiskennis van C#: Kennis van de C#-syntaxis en basisprogrammeerconcepten is een pré.
 - Aspose.Email voor .NET-bibliotheek: Deze bibliotheek is verkrijgbaar bij de [Aspose-website](https://products.aspose.com/email/net).
 
@@ -64,7 +64,7 @@ MailMessage message = new MailMessage
 
 ## Bijlagen toevoegen aan de e-mail
 
-Zo voegt u bijlagen toe aan uw e-mail:
+Bijlagen toevoegen aan uw e-mail:
 
 1. Instantieer de Attachment-klasse:
 

@@ -1,5 +1,5 @@
 ---
-"description": "Naučte se, jak plně využít potenciál Aspose.PDF pro .NET s naším podrobným návodem na načtení licence ze souboru."
+"description": "Naučte se, jak plně využít potenciál Aspose.PDF pro .NET, s naším podrobným návodem na načtení licence ze souboru."
 "linktitle": "Načítání licence ze souboru"
 "second_title": "Aspose.PDF pro referenční příručku k .NET API"
 "title": "Načítání licence ze souboru"
@@ -81,7 +81,7 @@ Použití licence v Aspose.PDF pro .NET vám zajistí, že můžete plně využ�
 ## Často kladené otázky  
 
 ### Co se stane, když nenačtu licenci?  
-Bez licence pracuje Aspose.PDF v zkušebním režimu, což má za následek omezení, jako je výstup s vodoznakem a omezená funkčnost.  
+Bez licence pracuje Aspose.PDF v režimu zkušebního testování, což má za následek omezení, jako je výstup s vodoznakem a omezená funkčnost.  
 
 ### Mohu načíst licenci ze streamu?  
 Ano, můžete použít `SetLicense` metodu s objektem stream namísto cesty k souboru.  

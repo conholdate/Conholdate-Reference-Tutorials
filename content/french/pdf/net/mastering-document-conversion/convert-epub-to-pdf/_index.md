@@ -94,7 +94,7 @@ EpubLoadOptions epubload = new EpubLoadOptions();
 
 Cette ligne peut paraître simple, mais elle fait du gros travail en coulisses. `EpubLoadOptions` l'objet contient les paramètres par défaut optimisés pour les fichiers EPUB, notamment la gestion des polices, des images et du style intégrés.
 
-**Quand personnaliser**: Dans la plupart des cas, les options par défaut fonctionnent parfaitement. Cependant, si vous travaillez avec des fichiers EPUB complexes présentant un formatage inhabituel ou du contenu intégré, vous devrez peut-être personnaliser ces options.
+**Quand personnaliser**:Dans la plupart des cas, les options par défaut fonctionnent parfaitement. Cependant, si vous travaillez avec des fichiers EPUB complexes présentant un formatage inhabituel ou du contenu intégré, vous devrez peut-être personnaliser ces options.
 
 ## Étape 3 : Créer un objet de document
 
@@ -133,7 +133,7 @@ catch (Exception ex)
 }
 ```
 
-Ce bloc catch affiche tous les messages d'erreur survenant pendant le processus de conversion. Dans une application de production, vous souhaiterez peut-être consigner ces erreurs dans un fichier ou afficher des messages conviviaux plutôt que des détails bruts sur les exceptions.
+Ce bloc catch affiche tous les messages d'erreur survenant pendant le processus de conversion. Dans une application de production, vous souhaiterez peut-être consigner ces erreurs dans un fichier ou afficher des messages conviviaux plutôt que les détails bruts des exceptions.
 
 **Meilleure gestion des erreurs**: Pensez à détecter des exceptions spécifiques comme `FileNotFoundException` ou `UnauthorizedAccessException` pour fournir des messages d'erreur plus ciblés à vos utilisateurs.
 

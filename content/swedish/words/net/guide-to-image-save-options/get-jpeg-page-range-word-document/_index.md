@@ -44,7 +44,7 @@ Detta kodavsnitt initierar dokumentets sökväg och laddar den i en Aspose.Words
 
 ## Steg 3: Konfigurera alternativ för att spara bilder
 
-Nu ska vi ställa in `ImageSaveOptions` för att skräddarsy hur JPEG-filen ska genereras, inklusive sidval, bildens ljusstyrka, kontrast och upplösning:
+Nu, låt oss ställa in `ImageSaveOptions` för att skräddarsy hur JPEG-filen ska genereras, inklusive sidval, bildens ljusstyrka, kontrast och upplösning:
 
 ```csharp
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);

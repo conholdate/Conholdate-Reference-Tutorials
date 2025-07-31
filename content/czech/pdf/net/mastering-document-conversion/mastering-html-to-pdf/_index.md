@@ -52,7 +52,7 @@ Je čas se do toho pustit! Pro správné nastavení adresáře projektu postupuj
 
 2. **Přidejte svůj HTML soubor**Umístěte svůj HTML soubor (nazvěme ho `HTMLToPDF.html`) v `Documents` složka. Může to být cokoli – jednoduchá webová stránka, složitá šablona sestavy nebo dokonce rozvržení faktury.
 
-**Tip pro profesionály**Pro první test začněte s jednoduchým HTML souborem. Jakmile zvládnete základní konverzi, můžete experimentovat se složitějšími rozvrženími, vloženým CSS a externími zdroji.
+**Tip pro profesionály**Pro první test začněte s jednoduchým HTML souborem. Jakmile zvládnete základní převod, můžete experimentovat se složitějšími rozvrženími, vloženým CSS a externími zdroji.
 
 ## Import potřebných balíčků
 
@@ -183,7 +183,7 @@ Je obzvláště výkonný, když potřebujete konzistentní a vysoce kvalitní v
 
 Při implementaci převodu HTML do PDF v produkčním prostředí mějte na paměti tyto faktory výkonu:
 
-**Využití paměti**Velké dokumenty HTML mohou během převodu spotřebovávat značné množství paměti. Sledujte využití paměti a u velmi velkých souborů zvažte limity zpracování.
+**Využití paměti**Velké HTML dokumenty mohou během převodu spotřebovávat značné množství paměti. Sledujte využití paměti a u velmi velkých souborů zvažte limity zpracování.
 
 **Souběžnost**Více simultánních konverzí může ovlivnit výkon serveru. Pro scénáře s vysokým objemem dat implementujte mechanismy řazení do front nebo omezení.
 

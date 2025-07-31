@@ -1,5 +1,5 @@
 ---
-"description": "Ontdek Aspose.Cells voor .NET tutorials, van het instellen van afbeeldingsvoorkeuren voor HTML tot het toevoegen van grafische achtergronden in ODS. Leer met stapsgewijze handleidingen."
+"description": "Ontdek Aspose.Cells voor .NET-tutorials, van het instellen van afbeeldingsvoorkeuren voor HTML tot het toevoegen van grafische achtergronden in ODS. Leer met stapsgewijze handleidingen."
 "linktitle": "Handleiding voor werkbladbewerkingen in Aspose.Cells voor .NET"
 "second_title": "Aspose.Cells .NET Excel-verwerkings-API"
 "title": "Handleiding voor werkbladbewerkingen in Aspose.Cells voor .NET"
@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Aspose.Cells is dé ultieme game-changer voor het bewerken van Excel-bestanden in .NET-applicaties. Of u nu webapps bouwt, rapporten automatiseert of gegevens analyseert, Aspose.Cells biedt alle tools die u nodig hebt om programmatisch met Excel-bestanden te werken. Hieronder vindt u een lijst met tutorials die u helpen werkbladbewerkingen onder de knie te krijgen en het volledige potentieel van uw projecten te benutten.
+Aspose.Cells is dé ultieme game-changer voor het bewerken van Excel-bestanden in .NET-applicaties. Of u nu webapps bouwt, rapporten automatiseert of gegevens analyseert, Aspose.Cells biedt alle tools die u nodig hebt om programmatisch met Excel-bestanden te werken. Hieronder vindt u een lijst met tutorials om u te helpen werkbladbewerkingen onder de knie te krijgen en het volledige potentieel van uw projecten te benutten.
 
 ## Afbeeldingvoorkeuren instellen voor HTML 
  
@@ -23,7 +23,7 @@ Stel je voor dat je samenwerkt aan een Excel-sheet waarin reacties naadloos over
   
 Spreadsheets hoeven geen saaie rasters te zijn. Met Aspose.Cells kun je boeiende grafische achtergronden toevoegen aan je ODS-bestanden om ze te laten opvallen. Of het nu gaat om een logo, een aangepast ontwerp of een inspirerende afbeelding, we laten je zien hoe je het in slechts een paar regels code implementeert. [Ontdek hoe](./adding-graphic-background-in-ods-file/).
 
-## Het lezen van de aangemaakte tijd van geneste reacties  
+## Het lezen van de aanmaaktijd van geneste reacties  
 
 Heb je je ooit afgevraagd wanneer een specifieke opmerking aan je Excel-werkblad is toegevoegd? Door de aanmaaktijd van opmerkingen met een thread te kennen, kun je updates en revisies bijhouden. Met Aspose.Cells voor .NET is het aflezen van de aanmaaktijd van deze opmerkingen een fluitje van een cent. Onze tutorial biedt een duidelijke handleiding voor het efficiënt extraheren en weergeven van deze informatie. [Ontdek deze gids](./read-created-time-of-threaded-comment/).
 
@@ -37,8 +37,8 @@ Leer hoe u Excel-spreadsheets effectief kunt omzetten naar visueel aantrekkelijk
 ### [Geneste opmerkingen bewerken in een Excel-werkblad](./editing-threaded-comments/)
 Benut het volledige potentieel van samenwerking in Excel met onze uitgebreide handleiding voor het bewerken van opmerkingen met een thread in Aspose.Cells voor .NET. Dit artikel biedt een duidelijke, stapsgewijze aanpak om de communicatie binnen uw Excel-werkbladen te verbeteren.
 ### [Lees de aanmaaktijd van geneste opmerkingen met Aspose.Cells](./read-created-time-of-threaded-comment/)
-Leer hoe u eenvoudig de aanmaaktijd van opmerkingen in een Excel-werkblad kunt aflezen met Aspose.Cells voor .NET. Volg onze gedetailleerde handleiding met stapsgewijze instructies.
+Leer hoe u eenvoudig de aanmaaktijd van geneste opmerkingen in een Excel-werkblad kunt aflezen met Aspose.Cells voor .NET. Volg onze gedetailleerde handleiding met stapsgewijze instructies.
 ### [Geneste opmerkingen in werkblad extraheren](./extract-threaded-comments/)
-Haal het maximale uit je Excel-documenten door te leren hoe je efficiënt gegroepeerde opmerkingen kunt extraheren met Aspose.Cells voor .NET. Deze uitgebreide tutorial leidt je stap voor stap door de instructies.
+Haal het maximale uit uw Excel-documenten door te leren hoe u efficiënt geneste opmerkingen kunt extraheren met Aspose.Cells voor .NET. Deze uitgebreide tutorial leidt u stap voor stap door de instructies.
 ### [Grafische achtergrond toevoegen aan ODS-bestand](./adding-graphic-background-in-ods-file/)
 Leer hoe u de visuele aantrekkingskracht van uw ODS-spreadsheets kunt verbeteren door aangepaste grafische achtergronden toe te voegen met Aspose.Cells voor .NET. Deze stapsgewijze handleiding behandelt alles, van het instellen van uw ontwikkelomgeving tot het implementeren van uw ontwerp.

@@ -134,7 +134,7 @@ Và thế là xong! Bạn có thể dễ dàng sao chép một bảng tính từ
 Có, bạn có thể lặp lại nhiều trang tính và sao chép từng trang tính vào một bảng tính khác.
 
 ### Aspose.Cells có giữ nguyên định dạng khi sao chép không?  
-Chắc chắn rồi! `Copy` phương pháp này giữ nguyên mọi định dạng và kiểu dáng.
+Chắc chắn rồi! `Copy` phương pháp này bảo toàn mọi định dạng và kiểu dáng.
 
 ### Làm thế nào tôi có thể truy cập vào các ô cụ thể trong bảng tính đã sao chép?  
 Bạn có thể truy cập vào các ô cụ thể bằng cách sử dụng `Cells` tài sản trong bảng tính.

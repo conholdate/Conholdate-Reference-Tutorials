@@ -19,7 +19,7 @@ Voordat we met de implementatie beginnen, moet u ervoor zorgen dat u over het vo
 2. .NET Framework: Zorg ervoor dat .NET Framework op uw computer is geïnstalleerd en dat u bekend bent met de basisprincipes van .NET-programmering.
 3. Digitaal certificaat: Verkrijg een geldig digitaal certificaat in .pfx-formaat. Om te testen, kunt u een zelfondertekend certificaat aanmaken.
 4. Ontwikkelomgeving: Gebruik een IDE zoals Visual Studio om uw C#-code te schrijven en uit te voeren.
-5. Voorbeeld Excel-bestand: U beschikt over een bestaand Excel-bestand dat al digitaal is ondertekend en waaraan een nieuwe handtekening wordt toegevoegd.
+5. Voorbeeld Excel-bestand: U hebt een bestaand Excel-bestand dat al digitaal is ondertekend en waaraan een nieuwe handtekening moet worden toegevoegd.
 
 Nu deze voorwaarden vervuld zijn, kunnen we aan de slag met de code!
 
@@ -54,7 +54,7 @@ Laad de Excel-werkmap die al is ondertekend:
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
 ```
 
-## Stap 3: Een digitale handtekeningencollectie maken
+## Stap 3: Maak een digitale handtekeningencollectie
 
 Maak een verzameling om uw digitale handtekeningen te beheren:
 
@@ -88,7 +88,7 @@ dsCollection.Add(signature);
 
 ## Stap 6: Voeg de handtekeningenverzameling toe aan de werkmap
 
-Voeg de verzameling digitale handtekeningen toe aan de werkmap:
+Voeg de digitale handtekeningenverzameling toe aan de werkmap:
 
 ```csharp
 // Digitale handtekeningenverzameling toevoegen aan de werkmap
@@ -129,7 +129,7 @@ Ja, voor het aanmaken van een geldige digitale handtekening is een digitaal cert
 
 ### Kan ik een zelfondertekend certificaat gebruiken voor testen?
 
-Absoluut! Je kunt een zelfondertekend certificaat gebruiken voor ontwikkelings- en testdoeleinden, maar voor productie is het raadzaam om een certificaat van een vertrouwde CA te gebruiken.
+Absoluut! U kunt een zelfondertekend certificaat gebruiken voor ontwikkelings- en testdoeleinden, maar voor productie is het raadzaam om een certificaat van een vertrouwde CA te gebruiken.
 
 ### Wat gebeurt er als ik een handtekening probeer toe te voegen aan een niet-ondertekend document?
 

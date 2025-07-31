@@ -47,7 +47,7 @@ using Aspose.Words;
 ระบุเส้นทางไปยังไดเร็กทอรีที่มีเอกสาร Word ของคุณ:
 
 ```csharp
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// เส้นทางไปยังไดเรกทอรีเอกสาร
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
 

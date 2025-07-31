@@ -36,7 +36,7 @@ Czy zdarzyło Ci się kiedyś wydrukować duży arkusz kalkulacyjny, a zawartoś
 
 ## Samouczki dotyczące opanowania funkcji konfiguracji strony arkusza kalkulacyjnego
 ### [Sprawdź, czy ustawienia rozmiaru papieru arkusza kalkulacyjnego są automatyczne](./check-if-paper-size-settings/)
-Dowiedz się, jak skutecznie zarządzać ustawieniami rozmiaru papieru w arkuszach Excela i weryfikować je za pomocą Aspose.Cells dla platformy .NET. Ten kompleksowy przewodnik zawiera instrukcje krok po kroku.
+Dowiedz się, jak skutecznie zarządzać ustawieniami rozmiaru papieru w arkuszach kalkulacyjnych programu Excel i weryfikować je za pomocą Aspose.Cells dla platformy .NET. Ten kompleksowy przewodnik zawiera instrukcje krok po kroku.
 ### [Wdrażanie orientacji strony w arkuszu kalkulacyjnym programu Excel](./implement-page-orientation-in-excel-worksheet/)
 Dowiedz się, jak poprawić czytelność i prezentację arkuszy kalkulacyjnych Excela, zmieniając orientację strony za pomocą Aspose.Cells dla .NET. Ten przewodnik krok po kroku przeprowadzi Cię przez ten proces, podając przejrzyste przykłady.
 ### [Implementacja nagłówka i stopki za pomocą Aspose.Cells dla platformy .NET](./implement-header-footer/)

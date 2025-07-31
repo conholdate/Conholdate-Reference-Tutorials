@@ -1,26 +1,27 @@
 ---
-title: Opcje znaczników wykresu w punkcie danych w Aspose.Slides .NET
-linktitle: Opcje znaczników wykresu w punkcie danych w Aspose.Slides .NET
-second_title: Aspose.Slides .NET API przetwarzania programu PowerPoint
-description: Dowiedz się, jak ulepszyć wykresy programu PowerPoint za pomocą niestandardowych opcji znaczników przy użyciu Aspose.Slides dla .NET. Ten przewodnik krok po kroku obejmuje wymagania wstępne, tworzenie wykresów, formatowanie punktów danych i nie tylko.
-weight: 11
-url: /pl/slides/master-advanced-chart-customization/chart-marker-options/
+"description": "Dowiedz się, jak ulepszyć wykresy programu PowerPoint dzięki niestandardowym opcjom znaczników w Aspose.Slides dla platformy .NET. Ten przewodnik krok po kroku obejmuje wymagania wstępne, tworzenie wykresów, formatowanie punktów danych i wiele więcej."
+"linktitle": "Opcje znaczników wykresu w punkcie danych w Aspose.Slides .NET"
+"second_title": "Aspose.Slides .NET Interfejs API przetwarzania programu PowerPoint"
+"title": "Opcje znaczników wykresu w punkcie danych w Aspose.Slides .NET"
+"url": "/pl/slides/net/master-advanced-chart-customization/chart-marker-options/"
+"weight": 11
 ---
+
 ## Wstęp
 
-Włączanie pomocy wizualnych do prezentacji jest niezbędne do skutecznej komunikacji. Aspose.Slides for .NET zapewnia solidne narzędzia do tworzenia i dostosowywania wykresów, umożliwiając programistom ulepszanie prezentacji danych. Jedną z wyróżniających się funkcji jest możliwość korzystania z opcji znaczników wykresu w punktach danych, co umożliwia precyzyjną personalizację w celu uzyskania profesjonalnie wyglądających wykresów. Ten artykuł przeprowadzi Cię przez każdy krok potrzebny do osiągnięcia tego celu.
+Włączanie pomocy wizualnych do prezentacji jest kluczowe dla skutecznej komunikacji. Aspose.Slides for .NET oferuje solidne narzędzia do tworzenia i dostosowywania wykresów, umożliwiając programistom udoskonalenie prezentacji danych. Jedną z wyróżniających się funkcji jest możliwość korzystania z opcji znaczników wykresu dla punktów danych, co pozwala na precyzyjne dostosowanie wykresów do profesjonalnego wyglądu. Ten artykuł przeprowadzi Cię przez każdy krok niezbędny do osiągnięcia tego celu.
 
 ## Wymagania wstępne
 
-Przed kontynuowaniem upewnij się, że:
+Przed przystąpieniem do dalszych czynności należy upewnić się, że:
 
--  Aspose.Slides dla .NET zainstalowany: Pobierz ze strony[Tutaj](https://releases.aspose.com/slides/net/).
-- Podstawowa konfiguracja: plik prezentacji, np. „Test.pptx”, w katalogu roboczym.
+- Aspose.Slides dla .NET zainstalowany: Pobierz ze strony [Tutaj](https://releases.aspose.com/slides/net/).
+- Podstawowa konfiguracja: Plik prezentacji, np. „Test.pptx”, w katalogu roboczym.
 - Środowisko programistyczne: Visual Studio lub równoważne, skonfigurowane dla .NET.
 
 ## Importowanie wymaganych przestrzeni nazw
 
-Dodaj niezbędne przestrzenie nazw do swojego projektu, aby zapewnić bezproblemowy rozwój:
+Dodaj niezbędne przestrzenie nazw do swojego projektu, aby zapewnić płynny rozwój:
 
 ```csharp
 using Aspose.Slides;
@@ -40,7 +41,7 @@ ISlide slide = pres.Slides[0];
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 50, 50, 600, 400);
 ```
 
- To dodaje`LineWithMarkers` wykres do slajdu o określonych wymiarach.
+To dodaje `LineWithMarkers` wykres do slajdu o określonych wymiarach.
 
 ## Krok 2: Pobierz indeks arkusza danych wykresu
 
@@ -60,7 +61,7 @@ IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 
 ## Krok 4: Skonfiguruj serię wykresów i dodaj punkty danych
 
-Wyczyść domyślne serie i dodaj nowe punkty danych dla swoich serii:
+Wyczyść domyślną serię i dodaj nowe punkty danych dla swojej serii:
 
 ```csharp
 chart.ChartData.Series.Clear();
@@ -76,7 +77,7 @@ series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 
 
 ## Krok 5: Zastosuj wypełnienia obrazkowe do znaczników punktów danych
 
-Niestandardowe obrazy mogą sprawić, że znaczniki danych staną się wizualnie atrakcyjne:
+Niestandardowe obrazy mogą sprawić, że znaczniki danych staną się wizualnie atrakcyjniejsze:
 
 ```csharp
 System.Drawing.Image img1 = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
@@ -111,21 +112,21 @@ pres.Save(dataDir + "CustomizedChart.pptx", SaveFormat.Pptx);
 
 ## Wniosek
 
-Aspose.Slides for .NET wyposaża programistów w narzędzia do tworzenia profesjonalnych wykresów z bogatymi opcjami dostosowywania. Wykorzystując opcje znaczników wykresów, możesz znacznie zwiększyć atrakcyjność wizualną i przejrzystość swoich prezentacji. Ten przewodnik krok po kroku zapewnia, że nawet złożone dostosowania są proste do wdrożenia.
+Aspose.Slides for .NET oferuje programistom narzędzia do tworzenia profesjonalnych wykresów z bogatymi możliwościami personalizacji. Wykorzystując opcje znaczników wykresów, możesz znacząco poprawić atrakcyjność wizualną i przejrzystość swoich prezentacji. Ten przewodnik krok po kroku gwarantuje, że nawet złożone modyfikacje będą łatwe do wdrożenia.
 
 ## Najczęściej zadawane pytania
 
 ### Czy mogę użyć dowolnego formatu obrazu do personalizacji znaczników?
-Tak, Aspose.Slides obsługuje różne formaty obrazów, w tym JPEG, PNG i BMP, co pozwala na dostosowywanie znaczników.
+Tak, Aspose.Slides obsługuje różne formaty obrazów, w tym JPEG, PNG i BMP, co pozwala na personalizację znaczników.
 
 ### Jak zmienić typ wykresu po jego utworzeniu?
- Aby zmienić typ wykresu, uzyskaj dostęp do`chart.Type` nieruchomość i przypisać inną`ChartType`.
+Aby zmienić typ wykresu, uzyskaj dostęp do `chart.Type` nieruchomość i przypisać inną `ChartType`.
 
 ### Czy Aspose.Slides dla .NET jest zgodny ze starszymi wersjami programu PowerPoint?
 Tak, obsługuje wsteczną kompatybilność ze starszymi formatami programu PowerPoint, co gwarantuje wszechstronność.
 
 ### Czy mogę dynamicznie aktualizować dane na wykresie?
- Oczywiście. Użyj`IChartDataWorkbook` aby programowo aktualizować dane wykresu.
+Zdecydowanie. Użyj `IChartDataWorkbook` aby programowo aktualizować dane wykresu.
 
 ### Gdzie mogę znaleźć więcej materiałów?
- Odkryj[Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/net/)lub dołącz do[fora społecznościowe](https://forum.aspose.com/) o wsparcie.
+Odkryj [Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/net/) lub dołącz do [fora społecznościowe](https://forum.aspose.com/) o wsparcie.

@@ -1,14 +1,15 @@
 ---
-title: Salvando documentos do OneNote em PDF usando Aspose.Note para .NET
-linktitle: Salvando documentos do OneNote em PDF
-second_title: API Aspose.Note .NET
-description: Aprenda como salvar documentos do Microsoft OneNote como arquivos PDF de forma eficiente usando o Aspose.Note para .NET. Este guia orienta você pelos pré-requisitos necessários e oferece FAQs úteis.
-weight: 26
-url: /pt/note/one-note-document-manipulation/saving-one-note-document-pdf/
+"description": "Aprenda a salvar documentos do Microsoft OneNote como arquivos PDF com eficiência usando o Aspose.Note para .NET. Este guia explica os pré-requisitos necessários e oferece perguntas frequentes úteis."
+"linktitle": "Salvando documentos do OneNote em PDF"
+"second_title": "API Aspose.Note .NET"
+"title": "Salvando documentos do OneNote em PDF usando Aspose.Note para .NET"
+"url": "/pt/note/net/one-note-document-manipulation/saving-one-note-document-pdf/"
+"weight": 26
 ---
+
 ## Introdução
 
-Neste tutorial, exploraremos como salvar documentos em formato PDF usando o Aspose.Note para .NET. O Aspose.Note é uma biblioteca poderosa que permite que os desenvolvedores trabalhem com arquivos do Microsoft OneNote programaticamente. Abordaremos os pré-requisitos, importaremos namespaces e forneceremos guias passo a passo para salvar documentos em PDF em vários layouts de página.
+Neste tutorial, exploraremos como salvar documentos em formato PDF usando o Aspose.Note para .NET. O Aspose.Note é uma biblioteca poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote programaticamente. Abordaremos os pré-requisitos, importaremos namespaces e forneceremos guias passo a passo para salvar documentos em PDF em diversos layouts de página.
 
 ## Pré-requisitos
 1. Visual Studio: verifique se ele está instalado.
@@ -63,7 +64,7 @@ Sim, ele lida efetivamente com vários recursos de arquivos complexos do OneNote
 Sim, você pode usá-lo para aplicações comerciais após comprar uma licença.
 
 ### O Aspose.Note oferece um teste gratuito?
-Sim, uma avaliação gratuita está disponível para exploração.
+Sim, um teste gratuito está disponível para exploração.
 
 ### Onde posso encontrar documentação para o Aspose.Note?
 A documentação detalhada está disponível no site de referência do Aspose.

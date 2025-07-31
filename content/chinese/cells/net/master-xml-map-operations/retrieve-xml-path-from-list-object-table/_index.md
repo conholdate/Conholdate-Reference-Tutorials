@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Cells for .NET 从 Excel 工作表中的列表对象表中检索 XML 路径。本指南涵盖了每个步骤。"
+"description": "学习如何使用 Aspose.Cells for .NET 从 Excel 工作表中的列表对象表中检索 XML 路径。本指南涵盖了每个步骤。"
 "linktitle": "使用 Aspose.Cells 从列表对象表中检索 XML 路径"
 "second_title": "Aspose.Cells .NET Excel 处理 API"
 "title": "使用 Aspose.Cells 从列表对象表中检索 XML 路径"

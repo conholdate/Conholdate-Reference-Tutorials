@@ -75,7 +75,7 @@ Modificare il fattore di zoom utilizzando `Zoom` proprietà. I valori vanno da 1
 worksheet.Zoom = 100; // Imposta lo zoom al 100%
 ```
 
-Per una visualizzazione ottimale, regolare il fattore di zoom sulla percentuale desiderata.  
+Per una visualizzazione ottimale, è possibile regolare il fattore di zoom sulla percentuale desiderata.  
 
 ## Passaggio 6: salvare la cartella di lavoro aggiornata  
 

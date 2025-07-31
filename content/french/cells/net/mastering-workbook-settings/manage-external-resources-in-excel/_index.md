@@ -111,7 +111,7 @@ Définissez l’apparence que vous souhaitez donner à l’image de sortie en co
     };
 ```
 
-Opter pour le format PNG garantit une sortie nette et claire.
+Opter pour le PNG garantit une sortie nette et claire.
 
 ### Étape 6 : Convertir la feuille de calcul en image
 

@@ -62,7 +62,7 @@ TextAnnotation textAnnotation = new TextAnnotation(pdfDocument.Pages[1], new Asp
 };
 ```
 
-- Umístění a velikost: The `Rectangle` Třída definuje pozici a rozměry anotace na stránce.
+- Umístění a velikost: The `Rectangle` třída definuje pozici a rozměry anotace na stránce.
 - Vlastnosti: Můžete nastavit název, předmět a obsah anotace. `Open` Vlastnost určuje, zda se anotace ve výchozím nastavení zobrazí otevřená.
 - Ikona: The `TextIcon.Key` přidává do anotace vizuální prvek.
 

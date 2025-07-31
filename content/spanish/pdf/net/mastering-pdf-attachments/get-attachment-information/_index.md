@@ -124,7 +124,7 @@ Puede instalarlo a través del Administrador de paquetes NuGet en Visual Studio 
 Aspose ofrece una versión de prueba gratuita. Puedes encontrarla aquí. [aquí](https://releases.aspose.com/).
 
 ### ¿Dónde puedo encontrar soporte para Aspose.PDF?
-El soporte está disponible a través del foro de la comunidad de Aspose. [aquí](https://forum.aspose.com/c/pdf/10).
+El soporte está disponible a través del foro de la comunidad de Aspose [aquí](https://forum.aspose.com/c/pdf/10).
 
 ### ¿Qué tipos de archivos se pueden incrustar en un PDF?
 Puede incrustar varios tipos de archivos, incluidas imágenes, documentos y hojas de cálculo, siempre que sean compatibles con el formato PDF.

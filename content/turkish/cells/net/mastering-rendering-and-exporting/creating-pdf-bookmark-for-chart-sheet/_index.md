@@ -108,7 +108,7 @@ PdfSaveOptions opts = new PdfSaveOptions();
 opts.Bookmark = ent1;
 ```
 
-## Adım 10: Çıktı PDF'ini Kaydedin
+## Adım 10: Çıktı PDF'sini Kaydedin
 Son olarak çalışma kitabınızı PDF olarak kaydedin:
 ```csharp
 wb.Save(outputDir + "outputCreatePdfBookmarkEntryForChartSheet.pdf", opts);

@@ -1,20 +1,21 @@
 ---
-title: Voeg teksthandtekeningen toe aan documenten met behulp van GroupDocs.Signature
-linktitle: Teksthandtekeningen toevoegen aan documenten
-second_title: GroupDocs.Signature .NET API
-description: Leer hoe u documenten met tekst ondertekent met GroupDocs.Signature voor .NET. Stapsgewijze handleiding voor het programmatisch toevoegen van teksthandtekeningen.
-weight: 17
-url: /nl/signature/master-advanced-sign-techniques/add-text-signatures-to-documents/
+"description": "Leer hoe u documenten met tekst ondertekent met GroupDocs.Signature voor .NET. Stapsgewijze handleiding voor het programmatisch toevoegen van teksthandtekeningen."
+"linktitle": "Teksthandtekeningen toevoegen aan documenten"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Teksthandtekeningen toevoegen aan documenten met GroupDocs.Signature"
+"url": "/nl/signature/net/master-advanced-sign-techniques/add-text-signatures-to-documents/"
+"weight": 17
 ---
+
 ## Invoering
 
-In het digitale landschap van vandaag de dag is elektronische documentondertekening essentieel geworden voor het stroomlijnen van workflows en het besparen van middelen. GroupDocs.Signature voor .NET biedt een krachtige oplossing voor het programmatisch toevoegen van teksthandtekeningen aan verschillende documentformaten. Deze tutorial leidt u door de stappen om een document met tekst te ondertekenen met behulp van GroupDocs.Signature voor .NET.
+In het huidige digitale landschap is elektronische documentondertekening essentieel geworden om workflows te stroomlijnen en resources te besparen. GroupDocs.Signature voor .NET biedt een krachtige oplossing voor het programmatisch toevoegen van teksthandtekeningen aan verschillende documentformaten. Deze tutorial begeleidt u door de stappen om een document met tekst te ondertekenen met GroupDocs.Signature voor .NET.
 
 ## Vereisten
 
 Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
-1. GroupDocs.Signature voor .NET: Download en installeer de bibliotheek van[hier](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature voor .NET: Download en installeer de bibliotheek van [hier](https://releases.groupdocs.com/signature/net/).
 2. Ontwikkelomgeving: Stel uw .NET-ontwikkelomgeving in.
 3. Document: Bereid het document voor dat u wilt ondertekenen (bijv. PDF, Word).
 
@@ -78,7 +79,7 @@ using (Signature signature = new Signature(filePath))
 
 ## Conclusie
 
-In deze tutorial hebben we gedemonstreerd hoe u programmatisch een teksthandtekening aan een document kunt toevoegen met behulp van GroupDocs.Signature voor .NET. Door deze stappen te volgen, kunt u de beveiliging en authenticiteit van uw documenten efficiënt verbeteren.
+In deze tutorial hebben we laten zien hoe je programmatisch een teksthandtekening aan een document toevoegt met GroupDocs.Signature voor .NET. Door deze stappen te volgen, kun je de beveiliging en authenticiteit van je documenten efficiënt verbeteren.
 
 ## Veelgestelde vragen
 
@@ -95,4 +96,4 @@ Ja, u kunt meerdere teksthandtekeningen toevoegen, elk met zijn eigen aanpassing
 Ja, de bibliotheek maakt gebruik van robuuste cryptografische algoritmen om de integriteit van documenten te waarborgen en manipulatie na ondertekening te voorkomen.
 
 ### Is er een proefversie beschikbaar zodat u het kunt testen voordat u het koopt?
- Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.groupdocs.com/) om de functies te verkennen voordat u tot aankoop overgaat.
+Ja, u kunt een gratis proefversie downloaden van [hier](https://releases.groupdocs.com/) om de functies te bekijken voordat u tot aankoop overgaat.

@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Aspose.Email voor .NET is een krachtige bibliotheek voor het verwerken van e-mailgerelateerde taken in .NET-applicaties. Een fascinerende use case is het programmatisch renderen van agenda-evenementen met C#. Of u nu een agenda-integratiefunctie bouwt of aangepaste e-mailviewers maakt, deze tutorial begeleidt u bij het nauwkeurig en aanpasbaar renderen van agenda-evenementen in MHTML-formaat.
+Aspose.Email voor .NET is een krachtige bibliotheek voor het verwerken van e-mailgerelateerde taken in .NET-applicaties. Een fascinerende use case is het programmatisch renderen van agenda-afspraken met C#. Of u nu een agenda-integratiefunctie bouwt of aangepaste e-mailviewers maakt, deze tutorial begeleidt u bij het nauwkeurig en aanpasbaar renderen van agenda-afspraken in MHTML-formaat.
 
 ## Vereisten
 
@@ -22,7 +22,7 @@ Voordat we beginnen, zorgen we ervoor dat we alles klaar hebben om deze tutorial
 
 ## Pakketten importeren
 
-Om te beginnen moet u de benodigde naamruimten in uw project opnemen. 
+Om te beginnen neemt u de benodigde naamruimten op in uw project. 
 
 ```csharp
 using System;
@@ -34,7 +34,7 @@ Laten we nu naar de stapsgewijze handleiding gaan!
 
 ## Stap 1: laad het MSG-bestand van de agendagebeurtenis
 
-Eerst laden we het MSG-bestand met de agendagebeurtenis. Deze stap is essentieel omdat het als invoer dient voor de weergave van de gebeurtenis in MHTML-formaat.
+Eerst laden we het MSG-bestand met de agendagebeurtenis. Deze stap is essentieel omdat het als invoer dient voor het weergeven van de gebeurtenis in MHTML-formaat.
 
 
 ```csharp
@@ -45,7 +45,7 @@ string fileName = "Meeting with Recurring Occurrences.msg";
 MailMessage msg = MailMessage.Load(dataDir + fileName);
 ```
 
-- `dataDir`: Geeft de map op waar uw MSG-bestand is opgeslagen.
+- `dataDir`: Geeft de map aan waar uw MSG-bestand is opgeslagen.
 - `fileName`: Naam van het agendagebeurtenisbestand.
 - `MailMessage.Load`: Leest het bestand en laadt het in een `MailMessage` voorwerp.
 
@@ -61,7 +61,7 @@ MhtSaveOptions options = new MhtSaveOptions
 ```
 
 - `MhtSaveOptions`: Geeft de instellingen weer voor het opslaan van MHTML-bestanden.
-- `MhtFormatOptions`: Hiermee configureert u opties zoals het toevoegen van headers en het weergeven van agendagebeurtenissen.
+- `MhtFormatOptions`: Hiermee configureert u opties zoals het opnemen van headers en het weergeven van agendagebeurtenissen.
 
 ## Stap 3: Pas de weergavesjablonen aan
 

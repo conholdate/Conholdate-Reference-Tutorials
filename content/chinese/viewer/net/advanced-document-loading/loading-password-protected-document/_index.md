@@ -1,20 +1,21 @@
 ---
-title: 加载受密码保护的文档
-linktitle: 加载受密码保护的文档
-second_title: GroupDocs.Viewer .NET API
-description: 了解如何使用 GroupDocs.Viewer 轻松地将文档查看功能集成到 .NET 应用程序中。本教程提供了全面的分步指南。
-weight: 12
-url: /zh/viewer/advanced-document-loading/loading-password-protected-document/
+"description": "了解如何使用 GroupDocs.Viewer 轻松地将文档查看功能集成到您的 .NET 应用程序中。本教程提供了全面的分步指南。"
+"linktitle": "加载受密码保护的文档"
+"second_title": "GroupDocs.Viewer .NET API"
+"title": "加载受密码保护的文档"
+"url": "/zh/viewer/net/advanced-document-loading/loading-password-protected-document/"
+"weight": 12
 ---
+
 ## 介绍
 
-在数字领域，管理和查看各种文档格式的能力对于企业和个人来说至关重要。GroupDocs.Viewer for .NET 为开发人员提供了一个强大的解决方案，使他们能够轻松地将文档查看功能集成到他们的应用程序中。本教程将逐步指导您完成加载受密码保护的文档的过程，确保您可以在项目中无缝实现此功能。
+在数字领域，管理和查看各种文档格式的能力对企业和个人都至关重要。GroupDocs.Viewer for .NET 为开发人员提供了一个强大的解决方案，使他们能够轻松地将文档查看功能集成到他们的应用程序中。本教程将逐步指导您完成加载受密码保护的文档的过程，确保您能够在项目中无缝地实现此功能。
 
 ## 先决条件
 
-在开始之前，请确保您已准备好以下物品：
+在开始之前，请确保您具备以下条件：
 
-1. 已安装 GroupDocs.Viewer for .NET：从[网站](https://releases.groupdocs.com/viewer/net/).
+1. 已安装 GroupDocs.Viewer for .NET：从 [网站](https://releases。groupdocs.com/viewer/net/).
 2. 受密码保护的文档：准备好受密码保护的文档以供测试。
 
 ## 导入所需的命名空间
@@ -34,7 +35,7 @@ using GroupDocs.Viewer.Options;
 ```csharp
 string outputDirectory = "Your Document Directory";
 ```
-确保更换`"Your Document Directory"`与您想要使用的实际路径。
+确保更换 `"Your Document Directory"` 使用您想要使用的实际路径。
 
 ## 步骤2：设置页面文件路径格式
 
@@ -44,7 +45,7 @@ string outputDirectory = "Your Document Directory";
 string pageFilePathFormat = Path.Combine(outputDirectory, "page_{0}.html");
 ```
 
-这将生成类似的路径`"Your Document Directory/page_1.html"`, `"Your Document Directory/page_2.html"`， ETC。
+这将生成类似的路径 `"Your Document Directory/page_1.html"`， `"Your Document Directory/page_2.html"`， ETC。
 
 ## 步骤 3：配置加载选项
 
@@ -53,7 +54,7 @@ string pageFilePathFormat = Path.Combine(outputDirectory, "page_{0}.html");
 ```csharp
 LoadOptions loadOptions = new LoadOptions
 {
-    Password = "12345"  //替换为您的文档密码
+    Password = "12345"  // 替换为您的文档密码
 };
 ```
 
@@ -64,14 +65,14 @@ LoadOptions loadOptions = new LoadOptions
 ```csharp
 using (Viewer viewer = new Viewer("Path_to_your_document", loadOptions))
 {
-    //下一步将添加查看选项的代码。
+    // 下一步将添加查看选项的代码。
 }
 ```
-确保更换`"Path_to_your_document"`使用您的文档的实际路径。
+确保更换 `"Path_to_your_document"` 使用您的文档的实际路径。
 
 ## 步骤 5：配置 HTML 视图选项
 
-设置用于呈现嵌入资源的文档的 HTML 视图选项：
+设置 HTML 视图选项以呈现带有嵌入资源的文档：
 
 ```csharp
 HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources(pageFilePathFormat);
@@ -95,7 +96,7 @@ Console.WriteLine($"\nSource document rendered successfully.\nCheck output in {o
 
 ## 结论
 
-在本教程中，我们探讨了如何使用 GroupDocs.Viewer for .NET 加载受密码保护的文档。通过遵循这些步骤，开发人员可以轻松地将此功能集成到他们的应用程序中，让用户轻松查看受保护的文档。
+在本教程中，我们探讨了如何使用 GroupDocs.Viewer for .NET 加载受密码保护的文档。按照以下步骤，开发人员可以轻松地将此功能集成到他们的应用程序中，让用户轻松查看受保护的文档。
 
 ## 常见问题解答
 
@@ -109,7 +110,7 @@ Console.WriteLine($"\nSource document rendered successfully.\nCheck output in {o
 
 ### 我可以自定义文档的渲染选项吗？
 
-是的，GroupDocs.Viewer 提供各种渲染选项，允许您根据需要定制查看体验。
+是的，GroupDocs.Viewer 提供各种渲染选项，让您可以根据自己的需要定制观看体验。
 
 ### GroupDocs.Viewer 是否支持文档注释？
 
@@ -117,4 +118,4 @@ Console.WriteLine($"\nSource document rendered successfully.\nCheck output in {o
 
 ### GroupDocs.Viewer 有试用版吗？
 
-是的，你可以从[网站](https://releases.groupdocs.com/).
+是的，您可以从 [网站](https://releases。groupdocs.com/).

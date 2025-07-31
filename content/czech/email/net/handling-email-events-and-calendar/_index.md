@@ -17,7 +17,7 @@ Jednou z nejužitečnějších funkcí Aspose.Email je možnost číst události
 
 ## Vykreslování událostí kalendáře v MHTML 
 
-Přemýšleli jste někdy o výhodách vykreslování událostí kalendáře do formátu MHTML? Umožňuje to snadné sdílení a prohlížení na různých platformách. S Aspose.Email je tento proces bezproblémový! Náš tutoriál na [Vykreslení událostí kalendáře v MHTML pomocí Aspose.Email](./render-calendar-events-in-mhtml/) vás provede úpravou a uložením souborů MSG. Naučíte se, jak vizuálně vylepšit své kalendáře a zároveň zachovat jednoduché technické aspekty.
+Přemýšleli jste někdy o výhodách vykreslování událostí kalendáře do formátu MHTML? Umožňuje to snadné sdílení a prohlížení na různých platformách. S Aspose.Email je tento proces bezproblémový! Náš tutoriál na [Vykreslení událostí kalendáře v MHTML pomocí Aspose.Email](./render-calendar-events-in-mhtml/) vás provede úpravou a uložením souborů MSG. Naučíte se, jak vizuálně vylepšit své kalendáře a zároveň zachovat technické aspekty jednoduché.
 
 ## Správa účastníků schůzek
 
@@ -37,7 +37,7 @@ Zjistěte, jak efektivně číst a spravovat události kalendáře ze souborů I
 ### [Vykreslení událostí kalendáře v MHTML pomocí Aspose.Email](./render-calendar-events-in-mhtml/)
 Vykreslete události kalendáře do formátu MHTML pomocí Aspose.Email pro .NET. Naučte se krok za krokem, jak upravovat a ukládat soubory MSG pomocí C#.
 ### [Nastavení stavu účastníka pro účastníky schůzky pomocí C#](./setting-participant-status-for-appointment-attendees/)
-Naučte se, jak spravovat stav účastníků schůzky pomocí C# a Aspose.Email pro .NET. Podrobný návod se zdrojovým kódem.
+Naučte se, jak spravovat stav účastníků schůzek pomocí C# a Aspose.Email pro .NET. Podrobný návod se zdrojovým kódem.
 ### [Vytvoření návrhu žádosti o schůzku s Aspose.Email pro .NET](./creating-draft-appointment-request/)
 Naučte se, jak zefektivnit plánování schůzek ve vaší firmě programově generováním konceptů e-mailů s žádostmi o schůzku pomocí knihovny Aspose.Email pro .NET.
 ### [Úprava ProdID v souborech ICS pomocí Aspose.Email pro .NET](./modify-prodid-in-ics-files/)

@@ -159,7 +159,7 @@ Nawet z idealnym kodem, czasami coś może pójść nie tak. Oto najczęstsze pr
 ### Uszkodzone lub nieprawidłowe pliki EPUB
 
 **Problem**: Niektóre pliki EPUB nie zostaną poprawnie przekonwertowane.
-**Rozwiązanie**Przed próbą konwersji sprawdź poprawność plików EPUB za pomocą narzędzi takich jak EPUBCheck. Nie wszystkie pliki EPUB są sobie równe — niektóre mogą mieć problemy strukturalne, które uniemożliwiają poprawną konwersję.
+**Rozwiązanie**Przed próbą konwersji sprawdź poprawność plików EPUB za pomocą narzędzi takich jak EPUBCheck. Nie wszystkie pliki EPUB są sobie równe — niektóre mogą mieć problemy strukturalne, które uniemożliwiają prawidłową konwersję.
 
 ## Najlepsze praktyki i porady profesjonalistów
 

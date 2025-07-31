@@ -24,7 +24,7 @@ Scopri le funzionalità complete di Aspose.PDF per .NET con la nostra ampia racc
 - **📊 Funzionalità avanzate**: Livelli, segnalibri, filigrane e sicurezza
 - **⚡ Prestazioni**: Ottimizzato per l'elaborazione di documenti ad alto volume
 
-## 📚 Categorie dei tutorial
+## 📚 Categorie di tutorial
 
 ### Padroneggiare la conversione dei documenti
 Trasforma vari formati di file da e verso PDF con qualità professionale e conservazione della formattazione.
@@ -34,7 +34,7 @@ Trasforma vari formati di file da e verso PDF con qualità professionale e conse
 | **[Convertire EPUB in PDF](./mastering-document-conversion/convert-epub-to-pdf/)** | Trasforma gli e-book in formato PDF per una compatibilità universale | ⭐ Principiante |
 | **[Padroneggiare HTML in PDF](./mastering-document-conversion/mastering-html-to-pdf/)** | Conversione di contenuti Web in PDF con supporto avanzato per lo stile | ⭐⭐ Intermedio |
 | **[Conversione da CGM a PDF](./mastering-document-conversion/convert-cgm-to-pdf/)** | Trasformazione di metafile di computer grafica in PDF | ⭐⭐ Intermedio |
-| **[Aggiungere allegati a PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** | Allegati di documenti conformi agli standard di archiviazione | ⭐⭐⭐ Avanzate |
+| **[Aggiungere allegati a PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** Allegati di documenti conformi agli standard di archiviazione | ⭐⭐⭐ Avanzate |
 
 ### Padroneggiare la programmazione dei documenti PDF
 Tecniche avanzate di programmazione PDF per la creazione di soluzioni documentali sofisticate.
@@ -52,7 +52,7 @@ Operazioni essenziali sulle pagine PDF per l'organizzazione dei documenti e la g
 | Tutorial | Descrizione | Difficoltà |
 |----------|-------------|------------|
 | **[Cambia l'orientamento della pagina PDF](./master-pdf-page-management/change-pdf-page-orientation/)** | Regola il layout e l'orientamento della pagina per una visualizzazione ottimale del documento | ⭐ Principiante |
-| **[Concatenazione di file PDF](./master-pdf-page-management/concatenating-pdf-files/)** Unisci più documenti PDF in un unico file coerente | ⭐⭐ Intermedio |
+| **[Concatenazione di file PDF](./master-pdf-page-management/concatenating-pdf-files/)** | Unisci più documenti PDF in un unico file coerente | ⭐⭐ Intermedio |
 | **[Elimina una pagina specifica dai file PDF](./master-pdf-page-management/delete-particular-page-from-pdf-files/)** | Rimuovi pagine specifiche dai documenti PDF in modo efficiente | ⭐ Principiante |
 | **[Inserisci pagine vuote nel file PDF](./master-pdf-page-management/insert-empty-pages/)** | Aggiungi pagine vuote per organizzare i contenuti e la spaziatura | ⭐ Principiante |
 | **[Aggiungere una pagina vuota alla fine](./master-pdf-page-management/adding-an-empty-page-at-end/)** | Aggiungere pagine vuote ai documenti PDF tramite programmazione | ⭐ Principiante |
@@ -67,7 +67,7 @@ Operazioni essenziali sulle pagine PDF per l'organizzazione dei documenti e la g
 ### **Creazione di documenti interattivi**
 - **Sviluppo del modulo**: Moduli PDF dinamici con convalida e calcoli
 - **Firme digitali**: Firma e autenticazione sicura dei documenti
-- **Integrazione multimediale**Contenuti multimediali avanzati nei documenti PDF
+- **Integrazione multimediale**: Contenuti multimediali avanzati nei documenti PDF
 
 ### **Soluzioni Web-to-PDF**
 - **Conversione HTML**: Trasforma il contenuto web in PDF per l'accesso offline
@@ -113,7 +113,7 @@ Operazioni essenziali sulle pagine PDF per l'organizzazione dei documenti e la g
 ### **Sicurezza e conformità**
 - **Firme digitali** - Autenticazione e integrità dei documenti
 - **Crittografia** - Protezione tramite password e controllo degli accessi
-- **Standard PDF/A** - Conformità archivistica a lungo termine
+- **Standard PDF/A** Conformità archivistica a lungo termine
 
 ### **Miglioramento dei documenti**
 - **Filigrane** - Tutela del marchio e marcatura dei documenti

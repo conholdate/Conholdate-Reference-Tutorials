@@ -1,8 +1,8 @@
 ---
 "description": "Leer hoe u berichten uit Zimbra TGZ-opslag kunt opslaan met Aspose.Email voor .NET met onze stapsgewijze zelfstudie."
-"linktitle": "Berichten opslaan vanuit Zimbra TGZ-opslag met C#"
+"linktitle": "Berichten opslaan van Zimbra TGZ-opslag met C#"
 "second_title": "Aspose.Email .NET e-mailverwerkings-API"
-"title": "Berichten opslaan vanuit Zimbra TGZ-opslag met C#"
+"title": "Berichten opslaan van Zimbra TGZ-opslag met C#"
 "url": "/nl/email/net/email-files-storage-and-retrieval/save-messages-from-zimbra-tgz-storage/"
 "weight": 12
 ---
@@ -43,7 +43,7 @@ Dit is vergelijkbaar met het voorbereiden van een toneelstuk. Zonder deze mappen
 
 ## Stap 2: Een TgzReader-instantie maken  
 
-De `TgzReader` class is uw toegangspoort tot het lezen van Zimbra TGZ-bestanden. Laten we deze instantie maken en naar uw TGZ-bestand verwijzen.  
+De `TgzReader` klasse is uw toegangspoort tot het lezen van Zimbra TGZ-bestanden. Laten we deze instantie maken en naar uw TGZ-bestand verwijzen.  
 
 ```csharp  
 using (TgzReader reader = new TgzReader(dataDir + "ZimbraSample.tgz"))  
@@ -64,7 +64,7 @@ reader.ExportTo(outputDir);
 ```  
 
 ### Hoe dit werkt  
-De `ExportTo` Deze methode doorloopt het TGZ-bestand, extraheert de inhoud en slaat deze op in de opgegeven map. Het is net zo eenvoudig als het kopiëren en plakken van bestanden tussen twee mappen, maar veel efficiënter!  
+De `ExportTo` Deze methode doorloopt het TGZ-bestand, extraheert de inhoud en slaat deze op in de door jou opgegeven map. Het is net zo eenvoudig als het kopiëren en plakken van bestanden tussen twee mappen, maar veel efficiënter!  
 
 
 ## Stap 4: Verwerk eventuele uitzonderingen  

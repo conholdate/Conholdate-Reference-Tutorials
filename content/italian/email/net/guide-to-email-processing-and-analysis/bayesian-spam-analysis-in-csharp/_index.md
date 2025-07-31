@@ -66,7 +66,7 @@ MailMessage message = MailMessage.Load("email.eml");
 
 IL `Load` Il metodo è piuttosto semplice: prende il percorso del file dell'email che si desidera analizzare. L'email deve essere in formato EML (che è fondamentalmente un formato di file di posta elettronica standard). Se non hai un file EML a portata di mano, non preoccuparti! Puoi crearne uno salvando qualsiasi email dal tuo client di posta elettronica, oppure puoi anche creare un semplice file di testo con intestazioni e contenuto dell'email.
 
-**Suggerimento professionale**: assicurati che il percorso del file sia corretto rispetto alla directory dell'applicazione oppure usa un percorso assoluto per evitare mal di testa dovuti al problema "file non trovato".
+**Suggerimento professionale**: Assicurati che il percorso del file sia corretto rispetto alla directory dell'applicazione oppure usa un percorso assoluto per evitare mal di testa dovuti al problema "file non trovato".
 
 ## Passaggio 2: crea il tuo analizzatore di spam
 

@@ -1,25 +1,26 @@
 ---
-title: Hướng dẫn về hình ảnh từ luồng trong Nhận dạng hình ảnh OCR
-linktitle: Hướng dẫn về hình ảnh từ luồng trong Nhận dạng hình ảnh OCR
-second_title: API Aspose.OCR .NET
-description: Bài viết này hướng dẫn bạn quy trình nhận dạng văn bản từ hình ảnh bằng luồng, đảm bảo tích hợp liền mạch vào các ứng dụng .NET của bạn. Hoàn hảo cho các nhà phát triển ở mọi cấp độ kỹ năng.
-weight: 12
-url: /vi/ocr/master-image-and-drawing-recognition/guide-to-image-from-stream/
+"description": "Bài viết này hướng dẫn bạn quy trình nhận dạng văn bản từ hình ảnh bằng luồng, đảm bảo tích hợp liền mạch vào các ứng dụng .NET của bạn. Hoàn hảo cho các nhà phát triển ở mọi trình độ kỹ năng."
+"linktitle": "Hướng dẫn sử dụng hình ảnh từ luồng trong nhận dạng hình ảnh OCR"
+"second_title": "API Aspose.OCR .NET"
+"title": "Hướng dẫn sử dụng hình ảnh từ luồng trong nhận dạng hình ảnh OCR"
+"url": "/vi/ocr/net/master-image-and-drawing-recognition/guide-to-image-from-stream/"
+"weight": 12
 ---
+
 ## Giới thiệu
 
-Chào mừng đến với thế giới hấp dẫn của Optical Character Recognition (OCR) sử dụng Aspose.OCR cho .NET! Cho dù bạn là một nhà phát triển có kinh nghiệm hay là người mới làm quen với công nghệ OCR, hướng dẫn này sẽ hướng dẫn bạn quy trình nhận dạng văn bản từ hình ảnh bằng luồng một cách dễ dàng. Aspose.OCR cho .NET là một thư viện mạnh mẽ được thiết kế để tích hợp liền mạch vào các ứng dụng .NET của bạn, giúp đơn giản hóa việc trích xuất văn bản từ hình ảnh.
+Chào mừng bạn đến với thế giới hấp dẫn của Nhận dạng Ký tự Quang học (OCR) với Aspose.OCR cho .NET! Dù bạn là nhà phát triển giàu kinh nghiệm hay người mới làm quen với công nghệ OCR, hướng dẫn này sẽ giúp bạn dễ dàng nhận dạng văn bản từ hình ảnh bằng luồng. Aspose.OCR cho .NET là một thư viện mạnh mẽ được thiết kế để tích hợp liền mạch vào các ứng dụng .NET của bạn, giúp đơn giản hóa việc trích xuất văn bản từ hình ảnh.
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu triển khai, hãy đảm bảo bạn có những điều sau:
 
-1.  Aspose.OCR cho Thư viện .NET: Tải xuống và cài đặt thư viện từ[Tài liệu Aspose.OCR cho .NET](https://reference.aspose.com/ocr/net/).
+1. Aspose.OCR cho Thư viện .NET: Tải xuống và cài đặt thư viện từ [Tài liệu Aspose.OCR cho .NET](https://reference.aspose.com/ocr/net/).
 2. Ảnh mẫu: Chuẩn bị một ảnh mẫu (chúng tôi sẽ sử dụng "sample.png") mà bạn muốn nhận dạng. Đảm bảo ảnh rõ ràng và dễ đọc để có kết quả OCR tối ưu.
 
 ## Nhập các không gian tên cần thiết
 
-Bắt đầu bằng cách thêm các không gian tên bắt buộc vào đầu tệp C# của bạn:
+Bắt đầu bằng cách thêm các không gian tên cần thiết vào đầu tệp C# của bạn:
 
 ```csharp
 using System;
@@ -40,7 +41,7 @@ Hãy đảm bảo trỏ đến vị trí thực tế của "sample.png".
 
 ## Bước 2: Khởi tạo phiên bản Aspose.OCR
 
- Tạo một phiên bản của`AsposeOcr` lớp để truy cập các chức năng OCR:
+Tạo một phiên bản của `AsposeOcr` lớp để truy cập các chức năng OCR:
 
 ```csharp
 // Khởi tạo phiên bản AsposeOcr
@@ -49,7 +50,7 @@ AsposeOcr api = new AsposeOcr();
 
 ## Bước 3: Nhận dạng hình ảnh từ luồng
 
- Bây giờ, chúng ta hãy nhận dạng văn bản từ hình ảnh. Chúng ta sẽ mở tệp hình ảnh, sử dụng`MemoryStream`và sau đó gọi phương thức nhận dạng:
+Bây giờ, chúng ta hãy nhận dạng văn bản từ hình ảnh. Chúng ta sẽ mở tệp hình ảnh, sử dụng `MemoryStream`và sau đó gọi phương thức nhận dạng:
 
 ```csharp
 // Nhận dạng hình ảnh
@@ -86,16 +87,16 @@ Có, Aspose.OCR hỗ trợ nhiều ngôn ngữ, khiến nó trở thành giải 
 
 ### Có phiên bản dùng thử không?
 
- Chắc chắn rồi! Bạn có thể dùng thử Aspose.OCR cho .NET với bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể dùng thử Aspose.OCR cho .NET với bản dùng thử miễn phí. [đây](https://releases.aspose.com/).
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.OCR ở đâu?
 
-Để được hỗ trợ, hãy truy cập[Diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) nơi các thành viên cộng đồng và chuyên gia sẵn sàng giúp đỡ.
+Để được hỗ trợ, hãy truy cập [Diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) nơi các thành viên cộng đồng và chuyên gia sẵn sàng giúp đỡ.
 
 ### Tôi có thể xin giấy phép tạm thời không?
 
- Vâng, bạn có thể thoải mái xin giấy phép tạm thời để thử nghiệm tại đây[liên kết](https://purchase.conholdate.com/temporary-license/).
+Vâng, bạn có thể thoải mái xin giấy phép tạm thời để thử nghiệm tại đây [liên kết](https://purchase.conholdate.com/temporary-license/).
 
 ### Làm thế nào tôi có thể mua Aspose.OCR cho .NET?
 
- Để tích hợp Aspose.OCR vào bộ công cụ của bạn một cách vĩnh viễn, hãy truy cập[trang mua hàng](https://purchase.conholdate.com/buy).
+Để tích hợp Aspose.OCR vào bộ công cụ của bạn một cách vĩnh viễn, hãy truy cập [trang mua hàng](https://purchase.conholdate.com/buy).

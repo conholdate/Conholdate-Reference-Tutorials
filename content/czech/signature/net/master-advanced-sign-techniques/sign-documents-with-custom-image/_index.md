@@ -1,25 +1,26 @@
 ---
-title: Podepisujte dokumenty pomocí vlastních obrázků pomocí GroupDocs.Signature
-linktitle: Podepisujte dokumenty pomocí vlastních obrázků
-second_title: GroupDocs.Signature .NET API
-description: Zjistěte, jak zlepšit autenticitu a bezpečnost vašich dokumentů jejich podepsáním pomocí vlastních obrázků pomocí GroupDocs.Signature for .NET. Tento návod krok za krokem popisuje vše od načítání dokumentu.
-weight: 13
-url: /cs/signature/master-advanced-sign-techniques/sign-documents-with-custom-image/
+"description": "Zjistěte, jak zvýšit autenticitu a zabezpečení vašich dokumentů jejich podepsáním pomocí vlastních obrázků pomocí nástroje GroupDocs.Signature pro .NET. Tento podrobný návod zahrnuje vše od načtení dokumentu."
+"linktitle": "Podepisování dokumentů pomocí vlastních obrázků"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Podepisování dokumentů pomocí vlastních obrázků pomocí GroupDocs.Signature"
+"url": "/cs/signature/net/master-advanced-sign-techniques/sign-documents-with-custom-image/"
+"weight": 13
 ---
+
 ## Zavedení
 
-V tomto tutoriálu se naučíte, jak používat GroupDocs.Signature for .NET k podepisování dokumentů pomocí obrázků. Podepisování dokumentů zvyšuje autenticitu a bezpečnost vašich souborů a zajišťuje, že jsou odolné proti neoprávněné manipulaci a jsou právně závazné. Integrací funkcí podepisování dokumentů do vašich aplikací .NET můžete výrazně zefektivnit své pracovní postupy.
+V tomto tutoriálu se naučíte, jak používat GroupDocs.Signature pro .NET k podepisování dokumentů pomocí obrázků. Podepisování dokumentů zvyšuje autenticitu a zabezpečení vašich souborů a zajišťuje jejich ochranu před neoprávněnými změnami a právnou závaznost. Integrací funkce podepisování dokumentů do vašich aplikací .NET můžete výrazně zefektivnit své pracovní postupy.
 
 ## Předpoklady
 
-Než se pustíte do výukového programu, ujistěte se, že máte následující:
+Než se pustíte do tutoriálu, ujistěte se, že máte následující:
 
-1.  GroupDocs.Signature for .NET: Stáhněte a nainstalujte GroupDocs.Signature for .NET z[webové stránky](https://releases.groupdocs.com/signature/net/).
-2. Vývojové prostředí .NET: Nastavte pracovní prostředí pro vývoj .NET.
+1. GroupDocs.Signature pro .NET: Stáhněte a nainstalujte GroupDocs.Signature pro .NET z [webové stránky](https://releases.groupdocs.com/signature/net/).
+2. Vývojové prostředí .NET: Nastavení pracovního prostředí pro vývoj v .NET.
 
 ## Importovat jmenné prostory
 
-Chcete-li získat přístup k požadovaným třídám a metodám, začněte importováním potřebných jmenných prostorů do vašeho projektu:
+Pro přístup k požadovaným třídám a metodám začněte importem potřebných jmenných prostorů do projektu:
 
 ```csharp
 using System;
@@ -29,9 +30,9 @@ using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
 
-## Krok 1: Vložte dokument
+## Krok 1: Vložení dokumentu
 
-Zadejte cestu k dokumentu, který chcete podepsat. Chcete-li například načíst soubor PDF:
+Zadejte cestu k dokumentu, který chcete podepsat. Například pro načtení souboru PDF:
 
 ```csharp
 string filePath = "sample.pdf";
@@ -39,34 +40,34 @@ string filePath = "sample.pdf";
 
 ## Krok 2: Zadejte obrázek podpisu
 
-Definujte cestu k obrazu podpisu, který hodláte použít:
+Definujte cestu k obrázku podpisu, který chcete použít:
 
 ```csharp
 string imagePath = "signature_handwrite.jpg";
 ```
 
-## Krok 3: Nastavte cestu k výstupnímu souboru
+## Krok 3: Nastavení cesty k výstupnímu souboru
 
-Určete, kam chcete podepsaný dokument uložit:
+Určete, kam chcete uložit podepsaný dokument:
 
 ```csharp
 string outputFilePath = Path.Combine("Your Document Directory", "SignWithImage", "SignedDocument.pdf");
 ```
 
-## Krok 4: Inicializujte objekt podpisu
+## Krok 4: Inicializace objektu Signature
 
- Vytvořte instanci souboru`Signature` třídy, předáním cesty k souboru dokumentu:
+Vytvořte instanci `Signature` třída s předáním cesty k souboru dokumentu:
 
 ```csharp
 using (Signature signature = new Signature(filePath))
 {
-    // Dodatečný kód bude uveden zde
+    // Zde bude uveden další kód
 }
 ```
 
-## Krok 5: Nakonfigurujte možnosti podepisování obrázků
+## Krok 5: Konfigurace možností podepisování obrazů
 
-Nastavte možnosti pro podepisování dokumentu. Zde můžete určit pozici podpisu a zda se má objevit na všech stránkách:
+Nastavte možnosti pro podepisování dokumentu. Zde můžete určit umístění podpisu a to, zda se má zobrazit na všech stránkách:
 
 ```csharp
 ImageSignOptions options = new ImageSignOptions(imagePath)
@@ -79,15 +80,15 @@ ImageSignOptions options = new ImageSignOptions(imagePath)
 
 ## Krok 6: Podepište dokument
 
-K podepsání dokumentu použijte nakonfigurované možnosti:
+Použijte nakonfigurované možnosti k podepsání dokumentu:
 
 ```csharp
 SignResult result = signature.Sign(outputFilePath, options);
 ```
 
-## Krok 7: Zobrazte výsledek
+## Krok 7: Zobrazení výsledku
 
-Nakonec informujte uživatele o úspěchu procesu podepisování, včetně umístění podepsaného dokumentu:
+Nakonec informujte uživatele o úspěšném dokončení procesu podepisování, včetně umístění podepsaného dokumentu:
 
 ```csharp
 Console.WriteLine($"\nSource document signed successfully with {result.Succeeded.Count} signature(s).\nFile saved at {outputFilePath}.");
@@ -95,26 +96,26 @@ Console.WriteLine($"\nSource document signed successfully with {result.Succeeded
 
 ## Závěr
 
-V tomto tutoriálu jsme se zabývali tím, jak podepisovat dokumenty pomocí obrázků v aplikacích .NET pomocí GroupDocs.Signature for .NET. Podepisování dokumentů je nezbytné pro zachování autenticity a zabezpečení vašich souborů, což výrazně zlepšuje možnosti správy dokumentů.
+tomto tutoriálu jsme se popsali, jak podepisovat dokumenty pomocí obrázků v aplikacích .NET pomocí GroupDocs.Signature pro .NET. Podepisování dokumentů je nezbytné pro zachování autenticity a zabezpečení vašich souborů a výrazně zlepšuje vaše možnosti správy dokumentů.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu použít více obrázků podpisu v jednom dokumentu?
+### Mohu v jednom dokumentu použít více obrázků podpisů?
 
-Ano, dokument můžete podepsat pomocí více obrázků. Jednoduše opakujte proces podepisování pro každý obrázek podle potřeby.
+Ano, dokument můžete podepsat pomocí více obrázků. Postup podepisování pro každý obrázek opakujte podle potřeby.
 
-### Je GroupDocs.Signature for .NET kompatibilní se všemi typy dokumentů?
+### Je GroupDocs.Signature pro .NET kompatibilní se všemi typy dokumentů?
 
-GroupDocs.Signature for .NET podporuje různé formáty dokumentů, včetně PDF, Wordu, Excelu a dalších.
+GroupDocs.Signature pro .NET podporuje řadu formátů dokumentů, včetně PDF, Wordu, Excelu a dalších.
 
-### Mohu upravit vzhled podpisu?
+### Mohu si přizpůsobit vzhled podpisu?
 
-Absolutně! Můžete upravit různé aspekty vzhledu podpisu, jako je velikost, poloha, průhlednost a další.
+Rozhodně! Můžete upravit různé aspekty vzhledu podpisu, jako je velikost, umístění, průhlednost a další.
 
 ### Je k dispozici zkušební verze pro testování?
 
-Ano, z webové stránky si můžete stáhnout bezplatnou zkušební verzi a prozkoumat její funkce, než se zavážete k nákupu.
+Ano, můžete si z webových stránek stáhnout bezplatnou zkušební verzi, abyste si před nákupem vyzkoušeli její funkce.
 
 ### Jak mohu získat technickou podporu pro GroupDocs.Signature pro .NET?
 
- Pro technickou pomoc navštivte stránku[GroupDocs.Signature fórum](https://forum.groupdocs.com/c/signature/13).
+Pro technickou pomoc navštivte [Fórum GroupDocs.Signature](https://forum.groupdocs.com/c/signature/13).

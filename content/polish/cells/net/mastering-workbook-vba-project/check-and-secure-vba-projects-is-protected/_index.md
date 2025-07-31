@@ -50,7 +50,7 @@ VbaProject vbaProject = workbook.VbaProject;
 
 ## Krok 3: Sprawdź aktualny stan ochrony
 
-Przed wprowadzeniem jakichkolwiek zmian ważne jest sprawdzenie, czy projekt VBA jest już chroniony. `IsProtected` nieruchomość udostępnia te informacje.
+Przed wprowadzeniem jakichkolwiek zmian ważne jest sprawdzenie, czy projekt VBA jest już chroniony. `IsProtected` Nieruchomość udostępnia te informacje.
 
 ```csharp
 // Sprawdź, czy projekt VBA jest chroniony

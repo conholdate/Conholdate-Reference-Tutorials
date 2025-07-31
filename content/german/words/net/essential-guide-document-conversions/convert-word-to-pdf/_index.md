@@ -83,7 +83,7 @@ Legen Sie den Pfad zu Ihrem Word-Dokument fest. Ersetzen Sie den Platzhalter dur
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-**Bewährte Methode**: Verwenden `Path.Combine()` für plattformübergreifende Kompatibilität:
+**Bewährte Vorgehensweise**: Verwenden `Path.Combine()` für plattformübergreifende Kompatibilität:
 ```csharp
 string dataDir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "WordToPdf");
 ```
@@ -229,7 +229,7 @@ Validieren Sie Ihre Eingabedokumente immer:
 ### Fehlerprotokollierung
 
 Implementieren Sie eine umfassende Protokollierung:
-- Verfolgen Sie die Erfolgs./Misserfolgsraten bei Konvertierungen
+- Verfolgen Sie die Erfolgs./Misserfolgsraten der Konvertierung
 - Protokollieren Sie die Verarbeitungszeiten zur Leistungsüberwachung
 - Erfassen Sie detaillierte Fehlerinformationen zur Fehlerbehebung
 

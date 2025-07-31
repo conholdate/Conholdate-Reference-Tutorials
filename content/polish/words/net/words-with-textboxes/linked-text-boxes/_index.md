@@ -119,4 +119,4 @@ Możesz nadać styl tekstowi w każdym polu tekstowym, korzystając z bogatych o
 Tak, możesz odłączyć pola tekstowe, ustawiając `Next` nieruchomość do `null`.
 
 ### Gdzie mogę znaleźć więcej samouczków na temat Aspose.Words dla .NET?  
-Sprawdź [Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/) Więcej samouczków i zasobów znajdziesz tutaj.
+Sprawdź [Strona dokumentacji Aspose.Words dla .NET](https://reference.aspose.com/words/net/) aby uzyskać więcej samouczków i zasobów.

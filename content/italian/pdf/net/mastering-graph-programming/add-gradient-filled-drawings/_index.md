@@ -118,4 +118,4 @@ La documentazione completa è disponibile sul [Pagina di riferimento PDF di Aspo
 È possibile acquistare la libreria Aspose.PDF tramite il loro [link di acquisto](https://purchase.aspose.com/buy).
 
 ### Cosa succede se ho bisogno di aiuto nell'utilizzo di Aspose.PDF?
-Per assistenza, visitare il [Forum di supporto Aspose](https://forum.aspose.com/c/pdf/10) dove puoi porre domande e condividere esperienze con la community.
+Per assistenza, visita il [Forum di supporto Aspose](https://forum.aspose.com/c/pdf/10) dove puoi porre domande e condividere esperienze con la community.

@@ -72,7 +72,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-**Was ist hier los?** Wir prüfen, ob unser Zielverzeichnis existiert und erstellen es, falls nicht. Dies verhindert die lästige "DirectoryNotFoundException", die beim Versuch, Dateien an nicht vorhandenen Orten zu speichern, auftritt.
+**Was passiert hier?** Wir prüfen, ob unser Zielverzeichnis existiert und erstellen es, falls nicht. Dies verhindert die lästige "DirectoryNotFoundException", die beim Versuch, Dateien an nicht vorhandenen Orten zu speichern, auftritt.
 
 **Überlegungen zur realen Welt**In Produktionsanwendungen müssen Sie Berechtigungen verwalten und sicherstellen, dass Ihre Anwendung Schreibzugriff auf das Verzeichnis hat. Verwenden Sie Umgebungsvariablen oder Konfigurationsdateien für Verzeichnispfade, anstatt sie fest zu codieren.
 

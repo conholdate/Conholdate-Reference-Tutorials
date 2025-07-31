@@ -1,26 +1,27 @@
 ---
-title: Jelszóval védett dokumentumból származó metaadatok kezelése .NET-ben
-linktitle: Jelszóval védett dokumentumból származó metaadatok kezelése .NET-ben
-second_title: GroupDocs.Metadata .NET API
-description: Ismerje meg, hogyan lehet hatékonyan kinyerni és kezelni metaadatokat jelszóval védett dokumentumokból a GroupDocs.Metadata for .NET segítségével. Ez az átfogó oktatóanyag az alapvető lépéseket tartalmazza, beleértve a betöltési beállítások megadását és a metaadat-tulajdonságok elérését.
-weight: 13
-url: /hu/metadata/load-metadata/handling-metadata-from-password-protected-document/
+"description": "Ismerje meg, hogyan kinyerheti és kezelheti hatékonyan a metaadatokat jelszóval védett dokumentumokból a GroupDocs.Metadata for .NET segítségével. Ez az átfogó oktatóanyag a legfontosabb lépéseket ismerteti, beleértve a betöltési beállítások megadását és a metaadat-tulajdonságok elérését."
+"linktitle": "Jelszóval védett dokumentumok metaadatainak kezelése .NET-ben"
+"second_title": "GroupDocs.Metadata .NET API"
+"title": "Jelszóval védett dokumentumok metaadatainak kezelése .NET-ben"
+"url": "/hu/metadata/net/load-metadata/handling-metadata-from-password-protected-document/"
+"weight": 13
 ---
+
 ## Bevezetés
 
-metaadatkezelés elengedhetetlen a különböző .NET-alkalmazásokban, legyen szó PDF-ről, képről vagy Word-dokumentumról. Ez az oktatóanyag végigvezeti a metaadatok kinyerésének folyamatán a jelszóval védett dokumentumokból a GroupDocs.Metadata for .NET használatával.
+A metaadat-kezelés elengedhetetlen a különféle .NET-alkalmazásokban, legyen szó PDF-ekről, képekről vagy Word-dokumentumokról. Ez az oktatóanyag végigvezeti Önt a metaadatok jelszóval védett dokumentumokból történő kinyerésének folyamatán a GroupDocs.Metadata for .NET segítségével.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdené, győződjön meg arról, hogy a következőkkel rendelkezik:
 
-- Visual Studio: Győződjön meg arról, hogy telepítve van a gépén.
--  GroupDocs.Metadata for .NET: Töltse le és telepítse a könyvtárat a[GroupDocs kiadási oldal](https://releases.groupdocs.com/metadata/net/).
-- Alapvető C# ismeretek: A C# programozás ismerete segít a kódpéldák egyszerű követésében.
+- Visual Studio: Győződjön meg róla, hogy telepítve van a gépére.
+- GroupDocs.Metadata .NET-hez: Töltse le és telepítse a könyvtárat a következő helyről: [GroupDocs kiadási oldal](https://releases.groupdocs.com/metadata/net/).
+- Alapvető C# ismeretek: A C# programozásban való jártasság segít abban, hogy könnyen követni tudd a kódpéldákat.
 
-## 1. lépés: Importálja a szükséges névtereket
+## 1. lépés: Szükséges névterek importálása
 
-Kezdje a szükséges névterek importálásával a C# projektben:
+Kezdjük a szükséges névterek importálásával a C# projektünkbe:
 
 ```csharp
 using GroupDocs.Metadata;
@@ -28,33 +29,33 @@ using GroupDocs.Metadata.Options;
 using System;
 ```
 
-## 2. lépés: Állítsa be a betöltési beállításokat egy jelszóval védett dokumentumhoz
+## 2. lépés: Jelszóval védett dokumentum betöltési beállításainak megadása
 
- A metaadatok jelszóval védett dokumentumból való betöltéséhez konfigurálnia kell a betöltési beállításokat. Adja meg a dokumentum jelszavát a`LoadOptions` objektum:
+Jelszóval védett dokumentum metaadatainak betöltéséhez konfigurálnia kell a betöltési beállításokat. Adja meg a dokumentum jelszavát a `LoadOptions` objektum:
 
 ```csharp
 var loadOptions = new LoadOptions
 {
-    Password = "YourDocumentPassword" // Cserélje ki a tényleges jelszót
+    Password = "YourDocumentPassword" // Cserélje ki a tényleges jelszóra
 };
 ```
 
-## 3. lépés: Töltse be a metaadatokat a dokumentumból
+## 3. lépés: Metaadatok betöltése a dokumentumból
 
- A`Metadata` osztályban, a megadott dokumentumból tölthet be metaadatokat. Ne felejtse el cserélni`"YourInputFile"` dokumentum elérési útjával:
+A `Metadata` osztályban betöltheti a metaadatokat a megadott dokumentumból. Ne felejtse el lecserélni `"YourInputFile"` a dokumentum elérési útjával:
 
 ```csharp
 using (var metadata = new Metadata("YourInputFile", loadOptions))
 {
-    // A blokkon belüli metaadatok kibontása, szerkesztése vagy eltávolítása
+    // Metaadatok kinyerése, szerkesztése vagy eltávolítása ebben a blokkban
 }
 ```
 
- Ezen belül`using` blokkot, olyan műveleteket hajthat végre, mint a metaadat-tulajdonságok kibontása, szerkesztése vagy eltávolítása.
+Ezen belül `using` blokkban olyan műveleteket végezhet, mint a metaadat-tulajdonságok kinyerése, szerkesztése vagy eltávolítása.
 
-## 4. lépés: A metaadat-tulajdonságok elérése és kezelése
+## 4. lépés: Metaadat-tulajdonságok elérése és kezelése
 
-A metaadatok betöltése után hozzáférhet a tulajdonságaihoz. Íme egy példa konkrét metaadat-attribútumok lekérésére:
+Miután a metaadatok betöltődtek, hozzáférhet a tulajdonságaihoz. Íme egy példa arra, hogyan kérhet le bizonyos metaadat-attribútumokat:
 
 ```csharp
 var documentMetadata = (DocMetadata)metadata.GetRootPackage();
@@ -62,25 +63,25 @@ Console.WriteLine("Author: " + documentMetadata.Author);
 Console.WriteLine("Title: " + documentMetadata.Title);
 ```
 
- Ügyeljen arra, hogy cserélje ki`DocMetadata` a dokumentum formátumának megfelelő osztállyal, mint pl`PdfMetadata` vagy`WordProcessingMetadata`.
+Mindenképpen cserélje ki `DocMetadata` a dokumentumformátumnak megfelelő osztályával, például `PdfMetadata` vagy `WordProcessingMetadata`.
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan tölthetünk be metaadatokat jelszóval védett dokumentumokból a GroupDocs.Metadata for .NET segítségével. A könyvtár kiterjedt metaadat-kezelési lehetőségei jelentősen javíthatják a .NET-alkalmazásokat.
+Ebben az oktatóanyagban megtanultuk, hogyan tölthetünk be metaadatokat jelszóval védett dokumentumokból a GroupDocs.Metadata for .NET használatával. A könyvtár kiterjedt metaadat-kezelési képességei jelentősen javíthatják a .NET-alkalmazások teljesítményét.
 
 ## GYIK
 
 ### A GroupDocs.Metadata for .NET kompatibilis az összes dokumentumformátummal?
-Igen, a formátumok széles skáláját támogatja, beleértve a PDF-eket, Microsoft Office dokumentumokat, képeket, videókat és még sok mást.
+Igen, számos formátumot támogat, beleértve a PDF-et, a Microsoft Office dokumentumokat, a képeket, a videókat és egyebeket.
 
-### Módosíthatom a metaadatokat egy dokumentumon belül a GroupDocs.Metadata segítségével?
-Teljesen! A könyvtár lehetővé teszi a metaadat-tulajdonságok zökkenőmentes kibontását, frissítését és eltávolítását.
+### Módosíthatom a metaadatokat egy dokumentumon belül a GroupDocs.Metadata használatával?
+Abszolút! A könyvtár lehetővé teszi a metaadat-tulajdonságok zökkenőmentes kinyerését, frissítését és eltávolítását.
 
-### Hogyan kezelhetem a dokumentumbetöltéssel kapcsolatos kivételeket?
-A lehetséges hibák hatékony kezelése érdekében hajtson végre megfelelő kivételkezelést a dokumentumbetöltési műveletek körül.
+### Hogyan kezeljem a dokumentum betöltésével kapcsolatos kivételeket?
+dokumentumbetöltési műveletek során megfelelő kivételkezelést kell alkalmazni a potenciális hibák hatékony kezelése érdekében.
 
-### Hol találok részletesebb dokumentációt a GroupDocs.Metadata for .NET-hez?
- Látogassa meg a[GroupDocs.Metadata dokumentáció](https://reference.groupdocs.com/metadata/net/) átfogó útmutatókért és API-referenciákért.
+### Hol találok részletesebb dokumentációt a GroupDocs.Metadata for .NET dokumentumhoz?
+Látogassa meg a [GroupDocs.Metadata dokumentáció](https://reference.groupdocs.com/metadata/net/) átfogó útmutatókért és API-referenciákért.
 
-### Létezik ingyenes próbaverzió a GroupDocs.Metadata for .NET számára?
- Igen, felfedezheti a könyvtárat a[ingyenes próbaverzió](https://releases.groupdocs.com/).
+### Van ingyenes próbaverzió a GroupDocs.Metadata for .NET-hez?
+Igen, felfedezheted a könyvtárat egy [ingyenes próba](https://releases.groupdocs.com/).

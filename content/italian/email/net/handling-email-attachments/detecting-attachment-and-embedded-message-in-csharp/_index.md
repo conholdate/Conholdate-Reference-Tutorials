@@ -62,7 +62,7 @@ foreach (AlternateView alternateView in message.AlternateViews)
 {
     if (alternateView.LinkedResources.Count > 0)
     {
-        // Questa vista alternativa contiene messaggi incorporati
+        // Questa visualizzazione alternativa contiene messaggi incorporati
         foreach (LinkedResource linkedResource in alternateView.LinkedResources)
         {
             // Elaborare il messaggio incorporato
@@ -90,7 +90,7 @@ Questa guida è progettata specificamente per C# utilizzando la libreria Aspose.
 
 Sì, Aspose.Email è una libreria affidabile ampiamente utilizzata per l'elaborazione delle e-mail negli ambienti di produzione, che offre funzionalità robuste e un supporto eccellente.
 
-### Come posso gestire gli errori durante l'elaborazione delle email?
+### Come gestisco gli errori durante l'elaborazione delle email?
 
 Implementare una corretta gestione degli errori utilizzando blocchi try-catch e tecniche di gestione delle eccezioni per gestire in modo corretto gli errori durante l'elaborazione delle e-mail.
 

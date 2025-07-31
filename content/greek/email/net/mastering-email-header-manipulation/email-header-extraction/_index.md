@@ -124,4 +124,4 @@ var receivedHeaders = message.Headers.GetValues("Received");
 
 ### Πού μπορώ να έχω πρόσβαση στην τεκμηρίωση του Aspose.Email και να κατεβάσω τη βιβλιοθήκη;
 
-Βρείτε πλήρη τεκμηρίωση στη διεύθυνση [Τεκμηρίωση Aspose.Email](https://reference.aspose.com/email/net/)Για να κατεβάσετε τη βιβλιοθήκη, επισκεφθείτε τη διεύθυνση [Aspose Releases](https://releases.aspose.com/email/net/).
+Βρείτε πλήρη τεκμηρίωση στη διεύθυνση [Τεκμηρίωση Aspose.Email](https://reference.aspose.com/email/net/)Για να κατεβάσετε τη βιβλιοθήκη, επισκεφθείτε τη διεύθυνση [Aspose Κυκλοφορίες](https://releases.aspose.com/email/net/).

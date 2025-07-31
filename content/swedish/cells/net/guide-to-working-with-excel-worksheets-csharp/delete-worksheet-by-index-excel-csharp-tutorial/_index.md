@@ -261,13 +261,13 @@ Ja, Aspose.Cells kräver en licens för kommersiellt bruk. Du kan dock börja me
 ### Kan jag ta bort flera kalkylblad samtidigt med den här metoden?
 Absolut! Du kan loopa igenom index och ta bort flera kalkylblad. Kom bara ihåg att arbeta baklänges (från högsta till lägsta index) för att undvika problem med indexförskjutning som kan leda till att du tar bort fel kalkylblad.
 
-### Vad händer om jag tar bort ett kalkylblad som innehåller viktiga data?
+### Vad händer om jag tar bort ett kalkylblad som innehåller viktig data?
 Om du inte har sparat arbetsboken än kan du helt enkelt ladda om originalfilen. Men när du har sparat ändringarna är borttagningen permanent. Skapa alltid säkerhetskopior av viktiga filer innan du utför massåtgärder.
 
 ### Hur kan jag ta bort ett kalkylblad efter namn istället för index?
 Använd `RemoveByName()` metod istället: `workbook.Worksheets.RemoveByName("SheetName")`Den här metoden är ofta säkrare när du känner till det specifika kalkylbladets namn, eftersom det inte påverkas av indexändringar.
 
-### Finns det ett sätt att återställa ett raderat kalkylblad?
+### Finns det något sätt att återställa ett raderat kalkylblad?
 När ett kalkylblad har tagits bort och arbetsboken har sparats finns det ingen inbyggd återställningsmetod. Det bästa skyddet är att regelbundet säkerhetskopiera dina Excel-filer innan du utför automatiska ändringar.
 
 ### Kan den här metoden fungera med lösenordsskyddade Excel-filer?

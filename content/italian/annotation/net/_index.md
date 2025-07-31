@@ -1,12 +1,13 @@
 ---
-title: Tutorial ed esempi di GroupDocs.Annotation per .NET
-linktitle: GroupDocs.Annotation per i tutorial .NET
-weight: 10
-url: /it/annotation/
-description: Sblocca il pieno potenziale di GroupDocs.Annotation per .NET con i nostri tutorial. Integra senza problemi, migliora la collaborazione e semplifica i flussi di lavoro.
-is_root: true
+"description": "Sfrutta appieno il potenziale di GroupDocs.Annotation per .NET con i nostri tutorial. Integra perfettamente, migliora la collaborazione e semplifica i flussi di lavoro."
+"is_root": true
+"linktitle": "GroupDocs.Annotation per tutorial .NET"
+"title": "Tutorial ed esempi di GroupDocs.Annotation per .NET"
+"url": "/it/annotation/net/"
+"weight": 10
 ---
-## GroupDocs.Annotation per i tutorial .NET
+
+## GroupDocs.Annotation per tutorial .NET
 ### [Padroneggia le funzionalità di annotazione avanzate in GroupDocs.Annotation per .NET](./master-advanced-annotation-features/)
 Sfrutta il potenziale di GroupDocs.Annotation per .NET con tutorial sull'esportazione di annotazioni XML e sulla generazione di anteprime delle pagine dei documenti.
 ### [Guida ai componenti del documento in GroupDocs.Annotation per .NET](./guide-to-document-components/)

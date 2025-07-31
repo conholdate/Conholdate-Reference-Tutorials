@@ -21,7 +21,7 @@ Ontdek de uitgebreide mogelijkheden van Aspose.PDF met onze uitgebreide tutorial
 - **🔄 Geavanceerde conversies**: High-fidelity transformaties tussen formaten
 - **🎨 Interactieve elementen**: JavaScript, formulieren, annotaties en digitale handtekeningen
 - **📊 Rijke inhoud**: Lagen, bladwijzers, watermerken en multimedia
-- **🔒 Beveiligingsfuncties**: Encryptie, digitale handtekeningen en toegangscontrole
+- **🔒 Beveiligingsfuncties**Encryptie, digitale handtekeningen en toegangscontrole
 
 ## 📚 Beschikbare platforms
 
@@ -99,7 +99,7 @@ Uitgebreide tutorials voor .NET-ontwikkelaars die alle aspecten van PDF-verwerki
 
 ### **Digitaal publiceren**
 - **E-boekcreatie**: Converteer manuscripten naar professionele PDF's
-- **Documentarchieven**: Langetermijnbewaring met PDF/A-compatibiliteit
+- **Documentarchieven**: Langdurige bewaring met PDF/A-compatibiliteit
 - **Rapportgeneratie**: Geautomatiseerde bedrijfsrapporten en presentaties
 
 ### **Interactieve documenten**

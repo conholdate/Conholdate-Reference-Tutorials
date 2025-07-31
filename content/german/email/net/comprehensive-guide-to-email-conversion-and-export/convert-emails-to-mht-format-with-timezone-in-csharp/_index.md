@@ -61,7 +61,7 @@ Aspose.Email für .NET ist die leistungsstarke Bibliothek, die die Konvertierung
 3. Wählen Sie „NuGet-Pakete verwalten“
 4. Suchen Sie nach „Aspose.Email“ und installieren Sie die neueste Version
 
-Alternativ können Sie die Package Manager-Konsole verwenden:
+Alternativ können Sie die Paket-Manager-Konsole verwenden:
 ```
 Install-Package Aspose.Email
 ```
@@ -104,7 +104,7 @@ var timezoneInfo = TimeZoneInfo.FindSystemTimeZoneById(timezoneId);
 
 **Warum das wichtig ist**: E-Mail-Clients speichern Zeitstempel oft auf unterschiedliche Weise. Manche verwenden UTC mit Offset-Informationen, andere speichern die Ortszeit. Wenn Sie ins MHT-Format konvertieren, ohne die Zeitzonen richtig zu berücksichtigen, können die Zeitstempel um Stunden abweichen – was im geschäftlichen oder rechtlichen Kontext kritisch sein kann.
 
-**Bewährte Methode**Überprüfen Sie vor der Konvertierung immer die Zeitzoneninformationen. Wenn die Quell-E-Mail ungültige oder fehlende Zeitzonendaten enthält, sollten Sie die lokale Zeitzone des Systems als Fallback verwenden. Protokollieren Sie diese Entscheidung jedoch zu Prüfzwecken.
+**Bewährte Vorgehensweise**Überprüfen Sie vor der Konvertierung immer die Zeitzoneninformationen. Wenn die Quell-E-Mail ungültige oder fehlende Zeitzonendaten enthält, sollten Sie die lokale Zeitzone des Systems als Fallback verwenden. Protokollieren Sie diese Entscheidung jedoch zu Prüfzwecken.
 
 ## Konvertieren von E-Mails in das MHT-Format – Der Kernprozess
 

@@ -76,7 +76,7 @@ Ardından, mevcut Excel çalışma kitabınızı açmak için bir dosya akışı
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Emin olmak `book1.xls` Belirtilen dizinde gerçekten mevcut değilse, programınızı anında durduracak bir FileNotFoundException hatası alırsınız.
+Emin olmak `book1.xls` Belirtilen dizinde gerçekten mevcut değilse, programınızı durduracak bir FileNotFoundException hatası alırsınız.
 
 **Yaygın Tuzak**: Dosya adınızı ve uzantınızı iki kez kontrol edin. Excel dosyaları `.xls`, `.xlsx`, veya diğer formatlar – doğru olanı kullandığınızdan emin olun!
 
@@ -122,7 +122,7 @@ Artık yeni çalışma sayfanıza doğrudan erişebilir, özelliklerini değişt
 worksheet.Name = "My Worksheet";
 ```
 
-Uygulamanız için anlamlı bir ad seçin. Aylık raporlar oluşturuyorsanız, "Ocak_2025" veya "Satış_Özeti" kullanabilirsiniz. Açıklayıcı olun; gelecekteki benliğiniz size teşekkür edecek!
+Uygulamanız için anlamlı bir ad seçin. Aylık raporlar oluşturuyorsanız, "Ocak_2025" veya "Satış_Özeti" kullanabilirsiniz. Açıklayıcı olun; gelecekteki haliniz size teşekkür edecek!
 
 ## Adım 7: Excel Dosyasını Kaydedin
 

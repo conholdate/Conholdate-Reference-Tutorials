@@ -75,7 +75,7 @@ Per iniziare, crea un nuovo progetto C# nell'IDE che hai scelto. Ecco come fare:
 
 **Tramite la console del gestore pacchetti:**
 1. Aprire la console di Gestione pacchetti in Visual Studio (`Tools` > `NuGet Package Manager` > `Package Manager Console`)
-2. Esegui il seguente comando:
+2. Eseguire il seguente comando:
 
 ```csharp
 Install-Package Aspose.Email
@@ -255,7 +255,7 @@ if (!File.Exists(emlFilePath))
 **Soluzione**: Assicurati di utilizzare l'opzione di salvataggio Unicode:
 
 ```csharp
-// Utilizzare sempre DefaultMsgUnicode per le e-mail internazionali
+// Utilizzare sempre DefaultMsgUnicode per le email internazionali
 emlMessage.Save(msgFilePath, SaveOptions.DefaultMsgUnicode);
 ```
 

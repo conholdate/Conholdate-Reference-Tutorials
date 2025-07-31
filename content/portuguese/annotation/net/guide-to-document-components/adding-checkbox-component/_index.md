@@ -1,20 +1,21 @@
 ---
-title: Adicionando componente de caixa de seleção ao documento PDF
-linktitle: Adicionando componente de caixa de seleção ao documento PDF
-second_title: GroupDocs.Annotation API .NET
-description: Descubra como enriquecer seus documentos PDF adicionando componentes de caixa de seleção interativos usando o GroupDocs.Annotation para .NET SDK. Este tutorial abrangente fornece um guia passo a passo claro.
-weight: 11
-url: /pt/annotation/guide-to-document-components/adding-checkbox-component/
+"description": "Descubra como enriquecer seus documentos PDF adicionando componentes de caixa de seleção interativos usando o GroupDocs.Annotation para .NET SDK. Este tutorial abrangente oferece um guia passo a passo claro."
+"linktitle": "Adicionando componente de caixa de seleção ao documento PDF"
+"second_title": "API .NET do GroupDocs.Annotation"
+"title": "Adicionando componente de caixa de seleção ao documento PDF"
+"url": "/pt/annotation/net/guide-to-document-components/adding-checkbox-component/"
+"weight": 11
 ---
+
 ## Introdução
 
-Neste tutorial, vamos orientá-lo no processo de adicionar um componente Checkbox a um documento PDF usando o GroupDocs.Annotation para .NET SDK. Esse recurso permite que você aprimore seus documentos PDF com elementos interativos, tornando-os mais envolventes para os usuários.
+Neste tutorial, mostraremos o processo de adição de um componente de caixa de seleção a um documento PDF usando o GroupDocs.Annotation para .NET SDK. Este recurso permite aprimorar seus documentos PDF com elementos interativos, tornando-os mais envolventes para os usuários.
 
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter o seguinte:
 
-1.  GroupDocs.Annotation para .NET SDK: Baixe-o em[aqui](https://releases.groupdocs.com/annotation/net/).
+1. GroupDocs.Annotation para .NET SDK: Baixe em [aqui](https://releases.groupdocs.com/annotation/net/).
 2. Ambiente de desenvolvimento: configure um ambiente de desenvolvimento .NET em sua máquina.
 
 ## Etapa 1: Importar os namespaces necessários
@@ -31,7 +32,7 @@ using GroupDocs.Annotation.Models.FormatSpecificComponents.Pdf;
 using GroupDocs.Annotation.Options;
 ```
 
-## Etapa 2: Defina o caminho de saída
+## Etapa 2: Definir o caminho de saída
 
 Especifique onde o documento PDF modificado será salvo:
 
@@ -39,9 +40,9 @@ Especifique onde o documento PDF modificado será salvo:
 string outputPath = Path.Combine("Your Document Directory", "result" + Path.GetExtension("input.pdf"));
 ```
 
-## Etapa 3: Inicializar o anotador
+## Etapa 3: Inicializar o Anotador
 
- Crie uma instância do`Annotator` classe com o caminho para seu documento PDF de entrada:
+Crie uma instância do `Annotator` classe com o caminho para seu documento PDF de entrada:
 
 ```csharp
 using (Annotator annotator = new Annotator("input.pdf"))
@@ -92,26 +93,26 @@ Console.WriteLine($"\nDocument saved successfully.\nCheck output in {outputPath}
 
 ## Conclusão
 
-Neste tutorial, adicionamos com sucesso um componente Checkbox a um documento PDF usando GroupDocs.Annotation for .NET. Essa funcionalidade permite que você crie PDFs interativos que podem aprimorar a experiência e o engajamento do usuário.
+Neste tutorial, adicionamos com sucesso um componente de caixa de seleção a um documento PDF usando o GroupDocs.Annotation para .NET. Essa funcionalidade permite criar PDFs interativos que podem aprimorar a experiência e o engajamento do usuário.
 
 ## Perguntas frequentes
 
 ### Posso personalizar a aparência da caixa de seleção?
 
-Absolutamente! Você pode modificar várias propriedades, como cor, estilo e tamanho, para atender às suas necessidades específicas.
+Com certeza! Você pode modificar diversas propriedades, como cor, estilo e tamanho, para atender às suas necessidades específicas.
 
-### O GroupDocs.Annotation for .NET é adequado para uso comercial?
+### GroupDocs.Annotation for .NET é adequado para uso comercial?
 
 Sim, o GroupDocs.Annotation para .NET fornece licenças comerciais para empresas.
 
 ### Posso testar o GroupDocs.Annotation para .NET antes de comprar?
 
- Sim, um teste gratuito está disponível. Você pode acessá-lo[aqui](https://releases.groupdocs.com/).
+Sim, um teste gratuito está disponível. Você pode acessá-lo [aqui](https://releases.groupdocs.com/).
 
-### Onde posso encontrar suporte para GroupDocs.Annotation para .NET?
+### Onde posso encontrar suporte para o GroupDocs.Annotation para .NET?
 
- Suporte e recursos adicionais estão disponíveis no[Fórum GroupDocs](https://forum.groupdocs.com/c/annotation/10).
+Suporte e recursos adicionais estão disponíveis no [Fórum GroupDocs](https://forum.groupdocs.com/c/annotation/10).
 
-### Preciso de uma licença temporária para fins de teste?
+### Preciso de uma licença temporária para fins de testes?
 
- Você pode obter uma licença temporária para testes em[aqui](https://purchase.groupdocs.com/temporary-license/).
+Você pode obter uma licença temporária para testes em [aqui](https://purchase.groupdocs.com/temporary-license/).

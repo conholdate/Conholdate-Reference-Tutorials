@@ -168,7 +168,7 @@ Pendekatan ini bekerja paling baik ketika Anda membutuhkan:
 - **Penanganan yang andal** struktur dokumen yang kompleks (tabel, header, footer)
 - **Kompatibilitas lintas platform** (Aspose.Words berfungsi di Windows, Linux, dan macOS)
 
-**Tidak ideal untuk**: Konversi cepat satu kali di mana Anda mungkin lebih suka menggunakan alat daring, atau saat Anda perlu mempertahankan beberapa pemformatan (pertimbangkan konversi HTML sebagai gantinya).
+**Tidak ideal untuk**: Konversi cepat satu kali di mana Anda mungkin lebih menyukai alat daring, atau saat Anda perlu mempertahankan beberapa pemformatan (pertimbangkan konversi HTML sebagai gantinya).
 
 ## Tips Performa
 

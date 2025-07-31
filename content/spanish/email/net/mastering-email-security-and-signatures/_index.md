@@ -23,4 +23,4 @@ Esto es lo que hace que firmar DKIM sea muy fácil con Aspose.Email:
 
 ## Tutoriales para dominar la seguridad del correo electrónico y las firmas digitales
 ### [Guía para firmar correos electrónicos con DKIM en C# usando Aspose.Email](./guide-to-signing-emails-with-dkim/)
-Descubra la importancia de la autenticación de correo electrónico con DomainKeys Identified Mail (DKIM) en esta guía paso a paso. Aprenda a firmar eficazmente sus correos electrónicos con C# y la biblioteca Aspose.Email para .NET.
+Descubra la importancia de la autenticación de correo electrónico con DomainKeys Identified Mail (DKIM) en esta guía paso a paso. Aprenda a firmar sus correos electrónicos eficazmente con C# y la biblioteca Aspose.Email para .NET.

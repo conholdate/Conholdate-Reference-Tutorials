@@ -65,7 +65,7 @@ Aspose.Pdf.License license = new Aspose.Pdf.License();
 다음으로, 다음을 사용하여 라이센스 파일을 로드합니다. `FileStream`라이선스 파일의 올바른 경로를 지정했는지 확인하세요.
 
 ```csharp
-// FileStream에 라이센스 로드
+// FileStream에 라이선스 로드
 using (FileStream myStream = new FileStream(@"c:\Keys\Aspose.Pdf.net.lic", FileMode.Open))
 {
     // 3단계: 라이센스 설정

@@ -60,7 +60,7 @@
 **Kapsanan temel özellikler:**
 - Slayt oluşturma ve düzenleme
 - Grafik ve medya entegrasyonu
-- Sunum formatı dönüşümü
+- Sunum formatı dönüştürme
 - Animasyon ve geçiş efektleri
 - Toplu sunum işleme
 

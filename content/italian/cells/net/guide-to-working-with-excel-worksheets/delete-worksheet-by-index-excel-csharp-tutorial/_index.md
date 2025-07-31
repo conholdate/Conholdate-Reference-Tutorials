@@ -115,7 +115,7 @@ Ed ecco fatto! Hai imparato con successo come eliminare un foglio di lavoro Exce
 Aspose.Cells è una libreria .NET che offre agli sviluppatori ampie funzionalità per la manipolazione dei file Excel. Dalla creazione e modifica alla conversione di file Excel, è uno strumento potente!
 
 ### Ho bisogno di una licenza per utilizzare Aspose.Cells?
-Sì, Aspose.Cells è una libreria a pagamento, ma puoi iniziare con una prova gratuita disponibile [Qui](https://releases.aspose.com/)Puoi esplorare le funzionalità prima dell'acquisto.
+Sì, Aspose.Cells è una libreria a pagamento, ma puoi iniziare con una prova gratuita disponibile [Qui](https://releases.aspose.com/)Puoi esplorare le funzionalità prima di acquistare.
 
 ### Posso eliminare più fogli di lavoro contemporaneamente?
 Sì, puoi scorrere i fogli di lavoro ed eliminarli utilizzando i rispettivi indici. Ricorda solo di modificare l'indice di conseguenza man mano che rimuovi i fogli di lavoro.

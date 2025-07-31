@@ -29,7 +29,7 @@ Al termine di questo tutorial, avrai a disposizione un sistema di riepilogo dei 
 
 Prima di addentrarci nell'implementazione tecnica, cerchiamo di capire perché **riepilogo automatico dei documenti** le capacità stanno diventando essenziali:
 
-**Efficienza temporale**: Ciò che richiede ore agli esseri umani può essere realizzato in pochi minuti con la sintesi basata sull'intelligenza artificiale. Ridurrai drasticamente il tempo impiegato per rivedere documenti lunghi.
+**Efficienza temporale**: Ciò che richiede ore agli esseri umani può essere realizzato in pochi minuti con la sintesi basata sull'intelligenza artificiale. Ridurrai drasticamente il tempo dedicato alla revisione di documenti lunghi.
 
 **Coerenza**: A differenza dei riepiloghi manuali che variano in base all'attenzione del revisore, i riepiloghi generati dall'intelligenza artificiale mantengono una qualità e una copertura coerenti in tutti i documenti.
 
@@ -41,7 +41,7 @@ Prima di addentrarci nell'implementazione tecnica, cerchiamo di capire perché *
 
 **Ricerca accademica**: I ricercatori possono elaborare rapidamente più documenti per identificare studi pertinenti ed estrarre i risultati principali.
 
-**Business Intelligence**: Le aziende riassumono i report di mercato, le analisi della concorrenza e la documentazione interna per supportare il processo decisionale.
+**Business Intelligence**Le aziende riassumono i report di mercato, le analisi della concorrenza e la documentazione interna per supportare il processo decisionale.
 
 **Gestione dei contenuti**: Le organizzazioni giornalistiche e i creatori di contenuti utilizzano la sintesi per generare abstract e punti salienti da articoli lunghi.
 
@@ -61,7 +61,7 @@ Install-Package Aspose.Words
 
 ### Protezione della chiave API OpenAI
 
-Avrai bisogno di una chiave API OpenAI per accedere ai loro modelli linguistici. Vai a [Sito web OpenAI](https://openai.com/), crea un account e ottieni la tua chiave API. **Non codificare mai questa chiave in modo rigido** – più avanti in questa guida ti mostreremo il modo sicuro per gestirlo.
+Avrai bisogno di una chiave API OpenAI per accedere ai loro modelli linguistici. Vai a [Sito web OpenAI](https://openai.com/)crea un account e ottieni la tua chiave API. **Non codificare mai questa chiave in modo rigido** – più avanti in questa guida ti mostreremo il modo sicuro per gestirlo.
 
 ### Configurazione dell'ambiente di sviluppo
 Sebbene sia possibile utilizzare qualsiasi IDE compatibile con .NET, **Visual Studio** fornisce la migliore esperienza per questo tutorial, con un eccellente supporto IntelliSense e funzionalità di debug sia per Aspose.Words che per le integrazioni API.
@@ -105,7 +105,7 @@ Document doc1 = new Document(MyDir + "BigDocument.docx");
 Document doc2 = new Document(MyDir + "AnotherDocument.docx");
 ```
 
-**Suggerimento per le prestazioni**: Per i documenti di grandi dimensioni, si consiglia di caricarli in modo asincrono per evitare blocchi dell'interfaccia utente nelle applicazioni desktop. Aspose.Words gestisce in modo efficiente la memoria, ma i file di grandi dimensioni (>100 MB) potrebbero trarre vantaggio dagli approcci di streaming.
+**Suggerimento per le prestazioni**Per i documenti di grandi dimensioni, si consiglia di caricarli in modo asincrono per evitare blocchi dell'interfaccia utente nelle applicazioni desktop. Aspose.Words gestisce in modo efficiente la memoria, ma i file di grandi dimensioni (>100 MB) potrebbero trarre vantaggio dagli approcci di streaming.
 
 ### Fase 3: Gestione sicura delle chiavi API
 
@@ -182,7 +182,7 @@ using (Document doc = new Document(path))
 Oltre alle impostazioni di lunghezza di base, puoi perfezionare il tuo processo di riepilogo:
 
 - **Conservazione del contesto**: Per i documenti tecnici, i riassunti più lunghi spesso conservano dettagli più cruciali
-- **Considerazioni sulla lingua**: I modelli di intelligenza artificiale funzionano meglio con contenuti in inglese, ma possono gestire più lingue
+- **Considerazioni sulla lingua**I modelli di intelligenza artificiale funzionano meglio con contenuti in inglese, ma possono gestire più lingue
 - **Ottimizzazione del tipo di documento**: I documenti legali potrebbero richiedere approcci di riepilogo diversi rispetto ai materiali di marketing
 
 ## Problemi comuni e risoluzione dei problemi

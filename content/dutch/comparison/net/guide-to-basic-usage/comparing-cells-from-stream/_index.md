@@ -1,20 +1,21 @@
 ---
-title: Cellen uit een stream vergelijken - GroupDocs.Comparison voor .NET
-linktitle: Cellen uit stream vergelijken - GroupDocs.Comparison voor .NET
-second_title: GroupDocs.Vergelijking .NET API
-description: Ontdek hoe u documenten efficiënt kunt vergelijken met GroupDocs.Comparison voor .NET. Deze uitgebreide gids leidt u stap voor stap door het importeren van naamruimten, het initialiseren van vergelijkingsvariabelen en het uitvoeren van documentvergelijkingen.
-weight: 11
-url: /nl/comparison/guide-to-basic-usage/comparing-cells-from-stream/
+"description": "Ontdek hoe u efficiënt documenten kunt vergelijken met GroupDocs.Comparison voor .NET. Deze uitgebreide handleiding begeleidt u stap voor stap bij het importeren van naamruimten, het initialiseren van vergelijkingsvariabelen en het uitvoeren van documentvergelijkingen."
+"linktitle": "Cellen uit stream vergelijken - GroupDocs.Comparison voor .NET"
+"second_title": "GroupDocs.Comparison .NET API"
+"title": "Cellen uit een stream vergelijken - GroupDocs.Comparison voor .NET"
+"url": "/nl/comparison/net/guide-to-basic-usage/comparing-cells-from-stream/"
+"weight": 11
 ---
+
 ## Invoering
 
-Bij softwareontwikkeling, met name bij het werken met juridische documenten, contracten of welke vorm van tekst dan ook, is het vermogen om documenten efficiënt te vergelijken cruciaal. Het nauwkeurig identificeren van verschillen kan tijd besparen en kostbare fouten voorkomen. GroupDocs.Comparison voor .NET biedt een krachtige oplossing voor taken voor het vergelijken van documenten, waardoor het eenvoudiger wordt om uw workflow te stroomlijnen.
+In softwareontwikkeling, met name bij het werken met juridische documenten, contracten of andere tekst, is het cruciaal om documenten efficiënt te kunnen vergelijken. Het nauwkeurig identificeren van verschillen kan tijd besparen en kostbare fouten voorkomen. GroupDocs.Comparison voor .NET biedt een krachtige oplossing voor documentvergelijkingen, waardoor u uw workflow eenvoudiger kunt stroomlijnen.
 
 ## Vereisten
 
-Voordat u begint, moet u ervoor zorgen dat u over het volgende beschikt:
+Voordat u begint, moet u ervoor zorgen dat u het volgende heeft:
 
-1. GroupDocs.Comparison voor .NET: Download en installeer de bibliotheek van[hier](https://releases.groupdocs.com/comparison/net/).
+1. GroupDocs.Comparison voor .NET: Download en installeer de bibliotheek van [hier](https://releases.groupdocs.com/comparison/net/).
 2. Basiskennis van C#: Voor deze tutorial wordt ervan uitgegaan dat u bekend bent met C#-programmering.
 3. Integrated Development Environment (IDE): Gebruik een IDE zoals Visual Studio voor codering.
 4. Te vergelijken documenten: bereid de documenten voor die u wilt vergelijken en zorg ervoor dat ze toegankelijk zijn vanuit uw C#-code.
@@ -30,7 +31,7 @@ using System.IO;
 
 Hiermee krijgt u toegang tot de klassen en methoden die nodig zijn voor het vergelijken van documenten.
 
-## Stap 1: Initialiseer uitvoervariabelen
+## Stap 1: Uitvoervariabelen initialiseren
 
 Stel de uitvoermap en de bestandsnaam in waar het vergeleken document wordt opgeslagen:
 
@@ -41,7 +42,7 @@ string outputFileName = Path.Combine(outputDirectory, "result.xlsx");
 
 ## Stap 2: Maak een vergelijkingsobject
 
- Maak een`Comparer` object door het brondocument te openen:
+Maak een `Comparer` object door het brondocument te openen:
 
 ```csharp
 using (Comparer comparer = new Comparer(File.OpenRead("source.xlsx")))
@@ -81,18 +82,18 @@ GroupDocs.Comparison voor .NET biedt een robuust platform voor naadloze document
 
 Ja, het ondersteunt een breed scala aan formaten, waaronder Word, Excel, PowerPoint, PDF en meer.
 
-### Kan ik de uitvoeropmaak van vergeleken documenten aanpassen?
+### Kan ik het uitvoerformaat van vergeleken documenten aanpassen?
 
-Absoluut! GroupDocs.Comparison voor .NET biedt verschillende aanpassingsopties om de uitvoer aan te passen aan uw behoeften.
+Absoluut! GroupDocs.Comparison voor .NET biedt diverse aanpassingsopties om de uitvoer aan te passen aan uw behoeften.
 
-### Is er een licentie vereist voor commercieel gebruik van GroupDocs.Comparison voor .NET?
+### Heeft GroupDocs.Comparison voor .NET een licentie nodig voor commercieel gebruik?
 
- Ja, voor commercieel gebruik is een licentie vereist. U kunt deze verkrijgen[hier](https://purchase.groupdocs.com/buy).
+Ja, voor commercieel gebruik is een licentie vereist. U kunt deze verkrijgen. [hier](https://purchase.groupdocs.com/buy).
 
 ### Is er een gratis proefversie beschikbaar voor GroupDocs.Comparison voor .NET?
 
- Ja, u kunt een gratis proefperiode aanvragen[hier](https://releases.groupdocs.com/).
+Ja, u kunt een gratis proefperiode aanvragen [hier](https://releases.groupdocs.com/).
 
 ### Waar kan ik hulp of ondersteuning krijgen met betrekking tot GroupDocs.Comparison voor .NET?
 
- Voor hulp kunt u terecht op het GroupDocs.Comparison forum[hier](https://forum.groupdocs.com/c/comparison/12).
+Voor hulp kunt u terecht op het GroupDocs.Comparison forum [hier](https://forum.groupdocs.com/c/comparison/12).

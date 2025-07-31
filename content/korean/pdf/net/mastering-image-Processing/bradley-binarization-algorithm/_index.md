@@ -13,7 +13,7 @@
 
 ## 필수 조건
 
-시작하기에 앞서 다음 사항이 있는지 확인하세요.
+시작하기 전에 다음 사항이 있는지 확인하세요.
 
 - .NET용 Aspose.PDF: 라이브러리를 다운로드하세요 [여기](https://releases.aspose.com/pdf/net/).
 - Visual Studio(또는 C# IDE).

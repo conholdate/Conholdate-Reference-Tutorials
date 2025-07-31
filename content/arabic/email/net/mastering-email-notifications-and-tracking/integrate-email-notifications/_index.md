@@ -72,7 +72,7 @@ using (SmtpClient client = new SmtpClient("smtp.example.com", 587, "username", "
 }
 ```
 
-تأكد من الاستبدال `"smtp.example.com"`، `587`، `"username"`، و `"password"` مع تفاصيل خادم SMTP الفعلي الخاص بك.
+تأكد من الاستبدال `"smtp.example.com"`، `587`، `"username"`، و `"password"` مع تفاصيل خادم SMTP الفعلية لديك.
 
 ## خاتمة
 

@@ -91,7 +91,7 @@ doc.Save(dataDir + "DocumentWithDoNotCompressMetafiles.pdf", saveOptions);
 
 ### この機能を他のファイル形式でも使用できますか?
 
-もちろんです! Aspose.Words for .NET では、さまざまなファイル形式に合わせて構成可能な保存オプションが提供されており、ドキュメント処理の柔軟性が向上します。
+もちろんです! Aspose.Words for .NET では、さまざまなファイル形式に対して構成可能な保存オプションが提供されており、ドキュメント処理の柔軟性が向上します。
 
 ### Aspose.Words for .NET を使用するにはライセンスが必要ですか?
 

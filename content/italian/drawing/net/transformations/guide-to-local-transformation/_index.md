@@ -1,22 +1,23 @@
 ---
-title: Guida alle trasformazioni locali con Aspose.Drawing per .NET
-linktitle: Guida alle trasformazioni locali con Aspose.Drawing
-second_title: Aspose.Drawing .NET API - Alternativa a System.Drawing.Common
-description: Aumenta le capacità visive della tua applicazione .NET con trasformazioni locali usando Aspose.Drawing. Questo tutorial completo ti guida attraverso il processo di creazione di grafiche sbalorditive applicando matrici di trasformazione.
-weight: 11
-url: /it/drawing/transformations/guide-to-local-transformation/
+"description": "Aumenta le capacità visive della tua applicazione .NET con le trasformazioni locali utilizzando Aspose.Drawing. Questo tutorial completo ti guiderà attraverso il processo di creazione di grafiche straordinarie applicando matrici di trasformazione."
+"linktitle": "Guida alle trasformazioni locali con Aspose.Drawing"
+"second_title": "Aspose.Drawing .NET API - Alternativa a System.Drawing.Common"
+"title": "Guida alle trasformazioni locali con Aspose.Drawing per .NET"
+"url": "/it/drawing/net/transformations/guide-to-local-transformation/"
+"weight": 11
 ---
+
 ## Introduzione
 
-Aspose.Drawing per .NET consente agli sviluppatori di creare grafiche sofisticate tramite trasformazioni locali. Questa breve guida ti guiderà passo dopo passo nell'impostazione delle trasformazioni locali.
+Aspose.Drawing per .NET consente agli sviluppatori di creare grafiche sofisticate tramite trasformazioni locali. Questa breve guida vi guiderà passo dopo passo nella configurazione delle trasformazioni locali.
 
 ## Prerequisiti
 
-1.  Aspose.Drawing per .NET: scaricalo e installalo da[Qui](https://releases.aspose.com/drawing/net/).
+1. Aspose.Drawing per .NET: scaricalo e installalo da [Qui](https://releases.aspose.com/drawing/net/).
 2. Directory dei documenti: scegli una directory in cui salvare le tue immagini.
 3. Conoscenze di base di .NET: familiarità con C# e concetti di programmazione grafica.
 
-## Importazione degli spazi dei nomi
+## Importa spazi dei nomi
 
 Inizia importando gli spazi dei nomi necessari nel tuo progetto C#:
 
@@ -57,7 +58,7 @@ matrix.RotateAt(45, new Point(500, 400));
 path.Transform(matrix);
 ```
 
-### Passaggio 5: disegnare il percorso trasformato
+### Passaggio 5: Disegna il percorso trasformato
 
 Utilizzare una penna per disegnare il percorso sull'oggetto grafico:
 
@@ -88,7 +89,7 @@ Certamente! Aspose.Drawing supporta un'ampia gamma di operazioni grafiche.
 Sì, supporta la traduzione, il ridimensionamento e l'inclinazione.
 
 ### Come gestire le eccezioni?  
- Implementare la gestione degli errori e consultare il[documentazione](https://reference.aspose.com/drawing/net/) per avere indicazioni.
+Implementare la gestione degli errori e consultare il [documentazione](https://reference.aspose.com/drawing/net/) per una guida.
 
 ### Posso provarlo prima di acquistarlo?  
- Sì, esplora un[prova gratuita](https://releases.aspose.com/).
+Sì, esplora un [prova gratuita](https://releases.aspose.com/).

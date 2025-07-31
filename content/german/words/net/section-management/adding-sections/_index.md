@@ -82,7 +82,7 @@ builder.Writeln("Welcome to the new section!");
 ```
 
 - `builder.MoveToSection(doc.Sections.IndexOf(sectionToAdd));` setzt die Cursorposition auf den neu hinzugefügten Abschnitt.
-- `builder.Writeln("Welcome to the new section!");` fügt innerhalb dieses Abschnitts einen Absatz hinzu.
+- `builder.Writeln("Welcome to the new section!");` fügt einen Absatz innerhalb dieses Abschnitts hinzu.
 
 ## Schritt 5: Speichern des Dokuments
 

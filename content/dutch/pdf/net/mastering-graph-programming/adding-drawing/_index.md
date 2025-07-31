@@ -9,11 +9,11 @@
 
 ## Invoering
 
-Het verbeteren van PDF-documenten met aangepaste tekeningen kan hun visuele aantrekkingskracht en functionaliteit aanzienlijk verbeteren. Of u nu werkt aan rapporten, presentaties of interactieve formulieren, Aspose.PDF voor .NET biedt een krachtige manier om aangepaste afbeeldingen en vormen toe te voegen. Deze tutorial begeleidt u stap voor stap door het proces van het toevoegen van tekeningen aan een PDF-bestand.
+Het verbeteren van PDF-documenten met aangepaste tekeningen kan de visuele aantrekkingskracht en functionaliteit aanzienlijk verbeteren. Of u nu werkt aan rapporten, presentaties of interactieve formulieren, Aspose.PDF voor .NET biedt een krachtige manier om aangepaste afbeeldingen en vormen toe te voegen. Deze tutorial begeleidt u stap voor stap door het proces van het toevoegen van tekeningen aan een PDF-bestand.
 
 ## Vereisten
 
-Voordat u begint, moet u ervoor zorgen dat u het volgende heeft:
+Voordat u begint, zorg ervoor dat u het volgende heeft:
 
 1. Aspose.PDF voor .NET: Download het van de [Aspose-website](https://releases.aspose.com/pdf/net/).
 2. .NET Framework: in deze zelfstudie wordt ervan uitgegaan dat u een .NET-ontwikkelomgeving hebt ingesteld.

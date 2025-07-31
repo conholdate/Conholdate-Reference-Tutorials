@@ -73,7 +73,7 @@ Dans ce cas, nous sélectionnons la première feuille de calcul, mais vous pouve
 
 ## Étape 4 : Interroger la carte XML
 
-Interrogeons maintenant la carte XML à l'aide d'un chemin XML. Par exemple, si vous souhaitez récupérer des données depuis le `/MiscData` chemin, vous feriez :
+Interrogeons maintenant la carte XML à l'aide d'un chemin XML. Par exemple, si vous souhaitez récupérer des données depuis `/MiscData` chemin, vous feriez :
 
 ```csharp
 // Interroger la carte XML en utilisant le chemin
@@ -99,7 +99,7 @@ Cette boucle vous permet de visualiser tous les éléments récupérés à parti
 
 ## Étape 6 : Interroger un chemin XML imbriqué
 
-Vous pouvez affiner votre requête pour cibler des données plus spécifiques. Par exemple, si vous êtes intéressé par les informations de couleur disponibles sous `/MiscData/row/Color`, vous ajusteriez votre requête comme ceci :
+Vous pouvez affiner votre requête pour cibler des données plus spécifiques. Par exemple, si vous êtes intéressé par les informations de couleur trouvées sous `/MiscData/row/Color`, vous ajusteriez votre requête comme ceci :
 
 ```csharp
 // Interrogation d'un chemin XML imbriqué

@@ -9,13 +9,13 @@
 
 ## 介紹
 
-創建豐富的電子郵件格式可以大大增強溝通體驗，尤其是在將電子郵件匯出為 MHTML 等不同文件格式時。 Aspose.Email for .NET 為開發人員提供了強大的電子郵件處理工具包，其中包括自訂匯出為 MHTML 時資訊的顯示順序。在本指南中，我們將分解實現此目的所需的步驟，無論您是經驗豐富的開發人員還是剛剛入門，都能輕鬆上手。那麼，就讓我們開始吧！
+建立豐富的電子郵件格式可以大大增強溝通，尤其是在將電子郵件匯出為 MHTML 等不同文件格式時。 Aspose.Email for .NET 為開發人員提供了一個強大的電子郵件處理工具包，其中包括定義匯出為 MHTML 時資訊顯示的自訂順序。在本指南中，我們將分解實現此目標所需的步驟，無論您是經驗豐富的開發人員還是剛起步，都可以輕鬆遵循。那麼，就讓我們開始吧！
 
 ## 先決條件
 
 在深入定義 MHTML 中的自訂資訊順序之前，您需要檢查清單中的一些先決條件：
 
-1. .NET 開發環境：確保您已設定好 .NET 開發環境。您可以使用 Visual Studio、Visual Studio Code 或任何其他相容的 IDE。
+1. .NET 開發環境：確保您已設定 .NET 開發環境。您可以使用 Visual Studio、Visual Studio Code 或任何其他相容的 IDE。
 
 2. Aspose.Email 函式庫：您需要安裝 Aspose.Email for .NET 函式庫。您可以從 [Aspose 發佈頁面](https://releases。aspose.com/email/net/).
 
@@ -27,7 +27,7 @@
 
 ## 導入包
 
-要開始編寫程式碼，您需要從 Aspose.Email 庫匯入必要的命名空間。這對於存取操作電子郵件文件所需的所有類別和方法至關重要。
+要開始使用程式碼，您需要從 Aspose.Email 庫匯入必要的命名空間。這對於存取操作電子郵件文件所需的所有類別和方法至關重要。
 
 ```csharp
 using Aspose.Email;
@@ -35,19 +35,19 @@ using Aspose.Email.Mime;
 using Aspose.Email.Mhtml;
 ```
 
-將這些程式碼加入你的 C# 檔案頂部。現在你就可以開始寫程式了！
+將它們包含在 C# 檔案的頂部。現在您已準備好開始編碼了！
 
 現在您已完成所有設置，讓我們將教程分解為易於管理的步驟。
 
 ## 步驟 1：設定資料目錄
 
-首先要做的是建立一個用於儲存電子郵件檔案的目錄。該目錄可以是本機上的任何路徑。
+首先要做的是建立一個儲存電子郵件檔案的目錄。這可以是您本機上的任何路徑。
 
 ```csharp
 string dataDir = "Your Data Directory";
 ```
 
-代替 `"Your Data Directory"` 實際路徑 `.eml` 文件所在位置。例如，如果您的檔案位於 `C:\Emails`，你會寫：
+代替 `"Your Data Directory"` 實際路徑 `.eml` 文件所在位置。例如，如果你的檔案位於 `C:\Emails`，你會寫：
 
 ```csharp
 string dataDir = @"C:\Emails\";
@@ -55,17 +55,17 @@ string dataDir = @"C:\Emails\";
 
 ## 第 2 步：載入電子郵件訊息
 
-接下來，您需要加載 `.eml` 文件放入 `MailMessage` 對象。這允許您操作電子郵件的內容和元資料。
+接下來，您需要加載 `.eml` 文件放入 `MailMessage` 目的。這使您可以操作電子郵件的內容和元資料。
 
 ```csharp
 MailMessage eml = MailMessage.Load(dataDir + "Attachments.eml");
 ```
 
-確保檔案名稱與指定目錄中的檔案名稱相符。如果檔案名稱不同，請相應地更新檔案名稱。
+確保檔案名稱與指定目錄中的檔案名稱相符。如果您的檔案有不同的名稱，請相應地更新檔案名稱。
 
 ## 步驟 3：設定 MHTML 儲存選項
 
-電子郵件載入完成後，接下來需要定義如何將其儲存為 MHTML。您可以從預設選項開始。
+載入完電子郵件後，就該定義如何將其儲存為 MHTML 了。您可以從預設選項開始。
 
 ```csharp
 MhtSaveOptions opt = SaveOptions.DefaultMhtml;
@@ -75,17 +75,17 @@ MhtSaveOptions opt = SaveOptions.DefaultMhtml;
 
 ## 步驟 4：使用預設順序儲存 MHTML
 
-讓我們使用預設順序將電子郵件儲存為 MHTML。這樣，您就可以在自訂後進行比較。
+讓我們使用預設順序將電子郵件儲存為 MHTML。這為您提供了定制後進行比較的基準。
 
 ```csharp
 eml.Save(dataDir + "CustomOrderOfInformationInMHTML_1.mhtml", opt);
 ```
 
-運行此行，並檢查指定的目錄。現在您應該會看到一個名為“MHTML”的新文件 `CustomOrderOfInformationInMHTML_1.mhtml`。打開看看資訊預設是如何顯示的。
+運行此行，並檢查指定的目錄。現在您應該會看到一個名為 `CustomOrderOfInformationInMHTML_1.mhtml`。打開它，看看資訊預設是如何顯示的。
 
 ## 步驟 5：自訂標題順序
 
-現在到了最有趣的部分！您可以指定在 MHTML 輸出中包含哪些標題以及包含的順序。我們先從一些常見的標題開始。
+現在到了有趣的部分！您可以指定在 MHTML 輸出中包含哪些標題以及包含的順序。我們將從一些常見的標題開始。
 
 ```csharp
 opt.RenderingHeaders.Add(MhtTemplateName.From);
@@ -108,13 +108,13 @@ eml.Save(dataDir + "CustomOrderOfInformationInMHTML_2.mhtml", opt);
 
 ## 步驟 7：清除並新增新的標題順序
 
-如果您想要完全不同的訂單怎麼辦？您可以清除現有的標題設置，重新開始。
+如果您想要完全不同的訂單怎麼辦？您可以透過清除現有的標題設定來重新開始。
 
 ```csharp
 opt.RenderingHeaders.Clear();
 ```
 
-現在是時候為標題定義新的順序了。例如，如果您要按優先順序排列附件和副本收件者：
+現在是時候為標題定義一個新的順序了。例如，如果您想要確定附件和副本收件者的優先順序：
 
 ```csharp
 opt.RenderingHeaders.Add(MhtTemplateName.Attachments);
@@ -134,7 +134,7 @@ eml.Save(dataDir + "CustomOrderOfInformationInMHTML_3.mhtml", opt);
 
 ## 結論
 
-以上就是使用 Aspose.Email for .NET 在 MHTML 中自訂資訊順序的簡單指南。請依照以下步驟，您可以控制電子郵件在 MHTML 格式中的呈現方式，確保以符合您需求的方式呈現最重要的資訊。 
+現在您已經擁有了使用 Aspose.Email for .NET 在 MHTML 中定義自訂資訊順序的簡單指南。遵循這些步驟，您可以控制電子郵件以 MHTML 格式呈現的方式，確保以符合您需求的方式呈現最重要的資訊。 
 
 ## 常見問題解答
 
@@ -142,7 +142,7 @@ eml.Save(dataDir + "CustomOrderOfInformationInMHTML_3.mhtml", opt);
 MHTML 代表“MIME HTML”，這是一種結合了 HTML 和圖像等其他資源的網頁存檔格式。
 
 ### 我可以免費使用 Aspose.Email 嗎？
-是的，Aspose 提供免費試用版供開發者探索。您可以找到 [這裡](https://releases。aspose.com/).
+是的，Aspose 為開發人員提供免費試用版供探索。你可以找到它 [這裡](https://releases。aspose.com/).
 
 ### 如果使用 Aspose.Email 時遇到問題怎麼辦？
 您可以透過以下方式獲得社區支持 [Aspose 論壇](https://forum。aspose.com/c/email/12/).

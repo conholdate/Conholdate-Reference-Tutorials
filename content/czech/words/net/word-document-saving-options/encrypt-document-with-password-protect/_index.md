@@ -60,7 +60,7 @@ builder.Write("Hello, World!");
 Nyní přichází na řadu klíčová část – konfigurace možností ukládání pro povolení ochrany heslem.
 
 ```csharp
-DocSaveOptions saveOptions = new DocSaveOptions { Password = "yourPassword" }; // Nastavte si zde heslo
+DocSaveOptions saveOptions = new DocSaveOptions { Password = "yourPassword" }; // Zde si nastavte heslo
 ```
 
 - DocSaveOptions saveOptions = new DocSaveOptions: Vytvoří instanci DocSaveOptions pro uchování konfigurací ukládání.

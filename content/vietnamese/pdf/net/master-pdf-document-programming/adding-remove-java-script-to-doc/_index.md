@@ -150,7 +150,7 @@ Việc xóa các hàm JavaScript cũng quan trọng như việc thêm chúng và
 **Khi nào nên xóa JavaScript**:
 - Cập nhật logic xác thực biểu mẫu
 - Xóa bỏ chức năng không còn sử dụng nữa
-- Dọn dẹp các chức năng thử nghiệm trước khi đưa vào sản xuất
+- Dọn dẹp các chức năng kiểm tra trước khi sản xuất
 - Giải quyết xung đột giữa các tập lệnh khác nhau
 
 Xác minh rằng chức năng đã được xóa thành công bằng cách in lại các chức năng còn lại bằng phương pháp hiển thị từ Bước 5.

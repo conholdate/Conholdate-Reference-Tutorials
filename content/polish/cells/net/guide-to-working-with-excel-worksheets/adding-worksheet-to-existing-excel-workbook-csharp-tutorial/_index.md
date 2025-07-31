@@ -1,7 +1,7 @@
 ---
 "description": "Dowiedz się, jak programowo dodać nowy arkusz do istniejącego skoroszytu programu Excel za pomocą Aspose.Cells dla platformy .NET. Ten przewodnik krok po kroku opisuje zapisywanie zmodyfikowanego skoroszytu, ułatwiając pracę programistom."
 "linktitle": "Dodawanie arkusza kalkulacyjnego do istniejącego skoroszytu programu Excel – samouczek C#"
-"second_title": "Aspose.Cells dla .NET API Reference"
+"second_title": "Dokumentacja interfejsu API Aspose.Cells dla platformy .NET"
 "title": "Dodawanie arkusza kalkulacyjnego do istniejącego skoroszytu programu Excel – samouczek C#"
 "url": "/pl/cells/net/guide-to-working-with-excel-worksheets/adding-worksheet-to-existing-excel-workbook-csharp-tutorial/"
 "weight": 10

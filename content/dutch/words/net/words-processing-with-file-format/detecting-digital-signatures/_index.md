@@ -9,7 +9,7 @@
 
 ## Invoering
 
-In het digitale tijdperk is het belangrijker dan ooit om de integriteit en authenticiteit van uw documenten te waarborgen. Een effectieve methode om dit te bereiken is het gebruik van digitale handtekeningen. In deze tutorial onderzoeken we hoe u digitale handtekeningen in Word-documenten kunt detecteren met behulp van de Aspose.Words voor .NET-bibliotheek. Na afloop heeft u een gedegen begrip van het proces.
+In het digitale tijdperk is het belangrijker dan ooit om de integriteit en authenticiteit van uw documenten te waarborgen. Een effectieve manier om dit te bereiken is door middel van digitale handtekeningen. In deze tutorial onderzoeken we hoe u digitale handtekeningen in Word-documenten kunt detecteren met behulp van de Aspose.Words voor .NET-bibliotheek. Na afloop hebt u een gedegen begrip van het proces.
 
 ## Vereisten
 
@@ -31,7 +31,7 @@ using Aspose.Words;
 
 ## Stap 1: Een nieuw project maken
 
-1. Visual Studio openen.
+1. Open Visual Studio.
 2. Maak een nieuw Console App (.NET Core)-project met de naam `DigitalSignatureDetector`.
 
 ## Stap 2: Aspose.Words voor .NET installeren

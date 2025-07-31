@@ -62,7 +62,7 @@ Muat dokumen PDF menggunakan `Document` kelas:
 Document doc = new Document(dataDir + "RemoveGraphicsObjects.pdf");
 ```
 
-Ini menciptakan contoh dari `Document` kelas yang memuat berkas PDF yang Anda tentukan.
+Ini menciptakan sebuah contoh dari `Document` kelas yang memuat berkas PDF yang Anda tentukan.
 
 ## Langkah 2: Akses Halaman dan Koleksi Operator
 

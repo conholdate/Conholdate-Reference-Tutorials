@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用 Aspose.Email for .NET 函式庫區分內嵌附件和常規附件，探索電子郵件處理的複雜性。本指南提供全面的逐步說明。"
+"description": "透過學習如何使用 Aspose.Email for .NET 程式庫區分內嵌附件和常規附件，探索電子郵件處理的複雜性。本綜合指南提供了逐步說明。"
 "linktitle": "在 C# 中區分內嵌附件和常規附件"
 "second_title": "Aspose.Email .NET 電子郵件處理 API"
 "title": "在 C# 中區分內嵌附件和常規附件"
@@ -9,11 +9,11 @@
 
 ## 介紹
 
-電子郵件附件對於傳遞郵件文字以外的資訊至關重要。在各種附件類型中，內嵌附件（嵌入在郵件正文中）和常規附件（單獨的文件）是最常見的。本指南將透過逐步說明和實用程式碼片段，探討如何使用 Aspose.Email for .NET 程式庫區分這兩種類型的附件。
+電子郵件附件對於傳達電子郵件文字以外的資訊至關重要。在各種類型的附件中，內嵌附件（嵌入在電子郵件正文中）和常規附件（單獨的文件）是最常見的。本指南將探討如何使用 Aspose.Email for .NET 程式庫區分這兩種類型的附件，並提供逐步說明和實用程式碼片段。
 
 ## 1. 設定開發環境
 
-在開始編碼之前，請確保你的開發環境已準備就緒。你需要在系統上安裝 Visual Studio。 
+在開始編碼之前，請確保您的開發環境已準備就緒。您需要在系統上安裝 Visual Studio。 
 
 ## 2.建立新項目
 
@@ -23,7 +23,7 @@
 
 ## 3.安裝 Aspose.Email for .NET 函式庫
 
-Aspose.Email 庫簡化了電子郵件處理，包括存取附件。您可以透過 NuGet 套件管理器輕鬆安裝它。開啟套件管理器控制台並執行以下命令：
+Aspose.Email 庫有助於電子郵件處理，包括存取附件。您可以透過 NuGet 套件管理器輕鬆安裝它。開啟程式包管理器控制台並執行以下命令：
 
 ```bash
 Install-Package Aspose.Email
@@ -31,7 +31,7 @@ Install-Package Aspose.Email
 
 ## 4. 載入電子郵件訊息
 
-要使用附件，您必須先載入一封電子郵件。以下是操作範例：
+要使用附件，您必須先載入電子郵件訊息。以下是如何執行此操作的範例：
 
 ```csharp
 using Aspose.Email;
@@ -43,7 +43,7 @@ MailMessage emailMessage = MailMessage.Load("path/to/your/email/file.eml");
 
 ## 5.檢索附件
 
-載入電子郵件後，即可存取附件集合。使用以下程式碼片段檢索所有附件：
+載入電子郵件後，您可以存取附件集合。使用以下程式碼片段檢索所有附件：
 
 ```csharp
 AttachmentCollection attachments = emailMessage.Attachments;
@@ -89,7 +89,7 @@ foreach (Attachment attachment in attachments)
 
 ## 結論
 
-本指南深入說明如何使用 Aspose.Email for .NET 程式庫區分內嵌附件和常規附件。透過遵循逐步說明並利用程式碼片段，您可以有效地在應用程式中管理電子郵件附件。
+本指南提供了使用 Aspose.Email for .NET 程式庫區分內嵌附件和常規附件的見解。透過遵循逐步說明並利用程式碼片段，您可以有效地管理應用程式中的電子郵件附件。
 
 ## 常見問題解答
 
@@ -106,4 +106,4 @@ foreach (Attachment attachment in attachments)
 您可以使用下列屬性來存取內容 `ContentId` 和 `ContentType`，如範例所示。
 
 ### 我可以將常規附件儲存到磁碟上的特定位置嗎？
-當然！使用 `Save` 附件物件的方法，提供保存常規附件所需的檔案路徑。
+絕對地！使用 `Save` 附件物件的方法，提供保存常規附件所需的檔案路徑。

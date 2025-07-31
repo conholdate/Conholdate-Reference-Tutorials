@@ -94,4 +94,4 @@ foreach (MarkupAnnotation annotation in pdfDocument.Pages[1].Annotations)
 हां, आप यहां से परीक्षण संस्करण डाउनलोड करके Aspose.PDF को निःशुल्क आज़मा सकते हैं। [यहाँ](https://releases.aspose.com/).
 
 ### मैं Aspose.PDF के लिए समर्थन कहां पा सकता हूं?
-आप सहायता पा सकते हैं और प्रश्न पूछ सकते हैं [एस्पोज़ फ़ोरम](https://forum.aspose.com/c/pdf/10).
+आप सहायता पा सकते हैं और प्रश्न पूछ सकते हैं [Aspose फ़ोरम](https://forum.aspose.com/c/pdf/10).

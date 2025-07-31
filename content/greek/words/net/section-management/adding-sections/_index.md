@@ -118,4 +118,4 @@ doc.Save("YourPath/YourDocument.docx");
 
 ### Πού μπορώ να βρω περισσότερους πόρους για το Aspose.Words;
 
-Για περισσότερες πληροφορίες, επισκεφθείτε την ιστοσελίδα [Τεκμηρίωση Aspose.Words](https://reference.aspose.com/words/net/) και ελέγξτε το [φόρουμ υποστήριξης](https://forum.aspose.com/c/words/8) για συζητήσεις και βοήθεια.
+Για περισσότερες πληροφορίες, επισκεφθείτε την [Τεκμηρίωση Aspose.Words](https://reference.aspose.com/words/net/) και ελέγξτε το [φόρουμ υποστήριξης](https://forum.aspose.com/c/words/8) για συζητήσεις και βοήθεια.

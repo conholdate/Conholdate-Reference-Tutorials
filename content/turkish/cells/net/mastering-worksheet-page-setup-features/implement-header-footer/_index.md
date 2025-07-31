@@ -155,4 +155,4 @@ Aspose.Cells şu anda öncelikli olarak üstbilgi ve altbilgilerde metin desteğ
 Evet, çeşitli dinamik kodları kullanabilirsiniz (örneğin `&D` tarih veya `&P` (sayfa numarası için) dinamik içerik eklemek için.
 
 ### Başlık veya alt bilgi yüksekliğini nasıl ayarlayabilirim?  
-Aspose.Cells, aşağıdakiler içinde seçenekler sunar: `PageSetup` Başlık ve altbilgi kenar boşluklarını ayarlayarak aralıklar üzerinde kontrol sahibi olmanızı sağlayan sınıf.
+Aspose.Cells, içinde seçenekler sunar `PageSetup` Başlık ve altbilgi kenar boşluklarını ayarlayarak aralıklar üzerinde kontrol sahibi olmanızı sağlayan sınıf.

@@ -26,7 +26,7 @@
 まず、Visual Studio でプロジェクトを設定する必要があります。
 
 1. Visual Studio を開きます。
-2. ファイル > 新規 > プロジェクトを選択します。
+2. [ファイル] > [新規] > [プロジェクト] を選択します。
 3. [コンソール アプリ (.NET Framework)] を選択し、[次へ] をクリックします。
 4. プロジェクトに名前を付けて、「作成」をクリックします。
 
@@ -69,7 +69,7 @@ Workbook workbook = new Workbook(sourceDir + "WebExtensionsSample.xlsx");
 
 ## ステップ5: Web拡張機能のタスクペインにアクセスする
 
-ブックに関連付けられた Web 拡張機能のタスク ペインにアクセスしてみましょう。
+ワークブックに関連付けられた Web 拡張機能のタスク ペインにアクセスしてみましょう。
 
 ```csharp
 WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
@@ -125,7 +125,7 @@ Aspose.Cells は、Microsoft Excel をインストールしなくても Excel �
 
 ### Aspose.Cells を使用するには Microsoft Excel をインストールする必要がありますか?
 
-いいえ、Aspose.Cells は Microsoft Excel から独立して動作するように設計されています。
+いいえ、Aspose.Cells は Microsoft Excel とは独立して動作するように設計されています。
 
 ### Web 拡張機能以外に、Excel の他のデータ型にアクセスできますか?
 

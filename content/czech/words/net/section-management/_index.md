@@ -1,5 +1,5 @@
 ---
-"description": "Zvládněte správu sekcí v .NET s našimi tutoriály Aspose.Words. Naučte se bezproblémově přidávat, mazat, kopírovat a přidávat sekce v dokumentech Word."
+"description": "Zvládněte správu sekcí v .NET s našimi tutoriály Aspose.Words. Naučte se bezproblémově přidávat, mazat, kopírovat a přidávat sekce v dokumentech Wordu."
 "linktitle": "Zvládnutí správy sekcí v dokumentech Word"
 "second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
 "title": "Zvládnutí správy sekcí v dokumentech Word"
@@ -15,7 +15,7 @@ Pokud jde o formátování dokumentů Wordu, sekce fungují jako páteř. Umož�
 
 Začneme základy a náš první tutoriál se zaměří na přidávání sekcí do dokumentů Word. Ať už chcete vytvořit novou sekci nebo upravit stávající, Aspose.Words nabízí jednoduchý přístup. Představte si, že pracujete na zprávě a najednou si uvědomíte, že je nutná nová sekce pro diskusi o dalších zjištěních – právě zde se uplatní náš průvodce. [Přidávání sekcí](./adding-sections/) stane se tvým nejlepším přítelem! 
 
-Naopak, někdy se sekce mohou stát nadbytečnými. Proto je stejně důležité vědět, jak efektivně mazat sekce. V našem tutoriálu na [Mazání sekcí](./delete-sections-word-document/), dozvíte se předpoklady a kroky k odstranění nepotřebných sekcí bez narušení celkové struktury dokumentu. 
+Naopak, někdy se sekce mohou stát nadbytečnými. Proto je stejně důležité vědět, jak efektivně mazat sekce. V našem tutoriálu na téma [Mazání sekcí](./delete-sections-word-document/), dozvíte se předpoklady a kroky k odstranění nepotřebných sekcí bez narušení celkové struktury dokumentu. 
 
 ## Pokročilá správa sekcí: Kopírování a přidávání
 
@@ -27,6 +27,6 @@ Dále, pokud máte zájem rozšířit své dokumenty o nové informace, podívej
 | Název | Popis |
 | --- | --- |
 | [Přidávání sekcí pomocí Aspose.Words pro .NET](./adding-sections/) | Naučte se, jak přidávat sekce pomocí Aspose.Words pro dokumenty .NET. Naučte se, jak vytvářet sekce v dokumentech Wordu pro zvýšení čitelnosti a profesionality. Tato příručka zahrnuje vše od inicializace dokumentu až po uložení vaší práce. |
-| [Odstranění oddílů z dokumentů Word pomocí Aspose.Words v .NET](./delete-sections-word-document/) Zjistěte, jak efektivně mazat oddíly z dokumentů Word pomocí Aspose.Words pro .NET. Tato komplexní příručka vás provede všemi nezbytnými kroky. |
+| [Odstranění sekcí z dokumentů Word pomocí Aspose.Words v .NET](./delete-sections-word-document/) Zjistěte, jak efektivně mazat oddíly z dokumentů Word pomocí Aspose.Words pro .NET. Tato komplexní příručka vás provede všemi nezbytnými kroky. |
 | [Přidat obsah sekce Word pomocí Aspose.Words v .NET](./append-section-word-content/) | Naučte se základy vytváření, úprav a přidávání sekcí v dokumentech Wordu pomocí snadno srozumitelných příkladů, které jsou ideální pro začátečníky i zkušené vývojáře. |
 | [Kopírování sekcí mezi dokumenty Wordu pomocí Aspose.Words](./copy-sections-word-documents/) | Naučte se krok za krokem, jak efektivně kopírovat sekce mezi dokumenty Wordu pomocí Aspose.Words pro .NET. Tato podrobná příručka zahrnuje předpoklady, příklady kódu, pokročilé tipy a nejčastější dotazy. |

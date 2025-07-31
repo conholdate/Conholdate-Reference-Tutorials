@@ -20,7 +20,7 @@ Voordat we in de code duiken, moet u ervoor zorgen dat u het volgende hebt:
 - Basiskennis van C#- en .NET-toepassingen.
 - Aspose.PDF-licentie: U kunt een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) of proefmodus.
 
-Nu deze voorwaarden vervuld zijn, kunnen we met het coderen beginnen!
+Nu deze voorwaarden vervuld zijn, kunnen we beginnen met coderen!
 
 ## Importeer noodzakelijke naamruimten
 
@@ -35,7 +35,7 @@ using Aspose.Pdf.Forms;
 
 Deze naamruimten bieden toegang tot klassen zoals `Document`, `ComboBoxField`en andere essentiële nutsvoorzieningen.
 
-## Stap 1: Uw PDF-document instellen
+## Stap 1: Stel uw PDF-document in
 
 Eerst heb je een PDF-document nodig om mee te werken. Laten we een nieuw PDF-bestand maken en er een lege pagina aan toevoegen.
 
@@ -73,7 +73,7 @@ combo.AddOption("Green");
 combo.AddOption("Blue");
 ```
 
-Deze vier opties (rood, geel, groen en blauw) kunnen gebruikers selecteren in het vervolgkeuzemenu.
+Deze vier opties (rood, geel, groen en blauw) kunnen door gebruikers worden geselecteerd in het vervolgkeuzemenu.
 
 ## Stap 4: Voeg de keuzelijst toe aan het document
 

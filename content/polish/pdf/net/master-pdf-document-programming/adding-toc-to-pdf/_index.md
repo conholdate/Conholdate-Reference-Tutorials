@@ -108,7 +108,7 @@ titles[2] = "Third page";
 titles[3] = "Fourth page";
 ```
 
-**W rzeczywistości**: Zastąp te ogólne tytuły nazwami sekcji z dokumentu, które mają sens. Pomyśl o „Streszczeniem”, „Analizie finansowej”, „Rekomendacjach” itd. Im bardziej opisowe tytuły, tym bardziej użyteczny staje się spis treści.
+**W rzeczywistości**: Zastąp te ogólne tytuły nazwami sekcji z dokumentu, które mają sens. Pomyśl o „Streszczeniu kierowniczym”, „Analizie finansowej”, „Rekomendacjach” itd. Im bardziej opisowe tytuły, tym bardziej użyteczny staje się spis treści.
 
 **Uwaga dotycząca skalowalności**: W tym przykładzie przedstawiono cztery tytuły, ale można obsłużyć dziesiątki, a nawet setki wpisów. W przypadku bardzo dużych dokumentów warto zgrupować powiązane sekcje pod głównymi nagłówkami.
 

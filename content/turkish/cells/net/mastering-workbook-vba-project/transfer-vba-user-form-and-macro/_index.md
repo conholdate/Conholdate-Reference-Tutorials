@@ -102,7 +102,7 @@ foreach (VbaModule vbaItem in templateFile.VbaProject.Modules)
         {
             // Kullanıcı formu tasarımcısı depolamasını alın
             byte[] designerStorage = templateFile.VbaProject.Modules.GetDesignerStorage(vbaItem.Name);
-            // Tasarımcı depolama alanını hedef Vba Projesine ekleyin
+            // Hedef Vba Projesine tasarımcı depolama alanını ekleyin
             target.VbaProject.Modules.AddDesignerStorage(vbaItem.Name, designerStorage);
         }
     }

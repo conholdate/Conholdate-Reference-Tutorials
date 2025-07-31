@@ -1,20 +1,21 @@
 ---
-title: Dodawanie podpisów tekstowych do dokumentów za pomocą GroupDocs.Signature
-linktitle: Dodawanie podpisów tekstowych do dokumentów
-second_title: GroupDocs.Signature .NET API
-description: Dowiedz się, jak podpisywać dokumenty tekstem za pomocą GroupDocs.Signature dla .NET. Przewodnik krok po kroku, jak programowo dodawać podpisy tekstowe.
-weight: 17
-url: /pl/signature/master-advanced-sign-techniques/add-text-signatures-to-documents/
+"description": "Dowiedz się, jak podpisywać dokumenty tekstem za pomocą GroupDocs.Signature dla .NET. Przewodnik krok po kroku, jak programowo dodawać podpisy tekstowe."
+"linktitle": "Dodawanie podpisów tekstowych do dokumentów"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Dodawanie podpisów tekstowych do dokumentów za pomocą GroupDocs.Signature"
+"url": "/pl/signature/net/master-advanced-sign-techniques/add-text-signatures-to-documents/"
+"weight": 17
 ---
+
 ## Wstęp
 
-W dzisiejszym cyfrowym krajobrazie elektroniczne podpisywanie dokumentów stało się niezbędne do usprawnienia przepływów pracy i oszczędzania zasobów. GroupDocs.Signature for .NET zapewnia potężne rozwiązanie do programowego dodawania podpisów tekstowych do różnych formatów dokumentów. Ten samouczek przeprowadzi Cię przez kroki podpisywania dokumentu tekstem za pomocą GroupDocs.Signature for .NET.
+dzisiejszym cyfrowym świecie elektroniczne podpisywanie dokumentów stało się niezbędne do usprawnienia przepływów pracy i oszczędzania zasobów. GroupDocs.Signature for .NET to potężne rozwiązanie do programowego dodawania podpisów tekstowych do różnych formatów dokumentów. Ten samouczek przeprowadzi Cię przez proces podpisywania dokumentu tekstem za pomocą GroupDocs.Signature for .NET.
 
 ## Wymagania wstępne
 
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
-1. GroupDocs.Signature dla .NET: Pobierz i zainstaluj bibliotekę z[Tutaj](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature dla .NET: Pobierz i zainstaluj bibliotekę ze strony [Tutaj](https://releases.groupdocs.com/signature/net/).
 2. Środowisko programistyczne: Skonfiguruj środowisko programistyczne .NET.
 3. Dokument: Przygotuj dokument, który chcesz podpisać (np. PDF, Word).
 
@@ -42,7 +43,7 @@ string fileName = Path.GetFileName(filePath);
 
 ## Krok 2: Zdefiniuj ścieżkę do pliku wyjściowego
 
-Następnie należy ustawić ścieżkę pliku wyjściowego, w którym zostanie zapisany podpisany dokument:
+Następnie należy ustawić ścieżkę do pliku wyjściowego, w którym zostanie zapisany podpisany dokument:
 
 ```csharp
 string outputFilePath = Path.Combine("Your Document Directory", "SignWithText", fileName);
@@ -50,7 +51,7 @@ string outputFilePath = Path.Combine("Your Document Directory", "SignWithText", 
 
 ## Krok 3: Utwórz opcje podpisu
 
-Skonfiguruj opcje podpisu tekstowego, w tym jego zawartość, położenie, rozmiar, kolor i styl czcionki:
+Skonfiguruj opcje swojego podpisu tekstowego, w tym jego treść, położenie, rozmiar, kolor i styl czcionki:
 
 ```csharp
 TextSignOptions options = new TextSignOptions("John Smith")
@@ -78,7 +79,7 @@ using (Signature signature = new Signature(filePath))
 
 ## Wniosek
 
-tym samouczku pokazaliśmy, jak programowo dodać podpis tekstowy do dokumentu przy użyciu GroupDocs.Signature dla .NET. Postępując zgodnie z tymi krokami, możesz skutecznie zwiększyć bezpieczeństwo i autentyczność swoich dokumentów.
+W tym samouczku pokazaliśmy, jak programowo dodać podpis tekstowy do dokumentu za pomocą GroupDocs.Signature dla .NET. Postępując zgodnie z tymi krokami, możesz skutecznie zwiększyć bezpieczeństwo i autentyczność swoich dokumentów.
 
 ## Najczęściej zadawane pytania
 
@@ -86,13 +87,13 @@ tym samouczku pokazaliśmy, jak programowo dodać podpis tekstowy do dokumentu p
 Tak, możesz dostosować różne atrybuty, takie jak kolor, czcionkę, rozmiar i położenie podpisu tekstowego, aby odpowiadały Twoim potrzebom.
 
 ### Czy GroupDocs.Signature jest kompatybilny z wieloma formatami dokumentów?
-Oczywiście! GroupDocs.Signature obsługuje szeroki zakres formatów, w tym PDF, Word, Excel, PowerPoint i inne.
+Oczywiście! GroupDocs.Signature obsługuje szeroką gamę formatów, w tym PDF, Word, Excel, PowerPoint i inne.
 
 ### Czy mogę dodać wiele podpisów tekstowych do jednego dokumentu?
-Tak, możesz dodać wiele podpisów tekstowych, każdy z własnymi opcjami dostosowywania.
+Tak, możesz dodać wiele podpisów tekstowych, każdy z własnymi opcjami personalizacji.
 
 ### Czy GroupDocs.Signature gwarantuje integralność dokumentu po jego podpisaniu?
-Tak, biblioteka korzysta z niezawodnych algorytmów kryptograficznych, aby zapewnić integralność dokumentu i zapobiec manipulacjom po jego podpisaniu.
+Tak, biblioteka korzysta z solidnych algorytmów kryptograficznych, aby zapewnić integralność dokumentu i zapobiec manipulacjom po jego podpisaniu.
 
-### Czy jest dostępna wersja próbna do przetestowania przed zakupem?
- Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.groupdocs.com/) aby zapoznać się z funkcjami przed dokonaniem zakupu.
+### Czy jest dostępna wersja próbna, którą można przetestować przed zakupem?
+Tak, możesz pobrać bezpłatną wersję próbną ze strony [Tutaj](https://releases.groupdocs.com/) aby zapoznać się z funkcjami przed dokonaniem zakupu.

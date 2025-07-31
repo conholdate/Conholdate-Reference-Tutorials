@@ -51,7 +51,7 @@ WebExtensionCollection extensions = workbook.Worksheets.WebExtensions;
 WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
 ```
 
-Deze stap is cruciaal omdat u hiermee toegang krijgt tot de gereedschapskist waaruit u de juiste gereedschappen voor uw project kunt selecteren.
+Deze stap is cruciaal, omdat u hiermee de gereedschapskist opent waaruit u de juiste gereedschappen voor uw project kunt selecteren.
 
 ## Stap 4: Een webextensie toevoegen
 
@@ -61,7 +61,7 @@ Laten we nu een webextensie aan uw werkmap toevoegen:
 int extensionIndex = extensions.Add();
 ```
 
-Deze regel voegt een nieuwe webextensie toe aan de werkmap en slaat de index ervan op voor later gebruik.
+Deze regel voegt een nieuwe webextensie toe aan de werkmap en slaat de index ervan op voor toekomstig gebruik.
 
 ## Stap 5: De webextensie configureren
 
@@ -74,11 +74,11 @@ extension.Reference.StoreName = "en-US"; // De naam van de winkel
 extension.Reference.StoreType = WebExtensionStoreType.OMEX; // Soort winkel
 ```
 
-Met deze parameters definieert u hoe uw extensie zich gedraagt.
+Door deze parameters in te stellen, bepaalt u hoe uw extensie zich gedraagt.
 
 ## Stap 6: Het taakvenster Webextensie toevoegen en configureren
 
-Voeg vervolgens een taakvenster toe voor uw webextensie, dat een speciale ruimte biedt waar de extensie kan functioneren:
+Voeg vervolgens een taakvenster toe voor uw webextensie, dat een speciale ruimte biedt waar de extensie kan werken:
 
 ```csharp
 int taskPaneIndex = taskPanes.Add();
@@ -88,7 +88,7 @@ taskPane.DockState = "right"; // Dock het paneel aan de rechterkant
 taskPane.WebExtension = extension; // Koppel de extensie aan het taakvenster
 ```
 
-Door de zichtbaarheid en de positie van uw taakvenster te configureren, creëert u een gebruiksvriendelijke interface.
+Door de zichtbaarheid en positie van uw taakvenster te configureren, creëert u een gebruiksvriendelijke interface.
 
 ## Stap 7: Sla uw werkboek op
 

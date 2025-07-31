@@ -34,7 +34,7 @@ Transformez différents formats de fichiers vers et depuis PDF avec une qualité
 | **[Convertir EPUB en PDF](./mastering-document-conversion/convert-epub-to-pdf/)** | Transformez les livres électroniques au format PDF pour une compatibilité universelle | ⭐ Débutant |
 | **[Maîtriser le HTML vers PDF](./mastering-document-conversion/mastering-html-to-pdf/)** | Conversion de contenu Web en PDF avec prise en charge de style avancé | ⭐⭐ Intermédiaire |
 | **[Conversion de CGM en PDF](./mastering-document-conversion/convert-cgm-to-pdf/)** | Transformation de métafichiers d'infographie en PDF | ⭐⭐ Intermédiaire |
-| **[Ajout de pièces jointes au PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** | Pièces jointes de documents conformes aux normes d'archivage | ⭐⭐⭐ Avancé |
+| **[Ajout de pièces jointes au PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** Pièces jointes de documents conformes aux normes d'archivage | ⭐⭐⭐ Avancé |
 
 ### Maîtriser la programmation de documents PDF
 Techniques avancées de programmation PDF pour créer des solutions documentaires sophistiquées.
@@ -52,7 +52,7 @@ Opérations de page PDF essentielles pour l'organisation des documents et la ges
 | Tutoriel | Description | Difficulté |
 |----------|-------------|------------|
 | **[Modifier l'orientation de la page PDF](./master-pdf-page-management/change-pdf-page-orientation/)** | Ajuster la mise en page et l'orientation pour un affichage optimal du document | ⭐ Débutant |
-| **[Concaténation de fichiers PDF](./master-pdf-page-management/concatenating-pdf-files/)** Fusionner plusieurs documents PDF en un seul fichier cohérent | ⭐⭐ Intermédiaire |
+| **[Concaténation de fichiers PDF](./master-pdf-page-management/concatenating-pdf-files/)** | Fusionner plusieurs documents PDF en un seul fichier cohérent | ⭐⭐ Intermédiaire |
 | **[Supprimer une page particulière des fichiers PDF](./master-pdf-page-management/delete-particular-page-from-pdf-files/)** | Supprimer efficacement des pages spécifiques des documents PDF | ⭐ Débutant |
 | **[Insérer des pages vides dans un fichier PDF](./master-pdf-page-management/insert-empty-pages/)** | Ajouter des pages vierges pour l'organisation et l'espacement du contenu | ⭐ Débutant |
 | **[Ajout d'une page vide à la fin](./master-pdf-page-management/adding-an-empty-page-at-end/)** | Ajouter des pages vides aux documents PDF par programmation | ⭐ Débutant |
@@ -67,7 +67,7 @@ Opérations de page PDF essentielles pour l'organisation des documents et la ges
 ### **Création de documents interactifs**
 - **Développement de formulaires**: Formulaires PDF dynamiques avec validation et calculs
 - **Signatures numériques**: Signature et authentification sécurisées de documents
-- **Intégration multimédia**Contenu multimédia riche dans les documents PDF
+- **Intégration multimédia**: Contenu multimédia riche dans les documents PDF
 
 ### **Solutions Web vers PDF**
 - **Conversion HTML**: Transformez le contenu Web en PDF pour un accès hors ligne
@@ -77,7 +77,7 @@ Opérations de page PDF essentielles pour l'organisation des documents et la ges
 ## 📊 Recommandations de parcours d'apprentissage
 
 ### **Développeur débutant** (Nouveau dans le traitement PDF)
-1. Commencer par **[Conversion EPUB en PDF](./mastering-document-conversion/convert-epub-to-pdf/)**
+1. Commencer avec **[Conversion EPUB en PDF](./mastering-document-conversion/convert-epub-to-pdf/)**
 2. Apprendre **[Notions de base sur la conversion HTML en PDF](./mastering-document-conversion/mastering-html-to-pdf/)**
 3. Pratique **[Gestion des pages](./master-pdf-page-management/change-pdf-page-orientation/)**
 
@@ -113,7 +113,7 @@ Opérations de page PDF essentielles pour l'organisation des documents et la ges
 ### **Sécurité et conformité**
 - **Signatures numériques** - Authentification et intégrité des documents
 - **Cryptage** - Protection par mot de passe et contrôle d'accès
-- **Normes PDF/A** - Conformité archivistique à long terme
+- **Normes PDF/A** Conformité des archives à long terme
 
 ### **Amélioration des documents**
 - **Filigranes** - Protection de la marque et marquage des documents

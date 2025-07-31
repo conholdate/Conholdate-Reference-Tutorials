@@ -82,7 +82,7 @@ Et voilà ! Cette seule ligne de code gère l'intégralité du processus de con
 
 **Ce qui est préservé :**
 - Titres (convertis en syntaxe #)
-- Formatage en gras et en italique
+- Formatage gras et italique
 - Listes (ordonnées et non ordonnées)
 - Liens et tableaux de base
 - Blocs de code et code en ligne

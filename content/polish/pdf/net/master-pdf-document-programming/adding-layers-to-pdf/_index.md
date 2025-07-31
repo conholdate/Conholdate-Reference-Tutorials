@@ -163,7 +163,7 @@ Console.WriteLine("\nLayers added successfully to PDF file.\nFile saved at " + d
 
 Pracując z warstwami PDF w środowisku .NET, należy pamiętać o następujących wskazówkach dotyczących wydajności:
 
-**Złożoność warstw**Proste kształty geometryczne (takie jak linie) sprawdzają się lepiej niż skomplikowane grafiki lub duże obrazy umieszczone w warstwach.
+**Złożoność warstw**:Proste kształty geometryczne (takie jak linie) sprawdzają się lepiej niż skomplikowane grafiki lub duże obrazy w warstwach.
 
 **Zarządzanie pamięcią**: Prawidłowo usuń obiekt dokumentu, zwłaszcza podczas przetwarzania wielu plików PDF w operacjach wsadowych.
 

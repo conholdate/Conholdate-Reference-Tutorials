@@ -51,7 +51,7 @@ string dataDir = "Your Document Directory"; // このパスを更新してくだ
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-このコードは `book1.xls` 読み取り用に、その内容を操作できます。
+このコードを開くと `book1.xls` 読み取り用に、その内容を操作できます。
 
 ## ステップ3: ワークブックをインスタンス化する
 

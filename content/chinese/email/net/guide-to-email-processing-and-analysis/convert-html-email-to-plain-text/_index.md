@@ -79,7 +79,7 @@ MailMessage message = MailMessage.Load("sample.html");
 
 **常见问题**：如果您的文件路径不正确，您将收到 `FileNotFoundException`。始终使用绝对路径或确保您的 HTML 文件位于正确的相对位置。
 
-## 步骤 2：提取 HTML 正文
+## 第 2 步：提取 HTML 正文
 
 现在我们需要从邮件中提取 HTML 内容。这就像从外壳中取出肉一样——我们只需要内容，以便进行转换：
 

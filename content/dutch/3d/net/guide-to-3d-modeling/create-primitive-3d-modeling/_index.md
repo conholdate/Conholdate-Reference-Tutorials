@@ -1,24 +1,25 @@
 ---
-title: Primitieve 3D-modellen maken
-linktitle: Primitieve 3D-modellen maken
-second_title: Aspose.3D .NET API
-description: Leer hoe u primitieve 3D-modellen, zoals dozen en cilinders, kunt maken en aanpassen en deze moeiteloos in FBX-formaat kunt opslaan.
-weight: 10
-url: /nl/3d/guide-to-3d-modeling/create-primitive-3d-modeling/
+"description": "Leer hoe u primitieve 3D-modellen, zoals dozen en cilinders, kunt maken en aanpassen en deze moeiteloos in FBX-formaat kunt opslaan."
+"linktitle": "Primitieve 3D-modellen maken"
+"second_title": "Aspose.3D .NET API"
+"title": "Primitieve 3D-modellen maken"
+"url": "/nl/3d/net/guide-to-3d-modeling/create-primitive-3d-modeling/"
+"weight": 10
 ---
+
 ## Invoering
 
-Welkom in de meeslepende wereld van 3D-modellering met Aspose.3D voor .NET! In deze uitgebreide tutorial leiden we u stap voor stap door het proces van het maken van primitieve 3D-modellen. Of u nu een ervaren ontwikkelaar bent of een beginner die graag wil leren, deze gids stelt u in staat om visueel verbluffende 3D-elementen voor uw projecten te maken.
+Welkom in de meeslepende wereld van 3D-modellering met Aspose.3D voor .NET! In deze uitgebreide tutorial begeleiden we je stap voor stap door het proces van het maken van primitieve 3D-modellen. Of je nu een ervaren ontwikkelaar bent of een leergierige beginner, deze gids stelt je in staat om visueel verbluffende 3D-elementen voor je projecten te creëren.
 
 ## Vereisten
 
 Voordat u aan de slag gaat met 3D-modellering, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
--  Aspose.3D voor .NET: Download en installeer de Aspose.3D voor .NET-bibliotheek van de[downloadpagina](https://releases.aspose.com/3d/net/).
+- Aspose.3D voor .NET: Download en installeer de Aspose.3D voor .NET-bibliotheek van de [downloadpagina](https://releases.aspose.com/3d/net/).
   
-- .NET-ontwikkelomgeving: Stel een omgeving in die compatibel is met Aspose.3D, zoals Visual Studio.
+- .NET-ontwikkelomgeving: stel een omgeving in die compatibel is met Aspose.3D, zoals Visual Studio.
 
-Nu alles is voorbereid, kunnen we beginnen aan ons 3D-modelleringsavontuur!
+Nu alles voorbereid is, kunnen we beginnen aan ons 3D-modelleringsavontuur!
 
 ## Vereiste naamruimten importeren
 
@@ -65,7 +66,7 @@ Verbeter nu uw scène door een cilinder toe te voegen:
 scene.RootNode.CreateChildNode("cylinder", new Cylinder());
 ```
 
-Net als bij de doos kunt u de parameters van de cilinder naar wens aanpassen.
+Net als bij de doos kunt u de parameters van de cilinder naar wens aanpassen om het gewenste uiterlijk te verkrijgen.
 
 ## Stap 4: Sla de scène op in FBX-formaat
 
@@ -92,26 +93,26 @@ Uw 3D-scène, bestaande uit primitieve modellen, is nu voltooid en opgeslagen!
 
 ## Conclusie
 
- Gefeliciteerd met het maken van verbluffende 3D-modellen met Aspose.3D voor .NET! Deze tutorial behandelde de basis van primitieve modellering, maar de mogelijkheden zijn eindeloos. Ontdek meer over geavanceerde functies en technieken in de[documentatie](https://reference.aspose.com/3d/net/).
+Gefeliciteerd met het maken van verbluffende 3D-modellen met Aspose.3D voor .NET! Deze tutorial behandelde de basisprincipes van primitief modelleren, maar de mogelijkheden zijn eindeloos. Ontdek meer over geavanceerde functies en technieken in de [documentatie](https://reference.aspose.com/3d/net/).
 
 ## Veelgestelde vragen
 
 ### Kan ik Aspose.3D voor .NET gebruiken met andere programmeertalen dan .NET?
 
-Aspose.3D ondersteunt voornamelijk .NET, maar er zijn versies beschikbaar voor Java en andere platformen.
+Aspose.3D ondersteunt voornamelijk .NET, maar er zijn versies beschikbaar voor Java en andere platforms.
 
 ### Is er een gratis proefperiode beschikbaar?
 
- Ja, u kunt de mogelijkheden van Aspose.3D uitproberen met een[gratis proefperiode](https://releases.aspose.com/).
+Ja, u kunt de mogelijkheden van Aspose.3D uitproberen met een [gratis proefperiode](https://releases.aspose.com/).
 
 ### Waar kan ik ondersteuning vinden voor Aspose.3D voor .NET?
 
-Voor ondersteuning van de gemeenschap, bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18).
+Voor ondersteuning van de gemeenschap, bezoek de [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
 
-### Hoe kan ik een tijdelijk rijbewijs krijgen?
+### Hoe kan ik een tijdelijk rijbewijs verkrijgen?
 
- U kunt een tijdelijke vergunning aanvragen[hier](https://purchase.conholdate.com/temporary-license/).
+U kunt een tijdelijke vergunning aanvragen [hier](https://purchase.conholdate.com/temporary-license/).
 
 ### Zijn er aanvullende tutorials beschikbaar?
 
- Ja! Ontdek meer tutorials en voorbeelden in de[documentatie](https://reference.aspose.com/3d/net/).
+Ja! Ontdek meer tutorials en voorbeelden in de [documentatie](https://reference.aspose.com/3d/net/).

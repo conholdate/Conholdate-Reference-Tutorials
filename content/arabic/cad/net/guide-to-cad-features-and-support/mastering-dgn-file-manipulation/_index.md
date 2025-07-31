@@ -1,24 +1,25 @@
 ---
-title: إتقان التعامل مع ملفات DGN باستخدام Aspose.CAD في .NET
-linktitle: إتقان التعامل مع ملفات DGN
-second_title: Aspose.CAD .NET - تنسيق ملفات CAD وBIM
-description: تعرف على كيفية تحميل ملفات DGN، والتنقل عبر عناصرها، وإدارة الكيانات ثنائية الأبعاد وثلاثية الأبعاد، وتصديرها كصور نقطية - كل ذلك مع الاستفادة من الميزات القوية لمكتبة Aspose.CAD.
-weight: 18
-url: /ar/cad/guide-to-cad-features-and-support/mastering-dgn-file-manipulation/
+"description": "تعرف على كيفية تحميل ملفات DGN، والتكرار خلال عناصرها، وإدارة الكيانات ثنائية وثلاثية الأبعاد، وتصديرها كصور نقطية - كل ذلك مع الاستفادة من الميزات القوية لمكتبة Aspose.CAD."
+"linktitle": "إتقان التعامل مع ملفات DGN"
+"second_title": "Aspose.CAD .NET - تنسيق ملفات CAD وBIM"
+"title": "إتقان التعامل مع ملفات DGN باستخدام Aspose.CAD في .NET"
+"url": "/ar/cad/net/guide-to-cad-features-and-support/mastering-dgn-file-manipulation/"
+"weight": 18
 ---
+
 ## مقدمة
 
-هل أنت مطور .NET حريص على دمج ملفات DGN في تطبيقاتك؟ يوفر Aspose.CAD for .NET مكتبة قوية مصممة خصيصًا للعمل مع تنسيقات ملفات DGN. في هذا البرنامج التعليمي، سنستكشف كيفية التعامل بكفاءة مع ملفات DGN، بما في ذلك العناصر المدعومة وكيفية التعامل معها في مشاريع .NET الخاصة بك.
+هل أنت مطور .NET وترغب في دمج ملفات DGN في تطبيقاتك؟ يوفر Aspose.CAD لـ .NET مكتبة قوية مصممة خصيصًا للعمل مع تنسيقات ملفات DGN. في هذا البرنامج التعليمي، سنستكشف كيفية التعامل بكفاءة مع ملفات DGN، بما في ذلك العناصر المدعومة وكيفية التعامل معها في مشاريع .NET الخاصة بك.
 
 ## المتطلبات الأساسية
 
 قبل أن تبدأ، تأكد من أن لديك الإعداد التالي:
 
-- المعرفة الأساسية ببرمجة .NET: المعرفة بـ C# أو VB.NET سيكون مفيدًا.
+- المعرفة الأساسية ببرمجة .NET: المعرفة بـ C# أو VB.NET ستكون مفيدة.
 - Visual Studio: تم تثبيته على جهازك لتطوير المشروع.
--  مكتبة اسبوسي.كاد لـ .NET: قم بتنزيلها من[Aspose.CAD](https://releases.aspose.com/cad/net/).
+- مكتبة Aspose.CAD لـ .NET: قم بتنزيلها من [Aspose.CAD](https://releases.aspose.com/cad/net/).
 
-## الخطوة 1: استيراد المساحات الأساسية الضرورية
+## الخطوة 1: استيراد مساحات الأسماء الضرورية
 
 للاستفادة من وظائف Aspose.CAD، ابدأ باستيراد المساحات المطلوبة إلى مشروعك.
 
@@ -33,9 +34,9 @@ using Aspose.CAD.FileFormats.Dgn;
 using Aspose.CAD.FileFormats.Dgn.DgnElements;
 ```
 
-## الخطوة 2: قم بتحميل ملف DGN الخاص بك
+## الخطوة 2: تحميل ملف DGN الخاص بك
 
- ابدأ بتحميل ملف DGN موجود في تطبيقك. يتم ذلك عن طريق إنشاء مثيل لـ`DgnImage`.
+ابدأ بتحميل ملف DGN موجود إلى تطبيقك. يتم ذلك عن طريق إنشاء مثيل لـ `DgnImage`.
 
 ```csharp
 string myDir = "Your Document Directory";
@@ -47,9 +48,9 @@ using (DgnImage dgnImage = (DgnImage)Image.Load(sourceFilePath))
 }
 ```
 
-## الخطوة 3: التكرار خلال عناصر DGN
+## الخطوة 3: التكرار عبر عناصر DGN
 
-بمجرد تحميل ملف DGN، يمكنك التكرار خلال عناصره. يوفر Aspose.CAD مجموعة متنوعة من أنواع عناصر DGN للتعامل معها.
+بعد تحميل ملف DGN، يمكنك التكرار بين عناصره. يوفر Aspose.CAD أنواعًا متنوعة من عناصر DGN لتعديلها.
 
 ```csharp
 foreach (DgnDrawingElementBase element in dgnImage.Elements)
@@ -64,7 +65,7 @@ foreach (DgnDrawingElementBase element in dgnImage.Elements)
 
 ### التعامل مع الكيانات ثنائية الأبعاد
 
-يمكنك إدارة الكيانات ثنائية الأبعاد المدعومة سابقًا باستخدام كتلة تبديل الحالة.
+بإمكانك إدارة الكيانات ثنائية الأبعاد المدعومة سابقًا باستخدام كتلة تبديل الحالة.
 
 ```csharp
 switch (element.Metadata.Type)
@@ -72,7 +73,7 @@ switch (element.Metadata.Type)
     case DgnElementType.Line:
     case DgnElementType.Ellipse:
     case DgnElementType.Curve:
-        // أضف منطق المعالجة الخاص بك هنا
+        // أضف منطق المعالجة الخاص بك هنا 
         break;
 }
 ```
@@ -87,14 +88,14 @@ switch (element.Metadata.Type)
     case DgnElementType.SolidHeader3D:
     case DgnElementType.Cone:
     case DgnElementType.CellHeader:
-        // أضف منطق المعالجة الخاص بك هنا
+        // أضف منطق المعالجة الخاص بك هنا 
         break;
 }
 ```
 
 ## الخطوة 5: تصدير ملف DGN
 
-بعد معالجة عناصر DGN، قد ترغب في تصدير الملف كصورة نقطية. يمكن تحقيق ذلك بسهولة باستخدام Aspose.CAD.
+بعد معالجة عناصر DGN، قد ترغب في تصدير الملف كصورة نقطية. يُمكنك القيام بذلك بسهولة باستخدام Aspose.CAD.
 
 ```csharp
 string outputFilePath = myDir + "Exported_Image.png"; // حدد مسار الإخراج الخاص بك
@@ -104,26 +105,26 @@ Console.WriteLine($"\nThe DGN file exported successfully to raster image.\nFile 
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، تعلمنا كيفية استخدام Aspose.CAD لـ .NET لإدارة ملفات DGN بفعالية. باتباع الخطوات الموضحة، يمكنك التعامل بسهولة مع عناصر DGN ثنائية الأبعاد وثلاثية الأبعاد وتصديرها كصور نقطية. تتيح هذه المكتبة القوية التكامل السلس لمعالجة DGN في تطبيقات .NET الخاصة بك، مما يعزز قدرات مشروعك.
+في هذا البرنامج التعليمي، تعلمنا كيفية استخدام Aspose.CAD لـ .NET لإدارة ملفات DGN بفعالية. باتباع الخطوات الموضحة، يمكنك بسهولة التعامل مع عناصر DGN ثنائية وثلاثية الأبعاد وتصديرها كصور نقطية. تتيح هذه المكتبة القوية دمج معالجة DGN بسلاسة في تطبيقات .NET، مما يعزز إمكانيات مشروعك.
 
 ## الأسئلة الشائعة
 
-### أين يمكنني العثور على وثائق Aspose.CAD لـ .NET؟
+### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.CAD لـ .NET؟
 
- الوثائق الشاملة متاحة[هنا](https://reference.aspose.com/cad/net/).
+الوثائق الشاملة متاحة [هنا](https://reference.aspose.com/cad/net/).
 
 ### كيف يمكنني تنزيل Aspose.CAD لـ .NET؟
 
- يمكنك تنزيل أحدث إصدار من المكتبة[هنا](https://releases.aspose.com/cad/net/).
+يمكنك تنزيل أحدث إصدار من المكتبة [هنا](https://releases.aspose.com/cad/net/).
 
 ### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.CAD لـ .NET؟
 
- نعم، تتوفر نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+نعم، تتوفر نسخة تجريبية مجانية [هنا](https://releases.aspose.com/).
 
 ### كيف يمكنني الحصول على تراخيص مؤقتة لـ Aspose.CAD لـ .NET؟
 
- يمكنك طلب تراخيص مؤقتة[هنا](https://purchase.conholdate.com/temporary-license/).
+يمكنك طلب تراخيص مؤقتة [هنا](https://purchase.conholdate.com/temporary-license/).
 
 ### هل تحتاج إلى مساعدة أو لديك أسئلة؟
 
-للحصول على الدعم أو طرح الأسئلة، قم بزيارة مجتمع Aspose.CAD[منتدى الدعم](https://forum.aspose.com/c/cad/19).
+للحصول على الدعم أو طرح الأسئلة، قم بزيارة مجتمع Aspose.CAD [منتدى الدعم](https://forum.aspose.com/c/cad/19).

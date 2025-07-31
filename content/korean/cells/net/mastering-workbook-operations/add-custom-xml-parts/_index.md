@@ -80,7 +80,7 @@ CustomXmlPart cxp = wb.CustomXmlParts.SelectByID(srchID);
 ```
 이 라인은 사용합니다 `SelectByID` 지정된 ID와 연관된 XML 부분을 찾습니다.
 
-## 7단계: 사용자 정의 XML 부분이 발견되었는지 확인
+## 7단계: 사용자 지정 XML 부분이 발견되었는지 확인
 마지막으로 XML 부분이 발견되었는지 확인하고 적절한 메시지를 출력합니다.
 ```csharp
 // 찾았는지 찾지 못했는지에 대한 메시지를 콘솔에 출력합니다.
@@ -163,8 +163,8 @@ srchID = "Sport";
 // 검색 ID로 사용자 정의 XML 부분을 검색합니다.
 Aspose.Cells.Markup.CustomXmlPart cxp = wb.CustomXmlParts.SelectByID(srchID);
 ```
-이 라인은 레버리지를 활용합니다 `SelectByID` 우리가 관심 있는 XML 부분을 찾아보려고 합니다.
-## 7단계: 사용자 정의 XML 부분이 발견되었는지 확인
+이 라인은 레버리지를 활용합니다. `SelectByID` 우리가 관심 있는 XML 부분을 찾아보려고 합니다.
+## 7단계: 사용자 지정 XML 부분이 발견되었는지 확인
 마지막으로 XML 부분이 발견되었는지 확인하고 콘솔에 적절한 메시지를 출력해야 합니다.
 ```csharp
 // 콘솔에 찾았는지 찾지 못했는지에 대한 메시지를 출력합니다.
@@ -191,4 +191,4 @@ Aspose.Cells는 개발자가 Microsoft Excel을 설치하지 않고도 Excel 파
 ### ID를 모르는 경우 XML 부분을 어떻게 검색할 수 있나요?  
 ID를 모르는 경우 다음을 반복할 수 있습니다. `CustomXmlParts` 사용 가능한 부품과 해당 ID를 확인할 수 있는 컬렉션을 통해 부품을 더 쉽게 식별하고 액세스할 수 있습니다.
 ### Aspose.Cells에 대한 추가 리소스나 지원은 어디에서 찾을 수 있나요?  
-당신은 확인할 수 있습니다 [선적 서류 비치](https://reference.aspose.com/cells/net/) 자세한 지침을 보려면 또는 방문하세요. [지원 포럼](https://forum.aspose.com/c/cells/9) 지역사회의 도움을 받으세요.
+당신은 확인할 수 있습니다 [선적 서류 비치](https://reference.aspose.com/cells/net/) 자세한 지침을 보려면 또는 방문하세요. [지원 포럼](https://forum.aspose.com/c/cells/9) 지역사회의 도움을 위해.

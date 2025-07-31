@@ -19,7 +19,7 @@ Než se pustíme do konverze, ujistěte se, že máte následující předpoklad
 2. Aspose.PDF pro .NET: Stáhněte si knihovnu Aspose.PDF z [zde](https://releases.aspose.com/pdf/net/).
 3. Základní znalost C#: Znalost C# vám pomůže lépe porozumět daným konceptům.
 4. Ukázkový soubor PDF: Mějte připravený soubor PDF pro převod. V případě potřeby si můžete vytvořit jednoduchý soubor.
-5. Prostředí .NET: Ujistěte se, že máte nainstalováno rozhraní .NET Framework nebo .NET Core.
+5. Prostředí .NET: Ujistěte se, že máte nainstalované rozhraní .NET Framework nebo .NET Core.
 
 Když je vše na svém místě, pojďme na to!
 
@@ -29,7 +29,7 @@ Pro začátek musíme do našeho projektu importovat potřebné balíčky. Použ
 
 ## Otevřete svůj projekt
 
-Spusťte Visual Studio a buď otevřete stávající projekt, nebo vytvořte nový projekt konzolové aplikace.
+Spusťte Visual Studio a buď otevřete existující projekt, nebo vytvořte nový projekt konzolové aplikace.
 
 ## Přidejte balíček Aspose.PDF
 
@@ -57,7 +57,7 @@ Zde je kompletní návod, jak převést všechny stránky PDF souboru do jednoho
 
 ## Krok 1: Nastavení adresáře dokumentů
 
-Definujte cestu, kde se nachází váš PDF soubor a kam chcete uložit soubor TIFF:
+Definujte cestu, kde se nachází váš soubor PDF a kam chcete uložit soubor TIFF:
 
 ```csharp
 // Cesta k adresáři s dokumenty.
@@ -75,7 +75,7 @@ Načtěte soubor PDF do `Document` objekt:
 Document pdfDocument = new Document(dataDir + "PageToTIFF.pdf");
 ```
 
-## Krok 3: Vytvoření objektu rozlišení
+## Krok 3: Vytvořte objekt rozlišení
 
 Nastavte požadované rozlišení pro výstupní obrázek TIFF. Rozlišení 300 DPI je standardní pro vysoce kvalitní obrázky:
 

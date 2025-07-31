@@ -39,7 +39,7 @@ using Aspose.Pdf;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-प्रतिस्थापित करना सुनिश्चित करें `"YOUR DOCUMENT DIRECTORY"` आपकी पीडीएफ फाइल का वास्तविक पथ.
+प्रतिस्थापित करना सुनिश्चित करें `"YOUR DOCUMENT DIRECTORY"` आपकी पीडीएफ फाइल के वास्तविक पथ के साथ।
 
 ## चरण 3: पीडीएफ दस्तावेज़ खोलें
 

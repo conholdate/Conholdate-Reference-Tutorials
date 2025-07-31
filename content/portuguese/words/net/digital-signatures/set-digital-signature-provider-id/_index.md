@@ -21,7 +21,7 @@ Antes de mergulhar, certifique-se de ter o seguinte:
 4. Certificado Digital: A `.pfx` arquivo de certificado (por exemplo, `morzal.pfx`).
 5. Conhecimento básico de C#: familiaridade com conceitos básicos de C# será útil.
 
-Agora, vamos entrar em ação!
+Agora, vamos à ação!
 
 ## Etapa 1: Importar os namespaces necessários
 

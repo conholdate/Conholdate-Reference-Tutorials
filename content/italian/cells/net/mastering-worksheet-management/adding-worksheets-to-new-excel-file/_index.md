@@ -131,4 +131,4 @@ Sì, ma la versione di prova presenta delle limitazioni. Per usufruire di tutte 
 Utilizzo `worksheet.Name = "New Name";` per assegnare un nome personalizzato a ciascun foglio di lavoro.
 
 ### Dove posso ottenere supporto se riscontro problemi?
-Per assistenza, visitare il [Forum di supporto Aspose.Cells](https://forum.aspose.com/c/cells/9).
+Per assistenza, visita il [Forum di supporto Aspose.Cells](https://forum.aspose.com/c/cells/9).

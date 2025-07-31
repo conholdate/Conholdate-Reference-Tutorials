@@ -1,21 +1,22 @@
 ---
-title: Joindre des fichiers et définir des icônes dans Aspose.Note pour .NET
-linktitle: Joindre un fichier et définir une icône dans Aspose.Note
-second_title: API .NET Aspose.Note
-description: Découvrez étape par étape comment joindre des fichiers et définir des icônes personnalisées dans des documents Microsoft OneNote à l'aide d'Aspose.Note pour .NET. Améliorez votre application .NET avec des fonctionnalités de gestion et de personnalisation de documents transparentes.
-weight: 10
-url: /fr/note/manage-attachments/attaching-files-setting-icons/
+"description": "Apprenez étape par étape à joindre des fichiers et à personnaliser des icônes dans vos documents Microsoft OneNote avec Aspose.Note pour .NET. Optimisez votre application .NET grâce à des fonctionnalités de gestion et de personnalisation de documents fluides."
+"linktitle": "Joindre un fichier et définir une icône dans Aspose.Note"
+"second_title": "API .NET Aspose.Note"
+"title": "Joindre des fichiers et définir des icônes dans Aspose.Note pour .NET"
+"url": "/fr/note/net/manage-attachments/attaching-files-setting-icons/"
+"weight": 10
 ---
+
 ## Introduction
 
-Aspose.Note pour .NET est une bibliothèque avancée conçue pour permettre aux développeurs de créer, de manipuler et de convertir des fichiers Microsoft OneNote par programmation. L'une des fonctionnalités les plus remarquables de cette bibliothèque est sa capacité à joindre des fichiers à des documents OneNote et à personnaliser leurs icônes. Dans ce guide, nous découvrirons comment exploiter Aspose.Note pour .NET pour joindre des fichiers et définir des icônes personnalisées de manière transparente, enrichissant ainsi les fonctionnalités de votre document OneNote.
+Aspose.Note pour .NET est une bibliothèque avancée conçue pour permettre aux développeurs de créer, manipuler et convertir des fichiers Microsoft OneNote par programmation. L'une de ses fonctionnalités phares est la possibilité de joindre des fichiers à des documents OneNote et de personnaliser leurs icônes. Dans ce guide, nous découvrirons comment exploiter Aspose.Note pour .NET pour joindre facilement des fichiers et définir des icônes personnalisées, enrichissant ainsi les fonctionnalités de vos documents OneNote.
 
 ## Prérequis
 
 Avant de mettre en œuvre la solution, assurez-vous de disposer des éléments suivants :
 
 - Environnement de développement : Visual Studio ou un IDE similaire configuré pour le développement .NET.
--  Installation de la bibliothèque : installez la[Aspose.Note pour .NET](https://releases.aspose.com/words/net/) bibliothèque.
+- Installation de la bibliothèque : installez le [Aspose.Note pour .NET](https://releases.aspose.com/words/net/) bibliothèque.
 - Connaissances en programmation : Compréhension de base de C#.
 
 ## Importation des espaces de noms requis
@@ -34,13 +35,13 @@ Vous trouverez ci-dessous la mise en œuvre détaillée étape par étape.
 
 ## Étape 1 : Créer un nouveau document OneNote
 
- Initialisez un nouveau document OneNote à l'aide de l'`Document` classe.
+Initialisez un nouveau document OneNote à l'aide de l' `Document` classe.
 
 ```csharp
 Document doc = new Document();
 ```
 
-## Étape 2 : Ajouter une nouvelle page
+## Étape 2 : Ajouter une nouvelle page
 
 Ajoutez une page au document pour organiser vos notes et pièces jointes.
 
@@ -48,9 +49,9 @@ Ajoutez une page au document pour organiser vos notes et pièces jointes.
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-## Étape 3 : Établir un plan
+## Étape 3 : Établir un plan
 
- Créer un`Outline` objet, qui sert de conteneur pour les éléments de votre page OneNote.
+Créer un `Outline` objet, qui sert de conteneur pour les éléments de votre page OneNote.
 
 ```csharp
 Outline outline = new Outline(doc);
@@ -58,7 +59,7 @@ Outline outline = new Outline(doc);
 
 ## Étape 4 : Initialiser un élément de contour
 
- Un`OutlineElement` contiendra la pièce jointe et son icône associée.
+Un `OutlineElement` contiendra la pièce jointe et son icône associée.
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
@@ -78,9 +79,9 @@ using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 }
 ```
 
-## Étape 6 : Assembler la structure du document
+## Étape 6 : Assembler la structure du document
 
- Ajoutez le`OutlineElement` au`Outline` , et le`Outline` au`Page`.
+Ajoutez le `OutlineElement` au `Outline`, et le `Outline` au `Page`.
 
 ```csharp
 outline.AppendChildLast(outlineElem);
@@ -95,7 +96,7 @@ Enfin, incluez la page dans votre document OneNote.
 doc.AppendChildLast(page);
 ```
 
-## Étape 8 : Enregistrer le document
+## Étape 8 : Enregistrer le document
 
 Exportez votre document mis à jour avec la pièce jointe et l'icône.
 
@@ -106,7 +107,7 @@ doc.Save(dataDir);
 
 ## Conclusion
 
-En suivant les étapes décrites dans ce guide, vous pouvez facilement joindre des fichiers et définir des icônes personnalisées dans des documents OneNote à l'aide d'Aspose.Note pour .NET. Cette fonctionnalité peut grandement améliorer l'organisation des documents et l'expérience utilisateur, rendant vos applications plus robustes et plus riches en fonctionnalités.
+En suivant les étapes décrites dans ce guide, vous pouvez facilement joindre des fichiers et personnaliser des icônes dans vos documents OneNote avec Aspose.Note pour .NET. Cette fonctionnalité améliore considérablement l'organisation des documents et l'expérience utilisateur, rendant vos applications plus robustes et riches en fonctionnalités.
 
 ## FAQ
 
@@ -116,13 +117,13 @@ Oui, vous pouvez joindre plusieurs fichiers en répétant le processus de pièce
 ### Quels formats d’image sont pris en charge pour les icônes ?
 Aspose.Note prend en charge les formats JPEG, PNG, BMP et GIF pour les icônes de pièces jointes.
 
-### Est-il possible de joindre dynamiquement des fichiers à partir d'URL externes ?
- Vous pouvez télécharger des fichiers à l'aide de bibliothèques .NET telles que`HttpClient` puis attachez-les à l'aide d'Aspose.Note.
+### Est-il possible de joindre des fichiers de manière dynamique à partir d'URL externes ?
+Vous pouvez télécharger des fichiers à l’aide de bibliothèques .NET telles que `HttpClient` puis attachez-les à l'aide d'Aspose.Note.
 
 ### Existe-t-il des limitations quant à la taille des fichiers pour les pièces jointes ?
-Il n'y a pas de limite de taille explicite imposée par Aspose.Note, mais assurez-vous que les ressources de votre système peuvent gérer des fichiers volumineux.
+Aucune limite de taille explicite n'est imposée par Aspose.Note, mais assurez-vous que les ressources de votre système peuvent gérer des fichiers volumineux.
 
 ### Les icônes peuvent-elles être redimensionnées avant d’être définies ?
- Oui, vous pouvez manipuler l'image de l'icône à l'aide de .NET`System.Drawing` bibliothèque avant de la joindre.
+Oui, vous pouvez manipuler l'image de l'icône à l'aide de .NET `System.Drawing` bibliothèque avant de la joindre.
 
- Pour obtenir de l'aide, consultez le[documentation](https://reference.aspose.com/words/net/) ou contactez-nous[Assistance Aspose](https://forum.aspose.com/c/words/8).
+Pour obtenir de l'aide supplémentaire, explorez le [documentation](https://reference.aspose.com/words/net/) ou contactez [Support Aspose](https://forum.aspose.com/c/words/8).

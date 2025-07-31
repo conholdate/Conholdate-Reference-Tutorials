@@ -1,13 +1,14 @@
 ---
-title: Návody a příklady GroupDocs.Annotation pro .NET
-linktitle: GroupDocs.Annotation pro výukové programy .NET
-weight: 10
-url: /cs/annotation/
-description: Odemkněte plný potenciál GroupDocs.Annotation pro .NET pomocí našich výukových programů. Bezproblémová integrace, vylepšení spolupráce a zjednodušení pracovních postupů.
-is_root: true
+"description": "Odemkněte plný potenciál GroupDocs.Annotation pro .NET s našimi tutoriály. Bezproblémová integrace, vylepšení spolupráce a zefektivnění pracovních postupů."
+"is_root": true
+"linktitle": "GroupDocs.Annotation pro .NET tutoriály"
+"title": "Výukové programy a příklady GroupDocs.Annotation pro .NET"
+"url": "/cs/annotation/net/"
+"weight": 10
 ---
-## GroupDocs.Annotation pro výukové programy .NET
-### [Zvládněte pokročilé funkce anotace v GroupDocs.Annotation pro .NET](./master-advanced-annotation-features/)
-Odemkněte potenciál GroupDocs.Annotation pro .NET pomocí výukových programů o exportu anotací XML a generování náhledů stránek dokumentu.
-### [Průvodce komponentami dokumentu v GroupDocs.Annotation pro .NET](./guide-to-document-components/)
-Prozkoumejte GroupDocs.Annotation pro .NET výukové programy! Naučte se krok za krokem snadno přidávat interaktivní tlačítka a zaškrtávací políčka do dokumentů PDF.
+
+## GroupDocs.Annotation pro .NET tutoriály
+### [Zvládněte pokročilé funkce anotací v GroupDocs.Annotation pro .NET](./master-advanced-annotation-features/)
+Odemkněte potenciál GroupDocs.Annotation pro .NET s tutoriály o exportu XML anotací a generování náhledů stránek dokumentů.
+### [Průvodce komponentami dokumentů v GroupDocs.Annotation pro .NET](./guide-to-document-components/)
+Prozkoumejte tutoriály k GroupDocs.Annotation pro .NET! Naučte se krok za krokem snadno přidávat interaktivní tlačítka a zaškrtávací políčka do dokumentů PDF.

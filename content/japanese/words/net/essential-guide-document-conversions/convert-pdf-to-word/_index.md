@@ -52,7 +52,7 @@ C#アプリケーションでPDFからWordへの変換に苦労していませ�
 
 PDFからWordへのスムーズな変換には、開発環境の準備が不可欠です。適切な設定方法は以下の通りです。
 
-1. **Aspose.Words for .NET のダウンロードとインストール**訪問 [Aspose ウェブサイト](https://releases.aspose.com/words/net/) 最新バージョンをダウンロードしてください。
+1. **Aspose.Words for .NET をダウンロードしてインストールする**訪問 [Aspose ウェブサイト](https://releases.aspose.com/words/net/) 最新バージョンをダウンロードしてください。
 2. **新しいプロジェクトを作成する**IDE を開き、新しい .NET プロジェクトを作成し、Aspose.Words への参照を追加します。
 3. **PDFドキュメントを準備する**変換する PDF ドキュメントがプロジェクト ディレクトリにあることを確認します。
 

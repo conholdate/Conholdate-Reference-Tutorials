@@ -22,7 +22,7 @@ Pro zajištění hladkého průběhu vývoje je nutné splnit následující po�
 
 ## Import požadovaných jmenných prostorů
 
-Ve svém projektu importujte potřebné jmenné prostory pro přístup k funkcím Aspose.Words:
+Ve vašem projektu importujte potřebné jmenné prostory pro přístup k funkcím Aspose.Words:
 
 ```csharp
 using Aspose.Words;

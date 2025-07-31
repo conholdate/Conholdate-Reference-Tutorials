@@ -44,16 +44,16 @@ Workbook workbook = new Workbook("SampleFile.xlsm");
 Haal het VBA-project op dat aan de werkmap is gekoppeld met behulp van de `VbaProject` eigendom.
 
 ```csharp
-// Toegang krijgen tot het VBA-project in de werkmap
+// Toegang tot het VBA-project binnen de werkmap
 VbaProject vbaProject = workbook.VbaProject;
 ```
 
 ## Stap 3: Controleer de huidige beschermingsstatus
 
-Voordat u wijzigingen aanbrengt, is het belangrijk om te controleren of het VBA-project al beveiligd is. `IsProtected` eigenschap geeft deze informatie.
+Voordat u wijzigingen aanbrengt, is het belangrijk om te controleren of het VBA-project al is beveiligd. `IsProtected` eigenschap geeft deze informatie.
 
 ```csharp
-// Controleren of het VBA-project beveiligd is
+// Controleer of het VBA-project beveiligd is
 Console.WriteLine("VBA Project Protection Status: " + vbaProject.IsProtected);
 ```
 
@@ -69,7 +69,7 @@ Console.WriteLine("VBA Project Protected Successfully.");
 
 ## Stap 5: Controleer de bijgewerkte beschermingsstatus
 
-Nadat u de beveiliging hebt toegepast, bevestigt u dat de wijzigingen succesvol zijn door het volgende te controleren: `IsProtected` eigendom opnieuw.
+Controleer na het toepassen van de bescherming of de wijzigingen succesvol zijn door het volgende te controleren: `IsProtected` eigendom opnieuw.
 
 ```csharp
 // Controleer de beveiligingsstatus na het toepassen van wijzigingen
@@ -78,7 +78,7 @@ Console.WriteLine("Updated VBA Project Protection Status: " + vbaProject.IsProte
 
 ## Conclusie
 
-Met Aspose.Cells voor .NET kunt u de beveiliging van VBA-projecten in Excel-werkmappen efficiënt beheren. Of u nu de huidige status controleert of een nieuwe wachtwoordbeveiliging toepast, de stappen zijn eenvoudig en zorgen ervoor dat uw projecten veilig zijn.
+Met Aspose.Cells voor .NET kunt u de beveiliging van VBA-projecten in Excel-werkmappen efficiënt beheren. Of u nu de huidige status controleert of nieuwe wachtwoordbeveiliging toepast, de stappen zijn eenvoudig en zorgen ervoor dat uw projecten veilig zijn.
 
 ## Veelgestelde vragen
 

@@ -15,14 +15,14 @@ Benut het volledige potentieel van e-mailverwerking met Aspose.Email voor .NET. 
 
 ## 🚀 Wat u kunt bereiken
 
-**Aspose.Email voor .NET** is een krachtige bibliotheek voor e-mailverwerking waarmee ontwikkelaars e-mailberichten kunnen maken, bewerken, converteren en analyseren zonder dat externe e-mailclients nodig zijn. Met ondersteuning voor alle belangrijke e-mailformaten en -protocollen is het de complete oplossing voor e-mailautomatisering en -beheer.
+**Aspose.Email voor .NET** is een krachtige e-mailverwerkingsbibliotheek waarmee ontwikkelaars e-mailberichten kunnen maken, bewerken, converteren en analyseren zonder dat externe e-mailclients nodig zijn. Met ondersteuning voor alle belangrijke e-mailformaten en -protocollen is het de complete oplossing voor e-mailautomatisering en -beheer.
 
 ### Belangrijkste mogelijkheden
 - **📧 Formaatondersteuning**: EML, MSG, MHTML, PST, OST, MBOX en meer
 - **🔄 E-mailconversie**: Naadloze transformatie tussen e-mailformaten
 - **🤖 Spamanalyse**: Geavanceerde filtering op basis van machine learning
 - **📊 E-mailverwerking**: Inhoudsanalyse, bijlageverwerking en metadata-extractie
-- **⚡ Protocolondersteuning**: SMTP, POP3, IMAP, Exchange Web Services (EWS)
+- **⚡ Protocolondersteuning**SMTP, POP3, IMAP, Exchange Web Services (EWS)
 
 ## 📚 Tutorial Categorieën
 
@@ -32,7 +32,7 @@ Transformeer e-mailopmaak en exporteer bewerkingen met professionele kwaliteit e
 | Tutorial | Beschrijving | Moeilijkheidsgraad |
 |----------|-------------|------------|
 | **[E-mails converteren naar MHT-indeling met tijdzone](./comprehensive-guide-to-email-conversion-and-export/convert-emails-to-mht-format-with-timezone-in-csharp/)** | Tijdzonebewuste e-mailarchivering met nauwkeurige tijdsafhandeling | ⭐⭐ Gemiddeld |
-| **[EML naar MSG-conversie eenvoudig gemaakt](./comprehensive-guide-to-email-conversion-and-export/eml-to-msg-convert-made-easy-using-csharp/)** | Outlook-compatibele e-mailindelingstransformatie | ⭐ Beginner |
+| **[EML naar MSG-conversie eenvoudig gemaakt](./comprehensive-guide-to-email-conversion-and-export/eml-to-msg-convert-made-easy-using-csharp/)** | Transformatie van e-mailindelingen met Outlook | ⭐ Beginner |
 
 ### Handleiding voor e-mailverwerking en -analyse
 Geavanceerde e-mailanalysetechnieken, waaronder spamdetectie en inhoudsverwerking.
@@ -40,13 +40,13 @@ Geavanceerde e-mailanalysetechnieken, waaronder spamdetectie en inhoudsverwerkin
 | Tutorial | Beschrijving | Moeilijkheidsgraad |
 |----------|-------------|------------|
 | **[Bayesiaanse spamanalyse in C#](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Spamdetectie op basis van machine learning met statistische analyse | ⭐⭐⭐ Geavanceerd |
-| **[Converteer HTML-e-mail naar platte tekst](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Haal schone tekstinhoud uit HTML-e-mails | ⭐⭐ Gemiddeld |
+| **[Converteer HTML-e-mail naar platte tekst](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Haal schone tekstinhoud uit HTML-e-mails | ⭐⭐ Gemiddeld |
 
 ## 🎯 Populaire use cases
 
 ### **Integratie van e-mailsystemen**
 - **E-mailmigratie**: Converteren tussen verschillende e-mailformaten voor systeemmigraties
-- **Archiefoplossingen**Langetermijn-e-mailopslag met formaatstandaardisatie
+- **Archiefoplossingen**: Langetermijn-e-mailopslag met formaatstandaardisatie
 - **Cross-platform compatibiliteit**: Zorg ervoor dat e-mails werken in verschillende e-mailclients
 
 ### **E-mailbeveiliging en -analyse**
@@ -86,14 +86,14 @@ Geavanceerde e-mailanalysetechnieken, waaronder spamdetectie en inhoudsverwerkin
 
 ### Recent bijgewerkt
 - **Tijdzone-afhandeling** - Verbeterde precisie voor wereldwijde e-mailsystemen
-- **Spamdetectie** - Verbeterde algoritmen voor machine learning
+- **Spamdetectie** - Verbeterde algoritmen voor machinaal leren
 - **Formaatconversie** - Betere compatibiliteit met moderne e-mailclients
 
 ## 💡 Professionele tips en beste praktijken
 
-### **Aanbevolen procedures voor e-mailconversie**
+### **Aanbevolen werkwijzen voor e-mailconversie**
 - Bewaar altijd originele tijdstempels en tijdzone-informatie
-- Ga op de juiste manier om met bijlagen tijdens het converteren van formaten
+- Ga op de juiste manier om met bijlagen tijdens formaatconversies
 - Implementeer een correcte foutbehandeling voor misvormde e-mails
 
 ### **Spamdetectie Optimalisatie**
@@ -109,7 +109,7 @@ Geavanceerde e-mailanalysetechnieken, waaronder spamdetectie en inhoudsverwerkin
 ## 🔧 Geavanceerde functies beschikbaar
 
 ### **Ondersteuning voor e-mailprotocol**
-- **SMTP-client** - Stuur e-mails programmatisch
+- **SMTP-client** - E-mails programmatisch verzenden
 - **POP3-client** - E-mails ophalen van servers
 - **IMAP-client** - Volledig mailboxbeheer
 - **Exchange-integratie** - Bedrijfs-e-mailsystemen
@@ -133,7 +133,7 @@ Geavanceerde e-mailanalysetechnieken, waaronder spamdetectie en inhoudsverwerkin
 - **[Gratis proefperiode](https://releases.aspose.com/email/net/)** - Evalueer alle functies
 
 ### **Gemeenschap en ondersteuning**
-- **[Ondersteuningsforum](https://forum.aspose.com/c/email/12)** - Krijg hulp van experts
+- **[Ondersteuningsforum](https://forum.aspose.com/c/email/12)** Krijg hulp van experts
 
 ### **Licenties en proefversies**
 - **[Tijdelijke licentie](https://purchase.conholdate.com/temporary-license/)** - Uitgebreide evaluatie

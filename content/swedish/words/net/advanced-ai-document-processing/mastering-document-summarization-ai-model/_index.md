@@ -167,7 +167,7 @@ När du bearbetar stora dokument eller flera filer blir prestanda avgörande:
 - **Batchbearbetning**Gruppera mindre dokument istället för att bearbeta dem individuellt
 - **Asynkrona operationer**Använd async/await-mönster för AI API-anrop för att undvika att blockera ditt användargränssnitt
 - **Cachning**Om du sammanfattar samma dokument upprepade gånger, överväg att cacha resultaten
-- **Hastighetsbegränsande**De flesta AI-API:er har hastighetsgränser – bygg in lämpliga fördröjningar eller logik för återförsök
+- **Hastighetsbegränsning**De flesta AI-API:er har hastighetsgränser – bygg in lämpliga fördröjningar eller logik för återförsök
 
 ### Felhantering och motståndskraft
 
@@ -299,7 +299,7 @@ När du arbetar med dokument som kan innehålla känslig information:
 Olika branscher har specifika krav:
 - HIPAA för hälso- och sjukvårdsdokument
 - SOX för finansiella dokument
-- GDPR för EU-medborgares data
+- GDPR för EU-medborgares uppgifter
 
 Se till att din implementering uppfyller relevanta krav på efterlevnad.
 

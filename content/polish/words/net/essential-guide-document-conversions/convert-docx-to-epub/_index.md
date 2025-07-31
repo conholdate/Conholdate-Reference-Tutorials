@@ -108,7 +108,7 @@ Nawet jeśli Aspose.Words poradzi sobie ze złożonością, możesz napotkać pe
 using (Document doc = new Document(inputPath))
 {
     doc.Save(outputPath, SaveFormat.Epub);
-} // Dokument jest automatycznie usuwany w tym miejscu
+} // Dokument jest tutaj automatycznie usuwany
 ```
 
 **Przetwarzanie równoległe**: Podczas konwersji wielu plików rozważ użycie przetwarzania równoległego. Pamiętaj jednak o zużyciu pamięci – każdy proces konwersji zużywa pamięć RAM.
@@ -154,7 +154,7 @@ Zdecydowanie! Aspose.Words idealnie nadaje się do konwersji wsadowych. Możesz 
 ### Czy Aspose.Words jest kompatybilny z .NET Core?
 Tak, Aspose.Words w pełni obsługuje zarówno .NET Framework, jak i .NET Core, w tym najnowsze wersje .NET. Oznacza to, że można go używać w nowoczesnych aplikacjach chmurowych, mikrousługach i tradycyjnych aplikacjach desktopowych bez żadnych problemów ze zgodnością.
 
-### Jak mogę zachować skomplikowane formatowanie podczas konwersji z formatu DOCX do EPUB?
+### Jak mogę zachować skomplikowane formatowanie podczas konwersji DOCX na EPUB?
 Aspose.Words automatycznie obsługuje większość funkcji formatowania, w tym czcionki, kolory, style i podstawowe układy. W przypadku złożonych dokumentów o skomplikowanym formatowaniu upewnij się, że źródłowy plik DOCX korzysta ze standardowych stylów programu Word i unikaj nadmiernie skomplikowanych układów, które mogłyby nie być dobrze przekonwertowane na responsywny format EPUB.
 
 ### Gdzie mogę znaleźć dodatkowe przykłady i dokumentację dla Aspose.Words?

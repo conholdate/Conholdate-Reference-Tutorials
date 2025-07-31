@@ -9,7 +9,7 @@
 
 ## Introduction
 
-Vous souhaitez améliorer votre maîtrise d'Excel ? Aspose.Cells pour .NET simplifie les workflows Excel complexes. Que vous rencontriez des erreurs lors de la conversion de fichiers ou que vous ayez besoin d'intégrer facilement des modules complémentaires Office, ces tutoriels sont là pour vous aider.  
+Envie d'améliorer votre maîtrise d'Excel ? Aspose.Cells pour .NET simplifie les workflows Excel complexes. Que vous rencontriez des erreurs lors de la conversion de fichiers ou que vous ayez besoin d'intégrer facilement des modules complémentaires Office, ces tutoriels sont là pour vous aider.  
 
 ## Conversion des compléments Office d'Excel en PDF  
 
@@ -19,7 +19,7 @@ Le guide fournit également des extraits de code et des conseils pour garantir q
 
 ## Ignorer les erreurs lors du rendu d'Excel au format PDF  
 
-Imaginez : vous convertissez un fichier Excel contenant des milliers de lignes, mais une erreur gênante vous gâche la journée. Frustrant, n'est-ce pas ? Avec Aspose.Cells pour .NET, vous pouvez contourner ces erreurs et vous concentrer sur la création de PDF impeccables.  
+Imaginez : vous convertissez un fichier Excel contenant des milliers de lignes, mais une erreur gênante vous gâche la journée. Frustrant, n'est-ce pas ? Avec Aspose.Cells pour .NET, vous pouvez contourner ces erreurs gênantes et vous concentrer sur la création de PDF impeccables.  
 
 Ce tutoriel explique comment personnaliser la gestion des erreurs pour une conversion fluide. Vous trouverez également des extraits de code pour intégrer facilement ces fonctionnalités à vos projets. Curieux de découvrir l'astuce ? [Découvrez-le ici](./guide-ignore-errors-in-excel/).  
 

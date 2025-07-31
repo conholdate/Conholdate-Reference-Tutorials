@@ -115,7 +115,7 @@ Ja, Aspose.Cells ist vollständig mit .NET Framework- und .NET Core-Umgebungen k
 
 ### Wie handhabt Aspose.Cells die Formatierung während des Kopierens?
 
-Der `AddCopy` Die Methode behält beim Kopieren von Blättern den gesamten Inhalt und die Formatierung bei und stellt sicher, dass die kopierten Daten mit dem Original identisch aussehen.
+Der `AddCopy` Die Methode behält beim Kopieren von Blättern sämtliche Inhalte und Formatierungen bei und stellt sicher, dass die kopierten Daten mit dem Original identisch aussehen.
 
 ### Kann ich ein Blatt in eine andere Arbeitsmappe kopieren?
 

@@ -1,5 +1,5 @@
 ---
-"description": "使用 Aspose.Cells for .NET 解鎖 Excel 自動化的強大功能。本逐步教學將引導您以程式設計方式建立 Excel 檔案、新增和重新命名工作表以及輕鬆儲存您的工作。"
+"description": "使用 Aspose.Cells for .NET 釋放 Excel 自動化的強大功能。本逐步教學將引導您以程式設計方式建立 Excel 檔案、新增和重新命名工作表以及輕鬆儲存您的工作。"
 "linktitle": "使用 Aspose.Cells 將工作表新增至新的 Excel 文件"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "使用 Aspose.Cells 將工作表新增至新的 Excel 文件"
@@ -9,13 +9,13 @@
 
 ## 介紹
 
-以程式設計方式建立 Excel 檔案可以顯著簡化您的工作流程，尤其適用於資料分析和自訂報告等重複性任務。使用 Aspose.Cells for .NET，將工作表新增至 Excel 檔案既簡單又高效，只需幾行程式碼即可完成。在本教學中，我們將引導您完成使用 Aspose.Cells for .NET 將工作表新增至新 Excel 檔案的過程，確保您清晰地理解每個步驟。
+以程式設計方式建立 Excel 檔案可以顯著簡化您的工作流程，特別是對於資料分析和自訂報告等重複性任務。使用 Aspose.Cells for .NET，將工作表新增至 Excel 檔案既簡單又高效，您只需幾行程式碼即可完成此操作。在本教學中，我們將引導您完成使用 Aspose.Cells for .NET 將工作表新增至新 Excel 檔案的過程，確保您清楚了解每個步驟。
 
 ## 先決條件
 
 在深入研究代碼之前，請確保已準備好以下必需品：
 
-1. Aspose.Cells for .NET：下載 [Aspose.Cells for .NET](https://releases.aspose.com/cells/net/) 庫。這個強大的 API 專為以程式設計方式操作 Excel 檔案而設計。
+1. Aspose.Cells for .NET：下載 [Aspose.Cells for .NET](https://releases.aspose.com/cells/net/) 圖書館。這個強大的 API 是為以程式設計方式操作 Excel 檔案而設計的。
 2. .NET Framework：確保您已安裝與 .NET 相容的開發環境，例如 Visual Studio。
 3. 許可證（可選）：如果您想探索超出試用限制的高級功能，請考慮申請臨時許可證 [這裡](https://purchase。aspose.com/temporary-license/).
 
@@ -92,7 +92,7 @@ Worksheet worksheet = workbook.Worksheets[index];
 
 ## 步驟 6：重新命名工作表
 
-為工作表指定一個描述性的名稱可以增強條理性。我們將其重命名為“我的工作表”。
+為您的工作表賦予一個描述性的名稱可以增強組織性。讓我們將其重命名為“我的工作表”。
 
 ```csharp
 // 設定新新增的工作表的名稱
@@ -114,7 +114,7 @@ workbook.Save(dataDir, "output.xls");
 
 ## 結論
 
-恭喜！您已成功創建了新的 Excel 文件、添加了工作表、重命名並保存了它——所有這些操作只需幾行程式碼即可完成。 Aspose.Cells for .NET 簡化了 Excel 檔案的生成，特別是在處理多個工作表或大型資料集時。有了這個基礎，您就可以建立更複雜的 Excel 應用程式或自動執行重複性任務。
+恭喜！您已成功創建了一個新的 Excel 文件、添加了一個工作表、對其進行了重命名並保存了它 - 所有這些只需幾行程式碼即可完成。 Aspose.Cells for .NET 簡化了 Excel 檔案的生成，特別是在處理多個工作表或大型資料集時。有了這個基礎，您就可以建立更複雜的 Excel 應用程式或自動執行重複性任務。
 
 ## 常見問題解答
 
@@ -125,7 +125,7 @@ Aspose.Cells for .NET 是一個功能強大的程式庫，可讓您在 .NET 應�
 您可以致電 `workbook.Worksheets.Add()` 多次新增所需數量的工作表。
 
 ### 我可以在沒有許可證的情況下使用 Aspose.Cells 嗎？
-是的，但試用版有限制。如需完整功能，請考慮申請 [臨時執照](https://purchase。aspose.com/temporary-license/).
+是的，但是試用版有限制。為了獲得完整的功能，請考慮申請 [臨時執照](https://purchase。aspose.com/temporary-license/).
 
 ### 如何更改預設工作表名稱？
 使用 `worksheet.Name = "New Name";` 為每個工作表指派一個自訂名稱。

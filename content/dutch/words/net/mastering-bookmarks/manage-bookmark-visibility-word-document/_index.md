@@ -1,15 +1,15 @@
 ---
 "description": "Ontdek hoe u de zichtbaarheid van inhoud in Word-documenten vakkundig kunt beheren met Aspose.Words voor .NET. Deze stapsgewijze handleiding."
-"linktitle": "Zichtbaarheid van bladwijzers beheren in Word-documenten"
+"linktitle": "Beheer de zichtbaarheid van bladwijzers in Word-documenten"
 "second_title": "Aspose.Words API voor documentverwerking"
-"title": "Zichtbaarheid van bladwijzers beheren in Word-documenten"
+"title": "Beheer de zichtbaarheid van bladwijzers in Word-documenten"
 "url": "/nl/words/net/mastering-bookmarks/manage-bookmark-visibility-word-document/"
 "weight": 10
 ---
 
 ## Invoering
 
-Ben je klaar om je vaardigheden in documentbewerking naar een hoger niveau te tillen met Aspose.Words voor .NET? Of je nu een ervaren ontwikkelaar bent die documenttaken automatiseert of een nieuwsgierige persoon die de programmatische controle over Word-bestanden verkent, deze gids is perfect voor jou. Vandaag gaan we dieper in op hoe je inhoud kunt weergeven en verbergen op basis van bladwijzers in een Word-document. Laten we beginnen!
+Ben je klaar om je vaardigheden in documentbewerking naar een hoger niveau te tillen met Aspose.Words voor .NET? Of je nu een ervaren ontwikkelaar bent die documenttaken automatiseert of een nieuwsgierige persoon die de programmatische controle over Word-bestanden verkent, deze gids is perfect voor jou. Vandaag gaan we dieper in op het weergeven en verbergen van inhoud op basis van bladwijzers in een Word-document. Laten we beginnen!
 
 ## Vereisten
 
@@ -58,7 +58,7 @@ Met dit fragment wordt het pad naar uw documentmap ingesteld en wordt het docume
 
 ## Stap 2: Toon/verberg gemarkeerde inhoud
 
-Laten we nu een methode creëren om de zichtbaarheid van content in of uit te schakelen op basis van bladwijzers. We noemen deze methode `ShowHideBookmarkedContent`.
+Laten we nu een methode creëren om de zichtbaarheid van content te veranderen op basis van bladwijzers. We noemen deze methode `ShowHideBookmarkedContent`.
 
 Dit is de implementatie van de methode:
 
@@ -84,7 +84,7 @@ public void ShowHideBookmarkedContent(Document doc, string bookmarkName, bool is
 ```
 
 - Bladwijzer ophalen: `Bookmark bm = doc.Range.Bookmarks[bookmarkName];` haalt de opgegeven bladwijzer op.
-- Node Traversal: We itereren door de knooppunten binnen de bladwijzer.
+- Knooppunttraversal: We itereren door de knooppunten binnen de bladwijzer.
 - Zichtbaarheidsschakelaar: Voor elk `Run` knooppunt (dat een tekstsegment vertegenwoordigt), stellen we het in `Hidden` eigendom gebaseerd op de `isHidden` parameter.
 
 ## Stap 3: De methode toepassen
@@ -109,15 +109,15 @@ Hiermee wordt het document opgeslagen met de bijgewerkte zichtbaarheidsinstellin
 
 ## Conclusie
 
-Gefeliciteerd! Je hebt succesvol geleerd hoe je bladwijzerinhoud in een Word-document kunt weergeven en verbergen met Aspose.Words voor .NET. Deze krachtige bibliotheek vereenvoudigt documentbewerking, waardoor het ideaal is voor het automatiseren van rapporten, het maken van sjablonen of het experimenteren met Word-bestanden. Veel plezier met programmeren!
+Gefeliciteerd! Je hebt succesvol geleerd hoe je bladwijzerinhoud in een Word-document kunt weergeven en verbergen met Aspose.Words voor .NET. Deze krachtige bibliotheek vereenvoudigt documentbewerking en is ideaal voor het automatiseren van rapporten, het maken van sjablonen of het experimenteren met Word-bestanden. Veel plezier met programmeren!
 
 ## Veelgestelde vragen
 
 ### Kan ik meerdere bladwijzers tegelijk in- of uitschakelen?
-Ja, bel gewoon de `ShowHideBookmarkedContent` voor elke bladwijzer die u wilt in- of uitschakelen.
+Ja, bel gewoon de `ShowHideBookmarkedContent` methode voor elke bladwijzer die u wilt in- of uitschakelen.
 
 ### Heeft het verbergen van inhoud invloed op de structuur van het document?
-Nee, als u inhoud verbergt, heeft u alleen invloed op de zichtbaarheid. De inhoud blijft intact binnen het document.
+Nee, als u inhoud verbergt, heeft u alleen invloed op de zichtbaarheid ervan. De inhoud blijft intact binnen het document.
 
 ### Kan ik deze methode gebruiken voor andere soorten content?
 Deze methode is specifiek ontworpen voor tekstverwerking. Voor andere inhoudstypen moet u de logica van het knooppunttraject dienovereenkomstig aanpassen.

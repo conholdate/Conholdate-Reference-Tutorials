@@ -1,23 +1,24 @@
 ---
-title: إضافة مكونات الأزرار باستخدام GroupDocs.Annotation لـ .NET
-linktitle: إضافة مكونات الزر
-second_title: GroupDocs.Annotation .NET API
-description: اكتشف كيفية الارتقاء بمستندات PDF الخاصة بك عن طريق إضافة مكونات أزرار تفاعلية باستخدام GroupDocs.Annotation for .NET. هذا البرنامج التعليمي خطوة بخطوة.
-weight: 10
-url: /ar/annotation/guide-to-document-components/adding-button-component/
+"description": "اكتشف كيفية تحسين مستندات PDF الخاصة بك بإضافة مكونات أزرار تفاعلية باستخدام GroupDocs.Annotation لـ .NET. هذا البرنامج التعليمي خطوة بخطوة."
+"linktitle": "إضافة مكونات الزر"
+"second_title": "GroupDocs.Annotation .NET API"
+"title": "إضافة مكونات الأزرار باستخدام GroupDocs.Annotation لـ .NET"
+"url": "/ar/annotation/net/guide-to-document-components/adding-button-component/"
+"weight": 10
 ---
+
 ## مقدمة
 
-في هذا البرنامج التعليمي، سنوضح لك العملية البسيطة لإضافة مكون زر إلى مستند PDF باستخدام مكتبة GroupDocs.Annotation لـ .NET. بحلول نهاية هذا الدليل، ستكون مجهزًا لتحسين مستندات PDF الخاصة بك باستخدام ميزات تفاعلية.
+في هذا البرنامج التعليمي، سنشرح لك العملية البسيطة لإضافة مكون زر إلى مستند PDF باستخدام مكتبة GroupDocs.Annotation لـ .NET. بنهاية هذا الدليل، ستكون قادرًا على تحسين مستندات PDF الخاصة بك بميزات تفاعلية.
 
 ## المتطلبات الأساسية
 
-قبل أن تبدأ، تأكد من توفر ما يلي:
+قبل أن تبدأ، تأكد من أن لديك ما يلي:
 
-1.  GroupDocs.Annotation for .NET: قم بتنزيل مكتبة GroupDocs.Annotation for .NET وتثبيتها من[هنا](https://releases.groupdocs.com/annotation/net/).
+1. GroupDocs.Annotation لـ .NET: قم بتنزيل مكتبة GroupDocs.Annotation لـ .NET وتثبيتها من [هنا](https://releases.groupdocs.com/annotation/net/).
 2. بيئة التطوير: قم بإعداد بيئة تطوير مناسبة مع تثبيت إطار عمل .NET.
 
-## الخطوة 1: استيراد المساحات الأساسية الضرورية
+## الخطوة 1: استيراد مساحات الأسماء الضرورية
 
 ابدأ باستيراد المساحات المطلوبة إلى مشروعك:
 
@@ -33,7 +34,7 @@ using GroupDocs.Annotation.Options;
 
 ## الخطوة 2: تهيئة مسار الإخراج
 
-قم بتحديد مسار الإخراج الذي سيتم حفظ ملف PDF المعدل فيه:
+قم بتحديد مسار الإخراج حيث سيتم حفظ ملف PDF المعدل:
 
 ```csharp
 string outputPath = Path.Combine("Your Document Directory", "result" + Path.GetExtension("input.pdf"));
@@ -65,7 +66,7 @@ using (Annotator annotator = new Annotator("input.pdf"))
     };
 
     annotator.Add(button); // أضف الزر إلى الموضح
-    annotator.Save("result.pdf"); // احفظ ملف PDF المعدل
+    annotator.Save("result.pdf"); // حفظ ملف PDF المعدل
 }
 ```
 
@@ -77,30 +78,30 @@ using (Annotator annotator = new Annotator("input.pdf"))
 Console.WriteLine($"\nDocument saved successfully.\nCheck output in {outputPath}.");
 ```
 
-مبروك! لقد قمت بنجاح بإضافة مكون زر إلى مستند PDF باستخدام GroupDocs.Annotation لـ .NET.
+تهانينا! لقد نجحت في إضافة زر إلى مستند PDF باستخدام GroupDocs.Annotation لـ .NET.
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، أوضحنا كيفية دمج مكونات الأزرار في مستندات PDF باستخدام GroupDocs.Annotation for .NET. باتباع هذه الخطوات، يمكنك تحسين التفاعلية في مستندات PDF بشكل كبير.
+في هذا البرنامج التعليمي، شرحنا كيفية دمج مكونات الأزرار في مستندات PDF باستخدام GroupDocs.Annotation لـ .NET. باتباع هذه الخطوات، يمكنك تحسين تفاعلية مستندات PDF بشكل ملحوظ.
 
 ## الأسئلة الشائعة
 
 ### هل يمكنني تخصيص مظهر الزر؟
 
-بالتأكيد! يمكنك تعديل العديد من الخصائص مثل الحجم واللون والأسلوب لتناسب متطلباتك.
+بالتأكيد! يمكنك تعديل خصائص متنوعة، كالحجم واللون والنمط، لتناسب احتياجاتك.
 
-### هل GroupDocs.Annotation for .NET متوافق مع كافة إصدارات PDF؟
+### هل GroupDocs.Annotation لـ .NET متوافق مع كافة إصدارات PDF؟
 
 نعم، يدعم GroupDocs.Annotation لـ .NET مجموعة واسعة من إصدارات PDF، مما يضمن التوافق مع معظم المستندات.
 
 ### هل يمكنني إضافة مكونات زر متعددة إلى مستند PDF واحد؟
 
-نعم، يمكنك إضافة عدد لا حصر له من مكونات الأزرار إلى مستند PDF.
+نعم، يمكنك إضافة عدد غير محدود من مكونات الأزرار إلى مستند PDF.
 
-### هل يدعم GroupDocs.Annotation لـ .NET تنسيقات ملفات أخرى؟
+### هل يدعم GroupDocs.Annotation لـ .NET تنسيقات الملفات الأخرى؟
 
-نعم، فهو يدعم تنسيقات المستندات المختلفة، بما في ذلك DOCX و PPTX و XLSX، بالإضافة إلى PDF.
+نعم، فهو يدعم تنسيقات المستندات المختلفة، بما في ذلك DOCX وPPTX وXLSX، بالإضافة إلى PDF.
 
 ### هل هناك نسخة تجريبية متاحة لأغراض الاختبار؟
 
- نعم، يمكنك الوصول إلى نسخة تجريبية مجانية من GroupDocs.Annotation لـ .NET من[هنا](https://releases.groupdocs.com/).
+نعم، يمكنك الوصول إلى نسخة تجريبية مجانية من GroupDocs.Annotation لـ .NET من [هنا](https://releases.groupdocs.com/).

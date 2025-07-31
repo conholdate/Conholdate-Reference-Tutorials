@@ -1,25 +1,26 @@
 ---
-title: Útmutató a képek metaadatokkal történő aláírásához a GroupDocs.Signature használatával
-linktitle: Útmutató a képek metaadatokkal történő aláírásához
-second_title: GroupDocs.Signature .NET API
-description: Ismerje meg, hogyan írhat alá hatékonyan képeket metaadatokkal .NET-alkalmazásaiban a GroupDocs.Signature használatával. Ez a lépésenkénti oktatóanyag a telepítéstől a megvalósításig mindent lefed, lehetővé téve, hogy könnyedén javítsa dokumentumait metaadat-aláírásokkal.
-weight: 10
-url: /hu/signature/master-document-signing/signing-images-with-metadata/
+"description": "Ismerje meg, hogyan írhat hatékonyan alá képeket metaadatokkal a .NET-alkalmazásaiban a GroupDocs.Signature segítségével. Ez a lépésről lépésre haladó útmutató a telepítéstől a megvalósításig mindent lefed, lehetővé téve, hogy könnyedén kiegészítse dokumentumait metaadat-aláírásokkal."
+"linktitle": "Útmutató a képek metaadatokkal való aláírásához"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Útmutató képek metaadatokkal való aláírásához a GroupDocs.Signature használatával"
+"url": "/hu/signature/net/master-document-signing/signing-images-with-metadata/"
+"weight": 10
 ---
+
 ## Bevezetés
 
-A GroupDocs.Signature for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy hatékonyan írják alá a képeket metaadatokkal. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton.
+A GroupDocs.Signature for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy hatékonyan írják alá a képeket metaadatokkal. Ez az oktatóanyag lépésről lépésre végigvezeti Önt a folyamaton.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdené, győződjön meg arról, hogy a következőkkel rendelkezik:
 
-1.  GroupDocs.Signature for .NET: Telepítse a GroupDocs.Signature csomagot .NET-projektjébe. Letöltheti innen[itt](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature .NET-hez: Telepítse a GroupDocs.Signature csomagot a .NET-projektjébe. Letöltheti innen: [itt](https://releases.groupdocs.com/signature/net/).
 2. Képfájl: Készítse elő a metaadatokkal aláírni kívánt képfájlt.
 
-## Importálja a szükséges névtereket
+## Szükséges névterek importálása
 
-A C# kódban importálja a következő névtereket:
+A C# kódodban importáld a következő névtereket:
 
 ```csharp
 using System;
@@ -31,31 +32,31 @@ using GroupDocs.Signature.Options;
 
 ## 1. lépés: Töltse be a képfájlt
 
-Először adja meg a képfájl elérési útját és az aláírt kép kimeneti könyvtárát:
+Kezdje a képfájl elérési útjának és az aláírt kép kimeneti könyvtárának megadásával:
 
 ```csharp
 string filePath = "sample.png";            
 string outputFilePath = Path.Combine("Your Document Directory", "SignImageWithMetadata", "SignedWithMetadata.png");
 ```
 
-## 2. lépés: Hozzon létre metaadat-aláírásokat
+## 2. lépés: Metaadat-aláírások létrehozása
 
-Ezután hozzon létre metaadat-aláírásokat, és adja hozzá őket az aláírási beállításokhoz:
+Ezután hozzon létre metaadat-aláírásokat, és adja hozzá azokat az aláírási beállításokhoz:
 
 ```csharp
 using (Signature signature = new Signature(filePath))
 {
-    ushort imgsMetadataId = 41996; // A metaadatok kezdőazonosítója
+    ushort imgsMetadataId = 41996; // Metaadatok kezdő azonosítója
     MetadataSignOptions options = new MetadataSignOptions();
 
-    // Különféle típusú metaadat-aláírások hozzáadása
+    // Különböző típusú metaadat-aláírások hozzáadása
     options
-        .Add(new ImageMetadataSignature(imgsMetadataId++, "Mr. Sherlock Holmes")) // Karakterlánc értéke
-        .Add(new ImageMetadataSignature(imgsMetadataId++, DateTime.Now))          // DateTime érték
+        .Add(new ImageMetadataSignature(imgsMetadataId++, "Mr. Sherlock Holmes")) // Karakterlánc érték
+        .Add(new ImageMetadataSignature(imgsMetadataId++, DateTime.Now))          // Dátum/Idő érték
         .Add(new ImageMetadataSignature(imgsMetadataId++, 123456))                // Egész érték
         .Add(new ImageMetadataSignature(imgsMetadataId++, 123.456D))              // Dupla érték
-        .Add(new ImageMetadataSignature(imgsMetadataId++, 123.456M))              // Tizedes érték
-        .Add(new ImageMetadataSignature(imgsMetadataId++, 123.456F));             // Lebegő érték
+        .Add(new ImageMetadataSignature(imgsMetadataId++, 123.456M))              // Decimális érték
+        .Add(new ImageMetadataSignature(imgsMetadataId++, 123.456F));             // Lebegőpontos érték
 
     // Írja alá a dokumentumot, és mentse el az eredményt
     SignResult result = signature.Sign(outputFilePath, options);
@@ -65,21 +66,21 @@ using (Signature signature = new Signature(filePath))
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanulta, hogyan írhat alá egy képet metaadatokkal a GroupDocs.Signature for .NET használatával. Az alábbi lépések követésével könnyedén hozzáadhat metaadat-aláírásokat .NET-alkalmazásaihoz, javítva a képek funkcionalitását és integritását.
+Ebben az oktatóanyagban megtanulta, hogyan írhat alá metaadatokkal egy képet a GroupDocs.Signature for .NET használatával. A következő lépéseket követve könnyedén hozzáadhat metaadat-aláírásokat .NET-alkalmazásaihoz, javítva ezzel a képek funkcionalitását és integritását.
 
 ## GYIK
 
 ### Aláírhatok több képet metaadatokkal a GroupDocs.Signature for .NET használatával?
-Igen, több képet is aláírhat az egyes képfájlok iterációjával és a metaadat-aláírások alkalmazásával.
+Igen, több képet is aláírhat úgy, hogy végigmegy az egyes képfájlokon, és alkalmazza a metaadat-aláírásokat.
 
-### Elérhető a GroupDocs.Signature for .NET próbaverziója?
- Igen, letöltheti a próbaverziót innen[itt](https://releases.groupdocs.com/).
+### Van elérhető próbaverzió a GroupDocs.Signature for .NET-hez?
+Igen, letöltheted a próbaverziót innen [itt](https://releases.groupdocs.com/).
 
 ### A GroupDocs.Signature for .NET támogatja a képeken kívül más fájlformátumokat is?
-Teljesen! A GroupDocs.Signature különféle formátumokat támogat, beleértve a PDF, Word, Excel és egyebeket.
+Abszolút! A GroupDocs.Signature számos formátumot támogat, beleértve a PDF-et, Wordöt, Excelt és egyebeket.
 
 ### Testreszabhatom a metaadat-aláírás megjelenését?
-Igen, személyre szabhatja az olyan szempontokat, mint a betűméret, a szín és a metaadat-aláírás pozíciója.
+Igen, testreszabhatja az olyan aspektusokat, mint a betűméret, a szín és a metaadat-aláírás pozíciója.
 
 ### Hol kaphatok támogatást a GroupDocs.Signature for .NET-hez?
- Támogatásért keresse fel a GroupDocs.Signature fórumot[itt](https://forum.groupdocs.com/c/signature/13).
+Támogatásért látogassa meg a GroupDocs.Signature fórumot. [itt](https://forum.groupdocs.com/c/signature/13).

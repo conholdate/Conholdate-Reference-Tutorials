@@ -43,7 +43,7 @@ DocumentBuilder builder = new DocumentBuilder(doc); // Se prépare à ajouter du
 
 - dataDir : cette variable contient le chemin où votre document sera enregistré.
 - Document doc = new Document() : Initialise un nouveau document.
-- DocumentBuilder builder = new DocumentBuilder(doc) : crée un générateur pour ajouter facilement du contenu.
+- DocumentBuilder builder = new DocumentBuilder(doc) : Crée un générateur pour ajouter facilement du contenu.
 
 ## Étape 2 : ajouter du contenu
 

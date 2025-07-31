@@ -47,7 +47,7 @@ Nezapomeňte vyměnit `"YOUR_DOCUMENTS_DIRECTORY"` se skutečnou cestou ve vaše
 Načtěte dokument Wordu, který obsahuje obrázkové odrážky. Tento dokument bude při uložení upraven tak, aby z něj nebyly žádné obrázkové odrážky.
 
 ```csharp
-// Načíst dokument s obrázkovými odrážkami
+// Načtení dokumentu s obrázkovými odrážkami
 Document doc = new Document(dataDir + "Image bullet points.docx");
 ```
 

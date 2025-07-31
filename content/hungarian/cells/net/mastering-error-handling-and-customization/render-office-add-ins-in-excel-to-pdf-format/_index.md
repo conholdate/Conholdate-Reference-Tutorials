@@ -22,7 +22,7 @@ A C# és a .NET keretrendszer alapos ismerete előnyös lesz. Ha még új vagy e
 Töltse le és telepítse az Aspose.Cells for .NET programot a következő címről: [kiadási oldal](https://releases.aspose.com/cells/net/).
 
 ### Vizuális Stúdió
-Győződjön meg róla, hogy telepítve van a Visual Studio. Ez a felhasználóbarát IDE segít hatékonyan kezelni a projektjeit.
+Győződj meg róla, hogy telepítve van a Visual Studio. Ez a felhasználóbarát IDE segít hatékonyan kezelni a projektjeidet.
 
 ### Minta Excel fájl Office bővítményekkel
 Szerezzen be egy minta Excel fájlt, amely Office bővítményeket tartalmaz a funkciók teszteléséhez. Ez a példa végigvezeti Önt a bővítmények PDF formátumba renderelésének folyamatán.

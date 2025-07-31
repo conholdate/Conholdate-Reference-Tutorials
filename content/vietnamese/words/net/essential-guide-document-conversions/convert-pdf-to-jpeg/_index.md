@@ -244,7 +244,7 @@ Cách tiếp cận này với Aspose.Words đặc biệt hiệu quả khi:
 
 ### Các phương pháp tiếp cận thay thế
 Tùy thuộc vào nhu cầu cụ thể của bạn, bạn cũng có thể cân nhắc:
-- **ImageSharp hoặc SkiaSharp** để kiểm soát xử lý hình ảnh nhiều hơn
+- **ImageSharp hoặc SkiaSharp** để kiểm soát xử lý hình ảnh tốt hơn
 - **Bộ công cụ phát triển Adobe PDF** nếu bạn cần thao tác PDF nâng cao
 - **API trực tuyến** cho các chuyển đổi thỉnh thoảng mà không cần xử lý cục bộ
 

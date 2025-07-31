@@ -21,7 +21,7 @@ Entdecken Sie die umfassenden Funktionen von Aspose.PDF mit unserer umfangreiche
 - **🔄 Erweiterte Konvertierungen**: Hochpräzise Transformationen zwischen Formaten
 - **🎨 Interaktive Elemente**: JavaScript, Formulare, Anmerkungen und digitale Signaturen
 - **📊 Reichhaltiger Inhalt**: Ebenen, Lesezeichen, Wasserzeichen und Multimedia
-- **🔒 Sicherheitsfunktionen**: Verschlüsselung, digitale Signaturen und Zugriffskontrolle
+- **🔒 Sicherheitsfunktionen**Verschlüsselung, digitale Signaturen und Zugriffskontrolle
 
 ## 📚 Verfügbare Plattformen
 

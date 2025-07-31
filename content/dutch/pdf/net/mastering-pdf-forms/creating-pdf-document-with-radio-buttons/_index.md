@@ -18,9 +18,9 @@ Voordat u de code induikt, moet u ervoor zorgen dat u het volgende hebt:
 1. .NET-ontwikkelomgeving: Kennis van een .NET IDE, zoals Visual Studio, is essentieel voor het schrijven en uitvoeren van uw code.
 2. Aspose.PDF voor .NET: Zorg ervoor dat de Aspose.PDF-bibliotheek is geïnstalleerd. U kunt deze downloaden van de [Aspose releases pagina](https://releases.aspose.com/pdf/net/).
 3. Basiskennis van C#: Een basiskennis van C# is noodzakelijk, aangezien we dit in onze voorbeelden zullen gebruiken.
-4. Documentmap: Stel een map in waar uw documenten worden opgeslagen om padproblemen te voorkomen.
+4. Documentmap: Stel een map in waar uw documenten worden opgeslagen om padgerelateerde problemen te voorkomen.
 
-Nu u aan deze vereisten hebt voldaan, bent u klaar om een interactief PDF-document te maken!
+Nu u aan deze voorwaarden hebt voldaan, bent u klaar om een interactief PDF-document te maken!
 
 ## Stap 1: Stel uw project in
 
@@ -58,7 +58,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";  // Vervang door je pad
 
 ### Een nieuw document instantiëren
 
-Een nieuw PDF-document maken:
+Maak een nieuw PDF-document:
 
 ```csharp
 Document doc = new Document();
@@ -88,7 +88,7 @@ field.PartialName = "Options";
 
 Dit creëert een `RadioButtonField` object op de pagina geplaatst, klaar om opties vast te houden.
 
-## Stap 4: Opties voor keuzerondjes definiëren
+## Stap 4: Definieer opties voor keuzerondjes
 
 Vervolgens maken we opties voor de keuzerondjes:
 
@@ -112,7 +112,7 @@ opt3.OptionName = "Option 3";
 opt3.Border = new Border(opt3) { Width = 1, Color = System.Drawing.Color.Black };
 ```
 
-Elke optie wordt gedefinieerd met zijn positie-, naam- en randattributen.
+Elke optie wordt gedefinieerd met de bijbehorende positie-, naam- en randkenmerken.
 
 ## Stap 5: Opties toevoegen aan het veld
 
@@ -140,7 +140,7 @@ Deze code specificeert de naam van het uitvoerbestand en slaat het document op, 
 
 ## Stap 7: Uitzonderingsafhandeling
 
-Om ervoor te zorgen dat uw applicatie soepel werkt, kunt u uitzonderingsafhandeling implementeren:
+Om ervoor te zorgen dat uw applicatie soepel werkt, moet u uitzonderingsafhandeling implementeren:
 
 ```csharp
 try
@@ -153,11 +153,11 @@ catch (Exception ex)
 }
 ```
 
-Met dit try-catch-blok worden eventuele runtime-fouten op een elegante manier afgehandeld.
+Met dit try-catch-blok worden runtime-fouten op een elegante manier afgehandeld.
 
 ## Conclusie
 
-Interactieve PDF's met keuzerondjes maken met Aspose.PDF voor .NET is eenvoudiger dan het lijkt! Met deze eenvoudige stappen kunt u dynamische documenten maken die de betrokkenheid van gebruikers vergroten en het indienen van formulieren vereenvoudigen.
+Interactieve PDF's met keuzerondjes maken met Aspose.PDF voor .NET is makkelijker dan het lijkt! Met deze eenvoudige stappen kunt u dynamische documenten maken die de betrokkenheid van gebruikers vergroten en het invullen van formulieren vereenvoudigen.
 
 ## Veelgestelde vragen
 
@@ -170,7 +170,7 @@ Ja, Aspose biedt een gratis proefversie van de bibliotheek aan, zodat u de funct
 ### Hoe ga ik om met uitzonderingen in Aspose.PDF?
 kunt uitzonderingen beheren door try-catch-blokken in uw code te gebruiken. Hiermee kunt u runtime-fouten opvangen en op een correcte manier verwerken.
 
-### Waar kan ik aanvullend leermateriaal vinden?
+### Waar kan ik aanvullende leermiddelen vinden?
 Voor meer informatie en ondersteuning van de community, bekijk de [Aspose-ondersteuningsforum](https://forum.aspose.com/c/pdf/10) of ga naar de [downloadsectie](https://releases.aspose.com/pdf/net/) voor de bibliotheek.
 
 ### Hoe kan ik Aspose.PDF kopen?

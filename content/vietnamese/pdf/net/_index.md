@@ -34,7 +34,7 @@ Chuyển đổi nhiều định dạng tệp khác nhau sang PDF và ngược l�
 | **[Chuyển đổi EPUB sang PDF](./mastering-document-conversion/convert-epub-to-pdf/)** | Chuyển đổi sách điện tử sang định dạng PDF để tương thích phổ biến | ⭐ Người mới bắt đầu |
 | **[Làm chủ HTML sang PDF](./mastering-document-conversion/mastering-html-to-pdf/)** | Chuyển đổi nội dung web sang PDF với hỗ trợ định dạng nâng cao | ⭐⭐ Trung cấp |
 | **[Chuyển đổi CGM sang PDF](./mastering-document-conversion/convert-cgm-to-pdf/)** | Chuyển đổi Metafile đồ họa máy tính sang PDF | ⭐⭐ Trung cấp |
-| **[Thêm tệp đính kèm vào PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** | Đính kèm tài liệu tuân thủ các tiêu chuẩn lưu trữ | ⭐⭐⭐ Nâng cao |
+| **[Thêm tệp đính kèm vào PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** Đính kèm tài liệu tuân thủ các tiêu chuẩn lưu trữ | ⭐⭐⭐ Nâng cao |
 
 ### Làm chủ lập trình tài liệu PDF
 Kỹ thuật lập trình PDF nâng cao để tạo ra các giải pháp tài liệu phức tạp.
@@ -52,7 +52,7 @@ Các thao tác trang PDF cần thiết để tổ chức và quản lý cấu tr
 | Hướng dẫn | Mô tả | Độ khó |
 |----------|-------------|------------|
 | **[Thay đổi hướng trang PDF](./master-pdf-page-management/change-pdf-page-orientation/)** | Điều chỉnh bố cục và hướng trang để hiển thị tài liệu tối ưu | ⭐ Người mới bắt đầu |
-| **[Nối các tệp PDF](./master-pdf-page-management/concatenating-pdf-files/)** Ghép nhiều tài liệu PDF thành một tệp duy nhất | ⭐⭐ Trung cấp |
+| **[Nối các tệp PDF](./master-pdf-page-management/concatenating-pdf-files/)** | Ghép nhiều tài liệu PDF thành một tệp duy nhất | ⭐⭐ Trung cấp |
 | **[Xóa trang cụ thể khỏi tệp PDF](./master-pdf-page-management/delete-particular-page-from-pdf-files/)** | Xóa các trang cụ thể khỏi tài liệu PDF một cách hiệu quả | ⭐ Người mới bắt đầu |
 | **[Chèn trang trống vào tệp PDF](./master-pdf-page-management/insert-empty-pages/)** | Thêm trang trống để sắp xếp nội dung và giãn cách | ⭐ Người mới bắt đầu |
 | **[Thêm một trang trống vào cuối](./master-pdf-page-management/adding-an-empty-page-at-end/)** | Thêm các trang trống vào tài liệu PDF theo chương trình | ⭐ Người mới bắt đầu |
@@ -67,7 +67,7 @@ Các thao tác trang PDF cần thiết để tổ chức và quản lý cấu tr
 ### **Tạo tài liệu tương tác**
 - **Phát triển biểu mẫu**: Biểu mẫu PDF động có xác thực và tính toán
 - **Chữ ký số**: Ký và xác thực tài liệu an toàn
-- **Tích hợp đa phương tiện**Nội dung đa phương tiện trong tài liệu PDF
+- **Tích hợp đa phương tiện**: Nội dung đa phương tiện trong tài liệu PDF
 
 ### **Giải pháp Web-to-PDF**
 - **Chuyển đổi HTML**: Chuyển đổi nội dung web sang PDF để truy cập ngoại tuyến
@@ -113,11 +113,11 @@ Các thao tác trang PDF cần thiết để tổ chức và quản lý cấu tr
 ### **Bảo mật & Tuân thủ**
 - **Chữ ký số** - Xác thực và toàn vẹn tài liệu
 - **Mã hóa** - Bảo vệ bằng mật khẩu và kiểm soát truy cập
-- **Tiêu chuẩn PDF/A** - Tuân thủ lưu trữ dài hạn
+- **Tiêu chuẩn PDF/A** Tuân thủ lưu trữ dài hạn
 
 ### **Cải tiến tài liệu**
 - **Hình mờ** - Bảo vệ thương hiệu và đánh dấu tài liệu
-- **Chú thích** - Đánh giá và bình luận chung
+- **Chú thích** - Đánh giá và bình luận hợp tác
 - **Trường biểu mẫu** - Thu thập dữ liệu tương tác
 
 ### **Tích hợp đa phương tiện**

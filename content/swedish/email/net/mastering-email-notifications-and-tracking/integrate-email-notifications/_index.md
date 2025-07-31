@@ -46,7 +46,7 @@ MailMessage msg = new MailMessage
 För att få meddelanden om leveransstatusen för ditt e-postmeddelande, konfigurera alternativen för leveransmeddelanden. Du kan ange om du vill bli meddelad vid lyckad leverans, misslyckad leverans eller båda.
 
 ```csharp
-// Ange alternativ för leveransavisering
+// Ange alternativ för leveransmeddelanden
 msg.DeliveryNotificationOptions = DeliveryNotificationOptions.OnSuccess | DeliveryNotificationOptions.OnFailure;
 ```
 

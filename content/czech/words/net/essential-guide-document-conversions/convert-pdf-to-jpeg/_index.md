@@ -40,7 +40,7 @@ Zde se ukáže, jak se konverze JPEG projevuje:
 
 Než začneme s kódováním, ujistěte se, že máte vše potřebné. Nebojte se – nastavení je docela jednoduché:
 
-1. **Aspose.Words pro .NET**Toto je náš hvězdný hráč. Můžete si ho stáhnout. [zde](https://releases.aspose.com/words/net/) nebo nainstalujte přes NuGet (tomu se budeme věnovat v další části).
+1. **Aspose.Words pro .NET**Toto je náš hvězdný hráč. Můžete si ho stáhnout. [zde](https://releases.aspose.com/words/net/) nebo nainstalujte přes NuGet (tomuto se budeme věnovat v další části).
 
 2. **.NET Framework nebo .NET Core**Aspose.Words funguje dobře s oběma, takže použijte cokoli, co váš projekt vyžaduje.
 
@@ -65,7 +65,7 @@ Nejjednodušší způsob je přes Správce balíčků NuGet. Otevřete konzoli S
 Install-Package Aspose.Words
 ```
 
-Případně můžete použít grafické uživatelské rozhraní: klikněte pravým tlačítkem myši na projekt → Spravovat balíčky NuGet → Vyhledejte „Aspose.Words“ → Nainstalovat.
+Případně můžete použít grafické rozhraní: klikněte pravým tlačítkem myši na projekt → Spravovat balíčky NuGet → Vyhledejte „Aspose.Words“ → Nainstalovat.
 
 ### Struktura projektu
 Vytvořte strukturu složek, která dává smysl. Obvykle nastavuji:
@@ -133,7 +133,7 @@ To je vše! Jeden řádek kódu a z vašeho PDF se stane JPEG. Ale je za tím v�
 
 ### Pochopení metody ukládání
 Ten/Ta/To `Save` Metoda dělá v zákulisí několik věcí:
-- **Detekce formátu**Rozpoznává, že chcete výstup JPEG z přípony souboru
+- **Detekce formátu**Rozpoznává, že chcete JPEG výstup z přípony souboru
 - **Renderování**Převádí vektorovou grafiku a text z PDF do rastrového obrázku.
 - **Optimalizace kvality**: Použije rozumné výchozí hodnoty pro kvalitu obrazu
 
@@ -152,7 +152,7 @@ doc.Save(dataDir + "ConvertedImage.jpeg", options);
 
 ## Běžné problémy a jejich řešení
 
-Pojďme se podívat na některé problémy, se kterými se můžete setkat (protože Murphyho zákon platí i pro kódování):
+Pojďme se zabývat některými problémy, se kterými se můžete setkat (protože Murphyho zákon platí i pro kódování):
 
 ### Problém: Chyba „Soubor nenalezen“
 **Příznaky**Při pokusu o načtení PDF souboru byla vyvolána výjimka.

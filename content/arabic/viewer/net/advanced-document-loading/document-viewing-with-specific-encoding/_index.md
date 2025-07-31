@@ -1,14 +1,15 @@
 ---
-title: دليل شامل لعرض المستندات باستخدام ترميز محدد
-linktitle: دليل شامل لعرض المستندات باستخدام ترميز محدد
-second_title: واجهة برمجة تطبيقات GroupDocs.Viewer .NET
-description: اكتشف كيفية دمج إمكانيات عرض المستندات في تطبيقات .NET باستخدام GroupDocs.Viewer for .NET. يرشدك هذا الدليل التفصيلي خلال عملية التثبيت والإعداد وعرض تنسيقات المستندات المختلفة.
-weight: 11
-url: /ar/viewer/advanced-document-loading/document-viewing-with-specific-encoding/
+"description": "اكتشف كيفية دمج إمكانيات عرض المستندات في تطبيقات .NET باستخدام GroupDocs.Viewer لـ .NET. يرشدك هذا الدليل المفصل خلال عملية التثبيت والإعداد وعرض تنسيقات المستندات المختلفة."
+"linktitle": "دليل شامل لعرض المستندات باستخدام ترميز محدد"
+"second_title": "واجهة برمجة تطبيقات GroupDocs.Viewer .NET"
+"title": "دليل شامل لعرض المستندات باستخدام ترميز محدد"
+"url": "/ar/viewer/net/advanced-document-loading/document-viewing-with-specific-encoding/"
+"weight": 11
 ---
+
 ## مقدمة
 
-هل تبحث عن أداة قوية لعرض المستندات بسهولة داخل تطبيقات .NET الخاصة بك؟ GroupDocs.Viewer for .NET هو الحل المناسب لك! توفر هذه المكتبة القوية للمطورين القدرة على عرض تنسيقات المستندات المختلفة بسلاسة مباشرة في تطبيقاتهم، مما يوفر تجربة عرض بديهية وسهلة الاستخدام.
+هل تبحث عن أداة فعّالة لعرض المستندات بسهولة داخل تطبيقات .NET؟ GroupDocs.Viewer for .NET هو الحل الأمثل! تُتيح هذه المكتبة القوية للمطورين إمكانية عرض صيغ مستندات متنوعة بسلاسة ومباشرة في تطبيقاتهم، مما يوفر تجربة عرض بديهية وسهلة الاستخدام.
 
 ## المتطلبات الأساسية
 
@@ -16,13 +17,13 @@ url: /ar/viewer/advanced-document-loading/document-viewing-with-specific-encodin
 
 ### إعداد بيئة .NET
 
- أولاً، يجب أن يكون لديك بيئة تطوير .NET مُجهزة على جهازك. قم بتنزيل أحدث إصدار من مجموعة أدوات تطوير .NET وتثبيتها من[موقع مايكروسوفت](https://dotnet.microsoft.com/download).
+أولاً، يجب أن يكون لديك بيئة تطوير .NET مُثبّتة على جهازك. نزّل وثبّت أحدث إصدار من .NET SDK من [موقع مايكروسوفت](https://dotnet.microsoft.com/download).
 
 ### تثبيت GroupDocs.Viewer لـ .NET
 
- قم بتنزيل وتثبيت مكتبة GroupDocs.Viewer for .NET. يمكنك الحصول على المكتبة من الرابط التالي:[تنزيل GroupDocs.Viewer لـ .NET](https://releases.groupdocs.com/viewer/net/).
+نزّل وثبّت مكتبة GroupDocs.Viewer لـ .NET. يمكنك الحصول عليها من الرابط التالي: [تنزيل GroupDocs.Viewer لـ .NET](https://releases.groupdocs.com/viewer/net/).
 
-## الخطوة 1: استيراد المساحات الأساسية الضرورية
+## الخطوة 1: استيراد مساحات الأسماء الضرورية
 
 في مشروع .NET الخاص بك، ابدأ باستيراد المساحات المطلوبة للوصول إلى وظائف GroupDocs.Viewer:
 
@@ -55,7 +56,7 @@ LoadOptions loadOptions = new LoadOptions
 
 ## الخطوة 4: تهيئة كائن العارض
 
-قم بإنشاء كائن العارض واستخدمه لعرض مستندك:
+قم بإنشاء كائن العارض واستخدامه لعرض مستندك:
 
 ```csharp
 using (Viewer viewer = new Viewer(filePath, loadOptions))
@@ -63,14 +64,14 @@ using (Viewer viewer = new Viewer(filePath, loadOptions))
     // تحديد خيارات عرض HTML
     HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources(outputDirectory + "/page-{0}.html");
 
-    // تقديم الوثيقة
+    // تقديم المستند
     viewer.View(options);
 }
 ```
 
 ## الخطوة 5: عرض مسار دليل الإخراج
 
-أبلغ المستخدمين بمكان العثور على المستند المُقدم:
+أبلغ المستخدمين بمكان العثور على المستند المعروض:
 
 ```csharp
 Console.WriteLine($"\nSource document rendered successfully.\nCheck output in {outputDirectory}.");
@@ -78,21 +79,21 @@ Console.WriteLine($"\nSource document rendered successfully.\nCheck output in {o
 
 ## خاتمة
 
-يعد GroupDocs.Viewer for .NET حلاً استثنائيًا للمطورين الذين يتطلعون إلى تضمين إمكانيات عرض المستندات داخل تطبيقاتهم. باتباع الخطوات الموضحة في هذا البرنامج التعليمي، يمكنك بسهولة تحميل المستندات باستخدام ترميز محدد لضمان التوافق والقابلية للقراءة على النحو الأمثل.
+يُعد GroupDocs.Viewer لـ .NET حلاً استثنائيًا للمطورين الذين يتطلعون إلى تضمين إمكانيات عرض المستندات في تطبيقاتهم. باتباع الخطوات الموضحة في هذا البرنامج التعليمي، يمكنك بسهولة تحميل المستندات بترميز محدد لضمان التوافق وسهولة القراءة الأمثل.
 
 ## الأسئلة الشائعة
 
 ### هل GroupDocs.Viewer لـ .NET متوافق مع تنسيقات المستندات المختلفة؟
-نعم! يدعم GroupDocs.Viewer مجموعة من تنسيقات المستندات، بما في ذلك ملفات PDF وملفات Microsoft Office والصور والمزيد.
+نعم! يدعم GroupDocs.Viewer مجموعة واسعة من تنسيقات المستندات، بما في ذلك PDF، وملفات Microsoft Office، والصور، وغيرها.
 
 ### هل يمكنني تخصيص خيارات العرض لتناسب احتياجات تطبيقي؟
-بالتأكيد! يوفر GroupDocs.Viewer ميزات تخصيص شاملة، مما يسمح لك بتخصيص تجربة عرض المستندات وفقًا لمتطلباتك المحددة.
+بالتأكيد! يوفر GroupDocs.Viewer ميزات تخصيص شاملة، مما يسمح لك بتخصيص تجربة عرض المستندات وفقًا لاحتياجاتك الخاصة.
 
 ### هل يتوفر الدعم الفني لـ GroupDocs.Viewer لـ .NET؟
- نعم يمكنك الوصول إلى الدعم الفني من خلال[منتدى دعم GroupDocs](https://forum.groupdocs.com/c/viewer/9).
+نعم يمكنك الوصول إلى الدعم الفني من خلال [منتدى دعم GroupDocs](https://forum.groupdocs.com/c/viewer/9).
 
-### هل يقدم GroupDocs.Viewer لـ .NET نسخة تجريبية مجانية؟
- نعم، يمكنك استكشاف كافة ميزات GroupDocs.Viewer من خلال الوصول إلى[نسخة تجريبية مجانية](https://releases.groupdocs.com/).
+### هل يوفر GroupDocs.Viewer لـ .NET نسخة تجريبية مجانية؟
+نعم، يمكنك استكشاف كافة ميزات GroupDocs.Viewer من خلال الوصول إلى [نسخة تجريبية مجانية](https://releases.groupdocs.com/).
 
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ GroupDocs.Viewer؟
- يمكنك الحصول على ترخيص مؤقت من خلال زيارة[صفحة الترخيص المؤقت](https://purchase.groupdocs.com/temporary-license/).
+يمكنك الحصول على ترخيص مؤقت من خلال زيارة [صفحة الترخيص المؤقت](https://purchase.groupdocs.com/temporary-license/).

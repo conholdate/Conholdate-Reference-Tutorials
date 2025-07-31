@@ -5,7 +5,7 @@
 "description": "Dowiedz się, jak dodawać arkusze kalkulacyjne do plików Excela za pomocą języka C# i biblioteki Aspose.Cells. Samouczek krok po kroku z przykładami kodu, wskazówkami dotyczącymi rozwiązywania problemów i najlepszymi praktykami automatyzacji w programie Excel."
 "lastmod": "2025-01-02"
 "linktitle": "Dodaj arkusz kalkulacyjny Excela w języku C#"
-"second_title": "Aspose.Cells dla .NET API Reference"
+"second_title": "Dokumentacja interfejsu API Aspose.Cells dla platformy .NET"
 "tags":
 - "csharp"
 - "excel"

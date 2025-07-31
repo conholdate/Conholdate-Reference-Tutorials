@@ -102,7 +102,7 @@ Siap menerapkan teknik-teknik ini di aplikasi Anda sendiri? Berikut peta jalanny
 1. **Mulailah dengan Sederhana**:Mulailah dengan penguraian email dasar dan secara bertahap tambahkan fitur-fitur lanjutan
 2. **Uji secara menyeluruh**: Gunakan beragam contoh email untuk memvalidasi logika pemrosesan Anda
 3. **Memantau Kinerja**: Melacak waktu pemrosesan dan penggunaan sumber daya sejak hari pertama
-4. **Rencanakan Skala**:Rancang arsitektur Anda untuk menangani volume email yang terus bertambah
+4. **Rencanakan untuk Skala**:Rancang arsitektur Anda untuk menangani volume email yang terus bertambah
 5. **Dokumentasikan Semuanya**:Pengembang masa depan (termasuk Anda sendiri) akan berterima kasih kepada Anda
 
 ## Pemecahan Masalah Umum

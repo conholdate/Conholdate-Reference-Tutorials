@@ -1,8 +1,8 @@
 ---
 "description": "Leer hoe u specifieke kolommen in Excel-werkbladen effectief kunt beveiligen met Aspose.Cells voor .NET. Deze stapsgewijze tutorial behandelt alles, van het instellen van uw omgeving tot het opslaan van uw beveiligde Excel-bestanden."
-"linktitle": "Kolombeveiliging in werkbladen in Excel met Aspose.Cells"
+"linktitle": "Excel-kolombeveiliging in werkblad met Aspose.Cells"
 "second_title": "Aspose.Cells .NET Excel-verwerkings-API"
-"title": "Kolombeveiliging in werkbladen in Excel met Aspose.Cells"
+"title": "Excel-kolombeveiliging in werkblad met Aspose.Cells"
 "url": "/nl/cells/net/mastering-worksheet-security/excel-column-protection/"
 "weight": 13
 ---
@@ -14,7 +14,7 @@ Wanneer u programmatisch met Excel-bestanden werkt, moet u mogelijk specifieke d
 ## Vereisten
 Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 - Visual Studio: een .NET-compatibele IDE die op uw computer is geïnstalleerd.
-- Aspose.Cells voor .NET: de bibliotheek die in uw project is geïntegreerd. U kunt deze downloaden van de [Aspose-website](https://releases.aspose.com/cells/net/).
+- Aspose.Cells voor .NET: De bibliotheek geïntegreerd in uw project. U kunt deze downloaden van de [Aspose-website](https://releases.aspose.com/cells/net/).
 - Basiskennis van C#: Kennis van C#-programmering wordt verondersteld.
 
 Voor nieuwkomers bij Aspose.Cells is het raadzaam om de volgende informatie te bekijken: [documentatie](https://reference.aspose.com/cells/net/) om de kenmerken ervan beter te begrijpen.
@@ -31,11 +31,11 @@ using Aspose.Cells;
 
 ## Stap 1: De documentenmap instellen
 
-Definieer eerst de map waarin uw uitvoerbestand moet worden opgeslagen en maak deze aan als deze nog niet bestaat.
+Definieer eerst de map waarin uw uitvoerbestand wordt opgeslagen en maak deze aan als deze nog niet bestaat.
 
 ```csharp
 string dataDir = "Your Document Directory";
-// Maak een map aan indien deze nog niet bestaat.
+// Maak een map aan indien deze nog niet aanwezig is.
 if (!Directory.Exists(dataDir))
     Directory.CreateDirectory(dataDir);
 ```
@@ -54,7 +54,7 @@ Ga naar het eerste werkblad waarop u de kolombeveiliging wilt toepassen.
 Worksheet sheet = wb.Worksheets[0];
 ```
 
-### Stap 4: Definieer de stijl- en StyleFlag-objecten
+### Stap 4: Definieer de Style- en StyleFlag-objecten
 Definiëren `Style` En `StyleFlag` objecten om celeigenschappen aan te passen.
 
 ```csharp
@@ -100,15 +100,15 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
 ## Conclusie
-In deze tutorial hebben we het volledige proces van het beveiligen van kolommen in een Excel-werkblad met Aspose.Cells voor .NET behandeld. Met deze stappen kunt u aanpassen welke kolommen bewerkbaar blijven en krijgt u meer controle over uw Excel-documenten. Aspose.Cells is een krachtige tool en met wat oefening kunt u deze technieken onder de knie krijgen om uw workflows effectief te automatiseren.
+In deze tutorial hebben we het volledige proces van het beveiligen van kolommen in een Excel-werkblad met Aspose.Cells voor .NET behandeld. Met deze stappen kunt u aanpassen welke kolommen bewerkbaar blijven en zo meer controle over uw Excel-documenten krijgen. Aspose.Cells is een krachtige tool en met wat oefening kunt u deze technieken onder de knie krijgen om uw workflows effectief te automatiseren.
 
 ## Veelgestelde vragen
 
 ### Kan ik meer dan één kolom tegelijk beschermen?
 Ja, u kunt meerdere kolommen vergrendelen door de vergrendelingsstijl op elke kolom toe te passen, net zoals we de eerste kolom hebben vergrendeld.
 
-### Kan ik gebruikers toestaan specifieke kolommen te bewerken terwijl de rest beschermd blijft?
-Ja! Ontgrendel specifieke kolommen door in te stellen `style.IsLocked = false` voor hen, voordat werkbladbeveiliging wordt toegepast.
+### Kan ik gebruikers toestaan om specifieke kolommen te bewerken terwijl de rest beschermd blijft?
+Ja! Ontgrendel specifieke kolommen door in te stellen `style.IsLocked = false` voor hen, voordat u werkbladbeveiliging toepast.
 
 ### Hoe verwijder ik de beveiliging van een werkblad?
 Om de bescherming te verwijderen, belt u eenvoudig `sheet.Unprotect()`Als er tijdens de beveiliging een wachtwoord is ingesteld, moet u dit opgeven.

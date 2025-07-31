@@ -9,7 +9,7 @@
 
 ## Perkenalan
 
-Dalam hal pemformatan dokumen Word, bagian berperan sebagai tulang punggung. Bagian memungkinkan Anda membuat bagian-bagian terpisah dalam dokumen, memberikan Anda fleksibilitas untuk menerapkan berbagai format seperti header, footer, dan tata letak halaman. Anggap bagian seperti bab dalam sebuah buku—setiap segmen dapat berdiri sendiri sekaligus berkontribusi pada narasi yang lebih besar. Dalam seri tutorial ini, kita akan membahas dasar-dasar pengelolaan bagian menggunakan Aspose.Words untuk .NET, memastikan dokumen Anda tidak hanya fungsional tetapi juga menarik secara visual.
+Dalam hal pemformatan dokumen Word, bagian berperan sebagai tulang punggung. Bagian memungkinkan Anda membuat bagian-bagian terpisah dalam dokumen, memberikan fleksibilitas untuk menerapkan berbagai format seperti header, footer, dan tata letak halaman. Anggap bagian seperti bab dalam sebuah buku—setiap segmen dapat berdiri sendiri sekaligus berkontribusi pada narasi yang lebih besar. Dalam seri tutorial ini, kita akan membahas dasar-dasar pengelolaan bagian menggunakan Aspose.Words untuk .NET, memastikan dokumen Anda tidak hanya fungsional tetapi juga menarik secara visual.
 
 ## Menambahkan dan Menghapus Bagian
 

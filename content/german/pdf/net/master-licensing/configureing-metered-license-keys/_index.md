@@ -50,7 +50,7 @@ Aspose.Pdf.Metered metered = new Aspose.Pdf.Metered();
 
 ## Schritt 3: Legen Sie Ihre gebührenpflichtigen Lizenzschlüssel fest
 
-Mit dem `Metered` Klasse initialisiert, es ist Zeit, Ihre gemessenen öffentlichen und privaten Schlüssel anzuwenden.
+Mit der `Metered` Klasse initialisiert, es ist Zeit, Ihre gemessenen öffentlichen und privaten Schlüssel anzuwenden.
 
 ```csharp
 metered.SetMeteredKey("YOUR_PUBLIC_KEY", "YOUR_PRIVATE_KEY");

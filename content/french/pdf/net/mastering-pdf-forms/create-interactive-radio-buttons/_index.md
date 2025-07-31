@@ -13,7 +13,7 @@ Les PDF interactifs peuvent considérablement améliorer l'engagement des utilis
 
 ## Prérequis
 
-Avant de commencer, assurez-vous d’avoir les éléments suivants :
+Avant de commencer, assurez-vous d’avoir les éléments suivants :
 
 1. Visual Studio : votre environnement de développement.
 2. Aspose.PDF pour .NET : téléchargez la bibliothèque à partir du [Site Web d'Aspose](https://releases.aspose.com/pdf/net/).
@@ -34,7 +34,7 @@ Maintenant que votre environnement est configuré, plongeons dans le code.
 
 ## Étape 1 : Définissez votre répertoire de documents
 
-Spécifiez le répertoire où votre PDF sera enregistré :
+Spécifiez le répertoire où votre PDF sera enregistré :
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Remplacez par votre chemin réel

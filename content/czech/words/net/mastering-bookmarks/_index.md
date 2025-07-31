@@ -35,7 +35,7 @@ Náš tutoriál na téma [Mazání řádků podle záložek v dokumentech Word s
  ## Výukové programy pro zvládnutí záložek
 | Název | Popis |
 | --- | --- |
-| [Přidání textu ze záložek v dokumentech Word](./append-text-from-bookmarked-sections/) Naučte se, jak bezproblémově přidávat text ze záložek v dokumentu Word pomocí Aspose.Words pro .NET. Tento podrobný návod. |
+| [Přidání textu ze záložek v dokumentech Word](./append-text-from-bookmarked-sections/) Naučte se, jak bez problémů přidávat text ze záložek v dokumentu Word pomocí Aspose.Words pro .NET. Tento podrobný návod. |
 | [Vytvořte záložku v dokumentu Word pomocí Aspose.Words pro .NET](./create-bookmark-in-word-document/) | Naučte se, jak vytvářet záložky v dokumentech Wordu pomocí Naučte se, jak vylepšit dokumenty Wordu vytvářením a správou záložek pomocí Aspose.Words pro .NET. Tento podrobný návod. |
 | [Správa viditelnosti záložek v dokumentech Wordu](./manage-bookmark-visibility-word-document/) | Zjistěte, jak odborně ovládat viditelnost obsahu v dokumentech Wordu pomocí Aspose.Words pro .NET. Tento podrobný návod. |
 | [Mazání řádků podle záložek v dokumentech Word s Aspose.Words pro .NET](./delete-row-by-bookmark-word-documents/) | Naučte se, jak efektivně mazat konkrétní řádky v dokumentech Word pomocí záložek v Aspose.Words pro .NET. Tento podrobný návod popisuje načítání dokumentů. |

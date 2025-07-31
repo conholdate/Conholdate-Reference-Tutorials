@@ -1,5 +1,5 @@
 ---
-"description": "Aspose.Words for .NET 的全面教學和指南。透過逐步範例掌握 Word 文件處理、轉換、自動化和進階 AI 整合。"
+"description": "Aspose.Words for .NET 的綜合教學與指南。透過逐步範例掌握 Word 文件處理、轉換、自動化和進階 AI 整合。"
 "linktitle": "Aspose.Words for .NET"
 "second_title": "Aspose.Words .NET文件處理API"
 "title": "Aspose.Words for .NET教程"
@@ -10,11 +10,11 @@
 # Aspose.Words for .NET教程
 
 ## 掌握 Word 文件處理和 AI 集成
-使用 Aspose.Words for .NET 釋放 Word 文件處理的全部潛力。從基本的文件轉換到尖端的 AI 驅動文件分析，我們全面的教學將引導您了解現代文件自動化的各個方面。
+使用 Aspose.Words for .NET 充分發揮 Word 文件處理的潛力。從基本的文件轉換到尖端的人工智慧文件分析，我們全面的教學將引導您了解現代文件自動化的各個方面。
 
 ## 🚀 您可以實現的目標
 
-**Aspose.Words for .NET** 是一個強大的文件處理庫，使開發人員無需 Microsoft Word 即可建立、操作、轉換和分析 Word 文件。它支援所有主流文件格式，並具備革命性的 AI 整合功能，是智慧型文件自動化的完整解決方案。
+**Aspose.Words for .NET** 是一個強大的文件處理庫，使開發人員無需 Microsoft Word 即可建立、操作、轉換和分析 Word 文件。它支援所有主要文件格式並具有革命性的 AI 整合功能，是智慧文件自動化的完整解決方案。
 
 ### 關鍵功能
 - **📄 格式支持**：DOC、DOCX、RTF、HTML、PDF、EPUB、Markdown 等
@@ -28,69 +28,69 @@
 ### 文檔轉換基本指南
 掌握基本的文件轉換，具有專業品質的輸出和高級格式保存。
 
-| 教學 | 說明 | 難度 |
+|教程 |說明 |難度 |
 |----------|-------------|------------|
-| **[將 Word 轉換為 PDF](./essential-guide-document-conversions/convert-word-to-pdf/)** | 高品質文件發佈並儲存格式 | ⭐ 初學者 |
-| **[將 DOCX 轉換為 EPUB](./essential-guide-document-conversions/convert-docx-to-epub/)** | 電子閱讀器與行動裝置的數位出版 | ⭐⭐ 中級 |
-| **[DOCX 轉換為 TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | 擷取純文字進行資料處理與分析 | ⭐ 初學者 |
-| **[將 DOCX 轉換為位元組數組](./essential-guide-document-conversions/convert-docx-to-byte-arrays/)** 針對 Web 應用程式的記憶體高效文件處理 | ⭐⭐ 中級 |
-| **[將 DOC 轉換為 DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** | 舊格式現代化與相容性更新 | ⭐ 初學者 |
-| **[將 DOCX 轉換為 MHTML 並發送電子郵件](./essential-guide-document-conversions/convert-docx-to-mhtml-send-email/)** 電子郵件集成，支援豐富的格式 | ⭐⭐ 中級 |
-| **[將 PDF 轉換為 JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | 從 PDF 文件中提取高品質影像 | ⭐⭐ 中級 |
-| **[另存為 PDF](./essential-guide-document-conversions/save-as-pdf/)** 具有進階選項的專業文件發佈 | ⭐ 初學者 |
+| **[將 Word 轉換為 PDF](./essential-guide-document-conversions/convert-word-to-pdf/)** |高品質文件發佈並儲存格式 | ⭐ 初版|
+| **[將 DOCX 轉換為 EPUB](./essential-guide-document-conversions/convert-docx-to-epub/)** |電子閱讀器與行動裝置的數位出版 | ⭐⭐ 中級|
+| **[DOCX 轉換為 TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** |用於資料處理和分析的純文字擷取 | ⭐ 初學者|
+| **[將 DOCX 轉換為位元組數組](./essential-guide-document-conversions/convert-docx-to-byte-arrays/)** |適用於 Web 應用程式的記憶體高效文件處理 | ⭐⭐ 中級|
+| **[將 DOC 轉換為 DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** |舊格式現代化和相容性更新 | ⭐ 初學者|
+| **[將 DOCX 轉換為 MHTML 並發送電子郵件](./essential-guide-document-conversions/convert-docx-to-mhtml-send-email/)** |電子郵件集成，支援豐富的格式 | ⭐⭐ 中級|
+| **[將 PDF 轉換為 JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** |從 PDF 文件中提取高品質圖像 | ⭐⭐ 中級|
+| **[另存為 PDF](./essential-guide-document-conversions/save-as-pdf/)** |具有進階選項的專業文件發佈 | ⭐ 初學者|
 
 ### 先進的人工智慧文件處理
 利用尖端人工智慧進行智慧文檔分析和自動內容生成。
 
-| 教學 | 說明 | 難度 |
+|教程 |說明 |難度 |
 |----------|-------------|------------|
-| **[掌握使用 AI 模型進行文件摘要](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** 整合 Google AI 實現智慧內容摘要 | ⭐⭐⭐ 進階 |
-| **[使用 OpenAI 模型進行高效率的文件摘要](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** GPT 驅動的文件分析與自動化洞察 | ⭐⭐⭐ 進階 |
-| **[總結文件選項](./advanced-ai-document-processing/summarize-documents-options/)** 人工智慧內容處理的進階配置 | ⭐⭐⭐ 進階 |
+| **[掌握使用 AI 模型進行文件摘要](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** |Google人工智慧集成，實現智慧內容摘要 | ⭐⭐⭐ 進階|
+| **[使用 OpenAI 模型進行高效率的文件摘要](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** GPT 支援的文件分析與自動化洞察 | ⭐⭐⭐ 進階|
+| **[總結文件選項](./advanced-ai-document-processing/summarize-documents-options/)** |人工智慧內容處理的進階配置 | ⭐⭐⭐ 進階|
 
 ### 掌握部門管理
 專業的文件結構和組織，具有先進的部分操作技術。
 
-| 教學 | 說明 | 難度 |
+|教程 |說明 |難度 |
 |----------|-------------|------------|
-| **[添加部分](./section-management/adding-sections/)** 使用專業格式建立結構化的文件佈局 | ⭐ 初學者 |
-| **[從 Word 文件中刪除部分](./section-management/delete-sections-word-document/)** 有效率地刪除文件中不必要的部分 | ⭐ 初學者 |
-| **[附加節 Word 內容](./section-management/append-section-word-content/)** 無縫組合來自多個文件部分的內容 | ⭐⭐ 中級 |
-| **[在 Word 文件之間複製章節](./section-management/copy-sections-word-documents/)** 在不同文件之間傳輸結構化內容 | ⭐⭐ 中級 |
+| **[添加部分](./section-management/adding-sections/)** |使用專業格式建立結構化的文件佈局 | ⭐ 初學者|
+| **[從 Word 文件中刪除部分](./section-management/delete-sections-word-document/)** |有效刪除不必要的文件部分 | ⭐ 初學者|
+| **[附加節 Word 內容](./section-management/append-section-word-content/)** 無縫組合來自多個文件部分的內容 | ⭐⭐ 中級|
+| **[在 Word 文件之間複製章節](./section-management/copy-sections-word-documents/)** |在不同文件之間傳輸結構化內容 | ⭐⭐ 中級|
 
 ### 使用文字方塊進行文字處理
 適用於複雜文件佈局和專業設計元素的高階文字方塊管理。
 
-| 教學 | 說明 | 難度 |
+|教程 |說明 |難度 |
 |----------|-------------|------------|
-| **[Word 文件中的連結文字框](./words-with-textboxes/linked-text-boxes/)** 使用連接的文字方塊建立流動的文字佈局 | ⭐⭐ 中級 |
-| **[文字方塊序列檢查](./words-with-textboxes/textbox-sequences-check/)** 驗證並組織文字方塊流以實作邏輯內容結構 | ⭐⭐ 中級 |
-| **[斷開 Word 文件中的前向鏈接](./words-with-textboxes/break-forward-link/)** 管理文字方塊連線並自訂文件佈局 | ⭐⭐ 中級 |
+| **[Word 文件中的連結文字框](./words-with-textboxes/linked-text-boxes/)** |使用連接的文字方塊建立流動的文字佈局 | ⭐⭐ 中級|
+| **[文字方塊序列檢查](./words-with-textboxes/textbox-sequences-check/)** |驗證並組織文字方塊流以實作邏輯內容結構 | ⭐⭐ 中級|
+| **[斷開 Word 文件中的前向鏈接](./words-with-textboxes/break-forward-link/)** |管理文字方塊連線並自訂文件佈局 | ⭐⭐ 中級|
 
 ### 文件處理中的 Web 擴展
 使用現代基於 Web 的功能和互動元素增強 Word 文件。
 
-| 教學 | 說明 | 難度 |
+|教程 |說明 |難度 |
 |----------|-------------|------------|
-| **[掌握 Web 擴充任務窗格](./web-extensions/mastering-web-extension-task-panes/)** 整合基於 Web 的插件以增強文件功能 | ⭐⭐⭐ 進階 |
+| **[掌握 Web 擴充任務窗格](./web-extensions/mastering-web-extension-task-panes/)** |整合基於 Web 的插件以增強文件功能 | ⭐⭐⭐ 進階|
 
 ### 圖像保存選項指南
 用於文件發布和網路整合的專業影像處理和優化。
 
-| 教學 | 說明 | 難度 |
+|教程 |說明 |難度 |
 |----------|-------------|------------|
-| **[TIFF 二值化的曝光閾值控制](./guide-to-image-save-options/expose-threshold-control-for-tiff-binarization-in-word-document/)** 具有自訂品質控制的高階影像處理 | ⭐⭐⭐ 進階 |
-| **[取得 JPEG 頁面範圍](./guide-to-image-save-options/get-jpeg-page-range-word-document/)** 將特定文件頁面擷取為高品質影像 | ⭐⭐ 中級 |
-| **[取得 TIFF 頁面範圍](./guide-to-image-save-options/get-tiff-page-range-word-document/)** 專業影像擷取，TIFF 格式最佳化 | ⭐⭐ 中級 |
-| **[建立 1Bpp 索引映像](./guide-to-image-save-options/create-1bpp-indexed/)** 用於存檔和儲存的高效空間影像處理 | ⭐⭐ 中級 |
-| **[頁面儲存回調](./guide-to-image-save-options/page-saving-callback-word-document/)** 透過自動影像產生進行自訂頁面處理 | ⭐⭐⭐ 進階 |
+| **[TIFF 二值化的曝光閾值控制](./guide-to-image-save-options/expose-threshold-control-for-tiff-binarization-in-word-document/)** |具有自訂品質控制的進階影像處理 | ⭐⭐⭐ 進階|
+| **[取得 JPEG 頁面範圍](./guide-to-image-save-options/get-jpeg-page-range-word-document/)** |將特定文件頁面擷取為高品質影像 | ⭐⭐ 中級|
+| **[取得 TIFF 頁面範圍](./guide-to-image-save-options/get-tiff-page-range-word-document/)** |專業影像擷取，TIFF 格式最佳化 | ⭐⭐ 中級|
+| **[建立 1Bpp 索引映像](./guide-to-image-save-options/create-1bpp-indexed/)** |用於存檔和儲存的高效空間影像處理 | ⭐⭐ 中級|
+| **[頁面儲存回調](./guide-to-image-save-options/page-saving-callback-word-document/)** |透過自動影像產生進行自訂頁面處理 | ⭐⭐⭐ 進階|
 
 ### 文件屬性管理
 全面的元資料處理和文件屬性操作，實現專業的文件管理。
 
-| 教學 | 說明 | 難度 |
+|教程 |說明 |難度 |
 |----------|-------------|------------|
-| **[刪除自訂文件屬性](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** 清理文件元資料並優化文件組織 | ⭐ 初學者 |
+| **[刪除自訂文件屬性](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** |清理文檔元資料並優化文件組織 | ⭐ 初學者|
 
 ## 🎯 熱門用例
 

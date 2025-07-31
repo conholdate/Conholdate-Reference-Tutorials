@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Interactieve PDF's kunnen de gebruikersbetrokkenheid aanzienlijk vergroten, vooral bij formulieren. Een van de meest effectieve interactieve elementen is de keuzerondje, waarmee gebruikers één optie uit een set kunnen selecteren. In deze tutorial doorlopen we de stappen om keuzerondjes in een PDF-document te maken met Aspose.PDF voor .NET. Of je nu een ervaren ontwikkelaar bent of een beginner, deze handleiding helpt je elk onderdeel van de code te begrijpen.
+Interactieve PDF's kunnen de gebruikersbetrokkenheid aanzienlijk vergroten, vooral bij formulieren. Een van de meest effectieve interactieve elementen is de keuzerondje, waarmee gebruikers één optie uit een set kunnen selecteren. In deze tutorial doorlopen we de stappen om keuzerondjes in een PDF-document te maken met Aspose.PDF voor .NET. Of je nu een ervaren ontwikkelaar of een beginner bent, deze handleiding helpt je elk onderdeel van de code te begrijpen.
 
 ## Vereisten
 
@@ -21,7 +21,7 @@ Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
 ## Een nieuw project maken
 
-1. Visual Studio openen.
+1. Open Visual Studio.
 2. Maak een nieuw Console Application-project.
 
 ## Voeg Aspose.PDF-referentie toe
@@ -40,7 +40,7 @@ Geef de map op waar uw PDF wordt opgeslagen:
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Vervang door uw werkelijke pad
 ```
 
-## Stap 2: Het documentobject instantiëren
+## Stap 2: Instantieer het documentobject
 
 Maak een exemplaar van de `Document` klas:
 

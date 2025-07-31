@@ -92,7 +92,7 @@ builder.Writeln("Welcome to the new section!");
 doc.Save("YourPath/YourDocument.docx");
 ```
 
-반드시 교체하세요 `"YourPath/YourDocument.docx"` 문서를 저장할 파일 경로를 입력하세요. 이 줄은 모든 섹션과 내용을 그대로 유지한 채 Word 파일을 저장합니다.
+반드시 교체하세요 `"YourPath/YourDocument.docx"` 문서를 저장할 파일 경로를 입력하세요. 이 줄을 입력하면 모든 섹션과 내용이 그대로 유지된 Word 파일이 저장됩니다.
 
 ## 결론
 

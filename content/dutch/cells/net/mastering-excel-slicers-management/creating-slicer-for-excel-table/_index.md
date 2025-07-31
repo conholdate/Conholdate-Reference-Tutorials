@@ -1,5 +1,5 @@
 ---
-"description": "Deze uitgebreide tutorial begeleidt u door het proces van het maken van slicers voor Excel-tabellen met Aspose.Cells voor .NET. Leer hoe u uw omgeving instelt, een Excel-werkmap laadt en interactieve slicers toevoegt om uw mogelijkheden voor data-analyse te verbeteren."
+"description": "Deze uitgebreide tutorial begeleidt u door het proces van het maken van slicers voor Excel-tabellen met Aspose.Cells voor .NET. Leer hoe u uw omgeving instelt, een Excel-werkmap laadt en interactieve slicers toevoegt om uw mogelijkheden voor gegevensanalyse te verbeteren."
 "linktitle": "Slicer maken voor Excel-tabel in Aspose.Cells .NET"
 "second_title": "Aspose.Cells .NET Excel-verwerkings-API"
 "title": "Slicer maken voor Excel-tabel in Aspose.Cells .NET"
@@ -25,11 +25,11 @@ Installeer Visual Studio (bij voorkeur de nieuwste versie) om uw .NET-code effec
 Download en installeer Aspose.Cells voor .NET van de [downloadlink](https://releases.aspose.com/cells/net/)Deze bibliotheek is essentieel voor het programmatisch bewerken van Excel-bestanden.
 
 ### Voorbeeld Excel-bestand
-Maak een Excel-voorbeeldbestand met een tabel voor manipulatie. Je kunt een eenvoudige spreadsheet maken of een voorbeeld gebruiken.
+Maak een Excel-voorbeeldbestand met een tabel voor manipulatie. U kunt een eenvoudig spreadsheet maken of een voorbeeld gebruiken.
 
 ## Noodzakelijke pakketten importeren
 
-Vervolgens moeten we de benodigde pakketten importeren. Deze stap is cruciaal omdat het de functionaliteiten ontgrendelt die we in onze code zullen gebruiken.
+Vervolgens moeten we de vereiste pakketten importeren. Deze stap is cruciaal omdat het de functionaliteiten ontgrendelt die we in onze code zullen gebruiken.
 
 Voeg in je Visual Studio-project een verwijzing naar Aspose.Cells toe. Navigeer naar Project ➔ Verwijzing toevoegen... ➔ Assemblies ➔ Aspose.Cells. Je C#-bestand moet beginnen met de volgende using-richtlijnen:
 
@@ -41,7 +41,7 @@ using System.Linq;
 using System.Text;
 ```
 
-Met deze instelling hebt u toegang tot alle klassen en methoden die nodig zijn voor de zelfstudie.
+Met deze instelling hebt u toegang tot alle klassen en methoden die u voor de zelfstudie nodig hebt.
 
 Nu we de vereisten op een rijtje hebben gezet en de pakketten hebben geïmporteerd, kunnen we de code opsplitsen in beheersbare stappen.
 
@@ -58,12 +58,12 @@ string outputDir = "Your Document Directory/";
 
 Vervangen `"Your Document Directory"` met het werkelijke pad waar uw Excel-bestand is opgeslagen.
 
-## Stap 2: De Excel-werkmap laden
+## Stap 2: Laad de Excel-werkmap
 
 Laad de Excel-werkmap die de tabel bevat:
 
 ```csharp
-// Laad het voorbeeld-Excel-bestand met een tabel.
+// Laad het voorbeeld-Excelbestand met een tabel.
 Workbook workbook = new Workbook(sourceDir + "sampleCreateSlicerToExcelTable.xlsx");
 ```
 
@@ -71,7 +71,7 @@ Zorg ervoor dat de bestandsnaam overeenkomt met uw daadwerkelijke bestand om fou
 
 ## Stap 3: Toegang tot het werkblad
 
-Ga naar het specifieke werkblad met de tabel. In dit voorbeeld wordt ervan uitgegaan dat u met het eerste werkblad werkt:
+Open het specifieke werkblad met de tabel. In dit voorbeeld wordt ervan uitgegaan dat u met het eerste werkblad werkt:
 
 ```csharp
 // Open het eerste werkblad.
@@ -87,7 +87,7 @@ Identificeer de tabel in het werkblad:
 ListObject table = worksheet.ListObjects[0];
 ```
 
-## Stap 5: De Slicer toevoegen
+## Stap 5: Voeg de Slicer toe
 
 Laten we nu de slicer aan onze tabel toevoegen:
 
@@ -98,7 +98,7 @@ int idx = worksheet.Slicers.Add(table, 0, "H5");
 
 Met deze regel wordt de slicer toegevoegd aan cel "H5". U kunt de positie naar wens aanpassen.
 
-## Stap 6: Sla uw werkboek op
+## Stap 6: Sla uw werkmap op
 
 Sla de gewijzigde werkmap op met de nieuwe slicer:
 

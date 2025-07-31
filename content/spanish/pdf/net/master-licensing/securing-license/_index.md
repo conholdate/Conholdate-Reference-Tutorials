@@ -73,7 +73,7 @@ using (Stream zip = new SecureLicense().GetType().Assembly.GetManifestResourceSt
 
 ## Paso 4: Pruebe la licencia
 
-Tras configurar la licencia, es hora de verificar que todo funcione correctamente. Puede hacerlo creando un documento PDF sencillo y comprobando si la licencia está activada. A continuación, un ejemplo:
+Tras configurar la licencia, es hora de verificar que todo funcione correctamente. Puede hacerlo creando un documento PDF sencillo y comprobando si la licencia está aplicada. A continuación, un ejemplo:
 
 ```csharp
 Document pdfDocument = new Document();

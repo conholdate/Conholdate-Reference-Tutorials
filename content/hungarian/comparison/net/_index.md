@@ -1,13 +1,14 @@
 ---
-title: Oktatóanyagok és példák a GroupDocs.Comparison for .NET-hez
-linktitle: GroupDocs.Comparison for .NET Tutorials
-weight: 10
-url: /hu/comparison/
-description: Fedezze fel a GroupDocs.Comparison for .NET átfogó oktatóanyagait, amelyek megkönnyítik a dokumentumok és mappák hatékony összehasonlítását, kezelését és integrációját.
-is_root: true
+"description": "Fedezze fel a GroupDocs.Comparison for .NET átfogó oktatóanyagait, amelyek hatékony dokumentum- és mappa-összehasonlítást, -kezelést és -integrációt tesznek lehetővé."
+"is_root": true
+"linktitle": "GroupDocs.Comparison .NET oktatóanyagokhoz"
+"title": "A GroupDocs.Comparison .NET-hez készült oktatóanyagai és példái"
+"url": "/hu/comparison/net/"
+"weight": 10
 ---
-## GroupDocs.Comparison for .NET Tutorials 
+
+## GroupDocs.Comparison .NET oktatóanyagokhoz 
 ### [Dokumentumok betöltése és mentése a GroupDocs.Comparison for .NET alkalmazásban](./load-and-save-documents/)
-Fedezze fel a részletes útmutatókat a GroupDocs.Comparison for .NET használatáról a dokumentumok hatékony betöltéséhez és mentéséhez. Tökéletes azoknak a fejlesztőknek, akik egyszerűsíteni szeretnék a dokumentumok összehasonlítását.
+Fedezzen fel lépésről lépésre bemutató oktatóanyagokat a GroupDocs.Comparison for .NET használatáról a dokumentumok hatékony betöltéséhez és mentéséhez. Tökéletes azoknak a fejlesztőknek, akik egyszerűsíteni szeretnék a dokumentumok összehasonlítását.
 ### [Útmutató az alapvető használathoz](./guide-to-basic-usage/)
-Fedezze fel a GroupDocs.Comparison for .NET alapvető oktatóanyagait a hatékony dokumentum-összehasonlítás és fejlesztési betekintés érdekében. Ismerje meg, hogyan lehet egyszerűen összehasonlítani az Excel cellákat.
+Fedezze fel a GroupDocs.Comparison for .NET alapvető oktatóanyagait a hatékony dokumentum-összehasonlításhoz és a fejlesztési információkhoz. Tanulja meg, hogyan hasonlíthatja össze egyszerűen az Excel-cellákat.

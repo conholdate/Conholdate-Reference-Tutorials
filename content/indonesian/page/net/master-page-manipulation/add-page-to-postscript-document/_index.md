@@ -1,14 +1,15 @@
 ---
-title: Menambahkan Halaman ke Dokumen PostScript Menggunakan Aspose.Page untuk .NET
-linktitle: Tambahkan Halaman ke Dokumen PostScript
-second_title: API Aspose.Halaman .NET
-description: Temukan cara meningkatkan aplikasi .NET Anda dengan memanipulasi dokumen PostScript dengan Aspose.Page. Panduan langkah demi langkah ini memberikan petunjuk yang jelas tentang inisialisasi dokumen.
-weight: 10
-url: /id/page/master-page-manipulation/add-page-to-postscript-document/
+"description": "Temukan cara meningkatkan aplikasi .NET Anda dengan memanipulasi dokumen PostScript menggunakan Aspose.Page. Panduan langkah demi langkah ini memberikan instruksi yang jelas tentang inisialisasi dokumen."
+"linktitle": "Tambahkan Halaman ke Dokumen PostScript"
+"second_title": "Aspose.Page .NET API"
+"title": "Menambahkan Halaman ke Dokumen PostScript Menggunakan Aspose.Page untuk .NET"
+"url": "/id/page/net/master-page-manipulation/add-page-to-postscript-document/"
+"weight": 10
 ---
+
 ## Perkenalan
 
-Dalam bidang pengembangan .NET, manipulasi dokumen merupakan keterampilan penting. Aspose.Page untuk .NET merupakan pustaka canggih yang memungkinkan pengembang bekerja dengan mudah dengan dokumen PostScript (PS). Panduan ini akan memandu Anda melalui proses penambahan halaman ke dokumen PostScript langkah demi langkah.
+Dalam dunia pengembangan .NET, manipulasi dokumen merupakan keterampilan penting. Aspose.Page untuk .NET adalah pustaka canggih yang memungkinkan pengembang bekerja dengan mudah dengan dokumen PostScript (PS). Panduan ini akan memandu Anda melalui proses menambahkan halaman ke dokumen PostScript langkah demi langkah.
 
 ## Prasyarat
 
@@ -16,10 +17,10 @@ Sebelum memulai, pastikan Anda memiliki:
 
 - Pemahaman dasar tentang pemrograman .NET.
 - Visual Studio terinstal di komputer Anda.
--  Pustaka Aspose.Page untuk .NET, yang dapat Anda unduh[Di Sini](https://releases.aspose.com/page/net/).
+- Pustaka Aspose.Page untuk .NET, yang dapat Anda unduh [Di Sini](https://releases.aspose.com/page/net/).
 - Direktori yang ditunjuk untuk dokumen Anda untuk tujuan pengujian.
 
-## Impor Ruang Nama yang Diperlukan
+## Impor Namespace yang Diperlukan
 
 Untuk menggunakan Aspose.Page, Anda perlu menyertakan namespace yang sesuai dalam proyek Anda. Berikut cara mengaturnya:
 
@@ -42,7 +43,7 @@ using System.IO;
 Siapkan dokumen PostScript Anda dengan konfigurasi yang diinginkan:
 
 ```csharp
-// Mulai: 1
+// ExStart:1
 string dataDir = "Your Document Directory"; // Tetapkan jalur direktori dokumen Anda
 using (Stream outPsStream = new FileStream(Path.Combine(dataDir, "document1.ps"), FileMode.Create))
 {
@@ -91,26 +92,26 @@ Terakhir, simpan dokumen Anda untuk memastikan semua perubahan tersimpan:
     // Simpan dokumen PostScript
     document.Save();
 }
-// Keluarkan:1
+// ExEnd:1
 ```
 
 ## Kesimpulan
 
-Selamat! Anda telah berhasil menambahkan halaman ke dokumen PostScript menggunakan Aspose.Page for .NET. API intuitif pustaka ini memudahkan manipulasi dokumen, sehingga meningkatkan kemampuan pengembangan Anda.
+Selamat! Anda telah berhasil menambahkan halaman ke dokumen PostScript menggunakan Aspose.Page untuk .NET. API intuitif pustaka ini memudahkan manipulasi dokumen, meningkatkan kemampuan pengembangan Anda.
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Apakah Aspose.Page kompatibel dengan format dokumen lain?  
-Aspose.Page mengkhususkan diri dalam dokumen PostScript. Untuk dukungan dengan format lain, pertimbangkan untuk menjelajahi pustaka Aspose lain yang sesuai dengan kebutuhan Anda.
+Aspose.Page berspesialisasi dalam dokumen PostScript. Untuk dukungan format lain, pertimbangkan untuk menjelajahi pustaka Aspose lain yang sesuai dengan kebutuhan Anda.
 
 ### Bisakah saya menyesuaikan ukuran halaman di Aspose.Page?  
 Ya! Seperti yang ditunjukkan dalam panduan ini, Anda dapat menentukan ukuran yang berbeda untuk setiap halaman sesuai dengan kebutuhan spesifik Anda.
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi?  
- Untuk informasi dan contoh lebih rinci, kunjungi[Dokumentasi Aspose.Page](https://reference.aspose.com/page/net/).
+Untuk informasi dan contoh lebih rinci, kunjungi [Dokumentasi Aspose.Page](https://reference.aspose.com/page/net/).
 
-### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Page?  
- Anda bisa mendapatkan lisensi sementara untuk pengujian dengan menavigasi ke[tautan ini](https://purchase.conholdate.com/temporary-license/).
+### Bagaimana cara memperoleh lisensi sementara untuk Aspose.Page?  
+Anda bisa mendapatkan lisensi sementara untuk pengujian dengan menavigasi ke [tautan ini](https://purchase.conholdate.com/temporary-license/).
 
 ### Di mana saya dapat mencari dukungan komunitas?  
- Bergabunglah dengan[Forum komunitas Aspose.Page](https://forum.aspose.com/c/page/39) untuk terhubung dengan pengembang lain, berbagi pengalaman, dan mencari bantuan.
+Bergabunglah dengan [Forum komunitas Aspose.Page](https://forum.aspose.com/c/page/39) untuk terhubung dengan pengembang lain, berbagi pengalaman, dan mencari bantuan.

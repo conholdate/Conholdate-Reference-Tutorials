@@ -1,12 +1,13 @@
 ---
-title: Samouczki i przykłady GroupDocs.Merger dla .NET
-linktitle: GroupDocs.Merger dla samouczków .NET
-weight: 10
-url: /pl/merger/
-description: Poznaj samouczki krok po kroku dotyczące GroupDocs.Merger dla .NET, aby bez wysiłku scalać, dzielić, zmieniać układ i zarządzać dokumentami. Opanuj manipulację dokumentami dzięki szczegółowym przykładom i eksperckim wskazówkom.
-is_root: true
+"description": "Zapoznaj się z samouczkami krok po kroku dotyczącymi GroupDocs.Merger dla platformy .NET, aby bezproblemowo scalać, dzielić, zmieniać kolejność i zarządzać dokumentami. Opanuj manipulację dokumentami dzięki szczegółowym przykładom i poradom ekspertów."
+"is_root": true
+"linktitle": "Samouczki GroupDocs.Merger dla platformy .NET"
+"title": "Samouczki i przykłady GroupDocs.Merger dla .NET"
+"url": "/pl/merger/net/"
+"weight": 10
 ---
+
 ### [Scalanie i kompresowanie plików za pomocą GroupDocs Merger .NET](./merge-and-compress-files/)
-Łatwe łączenie i kompresowanie plików w aplikacjach .NET za pomocą GroupDocs.Merger. Przeglądaj samouczki dotyczące łączenia plików TAR i ZIP krok po kroku.
+Łatwo scalaj i kompresuj pliki w aplikacjach .NET dzięki GroupDocs.Merger. Zapoznaj się z samouczkami krok po kroku dotyczącymi scalania plików TAR i ZIP.
 ### [Przewodnik po scalaniu dokumentów](./guide-to-document-merging/)
-asily scal dokumenty z GroupDocs.Merger dla .NET. Poznaj samouczki krok po kroku dotyczące skutecznego scalania plików DOC i PDF.
+Łatwe scalanie dokumentów dzięki GroupDocs.Merger dla .NET. Zapoznaj się z samouczkami krok po kroku, które pomogą Ci skutecznie scalać pliki DOC i PDF.

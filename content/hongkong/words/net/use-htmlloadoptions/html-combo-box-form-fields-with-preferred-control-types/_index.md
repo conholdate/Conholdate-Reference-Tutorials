@@ -9,7 +9,7 @@
 
 ## 介紹
 
-在動態文件自動化領域，將 HTML 內容無縫整合到 Word 文件中是一項常見的挑戰。使用 Aspose.Words for .NET，我們可以精確地操作 HTML 並將其渲染到 Word 文件中。本指南探討如何使用 HTML 載入選項來控制組合框表單欄位的插入方式，以確保精確的渲染和功能。
+在文件自動化的動態世界中，將 HTML 內容無縫整合到 Word 文件中是一個常見的挑戰。使用 Aspose.Words for .NET，我們可以精確地操作 HTML 並將其呈現為 Word 文件。本指南探討如何使用 HTML 載入選項來控制組合框表單欄位的插入方式，以確保精確的渲染和功能。
 
 ## 先決條件
 
@@ -36,7 +36,7 @@ using Aspose.Words.Loading;
 
 ## 步驟 1：定義 HTML 內容
 
-準備包含要插入的組合框表單欄位的 HTML 程式碼片段。以下是範例：
+準備包含您想要插入的組合框表單欄位的 HTML 程式碼片段。以下是一個例子：
 
 ```csharp
 const string html = @"
@@ -52,7 +52,7 @@ const string html = @"
 
 ## 步驟2：指定文檔目錄
 
-識別並定義文件的儲存目錄路徑。使用集中式目錄可以簡化檔案管理。
+識別並定義將儲存文件的目錄路徑。使用集中目錄簡化了檔案管理。
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
@@ -62,7 +62,7 @@ string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 
 ## 步驟3：設定HTML載入選項
 
-這 `HtmlLoadOptions` Aspose.Words 中的類別可讓我們指定如何解釋 HTML 內容。為了確保組合方塊呈現為結構化文件標籤，請執行以下操作：
+這 `HtmlLoadOptions` Aspose.Words 中的類別可讓我們指定如何解釋 HTML 內容。為了確保組合方塊呈現為結構化文件標籤：
 
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions
@@ -75,7 +75,7 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions
 
 ## 步驟 4：將 HTML 載入到 Word 文件中
 
-將 HTML 字串轉換為位元組流並將其載入到 `Document` 對象。這種方法可確保準確解析和呈現 HTML。
+將 HTML 字串轉換為位元組流並將其載入到 `Document` 目的。這種方法可確保準確解析和呈現 HTML。
 
 ```csharp
 Document doc = new Document(
@@ -96,7 +96,7 @@ doc.Save(dataDir + "ComboBoxFormField.docx", SaveFormat.Docx);
 
 ## 結論
 
-使用 Aspose.Words for .NET 將 HTML 內容（尤其是組合框等表單欄位）合併到 Word 文件中非常簡單，只需利用 `HtmlLoadOptions`。本指南將為您提供控制這些元素呈現方式的知識，確保您的文件符合使用者和專案要求。
+使用 Aspose.Words for .NET 將 HTML 內容（尤其是組合框等表單欄位）合併到 Word 文件中非常簡單，只需利用 `HtmlLoadOptions`。本指南為您提供控制這些元素呈現方式的知識，確保您的文件符合使用者和專案要求。
 
 ## 常見問題解答
 

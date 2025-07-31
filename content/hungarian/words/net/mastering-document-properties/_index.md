@@ -27,7 +27,7 @@ biztonság és az adatvédelem kritikus fontosságú a bizalmas dokumentumok kez
 
 A mértékegységek jelentős szerepet játszanak a dokumentumok formázásában, különösen a margók, fejlécek és láblécek esetében. Ebben az oktatóanyagban megismerheti, hogyan teszi lehetővé az Aspose.Words for .NET a különböző mértékegységek, például hüvelyk, centiméter és pont közötti egyszerű átváltást. Akár nemzetközi projekteken dolgozik, akár a dokumentum elrendezésének egységességére törekszik, ez az útmutató segít könnyedén elsajátítani a mértékegység-átváltásokat. [További információ](./converting-between-measurement-units/).
 
- ## Dokumentumtulajdonságok elsajátítása – Oktatóanyagok
+ ## Dokumentumtulajdonságok elsajátítása oktatóanyagok
 | Cím | Leírás |
 | --- | --- |
 | [Egyéni dokumentumtulajdonságok hozzáadása Wordben](./adding-custom-document-properties-in-word/) | Ismerje meg, hogyan gazdagíthatja Word-dokumentumait egyéni dokumentumtulajdonságokkal az Aspose.Words for .NET használatával. Ez az átfogó útmutató végigvezeti Önt a folyamaton. |

@@ -9,7 +9,7 @@
 
 ## Wstęp
 
-Nagłówki wiadomości e-mail to kluczowe elementy każdej wiadomości, zawierające istotne metadane, takie jak adresy nadawcy i odbiorcy, tematy wiadomości, typy treści i znaczniki czasu. Zrozumienie i umiejętne posługiwanie się tymi nagłówkami jest kluczowe dla programistów, którzy chcą ulepszyć funkcjonalność wiadomości e-mail w swoich aplikacjach. Ten przewodnik zgłębia znaczenie nagłówków wiadomości e-mail i wyjaśnia, jak efektywnie z nimi pracować, korzystając z biblioteki Aspose.Email for .NET.
+Nagłówki wiadomości e-mail to kluczowe elementy każdej wiadomości e-mail, zawierające istotne metadane, takie jak adresy nadawcy i odbiorcy, tematy wiadomości, typy treści i znaczniki czasu. Zrozumienie i umiejętne posługiwanie się tymi nagłówkami jest kluczowe dla programistów, którzy chcą ulepszyć funkcjonalność wiadomości e-mail w swoich aplikacjach. Ten przewodnik zgłębia znaczenie nagłówków wiadomości e-mail i wyjaśnia, jak efektywnie z nimi pracować, korzystając z biblioteki Aspose.Email for .NET.
 
 ## Znaczenie nagłówków wiadomości e-mail
 
@@ -17,7 +17,7 @@ Nagłówki wiadomości e-mail spełniają kilka istotnych funkcji, w tym:
 
 - Trasowanie: Nagłówki kontrolują ścieżkę dostarczania, kierując wiadomości e-mail od nadawcy do odbiorcy.
 - Uwierzytelnianie: Nagłówki takie jak DKIM (DomainKeys Identified Mail) i SPF (Sender Policy Framework) pomagają weryfikować autentyczność wiadomości e-mail, zapewniając ochronę przed spamem.
-- Wiersz tematu: `Subject` Nagłówek udostępnia odbiorcom wartościowy kontekst dotyczący zawartości wiadomości e-mail jeszcze przed jej otwarciem.
+- Temat wiadomości: `Subject` Nagłówek udostępnia odbiorcom wartościowy kontekst dotyczący zawartości wiadomości e-mail jeszcze przed jej otwarciem.
 - Obsługa odpowiedzi: Nagłówki takie jak `Reply-To` upewnij się, że odpowiedzi są kierowane na właściwe adresy.
 
 ## Wprowadzenie do Aspose.Email dla .NET
@@ -91,7 +91,7 @@ message.Headers.Add("Received-SPF", "pass");
 
 ## Wniosek
 
-Zrozumienie i skonfigurowanie nagłówków wiadomości e-mail za pomocą Aspose.Email for .NET jest kluczowe dla tworzenia efektywnych aplikacji pocztowych. Dzięki wiedzy zdobytej w tym przewodniku programiści mogą wykorzystać potencjał nagłówków wiadomości e-mail, aby usprawnić routing, bezpieczeństwo i ogólne zaangażowanie użytkowników. Modyfikując nagłówki zgodnie z konkretnymi potrzebami, możesz zapewnić, że Twoje wiadomości e-mail będą skutecznie spełniać swoje cele.
+Zrozumienie i konfiguracja nagłówków wiadomości e-mail za pomocą Aspose.Email for .NET jest kluczowa dla tworzenia efektywnych aplikacji pocztowych. Dzięki wiedzy zdobytej w tym przewodniku programiści mogą wykorzystać potencjał nagłówków wiadomości e-mail do usprawnienia routingu, bezpieczeństwa i ogólnego zaangażowania użytkowników. Modyfikując nagłówki zgodnie z konkretnymi potrzebami, możesz zapewnić, że Twoje wiadomości e-mail będą skutecznie spełniać swoje cele.
 
 ## Najczęściej zadawane pytania
 

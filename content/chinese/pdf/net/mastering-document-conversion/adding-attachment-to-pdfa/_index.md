@@ -97,7 +97,7 @@ doc.Convert(dataDir + "log.txt", Aspose.Pdf.PdfFormat.PDF_A_3A, ConvertErrorActi
 
 **为什么选择 PDF/A-3A？** 它是最灵活的 PDF/A 附件格式。PDF/A-1 和 PDF/A-2 对嵌入文件有限制，但 PDF/A-3A 允许附加任何文件类型，同时保持档案合规性。
 
-### 步骤5：保存带有附件的PDF / A文档
+### 步骤 5：保存带有附件的 PDF/A 文档
 
 ```csharp
 doc.Save(dataDir + "AddAttachmentToPDFA_out.pdf");

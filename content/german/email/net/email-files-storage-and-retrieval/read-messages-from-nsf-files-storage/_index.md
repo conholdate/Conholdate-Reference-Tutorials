@@ -85,7 +85,7 @@ foreach (MailMessage eml in nsf.EnumerateMessages())
 
 Jedes Nachrichtenobjekt enthält verschiedene Eigenschaften wie `Subject`, `From`, `To`, Und `Body`.
 
-## Schritt 5: Anzeigen der Nachrichtenbetreffs
+## Schritt 5: Anzeigen der Nachrichtenthemen
 
 Geben Sie abschließend den Betreff jeder E-Mail an die Konsole aus. So können Sie überprüfen, ob das Programm wie erwartet funktioniert.
 

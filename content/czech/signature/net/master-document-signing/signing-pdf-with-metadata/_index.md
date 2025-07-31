@@ -1,26 +1,27 @@
 ---
-title: Průvodce podepisováním souborů PDF pomocí metadat pomocí GroupDocs.Signature
-linktitle: Průvodce podepisováním PDF pomocí metadat
-second_title: GroupDocs.Signature .NET API
-description: Naučte se, jak posílit vaše dokumenty PDF pomocí vylepšeného zabezpečení a sledovatelnosti jejich podepsáním pomocí metadat pomocí GroupDocs.Signature for .NET. Tento komplexní tutoriál poskytuje jasné.
-weight: 11
-url: /cs/signature/master-document-signing/signing-pdf-with-metadata/
+"description": "Naučte se, jak posílit zabezpečení a sledovatelnost dokumentů PDF jejich podepsáním metadaty pomocí nástroje GroupDocs.Signature pro .NET. Tento komplexní tutoriál poskytuje jasný návod."
+"linktitle": "Průvodce podepisováním PDF souborů pomocí metadat"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "Průvodce podepisováním PDF souborů metadaty pomocí GroupDocs.Signature"
+"url": "/cs/signature/net/master-document-signing/signing-pdf-with-metadata/"
+"weight": 11
 ---
+
 ## Zavedení
 
-tomto tutoriálu se naučíme, jak podepsat dokument PDF a přidat metadata pomocí GroupDocs.Signature for .NET. Přidáním metadat vylepšíte dokument poskytnutím základních informací, jako je autorství, datum vytvoření, ID dokumentu a další.
+tomto tutoriálu se naučíme, jak podepsat PDF dokument a přidat metadata pomocí GroupDocs.Signature pro .NET. Přidání metadat vylepší dokument poskytnutím důležitých informací, jako je autorství, datum vytvoření, ID dokumentu a další.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující:
 
-1.  GroupDocs.Signature pro .NET: Stáhněte si ji z[zde](https://releases.groupdocs.com/signature/net/).
-2. Dokument PDF: Připravte si vzorový soubor PDF k podpisu.
-3. Základní znalost programování v C#: Pro pochopení příkladů kódu je nezbytná znalost syntaxe C#.
+1. GroupDocs.Signature pro .NET: Stáhněte si jej z [zde](https://releases.groupdocs.com/signature/net/).
+2. Dokument PDF: Mějte připravený vzorový soubor PDF k podpisu.
+3. Základní znalost programování v C#: Znalost syntaxe C# je nezbytná pro pochopení příkladů kódu.
 
 ## Importovat jmenné prostory
 
-Začněte importem požadovaných jmenných prostorů, abyste získali přístup k nezbytným třídám a metodám:
+Začněte importem požadovaných jmenných prostorů pro přístup k potřebným třídám a metodám:
 
 ```csharp
 using System;
@@ -32,7 +33,7 @@ using GroupDocs.Signature.Options;
 
 ## Krok 1: Načtěte dokument PDF
 
-Zadejte cestu k dokumentu PDF, který chcete podepsat:
+Zadejte cestu k PDF dokumentu, který chcete podepsat:
 
 ```csharp
 string filePath = "sample.pdf";
@@ -40,7 +41,7 @@ string filePath = "sample.pdf";
 
 ## Krok 2: Zadejte cestu k výstupnímu souboru
 
-Definujte, kam se podepsaný PDF s metadaty uloží:
+Definujte, kam bude uložen podepsaný PDF soubor s metadaty:
 
 ```csharp
 string outputFilePath = Path.Combine("Your Document Directory", "SignPdfWithMetadata", "SignedWithMetadata.pdf");
@@ -48,33 +49,33 @@ string outputFilePath = Path.Combine("Your Document Directory", "SignPdfWithMeta
 
 ## Krok 3: Vytvořte instanci podpisu
 
- Inicializovat a`Signature` instance s cestou k dokumentu PDF:
+Inicializovat `Signature` instance s cestou k PDF dokumentu:
 
 ```csharp
 using (Signature signature = new Signature(filePath))
 {
-    // Sem bude umístěn kód související s podpisem
+    // Zde bude uveden kód související s podpisem
 }
 ```
 
-## Krok 4: Definujte možnosti metadat
+## Krok 4: Definování možností metadat
 
- Vytvořit`MetadataSignOptions` a přidejte pole metadat spolu s jejich hodnotami:
+Vytvořit `MetadataSignOptions` a přidejte pole metadat spolu s jejich hodnotami:
 
 ```csharp
 MetadataSignOptions options = new MetadataSignOptions();
 options
-    .Add(new PdfMetadataSignature("Author", "Mr. Sherlock Holmes")) // Hodnota řetězce
-    .Add(new PdfMetadataSignature("CreatedOn", DateTime.Now))       // Hodnota DateTime
+    .Add(new PdfMetadataSignature("Author", "Mr. Sherlock Holmes")) // Řetězcová hodnota
+    .Add(new PdfMetadataSignature("CreatedOn", DateTime.Now))       // Hodnota data a času
     .Add(new PdfMetadataSignature("DocumentId", 123456))            // Celočíselná hodnota
-    .Add(new PdfMetadataSignature("SignatureId", 123.456D))         // Dvojnásobná hodnota
+    .Add(new PdfMetadataSignature("SignatureId", 123.456D))         // Dvojitá hodnota
     .Add(new PdfMetadataSignature("Amount", 123.456M))              // Desetinná hodnota
-    .Add(new PdfMetadataSignature("Total", 123.456F));              // Plovoucí hodnota
+    .Add(new PdfMetadataSignature("Total", 123.456F));              // Hodnota s plovoucí desetinnou čárkou
 ```
 
 ## Krok 5: Podepište dokument
 
-Podepište dokument PDF pomocí zadaných možností metadat a uložte podepsaný dokument:
+Podepište dokument PDF se zadanými možnostmi metadat a uložte podepsaný dokument:
 
 ```csharp
 SignResult result = signature.Sign(outputFilePath, options);
@@ -83,26 +84,26 @@ Console.WriteLine($"\nSource document signed successfully with {result.Succeeded
 
 ## Závěr
 
-V tomto tutoriálu jsme probrali, jak podepsat dokument PDF s metadaty pomocí GroupDocs.Signature for .NET. Pomocí těchto kroků můžete snadno obohatit své soubory PDF o cenná metadata, zlepšit jejich sledovatelnost a užitečnost.
+V tomto tutoriálu jsme se popsali, jak podepsat PDF dokument metadaty pomocí GroupDocs.Signature pro .NET. Dodržením těchto kroků můžete snadno obohatit své PDF soubory o cenná metadata, čímž zlepšíte jejich sledovatelnost a užitečnost.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu do svých dokumentů PDF přidat vlastní pole metadat?
+### Mohu do svých PDF dokumentů přidat vlastní pole metadat?
 
-Ano, můžete přidat vlastní pole metadat zadáním názvu pole a jeho odpovídající hodnoty pomocí GroupDocs.Signature for .NET.
+Ano, můžete přidat vlastní pole metadat zadáním názvu pole a jeho odpovídající hodnoty pomocí GroupDocs.Signature pro .NET.
 
-### Je GroupDocs.Signature for .NET kompatibilní se všemi verzemi rozhraní .NET Framework?
+### Je GroupDocs.Signature pro .NET kompatibilní se všemi verzemi .NET Frameworku?
 
-GroupDocs.Signature for .NET je kompatibilní s různými verzemi rozhraní .NET Framework, což zajišťuje flexibilitu a snadnou integraci.
+GroupDocs.Signature pro .NET je kompatibilní s různými verzemi .NET Frameworku, což zajišťuje flexibilitu a snadnou integraci.
 
-### Podporuje GroupDocs.Signature podepisování jiných formátů dokumentů kromě PDF?
+### Podporuje GroupDocs.Signature podepisování i jiných formátů dokumentů než PDF?
 
 Ano, GroupDocs.Signature podporuje širokou škálu formátů dokumentů, včetně Wordu, Excelu, PowerPointu a dalších.
 
-### Mohu hromadně podepsat více dokumentů pomocí GroupDocs.Signature for .NET?
+### Mohu hromadně podepsat více dokumentů pomocí GroupDocs.Signature pro .NET?
 
-Absolutně! Můžete hromadně podepsat více dokumentů procházením seznamu souborů a programovým použitím procesu podpisu.
+Rozhodně! Více dokumentů můžete podepsat hromadně iterací seznamu souborů a programově aplikovat proces podpisu.
 
-### Je pro uživatele GroupDocs.Signature k dispozici technická podpora?
+### Je technická podpora k dispozici pro uživatele GroupDocs.Signature?
 
- Ano, GroupDocs poskytuje specializovanou technickou podporu prostřednictvím svých fór. Můžete vstoupit do fóra podpory[zde](https://forum.groupdocs.com/c/signature/13).
+Ano, GroupDocs poskytuje specializovanou technickou podporu prostřednictvím svých fór. Můžete se připojit k fóru podpory. [zde](https://forum.groupdocs.com/c/signature/13).

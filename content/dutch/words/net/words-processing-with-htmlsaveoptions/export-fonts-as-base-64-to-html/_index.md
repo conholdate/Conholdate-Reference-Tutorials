@@ -1,5 +1,5 @@
 ---
-"description": "Leer hoe je moeiteloos lettertypen als Base 64 in HTML-bestanden kunt insluiten met Aspose.Words voor .NET. Deze stapsgewijze handleiding helpt je een consistente weergave van lettertypen te garanderen in verschillende browsers en platforms."
+"description": "Leer hoe u moeiteloos lettertypen als Base 64 in HTML-bestanden kunt insluiten met Aspose.Words voor .NET. Deze stapsgewijze handleiding helpt u bij het garanderen van een consistente weergave van lettertypen in verschillende browsers en platforms."
 "linktitle": "Lettertypen exporteren als Base 64 naar HTML"
 "second_title": "Aspose.Words API voor documentverwerking"
 "title": "Exporteer lettertypen als Base 64 naar HTML met Aspose.Words voor .NET"
@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Als het gaat om het programmatisch bewerken van Word-documenten, onderscheidt Aspose.Words voor .NET zich door zijn krachtige functies. Een van de meest handige mogelijkheden is de mogelijkheid om lettertypen als Base64 te exporteren binnen HTML-bestanden. Dit zorgt ervoor dat lettertypen direct in de HTML worden ingesloten, wat zorgt voor een consistente weergave in verschillende browsers en systemen. In deze handleiding leggen we uit hoe je dit effectief kunt bereiken. Laten we beginnen!
+Als het gaat om het programmatisch bewerken van Word-documenten, onderscheidt Aspose.Words voor .NET zich door zijn krachtige functies. Een van de meest handige mogelijkheden is de mogelijkheid om lettertypen als Base64 te exporteren binnen HTML-bestanden. Dit zorgt ervoor dat lettertypen direct in de HTML-code worden ingesloten, wat zorgt voor een consistente weergave in verschillende browsers en systemen. In deze handleiding leggen we uit hoe je dit effectief kunt bereiken. Laten we beginnen!
 
 ## Vereisten
 
@@ -17,7 +17,7 @@ Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
 - Aspose.Words voor .NET-bibliotheek: Download het van de [Aspose-releases](https://releases.aspose.com/words/net/) pagina.
 - .NET-ontwikkelomgeving: u kunt elke IDE gebruiken, maar Visual Studio wordt aanbevolen vanwege de uitgebreide functies.
-- Basiskennis van C#: Kennis van C# helpt u de aangeleverde codefragmenten te begrijpen.
+- Basiskennis van C#: Kennis van C# helpt u de aangeboden codefragmenten te begrijpen.
 
 ## Naamruimten importeren
 
@@ -54,7 +54,7 @@ Vervolgens laden we het Word-document waaruit u lettertypen wilt exporteren.
 
 ### 2.1 Definieer de documentdirectory
 
-Stel het pad naar uw documentenmap in:
+Stel het pad naar uw documentmap in:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -72,7 +72,7 @@ Document doc = new Document(dataDir + "Rendering.docx");
 
 Zorg ervoor dat `Rendering.docx` bevindt zich in de door u opgegeven directory.
 
-## Stap 3: Configureer HTML-opslagopties
+## Stap 3: HTML-opslagopties configureren
 
 Om de lettertypen als Base64 te exporteren, moet u de volgende instellingen configureren: `HtmlSaveOptions`:
 
@@ -91,7 +91,7 @@ Sla het document nu op met de geconfigureerde opties:
 doc.Save(dataDir + "ExportedFontsAsBase64.html", saveOptions);
 ```
 
-Met deze opdracht slaat u uw document op als een HTML-bestand met Base64-lettertypen, zodat ze in elke browser correct worden weergegeven.
+Met deze opdracht wordt uw document opgeslagen als een HTML-bestand met Base64-lettertypen, zodat ze in elke browser correct worden weergegeven.
 
 ## Conclusie
 
@@ -105,11 +105,11 @@ Base64 is een methode om binaire gegevens (zoals lettertypen) te coderen naar ee
 
 ### Waarom moet ik Base64 gebruiken voor lettertypen in HTML?
 
-Door lettertypen in te sluiten als Base64, worden ze direct in de HTML opgenomen. Hierdoor is er minder kans dat lettertypebestanden ontbreken bij weergave op verschillende platforms, en profiteert u van een consistente gebruikerservaring.
+Door lettertypen in te sluiten als Base64, worden ze direct in de HTML opgenomen. Hierdoor is er minder kans dat lettertypebestanden ontbreken bij weergave op verschillende platforms en profiteert u van een consistente gebruikerservaring.
 
 ### Kan ik deze methode gebruiken voor andere bronnen, zoals afbeeldingen?
 
-Jazeker! Aspose.Words voor .NET ondersteunt het insluiten van diverse bronnen, waaronder afbeeldingen, als Base64 in HTML-bestanden.
+Ja! Aspose.Words voor .NET ondersteunt het insluiten van diverse bronnen, waaronder afbeeldingen, als Base64 in HTML-bestanden.
 
 ### Wat als mijn document meerdere lettertypen heeft?
 
@@ -117,4 +117,4 @@ Aspose.Words voor .NET verwerkt alle lettertypen die in uw document worden gebru
 
 ### Is Aspose.Words voor .NET gratis te gebruiken?
 
-Aspose.Words voor .NET is een commerciële bibliotheek, maar er is een gratis proefversie beschikbaar op de [Aspose-releases](https://releases.aspose.com/) pagina, zodat u de functies kunt testen voordat u tot aankoop overgaat.
+Aspose.Words voor .NET is een commerciële bibliotheek, maar er is een gratis proefversie beschikbaar op de [Aspose-releases](https://releases.aspose.com/) pagina, zodat u de functies ervan kunt testen voordat u tot aankoop overgaat.

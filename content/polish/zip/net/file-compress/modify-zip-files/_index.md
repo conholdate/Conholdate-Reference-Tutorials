@@ -1,22 +1,23 @@
 ---
-title: Modyfikuj pliki ZIP za pomocą Aspose.Zip dla .NET
-linktitle: Modyfikuj pliki ZIP
-second_title: Aspose.Zip .NET API do kompresji i archiwizacji plików
-description: Dowiedz się, jak efektywnie wyodrębniać, usuwać i dodawać wpisy do plików zip za pomocą programów, zwiększając w ten sposób swoje możliwości manipulowania plikami.
-weight: 15
-url: /pl/zip/file-compress/modify-zip-files/
+"description": "Dowiedz się, jak efektywnie wyodrębniać, usuwać i dodawać wpisy do plików ZIP za pomocą programów, zwiększając w ten sposób możliwości manipulowania plikami."
+"linktitle": "Modyfikuj pliki ZIP"
+"second_title": "Aspose.Zip .NET API do kompresji i archiwizacji plików"
+"title": "Modyfikuj pliki ZIP za pomocą Aspose.Zip dla .NET"
+"url": "/pl/zip/net/file-compress/modify-zip-files/"
+"weight": 15
 ---
+
 ## Wstęp
 
-Pliki zip są niezbędne do organizacji i kompresji danych, ale jak programowo modyfikować ich zawartość? Rozwiązaniem jest Aspose.Zip dla .NET, solidna biblioteka, która upraszcza manipulację plikami zip za pomocą C#. W tym samouczku krok po kroku przeprowadzimy Cię przez wyodrębnianie, usuwanie i dodawanie wpisów do plików zip.
+Pliki ZIP są niezbędne do organizacji i kompresji danych, ale jak programowo modyfikować ich zawartość? Rozwiązaniem jest Aspose.Zip dla .NET, rozbudowana biblioteka, która upraszcza zarządzanie plikami ZIP za pomocą języka C#. W tym samouczku krok po kroku przeprowadzimy Cię przez proces wyodrębniania, usuwania i dodawania wpisów do plików ZIP.
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do konkretów, upewnij się, że masz następujące rzeczy:
 
-1.  Aspose.Zip dla biblioteki .NET: Zainstaluj bibliotekę w swoim projekcie. Możesz ją pobrać[Tutaj](https://releases.aspose.com/zip/net/).
+1. Aspose.Zip dla biblioteki .NET: Zainstaluj bibliotekę w swoim projekcie. Możesz ją pobrać. [Tutaj](https://releases.aspose.com/zip/net/).
    
-2.  Katalog dokumentów: Skonfiguruj katalog do przechowywania plików zip. Zastąp`"Your Document Directory"` w kodzie z rzeczywistą ścieżką.
+2. Katalog dokumentów: Skonfiguruj katalog do przechowywania plików ZIP. Zastąp `"Your Document Directory"` w kodzie ze swoją rzeczywistą ścieżką.
 
 ## Importuj niezbędne przestrzenie nazw
 
@@ -111,7 +112,7 @@ outer.Save(dataDir + "flatten.zip");
 
 ## Wniosek
 
-Aspose.Zip dla .NET zapewnia potężny i prosty sposób na programowe manipulowanie plikami zip. Ten samouczek obejmuje wyodrębnianie, usuwanie i dodawanie wpisów do pliku zip, ilustrując wszechstronność biblioteki. Poznaj różne scenariusze i zwiększ swoje umiejętności manipulowania plikami!
+Aspose.Zip dla .NET oferuje potężny i prosty sposób programistycznego zarządzania plikami ZIP. Ten samouczek omawiał rozpakowywanie, usuwanie i dodawanie wpisów do pliku ZIP, ilustrując wszechstronność biblioteki. Poznaj różne scenariusze i doskonal swoje umiejętności zarządzania plikami!
 
 ## Najczęściej zadawane pytania
 
@@ -119,13 +120,13 @@ Aspose.Zip dla .NET zapewnia potężny i prosty sposób na programowe manipulowa
 Aspose.Zip jest przeznaczony przede wszystkim dla aplikacji .NET, ale Aspose oferuje podobne biblioteki dla różnych języków programowania.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Zip dla .NET?
- Tak, bezpłatna wersja próbna jest dostępna do pobrania[Tutaj](https://releases.aspose.com/).
+Tak, bezpłatna wersja próbna jest dostępna do pobrania [Tutaj](https://releases.aspose.com/).
 
-### Jak uzyskać pomoc techniczną dotyczącą Aspose.Zip dla platformy .NET?
- Odwiedź[Forum Aspose.Zip](https://forum.aspose.com/c/zip/37) w celu uzyskania wsparcia i dyskusji.
+### Jak uzyskać pomoc techniczną dotyczącą Aspose.Zip dla .NET?
+Odwiedź [Forum Aspose.Zip](https://forum.aspose.com/c/zip/37) w celu uzyskania wsparcia i dyskusji.
 
-### Czy mogę kupić tymczasową licencję na Aspose.Zip dla platformy .NET?
-Tak, możesz uzyskać tymczasową licencję[Tutaj](https://purchase.conholdate.com/temporary-license/).
+### Czy mogę kupić tymczasową licencję Aspose.Zip dla .NET?
+Tak, możesz uzyskać tymczasową licencję [Tutaj](https://purchase.conholdate.com/temporary-license/).
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Zip dla .NET?
- Pełna dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/zip/net/).
+Pełna dokumentacja jest dostępna [Tutaj](https://reference.aspose.com/zip/net/).

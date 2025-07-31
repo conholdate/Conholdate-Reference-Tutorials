@@ -13,7 +13,7 @@
 
 Fedezze fel az Aspose.PDF for .NET átfogó képességeit kiterjedt oktatóanyag-gyűjteményünk segítségével. Az alapvető dokumentumkonvertálásoktól a fejlett interaktív funkciókig megtudhatja, hogyan hozhat létre kifinomult PDF-feldolgozó alkalmazásokat, amelyek megfelelnek a vállalati követelményeknek.
 
-## 🚀 Amit Elérhetsz
+## 🚀 Amit elérhetsz
 
 **Aspose.PDF .NET-hez** egy hatékony PDF-feldolgozó könyvtár, amely lehetővé teszi a fejlesztők számára PDF-dokumentumok létrehozását, szerkesztését, konvertálását és kezelését Adobe Acrobat nélkül. Kiterjedt formátumtámogatásával és fejlett funkcióival teljes körű megoldást kínál a PDF-automatizálásra és a dokumentumkezelésre.
 
@@ -34,7 +34,7 @@ Különböző fájlformátumokat konvertálhat PDF-be és PDF-ből professzioná
 | **[EPUB konvertálása PDF-be](./mastering-document-conversion/convert-epub-to-pdf/)** | E-könyvek PDF formátumba konvertálása az univerzális kompatibilitás érdekében | ⭐ Kezdő |
 | **[HTML PDF-ből való átírásának elsajátítása](./mastering-document-conversion/mastering-html-to-pdf/)** | Webtartalom PDF-be konvertálása fejlett formázási támogatással | ⭐⭐ Középhaladó |
 | **[CGM PDF-be konvertálása](./mastering-document-conversion/convert-cgm-to-pdf/)** | Számítógépes grafikai metafájl PDF-be átalakítása | ⭐⭐ Középhaladó |
-| **[Mellékletek hozzáadása PDF/A fájlhoz](./mastering-document-conversion/adding-attachment-to-pdfa/)** | Archívumi szabványoknak megfelelő dokumentummellékletek | ⭐⭐⭐ Speciális |
+| **[Mellékletek hozzáadása PDF/A fájlhoz](./mastering-document-conversion/adding-attachment-to-pdfa/)** Archívumi szabványoknak megfelelő dokumentummellékletek | ⭐⭐⭐ Speciális |
 
 ### PDF dokumentumprogramozás mesterfokon
 Fejlett PDF programozási technikák kifinomult dokumentummegoldások létrehozásához.
@@ -52,7 +52,7 @@ Alapvető PDF oldalműveletek a dokumentumok rendszerezéséhez és szerkezetén
 | Oktatóanyag | Leírás | Nehézség |
 |-----------|--------------|-------------|
 | **[PDF oldal tájolásának módosítása](./master-pdf-page-management/change-pdf-page-orientation/)** | Az oldal elrendezésének és tájolásának beállítása az optimális dokumentummegjelenítéshez | ⭐ Kezdő |
-| **[PDF fájlok összefűzése](./master-pdf-page-management/concatenating-pdf-files/)** Több PDF dokumentum egyesítése egyetlen összefüggő fájllá | ⭐⭐ Középhaladó |
+| **[PDF fájlok összefűzése](./master-pdf-page-management/concatenating-pdf-files/)** | Több PDF dokumentum egyesítése egyetlen összefüggő fájllá | ⭐⭐ Középhaladó |
 | **[Adott oldal törlése PDF fájlokból](./master-pdf-page-management/delete-particular-page-from-pdf-files/)** | Adott oldalak hatékony eltávolítása PDF dokumentumokból | ⭐ Kezdő |
 | **[Üres oldalak beszúrása PDF fájlba](./master-pdf-page-management/insert-empty-pages/)** | Üres oldalak hozzáadása a tartalom rendszerezéséhez és a térközök beállításához | ⭐ Kezdő |
 | **[Üres oldal hozzáadása a végére](./master-pdf-page-management/adding-an-empty-page-at-end/)** | Üres oldalak hozzáfűzése PDF dokumentumokhoz programozottan | ⭐ Kezdő |
@@ -67,7 +67,7 @@ Alapvető PDF oldalműveletek a dokumentumok rendszerezéséhez és szerkezetén
 ### **Interaktív dokumentumkészítés**
 - **Űrlapfejlesztés**Dinamikus PDF űrlapok érvényesítéssel és számításokkal
 - **Digitális aláírások**Biztonságos dokumentumaláírás és hitelesítés
-- **Multimédia integráció**Multimédiás tartalom PDF dokumentumokban
+- **Multimédia integráció**: Multimédiás tartalom PDF dokumentumokban
 
 ### **Webből PDF-be konvertáló megoldások**
 - **HTML konverzió**: Webes tartalom átalakítása PDF formátumba offline hozzáféréshez
@@ -113,7 +113,7 @@ Alapvető PDF oldalműveletek a dokumentumok rendszerezéséhez és szerkezetén
 ### **Biztonság és megfelelőség**
 - **Digitális aláírások** - Dokumentumok hitelesítése és integritása
 - **Titkosítás** - Jelszóvédelem és hozzáférés-vezérlés
-- **PDF/A szabványok** - Hosszú távú archiválási megfelelőség
+- **PDF/A szabványok** Hosszú távú archiválási megfelelőség
 
 ### **Dokumentumfejlesztés**
 - **Vízjelek** - Márkavédelem és dokumentumjelölés

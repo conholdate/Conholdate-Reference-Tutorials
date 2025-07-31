@@ -40,7 +40,7 @@ Avancerad e-postinnehållsbehandling och intelligenta analystekniker för säker
 | Handledning | Beskrivning | Svårighetsgrad |
 |----------|-------------|------------|
 | **[Bayesiansk skräppostanalys i C#](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Maskininlärningsbaserad skräppostdetektering med statistisk analys | ⭐⭐⭐ Avancerat |
-| **[Konvertera HTML-e-post till vanlig text](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Extrahera rent textinnehåll från HTML-mejl | ⭐⭐ Medel |
+| **[Konvertera HTML-e-post till vanlig text](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Extrahera rent textinnehåll från HTML-mejl | ⭐⭐ Medel |
 
 ### Bemästra e-postmeddelanden och spårning
 Professionella e-postaviseringssystem och spårningsimplementeringar för företagsapplikationer.
@@ -122,10 +122,10 @@ Professionella e-postaviseringssystem och spårningsimplementeringar för föret
 - **Kryptering** - Säker e-postkommunikation och dataskydd
 
 ### **Analys och rapportering**
-- **E-postspårning** - Leveransbekräftelse och läskvitton
+- **E-postspårning** Leveransbekräftelse och läskvitton
 - **Innehållsanalys** - Textutvinning och e-postklassificering
 - **Prestandamätningar** - Övervakning och analys av e-postsystem
-- **Efterlevnadsrapportering** Regelefterlevnad och revisionsloggar
+- **Efterlevnadsrapportering** - Regelefterlevnad och revisionsloggar
 
 ## 🔗 Ytterligare resurser
 

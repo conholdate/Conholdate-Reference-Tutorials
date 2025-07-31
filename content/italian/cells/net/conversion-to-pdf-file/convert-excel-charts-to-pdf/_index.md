@@ -113,7 +113,7 @@ Questo codice accede al primo foglio di lavoro (indice 0). Se il grafico si trov
 // Foglio di lavoro worksheet = workbook.Worksheets["ChartSheet"];
 ```
 
-## Passaggio 4: seleziona il grafico da convertire
+## Passaggio 4: selezionare il grafico da convertire
 
 È il momento di selezionare il grafico specifico che si desidera convertire. Proprio come i fogli di lavoro, i grafici sono indicizzati a partire da 0.
 
@@ -161,7 +161,7 @@ Vorrei condividere con voi alcuni dei problemi più comuni che potreste incontra
 Questo è probabilmente il problema principale che gli sviluppatori devono affrontare. Controlla attentamente i percorsi dei file e assicurati che il file Excel esista effettivamente nella posizione specificata. Valuta la possibilità di utilizzare `File.Exists()` per verificare che il file sia presente prima di provare a caricarlo.
 
 ### I grafici appaiono diversi in PDF
-A volte l'output PDF non corrisponde esattamente a ciò che si vede in Excel. Questo accade solitamente con:
+A volte l'output PDF non corrisponde esattamente a ciò che si vede in Excel. Questo di solito accade con:
 - Font personalizzati non installati sul server
 - Formattazione complessa del grafico che non si traduce perfettamente
 - Grafici molto grandi in scala ridotta
@@ -169,7 +169,7 @@ A volte l'output PDF non corrisponde esattamente a ciò che si vede in Excel. Qu
 ### Problemi di memoria con file di grandi dimensioni
 Se lavori con file Excel di grandi dimensioni o con molti grafici, potresti riscontrare problemi di memoria. Considera quanto segue:
 - Elaborazione dei grafici uno alla volta anziché caricare intere cartelle di lavoro
-- Utilizzo `using` dichiarazioni per garantire il corretto smaltimento degli oggetti
+- Utilizzando `using` dichiarazioni per garantire il corretto smaltimento degli oggetti
 - Aumentare l'allocazione di memoria dell'applicazione, se necessario
 
 ### Considerazioni sulle prestazioni

@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Words for .NET 新增密碼保護，以保障文件安全。本指南將全面指導您完成整個操作。"
+"description": "了解如何透過使用 Aspose.Words for .NET 新增密碼保護來保護您的文件。本綜合指南將引導您完成整個過程。"
 "linktitle": "使用密碼保護加密文檔"
 "second_title": "Aspose.Words文件處理API"
 "title": "使用密碼保護加密文檔"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-在當今的數位世界中，保護敏感資訊至關重要。無論是個人筆記還是機密的商業文檔，使用密碼保護文件都是明智之舉。 Aspose.Words for .NET 提供了一個簡單有效的文件加密方法。就像在您的日記上加了一把鎖——只有擁有鑰匙（或密碼）的人才能訪問裡面的內容。讓我們逐步了解如何使用 Aspose.Words 為文件設定密碼保護。
+在當今的數位世界中，保護敏感資訊至關重要。無論是個人筆記還是機密商業文件，使用密碼保護您的文件都是明智之舉。 Aspose.Words for .NET 提供了一種直接有效的方法來加密您的文件。你可以把它想像成給你的日記上了一把鎖——只有擁有鑰匙（或密碼）的人才能訪問裡面的內容。讓我們逐步了解使用 Aspose.Words 對文件進行密碼保護的過程。
 
 ## 先決條件
 
@@ -47,13 +47,13 @@ DocumentBuilder builder = new DocumentBuilder(doc); // 準備添加內容
 
 ## 第 2 步：新增內容
 
-現在，讓我們在文件中填入一些文字。來個經典的「Hello, World!」怎麼樣？
+現在，讓我們用一些文字填充我們的文件。經典的「Hello, World！」怎麼樣？
 
 ```csharp
 builder.Write("Hello, World!");
 ```
 
-- builder.Write("Hello, World!")：將文字「Hello, World!」加入您的文件。
+- builder.Write("Hello, World!")：新增文字「Hello, World!」到您的文件。
 
 ## 步驟3：設定密碼保護的儲存選項
 
@@ -64,7 +64,7 @@ DocSaveOptions saveOptions = new DocSaveOptions { Password = "yourPassword" }; /
 ```
 
 - DocSaveOptions saveOptions = new DocSaveOptions：建立 DocSaveOptions 的實例來儲存設定。
-- Password = "yourPassword"：指定用於保護文件的密碼。請記得將其替換為您常用的密碼。
+- 密碼 = “yourPassword”：分配密碼以保護文件。請記住將其替換為您喜歡的密碼。
 
 ## 步驟4：儲存文檔
 
@@ -79,18 +79,18 @@ doc.Save(dataDir + "EncryptedDocument.docx", saveOptions);
 
 ## 結論
 
-恭喜！您已成功學習如何使用 Aspose.Words for .NET 使用密碼加密文件。此過程可確保您的文件安全無虞，並且只有您信任的人才能存取。無論您處理的是重要的商業文件還是個人作品，設定密碼保護都是明智之舉。
+恭喜！您已成功了解如何使用 Aspose.Words for .NET 使用密碼加密文件。此過程可確保您的文件保持安全，並且只有您信任的人可以存取。無論您處理的是重要的商業文件還是個人著作，實施密碼保護都是明智的選擇。
 
 ## 常見問題解答
 
 ### 我可以使用不同類型的加密嗎？
-是的，Aspose.Words for .NET 支援多種加密方法。請查看 [文件](https://reference.aspose.com/words/net/) 了解更多詳情。
+是的，Aspose.Words for .NET 支援多種加密方法。檢查 [文件](https://reference.aspose.com/words/net/) 了解更多詳情。
 
 ### 如果我忘記了文檔密碼怎麼辦？
-遺憾的是，如果您忘記密碼，將無法存取該文件。請務必選擇一個您能記住的密碼，或妥善保管。
+遺憾的是，如果您忘記了密碼，將無法存取該文件。始終選擇您可以記住或安全儲存的密碼。
 
 ### 我可以更改現有文件的密碼嗎？
-當然！您可以載入現有文檔，並使用上述相同步驟，使用新密碼儲存。
+絕對地！您可以載入現有文件並使用上述相同步驟使用新密碼儲存它。
 
 ### 可以從文件中刪除密碼嗎？
 是的，您可以儲存文件而不指定密碼來刪除現有的保護。

@@ -53,7 +53,7 @@ using Aspose.Pdf.Forms;
 まず、最終的な PDF を保存するドキュメント ディレクトリへのパスを設定します。
 
 ```csharp
-string dataDir = "YOUR DOCUMENT DIRECTORY";  // あなたのパスに置き換えてください
+string dataDir = "YOUR DOCUMENT DIRECTORY";  // パスに置き換えてください
 ```
 
 ### 新しいドキュメントをインスタンス化する

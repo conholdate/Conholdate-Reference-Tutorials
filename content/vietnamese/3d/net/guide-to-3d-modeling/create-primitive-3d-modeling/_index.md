@@ -1,24 +1,25 @@
 ---
-title: Tạo mô hình 3D nguyên thủy
-linktitle: Tạo mô hình 3D nguyên thủy
-second_title: API Aspose.3D .NET
-description: Tìm hiểu cách tạo và tùy chỉnh các mô hình 3D nguyên thủy, bao gồm hộp và hình trụ, và lưu chúng ở định dạng FBX một cách dễ dàng.
-weight: 10
-url: /vi/3d/guide-to-3d-modeling/create-primitive-3d-modeling/
+"description": "Tìm hiểu cách tạo và tùy chỉnh các mô hình 3D nguyên thủy, bao gồm hộp và hình trụ, và lưu chúng ở định dạng FBX một cách dễ dàng."
+"linktitle": "Tạo mô hình 3D nguyên thủy"
+"second_title": "API Aspose.3D .NET"
+"title": "Tạo mô hình 3D nguyên thủy"
+"url": "/vi/3d/net/guide-to-3d-modeling/create-primitive-3d-modeling/"
+"weight": 10
 ---
+
 ## Giới thiệu
 
-Chào mừng đến với thế giới nhập vai của mô hình 3D sử dụng Aspose.3D cho .NET! Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn từng bước trong quy trình tạo mô hình 3D nguyên thủy. Cho dù bạn là nhà phát triển có kinh nghiệm hay người mới bắt đầu háo hức học hỏi, hướng dẫn này sẽ giúp bạn tạo ra các thành phần 3D tuyệt đẹp cho các dự án của mình.
+Chào mừng bạn đến với thế giới mô hình hóa 3D sống động bằng Aspose.3D cho .NET! Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn từng bước để tạo ra các mô hình 3D nguyên bản. Dù bạn là một lập trình viên giàu kinh nghiệm hay người mới bắt đầu ham học hỏi, hướng dẫn này sẽ giúp bạn tạo ra các yếu tố 3D ấn tượng cho dự án của mình.
 
 ## Điều kiện tiên quyết
 
-Trước khi bắt đầu tạo mô hình 3D, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
+Trước khi bắt đầu tạo mô hình 3D, hãy đảm bảo bạn đã đáp ứng các điều kiện tiên quyết sau:
 
--  Aspose.3D cho .NET: Tải xuống và cài đặt thư viện Aspose.3D cho .NET từ[trang tải xuống](https://releases.aspose.com/3d/net/).
+- Aspose.3D cho .NET: Tải xuống và cài đặt thư viện Aspose.3D cho .NET từ [trang tải xuống](https://releases.aspose.com/3d/net/).
   
 - Môi trường phát triển .NET: Thiết lập môi trường tương thích với Aspose.3D, chẳng hạn như Visual Studio.
 
-Khi đã chuẩn bị mọi thứ xong, chúng ta hãy bắt đầu cuộc phiêu lưu tạo mô hình 3D nhé!
+Sau khi đã chuẩn bị mọi thứ, chúng ta hãy bắt đầu cuộc phiêu lưu tạo mô hình 3D nhé!
 
 ## Nhập không gian tên bắt buộc
 
@@ -32,7 +33,7 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Formats;
 ```
 
-Các không gian tên này sẽ cung cấp cho bạn các công cụ cần thiết để thao tác với các mô hình 3D và lưu các sáng tạo của bạn.
+Những không gian tên này sẽ cung cấp cho bạn các công cụ cần thiết để thao tác với các mô hình 3D và lưu các sáng tạo của bạn.
 
 ## Bước 1: Khởi tạo đối tượng Scene
 
@@ -65,7 +66,7 @@ Bây giờ, hãy tăng cường cảnh của bạn bằng cách thêm một hìn
 scene.RootNode.CreateChildNode("cylinder", new Cylinder());
 ```
 
-Giống như hộp, bạn có thể thoải mái điều chỉnh các thông số của xi lanh để đạt được hình dáng mong muốn.
+Giống như hộp, bạn có thể thoải mái điều chỉnh các thông số của xi lanh để đạt được hình dạng mong muốn.
 
 ## Bước 4: Lưu cảnh ở định dạng FBX
 
@@ -92,7 +93,7 @@ Cảnh 3D gồm các mô hình nguyên thủy của bạn hiện đã hoàn tấ
 
 ## Phần kết luận
 
- Xin chúc mừng vì đã tạo ra các mô hình 3D tuyệt đẹp bằng Aspose.3D cho .NET! Hướng dẫn này đề cập đến những điều cơ bản về mô hình hóa nguyên thủy, nhưng khả năng là vô tận. Khám phá thêm về các tính năng và kỹ thuật nâng cao trong[tài liệu](https://reference.aspose.com/3d/net/).
+Xin chúc mừng bạn đã tạo ra các mô hình 3D tuyệt đẹp bằng Aspose.3D cho .NET! Hướng dẫn này bao gồm những kiến thức cơ bản về mô hình hóa nguyên thủy, nhưng khả năng của nó là vô tận. Khám phá thêm về các tính năng và kỹ thuật nâng cao trong [tài liệu](https://reference.aspose.com/3d/net/).
 
 ## Câu hỏi thường gặp
 
@@ -102,16 +103,16 @@ Aspose.3D chủ yếu hỗ trợ .NET, nhưng cũng có phiên bản dành cho J
 
 ### Có bản dùng thử miễn phí không?
 
- Có, bạn có thể dùng thử khả năng của Aspose.3D với[dùng thử miễn phí](https://releases.aspose.com/).
+Có, bạn có thể dùng thử khả năng của Aspose.3D với [dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.3D cho .NET ở đâu?
 
-Để được cộng đồng hỗ trợ, hãy truy cập[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18).
+Để được hỗ trợ cộng đồng, hãy truy cập [Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18).
 
-### Tôi có thể xin giấy phép tạm thời bằng cách nào?
+### Làm thế nào tôi có thể xin được giấy phép tạm thời?
 
- Bạn có thể yêu cầu giấy phép tạm thời[đây](https://purchase.conholdate.com/temporary-license/).
+Bạn có thể yêu cầu giấy phép tạm thời [đây](https://purchase.conholdate.com/temporary-license/).
 
 ### Có hướng dẫn bổ sung nào không?
 
- Có! Khám phá thêm các hướng dẫn và ví dụ trong[tài liệu](https://reference.aspose.com/3d/net/).
+Có! Khám phá thêm các hướng dẫn và ví dụ trong [tài liệu](https://reference.aspose.com/3d/net/).

@@ -33,7 +33,7 @@ Antes de começar o tutorial, certifique-se de ter o seguinte:
 2. Selecione “Adicionar referência”.
 3. Navegue para encontrar e adicionar o `Aspose.Cells.dll` arquivo que você baixou.
 
-### Importar o namespace Aspose.Cells
+### Importe o namespace Aspose.Cells
 
 Abra seu arquivo C# principal (normalmente `Program.cs`) e adicione a seguinte linha no topo:
 

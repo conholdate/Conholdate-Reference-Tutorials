@@ -44,7 +44,7 @@ Bây giờ, chúng ta sẽ sử dụng `DetectFileFormat` phương pháp từ `F
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(dataDir + "Encrypted.docx");
 ```
 
-## Bước 4: Kiểm tra xem Tài liệu có được Mã hóa không
+## Bước 4: Kiểm tra xem Tài liệu có được mã hóa không
 
 Để xác định xem tài liệu có được mã hóa hay không, chúng ta có thể sử dụng `IsEncrypted` tài sản của `FileFormatInfo` đối tượng. Thuộc tính này trả về `true` nếu tài liệu được mã hóa và `false` nếu không. Chúng tôi sẽ hiển thị kết quả trong bảng điều khiển:
 

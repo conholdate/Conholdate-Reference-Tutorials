@@ -87,7 +87,7 @@ Pokud se vám v konzoli zobrazí tato zpráva, gratulujeme! Úspěšně jste na�
 
 ## Závěr
 
-tady to máte! Naučili jste se, jak načíst licenci z objektu stream v Aspose.PDF pro .NET. Tento krok je klíčový pro odemknutí celé řady funkcí, které Aspose.PDF nabízí. Mějte tuto příručku po ruce a budete dobře připraveni na zvládnutí jakýchkoli úkolů s licencováním PDF, které vám přijdou do cesty.
+A tady to máte! Naučili jste se, jak načíst licenci z objektu stream v Aspose.PDF pro .NET. Tento krok je klíčový pro odemknutí celé řady funkcí, které Aspose.PDF nabízí. Mějte tuto příručku po ruce a budete dobře připraveni na zvládnutí jakýchkoli úkolů s licencováním PDF, které vám přijdou do cesty.
 
 ## Často kladené otázky
 

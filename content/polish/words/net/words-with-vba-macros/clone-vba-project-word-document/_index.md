@@ -22,7 +22,7 @@ Zanim zaczniemy, upewnijmy się, że wszystko jest gotowe:
 
 ## Importowanie przestrzeni nazw
 
-Aby rozpocząć, musisz zaimportować niezbędne przestrzenie nazw z Aspose.Words. Te przestrzenie nazw zawierają klasy i metody niezbędne do manipulowania dokumentami.
+Aby rozpocząć, musisz zaimportować niezbędne przestrzenie nazw z Aspose.Words. Te przestrzenie nazw udostępniają klasy i metody niezbędne do manipulowania dokumentami.
 
 Oto jak je zaimportować:
 
@@ -57,7 +57,7 @@ Ten kod ładuje dokument Word o nazwie „VBA project.docm” z określonego kat
 
 ## Krok 3: Klonowanie projektu VBA
 
-Teraz, gdy mamy już załadowany oryginalny dokument, sklonujmy cały projekt VBA. Oznacza to skopiowanie wszystkich modułów, referencji i ustawień z oryginalnego dokumentu do nowego.
+Teraz, gdy mamy już załadowany oryginalny dokument, sklonujmy cały projekt VBA. Oznacza to skopiowanie wszystkich modułów, odwołań i ustawień z oryginalnego dokumentu do nowego.
 
 Oto kod pozwalający to osiągnąć:
 

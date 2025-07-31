@@ -1,25 +1,26 @@
 ---
-title: Ekspor CAD ke Konversi Gambar Raster dengan Aspose.CAD untuk .NET
-linktitle: Ekspor CAD ke Konversi Gambar Raster
-second_title: Aspose.CAD .NET - Format Berkas CAD dan BIM
-description: Pelajari cara mengonversi tata letak CAD ke berbagai format gambar raster secara efisien menggunakan Aspose.CAD untuk .NET. Panduan komprehensif ini memandu Anda melalui proses tersebut dengan kode yang jelas.
-weight: 10
-url: /id/cad/guide-to-exporting-cad-format/export-cad-to-raster-image-conversion/
+"description": "Pelajari cara mengonversi tata letak CAD ke berbagai format gambar raster secara efisien menggunakan Aspose.CAD untuk .NET. Panduan komprehensif ini memandu Anda melalui prosesnya dengan kode yang jelas."
+"linktitle": "Konversi Ekspor CAD ke Gambar Raster"
+"second_title": "Aspose.CAD .NET - Format Berkas CAD dan BIM"
+"title": "Konversi Ekspor CAD ke Gambar Raster dengan Aspose.CAD untuk .NET"
+"url": "/id/cad/net/guide-to-exporting-cad-format/export-cad-to-raster-image-conversion/"
+"weight": 10
 ---
+
 ## Perkenalan
 
-Apakah Anda ingin mengonversi tata letak CAD ke format gambar raster dengan mudah menggunakan Aspose.CAD untuk .NET? Panduan langkah demi langkah ini dirancang untuk membantu Anda menavigasi proses, lengkap dengan cuplikan kode ringkas untuk pengalaman yang lancar. Baik Anda pengembang berpengalaman atau baru memulai, tutorial ini memberikan wawasan berharga untuk semua tingkat keterampilan.
+Ingin mengonversi tata letak CAD ke format gambar raster dengan mudah menggunakan Aspose.CAD untuk .NET? Panduan langkah demi langkah ini dirancang untuk membantu Anda menavigasi prosesnya, lengkap dengan cuplikan kode ringkas untuk pengalaman yang lancar. Baik Anda seorang pengembang berpengalaman maupun pemula, tutorial ini memberikan wawasan berharga untuk semua tingkat keahlian.
 
 ## Prasyarat
 
 Sebelum memulai, pastikan Anda memiliki hal berikut:
 
-- Pustaka Aspose.CAD untuk .NET: Unduh dan instal pustaka dari[Situs web Aspose.CAD](https://releases.aspose.com/cad/net/).
--  File Gambar CAD: Miliki file gambar CAD Anda (misalnya,`conic_pyramid.dxf`) siap untuk dikonversi.
+- Aspose.CAD untuk Pustaka .NET: Unduh dan instal pustaka dari [Situs web Aspose.CAD](https://releases.aspose.com/cad/net/).
+- File Gambar CAD: Miliki file gambar CAD Anda (misalnya, `conic_pyramid.dxf`) siap untuk dikonversi.
 
-## Mengimpor Ruang Nama yang Diperlukan
+## Mengimpor Namespace yang Diperlukan
 
-Dalam proyek .NET Anda, Anda perlu mengimpor namespace yang diperlukan untuk memanfaatkan fungsi Aspose.CAD. Tambahkan yang berikut di bagian atas kode Anda:
+Di proyek .NET Anda, Anda perlu mengimpor namespace yang diperlukan untuk menggunakan fungsi Aspose.CAD. Tambahkan kode berikut di awal kode Anda:
 
 ```csharp
 using System;
@@ -47,7 +48,7 @@ using (var image = Image.Load(sourceFilePath))
 
 ## Langkah 2: Buat Opsi Rasterisasi
 
-Berikutnya, atur opsi rasterisasi, tentukan dimensi yang diinginkan untuk gambar keluaran:
+Selanjutnya, atur opsi rasterisasi, tentukan dimensi yang diinginkan untuk gambar keluaran:
 
 ```csharp
 // Inisialisasi CadRasterizationOptions
@@ -103,26 +104,26 @@ void ConvertAllLayersToRasterImageFormats()
 
 ## Kesimpulan
 
-Selamat! Anda telah mempelajari cara mengonversi tata letak CAD ke format gambar raster secara efektif menggunakan Aspose.CAD untuk .NET. Panduan ini menawarkan pendekatan langsung yang cocok untuk pengembang yang ingin melakukan konversi CAD yang efisien.
+Selamat! Anda telah mempelajari cara efektif mengonversi tata letak CAD ke format gambar raster menggunakan Aspose.CAD untuk .NET. Panduan ini menawarkan pendekatan langsung yang cocok bagi pengembang yang menginginkan konversi CAD yang efisien.
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Bisakah saya mengekspor ke format gambar yang berbeda?
 
- Tentu saja! Cukup tukar saja`JpegOptions` dengan pilihan format lainnya, seperti`PngOptions` atau`BmpOptions`, tergantung kebutuhan Anda.
+Tentu saja! Cukup tukar saja `JpegOptions` dengan pilihan format lainnya, seperti `PngOptions` atau `BmpOptions`, tergantung pada kebutuhan Anda.
 
 ### Apakah versi uji coba tersedia?
 
- Ya, Anda dapat mengunduh versi uji coba untuk menjelajahi fungsionalitas dengan mengikuti ini[link](https://releases.aspose.com/cad/net/).
+Ya, Anda dapat mengunduh versi uji coba untuk menjelajahi fungsionalitas dengan mengikuti ini [link](https://releases.aspose.com/cad/net/).
 
 ### Di mana saya dapat menemukan dukungan untuk Aspose.CAD?
 
- Untuk dukungan komunitas, lihat Aspose.CAD[forum](https://forum.aspose.com/c/cad/19), atau pertimbangkan untuk membeli lisensi untuk bantuan yang lebih khusus.
+Untuk dukungan komunitas, lihat Aspose.CAD [forum](https://forum.aspose.com/c/cad/19), atau pertimbangkan untuk membeli lisensi untuk bantuan yang lebih khusus.
 
-### Apakah lisensi sementara mungkin?
+### Apakah lisensi sementara memungkinkan?
 
- Ya, lisensi sementara tersedia; Anda dapat memintanya[Di Sini](https://purchase.conholdate.com/temporary-license/).
+Ya, lisensi sementara tersedia; Anda dapat memintanya [Di Sini](https://purchase.conholdate.com/temporary-license/).
 
 ### Di mana saya dapat mengakses dokumentasi terperinci?
 
- Kunjungi dokumentasi lengkapnya[Di Sini](https://reference.aspose.com/cad/net/) untuk informasi lebih lanjut.
+Kunjungi dokumentasi lengkapnya [Di Sini](https://reference.aspose.com/cad/net/) untuk informasi lebih lanjut.

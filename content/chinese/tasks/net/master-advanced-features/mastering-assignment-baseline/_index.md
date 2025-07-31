@@ -1,22 +1,23 @@
 ---
-title: 使用 Aspose.Tasks for .NET 掌握任务分配基准
-linktitle: 在 Aspose.Tasks 中管理任务基线
-second_title: Aspose.Tasks .NET API
-description: 了解如何使用 Aspose.Tasks for .NET 高效管理任务基线。本分步指南涵盖加载项目、设置基线、检索数据、比较基线等，以优化项目管理工作流程。
-weight: 14
-url: /zh/tasks/master-advanced-features/mastering-assignment-baseline/
+"description": "了解如何使用 Aspose.Tasks for .NET 高效管理任务基线。本分步指南涵盖项目加载、基线设置、数据检索、基线比较等操作，以优化项目管理工作流程。"
+"linktitle": "在 Aspose.Tasks 中管理任务基线"
+"second_title": "Aspose.Tasks .NET API"
+"title": "使用 Aspose.Tasks for .NET 掌握任务分配基准"
+"url": "/zh/tasks/net/master-advanced-features/mastering-assignment-baseline/"
+"weight": 14
 ---
+
 ## 介绍
 
-高效的项目管理取决于准确跟踪和管理任务基线。使用 Aspose.Tasks for .NET，您将获得一个强大的工具包来简化任务基线的处理，从而更好地了解项目。在本文中，我们将引导您完成管理任务基线的过程，确保您的项目保持正轨。
+高效的项目管理取决于准确地跟踪和管理任务分配基线。Aspose.Tasks for .NET 为您提供强大的工具包，简化任务分配基线的处理，从而更好地洞察项目。本文将引导您完成任务分配基线的管理流程，确保您的项目保持正轨。
 
 ## 先决条件
 
-在深入实施之前，请确保您已做好以下准备：
+在深入实施之前，请确保您已具备以下条件：
 
 - 编程专业知识：基本熟悉 C#。
 - 开发环境：已安装并配置 Visual Studio。
--  Aspose.Tasks for .NET Library：从以下网址下载[Aspose.Tasks 发布](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET Library：从以下位置下载 [Aspose.Tasks 发布](https://releases。aspose.com/tasks/net/).
 - 项目文件：访问 MPP 格式的项目文件。
 
 ## 导入所需的命名空间
@@ -30,20 +31,20 @@ using System;
 
 ## 步骤 1：加载项目并设置基线
 
-加载项目和设置基线是管理任务基线的基础。以下代码演示了如何加载项目并建立其基线。
+加载项目并设置基线是管理作业基线的基础。以下代码演示了如何加载项目并设置其基线。
 
 ```csharp
 string dataDir = "Your Document Directory";
 Project project = new Project(dataDir + "ProjectSample.mpp");
 
-//设置项目基线
+// 设置项目基线
 project.SetBaseline(BaselineType.Baseline);
 Console.WriteLine("Baseline has been set successfully.");
 ```
 
-## 第 2 步：检索任务基线数据
+## 步骤 2：检索分配基线数据
 
-您可以提取每个资源分配的详细基线信息。操作方法如下：
+您可以提取每项资源分配的详细基线信息。操作方法如下：
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -81,8 +82,8 @@ Console.WriteLine("Are the baselines equal? " + areEqual);
 var assignment = project.ResourceAssignments.GetByUid(3);
 var baseline = assignment.Baselines.First();
 
-baseline.Cost += 1000;  //调整基准成本
-baseline.Work = baseline.Work.Add(TimeSpan.FromHours(10));  //添加工作时间
+baseline.Cost += 1000;  // 调整基准成本
+baseline.Work = baseline.Work.Add(TimeSpan.FromHours(10));  // 添加工作时间
 
 Console.WriteLine("Modified Baseline Cost: " + baseline.Cost);
 Console.WriteLine("Modified Baseline Work: " + baseline.Work);
@@ -90,21 +91,21 @@ Console.WriteLine("Modified Baseline Work: " + baseline.Work);
 
 ## 结论
 
-有效管理任务基线对于控制项目进度和预算至关重要。Aspose.Tasks for .NET 为您提供必要的工具来精确处理基线，从而实现数据驱动的决策。
+有效地管理任务基线对于控制项目进度和预算至关重要。Aspose.Tasks for .NET 为您提供必要的工具，让您能够精确地处理基线，从而实现数据驱动的决策。
 
 ## 常见问题解答
 
 ### Aspose.Tasks 可以为单个项目处理多个基线吗？  
-是的，Aspose.Tasks 支持多条基线，为跟踪各种项目版本提供了灵活性。
+是的，Aspose.Tasks 支持多个基线，为跟踪各种项目版本提供了灵活性。
 
-### Aspose.Tasks 是否与非MPP 项目文件兼容？  
+### Aspose.Tasks 是否与非 MPP 项目文件兼容？  
 当然。Aspose.Tasks 支持 XML、MPX 等格式。
 
 ### 我可以自动进行基线更新吗？  
-是的，API 允许以编程方式动态和自动地修改基线。
+是的，API 允许以编程方式进行动态和自动的基线修改。
 
 ### Aspose.Tasks 是否提供分时间阶段的基线数据？  
 是的，可以检索和分析详细的分时间阶段的基线数据。
 
 ### 我可以在哪里获得支持和文档？  
-访问[Aspose.Tasks 文档](https://reference.aspose.com/words/net/)或加入[Aspose 支持论坛](https://forum.aspose.com/c/words/8)寻求帮助。 
+访问 [Aspose.Tasks 文档](https://reference.aspose.com/words/net/) 或加入 [Aspose 支持论坛](https://forum.aspose.com/c/words/8) 寻求帮助。

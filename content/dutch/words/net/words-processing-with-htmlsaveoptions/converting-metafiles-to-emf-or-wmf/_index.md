@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Het efficiënt beheren en converteren van afbeeldingsformaten is cruciaal bij het maken van professionele Word-documenten. In deze handleiding verdiepen we ons in het gebruik van Aspose.Words voor .NET om SVG-afbeeldingen te converteren naar EMF (Enhanced Metafile) of WMF (Windows Metafile) voor naadloze integratie. Deze tutorial biedt duidelijke, stapsgewijze instructies om ontwikkelaars te helpen de conversie eenvoudig te implementeren.
+Het efficiënt beheren en converteren van afbeeldingsformaten is cruciaal bij het maken van professionele Word-documenten. In deze handleiding verdiepen we ons in het gebruik van Aspose.Words voor .NET om SVG-afbeeldingen te converteren naar EMF- (Enhanced Metafile) of WMF- (Windows Metafile) formaten voor naadloze integratie. Deze tutorial biedt duidelijke, stapsgewijze instructies om ontwikkelaars te helpen de conversie eenvoudig te implementeren.
 
 ## Vereisten voor het converteren van SVG naar EMF of WMF
 
@@ -29,7 +29,7 @@ using Aspose.Words;
 using Aspose.Words.Saving;
 ```
 
-## Stap 1: Definieer de documentmap
+## Stap 1: Definieer de documentdirectory
 
 Stel een mappad in waar uw Word-documenten worden opgeslagen. Dit is essentieel voor effectief beheer van uitvoerbestanden.
 
@@ -41,7 +41,7 @@ Vervangen `@"C:\MyDocuments\"` met het door u gewenste pad.
 
 ## Stap 2: Bereid de HTML-string voor die SVG bevat
 
-Stel een HTML-string samen die je SVG-inhoud insluit. Dit stelt Aspose.Words in staat de SVG te renderen en te verwerken.
+Stel een HTML-string samen die je SVG-inhoud insluit. Hierdoor kan Aspose.Words de SVG renderen en verwerken.
 
 ```csharp
 string htmlContent = 
@@ -57,7 +57,7 @@ string htmlContent =
 
 ## Stap 3: HTML-laadopties configureren
 
-Om een correcte verwerking van SVG-conversie te garanderen, configureert u `HtmlLoadOptions` met `ConvertSvgToEmf`.
+Om een correcte afhandeling van SVG-conversie te garanderen, configureert u `HtmlLoadOptions` met `ConvertSvgToEmf`.
 
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions

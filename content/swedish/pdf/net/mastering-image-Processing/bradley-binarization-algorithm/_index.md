@@ -1,8 +1,8 @@
 ---
 "description": "Lär dig hur du konverterar PDF-sidor till högkvalitativa binära TIFF-bilder med hjälp av Bradleys binäriseringsalgoritm i Aspose.PDF för .NET. Den här steg-för-steg-guiden innehåller ett kodexempel."
-"linktitle": "Bradley binäriseringsalgoritm"
+"linktitle": "Bradley binariseringsalgoritm"
 "second_title": "Aspose.PDF för .NET API-referens"
-"title": "Bradley binäriseringsalgoritm"
+"title": "Bradley binariseringsalgoritm"
 "url": "/sv/pdf/net/mastering-image-Processing/bradley-binarization-algorithm/"
 "weight": 30
 ---

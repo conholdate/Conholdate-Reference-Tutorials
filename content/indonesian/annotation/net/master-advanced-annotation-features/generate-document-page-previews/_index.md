@@ -1,29 +1,30 @@
 ---
-title: Hasilkan Pratinjau Halaman Dokumen dengan GroupDocs.Annotation untuk .NET
-linktitle: Hasilkan Pratinjau Halaman Dokumen
-second_title: API .NET GroupDocs.Annotation
-description: Temukan cara mengintegrasikan fungsionalitas pratinjau halaman dokumen ke dalam aplikasi .NET Anda dengan mudah menggunakan GroupDocs.Annotation. Panduan tutorial langkah demi langkah ini.
-weight: 12
-url: /id/annotation/master-advanced-annotation-features/generate-document-page-previews/
+"description": "Temukan cara mengintegrasikan fungsionalitas pratinjau halaman dokumen dengan mudah ke dalam aplikasi .NET Anda menggunakan GroupDocs.Annotation. Panduan tutorial langkah demi langkah ini."
+"linktitle": "Hasilkan Pratinjau Halaman Dokumen"
+"second_title": "GroupDocs.Annotation .NET API"
+"title": "Hasilkan Pratinjau Halaman Dokumen dengan GroupDocs.Annotation untuk .NET"
+"url": "/id/annotation/net/master-advanced-annotation-features/generate-document-page-previews/"
+"weight": 12
 ---
+
 ## Perkenalan
 
-Dalam dunia manajemen dan kolaborasi dokumen yang terus berkembang, GroupDocs.Annotation untuk .NET tampil sebagai solusi yang hebat. Baik Anda seorang pengembang yang ingin mengintegrasikan fitur anotasi ke dalam aplikasi Anda atau pengguna bisnis yang ingin menyederhanakan kolaborasi dokumen, GroupDocs.Annotation menawarkan berbagai kemampuan. Tutorial ini akan memandu Anda melalui proses pembuatan pratinjau halaman dokumen menggunakan GroupDocs.Annotation untuk .NET, menguraikannya menjadi beberapa langkah yang mudah dipahami.
+Di dunia manajemen dan kolaborasi dokumen yang terus berkembang, GroupDocs.Annotation untuk .NET tampil sebagai solusi yang handal. Baik Anda seorang pengembang yang ingin mengintegrasikan fitur anotasi ke dalam aplikasi Anda maupun pengguna bisnis yang ingin menyederhanakan kolaborasi dokumen, GroupDocs.Annotation menawarkan kemampuan yang luas. Tutorial ini akan memandu Anda melalui proses pembuatan pratinjau halaman dokumen menggunakan GroupDocs.Annotation untuk .NET, menguraikannya menjadi langkah-langkah yang mudah dipahami.
 
 ## Prasyarat
 
 Sebelum memulai, pastikan Anda memiliki hal berikut di lingkungan pengembangan Anda:
 
 ### Instalasi GroupDocs.Annotation untuk .NET
- Unduh GroupDocs.Annotation untuk .NET dari[halaman unduhan](https://releases.groupdocs.com/annotation/net/).
+Unduh GroupDocs.Annotation untuk .NET dari [halaman unduhan](https://releases.groupdocs.com/annotation/net/).
 
 ### Pengaturan Lingkungan Pengembangan
-Pastikan pengaturan pengembangan Anda mencakup alat dan pustaka yang kompatibel dengan .NET. Visual Studio direkomendasikan, tetapi Anda dapat menggunakan IDE apa pun sesuai pilihan Anda.
+Pastikan pengaturan pengembangan Anda mencakup alat dan pustaka yang kompatibel dengan .NET. Visual Studio direkomendasikan, tetapi Anda dapat menggunakan IDE apa pun pilihan Anda.
 
 ### Pengetahuan Dasar C#
-Kemampuan dalam pemrograman C# sangat penting, karena tutorial ini melibatkan penulisan kode C# untuk memanfaatkan fungsionalitas GroupDocs.Annotation.
+Kemampuan untuk memahami pemrograman C# sangatlah penting, karena tutorial ini melibatkan penulisan kode C# untuk memanfaatkan fungsionalitas GroupDocs.Annotation.
 
-## Mengimpor Ruang Nama yang Diperlukan
+## Mengimpor Namespace yang Diperlukan
 
 Mulailah dengan mengimpor namespace yang relevan untuk mengakses fungsionalitas GroupDocs.Annotation:
 
@@ -35,7 +36,7 @@ using System.IO;
 
 ## Langkah 1: Menyiapkan Objek Anotator
 
- Inisialisasi`Annotator` objek dengan menentukan jalur ke berkas PDF yang ingin Anda pratinjau. 
+Inisialisasi `Annotator` objek dengan menentukan jalur ke berkas PDF yang ingin Anda pratinjau. 
 
 ```csharp
 using (Annotator annotator = new Annotator("input.pdf"))
@@ -46,7 +47,7 @@ using (Annotator annotator = new Annotator("input.pdf"))
 
 ## Langkah 2: Menentukan Opsi Pratinjau
 
-Selanjutnya, konfigurasikan opsi pratinjau untuk membuat pratinjau halaman dokumen. Ini melibatkan penentuan format, nomor halaman, dan jalur keluaran untuk pratinjau.
+Selanjutnya, konfigurasikan opsi pratinjau untuk membuat pratinjau halaman dokumen. Hal ini mencakup penentuan format, nomor halaman, dan jalur keluaran untuk pratinjau tersebut.
 
 ```csharp
 PreviewOptions previewOptions = new PreviewOptions(pageNumber =>
@@ -58,7 +59,7 @@ PreviewOptions previewOptions = new PreviewOptions(pageNumber =>
 
 ## Langkah 3: Membuat Pratinjau Dokumen
 
-Atur format pratinjau yang diinginkan dan tentukan halaman mana yang akan disertakan dalam output. Dalam kasus ini, kita akan menggunakan format PNG untuk empat halaman pertama.
+Atur format pratinjau yang diinginkan dan tentukan halaman mana yang akan disertakan dalam output. Dalam hal ini, kita akan menggunakan format PNG untuk empat halaman pertama.
 
 ```csharp
 previewOptions.PreviewFormat = PreviewFormats.PNG;
@@ -66,7 +67,7 @@ previewOptions.PageNumbers = new int[] { 1, 2, 3, 4 };
 annotator.Document.GeneratePreview(previewOptions);
 ```
 
- Telepon`GeneratePreview` metode untuk membuat pratinjau dokumen.
+Telepon `GeneratePreview` metode untuk membuat pratinjau dokumen.
 
 ## Kesimpulan
 
@@ -84,7 +85,7 @@ Tentu saja! GroupDocs.Annotation menawarkan opsi penyesuaian yang luas untuk men
 Ya, ia mendukung berbagai format, termasuk DOCX, XLSX, PPTX, dan banyak lagi.
 
 ### Apakah ada uji coba gratis yang tersedia untuk GroupDocs.Annotation untuk .NET?
- Ya, uji coba gratis tersedia. Anda dapat mengaksesnya dari[halaman rilis](https://releases.groupdocs.com/).
+Ya, uji coba gratis tersedia. Anda dapat mengaksesnya dari [halaman rilis](https://releases.groupdocs.com/).
 
 ### Di mana saya dapat menemukan dukungan untuk GroupDocs.Annotation untuk .NET?
-Untuk bantuan, kunjungi forum komunitas GroupDocs.Annotation[Di Sini](https://forum.groupdocs.com/c/annotation/10).
+Untuk bantuan, kunjungi forum komunitas GroupDocs.Annotation [Di Sini](https://forum.groupdocs.com/c/annotation/10).

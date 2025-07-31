@@ -109,7 +109,7 @@ Yazı tiplerini Base64 olarak yerleştirmek, bunların doğrudan HTML'e dahil ed
 
 ### Bu yöntemi görseller gibi diğer kaynaklar için de kullanabilir miyim?
 
-Evet! Aspose.Words for .NET, HTML dosyalarına Base64 olarak görseller de dahil olmak üzere çeşitli kaynakların gömülmesini destekler.
+Evet! Aspose.Words for .NET, HTML dosyalarına Base64 olarak çeşitli kaynakların (resimler dahil) gömülmesini destekler.
 
 ### Belgemde birden fazla yazı tipi varsa ne olur?
 

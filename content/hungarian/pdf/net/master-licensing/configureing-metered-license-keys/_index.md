@@ -36,7 +36,7 @@ Bontsuk le a konfigurációs folyamatot világos lépésekre, hogy biztosan ne m
 ## 1. lépés: A fejlesztői környezet beállítása
 
 1. A Visual Studio megnyitása: Indítsa el a Visual Studiot, és hozzon létre egy új C# projektet. Ha van egy meglévő projektje, nyissa meg.
-2. Hivatkozás hozzáadása az Aspose.PDF fájlhoz: Kattintson jobb gombbal a projektjére a Megoldáskezelőben, válassza a „NuGet csomagok kezelése” lehetőséget, keressen rá az „Aspose.PDF for .NET” kifejezésre, és telepítse.
+2. Hivatkozás hozzáadása az Aspose.PDF fájlhoz: Kattintson jobb gombbal a projektjére a Megoldáskezelőben, válassza a „NuGet csomagok kezelése” lehetőséget, keresse meg az „Aspose.PDF for .NET” kifejezést, és telepítse.
 
 ## 2. lépés: A mért osztály inicializálása
 
@@ -86,7 +86,7 @@ Gratulálunk! Sikeresen konfigurálta a PDF-fájljaihoz tartozó mért licenckul
 ## GYIK
 
 ### Mi az a mért licenc az Aspose.PDF-ben?  
-mért licenc lehetővé teszi, hogy az API-használat alapján fizessen, így ideális nagy mennyiségű dokumentumfeldolgozáshoz.
+A mért licenc lehetővé teszi, hogy az API-használat alapján fizessen, így ideális nagy mennyiségű dokumentumfeldolgozáshoz.
 
 ### Hogyan juthatok hozzá a mért licenckulcsokhoz?  
 Vásároljon mért licenckulcsokat innen: [itt](https://purchase.aspose.com/buy) vagy ideiglenes engedélyt kérvényezzen.

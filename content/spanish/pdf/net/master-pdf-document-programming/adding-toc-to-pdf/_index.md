@@ -2,7 +2,7 @@
 "categories":
 - "PDF Processing"
 "date": "2025-01-02"
-"description": "Aprenda a agregar una tabla de contenido a un PDF con C# y Aspose.PDF para .NET. Guía paso a paso con ejemplos de código, solución de problemas y prácticas recomendadas."
+"description": "Aprende a añadir una tabla de contenido a un PDF con C# y Aspose.PDF para .NET. Guía paso a paso con ejemplos de código, solución de problemas y prácticas recomendadas."
 "lastmod": "2025-01-02"
 "linktitle": "Agregar tabla de contenido a PDF C#"
 "tags":
@@ -10,7 +10,7 @@
 - "table-of-contents"
 - "pdf-navigation"
 - "dotnet"
-"title": "Cómo agregar una tabla de contenido a un PDF en C# - .NET completo"
+"title": "Cómo agregar una tabla de contenido a un PDF en C# - Complete .NET"
 "url": "/es/pdf/net/master-pdf-document-programming/adding-toc-to-pdf/"
 "weight": 40
 ---
@@ -139,7 +139,7 @@ for (int i = 0; i < 2; i++)
 
 **¿Por qué sólo procesar 2 títulos?** Este ejemplo muestra las dos primeras entradas para mantener las cosas manejables, pero en su implementación real, recorrería todos sus títulos o los generaría dinámicamente en función de la estructura de su documento.
 
-## Paso 6: Guarde el PDF con la tabla de contenidos
+## Paso 6: Guarda el PDF con la tabla de contenidos
 
 Por último, guardemos el archivo PDF mejorado con la tabla de contenido recién agregada.
 
@@ -176,7 +176,7 @@ Console.WriteLine("\nTOC added successfully to an existing PDF.\nFile saved at "
 
 **Mantenlo simple**No compliques demasiado la estructura de tu índice. Los usuarios deben entenderla a simple vista.
 
-**Pruebe a fondo**Pruebe siempre los enlaces de su tabla de contenidos, especialmente después de realizar cambios en la estructura del documento.
+**Pruebe a fondo**:Pruebe siempre los enlaces de su tabla de contenidos, especialmente después de realizar cambios en la estructura del documento.
 
 **Considere a los usuarios móviles**:Asegúrese de que las entradas de su tabla de contenidos sean compatibles con dispositivos táctiles si sus archivos PDF se verán en dispositivos móviles.
 

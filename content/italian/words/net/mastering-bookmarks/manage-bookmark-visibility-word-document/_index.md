@@ -97,7 +97,7 @@ ShowHideBookmarkedContent(doc, "MyBookmark1", true); // Nasconde il contenuto al
 
 Questa riga nasconderà il contenuto associato al segnalibro denominato "MyBookmark1".
 
-## Passaggio 4: salvataggio del documento
+## Passaggio 4: Salvataggio del documento
 
 Dopo aver apportato le modifiche, non dimenticare di salvare il documento modificato:
 

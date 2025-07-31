@@ -1,25 +1,26 @@
 ---
-title: Ekstrak Video dari Slide PowerPoint dengan Aspose.Slides
-linktitle: Ekstrak Video dari Slide PowerPoint
-second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
-description: Temukan cara mudah mengekstrak file video yang disematkan dari presentasi PowerPoint menggunakan Aspose.Slides for .NET. Panduan langkah demi langkah yang komprehensif ini mencakup semuanya, mulai dari menyiapkan lingkungan hingga menyimpan video yang diekstrak.
-weight: 14
-url: /id/slides/extract-audio-and-video/extract-videos-from-powerpoint-slides/
+"description": "Temukan cara mudah mengekstrak berkas video tertanam dari presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah yang komprehensif ini mencakup semuanya, mulai dari pengaturan lingkungan hingga penyimpanan video yang diekstrak."
+"linktitle": "Ekstrak Video dari Slide PowerPoint"
+"second_title": "API Pemrosesan PowerPoint Aspose.Slides .NET"
+"title": "Ekstrak Video dari Slide PowerPoint dengan Aspose.Slides"
+"url": "/id/slides/net/extract-audio-and-video/extract-videos-from-powerpoint-slides/"
+"weight": 14
 ---
+
 ## Perkenalan
 
-Aspose.Slides for .NET adalah pustaka canggih yang memungkinkan pengembang berinteraksi dengan presentasi PowerPoint secara terprogram. Dalam panduan ini, kami akan memandu Anda melalui proses mengekstrak video yang disematkan dalam slide PowerPoint menggunakan Aspose.Slides for .NET. 
+Aspose.Slides untuk .NET adalah pustaka canggih yang memungkinkan pengembang berinteraksi dengan presentasi PowerPoint secara terprogram. Dalam panduan ini, kami akan memandu Anda melalui proses mengekstrak video yang disematkan dalam slide PowerPoint menggunakan Aspose.Slides untuk .NET. 
 
 ## Prasyarat
 
 Sebelum memulai, pastikan Anda memiliki hal berikut:
 
--  Aspose.Slides untuk .NET: Dapatkan dan instal pustaka dari[Situs web Aspose](https://purchase.aspose.com/buy).
--  Presentasi PowerPoint: Siapkan file PowerPoint (misalnya,`Video.pptx`) dengan video yang ingin Anda ekstrak.
+- Aspose.Slides untuk .NET: Dapatkan dan instal pustaka dari [Situs web Aspose](https://purchase.aspose.com/buy).
+- Presentasi PowerPoint: Siapkan file PowerPoint (misalnya, `Video.pptx`) dengan video yang ingin Anda ekstrak.
 
 ## Ruang Nama yang Diperlukan
 
-Untuk bekerja dengan Aspose.Slides for .NET, Anda perlu mengimpor namespace yang sesuai. Sertakan yang berikut dalam kode Anda:
+Untuk menggunakan Aspose.Slides for .NET, Anda perlu mengimpor namespace yang sesuai. Sertakan yang berikut dalam kode Anda:
 
 ```csharp
 using Aspose.Slides;
@@ -34,21 +35,21 @@ Pertama, tentukan jalur ke presentasi PowerPoint Anda:
 string dataDir = "Your Document Directory";
 ```
 
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori yang berisi berkas PowerPoint Anda.
+Mengganti `"Your Document Directory"` dengan jalur sebenarnya ke direktori yang berisi berkas PowerPoint Anda.
 
 ## Langkah 2: Muat Presentasi
 
- Memuat presentasi PowerPoint ke dalam`Presentation` obyek:
+Muat presentasi PowerPoint ke dalam `Presentation` obyek:
 
 ```csharp
 Presentation presentation = new Presentation(dataDir + "Video.pptx");
 ```
 
- Ini menginisialisasi`Presentation` objek dengan berkas PowerPoint yang Anda tentukan.
+Ini menginisialisasi `Presentation` objek dengan file PowerPoint yang Anda tentukan.
 
 ## Langkah 3: Ulangi Melalui Slide dan Bentuk
 
-Selanjutnya, ulangi setiap slide dalam presentasi dan periksa bingkai video:
+Berikutnya, ulangi setiap slide dalam presentasi dan periksa bingkai video:
 
 ```csharp
 foreach (ISlide slide in presentation.Slides)
@@ -65,7 +66,7 @@ foreach (ISlide slide in presentation.Slides)
 
 ## Langkah 4: Ekstrak Data Video
 
-Setelah Anda menemukan bingkai video, ekstrak propertinya dan data binernya:
+Setelah Anda menemukan bingkai video, ekstrak properti dan data binernya:
 
 ```csharp
 IVideoFrame vf = (IVideoFrame)shape;  // Simpan bentuk sebagai bingkai video
@@ -87,25 +88,25 @@ using (FileStream stream = new FileStream(dataDir + "ExtractedVideo." + fileExte
 }
 ```
 
-Kode ini membuat file baru di direktori yang Anda tentukan dan menulis data video ke dalamnya.
+Kode ini membuat berkas baru di direktori yang Anda tentukan dan menulis data video ke dalamnya.
 
 ## Kesimpulan
 
-Dengan Aspose.Slides untuk .NET, mengekstrak video dari slide PowerPoint merupakan proses yang mudah. Dengan mengikuti panduan ini, Anda dapat mengelola konten multimedia dengan mudah dalam aplikasi .NET, yang memperkaya pengalaman dan fungsionalitas pengguna.
+Dengan Aspose.Slides untuk .NET, mengekstrak video dari slide PowerPoint menjadi proses yang mudah. Dengan mengikuti panduan ini, Anda dapat dengan mudah mengelola konten multimedia dalam aplikasi .NET Anda, yang memperkaya pengalaman dan fungsionalitas pengguna.
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Apa itu Aspose.Slides untuk .NET?
 Aspose.Slides untuk .NET adalah pustaka yang dirancang untuk bekerja dengan presentasi PowerPoint, yang memungkinkan pengguna untuk membuat, mengedit, dan memanipulasi file presentasi secara terprogram.
 
-### Di mana saya dapat menemukan dokumentasi untuk Aspose.Slides for .NET?
- Anda dapat mengakses dokumentasi lengkapnya[Di Sini](https://reference.aspose.com/slides/net/).
+### Di mana saya dapat menemukan dokumentasi untuk Aspose.Slides untuk .NET?
+Anda dapat mengakses dokumentasi lengkapnya [Di Sini](https://reference.aspose.com/slides/net/).
 
 ### Apakah Aspose.Slides untuk .NET tersedia untuk uji coba gratis?
- Ya, Anda dapat mengunduh versi uji coba gratis dari[tautan ini](https://releases.aspose.com/).
+Ya, Anda dapat mengunduh versi uji coba gratis dari [tautan ini](https://releases.aspose.com/).
 
 ### Bagaimana cara memperoleh lisensi sementara untuk Aspose.Slides for .NET?
- Permintaan lisensi sementara dapat dilakukan[Di Sini](https://purchase.aspose.com/temporary-license/).
+Permintaan lisensi sementara dapat dilakukan [Di Sini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk .NET?
- Dukungan tersedia melalui[Forum Aspose.Slides](https://forum.aspose.com/).
+Dukungan tersedia melalui [Forum Aspose.Slides](https://forum.aspose.com/).

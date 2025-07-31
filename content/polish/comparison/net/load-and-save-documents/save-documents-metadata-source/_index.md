@@ -1,23 +1,24 @@
 ---
-title: Zapisywanie źródła metadanych dokumentów w porównaniu GroupDocs dla .NET
-linktitle: Zapisywanie źródła metadanych dokumentów w porównaniu GroupDocs dla .NET
-second_title: GroupDocs.Comparison .NET API
-description: Odblokuj pełny potencjał porównywania dokumentów w swoich aplikacjach .NET, wykorzystując GroupDocs Comparison dla .NET. Ten samouczek krok po kroku przeprowadzi Cię przez porównywanie dokumentów bez wysiłku, jednocześnie skupiając się na zapisywaniu źródła metadanych dokumentu.
-weight: 14
-url: /pl/comparison/load-and-save-documents/save-documents-metadata-source/
+"description": "Uwolnij pełen potencjał porównywania dokumentów w aplikacjach .NET, korzystając z narzędzia GroupDocs Comparison for .NET. Ten samouczek krok po kroku przeprowadzi Cię przez proces łatwego porównywania dokumentów, koncentrując się na zapisywaniu źródła metadanych dokumentu."
+"linktitle": "Zapisywanie źródła metadanych dokumentów w porównaniu GroupDocs dla platformy .NET"
+"second_title": "GroupDocs.Comparison .NET API"
+"title": "Zapisywanie źródła metadanych dokumentów w porównaniu GroupDocs dla platformy .NET"
+"url": "/pl/comparison/net/load-and-save-documents/save-documents-metadata-source/"
+"weight": 14
 ---
+
 ## Wstęp
 
-W rozwoju oprogramowania, szczególnie w takich branżach jak prawo, finanse i edukacja, możliwość wydajnego porównywania dokumentów jest najważniejsza. GroupDocs Comparison for .NET zapewnia solidne rozwiązanie do bezproblemowego porównywania dokumentów w aplikacjach .NET. Ten samouczek przeprowadzi Cię przez proces korzystania z tej potężnej biblioteki w celu zapisania źródła metadanych dokumentu, zapewniając maksymalizację jego możliwości dla zadań porównywania dokumentów.
+W tworzeniu oprogramowania, szczególnie w branżach takich jak prawo, finanse i edukacja, możliwość efektywnego porównywania dokumentów jest kluczowa. GroupDocs Comparison for .NET to solidne rozwiązanie do bezproblemowego porównywania dokumentów w aplikacjach .NET. Ten samouczek przeprowadzi Cię przez proces korzystania z tej potężnej biblioteki do zapisywania źródła metadanych dokumentów, zapewniając maksymalne wykorzystanie jej możliwości w zadaniach porównywania dokumentów.
 
 ## Wymagania wstępne
 
 Zanim zaczniemy, upewnij się, że masz następujące ustawienia:
 
 1. Środowisko programistyczne: Na Twoim komputerze jest już gotowe środowisko programistyczne .NET.
-2. Instalacja narzędzia GroupDocs Comparison: Pobierz i zainstaluj narzędzie GroupDocs Comparison dla platformy .NET z[strona](https://releases.groupdocs.com/comparison/net/).
+2. Instalacja narzędzia GroupDocs Comparison: Pobierz i zainstaluj narzędzie GroupDocs Comparison dla platformy .NET z [strona](https://releases.groupdocs.com/comparison/net/).
 3. Pliki dokumentów: Przygotuj pliki dokumentów źródłowych i docelowych, które chcesz porównać.
-4. Podstawowa wiedza o języku C#: Znajomość podstaw programowania w języku C# pomoże Ci zrozumieć udostępnione fragmenty kodu.
+4. Podstawowa wiedza z zakresu języka C#: Znajomość podstaw programowania w języku C# pomoże Ci zrozumieć udostępnione fragmenty kodu.
 
 ## Importuj wymagane przestrzenie nazw
 
@@ -41,12 +42,12 @@ string outputFileName = Path.Combine(outputDirectory, "RESULT.docx");
 
 ## Krok 2: Zainicjuj obiekt Comparer
 
- Utwórz`Comparer` wystąpienie używając ścieżki do dokumentu źródłowego:
+Utwórz `Comparer` wystąpienie używając ścieżki do dokumentu źródłowego:
 
 ```csharp
 using (Comparer comparer = new Comparer("SOURCE.docx"))
 ```
- To inicjuje`Comparer` obiekt, stanowiący podstawę do porównywania dokumentów.
+To inicjuje `Comparer` obiekt, stanowiący podstawę do porównywania dokumentów.
 
 ## Krok 3: Dodaj dokument docelowy
 
@@ -64,7 +65,7 @@ Teraz czas wykonać porównanie i zapisać źródło metadanych dokumentu:
 ```csharp
 comparer.Compare(outputFileName, new SaveOptions() { CloneMetadataType = MetadataType.Source });
 ```
- Tutaj,`Compare`metoda porównuje dokumenty źródłowe i docelowe. Za pomocą`CloneMetadataType`, masz pewność, że metadane ze źródłowego dokumentu zostaną zachowane.
+Tutaj, `Compare` Metoda ta porównuje dokumenty źródłowe i docelowe. Za pomocą `CloneMetadataType`, zapewniasz zachowanie metadanych z dokumentu źródłowego.
 
 ## Krok 5: Wyświetl komunikat wyjściowy
 
@@ -77,7 +78,7 @@ Ten komunikat potwierdza pomyślne porównanie i wskazuje, gdzie znaleźć dokum
 
 ## Wniosek
 
-GroupDocs Comparison for .NET to nieocenione narzędzie do porównywania dokumentów w aplikacjach .NET. Postępując zgodnie z tym przewodnikiem, nauczyłeś się, jak skutecznie zapisywać źródło metadanych dokumentu, usprawniając proces porównywania dokumentów i ogólną produktywność.
+GroupDocs Comparison for .NET to nieocenione narzędzie do porównywania dokumentów w aplikacjach .NET. Dzięki temu przewodnikowi dowiesz się, jak efektywnie zapisywać źródło metadanych dokumentów, usprawniając proces porównywania dokumentów i zwiększając ogólną wydajność.
 
 ## Najczęściej zadawane pytania
 
@@ -87,16 +88,16 @@ Tak, obsługuje wiele formatów, w tym DOCX, PDF, PPTX i inne.
 
 ### Czy jest dostępna wersja próbna?
 
- Dostęp do wersji próbnej można uzyskać pod adresem[Tutaj](https://releases.groupdocs.com/).
+Dostęp do wersji próbnej można uzyskać pod adresem [Tutaj](https://releases.groupdocs.com/).
 
 ### Czy mogę dostosować format wyjściowy porównywanych dokumentów?
 
-Oczywiście! GroupDocs Comparison pozwala na rozległą personalizację formatu wyjściowego.
+Oczywiście! GroupDocs Comparison pozwala na szeroką personalizację formatu wyjściowego.
 
 ### Czy użytkownicy mają dostęp do pomocy technicznej?
 
- Tak, możesz szukać pomocy poprzez[forum wsparcia](https://forum.groupdocs.com/c/comparison/12).
+Tak, możesz szukać pomocy poprzez [forum wsparcia](https://forum.groupdocs.com/c/comparison/12).
 
 ### Gdzie mogę zakupić licencję?
 
- Licencje można zakupić na stronie internetowej GroupDocs[Tutaj](https://purchase.groupdocs.com/buy).
+Licencje można zakupić na stronie internetowej GroupDocs [Tutaj](https://purchase.groupdocs.com/buy).

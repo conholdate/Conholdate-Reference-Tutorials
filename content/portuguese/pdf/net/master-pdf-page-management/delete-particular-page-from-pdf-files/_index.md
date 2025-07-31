@@ -20,7 +20,7 @@ Antes de começar, certifique-se de ter o seguinte pronto:
 3. Arquivo PDF: você precisará de um PDF com várias páginas para trabalhar. Se não tiver um, considere criar um PDF de teste.
 4. Licença temporária ou completa: embora uma versão de teste possa ser usada, solicite uma [licença temporária](https://purchase.aspose.com/temporary-license/) se você precisar de funcionalidade estendida sem limitações.
 
-## Etapa 1: Importar os pacotes necessários
+## Etapa 1: Importar pacotes necessários
 
 Para começar a codificar, você precisa importar os namespaces necessários para Aspose.PDF:
 

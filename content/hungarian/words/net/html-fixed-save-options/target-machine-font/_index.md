@@ -65,7 +65,7 @@ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions
 };
 ```
 
-## 3. lépés: Mentse el a dokumentumot
+## 3. lépés: A dokumentum mentése
 
 Most mentsük el a dokumentumot rögzített HTML fájlként. Itt történik a varázslat!
 

@@ -57,7 +57,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Ezek a névterek hozzáférést biztosítanak a fájlműveletekhez és az Aspose.Cells összes szükséges funkciójához. Nélkülük fordítási hibákat kaphatsz, amelyek zavaróak lehetnek, ha még új vagy a könyvtárban.
+Ezek a névterek hozzáférést biztosítanak a fájlműveletekhez és az Aspose.Cells összes szükséges funkciójához. Nélkülük fordítási hibákat kapsz, amelyek zavaróak lehetnek, ha még új vagy a könyvtárban.
 
 ## 1. lépés: Állítsa be a könyvtárat a fájlok tárolásához
 
@@ -72,7 +72,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-**Mi történik itt?** Ellenőrizzük, hogy létezik-e a célkönyvtár, és létrehozzuk, ha nem. Ez megakadályozza a bosszantó „DirectoryNotFoundException” hibát, amely akkor ugrik fel, amikor nem létező helyekre próbálunk fájlokat menteni.
+**Mi történik itt?** Ellenőrizzük, hogy létezik-e a célkönyvtárunk, és létrehozzuk, ha nem. Ez megakadályozza a bosszantó „DirectoryNotFoundException” hibát, amely akkor ugrik fel, amikor nem létező helyekre próbálunk fájlokat menteni.
 
 **Valós megfontoltság**Éles alkalmazásokban kezelni kell az engedélyeket, és ellenőrizni kell, hogy az alkalmazás rendelkezik-e írási hozzáféréssel a könyvtárhoz. Érdemes környezeti változókat vagy konfigurációs fájlokat használni a könyvtárelérési utakhoz a fix kódolás helyett.
 
@@ -84,7 +84,7 @@ Most pedig térünk át a mókás részre – egy Excel-munkafüzet létrehozás
 Workbook workbook = new Workbook();
 ```
 
-Ez egy vadonatúj Excel-munkafüzetet hoz létre a memóriában. Olyan, mintha megnyitná az Excelt és létrehozna egy új fájlt, azzal a különbséggel, hogy minden programozottan történik.
+Ez egy vadonatúj Excel-munkafüzetet hoz létre a memóriában. Olyan, mintha megnyitná az Excelt és egy új fájlt hozna létre, azzal a különbséggel, hogy minden programozottan történik.
 
 **Meglévő fájlokkal dolgozik?** Ha egy meglévő Excel fájlhoz kell munkalapokat hozzáadnia, egyszerűen adja át a fájl elérési útját a konstruktornak:
 
@@ -123,7 +123,7 @@ Ideje véglegesíteni a változtatásokat:
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-**A fájlformátum számít**Figyeljük meg, hogy a következő néven mentünk el: `.xls` (Excel 97-2003 formátum). Modern Excel fájlok esetén érdemes lehet `.xlsx`:
+**A fájlformátum számít**Figyeljük meg, hogy a következő néven mentünk el: `.xls` (Excel 97-2003 formátum). A modern Excel fájlokhoz érdemes lehet `.xlsx`:
 
 ```csharp
 workbook.Save(dataDir + "output.xlsx");
@@ -186,7 +186,7 @@ Természetesen! Betölthet meglévő Excel fájlokat a fájlelérési útjuk meg
 
 ### Hogyan adhatok hozzá több lapot egyszerre?
 
-Használjon hurkot a `Add()` módszer több munkalap hatékony létrehozására:
+Használjon hurkot a `Add()` módszer több lap hatékony létrehozására:
 ```csharp
 for (int i = 0; i < 5; i++)
 {

@@ -69,7 +69,7 @@ Następnie utwórz instancję `Workbook` obiekt z otwartego `FileStream`. Ten `W
 Workbook workbook = new Workbook(fstream);
 ```
 
-Ten `workbook` Obiekt reprezentuje teraz plik Excel, umożliwiając dostęp do jego arkuszy, komórek i innych elementów.
+Ten `workbook` obiekt reprezentuje teraz plik Excel, umożliwiając dostęp do jego arkuszy, komórek i innych elementów.
 
 ## Krok 4: Dodaj nowy arkusz kalkulacyjny
 
@@ -115,7 +115,7 @@ workbook.Save(dataDir + "updated_book1.xls");
 
 Jeśli chcesz zachować oryginalny plik w stanie nienaruszonym, zapisz go pod nową nazwą, np. `updated_book1.xls`.
 
-## Krok 8: Zamknij strumień plików
+## Krok 8: Zamknij FileStream
 
 Po zapisaniu pliku pamiętaj o jego zamknięciu `FileStream` Aby zwolnić zasoby. Ten krok jest szczególnie ważny podczas pracy z dużymi plikami lub wykonywania operacji na wielu plikach.
 

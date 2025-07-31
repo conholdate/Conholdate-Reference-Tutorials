@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Heb je er ooit over nagedacht om efficiënt met XML-gegevens in Excel te werken met behulp van .NET? Met Aspose.Cells voor .NET, een krachtige bibliotheek voor spreadsheetmanipulatie, verloopt de interactie met XML-kaarten in Excel-bestanden naadloos. In deze tutorial onderzoeken we hoe je specifieke gebieden kunt raadplegen die zijn gekoppeld aan XML-paden in Excel-bestanden, ideaal voor het genereren van dynamische rapporten of het automatiseren van gegevensextractie. Laten we het stapsgewijze proces eens bekijken!
+Heb je er ooit over nagedacht om efficiënt met XML-gegevens in Excel te werken met behulp van .NET? Met Aspose.Cells voor .NET, een krachtige bibliotheek voor spreadsheetmanipulatie, verloopt de interactie met XML-kaarten in Excel-bestanden naadloos. In deze tutorial onderzoeken we hoe je specifieke gebieden kunt opvragen die zijn gekoppeld aan XML-paden in Excel-bestanden, ideaal voor het genereren van dynamische rapporten of het automatiseren van gegevensextractie. Laten we het stapsgewijze proces eens bekijken!
 
 ## Vereisten
 
@@ -17,7 +17,7 @@ Voordat u begint met coderen, moet u het volgende voorbereiden:
 
 1. Aspose.Cells voor .NET: Download het [hier](https://releases.aspose.com/cells/net/) of installeer het via NuGet.
 2. Een XML-toegewezen Excel-bestand: U hebt een Excel-bestand (.xlsx) nodig waarin een XML-toewijzing al aanwezig is.
-3. Ontwikkelomgeving: Deze handleiding is specifiek bedoeld voor Visual Studio, maar andere C#-editors zijn ook geschikt.
+3. Ontwikkelomgeving: Deze handleiding is speciaal bedoeld voor Visual Studio, maar andere C#-editors zijn ook geschikt.
 4. Aspose-licentie: U kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/) als je er een nodig hebt.
 
 ## Uw ontwikkelomgeving instellen
@@ -47,7 +47,7 @@ string sourceDir = "Your Document Directory"; // Werk het pad dienovereenkomstig
 Workbook workbook = new Workbook(sourceDir + "sampleXmlMapQuery.xlsx");
 ```
 
-Hier, `Workbook` vertegenwoordigt uw volledige Excel-bestand, dat u laadt via het bestandspad.
+Hier, `Workbook` vertegenwoordigt uw volledige Excel-bestand, dat u laadt met behulp van het bestandspad.
 
 ## Stap 2: Toegang tot de XML-kaart
 
@@ -88,7 +88,7 @@ Deze methode neemt het XML-pad over en haalt de gerelateerde gegevens op in een 
 Nu u de opgevraagde gegevens hebt, kunnen we de resultaten naar de console afdrukken:
 
 ```csharp
-// De resultaten van de query weergeven
+// Geef de resultaten van de query weer
 foreach (var result in results)
 {
     Console.WriteLine(result);
@@ -102,7 +102,7 @@ Met deze lus kunt u alle items bekijken die uit het XML-pad zijn opgehaald.
 U kunt uw zoekopdracht verfijnen om specifiekere gegevens te verkrijgen. Als u bijvoorbeeld geïnteresseerd bent in de kleurinformatie onder `/MiscData/row/Color`, dan zou je je query als volgt aanpassen:
 
 ```csharp
-// Een genest XML-pad bevragen
+// Een genest XML-pad opvragen
 Console.WriteLine("Querying XML Map from Path - /MiscData/row/Color");
 results = worksheet.XmlMapQuery("/MiscData/row/Color", xmlMap);
 ```
@@ -119,7 +119,7 @@ foreach (var result in results)
 }
 ```
 
-Met deze lus worden alle items uit de geneste query afgedrukt en worden de doelgegevens weergegeven.
+Met deze lus worden alle items uit de geneste query afgedrukt en worden de beoogde gegevens weergegeven.
 
 ## Conclusie
 
@@ -128,7 +128,7 @@ In deze tutorial hebben we onderzocht hoe je XML-gegevens die in Excel-bestanden
 ## Veelgestelde vragen
 
 ### Kan ik meerdere XML-bestanden in één Excel-werkmap toewijzen?  
-Ja, Aspose.Cells ondersteunt het beheer van meerdere XML-kaarten binnen één werkmap.
+Ja, Aspose.Cells ondersteunt het beheer van meerdere XML-toewijzingen binnen één werkmap.
 
 ### Wat als het XML-pad niet in de kaart bestaat?  
 Als u een ongeldig pad opvraagt, `XmlMapQuery` methode retourneert een lege ArrayList.
@@ -140,4 +140,4 @@ Ja, u hebt een licentie nodig voor volledige functionaliteit. A [gratis proefper
 Absoluut! Je kunt gegevens extraheren en opslaan in een ander Excel-bestand, of exporteren naar verschillende formaten die door Aspose.Cells worden ondersteund.
 
 ### Wordt het opvragen van XML-kaarten in andere formaten dan Excel (.xlsx) ondersteund?  
-XML-toewijzing wordt voornamelijk ondersteund in .xlsx-bestanden; de functionaliteit voor andere formaten kan beperkt zijn.
+XML-toewijzing wordt voornamelijk ondersteund in .xlsx-bestanden. De functionaliteit voor andere formaten kan beperkt zijn.

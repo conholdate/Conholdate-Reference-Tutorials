@@ -22,7 +22,7 @@ Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy a következők
 
 ## szükséges csomagok importálása
 
-A környezet beállítása után itt az ideje importálni a szükséges csomagokat. Így teheti meg:
+környezet beállítása után itt az ideje importálni a szükséges csomagokat. Így teheti meg:
 
 1. Nyisd meg a Visual Studio-projektedet.
 2. Kattintson a jobb gombbal a projektre a Megoldáskezelőben, majd válassza a NuGet-csomagok kezelése lehetőséget.

@@ -1,6 +1,6 @@
 ---
 "description": "Zapoznaj się z samouczkami Aspose.Email for .NET dotyczącymi obsługi zdarzeń e-mail i zarządzania kalendarzem. Poznaj techniki efektywnego ulepszania aplikacji C#."
-"linktitle": "Obsługa zdarzeń e-mail i kalendarza"
+"linktitle": "Obsługa wydarzeń e-mail i kalendarza"
 "second_title": "Aspose.Email .NET API przetwarzania wiadomości e-mail"
 "title": "Obsługa zdarzeń e-mail i kalendarza za pomocą Aspose.Email dla platformy .NET"
 "url": "/pl/email/net/handling-email-events-and-calendar/"

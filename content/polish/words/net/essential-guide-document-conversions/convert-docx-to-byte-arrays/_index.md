@@ -101,7 +101,7 @@ using (MemoryStream inStream = new MemoryStream(docBytes))
 
 Oto co się dzieje:
 
-1. **Tworzenie strumienia pamięci**:Tworzymy nowy `MemoryStream` tablicy bajtów, co w zasadzie polega na odtworzeniu danych dokumentu w pamięci.
+1. **Tworzenie strumienia pamięci**:Tworzymy nowy `MemoryStream` tablicy bajtów, co w zasadzie oznacza ponowne utworzenie danych dokumentu w pamięci.
 
 2. **Ładowanie dokumentu**Konstruktor Document może odczytywać dane bezpośrednio ze strumienia, dzięki czemu otrzymujesz w pełni funkcjonalny obiekt Document, którym możesz manipulować, zapisywać i przetwarzać dalej.
 
@@ -123,7 +123,7 @@ public void StoreDocumentInDatabase(string filePath, int documentId)
         byte[] documentBytes = stream.ToArray();
         
         // Zapisz do bazy danych (pseudokod)
-        // dbContext.Documents.Add(nowy DocumentEntity 
+        // dbContext.Documents.Add(nowy obiekt DocumentEntity 
         // { 
         //     Id = identyfikator dokumentu, 
         //     Zawartość = documentBytes 
@@ -135,7 +135,7 @@ public void StoreDocumentInDatabase(string filePath, int documentId)
 ### Obsługa odpowiedzi API
 
 ```csharp
-// Przykład: zwracanie dokumentu za pośrednictwem interfejsu API sieci Web
+// Przykład: Zwrócenie dokumentu za pomocą interfejsu API sieci Web
 public byte[] GetDocumentAsBytes(int documentId)
 {
     Document doc = GetDocumentFromSomewhere(documentId);
@@ -152,7 +152,7 @@ public byte[] GetDocumentAsBytes(int documentId)
 
 Nawet przy prostym kodzie możesz napotkać pewne trudności. Oto najczęstsze problemy i ich rozwiązania:
 
-### Problem 1: OutOfMemoryException w przypadku dużych plików
+### Problem 1: Wyjątek OutOfMemoryException w przypadku dużych plików
 
 **Problem**:Konwersja bardzo dużych plików Docx (>50 MB) może powodować problemy z pamięcią.
 

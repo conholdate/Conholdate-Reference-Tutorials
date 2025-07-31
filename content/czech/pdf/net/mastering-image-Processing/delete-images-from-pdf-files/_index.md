@@ -106,4 +106,4 @@ Ano, můžete procházet stránkami a mazat obrázky pomocí `Resources.Images.D
 PDF můžete vizuálně zkontrolovat v prohlížeči nebo programově ověřit počet zbývajících obrázků na stránce.
 
 ### Je možné vrátit zpět smazání obrázku?
-Ne, jakmile je obrázek smazán a PDF soubor je uložen, nelze tuto akci vrátit zpět. Vždy si uchovávejte zálohu původního PDF souboru.
+Ne, jakmile je obrázek smazán a PDF soubor uložen, nelze tuto akci vrátit zpět. Vždy si uchovávejte zálohu původního PDF souboru.

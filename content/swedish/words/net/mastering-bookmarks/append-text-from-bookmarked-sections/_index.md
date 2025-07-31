@@ -60,7 +60,7 @@ if (startPara == null || endPara == null)
     throw new InvalidOperationException("Bookmark start or end does not have a valid paragraph parent.");
 ```
 
-## Steg 3: Validera styckets överordnade
+## Steg 3: Validera styckeöverordnade
 
 Vi måste se till att både start- och slutstyckena delar samma överordnade nod. Detta är en förenklad metod för att undvika komplikationer.
 

@@ -47,7 +47,7 @@ Nezapomeňte vyměnit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kam jsou
 
 Po nastavení adresáře je čas načíst dokument aplikace Word obsahující projekt VBA, který chcete klonovat. Tento krok je klíčový pro přístup k projektu VBA v rámci dokumentu.
 
-Zde je návod, jak načíst dokument:
+Zde je návod, jak můžete načíst dokument:
 
 ```csharp
 Document doc = new Document(dataDir + "VBA project.docm");
@@ -81,7 +81,7 @@ Tento řádek uloží nový dokument s klonovaným projektem VBA jako „Working
 
 ## Závěr
 
-A tady to máte! Právě jste zvládli umění klonování projektu VBA v dokumentech Wordu pomocí Aspose.Words pro .NET. Tato výkonná knihovna zjednodušuje práci se složitými dokumenty Wordu, od základních textových manipulací až po složité projekty VBA. Dodržováním této příručky jste se nejen naučili, jak klonovat projekty VBA, ale také jste položili základy pro další zkoumání rozsáhlých možností Aspose.Words.
+A tady to máte! Právě jste zvládli umění klonování projektu VBA v dokumentech Wordu pomocí Aspose.Words pro .NET. Tato výkonná knihovna zjednodušuje práci se složitými dokumenty Wordu, od základních textových manipulací až po složité projekty VBA. Dodržováním tohoto návodu jste se nejen naučili, jak klonovat projekty VBA, ale také jste položili základy pro další zkoumání rozsáhlých možností Aspose.Words.
 
 ## Často kladené otázky
 

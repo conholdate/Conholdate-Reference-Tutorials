@@ -41,9 +41,9 @@ Než se ponoříme do kódu, pojďme si ujasnit, kdy vrstvy PDF ve vašich proje
 
 Než se pustíme do tohoto tutoriálu, ujistěte se, že máte:
 
-1. **Základní znalost jazyka C#**Základní znalost jazyka vám pomůže porozumět kódu a přizpůsobit ho vašim potřebám.
+1. **Základní znalost C#**Základní znalost jazyka vám pomůže porozumět kódu a přizpůsobit ho vašim potřebám.
 2. **Aspose.PDF pro knihovnu .NET**Stáhněte si to z [Webové stránky Aspose](https://releases.aspose.com/pdf/net/)Pro produkční použití budete potřebovat platnou licenci.
-3. **Visual Studio nebo jakékoli C# IDE**K zápisu, kompilaci a spuštění kódu použijte IDE nastavené na vašem počítači.
+3. **Visual Studio nebo jakékoli C# IDE**Pro zápis, kompilaci a spuštění kódu použijte IDE nastavené na vašem počítači.
 4. **Ukázkový dokument PDF**Mít vzorový dokument může být užitečné pro testování (ačkoli v tomto tutoriálu vytvoříme vše od nuly).
 
 ## Importovat balíčky
@@ -165,13 +165,13 @@ Při práci s vrstvami PDF v .NET mějte na paměti tyto tipy pro zvýšení vý
 
 **Složitost vrstev**Jednoduché geometrické tvary (jako jsou naše čáry) fungují lépe než složitá grafika nebo velké obrázky ve vrstvách.
 
-**Správa paměti**: Správně zlikvidujte objekt Document, zejména při dávkovém zpracování více PDF souborů.
+**Správa paměti**Správně zlikvidujte objekt Document, zejména při dávkovém zpracování více PDF souborů.
 
 **Dopad velikosti souboru**Každá vrstva zvětšuje velikost PDF souboru. U dokumentů s mnoha vrstvami zvažte možnosti komprese dostupné v Aspose.PDF.
 
 ## Tipy pro profesionály pro správu vrstev
 
-**Popisné pojmenování**Používejte pro vrstvy jasné a popisné názvy. Uživatelé tyto názvy uvidí v panelu vrstev prohlížeče PDF.
+**Popisné pojmenování**Používejte pro vrstvy jasné a popisné názvy. Uživatelé tyto názvy uvidí v panelu vrstev v prohlížeči PDF.
 
 **Seskupování vrstev**Hierarchické struktury vrstev můžete vytvářet seskupením souvisejících vrstev, což usnadňuje navigaci ve složitých dokumentech.
 
@@ -185,7 +185,7 @@ Jakmile si zvyknete na základní vrstvy, zvažte tyto pokročilé techniky:
 
 **Podmíněná viditelnost**Vytvářejte vrstvy, které se automaticky zobrazují nebo skrývají na základě akcí uživatele nebo stavu dokumentu.
 
-**Závislosti vrstev**Nastavení vztahů mezi vrstvami, kde přepínání jedné vrstvy ovlivňuje ostatní.
+**Závislosti vrstev**Nastavte vztahy mezi vrstvami, kde přepínání jedné vrstvy ovlivňuje ostatní.
 
 **Interaktivní prvky**Kombinujte vrstvy s formulářovými poli nebo anotacemi a vytvářejte skutečně interaktivní dokumenty.
 

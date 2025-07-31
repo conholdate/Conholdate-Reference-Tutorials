@@ -16,7 +16,7 @@ Czy kiedykolwiek musiałeś przekonwertować każdą stronę dokumentu Worda na 
 Przed zanurzeniem się w wodzie upewnij się, że masz następujące rzeczy:
 
 1. Aspose.Words dla .NET: Pobierz i zainstaluj z [Tutaj](https://releases.aspose.com/words/net/).
-2. Visual Studio: Każda wersja będzie działać, jednak w tym przewodniku będziemy używać Visual Studio 2019.
+2. Visual Studio: Każda wersja będzie działać, ale w tym przewodniku będziemy używać Visual Studio 2019.
 3. Podstawowa znajomość języka C#: Znajomość języka C# pomoże Ci bezproblemowo uczyć się.
 
 ## Krok 1: Importuj niezbędne przestrzenie nazw

@@ -24,7 +24,7 @@ Koda geçmeden önce lütfen aşağıdaki temel unsurların hazır olduğundan e
 
 Aspose.Words ile çalışmaya başlamak için gerekli ad alanlarını içe aktarmanız gerekir. Bu ad alanları, Word belgelerini düzenlemek için önemli olan sınıfları ve yöntemleri içerir.
 
-Bunları içe aktarmak için yapmanız gerekenler:
+Bunları nasıl içe aktaracağınız aşağıda açıklanmıştır:
 
 ```csharp
 using Aspose.Words;
@@ -110,7 +110,7 @@ Tebrikler! Aspose.Words for .NET kullanarak bir Word belgesinde metin kutuları 
 Metin kutularını birbirine bağlamak, metnin kutular arasında kesintisiz bir şekilde akmasını sağlar; bu da özellikle farklı bölümler veya sütunlar arasında sürekli metin gerektiren düzenler için faydalıdır.
 
 ### İkiden fazla metin kutusunu birbirine bağlayabilir miyim?  
-Kesinlikle! Birden fazla metin kutusunu birbirine bağlayarak bir zincir oluşturabilirsiniz. Tek yapmanız gereken, her bir sonraki metin kutusunun bir öncekine ait geçerli bir bağlantı hedefi olduğundan emin olmaktır.
+Kesinlikle! Birden fazla metin kutusunu birbirine bağlayarak bir zincir oluşturabilirsiniz. Tek yapmanız gereken, her bir sonraki metin kutusunun bir öncekine geçerli bir bağlantı hedefi olduğundan emin olmaktır.
 
 ### Bağlantılı metin kutularının içindeki metni nasıl biçimlendirebilirim?  
 Her metin kutusundaki metni Aspose.Words'ün zengin biçimlendirme seçeneklerini kullanarak veya Word kullanıcı arayüzünü kullanarak biçimlendirebilirsiniz.

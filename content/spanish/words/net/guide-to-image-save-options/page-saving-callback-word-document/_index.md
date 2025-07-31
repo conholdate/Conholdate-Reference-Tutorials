@@ -45,7 +45,7 @@ Ahora, carguemos el documento que desea procesar. Asegúrese de que el documento
 Document doc = new Document(dataDir + "Rendering.docx");
 ```
 
-## Paso 4: Configurar las opciones para guardar imágenes
+## Paso 4: Configurar las opciones para guardar la imagen
 
 Configuraremos las opciones para guardar imágenes, especificando que queremos guardar las páginas como archivos PNG.
 

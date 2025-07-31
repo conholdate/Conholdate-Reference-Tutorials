@@ -1,5 +1,5 @@
 ---
-"description": "Descubra como ler e gerenciar com eficiência eventos de calendário de arquivos ICS em seus aplicativos C# usando o Aspose.Email para .NET. Este guia completo explica a configuração."
+"description": "Descubra como ler e gerenciar com eficiência eventos de calendário de arquivos ICS em seus aplicativos C# usando o Aspose.Email para .NET. Este guia completo orienta você na configuração."
 "linktitle": "Ler vários eventos de arquivos ICS com C#"
 "second_title": "API de processamento de e-mail Aspose.Email .NET"
 "title": "Ler vários eventos de arquivos ICS com C#"

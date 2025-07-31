@@ -28,7 +28,7 @@ using Aspose.Words;
 using Aspose.Words.Tables;
 ```
 
-## Stap 1: Het document laden
+## Stap 1: Laad het document
 
 Laad het Word-document met de doelbladwijzer. Vervang `"your-document.docx"` met het pad naar uw document.
 
@@ -46,7 +46,7 @@ Bookmark bookmark = doc.Range.Bookmarks["YourBookmarkName"];
 
 ## Stap 3: Identificeer de doelrij
 
-Zodra je de bladwijzer hebt gevonden, moet je de rij vinden die deze bladwijzer bevat. Dit vereist dat je de dichtstbijzijnde voorouder van de bladwijzer ophaalt, specifiek van het type `Row`.
+Zodra u de bladwijzer hebt gevonden, moet u de rij met deze bladwijzer vinden. Dit betekent dat u de dichtstbijzijnde voorouder van de bladwijzer moet vinden, specifiek van het type `Row`.
 
 ```csharp
 Row row = (Row)bookmark?.BookmarkStart.GetAncestor(typeof(Row));
@@ -54,7 +54,7 @@ Row row = (Row)bookmark?.BookmarkStart.GetAncestor(typeof(Row));
 
 ## Stap 4: Verwijder de rij
 
-Nadat u de rij hebt geïdentificeerd, kunt u deze uit het document verwijderen. Controleer wel op null-waarden om uitzonderingen te voorkomen.
+Nadat de rij is geïdentificeerd, kunt u deze uit het document verwijderen. Controleer wel op null-waarden om uitzonderingen te voorkomen.
 
 ```csharp
 row?.Remove();

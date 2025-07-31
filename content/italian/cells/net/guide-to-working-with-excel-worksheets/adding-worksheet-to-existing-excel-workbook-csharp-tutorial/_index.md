@@ -133,7 +133,7 @@ Imparare a manipolare i file Excel in modo programmatico apre un mondo di possib
 Aspose.Cells è una potente libreria che consente agli sviluppatori di creare, modificare e gestire file Excel all'interno di applicazioni .NET, senza richiedere Microsoft Excel.
 
 ### Aspose.Cells è gratuito?
-Aspose.Cells offre una prova gratuita per consentire agli utenti di testarne le funzionalità prima dell'acquisto. Puoi scaricarla [Qui](https://releases.aspose.com/cells/net/).
+Aspose.Cells offre una prova gratuita per consentire agli utenti di testarne le funzionalità prima dell'acquisto. È possibile scaricarlo. [Qui](https://releases.aspose.com/cells/net/).
 
 ### Posso usare Aspose.Cells su Linux?
 Sì, Aspose.Cells per .NET è compatibile con .NET Core, consentendo di eseguire applicazioni su Linux.

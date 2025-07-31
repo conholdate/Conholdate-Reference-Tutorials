@@ -1,24 +1,25 @@
 ---
-title: دليل التحويلات المحلية باستخدام Aspose.Drawing لـ .NET
-linktitle: دليل التحويلات المحلية باستخدام Aspose.Drawing
-second_title: Aspose.Drawing .NET API - بديل لـ System.Drawing.Common
-description: قم بترقية القدرات المرئية لتطبيق .NET الخاص بك باستخدام التحويلات المحلية باستخدام Aspose.Drawing. يرشدك هذا البرنامج التعليمي الشامل خلال عملية إنشاء رسومات مذهلة من خلال تطبيق مصفوفات التحويل.
-weight: 11
-url: /ar/drawing/transformations/guide-to-local-transformation/
+"description": "حسّن قدرات تطبيق .NET المرئية باستخدام التحويلات المحلية باستخدام Aspose.Drawing. يرشدك هذا البرنامج التعليمي الشامل خلال عملية إنشاء رسومات مذهلة باستخدام مصفوفات التحويل."
+"linktitle": "دليل التحويلات المحلية باستخدام Aspose.Drawing"
+"second_title": "Aspose.Drawing .NET API - بديل لـ System.Drawing.Common"
+"title": "دليل التحويلات المحلية باستخدام Aspose.Drawing لـ .NET"
+"url": "/ar/drawing/net/transformations/guide-to-local-transformation/"
+"weight": 11
 ---
+
 ## مقدمة
 
-يتيح برنامج Aspose.Drawing for .NET للمطورين إنشاء رسومات متطورة من خلال التحويلات المحلية. سيرشدك هذا الدليل الموجز خلال إعداد التحويلات المحلية خطوة بخطوة.
+يُمكّن Aspose.Drawing لـ .NET المطورين من إنشاء رسومات متطورة من خلال التحويلات المحلية. سيرشدك هذا الدليل الموجز خطوة بخطوة إلى كيفية إعداد التحويلات المحلية.
 
 ## المتطلبات الأساسية
 
-1.  Aspose.Drawing لـ .NET: قم بتنزيله وتثبيته من[هنا](https://releases.aspose.com/drawing/net/).
+1. Aspose.Drawing لـ .NET: قم بتنزيله وتثبيته من [هنا](https://releases.aspose.com/drawing/net/).
 2. دليل المستندات: اختر دليلاً لحفظ صورك.
 3. المعرفة الأساسية بـ .NET: الإلمام بلغة C# ومفاهيم البرمجة الرسومية.
 
 ## استيراد مساحات الأسماء
 
-ابدأ باستيراد المساحات الأساسية اللازمة إلى مشروع C# الخاص بك:
+ابدأ باستيراد المساحات الأسماء الضرورية إلى مشروع C# الخاص بك:
 
 ```csharp
 using System.Drawing;
@@ -57,7 +58,7 @@ matrix.RotateAt(45, new Point(500, 400));
 path.Transform(matrix);
 ```
 
-### الخطوة 5: ارسم المسار المحول
+### الخطوة 5: ارسم المسار المُحوَّل
 
 استخدم قلمًا لرسم المسار على الكائن الرسومي:
 
@@ -66,7 +67,7 @@ Pen pen = new Pen(Color.Blue, 2);
 graphics.DrawPath(pen, path);
 ```
 
-### الخطوة 6: احفظ الصورة المحولة
+### الخطوة 6: حفظ الصورة المحولة
 
 ```csharp
 bitmap.Save(@"Your Document Directory\CoordinateSystemsTransformations\LocalTransformation_out.png");
@@ -74,7 +75,7 @@ bitmap.Save(@"Your Document Directory\CoordinateSystemsTransformations\LocalTran
 
 ## خاتمة
 
-من خلال اتباع الخطوات التالية، يمكنك تنفيذ التحويلات المحلية بسهولة باستخدام Aspose.Drawing، مما يؤدي إلى إثراء القدرات المرئية لتطبيقات .NET الخاصة بك.
+من خلال اتباع الخطوات التالية، يمكنك بسهولة تنفيذ التحويلات المحلية باستخدام Aspose.Drawing، مما يؤدي إلى إثراء القدرات المرئية لتطبيقات .NET الخاصة بك.
 
 ## الأسئلة الشائعة
 
@@ -85,10 +86,10 @@ bitmap.Save(@"Your Document Directory\CoordinateSystemsTransformations\LocalTran
 بالتأكيد! يدعم Aspose.Drawing مجموعة واسعة من عمليات الرسومات.
 
 ### هل هناك أنواع أخرى من التحولات؟  
-نعم، فهو يدعم الترجمة والتوسع والتحريف.
+نعم، فهو يدعم الترجمة والتوسع والانحراف.
 
 ### كيفية التعامل مع الاستثناءات؟  
- تنفيذ معالجة الأخطاء واستشارة[التوثيق](https://reference.aspose.com/drawing/net/) للإرشاد.
+تنفيذ معالجة الأخطاء واستشارة [التوثيق](https://reference.aspose.com/drawing/net/) للإرشاد.
 
 ### هل يمكنني تجربته قبل الشراء؟  
- نعم، استكشف[نسخة تجريبية مجانية](https://releases.aspose.com/).
+نعم، استكشف [نسخة تجريبية مجانية](https://releases.aspose.com/).

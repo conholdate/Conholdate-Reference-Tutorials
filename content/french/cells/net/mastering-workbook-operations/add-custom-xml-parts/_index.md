@@ -189,6 +189,6 @@ Oui ! Vous pouvez commencer avec une version d'essai gratuite. [téléchargez-le
 ### Est-il possible d’ajouter plusieurs parties XML personnalisées à un classeur ?  
 Absolument ! Vous pouvez ajouter autant de parties XML personnalisées que nécessaire, et chacune peut se voir attribuer un identifiant unique pour un accès facile.
 ### Comment puis-je récupérer des parties XML si je ne connais pas les identifiants ?  
-Si vous ne connaissez pas les identifiants, vous pouvez parcourir les `CustomXmlParts` collection pour voir les pièces disponibles et leurs identifiants, facilitant ainsi leur identification et leur accès.
+Si vous ne connaissez pas les identifiants, vous pouvez parcourir les `CustomXmlParts` collection pour voir les pièces disponibles et leurs identifiants, ce qui facilite leur identification et leur accès.
 ### Où puis-je trouver plus de ressources ou d'assistance pour Aspose.Cells ?  
 Vous pouvez consulter le [documentation](https://reference.aspose.com/cells/net/) pour des conseils détaillés, ou visitez le [forum d'assistance](https://forum.aspose.com/c/cells/9) pour l'aide communautaire.

@@ -63,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "AddTOC.pdf");
 ```
 
-**Was ist hier los?** Wir schaffen eine `Document` Objekt, das Ihre PDF-Datei im Speicher darstellt. Stellen Sie sich das so vor, als würde die PDF-Datei programmgesteuert geöffnet, damit wir damit arbeiten können.
+**Was passiert hier?** Wir schaffen eine `Document` Objekt, das Ihre PDF-Datei im Speicher darstellt. Stellen Sie sich das so vor, als würde die PDF-Datei programmgesteuert geöffnet, damit wir damit arbeiten können.
 
 **Überlegungen zur realen Welt**: Stellen Sie sicher, dass Ihr PDF-Pfad korrekt ist und die Datei nicht durch einen anderen Prozess gesperrt ist. Ich habe Entwickler gesehen, die Stunden damit verbracht haben, einfache Pfadprobleme zu beheben!
 
@@ -148,7 +148,7 @@ dataDir = dataDir + "TOC_out.pdf";
 doc.Save(dataDir);
 ```
 
-**Tipp zur Dateibenennung**: Beachten Sie, dass wir „_out“ an den Dateinamen anhängen? Dies verhindert das versehentliche Überschreiben Ihrer Originaldatei. Erstellen Sie immer Backups, wenn Sie PDFs programmgesteuert ändern!
+**Tipp zur Dateibenennung**: Beachten Sie, dass wir „_out“ an den Dateinamen anhängen? Dies verhindert ein versehentliches Überschreiben Ihrer Originaldatei. Erstellen Sie immer Backups, wenn Sie PDFs programmgesteuert ändern!
 
 ## Schritt 7: Bestätigungsnachricht
 
@@ -174,7 +174,7 @@ Console.WriteLine("\nTOC added successfully to an existing PDF.\nFile saved at "
 
 ## Best Practices für die Implementierung von PDF-Inhaltsverzeichnissen
 
-**Mach es einfach**: Machen Sie die Struktur Ihres Inhaltsverzeichnisses nicht zu kompliziert. Benutzer sollten es auf einen Blick verstehen.
+**Halte es einfach**: Machen Sie die Struktur Ihres Inhaltsverzeichnisses nicht zu kompliziert. Benutzer sollten es auf einen Blick verstehen.
 
 **Gründlich testen**: Testen Sie Ihre Inhaltsverzeichnis-Links immer, insbesondere nachdem Sie Änderungen an der Dokumentstruktur vorgenommen haben.
 

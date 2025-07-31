@@ -23,7 +23,7 @@ Koda dalmadan önce aşağıdaki ön koşulları karşıladığınızdan emin ol
 3. Temel C# Bilgisi: C# programlamaya aşina olmanız, verilen örnekleri daha iyi anlamanıza yardımcı olacaktır.
 4. Mevcut Bir Excel Dosyası: Bir Excel dosyanız olduğundan emin olun (örneğin, `book1.xls`) içine bir çalışma sayfası ekleyebilirsiniz.
 
-### Lisansınızı Ayarlama (İsteğe Bağlı)
+### Lisansınızı Ayarlama (İsteğe bağlı)
 
 Lisanslı bir Aspose.Cells sürümüne sahip kullanıcılar, lisanslarını uygulayarak kütüphanenin tüm potansiyelini ortaya çıkarabilirler. Geçici lisanslama seçenekleri için şu adresi ziyaret edin: [Aspose'un geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
 
@@ -43,7 +43,7 @@ Artık ortamınızı kurduğunuza göre, süreci net ve uygulanabilir adımlara 
 İlk adım, mevcut Excel dosyanızın saklandığı dizini belirtmektir. Bu, programın dosyaya erişerek değişiklik yapmasını sağlar.
 
 ```csharp
-// Excel dosyasına giden yolu tanımlayın
+// Excel dosyasının yolunu tanımlayın
 string dataDir = "Your Document Directory";
 ```
 

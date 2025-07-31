@@ -59,7 +59,7 @@ Detta säkerställer att alla funktioner som används i ditt dokument överensst
 
 ## Steg 4: Spara det optimerade dokumentet
 
-Slutligen, spara det optimerade dokumentet. Detta steg är avgörande eftersom det bevarar alla ändringar du har gjort.
+Spara slutligen det optimerade dokumentet. Detta steg är avgörande eftersom det bevarar alla ändringar du har gjort.
 
 ```csharp
 doc.Save(dataDir + "Optimized_For_Word_2016.docx");

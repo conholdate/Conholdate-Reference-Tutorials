@@ -1,8 +1,8 @@
 ---
 "description": "Zjistěte, jak vylepšit funkčnost vašich PDF dokumentů přidáním interaktivních hypertextových odkazů pomocí Aspose.PDF pro .NET. Tato komplexní příručka nabízí podrobný návod."
-"linktitle": "Přidání hypertextového odkazu do souboru PDF"
+"linktitle": "Přidání hypertextového odkazu do PDF souboru"
 "second_title": "Aspose.PDF pro referenční příručku k .NET API"
-"title": "Přidání hypertextového odkazu do souboru PDF"
+"title": "Přidání hypertextového odkazu do PDF souboru"
 "url": "/cs/pdf/net/mastering-links-and-actions/adding-hyperlink/"
 "weight": 10
 ---

@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用 Aspose.PDF for .NET 提取高亮文本，釋放 PDF 文件的潛力。本指南將指導您從設定到實施的每個步驟。"
+"description": "透過學習如何使用 Aspose.PDF for .NET 提取突出顯示的文本，釋放 PDF 文件的潛力。本綜合指南將引導您完成從設定到實施的每個步驟。"
 "linktitle": "使用 Aspose.PDF for .NET 從 PDF 中提取高亮文本"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "使用 Aspose.PDF for .NET 從 PDF 中提取高亮文本"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-處理 PDF 檔案時，提取高亮文字對於資料分析、內容審查或整理筆記至關重要。如果您使用 Aspose.PDF for .NET，那麼您很幸運。本教學將提供清晰的逐步說明，幫助您有效率地從 PDF 文件中提取高亮文字。
+處理 PDF 文件時，提取突出顯示的文本對於資料分析、內容審查或組織筆記至關重要。如果您正在使用 Aspose.PDF for .NET，那麼您很幸運。本教學提供了清晰的逐步說明，指導如何有效地從 PDF 文件中提取突出顯示的文字。
 
 ## 先決條件
 
@@ -87,7 +87,7 @@ foreach (Annotation annotation in doc.Pages[1].Annotations)
 
 ## 結論
 
-使用 Aspose.PDF for .NET 從 PDF 中提取高亮文字非常簡單，並且可以顯著增強您的文件處理流程。按照上述步驟，您可以有效率地收集高亮文本，用於各種應用程序，例如報告準備或資料分析。
+使用 Aspose.PDF for .NET 從 PDF 中提取突出顯示的文字非常簡單，並且可以顯著增強您的文件處理過程。透過遵循上面概述的步驟，您可以有效地收集突出顯示的文字以用於各種應用程序，例如報告準備或資料分析。
 
 ## 常見問題解答
 
@@ -107,7 +107,7 @@ for (int i = 1; i <= doc.Pages.Count; i++)
 可以免費試用，但請考慮 [臨時執照](https://purchase.aspose.com/temporary-license/) 或獲得完整存取權限的完整許可證。
 
 ### 我可以將提取的文字儲存到文件中嗎？
-當然！您可以修改程式碼，將提取的文字寫入文字檔案。
+絕對地！您可以修改程式碼以將提取的文字寫入文字檔案。
 
 ### Aspose.PDF 是否支援其他平台？
 是的，Aspose.PDF 也支援 Java 和其他平台，提供類似的功能。

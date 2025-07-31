@@ -89,11 +89,11 @@ Jede JavaScript-Funktion wird als Schlüssel-Wert-Paar in der JavaScript-Sammlun
 
 **Häufige Anwendungsfälle für diese Funktionen**:
 - **Validierungsfunktionen**Prüfen, ob Formularfelder gültige Daten enthalten
-- **Berechnungsfunktionen**: Führen Sie mathematische Operationen an Formularwerten durch
+- **Berechnungsfunktionen**: Führen Sie mathematische Operationen mit Formularwerten durch
 - **Ereignishandler**: Reagieren Sie auf Benutzerinteraktionen wie Schaltflächenklicks
 - **Hilfsfunktionen**: Hilfsfunktionen, die andere Skripte aufrufen können
 
-**Bewährte Methode**: Achten Sie auf aussagekräftige Funktionsnamen und vermeiden Sie Konflikte mit integrierten PDF-JavaScript-Funktionen. Verwenden Sie anstelle von „func1“ beispielsweise Namen wie „validateEmail“ oder „calculateTotal“.
+**Bewährte Vorgehensweise**: Achten Sie auf aussagekräftige Funktionsnamen und vermeiden Sie Konflikte mit integrierten PDF-JavaScript-Funktionen. Verwenden Sie anstelle von „func1“ beispielsweise Namen wie „validateEmail“ oder „calculateTotal“.
 
 ## Schritt 3: Speichern Sie das PDF mit JavaScript
 
@@ -185,7 +185,7 @@ Wenn Sie mit JavaScript in PDFs arbeiten, sparen Sie durch Befolgen dieser Best 
 
 **JavaScript wird nicht ausgeführt**: Überprüfen Sie, ob der PDF-Viewer JavaScript unterstützt und in den Viewer-Einstellungen aktiviert ist. In einigen Unternehmensumgebungen ist PDF-JavaScript aus Sicherheitsgründen deaktiviert.
 
-**Funktionen nicht gefunden**: Überprüfen Sie, ob Funktionsnamen richtig geschrieben sind und ob sie an der Stelle, an der sie definiert sind, und an der Stelle, an der sie aufgerufen werden, genau übereinstimmen. JavaScript in PDF-Dateien unterscheidet zwischen Groß- und Kleinschreibung.
+**Funktionen nicht gefunden**: Überprüfen Sie, ob die Funktionsnamen richtig geschrieben sind und ob sie an der Stelle, an der sie definiert sind, und an der Stelle, an der sie aufgerufen werden, genau übereinstimmen. JavaScript in PDF-Dateien unterscheidet zwischen Groß- und Kleinschreibung.
 
 **Unerwartetes Verhalten**Testen Sie Ihre JavaScript-Funktionen Schritt für Schritt. Verwenden Sie einfache alert()-Anweisungen, um zu überprüfen, ob Funktionen aufgerufen werden und Variablen die erwarteten Werte enthalten.
 

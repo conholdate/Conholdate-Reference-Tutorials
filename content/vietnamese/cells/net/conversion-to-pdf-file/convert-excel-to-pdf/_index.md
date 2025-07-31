@@ -82,7 +82,7 @@ Những lần nhập này cho phép bạn truy cập vào mọi chức năng x�
 Giờ đến phần chính – hãy chuyển đổi tệp Excel sang PDF. Quá trình này đơn giản hơn bạn nghĩ, nhưng tôi sẽ chia nhỏ thành các bước rõ ràng để bạn hiểu chính xác những gì đang diễn ra.
 
 ### Bước 1: Xác định đường dẫn tệp của bạn
-Trước tiên, hãy thiết lập đường dẫn lưu trữ tệp Excel và nơi bạn muốn lưu tệp PDF:
+Đầu tiên, hãy thiết lập đường dẫn lưu trữ tệp Excel và nơi bạn muốn lưu tệp PDF:
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.

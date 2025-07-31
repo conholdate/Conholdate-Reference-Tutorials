@@ -156,7 +156,7 @@ fstream.Close();
 
 ## Závěr
 
-Aspose.Cells pro .NET je implementace pokročilých nastavení ochrany jednoduchá, ale zároveň zásadní pro zachování integrity vašich souborů Excel. Pečlivým nastavením omezení a oprávnění zajistíte, že vaše data zůstanou v bezpečí a zároveň umožníte smysluplnou interakci s uživateli. Ať už pracujete na sestavách, analýze dat nebo společných projektech, tyto kroky vám pomohou vytvořit kontrolované prostředí pro vaše soubory Excel.
+Aspose.Cells pro .NET je implementace pokročilých nastavení ochrany jednoduchá, ale zároveň nezbytná pro zachování integrity vašich souborů Excel. Pečlivým nastavením omezení a oprávnění zajistíte, že vaše data zůstanou v bezpečí a zároveň umožníte smysluplnou interakci s uživateli. Ať už pracujete na sestavách, analýze dat nebo společných projektech, tyto kroky vám pomohou vytvořit kontrolované prostředí pro vaše soubory Excel.
 
 ## Často kladené otázky
 

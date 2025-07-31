@@ -1,5 +1,5 @@
 ---
-"description": "Dowiedz się, jak skutecznie zarządzać ustawieniami rozmiaru papieru w arkuszach Excela i weryfikować je za pomocą Aspose.Cells dla platformy .NET. Ten kompleksowy przewodnik zawiera instrukcje krok po kroku."
+"description": "Dowiedz się, jak skutecznie zarządzać ustawieniami rozmiaru papieru w arkuszach kalkulacyjnych programu Excel i weryfikować je za pomocą Aspose.Cells dla platformy .NET. Ten kompleksowy przewodnik zawiera instrukcje krok po kroku."
 "linktitle": "Sprawdź, czy ustawienia rozmiaru papieru arkusza kalkulacyjnego są automatyczne"
 "second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
 "title": "Sprawdź, czy ustawienia rozmiaru papieru arkusza kalkulacyjnego są automatyczne"
@@ -14,7 +14,7 @@ Podczas pracy z arkuszami kalkulacyjnymi kluczowe jest zapewnienie optymalnej pr
 ## Wymagania wstępne
 Zanim zagłębimy się w kodowanie, upewnijmy się, że masz niezbędne ustawienia:
 
-1. Środowisko programistyczne C#: Potrzebujesz odpowiedniego środowiska IDE, takiego jak Visual Studio. Jeśli jeszcze go nie zainstalowałeś, możesz je pobrać ze strony internetowej firmy Microsoft.
+1. Środowisko programistyczne C#: Potrzebujesz odpowiedniego środowiska IDE, takiego jak Visual Studio. Jeśli jeszcze go nie zainstalowałeś, możesz je pobrać ze strony internetowej Microsoft.
    
 2. Biblioteka Aspose.Cells: Upewnij się, że masz bibliotekę Aspose.Cells. Możesz ją łatwo pobrać ze strony [Postawić](https://releases.aspose.com/cells/net/).
 

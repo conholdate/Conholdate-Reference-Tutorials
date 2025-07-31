@@ -21,7 +21,7 @@ Stellen Sie sich vor, Sie arbeiten gemeinsam an einer Excel-Tabelle, in der Komm
 
 ## Hinzufügen grafischer Hintergründe zu ODS-Dateien
   
-Tabellenkalkulationen müssen keine langweiligen Raster sein. Mit Aspose.Cells können Sie Ihren ODS-Dateien ansprechende grafische Hintergründe hinzufügen, um sie hervorzuheben. Ob Logo, individuelles Design oder inspirierendes Bild – wir zeigen Ihnen, wie Sie es mit nur wenigen Codezeilen implementieren. [Entdecken Sie wie](./adding-graphic-background-in-ods-file/).
+Tabellenkalkulationen müssen keine langweiligen Raster sein. Mit Aspose.Cells können Sie Ihren ODS-Dateien ansprechende grafische Hintergründe hinzufügen, um sie hervorzuheben. Ob Logo, individuelles Design oder inspirierendes Bild – wir zeigen Ihnen, wie Sie es mit nur wenigen Codezeilen implementieren. [Entdecken Sie, wie](./adding-graphic-background-in-ods-file/).
 
 ## Lesen der Erstellungszeit von Thread-Kommentaren  
 

@@ -1,20 +1,21 @@
 ---
-title: 使用 GroupDocs.Signature 对带有自定义图像的文档进行签名
-linktitle: 使用自定义图像签署文件
-second_title: GroupDocs.Signature .NET API
-description: 了解如何通过使用 GroupDocs.Signature for .NET 使用自定义图像对文档进行签名来增强文档的真实性和安全性。本分步教程涵盖了从加载文档到文档的所有内容。
-weight: 13
-url: /zh/signature/master-advanced-sign-techniques/sign-documents-with-custom-image/
+"description": "了解如何使用 GroupDocs.Signature for .NET 为文档添加自定义图像签名，从而增强文档的真实性和安全性。本分步教程涵盖了从加载文档到文档的所有内容。"
+"linktitle": "使用自定义图像签署文件"
+"second_title": "GroupDocs.签名 .NET API"
+"title": "使用 GroupDocs.Signature 对带有自定义图像的文档进行签名"
+"url": "/zh/signature/net/master-advanced-sign-techniques/sign-documents-with-custom-image/"
+"weight": 13
 ---
+
 ## 介绍
 
-在本教程中，您将学习如何使用 GroupDocs.Signature for .NET 签署带有图像的文档。文档签名可增强文件的真实性和安全性，确保文件防篡改且具有法律约束力。通过将文档签名功能集成到 .NET 应用程序中，您可以显著简化工作流程。
+在本教程中，您将学习如何使用 GroupDocs.Signature for .NET 对包含图像的文档进行签名。文档签名可以增强文件的真实性和安全性，确保其防篡改并具有法律约束力。通过将文档签名功能集成到您的 .NET 应用程序中，您可以显著简化工作流程。
 
 ## 先决条件
 
-在深入学习本教程之前，请确保您已准备好以下内容：
+在深入学习本教程之前，请确保您已具备以下条件：
 
-1.  GroupDocs.Signature for .NET：从[网站](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature for .NET：从 [网站](https://releases。groupdocs.com/signature/net/).
 2. .NET开发环境：设置.NET开发的工作环境。
 
 ## 导入命名空间
@@ -37,7 +38,7 @@ using GroupDocs.Signature.Options;
 string filePath = "sample.pdf";
 ```
 
-## 步骤 2：指定签名图像
+## 步骤2：指定签名图像
 
 定义您要使用的签名图像的路径：
 
@@ -45,39 +46,39 @@ string filePath = "sample.pdf";
 string imagePath = "signature_handwrite.jpg";
 ```
 
-## 步骤 3：设置输出文件路径
+## 步骤3：设置输出文件路径
 
-确定要保存已签名文档的位置：
+确定要保存签名文档的位置：
 
 ```csharp
 string outputFilePath = Path.Combine("Your Document Directory", "SignWithImage", "SignedDocument.pdf");
 ```
 
-## 步骤 4：初始化签名对象
+## 步骤4：初始化签名对象
 
-创建一个实例`Signature`类，传入文档文件路径：
+创建一个实例 `Signature` 类，传入文档文件路径：
 
 ```csharp
 using (Signature signature = new Signature(filePath))
 {
-    //附加代码将放在此处
+    // 附加代码将放在此处
 }
 ```
 
-## 步骤 5：配置图像签名选项
+## 步骤5：配置图像签名选项
 
-设置签署文档的选项。在这里，您可以指定签名的位置以及它是否应出现在所有页面上：
+设置文档签名选项。在这里，您可以指定签名的位置以及签名是否显示在所有页面上：
 
 ```csharp
 ImageSignOptions options = new ImageSignOptions(imagePath)
 {
-    Left = 50,   //水平位置
-    Top = 50,    //垂直位置
-    AllPages = true //在所有页面上签名
+    Left = 50,   // 水平位置
+    Top = 50,    // 垂直位置
+    AllPages = true // 在所有页面上签名
 };
 ```
 
-## 第 6 步：签署文件
+## 步骤6：签署文件
 
 利用配置的选项签署文档：
 
@@ -95,13 +96,13 @@ Console.WriteLine($"\nSource document signed successfully with {result.Succeeded
 
 ## 结论
 
-在本教程中，我们介绍了如何使用 GroupDocs.Signature for .NET 在 .NET 应用程序中使用图像签署文档。文档签名对于维护文件的真实性和安全性至关重要，可显著增强您的文档管理能力。
+在本教程中，我们介绍了如何使用 GroupDocs.Signature for .NET 在 .NET 应用程序中使用图像对文档进行签名。文档签名对于维护文件的真实性和安全性至关重要，可显著增强您的文档管理能力。
 
 ## 常见问题解答
 
 ### 我可以在一份文档中使用多个签名图像吗？
 
-是的，您可以使用多张图片签署一份文件。只需根据需要对每张图片重复签名过程即可。
+是的，您可以使用多张图片签署一份文件。只需根据需要对每张图片重复签名流程即可。
 
 ### GroupDocs.Signature for .NET 是否与所有文档类型兼容？
 
@@ -109,12 +110,12 @@ GroupDocs.Signature for .NET 支持多种文档格式，包括 PDF、Word、Exce
 
 ### 我可以自定义签名的外观吗？
 
-当然可以！您可以调整签名外观的各个方面，例如大小、位置、透明度等。
+当然！您可以调整签名外观的各个方面，例如大小、位置、透明度等等。
 
-### 是否有可供测试的试用版？
+### 有试用版可供测试吗？
 
 是的，您可以从网站下载免费试用版，以便在购买之前探索其功能。
 
 ### 如何获得 GroupDocs.Signature for .NET 的技术支持？
 
-如需技术帮助，请访问[GroupDocs.Signature 论坛](https://forum.groupdocs.com/c/signature/13).
+如需技术帮助，请访问 [GroupDocs.Signature 论坛](https://forum。groupdocs.com/c/signature/13).

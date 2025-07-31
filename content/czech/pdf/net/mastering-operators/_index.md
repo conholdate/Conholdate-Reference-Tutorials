@@ -1,5 +1,5 @@
 ---
-"description": "Prozkoumejte tutoriály k Aspose.PDF pro .NET a zvládněte manipulaci s PDF pomocí praktických návodů na XForms, PDF operátory a odstraňování grafických objektů."
+"description": "Prozkoumejte tutoriály k Aspose.PDF pro .NET a zvládněte manipulaci s PDF pomocí praktických návodů na XForms, operátory PDF a odstraňování grafických objektů."
 "linktitle": "Zvládnutí operátorů v Aspose.PDF pro .NET"
 "title": "Zvládnutí operátorů v Aspose.PDF pro .NET"
 "url": "/cs/pdf/net/mastering-operators/"

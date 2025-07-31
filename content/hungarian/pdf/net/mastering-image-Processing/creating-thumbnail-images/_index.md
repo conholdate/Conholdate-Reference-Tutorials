@@ -147,7 +147,7 @@ Az Aspose.PDF egy kereskedelmi termék, de letölthet egy ingyenes próbaverzió
 ### Testreszabhatom a miniatűrök méreteit?  
 Igen, a szélesség és magasság paramétereit módosíthatja a `JpegDevice` konstruktor a kívánt bélyegképek méretének beállításához.
 
-### Vannak-e teljesítménybeli szempontok nagy PDF-ek konvertálásakor?  
+### Vannak teljesítménybeli szempontok nagy PDF-ek konvertálásakor?  
 Igen, a nagyobb fájlok feldolgozása a felbontástól és az oldalak számától függően tovább tarthat. Ezen paraméterek optimalizálása javíthatja a teljesítményt.
 
 ### Hol találok további forrásokat és támogatást?  

@@ -12,7 +12,7 @@
 ## Mesterszintű Word dokumentumfeldolgozás és automatizálás
 Fedezze fel az Aspose.Words for .NET erejét átfogó oktatóanyag-gyűjteményünkkel. Az alapvető dokumentumkonvertálásoktól a fejlett, mesterséges intelligencián alapuló funkciókig mindent megtalál, amire szüksége van egy robusztus dokumentumfeldolgozó alkalmazás létrehozásához.
 
-## 🚀 Amit Elérhetsz
+## 🚀 Amit elérhetsz
 
 **Aspose.Words .NET-hez** egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára Word-dokumentumok létrehozását, módosítását, konvertálását és kezelését Microsoft Word használata nélkül. Több mint 100 támogatott fájlformátummal és kiterjedt automatizálási képességekkel ez a legjobb megoldás a vállalati dokumentumfeldolgozáshoz.
 
@@ -35,7 +35,7 @@ Sajátítsa el a leggyakoribb dokumentumátalakítási feladatokat lépésről l
 | **[Word-ből PDF-be konvertálás](./essential-guide-document-conversions/convert-word-to-pdf/)** | Professzionális PDF generálás formázásmegőrzéssel | ⭐ Kezdő |
 | **[DOCX konvertálása TXT-vé](./essential-guide-document-conversions/convert-docx-to-txt/)** | Sima szöveges tartalom kinyerése Word dokumentumokból | ⭐ Kezdő |
 | **[Szöveges fájlok konvertálása Word dokumentumokká](./essential-guide-document-conversions/convert-text-files-to-word-documents/)** | Sima szöveg átalakítása strukturált Word-dokumentumokká | ⭐ Kezdő |
-| **[PDF konvertálása Word dokumentummá](./essential-guide-document-conversions/convert-pdf-to-word/)** PDF-ek szerkeszthetővé tétele Word formátumba konvertálással | ⭐⭐ Középhaladó |
+| **[PDF konvertálása Word dokumentummá](./essential-guide-document-conversions/convert-pdf-to-word/)** | PDF-ek szerkeszthetővé tétele Word formátumba konvertálással | ⭐⭐ Középhaladó |
 | **[PDF konvertálása JPEG-re](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Kiváló minőségű képek kinyerése PDF dokumentumokból | ⭐⭐ Középhaladó |
 
 ### Speciális dokumentumkonverziók
@@ -54,7 +54,7 @@ Használja ki a legmodernebb mesterséges intelligencia technológiákat a dokum
 | Oktatóanyag | Leírás | Nehézség |
 |-----------|--------------|-------------|
 | **[Dokumentum-összefoglaló elsajátítása mesterséges intelligencia modellekkel](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Mesterséges intelligencia által vezérelt tartalomelemzés és összefoglalás | ⭐⭐⭐ Haladó |
-| **[Dokumentum-összefoglaló Google AI-modellekkel](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** | Integrálja a Google mesterséges intelligenciáját az intelligens dokumentumfeldolgozáshoz | ⭐⭐⭐ Speciális |
+| **[Dokumentum-összefoglaló Google AI-modellekkel](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** Integrálja a Google mesterséges intelligenciáját az intelligens dokumentumfeldolgozáshoz | ⭐⭐⭐ Speciális |
 | **[Hatékony dokumentum-összefoglaló OpenAI modellekkel](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | OpenAI GPT modellek használata dokumentumelemzésekhez | ⭐⭐⭐ Haladó |
 | **[Dokumentumok összefoglalásának beállításai](./advanced-ai-document-processing/summarize-documents-options/)** | Átfogó útmutató az összefoglaló technikákhoz | ⭐⭐⭐ Haladó |
 
@@ -91,7 +91,7 @@ Használja ki a legmodernebb mesterséges intelligencia technológiákat a dokum
 ### **Haladó fejlesztő** (Vállalati megoldások építése)
 1. Integrálás **[AI-összefoglaló](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)**
 2. Épít **[Egyéni munkafolyamatok](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)**
-3. Optimalizálás **[Teljesítménymegoldások](./advanced-ai-document-processing/summarize-documents-options/)**
+3. Optimalizálás **[Teljesítménynövelő megoldások](./advanced-ai-document-processing/summarize-documents-options/)**
 
 ## 🌟 Kiemelt oktatóanyagok ebben a hónapban
 
@@ -118,7 +118,7 @@ Használja ki a legmodernebb mesterséges intelligencia technológiákat a dokum
 - Vegye figyelembe a fájlméret és a minőség közötti kompromisszumokat
 
 ### **MI-integráció**
-- Válassza ki a megfelelő MI-modelleket a dokumentum összetettsége alapján
+- Válassza ki a megfelelő AI-modelleket a dokumentum összetettsége alapján
 - Megfelelő hibakezelés megvalósítása API-hívásokhoz
 - Eredmények gyorsítótárazása a jobb teljesítmény érdekében
 
@@ -129,7 +129,7 @@ Használja ki a legmodernebb mesterséges intelligencia technológiákat a dokum
 - **[Letöltés](https://releases.aspose.com/words/net/)** - Értékelje a teljes funkciókészletet
 
 ### **Közösség és támogatás**
-- **[Támogatási fórum](https://forum.aspose.com/c/words/8)** - Kérjen segítséget szakértőktől
+- **[Támogatási fórum](https://forum.aspose.com/c/words/8)** Kérjen segítséget szakértőktől
 
 ### **Licencelés és próbaverziók**
 - **[Ideiglenes engedély](https://purchase.conholdate.com/temporary-license/)** - Bővített értékelés

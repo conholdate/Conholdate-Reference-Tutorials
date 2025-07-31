@@ -2,7 +2,7 @@
 "categories":
 - "PDF Programming"
 "date": "2025-01-02"
-"description": "Aspose.PDF를 사용하여 .NET에서 PDF 문서 프로그래밍을 마스터하세요. 실용적인 예제와 모범 사례를 통해 PDF를 프로그래밍 방식으로 생성, 조작 및 최적화하는 방법을 배우세요."
+"description": "Aspose.PDF를 사용하여 .NET 환경에서 PDF 문서 프로그래밍을 마스터하세요. 실제 예제와 모범 사례를 통해 PDF를 프로그래밍 방식으로 생성, 조작 및 최적화하는 방법을 배우세요."
 "lastmod": "2025-01-02"
 "linktitle": "PDF 문서 프로그래밍"
 "tags":
@@ -125,4 +125,4 @@ PDF 관련 설정을 하드코딩하지 않고 구성 파일에 보관하세요.
 | [PDF 파일에 Java 스크립트 추가](./adding-java-script-to-pdf/) | 이 문서에서는 Aspose.PDF for .NET을 사용하여 팝업 알림이나 자동 인쇄 기능과 같은 대화형 요소를 PDF 문서에 추가하는 방법에 대한 포괄적인 가이드를 제공합니다. |  
 | [.NET용 Aspose.PDF를 사용하여 PDF 문서에 레이어 추가](./adding-layers-to-pdf/) | Aspose.PDF for .NET에서 여러 레이어가 있는 복잡한 PDF 문서를 만드는 방법을 알아보세요. 이 라이브러리의 강력한 기능을 살펴보고 최적화하세요. |  
 | [PDF 문서에 Javascript 제거 추가](./adding-remove-java-script-to-doc/) | 이 포괄적인 가이드에서는 사용자 정의 동작을 추가하고, 계산이나 검증을 동적으로 수행하고, 다른 소프트웨어 애플리케이션과 통합하는 방법을 보여줍니다. |  
-| [PDF 문서에 목차 추가](./adding-toc-to-pdf/) Aspose.PDF for .NET을 사용하여 PDF에 목차를 추가하는 방법을 알아보세요. 이 단계별 가이드는 목차 추가 과정을 간소화하고 문서 내에서 쉽게 탐색할 수 있도록 도와줍니다. |
+| [PDF 문서에 목차 추가](./adding-toc-to-pdf/) Aspose.PDF for .NET을 사용하여 PDF에 목차를 추가하는 방법을 알아보세요. 이 단계별 가이드는 작업을 간소화하고 문서 내에서 쉽게 탐색할 수 있도록 도와줍니다. |

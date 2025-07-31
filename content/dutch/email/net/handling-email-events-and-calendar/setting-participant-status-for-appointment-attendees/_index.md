@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Aspose.Email voor .NET is een robuuste en veelzijdige bibliotheek die is ontworpen om e-mailverwerking in .NET-applicaties te stroomlijnen. Deze handleiding biedt een stapsgewijze handleiding voor het maken en beheren van afspraken, het toevoegen van deelnemers en het instellen van deelnemersstatussen, waardoor een efficiënte integratie in uw .NET-projecten wordt gegarandeerd.
+Aspose.Email voor .NET is een robuuste en veelzijdige bibliotheek die is ontworpen om e-mailverwerking in .NET-applicaties te stroomlijnen. Deze handleiding biedt een stapsgewijze handleiding voor het maken en beheren van afspraken, het toevoegen van deelnemers en het instellen van deelnemersstatussen, waardoor efficiënte integratie in uw .NET-projecten wordt gegarandeerd.
 
 ## Vereisten
 
@@ -89,7 +89,7 @@ client.Send(msg);
 
 ## Conclusie
 
-Aspose.Email voor .NET vereenvoudigt het beheer van afspraken in .NET-applicaties en biedt tools voor het efficiënt aanmaken, aanpassen en beheren van geplande evenementen. Met de intuïtieve API kunt u communicatieworkflows stroomlijnen en zorgen voor naadloze integratie.
+Aspose.Email voor .NET vereenvoudigt het beheer van afspraken in .NET-applicaties en biedt tools voor het efficiënt maken, aanpassen en beheren van geplande evenementen. Met de intuïtieve API kunt u communicatieworkflows stroomlijnen en een naadloze integratie garanderen.
 
 ## Veelgestelde vragen
 

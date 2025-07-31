@@ -9,7 +9,7 @@
 
 ## Giới thiệu
 
-Việc quản lý các tệp Excel lớn có thể là một thách thức, đặc biệt là khi xét đến hiệu quả lưu trữ và truyền tải. May mắn thay, tính năng nén tệp có thể giảm đáng kể kích thước của các tệp này, giúp việc xử lý dễ dàng hơn. Nếu bạn đang sử dụng Aspose.Cells cho .NET, bạn có thể dễ dàng điều chỉnh mức độ nén của sổ làm việc. Hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện, đồng thời giải thích rõ ràng từng phần của mã.
+Việc quản lý các tệp Excel lớn có thể là một thách thức, đặc biệt là khi xét đến hiệu quả lưu trữ và truyền tải. May mắn thay, tính năng nén tệp có thể giảm đáng kể kích thước của các tệp này, giúp việc xử lý dễ dàng hơn. Nếu bạn đang sử dụng Aspose.Cells cho .NET, bạn có thể dễ dàng điều chỉnh mức độ nén của sổ làm việc. Hướng dẫn này sẽ hướng dẫn bạn từng bước một, đồng thời giải thích rõ ràng từng phần của mã.
 
 ## Điều kiện tiên quyết
 

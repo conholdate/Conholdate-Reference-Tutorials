@@ -17,7 +17,7 @@ Innan vi börjar, låt oss se till att du har allt du behöver:
 
 1. Aspose.Words för .NET-biblioteket: Se till att du har den senaste versionen. [Ladda ner den här](https://releases.aspose.com/words/net/).
 2. Utvecklingsmiljö: En .NET-kompatibel miljö som Visual Studio fungerar perfekt.
-3. Grundläggande C#-kunskaper: Bekantskap med C#-syntax hjälper dig att enkelt navigera i koden.
+3. Grundläggande C#-kunskaper: Bekantskap med C#-syntax hjälper dig att navigera i koden enkelt.
 4. Exempel på Word-dokument: Vi skapar ett från grunden, men det kan vara praktiskt att ha ett exempeldokument för testning.
 
 ## Importera nödvändiga namnrymder

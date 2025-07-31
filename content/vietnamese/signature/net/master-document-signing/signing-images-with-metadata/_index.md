@@ -1,20 +1,21 @@
 ---
-title: Hướng dẫn ký hình ảnh với siêu dữ liệu bằng GroupDocs.Signature
-linktitle: Hướng dẫn ký hình ảnh với siêu dữ liệu
-second_title: API GroupDocs.Signature .NET
-description: Tìm hiểu cách ký hiệu hình ảnh hiệu quả bằng siêu dữ liệu trong ứng dụng .NET của bạn bằng GroupDocs.Signature. Hướng dẫn từng bước này bao gồm mọi thứ từ cài đặt đến triển khai, cho phép bạn nâng cao tài liệu của mình bằng chữ ký siêu dữ liệu một cách dễ dàng.
-weight: 10
-url: /vi/signature/master-document-signing/signing-images-with-metadata/
+"description": "Tìm hiểu cách ký hiệu hình ảnh bằng siêu dữ liệu hiệu quả trong các ứng dụng .NET của bạn bằng GroupDocs.Signature. Hướng dẫn từng bước này bao gồm mọi thứ từ cài đặt đến triển khai, cho phép bạn nâng cao tài liệu của mình bằng chữ ký siêu dữ liệu một cách dễ dàng."
+"linktitle": "Hướng dẫn ký hình ảnh bằng siêu dữ liệu"
+"second_title": "API GroupDocs.Signature .NET"
+"title": "Hướng dẫn ký hình ảnh với siêu dữ liệu bằng GroupDocs.Signature"
+"url": "/vi/signature/net/master-document-signing/signing-images-with-metadata/"
+"weight": 10
 ---
+
 ## Giới thiệu
 
-GroupDocs.Signature for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển ký hiệu hình ảnh bằng siêu dữ liệu một cách hiệu quả. Hướng dẫn này sẽ hướng dẫn bạn từng bước trong quy trình.
+GroupDocs.Signature for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển ký hình ảnh bằng siêu dữ liệu một cách hiệu quả. Hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện.
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1.  GroupDocs.Signature cho .NET: Cài đặt gói GroupDocs.Signature trong dự án .NET của bạn. Bạn có thể tải xuống từ[đây](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature cho .NET: Cài đặt gói GroupDocs.Signature vào dự án .NET của bạn. Bạn có thể tải xuống từ [đây](https://releases.groupdocs.com/signature/net/).
 2. Tệp hình ảnh: Chuẩn bị tệp hình ảnh bạn muốn ký bằng siêu dữ liệu.
 
 ## Nhập các không gian tên cần thiết
@@ -73,7 +74,7 @@ Trong hướng dẫn này, bạn đã học cách ký hình ảnh bằng siêu d
 Có, bạn có thể ký nhiều hình ảnh bằng cách lặp qua từng tệp hình ảnh và áp dụng chữ ký siêu dữ liệu.
 
 ### Có phiên bản dùng thử của GroupDocs.Signature dành cho .NET không?
- Có, bạn có thể tải xuống phiên bản dùng thử từ[đây](https://releases.groupdocs.com/).
+Có, bạn có thể tải xuống phiên bản dùng thử từ [đây](https://releases.groupdocs.com/).
 
 ### GroupDocs.Signature cho .NET có hỗ trợ các định dạng tệp khác ngoài hình ảnh không?
 Chắc chắn rồi! GroupDocs.Signature hỗ trợ nhiều định dạng khác nhau, bao gồm PDF, Word, Excel, v.v.
@@ -82,4 +83,4 @@ Chắc chắn rồi! GroupDocs.Signature hỗ trợ nhiều định dạng khác
 Có, bạn có thể tùy chỉnh các khía cạnh như kích thước phông chữ, màu sắc và vị trí của chữ ký siêu dữ liệu.
 
 ### Tôi có thể nhận hỗ trợ cho GroupDocs.Signature cho .NET ở đâu?
- Để được hỗ trợ, hãy truy cập diễn đàn GroupDocs.Signature[đây](https://forum.groupdocs.com/c/signature/13).
+Để được hỗ trợ, hãy truy cập diễn đàn GroupDocs.Signature [đây](https://forum.groupdocs.com/c/signature/13).

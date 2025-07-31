@@ -20,9 +20,9 @@
 
 Het converteren van DOCX-bestanden naar RTF-formaat is een van die taken die eenvoudig lijken totdat je het daadwerkelijk programmatisch moet doen. Of je nu een documentbeheersysteem bouwt, compatibiliteit met oudere applicaties wilt garanderen of de opmaak op verschillende platforms wilt behouden, weten hoe je DOCX naar RTF converteert in C# kan je uren aan handmatig werk besparen.
 
-RTF (Rich Text Format) biedt verschillende voordelen ten opzichte van DOCX: het wordt breder ondersteund, is beter compatibel met meerdere platformen en behoudt een consistente opmaak, zelfs in oudere applicaties. Bovendien zijn RTF-bestanden over het algemeen kleiner en worden ze sneller geladen dan DOCX-bestanden.
+RTF (Rich Text Format) biedt verschillende voordelen ten opzichte van DOCX: het wordt breder ondersteund, is beter compatibel met meerdere platforms en behoudt een consistente opmaak, zelfs in oudere applicaties. Bovendien zijn RTF-bestanden over het algemeen kleiner en worden ze sneller geladen dan DOCX-bestanden.
 
-In deze uitgebreide handleiding leert u precies hoe u DOCX naar RTF-formaat converteert met Aspose.Words voor .NET. We behandelen alles, van basisconversie tot het omgaan met edge-cases, prestatie-optimalisatie en batchverwerking. Aan het einde beschikt u over een robuuste oplossing die alle mogelijke scenario's voor documentconversie aankan.
+In deze uitgebreide handleiding leert u precies hoe u DOCX naar RTF-formaat converteert met Aspose.Words voor .NET. We behandelen alles, van basisconversie tot het omgaan met randgevallen, prestatie-optimalisatie en batchverwerking. Aan het einde beschikt u over een robuuste oplossing die alle mogelijke scenario's voor documentconversie aankan.
 
 ## Waarom RTF-formaat kiezen?
 
@@ -32,12 +32,12 @@ Hierdoor is RTF bijzonder handig als u ervoor moet zorgen dat documenten op vers
 
 ## Vereisten
 
-Voordat u begint met het converteren van documenten, moet u ervoor zorgen dat alles goed is ingesteld:
+Voordat we beginnen met het converteren van documenten, moet u ervoor zorgen dat alles goed is ingesteld:
 
 1. **Aspose.Words voor .NET**: Download de bibliotheek van de [Aspose.Words downloadpagina](https://releases.aspose.com/words/net/)U kunt het ook installeren via NuGet Package Manager.
 2. **Ontwikkelomgeving**: Visual Studio 2019 of later wordt aanbevolen, maar elke .NET IDE werkt ook.
 3. **Basiskennis C#**: U moet vertrouwd zijn met basisconcepten van C#, zoals klassen, methoden en uitzonderingsafhandeling.
-4. **Voorbeeld DOCX-bestand**Zorg dat u een DOCX-testbestand bij de hand hebt. Idealiter is dit een bestand met verschillende opmaakelementen, zodat u kunt zien hoe goed deze tijdens de conversie behouden blijven.
+4. **Voorbeeld DOCX-bestand**Zorg dat u een DOCX-testbestand bij de hand hebt. Het liefst een bestand met verschillende opmaakelementen, zodat u kunt zien hoe goed deze tijdens de conversie behouden blijven.
 
 ## Uw project instellen
 
@@ -48,17 +48,17 @@ using Aspose.Words;
 using System.IO;
 ```
 
-De `Aspose.Words` Met de naamruimte krijgt u toegang tot alle documentmanipulatieklassen die u nodig hebt, terwijl `System.IO` Verwerkt bestandsbewerkingen. Dit zijn de enige twee naamruimten die nodig zijn voor eenvoudige DOCX naar RTF-conversie.
+De `Aspose.Words` Met de naamruimte krijgt u toegang tot alle documentmanipulatieklassen die u nodig hebt, terwijl `System.IO` Verwerkt bestandsbewerkingen. Dit zijn de enige twee naamruimten die nodig zijn voor basisconversie van DOCX naar RTF.
 
 ## Stap 1: Definieer uw documentenmap
 
-Organisatie is essentieel bij het converteren van bestanden. Zorg voor een duidelijke mappenstructuur voor uw invoer- en uitvoerbestanden:
+Organisatie is essentieel bij het converteren van bestanden. Zorg voor een duidelijke directorystructuur voor uw invoer- en uitvoerbestanden:
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
 
-**Belangrijk**: Vervangen `"YOUR_DOCUMENT_DIRECTORY"` met het daadwerkelijke pad waar uw documenten zijn opgeslagen. Door relatieve paden te gebruiken, kunt u uw code gemakkelijker overdraagbaar maken naar verschillende omgevingen.
+**Belangrijk**: Vervangen `"YOUR_DOCUMENT_DIRECTORY"` met het daadwerkelijke pad waar uw documenten zijn opgeslagen. Het gebruik van relatieve paden kan uw code gemakkelijker overdraagbaar maken naar verschillende omgevingen.
 
 **Professionele tip**: Overweeg om te gebruiken `Path.Combine()` voor betere platformonafhankelijke compatibiliteit:
 ```csharp
@@ -107,7 +107,7 @@ using (MemoryStream dstStream = new MemoryStream())
 1. **MemoryStream-creatie**:We gebruiken een geheugenstroom als tussenstap voor betere prestaties
 2. **Document opslaan**: `SaveFormat.Rtf` vertelt Aspose.Words om het document naar RTF-formaat te converteren
 3. **Positie reset**: Essentieel voor het correct lezen van de streaminhoud
-4. **Bestand schrijven**: Het definitieve RTF-bestand wordt naar schijf geschreven
+4. **Bestand schrijven**: Het uiteindelijke RTF-bestand wordt naar schijf geschreven
 
 **Prestatienota**:MemoryStream gebruiken voor tussentijdse verwerking is sneller dan het rechtstreeks opslaan op schijf, vooral bij grotere documenten of batchbewerkingen.
 
@@ -115,9 +115,9 @@ using (MemoryStream dstStream = new MemoryStream())
 
 Zelfs met een robuuste bibliotheek zoals Aspose.Words kun je nog steeds uitdagingen tegenkomen. Hier zijn de meest voorkomende problemen en hoe je ze kunt oplossen:
 
-### Nummer 1: Grote bestanden verwerken
+### Nummer 1: Grote bestandsverwerking
 **Probleem**: Grote DOCX-bestanden veroorzaken geheugenproblemen tijdens de conversie.
-**Oplossing**: Documenten in delen verwerken of het beschikbare geheugen vergroten:
+**Oplossing**: Verwerk documenten in delen of vergroot het beschikbare geheugen:
 
 ```csharp
 // Voor grote documenten kunt u LoadOptions gebruiken
@@ -141,7 +141,7 @@ RtfSaveOptions saveOptions = new RtfSaveOptions()
 doc.Save(dataDir + "ConvertedWithOptions.rtf", saveOptions);
 ```
 
-### Probleem 3: Fouten bij bestandstoegang
+### Probleem 3: Fouten bij toegang tot bestanden
 **Probleem**: Foutmeldingen "Bestand wordt door een ander proces gebruikt".
 **Oplossing**Gebruik altijd de juiste verwijderingsmethoden en controleer de beschikbaarheid van bestanden:
 
@@ -157,7 +157,7 @@ if (File.Exists(inputPath) && !IsFileLocked(inputPath))
 
 ## Batchverwerking van meerdere DOCX-bestanden
 
-In de praktijk zul je vaak meerdere bestanden tegelijk moeten converteren. Zo ga je efficiënt om met batchconversies:
+In de praktijk moet u vaak meerdere bestanden tegelijk converteren. Zo gaat u efficiënt om met batchconversies:
 
 ```csharp
 public void ConvertMultipleDocxToRtf(string inputDirectory, string outputDirectory)
@@ -185,7 +185,7 @@ public void ConvertMultipleDocxToRtf(string inputDirectory, string outputDirecto
 }
 ```
 
-Bij deze batchverwerking wordt gebruikgemaakt van foutbehandeling voor afzonderlijke bestanden. Zo stopt één problematisch document niet het hele conversieproces.
+Bij deze batchverwerking wordt er rekening gehouden met fouten in afzonderlijke bestanden. Zo wordt voorkomen dat één problematisch document het hele conversieproces in de war schopt.
 
 ## Tips voor prestatie-optimalisatie
 
@@ -197,7 +197,7 @@ Bij grootschalige documentconversie zijn prestaties van belang. Hier zijn enkele
 - Gebruik `MemoryOptimization = true` in LoadOptions voor grote bestanden
 
 ### Verwerkingsefficiëntie
-- Converteer meerdere documenten parallel voor beter CPU-gebruik:
+- Converteer meerdere documenten parallel voor een beter CPU-gebruik:
 ```csharp
 Parallel.ForEach(docxFiles, docxFile => {
     // Conversielogica hier
@@ -221,7 +221,7 @@ doc.Save(outputPath, options);
 ```
 
 ### Documenteigenschappen behouden
-De RTF-indeling ondersteunt documentmetadata en u bepaalt zelf wat er bewaard blijft:
+De RTF-indeling ondersteunt documentmetadata en u bepaalt zelf wat er behouden blijft:
 ```csharp
 // Documenteigenschappen blijven automatisch behouden, maar u kunt ze wijzigen
 doc.BuiltInDocumentProperties.Title = "Converted RTF Document";
@@ -250,7 +250,7 @@ Het converteren van DOCX naar RTF-formaat met Aspose.Words voor .NET is zowel ee
 
 Of u nu een documentbeheersysteem bouwt, een batchconversietool ontwikkelt of gewoon compatibiliteit tussen verschillende platforms wilt garanderen, deze aanpak biedt een betrouwbare basis. De sleutel is het begrijpen van uw specifieke vereisten en het kiezen van de juiste configuratieopties die daarbij passen.
 
-Vergeet niet om uw conversies altijd te testen met representatieve voorbeelddocumenten, implementeer een correcte foutbehandeling voor productieomgevingen en houd rekening met de gevolgen voor de prestaties bij het verwerken van grote hoeveelheden bestanden.
+Vergeet niet om uw conversies altijd te testen met representatieve voorbeelddocumenten, implementeer een goede foutbehandeling voor productieomgevingen en houd rekening met de gevolgen voor de prestaties bij het verwerken van grote hoeveelheden bestanden.
 
 ## Veelgestelde vragen
 
@@ -264,10 +264,10 @@ Aspose.Words biedt een gratis proefversie die perfect is voor evaluatie en klein
 Controleer eerst uw invoerdocument op ongebruikelijke opmaak of beschadigde elementen. Raadpleeg de [Aspose.Words-documentatie](https://reference.aspose.com/words/net/) Of probeer verschillende SaveOptions-configuraties. Soms wordt complexe DOCX-opmaak niet perfect vertaald naar RTF vanwege beperkingen in de opmaak.
 
 ### Kan ik dit conversieproces automatiseren?
-Zeker weten! De meegeleverde code is perfect voor automatiseringsscenario's. Je kunt hem integreren in geplande taken, webapplicaties of desktophulpprogramma's. Overweeg voor webapplicaties de conversie als een asynchrone bewerking te implementeren om blokkering van de gebruikersinterfacethread te voorkomen.
+Absoluut! De meegeleverde code is perfect voor automatiseringsscenario's. Je kunt hem integreren in geplande taken, webapplicaties of desktophulpprogramma's. Overweeg voor webapplicaties om de conversie als een asynchrone bewerking te implementeren om blokkering van de UI-thread te voorkomen.
 
 ### Hoe ga ik om met wachtwoordbeveiligde DOCX-bestanden?
-Voor documenten die met een wachtwoord zijn beveiligd, gebruikt u LoadOptions met het wachtwoord:
+Voor met een wachtwoord beveiligde documenten gebruikt u LoadOptions met het wachtwoord:
 ```csharp
 LoadOptions loadOptions = new LoadOptions("your-password");
 Document doc = new Document(filePath, loadOptions);

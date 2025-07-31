@@ -9,15 +9,15 @@
 
 ## Invoering
 
-In het huidige, snel veranderende digitale landschap is het vermogen om gegevens efficiënt te beheren cruciaal voor elk bedrijf. Excel-spreadsheets vormen een hoeksteen van gegevensbeheer en het automatiseren van taken erin kan aanzienlijk tijd en moeite besparen. In deze handleiding onderzoeken we hoe u programmatisch een werkblad kunt toevoegen aan een bestaande Excel-werkmap met behulp van Aspose.Cells voor .NET, een robuuste bibliotheek die is ontworpen voor naadloze spreadsheetbewerking. Laten we beginnen!
+In het huidige, snel veranderende digitale landschap is het vermogen om gegevens efficiënt te beheren cruciaal voor elk bedrijf. Excel-spreadsheets vormen een hoeksteen van gegevensbeheer en het automatiseren van taken erin kan aanzienlijk veel tijd en moeite besparen. In deze handleiding onderzoeken we hoe u programmatisch een werkblad kunt toevoegen aan een bestaande Excel-werkmap met behulp van Aspose.Cells voor .NET, een robuuste bibliotheek die is ontworpen voor naadloze spreadsheetbewerking. Laten we beginnen!
 
 ## Vereisten
 
-Voordat we in de code duiken, zorg ervoor dat je over de volgende tools en kennis beschikt:
+Voordat we in de code duiken, zorg ervoor dat je over de volgende hulpmiddelen en kennis beschikt:
 
 1. Visual Studio: Download en installeer Visual Studio van [hier](https://visualstudio.microsoft.com/vs/).
 2. Aspose.Cells voor .NET: Integreer Aspose.Cells in uw project. U kunt het downloaden van de [site](https://releases.aspose.com/cells/net/).
-3. Basiskennis van C#: Kennis van C# helpt je om het te volgen. Maak je geen zorgen als je nieuw bent; we begeleiden je bij elke stap!
+3. Basiskennis van C#: Kennis van C# helpt je om te volgen. Maak je geen zorgen als je nieuw bent; we begeleiden je bij elke stap!
 4. Documentmap: maak een map op uw computer om uw Excel-bestanden voor deze zelfstudie op te slaan.
 
 Zodra u alles hebt ingesteld, kunt u de benodigde pakketten importeren.
@@ -33,7 +33,7 @@ using Aspose.Cells;
 
 De `System.IO` naamruimte zal ons helpen bij het beheren van bestandsbewerkingen, terwijl `Aspose.Cells` Biedt de functionaliteit die nodig is voor Excel-bewerking. Laten we nu onze documentmap instellen.
 
-## Stap 1: Definieer het pad naar de documentenmap
+## Stap 1: Definieer het pad naar de documentdirectory
 
 Geef eerst aan waar uw Excel-bestanden worden opgeslagen. Dit is cruciaal voor toegang tot de bestanden waarmee u wilt werken.
 
@@ -42,7 +42,7 @@ Geef eerst aan waar uw Excel-bestanden worden opgeslagen. Dit is cruciaal voor t
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Vervangen `YOUR DOCUMENT DIRECTORY` met het werkelijke pad naar de map met de Excel-bestanden.
+Vervangen `YOUR DOCUMENT DIRECTORY` met het daadwerkelijke pad naar de map met de Excel-bestanden.
 
 ## Stap 2: Maak een bestandsstroom om de werkmap te openen
 
@@ -112,10 +112,10 @@ Hier slaan we de werkmap op als `output.out.xls`U kunt elke gewenste naam kiezen
 
 ## Stap 8: Sluit de bestandsstroom
 
-Tot slot moeten we de bestandsstroom sluiten om bronnen vrij te maken.
+Ten slotte moeten we de bestandsstroom sluiten om bronnen vrij te maken.
 
 ```csharp
-// De bestandsstroom sluiten om alle bronnen vrij te maken
+// Sluit de bestandsstroom om alle bronnen vrij te maken
 fstream.Close();
 ```
 
@@ -133,13 +133,13 @@ Begrijpen hoe je Excel-bestanden programmatisch kunt bewerken, opent een wereld 
 Aspose.Cells is een krachtige bibliotheek waarmee ontwikkelaars Excel-bestanden in .NET-toepassingen kunnen maken, bewerken en beheren zonder dat ze Microsoft Excel nodig hebben.
 
 ### Is Aspose.Cells gratis?
-Aspose.Cells biedt een gratis proefperiode aan zodat gebruikers de functies kunnen testen voordat ze tot aankoop overgaan. U kunt het downloaden. [hier](https://releases.aspose.com/cells/net/).
+Aspose.Cells biedt gebruikers een gratis proefperiode aan om de functies te testen voordat ze tot aankoop overgaan. U kunt het downloaden [hier](https://releases.aspose.com/cells/net/).
 
 ### Kan ik Aspose.Cells op Linux gebruiken?
 Ja, Aspose.Cells voor .NET is compatibel met .NET Core, waardoor u applicaties op Linux kunt uitvoeren.
 
 ### Waar kan ik ondersteuning voor Aspose.Cells vinden?
-U kunt ondersteuning vinden en vragen stellen op de [Aspose-ondersteuningsforum](https://forum.aspose.com/c/cells/9).
+U kunt op de website ondersteuning vinden en vragen stellen. [Aspose-ondersteuningsforum](https://forum.aspose.com/c/cells/9).
 
 ### Hoe krijg ik een tijdelijke licentie voor Aspose.Cells?
 Vraag een tijdelijke licentie aan via de website van Aspose [hier](https://purchase.conholdate.com/temporary-license/).

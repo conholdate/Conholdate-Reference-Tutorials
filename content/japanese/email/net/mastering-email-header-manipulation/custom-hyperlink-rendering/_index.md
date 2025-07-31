@@ -79,7 +79,7 @@ private static string RenderHyperlinkWithHref(string source)
 2. タグ間のリンクテキストを検索します。
 3. 出力を「リンクテキスト」として表示するようにフォーマットします<URL>「」。
 
-## Href なしでハイパーリンクをレンダリングする
+## Hrefなしでハイパーリンクをレンダリングする
 
 次に、 `RenderHyperlinkWithoutHref` ハイパーリンクテキストを取得する方法 `href` 属性。
 

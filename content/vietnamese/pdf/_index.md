@@ -21,7 +21,7 @@ Khám phá các tính năng toàn diện của Aspose.PDF với bộ sưu tập 
 - **🔄 Chuyển đổi nâng cao**: Chuyển đổi độ trung thực cao giữa các định dạng
 - **🎨 Các yếu tố tương tác**: JavaScript, biểu mẫu, chú thích và chữ ký số
 - **📊 Nội dung phong phú**: Lớp, dấu trang, hình mờ và đa phương tiện
-- **🔒 Tính năng bảo mật**: Mã hóa, chữ ký số và kiểm soát truy cập
+- **🔒 Tính năng bảo mật**Mã hóa, chữ ký số và kiểm soát truy cập
 
 ## 📚 Nền tảng có sẵn
 

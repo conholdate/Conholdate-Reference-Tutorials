@@ -16,7 +16,7 @@ Bu eğitimde, .NET için Aspose.Cells kullanarak Excel'de liste nesnesi oluştur
 Koda dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 ### C# Temel Anlayışı
-C# bilgisine sahip olmak, süreci sorunsuz bir şekilde takip etmenize yardımcı olacaktır. Dil konusunda yeniyseniz, çok sayıda çevrimiçi kaynak size başlamanızda yardımcı olabilir.
+C# bilgisine sahip olmak, dili sorunsuz bir şekilde takip etmenize yardımcı olacaktır. Dil konusunda yeniyseniz, çok sayıda çevrimiçi kaynak başlamanıza yardımcı olabilir.
 
 ### Entegre Geliştirme Ortamı (IDE)
 C# kodunuzu yazıp çalıştırmak için bir IDE'ye ihtiyacınız olacak. Visual Studio popüler bir tercihtir, ancak JetBrains Rider veya Visual Studio Code gibi alternatifleri de kullanabilirsiniz.
@@ -100,7 +100,7 @@ Bu özellik, Excel sayfanızın alt kısmında otomatik bir hesap makinesi gibi 
 listObjects[0].ListColumns[4].TotalsCalculation = Aspose.Cells.Tables.TotalsCalculation.Sum; 
 ```
 
-Bu, Excel'e belirtilen sütundaki değerleri toplamasını söyler ve toplamları izlemeyi kolaylaştırır.
+Bu, Excel'e belirtilen sütundaki değerleri toplamasını söyler ve toplamların izlenmesini kolaylaştırır.
 
 ## Adım 7: Çalışma Kitabını Kaydedin
 

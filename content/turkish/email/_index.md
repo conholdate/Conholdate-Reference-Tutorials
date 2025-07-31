@@ -21,7 +21,7 @@ Aspose.Email for .NET ile e-posta yönetiminin tüm potansiyelini ortaya çıkar
 - **📧 E-posta Formatı Desteği**: EML, MSG, MHTML, PST, OST, MBOX ve daha fazlası
 - **🔄 Kusursuz Dönüşüm**: Yüksek doğrulukla farklı e-posta biçimleri arasında dönüşüm yapın
 - **🤖 Gelişmiş Analiz**: Makine öğrenimine dayalı spam tespiti ve içerik işleme
-- **📊 Protokol Entegrasyonu**: SMTP, POP3, IMAP, Exchange Web Hizmetleri desteği
+- **📊 Protokol Entegrasyonu**SMTP, POP3, IMAP, Exchange Web Hizmetleri desteği
 - **🔒 Güvenlik Özellikleri**: E-posta şifrelemesi, dijital imzalar ve kimlik doğrulama
 
 ## 📚 Eğitim Kategorileri
@@ -40,7 +40,7 @@ Güvenlik ve otomasyon için gelişmiş e-posta içeriği işleme ve akıllı an
 | Eğitim | Açıklama | Zorluk |
 |----------|-------------|------------|
 | **[C#'ta Bayes Spam Analizi](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | İstatistiksel analizle makine öğrenimine dayalı spam tespiti | ⭐⭐⭐ Gelişmiş |
-| **[HTML E-postayı Düz Metne Dönüştür](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | HTML e-postalarından temiz metin içeriği çıkarın | ⭐⭐ Orta düzey |
+| **[HTML E-postayı Düz Metne Dönüştür](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** HTML e-postalarından temiz metin içeriği çıkarın | ⭐⭐ Orta düzey |
 
 ### E-posta Bildirimleri ve İzlemede Ustalaşma
 Kurumsal uygulamalar için profesyonel e-posta bildirim sistemleri ve izleme uygulamaları.
@@ -55,7 +55,7 @@ Kurumsal uygulamalar için profesyonel e-posta bildirim sistemleri ve izleme uyg
 
 ### **E-posta Sistemi Entegrasyonu**
 - **E-posta Göçü**: Sistem geçişleri için farklı e-posta biçimleri arasında dönüştürme yapın
-- **Arşiv Çözümleri**Biçim standardizasyonu ile uzun vadeli e-posta depolama
+- **Arşiv Çözümleri**: Biçim standardizasyonu ile uzun vadeli e-posta depolama
 - **Platformlar Arası Uyumluluk**: E-postaların farklı e-posta istemcilerinde çalışmasını sağlayın
 
 ### **E-posta Güvenliği ve Analizi**
@@ -122,10 +122,10 @@ Kurumsal uygulamalar için profesyonel e-posta bildirim sistemleri ve izleme uyg
 - **Şifreleme** - Güvenli e-posta iletişimi ve veri koruması
 
 ### **Analitik ve Raporlama**
-- **E-posta Takibi** - Mesaj teslim onayı ve okundu bildirimleri
+- **E-posta Takibi** Mesaj teslim onayı ve okundu bildirimleri
 - **İçerik Analizi** - Metin madenciliği ve e-posta sınıflandırması
 - **Performans Ölçümleri** - E-posta sistemi izleme ve analitiği
-- **Uyumluluk Raporlaması** Mevzuata uyum ve denetim izleri
+- **Uyumluluk Raporlaması** - Mevzuata uyum ve denetim izleri
 
 ## 🔗 Ek Kaynaklar
 

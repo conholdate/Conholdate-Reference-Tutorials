@@ -133,7 +133,7 @@ Lorsque vous travaillez avec des pièces jointes PDF/A, suivre ces pratiques vou
 **Problème**: « La pièce jointe n'apparaît pas dans la visionneuse PDF »
 **Solution**: Assurez-vous d'utiliser un lecteur PDF prenant en charge les pièces jointes PDF/A-3A. Certains lecteurs plus anciens n'affichent pas correctement les fichiers intégrés.
 
-**Problème**: « La taille du fichier devient trop grande après la pièce jointe »
+**Problème**: « La taille du fichier devient trop grande après la pièce jointe »
 **Solution**: Pensez à compresser vos fichiers joints avant de les intégrer ou utilisez les paramètres de compression PDF dans Aspose.PDF pour réduire la taille globale du fichier.
 
 **Problème**: « La validation PDF/A échoue après l'ajout d'une pièce jointe »

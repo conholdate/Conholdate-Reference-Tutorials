@@ -1,5 +1,5 @@
 ---
-"description": "Ontgrendel de kracht van Excel-automatisering met Aspose.Cells voor .NET. Deze stapsgewijze tutorial begeleidt je bij het programmatisch maken van Excel-bestanden, het toevoegen en hernoemen van werkbladen en het moeiteloos opslaan van je werk."
+"description": "Ontgrendel de kracht van Excel-automatisering met Aspose.Cells voor .NET. Deze stapsgewijze tutorial begeleidt u bij het programmatisch maken van Excel-bestanden, het toevoegen en hernoemen van werkbladen en het moeiteloos opslaan van uw werk."
 "linktitle": "Werkbladen toevoegen aan een nieuw Excel-bestand met Aspose.Cells"
 "second_title": "Aspose.Cells .NET Excel-verwerkings-API"
 "title": "Werkbladen toevoegen aan een nieuw Excel-bestand met Aspose.Cells"
@@ -21,7 +21,7 @@ Zorg ervoor dat u de volgende essentiële zaken bij de hand hebt voordat u aan d
 
 ## Vereiste pakketten importeren
 
-Nadat uw project is ingesteld in Visual Studio, importeert u de benodigde naamruimten om toegang te krijgen tot Aspose.Cells-klassen en -methoden:
+Zodra uw project is ingesteld in Visual Studio, importeert u de benodigde naamruimten om toegang te krijgen tot Aspose.Cells-klassen en -methoden:
 
 ```csharp
 using System.IO;
@@ -39,11 +39,11 @@ Geef eerst een map op waar u het Excel-bestand wilt opslaan. Als de map niet bes
 string dataDir = "Your Document Directory";
 ```
 
-Zorg ervoor dat u vervangt `"Your Document Directory"` met het door u gewenste pad.
+Zorg ervoor dat u deze vervangt `"Your Document Directory"` met het door u gewenste pad.
 
 ## Stap 2: Directory controleren en aanmaken
 
-Controleer vervolgens of de opgegeven directory bestaat en maak deze aan als dat niet het geval is.
+Controleer vervolgens of de opgegeven map bestaat en maak deze aan als dat niet het geval is.
 
 ```csharp
 // Maak een map aan als deze nog niet bestaat.
@@ -54,7 +54,7 @@ if (!Directory.Exists(dataDir))
 ```
 
 - `Directory.Exists(dataDir)`: Controleert of de map bestaat.
-- `Directory.CreateDirectory(dataDir)`: Maakt de map aan als deze niet wordt gevonden.
+- `Directory.CreateDirectory(dataDir)`: Maakt de directory aan als deze niet gevonden wordt.
 
 ## Stap 3: Een nieuwe werkmap initialiseren
 
@@ -92,7 +92,7 @@ Hierbij haalt u het werkblad op met behulp van de index en slaat u het op in een
 
 ## Stap 6: Hernoem het werkblad
 
-Door je werkblad een beschrijvende naam te geven, kun je de structuur verbeteren. Laten we het hernoemen naar 'Mijn werkblad'.
+Door je werkblad een beschrijvende naam te geven, kun je de structuur ervan verbeteren. Laten we het hernoemen naar 'Mijn werkblad'.
 
 ```csharp
 // De naam van het nieuw toegevoegde werkblad instellen
@@ -128,7 +128,7 @@ Je kunt bellen `workbook.Worksheets.Add()` meerdere keren om zoveel werkbladen t
 Ja, maar de proefversie heeft beperkingen. Voor volledige functionaliteit kunt u overwegen een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
 
 ### Hoe verander ik de standaardwerkbladnaam?
-Gebruik `worksheet.Name = "New Name";` om aan elk werkblad een aangepaste naam toe te wijzen.
+Gebruik `worksheet.Name = "New Name";` om elk werkblad een aangepaste naam te geven.
 
 ### Waar kan ik ondersteuning krijgen als ik problemen ondervind?
 Voor hulp kunt u terecht op de [Aspose.Cells ondersteuningsforum](https://forum.aspose.com/c/cells/9).

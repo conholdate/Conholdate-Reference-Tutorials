@@ -1,12 +1,13 @@
 ---
-title: GroupDocs.Merger for .NET のチュートリアルと例
-linktitle: GroupDocs.Merger for .NET チュートリアル
-weight: 10
-url: /ja/merger/
-description: GroupDocs.Merger for .NET のステップバイステップのチュートリアルを参照して、ドキュメントを簡単に結合、分割、並べ替え、管理します。詳細な例と専門家のガイダンスでドキュメント操作をマスターします。
-is_root: true
+"description": "GroupDocs.Merger for .NETのステップバイステップのチュートリアルで、ドキュメントの結合、分割、並べ替え、管理を簡単に行うことができます。詳細な例と専門家のガイダンスで、ドキュメント操作をマスターしましょう。"
+"is_root": true
+"linktitle": "GroupDocs.Merger for .NET チュートリアル"
+"title": "GroupDocs.Merger for .NET のチュートリアルと例"
+"url": "/ja/merger/net/"
+"weight": 10
 ---
-### [GroupDocs Merger .NET でファイルを結合および圧縮する](./merge-and-compress-files/)
-GroupDocs.Merger を使用すると、.NET アプリケーションでファイルを簡単に結合および圧縮できます。TAR ファイルと ZIP ファイルを結合するためのチュートリアルを段階的に参照してください。
+
+### [GroupDocs Merger .NET でファイルを結合・圧縮する](./merge-and-compress-files/)
+GroupDocs.Merger を使えば、.NET アプリケーションでファイルを簡単に結合・圧縮できます。TAR ファイルと ZIP ファイルの結合方法を段階的に解説したチュートリアルをご覧ください。
 ### [ドキュメント結合ガイド](./guide-to-document-merging/)
-GroupDocs.Merger for .NET を使用すると、ドキュメントを簡単に結合できます。DOC ファイルと PDF ファイルを効果的に結合するためのステップバイステップのチュートリアルをご覧ください。
+GroupDocs.Merger for .NETを使えば、ドキュメントを簡単に結合できます。DOCファイルとPDFファイルを効果的に結合する方法をステップバイステップで解説するチュートリアルをご覧ください。

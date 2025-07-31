@@ -48,7 +48,7 @@ Prima di manipolare un PDF, specifica dove sono archiviati i tuoi documenti:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Sostituire `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del file PDF.
+Sostituire `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del tuo file PDF.
 
 ## Passaggio 2: aprire il documento PDF
 
@@ -73,7 +73,7 @@ OutlineItemCollection parentBookmark = new OutlineItemCollection(pdfDocument.Out
 
 ## Passaggio 4: creare un segnalibro figlio
 
-Ora aggiungiamo un segnalibro secondario sotto il segnalibro principale:
+Ora aggiungiamo un segnalibro figlio sotto il segnalibro padre:
 
 ```csharp
 OutlineItemCollection childBookmark = new OutlineItemCollection(pdfDocument.Outlines)

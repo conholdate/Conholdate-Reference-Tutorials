@@ -22,7 +22,7 @@ Maksimalkan potensi pemrosesan email dengan Aspose.Email untuk .NET. Koleksi tut
 - **🔄 Konversi Email**Transformasi mulus antara format email
 - **🤖 Analisis Spam**:Pemfilteran berbasis pembelajaran mesin tingkat lanjut
 - **📊 Pemrosesan Email**: Analisis konten, penanganan lampiran, dan ekstraksi metadata
-- **⚡ Dukungan Protokol**: SMTP, POP3, IMAP, Layanan Web Exchange (EWS)
+- **⚡ Dukungan Protokol**SMTP, POP3, IMAP, Layanan Web Exchange (EWS)
 
 ## 📚 Kategori Tutorial
 
@@ -40,13 +40,13 @@ Teknik analisis email tingkat lanjut termasuk deteksi spam dan pemrosesan konten
 | Tutorial | Deskripsi | Kesulitan |
 |----------|-------------|------------Bahasa Indonesia: |
 | **[Analisis Spam Bayesian dalam C#](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Deteksi spam berbasis pembelajaran mesin dengan analisis statistik | ⭐⭐⭐ Lanjutan Bahasa Indonesia: |
-| **[Konversi Email HTML ke Teks Biasa](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Ekstrak konten teks bersih dari email HTML | ⭐⭐ Menengah |
+| **[Konversi Email HTML ke Teks Biasa](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Ekstrak konten teks bersih dari email HTML | ⭐⭐ Menengah |
 
 ## 🎯 Kasus Penggunaan Populer
 
 ### **Integrasi Sistem Email**
 - **Migrasi Email**:Konversi antara format email yang berbeda untuk migrasi sistem
-- **Solusi Arsip**Penyimpanan email jangka panjang dengan standarisasi format
+- **Solusi Arsip**: Penyimpanan email jangka panjang dengan standarisasi format
 - **Kompatibilitas Lintas Platform**: Pastikan email berfungsi di berbagai klien email
 
 ### **Keamanan & Analisis Email**
@@ -133,7 +133,7 @@ Teknik analisis email tingkat lanjut termasuk deteksi spam dan pemrosesan konten
 - **[Uji Coba Gratis](https://releases.aspose.com/email/net/)** - Evaluasi fitur lengkap
 
 ### **Komunitas & Dukungan**
-- **[Forum Dukungan](https://forum.aspose.com/c/email/12)** - Dapatkan bantuan dari para ahli
+- **[Forum Dukungan](https://forum.aspose.com/c/email/12)** Dapatkan bantuan dari para ahli
 
 ### **Lisensi & Uji Coba**
 - **[Lisensi Sementara](https://purchase.conholdate.com/temporary-license/)** - Evaluasi lanjutan

@@ -265,7 +265,7 @@ Mengonversi Docx ke array byte tidak selalu merupakan solusi yang tepat. Berikut
 
 **✅ Baik untuk:**
 - Menyimpan dokumen dalam database
-- Mentransmisikan dokumen melalui API
+- Mengirimkan dokumen melalui API
 - Menyimpan dokumen yang telah diproses
 - Integrasi penyimpanan cloud
 - Pemrosesan dokumen berbasis memori

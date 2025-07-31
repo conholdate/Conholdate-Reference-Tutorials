@@ -77,7 +77,7 @@ private static string RenderHyperlinkWithHref(string source)
 Ez a módszer a következő lépéseket hajtja végre:
 1. Megkeresi a `href` attribútum az URL kinyeréséhez.
 2. Megkeresi a címkék közötti hivatkozás szövegét.
-3. A kimenetet úgy formázza, hogy „Link szöveg” formátumban jelenjen meg.<URL>".
+3. A kimenetet úgy formázza, hogy „Link szövege” formátumban jelenjen meg.<URL>".
 
 ## Hiperhivatkozások megjelenítése Href nélkül
 

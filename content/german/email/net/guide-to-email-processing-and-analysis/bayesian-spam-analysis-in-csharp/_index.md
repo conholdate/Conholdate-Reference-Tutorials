@@ -28,7 +28,7 @@ In diesem Tutorial erfahren Sie, wie Sie in C# einen Bayes-Spamfilter erstellen,
 Bevor wir mit dem Aufbau Ihrer Spam-Abwehrmaschine beginnen, stellen wir sicher, dass Sie alles haben, was Sie brauchen:
 
 1. **Visual Studio**: Ihre zuverlässige IDE zum Schreiben und Verwalten von C#-Projekten (jede aktuelle Version funktioniert)
-2. **NET Framework oder .NET Core**: Die Grundlage, auf der Ihre Anwendung läuft – stellen Sie sicher, dass Sie entweder installiert haben
+2. **NET Framework oder .NET Core**: Die Grundlage, auf der Ihre Anwendung läuft. Stellen Sie sicher, dass Sie entweder
 3. **Aspose.Email für .NET**: Hier geschieht die Magie. Diese leistungsstarke Bibliothek übernimmt die gesamte E-Mail-Verarbeitung. Sie finden sie hier [Hier](https://releases.aspose.com/email/net/) oder starten Sie mit einer kostenlosen Testversion von [dieser Link](https://releases.aspose.com/)
 4. **Grundlegende C#-Kenntnisse**: Sie müssen kein C#-Experte sein, aber die Vertrautheit mit den Grundlagen wird Ihnen helfen, problemlos mitzukommen
 
@@ -92,7 +92,7 @@ spamAnalyzer.TrainFilter(MailMessage.Load("ham1.eml"), false);
 
 Der boolesche Parameter ist hier entscheidend: `true` bedeutet "Das ist Spam" und `false` bedeutet „Dies ist eine legitime E-Mail.“ Je vielfältiger die Beispiele sind, die Sie angeben, desto besser funktioniert Ihr Filter.
 
-**Bewährte Methode**: Versuchen Sie, verschiedene Spam-Typen (Werbe-E-Mails, Phishing-Versuche usw.) und legitime E-Mails (Arbeitskorrespondenz, tatsächlich gewünschte Newsletter usw.) einzubeziehen. Für eine ausreichende Genauigkeit sollten Sie mindestens 50–100 Beispiele pro Typ anstreben.
+**Bewährte Vorgehensweise**: Versuchen Sie, verschiedene Spam-Typen (Werbe-E-Mails, Phishing-Versuche usw.) und legitime E-Mails (Arbeitskorrespondenz, tatsächlich gewünschte Newsletter usw.) einzubeziehen. Für eine ausreichende Genauigkeit sollten Sie mindestens 50–100 Beispiele pro Typ anstreben.
 
 ## Schritt 4: Speichern Sie Ihr trainiertes Modell
 

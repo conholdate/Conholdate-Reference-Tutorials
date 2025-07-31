@@ -118,7 +118,7 @@ wb.Settings.StreamProvider = new MyStreamProvider();
 Теперь сохраните вашу книгу Excel как PDF-файл.
 
 ```csharp
-// Сохранить рабочую книгу в формате PDF
+// Сохранить книгу в формате PDF
 wb.Save(outputDir + "outputPdfSaveOptions_StreamProvider.pdf", opts);
 ```
 
@@ -147,7 +147,7 @@ Aspose.Cells — мощная библиотека для разработчик
 Вы можете загрузить последнюю версию с сайта [Ссылка для скачивания](https://releases.aspose.com/cells/net/).
 
 ### Могу ли я попробовать Aspose.Cells бесплатно?
-Да! Вы можете получить бесплатную пробную версию, посетив [Бесплатная пробная версия страницы](https://releases.aspose.com/).
+Да! Вы можете получить бесплатную пробную версию, посетив [Бесплатная пробная страница](https://releases.aspose.com/).
 
 ### Где я могу найти поддержку Aspose.Cells?
 По вопросам поддержки посетите [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9).

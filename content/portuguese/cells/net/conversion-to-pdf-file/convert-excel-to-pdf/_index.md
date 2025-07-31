@@ -233,7 +233,7 @@ Vejamos alguns cenários práticos em que a conversão de Excel para PDF se most
 ### Geração automatizada de relatórios
 Muitas empresas precisam converter relatórios do Excel para PDF para distribuição. Você pode automatizar esse processo agendando a execução do aplicativo de conversão em intervalos específicos.
 
-### Sistemas de Arquivamento de Documentos
+### Sistemas de Arquivo de Documentos
 conversão de arquivos do Excel em PDF garante a preservação do documento a longo prazo, pois os PDFs mantêm sua formatação em diferentes sistemas e versões de software.
 
 ### Entregas ao cliente

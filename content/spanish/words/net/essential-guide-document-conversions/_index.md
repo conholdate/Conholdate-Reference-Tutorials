@@ -66,7 +66,7 @@ Al implementar la conversión de documentos en sus aplicaciones .NET, tenga en c
 
 **Problemas relacionados con las fuentes**Al convertir documentos que usan fuentes específicas, asegúrese de que estén disponibles en el servidor. La falta de fuentes puede causar problemas de diseño o sustitución de caracteres.
 
-**Manejo de imágenes**Los documentos con imágenes incrustadas pueden presentar problemas de tamaño o calidad después de la conversión. Utilice la resolución de imagen adecuada y considere la relación entre el tamaño del archivo y la calidad.
+**Manejo de imágenes**Los documentos con imágenes incrustadas pueden presentar problemas de tamaño o calidad tras la conversión. Utilice la resolución de imagen adecuada y considere la relación entre el tamaño del archivo y la calidad.
 
 **Formato complejo**Es posible que las funciones avanzadas de Word, como estilos personalizados, objetos incrustados o tablas complejas, no se conviertan correctamente a todos los formatos. Realice pruebas exhaustivas con sus tipos de documento específicos.
 

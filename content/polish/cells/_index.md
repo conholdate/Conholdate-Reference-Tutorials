@@ -92,7 +92,7 @@ Kompleksowe samouczki dla programistów .NET obejmujące wszystkie aspekty przet
 ### Szybkie kroki startowe
 1. **Wybierz swoją platformę**Wybierz .NET do kompleksowego przetwarzania w programie Excel
 2. **Zainstaluj bibliotekę**: Użyj Menedżera pakietów NuGet lub pobierz bezpośrednio
-3. **Obserwuj samouczki**:Rozpocznij od podstawowych konwersji i przejdź do zaawansowanych funkcji
+3. **Obserwuj samouczki**:Zacznij od podstawowych konwersji i przejdź do zaawansowanych funkcji
 4. **Rozwiązania budowlane**:Tworzenie aplikacji do przetwarzania danych i raportowania
 
 ## 💡 Popularne przypadki użycia

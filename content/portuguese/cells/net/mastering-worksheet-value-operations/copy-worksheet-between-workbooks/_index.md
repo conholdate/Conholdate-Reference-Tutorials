@@ -36,7 +36,7 @@ Esses namespaces darão acesso às classes necessárias para manipular pastas de
 Primeiro, defina o diretório para armazenar suas pastas de trabalho do Excel. Isso simplificará o acesso aos arquivos posteriormente.
 
 ```csharp
-// Defina o caminho para o diretório dos seus documentos.
+// Defina o caminho para o diretório de documentos.
 string dataDir = "Your Document Directory";
 ```
 Substituir `"Your Document Directory"` com seu caminho atual.

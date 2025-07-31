@@ -87,7 +87,7 @@ Ed ecco fatto! Hai utilizzato con successo i font del computer di destinazione n
 
 ## Conclusione
 
-Sfruttando i font del computer di destinazione, i documenti Word avranno un aspetto coerente e professionale, indipendentemente da dove vengano visualizzati. Aspose.Words per .NET semplifica questo processo, consentendo di caricare facilmente i documenti, configurare le opzioni di salvataggio e salvarli con le impostazioni font desiderate.
+Sfruttando i font del computer di destinazione, i documenti Word avranno un aspetto coerente e professionale, indipendentemente da dove vengano visualizzati. Aspose.Words per .NET semplifica questo processo, consentendo di caricare facilmente i documenti, configurare le opzioni di salvataggio e salvarli con le impostazioni dei font desiderate.
 
 ## Domande frequenti
 

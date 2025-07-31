@@ -187,7 +187,7 @@ Nagy mennyiségű dokumentumkonverzió esetén a teljesítmény kritikus fontoss
 
 - **Dokumentumobjektumok megsemmisítése** amikor készen állsz a memória felszabadítására
 - **Dokumentumok feldolgozása egyenként** ahelyett, hogy több nagyméretű dokumentumot egyszerre töltene be
-- **Használati utasítások** az automatikus erőforrás-tisztításhoz
+- **Használati utasítások használata** az automatikus erőforrás-tisztításhoz
 
 ### Feldolgozási sebesség
 
@@ -261,7 +261,7 @@ Természetesen! Letölthet egy ingyenes próbaverziót innen [itt](https://relea
 
 Segítséget találhatsz a [Aspose.Words támogatói fórum](https://forum.aspose.com/c/words/8)A közösség aktív, és az Aspose munkatársai rendszeresen válaszolnak a kérdésekre.
 
-### Az Aspose.Words kompatibilis a .NET Core-ral?
+### Kompatibilis az Aspose.Words a .NET Core-ral?
 
 Igen, az Aspose.Words zökkenőmentesen működik mind a .NET Framework, mind a .NET Core rendszerekkel. Ez tökéletessé teszi a modern felhőalkalmazásokhoz és mikroszolgáltatás-architektúrákhoz.
 

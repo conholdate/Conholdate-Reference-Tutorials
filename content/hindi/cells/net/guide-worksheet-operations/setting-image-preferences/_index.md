@@ -51,7 +51,7 @@ using Aspose.Cells;
 string dataDir = "Your Document Directory";
 ```
 
-प्रतिस्थापित करना सुनिश्चित करें `"Your Document Directory"` आपकी मशीन पर वास्तविक पथ के साथ.
+प्रतिस्थापित करना सुनिश्चित करें `"Your Document Directory"` आपके मशीन पर वास्तविक पथ के साथ.
 
 ## चरण 2: फ़ाइल पथ परिभाषित करें
 
@@ -145,4 +145,4 @@ Aspose.Cells निर्यात के लिए PNG, JPEG, और BMP सह
 
 ### मैं Aspose.Cells के लिए समर्थन कैसे प्राप्त करूं?
 
-सहायता के लिए, यहां जाएं [एस्पोज़ फ़ोरम](https://forum.aspose.com/c/cells/9), जहां समुदाय और सहायता टीम आपकी सहायता कर सकती है।
+सहायता के लिए, यहां जाएं [Aspose फ़ोरम](https://forum.aspose.com/c/cells/9), जहां समुदाय और सहायता टीम आपकी सहायता कर सकती है।

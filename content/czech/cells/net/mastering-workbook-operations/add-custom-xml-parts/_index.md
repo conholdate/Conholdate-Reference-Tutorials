@@ -83,7 +83,7 @@ Tato linka používá `SelectByID` najít část XML přidruženou k zadanému I
 ## Krok 7: Zkontrolujte, zda byla nalezena vlastní část XML
 Nakonec zkontrolujte, zda byla nalezena část XML, a vypište příslušnou zprávu:
 ```csharp
-// Vypište zprávu o nalezení nebo nenalezení do konzole.
+// Vypište do konzole zprávu o nalezení nebo nenalezení.
 if (cxp == null)
 {
     Console.WriteLine("Not Found: CustomXmlPart ID " + srchID);

@@ -2,7 +2,7 @@
 "categories":
 - "Document Processing"
 "date": "2025-01-02"
-"description": "Domina la conversión de texto a Word en .NET con Aspose.Words. Guía paso a paso con ejemplos de código, resolución de problemas y consejos de rendimiento para desarrolladores."
+"description": "Domina la conversión de texto a Word en .NET con Aspose.Words. Guía paso a paso con ejemplos de código, solución de problemas y consejos de rendimiento para desarrolladores."
 "lastmod": "2025-01-02"
 "linktitle": "Guía del convertidor de texto a Word .NET"
 "second_title": "API de procesamiento de documentos de Aspose.Words"
@@ -176,4 +176,4 @@ Aspose.Words gestiona la codificación UTF-8 automáticamente en la mayoría de 
 La principal diferencia radica en la compatibilidad y las funciones. .docx es el formato moderno de Office Open XML con mejor compresión y compatibilidad con funciones, mientras que .doc es el formato binario tradicional. Para proyectos nuevos, se recomienda .docx, a menos que se necesite específicamente compatibilidad con .doc.
 
 ### ¿Dónde puedo encontrar más recursos y soporte para Aspose.Words?
-Visita el [Documentación de Aspose.Words](https://reference.aspose.com/words/net/) Para obtener referencias y ejemplos completos de la API. Para obtener soporte de la comunidad y resolución de problemas, consulte [foro de soporte](https://forum.aspose.com/c/words/8) Donde los desarrolladores comparten soluciones y mejores prácticas.
+Visita el [Documentación de Aspose.Words](https://reference.aspose.com/words/net/) Para obtener referencias y ejemplos completos de API. Para obtener soporte de la comunidad y resolución de problemas, consulte [foro de soporte](https://forum.aspose.com/c/words/8) Donde los desarrolladores comparten soluciones y mejores prácticas.

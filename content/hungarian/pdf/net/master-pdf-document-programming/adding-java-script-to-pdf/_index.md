@@ -216,7 +216,7 @@ Ne feledd, hogy a sikeres PDF JavaScript implementáció kulcsa a felhasználói
 
 Az Aspose.PDF hatékony API-jának és a JavaScript interaktivitásának kombinációja olyan eszközöket biztosít, amelyekkel valóban lebilincselő PDF-élményeket hozhatsz létre, amelyek kiemelkednek a statikus dokumentumok közül.
 
-## Gyakran Ismételt Kérdések
+## Gyakran ismételt kérdések
 
 ### Hozzáadhatok több JavaScript műveletet egy PDF különböző oldalaihoz?
 Természetesen! Hozzárendelhetsz különböző JavaScript műveleteket az egyes oldalakhoz, vagy alkalmazhatod őket dokumentumszinten is. Minden oldalnak lehet saját `OnOpen` és `OnClose` műveletek, amelyekkel részletesen szabályozhatja a felhasználói interakciókat a dokumentumban.
@@ -230,5 +230,5 @@ Bármely, az Adobe Acrobat JavaScript motorja által támogatott JavaScriptet ha
 ### JavaScript minden PDF-megjelenítőben működik?
 A legtöbb JavaScript művelet működik az interaktív PDF-eket támogató PDF-megjelenítőkben, mint például az Adobe Acrobat és az Adobe Reader. Az alapvető PDF-olvasók (például egyes böngészőbe épített alkalmazások vagy mobilalkalmazások) azonban esetleg nem támogatják a JavaScriptet. Mindig tesztelje interaktív PDF-jeit a célfelhasználók által preferált megjelenítőkkel.
 
-### Hibakeresést tudok végezni a JavaScripten PDF dokumentumokban?
+### Tudok JavaScript hibákat hibakeresni PDF dokumentumokban?
 A PDF JavaScript hibakeresése kihívást jelenthet, mivel a PDF-megjelenítő környezetében fut. Az Adobe Acrobat Pro egy JavaScript konzolt biztosít a hibakereséshez. Fejlesztéshez kezdjen egyszerűvel `app.alert()` utasításokat a kód végrehajtásának ellenőrzésére, majd fokozatosan növeld a bonyolultságot az egyes lépések tesztelése közben.

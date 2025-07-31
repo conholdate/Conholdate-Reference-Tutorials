@@ -72,7 +72,7 @@ appointment.Attendees[0].ParticipantStatus = AppointmentParticipantStatus.Accept
 appointment.Attendees[1].ParticipantStatus = AppointmentParticipantStatus.Declined;
 ```
 
-## การส่งการนัดหมายเป็นการเชิญประชุม
+## การส่งการนัดหมายเป็นคำเชิญประชุม
 
 เมื่อเตรียมการนัดหมายเรียบร้อยแล้ว คุณสามารถส่งเป็นอีเมลเชิญได้:
 

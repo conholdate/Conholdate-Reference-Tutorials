@@ -22,7 +22,7 @@ Assicurati che .NET Framework sia installato sul tuo computer, poiché Aspose.Ce
 Installa Visual Studio (preferibilmente la versione più recente) per scrivere ed eseguire efficacemente il tuo codice .NET.
 
 ### Aspose.Cells per .NET
-Scarica e installa Aspose.Cells per .NET da [collegamento per il download](https://releases.aspose.com/cells/net/)Questa libreria è essenziale per la manipolazione programmatica dei file Excel.
+Scarica e installa Aspose.Cells per .NET da [link per il download](https://releases.aspose.com/cells/net/)Questa libreria è essenziale per la manipolazione programmatica dei file Excel.
 
 ### Esempio di file Excel
 Prepara un file Excel di esempio contenente una tabella da manipolare. Puoi creare un semplice foglio di calcolo o utilizzare un esempio fornito.
@@ -69,7 +69,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleCreateSlicerToExcelTable.xls
 
 Per evitare errori, assicurati che il nome del file corrisponda al tuo file effettivo.
 
-## Passaggio 3: accedi al foglio di lavoro
+## Passaggio 3: accedere al foglio di lavoro
 
 Accedi al foglio di lavoro specifico che contiene la tabella. Questo esempio presuppone che tu stia lavorando con il primo foglio di lavoro:
 
@@ -128,7 +128,7 @@ Uno slicer è uno strumento di filtraggio visivo che consente agli utenti di fil
 Assolutamente sì! Aspose.Cells offre funzionalità per personalizzare lo stile e le dimensioni delle sezioni.
 
 ### Aspose.Cells è compatibile con i sistemi Mac?
-Aspose.Cells per .NET è progettato principalmente per Windows. Tuttavia, può essere eseguito su Mac utilizzando .NET Core con le configurazioni appropriate.
+Aspose.Cells per .NET è progettato principalmente per Windows. Tuttavia, può essere eseguito anche su Mac utilizzando .NET Core con le configurazioni appropriate.
 
 ### Ho bisogno di una licenza per utilizzare Aspose.Cells?
 Aspose.Cells offre una prova gratuita, ma è richiesta una licenza per usufruire di tutte le funzionalità. Per maggiori dettagli, visita il sito [pagina di acquisto](https://purchase.aspose.com/buy).

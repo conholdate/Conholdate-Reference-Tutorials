@@ -2,7 +2,7 @@
 "categories":
 - "PDF Programming"
 "date": "2025-01-02"
-"description": "Aspose.PDF for .NET kullanarak PDF'e C# JavaScript eklemeyi öğrenin. Açılır pencereler, otomatik yazdırma ve özel eylemlerle etkileşimli PDF'ler oluşturun. Eksiksiz kod örnekleri dahildir."
+"description": "Aspose.PDF for .NET kullanarak PDF C#'a JavaScript eklemeyi öğrenin. Açılır pencereler, otomatik yazdırma ve özel eylemlerle etkileşimli PDF'ler oluşturun. Eksiksiz kod örnekleri dahildir."
 "lastmod": "2025-01-02"
 "linktitle": "JavaScript PDF C# ekleyin"
 "second_title": ".NET API Referansı için Aspose.PDF"
@@ -12,7 +12,7 @@
 - "csharp"
 - "aspose"
 - "interactive-documents"
-"title": "PDF'e JavaScript Ekleme C# - Etkileşimli PDF Eğitimi"
+"title": "PDF'ye JavaScript Ekleme C# - Etkileşimli PDF Eğitimi"
 "url": "/tr/pdf/net/master-pdf-document-programming/adding-java-script-to-pdf/"
 "weight": 10
 ---
@@ -91,7 +91,7 @@ doc.OpenAction = javaScript;
 - `this.print()`: Adobe Acrobat JavaScript yazdırma yöntemi
 - `bUI:true`: Yazdırma iletişim kutusunu gösterir (kullanıcılar yazıcıyı, sayfaları vb. seçebilir)
 - `bSilent:false`: Sessizce yazdırılmaz - kullanıcı etkileşimi gereklidir
-- `bShrinkToFit:true`: İçeriği sayfaya sığacak şekilde otomatik olarak ölçekler
+- `bShrinkToFit:true`: İçeriği sayfaya uyacak şekilde otomatik olarak ölçekler
 
 **Bunu ne zaman kullanmalısınız?**: Faturalar, biletler, sertifikalar veya kullanıcıların genellikle açtıktan hemen sonra yazdırması gereken herhangi bir belge için mükemmeldir.
 
@@ -227,7 +227,7 @@ Evet, mevcut JavaScript eylemlerini temizleyerek kaldırabilir veya değiştireb
 ### PDF'de hangi tür JavaScript fonksiyonlarını kullanabilirim?
 Yazdırma işlevleri ( dahil) dahil olmak üzere Adobe Acrobat'ın JavaScript motoru tarafından desteklenen herhangi bir JavaScript'i kullanabilirsiniz.`this.print()`), uyarılar (`app.alert()`), form alanı manipülasyonları, matematiksel hesaplamalar ve dize işlemleri. Ancak, bu, tam JavaScript'in bir alt kümesidir; DOM manipülasyonu veya web API'leri içermez.
 
-### JavaScript tüm PDF görüntüleyicilerinde çalışıyor mu?
+### JavaScript tüm PDF görüntüleyicilerinde çalışır mı?
 Çoğu JavaScript eylemi, Adobe Acrobat ve Adobe Reader gibi etkileşimli PDF'leri destekleyen PDF görüntüleyicilerde çalışır. Ancak, temel PDF okuyucuları (bazı yerleşik tarayıcılar veya mobil uygulamalar gibi) JavaScript'i desteklemeyebilir. Etkileşimli PDF'lerinizi her zaman hedef kullanıcılarınızın tercih ettiği görüntüleyicilerde test edin.
 
 ### PDF belgelerinde JavaScript'i hata ayıklayabilir miyim?

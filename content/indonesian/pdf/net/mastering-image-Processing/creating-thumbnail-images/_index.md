@@ -134,7 +134,7 @@ Menutup aliran sangat penting untuk mencegah kebocoran memori dan memastikan sem
 
 ## Kesimpulan
 
-Membuat thumbnail untuk berkas PDF secara signifikan meningkatkan interaksi pengguna dengan dokumen. Dengan Aspose.PDF untuk .NET, proses ini menjadi mudah dan efisien. Dengan mengikuti panduan ini, Anda dapat dengan mudah mengintegrasikan thumbnail PDF ke dalam proyek Anda, menyederhanakan navigasi, dan meningkatkan aksesibilitas.
+Membuat thumbnail untuk berkas PDF secara signifikan meningkatkan interaksi pengguna dengan dokumen. Dengan Aspose.PDF untuk .NET, proses ini menjadi mudah dan efisien. Dengan mengikuti panduan ini, Anda dapat dengan mudah mengintegrasikan thumbnail PDF ke dalam proyek Anda, menyederhanakan navigasi dan meningkatkan aksesibilitas.
 
 ## Pertanyaan yang Sering Diajukan
 

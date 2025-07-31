@@ -1,21 +1,22 @@
 ---
-title: OCR影像辨識中的影像流指南
-linktitle: OCR影像辨識中的影像流指南
-second_title: Aspose.OCR .NET API
-description: 本文將引導您完成使用串流從圖像中識別文字的流程，確保無縫整合到您的 .NET 應用程式中。非常適合所有技能水平的開發人員。
-weight: 12
-url: /zh-hant/ocr/master-image-and-drawing-recognition/guide-to-image-from-stream/
+"description": "本文將引導您完成使用串流從圖像中識別文字的流程，確保無縫整合到您的 .NET 應用程式中。適合所有技能等級的開發人員。"
+"linktitle": "OCR影像辨識中從流中提取影像的指南"
+"second_title": "Aspose.OCR .NET API"
+"title": "OCR影像辨識中從流中提取影像的指南"
+"url": "/zh-hant/ocr/net/master-image-and-drawing-recognition/guide-to-image-from-stream/"
+"weight": 12
 ---
+
 ## 介紹
 
-歡迎來到使用 Aspose.OCR for .NET 進行光學字元辨識 (OCR) 的迷人世界！無論您是經驗豐富的開發人員還是 OCR 技術的新手，本指南都將引導您輕鬆完成使用串流從圖像中識別文字的過程。 Aspose.OCR for .NET 是一個功能強大的程式庫，旨在無縫整合到您的 .NET 應用程式中，簡化從圖像中提取文字的過程。
+歡迎來到使用 Aspose.OCR for .NET 的迷人光學字元辨識 (OCR) 世界！無論您是經驗豐富的開發人員還是 OCR 技術的新手，本指南都將引導您輕鬆地使用串流從圖像中識別文字的流程。 Aspose.OCR for .NET 是一個功能強大的程式庫，旨在無縫整合到您的 .NET 應用程式中，簡化從圖像中提取文字的過程。
 
 ## 先決條件
 
-在我們開始實施之前，請確保您具備以下條件：
+在開始實施之前，請確保您已具備以下條件：
 
-1.  Aspose.OCR for .NET Library：從以下位置下載並安裝該程式庫：[Aspose.OCR for .NET 文檔](https://reference.aspose.com/ocr/net/).
-2. 範例圖片：準備您想要識別的範例圖片（我們將使用“sample.png”）。確保其清晰易讀，以獲得最佳 OCR 結果。
+1. Aspose.OCR for .NET Library：從下載並安裝該程式庫 [Aspose.OCR for .NET 文檔](https://reference。aspose.com/ocr/net/).
+2. 範例圖片：準備您想要識別的範例圖片（我們將使用“sample.png”）。確保其清晰易讀，以獲得最佳的 OCR 效果。
 
 ## 導入必要的命名空間
 
@@ -27,46 +28,46 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## 第 1 步：設定文檔目錄
+## 步驟1：設定文檔目錄
 
-定義文檔目錄的路徑，如下所示：
+定義文檔目錄的路徑如下：
 
 ```csharp
-//設定文檔目錄的路徑
-string dataDir = "Your Document Directory"; //替換為實際路徑
+// 設定文檔目錄的路徑
+string dataDir = "Your Document Directory"; // 替換為實際路徑
 ```
 
 確保將其指向“sample.png”的實際位置。
 
 ## 步驟2：初始化Aspose.OCR實例
 
-建立一個實例`AsposeOcr`存取 OCR 功能的類別：
+建立一個實例 `AsposeOcr` 存取 OCR 功能的類別：
 
 ```csharp
-//初始化AsposeOcr實例
+// 初始化AsposeOcr實例
 AsposeOcr api = new AsposeOcr();
 ```
 
-## 第三步：辨識流中的影像
+## 步驟3：從流中辨識影像
 
-現在，讓我們從圖像中識別文字。我們將打開圖像文件，使用`MemoryStream`，然後呼叫識別方法：
+現在，讓我們從圖像中識別文字。我們將打開圖像文件，使用 `MemoryStream`，然後呼叫識別方法：
 
 ```csharp
-//辨識影像
+// 辨識影像
 using (MemoryStream ms = new MemoryStream())
 using (FileStream file = new FileStream(Path.Combine(dataDir, "sample.png"), FileMode.Open, FileAccess.Read))
 {
     file.CopyTo(ms);
     var result = api.RecognizeImage(ms);
     
-    //顯示識別的文字
+    // 顯示識別的文字
     Console.WriteLine("Recognized Text: " + result);
 }
 ```
 
-此程式碼片段將圖像讀取到記憶體流中並對其進行處理，並返回識別的文字。
+此程式碼片段將圖像讀入記憶體流並進行處理，返回識別的文字。
 
-## 第 4 步：成功通知
+## 步驟4：成功通知
 
 確認該過程已成功完成：
 
@@ -86,16 +87,16 @@ Console.WriteLine("Image recognition executed successfully.");
 
 ### 有試用版嗎？
 
-確實！您可以免費試用 Aspose.OCR for .NET[這裡](https://releases.aspose.com/).
+確實！您可以免費試用 Aspose.OCR for .NET [這裡](https://releases。aspose.com/).
 
-### 我在哪裡可以獲得 Aspose.OCR 支援？
+### 我可以在哪裡獲得 Aspose.OCR 的支援？
 
-如需協助，請訪問[Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)社區成員和專家隨時準備提供協助。
+如需協助，請訪問 [Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16) 社區成員和專家隨時準備提供協助。
 
-### 我可以獲得臨時許可證嗎？
+### 我可以獲得臨時執照嗎？
 
-是的，請隨時在此獲得測試的臨時許可證[關聯](https://purchase.conholdate.com/temporary-license/).
+是的，請隨時取得臨時許可證進行測試 [關聯](https://purchase。conholdate.com/temporary-license/).
 
 ### 如何購買 Aspose.OCR for .NET？
 
-要將 Aspose.OCR 永久整合到您的工具包中，請訪問[購買頁面](https://purchase.conholdate.com/buy).
+若要將 Aspose.OCR 永久整合到您的工具包中，請前往 [購買頁面](https://purchase。conholdate.com/buy).

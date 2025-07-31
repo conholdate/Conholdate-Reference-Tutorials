@@ -46,7 +46,7 @@ Mielőtt elkezdenénk a kódolást, győződjünk meg róla, hogy minden szüks�
 
 3. **Vizuális Stúdió**Bármely újabb verzió tökéletesen fog működni. Ha VS Code-ot vagy más IDE-t használsz, az is rendben van – a kód ugyanaz marad.
 
-4. **Minta PDF fájl**: Ebben az oktatóanyagban egy nevű fájlt fogunk használni. `Pdf Document.pdf`Nyugodtan használhatsz bármilyen kéznél lévő PDF-et.
+4. **Minta PDF fájl**: Ebben az oktatóanyagban egy nevű fájlt fogunk használni. `Pdf Document.pdf`Használj bármilyen kéznél lévő PDF-et.
 
 5. **Alapvető C# ismeretek**: A dolgokat kezdőbarát módon fogjuk kezelni, de a C# alapjainak ismerete előnyt jelent.
 
@@ -376,7 +376,7 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg)
 };
 ```
 
-### Az Aspose.Words kompatibilis a .NET Core-ral?
+### Kompatibilis az Aspose.Words a .NET Core-ral?
 Valóban! Az Aspose.Words támogatja mind a .NET Frameworköt, mind a .NET Core-t, így tökéletes a modern, platformfüggetlen alkalmazásokhoz.
 
 ### Szükségem van licencre az Aspose.Words használatához?

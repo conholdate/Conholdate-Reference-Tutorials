@@ -130,7 +130,7 @@ Zdecydowanie! `RussianGlobalization` Klasę można bezproblemowo zintegrować z 
 
 ### Jak mogę dodać więcej wartości błędów i wartości logicznych do `RussianGlobalization`?
 
-Aby przedłużyć `RussianGlobalization` klasa, możesz dodać dodatkowe przypadki w `GetErrorValueString` I `GetBooleanValueString` metody dla innych typowych wartości błędów, takich jak `"#NUM!"`, `"#VALUE!"`itp. i udostępniają ich tłumaczenia na język rosyjski.
+Aby przedłużyć `RussianGlobalization` klasa, możesz dodać dodatkowe przypadki w `GetErrorValueString` I `GetBooleanValueString` metody dla innych typowych wartości błędów, takich jak `"#NUM!"`, `"#VALUE!"`, itp. i udostępniają ich tłumaczenia na język rosyjski.
 
 ### Czy mogę zastosować `RussianGlobalization` klasą do innych produktów Aspose?
 

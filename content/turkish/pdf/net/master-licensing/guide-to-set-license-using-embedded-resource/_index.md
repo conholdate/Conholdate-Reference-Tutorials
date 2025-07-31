@@ -22,7 +22,7 @@ Koda dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 ## Gerekli Paketlerin İçe Aktarılması
 
-Ortamınızı kurduktan sonra, gerekli paketleri içe aktarma zamanı geldi. İşte yapmanız gerekenler:
+Ortamınızı kurduktan sonra, gerekli paketleri içe aktarma zamanı geldi. İşte nasıl yapılacağı:
 
 1. Visual Studio projenizi açın.
 2. Çözüm Gezgini'nde projenize sağ tıklayın ve ardından NuGet Paketlerini Yönet'i seçin.

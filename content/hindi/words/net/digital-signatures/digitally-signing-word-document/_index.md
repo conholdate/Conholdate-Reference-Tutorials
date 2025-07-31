@@ -43,7 +43,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "morzal.pfx", 
 ```
 
 - `dataDir`: वह निर्देशिका जहाँ आपका प्रमाणपत्र और दस्तावेज़ स्थित हैं। बदलें `"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ.
-- `CertificateHolder.Create`: यह विधि आपका प्रमाणपत्र लोड करती है। बदलें `"morzal.pfx"` अपने प्रमाणपत्र फ़ाइल नाम के साथ और `"aw"` अपने पासवर्ड के साथ.
+- `CertificateHolder.Create`: यह विधि आपका प्रमाणपत्र लोड करती है। बदलें `"morzal.pfx"` आपके प्रमाणपत्र फ़ाइल नाम के साथ और `"aw"` अपने पासवर्ड के साथ.
 
 ## चरण 3: वर्ड दस्तावेज़ लोड करें
 

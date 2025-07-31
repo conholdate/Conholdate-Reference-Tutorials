@@ -93,7 +93,7 @@ options.CustomLoaderOfExternalResources = new LoadOptions.ResourceLoadingStrateg
 
 Dieses Setup stellt sicher, dass Bilder, Stylesheets und andere externe Ressourcen während der Konvertierung korrekt verarbeitet werden. Ohne das ordnungsgemäße Laden der Ressourcen kann Ihr schönes HTML im endgültigen PDF ziemlich traurig aussehen.
 
-**Was ist hier los?** Der `CustomLoaderOfExternalResources` Mit dieser Eigenschaft können Sie festlegen, wie externe Ressourcen (wie Bilder, CSS-Dateien oder Schriftarten) geladen werden sollen. Die `SamePictureLoader` ist eine integrierte Strategie, die in den meisten Szenarien gut funktioniert.
+**Was passiert hier?** Der `CustomLoaderOfExternalResources` Mit dieser Eigenschaft können Sie festlegen, wie externe Ressourcen (wie Bilder, CSS-Dateien oder Schriftarten) geladen werden sollen. Die `SamePictureLoader` ist eine integrierte Strategie, die in den meisten Szenarien gut funktioniert.
 
 ## Schritt 3: Laden Sie das HTML-Dokument
 
@@ -202,10 +202,10 @@ Sind Sie bereit, Ihre PDF-Generierung auf die nächste Stufe zu heben? Experimen
 ## Häufig gestellte Fragen
 
 ### Was ist Aspose.PDF?
-Aspose.PDF ist eine umfassende .NET-Bibliothek, mit der Entwickler PDF-Dokumente programmgesteuert erstellen, bearbeiten und konvertieren können. Sie ist besonders leistungsstark für Dokumentkonvertierungsszenarien und bietet hervorragende Unterstützung für die Konvertierung von HTML in PDF.
+Aspose.PDF ist eine umfassende .NET-Bibliothek, mit der Entwickler PDF-Dokumente programmgesteuert erstellen, bearbeiten und konvertieren können. Sie ist besonders leistungsstark für die Dokumentkonvertierung und bietet hervorragende Unterstützung für die Konvertierung von HTML in PDF.
 
 ### Kann ich Aspose.PDF kostenlos nutzen?
-Ja, Aspose bietet eine kostenlose Testversion an, mit der Sie die Bibliothek evaluieren und Ihre Konvertierungsszenarien testen können. Diese eignet sich perfekt für Prototyping und Tests im kleinen Maßstab. Laden Sie sie herunter [Hier](https://releases.aspose.com/).
+Ja, Aspose bietet eine kostenlose Testversion an, mit der Sie die Bibliothek evaluieren und Ihre Konvertierungsszenarien testen können. Diese eignet sich ideal für Prototyping und Tests im kleinen Maßstab. Laden Sie sie herunter [Hier](https://releases.aspose.com/).
 
 ### Ist Aspose.PDF mit .NET Core kompatibel?
 Absolut! Aspose.PDF unterstützt .NET Core und eignet sich daher für moderne Anwendungen und Microservices-Architekturen. Das bedeutet, dass Sie es in Cloud-nativen Anwendungen und containerisierten Umgebungen verwenden können.

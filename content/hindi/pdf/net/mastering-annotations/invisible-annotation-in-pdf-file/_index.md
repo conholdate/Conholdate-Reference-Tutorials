@@ -40,7 +40,7 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपकी मशीन पर वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` आपके मशीन पर वास्तविक पथ के साथ.
 
 ## चरण 2: PDF दस्तावेज़ लोड करें
 

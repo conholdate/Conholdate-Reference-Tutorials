@@ -54,7 +54,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleWithSlicer.xlsx");
 
 Győződjön meg róla, hogy a fájl létezik a megadott könyvtárban.
 
-## 3. lépés: A cél munkalap elérése
+## 3. lépés: A célmunkalap elérése
 
 A szeletelőt tartalmazó munkalap lekérése:
 

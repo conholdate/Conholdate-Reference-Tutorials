@@ -15,7 +15,7 @@ Excel'de XML verilerini yönetmekte zorluk çektiyseniz, doğru yerdesiniz! Aspo
 Excel dosyasına gömülü bir XML haritasından kök öğe adını nasıl çıkaracağınızı mı öğrenmek istiyorsunuz? Bu eğitim, .NET için Aspose.Cells'i kullanarak bu süreçte adım adım size rehberlik ediyor. Excel belgenizi nasıl yükleyeceğinizi, XML haritasına nasıl erişeceğinizi ve kök öğe adını yalnızca birkaç satır kodla nasıl alacağınızı gösteriyor. [Devamını oku](./find-root-element-name-from-xml-map/).
 
 ## Liste Nesnesi Tablosundan XML Yolunu Al  
-Excel çalışma sayfasındaki bir Liste Nesnesi Tablosundan XML yolunun nasıl alınacağını hiç merak ettiniz mi? Bu kılavuz, yolları sorunsuz bir şekilde çıkarabilmenizi sağlayarak her adımda size yol gösterir. Bu işlemi otomatikleştirerek zamandan tasarruf edecek ve XML verilerinin işlenmesindeki hataları azaltacaksınız. [Devamını oku](./retrieve-xml-path-from-list-object-table/).
+Bir Excel çalışma sayfasındaki Liste Nesnesi Tablosundan XML yolunun nasıl alınacağını hiç merak ettiniz mi? Bu kılavuz, yolları sorunsuz bir şekilde çıkarabilmenizi sağlayarak her adımda size yol gösterir. Bu işlemi otomatikleştirerek zamandan tasarruf edecek ve XML verilerinin işlenmesindeki hataları azaltacaksınız. [Devamını oku](./retrieve-xml-path-from-list-object-table/).
 
 ## XML Veri Haritası Yoluna Eşlenen Hücre Alanlarını Sorgula  
 Bu eğitim, Excel'de XML yollarına eşlenen hücre alanlarıyla çalışmak için en iyi kaynağınızdır. Aspose.Cells for .NET ile bu eşlenen alanları kolayca sorgulayabilir, veri ayıklamayı otomatikleştirebilir ve dinamik rapor oluşturmayı sağlayabilirsiniz. [Devamını oku](./query-cell-areas-mapped-to-xml-data-map-path/).

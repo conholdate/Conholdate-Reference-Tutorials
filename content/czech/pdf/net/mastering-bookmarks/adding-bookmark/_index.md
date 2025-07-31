@@ -46,7 +46,7 @@ Tyto jmenné prostory poskytují přístup k základním třídám pro práci s 
 
 ## Krok 1: Definování adresáře dokumentů PDF
 
-Pro začátek určete adresář, kde se nachází váš PDF soubor. Tento adresář bude použit k načtení a uložení vašeho PDF souboru. Zde je příklad:
+Pro začátek zadejte adresář, kde se nachází váš PDF soubor. Tento adresář bude použit k načtení a uložení vašeho PDF souboru. Zde je příklad:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";

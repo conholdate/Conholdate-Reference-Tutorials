@@ -22,7 +22,7 @@ Objevte komplexní možnosti Aspose.PDF pro .NET s naší rozsáhlou kolekcí tu
 - **🔄 Konverze dokumentů**Vysoce věrné transformace mezi formáty
 - **🎨 Interaktivní prvky**JavaScript, formuláře, anotace a digitální podpisy
 - **📊 Pokročilé funkce**Vrstvy, záložky, vodoznaky a zabezpečení
-- **⚡ Výkon**Optimalizováno pro zpracování velkých objemů dokumentů
+- **⚡ Výkon**Optimalizováno pro zpracování velkého objemu dokumentů
 
 ## 📚 Kategorie tutoriálů
 
@@ -34,7 +34,7 @@ Transformujte různé formáty souborů do PDF a z PDF s profesionální kvalito
 | **[Převod EPUB do PDF](./mastering-document-conversion/convert-epub-to-pdf/)** | Transformace e-knih do formátu PDF pro univerzální kompatibilitu | ⭐ Začátečník |
 | **[Zvládnutí převodu z HTML do PDF](./mastering-document-conversion/mastering-html-to-pdf/)** | Převod webového obsahu do PDF s pokročilou podporou stylingu | ⭐⭐ Středně pokročilí |
 | **[Konverze CGM do PDF](./mastering-document-conversion/convert-cgm-to-pdf/)** | Transformace metasouborů počítačové grafiky do PDF | ⭐⭐ Středně pokročilí |
-| **[Přidávání příloh do PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** | Přílohy dokumentů v souladu s archivními standardy | ⭐⭐⭐ Pokročilé |
+| **[Přidávání příloh do PDF/A](./mastering-document-conversion/adding-attachment-to-pdfa/)** Přílohy dokumentů v souladu s archivními standardy | ⭐⭐⭐ Pokročilé |
 
 ### Programování hlavních PDF dokumentů
 Pokročilé techniky programování PDF pro vytváření sofistikovaných řešení pro práci s dokumenty.
@@ -52,7 +52,7 @@ Základní operace se stránkami PDF pro organizaci a správu struktury dokument
 | Tutoriál | Popis | Obtížnost |
 |----------|-------------|-------------|
 | **[Změna orientace stránky PDF](./master-pdf-page-management/change-pdf-page-orientation/)** | Upravte rozvržení a orientaci stránky pro optimální zobrazení dokumentu | ⭐ Začátečník |
-| **[Zřetězení PDF souborů](./master-pdf-page-management/concatenating-pdf-files/)** Sloučení více PDF dokumentů do jednoho souvislého souboru | ⭐⭐ Středně pokročilí |
+| **[Zřetězení PDF souborů](./master-pdf-page-management/concatenating-pdf-files/)** | Sloučení více PDF dokumentů do jednoho souvislého souboru | ⭐⭐ Středně pokročilí |
 | **[Odstranění konkrétní stránky ze souborů PDF](./master-pdf-page-management/delete-particular-page-from-pdf-files/)** | Efektivní odstraňování konkrétních stránek z PDF dokumentů | ⭐ Začátečník |
 | **[Vložit prázdné stránky do souboru PDF](./master-pdf-page-management/insert-empty-pages/)** | Přidejte prázdné stránky pro organizaci obsahu a řádkování | ⭐ Začátečník |
 | **[Přidání prázdné stránky na konec](./master-pdf-page-management/adding-an-empty-page-at-end/)** | Programové přidávání prázdných stránek do PDF dokumentů | ⭐ Začátečník |
@@ -61,13 +61,13 @@ Základní operace se stránkami PDF pro organizaci a správu struktury dokument
 
 ### **Publikování a distribuce dokumentů**
 - **Digitální publikování**Převod rukopisů a dokumentů do profesionálních PDF souborů
-- **Generování sestav**Automatizovaná tvorba obchodních zpráv a prezentací
+- **Generování sestav**Automatizovaná tvorba obchodních reportů a prezentací
 - **Archivní řešení**Dlouhodobé uchování dokumentů v souladu s PDF/A
 
 ### **Interaktivní tvorba dokumentů**
 - **Vývoj formulářů**Dynamické PDF formuláře s ověřením a výpočty
 - **Digitální podpisy**Bezpečné podepisování a ověřování dokumentů
-- **Integrace multimédií**Multimediální obsah v PDF dokumentech
+- **Integrace multimédií**Multimediální obsah v dokumentech PDF
 
 ### **Řešení pro převod webu do PDF**
 - **Konverze HTML**Transformace webového obsahu do PDF pro offline přístup
@@ -113,7 +113,7 @@ Základní operace se stránkami PDF pro organizaci a správu struktury dokument
 ### **Zabezpečení a dodržování předpisů**
 - **Digitální podpisy** - Ověřování a integrita dokumentů
 - **Šifrování** - Ochrana heslem a řízení přístupu
-- **Standardy PDF/A** - Dlouhodobá archivní shoda
+- **Standardy PDF/A** Dlouhodobá archivní shoda
 
 ### **Vylepšení dokumentů**
 - **Vodoznaky** - Ochrana značky a značení dokumentů

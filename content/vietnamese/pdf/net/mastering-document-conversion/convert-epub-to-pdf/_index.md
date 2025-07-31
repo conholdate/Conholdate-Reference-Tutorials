@@ -105,7 +105,7 @@ Dòng này có vẻ đơn giản, nhưng đằng sau nó là một công việc 
 Aspose.Pdf.Document pdf = new Aspose.Pdf.Document(dataDir + "EPUBToPDF.epub", epubload);
 ```
 
-Thay thế `"EPUBToPDF.epub"` với tên tệp EPUB thực tế của bạn. Đây là nơi Aspose.PDF đọc tệp EPUB của bạn và chuyển đổi nó thành định dạng PDF nội bộ.
+Thay thế `"EPUBToPDF.epub"` bằng tên tệp EPUB thực tế của bạn. Đây là nơi Aspose.PDF đọc tệp EPUB của bạn và chuyển đổi nó thành định dạng PDF nội bộ.
 
 **Chuyện gì đang xảy ra**: Về cơ bản, Aspose.PDF sẽ phân tích cấu trúc EPUB, trích xuất văn bản và hình ảnh, rồi sắp xếp mọi thứ thành định dạng PDF. Việc này có thể mất vài giây đối với các tệp lớn hơn, và điều này hoàn toàn bình thường.
 
@@ -154,7 +154,7 @@ Ngay cả với mã nguồn hoàn hảo, đôi khi mọi thứ vẫn có thể �
 ### Các vấn đề về bộ nhớ với các tệp lớn
 
 **Vấn đề**: Việc chuyển đổi các tệp EPUB rất lớn có thể gây ra lỗi hết bộ nhớ.
-**Giải pháp**: Xử lý các tệp lớn thành từng phần nếu có thể, hoặc tăng dung lượng bộ nhớ được phân bổ cho ứng dụng. Ngoài ra, hãy đảm bảo xóa đối tượng Document sau khi bạn hoàn tất.
+**Giải pháp**: Xử lý các tệp lớn thành từng phần nếu có thể, hoặc tăng dung lượng bộ nhớ được cấp phát cho ứng dụng. Ngoài ra, hãy đảm bảo xóa đối tượng Document sau khi hoàn tất.
 
 ### Tệp EPUB bị hỏng hoặc không hợp lệ
 

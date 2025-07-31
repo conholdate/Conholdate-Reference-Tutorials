@@ -21,7 +21,7 @@ Libere todo o potencial do gerenciamento de e-mails com o Aspose.Email para .NET
 - **📧 Suporte para formato de e-mail**: EML, MSG, MHTML, PST, OST, MBOX e mais
 - **🔄 Conversão perfeita**: Transforme entre diferentes formatos de e-mail com alta fidelidade
 - **🤖 Análise Avançada**: Detecção de spam e processamento de conteúdo baseados em aprendizado de máquina
-- **📊 Integração de Protocolo**: Suporte a SMTP, POP3, IMAP e serviços da Web do Exchange
+- **📊 Integração de Protocolo**Suporte a SMTP, POP3, IMAP e serviços da Web do Exchange
 - **🔒 Recursos de segurança**: Criptografia de e-mail, assinaturas digitais e autenticação
 
 ## 📚 Categorias de Tutoriais
@@ -40,7 +40,7 @@ Processamento avançado de conteúdo de e-mail e técnicas de análise inteligen
 | Tutorial | Descrição | Dificuldade |
 |----------|-------------|------------|
 | **[Análise Bayesiana de Spam em C#](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Detecção de spam baseada em aprendizado de máquina com análise estatística | ⭐⭐⭐ Avançado |
-| **[Converter e-mail HTML em texto simples](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Extraia conteúdo de texto limpo de e-mails em HTML | ⭐⭐ Intermediário |
+| **[Converter e-mail HTML em texto simples](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Extraia conteúdo de texto limpo de e-mails em HTML | ⭐⭐ Intermediário |
 
 ### Dominando notificações e rastreamento de e-mail
 Sistemas profissionais de notificação por e-mail e implementações de rastreamento para aplicativos corporativos.
@@ -55,7 +55,7 @@ Sistemas profissionais de notificação por e-mail e implementações de rastrea
 
 ### **Integração do sistema de e-mail**
 - **Migração de e-mail**: Converta entre diferentes formatos de e-mail para migrações de sistemas
-- **Soluções de Arquivo**Armazenamento de e-mail de longo prazo com padronização de formato
+- **Soluções de Arquivo**: Armazenamento de e-mail de longo prazo com padronização de formato
 - **Compatibilidade entre plataformas**: Garantir que os e-mails funcionem em diferentes clientes de e-mail
 
 ### **Segurança e Análise de E-mail**
@@ -122,10 +122,10 @@ Sistemas profissionais de notificação por e-mail e implementações de rastrea
 - **Criptografia** - Comunicação segura por e-mail e proteção de dados
 
 ### **Análise e relatórios**
-- **Rastreamento de e-mail** - Confirmação de entrega de mensagens e recibos de leitura
+- **Rastreamento de e-mail** Confirmação de entrega de mensagens e recibos de leitura
 - **Análise de Conteúdo** - Mineração de texto e classificação de e-mail
 - **Métricas de desempenho** - Monitoramento e análise do sistema de e-mail
-- **Relatórios de conformidade** Conformidade regulatória e trilhas de auditoria
+- **Relatórios de conformidade** - Conformidade regulatória e trilhas de auditoria
 
 ## 🔗 Recursos adicionais
 

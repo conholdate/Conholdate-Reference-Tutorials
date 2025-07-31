@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Zoekt u eindeloos door documenten op grammaticale en spelfouten? Het kan voelen als een eindeloos spelletje "Waar is Wally?"! Gelukkig kan Aspose.Words voor .NET dit proces automatiseren, waardoor u tijd en moeite bespaart. In deze handleiding laten we zien hoe u de weergave van grammaticale en spelfouten in uw Word-documenten kunt inschakelen met behulp van deze krachtige bibliotheek.
+Zoekt u eindeloos door documenten op zoek naar grammaticale en spelfouten? Het kan voelen als een eindeloos spelletje "Waar is Wally?"! Gelukkig kan Aspose.Words voor .NET dit proces automatiseren, waardoor u tijd en moeite bespaart. In deze handleiding laten we zien hoe u de weergave van grammaticale en spelfouten in uw Word-documenten kunt inschakelen met behulp van deze krachtige bibliotheek.
 
 ## Vereisten
 
@@ -31,7 +31,7 @@ using Aspose.Words;
 
 Maak eerst een nieuw .NET-project aan in je IDE. Voeg een verwijzing toe naar de Aspose.Words-bibliotheek. Als je deze nog niet hebt gedownload, kun je dat doen via [hier](https://releases.aspose.com/words/net/).
 
-## Stap 2: Definieer de documentmap
+## Stap 2: Definieer de documentdirectory
 
 Stel vervolgens het pad naar uw documentmap in. Dit is waar uw Word-documenten worden opgeslagen.
 
@@ -54,7 +54,7 @@ Zorg ervoor dat `Document.docx` bestaat in de door u opgegeven directory.
 
 ## Stap 4: Foutweergave inschakelen
 
-Dit is waar de magie gebeurt! Met slechts een paar regels code kun je de weergave van grammaticale en spelfouten inschakelen.
+Dit is waar de magie gebeurt! Met slechts een paar regels code activeer je de weergave van grammaticale en spelfouten.
 
 ```csharp
 doc.ShowGrammaticalErrors = true;
@@ -71,7 +71,7 @@ Sla ten slotte het document op om je wijzigingen te behouden. Hiermee wordt een 
 doc.Save(dataDir + "Document_With_Errors_Highlighted.docx");
 ```
 
-U kunt nu dit nieuwe bestand openen en alle grammaticale en spelfouten duidelijk gemarkeerd zien.
+U kunt nu dit nieuwe bestand openen en alle grammaticale en spelfouten worden duidelijk gemarkeerd.
 
 ## Conclusie
 
@@ -92,4 +92,4 @@ Download de bibliotheek van de [Aspose-website](https://releases.aspose.com/word
 Ja, u kunt een gratis proefversie verkrijgen van [hier](https://releases.aspose.com/).
 
 ### Waar kan ik de documentatie voor Aspose.Words voor .NET vinden?
-Uitgebreide documentatie is beschikbaar [hier](https://reference.aspose.com/words/net/).
+Er is uitgebreide documentatie beschikbaar [hier](https://reference.aspose.com/words/net/).

@@ -101,7 +101,7 @@ Sim, o Aspose.Words para .NET suporta vários métodos de compactação TIFF. Aj
 
 ### Posso incluir anotações ou marcas d'água no TIFF?
 
-Claro! Você pode adicionar anotações ou marcas d'água ao seu documento do Word antes da conversão usando os recursos do Aspose.Words.
+Com certeza! Você pode adicionar anotações ou marcas d'água ao seu documento do Word antes da conversão usando os recursos do Aspose.Words.
 
 ### Quais outros formatos de imagem são suportados pelo Aspose.Words para .NET?
 

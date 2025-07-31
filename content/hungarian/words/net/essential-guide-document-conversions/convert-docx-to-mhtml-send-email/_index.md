@@ -210,7 +210,7 @@ Abszolút! Az Aspose.Words számos formátumot támogat, lehetővé téve DOC, D
 ### Hogyan tudok mellékleteket hozzáadni az e-mailhez?
 Könnyedén csatolhatsz mellékleteket a `Attachments` a tulajdona `MailMessage` osztály. Például: `message.Attachments.Add(new Attachment("path/to/file.pdf"))`Ez akkor hasznos, ha az eredeti DOCX fájlt az MHTML verzió mellé szeretnéd csatolni.
 
-### Az Aspose.Words kompatibilis a .NET Core-ral?
+### Kompatibilis az Aspose.Words a .NET Core-ral?
 Igen, az Aspose.Words teljes mértékben kompatibilis a .NET Core, a .NET 5 és a .NET 6+ verziókkal. Ez alkalmassá teszi modern, több platformon futó alkalmazásokhoz, felhőalapú telepítésekhez és konténerizált környezetekhez.
 
 ### Szükségem van licencre az Aspose.Words és az Aspose.Email alkalmazásokhoz?

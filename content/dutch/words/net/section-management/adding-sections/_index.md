@@ -17,7 +17,7 @@ Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
 1. Aspose.Words voor .NET-bibliotheek: download de nieuwste versie [hier](https://releases.aspose.com/words/net/).
 2. Ontwikkelomgeving: Een .NET-compatibele IDE, zoals Visual Studio.
-3. Basiskennis van C#: kennis van de C#-syntaxis is nuttig.
+3. Basiskennis van C#: Kennis van de C#-syntaxis is nuttig.
 4. Voorbeeld Word-document (optioneel): Hoewel we er zelf een maken, kan een voorbeeld nuttig zijn voor tests.
 
 ## Naamruimten importeren
@@ -43,7 +43,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
 - `Document doc = new Document();` initialiseert een leeg Word-document.
-- `DocumentBuilder builder = new DocumentBuilder(doc);` stelt ons in staat om eenvoudig inhoud aan het document toe te voegen.
+- `DocumentBuilder builder = new DocumentBuilder(doc);` Hiermee kunnen we eenvoudig inhoud aan het document toevoegen.
 
 ## Stap 2: Initiële inhoud toevoegen
 
@@ -72,7 +72,7 @@ doc.Sections.Add(sectionToAdd);
 
 ## Stap 4: Inhoud toevoegen aan de nieuwe sectie
 
-Nu we een nieuwe sectie hebben, kunnen we deze vullen met inhoud. 
+Nu we een nieuwe sectie hebben, kunnen we deze vullen met wat inhoud. 
 
 Om inhoud aan de nieuwe sectie toe te voegen, moeten we de `DocumentBuilder` cursor naar die sectie:
 
@@ -86,7 +86,7 @@ builder.Writeln("Welcome to the new section!");
 
 ## Stap 5: Het document opslaan
 
-Laten we tot slot het document opslaan om er zeker van te zijn dat al ons harde werk veilig is:
+Laten we ten slotte het document opslaan om er zeker van te zijn dat al ons harde werk veilig is:
 
 ```csharp
 doc.Save("YourPath/YourDocument.docx");
@@ -110,7 +110,7 @@ Absoluut! Je kunt zoveel secties toevoegen als je wilt, elk met een unieke opmaa
 
 ### Hoe pas ik de lay-out van een sectie aan?
 
-U kunt de lay-out van een sectie aanpassen door eigenschappen als paginaformaat, oriëntatie, marges aan te passen en kop- en voetteksten toe te voegen met Aspose.Words.
+U kunt de lay-out van een sectie aanpassen door eigenschappen als paginaformaat, oriëntatie, marges aan te passen en kopteksten/voetteksten toe te voegen met Aspose.Words.
 
 ### Kunnen secties in Word-documenten worden genest?
 

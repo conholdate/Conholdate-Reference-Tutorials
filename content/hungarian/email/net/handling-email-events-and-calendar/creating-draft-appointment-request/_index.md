@@ -79,7 +79,7 @@ attendees.Add(new MailAddress("person1@domain.com"));
 attendees.Add(new MailAddress("person2@domain.com"));
 attendees.Add(new MailAddress("person3@domain.com"));
 
-// Új piszkozat létrehozása
+// Új piszkozatüzenet létrehozása
 MailMessage draftMessage = new MailMessage
 {
     Subject = subject,

@@ -1,21 +1,22 @@
 ---
-title: Menyimpan Dokumen OneNote dalam PDF Menggunakan Aspose.Note untuk .NET
-linktitle: Menyimpan Dokumen OneNote dalam PDF
-second_title: API .NET Aspose.Note
-description: Pelajari cara menyimpan dokumen Microsoft OneNote sebagai file PDF secara efisien menggunakan Aspose.Note untuk .NET. Panduan ini memandu Anda melalui prasyarat yang diperlukan, dan menawarkan Tanya Jawab Umum yang bermanfaat.
-weight: 26
-url: /id/note/one-note-document-manipulation/saving-one-note-document-pdf/
+"description": "Pelajari cara menyimpan dokumen Microsoft OneNote sebagai file PDF secara efisien menggunakan Aspose.Note untuk .NET. Panduan ini memandu Anda melalui prasyarat yang diperlukan, dan menawarkan FAQ yang bermanfaat."
+"linktitle": "Menyimpan Dokumen OneNote dalam PDF"
+"second_title": "Aspose.Note .NET API"
+"title": "Menyimpan Dokumen OneNote dalam PDF Menggunakan Aspose.Note untuk .NET"
+"url": "/id/note/net/one-note-document-manipulation/saving-one-note-document-pdf/"
+"weight": 26
 ---
+
 ## Perkenalan
 
-Dalam tutorial ini, kita akan menjelajahi cara menyimpan dokumen ke format PDF menggunakan Aspose.Note untuk .NET. Aspose.Note adalah pustaka canggih yang memungkinkan pengembang untuk bekerja dengan file Microsoft OneNote secara terprogram. Kita akan membahas prasyarat, mengimpor namespace, dan menyediakan panduan langkah demi langkah untuk menyimpan dokumen ke PDF dalam berbagai tata letak halaman.
+Dalam tutorial ini, kita akan mempelajari cara menyimpan dokumen ke format PDF menggunakan Aspose.Note untuk .NET. Aspose.Note adalah pustaka canggih yang memungkinkan pengembang untuk bekerja dengan berkas Microsoft OneNote secara terprogram. Kita akan membahas prasyarat, mengimpor namespace, dan memberikan panduan langkah demi langkah untuk menyimpan dokumen ke PDF dalam berbagai tata letak halaman.
 
 ## Prasyarat
 1. Visual Studio: Pastikan sudah terinstal.
 2. Aspose.Note untuk .NET: Unduh dan instal pustaka.
 3. Pengetahuan C#: Diperlukan pemahaman dasar tentang bahasa tersebut.
 
-## Mengimpor Ruang Nama yang Diperlukan
+## Mengimpor Namespace yang Diperlukan
 Sebelum melanjutkan, impor namespace berikut dalam kode Anda:
 
 ```csharp
@@ -50,20 +51,20 @@ public static void SaveToPdfUsingA4PageSettingsWithoutHeightLimit()
     Console.WriteLine("\nOneNote document saved successfully.\nFile saved at " + dst);
 }
 ```
-Mirip dengan Langkah 1 tetapi menggunakan pengaturan halaman A4 tanpa batasan tinggi.
+Mirip dengan Langkah 1 tetapi menggunakan pengaturan halaman A4 tanpa batasan ketinggian.
 
 ## Kesimpulan
-Tutorial ini berhasil menunjukkan cara mengonversi file OneNote ke format PDF menggunakan Aspose.Note. Dengan memanfaatkan pengaturan halaman yang berbeda, pengembang memperoleh fleksibilitas dalam manajemen dokumen.
+Tutorial ini berhasil menunjukkan cara mengonversi file OneNote ke format PDF menggunakan Aspose.Note. Dengan memanfaatkan berbagai pengaturan halaman, pengembang mendapatkan fleksibilitas dalam manajemen dokumen.
 
 ## Pertanyaan yang Sering Diajukan
-### Bisakah Aspose.Note menangani file OneNote yang kompleks?
-Ya, ini secara efektif menangani berbagai fitur file OneNote yang kompleks.
+### Bisakah Aspose.Note menangani file OneNote yang rumit?
+Ya, ia secara efektif menangani berbagai fitur file OneNote yang kompleks.
 
 ### Apakah Aspose.Note cocok untuk proyek komersial?
 Ya, Anda dapat menggunakannya untuk aplikasi komersial setelah membeli lisensi.
 
 ### Apakah Aspose.Note menawarkan uji coba gratis?
-Ya, uji coba gratis tersedia untuk dijelajahi.
+Ya, uji coba gratis tersedia untuk eksplorasi.
 
 ### Di mana saya dapat menemukan dokumentasi untuk Aspose.Note?
 Dokumentasi terperinci tersedia di situs referensi Aspose.

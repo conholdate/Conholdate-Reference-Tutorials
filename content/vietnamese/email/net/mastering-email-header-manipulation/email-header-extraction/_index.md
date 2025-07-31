@@ -114,7 +114,7 @@ Vâng, bạn có thể sử dụng `GetValues` phương pháp trích xuất nhi�
 var receivedHeaders = message.Headers.GetValues("Received");
 ```
 
-### Một số tiêu đề phổ biến thường được trích xuất từ email là gì?
+### Một số tiêu đề thường gặp trong email là gì?
 
 Các tiêu đề được trích xuất phổ biến nhất bao gồm "Từ", "Đến", "Chủ đề" và "Ngày".
 

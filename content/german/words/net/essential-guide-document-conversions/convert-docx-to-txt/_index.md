@@ -164,7 +164,7 @@ catch (Exception ex)
 
 Dieser Ansatz funktioniert am besten, wenn Sie Folgendes benötigen:
 - **Hochwertige Textextraktion** aus professionell formatierten Dokumenten
-- **Stapelkonvertierung** von mehreren DOCX-Dateien
+- **Stapelkonvertierung** mehrerer DOCX-Dateien
 - **Zuverlässige Handhabung** komplexer Dokumentstrukturen (Tabellen, Kopf- und Fußzeilen)
 - **Plattformübergreifende Kompatibilität** (Aspose.Words funktioniert unter Windows, Linux und macOS)
 

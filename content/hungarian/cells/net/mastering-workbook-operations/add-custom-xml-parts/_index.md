@@ -105,12 +105,12 @@ Ebben a cikkben azt vizsgáltuk meg, hogyan adhatsz hozzá egyéni XML-részeket
 Az Aspose.Cells egy hatékony .NET könyvtár, amely lehetővé teszi a fejlesztők számára Excel fájlok létrehozását, kezelését és konvertálását a Microsoft Excel telepítése nélkül.
 
 ### Ingyenesen használhatom az Aspose.Cells-t?
-Igen! Ingyenes próbaverzióval kezdheted. [töltsd le itt](https://releases.aspose.com/).
+Igen! Ingyenes próbaverzióval is elkezdheted. [töltsd le itt](https://releases.aspose.com/).
 
 ### Lehetséges több egyéni XML-részt hozzáadni egy munkafüzethez?
 Természetesen! Annyi egyéni XML-részt adhatsz hozzá, amennyire szükséged van, mindegyik egyedi azonosítóval a könnyű hozzáférés érdekében.
 
-### Hogyan kérhetek le XML részeket, ha nem ismerem az azonosítókat?
+### Hogyan tudok XML részeket lekérni, ha nem ismerem az azonosítókat?
 Ha nem ismeri az azonosítókat, végigmehet a `CustomXmlParts` gyűjteményben megtekintheti a rendelkezésre álló alkatrészeket és azok azonosítóit, ami megkönnyíti az azonosítást.
 
 ### Hol találok további forrásokat vagy támogatást az Aspose.Cells-hez?
@@ -137,7 +137,7 @@ wb.CustomXmlParts.Add(btsData, btsSchema);
 wb.CustomXmlParts.Add(btsData, btsSchema);
 wb.CustomXmlParts.Add(btsData, btsSchema);
 ```
-Ez a kódrészlet négy azonos, egyéni XML-részt ad hozzá a munkafüzethez. Ezt az igényeidnek megfelelően testreszabhatod.
+Ez a kódrészlet négy azonos, egyéni XML-részt ad hozzá a munkafüzethez. Ezt az igényeid szerint testreszabhatod.
 ## 4. lépés: Azonosítók hozzárendelése egyéni XML-alkatrészekhez
 Most, hogy hozzáadtuk az XML részeket, adjunk mindegyiknek egy egyedi azonosítót. Ez az azonosító segíteni fog nekünk később az XML részek lekérésében.
 ```csharp
@@ -149,7 +149,7 @@ wb.CustomXmlParts[3].ID = "Shape";
 ```
 Ebben a lépésben értelmes azonosítókat rendelsz hozzá, például „Gyümölcs”, „Szín”, „Sportág” és „Alak”. Ez megkönnyíti a megfelelő alkatrészek azonosítását és a velük való munkát később.
 ## 5. lépés: Keresési azonosító megadása egyéni XML-részhez
-Ha egy adott XML részt az azonosítója alapján szeretne lekérni, meg kell határoznia a keresett azonosítót.
+Ha egy adott XML részt az azonosítója alapján szeretne lekérni, meg kell adnia a keresett azonosítót.
 ```csharp
 // Adja meg a keresés egyéni xml alkatrész azonosítóját.
 String srchID = "Fruit";
@@ -165,7 +165,7 @@ Aspose.Cells.Markup.CustomXmlPart cxp = wb.CustomXmlParts.SelectByID(srchID);
 ```
 Ez a vonal kihasználja a `SelectByID` hogy megpróbáljuk megtalálni a minket érdeklő XML részt.
 ## 7. lépés: Ellenőrizze, hogy megtalálható-e az egyéni XML-rész
-Végül ellenőriznünk kell, hogy megtalálták-e az XML részt, és egy megfelelő üzenetet kell kiíratnunk a konzolra.
+Végül ellenőriznünk kell, hogy megtalálták-e az XML részt, és ki kell nyomtatnunk egy megfelelő üzenetet a konzolra.
 ```csharp
 // Nyomtassa ki a talált vagy nem található üzenetet a konzolon.
 if (cxp == null)
@@ -185,10 +185,10 @@ Ebben a cikkben azt vizsgáltuk meg, hogyan adhatunk hozzá egyéni XML-részeke
 ### Mi az Aspose.Cells?  
 Az Aspose.Cells egy robusztus .NET könyvtár, amely lehetővé teszi a fejlesztők számára Excel fájlok létrehozását, kezelését és konvertálását anélkül, hogy telepíteni kellene a Microsoft Excelt.
 ### Ingyenesen használhatom az Aspose.Cells-t?  
-Igen! Ingyenes próbaverzióval kezdheted. [töltsd le itt](https://releases.aspose.com/).
+Igen! Ingyenes próbaverzióval is elkezdheted. [töltsd le itt](https://releases.aspose.com/).
 ### Lehetséges több egyéni XML-részt hozzáadni egy munkafüzethez?  
 Természetesen! Annyi egyéni XML-részt adhatsz hozzá, amennyire szükséged van, és mindegyikhez egyedi azonosító rendelhető a könnyű hozzáférés érdekében.
-### Hogyan kérhetek le XML részeket, ha nem ismerem az azonosítókat?  
+### Hogyan tudok XML részeket lekérni, ha nem ismerem az azonosítókat?  
 Ha nem ismeri az azonosítókat, végigmehet a `CustomXmlParts` gyűjteményben megtekintheti a rendelkezésre álló alkatrészeket és azok azonosítóit, így könnyebben azonosíthatja és elérheti őket.
 ### Hol találok további forrásokat vagy támogatást az Aspose.Cells-hez?  
 Megnézheted a [dokumentáció](https://reference.aspose.com/cells/net/) részletes útmutatásért, vagy látogassa meg a [támogatási fórum](https://forum.aspose.com/c/cells/9) közösségi segítségért.

@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Het omzetten van Excel-spreadsheets naar visueel aantrekkelijke webpagina's kan uw online gegevenspresentatie aanzienlijk verbeteren. Met Aspose.Cells voor .NET kunt u niet alleen spreadsheets naar HTML converteren, maar ook diverse instellingen aanpassen om afbeeldingen te optimaliseren voor het web. In deze handleiding leiden we u door het proces van het instellen van afbeeldingsvoorkeuren bij het converteren van een Excel-bestand naar HTML. Laten we beginnen!
+Het omzetten van Excel-spreadsheets naar visueel aantrekkelijke webpagina's kan uw online gegevenspresentatie aanzienlijk verbeteren. Met Aspose.Cells voor .NET kunt u niet alleen spreadsheets naar HTML converteren, maar ook diverse instellingen aanpassen om afbeeldingen voor het web te optimaliseren. In deze handleiding leiden we u door het proces van het instellen van afbeeldingsvoorkeuren bij het converteren van een Excel-bestand naar HTML. Laten we beginnen!
 
 ## Vereisten
 
@@ -89,7 +89,7 @@ Geef het afbeeldingsformaat voor de conversie op. Hier stellen we het in op PNG:
 saveOptions.ImageOptions.ImageType = Drawing.ImageType.Png;
 ```
 
-Als u PNG gebruikt, weet u zeker dat uw afbeeldingen van hoge kwaliteit zijn.
+Door PNG te gebruiken, weet u zeker dat uw afbeeldingen van hoge kwaliteit zijn.
 
 ## Stap 6: Configureer de smoothing-modus
 
@@ -99,7 +99,7 @@ Verbeter het uiterlijk van de afbeelding door de smoothing-modus in te stellen:
 saveOptions.ImageOptions.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
 ```
 
-Hierdoor worden rafelige randen verminderd en zien uw afbeeldingen er gepolijster uit.
+Hierdoor worden scherpe randen verminderd, waardoor uw afbeeldingen er gepolijster uitzien.
 
 ## Stap 7: Optimaliseer tekstweergave
 
@@ -139,9 +139,9 @@ Ja, Aspose.Cells kan worden gebruikt in elke .NET-compatibele IDE- of consoletoe
 
 Absoluut! Je kunt een gratis proefversie van Aspose.Cells downloaden via de [Aspose-website](https://releases.aspose.com/).
 
-### Welke afbeeldingformaten kan ik gebruiken met Aspose.Cells?
+### Welke afbeeldingsformaten kan ik gebruiken met Aspose.Cells?
 
-Aspose.Cells ondersteunt meerdere afbeeldingformaten voor export, waaronder PNG, JPEG en BMP.
+Aspose.Cells ondersteunt meerdere afbeeldingsformaten voor export, waaronder PNG, JPEG en BMP.
 
 ### Hoe krijg ik ondersteuning voor Aspose.Cells?
 

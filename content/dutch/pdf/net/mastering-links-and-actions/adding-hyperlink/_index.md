@@ -60,7 +60,7 @@ LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100
 
 Pas de rechthoekcoördinaten aan `(100, 100)` naar `(300, 300)` om aan uw ontwerpbehoeften te voldoen.
 
-## Stap 5: De rand van de link configureren
+## Stap 5: Configureer de rand van de link
 
 U kunt de rand van de link aanpassen; in dit geval maken we hem onzichtbaar:
 

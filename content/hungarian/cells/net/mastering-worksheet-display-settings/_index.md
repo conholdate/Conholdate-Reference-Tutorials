@@ -11,7 +11,7 @@
 
 Az Excel fájlokban található munkalapok megjelenítési beállításainak kezelése jelentősen javíthatja a használhatóságot és az esztétikát. Az Aspose.Cells for .NET segítségével a fejlesztők hatékony eszközökkel szabályozhatják a különféle megjelenítési elemeket, biztosítva a zökkenőmentes felhasználói élményt a végfelhasználók számára. Ez a cikk alapvető oktatóanyagokat mutat be, amelyek bemutatják, hogyan optimalizálhatók az Excel munkalapok programozott módon.  
 
-## fülsáv szélességének szabályozása munkalapokon  
+## fülek szélességének szabályozása munkalapokon  
 Elege van a zsúfolt tabulátorokból az Excel-táblázataiban? Tanulja meg, hogyan állíthatja be könnyedén a tabulátorsáv szélességét az Aspose.Cells segítségével. A beállítás testreszabásával javíthatja a munkalapok közötti navigációt, különösen a több tabulátort tartalmazó nagy fájlokban. A tabulátorsáv szélességének beállítása olyan egyszerű, mint néhány sor kód módosítása. Kíváncsi további információkra? Nézze meg az oktatóanyagot a következő címen: [A fülsáv szélességének szabályozása](./controlling-tab-bar-width/).  
 
 ## Rácsvonalak elrejtése vagy megjelenítése  

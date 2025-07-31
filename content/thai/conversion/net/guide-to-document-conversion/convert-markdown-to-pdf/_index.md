@@ -1,24 +1,25 @@
 ---
-title: แปลง Markdown เป็น PDF ด้วย GroupDocs.Conversion สำหรับ .NET
-linktitle: แปลงมาร์กดาวน์เป็น PDF
-second_title: API การแปลง GroupDocs .NET
-description: ในบทช่วยสอนโดยละเอียดนี้ เรียนรู้วิธีการแปลงไฟล์ Markdown (MD) เป็น Portable Document Format (PDF) ได้อย่างง่ายดายโดยใช้ไลบรารี GroupDocs.Conversion สำหรับ .NET
-weight: 19
-url: /th/conversion/guide-to-document-conversion/convert-markdown-to-pdf/
+"description": "ในบทช่วยสอนโดยละเอียดนี้ คุณจะได้เรียนรู้วิธีแปลงไฟล์ Markdown (MD) เป็น Portable Document Format (PDF) ได้อย่างง่ายดายโดยใช้ไลบรารี GroupDocs.Conversion สำหรับ .NET"
+"linktitle": "แปลง Markdown เป็น PDF"
+"second_title": "API การแปลง GroupDocs.NET"
+"title": "แปลง Markdown เป็น PDF ด้วย GroupDocs.Conversion สำหรับ .NET"
+"url": "/th/conversion/net/guide-to-document-conversion/convert-markdown-to-pdf/"
+"weight": 19
 ---
+
 ## การแนะนำ
 
-ในบทช่วยสอนนี้ เราจะแนะนำคุณเกี่ยวกับขั้นตอนการแปลงไฟล์ Markdown (MD) เป็น PDF โดยใช้ไลบรารี GroupDocs.Conversion สำหรับ .NET เครื่องมือนี้ช่วยลดความซับซ้อนของขั้นตอนการแปลง ช่วยให้คุณปรับปรุงเวิร์กโฟลว์การพัฒนาซอฟต์แวร์ของคุณได้
+ในบทช่วยสอนนี้ เราจะแนะนำคุณเกี่ยวกับกระบวนการแปลงไฟล์ Markdown (MD) เป็น PDF โดยใช้ไลบรารี GroupDocs.Conversion สำหรับ .NET เครื่องมือนี้ช่วยลดความซับซ้อนของกระบวนการแปลง ช่วยให้คุณปรับปรุงเวิร์กโฟลว์การพัฒนาซอฟต์แวร์ของคุณได้
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณได้ตั้งค่าสิ่งต่อไปนี้แล้ว:
+ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสิ่งต่อไปนี้:
 
 ### สภาพแวดล้อมการพัฒนา .NET
- ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET SDK ไว้ในเครื่องของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ .NET](https://dotnet.microsoft.com/download).
+ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET SDK ไว้ในเครื่องของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์ .NET](https://dotnet-microsoft.com/download).
 
 ### GroupDocs.Conversion สำหรับไลบรารี .NET
- ดาวน์โหลดไลบรารี GroupDocs.Conversion สำหรับ .NET จาก[เว็บไซต์](https://releases.groupdocs.com/conversion/net/)ทำตามคำแนะนำการติดตั้งเพื่อเพิ่มลงในโครงการของคุณ
+ดาวน์โหลดไลบรารี GroupDocs.Conversion สำหรับ .NET จาก [เว็บไซต์](https://releases.groupdocs.com/conversion/net/). ทำตามคำแนะนำในการติดตั้งเพื่อเพิ่มลงในโครงการของคุณ
 
 ## ขั้นตอนที่ 1: นำเข้าเนมสเปซที่จำเป็น
 ในโครงการ .NET ของคุณ ให้รวมเนมสเปซต่อไปนี้เพื่อเข้าถึงฟังก์ชันการทำงานของ GroupDocs:
@@ -29,15 +30,15 @@ using System.IO;
 using GroupDocs.Conversion.Options.Convert;
 ```
 
-## ขั้นตอนที่ 2: กำหนดโฟลเดอร์ผลลัพธ์และเส้นทางไฟล์
+## ขั้นตอนที่ 2: กำหนดโฟลเดอร์เอาต์พุตและเส้นทางไฟล์
 ตั้งค่าไดเรกทอรีเอาท์พุตที่จะบันทึก PDF ที่แปลงแล้ว:
 
 ```csharp
-string outputFolder = "Your Document Directory"; // ระบุไดเร็กทอรีเอาท์พุตของคุณ
+string outputFolder = "Your Document Directory"; // ระบุไดเรกทอรีเอาต์พุตของคุณ
 string outputFile = Path.Combine(outputFolder, "md-converted-to.pdf");
 ```
 
-## ขั้นตอนที่ 3: โหลดไฟล์ซอร์สมาร์กดาวน์
+## ขั้นตอนที่ 3: โหลดไฟล์ Markdown ต้นฉบับ
 โหลดไฟล์ Markdown ที่คุณต้องการแปลง:
 
 ```csharp
@@ -55,7 +56,7 @@ var options = new PdfConvertOptions();
 ```
 
 ## ขั้นตอนที่ 5: ดำเนินการแปลง
- โทรหา`Convert` วิธีการเริ่มต้นการแปลง:
+โทรหา `Convert` วิธีการเริ่มการแปลง:
 
 ```csharp
 converter.Convert(outputFile, options);
@@ -69,21 +70,21 @@ Console.WriteLine("\nConversion to PDF completed successfully. \nCheck output in
 ```
 
 ## บทสรุป
-ตอนนี้คุณได้เรียนรู้วิธีการแปลงไฟล์ Markdown เป็น PDF โดยใช้ GroupDocs.Conversion สำหรับ .NET แล้ว โดยทำตามขั้นตอนเหล่านี้ คุณสามารถผสานรวมความสามารถในการแปลงไฟล์เข้ากับแอปพลิเคชันของคุณได้อย่างง่ายดาย
+ตอนนี้คุณได้เรียนรู้วิธีการแปลงไฟล์ Markdown เป็น PDF โดยใช้ GroupDocs.Conversion สำหรับ .NET แล้ว เพียงทำตามขั้นตอนเหล่านี้ คุณก็จะสามารถผสานรวมความสามารถในการแปลงไฟล์เข้ากับแอปพลิเคชันของคุณได้อย่างง่ายดาย
 
 ## คำถามที่พบบ่อย
 
 ### GroupDocs.Conversion สำหรับ .NET เข้ากันได้กับ .NET ทุกเวอร์ชันหรือไม่
-ใช่ มันสนับสนุนเวอร์ชันต่างๆ ของ .NET framework
+ใช่ รองรับเวอร์ชันต่างๆ ของ .NET framework
 
 ### ฉันสามารถแปลงไฟล์อื่นนอกจาก Markdown เป็น PDF ได้หรือไม่?
-ใช่ GroupDocs.Conversion รองรับรูปแบบไฟล์หลายรูปแบบ
+ใช่ GroupDocs.Conversion รองรับไฟล์หลายรูปแบบ
 
-### เหมาะสำหรับการใช้งานส่วนตัวและการพาณิชย์หรือไม่?
+### เหมาะสำหรับใช้ส่วนตัวและเชิงพาณิชย์หรือไม่?
 ใช่แล้ว มีการออกใบอนุญาตให้ทั้งนักพัฒนารายบุคคลและธุรกิจ
 
 ### มีการให้การสนับสนุนทางเทคนิคหรือไม่?
 ใช่ มีการสนับสนุนทางเทคนิคเฉพาะสำหรับนักพัฒนา
 
 ### ฉันสามารถทดลองใช้ก่อนซื้อได้ไหม?
- คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้งานฟรีได้จาก[เว็บไซต์ GroupDocs](https://releases.groupdocs.com/conversion/net/).
+คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้จาก [เว็บไซต์ GroupDocs](https://releases-groupdocs.com/conversion/net/).

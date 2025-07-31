@@ -98,7 +98,7 @@ Aspose.Pdf.CgmLoadOptions cgmLoadOptions = new Aspose.Pdf.CgmLoadOptions();
 
 Ten/Ta/To `CgmLoadOptions` Třída řeší specifické požadavky pro parsování souborů CGM. Zajišťuje, aby během procesu převodu byla zachována vektorová grafika, text a formátování.
 
-### Krok 3: Vytvoření objektu dokumentu
+### Krok 3: Vytvořte objekt dokumentu
 
 Nyní vytvořte instanci `Document` objekt pro reprezentaci vašeho souboru CGM v paměti. To vám umožní manipulovat se souborem před jeho uložením jako PDF.
 
@@ -165,13 +165,13 @@ catch (Exception ex)
 Pokud převádíte více souborů, implementujte správnou správu zdrojů, abyste zabránili únikům paměti a zlepšili výkon.
 
 ### Optimalizace výstupu
-Při ukládání PDF souborů zvažte jejich koncové použití. Pro prohlížení na webu můžete optimalizovat velikost souboru. Pro tisk upřednostněte kvalitu.
+Při ukládání PDF souborů zvažte jejich koncové použití. Pro prohlížení na webu můžete chtít optimalizovat velikost souboru. Pro tisk upřednostněte kvalitu.
 
 ## Tipy pro optimalizaci výkonu
 
 Chcete, aby byl váš převod CGM do PDF rychlejší a efektivnější? Zde je několik tipů od zasvěcených:
 
-1. **Správa paměti**Po převodu správně zlikvidujte objekty Document, abyste uvolnili paměť.
+1. **Správa paměti**Po převodu řádně zlikvidujte objekty Document, abyste uvolnili paměť.
 2. **Velikost dávky**Při zpracování více souborů omezte velikost dávek, abyste zabránili přetečení paměti.
 3. **Navlékání závitů**Pro velké objemy zvažte paralelní zpracování se správnou správou vláken.
 4. **Ukládání do mezipaměti**: Pokud opakovaně převádíte podobné soubory CGM, zkuste pro lepší výkon načíst možnosti mezipaměti.
@@ -197,7 +197,7 @@ Ať už pracujete na malém projektu nebo integrujete konverzi CGM do větší a
 
 ### Co je to kontinuální měřicí systém (CGM)?
 
-CGM je zkratka pro Computer Graphics Metafile, což je formát souboru určený pro ukládání 2D vektorové grafiky a rastrových obrázků. Běžně se používá v technických a inženýrských aplikacích, kde je přesná grafická reprezentace klíčová.
+CGM je zkratka pro Computer Graphics Metafile, což je formát souboru určený pro ukládání 2D vektorové grafiky a rastrových obrázků. Běžně se používá v technických a inženýrských aplikacích, kde je přesná reprezentace grafiky klíčová.
 
 ### Mohu použít soubor Aspose.PDF pro jiné formáty souborů?
 

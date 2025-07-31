@@ -97,7 +97,7 @@ Bu, ilk iki sütunu ardışık sayılarla doldurur ve geçmişiniz için bağlam
 
 ## Adım 5: Sayfa Arka Planını Ayarlayın
 
-Şimdi heyecan verici kısma geçiyoruz: Grafik arka planınızı ayarlamak. `ODSPageBackground` aşağıdaki gibi sınıflandırın:
+Şimdi heyecan verici kısma geçiyoruz: Grafik arka planınızı ayarlamak. `ODSPageBackground` sınıf aşağıdaki gibidir:
 
 ```csharp
 OdsPageBackground background = worksheet.PageSetup.ODSPageBackground;

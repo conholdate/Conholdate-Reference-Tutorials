@@ -9,22 +9,22 @@
 
 ## Invoering
 
-Bent u klaar om de volledige kracht van Aspose.PDF voor .NET te benutten? Of u nu robuuste PDF-oplossingen bouwt of documenten beheert in een dynamische applicatie, de juiste licenties zijn essentieel. Zonder licenties kunt u te maken krijgen met beperkingen, zoals watermerken op uw documenten. Maak u geen zorgen: deze handleiding begeleidt u op een eenvoudige en gebruiksvriendelijke manier bij het laden van een licentie vanuit een streamobject in Aspose.PDF voor .NET. Laten we beginnen!
+Bent u klaar om de volledige kracht van Aspose.PDF voor .NET te benutten? Of u nu robuuste PDF-oplossingen bouwt of documenten beheert in een dynamische applicatie, de juiste licenties zijn essentieel. Zonder licenties kunt u te maken krijgen met beperkingen, zoals watermerken in uw documenten. Maak u geen zorgen: deze handleiding begeleidt u op een eenvoudige en gebruiksvriendelijke manier bij het laden van een licentie vanuit een streamobject in Aspose.PDF voor .NET. Laten we beginnen!
 
 ## Vereisten
 
 Voordat we in de code duiken, controleren we of je alles hebt wat je nodig hebt:
 
 1. Aspose.PDF voor .NET: Zorg ervoor dat je de nieuwste versie hebt geïnstalleerd. Als je dat nog niet hebt gedaan, kun je [download het hier](https://releases.aspose.com/pdf/net/).
-2. Geldig licentiebestand: U hebt een geldig Aspose.PDF-licentiebestand nodig. Als u dit niet hebt, kunt u een [tijdelijke licentie hier](https://purchase.aspose.com/tempofary-license/) or [koop er hier een](https://purchase.aspose.com/buy).
-3. Visual Studio: We gebruiken Visual Studio als IDE, dus zorg ervoor dat deze is ingesteld en klaar voor gebruik.
+2. Geldig licentiebestand: U hebt een geldig Aspose.PDF-licentiebestand nodig. Als u deze niet hebt, kunt u een aanvraag indienen. [tijdelijke licentie hier](https://purchase.aspose.com/tempofary-license/) or [koop er hier een](https://purchase.aspose.com/buy).
+3. Visual Studio: We gebruiken Visual Studio als onze IDE, dus zorg ervoor dat deze is ingesteld en klaar voor gebruik.
 4. Basiskennis van C#: Kennis van C# en .NET helpt u de cursus soepel te volgen.
 
 Alles gevonden? Geweldig! Laten we ons project opzetten.
 
 ## Een nieuw C#-project maken
 
-Open Visual Studio en maak een nieuw C# Console Application-project. Geef het een betekenisvolle naam, bijvoorbeeld 'AsposePDFLicenseLoader'. Dit wordt je speeltuin voor het laden van de Aspose.PDF-licentie.
+Open Visual Studio en maak een nieuw C# Console Application-project. Geef het een betekenisvolle naam, bijvoorbeeld 'AsposePDFLicenseLoader'. Dit wordt je 'playground' voor het laden van de Aspose.PDF-licentie.
 
 ## Aspose.PDF voor .NET installeren
 
@@ -51,7 +51,7 @@ Deze naamruimten zijn essentieel voor het werken met Aspose.PDF-functionaliteite
 
 ## Stap 1: Initialiseer het licentieobject
 
-Eerst moeten we een instantie van de `License` klasse, die ons licentiebestand zal beheren.
+Eerst moeten we een instantie van de `License` klasse, die ons licentiebestand zal verwerken.
 
 ```csharp
 // Initialiseer het licentieobject
@@ -60,7 +60,7 @@ Aspose.Pdf.License license = new Aspose.Pdf.License();
 
 Met deze regel code stellen we ons licentieobject in, wat cruciaal is om toegang te krijgen tot alle functies van Aspose.PDF.
 
-## Stap 2: Laad de licentie van een stream
+## Stap 2: Laad de licentie vanuit een stream
 
 Vervolgens laden we het licentiebestand met behulp van een `FileStream`Zorg ervoor dat u het juiste pad naar uw licentiebestand opgeeft.
 

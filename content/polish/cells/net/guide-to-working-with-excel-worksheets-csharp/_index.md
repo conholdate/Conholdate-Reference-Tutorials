@@ -111,8 +111,8 @@ Kluczem jest identyfikacja powtarzalnych zadań w programie Excel w Twojej domen
 | [Nowy arkusz do pliku Excela programowo Samouczek C# Samouczek C#](./add-new-sheet-to-excel-file-csharp-tutorial/) | Dowiedz się, jak dodać nowy arkusz w programie Excel za pomocą języka C# i biblioteki Aspose.Cells. Ten samouczek dzieli ten proces na proste, praktyczne kroki. |  
 | [Usuwanie arkusza kalkulacyjnego według indeksu w programie Excel za pomocą samouczka języka C# Samouczek języka C#](./delete-worksheet-by-index-excel-csharp-tutorial/) | Dowiedz się, jak skutecznie usunąć konkretny arkusz kalkulacyjny z pliku Excela według indeksu, używając języka C# i biblioteki Aspose.Cells. Skorzystaj z tego prostego samouczka krok po kroku. |
 
-## Kolejne kroki w Twojej podróży automatyzacji programu Excel
+## Kolejne kroki w Twojej podróży automatyzacji Excela
 
 Opanowanie tych podstawowych operacji arkusza kalkulacyjnego to dopiero początek możliwości automatyzacji programu Excel w języku C#. Te podstawowe umiejętności stanowią fundament dla bardziej zaawansowanych scenariuszy, takich jak dynamiczne generowanie wykresów, złożone transformacje danych i integracja z zewnętrznymi źródłami danych.
 
-Wdrażając te techniki w swoich aplikacjach, odkryjesz możliwości automatyzacji jeszcze większej liczby zadań związanych z programem Excel, co ostatecznie pozwoli Ci zaoszczędzić czas i ograniczyć liczbę błędów ręcznych w procesach przetwarzania danych. Inwestycja w naukę tych umiejętności procentuje praktycznie w każdej aplikacji, która obsługuje dane strukturalne lub raportowanie.
+Wdrażając te techniki w swoich aplikacjach, odkryjesz możliwości automatyzacji jeszcze większej liczby zadań związanych z programem Excel, co ostatecznie pozwoli Ci zaoszczędzić czas i ograniczyć liczbę błędów ręcznych w procesach przetwarzania danych. Inwestycja w naukę tych umiejętności przynosi korzyści praktycznie w każdej aplikacji, która obsługuje dane strukturalne lub raportowanie.

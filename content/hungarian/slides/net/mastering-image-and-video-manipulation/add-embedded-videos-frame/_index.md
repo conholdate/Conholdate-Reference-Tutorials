@@ -1,25 +1,26 @@
 ---
-title: Adjon hozzá beágyazott videókeretet a .NET-bemutatókhoz
-linktitle: Adjon hozzá beágyazott videókeretet a .NET-bemutatókhoz
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Használja ki prezentációiban rejlő lehetőségeket, ha megtanulja, hogyan ágyazhat be videókat az Aspose.Slides for .NET segítségével. Ez az átfogó oktatóanyag lépésről lépésre végigvezeti a multimédiás elemek integrálásának folyamatán.
-weight: 19
-url: /hu/slides/mastering-image-and-video-manipulation/add-embedded-videos-frame/
+"description": "Engedd szabadjára prezentációidban rejlő lehetőségeket az Aspose.Slides for .NET videók beágyazásának elsajátításával. Ez az átfogó oktatóanyag lépésről lépésre végigvezet a multimédiás elemek integrálásának folyamatán."
+"linktitle": "Beágyazott videókeret hozzáadása .NET prezentációkhoz"
+"second_title": "Aspose.Slides .NET PowerPoint feldolgozási API"
+"title": "Beágyazott videókeret hozzáadása .NET prezentációkhoz"
+"url": "/hu/slides/net/mastering-image-and-video-manipulation/add-embedded-videos-frame/"
+"weight": 19
 ---
+
 ## Bevezetés
 
-A mai rohanó prezentációs környezetben a multimédiás elemek integrálása jelentősen növelheti az elköteleződést és a közönségmegtartást. Az Aspose.Slides for .NET robusztus megoldást kínál videokockák diákjaiba való beágyazására. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton, biztosítva a zökkenőmentes élményt az elejétől a végéig.
+mai gyors tempójú prezentációs környezetben a multimédiás elemek integrálása jelentősen növelheti az elköteleződést és a közönség megtartását. Az Aspose.Slides for .NET robusztus megoldást kínál videókeretek diákba ágyazására. Ez az oktatóanyag lépésről lépésre végigvezeti Önt a folyamaton, biztosítva a zökkenőmentes élményt az elejétől a végéig.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdené, győződjön meg arról, hogy a következőkkel rendelkezik:
 
--  Aspose.Slides for .NET Library: Töltse le és telepítse a könyvtárat a[kiadási oldal](https://releases.aspose.com/slides/net/).
-- Médiatartalom: Videófájl (pl. "Wildlife.mp4"), amelyet be szeretne ágyazni a prezentációjába.
+- Aspose.Slides .NET könyvtárhoz: Töltse le és telepítse a könyvtárat a következő helyről: [kiadási oldal](https://releases.aspose.com/slides/net/).
+- Médiatartalom: Egy videofájl (pl. „Wildlife.mp4”), amelyet be szeretne ágyazni a prezentációjába.
 
-## Importálja a szükséges névtereket
+## Szükséges névterek importálása
 
-Kezdje a szükséges névterek importálásával a .NET-projektben:
+Kezdje a szükséges névterek importálásával a .NET projektjébe:
 
 ```csharp
 using System.IO;
@@ -27,34 +28,34 @@ using Aspose.Slides;
 using Aspose.Slides.Export;
 ```
 
-## 1. lépés: Állítsa be a címtárakat
+## 1. lépés: Állítsa be a könyvtárait
 
-Győződjön meg arról, hogy projektje tartalmazza a dokumentum- és médiafájlokhoz szükséges könyvtárakat:
+Győződjön meg arról, hogy a projekt tartalmazza a szükséges könyvtárakat a dokumentum- és médiafájlok számára:
 
 ```csharp
 string dataDir = "Your Document Directory";
 string videoDir = "Your Media Directory";
 string resultPath = Path.Combine(dataDir, "VideoFrame_out.pptx");
 
-// Hozzon létre könyvtárat, ha nem létezik
+// Könyvtár létrehozása, ha nem létezik
 if (!Directory.Exists(dataDir))
     Directory.CreateDirectory(dataDir);
 ```
 
-## 2. lépés: Példányosítsa a bemutató osztályt
+## 2. lépés: A prezentációs osztály példányosítása
 
- Hozzon létre egy példányt a`Presentation` osztály a PPTX fájl megjelenítéséhez:
+Hozz létre egy példányt a `Presentation` osztály a PPTX fájlod reprezentálására:
 
 ```csharp
 using (Presentation pres = new Presentation())
 {
-    // Szerezd meg az első diát
+    // Az első dia betöltése
     ISlide sld = pres.Slides[0];
 ```
 
-## 3. lépés: A videó beágyazása
+## 3. lépés: Beágyazd a videót
 
-Illessze be a videót a prezentációjába a következő kóddal:
+Ágyazd be a videót a prezentációdba a következő kóddal:
 
 ```csharp
 IVideo vid = pres.Videos.AddVideo(new FileStream(Path.Combine(videoDir, "Wildlife.mp4"), FileMode.Open), LoadingStreamBehavior.ReadStreamAndRelease);
@@ -62,54 +63,54 @@ IVideo vid = pres.Videos.AddVideo(new FileStream(Path.Combine(videoDir, "Wildlif
 
 ## 4. lépés: Videókeret hozzáadása
 
-Ezután adjon hozzá egy videokockát a diához:
+Ezután adjon hozzá egy videokeretet a diához:
 
 ```csharp
 IVideoFrame vf = sld.Shapes.AddVideoFrame(50, 150, 300, 350, vid);
 ```
 
-## 5. lépés: Állítsa be a videó tulajdonságait
+## 5. lépés: Videó tulajdonságainak konfigurálása
 
 Állítsa be a videó tulajdonságait, beleértve a lejátszási módot és a hangerőt:
 
 ```csharp
 vf.EmbeddedVideo = vid;
 vf.PlayMode = VideoPlayModePreset.Auto; // A videó automatikus lejátszása
-vf.Volume = AudioVolumeMode.Loud; // Állítsa be a hangerőt
+vf.Volume = AudioVolumeMode.Loud; // Hangerő beállítása
 ```
 
-## 6. lépés: Mentse el prezentációját
+## 6. lépés: Mentse el a prezentációját
 
-Végül mentse a módosított PPTX fájlt lemezre:
+Végül mentse el a módosított PPTX fájlt lemezre:
 
 ```csharp
 pres.Save(resultPath, SaveFormat.Pptx);
 ```
 
-Ezeket a lépéseket megismételheti minden olyan videónál, amelyet be szeretne ágyazni a bemutatójába.
+Ezeket a lépéseket minden olyan videó esetében megismételheti, amelyet beágyazni szeretne a prezentációjába.
 
 ## Következtetés
 
-Gratulálok! Sikeresen beágyazott egy videokeretet a prezentációjába az Aspose.Slides for .NET segítségével. Ezzel a dinamikus funkcióval a prezentációit a következő szintre emelheti, és zökkenőmentesen integrált multimédiával ragadhatja meg közönségét.
+Gratulálunk! Sikeresen beágyaztál egy videoképkockát a prezentációdba az Aspose.Slides for .NET segítségével. Ez a dinamikus funkció a következő szintre emelheti prezentációidat, és zökkenőmentesen integrált multimédiával nyűgözheti le a közönséget.
 
 ## GYIK
 
-### Beágyazhatok videókat a prezentáció bármely diájába?
+### Beágyazhatok videókat a prezentáció bármelyik diájába?
 
- Igen, bármelyik diát kiválaszthatja az index beállításával`pres.Slides[index]`.
+Igen, bármelyik diát kijelölheti az index módosításával. `pres.Slides[index]`.
 
-### Mely videóformátumok támogatottak?
+### Milyen videoformátumok támogatottak?
 
-Az Aspose.Slides különféle videoformátumokat támogat, beleértve az MP4-et, az AVI-t és a WMV-t.
+Az Aspose.Slides számos videoformátumot támogat, beleértve az MP4, AVI és WMV fájlokat.
 
-### Testreszabhatom a videókockák méretét és helyzetét?
+### Testreszabhatom a videókeret méretét és pozícióját?
 
- Teljesen! Módosíthatja a paramétereket`AddVideoFrame(x, y, width, height, video)` hogy megfeleljen az Ön igényeinek.
+Természetesen! Módosíthatod a paramétereket itt: `AddVideoFrame(x, y, width, height, video)` hogy megfeleljen az igényeidnek.
 
-### Van korlátozás a beágyazható videók számának?
+### Van korlátozás a beágyazható videók számára?
 
 A beágyazott videók korlátja általában a prezentációs szoftver kapacitásától függ.
 
-### Hol kérhetek további segítséget, vagy megoszthatom tapasztalataimat?
+### Hol kérhetek további segítséget, vagy megoszthatom a tapasztalataimat?
 
- Nyugodtan látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásra és beszélgetésekre.
+Látogass el nyugodtan a [Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásért és beszélgetésekért.

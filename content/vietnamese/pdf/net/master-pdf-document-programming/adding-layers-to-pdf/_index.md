@@ -4,7 +4,7 @@
 "date": "2025-01-02"
 "description": "Nắm vững các lớp PDF trong .NET với Aspose.PDF. Học cách tạo, quản lý và tối ưu hóa tài liệu PDF nhiều lớp với các ví dụ mã từng bước và các phương pháp hay nhất."
 "lastmod": "2025-01-02"
-"linktitle": "Hướng dẫn về Lớp PDF .NET"
+"linktitle": "Hướng dẫn về lớp PDF .NET"
 "second_title": "Tài liệu tham khảo API Aspose.PDF cho .NET"
 "tags":
 - "pdf-layers"
@@ -147,7 +147,7 @@ doc.Save(dataDir);
 Console.WriteLine("\nLayers added successfully to PDF file.\nFile saved at " + dataDir);
 ```
 
-**Thực hành tốt nhất về đặt tên tệp**: Lưu ý cách chúng ta đang thêm vào `"_out"` vào tên tệp. Điều này giúp tránh ghi đè lên tệp nguồn và làm rõ đây là đầu ra được tạo ra.
+**Thực hành tốt nhất về đặt tên tệp**: Lưu ý cách chúng ta đang thêm vào `"_out"` vào tên tệp. Điều này ngăn chặn việc ghi đè lên tệp nguồn của bạn một cách vô tình và làm rõ đây là đầu ra được tạo ra.
 
 ## Các vấn đề phổ biến và giải pháp
 
@@ -167,7 +167,7 @@ Khi làm việc với các lớp PDF trong .NET, hãy ghi nhớ những mẹo v�
 
 **Quản lý bộ nhớ**: Xử lý đối tượng Tài liệu của bạn đúng cách, đặc biệt là khi xử lý nhiều tệp PDF theo từng đợt.
 
-**Tác động của kích thước tệp**: Mỗi lớp sẽ làm tăng kích thước tệp PDF của bạn. Đối với các tài liệu có nhiều lớp, hãy cân nhắc các tùy chọn nén có sẵn trong Aspose.PDF.
+**Tác động của kích thước tệp**: Mỗi lớp sẽ làm tăng kích thước tệp PDF của bạn. Đối với tài liệu có nhiều lớp, hãy cân nhắc các tùy chọn nén có sẵn trong Aspose.PDF.
 
 ## Mẹo chuyên nghiệp để quản lý lớp
 

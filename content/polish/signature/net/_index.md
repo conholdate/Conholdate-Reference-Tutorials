@@ -1,12 +1,13 @@
 ---
-title: Samouczki i przykłady GroupDocs.Signature dla .NET
-linktitle: GroupDocs.Signature dla samouczków .NET
-weight: 10
-url: /pl/signature/
-description: Przeglądaj kompleksowe samouczki dotyczące korzystania z GroupDocs.Signature dla .NET. Naucz się implementować podpisy cyfrowe, dostosowywać przepływy pracy i zwiększać bezpieczeństwo dokumentów dzięki przejrzystym przewodnikom krok po kroku.
-is_root: true
+"description": "Zapoznaj się z kompleksowymi samouczkami dotyczącymi korzystania z GroupDocs.Signature dla .NET. Naucz się wdrażać podpisy cyfrowe, dostosowywać przepływy pracy i zwiększać bezpieczeństwo dokumentów dzięki przejrzystym przewodnikom krok po kroku."
+"is_root": true
+"linktitle": "GroupDocs.Signature dla samouczków .NET"
+"title": "Samouczki i przykłady GroupDocs.Signature dla .NET"
+"url": "/pl/signature/net/"
+"weight": 10
 ---
-### [Podpisywanie dokumentu głównego za pomocą GroupDocs.Signature dla .NET](./master-document-signing/)
-Poznaj podpisywanie dokumentów za pomocą GroupDocs.Signature dla .NET w naszych szczegółowych samouczkach. Podpisuj obrazy i pliki PDF za pomocą metadanych bez wysiłku.
+
+### [Podpisywanie dokumentu głównego za pomocą GroupDocs.Signature dla platformy .NET](./master-document-signing/)
+Opanuj podpisywanie dokumentów za pomocą GroupDocs.Signature dla .NET dzięki naszym szczegółowym samouczkom. Podpisuj obrazy i pliki PDF metadanymi bez wysiłku.
 ### [Opanuj zaawansowane techniki sygnaturowe](./master-advanced-sign-techniques/)
-Podnieś poziom bezpieczeństwa swoich dokumentów dzięki samouczkom GroupDocs.Signature for .NET. Poznaj zaawansowane techniki podpisów, od niestandardowych obrazów po podpisy tekstowe.
+Zwiększ bezpieczeństwo swoich dokumentów dzięki samouczkom GroupDocs.Signature dla .NET. Poznaj zaawansowane techniki podpisywania, od niestandardowych obrazów po podpisy tekstowe.

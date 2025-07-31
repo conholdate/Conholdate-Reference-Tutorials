@@ -15,7 +15,7 @@
 
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τα εξής:
 
-1. Aspose.Words για .NET: Λήψη της βιβλιοθήκης από το [Aspose Releases](https://releases.aspose.com/words/net/) σελίδα.
+1. Aspose.Words για .NET: Λήψη της βιβλιοθήκης από το [Aspose Κυκλοφορίες](https://releases.aspose.com/words/net/) σελίδα.
 2. Περιβάλλον Ανάπτυξης: Συνιστάται ένα IDE όπως το Visual Studio για τον προγραμματισμό και την εκτέλεση εφαρμογών .NET.
 3. Βασικές γνώσεις C#: Η εξοικείωση με την C# και το .NET framework είναι απαραίτητη για την αποτελεσματική παρακολούθηση αυτού του σεμιναρίου.
 
@@ -42,7 +42,7 @@ LoadOptions loadOptions = new LoadOptions();
 
 ### Ορίστε την προεπιλεγμένη γλώσσα επεξεργασίας στα Ρωσικά
 
-Στη συνέχεια, ορίστε το `DefaultEditingLanguage` ιδιοκτησίας στα ρωσικά:
+Στη συνέχεια, ορίστε το `DefaultEditingLanguage` ιδιοκτησία στα ρωσικά:
 
 ```csharp
 loadOptions.LanguagePreferences.DefaultEditingLanguage = EditingLanguage.Russian;
@@ -109,7 +109,7 @@ Console.WriteLine(
 
 ### Πώς μπορώ να κατεβάσω το Aspose.Words για .NET;
 
-Μπορείτε να κατεβάσετε το Aspose.Words για .NET από το [Aspose Releases](https://releases.aspose.com/words/net/) σελίδα.
+Μπορείτε να κατεβάσετε το Aspose.Words για .NET από το [Aspose Κυκλοφορίες](https://releases.aspose.com/words/net/) σελίδα.
 
 ### Τι είναι `LoadOptions` χρησιμοποιείται για;
 

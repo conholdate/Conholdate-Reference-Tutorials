@@ -115,7 +115,7 @@ Console.WriteLine($"\nLines drawn successfully. File saved at: {dataDir}");
 
 ## 자주 묻는 질문
 
-### 선 외에 다른 도형을 그릴 수 있나요?
+### 선 외에 다른 모양을 그릴 수 있나요?
 네, 사각형, 타원, 다각형 등 다양한 모양을 그릴 수 있습니다. `Aspose.Pdf.Drawing` 네임스페이스.
 
 ### 선의 색상과 두께를 어떻게 사용자 지정합니까?

@@ -9,7 +9,7 @@
 
 ## Introdução
 
-O Excel se tornou parte integrante da nossa vida profissional, não é mesmo? Muitas vezes nos vemos lidando com várias planilhas, o que facilita nos perdermos nos dados. Mas o que fazer quando precisamos organizar as coisas? Se você deseja remover uma planilha de um arquivo Excel pelo índice, o Aspose.Cells torna essa tarefa incrivelmente simples e eficiente. Neste tutorial, vou te guiar por cada etapa, garantindo que, mesmo sendo iniciante, você consiga excluir essa planilha rapidinho!
+O Excel se tornou parte integrante da nossa vida profissional, não é mesmo? Muitas vezes nos vemos fazendo malabarismos com várias planilhas, o que facilita nos perdermos nos dados. Mas o que fazer quando precisamos organizar as coisas? Se você deseja remover uma planilha de um arquivo Excel pelo índice, o Aspose.Cells torna essa tarefa incrivelmente simples e eficiente. Neste tutorial, vou te guiar por cada etapa, garantindo que, mesmo sendo iniciante, você consiga excluir essa planilha rapidinho!
 
 ## Pré-requisitos
 

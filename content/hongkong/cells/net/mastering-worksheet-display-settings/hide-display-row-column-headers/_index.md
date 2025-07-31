@@ -9,7 +9,7 @@
 
 ## 介紹
 
-您是否曾為 Excel 工作表中雜亂的行標題和列標題而苦惱，以至於難以集中精力查看實際資料？無論您是在製作報表、設計互動式儀表板，還是僅僅為了實現更佳的數據視覺化，管理這些標題都能提升清晰度。幸運的是，Aspose.Cells for .NET 提供了一個簡單又容易的解決方案！在本教學中，我們將引導您使用 Aspose.Cells 在 Excel 工作表中顯示或隱藏行標題和列標題。最終，您將能夠熟練地管理電子表格中的這些重要組件！
+您是否曾因 Excel 工作表中雜亂的行和列標題而苦惱，難以集中精力查看實際資料？無論您是在製作報告、設計互動式儀表板，還是只是想要更好的數據視覺化，管理這些標題都可以提高清晰度。幸運的是，Aspose.Cells for .NET 提供了一個簡單的解決方案！在本教學中，我們將引導您完成使用 Aspose.Cells 在 Excel 工作表中顯示或隱藏行和列標題的步驟。最後，您將能夠熟練地管理電子表格的這些基本組件！
 
 ## 先決條件
 
@@ -56,7 +56,7 @@ string dataDir = "Your Document Directory";
 
 ## 步驟2：建立檔案流
 
-接下來，建立一個文件流來開啟你的 Excel 文件。這樣你就可以讀取和操作電子表格了。
+接下來，建立一個文件流來開啟您的 Excel 文件。這使您可以讀取和操作電子表格。
 
 ```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
@@ -66,7 +66,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## 步驟 3：實例化工作簿對象
 
-創建一個 `Workbook` 物件來表示你的 Excel 工作簿。使用檔案流對其進行初始化。
+創建一個 `Workbook` 物件來代表您的 Excel 工作簿。使用檔案流對其進行初始化。
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
@@ -84,7 +84,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## 步驟 5：隱藏標題
 
-現在，讓我們隱藏行和列標題！設定 `IsRowColumnHeadersVisible` 到 `false` 來實現這一目標。
+現在，讓我們隱藏行和列標題！放 `IsRowColumnHeadersVisible` 到 `false` 來實現這一目標。
 
 ```csharp
 worksheet.IsRowColumnHeadersVisible = false;
@@ -112,7 +112,7 @@ fstream.Close();
 
 ## 結論
 
-能夠顯示或隱藏 Excel 行和列標題是一項寶貴的技能，尤其有助於增強資料的呈現效果和清晰度。 Aspose.Cells 提供了一種直覺且強大的方法，讓您輕鬆管理電子表格。現在，無論您是要整理報表還是精簡互動式儀表板，您都擁有所需的工具！
+能夠顯示或隱藏 Excel 行和列標題是一項寶貴的技能，特別是對於增強資料的呈現和清晰度而言。 Aspose.Cells 提供了一種直覺且強大的方法來輕鬆管理電子表格。現在，無論您是整理報告還是簡化互動式儀表板，您都擁有所需的工具！
 
 ## 常見問題解答
 
@@ -120,10 +120,10 @@ fstream.Close();
 Aspose.Cells 是一個 .NET 函式庫，支援以程式設計方式操作 Excel 文件，讓您能夠有效率地建立、修改和轉換電子表格。
 
 ### 隱藏標題後我可以再次顯示它們嗎？
-當然！只需設定 `worksheet.IsRowColumnHeadersVisible` 到 `true` 再次顯示標題。
+絕對地！簡單設定 `worksheet.IsRowColumnHeadersVisible` 到 `true` 再次顯示標題。
 
 ### Aspose.Cells 免費嗎？
-Aspose.Cells 是一個付費庫，但您可以在限定時間內免費試用。請查看他們的 [免費試用頁面](https://releases。aspose.com/).
+Aspose.Cells 是一個付費庫，但您可以在有限的時間內免費試用。檢查他們的 [免費試用頁面](https://releases。aspose.com/).
 
 ### 在哪裡可以找到更多文件？
 您可以在 [文件頁面](https://reference。aspose.com/cells/net/).

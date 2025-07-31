@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用 Aspose.Cells for .NET 以程式設計方式將新工作表新增至 Excel 檔案。本指南將引導您完成所有必要步驟。"
+"description": "了解如何使用 Aspose.Cells for .NET 以程式設計方式為 Excel 檔案新增工作表。本綜合指南將引導您完成必要的步驟。"
 "linktitle": "使用 Aspose.Cells 將工作表新增至 Designer 電子表格"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "使用 Aspose.Cells 將工作表新增至 Designer 電子表格"
@@ -9,17 +9,17 @@
 
 ## 介紹
 
-透過程式管理 Excel 檔案可以顯著簡化您的工作流程，提高資料輸入效率，並支援建立客製化報表。 Aspose.Cells for .NET 是一個功能強大的程式庫，它允許您無需 Microsoft Excel 即可建立、編輯和管理 Excel 檔案。在本教學中，我們將指導您使用 Aspose.Cells for .NET 將新工作表新增至現有 Excel 試算表。
+以程式設計方式管理 Excel 檔案可以顯著簡化您的工作流程、提高資料輸入效率並支援建立客製化報表。 Aspose.Cells for .NET 是一個功能強大的程式庫，它允許您建立、編輯和管理 Excel 文件，而無需 Microsoft Excel。在本教學中，我們將指導您使用 Aspose.Cells for .NET 將新工作表新增至現有 Excel 電子表格的過程。
 
 ## 先決條件
 在開始之前，請確保您具備以下條件：
 
-1. Aspose.Cells for .NET 函式庫：下載 [Aspose.Cells for .NET函式庫](https://releases.aspose.com/cells/net/) 並將其添加到您的項目中。您可以先免費試用，也可以獲得 [臨時執照](https://purchase.aspose.com/temporary-license/) 以獲得全功能存取。
+1. Aspose.Cells for .NET 函式庫：下載 [Aspose.Cells for .NET函式庫](https://releases.aspose.com/cells/net/) 並將其添加到您的項目中。您可以先免費試用，或獲取 [臨時執照](https://purchase.aspose.com/temporary-license/) 以獲得全功能存取。
 2. C#基礎知識：熟悉C#語法將幫助您更好地理解程式碼。
 3. Visual Studio 或相容的 IDE：使用與 .NET 相容的整合開發環境 (IDE)（如 Visual Studio）來編寫和測試您的程式碼。
 
 ## 步驟1：導入必要的套件
-要使用 Aspose.Cells，您需要匯入相關的命名空間。在 C# 檔案的頂部加入以下 using 指令：
+要使用 Aspose.Cells，您需要匯入相關的命名空間。在 C# 檔案頂部新增以下使用指令：
 
 ```csharp
 using System.IO;
@@ -28,7 +28,7 @@ using System;
 ```
 
 ## 第 2 步：設定文檔目錄的路徑
-定義現有 Excel 文件所在的檔案路徑。這對於 Aspose.Cells 存取該文件至關重要。
+定義現有 Excel 文件所在的檔案路徑。這對於 Aspose.Cells 存取文件至關重要。
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -99,7 +99,7 @@ fstream.Close();
 使用 `workbook.Worksheets.Count` 檢索工作表的總數。
 
 ### 是否可以在特定位置新增工作表？
-當然！使用 `Insert` 方法指定新工作表的位置。
+絕對地！使用 `Insert` 方法指定新工作表的位置。
 
 ### 添加工作表後我可以重命名它嗎？
 是的，只需更新 `Name` 的財產 `Worksheet` 目的。

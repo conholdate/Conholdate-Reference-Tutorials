@@ -1,23 +1,24 @@
 ---
-title: Memuat Dokumen yang Dilindungi Kata Sandi
-linktitle: Muat Dokumen yang Dilindungi Kata Sandi
-second_title: API Penampil GroupDocs.NET
-description: Temukan cara mudah untuk mengintegrasikan kemampuan melihat dokumen ke dalam aplikasi .NET Anda dengan GroupDocs.Viewer. Tutorial ini menyediakan panduan langkah demi langkah yang komprehensif.
-weight: 12
-url: /id/viewer/advanced-document-loading/loading-password-protected-document/
+"description": "Temukan cara mudah mengintegrasikan kemampuan tampilan dokumen ke dalam aplikasi .NET Anda dengan GroupDocs.Viewer. Tutorial ini menyediakan panduan langkah demi langkah yang komprehensif."
+"linktitle": "Muat Dokumen yang Dilindungi Kata Sandi"
+"second_title": "GroupDocs.Viewer .NET API"
+"title": "Memuat Dokumen yang Dilindungi Kata Sandi"
+"url": "/id/viewer/net/advanced-document-loading/loading-password-protected-document/"
+"weight": 12
 ---
+
 ## Perkenalan
 
-Dalam lanskap digital, kemampuan untuk mengelola dan melihat berbagai format dokumen sangat penting bagi bisnis dan individu. GroupDocs.Viewer untuk .NET menawarkan solusi yang tangguh bagi pengembang untuk mengintegrasikan kemampuan melihat dokumen ke dalam aplikasi mereka dengan mudah. Tutorial ini akan memandu Anda melalui proses memuat dokumen yang dilindungi kata sandi langkah demi langkah, memastikan Anda dapat menerapkan fitur ini dengan lancar dalam proyek Anda.
+Dalam lanskap digital, kemampuan mengelola dan melihat berbagai format dokumen sangat penting bagi bisnis dan individu. GroupDocs.Viewer untuk .NET menawarkan solusi andal bagi pengembang untuk mengintegrasikan kemampuan melihat dokumen ke dalam aplikasi mereka dengan mudah. Tutorial ini akan memandu Anda melalui proses pemuatan dokumen yang dilindungi kata sandi langkah demi langkah, memastikan Anda dapat menerapkan fitur ini dengan lancar di proyek Anda.
 
 ## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  GroupDocs.Viewer untuk .NET Terpasang: Unduh dari[situs web](https://releases.groupdocs.com/viewer/net/).
+1. GroupDocs.Viewer untuk .NET Terpasang: Unduh dari [situs web](https://releases.groupdocs.com/viewer/net/).
 2. Dokumen yang Dilindungi Kata Sandi: Siapkan dokumen yang dilindungi kata sandi untuk pengujian.
 
-## Mengimpor Ruang Nama yang Diperlukan
+## Mengimpor Namespace yang Diperlukan
 
 Mulailah dengan mengimpor namespace yang diperlukan ke dalam proyek Anda:
 
@@ -34,7 +35,7 @@ Tentukan di mana Anda ingin hasil render disimpan:
 ```csharp
 string outputDirectory = "Your Document Directory";
 ```
- Pastikan untuk mengganti`"Your Document Directory"` dengan jalur sesungguhnya yang ingin Anda gunakan.
+Pastikan untuk mengganti `"Your Document Directory"` dengan jalur sebenarnya yang ingin Anda gunakan.
 
 ## Langkah 2: Mengatur Format Jalur File Halaman
 
@@ -44,7 +45,7 @@ Tentukan format untuk jalur file setiap halaman yang ditampilkan:
 string pageFilePathFormat = Path.Combine(outputDirectory, "page_{0}.html");
 ```
 
- Ini akan menghasilkan jalur seperti`"Your Document Directory/page_1.html"`, `"Your Document Directory/page_2.html"`, dll.
+Ini akan menghasilkan jalur seperti `"Your Document Directory/page_1.html"`, `"Your Document Directory/page_2.html"`, dll.
 
 ## Langkah 3: Konfigurasikan Opsi Muat
 
@@ -67,7 +68,7 @@ using (Viewer viewer = new Viewer("Path_to_your_document", loadOptions))
     // Kode untuk pilihan tampilan akan ditambahkan pada langkah berikutnya.
 }
 ```
- Pastikan untuk mengganti`"Path_to_your_document"` dengan jalur sebenarnya ke dokumen Anda.
+Pastikan untuk mengganti `"Path_to_your_document"` dengan jalur sebenarnya ke dokumen Anda.
 
 ## Langkah 5: Konfigurasikan Opsi Tampilan HTML
 
@@ -87,7 +88,7 @@ viewer.View(options);
 
 ## Langkah 7: Menampilkan Pesan Sukses
 
-Terakhir, informasikan kepada pengguna bahwa dokumen telah berhasil ditampilkan:
+Terakhir, beri tahu pengguna bahwa dokumen telah berhasil dirender:
 
 ```csharp
 Console.WriteLine($"\nSource document rendered successfully.\nCheck output in {outputDirectory}.");
@@ -95,7 +96,7 @@ Console.WriteLine($"\nSource document rendered successfully.\nCheck output in {o
 
 ## Kesimpulan
 
-Dalam tutorial ini, kami mempelajari cara memuat dokumen yang dilindungi kata sandi menggunakan GroupDocs.Viewer untuk .NET. Dengan mengikuti langkah-langkah ini, pengembang dapat dengan mudah mengintegrasikan fungsionalitas ini ke dalam aplikasi mereka, sehingga pengguna dapat melihat dokumen yang dilindungi dengan mudah.
+Dalam tutorial ini, kami membahas cara memuat dokumen yang dilindungi kata sandi menggunakan GroupDocs.Viewer untuk .NET. Dengan mengikuti langkah-langkah ini, pengembang dapat dengan mudah mengintegrasikan fungsionalitas ini ke dalam aplikasi mereka, sehingga pengguna dapat melihat dokumen yang dilindungi dengan mudah.
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -107,14 +108,14 @@ Ya, GroupDocs.Viewer mendukung berbagai format, termasuk PDF, DOCX, XLSX, PPTX, 
 
 Tentu saja! GroupDocs.Viewer kompatibel dengan lingkungan .NET Framework dan .NET Core.
 
-### Dapatkah saya menyesuaikan opsi rendering untuk dokumen?
+### Bisakah saya menyesuaikan opsi rendering untuk dokumen?
 
 Ya, GroupDocs.Viewer menawarkan berbagai opsi rendering, yang memungkinkan Anda menyesuaikan pengalaman menonton dengan kebutuhan Anda.
 
 ### Apakah GroupDocs.Viewer mendukung anotasi dokumen?
 
-Ya, ini mendukung anotasi dokumen, yang memungkinkan pengguna menambahkan komentar, sorotan, dan catatan lainnya.
+Ya, ini mendukung anotasi dokumen, yang memungkinkan pengguna untuk menambahkan komentar, sorotan, dan catatan lainnya.
 
 ### Apakah ada versi uji coba yang tersedia untuk GroupDocs.Viewer?
 
- Ya, Anda bisa mendapatkan uji coba gratis dari[situs web](https://releases.groupdocs.com/).
+Ya, Anda bisa mendapatkan uji coba gratis dari [situs web](https://releases.groupdocs.com/).

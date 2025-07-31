@@ -89,4 +89,4 @@ workbook.Save(dataDir + "output.out.xls");
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.Cells ได้อย่างไร
 
-คุณสามารถขอใบอนุญาตชั่วคราวได้จาก [หน้าการซื้อ Aspose](https://purchase-aspose.com/temporary-license/).
+คุณสามารถขอใบอนุญาตชั่วคราวได้จาก [หน้าสั่งซื้อ Aspose](https://purchase-aspose.com/temporary-license/).

@@ -151,7 +151,7 @@ Az Aspose.Words számos dokumentumformátumot támogat, beleértve a DOCX, DOC, 
 ### Több DOCX fájlból kötegelt konverziót tudok végrehajtani?
 Abszolút! Az Aspose.Words tökéletes kötegelt konverziókhoz. Több fájlon keresztül is végigmehetsz, betöltheted az egyes dokumentumokat, és EPUB formátumba konvertálhatod őket. Az optimális teljesítmény érdekében érdemes párhuzamos feldolgozást használni nagy kötegek esetén, de gondosan figyeld a memóriahasználatot.
 
-### Az Aspose.Words kompatibilis a .NET Core-ral?
+### Kompatibilis az Aspose.Words a .NET Core-ral?
 Igen, az Aspose.Words teljes mértékben támogatja mind a .NET Framework, mind a .NET Core rendszereket, beleértve a legújabb .NET verziókat is. Ez azt jelenti, hogy modern felhőalapú alkalmazásokban, mikroszolgáltatásokban és hagyományos asztali alkalmazásokban is használható kompatibilitási problémák nélkül.
 
 ### Hogyan őrizhetem meg az összetett formázást a DOCX-ből EPUB-ba konvertálás során?

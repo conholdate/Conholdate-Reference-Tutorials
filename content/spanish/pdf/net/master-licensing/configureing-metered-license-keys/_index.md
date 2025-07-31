@@ -88,7 +88,7 @@ Console.WriteLine(doc.Pages.Count);
 ### ¿Qué es una licencia medida en Aspose.PDF?  
 Una licencia medida le permite pagar según su uso de la API, lo que la hace ideal para el procesamiento de documentos de gran volumen.
 
-### ¿Cómo obtengo claves de licencia medidas?  
+### ¿Cómo puedo obtener claves de licencia medidas?  
 Compre claves de licencia medidas en [aquí](https://purchase.aspose.com/buy) o solicitar una licencia temporal.
 
 ### ¿Puedo utilizar Aspose.PDF sin una licencia?  

@@ -313,7 +313,7 @@ Ne feledd, a mesterséges intelligenciával készült dokumentum-összefoglalók
 
 A dokumentumfeldolgozás jövője elérkezett, és Ön mostantól felkészült arra, hogy részese legyen.
 
-## Gyakran Ismételt Kérdések
+## Gyakran ismételt kérdések
 
 ### Mi az Aspose.Words .NET-hez, és miért érdemes mesterséges intelligencia összefoglalásához használni?
 

@@ -60,7 +60,7 @@ public class RussianGlobalization : GlobalizationSettings
 
 В `RussianGlobalization` класс, мы переопределили `GetErrorValueString` и `GetBooleanValueString` методы для предоставления желаемых русских переводов для определенных ошибок и булевых значений.
 
-## Шаг 2: Загрузите электронную таблицу и настройте параметры глобализации.
+## Шаг 2: загрузите электронную таблицу и настройте параметры глобализации.
 
 Далее мы загрузим исходную таблицу и применим наши `RussianGlobalization` настройки класса.
 
@@ -130,7 +130,7 @@ public class ImplementErrorsAndBooleanValueInRussian
 
 ### Как можно добавить больше значений ошибок и булевых значений в `RussianGlobalization`?
 
-Чтобы расширить `RussianGlobalization` класс, вы можете добавить дополнительные случаи в `GetErrorValueString` и `GetBooleanValueString` методы для других распространенных значений ошибок, таких как `"#NUM!"`, `"#VALUE!"`и т. д., и предоставьте их русские переводы.
+Чтобы расширить `RussianGlobalization` класс, вы можете добавить дополнительные случаи в `GetErrorValueString` и `GetBooleanValueString` методы для других распространенных значений ошибок, таких как `"#NUM!"`, `"#VALUE!"`и т. д., и предоставьте их переводы на русский язык.
 
 ### Могу ли я применить `RussianGlobalization` класс к другим продуктам Aspose?
 

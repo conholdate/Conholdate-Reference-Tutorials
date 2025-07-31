@@ -18,7 +18,7 @@ Voordat we beginnen, controleren we of alles op orde is:
 1. Aspose.Words voor .NET-bibliotheek: Download de nieuwste versie van [hier](https://releases.aspose.com/words/net/).
 2. Ontwikkelomgeving: Een .NET-ontwikkelomgeving zoals Visual Studio is essentieel voor het schrijven en testen van uw code.
 3. Basiskennis van C#: Kennis van C# helpt u de codefragmenten te volgen.
-4. Voorbeeld Word-document: Je hebt een Word-document met een VBA-project nodig. Je kunt je eigen document maken of dit gebruiken. [voorbeelddocument](https://github.com/aspose-words/Aspose.Words-for-.NET/raw/99ba2a2d8b5d650deb40106225f383376b8b4bc6/Examples/Data/VBA%20project.docm).
+4. Voorbeeld Word-document: U hebt een Word-document met een VBA-project nodig. U kunt uw eigen document maken of dit gebruiken. [voorbeelddocument](https://github.com/aspose-words/Aspose.Words-for-.NET/raw/99ba2a2d8b5d650deb40106225f383376b8b4bc6/Examples/Data/VBA%20project.docm).
 
 ## Naamruimten importeren
 
@@ -57,7 +57,7 @@ Deze code laadt het Word-document met de naam "VBA project.docm" vanuit de door 
 
 ## Stap 3: Het VBA-project klonen
 
-Nu we het originele document hebben geladen, kunnen we het hele VBA-project klonen. Dit betekent dat we alle modules, verwijzingen en instellingen van het originele document naar een nieuw document kopiëren.
+Nu we het originele document hebben geladen, kunnen we het volledige VBA-project klonen. Dit betekent dat we alle modules, verwijzingen en instellingen van het originele document naar een nieuw document kopiëren.
 
 Dit is de code om dit te bereiken:
 
@@ -92,7 +92,7 @@ Aspose.Words voor .NET is een veelzijdige bibliotheek voor het maken, bewerken e
 Ja, je kunt Aspose proberen. Woorden met een [gratis proefperiode](https://releases.aspose.com/) of een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor evaluatiedoeleinden.
 
 ### Hoe kloon ik een VBA-project in Aspose.Words?  
-Als u een VBA-project wilt klonen, laadt u het originele document, kloont u het VBA-project en slaat u het nieuwe document op met het gekloonde project.
+Als u een VBA-project wilt klonen, laadt u het oorspronkelijke document, kloont u het VBA-project en slaat u het nieuwe document op met het gekloonde project.
 
 ### Wat zijn enkele veelvoorkomende toepassingen van VBA in Word-documenten?  
 VBA in Word-documenten wordt vaak gebruikt om taken te automatiseren, aangepaste macro's te maken en de functionaliteit van documenten te verbeteren met scripts.

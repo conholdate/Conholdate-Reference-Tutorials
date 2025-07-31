@@ -259,7 +259,7 @@ Vítejte v nejkomplexnější kolekci tutoriálů pro zpracování dokumentů v 
 #### Aspose.Note pro .NET
 
 {{% alert color="primary" %}}
-**Zpracování dokumentů OneNote** - Extrahujte obsah, manipulujte s poznámkovými bloky a integrujte je s pracovními postupy pro zvýšení produktivity. Vytvářejte aplikace pro psaní poznámek a systémy pro správu znalostí.
+**Zpracování dokumentů OneNote** - Extrahujte obsah, manipulujte s poznámkovými bloky a integrujte je s pracovními postupy produktivity. Vytvářejte aplikace pro psaní poznámek a systémy pro správu znalostí.
 
 {{% /alert %}}
 

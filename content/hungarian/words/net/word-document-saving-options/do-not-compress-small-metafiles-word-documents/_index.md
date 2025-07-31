@@ -68,7 +68,7 @@ DocSaveOptions saveOptions = new DocSaveOptions {
 
 Ez a lépés létrehoz egy példányt a következőből: `DocSaveOptions` és beállítja a `Compliance` ingatlan `PdfCompliance.PdfA1a`, biztosítva, hogy a dokumentum megfeleljen a PDF/A-1a szabványnak.
 
-## 4. lépés: A dokumentum mentése
+## 4. lépés: Mentse el a dokumentumot
 
 Végül mentse el a dokumentumot a konfigurált beállításokkal, ügyelve arra, hogy a kis metafájlok ne legyenek tömörítve.
 

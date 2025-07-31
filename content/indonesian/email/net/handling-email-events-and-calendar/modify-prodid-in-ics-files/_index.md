@@ -50,7 +50,7 @@ Pertama, Anda memerlukan direktori untuk menyimpan berkas ICS Anda. Jalur ini ak
 string dataDir = "Your Data Directory";
 ```
  
-Itu `dataDir` Variabel membantu Anda mengatur file dan memastikan file ICS disimpan di lokasi yang tepat. Ganti `"Your Data Directory"` dengan jalur yang valid di sistem Anda.
+Itu `dataDir` Variabel membantu Anda mengatur file dan memastikan file ICS disimpan di lokasi yang tepat. Ganti `"Your Data Directory"` dengan jalur yang valid pada sistem Anda.
 
 ## Langkah 2: Buat Janji Temu
 

@@ -75,7 +75,7 @@ Pro každou stránku v PDF souboru vygenerujeme náhledový obrázek. Pojďme si
 
 ### Krok 4.1: Inicializace FileStream pro každou miniaturu
 
-V rámci naší smyčky nastavíme stream pro ukládání každého náhledu:
+V rámci naší smyčky nastavíme stream pro ukládání jednotlivých miniatur:
 
 ```csharp
 for (int pageCount = 1; pageCount <= pdfDocument.Pages.Count; pageCount++)
@@ -87,7 +87,7 @@ for (int pageCount = 1; pageCount <= pdfDocument.Pages.Count; pageCount++)
 }
 ```
 
-Tím se pro každou miniaturu vytvoří nový soubor JPG, který je jedinečně pojmenován na základě původního názvu souboru PDF a čísla stránky.
+Tím se pro každou miniaturu vytvoří nový soubor JPG, který bude jedinečně pojmenován na základě původního názvu souboru PDF a čísla stránky.
 
 ### Krok 4.2: Definování rozlišení
 
@@ -130,7 +130,7 @@ Nakonec, po zpracování každé stránky, zavřete stream, abyste uvolnili zdro
 imageStream.Close();
 ```
 
-Uzavření streamu je nezbytné, aby se zabránilo únikům paměti a aby se zajistilo uložení všech změn.
+Uzavření streamu je nezbytné, aby se zabránilo únikům paměti a zajistilo se uložení všech změn.
 
 ## Závěr
 

@@ -47,7 +47,7 @@ Esses namespaces dão acesso a várias classes e métodos na biblioteca Aspose.C
 
 ## Etapa 1: Configure seus diretórios
 
-Primeiro, especifique onde seu arquivo de exemplo do Excel está localizado e onde você deseja salvar a saída modificada:
+Primeiro, especifique onde seu arquivo Excel de exemplo está localizado e onde você deseja salvar a saída modificada:
 
 ```csharp
 // Diretório de origem
@@ -61,7 +61,7 @@ Substituir `"Your Document Directory"` com os caminhos reais. Isso garante que o
 
 ## Etapa 2: Carregue o arquivo Excel de exemplo
 
-Agora, vamos carregar seu arquivo Excel de exemplo no programa:
+Agora, vamos carregar seu arquivo de exemplo do Excel no programa:
 
 ```csharp
 // Carregue um arquivo Excel de exemplo contendo uma tabela.

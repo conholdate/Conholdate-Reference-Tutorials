@@ -9,13 +9,13 @@
 
 ## Zavedení
 
-dnešní digitální krajině je schopnost manipulovat s PDF dokumenty nezbytná jak pro firmy, tak pro vývojáře. Ať už vyplňujete formuláře, generujete zprávy nebo vytváříte interaktivní dokumenty, správné nástroje mohou výrazně zlepšit váš pracovní postup. Jedním z takových výkonných nástrojů je Aspose.PDF pro .NET, knihovna, která zjednodušuje vytváření, úpravy a manipulaci se soubory PDF. Tento tutoriál se zaměří na konkrétní funkci: vyplňování polí PDF formulářů arabským textem, která vyhovuje arabsky mluvícím uživatelům a aplikacím vyžadujícím vícejazyčnou podporu.
+dnešní digitální krajině je schopnost manipulovat s PDF dokumenty nezbytná jak pro firmy, tak pro vývojáře. Ať už vyplňujete formuláře, generujete zprávy nebo vytváříte interaktivní dokumenty, správné nástroje mohou výrazně zlepšit váš pracovní postup. Jedním z takových výkonných nástrojů je Aspose.PDF pro .NET, knihovna, která zjednodušuje vytváření, úpravy a manipulaci s PDF soubory. Tento tutoriál se zaměří na konkrétní funkci: vyplňování polí PDF formulářů arabským textem, která vyhovuje arabsky mluvícím uživatelům a aplikacím vyžadujícím vícejazyčnou podporu.
 
 ## Předpoklady
 
 Než se pustíme do kódu, ujistěte se, že máte následující předpoklady:
 
-1. Základní znalost C#: Znalost programovacího jazyka C# vám pomůže lépe porozumět příkladům.
+1. Základní znalost jazyka C#: Znalost programovacího jazyka C# vám pomůže lépe porozumět příkladům.
 2. Aspose.PDF pro .NET: Stáhněte a nainstalujte knihovnu Aspose.PDF z [zde](https://releases.aspose.com/pdf/net/).
 3. Visual Studio: Pro psaní a testování kódu se doporučuje vývojové prostředí, jako je Visual Studio.
 4. Formulář PDF: Připravte si formulář PDF s alespoň jedním textovým polem, kam chcete zadat arabský text. Jednoduchý formulář PDF můžete vytvořit pomocí libovolného editoru PDF.
@@ -114,7 +114,7 @@ Ano, Aspose.PDF podporuje více jazyků, včetně arabštiny, angličtiny, franc
 Můžete si ho stáhnout z [Webové stránky Aspose](https://releases.aspose.com/pdf/net/).
 
 ### Je k dispozici bezplatná zkušební verze?
-Ano, můžete si Aspose.PDF vyzkoušet zdarma stažením zkušební verze. [zde](https://releases.aspose.com/).
+Ano, Aspose.PDF si můžete vyzkoušet zdarma stažením zkušební verze. [zde](https://releases.aspose.com/).
 
 ### Jak mohu získat podporu pro Aspose.PDF?
 Podporu můžete získat návštěvou [Fórum Aspose](https://forum.aspose.com/c/pdf/10).

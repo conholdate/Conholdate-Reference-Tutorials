@@ -1,20 +1,21 @@
 ---
-title: GroupDocs.Signature Kullanarak Özel Görüntülerle Belgeleri İmzalayın
-linktitle: Belgeleri Özel Görüntülerle İmzalayın
-second_title: GroupDocs.Signature .NET API
-description: GroupDocs.Signature for .NET kullanarak özel resimlerle imzalayarak belgelerinizin gerçekliğini ve güvenliğini nasıl artıracağınızı keşfedin. Bu adım adım eğitim, bir belgeyi yüklemekten her şeyi kapsar.
-weight: 13
-url: /tr/signature/master-advanced-sign-techniques/sign-documents-with-custom-image/
+"description": "GroupDocs.Signature for .NET kullanarak belgelerinizi özel görsellerle imzalayarak orijinalliğini ve güvenliğini nasıl artıracağınızı keşfedin. Bu adım adım eğitim, belge yüklemeden her şeyi kapsıyor."
+"linktitle": "Belgeleri Özel Görsellerle İmzalayın"
+"second_title": "GroupDocs.Signature .NET API"
+"title": "GroupDocs.Signature Kullanarak Belgeleri Özel Görüntülerle İmzalayın"
+"url": "/tr/signature/net/master-advanced-sign-techniques/sign-documents-with-custom-image/"
+"weight": 13
 ---
+
 ## giriiş
 
-Bu eğitimde, .NET için GroupDocs.Signature'ı kullanarak belgeleri resimlerle imzalamayı öğreneceksiniz. Belge imzalama, dosyalarınızın gerçekliğini ve güvenliğini artırarak, bunların bozulmaya karşı dayanıklı ve yasal olarak bağlayıcı olmasını sağlar. Belge imzalama işlevselliğini .NET uygulamalarınıza entegre ederek, iş akışlarınızı önemli ölçüde kolaylaştırabilirsiniz.
+Bu eğitimde, .NET için GroupDocs.Signature'ı kullanarak belgeleri görsellerle nasıl imzalayacağınızı öğreneceksiniz. Belge imzalama, dosyalarınızın orijinalliğini ve güvenliğini artırarak, bozulmaya karşı dayanıklı ve yasal olarak bağlayıcı olmalarını sağlar. Belge imzalama işlevini .NET uygulamalarınıza entegre ederek iş akışlarınızı önemli ölçüde hızlandırabilirsiniz.
 
 ## Ön koşullar
 
 Eğitime başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  GroupDocs.Signature for .NET: GroupDocs.Signature for .NET'i şu adresten indirin ve yükleyin:[web sitesi](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature for .NET: GroupDocs.Signature for .NET'i şu adresten indirin ve yükleyin: [web sitesi](https://releases.groupdocs.com/signature/net/).
 2. .NET Geliştirme Ortamı: .NET geliştirme için bir çalışma ortamı kurun.
 
 ## Ad Alanlarını İçe Aktar
@@ -31,13 +32,13 @@ using GroupDocs.Signature.Options;
 
 ## Adım 1: Belgeyi Yükleyin
 
-İmzalamak istediğiniz belgenin yolunu belirtin. Örneğin, bir PDF dosyasını yüklemek için:
+İmzalamak istediğiniz belgenin yolunu belirtin. Örneğin, bir PDF dosyası yüklemek için:
 
 ```csharp
 string filePath = "sample.pdf";
 ```
 
-## Adım 2: İmza Görüntüsünü Belirleyin
+## Adım 2: İmza Görselini Belirtin
 
 Kullanmayı planladığınız imza resminin yolunu tanımlayın:
 
@@ -45,7 +46,7 @@ Kullanmayı planladığınız imza resminin yolunu tanımlayın:
 string imagePath = "signature_handwrite.jpg";
 ```
 
-## Adım 3: Çıktı Dosyası Yolunu Ayarlayın
+## Adım 3: Çıktı Dosya Yolunu Ayarlayın
 
 İmzalanmış belgeyi nereye kaydetmek istediğinizi belirleyin:
 
@@ -55,7 +56,7 @@ string outputFilePath = Path.Combine("Your Document Directory", "SignWithImage",
 
 ## Adım 4: İmza Nesnesini Başlatın
 
- Bir örneğini oluşturun`Signature` sınıf, belge dosya yolunu geçirerek:
+Bir örneğini oluşturun `Signature` sınıf, belge dosya yolunu geçirerek:
 
 ```csharp
 using (Signature signature = new Signature(filePath))
@@ -66,7 +67,7 @@ using (Signature signature = new Signature(filePath))
 
 ## Adım 5: Görüntü İmzalama Seçeneklerini Yapılandırın
 
-Belgeyi imzalamak için seçenekleri ayarlayın. Burada, imzanın konumunu ve tüm sayfalarda görünüp görünmeyeceğini belirtebilirsiniz:
+Belgeyi imzalama seçeneklerini ayarlayın. Burada, imzanın konumunu ve tüm sayfalarda görünüp görünmeyeceğini belirleyebilirsiniz:
 
 ```csharp
 ImageSignOptions options = new ImageSignOptions(imagePath)
@@ -87,7 +88,7 @@ SignResult result = signature.Sign(outputFilePath, options);
 
 ## Adım 7: Sonucu Göster
 
-Son olarak, kullanıcıyı imzalama sürecinin başarısı hakkında, imzalanan belgenin konumu da dahil olmak üzere bilgilendirin:
+Son olarak, kullanıcıya imzalama işleminin başarısı hakkında bilgi verin ve imzalanan belgenin konumunu belirtin:
 
 ```csharp
 Console.WriteLine($"\nSource document signed successfully with {result.Succeeded.Count} signature(s).\nFile saved at {outputFilePath}.");
@@ -95,13 +96,13 @@ Console.WriteLine($"\nSource document signed successfully with {result.Succeeded
 
 ## Çözüm
 
-Bu eğitimde, .NET uygulamalarında GroupDocs.Signature for .NET ile görüntüleri kullanarak belgelerin nasıl imzalanacağını ele aldık. Belge imzalama, dosyalarınızın gerçekliğini ve güvenliğini korumak için önemlidir ve belge yönetimi yeteneklerinizi önemli ölçüde artırır.
+Bu eğitimde, .NET uygulamalarında GroupDocs.Signature for .NET ile görseller kullanarak belgelerin nasıl imzalanacağını ele aldık. Belge imzalama, dosyalarınızın özgünlüğünü ve güvenliğini korumak için olmazsa olmazdır ve belge yönetimi yeteneklerinizi önemli ölçüde artırır.
 
 ## SSS
 
 ### Tek bir belgede birden fazla imza görseli kullanabilir miyim?
 
-Evet, birden fazla resim kullanarak bir belgeyi imzalayabilirsiniz. Gerektiğinde her resim için imzalama sürecini tekrarlamanız yeterlidir.
+Evet, birden fazla görsel kullanarak bir belgeyi imzalayabilirsiniz. İmzalama işlemini gerektiği gibi her görsel için tekrarlamanız yeterlidir.
 
 ### GroupDocs.Signature for .NET tüm belge türleriyle uyumlu mudur?
 
@@ -109,12 +110,12 @@ GroupDocs.Signature for .NET, PDF, Word, Excel ve daha fazlası dahil olmak üze
 
 ### İmzanın görünümünü özelleştirebilir miyim?
 
-Kesinlikle! İmzanın görünümünün boyut, konum, şeffaflık ve daha fazlası gibi çeşitli yönlerini ayarlayabilirsiniz.
+Kesinlikle! İmzanızın görünümünün boyut, konum, şeffaflık gibi çeşitli yönlerini ayarlayabilirsiniz.
 
 ### Test için deneme sürümü mevcut mu?
 
-Evet, satın alma işlemi yapmadan önce işlevselliğini keşfetmek için web sitesinden ücretsiz deneme sürümünü indirebilirsiniz.
+Evet, satın alma işlemine geçmeden önce işlevselliğini keşfetmek için web sitesinden ücretsiz deneme sürümünü indirebilirsiniz.
 
-### GroupDocs.Signature for .NET için teknik desteği nasıl alabilirim?
+### GroupDocs.Signature for .NET için teknik destek nasıl alabilirim?
 
- Teknik yardım için şu adresi ziyaret edin:[GroupDocs.Signature forumu](https://forum.groupdocs.com/c/signature/13).
+Teknik yardım için şu adresi ziyaret edin: [GroupDocs.Signature forumu](https://forum.groupdocs.com/c/signature/13).

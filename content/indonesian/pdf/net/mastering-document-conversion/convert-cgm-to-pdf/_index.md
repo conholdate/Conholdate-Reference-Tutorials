@@ -145,7 +145,7 @@ Bahkan dengan kode yang sederhana, Anda mungkin menghadapi beberapa tantangan. B
 Untuk mendapatkan hasil terbaik dari konversi Anda, ikuti praktik yang terbukti berikut ini:
 
 ### Validasi Berkas
-Selalu validasi berkas CGM input Anda sebelum diproses. Ini mencegah kesalahan runtime dan memastikan kualitas keluaran yang konsisten.
+Selalu validasi berkas CGM input Anda sebelum diproses. Hal ini mencegah kesalahan runtime dan memastikan kualitas keluaran yang konsisten.
 
 ### Penanganan Kesalahan
 Bungkus kode konversi Anda dalam blok try-catch untuk menangani potensi pengecualian dengan baik:

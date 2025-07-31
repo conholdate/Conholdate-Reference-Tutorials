@@ -82,7 +82,7 @@ Oprócz podstawowej konwersji plików Aspose.Cells radzi sobie ze złożonymi sc
 
 **Formatowanie warunkowe**:Złożone reguły formatowania warunkowego są zachowywane podczas konwersji, dzięki czemu dane oznaczone kolorami zachowują czytelność w formacie PDF.
 
-**Pliki chronione hasłem**:Biblioteka może obsługiwać szyfrowane pliki Excela i konwertować je do formatu PDF, zapewniając przy tym odpowiednie bezpieczeństwo.
+**Pliki chronione hasłem**:Biblioteka może obsługiwać szyfrowane pliki Excela i konwertować je do formatu PDF, zachowując przy tym odpowiednie bezpieczeństwo.
 
 **Zeszyty ćwiczeń z wieloma arkuszami**: Możesz konwertować konkretne arkusze kalkulacyjne, łączyć wiele arkuszy w jeden plik PDF lub tworzyć osobne pliki PDF dla każdego arkusza kalkulacyjnego.
 

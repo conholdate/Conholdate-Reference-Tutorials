@@ -50,7 +50,7 @@ using System;
 A continuación, indique a su programa dónde encontrar su archivo de Excel:
 
 ```csharp
-// Directorio de origen
+// Directorio de fuentes
 string sourceDir = @"C:\Your\Document\Directory\";
 ```
 

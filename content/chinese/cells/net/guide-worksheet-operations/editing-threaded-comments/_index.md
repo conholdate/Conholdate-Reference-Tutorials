@@ -78,7 +78,7 @@ ThreadedComment comment = worksheet.Comments.GetThreadedComments("A1")[0];
 
 这将检索链接到单元格 A1 的第一个主题评论。现在您可以编辑它了！
 
-## 步骤6：编辑评论
+## 步骤 6：编辑评论
 这就是行动发生的地方！更新评论的注释如下：
 
 ```csharp

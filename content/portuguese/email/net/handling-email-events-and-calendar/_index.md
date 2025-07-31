@@ -33,7 +33,7 @@ Por fim, o gerenciamento de arquivos ICS às vezes pode exigir ajustes, como mod
 
 ## Manipulando eventos de e-mail e tutoriais de calendário
 ### [Ler vários eventos de arquivos ICS com C#](./read-multiple-events-from-ics-files-with-csharp/)
-Descubra como ler e gerenciar com eficiência eventos de calendário de arquivos ICS em seus aplicativos C# usando o Aspose.Email para .NET. Este guia completo explica a configuração.
+Descubra como ler e gerenciar com eficiência eventos de calendário de arquivos ICS em seus aplicativos C# usando o Aspose.Email para .NET. Este guia completo orienta você na configuração.
 ### [Renderizar eventos de calendário em MHTML usando Aspose.Email](./render-calendar-events-in-mhtml/)
 Renderize eventos de calendário em formato MHTML usando o Aspose.Email para .NET. Aprenda passo a passo como personalizar e salvar arquivos MSG com C#.
 ### [Definindo o status do participante para participantes do compromisso com C#](./setting-participant-status-for-appointment-attendees/)

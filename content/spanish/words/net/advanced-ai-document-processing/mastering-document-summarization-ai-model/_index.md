@@ -199,7 +199,7 @@ Permítame compartir algunos problemas que probablemente encontrará y cómo res
 
 Esto suele deberse a un problema de variable de entorno. Vuelva a comprobarlo:
 - La variable de entorno está configurada correctamente
-- Ha reiniciado su IDE después de configurar la variable
+- Has reiniciado tu IDE después de configurar la variable
 - El nombre de la variable coincide exactamente (incluyendo mayúsculas y minúsculas)
 
 ### Tiempos de espera para el procesamiento de documentos grandes
@@ -221,7 +221,7 @@ Si los resúmenes no cumplen con sus expectativas:
 El procesamiento de muchos documentos grandes puede consumir una cantidad significativa de memoria:
 - Desechar los objetos del documento cuando haya terminado
 - Procesar documentos en lotes en lugar de cargarlos todos a la vez
-- Supervisar el uso de memoria durante el desarrollo
+- Supervisar el uso de la memoria durante el desarrollo
 
 ## Aplicaciones y casos de uso en el mundo real
 

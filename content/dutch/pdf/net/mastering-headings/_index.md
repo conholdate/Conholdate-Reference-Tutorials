@@ -1,5 +1,5 @@
 ---
-"description": "Ontgrendel het potentieel van Aspose.PDF voor .NET met onze uitgebreide tutorials, variërend van basisgebruik tot geavanceerde functies. Verbeter uw vaardigheden in PDF-bewerking."
+"description": "Ontgrendel het potentieel van Aspose.PDF voor .NET met onze uitgebreide tutorials, van basisgebruik tot geavanceerde functies. Verbeter uw vaardigheden in PDF-bewerking."
 "linktitle": "Koppen in PDF-documenten onder de knie krijgen"
 "title": "Koppen in PDF-documenten onder de knie krijgen"
 "url": "/nl/pdf/net/mastering-headings/"

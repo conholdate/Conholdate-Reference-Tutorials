@@ -98,7 +98,7 @@ Ngay cả khi Aspose.Words xử lý được sự phức tạp, bạn vẫn có 
 
 **Định dạng bảng**: Các bảng phức tạp có thể không hiển thị hoàn hảo trên tất cả các trình đọc EPUB. Đối với dữ liệu bảng quan trọng, hãy cân nhắc việc đơn giản hóa bố cục hoặc sử dụng các phương pháp trình bày thay thế.
 
-## Mẹo hiệu suất để chuyển đổi tốt hơn
+## Mẹo về hiệu suất để chuyển đổi tốt hơn
 
 **Tối ưu hóa quy trình làm việc của bạn**: Nếu bạn đang chuyển đổi nhiều tệp, hãy sử dụng lại cùng một đối tượng Document nếu có thể. Việc tải công cụ Aspose.Words có một số chi phí phát sinh, do đó xử lý hàng loạt sẽ hiệu quả hơn.
 
@@ -137,7 +137,7 @@ Cách tiếp cận Aspose.Words này lý tưởng cho:
 
 ## Phần kết luận
 
-Việc chuyển đổi tệp DOCX sang định dạng EPUB bằng Aspose.Words cho .NET cực kỳ đơn giản khi bạn đã hiểu quy trình. Phương pháp ba bước - nhập không gian tên, tải tài liệu và lưu dưới dạng EPUB - xử lý hiệu quả hầu hết các trường hợp chuyển đổi.
+Việc chuyển đổi tệp DOCX sang định dạng EPUB bằng Aspose.Words cho .NET cực kỳ đơn giản khi bạn đã hiểu rõ quy trình. Phương pháp ba bước - nhập không gian tên, tải tài liệu và lưu dưới dạng EPUB - xử lý hiệu quả hầu hết các trường hợp chuyển đổi.
 
 Hãy nhớ rằng việc chuyển đổi tài liệu thành công không chỉ đơn thuần là chạy mã. Hãy xem xét chất lượng tài liệu nguồn, kiểm tra đầu ra trên các nền tảng khác nhau và tối ưu hóa cho trường hợp sử dụng cụ thể của bạn. Với những kỹ thuật này trong bộ công cụ, bạn sẽ có thể tự tin tích hợp các tính năng chuyển đổi tài liệu mạnh mẽ vào các ứng dụng .NET của mình.
 
@@ -146,7 +146,7 @@ Cho dù bạn đang xây dựng nền tảng xuất bản, hệ thống quản l
 ## Câu hỏi thường gặp
 
 ### Aspose.Words hỗ trợ chuyển đổi những định dạng tài liệu nào?
-Aspose.Words hỗ trợ nhiều định dạng tài liệu, bao gồm DOCX, DOC, RTF, HTML, PDF, EPUB, ODT và nhiều định dạng khác. Thư viện này có thể chuyển đổi giữa các định dạng tài liệu phổ biến nhất, khiến nó trở thành lựa chọn linh hoạt cho các ứng dụng xử lý tài liệu.
+Aspose.Words hỗ trợ nhiều định dạng tài liệu bao gồm DOCX, DOC, RTF, HTML, PDF, EPUB, ODT và nhiều định dạng khác. Thư viện này có thể chuyển đổi giữa các định dạng tài liệu phổ biến nhất, khiến nó trở thành lựa chọn linh hoạt cho các ứng dụng xử lý tài liệu.
 
 ### Tôi có thể thực hiện chuyển đổi hàng loạt nhiều tệp DOCX không?
 Chắc chắn rồi! Aspose.Words hoàn hảo cho việc chuyển đổi hàng loạt. Bạn có thể lặp qua nhiều tệp, tải từng tài liệu và chuyển đổi chúng sang định dạng EPUB. Để có hiệu suất tối ưu, hãy cân nhắc sử dụng xử lý song song cho các lô lớn, nhưng hãy theo dõi mức sử dụng bộ nhớ cẩn thận.

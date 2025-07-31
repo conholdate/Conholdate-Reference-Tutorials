@@ -191,4 +191,4 @@ Kesinlikle! İhtiyacınız olan kadar özel XML parçası ekleyebilir ve her bir
 ### Kimliklerini bilmiyorsam XML parçalarını nasıl alabilirim?  
 Kimlikleri bilmiyorsanız, döngüye girebilirsiniz `CustomXmlParts` Mevcut parçaları ve bunların kimliklerini görmek için koleksiyon, bunları tanımlamayı ve bunlara erişmeyi kolaylaştırır.
 ### Aspose.Cells için daha fazla kaynak veya desteği nerede bulabilirim?  
-Şunu kontrol edebilirsiniz: [dokümantasyon](https://reference.aspose.com/cells/net/) Ayrıntılı rehberlik için veya ziyaret edin [destek forumu](https://forum.aspose.com/c/cells/9) toplum yardımı için.
+Şunu kontrol edebilirsiniz: [dokümantasyon](https://reference.aspose.com/cells/net/) Ayrıntılı rehberlik için veya ziyaret edin [destek forumu](https://forum.aspose.com/c/cells/9) Toplum yardımı için.

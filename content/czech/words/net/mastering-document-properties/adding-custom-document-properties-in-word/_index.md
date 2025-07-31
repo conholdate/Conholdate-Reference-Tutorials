@@ -59,7 +59,7 @@ Před přidáním nových vlastností je vhodné zkontrolovat, zda již nějaká
 if (customDocumentProperties["Authorized"] != null) return;
 ```
 
-Tento kód kontroluje, zda již vlastnost „Authorized“ existuje. Pokud ano, metoda se ukončí dříve, čímž se zabrání duplikátům.
+Tento kód kontroluje, zda již vlastnost „Authorized“ existuje. Pokud ano, metoda se ukončí předčasně, čímž se zabrání duplikátům.
 
 ## Krok 4: Přidání booleovské vlastnosti
 
@@ -117,7 +117,7 @@ Gratulujeme! Úspěšně jste přidali vlastní vlastnosti dokumentu do dokument
 
 ## Často kladené otázky
 
-### Co jsou to vlastní vlastnosti dokumentu?
+### Co jsou vlastní vlastnosti dokumentu?
 Vlastní vlastnosti dokumentu jsou metadata, která můžete přidat do dokumentu aplikace Word a uložit tak další informace, které nejsou zahrnuty ve vestavěných vlastnostech.
 
 ### Mohu přidat jiné vlastnosti než řetězce a čísla?

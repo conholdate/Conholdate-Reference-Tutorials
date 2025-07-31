@@ -35,7 +35,7 @@ Innan vi går in på koden, låt oss prata om varför Aspose.Words utmärker sig
 
 ## Förkunskapskrav
 
-Innan vi går vidare till konverteringsprocessen, låt oss se till att du har allt korrekt konfigurerat:
+Innan vi går vidare till konverteringsprocessen, låt oss se till att allt är korrekt konfigurerat:
 
 **Viktiga krav:**
 - Aspose.Words för .NET: Se till att du har den senaste versionen. Om du inte har den, ladda ner den. [här](https://releases.aspose.com/words/net/).

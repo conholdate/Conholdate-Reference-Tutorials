@@ -1,5 +1,5 @@
 ---
-"description": "Naučte se, jak dodat svým PDF souborům profesionální vzhled vytvořením průhledných obdélníků pomocí Aspose.PDF pro .NET. Tento komplexní tutoriál vás provede inicializací PDF dokumentu."
+"description": "Naučte se, jak dodat svým PDF souborům profesionální nádech vytvořením průhledných obdélníků pomocí Aspose.PDF pro .NET. Tento komplexní tutoriál vás provede inicializací PDF dokumentu."
 "linktitle": "Vytvořte průhledný obdélník s alfa barvou"
 "second_title": "Aspose.PDF pro referenční příručku k .NET API"
 "title": "Vytvořte průhledný obdélník s alfa barvou"
@@ -106,7 +106,7 @@ Console.WriteLine("\nRectangle object created successfully with alpha color.\nFi
 
 ## Závěr
 
-Úspěšně jste vytvořili PDF s obdélníky s alfa barvami pomocí Aspose.PDF pro .NET! Použitím této metody můžete do svých dokumentů přidat stylové a funkční prvky. Experimentujte s různými tvary, velikostmi a úrovněmi průhlednosti, abyste maximalizovali vizuální dopad vašich PDF souborů.
+Úspěšně jste vytvořili PDF s obdélníky s alfa barvami pomocí Aspose.PDF pro .NET! Použitím této metody můžete do svých dokumentů přidat stylové a funkční prvky. Experimentujte s různými tvary, velikostmi a úrovněmi průhlednosti, abyste maximalizovali vizuální dopad vašich PDF.
 
 ## Často kladené otázky
 

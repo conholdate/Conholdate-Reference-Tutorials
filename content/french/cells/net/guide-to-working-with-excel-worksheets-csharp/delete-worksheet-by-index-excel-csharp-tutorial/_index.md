@@ -44,7 +44,7 @@ Avant de commencer à coder, assurez-vous d’avoir ces éléments essentiels pr
 
 ## Importer des packages
 
-Configurer les importations appropriées est crucial pour accéder aux fonctionnalités d'Aspose.Cells. Voici comment tout configurer correctement :
+Configurer les importations appropriées est essentiel pour accéder aux fonctionnalités d'Aspose.Cells. Voici comment tout configurer correctement :
 
 ### Installer Aspose.Cells via NuGet
 
@@ -101,7 +101,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 **Problème courant**: Si vous obtenez une erreur « Fichier non trouvé », vérifiez à nouveau le chemin d’accès à votre fichier et assurez-vous que le fichier existe dans le répertoire spécifié.
 
-## Étape 3 : Initialiser l’objet classeur
+## Étape 3 : Initialiser l'objet classeur
 
 Créez un objet Workbook qui représente l’intégralité de votre fichier Excel en mémoire :
 

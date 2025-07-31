@@ -20,7 +20,7 @@ Libere todo o potencial do processamento de documentos do Word com o Aspose.Word
 - **📄 Suporte de formato**: DOC, DOCX, RTF, HTML, PDF, EPUB, Markdown e mais
 - **🔄 Conversões avançadas**: Transformações de alta fidelidade com saída de qualidade profissional
 - **🤖 Integração de IA**: Resumo de documentos usando modelos OpenAI GPT e Google AI
-- **📊 Mala direta e relatórios**Geração dinâmica de documentos a partir de fontes de dados
+- **📊 Mala direta e relatórios**: Geração dinâmica de documentos a partir de fontes de dados
 - **🎨 Formatação avançada**: Controle total sobre o estilo do documento, layout e elementos interativos
 
 ## 📚 Categorias de Tutoriais
@@ -34,10 +34,10 @@ Domine transformações fundamentais de documentos com saída de qualidade profi
 | **[Converter DOCX para EPUB](./essential-guide-document-conversions/convert-docx-to-epub/)** | Publicação digital para leitores eletrônicos e dispositivos móveis | ⭐⭐ Intermediário |
 | **[Converter DOCX para TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Extração de texto simples para processamento e análise de dados | ⭐ Iniciante |
 | **[Converter DOCX em matrizes de bytes](./essential-guide-document-conversions/convert-docx-to-byte-arrays/)** | Manipulação de documentos com eficiência de memória para aplicativos da web | ⭐⭐ Intermediário |
-| **[Converter DOC para DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** | Modernização de formatos legados e atualizações de compatibilidade | ⭐ Iniciante |
+| **[Converter DOC para DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** Modernização de formatos legados e atualizações de compatibilidade | ⭐ Iniciante |
 | **[Converter DOCX para MHTML e enviar e-mail](./essential-guide-document-conversions/convert-docx-to-mhtml-send-email/)** | Integração de e-mail com suporte a formatação avançada | ⭐⭐ Intermediário |
 | **[Converter PDF para JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Extração de imagens de alta qualidade de documentos PDF | ⭐⭐ Intermediário |
-| **[Salvar como PDF](./essential-guide-document-conversions/save-as-pdf/)** Publicação profissional de documentos com opções avançadas | ⭐ Iniciante |
+| **[Salvar como PDF](./essential-guide-document-conversions/save-as-pdf/)** | Publicação profissional de documentos com opções avançadas | ⭐ Iniciante |
 
 ### Processamento avançado de documentos por IA
 Aproveite a inteligência artificial de ponta para análise inteligente de documentos e geração automatizada de conteúdo.
@@ -46,14 +46,14 @@ Aproveite a inteligência artificial de ponta para análise inteligente de docum
 |----------|-------------|------------|
 | **[Dominando a sumarização de documentos com o modelo de IA](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Integração de IA do Google para resumo inteligente de conteúdo | ⭐⭐⭐ Avançado |
 | **[Sumarização eficiente de documentos com o modelo OpenAI](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Análise de documentos com tecnologia GPT e insights automatizados | ⭐⭐⭐ Avançado |
-| **[Opções de Resumir Documentos](./advanced-ai-document-processing/summarize-documents-options/)** | Configuração avançada para processamento de conteúdo com tecnologia de IA | ⭐⭐⭐ Avançado |
+| **[Opções de Resumir Documentos](./advanced-ai-document-processing/summarize-documents-options/)** Configuração avançada para processamento de conteúdo com tecnologia de IA | ⭐⭐⭐ Avançado |
 
 ### Dominando o gerenciamento de seções
 Estrutura e organização profissional de documentos com técnicas avançadas de manipulação de seções.
 
 | Tutorial | Descrição | Dificuldade |
 |----------|-------------|------------|
-| **[Adicionando Seções](./section-management/adding-sections/)** Crie layouts de documentos estruturados com formatação profissional | ⭐ Iniciante |
+| **[Adicionando Seções](./section-management/adding-sections/)** | Crie layouts de documentos estruturados com formatação profissional | ⭐ Iniciante |
 | **[Excluir seções de documentos do Word](./section-management/delete-sections-word-document/)** | Remova com eficiência seções desnecessárias do documento | ⭐ Iniciante |
 | **[Adicionar conteúdo da seção Word](./section-management/append-section-word-content/)** | Combine perfeitamente o conteúdo de várias seções do documento | ⭐⭐ Intermediário |
 | **[Copiar seções entre documentos do Word](./section-management/copy-sections-word-documents/)** | Transferir conteúdo estruturado entre diferentes documentos | ⭐⭐ Intermediário |
@@ -81,7 +81,7 @@ Processamento e otimização profissional de imagens para publicação de docume
 |----------|-------------|------------|
 | **[Controle de limite de exposição para binarização TIFF](./guide-to-image-save-options/expose-threshold-control-for-tiff-binarization-in-word-document/)** | Processamento avançado de imagens com controles de qualidade personalizados | ⭐⭐⭐ Avançado |
 | **[Obter intervalo de páginas JPEG](./guide-to-image-save-options/get-jpeg-page-range-word-document/)** | Extrair páginas específicas do documento como imagens de alta qualidade | ⭐⭐ Intermediário |
-| **[Obter intervalo de páginas TIFF](./guide-to-image-save-options/get-tiff-page-range-word-document/)** Extração profissional de imagens com otimização do formato TIFF | ⭐⭐ Intermediário |
+| **[Obter intervalo de páginas TIFF](./guide-to-image-save-options/get-tiff-page-range-word-document/)** | Extração profissional de imagens com otimização do formato TIFF | ⭐⭐ Intermediário |
 | **[Crie imagens indexadas de 1Bpp](./guide-to-image-save-options/create-1bpp-indexed/)** | Processamento de imagens com eficiência de espaço para arquivamento e armazenamento | ⭐⭐ Intermediário |
 | **[Retorno de chamada para salvar página](./guide-to-image-save-options/page-saving-callback-word-document/)** | Processamento de página personalizado com geração automatizada de imagens | ⭐⭐⭐ Avançado |
 
@@ -90,14 +90,14 @@ Tratamento abrangente de metadados e manipulação de propriedades de documentos
 
 | Tutorial | Descrição | Dificuldade |
 |----------|-------------|------------|
-| **[Remover propriedades personalizadas do documento](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** | Limpar metadados de documentos e otimizar a organização de arquivos | ⭐ Iniciante |
+| **[Remover propriedades personalizadas do documento](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** Limpar metadados de documentos e otimizar a organização de arquivos | ⭐ Iniciante |
 
 ## 🎯 Casos de uso populares
 
 ### **Automação e Publicação de Documentos**
 - **Relatórios Profissionais**: Geração automatizada de documentos comerciais com formatação consistente
 - **Publicação Digital**: Converta manuscritos em vários formatos para vários canais de distribuição
-- **Gerenciamento de conteúdo**Simplifique os fluxos de trabalho de documentos com processamento em lote e padronização de formatos
+- **Gerenciamento de conteúdo**: Simplifique os fluxos de trabalho de documentos com processamento em lote e padronização de formatos
 
 ### **Processamento de conteúdo com tecnologia de IA**
 - **Resumo Inteligente**: Extraia insights importantes de documentos extensos usando modelos avançados de IA
@@ -106,7 +106,7 @@ Tratamento abrangente de metadados e manipulação de propriedades de documentos
 
 ### **Soluções de Integração Empresarial**
 - **Aplicações Web**: Gerar documentos dinamicamente a partir de interfaces web e bancos de dados
-- **Automação de e-mail**: Crie conteúdo de e-mail rico com documentos e formatação incorporados
+- **Automação de e-mail**Crie conteúdo de e-mail rico com documentos e formatação incorporados
 - **Desenvolvimento de API**: Construir microsserviços centrados em documentos e pipelines de processamento automatizados
 
 ## 📊 Recomendações de Caminhos de Aprendizagem

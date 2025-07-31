@@ -42,7 +42,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "AddTooltipToField.pdf");
 ```
 
-- dataDir: Sostituisci `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del file PDF.
+- dataDir: Sostituisci `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del tuo file PDF.
 - Documento doc: questa riga carica il PDF nella memoria, preparandolo per le modifiche.
 
 Immagina questo passaggio come se stessi estraendo un file da un archivio per esaminarlo: ora è aperto alle modifiche!

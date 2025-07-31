@@ -12,7 +12,7 @@ Pokud jde o navigaci v souborech PDF, záložky jsou vašimi nejlepšími přát
 
 ## Přidávání záložek do souborů PDF
 
-Nejprve se podívejme, jak přidat záložky do PDF souborů. Záložky nejsou jen o dekoraci, ale o zlepšení uživatelského prostředí. S Aspose.PDF pro .NET můžete programově vkládat záložky, což usnadňuje navigaci v obsahu. Představte si, že máte dlouhou zprávu – přidáním záložek můžete čtenáře nechat přímo přejít k příslušným kapitolám, aniž by museli procházet nekonečnými stránkami. [Více se dočtete zde.](./adding-bookmark/)
+Nejprve se podívejme, jak přidat záložky do PDF souborů. Záložky nejsou jen o dekoraci, ale také o zlepšení uživatelského prostředí. S Aspose.PDF pro .NET můžete programově vkládat záložky, což usnadňuje navigaci v obsahu. Představte si, že máte dlouhou zprávu – přidáním záložek můžete čtenáře nechat přímo přejít k příslušným kapitolám, aniž by museli procházet nekonečnými stránkami. [Více se dočtete zde.](./adding-bookmark/)
 
 ## Navigace v podřízených záložkách
 
@@ -20,7 +20,7 @@ A proč se zastavit pouze u jedné úrovně záložek? Přidání podřízených
 
 ## Odstranění záložek v případě potřeby
 
-Někdy se může stát, že některé záložky již nejsou relevantní, nebo si prostě jen přejete čistší dokument. Žádné obavy – Aspose.PDF pro .NET umožňuje snadno odstranit všechny záložky pomocí několika řádků kódu. Tato flexibilita je zásadní pro udržení aktuálních dokumentů, aniž by vznikl nepořádek s nežádoucími odkazy. Představte si, že si uklidíte pracovní prostor; odstranění záložek, když už nejsou potřeba, udržuje digitální prostor uklizený a organizovaný. [Více se dočtete zde.](./remove-all-bookmarks/)
+Někdy se může stát, že některé záložky již nejsou relevantní, nebo si prostě jen přejete čistší dokument. Žádné obavy – Aspose.PDF pro .NET umožňuje snadno odstranit všechny záložky pomocí několika řádků kódu. Tato flexibilita je zásadní pro udržení aktuálních dokumentů, aniž by vznikl nepořádek s nežádoucími odkazy. Představte si, že si uklidíte pracovní prostor; odstranění záložek, když je již nepotřebujete, udržuje digitální prostor uklizený a organizovaný. [Více se dočtete zde.](./remove-all-bookmarks/)
 
 ## Načtení čísel stránek záložek
 

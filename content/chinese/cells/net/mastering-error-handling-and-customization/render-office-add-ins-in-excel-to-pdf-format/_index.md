@@ -54,7 +54,7 @@ string outputDir = "Your Document Directory";
 
 ## 步骤 2：加载 Excel 工作簿
 
-接下来，加载包含 Office 加载项的示例 Excel 文件。创建 `Workbook` 来自 Aspose.Cells 的类：
+接下来，加载包含 Office 加载项的示例 Excel 文件。创建一个新的 `Workbook` 来自 Aspose.Cells 的类：
 
 ```csharp
 // 加载包含 Office 加载项的示例 Excel 文件

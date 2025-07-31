@@ -1,5 +1,5 @@
 ---
-"description": "이 포괄적인 튜토리얼에서는 Aspose.PDF for .NET을 사용하여 PDF 문서를 대화형 양식으로 변환하는 방법을 살펴봅니다. 사용자 지정 가능한 텍스트 상자 필드를 추가하여 사용자 경험과 데이터 수집 효율성을 향상시키는 단계별 프로세스를 학습합니다."
+"description": "이 포괄적인 튜토리얼에서는 Aspose.PDF for .NET을 사용하여 PDF 문서를 대화형 양식으로 변환하는 방법을 살펴봅니다. 사용자 지정 가능한 텍스트 상자 필드를 추가하여 사용자 경험과 데이터 수집 효율성을 개선하는 단계별 프로세스를 학습합니다."
 "linktitle": "Aspose.PDF for .NET을 사용하여 PDF에 텍스트 상자 추가"
 "second_title": ".NET API 참조용 Aspose.PDF"
 "title": "Aspose.PDF for .NET을 사용하여 PDF에 텍스트 상자 추가"

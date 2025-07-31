@@ -1,27 +1,28 @@
 ---
-title: Lecture des propriétés personnalisées à partir de fichiers PDF dans .NET
-linktitle: Lecture des propriétés personnalisées à partir de fichiers PDF dans .NET
-second_title: API .NET GroupDocs.Metadata
-description: Découvrez comment accéder et gérer efficacement les propriétés personnalisées des documents PDF à l'aide de GroupDocs.Metadata pour .NET. Ce didacticiel complet fournit un guide étape par étape.
-weight: 11
-url: /fr/metadata/pdf-metadata-management/reading-custom-properties-from-pdf/
+"description": "Découvrez comment accéder et gérer efficacement les propriétés personnalisées de vos documents PDF grâce à GroupDocs.Metadata pour .NET. Ce tutoriel complet vous guide étape par étape."
+"linktitle": "Lecture des propriétés personnalisées à partir de fichiers PDF dans .NET"
+"second_title": "API .NET GroupDocs.Metadata"
+"title": "Lecture des propriétés personnalisées à partir de fichiers PDF dans .NET"
+"url": "/fr/metadata/net/pdf-metadata-management/reading-custom-properties-from-pdf/"
+"weight": 11
 ---
+
 ## Introduction
 
-Dans le monde du développement .NET, la gestion efficace des métadonnées au sein des documents est essentielle pour organiser les informations et extraire des informations précieuses. GroupDocs.Metadata pour .NET est une bibliothèque complète qui permet aux développeurs d'accéder aux métadonnées des documents et de les manipuler de manière transparente. Ce didacticiel vous guidera tout au long du processus d'extraction de propriétés personnalisées à partir de fichiers PDF à l'aide de C#. 
+Dans le monde du développement .NET, une gestion efficace des métadonnées au sein des documents est essentielle pour organiser l'information et extraire des informations précieuses. GroupDocs.Metadata pour .NET est une bibliothèque complète qui permet aux développeurs d'accéder aux métadonnées des documents et de les manipuler facilement. Ce tutoriel vous guidera dans l'extraction de propriétés personnalisées de fichiers PDF en C#. 
 
 ## Prérequis
 
-Avant de commencer, assurez-vous de disposer des éléments suivants :
+Avant de commencer, assurez-vous d’avoir les éléments suivants :
 
 - Une compréhension fondamentale du langage de programmation C#.
 - Visual Studio installé sur votre système.
--  La bibliothèque GroupDocs.Metadata pour .NET est installée. Vous pouvez la télécharger[ici](https://releases.groupdocs.com/metadata/net/).
+- La bibliothèque GroupDocs.Metadata pour .NET est installée. Vous pouvez la télécharger. [ici](https://releases.groupdocs.com/metadata/net/).
 - Un fichier PDF contenant des propriétés personnalisées à tester.
 
-## Étape 1 : Configuration de votre projet
+## Étape 1 : Configuration de votre projet
 
-Commencez par créer un nouveau projet C# dans Visual Studio. Après avoir configuré le projet, vous devez importer les espaces de noms nécessaires. Incluez les éléments suivants en haut de votre fichier C# :
+Commencez par créer un projet C# dans Visual Studio. Après avoir configuré le projet, vous devez importer les espaces de noms nécessaires. Ajoutez les éléments suivants en haut de votre fichier C# :
 
 ```csharp
 using System;
@@ -29,9 +30,9 @@ using Formats.Document;
 using Tagging;
 ```
 
-## Étape 2 : Charger le document PDF
+## Étape 2 : Charger le document PDF
 
-Ensuite, vous chargerez le document PDF qui contient les propriétés personnalisées. Utilisez l'extrait de code suivant pour y parvenir :
+Ensuite, vous allez charger le document PDF contenant les propriétés personnalisées. Utilisez l'extrait de code suivant pour cela :
 
 ```csharp
 using (Metadata metadata = new Metadata("YourInputFile.pdf"))
@@ -41,7 +42,7 @@ using (Metadata metadata = new Metadata("YourInputFile.pdf"))
 }
 ```
 
- Remarque : remplacer`"YourInputFile.pdf"` avec le chemin de votre fichier PDF.
+Remarque : remplacer `"YourInputFile.pdf"` avec le chemin de votre fichier PDF.
 
 ## Étape 3 : Récupérer et afficher les propriétés personnalisées
 
@@ -61,9 +62,9 @@ Dans ce code :
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons montré comment utiliser GroupDocs.Metadata pour .NET pour lire les propriétés personnalisées des documents PDF à l'aide de C#. Ces étapes vous permettent d'intégrer efficacement les fonctionnalités de gestion des métadonnées dans vos applications .NET, améliorant ainsi votre flux de travail de traitement des documents. 
+Dans ce tutoriel, nous avons montré comment utiliser GroupDocs.Metadata pour .NET afin de lire les propriétés personnalisées de documents PDF en C#. Ces étapes vous permettent d'intégrer efficacement des fonctionnalités de gestion des métadonnées à vos applications .NET, améliorant ainsi votre flux de travail de traitement de documents. 
 
-Maintenant que vous avez une bonne compréhension de la manière d'accéder aux métadonnées personnalisées, vous pouvez explorer d'autres fonctionnalités offertes par la bibliothèque GroupDocs.Metadata, telles que l'édition et la gestion des métadonnées.
+Maintenant que vous avez une solide compréhension de la manière d'accéder aux métadonnées personnalisées, vous pouvez explorer d'autres fonctionnalités offertes par la bibliothèque GroupDocs.Metadata, telles que l'édition et la gestion des métadonnées.
 
 ## FAQ
 
@@ -73,11 +74,11 @@ Oui, la bibliothèque fournit des fonctionnalités permettant de modifier, d’a
 ### GroupDocs.Metadata prend-il en charge d’autres formats de fichiers en plus du PDF ?
 En effet, GroupDocs.Metadata prend en charge un large éventail de formats de fichiers, notamment les documents Word, les feuilles de calcul Excel, les présentations PowerPoint, les images, etc.
 
-### Où puis-je trouver plus de documentation et d’assistance pour GroupDocs.Metadata ?
- Pour des informations complètes, vous pouvez vous référer au[Documentation de GroupDocs.Metadata](https://reference.groupdocs.com/metadata/net/) Pour obtenir de l'aide supplémentaire, visitez le[Forum sur les métadonnées GroupDocs](https://forum.groupdocs.com/c/metadata/14).
+### Où puis-je trouver plus de documentation et d'assistance pour GroupDocs.Metadata ?
+Pour des informations complètes, vous pouvez vous référer au [Documentation de GroupDocs.Metadata](https://reference.groupdocs.com/metadata/net/)Pour obtenir de l'aide supplémentaire, visitez le [Forum GroupDocs.Metadata](https://forum.groupdocs.com/c/metadata/14).
 
 ### Existe-t-il un essai gratuit disponible pour GroupDocs.Metadata ?
- Oui, vous pouvez accéder à un[essai gratuit](https://releases.groupdocs.com/) pour explorer les fonctionnalités de GroupDocs.Metadata.
+Oui, vous pouvez accéder à un [essai gratuit](https://releases.groupdocs.com/) pour explorer les fonctionnalités de GroupDocs.Metadata.
 
-### Comment puis-je acheter une licence pour GroupDocs.Metadata ?
- Pour acquérir une licence, veuillez visiter le[page d'achat](https://purchase.groupdocs.com/buy) Des licences temporaires sont également disponibles[ici](https://purchase.groupdocs.com/temporary-license/).
+### Comment puis-je acheter une licence pour GroupDocs.Metadata ?
+Pour acquérir une licence, veuillez visiter le [page d'achat](https://purchase.groupdocs.com/buy)Des licences temporaires sont également disponibles [ici](https://purchase.groupdocs.com/temporary-license/).

@@ -33,7 +33,7 @@ Hiermee krijgt u toegang tot de klassen en methoden die nodig zijn voor het werk
 
 ## Stap 1: Maak een werkmap en open de pagina-instellingen
 
-Begin met het maken van een nieuwe werkmap en ga naar de pagina-instellingen van het werkblad. Hier wijzigt u de instellingen voor de kop- en voettekst.
+Begin met het maken van een nieuwe werkmap en open de pagina-instellingen van het werkblad. Hier wijzigt u de kop- en voettekstinstellingen.
 
 ```csharp
 // Definieer het pad om uw document op te slaan
@@ -83,7 +83,7 @@ In deze regel:
 
 ## Stap 5: Bestandsnaam weergeven in het rechtergedeelte van de koptekst
 
-Om de header compleet te maken, geeft u de bestandsnaam aan de rechterkant weer met de opgegeven lettergrootte.
+Om de header compleet te maken, geeft u de bestandsnaam aan de rechterkant weer met een opgegeven lettergrootte.
 
 ```csharp
 // Geef de bestandsnaam weer in het rechtergedeelte van de header met een aangepaste lettergrootte
@@ -92,7 +92,7 @@ pageSetup.SetHeader(2, "&\"Times New Roman,Bold\"&12&F");
 
 Hier, `&F` vertegenwoordigt de bestandsnaam en `&12` stelt de lettergrootte in op 12.
 
-## Stap 6: Aangepaste tekst toevoegen aan de linkervoettekstsectie
+## Stap 6: Voeg aangepaste tekst toe aan de linkervoettekstsectie
 
 Laten we nu de linkervoettekst instellen met aangepaste tekst en een specifiek lettertype.
 
@@ -101,11 +101,11 @@ Laten we nu de linkervoettekst instellen met aangepaste tekst en een specifiek l
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
-In dit voorbeeld is de tekst `123` is gestyled met het lettertype "Courier New" in grootte 14, terwijl de rest het standaardvoettekstlettertype behoudt.
+In dit voorbeeld is de tekst `123` is opgemaakt met het lettertype "Courier New" in grootte 14, terwijl de rest het standaardvoettekstlettertype behoudt.
 
 ## Stap 7: Paginanummer invoegen in het midden van de voettekst
 
-Als u paginanummers in de voettekst opneemt, kunnen lezers gemakkelijker het overzicht behouden op documenten met meerdere pagina's.
+Door paginanummers in de voettekst op te nemen, kunnen lezers documenten met meerdere pagina's gemakkelijker terugvinden.
 
 ```csharp
 // Paginanummer invoegen in het middelste gedeelte van de voettekst
@@ -123,7 +123,7 @@ Maak de voettekst compleet door het totale aantal pagina's in de rechtersectie w
 pageSetup.SetFooter(2, "&N");
 ```
 
-De `&N` De code geeft het totale aantal pagina's weer, waardoor lezers geïnformeerd worden over de lengte van het document.
+De `&N` De code geeft het totale aantal pagina's weer, waardoor lezers op de hoogte zijn van de lengte van het document.
 
 ## Stap 9: Sla de werkmap op
 

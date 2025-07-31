@@ -97,7 +97,7 @@ workbook.Save(outDir + "EditThreadedComments.xlsx");
 新しく編集されたファイルの指定された出力ディレクトリを確認してください。
 
 ## ステップ8: 完了メッセージ
-プロセスが正常に完了したことが分かると便利ですね！次の行を追加してください:
+プロセスが正常に完了したことが分かると便利ですね！次の行を追加してください。
 
 ```csharp
 Console.WriteLine("EditThreadedComments executed successfully.");

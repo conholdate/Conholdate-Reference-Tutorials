@@ -19,7 +19,7 @@
 
 ## Invoering
 
-Heb je je ooit afgevraagd hoe je JavaScript kunt toevoegen aan PDF C#-applicaties om écht interactieve documenten te maken? Je bent hier aan het juiste adres! Of je nu automatisch printen, aangepaste meldingen of dynamische gebruikersinteracties nodig hebt, door JavaScript aan je PDF's toe te voegen, kun je statische documenten transformeren tot boeiende, interactieve ervaringen.
+Heb je je ooit afgevraagd hoe je JavaScript kunt toevoegen aan PDF C#-applicaties om echt interactieve documenten te maken? Je bent hier aan het juiste adres! Of je nu automatisch afdrukken, aangepaste meldingen of dynamische gebruikersinteracties nodig hebt, door JavaScript aan je PDF's toe te voegen, kun je statische documenten transformeren tot boeiende, interactieve ervaringen.
 
 Deze uitgebreide handleiding laat je precies zien hoe je JavaScript toevoegt aan PDF-bestanden met Aspose.PDF voor .NET. We behandelen alles, van eenvoudige pop-upmeldingen tot geavanceerde functies voor automatisch afdrukken, plus tips voor probleemoplossing en best practices die je nergens anders vindt.
 
@@ -36,7 +36,7 @@ Voordat we in de code duiken, bekijken we wanneer en waarom u JavaScript aan uw 
 - **Dynamische inhoud**: Secties weergeven/verbergen op basis van gebruikersselecties
 - **Waarschuwingen en meldingen**: Belangrijke berichten of bevestigingen voor gebruikers
 
-Het mooie van Aspose.PDF voor .NET is dat u deze functies programmatisch kunt implementeren, waardoor het perfect is voor geautomatiseerde workflows voor documentgeneratie.
+Het mooie van Aspose.PDF voor .NET is dat u deze functies programmatisch kunt implementeren, waardoor het perfect is voor geautomatiseerde workflows voor het genereren van documenten.
 
 ## Vereisten en instellingen
 
@@ -48,7 +48,7 @@ Voordat u JavaScript aan PDF C#-toepassingen toevoegt, moet u ervoor zorgen dat 
 - Ontwikkelomgeving (Visual Studio aanbevolen)
 - Voorbeeld PDF-bestand voor testen (of wij maken er een)
 
-**Professionele tip**: Als je net begint, kun je een gratis proefversie downloaden [releases.aspose.com](http://releases.aspose.com)Overweeg voor productiewerk een tijdelijke licentie aan te vragen om beperkingen tijdens de ontwikkeling te vermijden.
+**Professionele tip**: Als je net begint, kun je een gratis proefversie downloaden van [releases.aspose.com](http://releases.aspose.com)Overweeg voor productiewerk een tijdelijke licentie aan te vragen om beperkingen tijdens de ontwikkeling te vermijden.
 
 ## Noodzakelijke pakketten importeren
 
@@ -66,7 +66,7 @@ Met deze naamruimten krijgt u toegang tot de documentmanipulatie, JavaScript-act
 
 ## Stap 1: Een bestaande PDF laden
 
-Laten we beginnen met het laden van een PDF-document dat we willen verbeteren met JavaScript-functionaliteit:
+Laten we beginnen met het laden van een PDF-document dat we willen uitbreiden met JavaScript-functionaliteit:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -93,7 +93,7 @@ doc.OpenAction = javaScript;
 - `bSilent:false`: Print niet stilzwijgend – gebruikersinteractie vereist
 - `bShrinkToFit:true`: Schaalt de inhoud automatisch zodat deze op de pagina past
 
-**Wanneer moet u dit gebruiken?**:Perfect voor facturen, tickets, certificaten of andere documenten die gebruikers doorgaans direct na opening willen afdrukken.
+**Wanneer moet je dit gebruiken?**:Perfect voor facturen, tickets, certificaten of andere documenten die gebruikers doorgaans direct na opening willen afdrukken.
 
 ## Stap 3: JavaScript toevoegen op paginaniveau
 
@@ -133,10 +133,10 @@ De `Save()` Met deze methode maakt u een nieuw interactief PDF-bestand. Het orig
 Laten we eens een aantal praktische scenario's bekijken waarin het toevoegen van JavaScript aan PDF C#-toepassingen echt van pas komt:
 
 ### Automatisch afdrukken voor zakelijke documenten
-Perfect voor facturen, verzendlabels of bonnen die direct geprint moeten worden. De JavaScript-functie voor automatisch printen die we eerder bespraken, regelt dit op een fantastische manier.
+Perfect voor facturen, verzendlabels of bonnen die direct moeten worden afgedrukt. De JavaScript-functie voor automatisch afdrukken die we eerder hebben besproken, regelt dit op een fantastische manier.
 
 ### Formuliervalidatie en gebruikershandleiding
-Hoewel we geen nieuwe codevoorbeelden hebben toegevoegd, kunt u vergelijkbare JavaScript-acties gebruiken om formuliervelden te valideren, handige tooltips weer te geven of gebruikers door complexe formulieren te leiden.
+Hoewel we geen nieuwe codevoorbeelden hebben toegevoegd, kunt u vergelijkbare JavaScript-acties gebruiken om formuliervelden te valideren, nuttige tooltips weer te geven of gebruikers door complexe formulieren te leiden.
 
 ### Dynamische inhoudsweergave
 Met JavaScript kunt u inhoud weergeven of verbergen op basis van de selecties van de gebruiker. Hierdoor worden uw PDF's responsiever en gebruiksvriendelijker.
@@ -179,12 +179,12 @@ Bij het werken met PDF JavaScript kunt u de volgende veelvoorkomende uitdagingen
 
 ## Wanneer u deze aanpak moet gebruiken
 
-Het toevoegen van JavaScript aan PDF C#-toepassingen werkt het beste als:
+Het toevoegen van JavaScript aan PDF C#-toepassingen werkt het beste wanneer:
 
-✅ **U heeft onmiddellijke gebruikersinteractie nodig** (zoals automatisch printen)
+✅ **U heeft onmiddellijke gebruikersinteractie nodig** (zoals automatisch afdrukken)
 ✅ **Werken met Adobe Acrobat/Reader-gebruikers** (volledige JavaScript-ondersteuning)
 ✅ **Zakelijke documenten maken** (facturen, formulieren, certificaten)
-✅ **Bestaande PDF's verbeteren** zonder helemaal opnieuw te hoeven bouwen
+✅ **Bestaande PDF's verbeteren** zonder helemaal opnieuw te beginnen
 
 **Overweeg alternatieven wanneer:**
 ❌ Uw gebruikers gebruiken voornamelijk basis PDF-viewers
@@ -201,7 +201,7 @@ Het toevoegen van JavaScript aan PDF C#-toepassingen werkt het beste als:
 **Gebruikerservaring:**
 - Geef gebruikers altijd duidelijke feedback
 - Overweldig uw bezoekers niet met te veel pop-ups of automatische acties
-- Houd rekening met toegankelijkheid: sommige gebruikers hebben JavaScript mogelijk uitgeschakeld
+- Houd rekening met de toegankelijkheid: sommige gebruikers hebben JavaScript mogelijk uitgeschakeld
 
 **Teststrategie:**
 - Test met meerdere PDF-viewers (Adobe Reader, browserviewers, mobiele apps)
@@ -212,7 +212,7 @@ Het toevoegen van JavaScript aan PDF C#-toepassingen werkt het beste als:
 
 Het toevoegen van JavaScript aan PDF C#-applicaties met Aspose.PDF voor .NET opent een wereld aan mogelijkheden voor het maken van interactieve, gebruiksvriendelijke documenten. Of u nu automatisch afdrukken implementeert, dynamische formulieren maakt of de gebruikersnavigatie verbetert, de technieken in deze handleiding bieden een solide basis.
 
-Onthoud dat de sleutel tot een succesvolle PDF JavaScript-implementatie ligt in het begrijpen van de omgeving van uw gebruikers en het grondig testen ervan. Begin met eenvoudige interacties, zoals het voorbeeld van automatisch afdrukken dat we hebben behandeld, en bouw vervolgens geleidelijk aan complexere functionaliteit op, indien nodig.
+Onthoud dat de sleutel tot een succesvolle PDF JavaScript-implementatie ligt in het begrijpen van de omgeving van uw gebruikers en het grondig testen ervan. Begin met eenvoudige interacties zoals het voorbeeld van automatisch afdrukken dat we hebben behandeld, en bouw vervolgens geleidelijk aan complexere functionaliteit op, indien nodig.
 
 Dankzij de combinatie van de krachtige API van Aspose.PDF en de interactiviteit van JavaScript beschikt u over de tools om werkelijk aantrekkelijke PDF-ervaringen te creëren die zich onderscheiden van statische documenten.
 
@@ -225,10 +225,10 @@ Absoluut! Je kunt verschillende JavaScript-acties aan individuele pagina's toewi
 Ja, u kunt bestaande JavaScript-acties verwijderen of wijzigen door het selectievakje `Actions` eigenschappen van het document of specifieke pagina's. Stel eenvoudig in `doc.OpenAction = null` voor acties op documentniveau of `doc.Pages[pageNumber].Actions.OnOpen = null` voor acties op paginaniveau.
 
 ### Welke JavaScript-functies kan ik in een PDF gebruiken?
-U kunt elke JavaScript-code gebruiken die wordt ondersteund door de JavaScript-engine van Adobe Acrobat, inclusief afdrukfuncties (`this.print()`), waarschuwingen (`app.alert()`), formulierveldmanipulaties, wiskundige berekeningen en tekenreeksbewerkingen. Het is echter een subset van volledig JavaScript – geen DOM-manipulatie of web-API's.
+U kunt elke JavaScript-code gebruiken die wordt ondersteund door de JavaScript-engine van Adobe Acrobat, inclusief afdrukfuncties (`this.print()`), waarschuwingen (`app.alert()`), manipulaties van formuliervelden, wiskundige berekeningen en tekenreeksbewerkingen. Het is echter een subset van volledig JavaScript – geen DOM-manipulatie of web-API's.
 
 ### Werkt JavaScript in alle PDF-viewers?
 De meeste JavaScript-acties werken in PDF-viewers die interactieve PDF's ondersteunen, zoals Adobe Acrobat en Adobe Reader. Standaard PDF-readers (zoals sommige ingebouwde browsers of mobiele apps) ondersteunen JavaScript echter mogelijk niet. Test uw interactieve PDF's altijd in de voorkeursviewers van uw doelgroep.
 
-### Kan ik JavaScript in PDF-documenten debuggen?
-Het debuggen van PDF JavaScript kan een uitdaging zijn, omdat het binnen de PDF-vieweromgeving wordt uitgevoerd. Adobe Acrobat Pro biedt een JavaScript-console voor het debuggen. Begin voor ontwikkeling met een eenvoudige `app.alert()` instructies om te controleren of uw code wordt uitgevoerd en bouw vervolgens geleidelijk de complexiteit op terwijl u elke stap test.
+### Kan ik JavaScript debuggen in PDF-documenten?
+Het debuggen van PDF JavaScript kan een uitdaging zijn, omdat het binnen de PDF-vieweromgeving wordt uitgevoerd. Adobe Acrobat Pro biedt een JavaScript-console voor het debuggen. Begin voor ontwikkeling met eenvoudige `app.alert()` statements om te controleren of uw code wordt uitgevoerd en bouw vervolgens geleidelijk de complexiteit op terwijl u elke stap test.

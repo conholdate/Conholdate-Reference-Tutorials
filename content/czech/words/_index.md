@@ -34,10 +34,10 @@ Zvládněte základní transformace dokumentů s profesionální kvalitou výstu
 | **[Převod DOCX do EPUB](./essential-guide-document-conversions/convert-docx-to-epub/)** | Digitální publikování pro elektronické čtečky a mobilní zařízení | ⭐⭐ Středně pokročilí |
 | **[Převod DOCX do TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Extrakce prostého textu pro zpracování a analýzu dat | ⭐ Začátečník |
 | **[Převod DOCX na bajtová pole](./essential-guide-document-conversions/convert-docx-to-byte-arrays/)** | Paměťově efektivní zpracování dokumentů pro webové aplikace | ⭐⭐ Středně pokročilý |
-| **[Převod DOC do DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** | Modernizace starších formátů a aktualizace kompatibility | ⭐ Začátečník |
+| **[Převod DOC do DOCX](./essential-guide-document-conversions/convert-doc-to-docx/)** Modernizace starších formátů a aktualizace kompatibility | ⭐ Začátečník |
 | **[Převod DOCX do MHTML a odeslání e-mailu](./essential-guide-document-conversions/convert-docx-to-mhtml-send-email/)** | Integrace e-mailů s podporou bohatého formátování | ⭐⭐ Středně pokročilí |
 | **[Převod PDF do JPEGu](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Vysoce kvalitní extrakce obrázků z PDF dokumentů | ⭐⭐ Středně pokročilí |
-| **[Uložit jako PDF](./essential-guide-document-conversions/save-as-pdf/)** Profesionální publikování dokumentů s pokročilými možnostmi | ⭐ Začátečník |
+| **[Uložit jako PDF](./essential-guide-document-conversions/save-as-pdf/)** | Profesionální publikování dokumentů s pokročilými možnostmi | ⭐ Začátečník |
 
 ### Pokročilé zpracování dokumentů s umělou inteligencí
 Využijte špičkovou umělou inteligenci pro inteligentní analýzu dokumentů a automatizované generování obsahu.
@@ -46,14 +46,14 @@ Využijte špičkovou umělou inteligenci pro inteligentní analýzu dokumentů 
 |----------|-------------|-------------|
 | **[Zvládnutí sumarizace dokumentů pomocí modelu umělé inteligence](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Integrace umělé inteligence Google pro inteligentní shrnutí obsahu | ⭐⭐⭐ Pokročilé |
 | **[Efektivní sumarizace dokumentů s modelem OpenAI](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Analýza dokumentů a automatizované analýzy s využitím GPT | ⭐⭐⭐ Pokročilé |
-| **[Možnosti shrnutí dokumentů](./advanced-ai-document-processing/summarize-documents-options/)** | Pokročilá konfigurace pro zpracování obsahu s využitím umělé inteligence | ⭐⭐⭐ Pokročilé |
+| **[Možnosti shrnutí dokumentů](./advanced-ai-document-processing/summarize-documents-options/)** Pokročilá konfigurace pro zpracování obsahu s využitím umělé inteligence | ⭐⭐⭐ Pokročilé |
 
 ### Správa masteringových sekcí
 Profesionální struktura a organizace dokumentů s pokročilými technikami manipulace sekcí.
 
 | Tutoriál | Popis | Obtížnost |
 |----------|-------------|-------------|
-| **[Přidávání sekcí](./section-management/adding-sections/)** Vytvářejte strukturované rozvržení dokumentů s profesionálním formátováním | ⭐ Začátečník |
+| **[Přidávání sekcí](./section-management/adding-sections/)** | Vytvářejte strukturované rozvržení dokumentů s profesionálním formátováním | ⭐ Začátečník |
 | **[Odstranění oddílů z dokumentů Word](./section-management/delete-sections-word-document/)** | Efektivně odstraňte nepotřebné části dokumentu | ⭐ Začátečník |
 | **[Přidat obsah slova v sekci](./section-management/append-section-word-content/)** | Bezproblémové kombinování obsahu z více sekcí dokumentu | ⭐⭐ Středně pokročilí |
 | **[Kopírování oddílů mezi dokumenty Wordu](./section-management/copy-sections-word-documents/)** | Přenos strukturovaného obsahu mezi různými dokumenty | ⭐⭐ Středně pokročilý |
@@ -81,7 +81,7 @@ Profesionální zpracování a optimalizace obrazu pro publikování dokumentů 
 |----------|-------------|-------------|
 | **[Ovládání prahové hodnoty expozice pro binarizaci TIFF](./guide-to-image-save-options/expose-threshold-control-for-tiff-binarization-in-word-document/)** | Pokročilé zpracování obrazu s vlastním ovládáním kvality | ⭐⭐⭐ Pokročilé |
 | **[Získat rozsah stránek JPEG](./guide-to-image-save-options/get-jpeg-page-range-word-document/)** | Extrahovat konkrétní stránky dokumentu jako obrázky vysoké kvality | ⭐⭐ Středně pokročilý |
-| **[Získat rozsah stránek TIFF](./guide-to-image-save-options/get-tiff-page-range-word-document/)** Profesionální extrakce obrázků s optimalizací formátu TIFF | ⭐⭐ Středně pokročilí |
+| **[Získat rozsah stránek TIFF](./guide-to-image-save-options/get-tiff-page-range-word-document/)** | Profesionální extrakce obrázků s optimalizací formátu TIFF | ⭐⭐ Středně pokročilí |
 | **[Vytvořit indexované obrazy 1Bpp](./guide-to-image-save-options/create-1bpp-indexed/)** | Prostorově efektivní zpracování obrazu pro archivaci a ukládání | ⭐⭐ Středně pokročilý |
 | **[Zpětné volání pro uložení stránky](./guide-to-image-save-options/page-saving-callback-word-document/)** | Vlastní zpracování stránek s automatizovaným generováním obrázků | ⭐⭐⭐ Pokročilé |
 
@@ -90,7 +90,7 @@ Komplexní zpracování metadat a vlastností dokumentů pro profesionální spr
 
 | Tutoriál | Popis | Obtížnost |
 |----------|-------------|-------------|
-| **[Odebrat vlastní vlastnosti dokumentu](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** | Vyčištění metadat dokumentů a optimalizace organizace souborů | ⭐ Začátečník |
+| **[Odebrat vlastní vlastnosti dokumentu](./mastering-document-properties/remove-custom-document-properties-in-word-files/)** Vyčištění metadat dokumentů a optimalizace organizace souborů | ⭐ Začátečník |
 
 ## 🎯 Oblíbené případy použití
 
@@ -105,7 +105,7 @@ Komplexní zpracování metadat a vlastností dokumentů pro profesionální spr
 - **Chytrá dokumentace**Pracovní postupy pro generování a úpravu obsahu s pomocí umělé inteligence
 
 ### **Řešení pro podnikovou integraci**
-- **Webové aplikace**Dynamické generování dokumentů z webových rozhraní a databází
+- **Webové aplikace**Dynamicky generujte dokumenty z webových rozhraní a databází
 - **Automatizace e-mailů**Vytvářejte bohatý obsah e-mailů s vloženými dokumenty a formátováním
 - **Vývoj API**Vytvářejte mikroslužby zaměřené na dokumenty a automatizované procesní kanály
 
@@ -155,7 +155,7 @@ Komplexní zpracování metadat a vlastností dokumentů pro profesionální spr
 - **Integrace AWS** - Škálovatelné cloudové pracovní postupy
 - **Google Workspace** - Bezproblémová integrace nástrojů pro spolupráci
 
-### **Interaktivní funkce dokumentu**
+### **Interaktivní funkce dokumentů**
 - **Dynamické formuláře** - Inteligentní generování a validace formulářů
 - **Kolaborativní editace** - Úprava dokumentů v reálném čase pro více uživatelů
 - **Správa verzí** - Pokročilé sledování a správa dokumentů

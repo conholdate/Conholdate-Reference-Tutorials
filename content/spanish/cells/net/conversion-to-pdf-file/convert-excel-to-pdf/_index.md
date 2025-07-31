@@ -173,7 +173,7 @@ pdfOptions.ExportDocumentStructure = true;
 
 ### Problemas con la ruta de archivo
 **Problema**Errores de "Archivo no encontrado" durante la conversión
-**Solución**:Valide siempre las rutas de archivos y utilice un manejo de excepciones adecuado:
+**Solución**:Valide siempre las rutas de archivos y utilice el manejo de excepciones adecuado:
 
 ```csharp
 if (!File.Exists(dataDir + "sample.xlsx"))

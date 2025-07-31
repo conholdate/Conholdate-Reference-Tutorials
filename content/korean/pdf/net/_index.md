@@ -34,7 +34,7 @@
 | **[EPUB를 PDF로 변환](./mastering-document-conversion/convert-epub-to-pdf/)** | 전자책을 범용 호환성을 위한 PDF 형식으로 변환 | ⭐ 초보자 |
 | **[HTML을 PDF로 마스터하기](./mastering-document-conversion/mastering-html-to-pdf/)** | 고급 스타일링 지원을 통한 웹 콘텐츠를 PDF로 변환 | ⭐⭐ 중급 |
 | **[CGM을 PDF로 변환](./mastering-document-conversion/convert-cgm-to-pdf/)** | 컴퓨터 그래픽 메타파일을 PDF로 변환 | ⭐⭐ 중급 |
-| **[PDF/A에 첨부 파일 추가](./mastering-document-conversion/adding-attachment-to-pdfa/)** | 보관 표준을 준수하는 문서 첨부 파일 | ⭐⭐⭐ 고급 |
+| **[PDF/A에 첨부 파일 추가](./mastering-document-conversion/adding-attachment-to-pdfa/)** 보관 표준을 준수하는 문서 첨부 파일 | ⭐⭐⭐ 고급 |
 
 ### PDF 문서 프로그래밍 마스터하기
 정교한 문서 솔루션을 만드는 고급 PDF 프로그래밍 기술.
@@ -52,7 +52,7 @@
 | 튜토리얼 | 설명 | 난이도 |
 |----------|-------------|------------|
 | **[PDF 페이지 방향 변경](./master-pdf-page-management/change-pdf-page-orientation/)** | 최적의 문서 표시를 위해 페이지 레이아웃과 방향을 조정하세요 | ⭐ 초보자 |
-| **[PDF 파일 연결](./master-pdf-page-management/concatenating-pdf-files/)** 여러 PDF 문서를 하나의 통합된 파일로 병합 | ⭐⭐ 중급 |
+| **[PDF 파일 연결](./master-pdf-page-management/concatenating-pdf-files/)** | 여러 PDF 문서를 하나의 통합된 파일로 병합 | ⭐⭐ 중급 |
 | **[PDF 파일에서 특정 페이지 삭제](./master-pdf-page-management/delete-particular-page-from-pdf-files/)** | PDF 문서에서 특정 페이지를 효율적으로 제거하기 | ⭐ 초보자 |
 | **[PDF 파일에 빈 페이지 삽입](./master-pdf-page-management/insert-empty-pages/)** | 콘텐츠 구성 및 간격을 위한 빈 페이지 추가 | ⭐ 초보자 |
 | **[끝에 빈 페이지 추가](./master-pdf-page-management/adding-an-empty-page-at-end/)** | PDF 문서에 빈 페이지를 프로그래밍 방식으로 추가 | ⭐ 초보자 |
@@ -67,7 +67,7 @@
 ### **대화형 문서 생성**
 - **양식 개발**: 검증 및 계산 기능이 있는 동적 PDF 양식
 - **디지털 서명**: 보안 문서 서명 및 인증
-- **멀티미디어 통합**PDF 문서 내의 리치 미디어 콘텐츠
+- **멀티미디어 통합**: PDF 문서 내의 리치 미디어 콘텐츠
 
 ### **웹-PDF 솔루션**
 - **HTML 변환**: 오프라인 액세스를 위해 웹 콘텐츠를 PDF로 변환
@@ -113,7 +113,7 @@
 ### **보안 및 규정 준수**
 - **디지털 서명** - 문서 인증 및 무결성
 - **암호화** - 비밀번호 보호 및 접근 제어
-- **PDF/A 표준** - 장기 보관 규정 준수
+- **PDF/A 표준** 장기 보관 규정 준수
 
 ### **문서 강화**
 - **워터마크** - 브랜드 보호 및 문서 표시

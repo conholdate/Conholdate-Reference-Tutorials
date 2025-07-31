@@ -56,7 +56,7 @@ Lägg till en ny sida i ditt PDF-dokument:
 pdfDocument.Pages.Add();
 ```
 
-## Steg 4: Skapa radioknappsfältet
+## Steg 4: Skapa fältet för radioknappar
 
 Instansiera en `RadioButtonField` objekt för första sidan:
 

@@ -55,7 +55,7 @@ bool isSyntaxValid = address.IsValidAddress;
 
 Att validera domänen som är kopplad till en e-postadress är avgörande för att säkerställa leveranspotential. Låt oss fördjupa oss i domänspecifika kontroller.
 
-### Sökning av MX-poster
+### Sökning efter MX-post
 
 Att kontrollera MX-poster hjälper till att bekräfta att domänen kan ta emot e-postmeddelanden:
 ```csharp

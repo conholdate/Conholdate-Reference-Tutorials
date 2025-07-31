@@ -61,7 +61,7 @@ Install-Package Aspose.Words
 
 ### Mengamankan Kunci API OpenAI Anda
 
-Anda memerlukan kunci API OpenAI untuk mengakses model bahasa mereka. Kunjungi [Situs web OpenAI](https://openai.com/), buat akun, dan ambil kunci API Anda. **Jangan pernah hardcode kunci ini** – kami akan menunjukkan cara aman untuk menanganinya nanti dalam panduan ini.
+Anda memerlukan kunci API OpenAI untuk mengakses model bahasa mereka. Kunjungi [Situs web OpenAI](https://openai.com/)buat akun, dan ambil kunci API Anda. **Jangan pernah hardcode kunci ini** – kami akan menunjukkan cara aman untuk menanganinya nanti dalam panduan ini.
 
 ### Pengaturan Lingkungan Pengembangan
 Meskipun Anda dapat menggunakan IDE apa pun yang kompatibel dengan .NET, **Visual Studio** memberikan pengalaman terbaik untuk tutorial ini, dengan dukungan IntelliSense yang sangat baik dan kemampuan debugging untuk integrasi Aspose.Words dan API.

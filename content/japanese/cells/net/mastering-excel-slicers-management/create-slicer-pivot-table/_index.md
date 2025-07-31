@@ -18,7 +18,7 @@
 1. Aspose.Cells for .NET: ダウンロードはこちら [Aspose リリースページ](https://releases。aspose.com/cells/net/).
 2. Visual Studio または IDE: .NET 開発をサポートする任意の IDE を使用します。Visual Studio が一般的な選択肢です。
 3. 基本的な C# の知識: C# に精通していると、コーディングをスムーズに進めることができます。
-4. サンプルExcelファイル: 次のようなファイルを使用します。 `sampleCreateSlicerToPivotTable.xlsx` ピボットテーブルが含まれます。
+4. サンプルExcelファイル: 次のファイルを使用します。 `sampleCreateSlicerToPivotTable.xlsx` ピボットテーブルが含まれます。
 
 準備が整ったら、必要なパッケージをインポートしましょう。
 

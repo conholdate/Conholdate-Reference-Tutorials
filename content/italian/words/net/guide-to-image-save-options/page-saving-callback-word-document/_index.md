@@ -85,7 +85,7 @@ doc.Save(dataDir + "WorkingWithImageSaveOptions.PageSavingCallback.png", imageSa
 
 ## Conclusione
 
-Congratulazioni! Hai configurato correttamente una callback per il salvataggio delle pagine, che salva ogni pagina di un documento Word come immagine PNG separata utilizzando Aspose.Words per .NET. Questa tecnica è incredibilmente utile per diverse applicazioni, dalla creazione di anteprime di pagina alla generazione di singole immagini di pagina per i report.
+Congratulazioni! Hai configurato correttamente una callback di salvataggio delle pagine per salvare ogni pagina di un documento Word come immagine PNG separata utilizzando Aspose.Words per .NET. Questa tecnica è incredibilmente utile per diverse applicazioni, dalla creazione di anteprime di pagina alla generazione di singole immagini di pagina per i report.
 
 ## Domande frequenti
 

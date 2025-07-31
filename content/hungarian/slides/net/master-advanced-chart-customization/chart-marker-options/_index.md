@@ -1,24 +1,25 @@
 ---
-title: Chart Marker Options on Data Point az Aspose.Slides .NET-ben
-linktitle: Chart Marker Options on Data Point az Aspose.Slides .NET-ben
-second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan javíthatja PowerPoint diagramjait testreszabott jelölőbeállításokkal az Aspose.Slides for .NET segítségével. Ez a részletes útmutató az előfeltételeket, a diagramok létrehozását, az adatpontok formázását és egyebeket ismerteti.
-weight: 11
-url: /hu/slides/master-advanced-chart-customization/chart-marker-options/
+"description": "Ismerd meg, hogyan gazdagíthatod PowerPoint-diagramjaidat testreszabott jelölőbeállításokkal az Aspose.Slides for .NET segítségével. Ez a lépésről lépésre haladó útmutató bemutatja az előfeltételeket, a diagramkészítést, az adatpontok formázását és egyebeket."
+"linktitle": "Diagramjelölő beállítások adatpontokon az Aspose.Slides .NET-ben"
+"second_title": "Aspose.Slides .NET PowerPoint feldolgozási API"
+"title": "Diagramjelölő beállítások adatpontokon az Aspose.Slides .NET-ben"
+"url": "/hu/slides/net/master-advanced-chart-customization/chart-marker-options/"
+"weight": 11
 ---
+
 ## Bevezetés
 
-A vizuális segédeszközök beépítése az előadásokba elengedhetetlen a hatásos kommunikációhoz. Az Aspose.Slides for .NET robusztus eszközöket biztosít diagramok létrehozásához és testreszabásához, lehetővé téve a fejlesztők számára, hogy javítsák adatbemutatóikat. Az egyik kiemelkedő szolgáltatás a diagramjelölő opciók adatpontokon való használatának lehetősége, amely lehetővé teszi a professzionális megjelenésű diagramok pontos testreszabását. Ez a cikk végigvezeti Önt az ehhez szükséges lépéseken.
+A vizuális segédeszközök beépítése a prezentációkba elengedhetetlen a hatásos kommunikációhoz. Az Aspose.Slides for .NET robusztus eszközöket biztosít diagramok létrehozásához és testreszabásához, lehetővé téve a fejlesztők számára az adatprezentációk fejlesztését. Az egyik kiemelkedő funkció a diagramjelölők használata az adatpontokon, ami lehetővé teszi a professzionális megjelenésű diagramok precíz testreszabását. Ez a cikk végigvezeti Önt minden szükséges lépésen.
 
 ## Előfeltételek
 
-A folytatás előtt győződjön meg a következőkről:
+Mielőtt folytatná, győződjön meg a következőkről:
 
--  Aspose.Slides for .NET Telepítve: Töltse le innen[itt](https://releases.aspose.com/slides/net/).
-- Alapbeállítás: Egy prezentációs fájl, például "Test.pptx", a munkakönyvtárban.
-- Fejlesztési környezet: Visual Studio vagy azzal egyenértékű, .NET-hez konfigurálva.
+- Aspose.Slides .NET-hez telepítve: Töltse le innen: [itt](https://releases.aspose.com/slides/net/).
+- Alapbeállítás: Egy prezentációs fájl, például a „Test.pptx”, a munkakönyvtáradban.
+- Fejlesztői környezet: Visual Studio vagy azzal egyenértékű, .NET-hez konfigurálva.
 
-## Kötelező névterek importálása
+## Szükséges névterek importálása
 
 Adja hozzá a szükséges névtereket a projekthez a zökkenőmentes fejlesztés érdekében:
 
@@ -28,9 +29,9 @@ using Aspose.Slides.Charts;
 using Aspose.Slides.Export;
 ```
 
-## 1. lépés: Hozzon létre egy diagramot a prezentációjában
+## 1. lépés: Diagram létrehozása a prezentációban
 
-Kezdje azzal, hogy a prezentáció első diáján hozzon létre egy alapértelmezett diagramot:
+Kezdésként hozzon létre egy alapértelmezett diagramot a bemutató első diáján:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -40,19 +41,19 @@ ISlide slide = pres.Slides[0];
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 50, 50, 600, 400);
 ```
 
- Ez hozzáteszi a`LineWithMarkers` diagramot a diához adott méretekkel.
+Ez hozzáad egy `LineWithMarkers` diagramot a diára a megadott méretekkel.
 
-## 2. lépés: A Chart Data Worksheet Index lekérése
+## 2. lépés: A diagramadat-munkalap indexének lekérése
 
-Az alapértelmezett diagramadat-munkalapindex elengedhetetlen a további testreszabáshoz:
+Az alapértelmezett diagramadat-munkalap indexe elengedhetetlen a további testreszabáshoz:
 
 ```csharp
 int defaultWorksheetIndex = 0;
 ```
 
-## 3. lépés: Nyissa meg a diagramadatok munkafüzetet
+## 3. lépés: A Diagramadatok munkafüzet elérése
 
-A diagramadatok kezeléséhez kérje le a kapcsolódó munkafüzetet:
+A diagramadatok kezeléséhez kérd le a társított munkafüzetet:
 
 ```csharp
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
@@ -60,13 +61,13 @@ IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
 
 ## 4. lépés: Diagramsorozat konfigurálása és adatpontok hozzáadása
 
-Alapértelmezett sorozatok törlése és új adatpontok hozzáadása a sorozatokhoz:
+Töröld az alapértelmezett sorozatot, és adj hozzá új adatpontokat a sorozatodhoz:
 
 ```csharp
 chart.ChartData.Series.Clear();
 chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.Type);
 
-// Adjon hozzá adatpontokat a sorozathoz
+// Adatpontok hozzáadása a sorozathoz
 IChartSeries series = chart.ChartData.Series[0];
 series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 1, 2, 4.5));
 series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 2, 2, 2.5));
@@ -74,9 +75,9 @@ series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 
 series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 4, 2, 4.0));
 ```
 
-## 5. lépés: Alkalmazza a képkitöltéseket az adatpontjelzőkre
+## 5. lépés: Képkitöltések alkalmazása adatpont-jelölőkre
 
-Az egyéni képek vizuálisan vonzóvá tehetik az adatjelölőket:
+Az egyéni képek vizuálisan vonzóbbá tehetik az adatjelölőket:
 
 ```csharp
 System.Drawing.Image img1 = (System.Drawing.Image)new Bitmap(dataDir + "aspose-logo.jpg");
@@ -85,7 +86,7 @@ IPPImage imgx1 = pres.Images.AddImage(img1);
 System.Drawing.Image img2 = (System.Drawing.Image)new Bitmap(dataDir + "flower.jpg");
 IPPImage imgx2 = pres.Images.AddImage(img2);
 
-// Állítson be egyéni képeket a jelölőkhöz
+// Egyéni képek beállítása a jelölőkhöz
 series.DataPoints[0].Marker.Format.Fill.FillType = FillType.Picture;
 series.DataPoints[0].Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
 
@@ -93,9 +94,9 @@ series.DataPoints[1].Marker.Format.Fill.FillType = FillType.Picture;
 series.DataPoints[1].Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
 ```
 
-## 6. lépés: A jelölő méretének testreszabása
+## 6. lépés: Jelölő méretének testreszabása
 
-Módosítsa a markerek méretét a láthatóság javítása érdekében:
+Módosítsa a jelölők méretét a láthatóság javítása érdekében:
 
 ```csharp
 series.Marker.Size = 20;
@@ -111,21 +112,21 @@ pres.Save(dataDir + "CustomizedChart.pptx", SaveFormat.Pptx);
 
 ## Következtetés
 
-Az Aspose.Slides for .NET olyan eszközökkel látja el a fejlesztőket, amelyek segítségével professzionális diagramokat hozhatnak létre gazdag testreszabási lehetőségekkel. A diagramjelölők lehetőségeinek kihasználásával jelentősen javíthatja prezentációinak vizuális vonzerejét és tisztaságát. Ez a lépésenkénti útmutató biztosítja, hogy még az összetett testreszabások is egyszerűen végrehajthatók.
+Az Aspose.Slides for .NET olyan eszközöket biztosít a fejlesztőknek, amelyekkel professzionális diagramokat hozhatnak létre gazdag testreszabási lehetőségekkel. A diagramjelölő opciók kihasználásával jelentősen javíthatja prezentációi vizuális vonzerejét és érthetőségét. Ez a lépésről lépésre útmutató biztosítja, hogy még az összetett testreszabások is egyszerűen megvalósíthatók legyenek.
 
 ## GYIK
 
-### Használhatok bármilyen képformátumot a marker testreszabásához?
-Igen, az Aspose.Slides különféle képformátumokat támogat, beleértve a JPEG-et, PNG-t és BMP-t a markerek testreszabásához.
+### Használhatok bármilyen képformátumot a jelölők testreszabásához?
+Igen, az Aspose.Slides különféle képformátumokat támogat, beleértve a JPEG, PNG és BMP formátumokat, a jelölők testreszabásához.
 
-### Hogyan módosíthatom a diagram típusát a létrehozás után?
- A diagram típusának módosításához nyissa meg a`chart.Type` tulajdonságot, és rendeljen hozzá egy másikat`ChartType`.
+### Hogyan tudom megváltoztatni a diagram típusát a létrehozás után?
+A diagram típusának módosításához nyissa meg a `chart.Type` tulajdonságot, és rendeljen hozzá egy másikat `ChartType`.
 
-### Az Aspose.Slides for .NET kompatibilis a régebbi PowerPoint-verziókkal?
-Igen, támogatja a régebbi PowerPoint formátumokkal való visszamenőleges kompatibilitást, ami sokoldalúságot biztosít.
+### Kompatibilis az Aspose.Slides for .NET a régebbi PowerPoint verziókkal?
+Igen, támogatja a visszafelé kompatibilitást a régebbi PowerPoint formátumokkal, biztosítva a sokoldalúságot.
 
-### Frissíthetem dinamikusan a diagram adatait?
- Teljesen. Használja a`IChartDataWorkbook` a diagramadatok programozott frissítéséhez.
+### Dinamikusan frissíthetem a diagram adatait?
+Feltétlenül. Használd a `IChartDataWorkbook` a diagramadatok programozott frissítéséhez.
 
 ### Hol találok további forrásokat?
- Fedezze fel a[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/net/)vagy csatlakozzon a[közösségi fórumokon](https://forum.aspose.com/) támogatásért.
+Fedezze fel a [Aspose.Slides dokumentáció](https://reference.aspose.com/slides/net/) vagy csatlakozz a [közösségi fórumok](https://forum.aspose.com/) támogatásért.

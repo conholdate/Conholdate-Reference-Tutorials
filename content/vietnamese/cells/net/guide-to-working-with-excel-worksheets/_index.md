@@ -13,7 +13,7 @@ Làm việc với các tệp Excel trong ứng dụng của bạn có thể mở
 ## Thêm một bảng tính vào sổ làm việc Excel hiện có  
 Bạn đã bao giờ thấy mình cần thêm một bảng tính mới vào một sổ làm việc Excel đã có sẵn chưa? Việc này dễ hơn bạn nghĩ với Aspose.Cells! Hướng dẫn này sẽ hướng dẫn bạn quy trình tích hợp một bảng tính mới vào sổ làm việc của mình bằng chương trình. Bạn sẽ học cách truy cập sổ làm việc, tạo bảng tính mới và lưu các thay đổi—tất cả chỉ trong vài bước đơn giản. Hãy xem thử nhé! [đây](./adding-worksheet-to-existing-excel-workbook-csharp-tutorial/) để bắt đầu!
 
-### 2. Thêm một trang tính mới vào tệp Excel theo chương trình  
+### 2. Lập trình thêm một trang tính mới vào tệp Excel  
 Việc thêm một trang tính mới vào tệp Excel có thể rất quan trọng để sắp xếp dữ liệu tốt hơn. Hướng dẫn này sẽ phân tích các bước thực hiện việc này bằng C#. Bạn sẽ hiểu rõ hơn về các lệnh gọi phương thức cần thiết để tạo một trang tính, cũng như cách đặt tên và định vị trang tính đó trong sổ làm việc. Với các ví dụ trực quan và giải thích rõ ràng, bạn sẽ tự tin triển khai chức năng này ngay lập tức. Sẵn sàng tìm hiểu thêm? Truy cập hướng dẫn [đây](./add-new-sheet-to-excel-file-csharp-tutorial/).
 
 ### 3. Xóa trang tính theo chỉ mục trong Excel  

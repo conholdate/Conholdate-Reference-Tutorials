@@ -1,27 +1,28 @@
 ---
-title: Přidejte stránky do PostScriptových dokumentů pomocí Aspose.Page for .NET
-linktitle: APřidat stránky do PostScriptových dokumentů
-second_title: Aspose.Page .NET API
-description: Objevte, jak vylepšit své aplikace .NET manipulací s dokumenty PostScript pomocí Aspose.Page. Tento průvodce krok za krokem poskytuje jasné pokyny pro inicializaci dokumentu.
-weight: 10
-url: /cs/page/master-page-manipulation/add-page-to-postscript-document/
+"description": "Zjistěte, jak vylepšit své .NET aplikace manipulací s PostScriptovými dokumenty pomocí Aspose.Page. Tato podrobná příručka poskytuje jasné pokyny k inicializaci dokumentu."
+"linktitle": "Přidání stránek do dokumentů PostScript"
+"second_title": "Rozhraní Aspose.Page .NET API"
+"title": "Přidání stránek do dokumentů PostScript pomocí Aspose.Page pro .NET"
+"url": "/cs/page/net/master-page-manipulation/add-page-to-postscript-document/"
+"weight": 10
 ---
+
 ## Zavedení
 
-oblasti vývoje .NET je manipulace s dokumenty základní dovedností. Aspose.Page for .NET je výkonná knihovna, která umožňuje vývojářům bez námahy pracovat s dokumenty PostScript (PS). Tato příručka vás krok za krokem provede procesem přidávání stránek do dokumentu PostScript.
+V oblasti vývoje v .NET je manipulace s dokumenty nezbytnou dovedností. Aspose.Page for .NET je výkonná knihovna, která vývojářům umožňuje bez námahy pracovat s dokumenty PostScript (PS). Tato příručka vás krok za krokem provede procesem přidávání stránek do dokumentu PostScript.
 
 ## Předpoklady
 
 Než začnete, ujistěte se, že máte:
 
-- Základní znalost programování .NET.
+- Základní znalost programování v .NET.
 - Visual Studio nainstalované na vašem počítači.
--  Knihovna Aspose.Page for .NET, kterou si můžete stáhnout[zde](https://releases.aspose.com/page/net/).
-- Určený adresář pro vaše dokumenty pro testovací účely.
+- Knihovna Aspose.Page pro .NET, kterou si můžete stáhnout [zde](https://releases.aspose.com/page/net/).
+- Vyhrazený adresář pro vaše dokumenty pro účely testování.
 
-## Importujte potřebné jmenné prostory
+## Importovat nezbytné jmenné prostory
 
-Chcete-li používat Aspose.Page, musíte do projektu zahrnout příslušné jmenné prostory. Postup nastavení:
+Abyste mohli používat Aspose.Page, musíte do projektu zahrnout příslušné jmenné prostory. Zde je návod, jak ho nastavit:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -35,40 +36,40 @@ using System.IO;
 
 1. Otevřete Visual Studio.
 2. Vytvořte nový projekt .NET.
-3. Přidejte odkaz na knihovnu Aspose.Page ve svém projektu.
+3. Přidejte do projektu odkaz na knihovnu Aspose.Page.
 
-## Krok 2: Inicializujte dokument PostScript
+## Krok 2: Inicializace dokumentu PostScript
 
-Nastavte svůj PostScriptový dokument s požadovanými konfiguracemi:
+Nastavte si dokument PostScript s požadovanými konfiguracemi:
 
 ```csharp
-// Start: 1
-string dataDir = "Your Document Directory"; // Nastavte cestu k adresáři dokumentu
+// ExStart:1
+string dataDir = "Your Document Directory"; // Nastavení cesty k adresáři dokumentů
 using (Stream outPsStream = new FileStream(Path.Combine(dataDir, "document1.ps"), FileMode.Create))
 {
-    // Nastavte možnosti uložení pro velikost A4
+    // Nastavení možností ukládání pro formát A4
     PsSaveOptions options = new PsSaveOptions();
     
-    // Vytvořte nový PostScriptový dokument se 2 stránkami
+    // Vytvořte nový dokument PostScript se 2 stránkami
     PsDocument document = new PsDocument(outPsStream, options, 2);
 ```
 
-## Krok 3: Přidejte první stránku
+## Krok 3: Přidání první stránky
 
-Nyní můžete přidat svou první stránku a vložit obsah podle potřeby:
+Nyní můžete přidat první stránku a vložit obsah podle potřeby:
 
 ```csharp
-    // Otevřete první stránku pro úpravy
+    // Otevřít první stránku pro úpravy
     document.OpenPage();
     
-    // Zde přidejte svůj obsah
-    // Příklad: document.AddText("Ahoj, světe!");
+    // Přidejte sem svůj obsah
+    // Příklad: document.AddText("Ahoj světe!");
 
-    // Pro uložení změn zavřete první stránku
+    // Zavřete první stránku pro uložení změn
     document.ClosePage();
 ```
 
-## Krok 4: Přidejte druhou stránku s vlastní velikostí
+## Krok 4: Přidání druhé stránky s vlastní velikostí
 
 Můžete také vytvořit druhou stránku s jinou velikostí:
 
@@ -85,32 +86,32 @@ Můžete také vytvořit druhou stránku s jinou velikostí:
 
 ## Krok 5: Uložte dokument
 
-Nakonec uložte dokument, abyste zajistili uložení všech změn:
+Nakonec dokument uložte, abyste se ujistili, že se ukládají všechny změny:
 
 ```csharp
-    // Uložte dokument PostScript
+    // Uložení dokumentu PostScript
     document.Save();
 }
-// Rozšíření: 1
+// ExEnd:1
 ```
 
 ## Závěr
 
-Gratuluji! Úspěšně jste přidali stránky do dokumentu PostScript pomocí Aspose.Page for .NET. Intuitivní API této knihovny usnadňuje manipulaci s dokumenty a zlepšuje vaše možnosti vývoje.
+Gratulujeme! Úspěšně jste přidali stránky do dokumentu PostScript pomocí knihovny Aspose.Page pro .NET. Intuitivní API této knihovny usnadňuje manipulaci s dokumenty a vylepšuje vaše vývojářské možnosti.
 
-## FAQ
+## Často kladené otázky
 
 ### Je Aspose.Page kompatibilní s jinými formáty dokumentů?  
-Aspose.Page se specializuje na PostScriptové dokumenty. Pro podporu s jinými formáty zvažte prozkoumání dalších knihoven Aspose vhodných pro vaše potřeby.
+Aspose.Page se specializuje na dokumenty PostScript. Pro podporu dalších formátů zvažte prozkoumání dalších knihoven Aspose, které vyhovují vašim potřebám.
 
-### Mohu upravit velikost stránky v Aspose.Page?  
-Ano! Jak je ukázáno v této příručce, můžete definovat různé velikosti pro každou stránku podle svých specifických požadavků.
+### Mohu si přizpůsobit velikost stránky v Aspose.Page?  
+Ano! Jak je uvedeno v této příručce, můžete pro každou stránku definovat různé velikosti podle vašich specifických požadavků.
 
 ### Kde najdu další zdroje a dokumentaci?  
- Pro podrobnější informace a příklady navštivte[Dokumentace Aspose.Page](https://reference.aspose.com/page/net/).
+Pro podrobnější informace a příklady navštivte [Dokumentace k Aspose.Page](https://reference.aspose.com/page/net/).
 
 ### Jak získám dočasnou licenci pro Aspose.Page?  
- Dočasnou licenci pro testování můžete získat přechodem na[tento odkaz](https://purchase.conholdate.com/temporary-license/).
+Dočasnou licenci pro testování můžete získat na adrese [tento odkaz](https://purchase.conholdate.com/temporary-license/).
 
 ### Kde mohu hledat podporu komunity?  
- Připojte se k[Aspose.Page komunitní fórum](https://forum.aspose.com/c/page/39) spojit se s ostatními vývojáři, sdílet zkušenosti a hledat pomoc.
+Připojte se k [Fórum komunity Aspose.Page](https://forum.aspose.com/c/page/39) spojit se s ostatními vývojáři, sdílet zkušenosti a vyhledat pomoc.

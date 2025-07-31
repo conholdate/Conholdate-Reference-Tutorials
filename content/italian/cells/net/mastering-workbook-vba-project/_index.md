@@ -21,7 +21,7 @@ Migrare moduli utente e macro tra cartelle di lavoro può sembrare un'operazione
 
 ## Progetti VBA sicuri e protetti da password
 
-Proteggere i progetti VBA è fondamentale, soprattutto quando si gestiscono dati sensibili o si esegue l'automazione proprietaria. Aspose.Cells consente di aggiungere la protezione tramite password con poche righe di codice. Dai controlli di sicurezza di base all'applicazione di una protezione avanzata, questi tutorial coprono tutti gli aspetti. [Approfondisci i dettagli](./password-protect-vba-projects/).
+Proteggere i progetti VBA è fondamentale, soprattutto quando si gestiscono dati sensibili o si esegue l'automazione proprietaria. Aspose.Cells consente di aggiungere la protezione tramite password con poche righe di codice. Dai controlli di sicurezza di base all'applicazione di una protezione avanzata, questi tutorial coprono tutti gli aspetti. [Immergiti nei dettagli](./password-protect-vba-projects/).
 
 ## Controllare e proteggere i progetti VBA
 

@@ -60,7 +60,7 @@ Quando si implementa la conversione dei documenti nelle applicazioni .NET, tener
 
 **Ottimizzazione specifica del formato**: I diversi formati di output hanno caratteristiche prestazionali diverse. La conversione in PDF richiede in genere più tempo rispetto alla conversione in testo normale, mentre la conversione delle immagini può richiedere molte risorse per documenti con layout complessi.
 
-**Strategie di memorizzazione nella cache**: Se si convertono ripetutamente gli stessi documenti, implementare meccanismi di memorizzazione nella cache per archiviare i file convertiti ed evitare elaborazioni ridondanti.
+**Strategie di caching**: Se si convertono ripetutamente gli stessi documenti, implementare meccanismi di memorizzazione nella cache per archiviare i file convertiti ed evitare elaborazioni ridondanti.
 
 ## Problemi comuni e soluzioni
 

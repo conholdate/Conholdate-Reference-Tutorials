@@ -10,11 +10,11 @@
 # Aspose.Cells for .NET教程
 
 ## 掌握 Excel 自動化與資料處理
-使用 Aspose.Cells for .NET 釋放 Excel 電子表格處理的全部潛力。從基本的文件操作到高級的數據分析和圖表生成，我們的教程將引導您完成 Excel 自動化的各個方面。
+使用 Aspose.Cells for .NET 釋放 Excel 電子表格處理的全部潛力。從基本的文件操作到進階資料分析和圖表生成，我們的教學課程將引導您了解 Excel 自動化的各個方面。
 
 ## 🚀 您可以實現的目標
 
-**Aspose.Cells for .NET** 是一個強大的電子表格處理庫，讓開發人員無需 Microsoft Excel 即可建立、操作、轉換和渲染 Excel 檔案。它支援所有主流 Excel 格式和高級功能，是 Excel 自動化的完整解決方案。
+**Aspose.Cells for .NET** 是一個強大的電子表格處理庫，讓開發人員無需 Microsoft Excel 即可建立、操作、轉換和呈現 Excel 文件。它支援所有主要的 Excel 格式和高級功能，是 Excel 自動化的完整解決方案。
 
 ### 關鍵功能
 - **📊 格式支持**：XLS、XLSX、XLSM、CSV、ODS、PDF、HTML 等
@@ -28,29 +28,29 @@
 ### 轉換為 PDF 文件
 掌握 Excel 到 PDF 的轉換，具有專業品質的輸出和進階格式選項。
 
-| 教學 | 說明 | 難度 |
+|教程 |說明 |難度 |
 |----------|-------------|------------|
-| **[將 Excel 轉換為 PDF](./conversion-to-pdf-file/convert-excel-to-pdf/)** | 高品質電子表格轉 PDF，並保留格式 | ⭐ 初學者 |
-| **[將 Excel 圖表轉換為 PDF](./conversion-to-pdf-file/convert-excel-charts-to-pdf/)** | 將 Excel 圖表轉換為獨立的 PDF 文件 | ⭐⭐ 中級 |
+| **[將 Excel 轉換為 PDF](./conversion-to-pdf-file/convert-excel-to-pdf/)** |高品質電子表格到 PDF 轉換，並保留格式 | ⭐ 初學者|
+| **[將 Excel 圖表轉換為 PDF](./conversion-to-pdf-file/convert-excel-charts-to-pdf/)** | 將 Excel 圖表轉換為獨立的 PDF 文件 | ⭐⭐ 中級|
 
 ### Excel 工作表使用指南 (C#)
 用於動態 Excel 檔案操作的綜合工作表管理教學。
 
-| 教學 | 說明 | 難度 |
+|教程 |說明 |難度 |
 |----------|-------------|------------|
-| **[將工作表新增至現有 Excel 工作簿](./guide-to-working-with-excel-worksheets-csharp/adding-worksheet-to-existing-excel-workbook-csharp-tutorial/)** 動態地將新工作表新增至現有工作簿 | ⭐ 初學者 |
-| **[將新工作表新增至 Excel 文件](./guide-to-working-with-excel-worksheets-csharp/add-new-sheet-to-excel-file-csharp-tutorial/)** 以程式設計方式建立和配置新工作表 | ⭐ 初學者 |
-| **[依索引刪除工作表](./guide-to-working-with-excel-worksheets-csharp/delete-worksheet-by-index-excel-csharp-tutorial/)** 使用基於索引的操作高效刪除工作表 | ⭐ 初學者 |
+| **[將工作表新增至現有 Excel 工作簿](./guide-to-working-with-excel-worksheets-csharp/adding-worksheet-to-existing-excel-workbook-csharp-tutorial/)** |動態地將新工作表新增至現有工作簿 | ⭐ 初學者|
+| **[將新工作表新增至 Excel 文件](./guide-to-working-with-excel-worksheets-csharp/add-new-sheet-to-excel-file-csharp-tutorial/)** |以程式方式建立和配置新工作表 | ⭐ 初學者|
+| **[依索引刪除工作表](./guide-to-working-with-excel-worksheets-csharp/delete-worksheet-by-index-excel-csharp-tutorial/)** |使用基於索引的操作有效地刪除工作表 | ⭐ 初學者|
 
 ### 掌握工作表管理
 進階工作表操作，實現專業的 Excel 自動化和簡化的文件管理。
 
-| 教學 | 說明 | 難度 |
+|教程 |說明 |難度 |
 |----------|-------------|------------|
-| **[將工作表新增至設計器電子表格](./mastering-worksheet-management/adding-worksheets-to-designer-spreadsheet/)** 透過動態工作表新增功能增強預先設計的 Excel 範本 | ⭐⭐ 中級 |
-| **[將工作表新增至新的 Excel 文件](./mastering-worksheet-management/adding-worksheets-to-new-excel-file/)** 以程式設計方式建立包含多個工作表的新 Excel 檔案 | ⭐ 初學者 |
-| **[將工作表新增至現有 Excel 文件](./mastering-worksheet-management/adding-worksheets-to-existing-excel-file/)** 使用新的工作表功能無縫擴展現有工作簿 | ⭐ 初學者 |
-| **[按名稱刪除特定工作表](./mastering-worksheet-management/remove-specific-worksheets-by-name/)** 透過刪除不必要的工作表來有效清理 Excel 檔案 | ⭐ 初學者 |
+| **[將工作表新增至設計器電子表格](./mastering-worksheet-management/adding-worksheets-to-designer-spreadsheet/)** |透過動態工作表新增增強預先設計的 Excel 範本 | ⭐⭐ 中級|
+| **[將工作表新增至新的 Excel 文件](./mastering-worksheet-management/adding-worksheets-to-new-excel-file/)** |以程式設計方式建立包含多個工作表的新 Excel 檔案 | ⭐ 初學者|
+| **[將工作表新增至現有 Excel 文件](./mastering-worksheet-management/adding-worksheets-to-existing-excel-file/)** |使用新的工作表功能無縫擴展現有工作簿 | ⭐ 初學者|
+| **[按名稱刪除特定工作表](./mastering-worksheet-management/remove-specific-worksheets-by-name/)** |透過刪除不必要的工作表來有效清理 Excel 檔案 | ⭐ 初學者|
 
 ## 🎯 熱門用例
 

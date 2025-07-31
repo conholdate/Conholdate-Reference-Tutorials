@@ -38,7 +38,7 @@ Tutorial komprehensif untuk pengembang .NET yang mencakup semua aspek pemrosesan
 
 **Kategori Tutorial Utama:**
 - **Menguasai Konversi Dokumen** - Transformasi format profesional
-- **Menguasai Pemrograman Dokumen PDF** - Fitur interaktif tingkat lanjut
+- **Menguasai Pemrograman Dokumen PDF** - Fitur interaktif lanjutan
 - **Keamanan & Kepatuhan** - Tanda tangan digital dan standar PDF/A
 - **Pengembangan Interaktif** - Integrasi JavaScript dan konten dinamis
 

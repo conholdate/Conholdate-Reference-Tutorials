@@ -28,7 +28,7 @@ Kapsamlı eğitim koleksiyonumuzla Aspose.Cells'in kapsamlı yeteneklerini keşf
 ### .NET Framework ve .NET Core
 .NET geliştiricileri için Excel işleme ve otomasyonunun tüm yönlerini kapsayan kapsamlı eğitimler.
 
-**[Aspose.Cells for .NET Eğitimleri](./net/)**
+**[.NET için Aspose.Cells Eğitimleri](./net/)**
 
 **Platform Kapsamı:**
 - .NET Framework 2.0 - 4.8

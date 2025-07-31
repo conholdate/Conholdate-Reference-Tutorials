@@ -42,7 +42,7 @@ Umożliwi Ci to wykorzystanie funkcjonalności Aspose.Cells w Twoim programie. S
 
 ## Krok 1: Skonfiguruj katalogi
 
-Najpierw zdefiniuj katalogi źródłowy i wyjściowy dla swoich plików:
+Najpierw zdefiniuj katalogi źródłowe i wyjściowe dla swoich plików:
 
 ```csharp
 // Zdefiniuj katalogi źródłowe i wyjściowe

@@ -47,7 +47,7 @@ La creazione di nuovi fogli di lavoro a livello di programmazione apre potenti p
 
 Questo tutorial completo copre tutto, dalla creazione di fogli di lavoro di base alle strategie avanzate di posizionamento e denominazione. Imparerai come gestire raccolte di fogli di lavoro, gestire gli indici dei fogli e implementare una solida gestione degli errori per garantire che l'automazione di Excel non si interrompa mai silenziosamente.
 
-**Suggerimento professionale**: Implementare sempre convenzioni di denominazione e gestione degli indici appropriate per evitare conflitti quando si lavora con più fogli a livello di programmazione.
+**Consiglio da professionista**: Implementare sempre convenzioni di denominazione e gestione degli indici appropriate per evitare conflitti quando si lavora con più fogli a livello di programmazione.
 
 [Padroneggia questa abilità essenziale qui](./add-new-sheet-to-excel-file-csharp-tutorial/)
 

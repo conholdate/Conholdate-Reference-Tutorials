@@ -50,7 +50,7 @@ Dále přidejte japonštinu jako jazyk pro úpravy. Představte si to jako nasta
 loadOptions.LanguagePreferences.AddEditingLanguage(EditingLanguage.Japanese);
 ```
 
-Tento řádek konfiguruje Aspose.Words tak, aby v dokumentu byla japonština považována za jazyk pro úpravy.
+Tento řádek konfiguruje Aspose.Words tak, aby jako jazyk pro úpravy dokumentu považoval japonštinu.
 
 ## Krok 3: Zadejte adresář dokumentů
 

@@ -17,7 +17,7 @@ Antes de comenzar, asegúrese de tener lo siguiente:
 
 1. Biblioteca Aspose.PDF para .NET: Descargue e instale la biblioteca Aspose.PDF desde [aquí](https://releases.aspose.com/pdf/net/).
 2. Entorno de desarrollo: un entorno de desarrollo .NET en funcionamiento (como Visual Studio 2019 o posterior).
-3. Archivos de muestra: Prepare un archivo PDF base para dibujar el XForm y una imagen de demostración. Puede usar cualquier PDF e imagen de muestra disponibles en su directorio de documentos.
+3. Archivos de muestra: Prepare un archivo PDF base para dibujar el XForm y una imagen de demostración. Puede usar cualquier PDF o imagen de muestra disponible en su directorio de documentos.
 
 ## Importación de paquetes necesarios
 

@@ -14,7 +14,7 @@ Dalam mengelola lembar kerja Excel, keamanan seringkali menjadi sorotan. Baik An
 ## Proteksi Kolom Excel yang Mudah  
 Ingin mengunci kolom tertentu di lembar Excel Anda? Dengan Aspose.Cells untuk .NET, Anda dapat dengan mudah melindungi kolom yang dipilih, memastikan integritas data tanpa membatasi akses ke seluruh lembar kerja. Tutorial ini akan memandu Anda dalam menyiapkan proyek, mengonfigurasi pengaturan proteksi, dan menyimpan file—semuanya dengan mudah. Siap memulai? Lihat panduan langkah demi langkahnya. [Di Sini](./excel-column-protection/).
 
-## Menjaga Barisan Seperti Seorang Profesional  
+## Menjaga Barisan Layaknya Seorang Profesional  
 Baris di Excel sering kali berisi informasi penting, jadi menjaga keamanannya sangatlah penting. Aspose.Cells untuk .NET membuat perlindungan baris menjadi intuitif dan mudah. Baik Anda mengunci data penggajian atau metrik rahasia, tutorial ini menunjukkan cara mengatur perlindungan hanya dengan beberapa baris kode. Simak detailnya. [Di Sini](./protecting-rows/).
 
 ## Melampaui Dasar-Dasar dengan Pengaturan Perlindungan Lanjutan  

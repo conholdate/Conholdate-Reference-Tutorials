@@ -57,11 +57,11 @@ Successivamente, carica la cartella di lavoro di Excel creando un'istanza di `Wo
 Workbook wb = new Workbook(sourceDir + "sampleErrorExcel2Pdf.xlsx");
 ```
 
-Sostituire `"sampleErrorExcel2Pdf.xlsx"` con il nome effettivo del file del documento Excel.
+Sostituire `"sampleErrorExcel2Pdf.xlsx"` con il nome effettivo del tuo documento Excel.
 
 ## Passaggio 4: specificare le opzioni di salvataggio PDF
 
-Ecco il passaggio chiave: configurare il `PdfSaveOptions` per ignorare gli errori durante la conversione. Impostare `IgnoreError` proprietà a `true`:
+Ecco il passaggio chiave: configurare il `PdfSaveOptions` per ignorare gli errori durante la conversione. Imposta `IgnoreError` proprietà a `true`:
 
 ```csharp
 // Specificare le opzioni di salvataggio PDF - Ignora errori
@@ -80,7 +80,7 @@ Ora è il momento di convertire e salvare il documento come PDF. Utilizzare il `
 wb.Save(outputDir + "outputErrorExcel2Pdf.pdf", opts);
 ```
 
-Sentiti libero di cambiare `"outputErrorExcel2Pdf.pdf"` al nome file PDF che preferisci.
+Sentiti libero di cambiare `"outputErrorExcel2Pdf.pdf"` al nome di file PDF che preferisci.
 
 ## Passaggio 6: Confermare l'esecuzione corretta
 

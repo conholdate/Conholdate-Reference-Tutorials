@@ -22,7 +22,7 @@ Avant de commencer à coder, assurez-vous de disposer des éléments suivants :
 
 ## Étape 1 : Configurez votre environnement de développement
 
-Commencez par créer un nouveau projet C# dans votre IDE. Importez les espaces de noms nécessaires pour utiliser Aspose.PDF :
+Commencez par créer un nouveau projet C# dans votre IDE. Importez les espaces de noms nécessaires pour travailler avec Aspose.PDF :
 
 ```csharp
 using System.IO;

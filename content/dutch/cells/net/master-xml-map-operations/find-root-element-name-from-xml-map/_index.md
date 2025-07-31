@@ -1,15 +1,15 @@
 ---
 "description": "Ontdek hoe u met Aspose.Cells voor .NET efficiënt de naam van het root-element van een XML-map in een Excel-bestand kunt ophalen. Deze stapsgewijze handleiding begeleidt u bij het laden van uw Excel-document."
-"linktitle": "Zoek de root-elementnaam uit een XML-map met behulp van Aspose.Cells"
+"linktitle": "Vind de root-elementnaam uit een XML-map met behulp van Aspose.Cells"
 "second_title": "Aspose.Cells .NET Excel-verwerkings-API"
-"title": "Zoek de root-elementnaam uit een XML-map met behulp van Aspose.Cells"
+"title": "Vind de root-elementnaam uit een XML-map met behulp van Aspose.Cells"
 "url": "/nl/cells/net/master-xml-map-operations/find-root-element-name-from-xml-map/"
 "weight": 10
 ---
 
 ## Invoering
 
-Bij het werken met Excel-bestanden die XML-gegevens bevatten, is het essentieel om de naam van het hoofdelement van een XML-map te identificeren. Deze taak is cruciaal voor het genereren van rapporten, het transformeren van gegevens en het effectief beheren van gestructureerde informatie. In deze handleiding leiden we u door het proces van het extraheren van de naam van het hoofdelement van een ingesloten XML-map in een Excel-bestand met behulp van de krachtige Aspose.Cells-bibliotheek voor .NET.
+Bij het werken met Excel-bestanden die XML-gegevens bevatten, is het essentieel om de naam van het hoofdelement van een XML-map te identificeren. Deze taak is cruciaal voor het genereren van rapporten, het transformeren van gegevens en het effectief beheren van gestructureerde informatie. In deze handleiding begeleiden we u bij het extraheren van de naam van het hoofdelement van een ingesloten XML-map in een Excel-bestand met behulp van de krachtige Aspose.Cells-bibliotheek voor .NET.
 
 ## Vereisten
 
@@ -68,19 +68,19 @@ De naam van het root-element is een cruciaal onderdeel van uw XML-structuur. U k
 Console.WriteLine("Root Element Name of XML Map: " + xmap.RootElementName);
 ```
 
-Deze regel haalt de naam van het root-element op uit de XML-map en geeft deze weer op de console.
+Deze regel haalt de naam van het root-element op uit de XML-map en drukt deze af op de console.
 
 ## Stap 5: Voer uw code uit
-Nu je alles hebt ingesteld, voer je je programma uit. Als het goed is, wordt de naam van het root-element van je XML-map weergegeven in het consolevenster:
+Nu je alles hebt ingesteld, voer je je programma uit. Als het goed is, wordt de root-elementnaam van je XML-map weergegeven in het consolevenster:
 
 ```plaintext
 Root Element Name of XML Map: [Your Root Element Name]
 ```
 
-Gefeliciteerd als u de verwachte uitvoer ziet! U hebt met succes de naam van het root-element geëxtraheerd uit een XML-map die is ingesloten in uw Excel-bestand.
+Als u de verwachte uitvoer ziet, gefeliciteerd! U hebt met succes de naam van het root-element geëxtraheerd uit een XML-map die is ingesloten in uw Excel-bestand.
 
 ## Conclusie
-Gefeliciteerd met het voltooien van deze handleiding! U hebt geleerd hoe u de Aspose.Cells-bibliotheek voor .NET kunt gebruiken om de naam van het root-element van een XML-map op te halen uit een Excel-bestand. Dit proces kan uw vermogen om met XML-gegevens in spreadsheets te werken aanzienlijk verbeteren, wat effectieve gegevensverwerking en -transformaties mogelijk maakt.
+Gefeliciteerd met het voltooien van deze handleiding! U hebt geleerd hoe u de Aspose.Cells-bibliotheek voor .NET kunt gebruiken om de root-elementnaam van een XML-map uit een Excel-bestand op te halen. Dit proces kan uw vermogen om met XML-gegevens in spreadsheets te werken aanzienlijk verbeteren, wat effectieve gegevensverwerking en -transformaties mogelijk maakt.
 
 ## Veelgestelde vragen
 
@@ -91,7 +91,7 @@ Een XML-kaart koppelt de gegevens in een Excel-werkblad aan een XML-schema, zoda
 Ja! U kunt toegang krijgen tot meerdere XML-kaarten met behulp van de `XmlMaps` eigenschappen en herhaal ze indien nodig.
 
 ### Ondersteunt Aspose.Cells XML-schemavalidatie?
-Aspose.Cells biedt geen XML-schemavalidatie, maar ondersteunt wel het importeren en werken met XML-kaarten in Excel-bestanden voor gegevensmanipulatie.
+Aspose.Cells biedt geen XML-schemavalidatie, maar ondersteunt wel het importeren en werken met XML-toewijzingen in Excel-bestanden voor gegevensmanipulatie.
 
 ### Kan ik de naam van het rootelement wijzigen?
 Nee, de naam van het rootelement wordt gedefinieerd door het XML-schema en kan niet rechtstreeks via Aspose.Cells worden gewijzigd.

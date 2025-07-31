@@ -9,17 +9,17 @@
 
 ## Invoering
 
-Het programmatisch beheren van Excel-bestanden biedt onbegrensde mogelijkheden om de productiviteit te verbeteren en repetitieve taken te automatiseren. Een van de minder besproken, maar impactvolle aanpassingen is het aanpassen van de breedte van de tabbalk in Excel-sheets. Met Aspose.Cells voor .NET kunnen we Excel-bestanden bewerken, inclusief het instellen van de breedte van de tabbalk, het verbergen van tabs en meer. In deze uitgebreide handleiding laten we zien hoe u de breedte van de tabbalk efficiënt kunt aanpassen om de bruikbaarheid en esthetiek te verbeteren.
+Het programmatisch beheren van Excel-bestanden biedt eindeloze mogelijkheden om de productiviteit te verbeteren en repetitieve taken te automatiseren. Een van de minder besproken, maar impactvolle aanpassingen is het aanpassen van de breedte van de tabbalk in Excel-sheets. Met Aspose.Cells voor .NET kunnen we Excel-bestanden bewerken, inclusief het instellen van de breedte van de tabbalk, het verbergen van tabs en meer. In deze uitgebreide handleiding laten we zien hoe u de breedte van de tabbalk efficiënt kunt aanpassen om de bruikbaarheid en esthetiek te verbeteren.
 
 ## Vereisten voor het gebruik van Aspose.Cells voor .NET
 
-Om de instructies te kunnen volgen, hebt u het volgende nodig:
+Om de handleiding te kunnen volgen, hebt u het volgende nodig:
 
 1. Visual Studio geïnstalleerd: Installeer de nieuwste versie voor een naadloze ontwikkelervaring.  
    [Visual Studio downloaden](https://visualstudio.microsoft.com/).
 
 2. Aspose.Cells voor .NET-bibliotheek: download de bibliotheek en integreer deze in uw project.  
-   [Download Aspose.Cellen](https://releases.aspose.com/cells/net/).
+   [Download Aspose.Cells](https://releases.aspose.com/cells/net/).
 
 3. Basiskennis van C#: Kennis van C#-programmering is essentieel voor deze tutorial.
 
@@ -58,7 +58,7 @@ Workbook workbook = new Workbook(dataDir + "SampleWorkbook.xls");
 Met dit object kunnen we de eigenschappen en inhoud van de werkmap manipuleren.
 
 ## Stap 3: Wijzig de zichtbaarheid van het tabblad (optioneel)
-Standaard worden in Excel tabbladen weergegeven. U kunt de zichtbaarheid ervan bepalen met de `ShowTabs` eigendom.
+Standaard worden in Excel werkbladtabbladen weergegeven. U kunt de zichtbaarheid ervan regelen met de `ShowTabs` eigendom.
 
 ```csharp
 workbook.Settings.ShowTabs = true; // Instellen op onwaar om tabbladen te verbergen

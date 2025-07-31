@@ -1,5 +1,5 @@
 ---
-"description": "Ismerd meg, hogyan fokozhatod ODS-táblázataid vizuális vonzerejét egyéni grafikus hátterek hozzáadásával az Aspose.Cells for .NET segítségével. Ez a lépésről lépésre haladó útmutató mindent lefed a fejlesztői környezet beállításától a terv megvalósításáig."
+"description": "Ismerd meg, hogyan fokozhatod ODS-táblázataid vizuális megjelenését egyéni grafikus hátterek hozzáadásával az Aspose.Cells for .NET segítségével. Ez a lépésről lépésre haladó útmutató mindent lefed a fejlesztői környezet beállításától a terv megvalósításáig."
 "linktitle": "Grafikus háttér hozzáadása ODS fájlhoz"
 "second_title": "Aspose.Cells .NET Excel feldolgozási API"
 "title": "Grafikus háttér hozzáadása ODS fájlhoz"

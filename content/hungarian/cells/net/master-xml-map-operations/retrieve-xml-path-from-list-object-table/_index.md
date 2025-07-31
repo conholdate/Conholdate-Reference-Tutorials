@@ -63,7 +63,7 @@ Workbook workbook = new Workbook(sourceDir + "YourFile.xlsx");
 
 Ebben a példában `"YourFile.xlsx"` az Excel-fájl neve. Cserélje le a tényleges fájlnévre, amellyel dolgozik.
 
-## 3. lépés: A cél munkalap elérése
+## 3. lépés: A célmunkalap elérése
 
 Most, hogy a munkafüzet betöltődött, a következő feladat a List Object Table-t tartalmazó munkalap elérése. Feltételezve, hogy a tábla az első munkalapon található, a következő kóddal érheti el:
 

@@ -147,7 +147,7 @@ Seguir el progreso de conversión de documentos de correo electrónico en C# nun
 Sí, modificar el `MailMessageSaveType` para adaptarse a otros formatos como MSG o MHTML.  
 
 ### ¿Cómo manejo archivos de correo electrónico grandes?  
-Considere usar un `FileStream` En lugar de una `MemoryStream` Para un mejor rendimiento con archivos grandes.  
+Considere usar un `FileStream` en lugar de una `MemoryStream` Para un mejor rendimiento con archivos grandes.  
 
 ### ¿Qué es una licencia temporal y cómo puedo obtener una?  
 Una licencia temporal te permite evaluar todas las funciones de la biblioteca gratis. Consíguela. [aquí](https://purchase.aspose.com/temporary-license/).  

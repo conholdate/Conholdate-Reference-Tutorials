@@ -1,21 +1,22 @@
 ---
-title: Tùy chọn đánh dấu biểu đồ trên điểm dữ liệu trong Aspose.Slides .NET
-linktitle: Tùy chọn đánh dấu biểu đồ trên điểm dữ liệu trong Aspose.Slides .NET
-second_title: API xử lý PowerPoint Aspose.Slides .NET
-description: Tìm hiểu cách cải thiện biểu đồ PowerPoint của bạn bằng các tùy chọn đánh dấu tùy chỉnh bằng Aspose.Slides cho .NET. Hướng dẫn từng bước này bao gồm các điều kiện tiên quyết, tạo biểu đồ, định dạng điểm dữ liệu và nhiều hơn nữa.
-weight: 11
-url: /vi/slides/master-advanced-chart-customization/chart-marker-options/
+"description": "Tìm hiểu cách nâng cao biểu đồ PowerPoint của bạn với các tùy chọn đánh dấu tùy chỉnh bằng Aspose.Slides for .NET. Hướng dẫn từng bước này bao gồm các điều kiện tiên quyết, cách tạo biểu đồ, định dạng điểm dữ liệu và nhiều hơn nữa."
+"linktitle": "Tùy chọn đánh dấu biểu đồ trên điểm dữ liệu trong Aspose.Slides .NET"
+"second_title": "API xử lý PowerPoint của Aspose.Slides .NET"
+"title": "Tùy chọn đánh dấu biểu đồ trên điểm dữ liệu trong Aspose.Slides .NET"
+"url": "/vi/slides/net/master-advanced-chart-customization/chart-marker-options/"
+"weight": 11
 ---
+
 ## Giới thiệu
 
-Việc kết hợp các phương tiện hỗ trợ trực quan vào bài thuyết trình là điều cần thiết để giao tiếp có tác động. Aspose.Slides for .NET cung cấp các công cụ mạnh mẽ để tạo và tùy chỉnh biểu đồ, cho phép các nhà phát triển cải thiện bài thuyết trình dữ liệu của họ. Một trong những tính năng nổi bật là khả năng sử dụng các tùy chọn đánh dấu biểu đồ trên các điểm dữ liệu, cho phép tùy chỉnh chính xác để có biểu đồ trông chuyên nghiệp. Bài viết này sẽ hướng dẫn bạn từng bước cần thiết để đạt được điều này.
+Việc tích hợp các công cụ hỗ trợ trực quan vào bài thuyết trình là điều cần thiết để giao tiếp hiệu quả. Aspose.Slides for .NET cung cấp các công cụ mạnh mẽ để tạo và tùy chỉnh biểu đồ, cho phép các nhà phát triển nâng cao hiệu quả trình bày dữ liệu. Một trong những tính năng nổi bật là khả năng sử dụng các tùy chọn đánh dấu biểu đồ trên các điểm dữ liệu, cho phép tùy chỉnh chính xác để có được biểu đồ chuyên nghiệp. Bài viết này sẽ hướng dẫn bạn từng bước cần thiết để đạt được điều này.
 
 ## Điều kiện tiên quyết
 
 Trước khi tiếp tục, hãy đảm bảo những điều sau:
 
--  Aspose.Slides cho .NET đã cài đặt: Tải xuống từ[đây](https://releases.aspose.com/slides/net/).
-- Thiết lập cơ bản: Một tệp trình bày, chẳng hạn như "Test.pptx," trong thư mục làm việc của bạn.
+- Aspose.Slides cho .NET đã cài đặt: Tải xuống từ [đây](https://releases.aspose.com/slides/net/).
+- Thiết lập cơ bản: Một tệp trình bày, chẳng hạn như "Test.pptx", trong thư mục làm việc của bạn.
 - Môi trường phát triển: Visual Studio hoặc tương đương, được cấu hình cho .NET.
 
 ## Nhập không gian tên bắt buộc
@@ -40,19 +41,19 @@ ISlide slide = pres.Slides[0];
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 50, 50, 600, 400);
 ```
 
- Điều này thêm một`LineWithMarkers` biểu đồ vào trang chiếu của bạn với các kích thước được chỉ định.
+Điều này thêm một `LineWithMarkers` biểu đồ vào trang chiếu của bạn với kích thước đã chỉ định.
 
 ## Bước 2: Lấy chỉ mục bảng dữ liệu biểu đồ
 
-Chỉ mục bảng tính dữ liệu biểu đồ mặc định rất cần thiết để tùy chỉnh thêm:
+Chỉ mục bảng tính dữ liệu biểu đồ mặc định rất cần thiết cho việc tùy chỉnh thêm:
 
 ```csharp
 int defaultWorksheetIndex = 0;
 ```
 
-## Bước 3: Truy cập vào Sổ làm việc dữ liệu biểu đồ
+## Bước 3: Truy cập vào Sổ làm việc Dữ liệu biểu đồ
 
-Để thao tác dữ liệu biểu đồ, hãy lấy sổ làm việc liên quan:
+Để thao tác dữ liệu biểu đồ, hãy truy xuất sổ làm việc liên quan:
 
 ```csharp
 IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
@@ -74,7 +75,7 @@ series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 
 series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 4, 2, 4.0));
 ```
 
-## Bước 5: Áp dụng Tô hình ảnh vào Điểm đánh dấu dữ liệu
+## Bước 5: Áp dụng Tô màu Hình ảnh vào Điểm Đánh dấu Dữ liệu
 
 Hình ảnh tùy chỉnh có thể làm cho các điểm đánh dấu dữ liệu trở nên hấp dẫn về mặt thị giác:
 
@@ -85,7 +86,7 @@ IPPImage imgx1 = pres.Images.AddImage(img1);
 System.Drawing.Image img2 = (System.Drawing.Image)new Bitmap(dataDir + "flower.jpg");
 IPPImage imgx2 = pres.Images.AddImage(img2);
 
-// Đặt hình ảnh tùy chỉnh cho các điểm đánh dấu
+// Đặt hình ảnh tùy chỉnh cho điểm đánh dấu
 series.DataPoints[0].Marker.Format.Fill.FillType = FillType.Picture;
 series.DataPoints[0].Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
 
@@ -111,21 +112,21 @@ pres.Save(dataDir + "CustomizedChart.pptx", SaveFormat.Pptx);
 
 ## Phần kết luận
 
-Aspose.Slides for .NET trang bị cho các nhà phát triển các công cụ để tạo biểu đồ chuyên nghiệp với nhiều tùy chọn tùy chỉnh. Bằng cách tận dụng các tùy chọn đánh dấu biểu đồ, bạn có thể cải thiện đáng kể sức hấp dẫn trực quan và độ rõ nét của bài thuyết trình. Hướng dẫn từng bước này đảm bảo rằng ngay cả các tùy chỉnh phức tạp cũng dễ thực hiện.
+Aspose.Slides for .NET trang bị cho các nhà phát triển công cụ để tạo biểu đồ chuyên nghiệp với nhiều tùy chọn tùy chỉnh phong phú. Bằng cách tận dụng các tùy chọn đánh dấu biểu đồ, bạn có thể cải thiện đáng kể tính trực quan và độ rõ nét của bài thuyết trình. Hướng dẫn từng bước này đảm bảo rằng ngay cả những tùy chỉnh phức tạp cũng có thể dễ dàng thực hiện.
 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sử dụng bất kỳ định dạng hình ảnh nào để tùy chỉnh điểm đánh dấu không?
-Có, Aspose.Slides hỗ trợ nhiều định dạng hình ảnh, bao gồm JPEG, PNG và BMP để tùy chỉnh điểm đánh dấu.
+Có, Aspose.Slides hỗ trợ nhiều định dạng hình ảnh khác nhau, bao gồm JPEG, PNG và BMP để tùy chỉnh điểm đánh dấu.
 
 ### Làm thế nào để thay đổi loại biểu đồ sau khi tạo?
- Để thay đổi loại biểu đồ, hãy truy cập`chart.Type` tài sản và chỉ định một khác nhau`ChartType`.
+Để thay đổi loại biểu đồ, hãy truy cập vào `chart.Type` tài sản và chỉ định một khác nhau `ChartType`.
 
-### Aspose.Slides for .NET có tương thích với các phiên bản PowerPoint cũ hơn không?
+### Aspose.Slides cho .NET có tương thích với các phiên bản PowerPoint cũ hơn không?
 Có, nó hỗ trợ khả năng tương thích ngược với các định dạng PowerPoint cũ hơn, đảm bảo tính linh hoạt.
 
-### Tôi có thể cập nhật dữ liệu biểu đồ một cách động không?
- Hoàn toàn. Sử dụng`IChartDataWorkbook` để cập nhật dữ liệu biểu đồ theo chương trình.
+### Tôi có thể cập nhật dữ liệu biểu đồ một cách linh hoạt không?
+Chắc chắn rồi. Sử dụng `IChartDataWorkbook` để cập nhật dữ liệu biểu đồ theo chương trình.
 
 ### Tôi có thể tìm thêm tài nguyên ở đâu?
- Khám phá[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/net/)hoặc tham gia[diễn đàn cộng đồng](https://forum.aspose.com/) để được hỗ trợ.
+Khám phá [Tài liệu Aspose.Slides](https://reference.aspose.com/slides/net/) hoặc tham gia [diễn đàn cộng đồng](https://forum.aspose.com/) để được hỗ trợ.

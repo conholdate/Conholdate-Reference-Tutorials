@@ -1,20 +1,21 @@
 ---
-title: パスワードで保護されたドキュメントの読み込み
-linktitle: パスワードで保護された文書を読み込む
-second_title: GroupDocs.Viewer .NET API
-description: GroupDocs.Viewer を使用して、ドキュメント表示機能を .NET アプリケーションに簡単に統合する方法を学びます。このチュートリアルでは、包括的なステップ バイ ステップ ガイドを提供します。
-weight: 12
-url: /ja/viewer/advanced-document-loading/loading-password-protected-document/
+"description": "GroupDocs.Viewer を使って、.NET アプリケーションにドキュメント表示機能を簡単に統合する方法を学びましょう。このチュートリアルでは、包括的なステップバイステップガイドを提供します。"
+"linktitle": "パスワードで保護されたドキュメントを読み込む"
+"second_title": "GroupDocs.Viewer .NET API"
+"title": "パスワードで保護されたドキュメントの読み込み"
+"url": "/ja/viewer/net/advanced-document-loading/loading-password-protected-document/"
+"weight": 12
 ---
+
 ## 導入
 
-デジタルの世界では、さまざまなドキュメント形式を管理および表示する機能は、企業や個人にとって非常に重要です。GroupDocs.Viewer for .NET は、開発者がドキュメント表示機能をアプリケーションに簡単に統合できる強力なソリューションを提供します。このチュートリアルでは、パスワードで保護されたドキュメントを読み込むプロセスを段階的に説明し、この機能をプロジェクトにシームレスに実装できるようにします。
+デジタル環境において、様々な形式のドキュメントを管理・閲覧できることは、企業や個人にとって不可欠です。GroupDocs.Viewer for .NETは、開発者がアプリケーションにドキュメント閲覧機能を簡単に統合できる堅牢なソリューションを提供します。このチュートリアルでは、パスワード保護されたドキュメントを読み込むプロセスを段階的に解説し、この機能をプロジェクトにシームレスに実装できるようにします。
 
 ## 前提条件
 
-始める前に、以下のものを用意してください。
+始める前に、次のものを用意してください。
 
-1.  GroupDocs.Viewer for .NET インストール済み: ダウンロードはこちら[Webサイト](https://releases.groupdocs.com/viewer/net/).
+1. GroupDocs.Viewer for .NET インストール済み: ダウンロードはこちら [Webサイト](https://releases。groupdocs.com/viewer/net/).
 2. パスワードで保護されたドキュメント: テスト用にパスワードで保護されたドキュメントを用意します。
 
 ## 必要な名前空間をインポートする
@@ -34,9 +35,9 @@ using GroupDocs.Viewer.Options;
 ```csharp
 string outputDirectory = "Your Document Directory";
 ```
-必ず交換してください`"Your Document Directory"`実際に使用するパスを入力します。
+必ず交換してください `"Your Document Directory"` 実際に使用するパスを入力します。
 
-## ステップ2: ページファイルパス形式を設定する
+## ステップ2: ページファイルパス形式の設定
 
 レンダリングされる各ページのファイル パスの形式を定義します。
 
@@ -44,7 +45,7 @@ string outputDirectory = "Your Document Directory";
 string pageFilePathFormat = Path.Combine(outputDirectory, "page_{0}.html");
 ```
 
-次のようなパスが生成されます`"Your Document Directory/page_1.html"`, `"Your Document Directory/page_2.html"`など
+次のようなパスが生成されます `"Your Document Directory/page_1.html"`、 `"Your Document Directory/page_2.html"`など
 
 ## ステップ3: ロードオプションを構成する
 
@@ -53,7 +54,7 @@ string pageFilePathFormat = Path.Combine(outputDirectory, "page_{0}.html");
 ```csharp
 LoadOptions loadOptions = new LoadOptions
 {
-    Password = "12345"  //ドキュメントのパスワードに置き換えます
+    Password = "12345"  // ドキュメントのパスワードに置き換えます
 };
 ```
 
@@ -64,10 +65,10 @@ LoadOptions loadOptions = new LoadOptions
 ```csharp
 using (Viewer viewer = new Viewer("Path_to_your_document", loadOptions))
 {
-    //表示オプションのコードは次の手順で追加されます。
+    // 表示オプションのコードは次の手順で追加されます。
 }
 ```
-必ず交換してください`"Path_to_your_document"`ドキュメントへの実際のパスを入力します。
+必ず交換してください `"Path_to_your_document"` ドキュメントへの実際のパスを入力します。
 
 ## ステップ5: HTML表示オプションを構成する
 
@@ -95,7 +96,7 @@ Console.WriteLine($"\nSource document rendered successfully.\nCheck output in {o
 
 ## 結論
 
-このチュートリアルでは、GroupDocs.Viewer for .NET を使用してパスワードで保護されたドキュメントを読み込む方法について説明しました。これらの手順に従うことで、開発者はこの機能をアプリケーションに簡単に統合でき、ユーザーは保護されたドキュメントを簡単に表示できるようになります。
+このチュートリアルでは、GroupDocs.Viewer for .NETを使用してパスワード保護されたドキュメントを読み込む方法を説明しました。これらの手順に従うことで、開発者はこの機能をアプリケーションに簡単に統合し、ユーザーが保護されたドキュメントを簡単に閲覧できるようにすることができます。
 
 ## よくある質問
 
@@ -105,7 +106,7 @@ Console.WriteLine($"\nSource document rendered successfully.\nCheck output in {o
 
 ### GroupDocs.Viewer は .NET Core と互換性がありますか?
 
-もちろんです! GroupDocs.Viewer は、.NET Framework 環境と .NET Core 環境の両方と互換性があります。
+もちろんです! GroupDocs.Viewer は、.NET Framework と .NET Core の両方の環境と互換性があります。
 
 ### ドキュメントのレンダリング オプションをカスタマイズできますか?
 
@@ -117,4 +118,4 @@ Console.WriteLine($"\nSource document rendered successfully.\nCheck output in {o
 
 ### GroupDocs.Viewer の試用版はありますか?
 
-はい、無料トライアルは[Webサイト](https://releases.groupdocs.com/).
+はい、無料トライアルは [Webサイト](https://releases。groupdocs.com/).

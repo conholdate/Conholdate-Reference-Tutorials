@@ -73,7 +73,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "input.pdf");
 ```
 
-**Was ist hier los?** Wir schaffen eine `Document` Objekt, das Ihre PDF-Datei im Speicher darstellt. Ersetzen `"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad zu Ihrer PDF-Datei.
+**Was passiert hier?** Wir schaffen eine `Document` Objekt, das Ihre PDF-Datei im Speicher darstellt. Ersetzen `"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad zu Ihrer PDF-Datei.
 
 **Realer Kontext**: Dieser Ansatz ist perfekt, wenn Sie mit vorhandenen Dokumenten wie Formularen, Berichten oder PDF-Dateien arbeiten, denen nach der Erstellung interaktive Funktionen hinzugefügt werden müssen.
 
@@ -126,14 +126,14 @@ doc.Save(dataDir);
 Console.WriteLine("\nJavaScript added successfully to the PDF.\nFile saved at " + dataDir);
 ```
 
-Der `Save()` Mit dieser Methode erstellen Sie Ihre neue interaktive PDF-Datei. Die Originaldatei bleibt unverändert, sodass Sie immer über eine Sicherungskopie verfügen.
+Der `Save()` Mit dieser Methode erstellen Sie Ihre neue interaktive PDF-Datei. Die Originaldatei bleibt unverändert, sodass Sie jederzeit über eine Sicherungskopie verfügen.
 
 ## Gängige Anwendungsfälle und erweiterte Szenarien
 
 Lassen Sie uns einige praktische Szenarien untersuchen, in denen das Hinzufügen von JavaScript zu PDF-C#-Anwendungen wirklich von Vorteil ist:
 
 ### Automatischer Druck für Geschäftsdokumente
-Perfekt für Rechnungen, Versandetiketten oder Quittungen, die sofort ausgedruckt werden sollen. Das zuvor beschriebene Auto-Print-JavaScript erledigt dies hervorragend.
+Ideal für Rechnungen, Versandetiketten oder Quittungen, die sofort ausgedruckt werden sollen. Das zuvor beschriebene Auto-Print-JavaScript erledigt dies hervorragend.
 
 ### Formularvalidierung und Benutzerführung
 Obwohl wir keine neuen Codebeispiele hinzugefügt haben, können Sie ähnliche JavaScript-Aktionen verwenden, um Formularfelder zu validieren, hilfreiche Tooltips anzuzeigen oder Benutzer durch komplexe Formulare zu führen.

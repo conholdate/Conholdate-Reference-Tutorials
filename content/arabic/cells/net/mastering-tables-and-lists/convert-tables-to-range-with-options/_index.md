@@ -59,7 +59,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xlsx");
 
 ## الخطوة 3: تحديد خيارات التحويل
 
-قم بتعيين الخيارات الخاصة بكيفية تحويل الجدول إلى نطاق:
+تعيين الخيارات الخاصة بكيفية تحويل الجدول إلى نطاق:
 
 ```csharp
 TableToRangeOptions options = new TableToRangeOptions();

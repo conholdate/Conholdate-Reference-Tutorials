@@ -1,24 +1,25 @@
 ---
-title: Líneas de tendencia en gráficos con Aspose.Slides para .NET
-linktitle: Líneas de tendencia en gráficos con Aspose.Slides para .NET
-second_title: API de procesamiento de PowerPoint Aspose.Slides .NET
-description: Aprenda a agregar y personalizar líneas de tendencia en gráficos con Aspose.Slides para .NET. Esta guía completa cubre líneas de tendencia exponenciales, lineales, logarítmicas, polinómicas y de promedio móvil para mejorar la visualización de datos.
-weight: 12
-url: /es/slides/master-advanced-chart-customization/trend-lines-in-charts/
+"description": "Aprenda a agregar y personalizar líneas de tendencia en gráficos con Aspose.Slides para .NET. Esta guía completa abarca líneas de tendencia exponenciales, lineales, logarítmicas, polinómicas y de media móvil para optimizar la visualización de datos."
+"linktitle": "Líneas de tendencia en gráficos con Aspose.Slides para .NET"
+"second_title": "API de procesamiento de PowerPoint Aspose.Slides .NET"
+"title": "Líneas de tendencia en gráficos con Aspose.Slides para .NET"
+"url": "/es/slides/net/master-advanced-chart-customization/trend-lines-in-charts/"
+"weight": 12
 ---
+
 ## Introducción  
 
-Agregar líneas de tendencia a los gráficos es una técnica clave para analizar tendencias de datos y pronosticar valores futuros. Con Aspose.Slides para .NET, puede agregar y personalizar sin problemas líneas de tendencia a los gráficos de sus presentaciones, lo que mejora la visualización de los datos. Esta guía proporciona un tutorial detallado para agregar líneas de tendencia a varios tipos de gráficos en una presentación de PowerPoint con Aspose.Slides para .NET.  
+Añadir líneas de tendencia a los gráficos es una técnica clave para analizar tendencias de datos y pronosticar valores futuros. Con Aspose.Slides para .NET, puede añadir y personalizar fácilmente líneas de tendencia a sus gráficos de presentación, optimizando así la visualización de datos. Esta guía ofrece una guía detallada para añadir líneas de tendencia a varios tipos de gráficos en una presentación de PowerPoint con Aspose.Slides para .NET.  
 
 ## Prerrequisitos  
 
 Antes de sumergirnos en la implementación, asegúrese de tener la siguiente configuración:  
 
-1.  Aspose.Slides para .NET: Descargue e instale la biblioteca desde[página de descarga](https://releases.aspose.com/slides/net/).  
+1. Aspose.Slides para .NET: Descargue e instale la biblioteca desde [página de descarga](https://releases.aspose.com/slides/net/).  
 2. Entorno de desarrollo: utilice un IDE como Visual Studio para codificar.  
 3. Conocimientos básicos de C#: es necesario estar familiarizado con la programación en C# para seguir este tutorial.  
 
-## Importación de los espacios de nombres necesarios  
+## Importación de espacios de nombres requeridos  
 
 Para comenzar, importe los espacios de nombres esenciales a su proyecto:  
 
@@ -30,7 +31,7 @@ using Aspose.Slides.Export;
 
 ## Paso 1: Configuración de la presentación  
 
-En primer lugar, inicialice una presentación vacía. Esta servirá como contenedor para su gráfico.  
+Primero, inicialice una presentación vacía. Esta servirá como contenedor para su gráfico.  
 
 ```csharp
 string dataDir = "Your/Documents/Directory";
@@ -60,10 +61,10 @@ IChart chart = slide.Shapes.AddChart(ChartType.ClusteredColumn, 50, 50, 500, 400
 Llene el gráfico con datos de muestra.  
 
 ```csharp
-// Acceda al libro de trabajo de datos de gráficos predeterminado
+// Acceder al libro de trabajo de datos del gráfico predeterminado
 IChartDataWorkbook workbook = chart.ChartData.ChartDataWorkbook;
 
-// Actualizar las categorías y los valores de las series predeterminados
+// Actualizar las categorías y valores de series predeterminados
 workbook.Clear(0);
 workbook.GetCell(0, 0, 1).Value = "Category 1";
 workbook.GetCell(0, 0, 2).Value = "Category 2";
@@ -105,7 +106,7 @@ movAvgTrendLine.Period = 3;
 movAvgTrendLine.TrendlineName = "3-Point Moving Average";
 ```
 
-### Línea de tendencia polinómica  
+### Línea de tendencia polinomial  
 
 ```csharp
 ITrendline polyTrendLine = chart.ChartData.Series[0].TrendLines.Add(TrendlineType.Polynomial);
@@ -131,21 +132,21 @@ presentation.Save(dataDir + "TrendLinesPresentation.pptx", SaveFormat.Pptx);
 
 ## Conclusión  
 
-Con Aspose.Slides para .NET, agregar líneas de tendencia a sus gráficos se convierte en una tarea sencilla. Esta función le permite presentar tendencias de datos de manera eficaz y agregar toques profesionales a sus presentaciones. Siga los pasos anteriores para incorporar varios tipos de líneas de tendencia y mejorar la visualización de sus datos.  
+Con Aspose.Slides para .NET, añadir líneas de tendencia a sus gráficos se convierte en una tarea sencilla. Esta función le permite presentar las tendencias de datos de forma eficaz y añadir un toque profesional a sus presentaciones. Siga los pasos anteriores para incorporar varios tipos de líneas de tendencia y optimizar la visualización de sus datos.  
 
 ## Preguntas frecuentes  
 
 ### ¿Puedo personalizar la apariencia de las líneas de tendencia?  
- Sí, puedes personalizar el color, el grosor y el estilo de las líneas de tendencia usando el`Format.Line` propiedad.  
+Sí, puedes personalizar el color, el grosor y el estilo de las líneas de tendencia usando el `Format.Line` propiedad.  
 
 ### ¿Hay soporte para otros tipos de gráficos?  
 Sí, Aspose.Slides para .NET admite varios tipos de gráficos, incluidos gráficos de barras, circulares y de líneas.  
 
-### ¿Cómo muestro ecuaciones y valores R-cuadrado?  
- Permitir`DisplayEquation` y`DisplayRSquaredValue` Propiedades de una línea de tendencia para mostrar estos valores en el gráfico.  
+### ¿Cómo muestro ecuaciones y valores de R-cuadrado?  
+Permitir `DisplayEquation` y `DisplayRSquaredValue` propiedades de una línea de tendencia para mostrar estos valores en el gráfico.  
 
 ### ¿Puedo usar Aspose.Slides para .NET con otros lenguajes?  
 Sí, la biblioteca es compatible con cualquier lenguaje compatible con .NET, incluidos VB.NET y F#.  
 
 ### ¿Dónde puedo encontrar más documentación?  
- Visita el[Documentación de Aspose.Slides para .NET](https://reference.aspose.com/slides/net/) Para más información.
+Visita el [Documentación de Aspose.Slides para .NET](https://reference.aspose.com/slides/net/) Para más información.

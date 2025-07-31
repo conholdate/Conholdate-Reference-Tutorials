@@ -72,7 +72,7 @@ Ce code ouvre le classeur et le prépare pour d'autres modifications.
 
 ## Étape 4 : Accéder à la feuille de travail
 
-La plupart des utilisateurs préfèrent modifier une feuille de calcul spécifique du classeur. Aspose.Cells utilise l'indexation de base zéro pour accéder aux feuilles de calcul. Voici comment accéder à la première feuille de calcul :
+La plupart des utilisateurs préfèrent modifier une feuille de calcul spécifique au sein du classeur. Aspose.Cells utilise l'indexation de base zéro pour accéder aux feuilles de calcul. Voici comment accéder à la première feuille de calcul :
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];  // Accéder à la première feuille de calcul

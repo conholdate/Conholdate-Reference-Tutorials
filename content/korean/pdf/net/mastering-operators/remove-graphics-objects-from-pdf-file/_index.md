@@ -13,7 +13,7 @@ PDF 파일 작업 시 가독성을 높이거나 파일 크기를 줄이기 위�
 
 ## 필수 조건
 
-시작하기에 앞서 다음 사항이 있는지 확인하세요.
+시작하기 전에 다음 사항이 있는지 확인하세요.
 
 1. .NET용 Aspose.PDF: 여기에서 다운로드하세요. [여기](https://releases.aspose.com/pdf/net/) 또는 NuGet을 통해 설치하세요.
 2. .NET Framework 또는 .NET Core SDK: 이 중 하나가 설치되어 있는지 확인하세요.

@@ -35,7 +35,7 @@ Domine las tareas de transformación de documentos más comunes con nuestras gu�
 | **[Conversión de Word a PDF](./essential-guide-document-conversions/convert-word-to-pdf/)** | Generación profesional de PDF con conservación de formato | ⭐ Principiante |
 | **[Convertir DOCX a TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Extraer contenido de texto simple de documentos de Word | ⭐ Principiante |
 | **[Convertir archivos de texto a documentos de Word](./essential-guide-document-conversions/convert-text-files-to-word-documents/)** | Transformar texto simple en documentos estructurados de Word | ⭐ Principiante |
-| **[Convertir PDF a documento de Word](./essential-guide-document-conversions/convert-pdf-to-word/)** Haga que los PDF sean editables convirtiéndolos al formato Word | ⭐⭐ Intermedio |
+| **[Convertir PDF a documento de Word](./essential-guide-document-conversions/convert-pdf-to-word/)** | Haga que los PDF sean editables convirtiéndolos al formato Word | ⭐⭐ Intermedio |
 | **[Convertir PDF a JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Extraer imágenes de alta calidad de documentos PDF | ⭐⭐ Intermedio |
 
 ### Conversiones avanzadas de documentos
@@ -54,7 +54,7 @@ Aproveche las tecnologías de inteligencia artificial de vanguardia para mejorar
 | Tutorial | Descripción | Dificultad |
 |----------|-------------|------------|
 | **[Dominar la síntesis de documentos con modelos de IA](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Análisis y resumen de contenido impulsado por IA | ⭐⭐⭐ Avanzado |
-| **[Resumen de documentos con modelos de IA de Google](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** | Integra Google AI para el procesamiento inteligente de documentos | ⭐⭐⭐ Avanzado |
+| **[Resumen de documentos con modelos de IA de Google](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** Integra Google AI para el procesamiento inteligente de documentos | ⭐⭐⭐ Avanzado |
 | **[Resumen eficiente de documentos con modelos OpenAI](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Aproveche los modelos GPT de OpenAI para obtener información sobre documentos | ⭐⭐⭐ Avanzado |
 | **[Opciones para resumir documentos](./advanced-ai-document-processing/summarize-documents-options/)** | Guía completa de técnicas de resumen | ⭐⭐⭐ Avanzado |
 
@@ -129,7 +129,7 @@ Aproveche las tecnologías de inteligencia artificial de vanguardia para mejorar
 - **[Descargar](https://releases.aspose.com/words/net/)** - Evaluar todas las funciones
 
 ### **Comunidad y soporte**
-- **[Foro de soporte](https://forum.aspose.com/c/words/8)** - Obtenga ayuda de expertos
+- **[Foro de soporte](https://forum.aspose.com/c/words/8)** Obtenga ayuda de expertos
 
 ### **Licencias y pruebas**
 - **[Licencia temporal](https://purchase.conholdate.com/temporary-license/)** - Evaluación extendida

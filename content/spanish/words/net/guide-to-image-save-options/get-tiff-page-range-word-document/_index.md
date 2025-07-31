@@ -58,7 +58,7 @@ Para tener una idea de cómo funciona la conversión, primero guardemos todo el 
 doc.Save(dataDir + "FullDocumentAsMultipageTiff.tiff");
 ```
 
-## Paso 4: Configurar las opciones para guardar imágenes
+## Paso 4: Configurar las opciones para guardar la imagen
 
 Ahora viene la parte emocionante: configurar el `ImageSaveOptions`Aquí puede especificar el rango de páginas y otras propiedades para la conversión TIFF.
 

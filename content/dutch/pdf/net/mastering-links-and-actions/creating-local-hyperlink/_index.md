@@ -9,7 +9,7 @@
 
 ## Invoering
 
-In deze handleiding leiden we je door het proces van het maken van lokale hyperlinks in een PDF-bestand met Aspose.PDF voor .NET. We leggen elke stap duidelijk uit, zodat je het moeiteloos kunt volgen, zelfs als je nog niet bekend bent met PDF-bewerking.
+In deze handleiding begeleiden we je door het proces van het maken van lokale hyperlinks in een PDF-bestand met Aspose.PDF voor .NET. We leggen elke stap duidelijk uit, zodat je het moeiteloos kunt volgen, zelfs als je nog niet bekend bent met PDF-bewerking.
 
 ## Vereisten
 
@@ -67,11 +67,11 @@ Voeg vervolgens een pagina toe aan uw PDF-document.
 Page page = doc.Pages.Add(); // Een nieuwe pagina toevoegen
 ```
 
-Met deze regel voegt u een nieuwe pagina toe aan het document. Hier wordt alle inhoud geplaatst.
+Met deze regel voegt u een nieuwe pagina toe aan het document. Hierop wordt alle inhoud geplaatst.
 
-## Stap 3: Een tekstfragment maken
+## Stap 3: Maak een tekstfragment
 
-Laten we nu een stuk tekst maken dat als klikbare link fungeert.
+Laten we nu een tekststuk maken dat als klikbare link fungeert.
 
 ```csharp
 Aspose.Pdf.Text.TextFragment text = new Aspose.Pdf.Text.TextFragment("link page number test to page 7"); // Maak een tekstfragment
@@ -115,8 +115,8 @@ textBack.IsInNewPage = true; // Geef aan dat het op een nieuwe pagina moet staan
 Maak nog een lokale hyperlink voor pagina 1.
 
 ```csharp
-Aspose.Pdf.LocalHyperlink linkBack = new Aspose.Pdf.LocalHyperlink(); // Een andere lokale hyperlink maken
-linkBack.TargetPageNumber = 1; // Doelpagina instellen voor de tweede hyperlink
+Aspose.Pdf.LocalHyperlink linkBack = new Aspose.Pdf.LocalHyperlink(); // Maak een andere lokale hyperlink
+linkBack.TargetPageNumber = 1; // Doelpagina voor de tweede hyperlink instellen
 textBack.Hyperlink = linkBack; // Stel de hyperlink in voor het tweede tekstfragment
 ```
 
@@ -139,11 +139,11 @@ doc.Save(dataDir); // Sla het bijgewerkte document op
 Console.WriteLine("\nLocal hyperlink created successfully.\nFile saved at " + dataDir);
 ```
 
-Deze regel combineert uw directorypad met de bestandsnaam en de `Save()` methode slaat uw document op.
+Deze regel combineert uw directorypad met de bestandsnaam en de `Save()` Met deze methode slaat u uw document op.
 
 ## Conclusie
 
-Het maken van lokale hyperlinks in PDF-bestanden met Aspose.PDF voor .NET is een praktische functie die de navigatie en gebruikerservaring verbetert. U beschikt nu over de kennis om uw lezers direct naar de benodigde informatie te leiden, waardoor uw PDF's interactiever en gebruiksvriendelijker worden.
+Het maken van lokale hyperlinks in PDF-bestanden met Aspose.PDF voor .NET is een praktische functie die de navigatie en gebruikerservaring verbetert. U beschikt nu over de kennis om uw lezers rechtstreeks naar de benodigde informatie te leiden, waardoor uw PDF's interactiever en gebruiksvriendelijker worden.
 
 ## Veelgestelde vragen
 

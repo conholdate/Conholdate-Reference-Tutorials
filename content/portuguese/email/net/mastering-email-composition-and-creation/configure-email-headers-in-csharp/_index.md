@@ -110,7 +110,7 @@ Com certeza! Você pode personalizar os cabeçalhos CC e BCC usando `message.CC`
 
 O cabeçalho DKIM-Signature é usado para assinatura digital de e-mails, permitindo que os destinatários verifiquem a autenticidade e a integridade do e-mail.
 
-### Como faço para validar o cabeçalho do e-mail?
+### Como faço para lidar com a validação do cabeçalho do e-mail?
 
 O Aspose.Email inclui recursos de validação para verificar se os cabeçalhos de e-mail estão formatados corretamente e atendem aos padrões.
 

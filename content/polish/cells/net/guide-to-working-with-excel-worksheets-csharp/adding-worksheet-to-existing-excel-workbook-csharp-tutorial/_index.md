@@ -5,7 +5,7 @@
 "description": "Dowiedz się, jak dodać arkusz kalkulacyjny do skoroszytu programu Excel w języku C# za pomocą Aspose.Cells. Samouczek krok po kroku z przykładami kodu, wskazówkami dotyczącymi rozwiązywania problemów i najlepszymi praktykami dla programistów .NET."
 "lastmod": "2025-01-02"
 "linktitle": "Dodawanie arkusza kalkulacyjnego do skoroszytu programu Excel C#"
-"second_title": "Aspose.Cells dla .NET API Reference"
+"second_title": "Dokumentacja interfejsu API Aspose.Cells dla platformy .NET"
 "tags":
 - "csharp"
 - "aspose-cells"
@@ -18,7 +18,7 @@
 
 ## Wstęp
 
-Czy zdarzyło Ci się wielokrotnie ręcznie dodawać arkusze kalkulacyjne do plików Excela? Jeśli jesteś programistą .NET i korzystasz z automatyzacji w Excelu, wiesz, jak żmudne to może być. Dobra wiadomość? Możesz dodać arkusz kalkulacyjny do skoroszytu Excela programowo w języku C#, używając Aspose.Cells dla .NET – i jest to prostsze, niż mogłoby się wydawać.
+Czy zdarzyło Ci się wielokrotnie ręcznie dodawać arkusze kalkulacyjne do plików Excela? Jeśli jesteś programistą .NET i korzystasz z automatyzacji w Excelu, wiesz, jak żmudne to może być. Dobra wiadomość? Możesz dodać arkusz kalkulacyjny do skoroszytu Excela programowo w języku C#, używając Aspose.Cells dla .NET – i jest to prostsze, niż myślisz.
 
 Niezależnie od tego, czy tworzysz systemy raportowania, aplikacje do przetwarzania danych, czy automatyczne generatory Excela, umiejętność dynamicznego dodawania arkuszy kalkulacyjnych to prawdziwy przełom. W tym kompleksowym przewodniku dokładnie pokażemy, jak dodawać nowe arkusze kalkulacyjne do istniejących skoroszytów Excela, jak rozwiązywać typowe problemy i jak przedstawiać najlepsze praktyki, które pozwolą Ci zaoszczędzić wiele godzin debugowania.
 
@@ -200,7 +200,7 @@ Oto kilka sprawdzonych w praktyce praktyk, dzięki którym automatyzacja w progr
 
 ## Zastosowania w świecie rzeczywistym
 
-Programowe dodawanie arkuszy kalkulacyjnych nie jest tylko ćwiczeniem akademickim – ma mnóstwo praktycznych zastosowań:
+Dodawanie arkuszy kalkulacyjnych programowo to nie tylko ćwiczenie akademickie – ma ono mnóstwo praktycznych zastosowań:
 
 **Miesięczne raportowanie**:Automatycznie twórz nowe arkusze kalkulacyjne dla danych z każdego miesiąca w raportach finansowych.
 

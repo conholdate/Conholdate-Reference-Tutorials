@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用 Aspose.Cells for .NET 有效率地更新 Excel 檔案中的切片器。本指南將指導您完成每個步驟。"
+"description": "了解如何使用 Aspose.Cells for .NET 有效率地更新 Excel 檔案中的切片器。本綜合指南將引導您完成每個步驟。"
 "linktitle": "使用 Aspose.Cells .NET 更新 Excel 中的切片器"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "使用 Aspose.Cells .NET 更新 Excel 中的切片器"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-切片器是用於篩選和視覺化 Excel 電子表格資料的強大工具。透過 Aspose.Cells for .NET，開發人員可以輕鬆更新、操作和自動化 Excel 檔案中的切片器功能。本文將逐步深入介紹切片器的更新過程，確保您的 Excel 應用程式動態且易於使用。
+切片器是用於過濾和視覺化 Excel 電子表格中的資料的強大工具。透過 Aspose.Cells for .NET，開發人員可以輕鬆更新、操作和自動化 Excel 檔案中的切片器功能。本文深入探討了更新切片器的逐步過程，以確保基於 Excel 的應用程式動態且使用者友好。
 
 ## 在 Aspose.Cells 中使用切片器的先決條件
 
@@ -72,7 +72,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Aspose.Cells.Slicers.Slicer slicer = ws.Slicers[0];
 ```
 
-這將檢索第一個切片器。對其他切片器使用適當的索引。
+這將檢索第一個切片器。對其他切片機使用適當的索引。
 
 ## 步驟5：操作切片器項目
 

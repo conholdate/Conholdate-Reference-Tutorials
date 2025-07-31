@@ -213,7 +213,7 @@ Sì, Aspose offre una prova gratuita che puoi scaricare da [Sito web Aspose](htt
 
 ### Dove posso trovare supporto per Aspose.PDF?
 
-Per assistenza, visitare il [Forum di supporto Aspose](https://forum.aspose.com/c/pdf/10), dove puoi porre domande e trovare soluzioni ai problemi più comuni. La community e lo staff di Aspose sono molto disponibili a rispondere alle domande tecniche.
+Per assistenza, visita il [Forum di supporto Aspose](https://forum.aspose.com/c/pdf/10), dove puoi porre domande e trovare soluzioni ai problemi più comuni. La community e lo staff di Aspose sono molto disponibili a rispondere alle domande tecniche.
 
 ### Come posso acquistare una licenza per Aspose.PDF?
 

@@ -51,7 +51,7 @@ client.SelectFolder(ImapFolderInfo.InBox);
 - `SelectFolder(ImapFolderInfo.InBox)` especifica que queremos trabajar con la bandeja de entrada.
 
 
-## Paso 2: recuperar correos electrónicos de la bandeja de entrada
+## Paso 2: Recuperar correos electrónicos de la bandeja de entrada
 
 Una vez conectado, debe recuperar los mensajes de correo electrónico de la bandeja de entrada. Aspose.Email ofrece un método sencillo para listar todos los mensajes.
 

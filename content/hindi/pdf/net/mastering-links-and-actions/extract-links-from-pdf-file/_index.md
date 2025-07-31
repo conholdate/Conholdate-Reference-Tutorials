@@ -47,7 +47,7 @@ using System.Collections.Generic;
 string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
 
-प्रतिस्थापित करें `"YOUR_DOCUMENT_DIRECTORY"` आपकी पीडीएफ फाइल का वास्तविक पथ.
+प्रतिस्थापित करें `"YOUR_DOCUMENT_DIRECTORY"` आपकी पीडीएफ फाइल के वास्तविक पथ के साथ।
 
 ## चरण 2: पीडीएफ दस्तावेज़ खोलें
 

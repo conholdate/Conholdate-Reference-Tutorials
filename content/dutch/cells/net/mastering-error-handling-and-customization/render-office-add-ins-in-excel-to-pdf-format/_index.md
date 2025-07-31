@@ -16,7 +16,7 @@ In onze datagedreven wereld kan de mogelijkheid om Excel-bestanden naar PDF te c
 Voordat u met de tutorial begint, moet u ervoor zorgen dat u het volgende hebt geregeld:
 
 ### Kennis van C# en .NET
-Een gedegen kennis van C# en het .NET Framework is een pré. Als je nog niet bekend bent met deze technologieën, zijn er tal van bronnen beschikbaar om je te helpen.
+Een gedegen kennis van C# en het .NET Framework is een pré. Als je nieuw bent met deze technologieën, zijn er tal van bronnen beschikbaar om je te helpen leren.
 
 ### Aspose.Cells voor .NET geïnstalleerd
 Download en installeer Aspose.Cells voor .NET van de [releasepagina](https://releases.aspose.com/cells/net/).
@@ -27,7 +27,7 @@ Zorg ervoor dat je Visual Studio geïnstalleerd hebt. Deze gebruiksvriendelijke 
 ### Voorbeeld Excel-bestand met Office-invoegtoepassingen
 Download een Excel-voorbeeldbestand met Office-invoegtoepassingen om de functionaliteit te testen. Dit voorbeeld helpt u bij het renderen van de invoegtoepassingen naar PDF-formaat.
 
-Zodra u aan deze vereisten hebt voldaan, kunt u beginnen met het converteren van Excel-bestanden naar PDF!
+Zodra u aan deze vereisten hebt voldaan, bent u klaar om Excel-bestanden naar PDF te converteren!
 
 ## Pakketten importeren
 Laten we beginnen met het importeren van de benodigde pakketten in je C#-project. Open je Visual Studio-project en voeg de Aspose.Cells-naamruimte bovenaan je C#-bestand toe.
@@ -38,7 +38,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-Hiermee kunt u de Aspose.Cells-functionaliteiten in uw programma gebruiken. Nu we het benodigde pakket hebben geïmporteerd, gaan we het hele proces stap voor stap doornemen!
+Hiermee kunt u de functionaliteiten van Aspose.Cells in uw programma gebruiken. Nu we het benodigde pakket hebben geïmporteerd, gaan we het hele proces stap voor stap doornemen!
 
 ## Stap 1: Mappen instellen
 
@@ -52,12 +52,12 @@ string outputDir = "Your Document Directory";
 
 Vervangen `"Your Document Directory"` met het daadwerkelijke pad waar uw bestanden zich bevinden. Deze stap zorgt ervoor dat uw applicatie weet waar het invoerbestand te vinden is en waar de uitvoer moet worden opgeslagen.
 
-## Stap 2: De Excel-werkmap laden
+## Stap 2: Laad de Excel-werkmap
 
 Laad vervolgens het Excel-voorbeeldbestand met Office-invoegtoepassingen. Maak een nieuw exemplaar van de `Workbook` klasse van Aspose.Cells:
 
 ```csharp
-// Laad het Excel-voorbeeldbestand met Office-invoegtoepassingen
+// Laad het voorbeeld-Excel-bestand met Office-invoegtoepassingen
 Workbook wb = new Workbook(sourceDir + "sampleRenderOfficeAdd-Ins.xlsx");
 ```
 
@@ -91,7 +91,7 @@ Het renderen van Office-invoegtoepassingen in Excel naar PDF-formaat met Aspose.
 ## Veelgestelde vragen
 
 ### Wat zijn Office-invoegtoepassingen in Excel?
-Met Office-invoegtoepassingen wordt de functionaliteit van Excel uitgebreid, omdat ontwikkelaars hiermee aangepaste toepassingen kunnen maken die met spreadsheets werken.
+Met Office-invoegtoepassingen wordt de functionaliteit van Excel uitgebreid, omdat ontwikkelaars hiermee aangepaste toepassingen kunnen maken die met spreadsheets communiceren.
 
 ### Kan Aspose.Cells andere bestandsformaten converteren?
 Absoluut! Aspose.Cells ondersteunt meerdere formaten, waaronder XLSX, XLS, CSV en meer.

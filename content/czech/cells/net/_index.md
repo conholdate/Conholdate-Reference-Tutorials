@@ -129,7 +129,7 @@ Pokročilé operace s listy pro profesionální automatizaci Excelu a efektivní
 - **[Bezplatná zkušební verze](https://releases.aspose.com/cells/net/)** - Vyhodnoťte všechny funkce
 
 ### **Komunita a podpora**
-- **[Fórum podpory](https://forum.aspose.com/c/cells/9)** - Získejte pomoc od odborníků
+- **[Fórum podpory](https://forum.aspose.com/c/cells/9)** Získejte pomoc od odborníků
 
 ### **Licencování a zkušební verze**
 - **[Dočasná licence](https://purchase.conholdate.com/temporary-license/)** - Rozšířené hodnocení

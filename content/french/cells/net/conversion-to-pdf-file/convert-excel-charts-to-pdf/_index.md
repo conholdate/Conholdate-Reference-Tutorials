@@ -94,7 +94,7 @@ Cette ligne crée une nouvelle `Workbook` objet et charge votre fichier Excel en
 
 Quelques points à garder à l’esprit :
 - Aspose.Cells prend en charge les formats .xls et .xlsx
-- Le fichier est entièrement chargé en mémoire, il faut donc tenir compte de la taille du fichier pour les grandes feuilles de calcul.
+- Le fichier est entièrement chargé en mémoire, tenez donc compte de la taille du fichier pour les grandes feuilles de calcul
 - Si le fichier est protégé par mot de passe, vous devrez fournir le mot de passe comme deuxième paramètre
 
 ## Étape 3 : Accéder à la feuille de calcul avec le graphique

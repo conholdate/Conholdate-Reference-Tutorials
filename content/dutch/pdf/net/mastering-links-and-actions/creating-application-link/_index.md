@@ -62,7 +62,7 @@ LinkAnnotation link = new LinkAnnotation(page, new Aspose.Pdf.Rectangle(100, 100
 
 Deze rechthoek definieert het klikbare gebied van de link.
 
-## Stap 4: De linkkleur instellen
+## Stap 4: Stel de linkkleur in
 
 Pas het uiterlijk van de link aan:
 
@@ -78,7 +78,7 @@ Stel de actie voor de koppeling in en geef aan wat er gebeurt als erop wordt gek
 link.Action = new LaunchAction(document, dataDir + "CreateApplicationLink.pdf");
 ```
 
-U kunt het pad naar een toepassing of een ander document indien nodig wijzigen.
+U kunt het pad naar wens aanpassen om te linken naar een toepassing of een ander document.
 
 ## Stap 6: Voeg de annotatie toe aan de pagina
 
@@ -107,7 +107,7 @@ Console.WriteLine("\nApplication link created successfully.\nFile saved at " + d
 
 ## Conclusie
 
-In slechts een paar eenvoudige stappen hebt u geleerd hoe u een applicatielink in een PDF-bestand kunt maken met Aspose.PDF voor .NET. Deze krachtige bibliotheek stelt u in staat om PDF-documenten interactiever en aantrekkelijker te maken en gebruikers naar waardevolle informatie of applicaties te leiden.
+In een paar eenvoudige stappen hebt u geleerd hoe u een applicatielink in een PDF-bestand maakt met Aspose.PDF voor .NET. Deze krachtige bibliotheek stelt u in staat om PDF-documenten interactiever en aantrekkelijker te maken en gebruikers naar waardevolle informatie of applicaties te leiden.
 
 ## Veelgestelde vragen
 

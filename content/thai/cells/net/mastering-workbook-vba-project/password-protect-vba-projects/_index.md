@@ -53,7 +53,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "WorkbookWithVBA.xlsm");
 ```
 
-ตรวจสอบให้แน่ใจว่าไฟล์มีการเปิดใช้งานแมโคร (`.xlsm` รูปแบบ).
+ตรวจสอบให้แน่ใจว่าไฟล์มีการเปิดใช้งานแมโคร (`.xlsm` รูปแบบ)
 
 ## ขั้นตอนที่ 3: เข้าถึงโครงการ VBA
 

@@ -13,7 +13,7 @@ Gérer les sauts de page dans Excel peut s'avérer complexe, surtout si vous sou
 
 ## Prérequis
 
-Avant de commencer, assurez-vous d’avoir les éléments suivants :
+Avant de commencer, assurez-vous d’avoir les éléments suivants :
 
 1. Aspose.Cells pour .NET : téléchargez-le depuis [ici](https://releases.aspose.com/cells/net/).
 2. Licence Aspose : Pour débloquer toutes les fonctionnalités, pensez à demander une [permis temporaire](https://purchase.aspose.com/tempouary-license/) or [acheter une licence](https://purchase.aspose.com/buy).
@@ -57,7 +57,7 @@ Vous pouvez également charger un classeur existant en spécifiant un chemin de 
 Supprimons maintenant les sauts de page. Dans Excel, vous pouvez utiliser des sauts de page horizontaux et verticaux. Pour les supprimer, ciblez le `HorizontalPageBreaks` et `VerticalPageBreaks` collections pour une feuille de calcul spécifique :
 
 ```csharp
-// Suppression de tous les sauts de page
+// Effacer tous les sauts de page
 workbook.Worksheets[0].HorizontalPageBreaks.Clear();
 workbook.Worksheets[0].VerticalPageBreaks.Clear();
 ```

@@ -1,20 +1,21 @@
 ---
-title: Hướng dẫn ký PDF bằng siêu dữ liệu bằng GroupDocs.Signature
-linktitle: Hướng dẫn ký PDF bằng siêu dữ liệu
-second_title: API GroupDocs.Signature .NET
-description: Tìm hiểu cách tăng cường bảo mật và khả năng truy xuất tài liệu PDF của bạn bằng cách ký chúng bằng siêu dữ liệu sử dụng GroupDocs.Signature cho .NET. Hướng dẫn toàn diện này cung cấp một cách rõ ràng.
-weight: 11
-url: /vi/signature/master-document-signing/signing-pdf-with-metadata/
+"description": "Tìm hiểu cách tăng cường bảo mật và khả năng truy xuất nguồn gốc cho tài liệu PDF của bạn bằng cách ký siêu dữ liệu với GroupDocs.Signature for .NET. Hướng dẫn toàn diện này cung cấp một giải pháp rõ ràng."
+"linktitle": "Hướng dẫn ký PDF bằng siêu dữ liệu"
+"second_title": "API GroupDocs.Signature .NET"
+"title": "Hướng dẫn ký PDF bằng siêu dữ liệu bằng GroupDocs.Signature"
+"url": "/vi/signature/net/master-document-signing/signing-pdf-with-metadata/"
+"weight": 11
 ---
+
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách ký tài liệu PDF và thêm siêu dữ liệu bằng GroupDocs.Signature cho .NET. Việc thêm siêu dữ liệu sẽ cải thiện tài liệu bằng cách cung cấp thông tin cần thiết như tác giả, ngày tạo, ID tài liệu, v.v.
+Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách ký tài liệu PDF và thêm siêu dữ liệu bằng GroupDocs.Signature cho .NET. Việc thêm siêu dữ liệu sẽ nâng cao chất lượng tài liệu bằng cách cung cấp các thông tin thiết yếu như tác giả, ngày tạo, ID tài liệu, v.v.
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1.  GroupDocs.Signature cho .NET: Tải xuống từ[đây](https://releases.groupdocs.com/signature/net/).
+1. GroupDocs.Signature cho .NET: Tải xuống từ [đây](https://releases.groupdocs.com/signature/net/).
 2. Tài liệu PDF: Chuẩn bị sẵn tệp PDF mẫu để ký.
 3. Kiến thức cơ bản về lập trình C#: Cần phải quen thuộc với cú pháp C# để hiểu các ví dụ mã.
 
@@ -30,7 +31,7 @@ using GroupDocs.Signature.Domain;
 using GroupDocs.Signature.Options;
 ```
 
-## Bước 1: Tải Tài liệu PDF
+## Bước 1: Tải tài liệu PDF
 
 Chỉ định đường dẫn đến tài liệu PDF mà bạn muốn ký:
 
@@ -38,7 +39,7 @@ Chỉ định đường dẫn đến tài liệu PDF mà bạn muốn ký:
 string filePath = "sample.pdf";
 ```
 
-## Bước 2: Chỉ định Đường dẫn Tệp Đầu ra
+## Bước 2: Chỉ định đường dẫn tệp đầu ra
 
 Xác định nơi lưu tệp PDF đã ký có siêu dữ liệu:
 
@@ -46,9 +47,9 @@ Xác định nơi lưu tệp PDF đã ký có siêu dữ liệu:
 string outputFilePath = Path.Combine("Your Document Directory", "SignPdfWithMetadata", "SignedWithMetadata.pdf");
 ```
 
-## Bước 3: Tạo một phiên bản chữ ký
+## Bước 3: Tạo phiên bản chữ ký
 
- Khởi tạo một`Signature` trường hợp có đường dẫn đến tài liệu PDF:
+Khởi tạo một `Signature` trường hợp có đường dẫn đến tài liệu PDF:
 
 ```csharp
 using (Signature signature = new Signature(filePath))
@@ -59,7 +60,7 @@ using (Signature signature = new Signature(filePath))
 
 ## Bước 4: Xác định tùy chọn siêu dữ liệu
 
- Tạo nên`MetadataSignOptions` và thêm các trường siêu dữ liệu cùng với giá trị của chúng:
+Tạo nên `MetadataSignOptions` và thêm các trường siêu dữ liệu cùng với giá trị của chúng:
 
 ```csharp
 MetadataSignOptions options = new MetadataSignOptions();
@@ -83,7 +84,7 @@ Console.WriteLine($"\nSource document signed successfully with {result.Succeeded
 
 ## Phần kết luận
 
-Trong hướng dẫn này, chúng tôi đã đề cập đến cách ký tài liệu PDF bằng siêu dữ liệu sử dụng GroupDocs.Signature cho .NET. Bằng cách làm theo các bước này, bạn có thể dễ dàng làm giàu tệp PDF của mình bằng siêu dữ liệu có giá trị, cải thiện khả năng truy xuất và tiện ích của chúng.
+Trong hướng dẫn này, chúng tôi đã đề cập đến cách ký tài liệu PDF bằng siêu dữ liệu bằng GroupDocs.Signature cho .NET. Bằng cách làm theo các bước này, bạn có thể dễ dàng làm giàu tệp PDF của mình bằng siêu dữ liệu có giá trị, cải thiện khả năng truy xuất nguồn gốc và tiện ích của chúng.
 
 ## Câu hỏi thường gặp
 
@@ -101,8 +102,8 @@ Có, GroupDocs.Signature hỗ trợ nhiều định dạng tài liệu, bao gồ
 
 ### Tôi có thể ký nhiều tài liệu cùng lúc bằng GroupDocs.Signature cho .NET không?
 
-Chắc chắn rồi! Bạn có thể ký nhiều tài liệu cùng lúc bằng cách lặp qua danh sách các tệp và áp dụng quy trình chữ ký theo chương trình.
+Chắc chắn rồi! Bạn có thể ký nhiều tài liệu cùng lúc bằng cách duyệt qua danh sách tệp và áp dụng quy trình chữ ký theo chương trình.
 
 ### Người dùng GroupDocs.Signature có được hỗ trợ kỹ thuật không?
 
- Có, GroupDocs cung cấp hỗ trợ kỹ thuật chuyên dụng thông qua diễn đàn của mình. Bạn có thể truy cập diễn đàn hỗ trợ[đây](https://forum.groupdocs.com/c/signature/13).
+Có, GroupDocs cung cấp hỗ trợ kỹ thuật chuyên dụng thông qua diễn đàn của mình. Bạn có thể truy cập diễn đàn hỗ trợ [đây](https://forum.groupdocs.com/c/signature/13).

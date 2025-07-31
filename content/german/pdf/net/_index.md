@@ -34,7 +34,7 @@ Wandeln Sie verschiedene Dateiformate mit professioneller Qualität und Formater
 | **[Konvertieren Sie EPUB in PDF](./mastering-document-conversion/convert-epub-to-pdf/)** | Wandeln Sie E-Books für universelle Kompatibilität in das PDF-Format um | ⭐ Anfänger |
 | **[HTML in PDF meistern](./mastering-document-conversion/mastering-html-to-pdf/)** | Konvertierung von Webinhalten in PDF mit erweiterter Formatierungsunterstützung | ⭐⭐ Mittelstufe |
 | **[CGM-zu-PDF-Konvertierung](./mastering-document-conversion/convert-cgm-to-pdf/)** | Umwandlung von Computergrafik-Metadateien in PDF | ⭐⭐ Mittelstufe |
-| **[Anhänge zu PDF/A hinzufügen](./mastering-document-conversion/adding-attachment-to-pdfa/)** | Konforme Dokumentanhänge für Archivierungsstandards | ⭐⭐⭐ Erweitert |
+| **[Anhänge zu PDF/A hinzufügen](./mastering-document-conversion/adding-attachment-to-pdfa/)** Konforme Dokumentanhänge für Archivierungsstandards | ⭐⭐⭐ Erweitert |
 
 ### Master-PDF-Dokumentenprogrammierung
 Erweiterte PDF-Programmiertechniken zum Erstellen anspruchsvoller Dokumentlösungen.
@@ -52,7 +52,7 @@ Wichtige PDF-Seitenvorgänge für die Dokumentorganisation und Strukturverwaltun
 | Tutorial | Beschreibung | Schwierigkeitsgrad |
 |----------|----------|------------|
 | **[PDF-Seitenausrichtung ändern](./master-pdf-page-management/change-pdf-page-orientation/)** | Passen Sie das Seitenlayout und die Ausrichtung für eine optimale Dokumentanzeige an | ⭐ Anfänger |
-| **[Verketten von PDF-Dateien](./master-pdf-page-management/concatenating-pdf-files/)** Mehrere PDF-Dokumente zu einer einzigen zusammenhängenden Datei zusammenführen | ⭐⭐ Mittelstufe |
+| **[Verketten von PDF-Dateien](./master-pdf-page-management/concatenating-pdf-files/)** | Mehrere PDF-Dokumente zu einer einzigen zusammenhängenden Datei zusammenführen | ⭐⭐ Mittelstufe |
 | **[Bestimmte Seiten aus PDF-Dateien löschen](./master-pdf-page-management/delete-particular-page-from-pdf-files/)** | Bestimmte Seiten effizient aus PDF-Dokumenten entfernen | ⭐ Anfänger |
 | **[Leere Seiten in PDF-Datei einfügen](./master-pdf-page-management/insert-empty-pages/)** | Fügen Sie leere Seiten zur Inhaltsorganisation und zum Abstandshalten hinzu | ⭐ Anfänger |
 | **[Hinzufügen einer leeren Seite am Ende](./master-pdf-page-management/adding-an-empty-page-at-end/)** | Leere Seiten programmgesteuert an PDF-Dokumente anhängen | ⭐ Anfänger |
@@ -67,7 +67,7 @@ Wichtige PDF-Seitenvorgänge für die Dokumentorganisation und Strukturverwaltun
 ### **Interaktive Dokumenterstellung**
 - **Formularentwicklung**: Dynamische PDF-Formulare mit Validierung und Berechnungen
 - **Digitale Signaturen**: Sichere Dokumentensignierung und -authentifizierung
-- **Multimedia-Integration**Rich-Media-Inhalte in PDF-Dokumenten
+- **Multimedia-Integration**: Rich-Media-Inhalte in PDF-Dokumenten
 
 ### **Web-to-PDF-Lösungen**
 - **HTML-Konvertierung**: Wandeln Sie Webinhalte für den Offline-Zugriff in PDF um
@@ -136,7 +136,7 @@ Wichtige PDF-Seitenvorgänge für die Dokumentorganisation und Strukturverwaltun
 
 ### **Lizenzierung und Testversionen**
 - **[Temporäre Lizenz](https://purchase.conholdate.com/temporary-license/)** - Verlängerter Evaluierungszeitraum zum Testen
-- **[Kaufoptionen](https://purchase.conholdate.com/buy)** - Flexible Lizenzierung für Teams und Unternehmen
+- **[Kaufoptionen](https://purchase.conholdate.com/buy)** Flexible Lizenzierung für Teams und Unternehmen
 
 ## 📋 Kurzanleitung zum Tutorial
 

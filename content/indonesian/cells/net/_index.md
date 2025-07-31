@@ -17,7 +17,7 @@ Maksimalkan potensi pemrosesan spreadsheet Excel dengan Aspose.Cells untuk .NET.
 **Aspose.Cells untuk .NET** adalah pustaka pemrosesan spreadsheet canggih yang memungkinkan pengembang membuat, memanipulasi, mengonversi, dan merender file Excel tanpa memerlukan Microsoft Excel. Dengan dukungan untuk semua format Excel utama dan fitur-fitur canggih, ini adalah solusi lengkap untuk otomatisasi Excel.
 
 ### Kemampuan Utama
-- **Dukungan Format**: XLS, XLSX, XLSM, CSV, ODS, PDF, HTML, dan banyak lagi
+- **📊 Dukungan Format**: XLS, XLSX, XLSM, CSV, ODS, PDF, HTML, dan banyak lagi
 - **🔄 Konversi**: Excel ke PDF, gambar, dan format lain dengan fidelitas tinggi
 - **📈 Bagan & Grafik**: Buat, modifikasi, dan konversi grafik secara terprogram
 - **💾 Pengolahan Data**: Rumus lanjutan, tabel pivot, dan analisis data
@@ -129,7 +129,7 @@ Operasi lembar kerja tingkat lanjut untuk otomatisasi Excel profesional dan mana
 - **[Uji Coba Gratis](https://releases.aspose.com/cells/net/)** - Evaluasi fitur lengkap
 
 ### **Komunitas & Dukungan**
-- **[Forum Dukungan](https://forum.aspose.com/c/cells/9)** - Dapatkan bantuan dari para ahli
+- **[Forum Dukungan](https://forum.aspose.com/c/cells/9)** Dapatkan bantuan dari para ahli
 
 ### **Lisensi & Uji Coba**
 - **[Lisensi Sementara](https://purchase.conholdate.com/temporary-license/)** - Evaluasi lanjutan
@@ -143,7 +143,7 @@ Operasi lembar kerja tingkat lanjut untuk otomatisasi Excel profesional dan mana
 - Excel → Gambar (grafik siap web)
 
 ### **Operasi Lembar Kerja**
-- Buat, Tambah, Hapus lembar kerja
+- Buat, Tambahkan, Hapus lembar kerja
 - Salin dan pindahkan lembar kerja
 - Ganti nama dan atur tab
 - Peningkatan spreadsheet desainer

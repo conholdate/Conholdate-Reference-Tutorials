@@ -44,9 +44,9 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(dataDir + "Encrypted.docx");
 ```
 
-## الخطوة 4: التحقق مما إذا كان المستند مشفرًا
+## الخطوة 4: التحقق من تشفير المستند
 
-لتحديد ما إذا كانت الوثيقة مشفرة، يمكننا استخدام `IsEncrypted` ممتلكات `FileFormatInfo` الكائن. هذه الخاصية تعيد `true` إذا تم تشفير المستند، و `false` وإلا، سنعرض النتيجة في وحدة التحكم:
+لتحديد ما إذا كانت الوثيقة مشفرة، يمكننا استخدام `IsEncrypted` ممتلكات `FileFormatInfo` الكائن. هذه الخاصية تُرجع `true` إذا تم تشفير المستند، و `false` وإلا، سنعرض النتيجة في وحدة التحكم:
 
 ```csharp
 Console.WriteLine($"Is the document encrypted? {info.IsEncrypted}");

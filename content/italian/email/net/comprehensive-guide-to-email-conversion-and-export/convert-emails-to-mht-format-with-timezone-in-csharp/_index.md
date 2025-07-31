@@ -39,7 +39,7 @@ Prima di addentrarci nel codice, cerchiamo di capire perché il formato MHT è s
 
 Ecco una guida rapida alla decisione:
 
-- **Utilizzare MHT quando**: Hai bisogno di archivi visualizzabili dal browser, vuoi file autonomi o richiedi la conservazione dei metadati
+- **Utilizzare MHT quando**: Hai bisogno di archivi visualizzabili dal browser, desideri file autonomi o richiedi la conservazione dei metadati
 - **Utilizzare EML quando**: È necessario reimportare le email nei client di posta in un secondo momento
 - **Utilizzare il glutammato monosodico quando**: Lavorando principalmente nell'ecosistema Microsoft Outlook
 - **Usa PDF quando**: Hai bisogno di documenti non modificabili e pronti per la stampa

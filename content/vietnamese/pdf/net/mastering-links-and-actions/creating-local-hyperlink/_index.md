@@ -59,7 +59,7 @@ Document doc = new Document(); // Tạo phiên bản Tài liệu
 
 Thay thế `"YOUR_DOCUMENT_DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn nơi tệp PDF sẽ được lưu.
 
-## Bước 2: Thêm trang vào tài liệu
+## Bước 2: Thêm Trang vào Tài liệu
 
 Tiếp theo, thêm một trang vào tài liệu PDF của bạn.
 

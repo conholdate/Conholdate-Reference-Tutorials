@@ -18,7 +18,7 @@ Než začnete, ujistěte se, že máte následující:
 1. Visual Studio: Nainstalované na vašem počítači pro psaní a spouštění kódu .NET.
 2. Aspose.PDF pro .NET: Stáhněte si knihovnu z [PDF verze Aspose](https://releases.aspose.com/pdf/net/).
 3. Základní znalost C#: Znalost programování v C# vám pomůže porozumět kódu.
-4. Soubor s licencí: Získejte soubor s licencí Aspose. Pokud jej nemáte, můžete si o něj požádat. [dočasná licence](https://purchase.aspose.com/temporary-license/) pro testování.
+4. Licenční soubor: Získejte licenční soubor Aspose. Pokud jej nemáte, můžete si o něj požádat. [dočasná licence](https://purchase.aspose.com/temporary-license/) pro testování.
 
 ## Import balíčků
 
@@ -104,4 +104,4 @@ Aspose nabízí bezplatnou zkušební verzi, kterou můžete použít k otestov�
 Dokumentaci naleznete na adrese [Dokumentace Aspose PDF](https://reference.aspose.com/pdf/net/).
 
 ### Co mám dělat, když narazím na problémy s licencí?
-Pokud narazíte na nějaké problémy, můžete požádat o pomoc od [Fórum podpory Aspose](https://forum.aspose.com/c/pdf/10).
+Pokud narazíte na jakékoli problémy, můžete požádat o pomoc od [Fórum podpory Aspose](https://forum.aspose.com/c/pdf/10).

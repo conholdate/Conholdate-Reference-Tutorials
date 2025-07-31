@@ -31,7 +31,7 @@ Install-Package Aspose.Words
 ```
 
 2. Importuj niezbędne przestrzenie nazw:
-   W projekcie C# musisz zaimportować podstawowe przestrzenie nazw, aby móc współpracować z interfejsem API Aspose.Words.
+   W projekcie C# konieczne będzie zaimportowanie niezbędnych przestrzeni nazw w celu interakcji z interfejsem API Aspose.Words.
    
 ```csharp
 using System;

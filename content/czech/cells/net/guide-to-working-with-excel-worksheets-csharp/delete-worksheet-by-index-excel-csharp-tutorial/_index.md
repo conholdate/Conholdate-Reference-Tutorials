@@ -258,7 +258,7 @@ Aspose.Cells je výkonná knihovna .NET, která umožňuje vývojářům vytvá�
 ### Potřebuji licenci k používání Aspose.Cells v produkčním prostředí?
 Ano, Aspose.Cells vyžaduje pro komerční použití licenci. Můžete však začít s bezplatnou zkušební verzí, která je k dispozici. [zde](https://releases.aspose.com/) aby si před nákupem ověřil všechny funkce.
 
-### Mohu pomocí této metody smazat více pracovních listů najednou?
+### Mohu pomocí této metody smazat více listů najednou?
 Rozhodně! Můžete procházet indexy a mazat více listů. Nezapomeňte však pracovat pozpátku (od nejvyššího k nejnižšímu indexu), abyste se vyhnuli problémům s posunem indexu, které by mohly vést ke smazání nesprávných listů.
 
 ### Co se stane, když smažu list, který obsahuje důležitá data?
@@ -270,5 +270,5 @@ Použijte `RemoveByName()` metoda místo toho: `workbook.Worksheets.RemoveByName
 ### Existuje způsob, jak obnovit smazaný pracovní list?
 Jakmile je list odstraněn a sešit uložen, neexistuje žádná vestavěná metoda obnovení. Nejlepší ochranou je pravidelně zálohovat soubory aplikace Excel před provedením automatických úprav.
 
-### Může tato metoda fungovat s heslem chráněnými soubory Excelu?
+### Může tato metoda fungovat s excelovými soubory chráněnými heslem?
 Ano, ale při otevírání sešitu budete muset zadat heslo: `new Workbook(fstream, new LoadOptions() { Password = "yourpassword" })`Proces mazání zůstává po úspěšném ověření stejný.

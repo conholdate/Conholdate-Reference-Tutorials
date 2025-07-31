@@ -35,7 +35,7 @@ using Aspose.Pdf.Forms;
 
 Estos espacios de nombres proporcionan acceso a clases como `Document`, `ComboBoxField`, y otros servicios públicos esenciales.
 
-## Paso 1: Configura tu documento PDF
+## Paso 1: Configure su documento PDF
 
 Primero, necesitas un documento PDF. Crearemos un nuevo archivo PDF y le añadiremos una página en blanco.
 
@@ -118,4 +118,4 @@ Sí, Aspose.PDF admite varios campos de formulario, incluidos cuadros de texto, 
 Sí, puedes cargar un PDF existente y agregarle el cuadro combinado en lugar de crear uno nuevo.
 
 ### ¿Necesito una licencia para usar Aspose.PDF para .NET?
-Aunque Aspose.PDF para .NET ofrece una prueba gratuita, se requiere una licencia válida para su funcionamiento completo. Puede obtener una [licencia temporal](https://purchase.aspose.com/temporary-license/) para probar.
+Aunque Aspose.PDF para .NET ofrece una prueba gratuita, se requiere una licencia válida para su funcionalidad completa. Puede obtener una [licencia temporal](https://purchase.aspose.com/temporary-license/) para probar.

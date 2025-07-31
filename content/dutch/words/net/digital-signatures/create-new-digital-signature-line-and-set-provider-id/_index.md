@@ -13,7 +13,7 @@ Hallo technologiefanaten! Heb je er ooit over nagedacht om de toevoeging van han
 
 ## Vereisten
 
-Voordat we beginnen, willen we ervoor zorgen dat alles klaar staat:
+Voordat we beginnen, controleren we of alles klaar staat:
 
 1. Aspose.Words voor .NET: Als u het nog niet hebt geïnstalleerd, download het dan [hier](https://releases.aspose.com/words/net/).
 2. Ontwikkelomgeving: Gebruik Visual Studio of een andere C#-ontwikkelingsomgeving.
@@ -67,7 +67,7 @@ Met deze opties kunt u de handtekeningregel personaliseren, waardoor deze duidel
 
 ## Stap 3: De handtekeningregel invoegen
 
-Nu we onze opties gereed hebben, kunnen we de handtekeningregel in het document invoegen:
+Nu we alle opties gereed hebben, kunnen we de handtekeningregel in het document invoegen:
 
 ```csharp
 SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).SignatureLine;
@@ -100,7 +100,7 @@ SignOptions signOptions = new SignOptions
 };
 ```
 
-Met deze instellingen weet u zeker dat het document met de juiste gegevens wordt ondertekend.
+Deze instellingen zorgen ervoor dat het document met de juiste gegevens wordt ondertekend.
 
 ## Stap 6: Certificaathouder aanmaken
 

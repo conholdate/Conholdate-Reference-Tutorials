@@ -108,7 +108,7 @@ doc.Save(dataDir + "ConvertedDocument.docx");
 
 Dengan memanggil `Save` metode pada kami `Document` Misalnya, kita tentukan jalur dan format berkas keluaran. Ekstensi berkas (.docx) memberi tahu Aspose.Words format apa yang akan digunakan untuk keluaran tersebut. Semudah itu!
 
-**Opsi Format Berkas**Meskipun kami menggunakan .docx dalam contoh ini, Aspose.Words mendukung berbagai format keluaran, termasuk .doc, .rtf, .pdf, .html, dan lainnya. Cukup ubah ekstensi file untuk mendapatkan format keluaran yang berbeda.
+**Opsi Format File**Meskipun kami menggunakan .docx dalam contoh ini, Aspose.Words mendukung berbagai format keluaran, termasuk .doc, .rtf, .pdf, .html, dan lainnya. Cukup ubah ekstensi file untuk mendapatkan format keluaran yang berbeda.
 
 ## Langkah 4: Menjalankan Konversi
 

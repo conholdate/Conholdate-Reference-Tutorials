@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.PDF for .NET 在 PDF 文件中建立美觀的編號清單。本指南將引導您應用各種編號樣式（例如羅馬數字）。"
+"description": "了解如何使用 Aspose.PDF for .NET 在 PDF 文件中建立精美編號的清單。本指南將引導您完成套用各種編號樣式（如羅馬數字）的過程。"
 "linktitle": "使用 Aspose.PDF for .NET 製作時尚的編號列表"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "使用 Aspose.PDF for .NET 製作時尚的編號列表"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-您是否需要在 PDF 文件中建立結構良好、編號整齊的清單？無論是法律文件、報告或簡報，有效的編號樣式對於組織內容都至關重要。使用 Aspose.PDF for .NET，您可以輕鬆地將各種編號樣式套用至 PDF 標題，從而產生精美專業的文件。
+您是否需要在 PDF 文件中建立結構良好、編號的清單？無論是法律文件、報告或簡報，有效的編號樣式對於組織內容都至關重要。使用 Aspose.PDF for .NET，您可以輕鬆地將各種編號樣式套用至 PDF 標題，從而產生精美且專業的文件。
 
 ## 先決條件
 
@@ -135,7 +135,7 @@ Console.WriteLine($"\nNumber style applied successfully in headings.\nFile saved
 
 ## 結論
 
-恭喜！您已成功使用 Aspose.PDF for .NET 將各種編號樣式（羅馬數字和信件）套用至 PDF 檔案的標題。 Aspose.PDF 的靈活性可讓您控制頁面佈局、編號樣式和內容位置，從而幫助您建立井然有序、專業的 PDF 文件。
+恭喜！您已成功使用 Aspose.PDF for .NET 將各種編號樣式（羅馬數字和信件）套用至 PDF 檔案中的標題。 Aspose.PDF 的靈活性可讓您控制頁面佈局、編號樣式和內容定位，使您能夠建立組織良好且專業的 PDF 文件。
 
 ## 常見問題解答
 
@@ -149,7 +149,7 @@ Console.WriteLine($"\nNumber style applied successfully in headings.\nFile saved
 是的，您可以透過調整 `StartNumber` 每個標題的屬性。
 
 ### 除了編號之外，我還可以對標題套用粗體或斜體樣式嗎？  
-當然！您可以透過修改字體、大小、粗體和斜體等屬性來自訂標題樣式，方法是使用 `TextState` 目的。
+絕對地！您可以透過修改字體、大小、粗體和斜體等屬性來自訂標題樣式 `TextState` 目的。
 
 ### 如何取得 Aspose.PDF 的臨時授權？  
 您可以從 [這裡](https://purchase.aspose.com/temporary-license/) 不受限制地測試 Aspose.PDF。

@@ -119,7 +119,7 @@ Cuối cùng, chúng ta nên đóng luồng tệp để giải phóng tài nguy�
 fstream.Close();
 ```
 
-Điều này đảm bảo rằng chúng tôi duy trì được môi trường sạch sẽ và hiệu quả.
+Điều này đảm bảo rằng chúng tôi duy trì một môi trường sạch sẽ và hiệu quả.
 
 ## Phần kết luận
 

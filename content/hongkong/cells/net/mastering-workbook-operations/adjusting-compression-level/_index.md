@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Cells for .NET 調整壓縮級別，有效管理大型 Excel 檔案。本逐步指南涵蓋從設定目錄到測量壓縮時間的所有內容，幫助您優化檔案大小並提升效能。"
+"description": "了解如何透過使用 Aspose.Cells for .NET 調整壓縮等級來有效管理大型 Excel 檔案。本逐步指南涵蓋了從設定目錄到測量壓縮時間的所有內容，幫助您優化檔案大小並提高效能。"
 "linktitle": "調整工作簿中的壓縮等級"
 "second_title": "Aspose.Cells .NET Excel 處理 API"
 "title": "調整工作簿中的壓縮等級"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-管理大型 Excel 檔案可能是一項挑戰，尤其是在儲存和傳輸效率方面。幸運的是，檔案壓縮可以顯著減小這些檔案的大小，使其更易於處理。如果您使用 Aspose.Cells for .NET，您可以輕鬆調整工作簿的壓縮等級。本指南將逐步指導您完成整個過程，並對程式碼的每個部分進行清晰的解釋。
+管理大型 Excel 檔案可能是一個挑戰，尤其是在儲存和傳輸效率方面。幸運的是，檔案壓縮可以顯著減少這些檔案的大小，使它們更易於處理。如果您使用 Aspose.Cells for .NET，您可以輕鬆調整工作簿的壓縮等級。本指南將逐步引導您完成整個過程，並對程式碼的每個部分提供清晰的解釋。
 
 ## 先決條件
 
@@ -22,7 +22,7 @@
 
 ## 導入必要的套件
 
-首先，你需要在 C# 專案中導入必要的套件。在程式碼檔案頂部新增以下幾行：
+首先，您需要在 C# 專案中匯入必要的套件。在程式碼檔案頂部新增以下行：
 
 ```csharp
 using Aspose.Cells.Rendering;
@@ -30,7 +30,7 @@ using Aspose.Cells.WebExtensions;
 using System;
 ```
 
-這些套件對於使用 Aspose.Cells 庫處理 Excel 檔案至關重要。 `Aspose.Cells` 命名空間包含操作 Excel 檔案所需的所有類，而 `Aspose.Cells.Xlsb` 提供以 XLSB 格式儲存檔案的選項。
+這些套件對於使用 Aspose.Cells 庫處理 Excel 檔案至關重要。這 `Aspose.Cells` 命名空間包含操作 Excel 檔案所需的所有類，而 `Aspose.Cells.Xlsb` 提供以 XLSB 格式儲存檔案的選項。
 
 ## 步驟 1：定義來源和輸出目錄
 
@@ -42,7 +42,7 @@ string sourceDir = "Your Document Directory\\";
 string outDir = "Your Document Directory\\";
 ```
 
-確保更換 `"Your Document Directory\\"` 替換為目錄的實際路徑。這可確保您的程式能夠找到需要處理的文件。
+確保更換 `"Your Document Directory\\"` 使用目錄的實際路徑。這可確保您的程式可以找到它需要處理的文件。
 
 ## 第 2 步：載入工作簿
 
@@ -118,7 +118,7 @@ Console.WriteLine("Compression adjustment completed successfully.");
 
 ## 結論
 
-使用 Aspose.Cells for .NET 調整工作簿的壓縮等級非常簡單，可以顯著改善檔案大小和效能。按照本指南中概述的步驟，您可以有效地在應用程式中實施壓縮，從而增強您的 Excel 檔案管理功能。
+使用 Aspose.Cells for .NET 調整工作簿的壓縮等級是一個簡單的過程，可以顯著改善檔案大小和效能。透過遵循本指南中概述的步驟，您可以在應用程式中有效地實現壓縮，從而增強 Excel 檔案管理功能。
 
 ## 常見問題解答
 

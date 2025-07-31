@@ -56,7 +56,7 @@ Il primo passo nel codice è definire la posizione del documento PDF che si desi
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Assicurati di aggiornare il `dataDir` variabile con il percorso corretto del file.
+Assicurati di aggiornare il `dataDir` variabile con il percorso corretto al tuo file.
 
 ## Passaggio 2: caricare il documento PDF
 

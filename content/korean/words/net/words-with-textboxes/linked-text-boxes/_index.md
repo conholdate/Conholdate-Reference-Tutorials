@@ -75,7 +75,7 @@ TextBox textBox2 = shape2.TextBox;
 
 이제 흥미로운 부분인 연결에 대해 알아보겠습니다. `textBox1` 에게 `textBox2`. 텍스트가 넘칠 때 `textBox1`, 그것은 계속될 것입니다 `textBox2`.
 
-연결하기 전에 다음 사항을 확인해야 합니다. `textBox2` 는 링크에 유효한 대상입니다:
+연결하기 전에 다음 사항을 확인해야 합니다. `textBox2` 는 연결을 위한 유효한 대상입니다:
 
 ```csharp
 if (textBox1.IsValidLinkTarget(textBox2))

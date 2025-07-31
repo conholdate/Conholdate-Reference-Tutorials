@@ -27,7 +27,7 @@ using System.IO;
 
 Những lần nhập này đảm bảo rằng bạn có quyền truy cập vào các lớp và phương thức cần thiết để xử lý các tệp Zimbra TGZ.
 
-Giờ đến phần thú vị nhất—viết và hiểu mã. Chúng ta hãy cùng phân tích từng bước một.  
+Giờ đến phần thú vị nhất: viết và hiểu mã. Chúng ta hãy cùng phân tích từng bước một.  
 
 ## Bước 1: Thiết lập thư mục của bạn  
 
@@ -64,7 +64,7 @@ reader.ExportTo(outputDir);
 ```  
 
 ### Cách thức hoạt động này  
-Các `ExportTo` Phương pháp này sẽ duyệt qua tệp TGZ, trích xuất nội dung của nó và lưu chúng vào thư mục bạn đã chỉ định. Nó đơn giản như việc sao chép-dán tệp giữa hai thư mục nhưng hiệu quả hơn nhiều!  
+Các `ExportTo` Phương pháp này sẽ duyệt qua tệp TGZ, trích xuất nội dung của nó và lưu chúng vào thư mục bạn đã chỉ định. Nó đơn giản như việc sao chép và dán tệp giữa hai thư mục nhưng hiệu quả hơn nhiều!  
 
 
 ## Bước 4: Xử lý mọi ngoại lệ  

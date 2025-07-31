@@ -125,4 +125,4 @@ Tak! Możesz utworzyć stronę z treścią (np. tekstem lub obrazami) i wstawić
 Tak, Aspose.PDF obsługuje zarówno .NET Framework, jak i .NET Core.
 
 ### Jak przetestować kod bez ograniczeń?
-Możesz poprosić o [tymczasowa licencja](https://purchase.aspose.com/temporary-license/) aby uzyskać w pełni funkcjonalną wersję pliku Aspose.PDF do celów testowych.
+Możesz poprosić o [tymczasowa licencja](https://purchase.aspose.com/temporary-license/) aby uzyskać w pełni funkcjonalną wersję Aspose.PDF do celów testowych.

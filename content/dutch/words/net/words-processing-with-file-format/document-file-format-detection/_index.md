@@ -22,7 +22,7 @@ Voordat we beginnen, moet u ervoor zorgen dat aan de volgende vereisten is volda
    Gebruik Visual Studio (elke recente versie) met .NET Framework geïnstalleerd.
 
 3. Basisbestandsinstellingen  
-   Organiseer uw invoerbestanden en bereid mappen voor voor het sorteren van de gedetecteerde formaten.
+   Organiseer uw invoerbestanden en bereid mappen voor voor het sorteren van gedetecteerde formaten.
 
 ## Essentiële naamruimten importeren
 

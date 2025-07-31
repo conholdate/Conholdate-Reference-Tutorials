@@ -17,7 +17,7 @@ Pernahkah Anda mencoba mengonversi spreadsheet Excel ke HTML tetapi kesulitan me
 
 ## Mengedit Komentar Berulir di Excel 
  
-Bayangkan berkolaborasi di lembar Excel dengan komentar yang mengalir mulus seperti percakapan. Komentar berulir memungkinkan hal itu, dan Aspose.Cells memungkinkan Anda mengedit komentar ini secara terprogram. Panduan kami menunjukkan langkah demi langkah cara mengelola komentar berulir untuk kerja tim yang efisien. [Pelajari lebih lanjut](./editing-threaded-comments/).
+Bayangkan berkolaborasi di lembar Excel dengan komentar yang mengalir lancar seperti percakapan. Komentar berulir memungkinkan hal itu, dan Aspose.Cells memungkinkan Anda mengedit komentar ini secara terprogram. Panduan kami menunjukkan langkah demi langkah cara mengelola komentar berulir untuk kerja tim yang efisien. [Pelajari lebih lanjut](./editing-threaded-comments/).
 
 ## Menambahkan Latar Belakang Grafis ke File ODS
   

@@ -257,7 +257,7 @@ Chcete-li dosáhnout co nejlepšího výkonu při převodu z Excelu do PDF:
 
 Převod souborů Excel do PDF v .NET nemusí být složitý. S Aspose.Cells získáte výkonné a spolehlivé řešení, které zvládne vše od jednoduchých tabulek až po složité obchodní zprávy. Robustní API knihovny zajišťuje, že si vaše PDF soubory zachovají veškeré formátování a vizuální prvky, které činí vaše soubory Excelu cennými.
 
-Nezapomeňte, že úspěšná implementace jde nad rámec pouhého spuštění konverze. Zvažte ošetření chyb, optimalizaci výkonu a uživatelskou zkušenost ve vašich aplikacích. Díky technikám a osvědčeným postupům popsaným v této příručce jste dobře vybaveni k vytvoření profesionálních řešení pro konverzi Excelu do PDF, na která se vaši uživatelé budou spolehnout.
+Nezapomeňte, že úspěšná implementace jde nad rámec pouhého zprovoznění konverze. Zvažte ošetření chyb, optimalizaci výkonu a uživatelskou zkušenost ve vašich aplikacích. Díky technikám a osvědčeným postupům popsaným v této příručce jste dobře vybaveni k vytvoření profesionálních řešení pro konverzi Excelu do PDF, na která se vaši uživatelé budou spolehnout.
 
 Ať už vytváříte automatizované systémy pro tvorbu reportů, aplikace pro správu dokumentů nebo jednoduché konverzní nástroje, Aspose.Cells poskytuje základ, který potřebujete pro robustní a podnikovou konverzi Excelu do PDF v .NET.
 

@@ -1,13 +1,14 @@
 ---
-title: Oktatóanyagok és példák a GroupDocs.Annotation for .NET-hez
-linktitle: GroupDocs.Annotation for .NET Tutorials
-weight: 10
-url: /hu/annotation/
-description: Használja ki a GroupDocs.Annotation teljes potenciálját .NET-hez oktatóanyagainkkal. Zökkenőmentesen integrálja, fokozza az együttműködést és egyszerűsítse a munkafolyamatokat.
-is_root: true
+"description": "Fedezze fel a GroupDocs.Annotation for .NET teljes potenciálját oktatóanyagaink segítségével. Zökkenőmentesen integrálhatja, javíthatja az együttműködést és egyszerűsítheti a munkafolyamatokat."
+"is_root": true
+"linktitle": "GroupDocs.Annotation .NET oktatóanyagokhoz"
+"title": "GroupDocs.Annotation .NET-hez készült oktatóanyagok és példák"
+"url": "/hu/annotation/net/"
+"weight": 10
 ---
-## GroupDocs.Annotation for .NET Tutorials
-### [Master Advanced Annotation Features a GroupDocs.Annotation for .NET](./master-advanced-annotation-features/)
-Fokozza ki a GroupDocs.Annotation for .NET-ben rejlő lehetőségeket az XML-feljegyzések exportálására és a dokumentumoldal-előnézetek létrehozására vonatkozó oktatóanyagok segítségével.
-### [Útmutató a dokumentum összetevőihez a GroupDocs.Annotation for .NET-hez](./guide-to-document-components/)
-Fedezze fel a GroupDocs.Annotation for .NET oktatóanyagokat! Ismerje meg lépésről lépésre, hogyan adhat hozzá egyszerűen interaktív gombokat és jelölőnégyzeteket PDF-dokumentumokhoz.
+
+## GroupDocs.Annotation .NET oktatóanyagokhoz
+### [Sajátítsa el a GroupDocs.Annotation for .NET haladó annotációs funkcióit](./master-advanced-annotation-features/)
+Fedezze fel a GroupDocs.Annotation for .NET lehetőségeit az XML-annotációk exportálásáról és a dokumentumoldalak előnézetének létrehozásáról szóló oktatóanyagok segítségével.
+### [Útmutató a GroupDocs.Annotation for .NET dokumentumösszetevőihez](./guide-to-document-components/)
+Fedezd fel a GroupDocs.Annotation for .NET oktatóanyagait! Tanuld meg lépésről lépésre, hogyan adhatsz hozzá interaktív gombokat és jelölőnégyzeteket PDF dokumentumokhoz könnyedén.

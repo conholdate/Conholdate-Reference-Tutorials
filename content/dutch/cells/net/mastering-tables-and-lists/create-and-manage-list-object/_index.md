@@ -40,7 +40,7 @@ using Aspose.Cells;
 
 Deze stap is essentieel omdat u hiermee toegang krijgt tot de functionaliteiten die Aspose.Cells biedt.
 
-Laten we het proces opdelen in hanteerbare stappen.
+Laten we het proces opdelen in beheersbare stappen.
 
 ## Stap 1: Stel uw documentenmap in
 
@@ -60,7 +60,7 @@ Maak vervolgens een `Workbook` object om uw Excel-bestand te vertegenwoordigen:
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
-Met deze actie wordt de werkmap geopend, waardoor alle gegevens toegankelijk worden voor bewerking.
+Met deze actie wordt de werkmap geopend, waardoor alle gegevens toegankelijk zijn voor bewerking.
 
 ## Stap 3: Toegang tot de verzameling lijstobjecten
 
@@ -74,7 +74,7 @@ Met deze regel worden de objecten in de lijst opgehaald. Dit is te vergelijken m
 
 ## Stap 4: Een lijstobject toevoegen
 
-Laten we nu een lijst toevoegen op basis van een bepaald gegevensbereik:
+Laten we nu een lijst toevoegen op basis van een opgegeven gegevensbereik:
 
 ```csharp
 listObjects.Add(1, 1, 7, 5, true);

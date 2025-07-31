@@ -79,7 +79,7 @@ WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskP
 
 ## चरण 6: कार्य पैन के माध्यम से पुनरावृति करें
 
-आइए प्रत्येक कार्य फलक को देखें और उपयोगी जानकारी निकालें:
+आइए प्रत्येक कार्य फलक पर जाएँ और उपयोगी जानकारी निकालें:
 
 ```csharp
 foreach (WebExtensionTaskPane taskPane in taskPanes)

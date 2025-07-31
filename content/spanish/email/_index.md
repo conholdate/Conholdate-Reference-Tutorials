@@ -21,7 +21,7 @@ Descubra todo el potencial de la gestión de correo electrónico con Aspose.Emai
 - **📧 Compatibilidad con formatos de correo electrónico**:EML, MSG, MHTML, PST, OST, MBOX y más
 - **Conversión sin problemas**: Transforme entre diferentes formatos de correo electrónico con alta fidelidad
 - **🤖 Análisis avanzado**:Detección de spam y procesamiento de contenido basados en aprendizaje automático
-- **📊 Integración de protocolos**: Compatibilidad con SMTP, POP3, IMAP y servicios web de Exchange
+- **📊 Integración de protocolos**Compatibilidad con SMTP, POP3, IMAP y servicios web de Exchange
 - **🔒 Funciones de seguridad**:Cifrado de correo electrónico, firmas digitales y autenticación
 
 ## Categorías de tutoriales
@@ -40,7 +40,7 @@ Procesamiento avanzado de contenido de correo electrónico y técnicas de análi
 | Tutorial | Descripción | Dificultad |
 |----------|-------------|------------|
 | **[Análisis de spam bayesiano en C#](./guide-to-email-processing-and-analysis/bayesian-spam-analysis-in-csharp/)** | Detección de spam basada en aprendizaje automático con análisis estadístico | ⭐⭐⭐ Avanzado |
-| **[Convertir correo electrónico HTML a texto sin formato](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** | Extraer contenido de texto limpio de correos electrónicos HTML | ⭐⭐ Intermedio |
+| **[Convertir correo electrónico HTML a texto sin formato](./guide-to-email-processing-and-analysis/convert-html-email-to-plain-text/)** Extraer contenido de texto limpio de correos electrónicos HTML | ⭐⭐ Intermedio |
 
 ### Dominar las notificaciones y el seguimiento por correo electrónico
 Sistemas de notificación por correo electrónico profesionales e implementaciones de seguimiento para aplicaciones empresariales.
@@ -60,7 +60,7 @@ Sistemas de notificación por correo electrónico profesionales e implementacion
 
 ### **Seguridad y análisis del correo electrónico**
 - **Detección de spam**:Filtrado automatizado con algoritmos de aprendizaje automático
-- **Análisis de contenido**: Extraer y analizar el contenido del correo electrónico para comprobar su cumplimiento
+- **Análisis de contenido**: Extraer y analizar el contenido del correo electrónico para comprobar el cumplimiento
 - **Auditoría de seguridad**:Monitorear y analizar patrones de tráfico de correo electrónico
 
 ### **Procesamiento automatizado de correo electrónico**
@@ -122,10 +122,10 @@ Sistemas de notificación por correo electrónico profesionales e implementacion
 - **Cifrado** - Comunicación por correo electrónico segura y protección de datos
 
 ### **Análisis e informes**
-- **Seguimiento de correo electrónico** - Confirmación de entrega de mensajes y recibos de lectura
+- **Seguimiento de correo electrónico** Confirmación de entrega de mensajes y recibos de lectura
 - **Análisis de contenido** - Minería de texto y clasificación de correo electrónico
 - **Métricas de rendimiento** - Supervisión y análisis del sistema de correo electrónico
-- **Informes de cumplimiento** Cumplimiento normativo y registros de auditoría
+- **Informes de cumplimiento** - Cumplimiento normativo y registros de auditoría
 
 ## 🔗 Recursos adicionales
 
@@ -140,7 +140,7 @@ Sistemas de notificación por correo electrónico profesionales e implementacion
 - **[Licencia temporal](https://purchase.conholdate.com/temporary-license/)** - Período de evaluación extendido para las pruebas
 - **[Opciones de compra](https://purchase.conholdate.com/buy)** - Licencias flexibles para equipos y empresas
 
-## 📋 Tutorial de referencia rápida
+## 📋 Referencia rápida del tutorial
 
 ### **Conversión de formato de correo electrónico**
 - EML → MSG (compatibilidad e integración con Outlook)

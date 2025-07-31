@@ -55,7 +55,7 @@ Oto kilka praktycznych wskazówek, które oszczędzą Ci kłopotów w przyszło�
 
 **Obsługa czcionek**Jeśli Twoje pliki PDF korzystają z niestandardowych czcionek, upewnij się, że są one dostępne na serwerze konwersji. Brak czcionek to jedna z najczęstszych przyczyn problemów z formatowaniem.
 
-**Ustawienia jakości obrazu**W przypadku konwersji plików PDF na obrazy, dobierz odpowiedni rozmiar pliku do jakości, biorąc pod uwagę konkretne zastosowanie. Obrazy o wysokiej rozdzielczości świetnie nadają się do druku, ale są przesadą w przypadku miniaturek do internetu.
+**Ustawienia jakości obrazu**W przypadku konwersji plików PDF na obrazy, dobierz odpowiedni rozmiar pliku do jakości, w zależności od potrzeb. Obrazy o wysokiej rozdzielczości świetnie nadają się do druku, ale są przesadą w przypadku miniaturek do internetu.
 
 **Strategia przetwarzania wsadowego**Zamiast konwertować pliki pojedynczo, zaimplementuj przetwarzanie równoległe dla lepszej wydajności. Pamiętaj tylko o wykorzystaniu pamięci i ustaw odpowiednie limity.
 

@@ -1,25 +1,26 @@
 ---
-title: Cómo agregar componentes de botón con GroupDocs.Annotation para .NET
-linktitle: Agregar componentes de botón
-second_title: API .NET de GroupDocs.Annotation
-description: Descubra cómo mejorar sus documentos PDF agregando componentes de botones interactivos mediante GroupDocs.Annotation para .NET. Este tutorial paso a paso.
-weight: 10
-url: /es/annotation/guide-to-document-components/adding-button-component/
+"description": "Descubra cómo optimizar sus documentos PDF añadiendo componentes de botón interactivos con GroupDocs.Annotation para .NET. Este tutorial paso a paso."
+"linktitle": "Agregar componentes de botón"
+"second_title": "API .NET de GroupDocs.Annotation"
+"title": "Agregar componentes de botón con GroupDocs.Annotation para .NET"
+"url": "/es/annotation/net/guide-to-document-components/adding-button-component/"
+"weight": 10
 ---
+
 ## Introducción
 
-En este tutorial, le explicaremos el sencillo proceso de agregar un componente de botón a un documento PDF mediante la biblioteca GroupDocs.Annotation para .NET. Al finalizar esta guía, estará preparado para mejorar sus documentos PDF con funciones interactivas.
+En este tutorial, le guiaremos por el sencillo proceso de agregar un componente de botón a un documento PDF mediante la biblioteca GroupDocs.Annotation para .NET. Al finalizar esta guía, podrá mejorar sus documentos PDF con funciones interactivas.
 
 ## Prerrequisitos
 
 Antes de comenzar, asegúrese de tener lo siguiente en su lugar:
 
-1.  GroupDocs.Annotation para .NET: Descargue e instale la biblioteca GroupDocs.Annotation para .NET desde[aquí](https://releases.groupdocs.com/annotation/net/).
+1. GroupDocs.Annotation para .NET: Descargue e instale la biblioteca GroupDocs.Annotation para .NET desde [aquí](https://releases.groupdocs.com/annotation/net/).
 2. Entorno de desarrollo: configure un entorno de desarrollo adecuado con el marco .NET instalado.
 
 ## Paso 1: Importar los espacios de nombres necesarios
 
-Comience importando los espacios de nombres necesarios a su proyecto:
+Comience importando los espacios de nombres necesarios en su proyecto:
 
 ```csharp
 using System;
@@ -69,7 +70,7 @@ using (Annotator annotator = new Annotator("input.pdf"))
 }
 ```
 
-## Paso 4: Mostrar ruta de salida
+## Paso 4: Mostrar la ruta de salida
 
 Por último, informe al usuario dónde se guarda el archivo de salida:
 
@@ -77,17 +78,17 @@ Por último, informe al usuario dónde se guarda el archivo de salida:
 Console.WriteLine($"\nDocument saved successfully.\nCheck output in {outputPath}.");
 ```
 
-¡Felicitaciones! Ha agregado exitosamente un componente de botón a un documento PDF usando GroupDocs.Annotation para .NET.
+¡Felicitaciones! Has añadido correctamente un componente de botón a un documento PDF con GroupDocs.Annotation para .NET.
 
 ## Conclusión
 
-En este tutorial, demostramos cómo incorporar componentes de botones en documentos PDF con GroupDocs.Annotation para .NET. Si sigue estos pasos, podrá mejorar significativamente la interactividad de sus documentos PDF.
+En este tutorial, mostramos cómo incorporar componentes de botón en documentos PDF con GroupDocs.Annotation para .NET. Siguiendo estos pasos, podrá mejorar significativamente la interactividad de sus documentos PDF.
 
 ## Preguntas frecuentes
 
 ### ¿Puedo personalizar la apariencia del botón?
 
-¡Por supuesto! Puedes modificar varias propiedades, como el tamaño, el color y el estilo, para adaptarlas a tus necesidades.
+¡Claro! Puedes modificar varias propiedades, como el tamaño, el color y el estilo, para adaptarlas a tus necesidades.
 
 ### ¿GroupDocs.Annotation para .NET es compatible con todas las versiones de PDF?
 
@@ -97,10 +98,10 @@ Sí, GroupDocs.Annotation para .NET admite una amplia gama de versiones de PDF, 
 
 Sí, puedes agregar tantos componentes de botón como necesites a un documento PDF.
 
-### ¿GroupDocs.Annotation para .NET admite otros formatos de archivo?
+### ¿GroupDocs.Annotation para .NET admite otros formatos de archivos?
 
 Sí, admite varios formatos de documentos, incluidos DOCX, PPTX y XLSX, además de PDF.
 
 ### ¿Existe una versión de prueba disponible para fines de prueba?
 
- Sí, puede acceder a una prueba gratuita de GroupDocs.Annotation para .NET desde[aquí](https://releases.groupdocs.com/).
+Sí, puede acceder a una prueba gratuita de GroupDocs.Annotation para .NET desde [aquí](https://releases.groupdocs.com/).

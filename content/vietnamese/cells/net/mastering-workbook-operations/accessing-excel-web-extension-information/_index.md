@@ -9,7 +9,7 @@
 
 ## Giới thiệu
 
-Trong bối cảnh dữ liệu ngày nay, việc quản lý và thao tác hiệu quả các tệp Excel thông qua lập trình là vô cùng quan trọng. Aspose.Cells for .NET cung cấp cho các nhà phát triển một nền tảng mạnh mẽ để thực hiện các thao tác Excel phức tạp một cách liền mạch. Một tính năng nổi bật là khả năng truy cập dữ liệu tiện ích mở rộng web trong các tệp Excel. Hướng dẫn này sẽ hướng dẫn bạn quy trình trích xuất và hiểu thông tin tiện ích mở rộng web bằng Aspose.Cells. Dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, chúng tôi đều có hướng dẫn từng bước rõ ràng, giúp bạn dễ dàng thực hiện hành trình này như một tờ giấy da mới phết bơ!
+Trong bối cảnh dữ liệu ngày nay, việc quản lý và thao tác hiệu quả các tệp Excel thông qua lập trình là vô cùng quan trọng. Aspose.Cells for .NET cung cấp cho các nhà phát triển một nền tảng mạnh mẽ để thực hiện các thao tác Excel phức tạp một cách liền mạch. Một tính năng nổi bật là khả năng truy cập dữ liệu tiện ích mở rộng web trong các tệp Excel. Hướng dẫn này sẽ hướng dẫn bạn quy trình trích xuất và hiểu thông tin tiện ích mở rộng web bằng Aspose.Cells. Dù bạn là một nhà phát triển kỳ cựu hay chỉ mới bắt đầu, chúng tôi đều có hướng dẫn từng bước rõ ràng, giúp bạn dễ dàng thực hiện hành trình này như một tờ giấy da mới phết bơ!
 
 ## Điều kiện tiên quyết
 
@@ -65,7 +65,7 @@ Bây giờ, hãy tải tệp Excel vào ứng dụng của bạn. Điều này r
 Workbook workbook = new Workbook(sourceDir + "WebExtensionsSample.xlsx");
 ```
 
-Dòng này tạo ra một phiên bản của `Workbook` lớp, cho phép bạn khám phá nội dung của tệp.
+Dòng này tạo ra một thể hiện của `Workbook` lớp, cho phép bạn khám phá nội dung của tệp.
 
 ## Bước 5: Truy cập Bảng tác vụ tiện ích mở rộng web
 
@@ -115,7 +115,7 @@ Phản hồi này giúp bạn biết quá trình đã hoàn tất mà không có
 
 ## Phần kết luận
 
-Xin chúc mừng bạn đã học thành công cách truy cập thông tin tiện ích mở rộng web trong tệp Excel bằng Aspose.Cells for .NET! Thư viện mạnh mẽ này không chỉ đơn giản hóa việc thao tác trên tệp Excel mà còn nâng cao khả năng trích xuất và hiểu dữ liệu phức tạp của bạn. Cho dù bạn đang quản lý báo cáo tài chính hay xây dựng bảng điều khiển động, việc khai thác dữ liệu tiện ích mở rộng web sẽ giúp tăng cường đáng kể khả năng tự động hóa Excel của bạn.
+Xin chúc mừng bạn đã thành công trong việc học cách truy cập thông tin tiện ích mở rộng web trong tệp Excel bằng Aspose.Cells for .NET! Thư viện mạnh mẽ này không chỉ đơn giản hóa việc thao tác trên tệp Excel mà còn nâng cao khả năng trích xuất và hiểu dữ liệu phức tạp của bạn. Cho dù bạn đang quản lý báo cáo tài chính hay xây dựng bảng điều khiển động, việc khai thác dữ liệu tiện ích mở rộng web sẽ giúp tăng cường đáng kể khả năng tự động hóa Excel của bạn.
 
 ## Câu hỏi thường gặp
 

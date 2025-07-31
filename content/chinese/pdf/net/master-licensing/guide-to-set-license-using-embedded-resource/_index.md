@@ -50,7 +50,7 @@ string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 
 ## 步骤2：初始化许可证对象
 
-您需要创建一个 `License` 来自 Aspose.PDF 的类。此对象将用于加载您的许可证文件。
+您需要创建一个实例 `License` 来自 Aspose.PDF 的类。此对象将用于加载您的许可证文件。
 
 ```csharp
 // 初始化许可证对象

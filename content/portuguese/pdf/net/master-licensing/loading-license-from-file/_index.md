@@ -92,5 +92,5 @@ Execute um teste criando um PDF e verificando se há marcas d'água ou restriç�
 ### Onde posso obter uma licença para o Aspose.PDF?  
 Compre uma licença da [Página de compra da Aspose](https://purchase.aspose.com/buy) ou obter uma licença temporária para fins de avaliação.  
 
-### A licença é específica para cada versão?  
+### licença é específica para cada versão?  
 Sim, certifique-se de que sua licença corresponda à versão do Aspose.PDF instalada em seu projeto.

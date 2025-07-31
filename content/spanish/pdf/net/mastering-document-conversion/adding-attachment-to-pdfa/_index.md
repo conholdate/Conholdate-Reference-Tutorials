@@ -113,7 +113,7 @@ Console.WriteLine("Attachment added successfully to PDF/A file.\nFile saved at "
 
 Aunque opcional, este paso de verificación es muy recomendable para aplicaciones de producción. Confirma que la operación se completó correctamente y proporciona la ubicación del archivo como referencia.
 
-## Mejores prácticas para la conformidad con PDF/A
+## Mejores prácticas para el cumplimiento de PDF/A
 
 Al trabajar con archivos adjuntos PDF/A, seguir estas prácticas le ahorrará dolores de cabeza en el futuro:
 

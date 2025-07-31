@@ -42,7 +42,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-기초가 마련되었으니, 코드로 들어가 보겠습니다!
+기초가 마련되었으니, 코드로 들어가보겠습니다!
 
 ## 1단계: 문서 디렉토리 지정
 
@@ -120,7 +120,7 @@ Excel 행과 열 머리글을 표시하거나 숨기는 기능은 특히 데이�
 Aspose.Cells는 Excel 파일을 프로그래밍 방식으로 조작할 수 있는 .NET 라이브러리로, 스프레드시트를 효율적으로 만들고, 수정하고, 변환할 수 있습니다.
 
 ### 헤더를 숨긴 후 다시 표시할 수 있나요?
-물론입니다! 간단하게 설정했습니다 `worksheet.IsRowColumnHeadersVisible` 에게 `true` 헤더를 다시 표시합니다.
+물론입니다! 간단히 설정했습니다 `worksheet.IsRowColumnHeadersVisible` 에게 `true` 헤더를 다시 표시합니다.
 
 ### Aspose.Cells는 무료인가요?
 Aspose.Cells는 유료 라이브러리이지만, 제한된 기간 동안 무료로 사용해 볼 수 있습니다. [무료 체험 페이지](https://releases.aspose.com/).

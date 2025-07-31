@@ -12,7 +12,7 @@ Dans le monde numérique, rendre vos documents conviviaux est essentiel, surtout
 
 ## Ajout d'info-bulles aux champs de formulaire PDF
 
-Avez-vous déjà rempli un formulaire et souhaité y trouver des conseils utiles ? C'est là que les infobulles entrent en jeu. L'ajout d'infobulles à vos champs de formulaire PDF avec Aspose.PDF pour .NET améliore non seulement l'ergonomie de votre document, mais guide également les utilisateurs pour remplir correctement les formulaires. Considérez les infobulles comme de petites bouées de sauvetage jetées par-dessus bord, offrant une assistance au moment opportun. [En savoir plus](./adding-tooltips-to-pdf-form-fields/).
+Avez-vous déjà rempli un formulaire et souhaité y trouver des conseils utiles ? C'est là que les infobulles entrent en jeu. Ajouter des infobulles à vos champs de formulaire PDF avec Aspose.PDF pour .NET améliore non seulement l'ergonomie de votre document, mais guide également les utilisateurs pour remplir correctement les formulaires. Considérez les infobulles comme de petites bouées de sauvetage jetées par-dessus bord, offrant une assistance au moment opportun. [En savoir plus](./adding-tooltips-to-pdf-form-fields/).
 
 ## Remplir les champs du formulaire PDF avec du texte arabe
 

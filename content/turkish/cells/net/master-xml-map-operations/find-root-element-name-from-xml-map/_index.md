@@ -68,7 +68,7 @@ Kök öğe adı, XML yapınızın kritik bir bileşenidir. Bunu konsola aşağı
 Console.WriteLine("Root Element Name of XML Map: " + xmap.RootElementName);
 ```
 
-Bu satır XML haritasından kök eleman adını alır ve konsola yazdırır.
+Bu satır XML haritasından kök öğe adını alır ve konsola yazdırır.
 
 ## Adım 5: Kodunuzu Çalıştırın
 Artık her şeyi ayarladığınıza göre, programınızı çalıştırın. Başarılı olursa, XML haritanızın kök öğe adı konsol penceresinde görüntülenecektir:

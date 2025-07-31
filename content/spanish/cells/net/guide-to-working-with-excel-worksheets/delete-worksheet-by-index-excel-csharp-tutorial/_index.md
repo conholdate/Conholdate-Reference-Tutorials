@@ -67,7 +67,7 @@ En este paso, giramos metafóricamente la llave para desbloquear su archivo de E
 
 ## Paso 3: Crear una instancia del objeto de libro de trabajo
 
-Una vez que el flujo de archivos esté listo, cree un `Workbook` Objeto que representa su archivo de Excel. Este objeto actúa como la interfaz principal al trabajar con sus datos de Excel.
+Una vez que el flujo de archivos esté listo, cree un `Workbook` Objeto que representa su archivo de Excel. Este objeto actúa como interfaz principal al trabajar con sus datos de Excel.
 
 ```csharp
 Workbook workbook = new Workbook(fstream);

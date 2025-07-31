@@ -16,7 +16,7 @@ Benvenuti nell'entusiasmante mondo della manipolazione dei PDF con Aspose.PDF pe
 Prima di passare al codice, assicuriamoci di aver impostato tutto:
 
 1. .NET Framework: assicurati di avere .NET Framework installato sul tuo computer. Aspose.PDF funziona perfettamente con diverse versioni, inclusa .NET Core.
-2. Libreria Aspose.PDF: scarica e fai riferimento alla libreria Aspose.PDF per .NET nel tuo progetto. Puoi scaricare l'ultima versione da [collegamento per il download](https://releases.aspose.com/pdf/net/).
+2. Libreria Aspose.PDF: scarica e fai riferimento alla libreria Aspose.PDF per .NET nel tuo progetto. Puoi scaricare l'ultima versione da [link per il download](https://releases.aspose.com/pdf/net/).
 3. Editor di codice: sebbene sia possibile utilizzare qualsiasi editor di codice, Visual Studio è altamente consigliato per la sua interfaccia intuitiva con le applicazioni .NET.
 4. Conoscenza di base di C#: la familiarità con C# ti aiuterà a navigare agevolmente tra gli esempi di codifica.
 5. Configurazione dell'ambiente di sviluppo: assicurati che l'IDE sia configurato per i progetti .NET e che sia stato fatto correttamente riferimento alla libreria Aspose.PDF.

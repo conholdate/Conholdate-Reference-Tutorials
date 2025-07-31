@@ -192,7 +192,7 @@ using System;
 
 Tyto jmenné prostory obsahují potřebné třídy a funkce pro práci s PDF dokumenty a anotacemi. Nyní si rozdělme úkol vytvoření odkazu na dokument na jednotlivé kroky.
 
-Vytvoření odkazu na dokument je jako vydláždění cesty mezi dvěma body. Zajistěte, aby ti, kteří se ve vašem PDF procházejí, to dělali snadno!
+Vytvoření odkazu na dokument je jako vydláždění cesty mezi dvěma body. Zajistěme, aby ti, kteří se ve vašem PDF pohybují, to dělali snadno!
 
 ## Krok 1: Definujte adresář dokumentů
 
@@ -286,7 +286,7 @@ A tady to máte! Pomocí Aspose.PDF pro .NET můžete snadno vytvářet funkčn�
 Aspose.PDF pro .NET je knihovna, která umožňuje vývojářům programově vytvářet, manipulovat a převádět PDF dokumenty.
 
 ### Mohu vytvářet odkazy na externí webové stránky?
-Ano, odkazy na externí webové stránky můžete vytvářet změnou akce odkazu na `GoToRemoteAction` s URL adresou.
+Ano, odkazy na externí webové stránky můžete vytvořit změnou akce odkazu na `GoToRemoteAction` s URL adresou.
 
 ### Je k dispozici bezplatná zkušební verze?
 Rozhodně! Můžeš. [stáhněte si bezplatnou zkušební verzi zde](https://releases.aspose.com/).

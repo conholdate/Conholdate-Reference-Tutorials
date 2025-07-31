@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Words for .NET 在使用 HtmlFixedSaveOptions 儲存文件時將所有 CSS 規則寫入單一檔案。請遵循此詳細教程，以獲得逐步指導。"
+"description": "了解如何使用 Aspose.Words for .NET 在使用 HtmlFixedSaveOptions 儲存文件時將所有 CSS 規則寫入單一檔案。按照這個詳細的教學進行逐步指導。"
 "linktitle": "將所有 CSS 規則寫入單一文件"
 "second_title": "Aspose.Words文件處理API"
 "title": "將所有 CSS 規則保存在單一檔案中"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-在將 Word 文件轉換為 HTML 時，您是否曾經為一堆雜亂的 CSS 規則而苦惱？您並不孤單！幸運的是，Aspose.Words for .NET 提供了一個強大的功能，可讓您將所有 CSS 規則合併到一個檔案中。這不僅可以清理您的程式碼，還可以簡化您的工作流程。讓我們踏上更簡潔、更有效率的 HTML 輸出之旅！
+在將 Word 文件轉換為 HTML 時，您是否曾經為混亂的 CSS 規則而苦惱？你並不孤單！幸運的是，Aspose.Words for .NET 提供了一個強大的功能，讓您可以將所有 CSS 規則合併到一個檔案中。這不僅清理了您的程式碼，而且還簡化了您的工作流程。讓我們踏上更乾淨、更有效率的 HTML 輸出之旅！
 
 ## 先決條件
 
@@ -51,7 +51,7 @@ Document doc = new Document(dataDir + "Document.docx");
 
 ## 步驟 3：設定 HTML 儲存選項
 
-現在，讓我們來配置 HTML 儲存選項。我們希望透過設定以下參數來啟用將所有 CSS 規則合併到單一檔案的功能： `SaveFontFaceCssSeparately` 到 `false`。
+現在，讓我們來配置 HTML 儲存選項。我們希望透過設定來啟用將所有 CSS 規則合併到單一檔案中的功能 `SaveFontFaceCssSeparately` 到 `false`。
 
 ```csharp
 // 配置 HTML 儲存選項以將所有 CSS 規則寫入一個檔案中
@@ -63,7 +63,7 @@ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions
 
 ## 步驟 4：將文件轉換為 HTML
 
-最後，使用指定的選項將文件儲存為 HTML 文件。這樣可以確保所有 CSS 規則整齊地組織在一個檔案中。
+最後，使用指定的選項將文件儲存為 HTML 文件。這確保所有 CSS 規則都整齊地組織在一個檔案中。
 
 ```csharp
 // 將文檔轉換為 HTML
@@ -72,7 +72,7 @@ doc.Save(dataDir + "ConvertedDocument.html", saveOptions);
 
 ## 結論
 
-恭喜！只需幾行程式碼，您就成功將 Word 文件轉換為 HTML，並確保所有 CSS 規則都整齊地編譯到單一檔案中。這種方法簡化了 CSS 管理，並增強了 HTML 文件的可維護性。下次需要轉換 Word 文件時，就能輕鬆掌握這項簡化的流程！
+恭喜！只需幾行程式碼，您就成功地將 Word 文件轉換為 HTML，確保所有 CSS 規則都整齊地編譯到一個檔案中。這種方法簡化了 CSS 管理並增強了 HTML 文件的可維護性。下次您需要轉換 Word 文件時，您將擁有一個輕鬆便捷的流程！
 
 ## 常見問題解答
 
@@ -80,7 +80,7 @@ doc.Save(dataDir + "ConvertedDocument.html", saveOptions);
 單一 CSS 檔案簡化了樣式管理，使您的 HTML 更清晰、更易於維護。
 
 ### 如果需要的話，我可以分離字型 CSS 規則嗎？
-當然！透過設定 `SaveFontFaceCssSeparately` 到 `true`，您可以將字體 CSS 規則分離到不同的文件中。
+絕對地！透過設定 `SaveFontFaceCssSeparately` 到 `true`，您可以將字體 CSS 規則分離到不同的文件中。
 
 ### Aspose.Words for .NET 可以免費使用嗎？
 Aspose.Words 提供免費試用版下載 [這裡](https://releases.aspose.com/)。如需繼續使用，請考慮購買許可證 [這裡](https://purchase。aspose.com/buy).

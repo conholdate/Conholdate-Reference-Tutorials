@@ -1,8 +1,8 @@
 ---
 "description": "Haal het maximale uit uw PDF-documenten met deze stapsgewijze handleiding voor het toevoegen van prachtige, met kleurverloop gevulde tekeningen met Aspose.PDF voor .NET. Perfect voor het verbeteren van rapporten, presentaties en elk document dat een visuele upgrade nodig heeft."
-"linktitle": "Tekeningen met kleurovergangen toevoegen met Aspose.PDF voor .NET"
+"linktitle": "Voeg tekeningen met kleurovergangvulling toe met Aspose.PDF voor .NET"
 "second_title": "Aspose.PDF voor .NET API-referentie"
-"title": "Tekeningen met kleurovergangen toevoegen met Aspose.PDF voor .NET"
+"title": "Voeg tekeningen met kleurovergangvulling toe met Aspose.PDF voor .NET"
 "url": "/nl/pdf/net/mastering-Graph-programming/add-gradient-filled-drawings/"
 "weight": 20
 ---
@@ -23,7 +23,7 @@ Zodra alles op zijn plaats is, kunnen we verder!
 
 ## Stap 1: Stel uw project in
 
-Begin met het maken van een nieuw C#-project in Visual Studio en voeg een verwijzing naar de Aspose.PDF-bibliotheek toe met behulp van NuGet Package Manager. Importeer vervolgens de benodigde naamruimten:
+Begin met het maken van een nieuw C#-project in Visual Studio en voeg een verwijzing toe naar de Aspose.PDF-bibliotheek met behulp van NuGet Package Manager. Importeer vervolgens de benodigde naamruimten:
 
 ```csharp
 using Aspose.Pdf.Drawing;
@@ -33,7 +33,7 @@ using System.Linq;
 using System.Text;
 ```
 
-## Stap 2: Definieer de documentmap
+## Stap 2: Definieer de documentdirectory
 
 Geef vervolgens de map op waar u uw PDF wilt opslaan:
 
@@ -109,7 +109,7 @@ Gefeliciteerd! U hebt met succes een kleurverlooptekening aan uw PDF-document to
 Aspose.PDF voor .NET is een robuuste bibliotheek waarmee ontwikkelaars programmatisch PDF-documenten kunnen maken, bewerken en converteren.
 
 ### Is Aspose.PDF gratis te gebruiken?
-Je kunt beginnen met een [gratis proefperiode](https://releases.aspose.com/) om de functies te verkennen, maar houd er rekening mee dat er beperkingen kunnen zijn op het gebruik.
+Je kunt beginnen met een [gratis proefperiode](https://releases.aspose.com/) om de functies ervan te verkennen, maar houd er rekening mee dat er beperkingen kunnen zijn op het gebruik.
 
 ### Waar kan ik meer documentatie vinden?
 Uitgebreide documentatie is beschikbaar op de [Aspose PDF-referentiepagina](https://reference.aspose.com/pdf/net/).

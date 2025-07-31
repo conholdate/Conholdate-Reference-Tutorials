@@ -35,7 +35,7 @@ using System.IO;
 
 ## Krok 1: Nastavení projektu  
 
-Začněte vytvořením nové konzolové aplikace v C# ve Visual Studiu. Ta bude sloužit jako základ pro implementaci sledování konverzí e-mailových dokumentů.  
+Začněte vytvořením nové konzolové aplikace v jazyce C# ve Visual Studiu. Ta bude sloužit jako základ pro implementaci sledování konverzí e-mailových dokumentů.  
   
 1. Otevřete Visual Studio a vytvořte nový projekt konzolové aplikace.  
 2. Nainstalujte balíček Aspose.Email NuGet:  

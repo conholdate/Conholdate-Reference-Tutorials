@@ -78,8 +78,8 @@ Avec le `PageSetup` objet prêt, vous pouvez maintenant spécifier les marges en
 
 ```csharp
 pageSetup.BottomMargin = 2; // Définir la marge inférieure
-pageSetup.LeftMargin = 1;   // Définir la marge gauche
-pageSetup.RightMargin = 1;  // Définir la marge de droite
+pageSetup.LeftMargin = 1;   // Définir la marge de gauche
+pageSetup.RightMargin = 1;  // Définir la marge droite
 pageSetup.TopMargin = 3;     // Définir la marge supérieure
 ```
 

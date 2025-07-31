@@ -60,7 +60,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 Trong mã này, `FileMode.Open` mở tệp nếu nó tồn tại. Nếu bạn không chắc chắn về đường dẫn của tệp, sử dụng đường dẫn tuyệt đối là lựa chọn đáng tin cậy nhất.
 
-## Bước 3: Tạo đối tượng sổ làm việc
+## Bước 3: Tạo đối tượng Workbook
 
 Tiếp theo, khởi tạo một `Workbook` đối tượng từ mở `FileStream`. Các `Workbook` Lớp này cung cấp các phương thức để thao tác và truy cập tất cả các phần tử trong tệp Excel.
 

@@ -56,7 +56,7 @@ loadOptions.LanguagePreferences.DefaultEditingLanguage = EditingLanguage.Russian
 
 ### दस्तावेज़ पथ निर्दिष्ट करें
 
-अपने दस्तावेज़ का पथ परिभाषित करें:
+अपने दस्तावेज़ का पथ निर्धारित करें:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -64,7 +64,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 
 ### LoadOptions के साथ दस्तावेज़ लोड करें
 
-फिर, का उपयोग करके दस्तावेज़ लोड करें `Document` निर्माता:
+फिर, दस्तावेज़ को लोड करें `Document` निर्माता:
 
 ```csharp
 Document doc = new Document(dataDir + "No default editing language.docx", loadOptions);

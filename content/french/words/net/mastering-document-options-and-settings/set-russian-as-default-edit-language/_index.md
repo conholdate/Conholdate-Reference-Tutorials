@@ -13,7 +13,7 @@ Dans un monde de plus en plus multilingue, personnaliser vos documents pour les 
 
 ## Prérequis
 
-Avant de commencer, assurez-vous d’avoir les éléments suivants :
+Avant de commencer, assurez-vous d’avoir les éléments suivants :
 
 1. Aspose.Words pour .NET : téléchargez la bibliothèque depuis le [Sorties d'Aspose](https://releases.aspose.com/words/net/) page.
 2. Environnement de développement : un IDE comme Visual Studio est recommandé pour coder et exécuter des applications .NET.

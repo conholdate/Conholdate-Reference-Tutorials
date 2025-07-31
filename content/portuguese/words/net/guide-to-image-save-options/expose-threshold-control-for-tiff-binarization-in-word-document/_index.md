@@ -21,7 +21,7 @@ Antes de começar, certifique-se de ter o seguinte:
 
 ## Importar namespaces
 
-Antes de começarmos o código, precisamos importar os namespaces necessários. Isso é crucial para acessar as classes e métodos que usaremos.
+Antes de começarmos a trabalhar no código, precisamos importar os namespaces necessários. Isso é crucial para acessar as classes e métodos que usaremos.
 
 ```csharp
 using Aspose.Words;

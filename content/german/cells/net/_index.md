@@ -107,7 +107,7 @@ Erweiterte Arbeitsblattoperationen für professionelle Excel-Automatisierung und
 
 ## 🔧 Erweiterte Funktionen in Kürze verfügbar
 
-### **Datenanalyse-Tools**
+### **Datenanalysetools**
 - **PivotTable-Automatisierung** - Dynamische Datenzusammenfassung
 - **Formel-Engine** - Erweiterte Berechnungsfunktionen
 - **Datenvalidierung** - Eingabevalidierung und Fehlerprüfung
@@ -129,7 +129,7 @@ Erweiterte Arbeitsblattoperationen für professionelle Excel-Automatisierung und
 - **[Kostenlose Testversion](https://releases.aspose.com/cells/net/)** - Alle Funktionen bewerten
 
 ### **Community und Support**
-- **[Support-Forum](https://forum.aspose.com/c/cells/9)** - Holen Sie sich Hilfe von Experten
+- **[Support-Forum](https://forum.aspose.com/c/cells/9)** Holen Sie sich Hilfe von Experten
 
 ### **Lizenzierung und Testversionen**
 - **[Temporäre Lizenz](https://purchase.conholdate.com/temporary-license/)** - Erweiterte Auswertung

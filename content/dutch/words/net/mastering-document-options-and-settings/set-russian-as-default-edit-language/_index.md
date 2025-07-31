@@ -1,8 +1,8 @@
 ---
 "description": "Leer hoe u uw Word-documenten kunt aanpassen door Russisch in te stellen als standaardbewerkingstaal met Aspose.Words voor .NET. Deze stapsgewijze handleiding."
-"linktitle": "Russisch als standaardtaal instellen"
+"linktitle": "Russisch instellen als standaardtaal"
 "second_title": "Aspose.Words API voor documentverwerking"
-"title": "Russisch als standaardtaal instellen"
+"title": "Russisch instellen als standaardtaal"
 "url": "/nl/words/net/mastering-document-options-and-settings/set-russian-as-default-edit-language/"
 "weight": 10
 ---
@@ -42,7 +42,7 @@ LoadOptions loadOptions = new LoadOptions();
 
 ### Stel de standaardbewerkingstaal in op Russisch
 
-Stel vervolgens de `DefaultEditingLanguage` eigenschap naar Russisch:
+Stel vervolgens de `DefaultEditingLanguage` eigendom naar Russisch:
 
 ```csharp
 loadOptions.LanguagePreferences.DefaultEditingLanguage = EditingLanguage.Russian;
@@ -70,7 +70,7 @@ Laad vervolgens het document met behulp van de `Document` constructeur:
 Document doc = new Document(dataDir + "No default editing language.docx", loadOptions);
 ```
 
-Met deze stap zorgt u ervoor dat Russisch wordt ingesteld als de standaardbewerkingstaal voor het geladen document.
+Met deze stap wordt ervoor gezorgd dat Russisch wordt ingesteld als de standaardbewerkingstaal voor het geladen document.
 
 ## Stap 3: Controleer de standaardbewerkingstaal
 
@@ -84,7 +84,7 @@ Krijg de `LocaleId` van het standaardlettertype van het document:
 int localeId = doc.Styles.DefaultFont.LocaleId;
 ```
 
-### Controleer de LocaleID
+### Controleer de LocaleId
 
 Vergelijk ten slotte de `LocaleId` om te zien of het overeenkomt met het Russisch:
 
@@ -111,13 +111,13 @@ Aspose.Words voor .NET is een uitgebreide bibliotheek voor het programmatisch ma
 
 U kunt Aspose.Words voor .NET downloaden van de [Aspose-releases](https://releases.aspose.com/words/net/) pagina.
 
-### Wat is `LoadOptions` waarvoor gebruikt?
+### Wat is `LoadOptions` gebruikt voor?
 
 `LoadOptions` Hiermee kunt u verschillende opties opgeven voor het laden van een document, waaronder het instellen van de standaardbewerkingstaal.
 
 ### Kan ik andere talen instellen als standaardbewerkingstaal?
 
-Ja, u kunt elke taal instellen die door Aspose.Words wordt ondersteund door de juiste `EditingLanguage` waarde aan `DefaultEditingLanguage`.
+Ja, u kunt elke taal instellen die door Aspose.Words wordt ondersteund door de juiste taal toe te wijzen `EditingLanguage` waarde aan `DefaultEditingLanguage`.
 
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Words voor .NET?
 

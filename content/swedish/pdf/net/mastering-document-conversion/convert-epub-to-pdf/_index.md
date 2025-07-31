@@ -38,7 +38,7 @@ Innan vi går in på koden, låt oss prata om varför du kanske vill konvertera 
 
 ## Förkunskapskrav
 
-Innan vi går vidare till konverteringsprocessen, låt oss se till att du har allt korrekt konfigurerat:
+Innan vi går vidare till konverteringsprocessen, låt oss se till att allt är korrekt konfigurerat:
 
 ### Krav för .NET Framework
 

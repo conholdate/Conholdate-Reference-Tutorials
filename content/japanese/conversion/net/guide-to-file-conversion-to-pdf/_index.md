@@ -1,13 +1,14 @@
 ---
-title: PDFへのファイル変換ガイド
-linktitle: PDFへのファイル変換ガイド
-second_title: GroupDocs.Conversion .NET API
-description: GroupDocs.Conversion for .NET を使用して、さまざまなファイル形式を PDF に簡単に変換する方法を学びます。このステップバイステップのチュートリアルでは、ライブラリの設定からシームレスなファイル変換の実行まで、すべてをカバーしています。
-weight: 20
-url: /ja/conversion/guide-to-file-conversion-to-pdf/
+"description": "GroupDocs.Conversion for .NET を使って、様々なファイル形式を簡単に PDF に変換する方法を学びましょう。このステップバイステップのチュートリアルでは、ライブラリの設定からシームレスなファイル変換の実行まで、あらゆる手順を網羅しています。"
+"linktitle": "PDFへのファイル変換ガイド"
+"second_title": "GroupDocs.Conversion .NET API"
+"title": "PDFへのファイル変換ガイド"
+"url": "/ja/conversion/net/guide-to-file-conversion-to-pdf/"
+"weight": 20
 ---
-## PDF へのファイル変換ガイドチュートリアル
-### [AI ファイルを PDF に変換する](./converting-ai-to-pdf/)
-GroupDocs.Conversion for .NET を使用して AI ファイルを PDF 形式に簡単に変換する方法を説明します。このチュートリアルでは、インストール、コードの設定、および変換プロセスについて説明します。
-### [BMP 画像を PDF に変換する](./converting-bmp-to-pdf/)
-GroupDocs.Conversion for .NET を使用して、BMP イメージを PDF 形式に簡単に変換する方法を学びます。この包括的なステップバイステップのチュートリアルでは、前提条件、ソース ファイルの処理、カスタマイズ オプションについて説明します。
+
+## PDFファイル変換ガイドチュートリアル
+### [AIファイルをPDFに変換する](./converting-ai-to-pdf/)
+GroupDocs.Conversion for .NETを使って、AIファイルをPDF形式に簡単に変換する方法をご紹介します。このチュートリアルでは、インストール、コードの設定、そして変換プロセスを解説します。
+### [BMP画像をPDFに変換する](./converting-bmp-to-pdf/)
+GroupDocs.Conversion for .NETを使って、BMP画像を簡単にPDF形式に変換する方法を学びましょう。この包括的なステップバイステップのチュートリアルでは、前提条件、ソースファイルの処理、カスタマイズオプションについて解説します。

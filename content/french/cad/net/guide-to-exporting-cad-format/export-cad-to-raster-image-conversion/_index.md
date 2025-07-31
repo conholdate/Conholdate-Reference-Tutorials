@@ -1,21 +1,22 @@
 ---
-title: Exporter des fichiers CAO vers des images raster avec Aspose.CAD pour .NET
-linktitle: Conversion d'images CAO en images raster
-second_title: Aspose.CAD .NET - Format de fichier CAO et BIM
-description: Découvrez comment convertir efficacement des mises en page CAO en différents formats d'image raster à l'aide d'Aspose.CAD pour .NET. Ce guide complet vous guide tout au long du processus avec un code clair.
-weight: 10
-url: /fr/cad/guide-to-exporting-cad-format/export-cad-to-raster-image-conversion/
+"description": "Apprenez à convertir efficacement des mises en page CAO en différents formats d'images raster avec Aspose.CAD pour .NET. Ce guide complet vous guide pas à pas avec un code clair."
+"linktitle": "Conversion d'images CAO en images raster"
+"second_title": "Aspose.CAD .NET - Format de fichier CAO et BIM"
+"title": "Exporter des fichiers CAO vers des images raster avec Aspose.CAD pour .NET"
+"url": "/fr/cad/net/guide-to-exporting-cad-format/export-cad-to-raster-image-conversion/"
+"weight": 10
 ---
+
 ## Introduction
 
-Vous cherchez à convertir sans effort des mises en page CAO en formats d'image raster à l'aide d'Aspose.CAD pour .NET ? Ce guide étape par étape est conçu pour vous aider à parcourir le processus, avec des extraits de code concis pour une expérience fluide. Que vous soyez un développeur expérimenté ou débutant, ce didacticiel fournit des informations précieuses pour tous les niveaux de compétence.
+Vous souhaitez convertir facilement des mises en page CAO en images raster avec Aspose.CAD pour .NET ? Ce guide étape par étape vous guidera dans cette démarche, avec des extraits de code concis pour une expérience fluide. Que vous soyez un développeur expérimenté ou débutant, ce tutoriel vous fournira des informations précieuses pour tous les niveaux de compétence.
 
 ## Prérequis
 
-Avant de commencer, assurez-vous de disposer des éléments suivants :
+Avant de commencer, assurez-vous d’avoir les éléments suivants :
 
-- Bibliothèque Aspose.CAD pour .NET : téléchargez et installez la bibliothèque à partir du[Site Web Aspose.CAD](https://releases.aspose.com/cad/net/).
--  Fichier de dessin CAO : Ayez votre fichier de dessin CAO (par exemple,`conic_pyramid.dxf`) prêt à être converti.
+- Bibliothèque Aspose.CAD pour .NET : téléchargez et installez la bibliothèque à partir du [Site Web Aspose.CAD](https://releases.aspose.com/cad/net/).
+- Fichier de dessin CAO : Ayez votre fichier de dessin CAO (par exemple, `conic_pyramid.dxf`) prêt pour la conversion.
 
 ## Importer les espaces de noms requis
 
@@ -30,7 +31,7 @@ using System.Threading.Tasks;
 using Aspose.CAD;
 ```
 
-## Étape 1 : Chargez votre dessin CAO
+## Étape 1 : Chargez votre dessin CAO
 
 Tout d’abord, spécifiez le répertoire et chargez votre fichier CAO dans une instance d’image :
 
@@ -45,12 +46,12 @@ using (var image = Image.Load(sourceFilePath))
 }
 ```
 
-## Étape 2 : Créer des options de rastérisation
+## Étape 2 : Créer des options de pixellisation
 
-Ensuite, configurez les options de rastérisation en définissant les dimensions souhaitées pour l’image de sortie :
+Ensuite, configurez les options de rastérisation, en définissant les dimensions souhaitées pour l’image de sortie :
 
 ```csharp
-// Initialiser les options de rastérisation de Cad
+// Initialiser les options de rastérisation Cad
 var rasterizationOptions = new CadRasterizationOptions
 {
     PageWidth = 500,
@@ -58,7 +59,7 @@ var rasterizationOptions = new CadRasterizationOptions
 };
 ```
 
-## Étape 3 : Spécifier les calques pour la conversion
+## Étape 3 : Spécifier les calques à convertir
 
 Si vous souhaitez convertir des calques spécifiques, ajoutez-les à vos options de rastérisation :
 
@@ -69,7 +70,7 @@ rasterizationOptions.Layers = new [] { "LayerA" };
 
 ## Étape 4 : Configurer les options d’exportation JPEG
 
-Créez maintenant des options pour le format d’image vers lequel vous souhaitez exporter (JPEG dans ce cas) :
+Créez maintenant des options pour le format d'image vers lequel vous souhaitez exporter (JPEG dans ce cas) :
 
 ```csharp
 // Créer des options Jpeg pour l'exportation
@@ -89,7 +90,7 @@ string outputFilePath = MyDir + "CADLayersToRasterImageFormats_out.jpg";
 image.Save(outputFilePath, options);
 ```
 
-## Fonctionnalité supplémentaire : Convertir tous les calques
+## Fonctionnalité supplémentaire : convertir tous les calques
 
 Pour convertir tous les calques de votre dessin CAO, vous pouvez implémenter une méthode comme celle-ci :
 
@@ -103,26 +104,26 @@ void ConvertAllLayersToRasterImageFormats()
 
 ## Conclusion
 
-Félicitations ! Vous avez appris à convertir efficacement des mises en page CAO en formats d'image raster à l'aide d'Aspose.CAD pour .NET. Ce guide propose une approche simple adaptée aux développeurs qui souhaitent réaliser des conversions CAO efficaces.
+Félicitations ! Vous avez appris à convertir efficacement des mises en page CAO en formats d'image raster avec Aspose.CAD pour .NET. Ce guide propose une approche simple, adaptée aux développeurs souhaitant des conversions CAO efficaces.
 
 ## FAQ
 
-### Puis-je exporter vers différents formats d’image ?
+### Puis-je exporter vers différents formats d’image ?
 
- Absolument ! Il suffit d'échanger`JpegOptions` avec d'autres options de format, telles que`PngOptions` ou`BmpOptions`, selon vos besoins.
+Absolument ! Il suffit d'échanger `JpegOptions` avec d'autres options de format, telles que `PngOptions` ou `BmpOptions`, selon vos besoins.
 
 ### Une version d'essai est-elle disponible ?
 
- Oui, vous pouvez télécharger une version d'essai pour explorer les fonctionnalités en suivant ceci[lien](https://releases.aspose.com/cad/net/).
+Oui, vous pouvez télécharger une version d'essai pour explorer les fonctionnalités en suivant ceci [lien](https://releases.aspose.com/cad/net/).
 
-### Où puis-je trouver du support pour Aspose.CAD ?
+### Où puis-je trouver de l'aide pour Aspose.CAD ?
 
- Pour le support de la communauté, consultez Aspose.CAD[forum](https://forum.aspose.com/c/cad/19), ou envisagez d'acheter une licence pour une assistance plus dédiée.
+Pour le soutien de la communauté, consultez Aspose.CAD [forum](https://forum.aspose.com/c/cad/19), ou envisagez d'acheter une licence pour une assistance plus dédiée.
 
-### Des licences temporaires sont-elles possibles ?
+### Les licences temporaires sont-elles possibles ?
 
- Oui, des licences temporaires sont disponibles ; vous pouvez en demander une[ici](https://purchase.conholdate.com/temporary-license/).
+Oui, des licences temporaires sont disponibles ; vous pouvez en demander une [ici](https://purchase.conholdate.com/temporary-license/).
 
 ### Où puis-je accéder à une documentation détaillée ?
 
- Visitez la documentation complète[ici](https://reference.aspose.com/cad/net/) pour plus d'informations.
+Visitez la documentation complète [ici](https://reference.aspose.com/cad/net/) pour plus d'informations.

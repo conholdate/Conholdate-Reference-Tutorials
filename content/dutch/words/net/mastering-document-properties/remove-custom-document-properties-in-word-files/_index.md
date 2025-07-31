@@ -24,7 +24,7 @@ Voordat u aan de slag gaat met de code, moet u ervoor zorgen dat u aan de volgen
 Om aan de slag te gaan met Aspose.Words voor .NET, moet u de bibliotheek in uw project integreren. Zo stelt u uw ontwikkelomgeving in:
 
 1. Installeer Aspose.Words voor .NET via NuGet:
-   Je kunt Aspose.Words eenvoudig aan je project toevoegen via NuGet Package Manager. Voer de volgende opdracht uit in de Package Manager Console:
+   U kunt Aspose.Words eenvoudig aan uw project toevoegen via NuGet Package Manager. Voer de volgende opdracht uit in de Package Manager Console:
 
 ```bash
 Install-Package Aspose.Words
@@ -79,7 +79,7 @@ Door de `Remove` Door de methode te gebruiken en de naam van de eigenschap door 
 
 ## Het gewijzigde document opslaan
 
-Nadat u de aangepaste eigenschappen hebt verwijderd, is de laatste stap het opslaan van het gewijzigde document. Dit zorgt ervoor dat alle wijzigingen, inclusief de verwijdering van de aangepaste eigenschappen, worden toegepast.
+Nadat u de aangepaste eigenschappen hebt verwijderd, is de laatste stap het opslaan van het gewijzigde document. Dit zorgt ervoor dat alle wijzigingen, inclusief de verwijdering van aangepaste eigenschappen, worden toegepast.
 
 ### Stap 4: Definieer het opslagpad
 
@@ -91,7 +91,7 @@ string savePath = dataDir + "ModifiedProperties.docx";
 
 ### Stap 5: Sla het document op
 
-Gebruik ten slotte de `Save` methode om het document op te slaan op het opgegeven pad:
+Gebruik ten slotte de `Save` Methode om het document op te slaan op het opgegeven pad:
 
 ```csharp
 doc.Save(savePath);
@@ -123,4 +123,4 @@ Meer tutorials, codevoorbeelden en gedetailleerde documentatie vindt u op de [As
 
 ### Hoe kan ik een licentie voor Aspose.Words voor .NET aanschaffen?
 
-Om een licentie voor Aspose.Words voor .NET aan te schaffen, gaat u naar de [Aspose Aankooppagina](https://purchase.aspose.com/buy) om de licentie te selecteren die het beste bij uw behoeften past.
+Om een licentie voor Aspose.Words voor .NET aan te schaffen, gaat u naar de [Aspose Aankooppagina](https://purchase.aspose.com/buy) om de licentie te selecteren die aan uw behoeften voldoet.

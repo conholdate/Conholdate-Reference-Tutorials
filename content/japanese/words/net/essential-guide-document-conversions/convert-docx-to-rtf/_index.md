@@ -60,7 +60,7 @@ string dataDir = "YOUR_DOCUMENT_DIRECTORY";
 
 **重要**： 交換する `"YOUR_DOCUMENT_DIRECTORY"` ドキュメントが保存されている実際のパスを使用します。相対パスを使用すると、異なる環境間でのコードの移植性が向上します。
 
-**プロのヒント**使用を検討してください `Path.Combine()` プラットフォーム間の互換性を高めるため:
+**プロのヒント**使用を検討してください `Path.Combine()` クロスプラットフォームの互換性を向上させるため:
 ```csharp
 string dataDir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "DocumentConversions");
 ```
@@ -257,7 +257,7 @@ Aspose.Words for .NET を使用した DOCX から RTF 形式への変換は、�
 ### Aspose.Words を使用して他の形式を RTF に変換できますか?
 もちろんです！Aspose.Wordsは、DOC、DOCX、HTML、PDFなど、様々な形式からRTFへの変換をサポートしています。手順は同様です。入力形式を変更して、 `SaveFormat.Rtf` 出力用。
 
-### Aspose.Words のライセンスは必要ですか?
+### Aspose.Words にはライセンスが必要ですか?
 Aspose.Wordsは、評価や小規模プロジェクトに最適な無料トライアルを提供しています。本番環境での使用や機能拡張には、商用ライセンスが必要です。 [一時ライセンス](https://purchase.conholdate.com/temporary-license/) テスト目的のため。
 
 ### 変換出力が期待どおりでない場合はどうなりますか?

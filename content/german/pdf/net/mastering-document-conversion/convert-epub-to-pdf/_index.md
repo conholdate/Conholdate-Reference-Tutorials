@@ -30,7 +30,7 @@ Bevor wir uns in den Code stürzen, lassen Sie uns darüber sprechen, warum Sie 
 
 **Universelle Kompatibilität**PDFs funktionieren überall – auf jedem Gerät, jedem Betriebssystem und jedem Browser. Ihre Benutzer benötigen keine spezielle Software, um Ihre Dokumente anzuzeigen.
 
-**Einheitliche Formatierung**: Im Gegensatz zu EPUB-Dateien, die sich an unterschiedliche Bildschirmgrößen anpassen, behalten PDFs ihre exakte Formatierung bei. Was Sie sehen, ist das, was jeder sieht.
+**Einheitliche Formatierung**: Im Gegensatz zu EPUB-Dateien, die sich an unterschiedliche Bildschirmgrößen anpassen, behalten PDFs ihre exakte Formatierung bei. Was Sie sehen, ist das, was jeder bekommt.
 
 **Einfacheres Teilen**: Versenden Sie eine PDF-Datei per E-Mail und Sie können sicher sein, dass sie beim Empfänger genauso aussieht. Keine Überraschungen, keine Formatierungsprobleme.
 
@@ -54,7 +54,7 @@ Sie müssen kein C#-Experte sein, aber das Verständnis grundlegender Konzepte w
 
 ### Beispiel-EPUB-Datei
 
-Stellen Sie sicher, dass Sie eine EPUB-Datei zum Testen haben. Wenn Sie keine zur Hand haben, können Sie Beispiel-EPUB-Dateien aus verschiedenen Online-Quellen herunterladen oder mit Tools wie Calibre eine eigene Datei erstellen.
+Stellen Sie sicher, dass Sie eine EPUB-Datei zum Testen haben. Wenn Sie keine zur Hand haben, können Sie Beispiel-EPUB-Dateien aus verschiedenen Online-Quellen herunterladen oder mit Tools wie Calibre eine eigene erstellen.
 
 ## Pakete importieren
 
@@ -111,7 +111,7 @@ Ersetzen `"EPUBToPDF.epub"` mit Ihrem tatsächlichen EPUB-Dateinamen. Hier liest
 
 ## Schritt 4: Speichern Sie das resultierende PDF-Dokument
 
-Nachdem Sie die EPUB-Datei erfolgreich geladen und konvertiert haben, ist es Zeit, Ihr brandneues PDF zu speichern. Dies ist der Moment der Wahrheit!
+Nachdem Sie die EPUB-Datei erfolgreich geladen und konvertiert haben, ist es Zeit, Ihr neues PDF zu speichern. Dies ist der Moment der Wahrheit!
 
 ```csharp
 // Speichern Sie das resultierende PDF-Dokument

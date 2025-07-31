@@ -65,7 +65,7 @@ Aspose.Cells.Vba.VbaProject vbaProject = wb.VbaProject;
 
 ## ステップ4: VBAプロジェクトが閲覧用にロックされているかどうかを確認する
 
-最後に、VBAプロジェクトのロック状態を確認します。 `IsLockedForViewing` の財産 `VbaProject` オブジェクト。 `true`、プロジェクトはロックされています。 `false`、アクセス可能です。
+最後に、VBAプロジェクトのロック状態を確認します。 `IsLockedForViewing` の財産 `VbaProject` オブジェクト。 `true`の場合、プロジェクトはロックされます。 `false`、アクセス可能です。
 
 ```csharp
 Console.WriteLine("Is VBA Project Locked for Viewing: " + vbaProject.IsLockedForViewing);

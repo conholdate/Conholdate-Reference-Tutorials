@@ -150,7 +150,7 @@ Görev Bölmesi, ek araçlar ve işlevler içeren yan paneller sağlayarak Word 
 ### Görev Bölmeleri özelleştirilebilir mi?  
 Evet, genişlik, görünürlük ve yerleştirme durumu gibi özellikler, kişiselleştirilmiş bir kullanıcı deneyimi için ayarlanabilir.
 
-### Web Uzantı Özellikleri nasıl çalışır?  
+### Web Uzantısı Özellikleri nasıl çalışır?  
 Web uzantısı için meta verileri veya ayarları tanımlayarak dinamik davranışı etkinleştirirler.
 
 ### Görev Bölmesini belgeye bağlamak gerekli mi?  

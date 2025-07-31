@@ -50,7 +50,7 @@ Workbook workbook = new Workbook();
 
 ## 3단계: 워크시트 컬렉션에 액세스
 
-이제 새 통합 문서에서 워크시트 컬렉션에 접근해 보겠습니다.
+이제 새 통합 문서 내의 워크시트 컬렉션에 접근해 보겠습니다.
 
 ```csharp
 WorksheetCollection worksheets = workbook.Worksheets;

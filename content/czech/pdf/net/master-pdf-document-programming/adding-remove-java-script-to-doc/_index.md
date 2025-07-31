@@ -72,7 +72,7 @@ Document doc = new Document();
 doc.Pages.Add();
 ```
 
-Tím se vytvoří prázdný dokument PDF s jednou stránkou. Představte si ho jako plátno, na které budete přidávat jak obsah, tak i funkce JavaScriptu. Krása nového dokumentu spočívá v tom, že máte od začátku úplnou kontrolu nad prostředím JavaScriptu.
+Tím se vytvoří prázdný dokument PDF s jednou stránkou. Představte si ho jako plátno, na které budete přidávat obsah i funkce JavaScriptu. Krása nového dokumentu spočívá v tom, že máte od začátku úplnou kontrolu nad prostředím JavaScriptu.
 
 **Tip pro profesionály**Při práci s JavaScriptem v PDF je často snazší začít s čistou strukturou dokumentu. To pomáhá předejít konfliktům se stávajícími skripty nebo prvky formulářů, které by mohly narušovat novou funkcionalitu.
 
@@ -95,7 +95,7 @@ Každá funkce JavaScriptu je uložena jako pár klíč-hodnota v kolekci JavaSc
 
 **Nejlepší postupy**Názvy funkcí by měly být popisné a vyhněte se konfliktům s vestavěnými funkcemi PDF JavaScriptu. Místo „func1“ zvažte názvy jako „validateEmail“ nebo „calculateTotal“.
 
-## Krok 3: Uložení PDF souboru s JavaScriptem
+## Krok 3: Uložení PDF pomocí JavaScriptu
 
 Uložte aktualizovaný dokument na disk:
 
@@ -145,7 +145,7 @@ doc1.JavaScript.Remove("func1");
 Console.WriteLine("Key 'func1' removed ");
 ```
 
-Odebrání funkcí JavaScriptu je stejně důležité jako jejich přidání. Možná budete muset odstranit zastaralou ověřovací logiku, zastaralé funkce nebo skripty, které způsobují konflikty s novými funkcemi.
+Odebrání funkcí JavaScriptu je stejně důležité jako jejich přidání. Možná budete muset odstranit zastaralou logiku ověřování, zastaralé funkce nebo skripty, které způsobují konflikty s novými funkcemi.
 
 **Kdy odstranit JavaScript**:
 - Aktualizace logiky ověřování formulářů

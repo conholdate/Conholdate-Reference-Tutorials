@@ -1,8 +1,8 @@
 ---
-"description": "Leer hoe u Excel-spreadsheets naadloos naar ODS-formaat kunt converteren met Aspose.Cells voor .NET. Deze stapsgewijze handleiding."
-"linktitle": "Converteer een tabel naar ODS-formaat met Aspose.Cells voor .NET"
+"description": "Leer hoe u Excel-spreadsheets naadloos naar ODS-formaat converteert met Aspose.Cells voor .NET. Deze stapsgewijze handleiding."
+"linktitle": "Converteer een tabel naar ODS-indeling met Aspose.Cells voor .NET"
 "second_title": "Aspose.Cells .NET Excel-verwerkings-API"
-"title": "Converteer een tabel naar ODS-formaat met Aspose.Cells voor .NET"
+"title": "Converteer een tabel naar ODS-indeling met Aspose.Cells voor .NET"
 "url": "/nl/cells/net/mastering-tables-and-lists/convert-table-to-ods-format/"
 "weight": 12
 ---
@@ -13,11 +13,11 @@ Effectief omgaan met spreadsheetgegevens vereist vaak conversie tussen verschill
 
 ## Vereisten
 
-Voordat we met coderen beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat we beginnen met coderen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 ### Visuele Studio
 
-Zorg ervoor dat Visual Studio op je systeem geïnstalleerd is. Het is een krachtige IDE die je helpt bij het naadloos schrijven, debuggen en uitvoeren van je C#-code.
+Zorg ervoor dat Visual Studio op je systeem geïnstalleerd is. Het is een krachtige IDE waarmee je naadloos C#-code kunt schrijven, debuggen en uitvoeren.
 
 ### Aspose.Cells Bibliotheek
 
@@ -51,7 +51,7 @@ Laten we nu eens kijken hoe u uw Excel-tabel naar ODS-indeling kunt converteren.
 
 ## Stap 1: Bron- en uitvoermappen instellen
 
-Bepaal waar het Excel-bronbestand zich bevindt en waar u het ODS-bestand wilt opslaan.
+Bepaal waar het bron-Excelbestand zich bevindt en waar u het ODS-bestand wilt opslaan.
 
 ```csharp
 string sourceDir = "Your Document Directory";
@@ -72,7 +72,7 @@ Hiermee wordt een nieuwe geïnitialiseerd `Workbook` object met het pad naar uw 
 
 ## Stap 3: Opslaan als ODS-bestand
 
-Nadat u het bestand hebt geopend, slaat u het op in het ODS-formaat.
+Nadat u het bestand hebt geopend, slaat u het op in de ODS-indeling.
 
 ```csharp
 wb.Save(outputDir + "ConvertTableToOds_out.ods");
@@ -88,11 +88,11 @@ Het is altijd goed om te controleren of de conversie succesvol is.
 Console.WriteLine("Conversion to ODS executed successfully.");
 ```
 
-Deze regel stuurt een bericht naar de console, waarin staat dat de conversie zonder problemen is voltooid. Als u dit bericht ziet, kunt u de uitvoermap voor uw nieuwe ODS-bestand met een gerust hart controleren.
+Deze regel stuurt een bericht naar de console dat de conversie zonder problemen is voltooid. Als u dit bericht ziet, kunt u de uitvoermap voor uw nieuwe ODS-bestand met een gerust hart controleren.
 
 ## Conclusie
 
-Het converteren van een tabel van een Excel-bestand naar een ODS-bestand met Aspose.Cells voor .NET is een eenvoudig proces. Met slechts een paar regels code kunt u de conversie automatiseren, wat tijd en moeite bespaart. Deze methode kan van onschatbare waarde zijn voor dataprojecten of persoonlijk bestandsbeheer. Aarzel niet om de andere functionaliteiten van de Aspose.Cells-bibliotheek te verkennen om uw mogelijkheden voor spreadsheets verder te verbeteren.
+Het converteren van een tabel van een Excel-bestand naar een ODS-bestand met Aspose.Cells voor .NET is een eenvoudig proces. Met slechts een paar regels code kunt u de conversie automatiseren, wat tijd en moeite bespaart. Deze methode kan van onschatbare waarde zijn voor dataprojecten of persoonlijk bestandsbeheer. Aarzel niet om de andere functionaliteiten van de Aspose.Cells-bibliotheek te verkennen om uw spreadsheetmogelijkheden verder te verbeteren.
 
 ## Veelgestelde vragen
 
@@ -110,7 +110,7 @@ Absoluut! Je kunt ondersteuning krijgen via de [Aspose-forum](https://forum.aspo
 
 ### Hoe kan ik een permanente licentie voor Aspose.Cells aanschaffen?
 
-U kunt een permanente licentie rechtstreeks kopen op de Aspose-aankooppagina, die u hier kunt vinden [hier](https://purchase.aspose.com/buy).
+U kunt een permanente licentie rechtstreeks kopen op de aankooppagina van Aspose, die u hier kunt vinden [hier](https://purchase.aspose.com/buy).
 
 ### Welke bestandsformaten kan ik converteren met Aspose.Cells?
 

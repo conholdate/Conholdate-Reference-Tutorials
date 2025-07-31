@@ -58,7 +58,7 @@ Se hai già lavorato con l'integrazione con Outlook, probabilmente ti sarai imba
 - Compatibilità e-mail multipiattaforma
 - Implementazioni del sistema di archiviazione
 
-Il nostro tutorial passo dopo passo su [Conversione da EML a MSG semplificata con C#](./eml-to-msg-convert-made-easy-using-csharp/) elimina ogni dubbio da questo processo. Lo abbiamo strutturato in modo che tu possa seguirlo facilmente, che tu sia uno sviluppatore .NET esperto o qualcuno che ha appena iniziato a elaborare le email.
+Il nostro tutorial passo dopo passo su [Conversione da EML a MSG semplificata con C#](./eml-to-msg-convert-made-easy-using-csharp/) elimina ogni dubbio da questo processo. Lo abbiamo strutturato in modo che tu possa seguirlo, che tu sia uno sviluppatore .NET esperto o qualcuno che ha appena iniziato a elaborare le email.
 
 **Principali vantaggi che otterrai**:
 - Integrazione perfetta con i flussi di lavoro di Outlook

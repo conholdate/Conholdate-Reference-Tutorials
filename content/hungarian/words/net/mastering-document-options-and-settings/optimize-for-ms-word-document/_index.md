@@ -41,7 +41,7 @@ string dataDir = "YOUR_DOCUMENT_DIRECTORY/";
 
 ## 2. lépés: A dokumentum betöltése
 
-Ezután betöltjük az optimalizálni kívánt dokumentumot. Ez ahhoz hasonlít, mintha egy könyvet nyitnánk meg, mielőtt belemerülnénk a tartalmába.
+Ezután betöltjük az optimalizálni kívánt dokumentumot. Ez ahhoz hasonlít, mintha kinyitnánk egy könyvet, mielőtt belemerülnénk a tartalmába.
 
 ```csharp
 Document doc = new Document(dataDir + "Document.docx");

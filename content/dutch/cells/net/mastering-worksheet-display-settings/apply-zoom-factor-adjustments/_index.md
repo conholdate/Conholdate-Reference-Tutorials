@@ -13,7 +13,7 @@ Het wijzigen van de zoomfactor van een Excel-werkblad kan de datavisualisatie aa
 
 ## Vereisten  
 
-Voordat u met de stappen aan de slag gaat, moet u het volgende controleren:  
+Voordat u met de stappen begint, moet u het volgende controleren:  
 
 1. Aspose.Cells voor .NET-bibliotheek: downloaden en installeren vanaf [hier](https://releases.aspose.com/cells/net/).  
 2. Ontwikkelomgeving: Gebruik een IDE zoals Visual Studio voor het schrijven en uitvoeren van de code.  
@@ -75,7 +75,7 @@ Wijzig de zoomfactor met behulp van de `Zoom` eigenschap. Waarden variëren van 
 worksheet.Zoom = 100; // Zoom instellen op 100%
 ```
 
-Voor een optimale weergave kunt u de zoomfactor naar wens aanpassen.  
+Pas de zoomfactor aan naar het gewenste percentage voor een optimale weergave.  
 
 ## Stap 6: Sla de bijgewerkte werkmap op  
 
@@ -97,7 +97,7 @@ fstream.Close();
 
 ## Conclusie  
 
-Door deze uitgebreide handleiding te volgen, kunt u moeiteloos de zoomfactor van een Excel-werkblad aanpassen met Aspose.Cells voor .NET. Of u nu met één of meerdere werkbladen werkt, deze methode biedt precisie en flexibiliteit voor het optimaliseren van uw Excel-bestanden.  
+Met deze uitgebreide handleiding kunt u moeiteloos de zoomfactor van een Excel-werkblad aanpassen met Aspose.Cells voor .NET. Of u nu met één of meerdere werkbladen werkt, deze methode biedt precisie en flexibiliteit voor het optimaliseren van uw Excel-bestanden.  
 
 
 ## Veelgestelde vragen  

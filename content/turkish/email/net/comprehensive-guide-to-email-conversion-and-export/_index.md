@@ -43,7 +43,7 @@ Ayrıntılı rehberimiz [C# ile e-postaları zaman dilimiyle MHT formatına dön
 **Ne Öğreneceksiniz**:
 - Saat dilimi verileri e-postanın görüntülenmesini nasıl etkiler?
 - Orijinal zaman damgalarını korumak için en iyi uygulamalar
-- Farklı saat dilimi biçimlerine sahip uç durumların ele alınması
+- Farklı zaman dilimi biçimlerine sahip uç durumların ele alınması
 - Toplu dönüşümler için performans değerlendirmeleri
 
 MHT dönüşümünü, e-postanızın herhangi bir web tarayıcısında görüntülenebilen, tüm biçimlendirme ve zamanlama bilgileriyle birlikte bir "anlık görüntüsü" oluşturmak olarak düşünün. Bu yöntem, özellikle orijinal e-posta istemcisine erişimi olmayan kullanıcılarla e-posta paylaşmanız gerektiğinde oldukça kullanışlıdır.
@@ -90,7 +90,7 @@ Gerçek dünya deneyimlerine dayanarak, size zaman ve baş ağrısı kazandırac
 
 Bu temel dönüşüm tekniklerinde ustalaştıktan sonra, e-posta işlemenin size birçok olasılık sunduğunu göreceksiniz. E-posta ayrıştırma, otomatik yanıt sistemleri veya gelişmiş filtreleme mekanizmalarını keşfetmeyi düşünün.
 
-Burada özetlediğimiz eğitimler sağlam bir temel sunar, ancak her uygulamanın kendine özgü gereksinimleri olduğunu unutmayın. Bu kılavuzları başlangıç noktanız olarak kullanın, ardından teknikleri kendi özel kullanım senaryonuza göre uyarlayın.
+Burada özetlediğimiz eğitimler sağlam bir temel sağlar, ancak her uygulamanın kendine özgü gereksinimleri olduğunu unutmayın. Bu kılavuzları başlangıç noktanız olarak kullanın, ardından teknikleri kendi özel kullanım senaryonuza göre uyarlayın.
 
 Başlamaya hazır mısınız? Mevcut proje ihtiyaçlarınıza uygun dönüşüm senaryosuyla başlayın. Her iki eğitim de, hemen çalıştırıp özel ihtiyaçlarınıza göre düzenleyebileceğiniz eksiksiz, çalışan örnekler içerir.
 

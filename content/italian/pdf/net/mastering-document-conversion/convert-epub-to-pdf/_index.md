@@ -154,7 +154,7 @@ Anche con un codice perfetto, a volte le cose possono andare storte. Ecco i prob
 ### Problemi di memoria con file di grandi dimensioni
 
 **Problema**: La conversione di file EPUB di grandi dimensioni causa eccezioni di memoria insufficiente.
-**Soluzione**: Elabora i file di grandi dimensioni in blocchi, se possibile, oppure aumenta l'allocazione di memoria dell'applicazione. Assicurati inoltre di eliminare l'oggetto Documento al termine delle operazioni.
+**Soluzione**: Elabora i file di grandi dimensioni in blocchi, se possibile, oppure aumenta l'allocazione di memoria dell'applicazione. Assicurati inoltre di eliminare l'oggetto Documento al termine dell'elaborazione.
 
 ### File EPUB danneggiati o non validi
 

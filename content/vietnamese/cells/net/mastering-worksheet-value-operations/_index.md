@@ -1,8 +1,8 @@
 ---
 "description": "Khám phá hướng dẫn toàn diện để thành thạo các thao tác giá trị bảng tính trong Excel bằng Aspose.Cells cho .NET, bao gồm thêm và xóa ngắt trang, sao chép dữ liệu, v.v."
-"linktitle": "Làm chủ các phép tính giá trị trong bảng tính"
+"linktitle": "Làm chủ các phép tính giá trị của bảng tính"
 "second_title": "API xử lý Excel của Aspose.Cells .NET"
-"title": "Làm chủ các phép tính giá trị trong bảng tính"
+"title": "Làm chủ các phép tính giá trị của bảng tính"
 "url": "/vi/cells/net/mastering-worksheet-value-operations/"
 "weight": 28
 ---
@@ -25,7 +25,7 @@ Chuyển dữ liệu trong một sổ làm việc Excel? Aspose.Cells giúp vi�
 [Sao chép dữ liệu trong sổ làm việc Excel bằng Aspose.Cells cho .NET](./copy-data-within-excel-workbook/) 
 [Sao chép bảng tính giữa các bảng tính Excel bằng Aspose.Cells](./copy-worksheet-between-workbooks/)  
 
-## Hướng dẫn về các phép tính giá trị trong bảng tính
+## Hướng dẫn làm chủ các phép tính giá trị trong bảng tính
 ### [Thêm ngắt trang trong trang tính bằng Aspose.Cells](./adding-page-breaks/)
 Khám phá cách cải thiện bảng tính Excel của bạn bằng cách thêm ngắt trang ngang và dọc hiệu quả bằng Aspose.Cells cho .NET. Hướng dẫn toàn diện này sẽ hướng dẫn bạn các bước thiết lập và lập trình cần thiết.
 ### [Xóa ngắt trang khỏi trang tính bằng Aspose.Cells](./clear-page-breaks/)

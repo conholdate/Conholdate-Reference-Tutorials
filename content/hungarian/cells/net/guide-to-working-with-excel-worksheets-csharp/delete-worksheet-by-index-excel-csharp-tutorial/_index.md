@@ -38,7 +38,7 @@ Mielőtt elkezdenénk a kódolást, győződjünk meg róla, hogy ezek az alapve
 4. **Minta Excel-fájl**Készíts elő egy Excel fájlt tesztelésre. A következőt fogjuk használni: `book1.xls` a példáinkban, de bármely több munkalapot tartalmazó Excel-fájl működni fog.
 
 ### Gyors kompatibilitási ellenőrzés
-- .NET-keretrendszer 4.0 vagy újabb verzió
+- .NET-keretrendszer 4.0 vagy újabb
 - Excel fájlok .xls, .xlsx vagy .xlsm formátumban
 - Windows, macOS vagy Linux fejlesztői környezet
 
@@ -84,7 +84,7 @@ Csere `"YOUR DOCUMENT DIRECTORY"` az Excel-fájl tényleges elérési útjával.
 - Ablakok: `@"C:\ExcelFiles\"`
 - macOS/Linux: `"/Users/yourname/ExcelFiles/"`
 
-**Profi tipp**: Használd a `@` szimbólumot a karakterlánc előtt a Windowsban a fordított perjelek automatikus kezeléséhez, vagy használjon perjeleket, amelyek minden platformon működnek.
+**Profi tipp**: Használja a `@` szimbólumot a karakterlánc előtt a Windowsban a fordított perjelek automatikus kezeléséhez, vagy használjon perjeleket, amelyek minden platformon működnek.
 
 ## 2. lépés: FileStream létrehozása az Excel fájlhozzáféréshez
 
@@ -265,7 +265,7 @@ Természetesen! Végigmehetsz az indexeken, és több munkalapot is törölhetsz
 Ha még nem mentette a munkafüzetet, egyszerűen újratöltheti az eredeti fájlt. A módosítások mentése után azonban a törlés végleges. Tömeges műveletek végrehajtása előtt mindig készítsen biztonsági másolatot a fontos fájlokról.
 
 ### Hogyan törölhetek egy munkalapot név szerint index helyett?
-Használd a `RemoveByName()` metódus helyett: `workbook.Worksheets.RemoveByName("SheetName")`Ez a megközelítés gyakran biztonságosabb, ha ismeri a konkrét munkalap nevét, mivel azt nem befolyásolják az indexváltozások.
+Használd a `RemoveByName()` módszer helyett: `workbook.Worksheets.RemoveByName("SheetName")`Ez a megközelítés gyakran biztonságosabb, ha ismeri a konkrét munkalap nevét, mivel azt nem befolyásolják az indexváltozások.
 
 ### Van mód a törölt munkalap visszaállítására?
 Miután egy munkalapot töröltek és a munkafüzetet mentették, nincs beépített helyreállítási módszer. A legjobb védelem az Excel-fájlok rendszeres biztonsági mentése az automatikus módosítások végrehajtása előtt.

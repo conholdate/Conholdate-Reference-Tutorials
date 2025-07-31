@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Wil je een digitale handtekening toevoegen aan een Word-document? Met Aspose.Words voor .NET is het makkelijker dan je denkt! Deze tutorial begeleidt je door de stappen voor het instellen van je omgeving, het toevoegen van een handtekeningregel en het digitaal ondertekenen van je document. Aan de slag!
+Wil je een digitale handtekening toevoegen aan een Word-document? Met Aspose.Words voor .NET is het makkelijker dan je denkt! Deze tutorial begeleidt je door de stappen voor het instellen van je omgeving, het toevoegen van een handtekeningregel en het digitaal ondertekenen van je document. Laten we beginnen!
 
 ## Vereisten
 
@@ -19,7 +19,7 @@ Voordat u de code induikt, moet u ervoor zorgen dat u het volgende hebt:
 2. .NET Development Environment - Visual Studio is ideaal voor deze taak.
 3. Te ondertekenen document: u kunt een nieuw Word-document maken of een bestaand document gebruiken.
 4. Certificaatbestand - A `.pfx` bestand is nodig voor digitale handtekeningen.
-5. Afbeelding handtekeningregel (optioneel) - U kunt een afbeeldingbestand voor de handtekening bijvoegen.
+5. Afbeelding van handtekeningregel (optioneel) - U kunt een afbeelding bijvoegen voor de handtekening.
 
 ## Vereiste naamruimten importeren
 
@@ -36,7 +36,7 @@ using Aspose.Words.Signing;
 
 ## Stap 1: De documentenmap instellen
 
-Begin met het definiëren van het pad naar uw documentmap. Dit is de plek waar u uw documenten opslaat en weer ophaalt.
+Begin met het definiëren van het pad naar uw documentmap. Dit is de plek waar u uw documenten opslaat en ophaalt.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Geef het pad naar uw documentmap op
@@ -89,7 +89,7 @@ CertificateHolder certHolder = CertificateHolder.Create(dataDir + "your_certific
 
 ## Stap 7: Het document ondertekenen
 
-Onderteken ten slotte het document met de `DigitalSignatureUtil` klasse. Sla het ondertekende document op onder een nieuwe naam voor toekomstig gebruik.
+Onderteken ten slotte het document met de `DigitalSignatureUtil` klasse. Sla het ondertekende document op onder een nieuwe naam, zodat u het later kunt raadplegen.
 
 ```csharp
 DigitalSignatureUtil.Sign(dataDir + "SignDocuments.SignatureLine.docx",
@@ -120,4 +120,4 @@ moet een digitaal certificaat aanvragen bij een vertrouwde certificeringsinstant
 
 ### Hoe verifieer ik de digitale handtekening in het document?
 
-U kunt de digitale handtekening verifiëren door het ondertekende document in Word te openen en de details van de handtekening te controleren om de authenticiteit en integriteit ervan te bevestigen.
+U kunt de digitale handtekening verifiëren door het ondertekende document in Word te openen en de handtekeningdetails te controleren om de authenticiteit en integriteit ervan te bevestigen.

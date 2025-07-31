@@ -118,7 +118,7 @@ Nakonec uložte dokument do zadaného adresáře:
 
 ```csharp
 dataDir = dataDir + "CreateFilledRectangle_out.pdf";
-// Uložit soubor PDF
+// Uložit PDF soubor
 doc.Save(dataDir);
 ```
 

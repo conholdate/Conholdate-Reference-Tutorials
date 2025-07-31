@@ -28,7 +28,7 @@ Po absolvování tohoto tutoriálu budete schopni programově převádět DOC do
 
 Než se ponoříme do kódu, pojďme si stručně vysvětlit, proč je tato konverze důležitá. Formát DOCX (zavedený s Office 2007) nabízí oproti staršímu formátu DOC několik výhod:
 
-- **Lepší komprese**Soubory DOCX jsou obvykle o 75 % menší než jejich protějšky DOC
+- **Lepší komprese**Soubory DOCX jsou obvykle o 75 % menší než jejich protějšky ve formátu DOC
 - **Vylepšená obnova dat**Struktura založená na XML usnadňuje opravu poškozených souborů
 - **Vylepšené zabezpečení**Lepší ochrana před makroviry a škodlivým kódem
 - **Moderní kompatibilita**Plná podpora v aktuálních verzích Microsoft Office a dalších aplikacích
@@ -105,7 +105,7 @@ Document doc = new Document(fullPath);
 
 ### Poškozené soubory DOC
 **Problém**Některé starší soubory DOC mohou být částečně poškozené.
-**Řešení**Aspose.Words má vestavěnou funkci pro obnovu po chybách, ale u vážně poškozených souborů budete možná muset použít `LoadOptions` s nastavením obnovení:
+**Řešení**Aspose.Words má vestavěnou funkci pro zotavení po chybách, ale u vážně poškozených souborů budete možná muset použít `LoadOptions` s nastavením obnovení:
 
 ```csharp
 LoadOptions options = new LoadOptions();

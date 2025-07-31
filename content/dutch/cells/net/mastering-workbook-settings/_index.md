@@ -9,15 +9,15 @@
 
 ## Invoering
 
-Als je je verdiept in Excel-automatisering, is Aspose.Cells voor .NET dé tool voor jou. Het biedt een uitgebreide reeks functies om werkmappen professioneel te beheren. Of je nu externe bronnen beheert, een maximum aantal rijen en kolommen gebruikt of lokalisatie-instellingen aanpast, deze tutorials helpen je op weg.
+Als je je verdiept in Excel-automatisering, is Aspose.Cells voor .NET de ultieme tool. Het biedt een uitgebreide reeks functies om werkmappen professioneel te beheren. Of je nu externe bronnen beheert, een maximum aantal rijen en kolommen gebruikt of lokalisatie-instellingen aanpast, deze tutorials zijn er om je te begeleiden.
 
 ## Externe bronnen beheren in Excel
 
-Heb je ooit problemen gehad met externe koppelingen in je Excel-werkmappen? Het is alsof je een kat van je bureau probeert te houden – het is lastig, maar niet onmogelijk. Met Aspose.Cells voor .NET kun je externe bronnen naadloos beheren. Door een aangepaste streamprovider te implementeren, kun je beheren hoe externe gegevens worden benaderd en opgeslagen. Zo blijven je werkmappen efficiënt en veilig. [Lees verder](./manage-external-resources-in-excel/)
+Heb je ooit problemen gehad met externe koppelingen in je Excel-werkmappen? Het is alsof je een kat van je bureau probeert te houden – het is lastig, maar niet onmogelijk. Met Aspose.Cells voor .NET kun je externe bronnen naadloos beheren. Door een aangepaste streamprovider te implementeren, kun je beheren hoe externe gegevens worden benaderd en opgeslagen. Dit zorgt ervoor dat je werkmappen efficiënt en veilig blijven. [Lees verder](./manage-external-resources-in-excel/)
 
 ## Vind het maximale aantal rijen en kolommen in XLS en XLSX
 
-Excel-bestanden kunnen enorme datasets aan, maar kent u de limieten ervan? Inzicht in het maximum aantal rijen en kolommen is net zoiets als weten hoeveel gewicht uw tabel kan dragen – het voorkomt rampen. Deze tutorial laat zien hoe u deze limieten programmatisch kunt bepalen. Of u nu werkt met het oude XLS-formaat of het moderne XLSX, Aspose.Cells maakt het navigeren door deze beperkingen een fluitje van een cent. [Lees verder](./find-maximum-rows-and-columns/)
+Excel-bestanden kunnen enorme datasets aan, maar kent u de limieten ervan? Inzicht in het maximum aantal rijen en kolommen is als weten hoeveel gewicht uw tabel kan dragen – het voorkomt rampen. Deze tutorial laat zien hoe u deze limieten programmatisch kunt bepalen. Of u nu werkt met het oude XLS-formaat of het moderne XLSX, Aspose.Cells maakt het navigeren door deze beperkingen een fluitje van een cent. [Lees verder](./find-maximum-rows-and-columns/)
 
 ## Lokaliseer fouten en Booleaanse waarden
 

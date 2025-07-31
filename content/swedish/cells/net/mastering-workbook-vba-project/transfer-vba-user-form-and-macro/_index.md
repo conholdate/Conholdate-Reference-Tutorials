@@ -9,7 +9,7 @@
 
 ## Introduktion
 
-Välkommen till din ultimata guide för att förbättra din Excel-upplevelse med VBA-makron och användarformulär! I den här handledningen utforskar vi hur du överför en VBA-makro UserForm Designer från en arbetsbok till en annan med hjälp av det kraftfulla Aspose.Cells för .NET-biblioteket. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer den här steg-för-steg-guiden att utrusta dig med kunskapen för att hantera Excel-filer programmatiskt. Redo att dyka in? Nu sätter vi igång!
+Välkommen till din ultimata guide för att förbättra din Excel-upplevelse med VBA-makron och användarformulär! I den här handledningen utforskar vi hur man överför en VBA-makro UserForm Designer från en arbetsbok till en annan med hjälp av det kraftfulla Aspose.Cells för .NET-biblioteket. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer den här steg-för-steg-guiden att utrusta dig med kunskapen för att hantera Excel-filer programmatiskt. Redo att dyka in? Nu sätter vi igång!
 
 ## Förkunskapskrav
 Innan vi börjar med kodningen, låt oss se till att du har allt du behöver:

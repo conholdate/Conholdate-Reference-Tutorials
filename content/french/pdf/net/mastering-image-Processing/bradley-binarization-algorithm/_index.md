@@ -18,7 +18,7 @@ Avant de commencer, assurez-vous d’avoir les éléments suivants :
 - Aspose.PDF pour .NET : téléchargez la bibliothèque depuis [ici](https://releases.aspose.com/pdf/net/).
 - Visual Studio (ou tout autre IDE C#).
 - Connaissances de base de C#.
-- Un permis valide ou un [permis temporaire](https://purchase.aspose.com/temporary-license/) d'Aspose.
+- Un permis valide ou un [permis temporaire](https://purchase.aspose.com/temporary-license/) de Aspose.
 
 ## Étape 1 : Configurez votre projet
 
@@ -99,7 +99,7 @@ tiffDevice.Process(pdfDocument, outputImageFile);
 
 ## Étape 9 : Appliquer l'algorithme de binarisation de Bradley
 
-Appliquez maintenant l'algorithme de Bradley pour convertir l'image TIFF en niveaux de gris en une image binaire :
+Appliquez maintenant l’algorithme de Bradley pour convertir l’image TIFF en niveaux de gris en une image binaire :
 
 ```csharp
 using (FileStream inStream = new FileStream(outputImageFile, FileMode.Open))

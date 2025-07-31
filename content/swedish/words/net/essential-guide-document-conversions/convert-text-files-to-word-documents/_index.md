@@ -134,7 +134,7 @@ foreach (string textFile in textFiles)
 }
 ```
 
-Den här metoden hanterar flera filer effektivt samtidigt som individuell felhantering bibehålls för varje konvertering.
+Den här metoden hanterar flera filer effektivt samtidigt som den bibehåller individuell felhantering för varje konvertering.
 
 ## När ska man använda den här konverteringsmetoden
 

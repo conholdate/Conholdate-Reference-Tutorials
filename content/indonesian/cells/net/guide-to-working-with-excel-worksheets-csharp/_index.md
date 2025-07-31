@@ -91,7 +91,7 @@ Ketika aplikasi Anda perlu memproses banyak berkas Excel atau menangani kumpulan
 
 **Operasi Batch**Kelompokkan beberapa operasi lembar kerja bersama-sama alih-alih menyimpannya setelah setiap perubahan. Ini mengurangi overhead I/O secara signifikan.
 
-**Pemuatan Selektif**:Gunakan LoadOptions Aspose.Cells untuk memuat hanya data yang Anda perlukan, bukan seluruh buku kerja.
+**Pemuatan Selektif**: Gunakan LoadOptions Aspose.Cells untuk memuat hanya data yang Anda perlukan, bukan seluruh buku kerja.
 
 **Pemrosesan Latar Belakang**:Untuk aplikasi web, pertimbangkan untuk menerapkan pemrosesan pekerjaan latar belakang untuk operasi Excel yang berat guna mempertahankan antarmuka pengguna yang responsif.
 

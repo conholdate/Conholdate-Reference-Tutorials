@@ -41,4 +41,4 @@ Tanuld meg, hogyan olvashatod le egyszerűen a hozzászólásláncok létrehozá
 ### [Összefűzött megjegyzések kinyerése a munkalapból](./extract-threaded-comments/)
 Használja ki Excel-dokumentumaiban rejlő összes lehetőséget az Aspose.Cells for .NET segítségével hatékonyan kinyerhető hozzászólásláncok segítségével. Ez az átfogó oktatóanyag lépésről lépésre végigvezeti Önt az utasításokon.
 ### [Grafikus háttér hozzáadása ODS fájlhoz](./adding-graphic-background-in-ods-file/)
-Ismerd meg, hogyan fokozhatod ODS-táblázataid vizuális vonzerejét egyéni grafikus hátterek hozzáadásával az Aspose.Cells for .NET segítségével. Ez a lépésről lépésre haladó útmutató mindent lefed a fejlesztői környezet beállításától a terv megvalósításáig.
+Ismerd meg, hogyan fokozhatod ODS-táblázataid vizuális megjelenését egyéni grafikus hátterek hozzáadásával az Aspose.Cells for .NET segítségével. Ez a lépésről lépésre haladó útmutató mindent lefed a fejlesztői környezet beállításától a terv megvalósításáig.

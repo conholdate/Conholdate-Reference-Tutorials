@@ -23,7 +23,7 @@ Hosszú dokumentumokban fuldoklik? Nem vagy egyedül. A mai információs világ
 
 Itt jön létre az erőteljes kombináció **Aspose.Words .NET és OpenAI modellekhez** jön a képbe. Ez az integráció átalakítja a dokumentumfeldolgozás kezelését, automatikusan pontos összefoglalókat generálva, amelyek rögzítik a tartalom lényegét. Ebben az átfogó útmutatóban pontosan megtudhatja, hogyan valósíthat meg automatizált dokumentum-összefoglaló megoldásokat, amelyek órákig tartó manuális munkát takarítanak meg Önnek.
 
-bemutató végére egy működő dokumentum-összefoglaló rendszerrel fog rendelkezni, amely képes kezelni az egyes dokumentumokat, több fájl egyidejű feldolgozását, és zökkenőmentesen integrálható a meglévő .NET alkalmazásaiba.
+A bemutató végére egy működő dokumentum-összefoglaló rendszerrel fog rendelkezni, amely képes kezelni az egyes dokumentumokat, több fájl egyidejű feldolgozását, és zökkenőmentesen integrálható a meglévő .NET alkalmazásaiba.
 
 ## Miért fontos a dokumentumösszefoglaló a modern fejlesztésben?
 
@@ -41,7 +41,7 @@ Mielőtt belemerülnénk a technikai megvalósításba, nézzük meg, miért **a
 
 **Akadémiai kutatás**A kutatók gyorsan feldolgozhatnak több tanulmányt is, hogy azonosítsák a releváns tanulmányokat és levonják a főbb megállapításokat.
 
-**Üzleti intelligencia**A vállalatok összefoglalják a piaci jelentéseket, a versenytárselemzéseket és a belső dokumentációkat a döntéshozatal támogatása érdekében.
+**Üzleti intelligencia**vállalatok összefoglalják a piaci jelentéseket, a versenytárselemzéseket és a belső dokumentációkat a döntéshozatal támogatása érdekében.
 
 **Tartalomkezelés**A hírszervezetek és a tartalomkészítők az összefoglalást használják, hogy hosszú cikkekből kivonatokat és kiemeléseket készítsenek.
 
@@ -61,12 +61,12 @@ Install-Package Aspose.Words
 
 ### Az OpenAI API-kulcs védelme
 
-Szükséged lesz egy OpenAI API-kulcsra a nyelvi modelljeik eléréséhez. Látogass el a [OpenAI weboldal](https://openai.com/), hozz létre egy fiókot, és szerezd meg az API-kulcsodat. **Soha ne fixen kódold ezt a kulcsot** – a biztonságos kezelését később, ebben az útmutatóban mutatjuk be.
+Szükséged lesz egy OpenAI API-kulcsra a nyelvi modelljeik eléréséhez. Látogass el a [OpenAI weboldal](https://openai.com/)hozz létre egy fiókot, és szerezd meg az API-kulcsodat. **Soha ne fixen kódold ezt a kulcsot** – a biztonságos kezelését később, ebben az útmutatóban mutatjuk be.
 
 ### Fejlesztői környezet beállítása
 Bármilyen .NET-kompatibilis IDE-t használhatsz, **Vizuális Stúdió** a legjobb élményt nyújtja ehhez az oktatóanyaghoz, kiváló IntelliSense támogatással és hibakeresési képességekkel mind az Aspose.Words, mind az API integrációkhoz.
 
-## Alapvető könyvtárak és importok
+## Alapvető könyvtárak és importcikkek
 
 Az importálások helyes beállítása elengedhetetlen a zökkenőmentes fejlesztéshez. Íme, amire szükséged van az induláshoz: **C# dokumentumfeldolgozás** projekt:
 
@@ -182,7 +182,7 @@ using (Document doc = new Document(path))
 Az alapvető hosszbeállításokon túl finomhangolhatja az összefoglalási folyamatot:
 
 - **Kontextus megőrzése**Műszaki dokumentumok esetén a hosszabb összefoglalók gyakran több fontos részletet őrzenek meg.
-- **Nyelvi megfontolások**A mesterséges intelligencia modelljei az angol nyelvű tartalommal működnek a legjobban, de több nyelvet is képesek kezelni.
+- **Nyelvi megfontolások**mesterséges intelligencia modelljei az angol nyelvű tartalommal működnek a legjobban, de több nyelvet is képesek kezelni.
 - **Dokumentumtípus-optimalizálás**A jogi dokumentumok esetében eltérő összefoglaló megközelítésekre lehet szükség, mint a marketinganyagok esetében.
 
 ## Gyakori problémák és hibaelhárítás
@@ -230,7 +230,7 @@ Az Aspose.Words robusztus dokumentumkezelési képességeinek és az OpenAI fejl
 
 Ne felejtsd el mindig tesztelni a megvalósításodat az adott dokumentumtípusokkal, és a konfigurációt az egyedi igényeid alapján igazítsd. A megfelelő beállítással és az ebben az útmutatóban ismertetett technikákkal a dokumentumokat minden eddiginél hatékonyabban fogod feldolgozni.
 
-## Gyakran Ismételt Kérdések
+## Gyakran ismételt kérdések
 
 ### Mi az Aspose.Words .NET-hez?
 Az Aspose.Words for .NET egy átfogó könyvtár a Word-dokumentumok programozott kezeléséhez. Számos formátumban támogatja a létrehozást, manipulációt, konverziót és feldolgozást, így a dokumentumautomatizálással dolgozó .NET-fejlesztők első számú választása.

@@ -59,7 +59,7 @@ Document doc = new Document(dataDir + "Properties.docx");
 
 Sau khi tài liệu được tải vào ứng dụng, bạn có thể truy cập các thuộc tính tùy chỉnh của tài liệu và xóa chúng. Sau đây là cách thực hiện tác vụ này:
 
-### Bước 2: Lấy Thuộc tính Tài liệu Tùy chỉnh
+### Bước 2: Lấy lại Thuộc tính Tài liệu Tùy chỉnh
 
 Truy cập các thuộc tính tùy chỉnh của tài liệu đã tải bằng cách sử dụng `CustomDocumentProperties` thuộc tính. Điều này cho phép bạn quản lý và sửa đổi các thuộc tính của tài liệu theo chương trình.
 
@@ -97,7 +97,7 @@ Cuối cùng, sử dụng `Save` phương pháp lưu tài liệu vào đường 
 doc.Save(savePath);
 ```
 
-Thao tác này sẽ lưu tài liệu với các thuộc tính tùy chỉnh đã bị xóa, đảm bảo rằng những thay đổi sẽ được duy trì.
+Thao tác này sẽ lưu tài liệu với các thuộc tính tùy chỉnh đã bị xóa, đảm bảo rằng những thay đổi sẽ được giữ nguyên.
 
 ## Phần kết luận
 

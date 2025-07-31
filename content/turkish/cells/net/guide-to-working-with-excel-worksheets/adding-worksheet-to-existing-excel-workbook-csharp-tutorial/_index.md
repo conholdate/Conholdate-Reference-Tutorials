@@ -57,7 +57,7 @@ Emin olmak `book1.xls` belirttiğiniz dizinde mevcut; aksi takdirde bu adım bir
 
 ## Adım 3: Bir Çalışma Kitabı Nesnesi Oluşturun
 
-Şimdi, bunun bir örneğini oluşturalım `Workbook` Excel dosyamızı tutacak sınıf.
+Şimdi, bir örnek oluşturalım `Workbook` Excel dosyamızı tutacak sınıf.
 
 ```csharp
 // Bir Çalışma Kitabı nesnesini örnekleme

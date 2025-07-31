@@ -108,7 +108,7 @@ Aspose.Cells, .NET uygulamaları içerisinde Excel dosyaları oluşturmak, deği
 Evet, Aspose bir [ücretsiz deneme](https://releases.aspose.com/) özelliklerini keşfetmek için.
 
 ### Aspose.Cells için nasıl destek alabilirim?  
-Destek, özel olarak ayrılmış bir platform aracılığıyla sağlanır [Aspose.Cells forumu](https://forum.aspose.com/c/cells/9).
+Destek, özel olarak ayrılmış [Aspose.Cells forumu](https://forum.aspose.com/c/cells/9).
 
 ### Çalışma sayfasının diğer kısımlarını biçimlendirebilir miyim?  
 Kesinlikle! Aspose.Cells, yazı tipleri, renkler, kenarlıklar ve daha fazlası için stil ayarları dahil olmak üzere kapsamlı biçimlendirme seçenekleri sunar.

@@ -259,7 +259,7 @@ Welkom bij de meest uitgebreide verzameling tutorials over .NET-documentverwerki
 #### Aspose.Note voor .NET
 
 {{% alert color="primary" %}}
-**OneNote-documentverwerking** - Extraheer content, bewerk notitieboeken en integreer ze met productiviteitsworkflows. Bouw notitietoepassingen en kennisbeheersystemen.
+**OneNote-documentverwerking** - Extraheer inhoud, bewerk notitieboeken en integreer ze met productiviteitsworkflows. Bouw notitietoepassingen en kennisbeheersystemen.
 
 {{% /alert %}}
 
@@ -335,7 +335,7 @@ Welkom bij de meest uitgebreide verzameling tutorials over .NET-documentverwerki
 #### GroupDocs.Annotation voor .NET
 
 {{% alert color="primary" %}}
-**Hulpmiddelen voor documentsamenwerking** Voeg opmerkingen, markeringen en annotaties toe aan documenten. Bouw reviewworkflows, feedbacksystemen en platforms voor samenwerking bij het bewerken.
+**Hulpmiddelen voor documentsamenwerking** Voeg opmerkingen, markeringen en annotaties toe aan documenten. Creëer reviewworkflows, feedbacksystemen en platforms voor samenwerking bij het bewerken.
 
 {{% /alert %}}
 
@@ -411,5 +411,5 @@ Welkom bij de meest uitgebreide verzameling tutorials over .NET-documentverwerki
 
 **Voor Enterprise-teams:**
 1. Architectuur en ontwerppatronen
-2. Prestatie-optimalisatietechnieken
+2. Technieken voor prestatie-optimalisatie
 3. Schaalbaarheid en implementatiestrategieën

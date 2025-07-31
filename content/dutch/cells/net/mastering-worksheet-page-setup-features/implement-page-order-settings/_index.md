@@ -40,11 +40,11 @@ Maak eerst een nieuwe werkmapinstantie, die uw Excel-bestand vertegenwoordigt.
 Workbook workbook = new Workbook();
 ```
 
-Met deze regel wordt een lege Excel-werkmap geïnitialiseerd, die u kunt aanpassen.
+Met deze regel wordt een lege Excel-werkmap geïnitialiseerd, die u direct kunt aanpassen.
 
 ## Stap 2: Toegang tot de pagina-instelling van het werkblad
 
-Om de afdrukinstellingen aan te passen, gaat u naar de `PageSetup` doel van het werkblad.
+Om de afdrukinstellingen aan te passen, gaat u naar de `PageSetup` het onderwerp van het werkblad.
 
 ```csharp
 // Toegang tot de pagina-instelling van het eerste werkblad
@@ -87,7 +87,7 @@ Gefeliciteerd! U hebt de paginavolgorde in een Excel-werkblad succesvol ingestel
 
 Ja, u kunt door elk werkblad in de werkmap heen bladeren en dezelfde stappen toepassen `PageSetup.Order` instelling.
 
-### Welke andere opties zijn er voor het bestellen van drukwerk?
+### Welke andere opties zijn er voor het bestellen van afdrukken?
 
 Daarnaast `OverThenDown`, je kunt gebruiken `DownThenOver`, waarbij eerst de kolommen worden afgedrukt en daarna de rijen.
 
@@ -95,7 +95,7 @@ Daarnaast `OverThenDown`, je kunt gebruiken `DownThenOver`, waarbij eerst de kol
 
 Sommige functies zijn mogelijk beperkt zonder licentie. U kunt het proberen [Aspose.Cells voor .NET met een gratis proefperiode](https://releases.aspose.com/).
 
-### Kan ik een voorbeeld van de paginavolgorde bekijken voordat ik deze afdruk?
+### Kan ik een voorbeeld van de paginavolgorde bekijken voordat ik ga afdrukken?
 
 Met Aspose.Cells kunt u afdrukconfiguraties instellen, maar om een voorbeeld van de lay-out te bekijken, moet u het opgeslagen bestand in Excel openen.
 

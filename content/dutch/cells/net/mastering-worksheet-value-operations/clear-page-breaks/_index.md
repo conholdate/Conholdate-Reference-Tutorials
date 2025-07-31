@@ -66,7 +66,7 @@ workbook.Worksheets[0].VerticalPageBreaks.Clear();
 - `HorizontalPageBreaks.Clear()` verwijdert alle horizontale pagina-einden.
 - `VerticalPageBreaks.Clear()` verwijdert alle verticale pagina-einden.
 
-Dit zorgt ervoor dat u een schoon werkblad krijgt, zonder onderbrekingen.
+Zo krijgt u een overzichtelijk werkblad zonder onderbrekingen.
 
 ## Stap 4: Sla de werkmap op
 
@@ -95,7 +95,7 @@ Ja, u kunt door elk werkblad in de werkmap bladeren en pagina-einden afzonderlij
 Voor volledige functionaliteit zonder beperkingen is een licentie vereist. U kunt [ontvang een gratis proefperiode](https://releases.aspose.com/) of [een volledige licentie kopen](https://purchase.aspose.com/buy).
 
 ### Kan ik nieuwe pagina-einden toevoegen nadat ik deze heb verwijderd?  
-Absoluut! Je kunt pagina-einden opnieuw invoeren met methoden zoals `AddHorizontalPageBreak` En `AddVerticalPageBreak`.
+Absoluut! Je kunt pagina-einden opnieuw introduceren met methoden zoals `AddHorizontalPageBreak` En `AddVerticalPageBreak`.
 
 ### Ondersteunt Aspose.Cells andere opmaakwijzigingen?  
 Ja, Aspose.Cells biedt een uitgebreide API voor het bewerken van Excel-bestanden, inclusief styling, opmaak en het werken met complexe formules.

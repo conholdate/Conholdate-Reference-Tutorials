@@ -1,21 +1,22 @@
 ---
-title: .NET용 Aspose.CAD에서 DGN을 PDF로 변환
-linktitle: .NET용 Aspose.CAD에서 DGN을 PDF로 변환
-second_title: Aspose.CAD .NET - CAD 및 BIM 파일 형식
-description: .NET용 강력한 Aspose.CAD 라이브러리를 사용하여 DGN 파일을 PDF로 손쉽게 변환하는 방법을 알아보세요. 이 단계별 가이드는 모든 레벨의 개발자를 위해 설계되었습니다.
-weight: 12
-url: /ko/cad/guide-to-exporting-cad-format/convert-dgn-to-pdf/
+"description": "강력한 .NET용 Aspose.CAD 라이브러리를 사용하여 DGN 파일을 PDF로 손쉽게 변환하는 방법을 알아보세요. 이 단계별 가이드는 모든 수준의 개발자를 위해 설계되었습니다."
+"linktitle": "Aspose.CAD for .NET에서 DGN을 PDF로 변환"
+"second_title": "Aspose.CAD .NET - CAD 및 BIM 파일 형식"
+"title": "Aspose.CAD for .NET에서 DGN을 PDF로 변환"
+"url": "/ko/cad/net/guide-to-exporting-cad-format/convert-dgn-to-pdf/"
+"weight": 12
 ---
+
 ## 소개
 
-CAD 파일의 세계를 탐색하는 것은 어려울 수 있지만 Aspose.CAD for .NET을 사용하면 개발자는 다양한 CAD 형식을 쉽게 조작하고 변환할 수 있습니다. 일반적인 요구 사항 중 하나는 DGN 파일을 PDF로 변환하는 것이며, 이 튜토리얼에서는 단계별로 살펴보겠습니다.
+CAD 파일 세계를 탐색하는 것은 어려울 수 있지만, Aspose.CAD for .NET을 사용하면 개발자는 다양한 CAD 형식을 쉽게 조작하고 변환할 수 있습니다. 일반적인 요구 사항 중 하나는 DGN 파일을 PDF로 변환하는 것인데, 이 튜토리얼에서는 단계별로 살펴보겠습니다.
 
 ## 필수 조건
 
-따라오려면 다음 사항이 있는지 확인하세요.
+따라오시려면 다음 사항이 있는지 확인하세요.
 
-- C# 및 .NET 프레임워크에 대한 기본 지식이 필요합니다.
--  Aspose.CAD for .NET 라이브러리가 설치되었습니다. 다운로드할 수 있습니다.[여기](https://releases.aspose.com/cad/net/).
+- C# 및 .NET 프레임워크에 대한 기본 지식.
+- Aspose.CAD for .NET 라이브러리가 설치되어 있습니다. 다운로드할 수 있습니다. [여기](https://releases.aspose.com/cad/net/).
 - 샘플 DGN 파일(예: Nikon_D90_Camera.dgn) 
 
 ## 1단계: 필요한 네임스페이스 가져오기
@@ -33,7 +34,7 @@ using Aspose.CAD;
 
 ## 2단계: DGN 파일 로드
 
-DGN 파일에 대한 디렉토리를 지정하고 다음 코드를 사용하여 로드합니다.
+DGN 파일의 디렉토리를 지정하고 다음 코드를 사용하여 로드합니다.
 
 ```csharp
 string myDir = "Your Document Directory";
@@ -80,21 +81,21 @@ cadImage.Save(myDir + "ExportDGNToPdf_out.pdf", pdfOptions);
 
 ## 결론
 
-축하합니다! Aspose.CAD for .NET을 사용하여 DGN 파일을 PDF로 성공적으로 변환했습니다. 이 간단한 튜토리얼은 DGN 파일을 로드하고, 래스터화 옵션을 설정하고, 출력을 PDF로 저장하는 방법을 안내합니다.
+축하합니다! Aspose.CAD for .NET을 사용하여 DGN 파일을 PDF로 성공적으로 변환했습니다. 이 간단한 튜토리얼에서는 DGN 파일 로드, 래스터화 옵션 설정, 그리고 출력물을 PDF로 저장하는 방법을 안내했습니다.
 
 ## 자주 묻는 질문
 
-### Aspose.CAD를 사용하려면 CAD에 대한 사전 지식이 필요한가요?  
-물론입니다! Aspose.CAD는 복잡한 CAD 작업을 단순화하도록 설계되어 CAD 지식에 관계없이 모든 개발자가 사용할 수 있습니다.
+### Aspose.CAD를 사용하려면 CAD에 대한 사전 지식이 필요합니까?  
+물론입니다! Aspose.CAD는 복잡한 CAD 작업을 간소화하도록 설계되어 CAD 지식에 관계없이 모든 개발자가 쉽게 사용할 수 있습니다.
 
 ### Aspose.CAD에 대한 추가 리소스와 문서는 어디에서 찾을 수 있나요?  
- 포괄적인 가이드와 예를 탐색할 수 있습니다.[Aspose.CAD 설명서](https://reference.aspose.com/cad/net/).
+포괄적인 가이드와 예제를 탐색할 수 있습니다. [Aspose.CAD 문서](https://reference.aspose.com/cad/net/).
 
 ### Aspose.CAD에 대한 무료 평가판이 있나요?  
- 네, 무료 체험판을 받으실 수 있습니다.[여기](https://releases.aspose.com/).
+네, 무료 체험판을 받으실 수 있습니다. [여기](https://releases.aspose.com/).
 
 ### Aspose.CAD에 대한 임시 라이선스를 어떻게 받을 수 있나요?  
- 임시 라이센스를 요청할 수 있습니다[여기](https://purchase.conholdate.com/temporary-license/).
+임시 라이센스를 요청할 수 있습니다 [여기](https://purchase.conholdate.com/temporary-license/).
 
-### 도움이 필요하시거나 궁금한 점이 있으신가요?  
- 대화에 참여하세요[Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 커뮤니티 지원 및 문의사항은 여기를 클릭하세요.
+### 도움이 필요하거나 궁금한 점이 있으신가요?  
+대화에 참여하세요 [Aspose.CAD 포럼](https://forum.aspose.com/c/cad/19) 지역사회 지원 및 문의사항.

@@ -1,14 +1,15 @@
 ---
-title: Zapisywanie dokumentów OneNote w formacie PDF przy użyciu Aspose.Note dla platformy .NET
-linktitle: Zapisywanie dokumentów OneNote w formacie PDF
-second_title: Aspose.Note .NET API
-description: Dowiedz się, jak skutecznie zapisywać dokumenty Microsoft OneNote jako pliki PDF przy użyciu Aspose.Note dla .NET. Ten przewodnik przeprowadzi Cię przez niezbędne wymagania wstępne i oferuje pomocne FAQ.
-weight: 26
-url: /pl/note/one-note-document-manipulation/saving-one-note-document-pdf/
+"description": "Dowiedz się, jak efektywnie zapisywać dokumenty programu Microsoft OneNote w formacie PDF za pomocą Aspose.Note dla platformy .NET. Ten przewodnik przeprowadzi Cię przez niezbędne wymagania wstępne i zawiera pomocne odpowiedzi na często zadawane pytania."
+"linktitle": "Zapisywanie dokumentów programu OneNote w formacie PDF"
+"second_title": "Aspose.Note .NET API"
+"title": "Zapisywanie dokumentów programu OneNote w formacie PDF za pomocą Aspose.Note dla platformy .NET"
+"url": "/pl/note/net/one-note-document-manipulation/saving-one-note-document-pdf/"
+"weight": 26
 ---
+
 ## Wstęp
 
-W tym samouczku pokażemy, jak zapisywać dokumenty w formacie PDF za pomocą Aspose.Note dla .NET. Aspose.Note to potężna biblioteka, która umożliwia programistom pracę z plikami Microsoft OneNote programowo. Omówimy wymagania wstępne, zaimportujemy przestrzenie nazw i dostarczymy przewodniki krok po kroku dotyczące zapisywania dokumentów w formacie PDF w różnych układach stron.
+W tym samouczku pokażemy, jak zapisywać dokumenty w formacie PDF za pomocą Aspose.Note dla platformy .NET. Aspose.Note to potężna biblioteka, która umożliwia programistom programistyczną pracę z plikami Microsoft OneNote. Omówimy wymagania wstępne, importowanie przestrzeni nazw i przedstawimy przewodniki krok po kroku dotyczące zapisywania dokumentów w formacie PDF w różnych układach strony.
 
 ## Wymagania wstępne
 1. Visual Studio: Sprawdź, czy jest zainstalowany.
@@ -24,7 +25,7 @@ using System.IO;
 using Aspose.Note.Saving;
 ```
 
-## Krok 1: Zapisz do pliku PDF z ustawieniami strony Letter
+## Krok 1: Zapisz w formacie PDF z ustawieniami strony Letter
 ```csharp
 public static void SaveToPdfUsingLetterPageSettings()
 {
@@ -38,7 +39,7 @@ public static void SaveToPdfUsingLetterPageSettings()
 ```
 Ładuje dokument programu OneNote i zapisuje go w formacie PDF, używając ustawień rozmiaru strony Letter.
 
-## Krok 2: Zapisz do pliku PDF z ustawieniami strony A4 (bez limitu wysokości)
+## Krok 2: Zapisz w formacie PDF z ustawieniami strony A4 (bez limitu wysokości)
 ```csharp
 public static void SaveToPdfUsingA4PageSettingsWithoutHeightLimit()
 {
@@ -53,7 +54,7 @@ public static void SaveToPdfUsingA4PageSettingsWithoutHeightLimit()
 Podobnie jak w kroku 1, ale wykorzystuje ustawienia strony A4 bez ograniczeń wysokości.
 
 ## Wniosek
-Samouczek skutecznie pokazuje, jak konwertować pliki OneNote do formatu PDF za pomocą Aspose.Note. Dzięki wykorzystaniu różnych ustawień strony programiści zyskują elastyczność w zarządzaniu dokumentami.
+Samouczek skutecznie pokazuje, jak konwertować pliki OneNote do formatu PDF za pomocą Aspose.Note. Dzięki wykorzystaniu różnych ustawień strony, programiści zyskują elastyczność w zarządzaniu dokumentami.
 
 ## Najczęściej zadawane pytania
 ### Czy Aspose.Note obsługuje złożone pliki OneNote?

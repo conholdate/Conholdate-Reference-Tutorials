@@ -42,7 +42,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Document doc = new Document(dataDir + "AddTooltipToField.pdf");
 ```
 
-- dataDir: बदलें `"YOUR DOCUMENT DIRECTORY"` आपकी पीडीएफ फाइल का वास्तविक पथ.
+- dataDir: बदलें `"YOUR DOCUMENT DIRECTORY"` आपकी पीडीएफ फाइल के वास्तविक पथ के साथ।
 - दस्तावेज़ doc: यह पंक्ति पीडीएफ को मेमोरी में लोड करती है, तथा उसे संपादन के लिए तैयार करती है।
 
 इस कदम को कैबिनेट से फाइल निकालने और उसकी समीक्षा करने के समान समझें - अब यह परिवर्तन के लिए खुला है!

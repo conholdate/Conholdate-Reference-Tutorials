@@ -164,7 +164,7 @@ Console.WriteLine("\nTOC added successfully to an existing PDF.\nFile saved at "
 *Giải pháp*: Kiểm tra lại xem `DestinationPage` Tài liệu tham khảo là chính xác. Hãy nhớ rằng, việc lập chỉ mục trang bắt đầu từ 1, không phải 0.
 
 **Vấn đề 2: Mục lục xuất hiện ở trang sai**
-*Giải pháp*: Đảm bảo bạn đang sử dụng `Insert(1)` để đặt TOC ở đầu. Nếu bạn muốn đặt ở nơi khác, hãy điều chỉnh vị trí cho phù hợp.
+*Giải pháp*: Đảm bảo bạn đang sử dụng `Insert(1)` Đặt TOC ở đầu. Nếu bạn muốn đặt ở nơi khác, hãy điều chỉnh vị trí cho phù hợp.
 
 **Vấn đề 3: Định dạng trông không nhất quán**
 *Giải pháp*: Áp dụng nhất quán `TextState` thuộc tính trên tất cả các mục lục của bạn. Tạo một mẫu kiểu và sử dụng lại.
@@ -174,7 +174,7 @@ Console.WriteLine("\nTOC added successfully to an existing PDF.\nFile saved at "
 
 ## Thực hành tốt nhất để triển khai mục lục PDF
 
-**Giữ cho nó đơn giản**: Đừng làm phức tạp cấu trúc mục lục. Người dùng cần hiểu ngay lập tức.
+**Giữ cho nó đơn giản**: Đừng làm cấu trúc mục lục trở nên quá phức tạp. Người dùng cần hiểu ngay lập tức.
 
 **Kiểm tra kỹ lưỡng**: Luôn kiểm tra các liên kết mục lục, đặc biệt là sau khi thực hiện thay đổi đối với cấu trúc tài liệu.
 
@@ -224,4 +224,4 @@ Có, nhưng bạn sẽ cần sử dụng siêu liên kết thay vì cơ chế li
 
 ### Aspose.PDF có hỗ trợ mục lục đa cấp không?
 
-Chắc chắn rồi! Aspose.PDF hỗ trợ mục lục đa cấp cho các tài liệu phức tạp có nhiều tiểu mục. Bạn có thể tạo bao nhiêu cấp tùy thích bằng cách sử dụng các mục lục khác nhau. `Heading` và thư viện tự động xử lý cấu trúc phân cấp. Điều này làm cho nó hoàn hảo cho tài liệu kỹ thuật, báo cáo và sách có cấu trúc chương phức tạp.
+Chắc chắn rồi! Aspose.PDF hỗ trợ mục lục đa cấp cho các tài liệu phức tạp có nhiều tiểu mục. Bạn có thể tạo bao nhiêu cấp tùy thích bằng cách sử dụng các tùy chọn khác nhau. `Heading` và thư viện tự động xử lý cấu trúc phân cấp. Điều này làm cho nó hoàn hảo cho tài liệu kỹ thuật, báo cáo và sách có cấu trúc chương phức tạp.

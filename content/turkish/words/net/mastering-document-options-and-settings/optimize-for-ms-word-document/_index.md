@@ -17,7 +17,7 @@ Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalı
 
 1. .NET için Aspose.Words: [Buradan indirin](https://releases.aspose.com/words/net/).
 2. Geliştirme Ortamı: Visual Studio veya herhangi bir .NET uyumlu IDE kullanın.
-3. C# Temel Bilgisi: C#'a aşina olmak kodlama sürecinde size yardımcı olacaktır, ancak uzman değilseniz endişelenmeyin!
+3. C# Temel Bilgisi: C#'a aşinalık, kodlama sürecinde size yol gösterecektir; ancak uzman değilseniz endişelenmeyin!
 
 ## Gerekli Ad Alanlarını İçe Aktarma
 

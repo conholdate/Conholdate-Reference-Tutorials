@@ -21,13 +21,13 @@ Heb je ooit tekstvakken willen verbinden zodat de tekst vloeiend van het ene vak
 
 Maakt u zich zorgen over de logische tekststroom in uw document? [Controle van tekstvakreeksen in Word-documenten](./textbox-sequences-check/) Deze tutorial is perfect voor jou. Het biedt tools om tekstvakken te maken, te koppelen en de volgorde ervan te controleren, zodat je een duidelijke en samenhangende structuur in je document behoudt. Dit is vooral belangrijk voor de leesbaarheid en om ervoor te zorgen dat je publiek betrokken blijft.
 
-## Voorwaartse links verbreken
+## Doorbrekende links
 
-Soms moet u bestaande koppelingen tussen tekstvakken verbreken om de lay-out aan te passen. Onze gids over hoe u [Link doorbreken in Word-document](./break-forward-link/) begeleidt u bij het eenvoudig beheren en aanpassen van deze links. Deze functie kan uw contentstroom aanzienlijk verbeteren en biedt u de mogelijkheid om de lay-out van uw document precies zo aan te passen als u voor ogen heeft.
+Soms moet u bestaande koppelingen tussen tekstvakken verbreken om de lay-out aan te passen. Onze gids over hoe u [Link doorbreken in Word-document](./break-forward-link/) helpt je bij het eenvoudig beheren en aanpassen van deze links. Deze functie kan je contentstroom aanzienlijk verbeteren en biedt je de mogelijkheid om de lay-out van je document precies zo aan te passen als je voor ogen hebt.
 
 ## Woorden met tekstvakken tutorials
 | Titel | Beschrijving |
 | --- | --- |
-| [Gekoppelde tekstvakken in Word-documenten met Aspose.Words voor .NET](./linked-text-boxes/) | Leer hoe u naadloos tekstvakken in Word-documenten kunt maken en koppelen met Aspose.Words voor .NET. Volg onze gedetailleerde handleiding voor een moeiteloze contentflow en professionele resultaten. |
-| [Controle van tekstvakreeksen in Word-documenten](./textbox-sequences-check/) | Leer hoe u eenvoudig tekstvakken kunt maken, koppelen en de volgorde ervan kunt controleren om ervoor te zorgen dat uw content logisch overkomt. Perfect voor ontwikkelaars die de documentstructuur en het ontwerp willen verbeteren. |
+| [Gekoppelde tekstvakken in Word-documenten met Aspose.Words voor .NET](./linked-text-boxes/) | Leer hoe u naadloos tekstvakken kunt maken en koppelen in Word-documenten met Aspose.Words voor .NET. Volg onze gedetailleerde handleiding voor een moeiteloze contentflow en professionele resultaten. |
+| [Controle van tekstvakreeksen in Word-documenten](./textbox-sequences-check/) | Leer hoe u eenvoudig tekstvakken kunt maken, koppelen en de volgorde ervan kunt controleren om ervoor te zorgen dat uw content logisch verloopt. Perfect voor ontwikkelaars die de documentstructuur en het ontwerp willen verbeteren. |
 | [Verbreek de voorwaartse koppeling in een Word-document met Aspose.Words voor .NET](./break-forward-link/) Ontdek hoe u forward links in tekstvakken kunt verbreken, beheren en aanpassen met Aspose.Words voor .NET. Deze stapsgewijze handleiding behandelt alles wat u nodig hebt om de lay-out van uw documenten te stroomlijnen en uw Word-bestandsbeheer te verbeteren. |

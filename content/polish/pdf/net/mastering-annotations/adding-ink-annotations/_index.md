@@ -17,7 +17,7 @@ Zanim przejdziemy do kodu, upewnijmy się, że wszystko jest skonfigurowane:
 
 1. .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET Framework. Aspose.PDF bezproblemowo współpracuje z różnymi wersjami, w tym .NET Core.
 2. Biblioteka Aspose.PDF: Pobierz i skonsultuj się z biblioteką Aspose.PDF dla platformy .NET w swoim projekcie. Najnowszą wersję znajdziesz na stronie [link do pobrania](https://releases.aspose.com/pdf/net/).
-3. Edytor kodu: Chociaż możesz używać dowolnego edytora kodu, gorąco polecamy program Visual Studio ze względu na przyjazny interfejs użytkownika umożliwiający współpracę z aplikacjami .NET.
+3. Edytor kodu: Chociaż możesz użyć dowolnego edytora kodu, gorąco polecamy program Visual Studio ze względu na przyjazny interfejs użytkownika umożliwiający współpracę z aplikacjami .NET.
 4. Podstawowa wiedza z zakresu języka C#: Znajomość języka C# ułatwi Ci płynne poruszanie się po przykładach kodowania.
 5. Konfiguracja środowiska programistycznego: upewnij się, że środowisko IDE jest skonfigurowane pod kątem projektów .NET i że poprawnie odwołałeś się do biblioteki Aspose.PDF.
 

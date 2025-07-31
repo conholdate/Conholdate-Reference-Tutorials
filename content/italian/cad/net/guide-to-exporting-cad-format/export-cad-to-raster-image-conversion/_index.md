@@ -1,25 +1,26 @@
 ---
-title: Esportazione CAD in conversione di immagini raster con Aspose.CAD per .NET
-linktitle: Conversione di esportazione CAD in immagini raster
-second_title: Aspose.CAD .NET - Formato file CAD e BIM
-description: Scopri come convertire in modo efficiente i layout CAD in vari formati di immagini raster utilizzando Aspose.CAD per .NET. Questa guida completa ti accompagna attraverso il processo con codice chiaro.
-weight: 10
-url: /it/cad/guide-to-exporting-cad-format/export-cad-to-raster-image-conversion/
+"description": "Scopri come convertire in modo efficiente i layout CAD in vari formati di immagini raster utilizzando Aspose.CAD per .NET. Questa guida completa ti guiderà attraverso il processo con un codice chiaro."
+"linktitle": "Conversione da esportazione CAD a immagine raster"
+"second_title": "Aspose.CAD .NET - Formato file CAD e BIM"
+"title": "Esportazione di immagini CAD in conversione di immagini raster con Aspose.CAD per .NET"
+"url": "/it/cad/net/guide-to-exporting-cad-format/export-cad-to-raster-image-conversion/"
+"weight": 10
 ---
+
 ## Introduzione
 
-Stai cercando di convertire layout CAD in formati di immagini raster senza sforzo usando Aspose.CAD per .NET? Questa guida passo passo è progettata per aiutarti a navigare nel processo, completa di frammenti di codice concisi per un'esperienza fluida. Che tu sia uno sviluppatore esperto o alle prime armi, questo tutorial fornisce spunti preziosi per tutti i livelli di competenza.
+Vuoi convertire layout CAD in formati di immagini raster senza sforzo utilizzando Aspose.CAD per .NET? Questa guida passo passo è progettata per aiutarti a orientarti nel processo, completa di frammenti di codice concisi per un'esperienza fluida. Che tu sia uno sviluppatore esperto o alle prime armi, questo tutorial offre spunti preziosi per tutti i livelli di competenza.
 
 ## Prerequisiti
 
 Prima di iniziare, assicurati di avere quanto segue:
 
-- Libreria Aspose.CAD per .NET: scaricare e installare la libreria da[Sito web Aspose.CAD](https://releases.aspose.com/cad/net/).
--  File di disegno CAD: disponi del file di disegno CAD (ad esempio,`conic_pyramid.dxf`) pronto per la conversione.
+- Libreria Aspose.CAD per .NET: scaricare e installare la libreria da [Sito web Aspose.CAD](https://releases.aspose.com/cad/net/).
+- File di disegno CAD: avere il file di disegno CAD (ad esempio, `conic_pyramid.dxf`) pronto per la conversione.
 
 ## Importa gli spazi dei nomi richiesti
 
-Nel tuo progetto .NET, dovrai importare i namespace necessari per utilizzare le funzioni Aspose.CAD. Aggiungi quanto segue all'inizio del tuo codice:
+Nel tuo progetto .NET, dovrai importare gli spazi dei nomi necessari per utilizzare le funzioni di Aspose.CAD. Aggiungi quanto segue all'inizio del codice:
 
 ```csharp
 using System;
@@ -69,7 +70,7 @@ rasterizationOptions.Layers = new [] { "LayerA" };
 
 ## Passaggio 4: impostare le opzioni di esportazione JPEG
 
-Ora, crea le opzioni per il formato immagine in cui desideri esportare (JPEG in questo caso):
+Ora, crea le opzioni per il formato dell'immagine in cui desideri esportare (JPEG in questo caso):
 
 ```csharp
 // Crea JpegOptions per l'esportazione
@@ -79,7 +80,7 @@ var options = new JpegOptions
 };
 ```
 
-## Passaggio 5: Esportazione in formato JPEG
+## Passaggio 5: Esporta in formato JPEG
 
 Infine, salva l'immagine convertita:
 
@@ -89,7 +90,7 @@ string outputFilePath = MyDir + "CADLayersToRasterImageFormats_out.jpg";
 image.Save(outputFilePath, options);
 ```
 
-## Funzionalità aggiuntiva: Converti tutti i livelli
+## Funzionalità aggiuntiva: converti tutti i livelli
 
 Per convertire tutti i livelli nel disegno CAD, puoi implementare un metodo come questo:
 
@@ -103,26 +104,26 @@ void ConvertAllLayersToRasterImageFormats()
 
 ## Conclusione
 
-Congratulazioni! Hai imparato come convertire efficacemente i layout CAD in formati di immagini raster utilizzando Aspose.CAD per .NET. Questa guida offre un approccio diretto adatto agli sviluppatori che mirano a conversioni CAD efficienti.
+Congratulazioni! Hai imparato come convertire efficacemente i layout CAD in formati di immagini raster utilizzando Aspose.CAD per .NET. Questa guida offre un approccio semplice, adatto agli sviluppatori che desiderano conversioni CAD efficienti.
 
 ## Domande frequenti
 
-### Posso esportare in diversi formati di immagine?
+### Posso esportare in formati immagine diversi?
 
- Assolutamente! Semplicemente scambia`JpegOptions` con altre opzioni di formato, come`PngOptions` O`BmpOptions`, a seconda delle vostre esigenze.
+Assolutamente! Semplicemente scambia `JpegOptions` con altre opzioni di formato, come `PngOptions` O `BmpOptions`, a seconda delle vostre esigenze.
 
 ### È disponibile una versione di prova?
 
- Sì, puoi scaricare una versione di prova per esplorare le funzionalità seguendo questa procedura[collegamento](https://releases.aspose.com/cad/net/).
+Sì, puoi scaricare una versione di prova per esplorare le funzionalità seguendo questa [collegamento](https://releases.aspose.com/cad/net/).
 
 ### Dove posso trovare supporto per Aspose.CAD?
 
- Per il supporto della comunità, consulta Aspose.CAD[foro](https://forum.aspose.com/c/cad/19)oppure prendi in considerazione l'acquisto di una licenza per un'assistenza più dedicata.
+Per il supporto della community, consulta Aspose.CAD [foro](https://forum.aspose.com/c/cad/19)oppure valuta l'acquisto di una licenza per un'assistenza più dedicata.
 
 ### Sono possibili licenze temporanee?
 
- Sì, sono disponibili licenze temporanee; puoi richiederne una[Qui](https://purchase.conholdate.com/temporary-license/).
+Sì, sono disponibili licenze temporanee; puoi richiederne una [Qui](https://purchase.conholdate.com/temporary-license/).
 
 ### Dove posso accedere alla documentazione dettagliata?
 
- Visita la documentazione completa[Qui](https://reference.aspose.com/cad/net/) per ulteriori informazioni.
+Visita la documentazione completa [Qui](https://reference.aspose.com/cad/net/) per maggiori informazioni.

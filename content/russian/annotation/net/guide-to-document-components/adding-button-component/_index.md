@@ -1,21 +1,22 @@
 ---
-title: Добавление компонентов кнопок с помощью GroupDocs.Annotation для .NET
-linktitle: Добавление компонентов кнопки
-second_title: GroupDocs.Аннотация .NET API
-description: Узнайте, как улучшить ваши PDF-документы, добавив интерактивные компоненты кнопок с помощью GroupDocs.Annotation для .NET. Это пошаговое руководство.
-weight: 10
-url: /ru/annotation/guide-to-document-components/adding-button-component/
+"description": "Узнайте, как улучшить PDF-документы, добавив интерактивные компоненты «Кнопка» с помощью GroupDocs.Annotation для .NET. Это пошаговое руководство."
+"linktitle": "Добавление компонентов кнопки"
+"second_title": "GroupDocs.Аннотация .NET API"
+"title": "Добавление компонентов кнопок с помощью GroupDocs.Annotation для .NET"
+"url": "/ru/annotation/net/guide-to-document-components/adding-button-component/"
+"weight": 10
 ---
+
 ## Введение
 
-В этом руководстве мы проведем вас через простой процесс добавления компонента Button в документ PDF с использованием библиотеки GroupDocs.Annotation для .NET. К концу этого руководства вы будете готовы улучшить свои документы PDF с помощью интерактивных функций.
+В этом руководстве мы покажем вам простой процесс добавления компонента «Кнопка» в PDF-документ с помощью библиотеки GroupDocs.Annotation для .NET. К концу этого руководства вы будете готовы добавлять в свои PDF-документы интерактивные функции.
 
 ## Предпосылки
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-1.  GroupDocs.Annotation для .NET: Загрузите и установите библиотеку GroupDocs.Annotation для .NET с сайта[здесь](https://releases.groupdocs.com/annotation/net/).
-2. Среда разработки: настройте подходящую среду разработки с установленным .NET Framework.
+1. GroupDocs.Annotation для .NET: Загрузите и установите библиотеку GroupDocs.Annotation для .NET с сайта [здесь](https://releases.groupdocs.com/annotation/net/).
+2. Среда разработки: настройте подходящую среду разработки с установленной платформой .NET.
 
 ## Шаг 1: Импорт необходимых пространств имен
 
@@ -49,7 +50,7 @@ using (Annotator annotator = new Annotator("input.pdf"))
     ButtonComponent button = new ButtonComponent
     {
         Box = new Rectangle(100, 100, 100, 100), // Положение и размер кнопки
-        PenColor = 65535,                       // Цвет рамки кнопки
+        PenColor = 65535,                       // Цвет границы кнопки
         Style = BorderStyle.Dashed,             // Стиль границы
         BorderWidth = 0,                        // Ширина границы
         BorderColor = 0,                        // Цвет границы
@@ -65,7 +66,7 @@ using (Annotator annotator = new Annotator("input.pdf"))
     };
 
     annotator.Add(button); // Добавить кнопку в аннотатор
-    annotator.Save("result.pdf"); // Сохраните измененный PDF-файл.
+    annotator.Save("result.pdf"); // Сохраните измененный PDF-файл
 }
 ```
 
@@ -77,19 +78,19 @@ using (Annotator annotator = new Annotator("input.pdf"))
 Console.WriteLine($"\nDocument saved successfully.\nCheck output in {outputPath}.");
 ```
 
-Поздравляем! Вы успешно добавили компонент «Кнопка» в документ PDF с помощью GroupDocs.Annotation для .NET.
+Поздравляем! Вы успешно добавили компонент «Кнопка» в PDF-документ с помощью GroupDocs.Annotation для .NET.
 
 ## Заключение
 
-В этом уроке мы продемонстрировали, как включить компоненты кнопок в документы PDF с помощью GroupDocs.Annotation для .NET. Выполнив эти шаги, вы можете значительно улучшить интерактивность ваших документов PDF.
+В этом уроке мы продемонстрировали, как добавлять компоненты «Кнопка» в PDF-документы с помощью GroupDocs.Annotation для .NET. Следуя этим шагам, вы сможете значительно повысить интерактивность своих PDF-документов.
 
 ## Часто задаваемые вопросы
 
 ### Могу ли я настроить внешний вид кнопки?
 
-Конечно! Вы можете изменять различные свойства, такие как размер, цвет и стиль, в соответствии с вашими требованиями.
+Конечно! Вы можете изменить различные параметры, такие как размер, цвет и стиль, в соответствии со своими требованиями.
 
-### Совместим ли GroupDocs.Annotation для .NET со всеми версиями PDF?
+### Совместим ли GroupDocs.Annotation for .NET со всеми версиями PDF?
 
 Да, GroupDocs.Annotation для .NET поддерживает широкий спектр версий PDF, обеспечивая совместимость с большинством документов.
 
@@ -97,10 +98,10 @@ Console.WriteLine($"\nDocument saved successfully.\nCheck output in {outputPath}
 
 Да, вы можете добавить в PDF-документ столько компонентов кнопок, сколько необходимо.
 
-### Поддерживает ли GroupDocs.Annotation для .NET другие форматы файлов?
+### Поддерживает ли GroupDocs.Annotation for .NET другие форматы файлов?
 
-Да, он поддерживает различные форматы документов, включая DOCX, PPTX и XLSX, в дополнение к PDF.
+Да, помимо PDF, он поддерживает различные форматы документов, включая DOCX, PPTX и XLSX.
 
-### Существует ли пробная версия для тестирования?
+### Доступна ли пробная версия для тестирования?
 
- Да, вы можете получить доступ к бесплатной пробной версии GroupDocs.Annotation для .NET по ссылке[здесь](https://releases.groupdocs.com/).
+Да, вы можете получить доступ к бесплатной пробной версии GroupDocs.Annotation для .NET от [здесь](https://releases.groupdocs.com/).

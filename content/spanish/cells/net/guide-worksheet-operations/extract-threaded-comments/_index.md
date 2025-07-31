@@ -33,7 +33,7 @@ using System.Text;
 Primero, especifique el directorio donde se encuentra su archivo de Excel. Asegúrese de que la ruta coincida con la ubicación del archivo en su sistema.
 
 ```csharp
-// Directorio de origen
+// Directorio de fuentes
 string sourceDir = "Your Document Directory";
 ```
 Reemplazar `"Your Document Directory\"` con la ruta real a su archivo Excel.

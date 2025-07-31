@@ -15,7 +15,7 @@ Jeśli chodzi o tworzenie profesjonalnie wyglądających dokumentów Word, zakł
 
 Zakładki działają jak skróty w dokumencie Word. Umożliwiają łatwe zaznaczanie i przechodzenie do określonych sekcji. Jest to szczególnie przydatne podczas pracy nad obszernymi raportami lub książkami, w których znalezienie konkretnej treści może być żmudne. Dzięki Aspose.Words for .NET możesz łatwo tworzyć, usuwać i zarządzać zakładkami. Ale jak to wdrożyć w swoich projektach?
 
-Zajrzyj do naszego [Utwórz zakładkę w dokumencie Word za pomocą Aspose.Words dla platformy .NET](./create-bookmark-in-word-document/) Samouczek z praktycznym przewodnikiem tworzenia zakładek. To podejście krok po kroku pozwoli Ci ulepszyć dokumenty Word, ułatwiając nawigację i zarządzanie nimi.
+Zajrzyj na naszą stronę [Utwórz zakładkę w dokumencie Word za pomocą Aspose.Words dla platformy .NET](./create-bookmark-in-word-document/) Samouczek z praktycznym przewodnikiem tworzenia zakładek. To podejście krok po kroku pozwoli Ci ulepszyć dokumenty Word, ułatwiając nawigację i zarządzanie nimi.
 
 ## Zarządzanie zakładkami
 

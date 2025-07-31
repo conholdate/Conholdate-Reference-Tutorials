@@ -60,7 +60,7 @@ Geben Sie nun den Pfad zu Ihrem Dokumentverzeichnis an, in dem sich Ihr Beispiel
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Ersetzen `"YOUR DOCUMENT DIRECTORY"` mit dem tatsächlichen Pfad zu Ihrem Dokument.
+Ersetzen `"YOUR DOCUMENT DIRECTORY"` durch den tatsächlichen Pfad zu Ihrem Dokument.
 
 ## Schritt 4: Laden Sie das Dokument
 

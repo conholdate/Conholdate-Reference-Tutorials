@@ -218,7 +218,7 @@ Il punto di forza di questo approccio è la sua flessibilità: è possibile adat
 
 Ricorda, la pratica rende perfetti. Prova a sperimentare con nomi di fogli di lavoro diversi, ad aggiungere più fogli di lavoro contemporaneamente o a combinare questa tecnica con la manipolazione dei dati. Più ti eserciti, più acquisirai sicurezza nell'automazione di Excel.
 
-Pronti a portare l'automazione di Excel a un livello superiore? Iniziate a creare e non abbiate paura di sperimentare!
+Pronto a portare l'automazione di Excel a un livello superiore? Inizia a creare e non aver paura di sperimentare!
 
 ## Domande frequenti
 

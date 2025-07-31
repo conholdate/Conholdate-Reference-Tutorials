@@ -86,7 +86,7 @@ Analicemos lo que está sucediendo aquí:
 
 ## Paso 2: Convierte la matriz de bytes nuevamente en documento
 
-Lo que va por un lado también puede volver por el otro. Si necesita convertir una matriz de bytes en un objeto de documento (lo cual es muy útil para procesar flujos de trabajo), aquí le mostramos cómo:
+Lo que va por un lado también puede volver por el otro. Si necesita convertir una matriz de bytes en un objeto Document (lo cual es muy útil para procesar flujos de trabajo), aquí le mostramos cómo:
 
 ```csharp
 // Convertir la matriz de bytes nuevamente a MemoryStream

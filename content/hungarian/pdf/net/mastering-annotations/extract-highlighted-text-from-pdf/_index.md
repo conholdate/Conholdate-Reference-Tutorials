@@ -1,5 +1,5 @@
 ---
-"description": "Engedd szabadjára PDF-dokumentumaidban rejlő lehetőségeket az Aspose.PDF for .NET segítségével kiemelt szöveg kinyerésének elsajátításával. Ez az átfogó útmutató végigvezet a lépéseken, a beállítástól a megvalósításig."
+"description": "Engedd szabadjára PDF dokumentumaidban rejlő lehetőségeket az Aspose.PDF for .NET segítségével kiemelt szöveg kinyerésének elsajátításával. Ez az átfogó útmutató végigvezet a lépéseken, a beállítástól a megvalósításig."
 "linktitle": "Kiemelt szöveg kinyerése PDF-ekből az Aspose.PDF for .NET használatával"
 "second_title": "Aspose.PDF .NET API referenciafájlhoz"
 "title": "Kiemelt szöveg kinyerése PDF-ekből az Aspose.PDF for .NET használatával"
@@ -18,7 +18,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy a következők a helyén vann
 - Aspose.PDF .NET könyvtárhoz: Töltse le a könyvtárat innen: [kiadási oldal](https://releases.aspose.com/pdf/net/).
 - Fejlesztői környezet: Egy munkakörnyezet, mint például a Visual Studio.
 - C# alapismeretek: C# és objektumorientált programozás ismerete szükséges.
-- Aspose licenc: Bár ingyenes próbaverzióval is elkezdheted, [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy egy teljes licencet a következőtől: [itt](https://purchase.aspose.com/buy) korlátlan hozzáférést biztosít majd.
+- Aspose licenc: Bár ingyenes próbaverzióval is elkezdheted, [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy teljes körű licencet a következőtől: [itt](https://purchase.aspose.com/buy) korlátlan hozzáférést biztosít majd.
 
 ## Szükséges névterek importálása
 
@@ -34,7 +34,7 @@ using System.Text;
 
 Ezek a névterek hozzáférést biztosítanak a PDF dokumentumok és annotációk kezeléséhez szükséges osztályokhoz és metódusokhoz.
 
-## 1. lépés: A projektkönyvtár beállítása
+## 1. lépés: Projektkönyvtár beállítása
 
 Adja meg a PDF fájl mappáját:
 

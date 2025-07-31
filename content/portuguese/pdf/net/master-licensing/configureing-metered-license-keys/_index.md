@@ -94,7 +94,7 @@ Compre chaves de licença medidas de [aqui](https://purchase.aspose.com/buy) ou 
 ### Posso usar o Aspose.PDF sem uma licença?  
 Sim, mas a versão gratuita tem limitações. Uma licença válida é necessária para acesso irrestrito a todos os recursos.
 
-### O que acontece se eu não definir a licença medida corretamente?  
+### que acontece se eu não definir a licença medida corretamente?  
 Se não for definido corretamente, seu aplicativo poderá encontrar exceções relacionadas ao licenciamento ou perder acesso a todos os recursos.
 
 ### Posso alternar entre diferentes tipos de licença no Aspose.PDF?  

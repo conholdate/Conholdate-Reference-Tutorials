@@ -52,11 +52,11 @@ Imposta il percorso della directory per il tuo documento:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Sostituire `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del file PDF.
+Sostituire `"YOUR DOCUMENT DIRECTORY"` con il percorso effettivo del tuo file PDF.
 
 ### Passaggio 1.2: Carica il documento PDF
 
-Caricare il documento PDF utilizzando il `Document` classe:
+Caricare il documento PDF utilizzando `Document` classe:
 
 ```csharp
 Document doc = new Document(dataDir + "RemoveGraphicsObjects.pdf");

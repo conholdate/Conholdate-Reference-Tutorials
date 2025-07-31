@@ -1,20 +1,21 @@
 ---
-title: Menambahkan Komponen Tombol dengan GroupDocs.Annotation untuk .NET
-linktitle: Menambahkan Komponen Tombol
-second_title: API .NET GroupDocs.Annotation
-description: Temukan cara untuk meningkatkan dokumen PDF Anda dengan menambahkan Komponen Tombol interaktif menggunakan GroupDocs.Annotation untuk .NET. Tutorial langkah demi langkah ini.
-weight: 10
-url: /id/annotation/guide-to-document-components/adding-button-component/
+"description": "Temukan cara meningkatkan kualitas dokumen PDF Anda dengan menambahkan Komponen Tombol interaktif menggunakan GroupDocs.Annotation untuk .NET. Tutorial langkah demi langkah ini."
+"linktitle": "Menambahkan Komponen Tombol"
+"second_title": "GroupDocs.Annotation .NET API"
+"title": "Menambahkan Komponen Tombol dengan GroupDocs.Annotation untuk .NET"
+"url": "/id/annotation/net/guide-to-document-components/adding-button-component/"
+"weight": 10
 ---
+
 ## Perkenalan
 
-Dalam tutorial ini, kami akan memandu Anda melalui proses mudah untuk menambahkan Komponen Tombol ke dokumen PDF menggunakan pustaka GroupDocs.Annotation untuk .NET. Di akhir panduan ini, Anda akan diperlengkapi untuk menyempurnakan dokumen PDF Anda dengan fitur-fitur interaktif.
+Dalam tutorial ini, kami akan memandu Anda melalui proses mudah menambahkan Komponen Tombol ke dokumen PDF menggunakan pustaka GroupDocs.Annotation untuk .NET. Di akhir panduan ini, Anda akan siap untuk menyempurnakan dokumen PDF Anda dengan fitur-fitur interaktif.
 
 ## Prasyarat
 
 Sebelum memulai, pastikan Anda telah menyiapkan hal-hal berikut:
 
-1.  GroupDocs.Annotation untuk .NET: Unduh dan instal pustaka GroupDocs.Annotation untuk .NET dari[Di Sini](https://releases.groupdocs.com/annotation/net/).
+1. GroupDocs.Annotation untuk .NET: Unduh dan instal pustaka GroupDocs.Annotation untuk .NET dari [Di Sini](https://releases.groupdocs.com/annotation/net/).
 2. Lingkungan Pengembangan: Siapkan lingkungan pengembangan yang sesuai dengan kerangka kerja .NET yang terpasang.
 
 ## Langkah 1: Impor Namespace yang Diperlukan
@@ -51,7 +52,7 @@ using (Annotator annotator = new Annotator("input.pdf"))
         Box = new Rectangle(100, 100, 100, 100), // Posisi dan ukuran tombol
         PenColor = 65535,                       // Warna batas tombol
         Style = BorderStyle.Dashed,             // Gaya perbatasan
-        BorderWidth = 0,                        // Lebar perbatasan
+        BorderWidth = 0,                        // Lebar batas
         BorderColor = 0,                        // Warna batas
         AlternateName = "Name",                 // Nama alternatif untuk tombol
         PartialName = "Partial Name",           // Nama sebagian untuk tombol
@@ -65,7 +66,7 @@ using (Annotator annotator = new Annotator("input.pdf"))
     };
 
     annotator.Add(button); // Tambahkan tombol ke anotator
-    annotator.Save("result.pdf"); // Simpan PDF yang dimodifikasi
+    annotator.Save("result.pdf"); // Simpan PDF yang telah dimodifikasi
 }
 ```
 
@@ -77,7 +78,7 @@ Terakhir, beri tahu pengguna di mana file keluaran disimpan:
 Console.WriteLine($"\nDocument saved successfully.\nCheck output in {outputPath}.");
 ```
 
-Selamat! Anda telah berhasil menambahkan Komponen Tombol ke dokumen PDF menggunakan GroupDocs.Annotation for .NET.
+Selamat! Anda telah berhasil menambahkan Komponen Tombol ke dokumen PDF menggunakan GroupDocs.Annotation untuk .NET.
 
 ## Kesimpulan
 
@@ -103,4 +104,4 @@ Ya, ia mendukung berbagai format dokumen, termasuk DOCX, PPTX, dan XLSX, selain 
 
 ### Apakah ada versi uji coba yang tersedia untuk tujuan pengujian?
 
- Ya, Anda dapat mengakses uji coba gratis GroupDocs.Annotation untuk .NET dari[Di Sini](https://releases.groupdocs.com/).
+Ya, Anda dapat mengakses uji coba gratis GroupDocs.Annotation untuk .NET dari [Di Sini](https://releases.groupdocs.com/).

@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用 Aspose.Words for .NET 輕鬆地將 Base 64 字體嵌入 HTML 檔案中。本逐步指南將協助您確保字體在各種瀏覽器和平台上的顯示一致性。"
+"description": "了解如何使用 Aspose.Words for .NET 輕鬆地將字體作為 Base 64 嵌入 HTML 檔案中。本逐步指南將協助您確保在各種瀏覽器和平台上顯示一致的字體。"
 "linktitle": "將字體以 Base 64 格式匯出為 HTML"
 "second_title": "Aspose.Words文件處理API"
 "title": "使用 Aspose.Words for .NET 將字體以 Base 64 格式匯出為 HTML"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-在以程式方式操作 Word 文件方面，Aspose.Words for .NET 憑藉其強大的功能脫穎而出。其中最實用的功能之一是能夠將字體匯出為 HTML 檔案中的 Base64 編碼。這確保了字體直接嵌入到 HTML 檔案中，從而在各種瀏覽器和系統上提供一致的顯示效果。在本指南中，我們將探討如何有效地實現這一點。讓我們開始吧！
+當談到以程式方式操作 Word 文件時，Aspose.Words for .NET 因其強大的功能而脫穎而出。最有用的功能之一是能夠將 HTML 檔案中的字體匯出為 Base64。這可確保字體直接嵌入 HTML 中，從而在各種瀏覽器和系統上提供一致的顯示。在本指南中，我們將探討如何有效地實現這一目標。讓我們開始吧！
 
 ## 先決條件
 
@@ -21,7 +21,7 @@
 
 ## 導入命名空間
 
-若要使用 Aspose.Words for .NET，您需要在 C# 程式碼中匯入必要的命名空間。這樣所有類別和方法都可以使用。
+若要使用 Aspose.Words for .NET，您需要在 C# 程式碼中匯入必要的命名空間。這使得所有類別和方法都可供使用。
 
 ```csharp
 using Aspose.Words;
@@ -32,7 +32,7 @@ using Aspose.Words.Saving;
 
 ### 1.1 建立新項目
 
-- 開啟 Visual Studio 並建立一個新的控制台應用程式專案。將其命名為直觀的名稱，例如 `ExportFontsBase64`。
+- 開啟 Visual Studio 並建立一個新的控制台應用程式專案。給它一些直覺的名字，例如 `ExportFontsBase64`。
 
 ### 1.2 安裝 Aspose.Words
 
@@ -95,13 +95,13 @@ doc.Save(dataDir + "ExportedFontsAsBase64.html", saveOptions);
 
 ## 結論
 
-恭喜！您已成功使用 Aspose.Words for .NET 將字體以 Base64 格式嵌入到 HTML 檔案中。此功能對於 Web 應用程式非常有用，可確保您的字體無需依賴外部字體檔案即可正確呈現。
+恭喜！您已成功使用 Aspose.Words for .NET 將字體作為 Base64 嵌入到 HTML 檔案中。此功能對於 Web 應用程式非常有用，可確保您的字體正確呈現，而無需依賴外部字體檔案。
 
 ## 常見問題解答
 
 ### 什麼是Base64編碼？
 
-Base64 是一種將二進位資料（例如字體）編碼為文字格式的方法。它將二進位資料轉換為 ASCII 字串格式，從而可以無縫整合到 HTML 等基於文字的格式中。
+Base64 是一種將二進位資料（如字體）編碼為文字格式的方法。它將二進位資料轉換為 ASCII 字串格式，從而允許與 HTML 等基於文字的格式無縫整合。
 
 ### 為什麼 HTML 中的字型應該使用 Base64？
 

@@ -1,22 +1,23 @@
 ---
-title: Anexando arquivos e configurando ícones no Aspose.Note para .NET
-linktitle: Anexar arquivo e definir ícone no Aspose.Note
-second_title: API Aspose.Note .NET
-description: Aprenda passo a passo como anexar arquivos e definir ícones personalizados em documentos do Microsoft OneNote usando o Aspose.Note para .NET. Aprimore seu aplicativo .NET com recursos de personalização e gerenciamento de documentos integrados.
-weight: 10
-url: /pt/note/manage-attachments/attaching-files-setting-icons/
+"description": "Aprenda passo a passo como anexar arquivos e definir ícones personalizados em documentos do Microsoft OneNote usando o Aspose.Note para .NET. Aprimore seu aplicativo .NET com recursos integrados de gerenciamento e personalização de documentos."
+"linktitle": "Anexar arquivo e definir ícone no Aspose.Note"
+"second_title": "API Aspose.Note .NET"
+"title": "Anexando arquivos e configurando ícones no Aspose.Note para .NET"
+"url": "/pt/note/net/manage-attachments/attaching-files-setting-icons/"
+"weight": 10
 ---
+
 ## Introdução
 
-Aspose.Note para .NET é uma biblioteca avançada projetada para desenvolvedores criarem, manipularem e converterem arquivos do Microsoft OneNote programaticamente. Um recurso de destaque desta biblioteca é sua capacidade de anexar arquivos a documentos do OneNote e personalizar seus ícones. Neste guia, exploraremos como aproveitar o Aspose.Note para .NET para anexar arquivos e definir ícones personalizados perfeitamente, enriquecendo a funcionalidade do seu documento do OneNote.
+Aspose.Note para .NET é uma biblioteca avançada projetada para desenvolvedores criarem, manipularem e converterem arquivos do Microsoft OneNote programaticamente. Um recurso de destaque dessa biblioteca é a capacidade de anexar arquivos a documentos do OneNote e personalizar seus ícones. Neste guia, exploraremos como utilizar o Aspose.Note para .NET para anexar arquivos e definir ícones personalizados com facilidade, enriquecendo a funcionalidade dos seus documentos do OneNote.
 
 ## Pré-requisitos
 
 Antes de implementar a solução, certifique-se de ter o seguinte:
 
 - Ambiente de desenvolvimento: Visual Studio ou um IDE similar configurado para desenvolvimento .NET.
--  Instalação da biblioteca: Instale o[Aspose.Note para .NET](https://releases.aspose.com/words/net/) biblioteca.
-- Conhecimento de programação: Conhecimento básico de C#.
+- Instalação da biblioteca: Instale o [Aspose.Note para .NET](https://releases.aspose.com/words/net/) biblioteca.
+- Conhecimento de programação: Noções básicas de C#.
 
 ## Importando namespaces necessários
 
@@ -32,9 +33,9 @@ using System.Drawing.Imaging;
 
 Abaixo está a implementação detalhada passo a passo.
 
-## Etapa 1: Crie um novo documento do OneNote
+## Etapa 1: criar um novo documento do OneNote
 
- Inicialize um novo documento do OneNote usando o`Document` aula.
+Inicialize um novo documento do OneNote usando o `Document` aula.
 
 ```csharp
 Document doc = new Document();
@@ -50,7 +51,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 ## Etapa 3: Configurar um esboço
 
- Criar um`Outline` objeto, que serve como contêiner para elementos na sua página do OneNote.
+Criar um `Outline` objeto, que serve como contêiner para elementos na sua página do OneNote.
 
 ```csharp
 Outline outline = new Outline(doc);
@@ -58,7 +59,7 @@ Outline outline = new Outline(doc);
 
 ## Etapa 4: Inicializar um elemento de estrutura de tópicos
 
- Um`OutlineElement` conterá o anexo e seu ícone associado.
+Um `OutlineElement` conterá o anexo e seu ícone associado.
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
@@ -80,14 +81,14 @@ using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 
 ## Etapa 6: Monte a estrutura do documento
 
- Adicione o`OutlineElement` para o`Outline` , e o`Outline` para o`Page`.
+Adicione o `OutlineElement` para o `Outline`, e o `Outline` para o `Page`.
 
 ```csharp
 outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);
 ```
 
-## Etapa 7: Adicione a página ao documento
+## Etapa 7: adicione a página ao documento
 
 Por fim, inclua a página no seu documento do OneNote.
 
@@ -106,7 +107,7 @@ doc.Save(dataDir);
 
 ## Conclusão
 
-Seguindo as etapas descritas neste guia, você pode facilmente anexar arquivos e definir ícones personalizados em documentos do OneNote usando o Aspose.Note para .NET. Essa funcionalidade pode melhorar muito a organização de documentos e a experiência do usuário, tornando seus aplicativos mais robustos e ricos em recursos.
+Seguindo os passos descritos neste guia, você pode facilmente anexar arquivos e definir ícones personalizados em documentos do OneNote usando o Aspose.Note para .NET. Essa funcionalidade pode aprimorar significativamente a organização de documentos e a experiência do usuário, tornando seus aplicativos mais robustos e ricos em recursos.
 
 ## Perguntas frequentes
 
@@ -117,12 +118,12 @@ Sim, você pode anexar vários arquivos repetindo o processo de anexação para 
 O Aspose.Note suporta os formatos JPEG, PNG, BMP e GIF para ícones de anexo.
 
 ### É possível anexar arquivos dinamicamente de URLs externas?
- Você pode baixar arquivos usando bibliotecas .NET como`HttpClient` e depois anexá-los usando o Aspose.Note.
+Você pode baixar arquivos usando bibliotecas .NET como `HttpClient` e depois anexá-los usando Aspose.Note.
 
 ### Há alguma limitação quanto ao tamanho dos arquivos para anexos?
 Não há um limite de tamanho explícito imposto pelo Aspose.Note, mas certifique-se de que os recursos do seu sistema podem lidar com arquivos grandes.
 
 ### Os ícones podem ser redimensionados antes de serem definidos?
- Sim, você pode manipular a imagem do ícone usando o .NET`System.Drawing` biblioteca antes de anexá-la.
+Sim, você pode manipular a imagem do ícone usando o .NET `System.Drawing` biblioteca antes de anexá-la.
 
- Para obter mais assistência, explore o[documentação](https://reference.aspose.com/words/net/) ou entre em contato com[Suporte Aspose](https://forum.aspose.com/c/words/8).
+Para obter mais assistência, explore o [documentação](https://reference.aspose.com/words/net/) ou entre em contato com [Suporte Aspose](https://forum.aspose.com/c/words/8).

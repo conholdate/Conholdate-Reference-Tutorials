@@ -56,11 +56,11 @@ foreach (var appointment in appointments)
 }
 ```
 
-Deze lus doorloopt de lijst met afspraken en toont belangrijke details zoals het onderwerp, de begin- en einddatum van de afspraak. U kunt deze lus naar eigen wens aanpassen.
+Deze lus doorloopt de lijst met afspraken en toont belangrijke details zoals het onderwerp van de afspraak, de begin- en einddatum. U kunt deze lus naar eigen wens aanpassen.
 
 ## Implementatie van foutverwerking
 
-Bij het werken met externe bestanden zoals ICS is robuuste foutafhandeling cruciaal. Implementeer try-catch-blokken om potentiële problemen, zoals een bestand dat niet gevonden kan worden of ongeldige formaten, te beheren:
+Bij het werken met externe bestanden zoals ICS is robuuste foutafhandeling cruciaal. Implementeer try-catch-blokken om potentiële problemen, zoals een bestand niet gevonden of ongeldige formaten, te beheren:
 
 ```csharp
 try

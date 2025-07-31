@@ -9,7 +9,7 @@
 
 ## Invoering
 
-Het creëren van rijke e-mailformaten kan de communicatie aanzienlijk verbeteren, vooral bij het exporteren naar verschillende bestandsformaten zoals MHTML. Aspose.Email voor .NET biedt ontwikkelaars een krachtige toolkit voor het bewerken van e-mails, inclusief het definiëren van een aangepaste volgorde voor hoe informatie wordt weergegeven bij het exporteren naar MHTML. In deze handleiding leggen we de stappen uit die nodig zijn om dit te bereiken, zodat het gemakkelijk te volgen is, of je nu een ervaren ontwikkelaar bent of net begint. Laten we meteen aan de slag gaan!
+Het creëren van rijke e-mailformaten kan de communicatie aanzienlijk verbeteren, vooral bij het exporteren naar verschillende bestandsformaten zoals MHTML. Aspose.Email voor .NET biedt ontwikkelaars een krachtige toolkit voor het bewerken van e-mails, inclusief het definiëren van een aangepaste volgorde voor hoe informatie wordt weergegeven bij het exporteren naar MHTML. In deze handleiding leggen we de stappen uit die hiervoor nodig zijn, zodat het gemakkelijk te volgen is, of je nu een ervaren ontwikkelaar bent of net begint. Laten we meteen aan de slag gaan!
 
 ## Vereisten
 
@@ -23,7 +23,7 @@ Voordat u aan de slag gaat met het definiëren van de aangepaste volgorde van in
 
 4. Voorbeeld e-mailbestand: U hebt een voorbeeld nodig `.eml` bestand (bijvoorbeeld `Attachments.eml`) voor testdoeleinden.
 
-Zodra je aan deze vereisten voldoet, kun je de tutorial volgen!
+Zodra u aan deze vereisten voldoet, kunt u de tutorial volgen!
 
 ## Pakketten importeren
 
@@ -53,7 +53,7 @@ Vervangen `"Your Data Directory"` met het werkelijke pad waar je `.eml` bestand 
 string dataDir = @"C:\Emails\";
 ```
 
-## Stap 2: Het e-mailbericht laden
+## Stap 2: Laad het e-mailbericht
 
 Vervolgens moet u de `.eml` bestand in een `MailMessage` object. Hiermee kunt u de inhoud en metagegevens van de e-mail bewerken.
 
@@ -61,7 +61,7 @@ Vervolgens moet u de `.eml` bestand in een `MailMessage` object. Hiermee kunt u 
 MailMessage eml = MailMessage.Load(dataDir + "Attachments.eml");
 ```
 
-Zorg ervoor dat de bestandsnaam overeenkomt met de naam in de opgegeven directory. Als uw bestand een andere naam heeft, werk de bestandsnaam dan bij.
+Zorg ervoor dat de bestandsnaam overeenkomt met de naam in de opgegeven map. Als uw bestand een andere naam heeft, werk de bestandsnaam dan dienovereenkomstig bij.
 
 ## Stap 3: MHTML-opslagopties instellen
 
@@ -71,11 +71,11 @@ Nu je e-mail is geladen, is het tijd om te bepalen hoe je deze als MHTML wilt op
 MhtSaveOptions opt = SaveOptions.DefaultMhtml;
 ```
 
-Met deze regel worden de MHTML-opslagopties geïnitialiseerd, waardoor de basis wordt gelegd voor het later aanpassen van de headers.
+Met deze regel worden de MHTML-opslagopties geïnitialiseerd, zodat u de headers later kunt aanpassen.
 
 ## Stap 4: MHTML opslaan met standaardvolgorde
 
-Laten we de e-mail opslaan als MHTML met de standaardvolgorde. Dit geeft je een basislijn om mee te vergelijken na de aanpassing.
+Laten we de e-mail opslaan als MHTML in de standaardvolgorde. Dit geeft je een basislijn om mee te vergelijken na de aanpassing.
 
 ```csharp
 eml.Save(dataDir + "CustomOrderOfInformationInMHTML_1.mhtml", opt);
@@ -85,7 +85,7 @@ Voer deze regel uit en controleer de opgegeven directory. U zou nu een nieuw MHT
 
 ## Stap 5: Pas de headervolgorde aan
 
-Nu komt het leuke gedeelte! Je kunt aangeven welke headers je in de MHTML-uitvoer wilt opnemen en in welke volgorde. We beginnen met een paar veelgebruikte headers.
+Nu komt het leuke gedeelte! Je kunt aangeven welke headers je in de MHTML-uitvoer wilt opnemen en in welke volgorde. We beginnen met een aantal veelvoorkomende headers.
 
 ```csharp
 opt.RenderingHeaders.Add(MhtTemplateName.From);
@@ -145,7 +145,7 @@ MHTML staat voor "MIME HTML", een webpagina-archiefformaat dat HTML en andere br
 Ja, Aspose biedt een gratis proefversie aan voor ontwikkelaars om uit te proberen. Je kunt het vinden [hier](https://releases.aspose.com/).
 
 ### Wat moet ik doen als ik problemen ondervind bij het gebruik van Aspose.Email?
-U kunt ondersteuning van de community krijgen via de [Aspose-forum](https://forum.aspose.com/c/email/12/).
+U kunt ondersteuning krijgen van de community via de [Aspose-forum](https://forum.aspose.com/c/email/12/).
 
 ### Is er een tijdelijke licentie beschikbaar voor Aspose.Email?
 Ja, u kunt een tijdelijke vergunning aanvragen [hier](https://purchase.aspose.com/temporary-license/).

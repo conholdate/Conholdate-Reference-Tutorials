@@ -1,5 +1,5 @@
 ---
-"description": "了解如何使用 Aspose.Words for .NET 有效管理 Word 文件中的頁邊距、頁首和頁尾。本指南將引導您完成測量單位的轉換。"
+"description": "了解如何使用 Aspose.Words for .NET 有效管理 Word 文件中的頁邊距、頁首和頁尾。本詳細指南將引導您完成測量單位的轉換。"
 "linktitle": "測量單位之間的轉換"
 "second_title": "Aspose.Words文件處理API"
 "title": "測量單位之間的轉換"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-各位開發者，大家好！如果您使用 Aspose.Words for .NET 處理 Word 文檔，可能經常需要設定各種測量單位的頁邊距、頁首或頁尾。如果您不熟悉該庫的功能，在英吋和磅等單位之間進行轉換可能會比較困難。在本教程中，我們將指導您輕鬆完成測量單位轉換和文件佈局的自訂。現在就開始吧！
+各位開發者大家好！如果您使用 Aspose.Words for .NET 處理 Word 文檔，您可能經常需要以各種測量單位設定邊距、頁首或頁尾。如果您不熟悉該庫的功能，那麼在英寸和點等單位之間進行轉換可能會很困難。在本教程中，我們將指導您完成轉換測量單位和輕鬆自訂文件佈局的過程。讓我們開始吧！
 
 ## 先決條件
 
@@ -18,7 +18,7 @@
 1. Aspose.Words for .NET 函式庫：下載 [這裡](https://releases。aspose.com/words/net/).
 2. 開發環境：使用 Visual Studio 或任何其他與 .NET 相容的 IDE。
 3. C# 基礎知識：熟悉 C# 將協助您順利跟進。
-4. Aspose 許可證：可選，但建議使用以達到完整功能。請取得臨時許可證 [這裡](https://purchase。aspose.com/temporary-license/).
+4. Aspose 許可證：可選，但建議使用以獲得完整功能。取得臨時執照 [這裡](https://purchase。aspose.com/temporary-license/).
 
 ## 導入命名空間
 
@@ -50,7 +50,7 @@ PageSetup pageSetup = builder.PageSetup;
 
 ## 步驟 3：將英吋轉換為點
 
-Aspose.Words 預設以磅為單位進行測量。若要設定邊距（英吋），請使用 `ConvertUtil.InchToPoint` 轉換方法：
+Aspose.Words 預設使用點進行測量。若要設定英吋邊距，請使用 `ConvertUtil.InchToPoint` 轉換方法：
 
 ```csharp
 pageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);
@@ -77,7 +77,7 @@ doc.Save("ConvertedDocument.docx");
 
 ## 結論
 
-恭喜！您已成功使用 Aspose.Words for .NET 轉換並設定了 Word 文件中的邊距和距離。請按照以下步驟操作，您可以輕鬆處理單位轉換，從而增強文件的自訂流程。探索 Aspose.Words 提供的各種設定和豐富的功能。
+恭喜！您已成功使用 Aspose.Words for .NET 轉換並設定 Word 文件中的邊距和距離。透過遵循這些步驟，您可以輕鬆處理單位轉換，從而增強文件自訂流程。探索 Aspose.Words 提供的不同設定和廣泛的功能。
 
 ## 常見問題解答
 
@@ -85,13 +85,13 @@ doc.Save("ConvertedDocument.docx");
 是的，Aspose.Words 提供如下方法 `ConvertUtil.CmToPoint` 將公分轉換為點。
 
 ### 使用 Aspose.Words for .NET 是否需要授權？
-雖然您可以在沒有授權的情況下使用 Aspose.Words，但某些進階功能可能會受到限制。取得許可證可確保您使用所有功能。
+雖然您可以在沒有授權的情況下使用 Aspose.Words，但某些進階功能可能會受到限制。取得許可證可確保實現全部功能。
 
 ### 如何安裝 Aspose.Words for .NET？
 從下載 [網站](https://releases.aspose.com/words/net/) 並按照提供的安裝說明進行操作。
 
 ### 我可以為文件的不同部分設定不同的單位嗎？
-當然！您可以使用 `Section` 班級。
+絕對地！您可以使用 `Section` 班級。
 
 ### Aspose.Words 還提供哪些功能？
-Aspose.Words 支援豐富的功能，包括文件轉換、郵件合併和豐富的格式化選項。查看 [文件](https://reference.aspose.com/words/net/) 了解更多詳情。
+Aspose.Words 支援廣泛的功能，包括文件轉換、郵件合併和廣泛的格式化選項。檢查 [文件](https://reference.aspose.com/words/net/) 了解更多詳情。

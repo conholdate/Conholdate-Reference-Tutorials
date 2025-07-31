@@ -20,7 +20,7 @@ Descubra o poder do Aspose.Words para .NET com nossa abrangente coleção de tut
 - **📄 Suporte de formato**: DOC, DOCX, RTF, HTML, PDF, EPUB, TXT, Markdown e mais
 - **🔄 Conversões**: Transformação perfeita entre diferentes formatos de documentos
 - **🤖 Integração de IA**: Resumo avançado de documentos e análise de conteúdo
-- **📊 Mala direta**Geração dinâmica de documentos a partir de fontes de dados
+- **📊 Mala direta**: Geração dinâmica de documentos a partir de fontes de dados
 - **🎨 Formatação**: Controle total sobre o estilo e layout do documento
 
 ## 📚 Categorias de Tutoriais
@@ -35,7 +35,7 @@ Domine as tarefas mais comuns de transformação de documentos com nossos guias 
 | **[Conversão de Word para PDF](./essential-guide-document-conversions/convert-word-to-pdf/)** | Geração profissional de PDF com preservação de formatação | ⭐ Iniciante |
 | **[Converter DOCX para TXT](./essential-guide-document-conversions/convert-docx-to-txt/)** | Extrair conteúdo de texto simples de documentos do Word | ⭐ Iniciante |
 | **[Converter arquivos de texto em documentos do Word](./essential-guide-document-conversions/convert-text-files-to-word-documents/)** | Transforme texto simples em documentos estruturados do Word | ⭐ Iniciante |
-| **[Converter PDF em documento do Word](./essential-guide-document-conversions/convert-pdf-to-word/)** Torne PDFs editáveis convertendo-os para o formato Word | ⭐⭐ Intermediário |
+| **[Converter PDF em documento do Word](./essential-guide-document-conversions/convert-pdf-to-word/)** | Torne PDFs editáveis convertendo-os para o formato Word | ⭐⭐ Intermediário |
 | **[Converter PDF para JPEG](./essential-guide-document-conversions/convert-pdf-to-jpeg/)** | Extraia imagens de alta qualidade de documentos PDF | ⭐⭐ Intermediário |
 
 ### Conversões avançadas de documentos
@@ -54,7 +54,7 @@ Aproveite tecnologias de IA de ponta para aprimorar seus fluxos de trabalho de p
 | Tutorial | Descrição | Dificuldade |
 |----------|-------------|------------|
 | **[Dominando a sumarização de documentos com modelos de IA](./advanced-ai-document-processing/mastering-document-summarization-ai-model/)** | Análise de conteúdo e sumarização com tecnologia de IA | ⭐⭐⭐ Avançado |
-| **[Sumarização de documentos com modelos de IA do Google](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** | Integre o Google AI para processamento inteligente de documentos | ⭐⭐⭐ Avançado |
+| **[Sumarização de documentos com modelos de IA do Google](./advanced-ai-document-processing/mastering-document-summarization-google-ai-model/)** Integre o Google AI para processamento inteligente de documentos | ⭐⭐⭐ Avançado |
 | **[Sumarização eficiente de documentos com modelos OpenAI](./advanced-ai-document-processing/efficient-document-summarization-openai-model/)** | Aproveite os modelos OpenAI GPT para obter insights sobre documentos | ⭐⭐⭐ Avançado |
 | **[Opções de Resumir Documentos](./advanced-ai-document-processing/summarize-documents-options/)** | Guia completo sobre técnicas de sumarização | ⭐⭐⭐ Avançado |
 
@@ -129,7 +129,7 @@ Aproveite tecnologias de IA de ponta para aprimorar seus fluxos de trabalho de p
 - **[Download](https://releases.aspose.com/words/net/)** - Avalie todos os recursos
 
 ### **Comunidade e Suporte**
-- **[Fórum de Suporte](https://forum.aspose.com/c/words/8)** - Obtenha ajuda de especialistas
+- **[Fórum de Suporte](https://forum.aspose.com/c/words/8)** Obtenha ajuda de especialistas
 
 ### **Licenciamento e testes**
 - **[Licença Temporária](https://purchase.conholdate.com/temporary-license/)** - Avaliação estendida

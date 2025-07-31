@@ -1,5 +1,5 @@
 ---
-"description": "學習如何使用 Aspose.PDF for .NET 中的 Bradley 二值化演算法將 PDF 頁面轉換為高品質的二進位 TIFF 影像。本逐步指南包含程式碼範例。"
+"description": "了解如何使用 Aspose.PDF for .NET 中的 bradley 二值化演算法將 PDF 頁面轉換為高品質的二進位 TIFF 影像。本逐步指南包含程式碼範例。"
 "linktitle": "Bradley二值化演算法"
 "second_title": "Aspose.PDF for .NET API參考"
 "title": "Bradley二值化演算法"
@@ -9,7 +9,7 @@
 
 ## 介紹
 
-在本教學中，我們將指導您使用 Bradley 二值化演算法將 PDF 頁面轉換為 TIFF 影像。 Aspose.PDF for .NET 簡化了這個任務，讓您輕鬆自動化和簡化文件工作流程。
+在本教學中，我們將指導您使用 Bradley 二值化演算法將 PDF 頁面轉換為 TIFF 影像的過程。 Aspose.PDF for .NET 簡化了此任務，讓您可以輕鬆自動化和簡化文件工作流程。
 
 ## 先決條件
 
@@ -61,7 +61,7 @@ string outputBinImageFile = dataDir + "37116-bin_out.tif";
 
 ## 步驟5：設定影像解析度
 
-設定 TIFF 影像的解析度。 DPI 越高，影像品質越好：
+設定 TIFF 影像的解析度。更高的 DPI 將產生更好的影像品質：
 
 ```csharp
 Resolution resolution = new Resolution(300);
@@ -111,7 +111,7 @@ using (FileStream inStream = new FileStream(outputImageFile, FileMode.Open))
 }
 ```
 
-這 `BinarizeBradley` 方法接受兩個檔案流（輸入和輸出）和一個閾值。根據需要調整閾值以獲得最佳結果。
+這 `BinarizeBradley` 方法採用兩個文件流（輸入和輸出）和一個閾值。根據需要調整閾值以獲得最佳結果。
 
 ## 步驟10：確認轉換成功
 
@@ -123,7 +123,7 @@ Console.WriteLine("Conversion using Bradley algorithm performed successfully!");
 
 ## 結論
 
-恭喜！您已成功將 PDF 頁面轉換為 TIFF 影像，並使用 Aspose.PDF for .NET 應用了 Bradley 二值化演算法。此流程對於文件存檔、OCR 和其他專業應用至關重要。憑藉高品質的解析度和高效的壓縮，您的文件影像將清晰且易於管理。
+恭喜！您已成功將 PDF 頁面轉換為 TIFF 影像，並使用 Aspose.PDF for .NET 應用了 Bradley 二值化演算法。此流程對於文件存檔、OCR 和其他專業應用至關重要。透過高品質的解析度和高效的壓縮，您的文件影像將清晰且大小易於管理。
 
 ## 常見問題解答
 

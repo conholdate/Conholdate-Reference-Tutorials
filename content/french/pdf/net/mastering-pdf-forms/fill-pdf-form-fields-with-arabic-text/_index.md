@@ -57,7 +57,7 @@ using (FileStream fs = new FileStream(dataDir + "FillFormField.pdf", FileMode.Op
 
 L'ouverture du fichier PDF en mode lecture-écriture vous permet de modifier son contenu.
 
-## Étape 3 : Accéder au champ TextBoxField
+## Étape 3 : Accéder au TextBoxField
 
 Après avoir chargé le document PDF, accédez au champ de formulaire où vous souhaitez saisir le texte arabe. Dans cet exemple, nous allons rechercher une zone de texte nommée `"textbox1"`:
 

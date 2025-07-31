@@ -50,7 +50,7 @@ Estos espacios de nombres le brindan acceso a varias clases y métodos en la bib
 Primero, especifique dónde se encuentra su archivo de Excel de muestra y dónde desea guardar la salida modificada:
 
 ```csharp
-// Directorio de origen
+// Directorio de fuentes
 string sourceDir = "Your Document Directory";
 
 // Directorio de salida

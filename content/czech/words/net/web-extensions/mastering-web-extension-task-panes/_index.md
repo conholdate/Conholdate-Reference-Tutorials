@@ -31,7 +31,7 @@ using Aspose.Words.WebExtensions;
 
 ## Krok 1: Definování adresáře dokumentů  
 
-Definujte adresář, kde bude dokument Word vytvořen a uložen:  
+Definujte adresář, kde bude dokument Wordu vytvořen a uložen:  
 
 ```csharp
 string dataDir = "YOUR_DOCUMENT_DIRECTORY_PATH";

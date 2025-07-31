@@ -22,7 +22,7 @@ Než začnete s kódováním, ujistěte se, že máte následující:
 - Platný e-mailový účet (s podporou protokolů IMAP/POP3).
 - Základní znalost programování v C#.
 
-Pokud s Aspose.Email začínáte, zvažte požádání o [bezplatná zkušební verze](https://releases.aspose.com/) nebo a [dočasná licence](https://purchase.aspose.com/temporary-license/) pro odemknutí všech funkcí.
+Pokud s Aspose.Email začínáte, zvažte žádost o [bezplatná zkušební verze](https://releases.aspose.com/) nebo a [dočasná licence](https://purchase.aspose.com/temporary-license/) pro odemknutí všech funkcí.
 
 ## Importovat balíčky
 
