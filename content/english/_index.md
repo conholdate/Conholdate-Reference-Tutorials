@@ -383,35 +383,7 @@ Welcome to the most comprehensive collection of .NET document processing tutoria
 
 ---
 
-## Getting Started
-
-### Quick Start Checklist
-1. **Choose your API** - Select the functionality that matches your project needs
-2. **Install NuGet package** - Add the library to your .NET project
-3. **Follow tutorials** - Start with basic examples and progress to advanced features
-4. **Join community** - Get help from developers and experts
-
-### Development Environment
-- **.NET Framework** 2.0 - 4.8
-- **.NET Core** 2.0+
-- **.NET 5/6/7/8**
-- **Visual Studio** 2017 or later
-- **C# or VB.NET** programming knowledge
-
-### Popular Tutorial Paths
-
-**For Beginners:**
-1. Start with basic document conversion tutorials
-2. Learn file format fundamentals
-3. Practice with simple automation examples
-
-**For Experienced Developers:**
-1. Explore advanced API features
-2. Build complete application solutions
-3. Implement enterprise-grade workflows
-
-**For Enterprise Teams:**
-1. Architecture and design patterns
-2. Performance optimization techniques
-3. Scalability and deployment strategies
+### **Licensing & Trials**
+- **[Temporary Licenses](https://purchase.conholdate.com/temporary-license/)** - Extended evaluation periods
+- **[Buy](https://purchase.conholdate.com/buy)** - Solutions for every project size
 
