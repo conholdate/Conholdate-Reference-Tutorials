@@ -42,6 +42,16 @@ Comprehensive worksheet management tutorials for dynamic Excel file manipulation
 | **[Add New Sheet to Excel File](./guide-to-working-with-excel-worksheets-csharp/add-new-sheet-to-excel-file-csharp-tutorial/)** | Programmatically create and configure new worksheets | ⭐ Beginner |
 | **[Delete Worksheet by Index](./guide-to-working-with-excel-worksheets-csharp/delete-worksheet-by-index-excel-csharp-tutorial/)** | Efficiently remove worksheets using index-based operations | ⭐ Beginner |
 
+### Mastering Worksheet Management
+Advanced worksheet operations for professional Excel automation and streamlined file management.
+
+| Tutorial | Description | Difficulty |
+|----------|-------------|------------|
+| **[Adding Worksheets to Designer Spreadsheet](./mastering-worksheet-management/adding-worksheets-to-designer-spreadsheet/)** | Enhance pre-designed Excel templates with dynamic worksheet addition | ⭐⭐ Intermediate |
+| **[Adding Worksheets to New Excel File](./mastering-worksheet-management/adding-worksheets-to-new-excel-file/)** | Create fresh Excel files with multiple worksheets programmatically | ⭐ Beginner |
+| **[Adding Worksheets to Existing Excel File](./mastering-worksheet-management/adding-worksheets-to-existing-excel-file/)** | Seamlessly extend existing workbooks with new worksheet functionality | ⭐ Beginner |
+| **[Remove Specific Worksheets by Name](./mastering-worksheet-management/remove-specific-worksheets-by-name/)** | Efficiently clean up Excel files by removing unnecessary worksheets | ⭐ Beginner |
+
 ## 🎯 Popular Use Cases
 
 ### **Data Analysis & Reporting**
@@ -69,24 +79,14 @@ Comprehensive worksheet management tutorials for dynamic Excel file manipulation
 ### **Intermediate Developer** (Familiar with spreadsheet basics)
 1. Master **[Chart Conversions](./conversion-to-pdf-file/convert-excel-charts-to-pdf/)**
 2. Explore **[Advanced Worksheet Operations](./guide-to-working-with-excel-worksheets-csharp/delete-worksheet-by-index-excel-csharp-tutorial/)**
-3. Implement **Custom Data Processing** workflows
+3. Implement **[Designer Spreadsheet Enhancement](./mastering-worksheet-management/adding-worksheets-to-designer-spreadsheet/)**
 
 ### **Advanced Developer** (Building enterprise solutions)
 1. Build **Complex Report Generators**
 2. Create **Real-time Data Dashboards**
 3. Optimize **Performance for Large Datasets**
 
-## 🌟 Featured Tutorials This Month
 
-### Most Popular
-1. **[Excel to PDF Conversion](./conversion-to-pdf-file/convert-excel-to-pdf/)** - Professional document publishing
-2. **[Chart Visualization](./conversion-to-pdf-file/convert-excel-charts-to-pdf/)** - Business intelligence reporting
-3. **[Worksheet Management](./guide-to-working-with-excel-worksheets-csharp/adding-worksheet-to-existing-excel-workbook-csharp-tutorial/)** - Dynamic file structure
-
-### Recently Updated
-- **PDF Conversion Enhancements** - Improved formatting and performance
-- **Chart Processing** - Support for new chart types
-- **Memory Optimization** - Better handling of large files
 
 ## 💡 Pro Tips & Best Practices
 
@@ -146,8 +146,11 @@ Comprehensive worksheet management tutorials for dynamic Excel file manipulation
 - Create, Add, Delete worksheets
 - Copy and move worksheets
 - Rename and organize tabs
+- Designer spreadsheet enhancement
 
 ### **Data Processing**
 - Cell formatting and styling
 - Formula calculations
 - Data import/export
+- Advanced template processing
+
